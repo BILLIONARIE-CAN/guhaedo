@@ -544,71 +544,124 @@ let map=null, markers=[], infoWindows=[], curFilter='all';
 
 // 데이터
 const MAP_DATA=[
-  // 아파트 단지
-  {id:1,type:'apt',name:'힐스테이트자이아산센텀',addr:'충남 아산시 배방읍 세교리',lat:36.8021,lng:127.0412,
+  {id:1,type:'apt',name:'힐스테이트자이아산센텀',addr:'충남 아산시 배방읍 세교리 507',
    built:'2023년',units:'2,032세대',
-   sale:'4억 2천~5억 1천',jeonse:'2억 8천~3억 5천',monthly:'보증 2천/월 75만',
-   tags:['84A','84B','84C','59A']},
-  {id:2,type:'apt',name:'e편한세상탕정퍼스트드림',addr:'충남 아산시 배방읍 세교리 1605',lat:36.7998,lng:127.0388,
+   sale:'4억 2천~5억 1천',jeonse:'2억 8천~3억 5천',monthly:'보증 2천/월 75만'},
+  {id:2,type:'apt',name:'e편한세상탕정퍼스트드림',addr:'충남 아산시 배방읍 세교리 1605',
    built:'2025년',units:'893세대',
-   sale:'4억 3천~5억',jeonse:'2억 8천~3억 3천',monthly:'보증 2천/월 70만',
-   tags:['84A','84B','84C','84D']},
-  {id:3,type:'apt',name:'탕정엘리프',addr:'충남 아산시 탕정면 동산리',lat:36.7912,lng:127.0298,
-   built:'2023년',units:'686세대',
-   sale:'3억 8천~4억 5천',jeonse:'2억 4천~3억',monthly:'보증 2천/월 65만',
-   tags:['74A','84A','84B']},
-  {id:4,type:'apt',name:'아산탕정대광로제비앙',addr:'충남 아산시 배방읍 탕정지구 A12블록',lat:36.7975,lng:127.0365,
-   built:'2024년',units:'732세대',
-   sale:'4억~4억 8천',jeonse:'2억 5천~3억 2천',monthly:'보증 2천/월 70만',
-   tags:['74A','84A','84B']},
-  {id:5,type:'apt',name:'아산금강펜테리움센트럴파크',addr:'충남 아산시 배방읍 탕정지구 A13블록',lat:36.7960,lng:127.0378,
-   built:'2025년',units:'438세대',
-   sale:'4억~4억 6천',jeonse:'2억 5천~3억',monthly:'보증 2천/월 68만',
-   tags:['74A','84A']},
-  {id:6,type:'apt',name:'아산 아이파크',addr:'충남 아산시 배방읍 장재리',lat:36.7954,lng:127.0387,
+   sale:'4억 3천~5억',jeonse:'2억 8천~3억 3천',monthly:'보증 2천/월 70만'},
+  {id:3,type:'apt',name:'엘리프아산탕정',addr:'충남 아산시 배방읍 세교리 1611',
+   built:'2025년',units:'682세대',
+   sale:'3억 8천~4억 5천',jeonse:'2억 4천~3억',monthly:'보증 2천/월 65만'},
+  {id:4,type:'apt',name:'대광로제비앙',addr:'충남 아산시 탕정면 동산리 736',
+   built:'2024년',units:'186세대',
+   sale:'4억~4억 8천',jeonse:'2억 5천~3억 2천',monthly:'보증 2천/월 70만'},
+  {id:5,type:'apt',name:'아산금강펜테리움센트럴파크',addr:'충남 아산시 배방읍 세교리 1609',
+   built:'2022년',units:'438세대',
+   sale:'4억~4억 6천',jeonse:'2억 5천~3억',monthly:'보증 2천/월 68만'},
+  {id:6,type:'apt',name:'아산 아이파크',addr:'충남 아산시 배방읍 장재리 600',
    built:'2020년',units:'1,478세대',
-   sale:'3억 5천~4억 2천',jeonse:'2억 2천~2억 8천',monthly:'보증 1천5백/월 60만',
-   tags:['84A','84B','59A']},
-  {id:7,type:'apt',name:'신라아파트',addr:'충남 아산시 배방읍 온천대로 2358',lat:36.7988,lng:127.0412,
+   sale:'3억 5천~4억 2천',jeonse:'2억 2천~2억 8천',monthly:'보증 1천5백/월 60만'},
+  {id:7,type:'apt',name:'신라아파트',addr:'충남 아산시 배방읍 온천대로 2358',
    built:'1997년',units:'960세대',
-   sale:'1억 5천~2억 2천',jeonse:'8천~1억 2천',monthly:'보증 500/월 40만',
-   tags:['24평','33평','34평']},
-  {id:8,type:'apt',name:'신한아파트',addr:'충남 아산시 배방읍 온천대로 2332',lat:36.7982,lng:127.0408,
+   sale:'1억 5천~2억 2천',jeonse:'8천~1억 2천',monthly:'보증 500/월 40만'},
+  {id:8,type:'apt',name:'신한아파트',addr:'충남 아산시 배방읍 온천대로 2332',
    built:'1996년',units:'240세대',
-   sale:'8천~1억 2천',jeonse:'4천~7천',monthly:'보증 300/월 35만',
-   tags:['13평','16평']},
-  // 협력중개사
-  {id:9,type:'broker',name:'아산 해피공인중개사',addr:'충남 아산시 배방읍 배방로 123',lat:36.7985,lng:127.0445,
-   built:'',units:'',sale:'',jeonse:'',monthly:'',
-   tags:['매매','전세','월세']},
-  {id:10,type:'broker',name:'배방 한빛공인중개사',addr:'충남 아산시 배방읍 세교리 45',lat:36.8005,lng:127.0398,
-   built:'',units:'',sale:'',jeonse:'',monthly:'',
-   tags:['매매','전세']},
+   sale:'8천~1억 2천',jeonse:'4천~7천',monthly:'보증 300/월 35만'},
+  {id:9,type:'broker',name:'아산 해피공인중개사',addr:'충남 아산시 배방읍 배방로 123',
+   built:'',units:'',sale:'',jeonse:'',monthly:''},
+  {id:10,type:'broker',name:'배방 한빛공인중개사',addr:'충남 아산시 배방읍 세교리 45',
+   built:'',units:'',sale:'',jeonse:'',monthly:''},
 ];
 
-const TYPE_COLOR={apt:'#1D9E75',broker:'#2563EB',sale:'#E24B4A'};
 const TYPE_LABEL={apt:'아파트',broker:'중개사무소',sale:'매물'};
 
 function initMap(){
   if(map) return;
-  if(typeof kakao==='undefined'||!kakao.maps){
-    setTimeout(initMap,300);
-    return;
-  }
+  if(typeof kakao==='undefined'||!kakao.maps){setTimeout(initMap,300);return;}
   const container=ge('kakao-map');
   if(!container) return;
-  const options={center:new kakao.maps.LatLng(36.7990,127.0410),level:5};
+  const options={center:new kakao.maps.LatLng(36.7990,127.0410),level:6};
   map=new kakao.maps.Map(container,options);
-
-  // 지도 컨트롤
   map.addControl(new kakao.maps.ZoomControl(),kakao.maps.ControlPosition.RIGHT);
   map.addControl(new kakao.maps.MapTypeControl(),kakao.maps.ControlPosition.TOPRIGHT);
 
-  renderMarkers();
+  // 주소 → 좌표 변환 후 마커 표시
+  geocodeAndRender();
   renderList();
 }
 
+// 주소로 좌표 찾아서 마커 찍기
+function geocodeAndRender(){
+  const geocoder=new kakao.maps.services.Geocoder();
+  MAP_DATA.forEach(d=>{
+    geocoder.addressSearch(d.addr,function(result,status){
+      if(status===kakao.maps.services.Status.OK){
+        d.lat=parseFloat(result[0].y);
+        d.lng=parseFloat(result[0].x);
+        addMarker(d);
+      }
+    });
+  });
+}
+
+function addMarker(d){
+  const pos=new kakao.maps.LatLng(d.lat,d.lng);
+  // 아실 스타일 파란 박스 마커
+  let boxColor=d.type==='apt'?'#1a56db':d.type==='broker'?'#1D9E75':'#E24B4A';
+  let shortName=d.name.length>8?d.name.substring(0,8)+'..':d.name;
+  let boxContent='';
+  if(d.type==='apt'){
+    boxContent=`<div style="background:${boxColor};color:#fff;padding:5px 9px;border-radius:6px;font-size:12px;font-weight:700;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.25);white-space:nowrap;text-align:center;line-height:1.4">
+      ${shortName}<br><span style="font-size:11px;font-weight:400;opacity:.9">${d.units}</span>
+    </div>`;
+  } else if(d.type==='broker'){
+    boxContent=`<div style="background:${boxColor};color:#fff;padding:4px 9px;border-radius:20px;font-size:11px;font-weight:700;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.2);white-space:nowrap">
+      👤 ${shortName}
+    </div>`;
+  }
+  const overlay=new kakao.maps.CustomOverlay({position:pos,content:boxContent,yAnchor:1.1,zIndex:3});
+  overlay.setMap(map);
+
+  // 클릭 시 상세 팝업
+  const priceHtml=d.type==='apt'?`
+    <div style="margin-top:8px;border-top:1px solid #eee;padding-top:8px">
+      ${d.sale?`<div style="display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px"><span style="color:#888">매매</span><span style="font-weight:700;color:#0F6E56">${d.sale}</span></div>`:''}
+      ${d.jeonse?`<div style="display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px"><span style="color:#888">전세</span><span style="font-weight:700;color:#1a56db">${d.jeonse}</span></div>`:''}
+      ${d.monthly?`<div style="display:flex;justify-content:space-between;font-size:12px"><span style="color:#888">월세</span><span style="font-weight:700;color:#7C3AED">${d.monthly}</span></div>`:''}
+    </div>`:
+    d.type==='broker'?`<div style="margin-top:6px;font-size:11px;color:var(--green-dark);font-weight:500">✓ 협력중개사</div>`:'';
+
+  const iwContent=`<div style="background:#fff;border:1px solid #e0e0e0;border-radius:10px;padding:12px 14px;min-width:200px;box-shadow:0 4px 20px rgba(0,0,0,.12);cursor:pointer" onclick="selectItem(${d.id})">
+    <div style="font-size:10px;color:#1a56db;font-weight:700;margin-bottom:3px">${TYPE_LABEL[d.type]}</div>
+    <div style="font-size:14px;font-weight:700;margin-bottom:2px">${d.name}</div>
+    <div style="font-size:11px;color:#888">${d.addr}</div>
+    ${d.built?`<div style="font-size:11px;color:#888;margin-top:2px">${d.built} · ${d.units}</div>`:''}
+    ${priceHtml}
+  </div>`;
+
+  const iw=new kakao.maps.CustomOverlay({position:pos,content:iwContent,yAnchor:0,zIndex:4});
+
+  // 박스 클릭 → 팝업
+  const el=overlay.getContent();
+  overlay.setMap(map);
+  kakao.maps.event.addListener(overlay,'click',()=>{
+    infoWindows.forEach(w=>w.setMap(null));
+    iw.setMap(map);
+    infoWindows=[iw];
+    selectItem(d.id);
+  });
+  markers.push({id:d.id,marker:overlay,overlay:iw});
+}
+
 function renderMarkers(){
+  markers.forEach(m=>{m.marker.setMap(null);if(m.overlay)m.overlay.setMap(null);});
+  markers=[];
+  infoWindows.forEach(w=>w.setMap(null));
+  infoWindows=[];
+  MAP_DATA.filter(d=>curFilter==='all'||d.type===curFilter).forEach(d=>{if(d.lat&&d.lng)addMarker(d);});
+}
+function renderMarkers_OLD(){
   markers.forEach(m=>{m.marker.setMap(null);if(m.overlay)m.overlay.setMap(null);});
   markers=[];
   const filtered=MAP_DATA.filter(d=>curFilter==='all'||d.type===curFilter);
