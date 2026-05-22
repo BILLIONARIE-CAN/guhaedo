@@ -219,8 +219,7 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
     <div class="nav-tabs">
       <div class="nav-tab active" id="nav-map" onclick="showPage('map')">🗺 지도</div>
       <div class="nav-tab" id="nav-calc" onclick="showPage('calc')">🧮 계산기</div>
-      <!-- 매물프린트 탭 - 추후 삭제 예정 (PRO 중개사 안에도 동일 기능 있음) -->
-      <div class="nav-tab" id="nav-print" onclick="showPage('print')">🖨 매물프린트</div>
+
     </div>
     <div class="header-right">
       <button class="pro-btn" onclick="showPage('pro')">PRO 중개사</button>
@@ -314,16 +313,6 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
         <div id="result-body"><div class="result-empty"><p style="font-size:13px">값을 입력하고 계산하기를 눌러주세요</p></div></div>
       </div>
     </div>
-  </div>
-</div>
-
-<!-- ===== 매물프린트 페이지 (임시 - 추후 삭제 예정, PRO 중개사 안에도 동일 기능 있음) ===== -->
-<div class="page" id="page-print" style="flex-direction:column;overflow-y:auto">
-  <div class="pro-wrap">
-    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:18px">
-      <div style="font-size:18px;font-weight:700">🖨 매물 안내서 인쇄</div>
-    </div>
-    <div id="print-listing-wrap"></div>
   </div>
 </div>
 
@@ -1277,7 +1266,7 @@ function doPtPrint(){
   const photoHtml=ptPhotos.slice(0,3).map(s=>`<img src="${s}" style="width:140px;height:95px;object-fit:cover;border-radius:6px;border:1px solid #eee">`).join('');
   const now=new Date(),ds=`${now.getFullYear()}.${String(now.getMonth()+1).padStart(2,'0')}.${String(now.getDate()).padStart(2,'0')}`;
   const monthlyLabel=deposit&&monthly?`보증 ${deposit}/월 ${monthly}만원`:monthly?monthly+'만원':'협의';
-  const content=`<div style="display:flex;justify-content:space-between;align-items:flex-start;border-bottom:2.5px solid #1D9E75;padding-bottom:14px;margin-bottom:18px"><div><div style="font-size:20px;font-weight:700;color:#1D9E75">아구<span style="color:#1a1a1a">구</span></div><div style="font-size:11px;color:#888;margin-top:2px">매물 안내서 · guhaedo.kr</div></div><div style="text-align:right;font-size:11px;color:#888;line-height:1.6">${ds}</div></div><div style="font-size:26px;font-weight:700;color:#1a1a1a;margin-bottom:4px">${complex}</div><div style="font-size:13px;color:#666;margin-bottom:16px">${hoFull?hoFull+' · ':''}${dir?dir+' · ':''}${addr}</div>${photoHtml?`<div style="display:flex;gap:8px;margin-bottom:16px">${photoHtml}</div>`:''}<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-bottom:14px">${[['타입',type||'-'],['층수',floor||'-'],['방향',dir||'-'],['준공년도',built||'-'],['총 세대수',units||'-'],['총 주차',park||'-','s2'],['동/호',hoFull||'-']].map(r=>`<div style="background:#f8f8f8;border-radius:6px;padding:9px 10px;${r[2]==='s2'?'grid-column:span 2':''}"><div style="font-size:10px;color:#999;margin-bottom:2px">${r[0]}</div><div style="font-size:13px;font-weight:700">${r[1]}</div></div>`).join('')}</div><div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-bottom:14px">${[['매매',sale?sale+'만원':'협의'],['전세',jeonse?jeonse+'만원':'협의'],['월세',monthlyLabel]].map(r=>`<div style="border:1.5px solid #e8e8e8;border-radius:8px;padding:12px;text-align:center"><div style="font-size:12px;color:#888;margin-bottom:4px">${r[0]}</div><div style="font-size:16px;font-weight:700;color:#0F6E56">${r[1]}</div></div>`).join('')}</div>${special?`<div style="background:#fffbe6;border-radius:6px;padding:9px 12px;font-size:12px;color:#6b5a00;margin-bottom:12px;border:1px solid #f0de8a">⚡ ${special}</div>`:''}${desc?`<div style="background:#f8f8f8;border-radius:6px;padding:12px;font-size:13px;color:#444;line-height:1.8;margin-bottom:14px">${desc.replace(/\n/g,'<br>')}</div>`:''}<div style="border-top:1px solid #eee;padding-top:10px;text-align:center;font-size:10px;color:#bbb">guhaedo.kr 매물 안내서 · ${ds}</div>`;
+  const content=`<div style="display:flex;justify-content:space-between;align-items:flex-start;border-bottom:2.5px solid #1D9E75;padding-bottom:14px;margin-bottom:18px"><div><div style="font-size:20px;font-weight:700;color:#1D9E75">아구<span style="color:#1a1a1a">구</span></div><div style="font-size:11px;color:#888;margin-top:2px">매물 안내서 · guhaedo.kr</div></div><div style="text-align:right;font-size:11px;color:#888;line-height:1.6">${ds}</div></div><div style="font-size:26px;font-weight:700;color:#1a1a1a;margin-bottom:4px">${complex}</div><div style="font-size:13px;color:#666;margin-bottom:16px">${hoFull?hoFull+' · ':''}${dir?dir+' · ':''}${addr}</div>${photoHtml?`<div style="display:flex;gap:8px;margin-bottom:16px">${photoHtml}</div>`:''}<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-bottom:14px">${[['타입',type||'-'],['층수',floor||'-'],['방향',dir||'-'],['준공년도',built||'-'],['총 세대수',units||'-'],['총 주차',park||'-','s2'],['동/호',hoFull||'-']].map(r=>`<div style="background:#f8f8f8;border-radius:6px;padding:9px 10px;${r[2]==='s2'?'grid-column:span 2':''}"><div style="font-size:10px;color:#999;margin-bottom:2px">${r[0]}</div><div style="font-size:13px;font-weight:700">${r[1]}</div></div>`).join('')}</div><div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-bottom:14px">${[[chkSale,'매매',sale?sale+'만원':'협의'],[chkJeonse,'전세',jeonse?jeonse+'만원':'협의'],[chkMonthly,'월세',monthlyLabel]].filter(r=>r[0]).map(r=>`<div style="border:1.5px solid #e8e8e8;border-radius:8px;padding:12px;text-align:center"><div style="font-size:12px;color:#888;margin-bottom:4px">${r[1]}</div><div style="font-size:16px;font-weight:700;color:#0F6E56">${r[2]}</div></div>`).join('')}</div>${special?`<div style="background:#fffbe6;border-radius:6px;padding:9px 12px;font-size:12px;color:#6b5a00;margin-bottom:12px;border:1px solid #f0de8a">⚡ ${special}</div>`:''}${desc?`<div style="background:#f8f8f8;border-radius:6px;padding:12px;font-size:13px;color:#444;line-height:1.8;margin-bottom:14px">${desc.replace(/\n/g,'<br>')}</div>`:''}<div style="border-top:1px solid #eee;padding-top:10px;text-align:center;font-size:10px;color:#bbb">guhaedo.kr 매물 안내서 · ${ds}</div>`;
   const w=window.open('','_blank','width=780,height=900');
   w.document.write(`<!DOCTYPE html><html><head><meta charset="utf-8"><title>매물안내서-${complex}</title><style>@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');*{box-sizing:border-box;margin:0;padding:0}body{font-family:'Noto Sans KR',sans-serif;background:#fff;padding:32px}.wrap{max-width:660px;margin:0 auto}@media print{button{display:none}body{padding:12px}}</style></head><body><div class="wrap">${content}</div><div style="text-align:center;margin-top:20px"><button onclick="window.print()" style="background:#1D9E75;color:#fff;border:none;padding:12px 32px;border-radius:8px;font-size:15px;font-weight:700;cursor:pointer;font-family:inherit">🖨 인쇄하기</button></div></body></html>`);
   w.document.close();
@@ -1303,19 +1292,35 @@ function doLogin(){
   const email=gv('login-email'),pw=gv('login-pw');
   const errEl=ge('login-error');
   if(!email||!pw){errEl.style.display='block';errEl.textContent='이메일과 비밀번호를 입력해주세요.';return;}
-  // 로컬 저장된 계정 확인 (서버 연결 전 임시)
+  // admin 계정
+  if(email==='admin'&&pw==='admin'){
+    proUser={name:'관리자',office:'아구구',tel:'',email:'admin',plan:'plus',joinDate:new Date().toLocaleDateString('ko-KR')};
+    localStorage.setItem('proUser',JSON.stringify(proUser));
+    showProScreen('mypage');loadMypage();loadListingTab();
+    // 체크박스 이벤트 연결
+    setTimeout(()=>initPriceCheckboxes(),100);
+    return;
+  }
   const saved=JSON.parse(localStorage.getItem('proAccounts')||'[]');
   const found=saved.find(u=>u.email===email&&u.pw===pw);
   if(found){
     proUser=found;
     localStorage.setItem('proUser',JSON.stringify(proUser));
-    showProScreen('mypage');
-    loadMypage();
-    // 매물 안내서 로드
-    loadListingTab();
+    showProScreen('mypage');loadMypage();loadListingTab();
+    setTimeout(()=>initPriceCheckboxes(),100);
   } else {
     errEl.style.display='block';
     errEl.textContent='이메일 또는 비밀번호가 올바르지 않습니다.';
+  }
+}
+
+function initPriceCheckboxes(){
+  const chkSale=ge('chk-sale'),chkJeonse=ge('chk-jeonse'),chkMonthly=ge('chk-monthly');
+  if(chkMonthly){
+    chkMonthly.onchange=()=>{
+      const box=ge('box-monthly');
+      if(box) box.style.display=chkMonthly.checked?'block':'none';
+    };
   }
 }
 
@@ -1453,13 +1458,18 @@ function listingHTML(){
     </div>
     <div>
       <div class="lsec">
-        <div class="lsec-title">매물 가격</div>
-        <div class="grid3">
-          <div class="price-box"><label>매매가 (만원)</label><input type="text" id="p-sale" placeholder="35,000"></div>
-          <div class="price-box"><label>전세가 (만원)</label><input type="text" id="p-jeonse" placeholder="25,000"></div>
-          <div class="price-box"><label>월세 보증금</label><input type="text" id="p-deposit" placeholder="2,000"></div>
-        </div>
-        <div style="margin-top:7px"><div class="price-box"><label>월세 월차임 (만원/월)</label><input type="text" id="p-monthly" placeholder="70"></div></div>
+        <div class="lsec-title">매물 가격 <span style="font-size:11px;color:var(--text3);font-weight:400">(인쇄할 항목만 체크)</span></div>
+          <label class="chk-row" style="margin-bottom:8px"><input type="checkbox" id="chk-sale" checked> 매매</label>
+          <div id="box-sale" class="price-box" style="margin-bottom:8px"><label>매매가 (만원)</label><input type="text" id="p-sale" placeholder="35,000"></div>
+          <label class="chk-row" style="margin-bottom:8px"><input type="checkbox" id="chk-jeonse" checked> 전세</label>
+          <div id="box-jeonse" class="price-box" style="margin-bottom:8px"><label>전세가 (만원)</label><input type="text" id="p-jeonse" placeholder="25,000"></div>
+          <label class="chk-row" style="margin-bottom:8px"><input type="checkbox" id="chk-monthly"> 월세</label>
+          <div id="box-monthly" style="display:none">
+            <div class="grid2" style="margin-bottom:8px">
+              <div class="price-box"><label>월세 보증금</label><input type="text" id="p-deposit" placeholder="2,000"></div>
+              <div class="price-box"><label>월세 월차임</label><input type="text" id="p-monthly" placeholder="70"></div>
+            </div>
+          </div>
       </div>
       <div class="lsec">
         <div class="lsec-title">매물 사진 (최대 5장)</div>
@@ -1507,7 +1517,7 @@ function setStep(n){for(let i=1;i<=5;i++){const el=ge('st'+i);if(el)el.className
 function handlePhotos(e){const files=[...e.target.files].slice(0,5-photos.length);files.forEach(f=>{const r=new FileReader();r.onload=ev=>{photos.push(ev.target.result);renderPhotos();};r.readAsDataURL(f);});}
 function renderPhotos(){ge('photo-preview').innerHTML=photos.map((s,i)=>`<div style="position:relative;display:inline-block"><img src="${s}" class="photo-thumb"><span onclick="photos.splice(${i},1);renderPhotos()" style="position:absolute;top:-4px;right:-4px;background:#E24B4A;color:#fff;border-radius:50%;width:15px;height:15px;font-size:10px;cursor:pointer;display:flex;align-items:center;justify-content:center">×</span></div>`).join('');}
 function clearListing(){ge('sel-complex').value='';ge('complex-info').style.display='none';['sec-dong','sec-type','sec-ho','sec-result'].forEach(id=>ge(id).style.display='none');lstCur={complex:null,dong:null,type:null};['p-sale','p-jeonse','p-deposit','p-monthly','f-special','f-desc'].forEach(id=>{const el=ge(id);if(el)el.value='';});photos=[];renderPhotos();setStep(1);}
-function doPrint(){const d=lstCur.complex?DB[lstCur.complex]:null,td=d&&lstCur.dong&&lstCur.type?d.dongs[lstCur.dong].lines[lstCur.type]:null;const complex=d?d.name:'단지명 미입력',ho=ge('out-ho')?.value||'',dir=ge('out-dir')?.value||'';const sale=ge('p-sale')?.value||'',jeonse=ge('p-jeonse')?.value||'',deposit=ge('p-deposit')?.value||'',monthly=ge('p-monthly')?.value||'';const special=ge('f-special')?.value||'',desc=ge('f-desc')?.value||'';const photoHtml=photos.slice(0,3).map(s=>`<img src="${s}" style="width:140px;height:95px;object-fit:cover;border-radius:6px;border:1px solid #eee">`).join('');const now=new Date(),ds=`${now.getFullYear()}.${String(now.getMonth()+1).padStart(2,'0')}.${String(now.getDate()).padStart(2,'0')}`;const monthlyLabel=deposit&&monthly?`보증 ${deposit}/월 ${monthly}만원`:monthly?monthly+'만원':'협의';const content=`<div style="display:flex;justify-content:space-between;align-items:flex-start;border-bottom:2.5px solid #1D9E75;padding-bottom:14px;margin-bottom:18px"><div><div style="font-size:20px;font-weight:700;color:#1D9E75">아구<span style="color:#1a1a1a">구</span></div><div style="font-size:11px;color:#888;margin-top:2px">협력중개사 매물 안내서 · agugu.kr</div></div><div style="text-align:right;font-size:11px;color:#888;line-height:1.6">공인중개사 전용<br>${ds}</div></div><div style="font-size:26px;font-weight:700;color:#1a1a1a;margin-bottom:4px">${complex}</div><div style="font-size:13px;color:#666;margin-bottom:16px">${ho?ho+' · ':''}${dir?dir+' · ':''}${d?d.addr:''}</div>${photoHtml?`<div style="display:flex;gap:8px;margin-bottom:16px">${photoHtml}</div>`:''}<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-bottom:14px">${[['타입',lstCur.type||'-'],['방/화장실',td?td.rooms+'개/'+td.bath+'개':'-'],['거실 방향',dir||'-'],['준공년도',d?d.built:'-'],['총 세대수',d?d.total_units:'-'],['총 주차',d?d.total_park:'-','s2'],['동/호',ho||'-']].map(r=>`<div style="background:#f8f8f8;border-radius:6px;padding:9px 10px;${r[2]==='s2'?'grid-column:span 2':''}"><div style="font-size:10px;color:#999;margin-bottom:2px">${r[0]}</div><div style="font-size:13px;font-weight:700">${r[1]}</div></div>`).join('')}</div><div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-bottom:14px">${[['매매',sale?sale+'만원':'협의'],['전세',jeonse?jeonse+'만원':'협의'],['월세',monthlyLabel]].map(r=>`<div style="border:1.5px solid #e8e8e8;border-radius:8px;padding:12px;text-align:center"><div style="font-size:12px;color:#888;margin-bottom:4px">${r[0]}</div><div style="font-size:16px;font-weight:700;color:#0F6E56">${r[1]}</div></div>`).join('')}</div>${special?`<div style="background:#fffbe6;border-radius:6px;padding:9px 12px;font-size:12px;color:#6b5a00;margin-bottom:12px;border:1px solid #f0de8a">⚡ ${special}</div>`:''}${desc?`<div style="background:#f8f8f8;border-radius:6px;padding:12px;font-size:13px;color:#444;line-height:1.8;margin-bottom:14px">${desc.replace(/\n/g,'<br>')}</div>`:''}<div style="border-top:1px solid #eee;padding-top:10px;text-align:center;font-size:10px;color:#bbb">agugu.kr 협력 공인중개사 매물 안내서 · 허위매물 금지 · ${ds}</div>`;const w=window.open('','_blank','width=780,height=900');w.document.write(`<!DOCTYPE html><html><head><meta charset="utf-8"><title>매물안내서-${complex}</title><style>@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');*{box-sizing:border-box;margin:0;padding:0}body{font-family:'Noto Sans KR',sans-serif;background:#fff;padding:32px}.wrap{max-width:660px;margin:0 auto}@media print{button{display:none}body{padding:12px}}</style></head><body><div class="wrap">${content}</div><div style="text-align:center;margin-top:20px"><button onclick="window.print()" style="background:#1D9E75;color:#fff;border:none;padding:12px 32px;border-radius:8px;font-size:15px;font-weight:700;cursor:pointer;font-family:inherit">🖨 인쇄하기</button></div></body></html>`);w.document.close();}
+function doPrint(){const d=lstCur.complex?DB[lstCur.complex]:null,td=d&&lstCur.dong&&lstCur.type?d.dongs[lstCur.dong].lines[lstCur.type]:null;const complex=d?d.name:'단지명 미입력',ho=ge('out-ho')?.value||'',dir=ge('out-dir')?.value||'';const chkSale=ge('chk-sale')?.checked!==false,chkJeonse=ge('chk-jeonse')?.checked!==false,chkMonthly=ge('chk-monthly')?.checked||false;const sale=chkSale?(ge('p-sale')?.value||''):'',jeonse=chkJeonse?(ge('p-jeonse')?.value||''):'',deposit=chkMonthly?(ge('p-deposit')?.value||''):'',monthly=chkMonthly?(ge('p-monthly')?.value||''):'';const special=ge('f-special')?.value||'',desc=ge('f-desc')?.value||'';const photoHtml=photos.slice(0,3).map(s=>`<img src="${s}" style="width:140px;height:95px;object-fit:cover;border-radius:6px;border:1px solid #eee">`).join('');const now=new Date(),ds=`${now.getFullYear()}.${String(now.getMonth()+1).padStart(2,'0')}.${String(now.getDate()).padStart(2,'0')}`;const monthlyLabel=deposit&&monthly?`보증 ${deposit}/월 ${monthly}만원`:monthly?monthly+'만원':'협의';const content=`<div style="display:flex;justify-content:space-between;align-items:flex-start;border-bottom:2.5px solid #1D9E75;padding-bottom:14px;margin-bottom:18px"><div><div style="font-size:20px;font-weight:700;color:#1D9E75">아구<span style="color:#1a1a1a">구</span></div><div style="font-size:11px;color:#888;margin-top:2px">협력중개사 매물 안내서 · agugu.kr</div></div><div style="text-align:right;font-size:11px;color:#888;line-height:1.6">공인중개사 전용<br>${ds}</div></div><div style="font-size:26px;font-weight:700;color:#1a1a1a;margin-bottom:4px">${complex}</div><div style="font-size:13px;color:#666;margin-bottom:16px">${ho?ho+' · ':''}${dir?dir+' · ':''}${d?d.addr:''}</div>${photoHtml?`<div style="display:flex;gap:8px;margin-bottom:16px">${photoHtml}</div>`:''}<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-bottom:14px">${[['타입',lstCur.type||'-'],['방/화장실',td?td.rooms+'개/'+td.bath+'개':'-'],['거실 방향',dir||'-'],['준공년도',d?d.built:'-'],['총 세대수',d?d.total_units:'-'],['총 주차',d?d.total_park:'-','s2'],['동/호',ho||'-']].map(r=>`<div style="background:#f8f8f8;border-radius:6px;padding:9px 10px;${r[2]==='s2'?'grid-column:span 2':''}"><div style="font-size:10px;color:#999;margin-bottom:2px">${r[0]}</div><div style="font-size:13px;font-weight:700">${r[1]}</div></div>`).join('')}</div><div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-bottom:14px">${[[chkSale,'매매',sale?sale+'만원':'협의'],[chkJeonse,'전세',jeonse?jeonse+'만원':'협의'],[chkMonthly,'월세',monthlyLabel]].filter(r=>r[0]).map(r=>`<div style="border:1.5px solid #e8e8e8;border-radius:8px;padding:12px;text-align:center"><div style="font-size:12px;color:#888;margin-bottom:4px">${r[1]}</div><div style="font-size:16px;font-weight:700;color:#0F6E56">${r[2]}</div></div>`).join('')}</div>${special?`<div style="background:#fffbe6;border-radius:6px;padding:9px 12px;font-size:12px;color:#6b5a00;margin-bottom:12px;border:1px solid #f0de8a">⚡ ${special}</div>`:''}${desc?`<div style="background:#f8f8f8;border-radius:6px;padding:12px;font-size:13px;color:#444;line-height:1.8;margin-bottom:14px">${desc.replace(/\n/g,'<br>')}</div>`:''}<div style="border-top:1px solid #eee;padding-top:10px;text-align:center;font-size:10px;color:#bbb">agugu.kr 협력 공인중개사 매물 안내서 · 허위매물 금지 · ${ds}</div>`;const w=window.open('','_blank','width=780,height=900');w.document.write(`<!DOCTYPE html><html><head><meta charset="utf-8"><title>매물안내서-${complex}</title><style>@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');*{box-sizing:border-box;margin:0;padding:0}body{font-family:'Noto Sans KR',sans-serif;background:#fff;padding:32px}.wrap{max-width:660px;margin:0 auto}@media print{button{display:none}body{padding:12px}}</style></head><body><div class="wrap">${content}</div><div style="text-align:center;margin-top:20px"><button onclick="window.print()" style="background:#1D9E75;color:#fff;border:none;padding:12px 32px;border-radius:8px;font-size:15px;font-weight:700;cursor:pointer;font-family:inherit">🖨 인쇄하기</button></div></body></html>`);w.document.close();}
 
 // ===== 손님 가입 모달 =====
 let aptClickCount=0;
