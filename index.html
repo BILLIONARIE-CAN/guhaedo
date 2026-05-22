@@ -866,12 +866,27 @@ function updateMarkersForZoom(){
     else renderCluster('sido');
   } else if(level>=9){
     // 시군구
-    if(loadedFiles.has('sigungu')&&sigunguData.length>0) renderSplitCluster(sigunguData,'sigungu');
-    else renderCluster('sigungu');
+    if(loadedFiles.has('sigungu')&&sigunguData.length>0){
+      renderSplitCluster(sigunguData,'sigungu');
+    } else {
+      showMapLoading(true,'시군구 데이터 로드 중...');
+      loadSigunguData().then(()=>{
+        showMapLoading(false);
+        if(map&&map.getLevel()>=9&&map.getLevel()<11) renderSplitCluster(sigunguData,'sigungu');
+      });
+    }
   } else if(level>=7){
     // 읍면동
-    if(loadedFiles.has('dong')&&dongData.length>0) renderSplitCluster(dongData,'dong');
-    else renderCluster('dong');
+    if(loadedFiles.has('dong')&&dongData.length>0){
+      renderSplitCluster(dongData,'dong');
+    } else {
+      // dongData 로드 중이면 로딩 후 다시 시도
+      showMapLoading(true,'읍면동 데이터 로드 중...');
+      loadDongData().then(()=>{
+        showMapLoading(false);
+        if(map&&map.getLevel()>=7&&map.getLevel()<9) renderSplitCluster(dongData,'dong');
+      });
+    }
   } else if(level>=5){
     // 공동주택 핀박스 - 해당 시군구 단지 파일 로드
     loadAptForCurrentView();
