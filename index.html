@@ -35,13 +35,13 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
 .pro-btn:hover{background:var(--green-dark)}
 
 /* ===== 페이지 ===== */
-.page{display:none;flex:1;overflow:hidden}
-.page.active{display:flex}
+.page{display:none;flex:1;overflow:hidden;width:100%}
+.page.active{display:flex;width:100%;height:100%}
 
 /* ===== 지도 페이지 ===== */
-#page-map{position:relative}
+#page-map{position:relative;overflow:hidden;width:100%;height:100%}
 #kakao-map{width:100%;height:100%;position:absolute;inset:0}
-.map-right{flex:1;position:relative}
+.map-right{flex:1;position:relative;width:100%;height:100%;overflow:hidden}
 
 /* 지도 상단 검색 오버레이 */
 .map-top-bar{position:absolute;top:12px;left:50%;transform:translateX(-50%);z-index:100;display:flex;flex-direction:column;align-items:center;gap:8px;width:min(600px,90vw)}
@@ -257,14 +257,6 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
       <div class="map-breadcrumb" id="map-breadcrumb" style="display:none">
         <span class="bc-item" onclick="bcClick(0)">전국</span>
       </div>
-    </div>
-
-    <!-- 필터 버튼 -->
-    <div class="map-filter-bar">
-      <button class="filter-chip active" onclick="setFilter('all',this)">전체</button>
-      <button class="filter-chip" onclick="setFilter('apt',this)">아파트</button>
-      <button class="filter-chip" onclick="setFilter('broker',this)">중개사무소</button>
-      <button class="filter-chip" onclick="setFilter('sale',this)">매물</button>
     </div>
 
     <!-- 단지 상세 패널 -->
@@ -758,7 +750,16 @@ function initMap(){
   map.addControl(new kakao.maps.ZoomControl(),kakao.maps.ControlPosition.RIGHT);
   map.addControl(new kakao.maps.MapTypeControl(),kakao.maps.ControlPosition.TOPRIGHT);
   // 줌 변경 시 마커 업데이트
-  kakao.maps.event.addListener(map,'zoom_changed',()=>updateMarkersForZoom());
+  kakao.maps.event.addListener(map,'zoom_changed',()=>{
+    updateMarkersForZoom();
+    if(map.getLevel()>13) map.setLevel(13);
+  });
+  kakao.maps.event.addListener(map,'dragend',()=>{
+    const c=map.getCenter();
+    const lat=Math.max(33.0,Math.min(38.9,c.getLat()));
+    const lng=Math.max(124.0,Math.min(132.0,c.getLng()));
+    if(lat!==c.getLat()||lng!==c.getLng()) map.setCenter(new kakao.maps.LatLng(lat,lng));
+  });
   // 지도 이동 시에도 업데이트
   kakao.maps.event.addListener(map,'idle',()=>updateMarkersForZoom());
 
