@@ -1142,10 +1142,10 @@ function addMarker(d){
   if(d.type==='apt'){
     const n=d.name.length>9?d.name.substring(0,9)+'..':d.name;
     const u=d.units?'<br><span style="font-size:10px;font-weight:400;opacity:.85">'+d.units+'세대</span>':'';
-    bc=`<div onclick="selectItem(${d.id})" style="background:#1a56db;color:#fff;padding:3px 7px;border-radius:4px;font-size:11px;font-weight:700;cursor:pointer;box-shadow:0 1px 4px rgba(0,0,0,.3);white-space:nowrap;text-align:center;line-height:1.5">${n}${u}</div>`;
+    bc=`<div onclick="selectItem('${d.id}')" style="background:#1a56db;color:#fff;padding:3px 7px;border-radius:4px;font-size:11px;font-weight:700;cursor:pointer;box-shadow:0 1px 4px rgba(0,0,0,.3);white-space:nowrap;text-align:center;line-height:1.5">${n}${u}</div>`;
   }else if(d.type==='broker'){
     const n=d.name.length>8?d.name.substring(0,8)+'..':d.name;
-    bc=`<div onclick="selectItem(${d.id})" style="background:#1D9E75;color:#fff;padding:3px 8px;border-radius:12px;font-size:10px;font-weight:700;cursor:pointer;box-shadow:0 1px 4px rgba(0,0,0,.2);white-space:nowrap">👤 ${n}</div>`;
+    bc=`<div onclick="selectItem('${d.id}')" style="background:#1D9E75;color:#fff;padding:3px 8px;border-radius:12px;font-size:10px;font-weight:700;cursor:pointer;box-shadow:0 1px 4px rgba(0,0,0,.2);white-space:nowrap">👤 ${n}</div>`;
   }
   const overlay=new kakao.maps.CustomOverlay({position:pos,content:bc,yAnchor:1.1,zIndex:3});
   overlay.setMap(map&&map.getLevel()<7?map:null);
