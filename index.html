@@ -890,13 +890,17 @@ function updateMarkersForZoom(){
       });
     }
   } else if(level>=5){
-    // 공동주택 핀박스 - 해당 시군구 단지 파일 로드
-    loadAptForCurrentView();
+    // 공동주택 핀박스 - 해당 시군구 단지 파일 로드 후 렌더링
     renderVisibleMarkers('apt');
+    loadAptForCurrentView().then(()=>{
+      if(map&&map.getLevel()>=5&&map.getLevel()<7) renderVisibleMarkers('apt');
+    });
   } else {
     // 공동주택 + 협력중개사
-    loadAptForCurrentView();
     renderVisibleMarkers('all');
+    loadAptForCurrentView().then(()=>{
+      if(map&&map.getLevel()<5) renderVisibleMarkers('all');
+    });
   }
 }
 
@@ -923,29 +927,31 @@ function renderDongInView(){
   });
 }
 
-function loadAptForCurrentView(){
+async function loadAptForCurrentView(){
   if(!map)return;
   const bounds=map.getBounds();
   const sw=bounds.getSouthWest();
   const ne=bounds.getNorthEast();
 
-  // 시군구 데이터 없으면 먼저 로드
   if(!loadedFiles.has('sigungu')){
-    loadSigunguData().then(()=>loadAptForCurrentView());
-    return;
+    await loadSigunguData();
   }
 
-  // 범위 안의 시군구 찾아서 단지 파일 로드
-  // 범위를 약간 넓혀서 경계 근처도 포함
-  const latPad=(ne.getLat()-sw.getLat())*0.3;
-  const lngPad=(ne.getLng()-sw.getLng())*0.3;
+  const latRange=ne.getLat()-sw.getLat();
+  const lngRange=ne.getLng()-sw.getLng();
+  const swLat=sw.getLat()-latRange*0.5;
+  const neLat=ne.getLat()+latRange*0.5;
+  const swLng=sw.getLng()-lngRange*0.5;
+  const neLng=ne.getLng()+lngRange*0.5;
+
+  const promises=[];
   sigunguData.forEach(sg=>{
     if(!sg.lat||!sg.lng)return;
-    if(sg.lat>=(sw.getLat()-latPad)&&sg.lat<=(ne.getLat()+latPad)&&
-       sg.lng>=(sw.getLng()-lngPad)&&sg.lng<=(ne.getLng()+lngPad)){
-      loadAptData(sg.name.replace(/\s/g,''));
+    if(sg.lat>=swLat&&sg.lat<=neLat&&sg.lng>=swLng&&sg.lng<=neLng){
+      promises.push(loadAptData(sg.name.replace(/\s/g,'')));
     }
   });
+  await Promise.all(promises);
 }
 
 // 분리된 데이터로 클러스터 렌더링 (세대수 표시)
