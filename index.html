@@ -720,6 +720,8 @@ function initMap(){
   map.addControl(new kakao.maps.MapTypeControl(),kakao.maps.ControlPosition.TOPRIGHT);
   // 줌 변경 시 마커 업데이트
   kakao.maps.event.addListener(map,'zoom_changed',()=>updateMarkersForZoom());
+  // 지도 이동 시에도 업데이트
+  kakao.maps.event.addListener(map,'idle',()=>updateMarkersForZoom());
 
   // 협력중개사 마커 먼저
   BROKER_DATA.forEach(d=>addMarker(d));
@@ -926,10 +928,21 @@ function loadAptForCurrentView(){
   const bounds=map.getBounds();
   const sw=bounds.getSouthWest();
   const ne=bounds.getNorthEast();
-  // 범위 안의 시군구 찾아서 로드
+
+  // 시군구 데이터 없으면 먼저 로드
+  if(!loadedFiles.has('sigungu')){
+    loadSigunguData().then(()=>loadAptForCurrentView());
+    return;
+  }
+
+  // 범위 안의 시군구 찾아서 단지 파일 로드
+  // 범위를 약간 넓혀서 경계 근처도 포함
+  const latPad=(ne.getLat()-sw.getLat())*0.3;
+  const lngPad=(ne.getLng()-sw.getLng())*0.3;
   sigunguData.forEach(sg=>{
     if(!sg.lat||!sg.lng)return;
-    if(sg.lat>=sw.getLat()&&sg.lat<=ne.getLat()&&sg.lng>=sw.getLng()&&sg.lng<=ne.getLng()){
+    if(sg.lat>=(sw.getLat()-latPad)&&sg.lat<=(ne.getLat()+latPad)&&
+       sg.lng>=(sw.getLng()-lngPad)&&sg.lng<=(ne.getLng()+lngPad)){
       loadAptData(sg.name.replace(/\s/g,''));
     }
   });
