@@ -877,15 +877,14 @@ function updateMarkersForZoom(){
       });
     }
   } else if(level>=7){
-    // 읍면동
+    // 읍면동 - 현재 화면 범위 안에 있는 것만 표시
     if(loadedFiles.has('dong')&&dongData.length>0){
-      renderSplitCluster(dongData,'dong');
+      renderDongInView();
     } else {
-      // dongData 로드 중이면 로딩 후 다시 시도
       showMapLoading(true,'읍면동 데이터 로드 중...');
       loadDongData().then(()=>{
         showMapLoading(false);
-        if(map&&map.getLevel()>=7&&map.getLevel()<9) renderSplitCluster(dongData,'dong');
+        if(map&&map.getLevel()>=7&&map.getLevel()<9) renderDongInView();
       });
     }
   } else if(level>=5){
@@ -900,6 +899,28 @@ function updateMarkersForZoom(){
 }
 
 // 현재 지도 범위의 시군구 단지 파일 로드
+function renderDongInView(){
+  if(!map||!dongData.length) return;
+  const bounds=map.getBounds();
+  const sw=bounds.getSouthWest();
+  const ne=bounds.getNorthEast();
+  // 현재 화면 범위 안 동만 필터
+  const visible=dongData.filter(d=>{
+    if(!d.lat||!d.lng) return false;
+    return d.lat>=sw.getLat()&&d.lat<=ne.getLat()&&
+           d.lng>=sw.getLng()&&d.lng<=ne.getLng();
+  });
+  // 최대 80개 제한
+  visible.slice(0,80).forEach(d=>{
+    const pos=new kakao.maps.LatLng(d.lat,d.lng);
+    const u=d.units>0?d.units.toLocaleString()+'세대':d.count+'단지';
+    const content=`<div style="background:#1a56db;color:#fff;padding:4px 8px;border-radius:4px;font-size:11px;font-weight:700;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.3);white-space:nowrap;text-align:center;line-height:1.6">${d.name}<br><span style="font-size:10px;font-weight:400;opacity:.9">${u}</span></div>`;
+    const o=new kakao.maps.CustomOverlay({position:pos,content,yAnchor:1.1,zIndex:3});
+    o.setMap(map);
+    zoomOverlays.push(o);
+  });
+}
+
 function loadAptForCurrentView(){
   if(!map)return;
   const bounds=map.getBounds();
