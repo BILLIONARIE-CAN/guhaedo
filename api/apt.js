@@ -12,15 +12,23 @@ export default async function handler(req, res) {
   try {
     // Supabase DB에서 데이터 조회
     if (type === 'sido') {
-      // 시도별 세대수 집계
-      const r = await fetch(
-        `${SUPABASE_URL}/rest/v1/apartments?select=sido,units&sido=not.is.null`,
-        { headers: { apikey: SUPABASE_KEY, Authorization: `Bearer ${SUPABASE_KEY}` } }
-      );
-      const data = await r.json();
-      // 시도별 집계
+      // 시도별 세대수 집계 - limit 높여서 전체 가져오기
+      let all = [];
+      let offset = 0;
+      const limit = 1000;
+      while(true) {
+        const r = await fetch(
+          `${SUPABASE_URL}/rest/v1/apartments?select=sido,units&sido=not.is.null&limit=${limit}&offset=${offset}`,
+          { headers: { apikey: SUPABASE_KEY, Authorization: `Bearer ${SUPABASE_KEY}`, 'Range-Unit': 'items' } }
+        );
+        const data = await r.json();
+        if (!Array.isArray(data) || data.length === 0) break;
+        all = all.concat(data);
+        if (data.length < limit) break;
+        offset += limit;
+      }
       const groups = {};
-      data.forEach(d => {
+      all.forEach(d => {
         if (!d.sido) return;
         if (!groups[d.sido]) groups[d.sido] = { name: d.sido, units: 0, count: 0 };
         groups[d.sido].units += (d.units || 0);
@@ -31,11 +39,19 @@ export default async function handler(req, res) {
     } else if (type === 'sigungu') {
       // 시군구별 집계
       const sidoFilter = code ? `&sido=eq.${encodeURIComponent(code)}` : '';
-      const r = await fetch(
-        `${SUPABASE_URL}/rest/v1/apartments?select=sido,sigungu,units,lat,lng${sidoFilter}`,
-        { headers: { apikey: SUPABASE_KEY, Authorization: `Bearer ${SUPABASE_KEY}` } }
-      );
-      const data = await r.json();
+      let data = [];
+      let offset2 = 0;
+      while(true) {
+        const r = await fetch(
+          `${SUPABASE_URL}/rest/v1/apartments?select=sido,sigungu,units,lat,lng${sidoFilter}&limit=1000&offset=${offset2}`,
+          { headers: { apikey: SUPABASE_KEY, Authorization: `Bearer ${SUPABASE_KEY}` } }
+        );
+        const chunk = await r.json();
+        if (!Array.isArray(chunk) || chunk.length === 0) break;
+        data = data.concat(chunk);
+        if (chunk.length < 1000) break;
+        offset2 += 1000;
+      }
       const groups = {};
       data.forEach(d => {
         if (!d.sigungu) return;
@@ -55,11 +71,19 @@ export default async function handler(req, res) {
     } else if (type === 'dong') {
       // 읍면동별 집계
       const sigunguFilter = code ? `&sigungu=eq.${encodeURIComponent(code)}` : '';
-      const r = await fetch(
-        `${SUPABASE_URL}/rest/v1/apartments?select=sido,sigungu,dong,units,lat,lng${sigunguFilter}&dong=not.is.null`,
-        { headers: { apikey: SUPABASE_KEY, Authorization: `Bearer ${SUPABASE_KEY}` } }
-      );
-      const data = await r.json();
+      let data = [];
+      let offset3 = 0;
+      while(true) {
+        const r = await fetch(
+          `${SUPABASE_URL}/rest/v1/apartments?select=sido,sigungu,dong,units,lat,lng${sigunguFilter}&dong=not.is.null&limit=1000&offset=${offset3}`,
+          { headers: { apikey: SUPABASE_KEY, Authorization: `Bearer ${SUPABASE_KEY}` } }
+        );
+        const chunk = await r.json();
+        if (!Array.isArray(chunk) || chunk.length === 0) break;
+        data = data.concat(chunk);
+        if (chunk.length < 1000) break;
+        offset3 += 1000;
+      }
       const groups = {};
       data.forEach(d => {
         if (!d.dong) return;
