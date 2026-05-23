@@ -1141,36 +1141,15 @@ function addMarker(d){
   let bc='';
   if(d.type==='apt'){
     const n=d.name.length>9?d.name.substring(0,9)+'..':d.name;
-    const u=d.units?'<br><span style="font-size:10px;font-weight:400;opacity:.85">'+d.units+'</span>':'';
-    bc=`<div style="background:#1a56db;color:#fff;padding:3px 7px;border-radius:4px;font-size:11px;font-weight:700;cursor:pointer;box-shadow:0 1px 4px rgba(0,0,0,.3);white-space:nowrap;text-align:center;line-height:1.5">${n}${u}</div>`;
+    const u=d.units?'<br><span style="font-size:10px;font-weight:400;opacity:.85">'+d.units+'세대</span>':'';
+    bc=`<div onclick="selectItem(${d.id})" style="background:#1a56db;color:#fff;padding:3px 7px;border-radius:4px;font-size:11px;font-weight:700;cursor:pointer;box-shadow:0 1px 4px rgba(0,0,0,.3);white-space:nowrap;text-align:center;line-height:1.5">${n}${u}</div>`;
   }else if(d.type==='broker'){
     const n=d.name.length>8?d.name.substring(0,8)+'..':d.name;
-    bc=`<div style="background:#1D9E75;color:#fff;padding:3px 8px;border-radius:12px;font-size:10px;font-weight:700;cursor:pointer;box-shadow:0 1px 4px rgba(0,0,0,.2);white-space:nowrap">👤 ${n}</div>`;
+    bc=`<div onclick="selectItem(${d.id})" style="background:#1D9E75;color:#fff;padding:3px 8px;border-radius:12px;font-size:10px;font-weight:700;cursor:pointer;box-shadow:0 1px 4px rgba(0,0,0,.2);white-space:nowrap">👤 ${n}</div>`;
   }
   const overlay=new kakao.maps.CustomOverlay({position:pos,content:bc,yAnchor:1.1,zIndex:3});
   overlay.setMap(map&&map.getLevel()<7?map:null);
-  const pH=d.type==='apt'&&(d.sale||d.jeonse||d.monthly)?
-    '<div style="margin-top:7px;border-top:1px solid #f0f0f0;padding-top:7px">'+
-    (d.sale?'<div style="display:flex;justify-content:space-between;font-size:12px;margin-bottom:3px"><span style="color:#999">매매</span><span style="font-weight:700;color:#0F6E56">'+d.sale+'</span></div>':'')+
-    (d.jeonse?'<div style="display:flex;justify-content:space-between;font-size:12px;margin-bottom:3px"><span style="color:#999">전세</span><span style="font-weight:700;color:#1a56db">'+d.jeonse+'</span></div>':'')+
-    (d.monthly?'<div style="display:flex;justify-content:space-between;font-size:12px"><span style="color:#999">월세</span><span style="font-weight:700;color:#7C3AED">'+d.monthly+'</span></div>':'')+
-    '</div>':d.type==='broker'?'<div style="margin-top:5px;font-size:11px;color:#1D9E75;font-weight:500">✓ 협력중개사</div>':'';
-  const iw=new kakao.maps.CustomOverlay({
-    position:pos,yAnchor:0,zIndex:10,
-    content:'<div style="background:#fff;border:1px solid #e8e8e8;border-radius:10px;padding:11px 13px;min-width:190px;box-shadow:0 4px 16px rgba(0,0,0,.12)">'+
-      '<div style="font-size:10px;color:#1a56db;font-weight:700;margin-bottom:2px">'+(TYPE_LABEL[d.type]||'')+'</div>'+
-      '<div style="font-size:13px;font-weight:700;margin-bottom:2px">'+d.name+'</div>'+
-      '<div style="font-size:11px;color:#999">'+d.addr+'</div>'+
-      ((d.built||d.units)?'<div style="font-size:11px;color:#999;margin-top:2px">'+[d.built,d.units].filter(Boolean).join(' · ')+'</div>':'')+
-      pH+'</div>'
-  });
-  kakao.maps.event.addListener(overlay,'click',()=>{
-    infoWindows.forEach(w=>w.setMap(null));
-    iw.setMap(map);infoWindows=[iw];selectItem(d.id);
-    if(d.type==='apt') countAptClick();
-    kakao.maps.event.addListener(map,'click',()=>{iw.setMap(null);infoWindows=[];});
-  });
-  markers.push({id:d.id,marker:overlay,overlay:iw});
+  markers.push({id:d.id,marker:overlay});
 }
 
 function renderMarkers(){
