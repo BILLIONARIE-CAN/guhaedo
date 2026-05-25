@@ -44,7 +44,7 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
 .map-right{flex:1;position:relative;width:100%;height:100%;overflow:hidden}
 
 /* 지도 상단 검색 오버레이 */
-.map-top-bar{position:absolute;top:12px;left:50%;transform:translateX(-50%);z-index:100;display:flex;flex-direction:column;align-items:center;gap:8px;width:min(600px,90vw)}
+.map-top-bar{position:absolute;top:12px;left:calc(50% + 26px);transform:translateX(-50%);z-index:100;display:flex;flex-direction:column;align-items:center;gap:8px;width:min(600px,calc(90vw - 52px))}
 .map-search-box{background:var(--white);border-radius:24px;box-shadow:0 2px 12px rgba(0,0,0,.15);display:flex;align-items:center;width:100%;height:44px;padding:0 16px;gap:8px}
 .map-search-box svg{flex-shrink:0;opacity:.45}
 .map-search-input{border:none;outline:none;font-size:14px;font-family:inherit;flex:1;background:transparent}
@@ -61,7 +61,7 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
 .filter-chip.active{background:var(--green);color:#fff;border-color:var(--green)}
 
 /* 단지 상세 사이드패널 */
-.apt-detail-panel{position:absolute;top:0;left:0;bottom:0;width:340px;background:var(--white);box-shadow:4px 0 20px rgba(0,0,0,.12);z-index:90;transform:translateX(-100%);transition:transform .3s ease;display:flex;flex-direction:column;overflow:hidden}
+.apt-detail-panel{position:absolute;top:0;left:52px;bottom:0;width:320px;background:var(--white);box-shadow:4px 0 20px rgba(0,0,0,.12);z-index:89;transform:translateX(-372px);transition:transform .3s ease;display:flex;flex-direction:column;overflow:hidden}
 .apt-detail-panel.open{transform:translateX(0)}
 .adp-header{padding:16px;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;flex-shrink:0}
 .adp-close{width:28px;height:28px;border:none;background:var(--bg);border-radius:50%;cursor:pointer;font-size:16px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
@@ -78,12 +78,30 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
 .adp-price-label{font-size:10px;color:var(--text3);margin-bottom:3px}
 .adp-price-val{font-size:13px;font-weight:700;color:var(--green-dark)}
 
-/* 아일랜드 버튼 */
-.map-island{position:absolute;right:14px;top:50%;transform:translateY(-50%);z-index:100;display:flex;flex-direction:column;gap:8px}
-.island-btn{width:48px;height:48px;border-radius:50%;border:none;cursor:pointer;display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 4px 12px rgba(0,0,0,.18);font-size:9px;font-weight:700;font-family:inherit;transition:transform .15s,box-shadow .15s;gap:2px}
-.island-btn:hover{transform:scale(1.08);box-shadow:0 6px 18px rgba(0,0,0,.22)}
-.island-btn.active{box-shadow:0 0 0 3px #fff,0 0 0 5px #1a56db}
-.island-btn svg{display:block}
+/* 왼쪽 탭바 */
+.map-tabbar{position:absolute;left:0;top:0;bottom:0;width:52px;background:var(--white);border-right:1px solid var(--border);z-index:100;display:flex;flex-direction:column;align-items:center;padding-top:14px;box-shadow:2px 0 8px rgba(0,0,0,.06)}
+.island-btn{width:40px;height:40px;border-radius:10px;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;font-family:inherit;transition:all .15s;background:transparent;color:var(--text2)}
+.island-btn:hover{background:var(--bg);color:var(--green-dark)}
+.island-btn.active{background:var(--green-bg);color:var(--green-dark)}
+
+/* 지역 탐색 사이드바 */
+.region-sidebar{position:absolute;top:0;left:52px;bottom:0;width:320px;background:var(--white);box-shadow:4px 0 20px rgba(0,0,0,.10);z-index:89;transform:translateX(-372px);transition:transform .3s ease;display:flex;flex-direction:column;overflow:hidden}
+.region-sidebar.open{transform:translateX(0)}
+.rs-tabs{display:flex;border-bottom:1px solid var(--border);flex-shrink:0}
+.rs-tab{flex:1;padding:14px 0;font-size:14px;font-weight:600;text-align:center;border:none;background:transparent;cursor:pointer;font-family:inherit;color:var(--text3);border-bottom:2px solid transparent;transition:all .15s}
+.rs-tab.active{color:var(--green-dark);border-bottom:2px solid var(--green)}
+.rs-search{padding:12px;border-bottom:1px solid var(--border);flex-shrink:0}
+.rs-search-input{width:100%;height:38px;border:1.5px solid var(--border);border-radius:var(--radius-sm);padding:0 12px 0 34px;font-size:13px;font-family:inherit;background:var(--white) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='15' height='15' viewBox='0 0 24 24' fill='none' stroke='%23aaa' stroke-width='2'%3E%3Ccircle cx='11' cy='11' r='8'/%3E%3Cpath d='m21 21-4.35-4.35'/%3E%3C/svg%3E") no-repeat 10px center}
+.rs-search-input:focus{outline:none;border-color:var(--green)}
+.rs-breadcrumb{display:flex;align-items:center;gap:6px;padding:10px 12px;font-size:12px;border-bottom:1px solid var(--border);flex-shrink:0;flex-wrap:wrap}
+.rs-bc-item{color:var(--green-dark);cursor:pointer;font-weight:600}
+.rs-bc-item:hover{text-decoration:underline}
+.rs-bc-sep{color:var(--text3)}
+.rs-bc-cur{color:var(--text);font-weight:700}
+.rs-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:1px;background:var(--border);flex:1;overflow-y:auto}
+.rs-grid-item{background:var(--white);padding:14px 6px;text-align:center;font-size:13px;cursor:pointer;transition:background .12s;font-weight:500}
+.rs-grid-item:hover{background:var(--green-bg);color:var(--green-dark)}
+.rs-grid-item .cnt{font-size:10px;color:var(--text3);margin-top:2px}
 
 /* 말풍선 인포윈도우 */
 .map-overlay{background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:12px 14px;min-width:180px;box-shadow:0 4px 20px rgba(0,0,0,.12);cursor:pointer}
@@ -266,56 +284,33 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
       </div>
     </div>
 
-    <!-- 아일랜드 버튼 -->
-    <div class="map-island">
-      <button class="island-btn" style="background:#1a56db;color:#fff" onclick="toggleSidebar('apt-sidebar')" title="아파트">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 22V12h6v10M3 9h18"/></svg>
-        <span>아파트</span>
-      </button>
-      <button class="island-btn" style="background:#1D9E75;color:#fff" onclick="toggleSidebar('broker-sidebar')" title="중개사무소">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M20 7H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
-        <span>중개사</span>
-      </button>
-      <button class="island-btn" style="background:#f59e0b;color:#fff" onclick="toggleSidebar('sale-sidebar')" title="매물">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
-        <span>매물</span>
+    <!-- 왼쪽 탭바 -->
+    <div class="map-tabbar">
+      <button class="island-btn" id="menu-btn" onclick="toggleRegionSidebar()" title="메뉴">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
       </button>
     </div>
 
-    <!-- 아파트 사이드바 -->
-    <div class="apt-detail-panel" id="apt-sidebar">
-      <div class="adp-header">
-        <div style="font-size:15px;font-weight:700">🏢 단지 정보</div>
-        <button class="adp-close" onclick="closeSidebar('apt-sidebar')">✕</button>
+    <!-- 지역 탐색 사이드바 -->
+    <div class="region-sidebar" id="region-sidebar">
+      <div class="rs-tabs">
+        <button class="rs-tab" onclick="setRsTab('sale')" id="rs-tab-sale">분양</button>
+        <button class="rs-tab active" onclick="setRsTab('apt')" id="rs-tab-apt">아파트/오피스텔</button>
       </div>
-      <div class="adp-body" id="apt-sidebar-body">
-        <div style="color:var(--text3);font-size:13px;text-align:center;padding:40px 0">아파트 핀을 클릭하세요</div>
+      <div class="rs-search">
+        <input class="rs-search-input" type="text" placeholder="아파트명을 검색해보세요." oninput="rsSearch(this.value)">
       </div>
+      <div class="rs-breadcrumb" id="rs-breadcrumb">
+        <span class="rs-bc-cur">시도 선택</span>
+        <span class="rs-bc-sep">›</span>
+        <span style="color:var(--text3)">시군구 선택</span>
+        <span class="rs-bc-sep">›</span>
+        <span style="color:var(--text3)">읍면동 선택</span>
+      </div>
+      <div class="rs-grid" id="rs-grid"></div>
     </div>
 
-    <!-- 중개사무소 사이드바 -->
-    <div class="apt-detail-panel" id="broker-sidebar">
-      <div class="adp-header">
-        <div style="font-size:15px;font-weight:700">🏪 협력 중개사무소</div>
-        <button class="adp-close" onclick="closeSidebar('broker-sidebar')">✕</button>
-      </div>
-      <div class="adp-body" id="broker-sidebar-body">
-        <div style="color:var(--text3);font-size:13px;text-align:center;padding:40px 0">중개사무소 핀을 클릭하세요</div>
-      </div>
-    </div>
-
-    <!-- 매물 사이드바 -->
-    <div class="apt-detail-panel" id="sale-sidebar">
-      <div class="adp-header">
-        <div style="font-size:15px;font-weight:700">🏷️ 매물</div>
-        <button class="adp-close" onclick="closeSidebar('sale-sidebar')">✕</button>
-      </div>
-      <div class="adp-body" id="sale-sidebar-body">
-        <div style="color:var(--text3);font-size:13px;text-align:center;padding:40px 0">준비 중입니다</div>
-      </div>
-    </div>
-
-    <!-- 단지 상세 패널 (기존 유지) -->
+    <!-- 단지 상세 패널 -->
     <div class="apt-detail-panel" id="apt-detail-panel">
       <div class="adp-header">
         <div>
@@ -1314,6 +1309,145 @@ function openAptDetail(d){
 
 function closeAptDetail(){
   ge('apt-detail-panel').classList.remove('open');
+}
+
+// ===== 지역 탐색 사이드바 =====
+const SIDO_LIST = [
+  {name:'서울시', code:'11', lat:37.5665, lng:126.9780},
+  {name:'경기도', code:'41', lat:37.4138, lng:127.5183},
+  {name:'부산시', code:'26', lat:35.1796, lng:129.0756},
+  {name:'대구시', code:'27', lat:35.8714, lng:128.6014},
+  {name:'인천시', code:'28', lat:37.4563, lng:126.7052},
+  {name:'광주시', code:'29', lat:35.1595, lng:126.8526},
+  {name:'대전시', code:'30', lat:36.3504, lng:127.3845},
+  {name:'울산시', code:'31', lat:35.5384, lng:129.3114},
+  {name:'세종시', code:'36', lat:36.4800, lng:127.2890},
+  {name:'강원도', code:'42', lat:37.8228, lng:128.1555},
+  {name:'충청북도', code:'43', lat:36.6357, lng:127.4912},
+  {name:'충청남도', code:'44', lat:36.5184, lng:126.8000},
+  {name:'전라북도', code:'45', lat:35.7175, lng:127.1530},
+  {name:'전라남도', code:'46', lat:34.8679, lng:126.9910},
+  {name:'경상북도', code:'47', lat:36.4919, lng:128.8889},
+  {name:'경상남도', code:'48', lat:35.4606, lng:128.2132},
+  {name:'제주도', code:'50', lat:33.4996, lng:126.5312},
+];
+
+let rsLevel = 'sido'; // sido | sigungu | emd
+let rsSelected = {sido: null, sigungu: null};
+let rsCurTab = 'apt';
+
+function toggleRegionSidebar(){
+  const sb = ge('region-sidebar');
+  const btn = ge('menu-btn');
+  const isOpen = sb.classList.contains('open');
+  sb.classList.toggle('open');
+  btn.classList.toggle('active', !isOpen);
+  if(!isOpen) renderRsGrid();
+}
+
+function setRsTab(tab){
+  rsCurTab = tab;
+  document.querySelectorAll('.rs-tab').forEach(t=>t.classList.remove('active'));
+  ge('rs-tab-'+tab)?.classList.add('active');
+}
+
+function rsSearch(q){
+  if(!q) { renderRsGrid(); return; }
+  const results = MAP_DATA.filter(d=>d.name.includes(q)||(d.addr&&d.addr.includes(q)));
+  if(results.length>0&&map){
+    map.panTo(new kakao.maps.LatLng(results[0].lat, results[0].lng));
+    map.setLevel(5);
+  }
+}
+
+function renderRsGrid(){
+  const grid = ge('rs-grid');
+  const bc = ge('rs-breadcrumb');
+
+  if(rsLevel === 'sido'){
+    bc.innerHTML = `<span class="rs-bc-cur">시도 선택</span><span class="rs-bc-sep">›</span><span style="color:var(--text3)">시군구 선택</span><span class="rs-bc-sep">›</span><span style="color:var(--text3)">읍면동 선택</span>`;
+    grid.innerHTML = SIDO_LIST.map(s=>`
+      <div class="rs-grid-item" onclick="selectSido('${s.code}','${s.name}',${s.lat},${s.lng})">
+        <div>${s.name}</div>
+      </div>`).join('');
+  }
+}
+
+function selectSido(code, name, lat, lng){
+  rsSelected.sido = {code, name};
+  rsLevel = 'sigungu';
+  if(map){
+    map.panTo(new kakao.maps.LatLng(lat, lng));
+    map.setLevel(9);
+  }
+  const bc = ge('rs-breadcrumb');
+  bc.innerHTML = `<span class="rs-bc-item" onclick="backToSido()">${name}</span><span class="rs-bc-sep">›</span><span class="rs-bc-cur">시군구 선택</span><span class="rs-bc-sep">›</span><span style="color:var(--text3)">읍면동 선택</span>`;
+
+  // 해당 시도 시군구 목록 뽑기
+  const sigunguMap = {};
+  MAP_DATA.filter(d=>d.sido&&d.sido.includes(name.replace('시','').replace('도',''))||
+    (d.sigunguCode&&d.sigunguCode.startsWith(code))
+  ).forEach(d=>{
+    if(d.sigungu&&!sigunguMap[d.sigungu]) sigunguMap[d.sigungu]={name:d.sigungu, code:d.sigunguCode, lat:d.lat, lng:d.lng};
+  });
+  const list = Object.values(sigunguMap);
+  const grid = ge('rs-grid');
+  if(list.length===0){
+    grid.innerHTML='<div style="grid-column:1/-1;padding:30px;text-align:center;color:var(--text3);font-size:13px">데이터가 없습니다</div>';
+    return;
+  }
+  grid.innerHTML = list.map(s=>`
+    <div class="rs-grid-item" onclick="selectSigungu('${s.code}','${s.name}',${s.lat},${s.lng})">
+      <div>${s.name}</div>
+    </div>`).join('');
+}
+
+function selectSigungu(code, name, lat, lng){
+  rsSelected.sigungu = {code, name};
+  rsLevel = 'emd';
+  if(map){
+    map.panTo(new kakao.maps.LatLng(lat, lng));
+    map.setLevel(7);
+  }
+  const bc = ge('rs-breadcrumb');
+  bc.innerHTML = `<span class="rs-bc-item" onclick="backToSido()">${rsSelected.sido.name}</span><span class="rs-bc-sep">›</span><span class="rs-bc-item" onclick="backToSigungu()">${name}</span><span class="rs-bc-sep">›</span><span class="rs-bc-cur">읍면동 선택</span>`;
+
+  // 읍면동 목록
+  const emdMap = {};
+  MAP_DATA.filter(d=>d.sigunguCode===code).forEach(d=>{
+    if(d.emd&&!emdMap[d.emd]) emdMap[d.emd]={name:d.emd, lat:d.lat, lng:d.lng};
+  });
+  const list = Object.values(emdMap);
+  const grid = ge('rs-grid');
+  if(list.length===0){
+    grid.innerHTML='<div style="grid-column:1/-1;padding:30px;text-align:center;color:var(--text3);font-size:13px">데이터가 없습니다</div>';
+    return;
+  }
+  grid.innerHTML = list.map(e=>`
+    <div class="rs-grid-item" onclick="selectEmd('${e.name}',${e.lat},${e.lng})">
+      <div>${e.name}</div>
+    </div>`).join('');
+}
+
+function selectEmd(name, lat, lng){
+  if(map){
+    map.panTo(new kakao.maps.LatLng(lat, lng));
+    map.setLevel(5);
+  }
+  // 사이드바 닫고 지도 이동
+  ge('region-sidebar').classList.remove('open');
+  ge('menu-btn').classList.remove('active');
+}
+
+function backToSido(){
+  rsLevel = 'sido';
+  rsSelected = {sido:null, sigungu:null};
+  renderRsGrid();
+}
+
+function backToSigungu(){
+  rsLevel = 'sigungu';
+  if(rsSelected.sido) selectSido(rsSelected.sido.code, rsSelected.sido.name, 0, 0);
 }
 
 function toggleSidebar(id){
