@@ -78,6 +78,13 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
 .adp-price-label{font-size:10px;color:var(--text3);margin-bottom:3px}
 .adp-price-val{font-size:13px;font-weight:700;color:var(--green-dark)}
 
+/* 아일랜드 버튼 */
+.map-island{position:absolute;right:14px;top:50%;transform:translateY(-50%);z-index:100;display:flex;flex-direction:column;gap:8px}
+.island-btn{width:48px;height:48px;border-radius:50%;border:none;cursor:pointer;display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 4px 12px rgba(0,0,0,.18);font-size:9px;font-weight:700;font-family:inherit;transition:transform .15s,box-shadow .15s;gap:2px}
+.island-btn:hover{transform:scale(1.08);box-shadow:0 6px 18px rgba(0,0,0,.22)}
+.island-btn.active{box-shadow:0 0 0 3px #fff,0 0 0 5px #1a56db}
+.island-btn svg{display:block}
+
 /* 말풍선 인포윈도우 */
 .map-overlay{background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:12px 14px;min-width:180px;box-shadow:0 4px 20px rgba(0,0,0,.12);cursor:pointer}
 .map-overlay:hover{border-color:var(--green)}
@@ -259,7 +266,56 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
       </div>
     </div>
 
-    <!-- 단지 상세 패널 -->
+    <!-- 아일랜드 버튼 -->
+    <div class="map-island">
+      <button class="island-btn" style="background:#1a56db;color:#fff" onclick="toggleSidebar('apt-sidebar')" title="아파트">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 22V12h6v10M3 9h18"/></svg>
+        <span>아파트</span>
+      </button>
+      <button class="island-btn" style="background:#1D9E75;color:#fff" onclick="toggleSidebar('broker-sidebar')" title="중개사무소">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M20 7H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+        <span>중개사</span>
+      </button>
+      <button class="island-btn" style="background:#f59e0b;color:#fff" onclick="toggleSidebar('sale-sidebar')" title="매물">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+        <span>매물</span>
+      </button>
+    </div>
+
+    <!-- 아파트 사이드바 -->
+    <div class="apt-detail-panel" id="apt-sidebar">
+      <div class="adp-header">
+        <div style="font-size:15px;font-weight:700">🏢 단지 정보</div>
+        <button class="adp-close" onclick="closeSidebar('apt-sidebar')">✕</button>
+      </div>
+      <div class="adp-body" id="apt-sidebar-body">
+        <div style="color:var(--text3);font-size:13px;text-align:center;padding:40px 0">아파트 핀을 클릭하세요</div>
+      </div>
+    </div>
+
+    <!-- 중개사무소 사이드바 -->
+    <div class="apt-detail-panel" id="broker-sidebar">
+      <div class="adp-header">
+        <div style="font-size:15px;font-weight:700">🏪 협력 중개사무소</div>
+        <button class="adp-close" onclick="closeSidebar('broker-sidebar')">✕</button>
+      </div>
+      <div class="adp-body" id="broker-sidebar-body">
+        <div style="color:var(--text3);font-size:13px;text-align:center;padding:40px 0">중개사무소 핀을 클릭하세요</div>
+      </div>
+    </div>
+
+    <!-- 매물 사이드바 -->
+    <div class="apt-detail-panel" id="sale-sidebar">
+      <div class="adp-header">
+        <div style="font-size:15px;font-weight:700">🏷️ 매물</div>
+        <button class="adp-close" onclick="closeSidebar('sale-sidebar')">✕</button>
+      </div>
+      <div class="adp-body" id="sale-sidebar-body">
+        <div style="color:var(--text3);font-size:13px;text-align:center;padding:40px 0">준비 중입니다</div>
+      </div>
+    </div>
+
+    <!-- 단지 상세 패널 (기존 유지) -->
     <div class="apt-detail-panel" id="apt-detail-panel">
       <div class="adp-header">
         <div>
@@ -1178,7 +1234,49 @@ function selectItem(id){
   const d=MAP_DATA.find(x=>x.id===id);
   if(!d) return;
   if(d.lat&&d.lng&&map) map.panTo(new kakao.maps.LatLng(d.lat,d.lng));
-  openAptDetail(d);
+  if(d.type==='apt') openAptSidebar(d);
+  else if(d.type==='broker') openBrokerSidebar(d);
+  else openAptDetail(d);
+}
+
+function openAptSidebar(d){
+  const all=['apt-sidebar','broker-sidebar','sale-sidebar','apt-detail-panel'];
+  all.forEach(i=>ge(i)&&ge(i).classList.remove('open'));
+  document.querySelectorAll('.island-btn').forEach(b=>b.classList.remove('active'));
+  document.querySelectorAll('.island-btn')[0]?.classList.add('active');
+
+  const body=ge('apt-sidebar-body');
+  body.innerHTML=`
+    <div class="adp-type">${TYPE_LABEL[d.type]||'아파트'}</div>
+    <div class="adp-name">${d.name}</div>
+    <div class="adp-addr">${d.addr||''}</div>
+    <div class="adp-info-grid">
+      <div class="adp-info-item"><div class="adp-info-label">세대수</div><div class="adp-info-val">${d.units||'-'}</div></div>
+      <div class="adp-info-item"><div class="adp-info-label">준공년도</div><div class="adp-info-val">${d.built||'-'}</div></div>
+    </div>
+    ${d.sale||d.jeonse||d.monthly?`
+    <div class="adp-price-row" style="display:grid">
+      ${d.sale?`<div class="adp-price-item"><div class="adp-price-label">매매</div><div class="adp-price-val">${d.sale}</div></div>`:''}
+      ${d.jeonse?`<div class="adp-price-item"><div class="adp-price-label">전세</div><div class="adp-price-val" style="color:#2563EB">${d.jeonse}</div></div>`:''}
+      ${d.monthly?`<div class="adp-price-item"><div class="adp-price-label">월세</div><div class="adp-price-val" style="color:#7C3AED">${d.monthly}</div></div>`:''}
+    </div>`:''}
+  `;
+  ge('apt-sidebar').classList.add('open');
+}
+
+function openBrokerSidebar(d){
+  const all=['apt-sidebar','broker-sidebar','sale-sidebar','apt-detail-panel'];
+  all.forEach(i=>ge(i)&&ge(i).classList.remove('open'));
+  document.querySelectorAll('.island-btn').forEach(b=>b.classList.remove('active'));
+  document.querySelectorAll('.island-btn')[1]?.classList.add('active');
+
+  const body=ge('broker-sidebar-body');
+  body.innerHTML=`
+    <div class="adp-name">${d.name}</div>
+    <div class="adp-addr">${d.addr||''}</div>
+    <div style="margin-top:12px;font-size:13px;color:var(--green-dark);font-weight:600">✓ 협력중개사</div>
+  `;
+  ge('broker-sidebar').classList.add('open');
 }
 
 function openAptDetail(d){
@@ -1216,6 +1314,25 @@ function openAptDetail(d){
 
 function closeAptDetail(){
   ge('apt-detail-panel').classList.remove('open');
+}
+
+function toggleSidebar(id){
+  const all=['apt-sidebar','broker-sidebar','sale-sidebar','apt-detail-panel'];
+  const panel=ge(id);
+  const isOpen=panel.classList.contains('open');
+  all.forEach(i=>ge(i)&&ge(i).classList.remove('open'));
+  if(!isOpen) panel.classList.add('open');
+  // 아일랜드 버튼 active 표시
+  document.querySelectorAll('.island-btn').forEach(b=>b.classList.remove('active'));
+  if(!isOpen){
+    const idx={'apt-sidebar':0,'broker-sidebar':1,'sale-sidebar':2}[id];
+    if(idx!==undefined) document.querySelectorAll('.island-btn')[idx]?.classList.add('active');
+  }
+}
+
+function closeSidebar(id){
+  ge(id)&&ge(id).classList.remove('open');
+  document.querySelectorAll('.island-btn').forEach(b=>b.classList.remove('active'));
 }
 
 function bcClick(idx){
