@@ -843,80 +843,52 @@ let sidoData=[],sigunguData=[],dongData=[];
 async function loadAllApts(){
   showMapLoading(true,'데이터 불러오는 중...');
   try{
-    // Supabase DB에서 시도 데이터 로드
-    const res=await fetch('/api/apt?type=sido');
-    sidoData=await res.json();
+    const r=await fetch('/split_output/coords_sido.json');
+    sidoData=await r.json();
     loadedFiles.add('sido');
     showMapLoading(false);
     updateMarkersForZoom();
-    // 백그라운드에서 시군구/읍면동 미리 로드
     loadSigunguData();
     loadDongData();
   }catch(e){
-    console.log('Supabase 로드 실패, 파일로 fallback:', e);
-    loadCoordsJson();
+    console.log('sido 로드 실패:', e);
+    showMapLoading(false);
   }
 }
 
 async function loadSigunguData(){
   if(loadedFiles.has('sigungu'))return;
   try{
-    const res=await fetch('/api/apt?type=sigungu');
-    sigunguData=await res.json();
+    const r=await fetch('/split_output/coords_sigungu.json');
+    sigunguData=await r.json();
     loadedFiles.add('sigungu');
     if(map&&map.getLevel()>=9&&map.getLevel()<11)updateMarkersForZoom();
-  }catch(e){
-    // fallback to file
-    try{
-      const r=await fetch('/split_output/coords_sigungu.json');
-      sigunguData=await r.json();
-      loadedFiles.add('sigungu');
-    }catch(e2){}
-  }
+  }catch(e){}
 }
 
 async function loadDongData(){
   if(loadedFiles.has('dong'))return;
   try{
-    const res=await fetch('/api/apt?type=dong');
-    dongData=await res.json();
+    const r=await fetch('/split_output/coords_dong.json');
+    dongData=await r.json();
     loadedFiles.add('dong');
     if(map&&map.getLevel()>=7&&map.getLevel()<9)updateMarkersForZoom();
-  }catch(e){
-    try{
-      const r=await fetch('/split_output/coords_dong.json');
-      dongData=await r.json();
-      loadedFiles.add('dong');
-    }catch(e2){}
-  }
+  }catch(e){}
 }
 
 async function loadAptData(sigunguName){
   const key='apt_'+sigunguName;
   if(loadedFiles.has(key))return;
   try{
-    // Supabase DB에서 단지 데이터 로드
-    const res=await fetch(`/api/apt?type=apt&code=${encodeURIComponent(sigunguName)}`);
-    const apts=await res.json();
+    const r=await fetch(`/split_output/coords_apt_${sigunguName}.json`);
+    const apts=await r.json();
     loadedFiles.add(key);
     apts.forEach(d=>{
       if(!d.lat||!d.lng)return;
-      MAP_DATA.push({id:'apt_'+(aptIdCounter++),type:'apt',name:d.name||'',addr:d.addr||'',built:d.built_year?d.built_year+'년':'',units:d.units?d.units+'세대':'',sale:'',jeonse:'',monthly:'',lat:parseFloat(d.lat),lng:parseFloat(d.lng)});
+      MAP_DATA.push({id:'apt_'+(aptIdCounter++),type:'apt',name:d.name||'',addr:d.addr||'',built:d.built||'',units:d.units>0?d.units+'세대':'',sale:'',jeonse:'',monthly:'',lat:d.lat,lng:d.lng});
     });
     renderVisibleMarkers('apt');
-  }catch(e){
-    // fallback to file
-    try{
-      const r=await fetch(`/split_output/coords_apt_${sigunguName}.json`);
-      const apts=await r.json();
-      loadedFiles.add(key);
-      apts.forEach(d=>{
-        if(!d.lat||!d.lng)return;
-        MAP_DATA.push({id:'apt_'+(aptIdCounter++),type:'apt',name:d.n||'',addr:d.a||'',built:d.b||'',units:d.u||'',sale:'',jeonse:'',monthly:'',lat:d.lat,lng:d.lng});
-      });
-      renderVisibleMarkers('apt');
-    }catch(e2){}
-  }
+  }catch(e){}
 }
 
 async function loadCoordsJson(){
