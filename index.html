@@ -1040,7 +1040,7 @@ async function loadAptForCurrentView(){
   sigunguData.forEach(sg=>{
     if(!sg.lat||!sg.lng)return;
     if(sg.lat>=swLat&&sg.lat<=neLat&&sg.lng>=swLng&&sg.lng<=neLng){
-      promises.push(loadAptData(sg.name.replace(/\s/g,'')));
+      promises.push(loadAptData(sg.code||sg.name.replace(/\s/g,'')));
     }
   });
   await Promise.all(promises);
