@@ -885,7 +885,7 @@ async function loadAptData(sigunguName){
     loadedFiles.add(key);
     apts.forEach(d=>{
       if(!d.lat||!d.lng)return;
-      MAP_DATA.push({id:'apt_'+(aptIdCounter++),type:'apt',name:d.name||'',addr:d.addr||'',built:d.built||'',units:d.units>0?d.units+'세대':'',sale:'',jeonse:'',monthly:'',lat:d.lat,lng:d.lng});
+      MAP_DATA.push({id:'apt_'+(aptIdCounter++),type:'apt',name:d.name||'',addr:d.addr||'',built:d.built||'',units:d.units>0?d.units+'세대':'',emd:d.emd||'',sale:'',jeonse:'',monthly:'',lat:d.lat,lng:d.lng});
     });
     renderVisibleMarkers('apt');
   }catch(e){}
@@ -911,21 +911,40 @@ function renderVisibleMarkers(showType='apt'){
   const bounds=map.getBounds();
   const sw=bounds.getSouthWest();
   const ne=bounds.getNorthEast();
+  const level=map.getLevel();
 
   markers.forEach(m=>{m.marker.setMap(null);if(m.overlay)m.overlay.setMap(null);});
   markers=[];
 
   const visible=MAP_DATA.filter(d=>{
     if(!d.lat||!d.lng) return false;
-    // 500m: 공동주택만, 250m 이하: 전체(공동주택+협력중개사)
     if(showType==='apt' && d.type!=='apt') return false;
     if(showType==='all' && curFilter!=='all' && d.type!==curFilter) return false;
     return d.lat>=sw.getLat()&&d.lat<=ne.getLat()&&
            d.lng>=sw.getLng()&&d.lng<=ne.getLng();
   });
 
-  const limited=visible.slice(0,100);
-  limited.forEach(d=>addMarker(d));
+  // 500m(level 4~6): 읍면동별 5~10개 랜덤 표시
+  if(level>=4 && level<=6 && showType==='apt'){
+    const PER_DONG = Math.floor(Math.random()*6)+5; // 5~10개
+    const dongGroups={};
+    visible.forEach(d=>{
+      const key=d.emd||'기타';
+      if(!dongGroups[key]) dongGroups[key]=[];
+      dongGroups[key].push(d);
+    });
+    const selected=[];
+    Object.values(dongGroups).forEach(group=>{
+      // 세대수 큰 순 정렬 후 상위에서 랜덤 추출
+      group.sort((a,b)=>(parseInt(b.units)||0)-(parseInt(a.units)||0));
+      const top=group.slice(0, Math.min(group.length, PER_DONG*2));
+      const shuffled=top.sort(()=>Math.random()-0.5);
+      selected.push(...shuffled.slice(0, PER_DONG));
+    });
+    selected.forEach(d=>addMarker(d));
+  } else {
+    visible.slice(0,200).forEach(d=>addMarker(d));
+  }
 }
 
 function sleep(ms){return new Promise(r=>setTimeout(r,ms));}
