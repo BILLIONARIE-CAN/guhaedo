@@ -1183,12 +1183,14 @@ function addMarker(d){
     const u=d.units?'<br><span style="font-size:10px;font-weight:400;opacity:.85">'+d.units+'세대</span>':'';
     bc=`<div onclick="selectItem('${d.id}')" style="background:#1a56db;color:#fff;padding:3px 7px;border-radius:4px;font-size:11px;font-weight:700;cursor:pointer;box-shadow:0 1px 4px rgba(0,0,0,.3);white-space:nowrap;text-align:center;line-height:1.5">${n}${u}</div>`;
   }else if(d.type==='broker'){
-    const photo=d.photo?'<img src="'+d.photo+'" style="width:100%;height:100%;object-fit:cover;border-radius:50%;" onerror="this.style.display='none';this.parentElement.innerHTML='🏠'"/>':' 🏠';
     const bname=d.name.length>8?d.name.substring(0,8)+'..':d.name;
-    bc='<div onclick="selectItem(''+d.id+'')" style="position:relative;z-index:999;cursor:pointer" title="'+d.name+'">'+
-      '<div style="width:44px;height:44px;border-radius:50%;background:#e53e3e;border:3px solid #fff;box-shadow:0 2px 8px rgba(0,0,0,.4);display:flex;align-items:center;justify-content:center;overflow:hidden;font-size:18px">'+photo+'</div>'+
-      '<div style="position:absolute;bottom:-18px;left:50%;transform:translateX(-50%);background:#e53e3e;color:#fff;font-size:9px;font-weight:700;padding:1px 5px;border-radius:4px;white-space:nowrap;box-shadow:0 1px 3px rgba(0,0,0,.3);max-width:80px;overflow:hidden;text-overflow:ellipsis">'+bname+'</div>'+
-    '</div>';
+    const inner=d.photo?'<img src="'+d.photo+'" style="width:44px;height:44px;border-radius:50%;object-fit:cover;" />':'<span style="font-size:18px">🏠</span>';
+    const div=document.createElement('div');
+    div.style.cssText='position:relative;cursor:pointer;z-index:999';
+    div.title=d.name;
+    div.innerHTML='<div style="width:44px;height:44px;border-radius:50%;background:#e53e3e;border:3px solid #fff;box-shadow:0 2px 8px rgba(0,0,0,.4);display:flex;align-items:center;justify-content:center;overflow:hidden">'+inner+'</div><div style="position:absolute;bottom:-18px;left:50%;transform:translateX(-50%);background:#e53e3e;color:#fff;font-size:9px;font-weight:700;padding:1px 5px;border-radius:4px;white-space:nowrap;max-width:80px;overflow:hidden;text-overflow:ellipsis">'+bname+'</div>';
+    div.onclick=function(){selectItem(d.id);};
+    bc=div;
   }
   const overlay=new kakao.maps.CustomOverlay({position:pos,content:bc,yAnchor:d.type==='broker'?1.3:1.1,zIndex:d.type==='broker'?999:3});
   overlay.setMap(map&&(d.type!=='broker'||map.getLevel()<=4)?map:null);
