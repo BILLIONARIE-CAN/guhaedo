@@ -6,6 +6,11 @@
 <title>아구구 - 아파트 구할땐 아구구!</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
+@keyframes brokerGlow {
+  0%,100% { box-shadow: 0 1px 4px rgba(0,0,0,.4), 0 0 0 0 rgba(49,130,206,0); }
+  50% { box-shadow: 0 1px 4px rgba(0,0,0,.4), 0 0 0 5px rgba(49,130,206,.55); }
+}
+.broker-glow { animation: brokerGlow 2s ease-in-out infinite; }
 *{box-sizing:border-box;margin:0;padding:0}
 :root{
   --green:#1D9E75;--green-dark:#0F6E56;--green-deeper:#085041;
@@ -1190,7 +1195,8 @@ function addMarker(d){
     wrapDiv.style.cssText='position:relative;cursor:pointer;z-index:999';
     wrapDiv.title=d.name;
     const circleDiv=document.createElement('div');
-    circleDiv.style.cssText='width:'+sz+'px;height:'+sz+'px;border-radius:50%;background:#e53e3e;border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.4);display:flex;align-items:center;justify-content:center;overflow:hidden;font-size:'+fs+'px';
+    circleDiv.className='broker-glow';
+    circleDiv.style.cssText='width:'+sz+'px;height:'+sz+'px;border-radius:50%;background:#e53e3e;border:2px solid #fff;display:flex;align-items:center;justify-content:center;overflow:hidden;font-size:'+fs+'px';
     if(d.photo){const img=document.createElement('img');img.src=d.photo;img.style.cssText='width:100%;height:100%;object-fit:cover;border-radius:50%';circleDiv.appendChild(img);}
     else{circleDiv.textContent='🏠';}
     const labelDiv=document.createElement('div');
