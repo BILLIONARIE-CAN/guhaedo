@@ -1184,7 +1184,7 @@ function addMarker(d){
   }else if(d.type==='broker'){
     const bname=d.name.length>8?d.name.substring(0,8)+'..':d.name;
     const lv=map?map.getLevel():5;
-    const sz=lv<=2?60:lv<=4?45:30; // 20m:100%, 50~100m:75%, 250m:50%
+    const sz=lv<=2?48:lv<=4?36:24; // 20% 축소
     const fs=lv<=2?15:lv<=4?12:10;
     const wrapDiv=document.createElement('div');
     wrapDiv.style.cssText='position:relative;cursor:pointer;z-index:999';
