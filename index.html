@@ -934,7 +934,7 @@ function renderVisibleMarkers(showType='apt'){
     if(!d.lat||!d.lng) return false;
     if(showType==='apt' && d.type!=='apt') return false;
     if(showType==='all' && curFilter!=='all' && d.type!==curFilter) return false;
-    if(d.type==='broker' && level>4) return false;
+    if(d.type==='broker' && level>3) return false;
     return d.lat>=sw.getLat()&&d.lat<=ne.getLat()&&
            d.lng>=sw.getLng()&&d.lng<=ne.getLng();
   });
@@ -1183,11 +1183,11 @@ function addMarker(d){
     wrapDiv.style.cssText='position:relative;cursor:pointer;z-index:999';
     wrapDiv.title=d.name;
     const circleDiv=document.createElement('div');
-    circleDiv.style.cssText='width:44px;height:44px;border-radius:50%;background:#e53e3e;border:3px solid #fff;box-shadow:0 2px 8px rgba(0,0,0,.4);display:flex;align-items:center;justify-content:center;overflow:hidden;font-size:18px';
+    circleDiv.style.cssText='width:30px;height:30px;border-radius:50%;background:#e53e3e;border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.4);display:flex;align-items:center;justify-content:center;overflow:hidden;font-size:13px';
     if(d.photo){const img=document.createElement('img');img.src=d.photo;img.style.cssText='width:100%;height:100%;object-fit:cover;border-radius:50%';circleDiv.appendChild(img);}
     else{circleDiv.textContent='🏠';}
     const labelDiv=document.createElement('div');
-    labelDiv.style.cssText='position:absolute;bottom:-18px;left:50%;transform:translateX(-50%);background:#e53e3e;color:#fff;font-size:9px;font-weight:700;padding:1px 5px;border-radius:4px;white-space:nowrap;max-width:80px;overflow:hidden;text-overflow:ellipsis';
+    labelDiv.style.cssText='position:absolute;bottom:-15px;left:50%;transform:translateX(-50%);background:#e53e3e;color:#fff;font-size:8px;font-weight:700;padding:1px 4px;border-radius:3px;white-space:nowrap;max-width:70px;overflow:hidden;text-overflow:ellipsis';
     labelDiv.textContent=bname;
     wrapDiv.appendChild(circleDiv);wrapDiv.appendChild(labelDiv);
     wrapDiv.onclick=function(){selectItem(d.id);};
