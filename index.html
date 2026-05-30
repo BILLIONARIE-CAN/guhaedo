@@ -938,27 +938,8 @@ function renderVisibleMarkers(showType='apt'){
            d.lng>=sw.getLng()&&d.lng<=ne.getLng();
   });
 
-  // 500m(level 4~6): 읍면동별 5~10개 랜덤 표시
-  if(level>=4 && level<=6 && showType==='apt'){
-    const PER_DONG = Math.floor(Math.random()*6)+5; // 5~10개
-    const dongGroups={};
-    visible.forEach(d=>{
-      const key=d.emd||'기타';
-      if(!dongGroups[key]) dongGroups[key]=[];
-      dongGroups[key].push(d);
-    });
-    const selected=[];
-    Object.values(dongGroups).forEach(group=>{
-      // 세대수 큰 순 정렬 후 상위에서 랜덤 추출
-      group.sort((a,b)=>(parseInt(b.units)||0)-(parseInt(a.units)||0));
-      const top=group.slice(0, Math.min(group.length, PER_DONG*2));
-      const shuffled=top.sort(()=>Math.random()-0.5);
-      selected.push(...shuffled.slice(0, PER_DONG));
-    });
-    selected.forEach(d=>addMarker(d));
-  } else {
-    visible.slice(0,200).forEach(d=>addMarker(d));
-  }
+  // 화면 안 단지 전부 표시
+  visible.forEach(d=>addMarker(d));
 }
 
 function sleep(ms){return new Promise(r=>setTimeout(r,ms));}
@@ -1021,10 +1002,10 @@ function updateMarkersForZoom(){
       if(map&&map.getLevel()>=5&&map.getLevel()<7) renderVisibleMarkers('apt');
     });
   } else {
-    // 공동주택 + 중개사 (300m~)
+    // 공동주택 + 중개사 (250m~)
     renderVisibleMarkers('all');
     loadAptForCurrentView().then(()=>{
-      if(map&&map.getLevel()<5) renderVisibleMarkers('all');
+      if(map&&map.getLevel()<=4) renderVisibleMarkers('all');
     });
   }
 }
