@@ -709,6 +709,8 @@ async function loadBrokers(){
         BROKER_DATA.push(item);
         MAP_DATA.push(item);
       });
+      // 로드 완료 후 현재 레벨이 300m 이하면 바로 렌더링
+      if(map && map.getLevel()<=3) renderVisibleMarkers('all');
     }
   }catch(e){console.log('brokers 로드 실패:',e);}
 }
@@ -1181,15 +1183,18 @@ function addMarker(d){
     bc=`<div onclick="selectItem('${d.id}')" style="background:#1a56db;color:#fff;padding:2px 5px;border-radius:3px;font-size:11px;font-weight:700;cursor:pointer;box-shadow:0 1px 3px rgba(0,0,0,.3);white-space:nowrap;text-align:center;line-height:1.4">${n}${u}</div>`;
   }else if(d.type==='broker'){
     const bname=d.name.length>8?d.name.substring(0,8)+'..':d.name;
+    const lv=map?map.getLevel():3;
+    const sz=lv<=1?30:lv<=2?22:15; // 50m:100%, 100m:75%, 250m:50%
+    const fs=lv<=1?13:lv<=2?10:8;
     const wrapDiv=document.createElement('div');
     wrapDiv.style.cssText='position:relative;cursor:pointer;z-index:999';
     wrapDiv.title=d.name;
     const circleDiv=document.createElement('div');
-    circleDiv.style.cssText='width:30px;height:30px;border-radius:50%;background:#e53e3e;border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.4);display:flex;align-items:center;justify-content:center;overflow:hidden;font-size:13px';
+    circleDiv.style.cssText='width:'+sz+'px;height:'+sz+'px;border-radius:50%;background:#e53e3e;border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.4);display:flex;align-items:center;justify-content:center;overflow:hidden;font-size:'+fs+'px';
     if(d.photo){const img=document.createElement('img');img.src=d.photo;img.style.cssText='width:100%;height:100%;object-fit:cover;border-radius:50%';circleDiv.appendChild(img);}
     else{circleDiv.textContent='🏠';}
     const labelDiv=document.createElement('div');
-    labelDiv.style.cssText='position:absolute;bottom:-15px;left:50%;transform:translateX(-50%);background:#e53e3e;color:#fff;font-size:8px;font-weight:700;padding:1px 4px;border-radius:3px;white-space:nowrap;max-width:70px;overflow:hidden;text-overflow:ellipsis';
+    labelDiv.style.cssText='position:absolute;bottom:-'+(fs+4)+'px;left:50%;transform:translateX(-50%);background:#e53e3e;color:#fff;font-size:'+(fs-1)+'px;font-weight:700;padding:1px 4px;border-radius:3px;white-space:nowrap;max-width:70px;overflow:hidden;text-overflow:ellipsis';
     labelDiv.textContent=bname;
     wrapDiv.appendChild(circleDiv);wrapDiv.appendChild(labelDiv);
     wrapDiv.onclick=function(){selectItem(d.id);};
