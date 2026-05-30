@@ -4,53 +4,34 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>아구구 관리자</title>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.10/dayjs.min.js"></script>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:'Apple SD Gothic Neo',sans-serif;background:#0f1117;color:#e2e8f0;min-height:100vh}
 .header{background:#1a1f2e;border-bottom:1px solid #2d3748;padding:14px 24px;display:flex;align-items:center;gap:12px;position:sticky;top:0;z-index:100}
-.header h1{font-size:16px;font-weight:700;color:#fff}
 .logo{font-size:20px;font-weight:900;color:#48bb78}
-
-/* 로그인 */
 .login-wrap{max-width:340px;margin:80px auto;padding:32px;background:#1a1f2e;border-radius:12px;border:1px solid #2d3748}
-.login-wrap h2{font-size:18px;font-weight:700;margin-bottom:20px;text-align:center}
-
-/* 레이아웃 */
 .container{max-width:1100px;margin:0 auto;padding:24px}
 .card{background:#1a1f2e;border-radius:12px;border:1px solid #2d3748;padding:24px;margin-bottom:20px}
-.card-title{font-size:15px;font-weight:700;margin-bottom:18px;color:#fff}
-
-/* 폼 */
+.card-title{font-size:15px;font-weight:700;margin-bottom:18px;color:#fff;display:flex;align-items:center;gap:8px}
 .field{margin-bottom:14px}
 .field label{display:block;font-size:11px;color:#a0aec0;font-weight:600;margin-bottom:5px;text-transform:uppercase;letter-spacing:.5px}
 .input{width:100%;padding:9px 12px;background:#2d3748;border:1px solid #4a5568;border-radius:7px;color:#fff;font-size:13px;outline:none;transition:border .2s}
 .input:focus{border-color:#48bb78}
 .grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
 .grid3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}
-
-/* 버튼 */
 .btn{padding:9px 18px;border:none;border-radius:7px;font-size:13px;font-weight:600;cursor:pointer;transition:.15s}
 .btn-green{background:#48bb78;color:#fff}.btn-green:hover{background:#38a169}
 .btn-blue{background:#3182ce;color:#fff}.btn-blue:hover{background:#2b6cb0}
 .btn-red{background:#e53e3e;color:#fff}.btn-red:hover{background:#c53030}
 .btn-gray{background:#4a5568;color:#fff}.btn-gray:hover{background:#2d3748}
-.btn-yellow{background:#d69e2e;color:#fff}.btn-yellow:hover{background:#b7791f}
 .btn-sm{padding:5px 12px;font-size:11px}
-
-/* 지도 */
-#map-picker{width:100%;height:320px;border-radius:8px;border:1px solid #4a5568;margin-bottom:10px}
+#map-picker{width:100%;height:300px;border-radius:8px;border:1px solid #4a5568;margin-bottom:10px}
 .coord-display{background:#2d3748;border-radius:6px;padding:8px 12px;font-size:12px;color:#a0aec0;display:flex;align-items:center;gap:8px}
 .coord-display span{color:#48bb78;font-weight:600}
-
-/* 사진 업로드 */
-.photo-upload{border:2px dashed #4a5568;border-radius:8px;padding:20px;text-align:center;cursor:pointer;transition:.2s;position:relative}
+.photo-upload{border:2px dashed #4a5568;border-radius:8px;padding:16px;text-align:center;cursor:pointer;transition:.2s}
 .photo-upload:hover{border-color:#48bb78;background:#1e2533}
-.photo-upload input{position:absolute;inset:0;opacity:0;cursor:pointer}
 .photo-preview-wrap{display:flex;align-items:center;gap:12px;margin-top:10px}
-.photo-circle{width:60px;height:60px;border-radius:50%;object-fit:cover;border:2px solid #48bb78}
-
-/* 테이블 */
+.photo-circle{width:56px;height:56px;border-radius:50%;object-fit:cover;border:2px solid #48bb78}
 .table-wrap{overflow-x:auto}
 table{width:100%;border-collapse:collapse}
 th{font-size:11px;color:#718096;font-weight:600;padding:8px 12px;border-bottom:1px solid #2d3748;text-align:left;white-space:nowrap}
@@ -61,42 +42,37 @@ tr:hover td{background:#1a2030}
 .badge-off{background:#742a2a;color:#feb2b2}
 .badge-exp{background:#7b341e;color:#fbd38d}
 .avatar{width:34px;height:34px;border-radius:50%;object-fit:cover;border:2px solid #4a5568}
-.avatar-placeholder{width:34px;height:34px;border-radius:50%;background:#2d3748;display:flex;align-items:center;justify-content:center;font-size:16px}
-
-/* 모달 */
-.modal-bg{position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:200;display:flex;align-items:center;justify-content:center;padding:20px}
-.modal{background:#1a1f2e;border-radius:12px;border:1px solid #2d3748;padding:28px;width:100%;max-width:560px;max-height:90vh;overflow-y:auto}
-.modal-title{font-size:16px;font-weight:700;margin-bottom:20px}
-
-/* 토스트 */
+.avatar-ph{width:34px;height:34px;border-radius:50%;background:#2d3748;display:flex;align-items:center;justify-content:center;font-size:16px}
 .toast{position:fixed;bottom:24px;right:24px;padding:12px 20px;border-radius:8px;font-size:13px;font-weight:600;opacity:0;transition:opacity .3s;z-index:999;pointer-events:none}
 .toast.show{opacity:1}
+.edit-mode{border-color:#3182ce !important;box-shadow:0 0 0 2px rgba(49,130,206,.3)}
+.search-wrap{display:flex;align-items:center;gap:10px;margin-bottom:16px}
+.search-input{flex:1;padding:9px 12px;background:#2d3748;border:1px solid #4a5568;border-radius:7px;color:#fff;font-size:13px;outline:none}
+.search-input:focus{border-color:#48bb78}
 </style>
 </head>
 <body>
 
-<!-- 로그인 -->
 <div id="login-page">
   <div style="text-align:center;padding:48px 0 0">
     <div style="font-size:32px;font-weight:900;color:#48bb78">아구구</div>
     <div style="font-size:12px;color:#718096;margin-top:4px">관리자 페이지</div>
   </div>
   <div class="login-wrap">
-    <h2>🔐 로그인</h2>
+    <div style="font-size:18px;font-weight:700;margin-bottom:20px;text-align:center">🔐 로그인</div>
     <div class="field">
       <label>비밀번호</label>
-      <input class="input" type="password" id="pw" placeholder="비밀번호 입력" onkeydown="if(event.key==='Enter')doLogin()">
+      <input class="input" type="password" id="pw" placeholder="비밀번호" onkeydown="if(event.key==='Enter')doLogin()">
     </div>
     <button class="btn btn-green" style="width:100%;padding:11px" onclick="doLogin()">로그인</button>
     <div id="login-err" style="color:#fc8181;font-size:12px;margin-top:8px;text-align:center"></div>
   </div>
 </div>
 
-<!-- 메인 -->
 <div id="main-page" style="display:none">
   <div class="header">
     <div class="logo">아구구</div>
-    <h1>관리자</h1>
+    <span style="font-size:15px;font-weight:700">관리자</span>
     <div style="margin-left:auto;display:flex;gap:8px;align-items:center">
       <a href="https://guhaedo.kr" target="_blank" style="color:#48bb78;font-size:12px;text-decoration:none">사이트 →</a>
       <button class="btn btn-gray btn-sm" onclick="logout()">로그아웃</button>
@@ -104,18 +80,22 @@ tr:hover td{background:#1a2030}
   </div>
 
   <div class="container">
+    <!-- 등록/수정 폼 -->
+    <div class="card" id="form-card">
+      <div class="card-title">
+        <span id="form-title-text">➕ 중개사 등록</span>
+        <span id="edit-badge" style="display:none;background:#3182ce;color:#fff;font-size:11px;padding:2px 8px;border-radius:4px;font-weight:600">수정 중</span>
+        <div style="margin-left:auto;display:flex;gap:6px">
+          <button class="btn btn-gray btn-sm" id="cancel-edit-btn" style="display:none" onclick="cancelEdit()">취소</button>
+        </div>
+      </div>
 
-    <!-- 중개사 추가 -->
-    <div class="card">
-      <div class="card-title">➕ 중개사 등록</div>
-
-      <!-- 지도 핀 -->
       <div class="field">
-        <label>📍 지도에서 위치 선택 (클릭하면 핀이 꽂혀요)</label>
+        <label>📍 지도 클릭으로 위치 지정</label>
         <div id="map-picker"></div>
         <div class="coord-display">
           위도 <span id="disp-lat">-</span> / 경도 <span id="disp-lng">-</span>
-          <span style="color:#718096;margin-left:auto">지도를 클릭해서 위치를 지정하세요</span>
+          <span style="color:#718096;margin-left:auto;font-size:11px">지도를 클릭해서 위치 지정</span>
         </div>
       </div>
 
@@ -139,7 +119,7 @@ tr:hover td{background:#1a2030}
           <input class="input" type="date" id="f-start">
         </div>
         <div class="field">
-          <label>가입 만료일 (비워두면 무제한)</label>
+          <label>만료일 (비워두면 무제한)</label>
           <input class="input" type="date" id="f-expires">
         </div>
         <div class="field">
@@ -148,15 +128,14 @@ tr:hover td{background:#1a2030}
         </div>
       </div>
 
-      <!-- 사진 업로드 -->
       <div class="field">
         <label>프로필 사진</label>
         <div class="photo-upload" onclick="document.getElementById('f-photo-file').click()">
           <input type="file" id="f-photo-file" accept="image/*" style="display:none" onchange="previewPhoto(this)">
           <div id="photo-upload-text">
-            <div style="font-size:24px;margin-bottom:6px">📷</div>
+            <div style="font-size:22px;margin-bottom:4px">📷</div>
             <div style="font-size:13px;color:#a0aec0">클릭해서 사진 선택</div>
-            <div style="font-size:11px;color:#718096;margin-top:3px">JPG, PNG (최대 1MB 권장)</div>
+            <div style="font-size:11px;color:#718096;margin-top:2px">JPG, PNG (최대 1MB 권장)</div>
           </div>
         </div>
         <div class="photo-preview-wrap" id="photo-preview-wrap" style="display:none">
@@ -168,76 +147,24 @@ tr:hover td{background:#1a2030}
         </div>
       </div>
 
-      <button class="btn btn-green" onclick="addBroker()">✅ 등록하기</button>
+      <div style="display:flex;gap:8px">
+        <button class="btn btn-green" onclick="submitForm()" id="submit-btn">✅ 등록하기</button>
+        <button class="btn btn-gray" id="cancel-edit-btn2" style="display:none" onclick="cancelEdit()">취소</button>
+      </div>
     </div>
 
     <!-- 목록 -->
     <div class="card">
-      <div class="card-title">👥 등록된 중개사 <span id="broker-count" style="font-size:13px;color:#718096;font-weight:400"></span></div>
+      <div class="card-title">
+        👥 등록된 중개사 <span id="broker-count" style="font-size:13px;color:#718096;font-weight:400"></span>
+      </div>
+      <div class="search-wrap">
+        <input class="search-input" id="search-input" placeholder="🔍 검색 (예: 탕정, 배방, 아산...)" oninput="filterBrokers()">
+        <button class="btn btn-gray btn-sm" onclick="document.getElementById('search-input').value='';filterBrokers()">초기화</button>
+      </div>
       <div class="table-wrap" id="broker-list">
         <div style="text-align:center;padding:32px;color:#718096">불러오는 중...</div>
       </div>
-    </div>
-  </div>
-</div>
-
-<!-- 수정 모달 -->
-<div class="modal-bg" id="edit-modal" style="display:none" onclick="if(event.target===this)closeEdit()">
-  <div class="modal">
-    <div class="modal-title">✏️ 중개사 정보 수정</div>
-    <input type="hidden" id="edit-id">
-    <div class="grid2">
-      <div class="field">
-        <label>사무소명 *</label>
-        <input class="input" id="edit-name">
-      </div>
-      <div class="field">
-        <label>연락처</label>
-        <input class="input" id="edit-phone">
-      </div>
-    </div>
-    <div class="field">
-      <label>주소</label>
-      <input class="input" id="edit-addr">
-    </div>
-    <div class="grid2">
-      <div class="field">
-        <label>위도</label>
-        <input class="input" id="edit-lat" type="number" step="0.0001">
-      </div>
-      <div class="field">
-        <label>경도</label>
-        <input class="input" id="edit-lng" type="number" step="0.0001">
-      </div>
-    </div>
-    <div class="grid2">
-      <div class="field">
-        <label>가입 시작일</label>
-        <input class="input" type="date" id="edit-start">
-      </div>
-      <div class="field">
-        <label>만료일 (비워두면 무제한)</label>
-        <input class="input" type="date" id="edit-expires">
-      </div>
-    </div>
-    <div class="field">
-      <label>메모</label>
-      <input class="input" id="edit-memo">
-    </div>
-    <div class="field">
-      <label>프로필 사진 변경 (선택)</label>
-      <div class="photo-upload" onclick="document.getElementById('edit-photo-file').click()">
-        <input type="file" id="edit-photo-file" accept="image/*" style="display:none" onchange="previewEditPhoto(this)">
-        <div id="edit-photo-text" style="font-size:13px;color:#a0aec0;padding:8px 0">📷 클릭해서 새 사진 선택</div>
-      </div>
-      <div id="edit-photo-preview-wrap" style="display:none;margin-top:8px" class="photo-preview-wrap">
-        <img id="edit-photo-preview" class="photo-circle">
-        <button class="btn btn-gray btn-sm" onclick="clearEditPhoto()">제거</button>
-      </div>
-    </div>
-    <div style="display:flex;gap:8px;margin-top:8px">
-      <button class="btn btn-green" onclick="saveEdit()">저장</button>
-      <button class="btn btn-gray" onclick="closeEdit()">취소</button>
     </div>
   </div>
 </div>
@@ -249,30 +176,18 @@ tr:hover td{background:#1a2030}
 const SUPABASE_URL = 'https://nqnbbccazjanjhktknyz.supabase.co';
 const SUPABASE_ANON = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5xbmJiY2Nhemphbmpoa3Rrbnl6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzk0OTA5NDQsImV4cCI6MjA5NTA2Njk0NH0.rT_hIwTJyBnCDGyudmJYvN44G67WgZ9-bSVCzShiRjI';
 const ADMIN_PW = '8888';
+const hdrs = {'Content-Type':'application/json',apikey:SUPABASE_ANON,Authorization:`Bearer ${SUPABASE_ANON}`,Prefer:'return=representation'};
 
-const hdrs = {
-  'Content-Type':'application/json',
-  apikey: SUPABASE_ANON,
-  Authorization: `Bearer ${SUPABASE_ANON}`,
-  Prefer: 'return=representation'
-};
+let pickedLat=null, pickedLng=null, kakaoMap=null, pickerMarker=null;
+let photoBase64=null, editingId=null, allBrokers=[];
 
-let pickedLat = null, pickedLng = null;
-let kakaoMap = null, pickerMarker = null;
-let editPhotoBase64 = null;
-let addPhotoBase64 = null;
-
-// ===== 로그인 =====
 function doLogin(){
-  if(document.getElementById('pw').value === ADMIN_PW){
+  if(document.getElementById('pw').value===ADMIN_PW){
     document.getElementById('login-page').style.display='none';
     document.getElementById('main-page').style.display='block';
-    initMap();
-    loadBrokers();
-    document.getElementById('f-start').value = new Date().toISOString().split('T')[0];
-  } else {
-    document.getElementById('login-err').textContent='비밀번호가 틀렸습니다.';
-  }
+    initMap(); loadBrokers();
+    document.getElementById('f-start').value=new Date().toISOString().split('T')[0];
+  } else { document.getElementById('login-err').textContent='비밀번호가 틀렸습니다.'; }
 }
 function logout(){
   document.getElementById('login-page').style.display='block';
@@ -280,198 +195,178 @@ function logout(){
   document.getElementById('pw').value='';
 }
 
-// ===== 카카오맵 =====
 function initMap(){
   kakao.maps.load(()=>{
-    const container = document.getElementById('map-picker');
-    kakaoMap = new kakao.maps.Map(container, {
-      center: new kakao.maps.LatLng(36.7782, 127.0952),
-      level: 5
+    kakaoMap = new kakao.maps.Map(document.getElementById('map-picker'),{
+      center:new kakao.maps.LatLng(36.7782,127.0952), level:7
     });
-    kakao.maps.event.addListener(kakaoMap, 'click', (e)=>{
-      const lat = e.latLng.getLat();
-      const lng = e.latLng.getLng();
-      pickedLat = lat; pickedLng = lng;
-      document.getElementById('disp-lat').textContent = lat.toFixed(6);
-      document.getElementById('disp-lng').textContent = lng.toFixed(6);
+    kakao.maps.event.addListener(kakaoMap,'click',e=>{
+      pickedLat=e.latLng.getLat(); pickedLng=e.latLng.getLng();
+      document.getElementById('disp-lat').textContent=pickedLat.toFixed(6);
+      document.getElementById('disp-lng').textContent=pickedLng.toFixed(6);
       if(pickerMarker) pickerMarker.setMap(null);
-      pickerMarker = new kakao.maps.Marker({position: e.latLng, map: kakaoMap});
+      pickerMarker=new kakao.maps.Marker({position:e.latLng,map:kakaoMap});
     });
   });
 }
 
-// ===== 사진 =====
 function previewPhoto(input){
-  const file = input.files[0];
-  if(!file) return;
-  const reader = new FileReader();
-  reader.onload = e => {
-    addPhotoBase64 = e.target.result;
-    document.getElementById('photo-preview').src = e.target.result;
-    document.getElementById('photo-filename').textContent = file.name;
+  const file=input.files[0]; if(!file) return;
+  const reader=new FileReader();
+  reader.onload=e=>{
+    photoBase64=e.target.result;
+    document.getElementById('photo-preview').src=e.target.result;
+    document.getElementById('photo-filename').textContent=file.name;
     document.getElementById('photo-upload-text').style.display='none';
     document.getElementById('photo-preview-wrap').style.display='flex';
   };
   reader.readAsDataURL(file);
 }
 function clearPhoto(){
-  addPhotoBase64 = null;
+  photoBase64=null;
   document.getElementById('f-photo-file').value='';
   document.getElementById('photo-upload-text').style.display='block';
   document.getElementById('photo-preview-wrap').style.display='none';
 }
-function previewEditPhoto(input){
-  const file = input.files[0];
-  if(!file) return;
-  const reader = new FileReader();
-  reader.onload = e => {
-    editPhotoBase64 = e.target.result;
-    document.getElementById('edit-photo-preview').src = e.target.result;
-    document.getElementById('edit-photo-preview-wrap').style.display='flex';
-  };
-  reader.readAsDataURL(file);
-}
-function clearEditPhoto(){
-  editPhotoBase64 = null;
-  document.getElementById('edit-photo-file').value='';
-  document.getElementById('edit-photo-preview-wrap').style.display='none';
+
+function toast(msg,err=false){
+  const t=document.getElementById('toast');
+  t.textContent=msg; t.style.background=err?'#742a2a':'#276749'; t.style.color=err?'#feb2b2':'#9ae6b4';
+  t.classList.add('show'); setTimeout(()=>t.classList.remove('show'),2500);
 }
 
-// ===== 토스트 =====
-function toast(msg, err=false){
-  const t = document.getElementById('toast');
-  t.textContent = msg;
-  t.style.background = err ? '#742a2a' : '#276749';
-  t.style.color = err ? '#feb2b2' : '#9ae6b4';
-  t.classList.add('show');
-  setTimeout(()=>t.classList.remove('show'), 2500);
-}
-
-// ===== 목록 =====
 async function loadBrokers(){
-  const r = await fetch(`${SUPABASE_URL}/rest/v1/brokers?select=*&order=created_at.desc`, {headers: hdrs});
-  const data = await r.json();
-  const el = document.getElementById('broker-list');
-  document.getElementById('broker-count').textContent = `(${data.length}명)`;
-  if(!data.length){ el.innerHTML='<div style="text-align:center;padding:32px;color:#718096">등록된 중개사가 없습니다</div>'; return; }
+  const r=await fetch(`${SUPABASE_URL}/rest/v1/brokers?select=*&order=created_at.desc`,{headers:hdrs});
+  allBrokers=await r.json();
+  document.getElementById('broker-count').textContent=`(${allBrokers.length}명)`;
+  renderBrokers(allBrokers);
+}
 
-  const today = new Date().toISOString().split('T')[0];
+function filterBrokers(){
+  const q=document.getElementById('search-input').value.trim().toLowerCase();
+  if(!q){ renderBrokers(allBrokers); return; }
+  const filtered=allBrokers.filter(d=>
+    (d.name||'').toLowerCase().includes(q)||
+    (d.addr||'').toLowerCase().includes(q)||
+    (d.phone||'').includes(q)||
+    (d.memo||'').toLowerCase().includes(q)
+  );
+  renderBrokers(filtered);
+}
 
-  el.innerHTML = `<table>
-    <tr>
-      <th>사진</th><th>사무소명</th><th>연락처</th><th>주소</th>
-      <th>만료일</th><th>상태</th><th>관리</th>
-    </tr>
+function renderBrokers(data){
+  const el=document.getElementById('broker-list');
+  if(!data.length){ el.innerHTML='<div style="text-align:center;padding:32px;color:#718096">검색 결과가 없습니다</div>'; return; }
+  const today=new Date().toISOString().split('T')[0];
+  el.innerHTML=`<table>
+    <tr><th>사진</th><th>사무소명</th><th>연락처</th><th>주소</th><th>만료일</th><th>상태</th><th>관리</th></tr>
     ${data.map(d=>{
-      const expired = d.expires_at && d.expires_at < today;
-      const statusBadge = !d.active ? '<span class="badge badge-off">비활성</span>'
-        : expired ? '<span class="badge badge-exp">만료</span>'
-        : '<span class="badge badge-on">활성</span>';
-      const expireText = !d.expires_at ? '<span style="color:#48bb78;font-size:11px">무제한</span>'
-        : `<span style="font-size:12px;color:${expired?'#fc8181':'#a0aec0'}">${d.expires_at}</span>`;
-      const avatar = d.photo
-        ? `<img class="avatar" src="${d.photo}" onerror="this.style.display='none'">`
-        : `<div class="avatar-placeholder">🏠</div>`;
+      const expired=d.expires_at&&d.expires_at<today;
+      const status=!d.active?'<span class="badge badge-off">비활성</span>':expired?'<span class="badge badge-exp">만료</span>':'<span class="badge badge-on">활성</span>';
+      const exp=!d.expires_at?'<span style="color:#48bb78;font-size:11px">무제한</span>':`<span style="font-size:12px;color:${expired?'#fc8181':'#a0aec0'}">${d.expires_at}</span>`;
+      const av=d.photo?`<img class="avatar" src="${d.photo}">`:'<div class="avatar-ph">🏠</div>';
       return `<tr>
-        <td>${avatar}</td>
-        <td style="font-weight:600">${d.name}${d.memo?`<div style="font-size:11px;color:#718096;margin-top:2px">${d.memo}</div>`:''}
-        </td>
+        <td>${av}</td>
+        <td style="font-weight:600">${d.name}${d.memo?`<div style="font-size:11px;color:#718096;margin-top:2px">${d.memo}</div>`:''}</td>
         <td style="color:#a0aec0">${d.phone||'-'}</td>
-        <td style="color:#a0aec0;font-size:12px;max-width:180px">${d.addr||'-'}</td>
-        <td>${expireText}</td>
-        <td>${statusBadge}</td>
-        <td>
-          <div style="display:flex;gap:5px;flex-wrap:wrap">
-            <button class="btn btn-blue btn-sm" onclick="openEdit('${d.id}')">수정</button>
-            <button class="btn btn-gray btn-sm" onclick="toggleActive('${d.id}',${d.active})">${d.active?'비활성화':'활성화'}</button>
-            <button class="btn btn-red btn-sm" onclick="deleteBroker('${d.id}','${d.name}')">삭제</button>
-          </div>
-        </td>
+        <td style="color:#a0aec0;font-size:12px;max-width:160px">${d.addr||'-'}</td>
+        <td>${exp}</td>
+        <td>${status}</td>
+        <td><div style="display:flex;gap:5px;flex-wrap:wrap">
+          <button class="btn btn-blue btn-sm" onclick="startEdit('${d.id}')">수정</button>
+          <button class="btn btn-gray btn-sm" onclick="toggleActive('${d.id}',${d.active})">${d.active?'비활성':'활성'}</button>
+          <button class="btn btn-red btn-sm" onclick="deleteBroker('${d.id}','${d.name}')">삭제</button>
+        </div></td>
       </tr>`;
     }).join('')}
   </table>`;
 }
 
-// ===== 추가 =====
-async function addBroker(){
-  const name = document.getElementById('f-name').value.trim();
-  if(!name){ toast('사무소명을 입력하세요', true); return; }
-  if(!pickedLat){ toast('지도에서 위치를 선택하세요', true); return; }
-  const body = {
-    name,
-    phone: document.getElementById('f-phone').value.trim(),
-    addr: document.getElementById('f-addr').value.trim(),
-    lat: pickedLat, lng: pickedLng,
-    photo: addPhotoBase64 || null,
-    expires_at: document.getElementById('f-expires').value || null,
-    memo: document.getElementById('f-memo').value.trim(),
-    active: true
-  };
-  const r = await fetch(`${SUPABASE_URL}/rest/v1/brokers`, {method:'POST', headers:hdrs, body:JSON.stringify(body)});
-  if(r.ok){
-    toast('✅ 등록 완료!');
-    ['f-name','f-phone','f-addr','f-expires','f-memo'].forEach(id=>document.getElementById(id).value='');
-    clearPhoto();
-    pickedLat=null; pickedLng=null;
-    if(pickerMarker){pickerMarker.setMap(null);pickerMarker=null;}
-    document.getElementById('disp-lat').textContent='-';
-    document.getElementById('disp-lng').textContent='-';
-    loadBrokers();
-  } else { toast('등록 실패', true); }
+// ===== 수정: 폼 위로 올라가서 수정모드 =====
+function startEdit(id){
+  const d=allBrokers.find(b=>b.id===id); if(!d) return;
+  editingId=id;
+  // 폼으로 스크롤
+  document.getElementById('form-card').scrollIntoView({behavior:'smooth',block:'start'});
+  // 수정모드 UI
+  document.getElementById('form-title-text').textContent='✏️ 중개사 수정';
+  document.getElementById('edit-badge').style.display='inline-block';
+  document.getElementById('submit-btn').textContent='💾 저장하기';
+  document.getElementById('submit-btn').className='btn btn-blue';
+  document.getElementById('cancel-edit-btn').style.display='inline-block';
+  document.getElementById('cancel-edit-btn2').style.display='inline-block';
+  document.getElementById('form-card').classList.add('edit-mode');
+  // 값 채우기
+  document.getElementById('f-name').value=d.name||'';
+  document.getElementById('f-phone').value=d.phone||'';
+  document.getElementById('f-addr').value=d.addr||'';
+  document.getElementById('f-expires').value=d.expires_at||'';
+  document.getElementById('f-memo').value=d.memo||'';
+  // 지도 마커
+  if(d.lat&&d.lng&&kakaoMap){
+    const pos=new kakao.maps.LatLng(d.lat,d.lng);
+    kakaoMap.setCenter(pos); kakaoMap.setLevel(5);
+    if(pickerMarker) pickerMarker.setMap(null);
+    pickerMarker=new kakao.maps.Marker({position:pos,map:kakaoMap});
+    pickedLat=d.lat; pickedLng=d.lng;
+    document.getElementById('disp-lat').textContent=d.lat.toFixed(6);
+    document.getElementById('disp-lng').textContent=d.lng.toFixed(6);
+  }
+  // 사진
+  if(d.photo){
+    photoBase64=d.photo;
+    document.getElementById('photo-preview').src=d.photo;
+    document.getElementById('photo-filename').textContent='기존 사진';
+    document.getElementById('photo-upload-text').style.display='none';
+    document.getElementById('photo-preview-wrap').style.display='flex';
+  } else { clearPhoto(); }
 }
 
-// ===== 수정 모달 =====
-let brokerCache = {};
-async function openEdit(id){
-  const r = await fetch(`${SUPABASE_URL}/rest/v1/brokers?id=eq.${id}`, {headers:hdrs});
-  const data = await r.json();
-  const d = data[0]; if(!d) return;
-  brokerCache[id] = d;
-  editPhotoBase64 = null;
-  document.getElementById('edit-id').value = id;
-  document.getElementById('edit-name').value = d.name||'';
-  document.getElementById('edit-phone').value = d.phone||'';
-  document.getElementById('edit-addr').value = d.addr||'';
-  document.getElementById('edit-lat').value = d.lat||'';
-  document.getElementById('edit-lng').value = d.lng||'';
-  document.getElementById('edit-expires').value = d.expires_at||'';
-  document.getElementById('edit-start').value = d.created_at?d.created_at.split('T')[0]:'';
-  document.getElementById('edit-memo').value = d.memo||'';
-  document.getElementById('edit-photo-preview-wrap').style.display='none';
-  document.getElementById('edit-modal').style.display='flex';
-}
-function closeEdit(){ document.getElementById('edit-modal').style.display='none'; }
-
-async function saveEdit(){
-  const id = document.getElementById('edit-id').value;
-  const body = {
-    name: document.getElementById('edit-name').value.trim(),
-    phone: document.getElementById('edit-phone').value.trim(),
-    addr: document.getElementById('edit-addr').value.trim(),
-    lat: parseFloat(document.getElementById('edit-lat').value),
-    lng: parseFloat(document.getElementById('edit-lng').value),
-    expires_at: document.getElementById('edit-expires').value || null,
-    memo: document.getElementById('edit-memo').value.trim(),
-  };
-  if(editPhotoBase64) body.photo = editPhotoBase64;
-  const r = await fetch(`${SUPABASE_URL}/rest/v1/brokers?id=eq.${id}`, {method:'PATCH', headers:hdrs, body:JSON.stringify(body)});
-  if(r.ok){ toast('✅ 수정 완료!'); closeEdit(); loadBrokers(); }
-  else { toast('수정 실패', true); }
+function cancelEdit(){
+  editingId=null; photoBase64=null;
+  document.getElementById('form-title-text').textContent='➕ 중개사 등록';
+  document.getElementById('edit-badge').style.display='none';
+  document.getElementById('submit-btn').textContent='✅ 등록하기';
+  document.getElementById('submit-btn').className='btn btn-green';
+  document.getElementById('cancel-edit-btn').style.display='none';
+  document.getElementById('cancel-edit-btn2').style.display='none';
+  document.getElementById('form-card').classList.remove('edit-mode');
+  ['f-name','f-phone','f-addr','f-expires','f-memo'].forEach(id=>document.getElementById(id).value='');
+  clearPhoto();
+  if(pickerMarker){pickerMarker.setMap(null);pickerMarker=null;}
+  pickedLat=null; pickedLng=null;
+  document.getElementById('disp-lat').textContent='-';
+  document.getElementById('disp-lng').textContent='-';
 }
 
-// ===== 활성/비활성 =====
-async function toggleActive(id, current){
-  await fetch(`${SUPABASE_URL}/rest/v1/brokers?id=eq.${id}`, {method:'PATCH', headers:hdrs, body:JSON.stringify({active:!current})});
-  toast(current?'비활성화했어요':'활성화했어요');
-  loadBrokers();
+async function submitForm(){
+  const name=document.getElementById('f-name').value.trim();
+  if(!name){toast('사무소명을 입력하세요',true);return;}
+  if(!pickedLat){toast('지도에서 위치를 선택하세요',true);return;}
+  const body={name,phone:document.getElementById('f-phone').value.trim(),addr:document.getElementById('f-addr').value.trim(),lat:pickedLat,lng:pickedLng,photo:photoBase64||null,expires_at:document.getElementById('f-expires').value||null,memo:document.getElementById('f-memo').value.trim(),active:true};
+
+  if(editingId){
+    // 수정
+    const r=await fetch(`${SUPABASE_URL}/rest/v1/brokers?id=eq.${editingId}`,{method:'PATCH',headers:hdrs,body:JSON.stringify(body)});
+    if(r.ok){toast('✅ 수정 완료!');cancelEdit();loadBrokers();}
+    else toast('수정 실패',true);
+  } else {
+    // 신규
+    const r=await fetch(`${SUPABASE_URL}/rest/v1/brokers`,{method:'POST',headers:hdrs,body:JSON.stringify(body)});
+    if(r.ok){toast('✅ 등록 완료!');cancelEdit();loadBrokers();}
+    else toast('등록 실패',true);
+  }
 }
 
-// ===== 삭제 =====
-async function deleteBroker(id, name){
+async function toggleActive(id,current){
+  await fetch(`${SUPABASE_URL}/rest/v1/brokers?id=eq.${id}`,{method:'PATCH',headers:hdrs,body:JSON.stringify({active:!current})});
+  toast(current?'비활성화했어요':'활성화했어요'); loadBrokers();
+}
+
+async function deleteBroker(id,name){
   if(!confirm(`"${name}" 삭제할까요?`)) return;
-  await fetch(`${SUPABASE_URL}/rest/v1/brokers?id=eq.${id}`, {method:'DELETE', headers:hdrs});
-  toast('삭제했어요');
-  loadBrokers();
+  await fetch(`${SUPABASE_URL}/rest/v1/brokers?id=eq.${id}`,{method:'DELETE',headers:hdrs});
+  toast('삭제했어요'); loadBrokers();
 }
 </script>
 </body>
