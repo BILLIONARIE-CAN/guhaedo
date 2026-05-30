@@ -693,9 +693,25 @@ let map=null, markers=[], infoWindows=[], curFilter='all';
 
 // 데이터
 // 협력중개사 (수동 데이터)
-const BROKER_DATA=[
-  {id:'b1',type:'broker',name:'(힐스자이단지내)구해줘부동산중개',addr:'충남 아산시 동방로 169, 근린생활시설 106호',lat:36.7805,lng:127.0215,photo:''},
-];
+const BROKER_DATA=[];
+const SUPABASE_URL='https://nqnbbccazjanjhktknyz.supabase.co';
+const SUPABASE_ANON='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5xbmJiY2Nhemphbmpoa3Rrbnl6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzk0OTA5NDQsImV4cCI6MjA5NTA2Njk0NH0.rT_hIwTJyBnCDGyudmJYvN44G67WgZ9-bSVCzShiRjI';
+
+async function loadBrokers(){
+  try{
+    const r=await fetch(`${SUPABASE_URL}/rest/v1/brokers?select=*&active=eq.true`,{
+      headers:{apikey:SUPABASE_ANON,Authorization:`Bearer ${SUPABASE_ANON}`}
+    });
+    const data=await r.json();
+    if(Array.isArray(data)){
+      data.forEach(d=>{
+        BROKER_DATA.push({id:'b_'+d.id,type:'broker',name:d.name,addr:d.addr||'',lat:d.lat,lng:d.lng,photo:d.photo||'',phone:d.phone||''});
+        MAP_DATA.push({id:'b_'+d.id,type:'broker',name:d.name,addr:d.addr||'',lat:d.lat,lng:d.lng,photo:d.photo||'',phone:d.phone||''});
+      });
+      renderVisibleMarkers('all');
+    }
+  }catch(e){console.log('brokers 로드 실패:',e);}
+}
 
 // 공공데이터 API
 const API_KEY='8dfbbd6dc2fff98040507b95b9688bc24cbdfb35e253494d734a697d4658f1cf';
@@ -847,6 +863,7 @@ async function loadAllApts(){
     updateMarkersForZoom();
     loadSigunguData();
     loadDongData();
+    loadBrokers();
   }catch(e){
     console.log('sido 로드 실패:', e);
     showMapLoading(false);
