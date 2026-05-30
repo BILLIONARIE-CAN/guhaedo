@@ -1015,13 +1015,13 @@ function updateMarkersForZoom(){
       });
     }
   } else if(level>=5){
-    // 공동주택 핀박스 - 해당 시군구 단지 파일 로드 후 렌더링
+    // 공동주택 핀박스 (500m~)
     renderVisibleMarkers('apt');
     loadAptForCurrentView().then(()=>{
       if(map&&map.getLevel()>=5&&map.getLevel()<7) renderVisibleMarkers('apt');
     });
   } else {
-    // 공동주택 + 협력중개사
+    // 공동주택 + 중개사 (300m~)
     renderVisibleMarkers('all');
     loadAptForCurrentView().then(()=>{
       if(map&&map.getLevel()<5) renderVisibleMarkers('all');
@@ -1207,7 +1207,7 @@ function addMarker(d){
     </div>`;
   }
   const overlay=new kakao.maps.CustomOverlay({position:pos,content:bc,yAnchor:d.type==='broker'?1.3:1.1,zIndex:d.type==='broker'?999:3});
-  overlay.setMap(map&&map.getLevel()<7?map:null);
+  overlay.setMap(map?map:null);
   markers.push({id:d.id,marker:overlay});
 }
 
