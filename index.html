@@ -654,10 +654,8 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
 
 <div class="partner-bar">
   <div class="partner-bar-inner">
-    <span style="font-size:11px;color:var(--text3);font-weight:500">구해줘 협력중개사</span>
-    <span class="partner-tag">✓ 아산 해피공인중개사</span>
-    <span class="partner-tag">✓ 천안 스마트부동산</span>
-    <span class="partner-tag">✓ 배방 한빛공인중개사</span>
+    <span style="font-size:11px;color:var(--text3);font-weight:500">구해줘부동산</span>
+    <span class="partner-tag">✓ (힐스자이단지내)구해줘부동산중개</span>
     <span style="font-size:11px;color:var(--text3)">외 44곳</span>
     <span style="font-size:11px;color:var(--text3);margin-left:auto">© 2025 아구구 All rights reserved.</span>
   </div>
@@ -696,8 +694,7 @@ let map=null, markers=[], infoWindows=[], curFilter='all';
 // 데이터
 // 협력중개사 (수동 데이터)
 const BROKER_DATA=[
-  {id:'b1',type:'broker',name:'아산 해피공인중개사',addr:'충남 아산시 배방읍 배방로 123',lat:36.7985,lng:127.0445},
-  {id:'b2',type:'broker',name:'배방 한빛공인중개사',addr:'충남 아산시 배방읍 세교리 45',lat:36.8005,lng:127.0398},
+  {id:'b1',type:'broker',name:'(힐스자이단지내)구해줘부동산중개',addr:'충남 아산시 동방로 169, 근린생활시설 106호',lat:36.7805,lng:127.0215,photo:''},
 ];
 
 // 공공데이터 API
@@ -1186,10 +1183,13 @@ function addMarker(d){
     const u=d.units?'<br><span style="font-size:10px;font-weight:400;opacity:.85">'+d.units+'세대</span>':'';
     bc=`<div onclick="selectItem('${d.id}')" style="background:#1a56db;color:#fff;padding:3px 7px;border-radius:4px;font-size:11px;font-weight:700;cursor:pointer;box-shadow:0 1px 4px rgba(0,0,0,.3);white-space:nowrap;text-align:center;line-height:1.5">${n}${u}</div>`;
   }else if(d.type==='broker'){
-    const n=d.name.length>8?d.name.substring(0,8)+'..':d.name;
-    bc=`<div onclick="selectItem('${d.id}')" style="background:#1D9E75;color:#fff;padding:3px 8px;border-radius:12px;font-size:10px;font-weight:700;cursor:pointer;box-shadow:0 1px 4px rgba(0,0,0,.2);white-space:nowrap">👤 ${n}</div>`;
+    const photo=d.photo?`<img src="${d.photo}" style="width:100%;height:100%;object-fit:cover;border-radius:50%;" onerror="this.style.display='none';this.parentElement.innerHTML='🏠'"/>`:' 🏠';
+    bc=`<div onclick="selectItem('${d.id}')" style="position:relative;z-index:999;cursor:pointer" title="${d.name}">
+      <div style="width:44px;height:44px;border-radius:50%;background:#e53e3e;border:3px solid #fff;box-shadow:0 2px 8px rgba(0,0,0,.4);display:flex;align-items:center;justify-content:center;overflow:hidden;font-size:18px">${photo}</div>
+      <div style="position:absolute;bottom:-18px;left:50%;transform:translateX(-50%);background:#e53e3e;color:#fff;font-size:9px;font-weight:700;padding:1px 5px;border-radius:4px;white-space:nowrap;box-shadow:0 1px 3px rgba(0,0,0,.3)">구해줘부동산</div>
+    </div>`;
   }
-  const overlay=new kakao.maps.CustomOverlay({position:pos,content:bc,yAnchor:1.1,zIndex:3});
+  const overlay=new kakao.maps.CustomOverlay({position:pos,content:bc,yAnchor:d.type==='broker'?1.3:1.1,zIndex:d.type==='broker'?999:3});
   overlay.setMap(map&&map.getLevel()<7?map:null);
   markers.push({id:d.id,marker:overlay});
 }
