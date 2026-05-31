@@ -809,7 +809,8 @@ const SIGUNGU_CODES=[
 let MAP_DATA=[...BROKER_DATA];
 let aptIdCounter=1;
 
-const TYPE_LABEL={apt:'아파트',broker:'중개사무소',sale:'매물'};
+const TYPE_LABEL={apt:'아파트',bunyang:'분양',officetel:'오피스텔',villa:'연립다세대',broker:'중개사무소',sale:'매물'};
+const TYPE_COLOR={apt:'#1a56db',bunyang:'#eab308',officetel:'#7c3aed',villa:'#0d9488'};
 
 function initMap(){
   if(map) return;
@@ -940,7 +941,8 @@ function renderVisibleMarkers(showType='apt'){
 
   const visible=MAP_DATA.filter(d=>{
     if(!d.lat||!d.lng) return false;
-    if(showType==='apt' && d.type!=='apt') return false;
+    const propTypes=['apt','bunyang','officetel','villa'];
+    if(showType==='apt' && !propTypes.includes(d.type)) return false;
     if(showType==='all' && curFilter!=='all' && d.type!==curFilter) return false;
     if(d.type==='broker' && level>5) return false;
     return d.lat>=sw.getLat()&&d.lat<=ne.getLat()&&
@@ -1197,10 +1199,12 @@ function addMarker(d){
   if(!d.lat||!d.lng)return;
   const pos=new kakao.maps.LatLng(d.lat,d.lng);
   let bc='';
-  if(d.type==='apt'){
+  if(d.type==='apt'||d.type==='bunyang'||d.type==='officetel'||d.type==='villa'){
     const n=d.name.length>9?d.name.substring(0,9)+'..':d.name;
     const u=d.units?'<br><span style="font-size:10px;font-weight:400;opacity:.85">'+d.units+'</span>':'';
-    bc=`<div onclick="selectItem('${d.id}')" style="background:#1a56db;color:#fff;padding:2px 5px;border-radius:3px;font-size:11px;font-weight:700;cursor:pointer;box-shadow:0 1px 3px rgba(0,0,0,.3);white-space:nowrap;text-align:center;line-height:1.4">${n}${u}</div>`;
+    const clr=TYPE_COLOR[d.type]||'#1a56db';
+    const txtClr=d.type==='bunyang'?'#1a1a1a':'#fff';
+    bc=`<div onclick="selectItem('${d.id}')" style="background:${clr};color:${txtClr};padding:2px 5px;border-radius:3px;font-size:11px;font-weight:700;cursor:pointer;box-shadow:0 1px 3px rgba(0,0,0,.3);white-space:nowrap;text-align:center;line-height:1.4;border:1.5px solid #fff">${n}${u}</div>`;
   }else if(d.type==='broker'){
     const bname=d.name.length>8?d.name.substring(0,8)+'..':d.name;
     const lv=map?map.getLevel():5;
