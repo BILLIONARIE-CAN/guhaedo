@@ -1033,8 +1033,15 @@ function renderDongInView(){
   visible.slice(0,80).forEach(d=>{
     const pos=new kakao.maps.LatLng(d.lat,d.lng);
     const u=d.units>0?d.units.toLocaleString()+'세대':d.count+'단지';
-    const content=`<div style="background:#1a56db;color:#fff;padding:4px 8px;border-radius:4px;font-size:11px;font-weight:700;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.3);white-space:nowrap;text-align:center;line-height:1.6">${d.name}<br><span style="font-size:10px;font-weight:400;opacity:.9">${u}</span></div>`;
-    const o=new kakao.maps.CustomOverlay({position:pos,content,yAnchor:1.1,zIndex:3});
+    const div=document.createElement('div');
+    div.style.cssText='background:#1a56db;color:#fff;padding:4px 8px;border-radius:4px;font-size:11px;font-weight:700;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.3);white-space:nowrap;text-align:center;line-height:1.6';
+    div.innerHTML=d.name+'<br><span style="font-size:10px;font-weight:400;opacity:.9">'+u+'</span>';
+    const cLat=d.lat, cLng=d.lng;
+    div.onclick=function(){
+      map.panTo(new kakao.maps.LatLng(cLat,cLng));
+      setTimeout(()=>{map.setLevel(5,{anchor:new kakao.maps.LatLng(cLat,cLng)});},150);
+    };
+    const o=new kakao.maps.CustomOverlay({position:pos,content:div,yAnchor:1.1,zIndex:3});
     o.setMap(map);
     zoomOverlays.push(o);
   });
@@ -1100,8 +1107,15 @@ function renderSplitCluster(data, type){
     if(!lat||!lng)return;
     const pos=new kakao.maps.LatLng(lat,lng);
     const u=d.units>0?d.units.toLocaleString()+'세대':d.count.toLocaleString()+'단지';
-    const content=`<div style="background:#1a56db;color:#fff;padding:4px 8px;border-radius:4px;font-size:11px;font-weight:700;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.3);white-space:nowrap;text-align:center;line-height:1.6">${displayName}<br><span style="font-size:10px;font-weight:400;opacity:.9">${u}</span></div>`;
-    const o=new kakao.maps.CustomOverlay({position:pos,content,yAnchor:1.1,zIndex:3});
+    const div=document.createElement('div');
+    div.style.cssText='background:#1a56db;color:#fff;padding:4px 8px;border-radius:4px;font-size:11px;font-weight:700;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.3);white-space:nowrap;text-align:center;line-height:1.6';
+    div.innerHTML=displayName+'<br><span style="font-size:10px;font-weight:400;opacity:.9">'+u+'</span>';
+    const cLat=lat, cLng=lng;
+    div.onclick=function(){
+      map.panTo(new kakao.maps.LatLng(cLat,cLng));
+      setTimeout(()=>{map.setLevel(type==='sido'?9:7,{anchor:new kakao.maps.LatLng(cLat,cLng)});},150);
+    };
+    const o=new kakao.maps.CustomOverlay({position:pos,content:div,yAnchor:1.1,zIndex:3});
     o.setMap(map);
     zoomOverlays.push(o);
   });
@@ -1239,8 +1253,7 @@ function selectItem(id){
   const d=MAP_DATA.find(x=>x.id===id);
   if(!d) return;
   if(d.lat&&d.lng&&map) map.panTo(new kakao.maps.LatLng(d.lat,d.lng));
-  if(d.type==='apt') openAptSidebar(d);
-  else if(d.type==='broker') openBrokerSidebar(d);
+  if(d.type==='broker') openBrokerSidebar(d);
   else openAptDetail(d);
 }
 
@@ -1293,11 +1306,13 @@ function openAptDetail(d){
   // 기본 정보 그리드
   const infoItems=[
     {l:'세대수', v: d.units||'-'},
-    {l:'준공년도', v: d.built||'-'},
-    {l:'주소', v: d.addr||'-'},
-    {l:'유형', v: TYPE_LABEL[d.type]||'-'},
+    {l:'준공년월', v: d.built||'-'},
+    {l:'동수', v: d.dongCnt||'-'},
+    {l:'난방방식', v: d.heat||'-'},
+    {l:'용적률', v: d.far?d.far+'%':'-'},
+    {l:'건폐율', v: d.bcr?d.bcr+'%':'-'},
   ];
-  ge('adp-info-grid').innerHTML=infoItems.map(i=>
+  ge('adp-info-grid').innerHTML='<div class="adp-info-item" style="grid-column:1/-1"><div class="adp-info-label">주소</div><div class="adp-info-val" style="font-size:12px">'+(d.addr||'-')+'</div></div>'+infoItems.map(i=>
     `<div class="adp-info-item"><div class="adp-info-label">${i.l}</div><div class="adp-info-val">${i.v}</div></div>`
   ).join('');
 
