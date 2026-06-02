@@ -908,7 +908,7 @@ async function loadAptData(sigunguName){
     apts.forEach(d=>{
       if(!d.lat||!d.lng)return;
       const fullAddr=[d.sido,d.sigungu,d.emd].filter(Boolean).join(' ');
-      MAP_DATA.push({id:'apt_'+(aptIdCounter++),type:'apt',name:d.name||'',addr:d.addr||fullAddr,built:d.built||'',units:d.units>0?d.units+'세대':'',emd:d.emd||'',code:d.code||'',sale:'',jeonse:'',monthly:'',lat:d.lat,lng:d.lng});
+      MAP_DATA.push({id:'apt_'+(aptIdCounter++),type:'apt',name:d.name||'',addr:d.addr||fullAddr,built:d.built||'',dongCnt:d.dongCnt||'',heat:d.heat||'',saleType:d.sale||'',topFloor:d.topFloor||'',units:d.units>0?d.units+'세대':'',emd:d.emd||'',code:d.code||'',sale:'',jeonse:'',monthly:'',lat:d.lat,lng:d.lng});
     });
     renderVisibleMarkers('apt');
   }catch(e){}
@@ -921,7 +921,7 @@ async function loadCoordsJson(){
     const data=await res.json();
     data.forEach(d=>{
       if(!d.lat||!d.lng)return;
-      MAP_DATA.push({id:'apt_'+(aptIdCounter++),type:'apt',name:d.name||'',addr:d.addr||'',built:d.built||'',units:d.units||'',sale:'',jeonse:'',monthly:'',lat:d.lat,lng:d.lng,sido:d.sido||''});
+      MAP_DATA.push({id:'apt_'+(aptIdCounter++),type:'apt',name:d.name||'',addr:d.addr||'',built:d.built||'',dongCnt:d.dongCnt||'',heat:d.heat||'',saleType:d.sale||'',topFloor:d.topFloor||'',units:d.units||'',sale:'',jeonse:'',monthly:'',lat:d.lat,lng:d.lng,sido:d.sido||''});
     });
     loadedFiles.add('sido');loadedFiles.add('sigungu');loadedFiles.add('dong');
     updateMarkersForZoom();renderList();showMapLoading(false);
