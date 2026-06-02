@@ -74,7 +74,10 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
 .adp-type{font-size:11px;color:var(--green-dark);font-weight:700;background:var(--green-bg);padding:2px 8px;border-radius:4px;display:inline-block;margin-bottom:8px}
 .adp-name{font-size:18px;font-weight:700;margin-bottom:4px}
 .adp-addr{font-size:12px;color:var(--text3);margin-bottom:14px}
-.adp-info-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:14px}
+.adp-info-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.adp-section{margin-top:16px;padding-top:12px;border-top:1px solid rgba(0,0,0,.08)}
+.adp-section-title{font-size:13px;font-weight:700;color:var(--text1);margin-bottom:10px}
+
 .adp-info-item{background:var(--bg);border-radius:var(--radius-sm);padding:10px}
 .adp-info-label{font-size:10px;color:var(--text3);margin-bottom:3px}
 .adp-info-val{font-size:14px;font-weight:700}
@@ -325,9 +328,30 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
       </div>
       <div class="adp-body">
         <div class="adp-name" id="adp-name"></div>
-        <div class="adp-addr" id="adp-addr"></div>
-        <div class="adp-info-grid" id="adp-info-grid"></div>
-        <div class="adp-price-row" id="adp-price-row" style="display:none"></div>
+
+        <!-- 1. 단지 기본 정보 -->
+        <div class="adp-section">
+          <div class="adp-section-title">단지 기본 정보</div>
+          <div class="adp-info-grid" id="adp-info-grid"></div>
+        </div>
+
+        <!-- 2. 시세 · 거래 정보 -->
+        <div class="adp-section">
+          <div class="adp-section-title">시세 · 거래 정보</div>
+          <div id="adp-price-content" class="adp-info-grid"></div>
+        </div>
+
+        <!-- 3. 입지 · 인프라 -->
+        <div class="adp-section">
+          <div class="adp-section-title">입지 · 인프라</div>
+          <div id="adp-infra-grid" class="adp-info-grid"></div>
+        </div>
+
+        <!-- 4. 평형 · 평면도 -->
+        <div class="adp-section">
+          <div class="adp-section-title">평형 · 평면도</div>
+          <div id="adp-area-content"></div>
+        </div>
       </div>
     </div>
   </div>
@@ -1303,35 +1327,50 @@ function openBrokerSidebar(d){
 
 function openAptDetail(d){
   const panel=ge('apt-detail-panel');
-  ge('adp-type').textContent=TYPE_LABEL[d.type]||'';
+  // 유형 뱃지
+  const typeNm=d.aptType||TYPE_LABEL[d.type]||'아파트';
+  ge('adp-type').textContent=typeNm;
   ge('adp-name').textContent=d.name;
-  ge('adp-addr').textContent=d.addr||'';
 
-  // 기본 정보 그리드
-  const infoItems=[
-    {l:'세대수', v: d.units||'-'},
-    {l:'준공년월', v: d.built||'-'},
-    {l:'동수', v: d.dongCnt||'-'},
-    {l:'난방방식', v: d.heat||'-'},
-    {l:'용적률', v: d.far?d.far+'%':'-'},
-    {l:'건폐율', v: d.bcr?d.bcr+'%':'-'},
-  ];
-  ge('adp-info-grid').innerHTML='<div class="adp-info-item" style="grid-column:1/-1"><div class="adp-info-label">주소</div><div class="adp-info-val" style="font-size:12px">'+(d.addr||'-')+'</div></div>'+infoItems.map(i=>
-    `<div class="adp-info-item"><div class="adp-info-label">${i.l}</div><div class="adp-info-val">${i.v}</div></div>`
-  ).join('');
+  // ===== 1. 단지 기본 정보 =====
+  function infoRow(l,v){return '<div class="adp-info-item"><div class="adp-info-label">'+l+'</div><div class="adp-info-val">'+(v||'-')+'</div></div>';}
+  function fullRow(l,v){return '<div class="adp-info-item" style="grid-column:1/-1"><div class="adp-info-label">'+l+'</div><div class="adp-info-val" style="font-size:12px">'+(v||'-')+'</div></div>';}
 
-  // 매물 가격
-  const priceRow=ge('adp-price-row');
-  if(d.sale||d.jeonse||d.monthly){
-    priceRow.style.display='grid';
-    priceRow.innerHTML=[
-      d.sale?`<div class="adp-price-item"><div class="adp-price-label">매매</div><div class="adp-price-val">${d.sale}</div></div>`:'',
-      d.jeonse?`<div class="adp-price-item"><div class="adp-price-label">전세</div><div class="adp-price-val" style="color:#2563EB">${d.jeonse}</div></div>`:'',
-      d.monthly?`<div class="adp-price-item"><div class="adp-price-label">월세</div><div class="adp-price-val" style="color:#7C3AED">${d.monthly}</div></div>`:'',
-    ].join('');
-  } else {
-    priceRow.style.display='none';
-  }
+  ge('adp-info-grid').innerHTML=
+    fullRow('도로명주소',d.addr)+
+    fullRow('지번주소',d.jibunAddr)+
+    infoRow('세대수',d.units)+
+    infoRow('준공년월',d.built)+
+    infoRow('동수',d.dongCnt)+
+    infoRow('난방방식',d.heat)+
+    infoRow('최고층',d.topFloor?d.topFloor+'층':'')+
+    infoRow('현관구조',d.entrance)+
+    infoRow('분양형태',d.saleType)+
+    infoRow('시공사',d.builder)+
+    infoRow('세대당 주차',d.parking)+
+    infoRow('면적타입',d.privArea)+
+    infoRow('용적률',d.far?d.far+'%':'')+
+    infoRow('건폐율',d.bcr?d.bcr+'%':'');
+
+  // ===== 2. 시세 · 거래 정보 =====
+  ge('adp-price-content').innerHTML=
+    infoRow('최근 매매',d.recentSale)+
+    infoRow('최근 전세',d.recentJeonse)+
+    infoRow('최근 월세',d.recentMonthly)+
+    '<div class="adp-info-item" style="grid-column:1/-1;text-align:center;color:var(--text3);font-size:11px;padding:8px 0">실거래가 그래프 (준비 중)</div>';
+
+  // ===== 3. 입지 · 인프라 =====
+  ge('adp-infra-grid').innerHTML=
+    fullRow('배정 초등학교',d.school)+
+    infoRow('가까운 역',d.station)+
+    infoRow('평균 관리비',d.avgMgmt);
+
+  // ===== 4. 평형 · 평면도 =====
+  ge('adp-area-content').innerHTML=d.privArea?
+    '<div style="font-size:12px;color:var(--text2);margin-bottom:8px">'+d.privArea+'</div><div style="text-align:center;color:var(--text3);font-size:11px;padding:12px 0">평면도 (준비 중)</div>':
+    '<div style="text-align:center;color:var(--text3);font-size:11px;padding:12px 0">면적 정보 (준비 중)</div>';
+
+  // 매물 가격은 adp-price-content 섹션에서 처리
 
   panel.classList.add('open');
 }
