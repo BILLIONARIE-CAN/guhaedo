@@ -8,7 +8,13 @@
     "emd": "성당동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1996.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대구광역시 달서구 당산로30길 12"
   },
   {
     "code": "A10023731",
@@ -19,7 +25,13 @@
     "emd": "성당동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2022.06",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 33,
+    "addr": "대구광역시 달서구 대명천로 33"
   },
   {
     "code": "A70408001",
@@ -30,7 +42,13 @@
     "emd": "성당동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1995.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대구광역시 달서구 성당로33길 16"
   },
   {
     "code": "A70408202",
@@ -41,7 +59,13 @@
     "emd": "성당동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2009.10",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 당산로 82"
   },
   {
     "code": "A70408203",
@@ -52,7 +76,13 @@
     "emd": "성당동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2008.08",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 장기로 115"
   },
   {
     "code": "A70496901",
@@ -63,7 +93,13 @@
     "emd": "성당동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2009.07",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 장기로 127"
   },
   {
     "code": "A10020886",
@@ -75,7 +111,13 @@
     "sigunguCode": "27290",
     "sido": "대구광역시",
     "sigungu": "달서구",
-    "hhldCnt": 480
+    "hhldCnt": 480,
+    "built": "2025.01",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 34,
+    "addr": "대구광역시 달서구 야외음악당로47길 76"
   },
   {
     "code": "A10020997",
@@ -86,7 +128,13 @@
     "emd": "두류동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2024.11",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 29,
+    "addr": "대구광역시 달서구 두류길 107"
   },
   {
     "code": "A10021027",
@@ -97,7 +145,13 @@
     "emd": "두류동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2024.11",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "대구광역시 달서구 당산로36길 37"
   },
   {
     "code": "A10021720",
@@ -108,7 +162,13 @@
     "emd": "두류동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1999.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 11,
+    "addr": "대구광역시 달서구 두류6길 9"
   },
   {
     "code": "A10023443",
@@ -119,7 +179,13 @@
     "emd": "두류동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2022.12",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "대구광역시 달서구 당산로36길 11"
   },
   {
     "code": "A10023513",
@@ -130,7 +196,13 @@
     "emd": "두류동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2023.07",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 24,
+    "addr": "대구광역시 달서구 파도고개로 70"
   },
   {
     "code": "A70491001",
@@ -141,7 +213,13 @@
     "emd": "두류동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2002.05",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "대구광역시 달서구 야외음악당로39길 54"
   },
   {
     "code": "A70422001",
@@ -152,7 +230,13 @@
     "emd": "파호동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2007.10",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대구광역시 달서구 달구벌대로 995"
   },
   {
     "code": "A70474202",
@@ -163,7 +247,13 @@
     "emd": "파호동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2000.02",
+    "dongCnt": "21동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 호산로 125"
   },
   {
     "code": "A70474903",
@@ -174,7 +264,13 @@
     "emd": "신당동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1995.05",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "대구광역시 달서구 신당로 56"
   },
   {
     "code": "A70477602",
@@ -185,7 +281,13 @@
     "emd": "신당동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1995.05",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대구광역시 달서구 신당로 55"
   },
   {
     "code": "A70477604",
@@ -196,7 +298,13 @@
     "emd": "신당동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1995.05",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "대구광역시 달서구 신당로 55"
   },
   {
     "code": "A70491901",
@@ -207,7 +315,13 @@
     "emd": "신당동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2005.09",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 달서대로 719"
   },
   {
     "code": "A70471301",
@@ -218,7 +332,13 @@
     "emd": "이곡동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1994.10",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대구광역시 달서구 선원로 100"
   },
   {
     "code": "A70477703",
@@ -229,7 +349,13 @@
     "emd": "이곡동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1994.10",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대구광역시 달서구 성서서로 316"
   },
   {
     "code": "A70477904",
@@ -240,7 +366,13 @@
     "emd": "이곡동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1994.10",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대구광역시 달서구 계대동문로 99"
   },
   {
     "code": "A70478002",
@@ -251,7 +383,13 @@
     "emd": "이곡동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1994.08",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "대구광역시 달서구 계대동문로 123"
   },
   {
     "code": "A70478601",
@@ -262,7 +400,13 @@
     "emd": "이곡동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1994.08",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "대구광역시 달서구 성서서로 330"
   },
   {
     "code": "A70492803",
@@ -273,7 +417,13 @@
     "emd": "이곡동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1996.11",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 성서동로 355-27"
   },
   {
     "code": "A70492805",
@@ -284,7 +434,13 @@
     "emd": "이곡동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1994.07",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대구광역시 달서구 이곡동로 32"
   },
   {
     "code": "A70492901",
@@ -295,7 +451,13 @@
     "emd": "이곡동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1998.02",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 이곡공원로 49"
   },
   {
     "code": "A70492902",
@@ -306,7 +468,13 @@
     "emd": "이곡동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1997.12",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 성서동로 355-20"
   },
   {
     "code": "A70492904",
@@ -317,7 +485,13 @@
     "emd": "이곡동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1997.12",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "대구광역시 달서구 선원로 171"
   },
   {
     "code": "A70492906",
@@ -328,7 +502,13 @@
     "emd": "이곡동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1997.11",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "대구광역시 달서구 선원로 137"
   },
   {
     "code": "A70492907",
@@ -339,7 +519,13 @@
     "emd": "이곡동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1997.09",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "대구광역시 달서구 선원로 122"
   },
   {
     "code": "A70492909",
@@ -350,7 +536,13 @@
     "emd": "이곡동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1997.11",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "대구광역시 달서구 선원남로 77"
   },
   {
     "code": "A70492911",
@@ -361,7 +553,13 @@
     "emd": "이곡동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1997.12",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 이곡공원로 33"
   },
   {
     "code": "A70492912",
@@ -372,7 +570,13 @@
     "emd": "이곡동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1998.04",
+    "dongCnt": "17동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 선원남로 99"
   },
   {
     "code": "A10022376",
@@ -383,7 +587,13 @@
     "emd": "장기동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2024.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 30,
+    "addr": "대구광역시 달서구 대명천로 234"
   },
   {
     "code": "A10025455",
@@ -394,7 +604,13 @@
     "emd": "장기동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2019.06",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 38,
+    "addr": "대구광역시 달서구 용산로12길 77"
   },
   {
     "code": "A10027401",
@@ -405,7 +621,13 @@
     "emd": "장기동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2016.08",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 장기로 252"
   },
   {
     "code": "A70418002",
@@ -416,7 +638,13 @@
     "emd": "장기동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2002.07",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 한들로 31"
   },
   {
     "code": "A70418003",
@@ -427,7 +655,13 @@
     "emd": "장기동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2004.04",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 한들로 36"
   },
   {
     "code": "A70418004",
@@ -438,7 +672,13 @@
     "emd": "장기동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2000.07",
+    "dongCnt": "12동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 한들로 55"
   },
   {
     "code": "A70418005",
@@ -449,7 +689,13 @@
     "emd": "장기동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2000.07",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 한들로 70"
   },
   {
     "code": "A70472701",
@@ -460,7 +706,13 @@
     "emd": "장기동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2005.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "대구광역시 달서구 대명천로 250"
   },
   {
     "code": "A70472702",
@@ -471,7 +723,13 @@
     "emd": "장기동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2005.04",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "대구광역시 달서구 용산로 88"
   },
   {
     "code": "A10022751",
@@ -482,7 +740,13 @@
     "emd": "용산동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2024.02",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 44,
+    "addr": "대구광역시 달서구 달구벌대로 1515"
   },
   {
     "code": "A70471701",
@@ -493,7 +757,13 @@
     "emd": "용산동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1997.06",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 용산로 174"
   },
   {
     "code": "A70474301",
@@ -504,7 +774,13 @@
     "emd": "용산동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1997.12",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 선원남로 181"
   },
   {
     "code": "A70474302",
@@ -515,7 +791,13 @@
     "emd": "용산동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1997.11",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "대구광역시 달서구 선원남로 151"
   },
   {
     "code": "A70474303",
@@ -526,7 +808,13 @@
     "emd": "용산동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1997.10",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 선원로 241"
   },
   {
     "code": "A70492305",
@@ -537,7 +825,13 @@
     "emd": "용산동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1998.11",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "대구광역시 달서구 장산로 10"
   },
   {
     "code": "A70492307",
@@ -548,7 +842,13 @@
     "emd": "용산동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1998.11",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "대구광역시 달서구 장산로 20"
   },
   {
     "code": "A70492314",
@@ -559,7 +859,13 @@
     "emd": "용산동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1997.08",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 용산로 160"
   },
   {
     "code": "A70492319",
@@ -570,7 +876,13 @@
     "emd": "용산동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2004.05",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 30,
+    "addr": "대구광역시 달서구 장산남로 33"
   },
   {
     "code": "A70492501",
@@ -581,7 +893,13 @@
     "emd": "용산동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1998.11",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 성지로 35"
   },
   {
     "code": "A70492502",
@@ -592,7 +910,13 @@
     "emd": "용산동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1997.12",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 성지로 35"
   },
   {
     "code": "A70492503",
@@ -603,7 +927,13 @@
     "emd": "용산동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1997.10",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "대구광역시 달서구 성지로 42"
   },
   {
     "code": "A70492504",
@@ -614,7 +944,13 @@
     "emd": "용산동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1997.12",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 이곡공원로 83"
   },
   {
     "code": "A70492505",
@@ -625,7 +961,13 @@
     "emd": "용산동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1997.11",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "대구광역시 달서구 성지로 12"
   },
   {
     "code": "A70492506",
@@ -636,7 +978,13 @@
     "emd": "용산동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1997.11",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "대구광역시 달서구 성지로 11"
   },
   {
     "code": "A70492507",
@@ -647,7 +995,13 @@
     "emd": "용산동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1997.03",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "대구광역시 달서구 새동네로 34"
   },
   {
     "code": "A70492508",
@@ -658,7 +1012,13 @@
     "emd": "용산동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1997.12",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 성지로 75"
   },
   {
     "code": "A70492601",
@@ -669,7 +1029,13 @@
     "emd": "용산동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1999.08",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "대구광역시 달서구 용산서로 22"
   },
   {
     "code": "A70492602",
@@ -680,7 +1046,13 @@
     "emd": "용산동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1999.12",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대구광역시 달서구 용산서로 37"
   },
   {
     "code": "A70492603",
@@ -691,7 +1063,13 @@
     "emd": "용산동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1998.12",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "대구광역시 달서구 용산로 266"
   },
   {
     "code": "A70492604",
@@ -702,7 +1080,13 @@
     "emd": "용산동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1999.10",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "대구광역시 달서구 용산서로 38"
   },
   {
     "code": "A70492606",
@@ -713,7 +1097,13 @@
     "emd": "용산동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1999.03",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "대구광역시 달서구 용산큰못길 30"
   },
   {
     "code": "A70492608",
@@ -724,7 +1114,13 @@
     "emd": "용산동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1999.07",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 용산로 253"
   },
   {
     "code": "A70492609",
@@ -735,7 +1131,13 @@
     "emd": "용산동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1998.11",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "대구광역시 달서구 용산서로 21"
   },
   {
     "code": "A70492610",
@@ -746,7 +1148,13 @@
     "emd": "용산동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1999.05",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "대구광역시 달서구 용산서로 9"
   },
   {
     "code": "A70492611",
@@ -757,7 +1165,13 @@
     "emd": "용산동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1994.11",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대구광역시 달서구 성서동로 350"
   },
   {
     "code": "A70492612",
@@ -768,7 +1182,13 @@
     "emd": "용산동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2000.06",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대구광역시 달서구 용산로 254"
   },
   {
     "code": "A70492615",
@@ -779,7 +1199,13 @@
     "emd": "용산동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2000.07",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 용산로 259"
   },
   {
     "code": "A10022743",
@@ -790,7 +1216,13 @@
     "emd": "죽전동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2024.02",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "대구광역시 달서구 와룡로 254"
   },
   {
     "code": "A10023084",
@@ -801,7 +1233,13 @@
     "emd": "죽전동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2023.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 47,
+    "addr": "대구광역시 달서구 달구벌대로 1581"
   },
   {
     "code": "A70493201",
@@ -812,7 +1250,13 @@
     "emd": "죽전동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2001.05",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 11,
+    "addr": "대구광역시 달서구 죽전1길 82"
   },
   {
     "code": "A70493202",
@@ -823,7 +1267,13 @@
     "emd": "죽전동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2003.05",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대구광역시 달서구 와룡로53길 40"
   },
   {
     "code": "A10020407",
@@ -835,7 +1285,13 @@
     "sigunguCode": "27290",
     "sido": "대구광역시",
     "sigungu": "달서구",
-    "hhldCnt": 363
+    "hhldCnt": 363,
+    "built": "2025.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 48,
+    "addr": "대구광역시 달서구 장기로 230"
   },
   {
     "code": "A10020591",
@@ -847,7 +1303,13 @@
     "sigunguCode": "27290",
     "sido": "대구광역시",
     "sigungu": "달서구",
-    "hhldCnt": 117
+    "hhldCnt": 117,
+    "built": "2025.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 45,
+    "addr": "대구광역시 달서구 달구벌대로 1514"
   },
   {
     "code": "A10021410",
@@ -858,7 +1320,13 @@
     "emd": "감삼동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1997.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "대구광역시 달서구 당산로 187"
   },
   {
     "code": "A10022518",
@@ -869,7 +1337,13 @@
     "emd": "감삼동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2024.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 45,
+    "addr": "대구광역시 달서구 달구벌대로308길 30"
   },
   {
     "code": "A10022607",
@@ -880,7 +1354,13 @@
     "emd": "감삼동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2024.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 45,
+    "addr": "대구광역시 달서구 와룡로33길 20"
   },
   {
     "code": "A10022906",
@@ -891,7 +1371,13 @@
     "emd": "감삼동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2023.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 46,
+    "addr": "대구광역시 달서구 용산로24길 40"
   },
   {
     "code": "A10023131",
@@ -902,7 +1388,13 @@
     "emd": "감삼동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2002.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "대구광역시 달서구 감삼길 107"
   },
   {
     "code": "A10023220",
@@ -913,7 +1405,13 @@
     "emd": "감삼동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2023.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 46,
+    "addr": "대구광역시 달서구 와룡로31길 16"
   },
   {
     "code": "A10023468",
@@ -924,7 +1422,13 @@
     "emd": "감삼동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2022.08",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 48,
+    "addr": "대구광역시 달서구 와룡로 186"
   },
   {
     "code": "A10023552",
@@ -935,7 +1439,13 @@
     "emd": "감삼동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2022.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 38,
+    "addr": "대구광역시 달서구 감삼동 582-5 죽전역화성파크드림"
   },
   {
     "code": "A10023602",
@@ -946,7 +1456,13 @@
     "emd": "감삼동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2022.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 42,
+    "addr": "대구광역시 달서구 와룡로31길 26"
   },
   {
     "code": "A10023655",
@@ -957,7 +1473,13 @@
     "emd": "감삼동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2022.07",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 37,
+    "addr": "대구광역시 달서구 와룡로 123"
   },
   {
     "code": "A70490402",
@@ -968,7 +1490,13 @@
     "emd": "감삼동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2007.08",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 장기로 160"
   },
   {
     "code": "A70490503",
@@ -979,7 +1507,13 @@
     "emd": "감삼동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2003.03",
+    "dongCnt": "17동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "대구광역시 달서구 장기로 242"
   },
   {
     "code": "A70496102",
@@ -990,7 +1524,13 @@
     "emd": "감삼동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2010.08",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 44,
+    "addr": "대구광역시 달서구 와룡로 169"
   },
   {
     "code": "A70496103",
@@ -1001,7 +1541,13 @@
     "emd": "감삼동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2013.05",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 34,
+    "addr": "대구광역시 달서구 달구벌대로 1530"
   },
   {
     "code": "A10020203",
@@ -1012,7 +1558,13 @@
     "emd": "본리동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2026.02",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 49,
+    "addr": "대구광역시 달서구 와룡로 70"
   },
   {
     "code": "A10022501",
@@ -1023,7 +1575,13 @@
     "emd": "본리동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2024.06",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "대구광역시 달서구 용산로 40"
   },
   {
     "code": "A10022584",
@@ -1034,7 +1592,13 @@
     "emd": "본리동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2024.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 44,
+    "addr": "대구광역시 달서구 와룡로 80"
   },
   {
     "code": "A10022778",
@@ -1045,7 +1609,13 @@
     "emd": "본리동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2024.01",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 37,
+    "addr": "대구광역시 달서구 와룡로 111"
   },
   {
     "code": "A10024651",
@@ -1056,7 +1626,13 @@
     "emd": "본리동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2020.08",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 당산로 17"
   },
   {
     "code": "A10025001",
@@ -1067,7 +1643,13 @@
     "emd": "본리동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1985.03",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "대구광역시 달서구 구마로 171"
   },
   {
     "code": "A70491210",
@@ -1078,7 +1660,13 @@
     "emd": "본리동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2009.07",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "대구광역시 달서구 장기로 189"
   },
   {
     "code": "A70491211",
@@ -1089,7 +1677,13 @@
     "emd": "본리동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2008.06",
+    "dongCnt": "19동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 장기로 145"
   },
   {
     "code": "A70491305",
@@ -1100,7 +1694,13 @@
     "emd": "본리동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1987.04",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "대구광역시 달서구 대명천로 153"
   },
   {
     "code": "A70491307",
@@ -1111,7 +1711,13 @@
     "emd": "본리동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2009.03",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 대명천로 119"
   },
   {
     "code": "A70491308",
@@ -1122,7 +1728,13 @@
     "emd": "본리동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2008.09",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 대명천로 101"
   },
   {
     "code": "A70491401",
@@ -1133,7 +1745,13 @@
     "emd": "본리동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2008.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "대구광역시 달서구 와룡로 67"
   },
   {
     "code": "A70491402",
@@ -1144,7 +1762,13 @@
     "emd": "본리동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2008.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "대구광역시 달서구 구마로 97"
   },
   {
     "code": "A10025126",
@@ -1155,7 +1779,13 @@
     "emd": "상인동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2019.12",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "대구광역시 달서구 상화북로 162"
   },
   {
     "code": "A70437001",
@@ -1166,7 +1796,13 @@
     "emd": "상인동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1994.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "대구광역시 달서구 월배로34길 27"
   },
   {
     "code": "A70437002",
@@ -1177,7 +1813,13 @@
     "emd": "상인동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1997.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 월곡로 291"
   },
   {
     "code": "A70437003",
@@ -1188,7 +1830,13 @@
     "emd": "상인동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1994.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 7,
+    "addr": "대구광역시 달서구 상화북로 160"
   },
   {
     "code": "A70437004",
@@ -1199,7 +1847,13 @@
     "emd": "상인동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1994.04",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대구광역시 달서구 상화북로 195"
   },
   {
     "code": "A70437006",
@@ -1210,7 +1864,13 @@
     "emd": "상인동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1999.12",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 월배로 245"
   },
   {
     "code": "A70437007",
@@ -1221,7 +1881,13 @@
     "emd": "상인동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1999.12",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 송현로7길 41"
   },
   {
     "code": "A70437008",
@@ -1232,7 +1898,13 @@
     "emd": "상인동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1993.07",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "대구광역시 달서구 상인서로 75"
   },
   {
     "code": "A70437009",
@@ -1243,7 +1915,13 @@
     "emd": "상인동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1993.06",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "대구광역시 달서구 상인서로 65"
   },
   {
     "code": "A70437010",
@@ -1254,7 +1932,13 @@
     "emd": "상인동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1989.02",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "대구광역시 달서구 상화북로 159"
   },
   {
     "code": "A70437011",
@@ -1265,7 +1949,13 @@
     "emd": "상인동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1994.06",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "대구광역시 달서구 월곡로 171"
   },
   {
     "code": "A70437012",
@@ -1276,7 +1966,13 @@
     "emd": "상인동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1993.08",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대구광역시 달서구 상인서로 3"
   },
   {
     "code": "A70437013",
@@ -1287,7 +1983,13 @@
     "emd": "상인동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1993.05",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대구광역시 달서구 상인로 105"
   },
   {
     "code": "A70437014",
@@ -1298,7 +2000,13 @@
     "emd": "상인동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1993.07",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대구광역시 달서구 상인서로 39"
   },
   {
     "code": "A70437015",
@@ -1309,7 +2017,13 @@
     "emd": "상인동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1993.08",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대구광역시 달서구 상인서로 46"
   },
   {
     "code": "A70437016",
@@ -1320,7 +2034,13 @@
     "emd": "상인동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1993.10",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대구광역시 달서구 월곡로 112"
   },
   {
     "code": "A70437017",
@@ -1331,7 +2051,13 @@
     "emd": "상인동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1988.12",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "대구광역시 달서구 월곡로45길 49"
   },
   {
     "code": "A70437018",
@@ -1342,7 +2068,13 @@
     "emd": "상인동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1993.08",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대구광역시 달서구 상화북로 196"
   },
   {
     "code": "A70437020",
@@ -1353,7 +2085,13 @@
     "emd": "상인동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1989.04",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "대구광역시 달서구 상화북로 117"
   },
   {
     "code": "A70437021",
@@ -1364,7 +2102,13 @@
     "emd": "상인동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1989.02",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "대구광역시 달서구 상화북로 137"
   },
   {
     "code": "A70437022",
@@ -1375,7 +2119,13 @@
     "emd": "상인동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1993.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대구광역시 달서구 상화로 370"
   },
   {
     "code": "A70437025",
@@ -1386,7 +2136,13 @@
     "emd": "상인동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2007.03",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "대구광역시 달서구 월서로 31"
   },
   {
     "code": "A70437026",
@@ -1397,7 +2153,13 @@
     "emd": "상인동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1993.09",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대구광역시 달서구 상인서로 94"
   },
   {
     "code": "A70437027",
@@ -1408,7 +2170,13 @@
     "emd": "상인동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1993.12",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "대구광역시 달서구 상화로 371"
   },
   {
     "code": "A70437028",
@@ -1419,7 +2187,13 @@
     "emd": "상인동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1993.07",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "대구광역시 달서구 상인서로 76"
   },
   {
     "code": "A70437029",
@@ -1430,7 +2204,13 @@
     "emd": "상인동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1993.09",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대구광역시 달서구 상화로 380"
   },
   {
     "code": "A70437030",
@@ -1441,7 +2221,13 @@
     "emd": "상인동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2008.10",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "대구광역시 달서구 월서로3길 15"
   },
   {
     "code": "A70437033",
@@ -1452,7 +2238,13 @@
     "emd": "상인동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1994.04",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "대구광역시 달서구 월곡로 320"
   },
   {
     "code": "A70437034",
@@ -1463,7 +2255,13 @@
     "emd": "상인동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2010.11",
+    "dongCnt": "27동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "대구광역시 달서구 송현로7길 10"
   },
   {
     "code": "A70437035",
@@ -1474,7 +2272,13 @@
     "emd": "상인동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2010.06",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "대구광역시 달서구 상화로 235"
   },
   {
     "code": "A70437102",
@@ -1485,7 +2289,13 @@
     "emd": "상인동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2007.02",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 30,
+    "addr": "대구광역시 달서구 상원로 142"
   },
   {
     "code": "A70475403",
@@ -1496,7 +2306,13 @@
     "emd": "상인동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1993.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대구광역시 달서구 상화북로 195"
   },
   {
     "code": "A70475404",
@@ -1507,7 +2323,13 @@
     "emd": "상인동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1993.07",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대구광역시 달서구 상인서로 85"
   },
   {
     "code": "A70475406",
@@ -1518,7 +2340,13 @@
     "emd": "상인동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2009.10",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "대구광역시 달서구 월배로39길 26"
   },
   {
     "code": "A70480801",
@@ -1529,7 +2357,13 @@
     "emd": "상인동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2007.08",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "대구광역시 달서구 월배로 183"
   },
   {
     "code": "A10028127",
@@ -1540,7 +2374,13 @@
     "emd": "도원동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2015.01",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "대구광역시 달서구 상화로58길 35"
   },
   {
     "code": "A70479103",
@@ -1551,7 +2391,13 @@
     "emd": "도원동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1997.03",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 한실로 135"
   },
   {
     "code": "A70479113",
@@ -1562,7 +2408,13 @@
     "emd": "도원동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1997.03",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 18,
+    "addr": "대구광역시 달서구 한실로 135"
   },
   {
     "code": "A70479211",
@@ -1573,7 +2425,13 @@
     "emd": "도원동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1997.12",
+    "dongCnt": "14동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 도원로 45"
   },
   {
     "code": "A70479304",
@@ -1584,7 +2442,13 @@
     "emd": "도원동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1997.04",
+    "dongCnt": "15동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 한실로 29"
   },
   {
     "code": "A70479407",
@@ -1595,7 +2459,13 @@
     "emd": "도원동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1998.03",
+    "dongCnt": "14동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 한실로 134"
   },
   {
     "code": "A70479512",
@@ -1606,7 +2476,13 @@
     "emd": "도원동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1996.08",
+    "dongCnt": "18동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 도원로 46"
   },
   {
     "code": "A70479608",
@@ -1617,7 +2493,13 @@
     "emd": "도원동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1997.09",
+    "dongCnt": "14동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 한실로 117"
   },
   {
     "code": "A70479709",
@@ -1628,7 +2510,13 @@
     "emd": "도원동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1996.08",
+    "dongCnt": "15동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 도원남로 40"
   },
   {
     "code": "A70479810",
@@ -1639,7 +2527,13 @@
     "emd": "도원동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1997.04",
+    "dongCnt": "15동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 한실로 30"
   },
   {
     "code": "A70479905",
@@ -1650,7 +2544,13 @@
     "emd": "도원동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1996.12",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 한실로 49"
   },
   {
     "code": "A70479914",
@@ -1661,7 +2561,13 @@
     "emd": "도원동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1996.08",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "대구광역시 달서구 한실로 49"
   },
   {
     "code": "A70480202",
@@ -1672,7 +2578,13 @@
     "emd": "도원동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2005.03",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "대구광역시 달서구 상화로58길 86"
   },
   {
     "code": "A10020297",
@@ -1684,7 +2596,13 @@
     "sigunguCode": "27290",
     "sido": "대구광역시",
     "sigungu": "달서구",
-    "hhldCnt": 103
+    "hhldCnt": 103,
+    "built": "1992.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "대구광역시 달서구 월배로 30"
   },
   {
     "code": "A10021968",
@@ -1695,7 +2613,13 @@
     "emd": "진천동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2000.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "대구광역시 달서구 상화로7길 31"
   },
   {
     "code": "A10022328",
@@ -1706,7 +2630,13 @@
     "emd": "진천동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2024.09",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 48,
+    "addr": "대구광역시 달서구 월배로 159"
   },
   {
     "code": "A10023772",
@@ -1717,7 +2647,13 @@
     "emd": "진천동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2022.05",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 43,
+    "addr": "대구광역시 달서구 진천로16길 26"
   },
   {
     "code": "A10026276",
@@ -1728,7 +2664,13 @@
     "emd": "진천동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2018.01",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 월배로33길 53"
   },
   {
     "code": "A70436013",
@@ -1739,7 +2681,13 @@
     "emd": "진천동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1990.10",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "대구광역시 달서구 월배로32안길 35"
   },
   {
     "code": "A70478814",
@@ -1750,7 +2698,13 @@
     "emd": "진천동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1990.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "대구광역시 달서구 월배로32안길 61"
   },
   {
     "code": "A70478816",
@@ -1761,7 +2715,13 @@
     "emd": "진천동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1994.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "대구광역시 달서구 월배로32안길 66"
   },
   {
     "code": "A70478820",
@@ -1772,7 +2732,13 @@
     "emd": "진천동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2011.08",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 31,
+    "addr": "대구광역시 달서구 진천로 77"
   },
   {
     "code": "A70483408",
@@ -1783,7 +2749,13 @@
     "emd": "진천동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2006.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "대구광역시 달서구 월배로 71"
   },
   {
     "code": "A70483412",
@@ -1794,7 +2766,13 @@
     "emd": "진천동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2006.01",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "대구광역시 달서구 진천로18길 10"
   },
   {
     "code": "A70483415",
@@ -1805,7 +2783,13 @@
     "emd": "진천동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2008.11",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 32,
+    "addr": "대구광역시 달서구 월배로 80"
   },
   {
     "code": "A70483418",
@@ -1816,7 +2800,13 @@
     "emd": "진천동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2006.07",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "대구광역시 달서구 월서로 51"
   },
   {
     "code": "A70483603",
@@ -1827,7 +2817,13 @@
     "emd": "진천동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1993.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대구광역시 달서구 상화북로5길 39"
   },
   {
     "code": "A70483606",
@@ -1838,7 +2834,13 @@
     "emd": "진천동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1993.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "대구광역시 달서구 진천로4길 39"
   },
   {
     "code": "A70483701",
@@ -1849,7 +2851,13 @@
     "emd": "진천동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2008.02",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대구광역시 달서구 상화로5길 24"
   },
   {
     "code": "A70483702",
@@ -1860,7 +2868,13 @@
     "emd": "진천동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2008.02",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대구광역시 달서구 상화로5길 23"
   },
   {
     "code": "A70483704",
@@ -1871,7 +2885,13 @@
     "emd": "진천동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1995.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "대구광역시 달서구 월배로14길 43"
   },
   {
     "code": "A70483707",
@@ -1882,7 +2902,13 @@
     "emd": "진천동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2004.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "대구광역시 달서구 상화로 65"
   },
   {
     "code": "A70483709",
@@ -1893,7 +2919,13 @@
     "emd": "진천동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1996.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "대구광역시 달서구 진천로7길 47"
   },
   {
     "code": "A70483710",
@@ -1904,7 +2936,13 @@
     "emd": "진천동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1995.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "대구광역시 달서구 상화로21길 55"
   },
   {
     "code": "A70483717",
@@ -1915,7 +2953,13 @@
     "emd": "진천동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1995.06",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 진천로 41"
   },
   {
     "code": "A10027487",
@@ -1926,7 +2970,13 @@
     "emd": "유천동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2016.06",
+    "dongCnt": "19동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "대구광역시 달서구 월배로5길 76"
   },
   {
     "code": "A10028098",
@@ -1937,7 +2987,13 @@
     "emd": "유천동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2015.01",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 30,
+    "addr": "대구광역시 달서구 조암남로 182"
   },
   {
     "code": "A70439001",
@@ -1948,7 +3004,13 @@
     "emd": "유천동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1996.03",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 비슬로 2731"
   },
   {
     "code": "A70439002",
@@ -1959,7 +3021,13 @@
     "emd": "유천동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2007.03",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "대구광역시 달서구 월배로11길 9-16"
   },
   {
     "code": "A70439003",
@@ -1970,7 +3038,13 @@
     "emd": "유천동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2008.10",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "대구광역시 달서구 조암남로32길 13"
   },
   {
     "code": "A70439004",
@@ -1981,7 +3055,13 @@
     "emd": "유천동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2007.12",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "대구광역시 달서구 달서대로 41"
   },
   {
     "code": "A70439005",
@@ -1992,7 +3072,13 @@
     "emd": "유천동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2006.10",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 31,
+    "addr": "대구광역시 달서구 달서대로 67"
   },
   {
     "code": "A70486101",
@@ -2003,7 +3089,13 @@
     "emd": "유천동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2013.04",
+    "dongCnt": "17동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 30,
+    "addr": "대구광역시 달서구 월배로11길 33"
   },
   {
     "code": "A70486102",
@@ -2014,7 +3106,13 @@
     "emd": "유천동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2013.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 30,
+    "addr": "대구광역시 달서구 월배로 51"
   },
   {
     "code": "A10024036",
@@ -2025,7 +3123,13 @@
     "emd": "대천동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2021.11",
+    "dongCnt": "15동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 30,
+    "addr": "대구광역시 달서구 조암남로32길 40"
   },
   {
     "code": "A70433002",
@@ -2036,7 +3140,13 @@
     "emd": "대천동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2008.07",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "대구광역시 달서구 조암남로 132"
   },
   {
     "code": "A70480001",
@@ -2047,7 +3157,13 @@
     "emd": "대천동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2009.02",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "대구광역시 달서구 조암남로 123"
   },
   {
     "code": "A70486401",
@@ -2058,7 +3174,13 @@
     "emd": "대천동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2009.10",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "대구광역시 달서구 조암남로 116"
   },
   {
     "code": "A10023763",
@@ -2069,7 +3191,13 @@
     "emd": "월성동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2022.06",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 30,
+    "addr": "대구광역시 달서구 월성로 100"
   },
   {
     "code": "A10023820",
@@ -2080,7 +3208,13 @@
     "emd": "월성동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2022.04",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 월성로 100"
   },
   {
     "code": "A10027429",
@@ -2091,7 +3225,13 @@
     "emd": "월성동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2016.06",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "대구광역시 달서구 조암로10길 11"
   },
   {
     "code": "A70440001",
@@ -2102,7 +3242,13 @@
     "emd": "월성동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2008.09",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "대구광역시 달서구 월배로33길 117"
   },
   {
     "code": "A70440002",
@@ -2113,7 +3259,13 @@
     "emd": "월성동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1991.12",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대구광역시 달서구 학산로7길 5"
   },
   {
     "code": "A70440003",
@@ -2124,7 +3276,13 @@
     "emd": "월성동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2007.03",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "대구광역시 달서구 조암남로16길 20"
   },
   {
     "code": "A70440004",
@@ -2135,7 +3293,13 @@
     "emd": "월성동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1991.12",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대구광역시 달서구 학산로2길 39"
   },
   {
     "code": "A70440005",
@@ -2146,7 +3310,13 @@
     "emd": "월성동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1991.12",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대구광역시 달서구 학산로2길 27"
   },
   {
     "code": "A70440006",
@@ -2157,7 +3327,13 @@
     "emd": "월성동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1991.11",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대구광역시 달서구 학산로2길 11"
   },
   {
     "code": "A70440007",
@@ -2168,7 +3344,13 @@
     "emd": "월성동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1991.11",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대구광역시 달서구 학산로2길 24"
   },
   {
     "code": "A70440008",
@@ -2179,7 +3361,13 @@
     "emd": "월성동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2006.11",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 30,
+    "addr": "대구광역시 달서구 조암남로10길 21"
   },
   {
     "code": "A70440009",
@@ -2190,7 +3378,13 @@
     "emd": "월성동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2007.01",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 30,
+    "addr": "대구광역시 달서구 조암남로 24"
   },
   {
     "code": "A70440010",
@@ -2201,7 +3395,13 @@
     "emd": "월성동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1991.12",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대구광역시 달서구 학산로7길 27"
   },
   {
     "code": "A70440011",
@@ -2212,7 +3412,13 @@
     "emd": "월성동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1992.02",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대구광역시 달서구 학산로 15"
   },
   {
     "code": "A70440014",
@@ -2223,7 +3429,13 @@
     "emd": "월성동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1991.12",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대구광역시 달서구 학산로 30"
   },
   {
     "code": "A70440015",
@@ -2234,7 +3446,13 @@
     "emd": "월성동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1991.08",
+    "dongCnt": "24동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대구광역시 달서구 월곡로94길 30"
   },
   {
     "code": "A70440016",
@@ -2245,7 +3463,13 @@
     "emd": "월성동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2008.08",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 30,
+    "addr": "대구광역시 달서구 조암로6길 20"
   },
   {
     "code": "A70440017",
@@ -2256,7 +3480,13 @@
     "emd": "월성동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1992.03",
+    "dongCnt": "17동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대구광역시 달서구 구마로14남길 55"
   },
   {
     "code": "A70440018",
@@ -2267,7 +3497,13 @@
     "emd": "월성동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1991.09",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "대구광역시 달서구 월성로 77"
   },
   {
     "code": "A70440019",
@@ -2278,7 +3514,13 @@
     "emd": "월성동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2009.10",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "대구광역시 달서구 조암남로 10"
   },
   {
     "code": "A70440020",
@@ -2289,7 +3531,13 @@
     "emd": "월성동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2014.10",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 30,
+    "addr": "대구광역시 달서구 월성로 132"
   },
   {
     "code": "A70470201",
@@ -2300,7 +3548,13 @@
     "emd": "월성동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1991.12",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "대구광역시 달서구 학산로7길 39"
   },
   {
     "code": "A70471901",
@@ -2311,7 +3565,13 @@
     "emd": "월성동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2006.05",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "대구광역시 달서구 상원로 143"
   },
   {
     "code": "A70471902",
@@ -2322,7 +3582,13 @@
     "emd": "월성동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2009.06",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 30,
+    "addr": "대구광역시 달서구 조암로6길 19"
   },
   {
     "code": "A70471903",
@@ -2333,7 +3599,13 @@
     "emd": "월성동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2007.03",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "대구광역시 달서구 조암남로16길 19"
   },
   {
     "code": "A10022687",
@@ -2344,7 +3616,13 @@
     "emd": "송현동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2024.03",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "대구광역시 달서구 구마로 230"
   },
   {
     "code": "A10025929",
@@ -2355,7 +3633,13 @@
     "emd": "송현동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1987.06",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "대구광역시 달서구 월배로 420"
   },
   {
     "code": "A70434002",
@@ -2366,7 +3650,13 @@
     "emd": "송현동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1992.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대구광역시 달서구 송현로 103"
   },
   {
     "code": "A70434003",
@@ -2377,7 +3667,13 @@
     "emd": "송현동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1997.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 구마로52안길 57"
   },
   {
     "code": "A70434005",
@@ -2388,7 +3684,13 @@
     "emd": "송현동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2002.10",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "대구광역시 달서구 월배로 340"
   },
   {
     "code": "A70434006",
@@ -2399,7 +3701,13 @@
     "emd": "송현동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1981.05",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "대구광역시 달서구 월배로67길 52"
   },
   {
     "code": "A70434007",
@@ -2410,7 +3718,13 @@
     "emd": "송현동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1984.11",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "대구광역시 달서구 구마로40길 21"
   },
   {
     "code": "A70434202",
@@ -2421,7 +3735,13 @@
     "emd": "송현동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1992.12",
+    "dongCnt": "8동",
+    "heat": "중앙난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "대구광역시 달서구 송현로 113"
   },
   {
     "code": "A70476401",
@@ -2432,7 +3752,13 @@
     "emd": "송현동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2002.05",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 학산남로 90"
   },
   {
     "code": "A10025329",
@@ -2443,7 +3769,13 @@
     "emd": "대곡동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2019.09",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "대구광역시 달서구 갈밭남로 64"
   },
   {
     "code": "A10025602",
@@ -2454,7 +3786,13 @@
     "emd": "대곡동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2019.03",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 19,
+    "addr": "대구광역시 달서구 갈밭로 33"
   },
   {
     "code": "A10025800",
@@ -2465,7 +3803,13 @@
     "emd": "대곡동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2019.01",
+    "dongCnt": "12동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 갈밭남로 17"
   },
   {
     "code": "A10026062",
@@ -2476,7 +3820,13 @@
     "emd": "대곡동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2018.08",
+    "dongCnt": "12동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "대구광역시 달서구 갈밭남로 12"
   },
   {
     "code": "A10026331",
@@ -2487,7 +3837,13 @@
     "emd": "대곡동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2018.04",
+    "dongCnt": "12동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 한실로6길 123"
   },
   {
     "code": "A70431001",
@@ -2498,7 +3854,13 @@
     "emd": "대곡동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2003.04",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 비슬로550길 38"
   },
   {
     "code": "A70431002",
@@ -2509,7 +3871,13 @@
     "emd": "대곡동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1995.02",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "대구광역시 달서구 상화로 24"
   },
   {
     "code": "A70431003",
@@ -2520,7 +3888,13 @@
     "emd": "대곡동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2004.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "대구광역시 달서구 상화로 90"
   },
   {
     "code": "A70431004",
@@ -2531,7 +3905,13 @@
     "emd": "대곡동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2005.01",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "대구광역시 달서구 비슬로 2724"
   },
   {
     "code": "A70431005",
@@ -2542,7 +3922,13 @@
     "emd": "대곡동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2001.10",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "대구광역시 달서구 상화로 86"
   },
   {
     "code": "A70431009",
@@ -2553,7 +3939,13 @@
     "emd": "대곡동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2000.12",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 상화로8길 23"
   },
   {
     "code": "A70475106",
@@ -2564,7 +3956,13 @@
     "emd": "대곡동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1992.08",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "대구광역시 달서구 상화로8길 26"
   },
   {
     "code": "A70475107",
@@ -2575,7 +3973,13 @@
     "emd": "대곡동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1994.06",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 비슬로538길 22"
   },
   {
     "code": "A70475108",
@@ -2586,7 +3990,13 @@
     "emd": "대곡동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1990.12",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대구광역시 달서구 비슬로540길 14"
   },
   {
     "code": "A70475109",
@@ -2597,7 +4007,13 @@
     "emd": "대곡동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2012.07",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 비슬로 2734"
   },
   {
     "code": "A10020304",
@@ -2609,7 +4025,13 @@
     "sigunguCode": "27290",
     "sido": "대구광역시",
     "sigungu": "달서구",
-    "hhldCnt": 481
+    "hhldCnt": 481,
+    "built": "2025.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 48,
+    "addr": "대구광역시 달서구 구마로14길 33"
   },
   {
     "code": "A10020505",
@@ -2621,7 +4043,13 @@
     "sigunguCode": "27290",
     "sido": "대구광역시",
     "sigungu": "달서구",
-    "hhldCnt": 520
+    "hhldCnt": 520,
+    "built": "2025.06",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 49,
+    "addr": "대구광역시 달서구 구마로 100"
   },
   {
     "code": "A10022998",
@@ -2632,7 +4060,13 @@
     "emd": "본동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2023.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 44,
+    "addr": "대구광역시 달서구 와룡로 41"
   },
   {
     "code": "A10023187",
@@ -2643,7 +4077,13 @@
     "emd": "본동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "2023.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 45,
+    "addr": "대구광역시 달서구 와룡로 42"
   },
   {
     "code": "A70475202",
@@ -2654,7 +4094,13 @@
     "emd": "본동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1986.07",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "대구광역시 달서구 구마로36길 20"
   },
   {
     "code": "A70475203",
@@ -2665,7 +4111,13 @@
     "emd": "본동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1988.12",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "대구광역시 달서구 구마로36길 33"
   },
   {
     "code": "A70478505",
@@ -2676,7 +4128,13 @@
     "emd": "본동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1992.08",
+    "dongCnt": "10동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대구광역시 달서구 구마로12길 89"
   },
   {
     "code": "A70474101",
@@ -2687,6 +4145,12 @@
     "emd": "호산동",
     "sigunguCode": "27290",
     "sido": "대구광역시",
-    "sigungu": "달서구"
+    "sigungu": "달서구",
+    "built": "1999.11",
+    "dongCnt": "18동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대구광역시 달서구 호산로 126"
   }
 ]

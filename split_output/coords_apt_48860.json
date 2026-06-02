@@ -8,7 +8,13 @@
     "emd": "산청읍",
     "sigunguCode": "48860",
     "sido": "경상남도",
-    "sigungu": "산청군"
+    "sigungu": "산청군",
+    "built": "1993.09",
+    "dongCnt": "2동",
+    "heat": "",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 산청군 웅석봉로 72"
   },
   {
     "code": "A10023470",
@@ -19,7 +25,13 @@
     "emd": "산청읍",
     "sigunguCode": "48860",
     "sido": "경상남도",
-    "sigungu": "산청군"
+    "sigungu": "산청군",
+    "built": "2022.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 8,
+    "addr": "경상남도 산청군 산청읍 옥산리 922 산청옥산LH아파트"
   },
   {
     "code": "A10028184",
@@ -30,7 +42,13 @@
     "emd": "산청읍",
     "sigunguCode": "48860",
     "sido": "경상남도",
-    "sigungu": "산청군"
+    "sigungu": "산청군",
+    "built": "2014.12",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경상남도 산청군 중앙로 41"
   },
   {
     "code": "A66696201",
@@ -41,6 +59,12 @@
     "emd": "신안면",
     "sigunguCode": "48860",
     "sido": "경상남도",
-    "sigungu": "산청군"
+    "sigungu": "산청군",
+    "built": "1996.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 산청군 원지강변로61번길 24"
   }
 ]

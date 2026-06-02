@@ -8,7 +8,13 @@
     "emd": "내수동",
     "sigunguCode": "11110",
     "sido": "서울특별시",
-    "sigungu": "종로구"
+    "sigungu": "종로구",
+    "built": "2004.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 종로구 새문안로3길 23"
   },
   {
     "code": "A10021652",
@@ -19,7 +25,13 @@
     "emd": "내수동",
     "sigunguCode": "11110",
     "sido": "서울특별시",
-    "sigungu": "종로구"
+    "sigungu": "종로구",
+    "built": "2003.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 종로구 사직로8길 20"
   },
   {
     "code": "A11007001",
@@ -30,7 +42,13 @@
     "emd": "내수동",
     "sigunguCode": "11110",
     "sido": "서울특별시",
-    "sigungu": "종로구"
+    "sigungu": "종로구",
+    "built": "2004.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "서울특별시 종로구 사직로8길 34"
   },
   {
     "code": "A11087101",
@@ -41,7 +59,13 @@
     "emd": "내수동",
     "sigunguCode": "11110",
     "sido": "서울특별시",
-    "sigungu": "종로구"
+    "sigungu": "종로구",
+    "built": "2004.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "서울특별시 종로구 사직로8길 24"
   },
   {
     "code": "A11005401",
@@ -52,7 +76,13 @@
     "emd": "신문로2가",
     "sigunguCode": "11110",
     "sido": "서울특별시",
-    "sigungu": "종로구"
+    "sigungu": "종로구",
+    "built": "2008.07",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 종로구 사직로8길 4"
   },
   {
     "code": "A11014001",
@@ -63,7 +93,13 @@
     "emd": "수송동",
     "sigunguCode": "11110",
     "sido": "서울특별시",
-    "sigungu": "종로구"
+    "sigungu": "종로구",
+    "built": "",
+    "dongCnt": "1동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 종로구 율곡로2길 7"
   },
   {
     "code": "A11034001",
@@ -74,7 +110,13 @@
     "emd": "익선동",
     "sigunguCode": "11110",
     "sido": "서울특별시",
-    "sigungu": "종로구"
+    "sigungu": "종로구",
+    "built": "2003.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 9,
+    "addr": "서울특별시 종로구 돈화문로11가길 59"
   },
   {
     "code": "A10020992",
@@ -85,7 +127,13 @@
     "emd": "낙원동",
     "sigunguCode": "11110",
     "sido": "서울특별시",
-    "sigungu": "종로구"
+    "sigungu": "종로구",
+    "built": "1968.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 종로구 삼일대로 428"
   },
   {
     "code": "A11041001",
@@ -96,7 +144,13 @@
     "emd": "인의동",
     "sigunguCode": "11110",
     "sido": "서울특별시",
-    "sigungu": "종로구"
+    "sigungu": "종로구",
+    "built": "2006.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 종로구 종로 183"
   },
   {
     "code": "A10027162",
@@ -107,7 +161,13 @@
     "emd": "효제동",
     "sigunguCode": "11110",
     "sido": "서울특별시",
-    "sigungu": "종로구"
+    "sigungu": "종로구",
+    "built": "2017.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 종로구 대학로 33"
   },
   {
     "code": "A10023586",
@@ -119,7 +179,13 @@
     "sigunguCode": "11110",
     "sido": "서울특별시",
     "sigungu": "종로구",
-    "hhldCnt": 181
+    "hhldCnt": 181,
+    "built": "2022.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "서울특별시 종로구 율곡로 236"
   },
   {
     "code": "A10023741",
@@ -130,7 +196,13 @@
     "emd": "명륜2가",
     "sigunguCode": "11110",
     "sido": "서울특별시",
-    "sigungu": "종로구"
+    "sigungu": "종로구",
+    "built": "1996.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 9,
+    "addr": "서울특별시 종로구 혜화로3길 33"
   },
   {
     "code": "A11052201",
@@ -141,7 +213,13 @@
     "emd": "명륜2가",
     "sigunguCode": "11110",
     "sido": "서울특별시",
-    "sigungu": "종로구"
+    "sigungu": "종로구",
+    "built": "1995.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 종로구 창경궁로 265"
   },
   {
     "code": "A11076701",
@@ -152,7 +230,13 @@
     "emd": "명륜2가",
     "sigunguCode": "11110",
     "sido": "서울특별시",
-    "sigungu": "종로구"
+    "sigungu": "종로구",
+    "built": "1999.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 8,
+    "addr": "서울특별시 종로구 혜화로3길 5"
   },
   {
     "code": "A10021626",
@@ -163,7 +247,13 @@
     "emd": "창신동",
     "sigunguCode": "11110",
     "sido": "서울특별시",
-    "sigungu": "종로구"
+    "sigungu": "종로구",
+    "built": "2003.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 종로구 지봉로 87"
   },
   {
     "code": "A11054101",
@@ -174,7 +264,13 @@
     "emd": "창신동",
     "sigunguCode": "11110",
     "sido": "서울특별시",
-    "sigungu": "종로구"
+    "sigungu": "종로구",
+    "built": "1999.04",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 종로구 지봉로5길 7"
   },
   {
     "code": "A11054301",
@@ -185,7 +281,13 @@
     "emd": "창신동",
     "sigunguCode": "11110",
     "sido": "서울특별시",
-    "sigungu": "종로구"
+    "sigungu": "종로구",
+    "built": "1992.11",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 종로구 동망산길 19"
   },
   {
     "code": "A11077101",
@@ -196,7 +298,13 @@
     "emd": "창신동",
     "sigunguCode": "11110",
     "sido": "서울특별시",
-    "sigungu": "종로구"
+    "sigungu": "종로구",
+    "built": "1993.10",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 종로구 낙산길 198"
   },
   {
     "code": "A10024713",
@@ -207,7 +315,13 @@
     "emd": "숭인동",
     "sigunguCode": "11110",
     "sido": "서울특별시",
-    "sigungu": "종로구"
+    "sigungu": "종로구",
+    "built": "1979.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 8,
+    "addr": "서울특별시 종로구 청계천로 391"
   },
   {
     "code": "A11055002",
@@ -218,7 +332,13 @@
     "emd": "숭인동",
     "sigunguCode": "11110",
     "sido": "서울특별시",
-    "sigungu": "종로구"
+    "sigungu": "종로구",
+    "built": "2009.03",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 종로구 숭인동길 21"
   },
   {
     "code": "A11087601",
@@ -229,7 +349,13 @@
     "emd": "숭인동",
     "sigunguCode": "11110",
     "sido": "서울특별시",
-    "sigungu": "종로구"
+    "sigungu": "종로구",
+    "built": "2004.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 30,
+    "addr": "서울특별시 종로구 종로 347"
   },
   {
     "code": "A11087602",
@@ -240,7 +366,13 @@
     "emd": "숭인동",
     "sigunguCode": "11110",
     "sido": "서울특별시",
-    "sigungu": "종로구"
+    "sigungu": "종로구",
+    "built": "2008.11",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 종로구 동망산길 47"
   },
   {
     "code": "A10027105",
@@ -251,7 +383,13 @@
     "emd": "평동",
     "sigunguCode": "11110",
     "sido": "서울특별시",
-    "sigungu": "종로구"
+    "sigungu": "종로구",
+    "built": "2017.02",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 종로구 경교장길 35"
   },
   {
     "code": "A10027118",
@@ -262,7 +400,13 @@
     "emd": "홍파동",
     "sigunguCode": "11110",
     "sido": "서울특별시",
-    "sigungu": "종로구"
+    "sigungu": "종로구",
+    "built": "2017.02",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 종로구 송월길 99"
   },
   {
     "code": "A10026940",
@@ -273,7 +417,13 @@
     "emd": "교북동",
     "sigunguCode": "11110",
     "sido": "서울특별시",
-    "sigungu": "종로구"
+    "sigungu": "종로구",
+    "built": "2017.06",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 종로구 송월길 155"
   },
   {
     "code": "A10026946",
@@ -284,7 +434,13 @@
     "emd": "행촌동",
     "sigunguCode": "11110",
     "sido": "서울특별시",
-    "sigungu": "종로구"
+    "sigungu": "종로구",
+    "built": "2017.06",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 19,
+    "addr": "서울특별시 종로구 송월길 130"
   },
   {
     "code": "A10021278",
@@ -295,7 +451,13 @@
     "emd": "평창동",
     "sigunguCode": "11110",
     "sido": "서울특별시",
-    "sigungu": "종로구"
+    "sigungu": "종로구",
+    "built": "2009.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 종로구 평창문화로 156"
   },
   {
     "code": "A11001203",
@@ -306,7 +468,13 @@
     "emd": "평창동",
     "sigunguCode": "11110",
     "sido": "서울특별시",
-    "sigungu": "종로구"
+    "sigungu": "종로구",
+    "built": "1998.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 종로구 평창문화로 172"
   },
   {
     "code": "A11084601",
@@ -317,7 +485,13 @@
     "emd": "평창동",
     "sigunguCode": "11110",
     "sido": "서울특별시",
-    "sigungu": "종로구"
+    "sigungu": "종로구",
+    "built": "2001.04",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 종로구 평창문화로 140"
   },
   {
     "code": "A10025710",
@@ -329,7 +503,13 @@
     "sigunguCode": "11110",
     "sido": "서울특별시",
     "sigungu": "종로구",
-    "hhldCnt": 195
+    "hhldCnt": 195,
+    "built": "2019.01",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "서울특별시 종로구 통일로 230"
   },
   {
     "code": "A10027708",
@@ -340,7 +520,13 @@
     "emd": "무악동",
     "sigunguCode": "11110",
     "sido": "서울특별시",
-    "sigungu": "종로구"
+    "sigungu": "종로구",
+    "built": "2015.08",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 종로구 통일로18길 34"
   },
   {
     "code": "A11008001",
@@ -351,7 +537,13 @@
     "emd": "무악동",
     "sigunguCode": "11110",
     "sido": "서울특별시",
-    "sigungu": "종로구"
+    "sigungu": "종로구",
+    "built": "2000.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 22,
+    "addr": "서울특별시 종로구 통일로 246-11"
   },
   {
     "code": "A11081302",
@@ -362,7 +554,13 @@
     "emd": "무악동",
     "sigunguCode": "11110",
     "sido": "서울특별시",
-    "sigungu": "종로구"
+    "sigungu": "종로구",
+    "built": "2008.07",
+    "dongCnt": "17동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 종로구 통일로18길 9"
   },
   {
     "code": "A11081503",
@@ -373,6 +571,12 @@
     "emd": "무악동",
     "sigunguCode": "11110",
     "sido": "서울특별시",
-    "sigungu": "종로구"
+    "sigungu": "종로구",
+    "built": "2000.10",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 종로구 통일로 246-20"
   }
 ]

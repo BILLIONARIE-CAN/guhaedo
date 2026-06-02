@@ -8,7 +8,13 @@
     "emd": "대천동",
     "sigunguCode": "44180",
     "sido": "충청남도",
-    "sigungu": "보령시"
+    "sigungu": "보령시",
+    "built": "2026.04",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "충청남도 보령시 신대동길 40"
   },
   {
     "code": "A10020693",
@@ -20,7 +26,13 @@
     "sigunguCode": "44180",
     "sido": "충청남도",
     "sigungu": "보령시",
-    "hhldCnt": 128
+    "hhldCnt": 128,
+    "built": "1990.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "충청남도 보령시 보령북로 226"
   },
   {
     "code": "A10021452",
@@ -31,7 +43,13 @@
     "emd": "대천동",
     "sigunguCode": "44180",
     "sido": "충청남도",
-    "sigungu": "보령시"
+    "sigungu": "보령시",
+    "built": "2005.09",
+    "dongCnt": "1동",
+    "heat": "",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 보령시 원동1길 69"
   },
   {
     "code": "A10027882",
@@ -42,7 +60,13 @@
     "emd": "대천동",
     "sigunguCode": "44180",
     "sido": "충청남도",
-    "sigungu": "보령시"
+    "sigungu": "보령시",
+    "built": "2015.05",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 보령시 대관초등길 100"
   },
   {
     "code": "A35501001",
@@ -53,7 +77,13 @@
     "emd": "대천동",
     "sigunguCode": "44180",
     "sido": "충청남도",
-    "sigungu": "보령시"
+    "sigungu": "보령시",
+    "built": "1998.09",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "충청남도 보령시 중앙로 178"
   },
   {
     "code": "A35501002",
@@ -64,7 +94,13 @@
     "emd": "대천동",
     "sigunguCode": "44180",
     "sido": "충청남도",
-    "sigungu": "보령시"
+    "sigungu": "보령시",
+    "built": "1993.08",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "충청남도 보령시 천변북길 3"
   },
   {
     "code": "A35501005",
@@ -75,7 +111,13 @@
     "emd": "대천동",
     "sigunguCode": "44180",
     "sido": "충청남도",
-    "sigungu": "보령시"
+    "sigungu": "보령시",
+    "built": "2009.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "충청남도 보령시 보령북로 232"
   },
   {
     "code": "A35577101",
@@ -86,7 +128,13 @@
     "emd": "대천동",
     "sigunguCode": "44180",
     "sido": "충청남도",
-    "sigungu": "보령시"
+    "sigungu": "보령시",
+    "built": "1993.11",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "충청남도 보령시 보령북로 195"
   },
   {
     "code": "A10020762",
@@ -97,7 +145,13 @@
     "emd": "죽정동",
     "sigunguCode": "44180",
     "sido": "충청남도",
-    "sigungu": "보령시"
+    "sigungu": "보령시",
+    "built": "1993.12",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "충청남도 보령시 봉황로 103"
   },
   {
     "code": "A35512002",
@@ -108,7 +162,13 @@
     "emd": "죽정동",
     "sigunguCode": "44180",
     "sido": "충청남도",
-    "sigungu": "보령시"
+    "sigungu": "보령시",
+    "built": "2004.11",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 보령시 지장골길 78"
   },
   {
     "code": "A35512003",
@@ -119,7 +179,13 @@
     "emd": "죽정동",
     "sigunguCode": "44180",
     "sido": "충청남도",
-    "sigungu": "보령시"
+    "sigungu": "보령시",
+    "built": "2007.04",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 보령시 지장골길 160"
   },
   {
     "code": "A35512004",
@@ -130,7 +196,13 @@
     "emd": "죽정동",
     "sigunguCode": "44180",
     "sido": "충청남도",
-    "sigungu": "보령시"
+    "sigungu": "보령시",
+    "built": "1989.07",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "충청남도 보령시 지장골길 164"
   },
   {
     "code": "A35512007",
@@ -141,7 +213,13 @@
     "emd": "죽정동",
     "sigunguCode": "44180",
     "sido": "충청남도",
-    "sigungu": "보령시"
+    "sigungu": "보령시",
+    "built": "1997.02",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "충청남도 보령시 봉황로 116"
   },
   {
     "code": "A35512009",
@@ -152,7 +230,13 @@
     "emd": "죽정동",
     "sigunguCode": "44180",
     "sido": "충청남도",
-    "sigungu": "보령시"
+    "sigungu": "보령시",
+    "built": "2006.06",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "충청남도 보령시 지장골길 37"
   },
   {
     "code": "A35576805",
@@ -163,7 +247,13 @@
     "emd": "죽정동",
     "sigunguCode": "44180",
     "sido": "충청남도",
-    "sigungu": "보령시"
+    "sigungu": "보령시",
+    "built": "1992.12",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 보령시 현대로 26"
   },
   {
     "code": "A10026864",
@@ -174,7 +264,13 @@
     "emd": "동대동",
     "sigunguCode": "44180",
     "sido": "충청남도",
-    "sigungu": "보령시"
+    "sigungu": "보령시",
+    "built": "2017.07",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "충청남도 보령시 한내로터리길 165"
   },
   {
     "code": "A10026868",
@@ -185,7 +281,13 @@
     "emd": "동대동",
     "sigunguCode": "44180",
     "sido": "충청남도",
-    "sigungu": "보령시"
+    "sigungu": "보령시",
+    "built": "2017.08",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "충청남도 보령시 한내로터리길 170"
   },
   {
     "code": "A35570201",
@@ -196,7 +298,13 @@
     "emd": "동대동",
     "sigunguCode": "44180",
     "sido": "충청남도",
-    "sigungu": "보령시"
+    "sigungu": "보령시",
+    "built": "2009.03",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "충청남도 보령시 한내로터리길 92"
   },
   {
     "code": "A35570202",
@@ -207,7 +315,13 @@
     "emd": "동대동",
     "sigunguCode": "44180",
     "sido": "충청남도",
-    "sigungu": "보령시"
+    "sigungu": "보령시",
+    "built": "2013.08",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "충청남도 보령시 한내로터리길 130"
   },
   {
     "code": "A35575401",
@@ -218,7 +332,13 @@
     "emd": "동대동",
     "sigunguCode": "44180",
     "sido": "충청남도",
-    "sigungu": "보령시"
+    "sigungu": "보령시",
+    "built": "1997.03",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 보령시 동현로 46"
   },
   {
     "code": "A35593502",
@@ -229,7 +349,13 @@
     "emd": "동대동",
     "sigunguCode": "44180",
     "sido": "충청남도",
-    "sigungu": "보령시"
+    "sigungu": "보령시",
+    "built": "2003.11",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 보령시 한내로터리길 127"
   },
   {
     "code": "A35593503",
@@ -240,7 +366,13 @@
     "emd": "동대동",
     "sigunguCode": "44180",
     "sido": "충청남도",
-    "sigungu": "보령시"
+    "sigungu": "보령시",
+    "built": "2006.04",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 보령시 한내로터리길 119-11"
   },
   {
     "code": "A35593505",
@@ -251,7 +383,13 @@
     "emd": "동대동",
     "sigunguCode": "44180",
     "sido": "충청남도",
-    "sigungu": "보령시"
+    "sigungu": "보령시",
+    "built": "1990.11",
+    "dongCnt": "24동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "충청남도 보령시 주공로 33"
   },
   {
     "code": "A35593807",
@@ -262,7 +400,13 @@
     "emd": "동대동",
     "sigunguCode": "44180",
     "sido": "충청남도",
-    "sigungu": "보령시"
+    "sigungu": "보령시",
+    "built": "2009.03",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "충청남도 보령시 한내로터리길 92"
   },
   {
     "code": "A10023458",
@@ -273,7 +417,13 @@
     "emd": "명천동",
     "sigunguCode": "44180",
     "sido": "충청남도",
-    "sigungu": "보령시"
+    "sigungu": "보령시",
+    "built": "2022.12",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 25,
+    "addr": "충청남도 보령시 진등1길 24"
   },
   {
     "code": "A10024061",
@@ -284,7 +434,13 @@
     "emd": "명천동",
     "sigunguCode": "44180",
     "sido": "충청남도",
-    "sigungu": "보령시"
+    "sigungu": "보령시",
+    "built": "2021.11",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 21,
+    "addr": "충청남도 보령시 흥곡천변로 85"
   },
   {
     "code": "A10025124",
@@ -295,7 +451,13 @@
     "emd": "명천동",
     "sigunguCode": "44180",
     "sido": "충청남도",
-    "sigungu": "보령시"
+    "sigungu": "보령시",
+    "built": "2020.01",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "충청남도 보령시 명천로 106"
   },
   {
     "code": "A10025182",
@@ -306,7 +468,13 @@
     "emd": "명천동",
     "sigunguCode": "44180",
     "sido": "충청남도",
-    "sigungu": "보령시"
+    "sigungu": "보령시",
+    "built": "2019.11",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "충청남도 보령시 명천로 94"
   },
   {
     "code": "A10025366",
@@ -317,7 +485,13 @@
     "emd": "명천동",
     "sigunguCode": "44180",
     "sido": "충청남도",
-    "sigungu": "보령시"
+    "sigungu": "보령시",
+    "built": "2019.08",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "충청남도 보령시 주공로 100"
   },
   {
     "code": "A35575909",
@@ -328,7 +502,13 @@
     "emd": "명천동",
     "sigunguCode": "44180",
     "sido": "충청남도",
-    "sigungu": "보령시"
+    "sigungu": "보령시",
+    "built": "1994.11",
+    "dongCnt": "7동",
+    "heat": "중앙난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "충청남도 보령시 주공로 50"
   },
   {
     "code": "A35594003",
@@ -339,7 +519,13 @@
     "emd": "명천동",
     "sigunguCode": "44180",
     "sido": "충청남도",
-    "sigungu": "보령시"
+    "sigungu": "보령시",
+    "built": "1989.11",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "충청남도 보령시 보령남로 49-31"
   },
   {
     "code": "A35594004",
@@ -350,7 +536,13 @@
     "emd": "명천동",
     "sigunguCode": "44180",
     "sido": "충청남도",
-    "sigungu": "보령시"
+    "sigungu": "보령시",
+    "built": "1997.05",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 보령시 주공로 65"
   },
   {
     "code": "A35594006",
@@ -361,7 +553,13 @@
     "emd": "명천동",
     "sigunguCode": "44180",
     "sido": "충청남도",
-    "sigungu": "보령시"
+    "sigungu": "보령시",
+    "built": "1996.11",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 보령시 주공로 65"
   },
   {
     "code": "A35594007",
@@ -372,7 +570,13 @@
     "emd": "명천동",
     "sigunguCode": "44180",
     "sido": "충청남도",
-    "sigungu": "보령시"
+    "sigungu": "보령시",
+    "built": "1998.07",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 보령시 주공로 65"
   },
   {
     "code": "A35594102",
@@ -383,7 +587,13 @@
     "emd": "명천동",
     "sigunguCode": "44180",
     "sido": "충청남도",
-    "sigungu": "보령시"
+    "sigungu": "보령시",
+    "built": "2005.11",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 보령시 명천중앙길 20"
   },
   {
     "code": "A35594105",
@@ -394,7 +604,13 @@
     "emd": "명천동",
     "sigunguCode": "44180",
     "sido": "충청남도",
-    "sigungu": "보령시"
+    "sigungu": "보령시",
+    "built": "2008.08",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "충청남도 보령시 주공로 99"
   },
   {
     "code": "A35506001",
@@ -405,7 +621,13 @@
     "emd": "궁촌동",
     "sigunguCode": "44180",
     "sido": "충청남도",
-    "sigungu": "보령시"
+    "sigungu": "보령시",
+    "built": "2006.03",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 보령시 현충탑길 65"
   },
   {
     "code": "A10020674",
@@ -417,7 +639,13 @@
     "sigunguCode": "44180",
     "sido": "충청남도",
     "sigungu": "보령시",
-    "hhldCnt": 40
+    "hhldCnt": 40,
+    "built": "1991.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "충청남도 보령시 시영길 20"
   },
   {
     "code": "A35594401",
@@ -428,7 +656,13 @@
     "emd": "신흑동",
     "sigunguCode": "44180",
     "sido": "충청남도",
-    "sigungu": "보령시"
+    "sigungu": "보령시",
+    "built": "1996.07",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 보령시 고잠2길 1-31"
   },
   {
     "code": "A10021076",
@@ -439,6 +673,12 @@
     "emd": "웅천읍",
     "sigunguCode": "44180",
     "sido": "충청남도",
-    "sigungu": "보령시"
+    "sigungu": "보령시",
+    "built": "2020.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 10,
+    "addr": "충청남도 보령시 장터중앙길 192-8"
   }
 ]

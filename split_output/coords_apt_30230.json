@@ -8,7 +8,13 @@
     "emd": "오정동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "1991.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "대전광역시 대덕구 대전로1020번길 86"
   },
   {
     "code": "A30670301",
@@ -19,7 +25,13 @@
     "emd": "오정동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "2007.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 대덕구 한밭대로1003번길 25"
   },
   {
     "code": "A30678602",
@@ -30,7 +42,13 @@
     "emd": "오정동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "1999.05",
+    "dongCnt": "8동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대전광역시 대덕구 대전로1185번길 30"
   },
   {
     "code": "A30678703",
@@ -41,7 +59,13 @@
     "emd": "오정동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "1990.11",
+    "dongCnt": "7동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 대덕구 한밭대로1033번길 15"
   },
   {
     "code": "A30681901",
@@ -52,7 +76,13 @@
     "emd": "오정동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "1996.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "대전광역시 대덕구 대전로1020번길 85"
   },
   {
     "code": "A10025654",
@@ -63,7 +93,13 @@
     "emd": "대화동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "1990.11",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "대전광역시 대덕구 동심1길 103"
   },
   {
     "code": "A30680101",
@@ -74,7 +110,13 @@
     "emd": "대화동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "2001.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "대전광역시 대덕구 대화1길 77"
   },
   {
     "code": "A30676102",
@@ -85,7 +127,13 @@
     "emd": "읍내동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "1991.10",
+    "dongCnt": "15동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "대전광역시 대덕구 계족로761번길 24"
   },
   {
     "code": "A30679001",
@@ -96,7 +144,13 @@
     "emd": "읍내동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "1997.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "대전광역시 대덕구 대전로1397번길 79"
   },
   {
     "code": "A30678401",
@@ -107,7 +161,13 @@
     "emd": "연축동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "1987.11",
+    "dongCnt": "18동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "대전광역시 대덕구 신탄진로 170"
   },
   {
     "code": "A30678001",
@@ -118,7 +178,13 @@
     "emd": "신대동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "1987.05",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "대전광역시 대덕구 신탄진로 217"
   },
   {
     "code": "A10022725",
@@ -129,7 +195,13 @@
     "emd": "와동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "2024.04",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "대전광역시 대덕구 신탄진로218번길 20"
   },
   {
     "code": "A30678902",
@@ -140,7 +212,13 @@
     "emd": "와동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "1994.08",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "대전광역시 대덕구 신탄진로218번길 62"
   },
   {
     "code": "A10020642",
@@ -152,7 +230,13 @@
     "sigunguCode": "30230",
     "sido": "대전광역시",
     "sigungu": "대덕구",
-    "hhldCnt": 799
+    "hhldCnt": 799,
+    "built": "2025.04",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "대전광역시 대덕구 계족산로52번길 50"
   },
   {
     "code": "A30677602",
@@ -163,7 +247,13 @@
     "emd": "송촌동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "1999.10",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대전광역시 대덕구 동춘당로114번길 47"
   },
   {
     "code": "A30677705",
@@ -174,7 +264,13 @@
     "emd": "송촌동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "1999.11",
+    "dongCnt": "16동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대전광역시 대덕구 동춘당로114번길 60"
   },
   {
     "code": "A30677803",
@@ -185,7 +281,13 @@
     "emd": "송촌동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "1999.10",
+    "dongCnt": "17동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "대전광역시 대덕구 계족산로 135"
   },
   {
     "code": "A30677904",
@@ -196,7 +298,13 @@
     "emd": "송촌동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "1999.10",
+    "dongCnt": "19동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대전광역시 대덕구 계족산로 136"
   },
   {
     "code": "A30681301",
@@ -207,7 +315,13 @@
     "emd": "송촌동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "1991.11",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "대전광역시 대덕구 동춘당로23번길 13"
   },
   {
     "code": "A10024551",
@@ -218,7 +332,13 @@
     "emd": "법동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "2020.09",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "대전광역시 대덕구 중리북로 46"
   },
   {
     "code": "A30606001",
@@ -229,7 +349,13 @@
     "emd": "법동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "1993.07",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 대덕구 동춘당로 160"
   },
   {
     "code": "A30606003",
@@ -240,7 +366,13 @@
     "emd": "법동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "1987.09",
+    "dongCnt": "11동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 대덕구 계족로663번길 29"
   },
   {
     "code": "A30606202",
@@ -251,7 +383,13 @@
     "emd": "법동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "1999.11",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대전광역시 대덕구 계족로690번길 21"
   },
   {
     "code": "A30675305",
@@ -262,7 +400,13 @@
     "emd": "법동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "1990.11",
+    "dongCnt": "7동",
+    "heat": "중앙난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "대전광역시 대덕구 계족로663번길 34"
   },
   {
     "code": "A30675801",
@@ -273,7 +417,13 @@
     "emd": "법동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "1993.11",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 대덕구 동춘당로 151"
   },
   {
     "code": "A30675903",
@@ -284,7 +434,13 @@
     "emd": "법동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "1995.05",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 대덕구 동춘당로 178"
   },
   {
     "code": "A30676401",
@@ -295,7 +451,13 @@
     "emd": "법동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "1989.11",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 대덕구 계족로663번길 23"
   },
   {
     "code": "A30676604",
@@ -306,7 +468,13 @@
     "emd": "법동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "1992.11",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "대전광역시 대덕구 계족로664번길 27"
   },
   {
     "code": "A30679304",
@@ -317,7 +485,13 @@
     "emd": "법동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "1990.12",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 대덕구 아리랑로 211"
   },
   {
     "code": "A30679403",
@@ -328,7 +502,13 @@
     "emd": "법동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "1989.10",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 대덕구 계족로663번길 32"
   },
   {
     "code": "A30679502",
@@ -339,7 +519,13 @@
     "emd": "법동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "1987.11",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "대전광역시 대덕구 계족로663번길 30"
   },
   {
     "code": "A30679201",
@@ -350,7 +536,13 @@
     "emd": "중리동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "1989.05",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 대덕구 중리서로 31"
   },
   {
     "code": "A30679202",
@@ -361,7 +553,13 @@
     "emd": "중리동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "1993.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 9,
+    "addr": "대전광역시 대덕구 계족로521번길 79"
   },
   {
     "code": "A10023164",
@@ -372,7 +570,13 @@
     "emd": "비래동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "2005.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 11,
+    "addr": "대전광역시 대덕구 비래서로61번길 71"
   },
   {
     "code": "A30676804",
@@ -383,7 +587,13 @@
     "emd": "비래동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "1994.11",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "대전광역시 대덕구 신상로 21"
   },
   {
     "code": "A30676902",
@@ -394,7 +604,13 @@
     "emd": "비래동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "1991.03",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "대전광역시 대덕구 우암로 463"
   },
   {
     "code": "A30676903",
@@ -405,7 +621,13 @@
     "emd": "비래동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "2001.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 대덕구 우암동로18번길 30"
   },
   {
     "code": "A30677003",
@@ -416,7 +638,13 @@
     "emd": "비래동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "1986.11",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 대덕구 우암로 394"
   },
   {
     "code": "A30680801",
@@ -427,7 +655,13 @@
     "emd": "비래동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "1989.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "대전광역시 대덕구 비래서로 42"
   },
   {
     "code": "A30680905",
@@ -438,7 +672,13 @@
     "emd": "비래동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "2006.06",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "대전광역시 대덕구 비래서로10번길 21"
   },
   {
     "code": "A10022265",
@@ -449,7 +689,13 @@
     "emd": "석봉동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "1992.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "대전광역시 대덕구 석봉로44번길 13"
   },
   {
     "code": "A10024653",
@@ -460,7 +706,13 @@
     "emd": "석봉동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "2020.08",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 33,
+    "addr": "대전광역시 대덕구 대덕대로1585번길 44"
   },
   {
     "code": "A10026742",
@@ -471,7 +723,13 @@
     "emd": "석봉동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "2017.10",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "대전광역시 대덕구 대덕대로 1587"
   },
   {
     "code": "A30677201",
@@ -482,7 +740,13 @@
     "emd": "석봉동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "1990.10",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 대덕구 석봉로30번안길 57"
   },
   {
     "code": "A30677202",
@@ -493,7 +757,13 @@
     "emd": "석봉동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "2012.01",
+    "dongCnt": "12동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 50,
+    "addr": "대전광역시 대덕구 대덕대로 1555"
   },
   {
     "code": "A30681003",
@@ -504,7 +774,13 @@
     "emd": "석봉동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "1995.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "대전광역시 대덕구 석봉로58번안길 82"
   },
   {
     "code": "A10021170",
@@ -515,7 +791,13 @@
     "emd": "목상동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "2014.04",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "대전광역시 대덕구 대덕대로1486번길 65"
   },
   {
     "code": "A30676003",
@@ -526,7 +808,13 @@
     "emd": "목상동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "1993.09",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 대덕구 대덕대로1470번길 55"
   },
   {
     "code": "A30676004",
@@ -537,7 +825,13 @@
     "emd": "목상동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "2011.07",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 대덕구 대덕대로1520번길 77"
   },
   {
     "code": "A30676202",
@@ -548,7 +842,13 @@
     "emd": "목상동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "1999.02",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 대덕구 대덕대로1470번길 27"
   },
   {
     "code": "A30623001",
@@ -559,7 +859,13 @@
     "emd": "신일동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "1996.10",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "대전광역시 대덕구 대덕대로1448번길 80"
   },
   {
     "code": "A10022260",
@@ -570,7 +876,13 @@
     "emd": "덕암동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "2009.03",
+    "dongCnt": "1동",
+    "heat": "",
+    "sale": "혼합",
+    "topFloor": 1,
+    "addr": "대전광역시 대덕구 덕암로234번길 23"
   },
   {
     "code": "A30620001",
@@ -581,7 +893,13 @@
     "emd": "덕암동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "2000.10",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "대전광역시 대덕구 덕암로234번길 15"
   },
   {
     "code": "A30680301",
@@ -592,7 +910,13 @@
     "emd": "덕암동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "1998.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 대덕구 덕암로265번길 81"
   },
   {
     "code": "A10024523",
@@ -603,7 +927,13 @@
     "emd": "상서동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "2020.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 18,
+    "addr": "대전광역시 대덕구 새말3길 41"
   },
   {
     "code": "A30612001",
@@ -614,7 +944,13 @@
     "emd": "상서동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "1998.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 11,
+    "addr": "대전광역시 대덕구 덕암로154번길 16"
   },
   {
     "code": "A30677102",
@@ -625,7 +961,13 @@
     "emd": "상서동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "1980.05",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "사택 및 관사 등",
+    "topFloor": 5,
+    "addr": "대전광역시 대덕구 벚꽃길 142"
   },
   {
     "code": "A30671201",
@@ -636,7 +978,13 @@
     "emd": "평촌동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "2011.04",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대전광역시 대덕구 덕암로 200"
   },
   {
     "code": "A10021570",
@@ -647,7 +995,13 @@
     "emd": "신탄진동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "2024.10",
+    "dongCnt": "2동",
+    "heat": "",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "대전광역시 대덕구 대청로 5"
   },
   {
     "code": "A10022732",
@@ -658,7 +1012,13 @@
     "emd": "신탄진동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "2024.02",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 38,
+    "addr": "대전광역시 대덕구 대청로 53"
   },
   {
     "code": "A10024001",
@@ -669,7 +1029,13 @@
     "emd": "신탄진동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "2021.11",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 43,
+    "addr": "대전광역시 대덕구 대청로 43"
   },
   {
     "code": "A30619002",
@@ -680,7 +1046,13 @@
     "emd": "신탄진동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "1996.09",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "대전광역시 대덕구 대청로64번길 63"
   },
   {
     "code": "A30678103",
@@ -691,7 +1063,13 @@
     "emd": "신탄진동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "1994.08",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 대덕구 대청로64번길 41"
   },
   {
     "code": "A30678204",
@@ -702,7 +1080,13 @@
     "emd": "신탄진동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "1994.11",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 대덕구 대청로64번길 11"
   },
   {
     "code": "A30681501",
@@ -713,6 +1097,12 @@
     "emd": "신탄진동",
     "sigunguCode": "30230",
     "sido": "대전광역시",
-    "sigungu": "대덕구"
+    "sigungu": "대덕구",
+    "built": "2004.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 대덕구 신탄진로810번길 20"
   }
 ]

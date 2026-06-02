@@ -8,7 +8,13 @@
     "emd": "대교동1가",
     "sigunguCode": "26200",
     "sido": "부산광역시",
-    "sigungu": "영도구"
+    "sigungu": "영도구",
+    "built": "2020.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "부산광역시 영도구 남항서로 131"
   },
   {
     "code": "A60675701",
@@ -19,7 +25,13 @@
     "emd": "대평동1가",
     "sigunguCode": "26200",
     "sido": "부산광역시",
-    "sigungu": "영도구"
+    "sigungu": "영도구",
+    "built": "1980.08",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "부산광역시 영도구 대평로 16"
   },
   {
     "code": "A10027065",
@@ -30,7 +42,13 @@
     "emd": "남항동1가",
     "sigunguCode": "26200",
     "sido": "부산광역시",
-    "sigungu": "영도구"
+    "sigungu": "영도구",
+    "built": "2016.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 영도구 절영로35번길 46"
   },
   {
     "code": "A60674101",
@@ -41,7 +59,13 @@
     "emd": "영선동2가",
     "sigunguCode": "26200",
     "sido": "부산광역시",
-    "sigungu": "영도구"
+    "sigungu": "영도구",
+    "built": "2004.11",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "부산광역시 영도구 영선대로 98"
   },
   {
     "code": "A60675901",
@@ -52,7 +76,13 @@
     "emd": "영선동4가",
     "sigunguCode": "26200",
     "sido": "부산광역시",
-    "sigungu": "영도구"
+    "sigungu": "영도구",
+    "built": "1991.01",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 영도구 남항새싹길 79"
   },
   {
     "code": "A60681702",
@@ -63,7 +93,13 @@
     "emd": "영선동4가",
     "sigunguCode": "26200",
     "sido": "부산광역시",
-    "sigungu": "영도구"
+    "sigungu": "영도구",
+    "built": "2000.06",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 영도구 해안산책길 30"
   },
   {
     "code": "A60605201",
@@ -74,7 +110,13 @@
     "emd": "신선동2가",
     "sigunguCode": "26200",
     "sido": "부산광역시",
-    "sigungu": "영도구"
+    "sigungu": "영도구",
+    "built": "1993.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 영도구 중복길 270"
   },
   {
     "code": "A10020690",
@@ -85,7 +127,13 @@
     "emd": "봉래동2가",
     "sigunguCode": "26200",
     "sido": "부산광역시",
-    "sigungu": "영도구"
+    "sigungu": "영도구",
+    "built": "2025.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 34,
+    "addr": "부산광역시 영도구 봉래나루로166번길 10"
   },
   {
     "code": "A60675801",
@@ -96,7 +144,13 @@
     "emd": "봉래동2가",
     "sigunguCode": "26200",
     "sido": "부산광역시",
-    "sigungu": "영도구"
+    "sigungu": "영도구",
+    "built": "1992.06",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "부산광역시 영도구 대교로14번길 17"
   },
   {
     "code": "A10024303",
@@ -107,7 +161,13 @@
     "emd": "봉래동4가",
     "sigunguCode": "26200",
     "sido": "부산광역시",
-    "sigungu": "영도구"
+    "sigungu": "영도구",
+    "built": "2021.04",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 34,
+    "addr": "부산광역시 영도구 태종로 172"
   },
   {
     "code": "A60681101",
@@ -118,7 +178,13 @@
     "emd": "봉래동4가",
     "sigunguCode": "26200",
     "sido": "부산광역시",
-    "sigungu": "영도구"
+    "sigungu": "영도구",
+    "built": "1996.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "부산광역시 영도구 봉래길 94"
   },
   {
     "code": "A10023733",
@@ -129,7 +195,13 @@
     "emd": "청학동",
     "sigunguCode": "26200",
     "sido": "부산광역시",
-    "sigungu": "영도구"
+    "sigungu": "영도구",
+    "built": "2022.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 35,
+    "addr": "부산광역시 영도구 태종로 405"
   },
   {
     "code": "A60607001",
@@ -140,7 +212,13 @@
     "emd": "청학동",
     "sigunguCode": "26200",
     "sido": "부산광역시",
-    "sigungu": "영도구"
+    "sigungu": "영도구",
+    "built": "2005.08",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "부산광역시 영도구 일산봉로 58"
   },
   {
     "code": "A60607002",
@@ -151,7 +229,13 @@
     "emd": "청학동",
     "sigunguCode": "26200",
     "sido": "부산광역시",
-    "sigungu": "영도구"
+    "sigungu": "영도구",
+    "built": "2004.07",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "부산광역시 영도구 조내기로 38"
   },
   {
     "code": "A60607003",
@@ -162,7 +246,13 @@
     "emd": "청학동",
     "sigunguCode": "26200",
     "sido": "부산광역시",
-    "sigungu": "영도구"
+    "sigungu": "영도구",
+    "built": "2005.10",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "부산광역시 영도구 청학남로 48"
   },
   {
     "code": "A60607004",
@@ -173,7 +263,13 @@
     "emd": "청학동",
     "sigunguCode": "26200",
     "sido": "부산광역시",
-    "sigungu": "영도구"
+    "sigungu": "영도구",
+    "built": "2009.07",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "부산광역시 영도구 태종로 260"
   },
   {
     "code": "A60673703",
@@ -184,7 +280,13 @@
     "emd": "청학동",
     "sigunguCode": "26200",
     "sido": "부산광역시",
-    "sigungu": "영도구"
+    "sigungu": "영도구",
+    "built": "1994.01",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "부산광역시 영도구 조내기로 33"
   },
   {
     "code": "A60681801",
@@ -195,7 +297,13 @@
     "emd": "청학동",
     "sigunguCode": "26200",
     "sido": "부산광역시",
-    "sigungu": "영도구"
+    "sigungu": "영도구",
+    "built": "1995.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "부산광역시 영도구 광암길 6"
   },
   {
     "code": "A60681802",
@@ -206,7 +314,13 @@
     "emd": "청학동",
     "sigunguCode": "26200",
     "sido": "부산광역시",
-    "sigungu": "영도구"
+    "sigungu": "영도구",
+    "built": "1994.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "부산광역시 영도구 태종로 428"
   },
   {
     "code": "A60681904",
@@ -217,7 +331,13 @@
     "emd": "청학동",
     "sigunguCode": "26200",
     "sido": "부산광역시",
-    "sigungu": "영도구"
+    "sigungu": "영도구",
+    "built": "1999.08",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 영도구 일산봉로 62"
   },
   {
     "code": "A10020370",
@@ -229,7 +349,13 @@
     "sigunguCode": "26200",
     "sido": "부산광역시",
     "sigungu": "영도구",
-    "hhldCnt": 120
+    "hhldCnt": 120,
+    "built": "1980.05",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "부산광역시 영도구 웃서발로 92"
   },
   {
     "code": "A10021630",
@@ -240,7 +366,13 @@
     "emd": "동삼동",
     "sigunguCode": "26200",
     "sido": "부산광역시",
-    "sigungu": "영도구"
+    "sigungu": "영도구",
+    "built": "2017.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "부산광역시 영도구 절영로490번길 18"
   },
   {
     "code": "A10022267",
@@ -251,7 +383,13 @@
     "emd": "동삼동",
     "sigunguCode": "26200",
     "sido": "부산광역시",
-    "sigungu": "영도구"
+    "sigungu": "영도구",
+    "built": "2023.06",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 35,
+    "addr": "부산광역시 영도구 태종로 611"
   },
   {
     "code": "A10023837",
@@ -262,7 +400,13 @@
     "emd": "동삼동",
     "sigunguCode": "26200",
     "sido": "부산광역시",
-    "sigungu": "영도구"
+    "sigungu": "영도구",
+    "built": "2022.04",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 49,
+    "addr": "부산광역시 영도구 동삼오션로 30"
   },
   {
     "code": "A10026828",
@@ -273,7 +417,13 @@
     "emd": "동삼동",
     "sigunguCode": "26200",
     "sido": "부산광역시",
-    "sigungu": "영도구"
+    "sigungu": "영도구",
+    "built": "2017.08",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 영도구 절영로 524"
   },
   {
     "code": "A10028116",
@@ -284,7 +434,13 @@
     "emd": "동삼동",
     "sigunguCode": "26200",
     "sido": "부산광역시",
-    "sigungu": "영도구"
+    "sigungu": "영도구",
+    "built": "2014.12",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 영도구 동삼북로 20"
   },
   {
     "code": "A60608001",
@@ -295,7 +451,13 @@
     "emd": "동삼동",
     "sigunguCode": "26200",
     "sido": "부산광역시",
-    "sigungu": "영도구"
+    "sigungu": "영도구",
+    "built": "1995.06",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 영도구 와치로 266"
   },
   {
     "code": "A60608002",
@@ -306,7 +468,13 @@
     "emd": "동삼동",
     "sigunguCode": "26200",
     "sido": "부산광역시",
-    "sigungu": "영도구"
+    "sigungu": "영도구",
+    "built": "1985.12",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "부산광역시 영도구 절영로 504"
   },
   {
     "code": "A60608106",
@@ -317,7 +485,13 @@
     "emd": "동삼동",
     "sigunguCode": "26200",
     "sido": "부산광역시",
-    "sigungu": "영도구"
+    "sigungu": "영도구",
+    "built": "1994.11",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "부산광역시 영도구 함지로 19"
   },
   {
     "code": "A60608303",
@@ -328,7 +502,13 @@
     "emd": "동삼동",
     "sigunguCode": "26200",
     "sido": "부산광역시",
-    "sigungu": "영도구"
+    "sigungu": "영도구",
+    "built": "1993.09",
+    "dongCnt": "17동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 영도구 상리로 1"
   },
   {
     "code": "A60670101",
@@ -339,7 +519,13 @@
     "emd": "동삼동",
     "sigunguCode": "26200",
     "sido": "부산광역시",
-    "sigungu": "영도구"
+    "sigungu": "영도구",
+    "built": "1995.10",
+    "dongCnt": "7동",
+    "heat": "중앙난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "부산광역시 영도구 함지로79번길 53"
   },
   {
     "code": "A60670102",
@@ -350,7 +536,13 @@
     "emd": "동삼동",
     "sigunguCode": "26200",
     "sido": "부산광역시",
-    "sigungu": "영도구"
+    "sigungu": "영도구",
+    "built": "1994.05",
+    "dongCnt": "3동",
+    "heat": "중앙난방",
+    "sale": "임대",
+    "topFloor": 14,
+    "addr": "부산광역시 영도구 함지로 35"
   },
   {
     "code": "A60675110",
@@ -361,7 +553,13 @@
     "emd": "동삼동",
     "sigunguCode": "26200",
     "sido": "부산광역시",
-    "sigungu": "영도구"
+    "sigungu": "영도구",
+    "built": "1994.05",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "부산광역시 영도구 함지로 8"
   },
   {
     "code": "A60676104",
@@ -372,7 +570,13 @@
     "emd": "동삼동",
     "sigunguCode": "26200",
     "sido": "부산광역시",
-    "sigungu": "영도구"
+    "sigungu": "영도구",
+    "built": "1991.11",
+    "dongCnt": "4동",
+    "heat": "중앙난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "부산광역시 영도구 동삼북로 2"
   },
   {
     "code": "A60676205",
@@ -383,7 +587,13 @@
     "emd": "동삼동",
     "sigunguCode": "26200",
     "sido": "부산광역시",
-    "sigungu": "영도구"
+    "sigungu": "영도구",
+    "built": "1993.10",
+    "dongCnt": "9동",
+    "heat": "중앙난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "부산광역시 영도구 상리로 1"
   },
   {
     "code": "A60677104",
@@ -394,7 +604,13 @@
     "emd": "동삼동",
     "sigunguCode": "26200",
     "sido": "부산광역시",
-    "sigungu": "영도구"
+    "sigungu": "영도구",
+    "built": "2004.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "부산광역시 영도구 와치로 294"
   },
   {
     "code": "A60680701",
@@ -405,7 +621,13 @@
     "emd": "동삼동",
     "sigunguCode": "26200",
     "sido": "부산광역시",
-    "sigungu": "영도구"
+    "sigungu": "영도구",
+    "built": "1996.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 영도구 태종로700번길 19"
   },
   {
     "code": "A60680702",
@@ -416,7 +638,13 @@
     "emd": "동삼동",
     "sigunguCode": "26200",
     "sido": "부산광역시",
-    "sigungu": "영도구"
+    "sigungu": "영도구",
+    "built": "1990.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "부산광역시 영도구 절영로 551"
   },
   {
     "code": "A60680703",
@@ -427,7 +655,13 @@
     "emd": "동삼동",
     "sigunguCode": "26200",
     "sido": "부산광역시",
-    "sigungu": "영도구"
+    "sigungu": "영도구",
+    "built": "1993.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "부산광역시 영도구 동삼동로 10"
   },
   {
     "code": "A60680705",
@@ -438,7 +672,13 @@
     "emd": "동삼동",
     "sigunguCode": "26200",
     "sido": "부산광역시",
-    "sigungu": "영도구"
+    "sigungu": "영도구",
+    "built": "1995.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 영도구 태종로 702"
   },
   {
     "code": "A60680907",
@@ -449,7 +689,13 @@
     "emd": "동삼동",
     "sigunguCode": "26200",
     "sido": "부산광역시",
-    "sigungu": "영도구"
+    "sigungu": "영도구",
+    "built": "1997.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "부산광역시 영도구 와치로 287"
   },
   {
     "code": "A60680909",
@@ -460,7 +706,13 @@
     "emd": "동삼동",
     "sigunguCode": "26200",
     "sido": "부산광역시",
-    "sigungu": "영도구"
+    "sigungu": "영도구",
+    "built": "1995.07",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 영도구 중리로 32"
   },
   {
     "code": "A60680912",
@@ -471,6 +723,12 @@
     "emd": "동삼동",
     "sigunguCode": "26200",
     "sido": "부산광역시",
-    "sigungu": "영도구"
+    "sigungu": "영도구",
+    "built": "1995.10",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "부산광역시 영도구 와치로 231"
   }
 ]

@@ -8,7 +8,13 @@
     "emd": "대야동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2020.07",
+    "dongCnt": "15동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "경기도 시흥시 서해안로 1645"
   },
   {
     "code": "A10024845",
@@ -19,7 +25,13 @@
     "emd": "대야동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2020.05",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 49,
+    "addr": "경기도 시흥시 수인로3312번길 16"
   },
   {
     "code": "A10024989",
@@ -30,7 +42,13 @@
     "emd": "대야동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2019.09",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 35,
+    "addr": "경기도 시흥시 비둘기공원7길 10"
   },
   {
     "code": "A10025100",
@@ -41,7 +59,13 @@
     "emd": "대야동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2019.12",
+    "dongCnt": "14동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경기도 시흥시 은계중앙로 325"
   },
   {
     "code": "A10025179",
@@ -52,7 +76,13 @@
     "emd": "대야동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2019.11",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 25,
+    "addr": "경기도 시흥시 은계북길 7"
   },
   {
     "code": "A10025979",
@@ -63,7 +93,13 @@
     "emd": "대야동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2018.09",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경기도 시흥시 계수로 19"
   },
   {
     "code": "A42980702",
@@ -74,7 +110,13 @@
     "emd": "대야동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1996.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "경기도 시흥시 서해안로1670번길 12"
   },
   {
     "code": "A42980706",
@@ -85,7 +127,13 @@
     "emd": "대야동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1992.02",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 시흥시 은행로216번길 13"
   },
   {
     "code": "A42981308",
@@ -96,7 +144,13 @@
     "emd": "대야동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1995.06",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경기도 시흥시 은행로 233"
   },
   {
     "code": "A42987403",
@@ -107,7 +161,13 @@
     "emd": "대야동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1995.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "경기도 시흥시 은행로218번길 4"
   },
   {
     "code": "A42987404",
@@ -118,7 +178,13 @@
     "emd": "대야동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1995.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 시흥시 은행로 222"
   },
   {
     "code": "A42987405",
@@ -129,7 +195,13 @@
     "emd": "대야동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2004.06",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 시흥시 대은로103번길 4"
   },
   {
     "code": "A42987409",
@@ -140,7 +212,13 @@
     "emd": "대야동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1995.08",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "경기도 시흥시 은행로 243-17"
   },
   {
     "code": "A42987413",
@@ -151,7 +229,13 @@
     "emd": "대야동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1997.07",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "경기도 시흥시 비둘기공원7길 47"
   },
   {
     "code": "A42987415",
@@ -162,7 +246,13 @@
     "emd": "대야동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1995.10",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "경기도 시흥시 은행로 208"
   },
   {
     "code": "A42987416",
@@ -173,7 +263,13 @@
     "emd": "대야동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1997.12",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "경기도 시흥시 은행로 230"
   },
   {
     "code": "A42987417",
@@ -184,7 +280,13 @@
     "emd": "대야동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1997.11",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 시흥시 비둘기공원7길 27"
   },
   {
     "code": "A42990411",
@@ -195,7 +297,13 @@
     "emd": "대야동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2000.07",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "경기도 시흥시 소래산길 18"
   },
   {
     "code": "A42990413",
@@ -206,7 +314,13 @@
     "emd": "대야동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1991.03",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 6,
+    "addr": "경기도 시흥시 은행로 188-15"
   },
   {
     "code": "A10021163",
@@ -217,7 +331,13 @@
     "emd": "신천동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1996.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "경기도 시흥시 신흥마을1길 37"
   },
   {
     "code": "A10024985",
@@ -228,7 +348,13 @@
     "emd": "신천동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2020.02",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "경기도 시흥시 시흥대로 1124-17"
   },
   {
     "code": "A42902009",
@@ -239,7 +365,13 @@
     "emd": "신천동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2005.06",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 시흥시 시흥대로 1119-3"
   },
   {
     "code": "A42972101",
@@ -250,7 +382,13 @@
     "emd": "신천동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2010.07",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경기도 시흥시 시흥대로 1133"
   },
   {
     "code": "A42972102",
@@ -261,7 +399,13 @@
     "emd": "신천동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2011.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 33,
+    "addr": "경기도 시흥시 복지로 15"
   },
   {
     "code": "A42972103",
@@ -272,7 +416,13 @@
     "emd": "신천동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2012.03",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "경기도 시흥시 시흥대로 1144"
   },
   {
     "code": "A42972104",
@@ -283,7 +433,13 @@
     "emd": "신천동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1997.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "경기도 시흥시 시흥대로1073번길 40"
   },
   {
     "code": "A42982404",
@@ -294,7 +450,13 @@
     "emd": "신천동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1996.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "경기도 시흥시 시흥대로1073번길 39"
   },
   {
     "code": "A42987706",
@@ -305,7 +467,13 @@
     "emd": "신천동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1997.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 시흥시 신천로25번길 1-1"
   },
   {
     "code": "A42987103",
@@ -316,7 +484,13 @@
     "emd": "포동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1997.01",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경기도 시흥시 신현로12번길 30"
   },
   {
     "code": "A42987104",
@@ -327,7 +501,13 @@
     "emd": "포동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1993.11",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 시흥시 신현로38번길 23-1"
   },
   {
     "code": "A10021231",
@@ -338,7 +518,13 @@
     "emd": "미산동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1991.04",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "경기도 시흥시 미산로143번길 10"
   },
   {
     "code": "A42982201",
@@ -349,7 +535,13 @@
     "emd": "미산동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1995.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 시흥시 미산로69번길 4"
   },
   {
     "code": "A42982204",
@@ -360,7 +552,13 @@
     "emd": "미산동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2009.10",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "경기도 시흥시 미산로100번길 11"
   },
   {
     "code": "A10020422",
@@ -372,7 +570,13 @@
     "sigunguCode": "41390",
     "sido": "경기도",
     "sigungu": "시흥시",
-    "hhldCnt": 1297
+    "hhldCnt": 1297,
+    "built": "2025.09",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 47,
+    "addr": "경기도 시흥시 시흥대로 1110"
   },
   {
     "code": "A10024498",
@@ -383,7 +587,13 @@
     "emd": "은행동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2020.12",
+    "dongCnt": "17동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경기도 시흥시 은계중앙로 65"
   },
   {
     "code": "A10024572",
@@ -394,7 +604,13 @@
     "emd": "은행동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2020.10",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 29,
+    "addr": "경기도 시흥시 은계중앙로 8"
   },
   {
     "code": "A10024951",
@@ -405,7 +621,13 @@
     "emd": "은행동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2020.03",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경기도 시흥시 은계중앙로 151"
   },
   {
     "code": "A10025522",
@@ -416,7 +638,13 @@
     "emd": "은행동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2019.05",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 35,
+    "addr": "경기도 시흥시 은계남로 12"
   },
   {
     "code": "A10025545",
@@ -427,7 +655,13 @@
     "emd": "은행동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2019.03",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 21,
+    "addr": "경기도 시흥시 은계중앙로 37"
   },
   {
     "code": "A10025618",
@@ -438,7 +672,13 @@
     "emd": "은행동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2019.01",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경기도 시흥시 은계중앙로 118"
   },
   {
     "code": "A10025841",
@@ -449,7 +689,13 @@
     "emd": "은행동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2018.12",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경기도 시흥시 은계남로 11"
   },
   {
     "code": "A10025955",
@@ -460,7 +706,13 @@
     "emd": "은행동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2018.09",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경기도 시흥시 은계중앙로 115"
   },
   {
     "code": "A10026125",
@@ -471,7 +723,13 @@
     "emd": "은행동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2018.07",
+    "dongCnt": "14동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 29,
+    "addr": "경기도 시흥시 은계중앙로 140"
   },
   {
     "code": "A10026569",
@@ -482,7 +740,13 @@
     "emd": "은행동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2017.12",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 시흥시 은계중앙로 97"
   },
   {
     "code": "A42972601",
@@ -493,7 +757,13 @@
     "emd": "은행동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2008.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 시흥시 은행로65번길 4-1"
   },
   {
     "code": "A42983601",
@@ -504,7 +774,13 @@
     "emd": "은행동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2008.05",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "경기도 시흥시 검바위1로 19"
   },
   {
     "code": "A42983602",
@@ -515,7 +791,13 @@
     "emd": "은행동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2003.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 시흥시 수인로3247번길 62"
   },
   {
     "code": "A42983604",
@@ -526,7 +808,13 @@
     "emd": "은행동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1997.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 시흥시 시흥대로1074번길 28"
   },
   {
     "code": "A42983808",
@@ -537,7 +825,13 @@
     "emd": "은행동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1997.11",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 시흥시 대은로104번길 25"
   },
   {
     "code": "A42983809",
@@ -548,7 +842,13 @@
     "emd": "은행동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1995.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 시흥시 은행로149번길 13"
   },
   {
     "code": "A42983810",
@@ -559,7 +859,13 @@
     "emd": "은행동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1998.10",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 시흥시 은행로 107"
   },
   {
     "code": "A42983811",
@@ -570,7 +876,13 @@
     "emd": "은행동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1995.08",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경기도 시흥시 은행로149번길 1"
   },
   {
     "code": "A42983903",
@@ -581,7 +893,13 @@
     "emd": "은행동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1997.09",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "경기도 시흥시 은행로144번길 21"
   },
   {
     "code": "A42983906",
@@ -592,7 +910,13 @@
     "emd": "은행동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1998.03",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 시흥시 은행로 108"
   },
   {
     "code": "A42983907",
@@ -603,7 +927,13 @@
     "emd": "은행동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1996.10",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 시흥시 은행로 120"
   },
   {
     "code": "A42983912",
@@ -614,7 +944,13 @@
     "emd": "은행동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1998.10",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 시흥시 대은로 62"
   },
   {
     "code": "A42987805",
@@ -625,7 +961,13 @@
     "emd": "은행동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2001.09",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "경기도 시흥시 대은로104번길 11"
   },
   {
     "code": "A42987813",
@@ -636,7 +978,13 @@
     "emd": "은행동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2004.07",
+    "dongCnt": "16동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 시흥시 은행로 93-1"
   },
   {
     "code": "A10021772",
@@ -647,7 +995,13 @@
     "emd": "매화동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1998.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "경기도 시흥시 매화로 58"
   },
   {
     "code": "A42981701",
@@ -658,7 +1012,13 @@
     "emd": "매화동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1997.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경기도 시흥시 수인로2857번길 44"
   },
   {
     "code": "A42981803",
@@ -669,7 +1029,13 @@
     "emd": "매화동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1994.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "경기도 시흥시 매화우회로 61"
   },
   {
     "code": "A42981805",
@@ -680,7 +1046,13 @@
     "emd": "매화동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2000.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "경기도 시흥시 매화우회로 37"
   },
   {
     "code": "A42981401",
@@ -691,7 +1063,13 @@
     "emd": "도창동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1997.08",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 시흥시 매화로 145"
   },
   {
     "code": "A10024417",
@@ -702,7 +1080,13 @@
     "emd": "능곡동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2020.12",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 시흥시 장현능곡로 144"
   },
   {
     "code": "A10024511",
@@ -713,7 +1097,13 @@
     "emd": "능곡동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2020.12",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "경기도 시흥시 장현천로 61"
   },
   {
     "code": "A10025396",
@@ -724,7 +1114,13 @@
     "emd": "능곡동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2019.06",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 25,
+    "addr": "경기도 시흥시 시흥대로360번길 9"
   },
   {
     "code": "A10025402",
@@ -735,7 +1131,13 @@
     "emd": "능곡동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2019.07",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 25,
+    "addr": "경기도 시흥시 능곡서로 27"
   },
   {
     "code": "A42924001",
@@ -746,7 +1148,13 @@
     "emd": "능곡동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2008.10",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 시흥시 능곡로 133"
   },
   {
     "code": "A42924002",
@@ -757,7 +1165,13 @@
     "emd": "능곡동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2008.10",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "경기도 시흥시 시흥대로268번길 75"
   },
   {
     "code": "A42924003",
@@ -768,7 +1182,13 @@
     "emd": "능곡동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2008.12",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "경기도 시흥시 승지로 7"
   },
   {
     "code": "A42924008",
@@ -779,7 +1199,13 @@
     "emd": "능곡동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2009.06",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 시흥시 능곡로 120"
   },
   {
     "code": "A42924009",
@@ -790,7 +1216,13 @@
     "emd": "능곡동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2009.05",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 시흥시 승지로 78"
   },
   {
     "code": "A42924010",
@@ -801,7 +1233,13 @@
     "emd": "능곡동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2008.10",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 시흥대로268번길 51"
   },
   {
     "code": "A42924011",
@@ -812,7 +1250,13 @@
     "emd": "능곡동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2008.12",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 능곡중앙로 77"
   },
   {
     "code": "A42924012",
@@ -823,7 +1267,13 @@
     "emd": "능곡동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2009.03",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 12,
+    "addr": "경기도 시흥시 승지로 33"
   },
   {
     "code": "A42924013",
@@ -834,7 +1284,13 @@
     "emd": "능곡동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2008.12",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 11,
+    "addr": "경기도 시흥시 승지로 34"
   },
   {
     "code": "A42924014",
@@ -845,7 +1301,13 @@
     "emd": "능곡동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2009.03",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 12,
+    "addr": "경기도 시흥시 능곡중앙로 34"
   },
   {
     "code": "A42924015",
@@ -856,7 +1318,13 @@
     "emd": "능곡동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2009.04",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 12,
+    "addr": "경기도 시흥시 승지로 87"
   },
   {
     "code": "A42924016",
@@ -867,7 +1335,13 @@
     "emd": "능곡동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2009.11",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 시흥시 능곡중앙로 33"
   },
   {
     "code": "A42924017",
@@ -878,7 +1352,13 @@
     "emd": "능곡동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2010.02",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 시흥시 승지로 88"
   },
   {
     "code": "A42924018",
@@ -889,7 +1369,13 @@
     "emd": "능곡동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2011.08",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 시흥시 능곡중앙로 120"
   },
   {
     "code": "A42925103",
@@ -900,7 +1386,13 @@
     "emd": "하중동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1999.10",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "경기도 시흥시 하중로133번길 8"
   },
   {
     "code": "A42925104",
@@ -911,7 +1403,13 @@
     "emd": "하중동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2000.05",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 시흥시 하중로133번길 19"
   },
   {
     "code": "A42925201",
@@ -922,7 +1420,13 @@
     "emd": "하중동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2003.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 시흥시 연성로13번길 5-2"
   },
   {
     "code": "A42925202",
@@ -933,7 +1437,13 @@
     "emd": "하중동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2002.08",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 시흥시 연성로13번길 36"
   },
   {
     "code": "A42925205",
@@ -944,7 +1454,13 @@
     "emd": "하중동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1999.10",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 시흥시 하중로209번길 9"
   },
   {
     "code": "A42979702",
@@ -955,7 +1471,13 @@
     "emd": "하상동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1999.05",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "경기도 시흥시 하상로 40"
   },
   {
     "code": "A42979803",
@@ -966,7 +1488,13 @@
     "emd": "하상동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1999.11",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 시흥시 관곡지로 222"
   },
   {
     "code": "A42979901",
@@ -977,7 +1505,13 @@
     "emd": "하상동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2003.04",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 시흥시 상직길 4"
   },
   {
     "code": "A10024884",
@@ -988,7 +1522,13 @@
     "emd": "광석동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2020.04",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "경기도 시흥시 시흥대로 404"
   },
   {
     "code": "A10025556",
@@ -999,7 +1539,13 @@
     "emd": "산현동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2019.04",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 시흥시 목감둘레로 80"
   },
   {
     "code": "A10025888",
@@ -1010,7 +1556,13 @@
     "emd": "산현동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2018.11",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 25,
+    "addr": "경기도 시흥시 목감남서로 92-12"
   },
   {
     "code": "A10025938",
@@ -1021,7 +1573,13 @@
     "emd": "산현동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2018.10",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 시흥시 목감남서로 92-15"
   },
   {
     "code": "A10026559",
@@ -1032,7 +1590,13 @@
     "emd": "산현동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2018.01",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 시흥시 목감남서로 92-30"
   },
   {
     "code": "A10021384",
@@ -1043,7 +1607,13 @@
     "emd": "조남동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1986.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 6,
+    "addr": "경기도 시흥시 동서로 1069-12"
   },
   {
     "code": "A10022009",
@@ -1054,7 +1624,13 @@
     "emd": "조남동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1990.04",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 6,
+    "addr": "경기도 시흥시 목감초등길 48"
   },
   {
     "code": "A10026151",
@@ -1065,7 +1641,13 @@
     "emd": "조남동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2018.07",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 25,
+    "addr": "경기도 시흥시 목감중앙로 19"
   },
   {
     "code": "A10026417",
@@ -1076,7 +1658,13 @@
     "emd": "조남동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2018.02",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 시흥시 수풀안길 19-30"
   },
   {
     "code": "A10026492",
@@ -1087,7 +1675,13 @@
     "emd": "조남동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2017.07",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 시흥시 목감남서로 38"
   },
   {
     "code": "A10026579",
@@ -1098,7 +1692,13 @@
     "emd": "조남동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2017.12",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 시흥시 목감중앙로 36"
   },
   {
     "code": "A10026659",
@@ -1109,7 +1709,13 @@
     "emd": "조남동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2017.11",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 25,
+    "addr": "경기도 시흥시 목감중앙로 65"
   },
   {
     "code": "A10026711",
@@ -1120,7 +1726,13 @@
     "emd": "조남동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2017.11",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 24,
+    "addr": "경기도 시흥시 목감둘레로 229-15"
   },
   {
     "code": "A10026930",
@@ -1131,7 +1743,13 @@
     "emd": "조남동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2017.07",
+    "dongCnt": "12동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 21,
+    "addr": "경기도 시흥시 목감중앙로 45"
   },
   {
     "code": "A10027181",
@@ -1142,7 +1760,13 @@
     "emd": "조남동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2017.02",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 시흥시 목감남서로 35"
   },
   {
     "code": "A10027448",
@@ -1153,7 +1777,13 @@
     "emd": "조남동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2016.07",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 25,
+    "addr": "경기도 시흥시 목감중앙로 62"
   },
   {
     "code": "A10027463",
@@ -1164,7 +1794,13 @@
     "emd": "조남동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2016.07",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "경기도 시흥시 수풀안길 19-27"
   },
   {
     "code": "A10027539",
@@ -1175,7 +1811,13 @@
     "emd": "조남동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2016.06",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 19,
+    "addr": "경기도 시흥시 목감중앙로 20"
   },
   {
     "code": "A10027919",
@@ -1186,7 +1828,13 @@
     "emd": "조남동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2015.08",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 시흥시 목감둘레로 229-10"
   },
   {
     "code": "A42986901",
@@ -1197,7 +1845,13 @@
     "emd": "조남동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1994.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경기도 시흥시 목감초등길 28"
   },
   {
     "code": "A42986903",
@@ -1208,7 +1862,13 @@
     "emd": "조남동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1997.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 시흥시 목감초등길 4"
   },
   {
     "code": "A10020233",
@@ -1219,7 +1879,13 @@
     "emd": "논곡동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2023.11",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": "",
+    "addr": "경기도 시흥시 수인로 2365"
   },
   {
     "code": "A10026605",
@@ -1230,7 +1896,13 @@
     "emd": "논곡동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1999.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "경기도 시흥시 수인로2431번길 13"
   },
   {
     "code": "A10027145",
@@ -1241,7 +1913,13 @@
     "emd": "논곡동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2016.11",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "경기도 시흥시 수인로2421번길 89"
   },
   {
     "code": "A42980401",
@@ -1252,7 +1930,13 @@
     "emd": "논곡동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1992.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "경기도 시흥시 동서로 1109"
   },
   {
     "code": "A10024325",
@@ -1263,7 +1947,13 @@
     "emd": "목감동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2021.02",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 시흥시 솔고개길 47"
   },
   {
     "code": "A10027149",
@@ -1274,7 +1964,13 @@
     "emd": "목감동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2017.02",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 시흥시 배미골길 23"
   },
   {
     "code": "A42982001",
@@ -1285,7 +1981,13 @@
     "emd": "목감동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1990.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 시흥시 동서로 1076"
   },
   {
     "code": "A10021999",
@@ -1296,7 +1998,13 @@
     "emd": "거모동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1993.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 1,
+    "addr": "경기도 시흥시 도일로135번길 42"
   },
   {
     "code": "A10022223",
@@ -1307,7 +2015,13 @@
     "emd": "거모동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1995.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경기도 시흥시 군자로504번길 9"
   },
   {
     "code": "A10022956",
@@ -1318,7 +2032,13 @@
     "emd": "거모동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2023.10",
+    "dongCnt": "15동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 시흥시 군자로253번길 20"
   },
   {
     "code": "A10023461",
@@ -1329,7 +2049,13 @@
     "emd": "거모동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1994.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "경기도 시흥시 거모동 1740-1 아주5차아파트"
   },
   {
     "code": "A42970003",
@@ -1340,7 +2066,13 @@
     "emd": "거모동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1992.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "경기도 시흥시 군자로534번안길 18-9"
   },
   {
     "code": "A42980007",
@@ -1351,7 +2083,13 @@
     "emd": "거모동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1999.11",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 시흥시 군자로315번길 4"
   },
   {
     "code": "A42980101",
@@ -1362,7 +2100,13 @@
     "emd": "거모동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1992.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경기도 시흥시 한우물로 35"
   },
   {
     "code": "A42980102",
@@ -1373,7 +2117,13 @@
     "emd": "거모동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1993.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경기도 시흥시 도일로135번길 41"
   },
   {
     "code": "A42980104",
@@ -1384,7 +2134,13 @@
     "emd": "거모동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1988.01",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "경기도 시흥시 군자로492번길 14"
   },
   {
     "code": "A42980106",
@@ -1395,7 +2151,13 @@
     "emd": "거모동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1998.03",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 시흥시 황고개로206번길 43"
   },
   {
     "code": "A42988105",
@@ -1406,7 +2168,13 @@
     "emd": "거모동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1991.11",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 시흥시 도일로112번안길 22"
   },
   {
     "code": "A10022462",
@@ -1417,7 +2185,13 @@
     "emd": "군자동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2024.07",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 시흥시 장현천로 155"
   },
   {
     "code": "A10023999",
@@ -1428,7 +2202,13 @@
     "emd": "군자동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2021.12",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "경기도 시흥시 장현천로 170"
   },
   {
     "code": "A10024489",
@@ -1439,7 +2219,13 @@
     "emd": "군자동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2021.01",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 시흥시 장현천로 133"
   },
   {
     "code": "A10023473",
@@ -1450,7 +2236,13 @@
     "emd": "장현동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2022.11",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 25,
+    "addr": "경기도 시흥시 장현순환로 20"
   },
   {
     "code": "A10023576",
@@ -1461,7 +2253,13 @@
     "emd": "장현동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2022.10",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 25,
+    "addr": "경기도 시흥시 장현장곡로 65"
   },
   {
     "code": "A10023838",
@@ -1472,7 +2270,13 @@
     "emd": "장현동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2022.04",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 20,
+    "addr": "경기도 시흥시 시청로 79"
   },
   {
     "code": "A10024598",
@@ -1483,7 +2287,13 @@
     "emd": "장현동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2020.07",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 시흥시 장현순환로 130"
   },
   {
     "code": "A10024698",
@@ -1494,7 +2304,13 @@
     "emd": "장현동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2020.07",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 시흥시 장현순환로 58"
   },
   {
     "code": "A10024727",
@@ -1505,7 +2321,13 @@
     "emd": "장현동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2020.07",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 시흥시 장현순환로 111"
   },
   {
     "code": "A10024742",
@@ -1516,7 +2338,13 @@
     "emd": "장현동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2020.07",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 시흥시 장현순환로 81"
   },
   {
     "code": "A10024794",
@@ -1527,7 +2355,13 @@
     "emd": "장현동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2020.07",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 25,
+    "addr": "경기도 시흥시 장현장곡로 79"
   },
   {
     "code": "A10025301",
@@ -1538,7 +2372,13 @@
     "emd": "장현동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2019.09",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 25,
+    "addr": "경기도 시흥시 시청로 100"
   },
   {
     "code": "A42973901",
@@ -1549,7 +2389,13 @@
     "emd": "장현동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2001.12",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 시흥시 시청로 71"
   },
   {
     "code": "A42984401",
@@ -1560,7 +2406,13 @@
     "emd": "장현동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2004.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 시흥시 시청로68번길 4"
   },
   {
     "code": "A42984402",
@@ -1571,7 +2423,13 @@
     "emd": "장현동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1999.08",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 시흥시 시청로 59"
   },
   {
     "code": "A10022767",
@@ -1582,7 +2440,13 @@
     "emd": "장곡동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2024.02",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 시흥시 진말1로 30"
   },
   {
     "code": "A10022989",
@@ -1593,7 +2457,13 @@
     "emd": "장곡동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2023.09",
+    "dongCnt": "15동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 25,
+    "addr": "경기도 시흥시 황고개로 469"
   },
   {
     "code": "A10023415",
@@ -1604,7 +2474,13 @@
     "emd": "장곡동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2022.12",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 시흥시 장현장곡로 15"
   },
   {
     "code": "A10023528",
@@ -1615,7 +2491,13 @@
     "emd": "장곡동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2022.11",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 시흥시 장현장곡로 10"
   },
   {
     "code": "A10023847",
@@ -1626,7 +2508,13 @@
     "emd": "장곡동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2022.04",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 25,
+    "addr": "경기도 시흥시 장곡남로 35"
   },
   {
     "code": "A10024180",
@@ -1637,7 +2525,13 @@
     "emd": "장곡동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2021.08",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "경기도 시흥시 진말로 35"
   },
   {
     "code": "A10024589",
@@ -1648,7 +2542,13 @@
     "emd": "장곡동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2020.10",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 25,
+    "addr": "경기도 시흥시 인선길 39"
   },
   {
     "code": "A10024619",
@@ -1659,7 +2559,13 @@
     "emd": "장곡동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2020.09",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "경기도 시흥시 동서장곡길 55"
   },
   {
     "code": "A10024791",
@@ -1670,7 +2576,13 @@
     "emd": "장곡동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2020.07",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 25,
+    "addr": "경기도 시흥시 장곡북로 43"
   },
   {
     "code": "A42973201",
@@ -1681,7 +2593,13 @@
     "emd": "장곡동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2002.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "경기도 시흥시 인선길 46"
   },
   {
     "code": "A42984202",
@@ -1692,7 +2610,13 @@
     "emd": "장곡동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1999.11",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 시흥시 인선길 111"
   },
   {
     "code": "A42984203",
@@ -1703,7 +2627,13 @@
     "emd": "장곡동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2000.11",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 시흥시 진말로 10"
   },
   {
     "code": "A42984204",
@@ -1714,7 +2644,13 @@
     "emd": "장곡동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1999.04",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 시흥시 인선길 77"
   },
   {
     "code": "A42984205",
@@ -1725,7 +2661,13 @@
     "emd": "장곡동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1999.06",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 시흥시 진말로 36-1"
   },
   {
     "code": "A42984206",
@@ -1736,7 +2678,13 @@
     "emd": "장곡동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1999.09",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 시흥시 진말로 46"
   },
   {
     "code": "A42984207",
@@ -1747,7 +2695,13 @@
     "emd": "장곡동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1999.08",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 시흥시 인선길 63"
   },
   {
     "code": "A42984208",
@@ -1758,7 +2712,13 @@
     "emd": "장곡동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1999.08",
+    "dongCnt": "18동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경기도 시흥시 장곡로53번길 10"
   },
   {
     "code": "A10023617",
@@ -1769,7 +2729,13 @@
     "emd": "월곶동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2022.09",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 시흥시 월동중앙로 55"
   },
   {
     "code": "A10023905",
@@ -1780,7 +2746,13 @@
     "emd": "월곶동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2021.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 39,
+    "addr": "경기도 시흥시 월곶중앙로58번길 5-6"
   },
   {
     "code": "A10024414",
@@ -1791,7 +2763,13 @@
     "emd": "월곶동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2020.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경기도 시흥시 월곶중앙로14번길 68"
   },
   {
     "code": "A10024860",
@@ -1802,7 +2780,13 @@
     "emd": "월곶동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2019.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "경기도 시흥시 월곶중앙로70번길 12"
   },
   {
     "code": "A10027701",
@@ -1813,7 +2797,13 @@
     "emd": "월곶동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2014.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 시흥시 월곶중앙로14번길 47"
   },
   {
     "code": "A42983401",
@@ -1824,7 +2814,13 @@
     "emd": "월곶동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2004.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 시흥시 월곶중앙로 48"
   },
   {
     "code": "A42983402",
@@ -1835,7 +2831,13 @@
     "emd": "월곶동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2005.03",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 시흥시 월곶중앙로 11"
   },
   {
     "code": "A42983403",
@@ -1846,7 +2848,13 @@
     "emd": "월곶동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2006.11",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 시흥시 월곶중앙로14번길 27"
   },
   {
     "code": "A42983404",
@@ -1857,7 +2865,13 @@
     "emd": "월곶동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2005.02",
+    "dongCnt": "15동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 시흥시 월곶중앙로14번길 87"
   },
   {
     "code": "A42983405",
@@ -1868,7 +2882,13 @@
     "emd": "월곶동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2002.12",
+    "dongCnt": "16동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 시흥시 월곶중앙로70번길 11"
   },
   {
     "code": "A42992701",
@@ -1879,7 +2899,13 @@
     "emd": "월곶동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2009.05",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 시흥시 월곶해안로161번길 25"
   },
   {
     "code": "A42992702",
@@ -1890,7 +2916,13 @@
     "emd": "월곶동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2013.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 시흥시 월곶중앙로30번길 31"
   },
   {
     "code": "A10020181",
@@ -1901,7 +2933,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2026.03",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 26,
+    "addr": "경기도 시흥시 마유로 356-9"
   },
   {
     "code": "A10020545",
@@ -1913,7 +2951,13 @@
     "sigunguCode": "41390",
     "sido": "경기도",
     "sigungu": "시흥시",
-    "hhldCnt": 140
+    "hhldCnt": 140,
+    "built": "2001.01",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 정왕대로53번길 4"
   },
   {
     "code": "A10023153",
@@ -1924,7 +2968,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2023.02",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경기도 시흥시 거북섬남로 11"
   },
   {
     "code": "A10023303",
@@ -1935,7 +2985,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2023.02",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 30,
+    "addr": "경기도 시흥시 거북섬남로 90"
   },
   {
     "code": "A10023386",
@@ -1946,7 +3002,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2023.01",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경기도 시흥시 거북섬남로 77"
   },
   {
     "code": "A10023406",
@@ -1957,7 +3019,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2022.12",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경기도 시흥시 거북섬남로 45"
   },
   {
     "code": "A42945001",
@@ -1968,7 +3036,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2000.12",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 정왕대로143번길 9"
   },
   {
     "code": "A42945002",
@@ -1979,7 +3053,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1998.06",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 중심상가로 105"
   },
   {
     "code": "A42945003",
@@ -1990,7 +3070,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1997.07",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 함송로 36"
   },
   {
     "code": "A42945005",
@@ -2001,7 +3087,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2002.05",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 함송로 35"
   },
   {
     "code": "A42945006",
@@ -2012,7 +3104,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1996.11",
+    "dongCnt": "19동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 함송로29번길 54"
   },
   {
     "code": "A42945007",
@@ -2023,7 +3121,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1998.10",
+    "dongCnt": "15동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 정왕대로143번길 32"
   },
   {
     "code": "A42945008",
@@ -2034,7 +3138,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1999.08",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 중심상가로 128"
   },
   {
     "code": "A42945111",
@@ -2045,7 +3155,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1997.07",
+    "dongCnt": "20동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 중심상가로 224"
   },
   {
     "code": "A42945408",
@@ -2056,7 +3172,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1997.10",
+    "dongCnt": "17동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 정왕신길로49번길 37"
   },
   {
     "code": "A42945409",
@@ -2067,7 +3189,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1998.07",
+    "dongCnt": "18동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 정왕신길로49번길 19"
   },
   {
     "code": "A42974409",
@@ -2078,7 +3206,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1996.08",
+    "dongCnt": "21동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 정왕대로266번길 6"
   },
   {
     "code": "A42975216",
@@ -2089,7 +3223,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1998.10",
+    "dongCnt": "17동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 정왕대로143번길 8"
   },
   {
     "code": "A42975305",
@@ -2100,7 +3240,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1998.11",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 중심상가로 248"
   },
   {
     "code": "A42975511",
@@ -2111,7 +3257,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1997.09",
+    "dongCnt": "21동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 옥구천동로 399"
   },
   {
     "code": "A42975602",
@@ -2122,7 +3274,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2002.06",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 정왕대로117번길 10"
   },
   {
     "code": "A42975617",
@@ -2133,7 +3291,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1997.07",
+    "dongCnt": "21동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 중심상가로 125"
   },
   {
     "code": "A42975619",
@@ -2144,7 +3308,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1994.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 시흥시 정왕신길로139번길 4"
   },
   {
     "code": "A42975705",
@@ -2155,7 +3325,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1998.04",
+    "dongCnt": "20동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 정왕대로28번길 8"
   },
   {
     "code": "A42975710",
@@ -2166,7 +3342,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1997.04",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 옥구천서로373번길 7"
   },
   {
     "code": "A42975806",
@@ -2177,7 +3359,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1998.04",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 정왕신길로49번길 7"
   },
   {
     "code": "A42975903",
@@ -2188,7 +3376,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2002.04",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 정왕대로143번길 35"
   },
   {
     "code": "A42976007",
@@ -2199,7 +3393,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1998.03",
+    "dongCnt": "21동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 중심상가로 13"
   },
   {
     "code": "A42976115",
@@ -2210,7 +3410,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1998.02",
+    "dongCnt": "17동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 중심상가로 74"
   },
   {
     "code": "A42976201",
@@ -2221,7 +3427,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1998.03",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 함송로29번길 37"
   },
   {
     "code": "A42976306",
@@ -2232,7 +3444,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1998.05",
+    "dongCnt": "16동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 정왕대로28번길 29"
   },
   {
     "code": "A42976403",
@@ -2243,7 +3461,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1997.05",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 정왕대로28번길 28"
   },
   {
     "code": "A42976504",
@@ -2254,7 +3478,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1998.03",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 봉화로 18"
   },
   {
     "code": "A42976707",
@@ -2265,7 +3495,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1996.11",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 정왕신길로49번길 26"
   },
   {
     "code": "A42976812",
@@ -2276,7 +3512,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1998.12",
+    "dongCnt": "18동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 함송로 63"
   },
   {
     "code": "A42976910",
@@ -2287,7 +3529,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1997.12",
+    "dongCnt": "21동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 옥구천동로 449"
   },
   {
     "code": "A42977005",
@@ -2299,7 +3547,13 @@
     "sigunguCode": "41390",
     "sido": "경기도",
     "sigungu": "시흥시",
-    "hhldCnt": 320
+    "hhldCnt": 320,
+    "built": "1996.04",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 정왕신길로139번길 7"
   },
   {
     "code": "A42977103",
@@ -2310,7 +3564,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1997.11",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 옥구천동로 433-26"
   },
   {
     "code": "A42977302",
@@ -2321,7 +3581,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1997.08",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 함송로29번길 38"
   },
   {
     "code": "A42977303",
@@ -2332,7 +3598,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1997.09",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 함송로29번길 51"
   },
   {
     "code": "A42977509",
@@ -2343,7 +3615,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1996.10",
+    "dongCnt": "21동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 정왕대로27번길 29"
   },
   {
     "code": "A42977601",
@@ -2354,7 +3632,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1996.11",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 정왕대로117번길 32"
   },
   {
     "code": "A42977704",
@@ -2365,7 +3649,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1997.08",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 옥구천동로 452"
   },
   {
     "code": "A42977905",
@@ -2376,7 +3666,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1996.02",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 정왕신길로49번길 8"
   },
   {
     "code": "A42978012",
@@ -2387,7 +3683,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1996.02",
+    "dongCnt": "17동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 옥구천동로 420"
   },
   {
     "code": "A42978109",
@@ -2398,7 +3700,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1996.02",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 역전로 353"
   },
   {
     "code": "A42978202",
@@ -2409,7 +3717,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1996.09",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 옥구천서로373번길 8"
   },
   {
     "code": "A42978310",
@@ -2420,7 +3734,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1997.09",
+    "dongCnt": "22동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 중심상가로 77"
   },
   {
     "code": "A42978411",
@@ -2431,7 +3751,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1995.12",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 옥구천동로 404"
   },
   {
     "code": "A42978508",
@@ -2442,7 +3768,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1997.10",
+    "dongCnt": "18동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 정왕대로53번길 7"
   },
   {
     "code": "A42978613",
@@ -2453,7 +3785,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1997.10",
+    "dongCnt": "18동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 정왕대로117번길 31"
   },
   {
     "code": "A42978614",
@@ -2464,7 +3802,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1997.10",
+    "dongCnt": "19동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 정왕대로117번길 9"
   },
   {
     "code": "A42978706",
@@ -2475,7 +3819,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1997.08",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 중심상가로 106"
   },
   {
     "code": "A42978807",
@@ -2486,7 +3836,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1996.04",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 정왕신길로111번길 8"
   },
   {
     "code": "A42978904",
@@ -2497,7 +3853,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1996.07",
+    "dongCnt": "18동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 정왕대로53번길 29"
   },
   {
     "code": "A42979008",
@@ -2508,7 +3870,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1997.08",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 역전로 375-8"
   },
   {
     "code": "A42984710",
@@ -2519,7 +3887,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1997.07",
+    "dongCnt": "21동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 중심상가로 285"
   },
   {
     "code": "A42985502",
@@ -2530,7 +3904,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1996.02",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 정왕신길로139번길 16"
   },
   {
     "code": "A42985804",
@@ -2541,7 +3921,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1995.07",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 중심상가로 348"
   },
   {
     "code": "A42985807",
@@ -2552,7 +3938,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1996.09",
+    "dongCnt": "16동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 중심상가로 349"
   },
   {
     "code": "A42986101",
@@ -2563,7 +3955,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1996.08",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 정왕대로298번길 6"
   },
   {
     "code": "A42986103",
@@ -2574,7 +3972,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2002.07",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 중심상가로 247"
   },
   {
     "code": "A42986112",
@@ -2585,7 +3989,13 @@
     "emd": "정왕동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "1996.03",
+    "dongCnt": "25동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 시흥시 중심상가로 286"
   },
   {
     "code": "A42946001",
@@ -2596,7 +4006,13 @@
     "emd": "죽율동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2013.10",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "경기도 시흥시 죽율로 36"
   },
   {
     "code": "A42946002",
@@ -2607,7 +4023,13 @@
     "emd": "죽율동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2014.07",
+    "dongCnt": "20동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "경기도 시흥시 죽율로 45-10"
   },
   {
     "code": "A10025377",
@@ -2618,7 +4040,13 @@
     "emd": "배곧동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2019.06",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 35,
+    "addr": "경기도 시흥시 서울대학로264번길 12"
   },
   {
     "code": "A10025408",
@@ -2629,7 +4057,13 @@
     "emd": "배곧동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2019.06",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 35,
+    "addr": "경기도 시흥시 서울대학로278번길 19-13"
   },
   {
     "code": "A10025502",
@@ -2640,7 +4074,13 @@
     "emd": "배곧동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2019.05",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 29,
+    "addr": "경기도 시흥시 배곧4로 81-39"
   },
   {
     "code": "A10025651",
@@ -2651,7 +4091,13 @@
     "emd": "배곧동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2019.02",
+    "dongCnt": "20동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경기도 시흥시 해송십리로 472-11"
   },
   {
     "code": "A10025661",
@@ -2662,7 +4108,13 @@
     "emd": "배곧동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2019.01",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "경기도 시흥시 해송십리로 472-54"
   },
   {
     "code": "A10025676",
@@ -2674,7 +4126,13 @@
     "sigunguCode": "41390",
     "sido": "경기도",
     "sigungu": "시흥시",
-    "hhldCnt": 540
+    "hhldCnt": 540,
+    "built": "2019.01",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 20,
+    "addr": "경기도 시흥시 배곧4로 81-29"
   },
   {
     "code": "A10026012",
@@ -2685,7 +4143,13 @@
     "emd": "배곧동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2018.09",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 40,
+    "addr": "경기도 시흥시 서울대학로 172-20"
   },
   {
     "code": "A10026419",
@@ -2696,7 +4160,13 @@
     "emd": "배곧동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2018.02",
+    "dongCnt": "12동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 40,
+    "addr": "경기도 시흥시 배곧1로 27-16"
   },
   {
     "code": "A10026534",
@@ -2707,7 +4177,13 @@
     "emd": "배곧동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2018.01",
+    "dongCnt": "16동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경기도 시흥시 배곧4로 106-26"
   },
   {
     "code": "A10026631",
@@ -2718,7 +4194,13 @@
     "emd": "배곧동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2017.11",
+    "dongCnt": "20동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경기도 시흥시 배곧4로 106-25"
   },
   {
     "code": "A10026723",
@@ -2729,7 +4211,13 @@
     "emd": "배곧동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2017.10",
+    "dongCnt": "15동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "경기도 시흥시 서울대학로 100"
   },
   {
     "code": "A10026846",
@@ -2740,7 +4228,13 @@
     "emd": "배곧동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2017.08",
+    "dongCnt": "12동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 40,
+    "addr": "경기도 시흥시 배곧1로 27-15"
   },
   {
     "code": "A10026847",
@@ -2751,7 +4245,13 @@
     "emd": "배곧동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2017.08",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "경기도 시흥시 해송십리로 472-12"
   },
   {
     "code": "A10027300",
@@ -2762,7 +4262,13 @@
     "emd": "배곧동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2016.11",
+    "dongCnt": "14동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경기도 시흥시 서울대학로 328"
   },
   {
     "code": "A10027450",
@@ -2773,7 +4279,13 @@
     "emd": "배곧동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2016.06",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 시흥시 배곧4로 81-13"
   },
   {
     "code": "A10027886",
@@ -2784,7 +4296,13 @@
     "emd": "배곧동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2015.07",
+    "dongCnt": "15동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경기도 시흥시 배곧3로 27-8"
   },
   {
     "code": "A10027950",
@@ -2795,6 +4313,12 @@
     "emd": "배곧동",
     "sigunguCode": "41390",
     "sido": "경기도",
-    "sigungu": "시흥시"
+    "sigungu": "시흥시",
+    "built": "2015.07",
+    "dongCnt": "17동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경기도 시흥시 배곧3로 27-7"
   }
 ]

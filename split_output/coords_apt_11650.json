@@ -8,7 +8,13 @@
     "emd": "방배동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2005.08",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서초구 서초대로26길 19"
   },
   {
     "code": "A10020303",
@@ -20,7 +26,13 @@
     "sigunguCode": "11650",
     "sido": "서울특별시",
     "sigungu": "서초구",
-    "hhldCnt": 15
+    "hhldCnt": 15,
+    "built": "2003.04",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "서울특별시 서초구 명달로 33"
   },
   {
     "code": "A10020358",
@@ -31,7 +43,13 @@
     "emd": "방배동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2025.11",
+    "dongCnt": "16동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 서초구 서초대로19길 77"
   },
   {
     "code": "A10020361",
@@ -43,7 +61,13 @@
     "sigunguCode": "11650",
     "sido": "서울특별시",
     "sigungu": "서초구",
-    "hhldCnt": 84
+    "hhldCnt": 84,
+    "built": "2005.01",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 140,
+    "addr": "서울특별시 서초구 서초대로1길 2"
   },
   {
     "code": "A10021518",
@@ -54,7 +78,13 @@
     "emd": "방배동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2006.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서초구 동광로3길 18"
   },
   {
     "code": "A10021884",
@@ -65,7 +95,13 @@
     "emd": "방배동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2004.11",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 서초구 방배로 278"
   },
   {
     "code": "A10023272",
@@ -76,7 +112,13 @@
     "emd": "방배동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2009.07",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 서초구 방배동 849-30 방배롯데캐슬로제"
   },
   {
     "code": "A10023620",
@@ -87,7 +129,13 @@
     "emd": "방배동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2002.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서초구 방배로 63"
   },
   {
     "code": "A10024171",
@@ -98,7 +146,13 @@
     "emd": "방배동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2021.07",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 20,
+    "addr": "서울특별시 서초구 방배로 21"
   },
   {
     "code": "A10024322",
@@ -109,7 +163,13 @@
     "emd": "방배동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "1998.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서초구 방배로3길 10-3"
   },
   {
     "code": "A10024857",
@@ -120,7 +180,13 @@
     "emd": "방배동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2007.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "서울특별시 서초구 방배로13길 18"
   },
   {
     "code": "A10024942",
@@ -131,7 +197,13 @@
     "emd": "방배동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2019.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 7,
+    "addr": "서울특별시 서초구 서초대로34가길 52"
   },
   {
     "code": "A10025472",
@@ -142,7 +214,13 @@
     "emd": "방배동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2003.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 서초구 방배로1길 9"
   },
   {
     "code": "A10025927",
@@ -153,7 +231,13 @@
     "emd": "방배동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2018.10",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "서울특별시 서초구 명달로9길 57"
   },
   {
     "code": "A10026154",
@@ -164,7 +248,13 @@
     "emd": "방배동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2006.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 서초구 서초대로 3-4"
   },
   {
     "code": "A10027016",
@@ -175,7 +265,13 @@
     "emd": "방배동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2003.11",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 서초구 방배로18길 67"
   },
   {
     "code": "A10027585",
@@ -186,7 +282,13 @@
     "emd": "방배동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2004.07",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서초구 방배중앙로21길 55"
   },
   {
     "code": "A13706001",
@@ -197,7 +299,13 @@
     "emd": "방배동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2004.11",
+    "dongCnt": "4동",
+    "heat": "개별난방+기타",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 서초구 방배중앙로 207-10"
   },
   {
     "code": "A13706002",
@@ -208,7 +316,13 @@
     "emd": "방배동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2005.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 9,
+    "addr": "서울특별시 서초구 과천대로 908"
   },
   {
     "code": "A13706302",
@@ -219,7 +333,13 @@
     "emd": "방배동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2005.01",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 서초구 남부순환로 2183"
   },
   {
     "code": "A13706303",
@@ -230,7 +350,13 @@
     "emd": "방배동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "1992.11",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 서초구 효령로 84"
   },
   {
     "code": "A13770801",
@@ -241,7 +367,13 @@
     "emd": "방배동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2004.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 서초구 방배로33길 29"
   },
   {
     "code": "A13771001",
@@ -252,7 +384,13 @@
     "emd": "방배동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2013.11",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 18,
+    "addr": "서울특별시 서초구 방배천로18길 11"
   },
   {
     "code": "A13771601",
@@ -263,7 +401,13 @@
     "emd": "방배동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2010.02",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서초구 효령로33길 50"
   },
   {
     "code": "A13782601",
@@ -274,7 +418,13 @@
     "emd": "방배동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2006.12",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 서초구 방배로37길 26-9"
   },
   {
     "code": "A13782602",
@@ -285,7 +435,13 @@
     "emd": "방배동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "1983.05",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 서초구 방배로 270"
   },
   {
     "code": "A13782803",
@@ -296,7 +452,13 @@
     "emd": "방배동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2006.06",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "서울특별시 서초구 동광로1길 112"
   },
   {
     "code": "A13782804",
@@ -307,7 +469,13 @@
     "emd": "방배동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "1975.11",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 서초구 방배로43길 2"
   },
   {
     "code": "A13782902",
@@ -318,7 +486,13 @@
     "emd": "방배동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2001.09",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 서초구 방배로 249"
   },
   {
     "code": "A13783001",
@@ -329,7 +503,13 @@
     "emd": "방배동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2006.03",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서초구 동광로 89-5"
   },
   {
     "code": "A13783802",
@@ -340,7 +520,13 @@
     "emd": "방배동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2005.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 서초구 서초대로 17"
   },
   {
     "code": "A13784102",
@@ -351,7 +537,13 @@
     "emd": "방배동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2003.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서초구 서초대로34길 34"
   },
   {
     "code": "A13784401",
@@ -362,7 +554,13 @@
     "emd": "방배동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2006.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 서초구 방배로19길 67"
   },
   {
     "code": "A13785001",
@@ -373,7 +571,13 @@
     "emd": "방배동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "1988.04",
+    "dongCnt": "4동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "서울특별시 서초구 방배로2길 24-5"
   },
   {
     "code": "A13785005",
@@ -384,7 +588,13 @@
     "emd": "방배동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "1985.11",
+    "dongCnt": "6동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 11,
+    "addr": "서울특별시 서초구 방배로 14"
   },
   {
     "code": "A13785008",
@@ -395,7 +605,13 @@
     "emd": "방배동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2004.12",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 서초구 남부순환로 2311-12"
   },
   {
     "code": "A13785201",
@@ -406,7 +622,13 @@
     "emd": "방배동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2001.08",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 서초구 서초대로1길 34"
   },
   {
     "code": "A13785203",
@@ -417,7 +639,13 @@
     "emd": "방배동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "1999.11",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 서초구 서초대로1길 30"
   },
   {
     "code": "A13785301",
@@ -428,7 +656,13 @@
     "emd": "방배동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2003.10",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "서울특별시 서초구 방배선행길 2"
   },
   {
     "code": "A13785302",
@@ -439,7 +673,13 @@
     "emd": "방배동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "1991.05",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 서초구 방배선행길 1"
   },
   {
     "code": "A13713001",
@@ -450,7 +690,13 @@
     "emd": "양재동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2014.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 29,
+    "addr": "서울특별시 서초구 바우뫼로18길 20"
   },
   {
     "code": "A13713002",
@@ -461,7 +707,13 @@
     "emd": "양재동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2014.06",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 34,
+    "addr": "서울특별시 서초구 매헌로 16"
   },
   {
     "code": "A13789002",
@@ -472,7 +724,13 @@
     "emd": "양재동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2002.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 9,
+    "addr": "서울특별시 서초구 논현로27길 57"
   },
   {
     "code": "A13789201",
@@ -483,7 +741,13 @@
     "emd": "양재동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "1996.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 서초구 바우뫼로 91"
   },
   {
     "code": "A13789203",
@@ -494,7 +758,13 @@
     "emd": "양재동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "1991.11",
+    "dongCnt": "11동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서초구 바우뫼로 91"
   },
   {
     "code": "A13778201",
@@ -505,7 +775,13 @@
     "emd": "우면동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2011.12",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "서울특별시 서초구 태봉로2길 65"
   },
   {
     "code": "A13778202",
@@ -516,7 +792,13 @@
     "emd": "우면동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2011.12",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 17,
+    "addr": "서울특별시 서초구 태봉로2길 5"
   },
   {
     "code": "A13778203",
@@ -527,7 +809,13 @@
     "emd": "우면동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2011.12",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 17,
+    "addr": "서울특별시 서초구 태봉로2길 10"
   },
   {
     "code": "A13778204",
@@ -538,7 +826,13 @@
     "emd": "우면동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2012.12",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 서초구 양재대로2길 90"
   },
   {
     "code": "A13778205",
@@ -549,7 +843,13 @@
     "emd": "우면동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2013.01",
+    "dongCnt": "17동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 19,
+    "addr": "서울특별시 서초구 태봉로2길 60"
   },
   {
     "code": "A13778207",
@@ -560,7 +860,13 @@
     "emd": "우면동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2013.02",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 17,
+    "addr": "서울특별시 서초구 태봉로2길 30"
   },
   {
     "code": "A13778208",
@@ -571,7 +877,13 @@
     "emd": "우면동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2012.11",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 7,
+    "addr": "서울특별시 서초구 형촌길 35"
   },
   {
     "code": "A13778209",
@@ -582,7 +894,13 @@
     "emd": "우면동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2013.12",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 서초구 양재대로2길 33"
   },
   {
     "code": "A13778210",
@@ -593,7 +911,13 @@
     "emd": "우면동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2013.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 서초구 양재대로2길 11"
   },
   {
     "code": "A13778211",
@@ -604,7 +928,13 @@
     "emd": "우면동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2013.10",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 서초구 양재대로2길 109"
   },
   {
     "code": "A13778212",
@@ -615,7 +945,13 @@
     "emd": "우면동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2013.11",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 25,
+    "addr": "서울특별시 서초구 양재대로2길 34"
   },
   {
     "code": "A13778213",
@@ -626,7 +962,13 @@
     "emd": "우면동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2012.04",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 7,
+    "addr": "서울특별시 서초구 형촌길 15"
   },
   {
     "code": "A13778306",
@@ -637,7 +979,13 @@
     "emd": "우면동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "1994.07",
+    "dongCnt": "6동",
+    "heat": "중앙난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 서초구 바우뫼로7길 11"
   },
   {
     "code": "A13790001",
@@ -648,7 +996,13 @@
     "emd": "우면동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "1994.05",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 6,
+    "addr": "서울특별시 서초구 바우뫼로 33"
   },
   {
     "code": "A13790002",
@@ -659,7 +1013,13 @@
     "emd": "우면동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "1994.10",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 6,
+    "addr": "서울특별시 서초구 바우뫼로 53"
   },
   {
     "code": "A13790003",
@@ -670,7 +1030,13 @@
     "emd": "우면동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "1995.03",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서초구 바우뫼로7길 29"
   },
   {
     "code": "A13790004",
@@ -681,7 +1047,13 @@
     "emd": "우면동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "1995.03",
+    "dongCnt": "6동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서초구 바우뫼로7길 51"
   },
   {
     "code": "A10020557",
@@ -692,7 +1064,13 @@
     "emd": "잠원동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2025.06",
+    "dongCnt": "29동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 35,
+    "addr": "서울특별시 서초구 신반포로 251 메이플자이"
   },
   {
     "code": "A10020770",
@@ -703,7 +1081,13 @@
     "emd": "잠원동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2002.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 서초구 강남대로95길 56"
   },
   {
     "code": "A10020999",
@@ -714,7 +1098,13 @@
     "emd": "잠원동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "1997.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 서초구 신반포로 261"
   },
   {
     "code": "A10021612",
@@ -725,7 +1115,13 @@
     "emd": "잠원동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "1999.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 서초구 잠원로 85"
   },
   {
     "code": "A10022466",
@@ -736,7 +1132,13 @@
     "emd": "잠원동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2002.11",
+    "dongCnt": "2동",
+    "heat": "",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 서초구 나루터로 46"
   },
   {
     "code": "A10023143",
@@ -747,7 +1149,13 @@
     "emd": "잠원동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2023.06",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 35,
+    "addr": "서울특별시 서초구 잠원로14길 42"
   },
   {
     "code": "A10023462",
@@ -758,7 +1166,13 @@
     "emd": "잠원동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2022.12",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 34,
+    "addr": "서울특별시 서초구 신반포로23길 33"
   },
   {
     "code": "A10023673",
@@ -769,7 +1183,13 @@
     "emd": "잠원동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2022.08",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 35,
+    "addr": "서울특별시 서초구 신반포로23길 23"
   },
   {
     "code": "A10023971",
@@ -780,7 +1200,13 @@
     "emd": "잠원동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "1983.12",
+    "dongCnt": "1동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 서초구 나루터로4길 60"
   },
   {
     "code": "A10024913",
@@ -791,7 +1217,13 @@
     "emd": "잠원동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2020.04",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 35,
+    "addr": "서울특별시 서초구 반포대로 310-6"
   },
   {
     "code": "A10025381",
@@ -802,7 +1234,13 @@
     "emd": "잠원동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "1998.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "서울특별시 서초구 잠원로3길 20"
   },
   {
     "code": "A10025418",
@@ -813,7 +1251,13 @@
     "emd": "잠원동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2019.06",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 32,
+    "addr": "서울특별시 서초구 잠원로14길 32"
   },
   {
     "code": "A10026004",
@@ -824,7 +1268,13 @@
     "emd": "잠원동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2018.07",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 28,
+    "addr": "서울특별시 서초구 잠원로 60"
   },
   {
     "code": "A10026227",
@@ -835,7 +1285,13 @@
     "emd": "잠원동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2018.06",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 35,
+    "addr": "서울특별시 서초구 잠원로 117"
   },
   {
     "code": "A10026977",
@@ -846,7 +1302,13 @@
     "emd": "잠원동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2002.02",
+    "dongCnt": "1동",
+    "heat": "",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서초구 신반포로45길 71"
   },
   {
     "code": "A10027439",
@@ -858,7 +1320,13 @@
     "sigunguCode": "11650",
     "sido": "서울특별시",
     "sigungu": "서초구",
-    "hhldCnt": 843
+    "hhldCnt": 843,
+    "built": "2016.06",
+    "dongCnt": "7동",
+    "heat": "중앙난방",
+    "sale": "혼합",
+    "topFloor": 35,
+    "addr": "서울특별시 서초구 잠원로8길 35"
   },
   {
     "code": "A13703011",
@@ -869,7 +1337,13 @@
     "emd": "잠원동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2002.07",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 서초구 잠원로14길 3"
   },
   {
     "code": "A13703019",
@@ -880,7 +1354,13 @@
     "emd": "잠원동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2004.04",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "서울특별시 서초구 잠원로14길 23"
   },
   {
     "code": "A13703027",
@@ -891,7 +1371,13 @@
     "emd": "잠원동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2002.07",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 서초구 신반포로33길 15"
   },
   {
     "code": "A13779432",
@@ -902,7 +1388,13 @@
     "emd": "잠원동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "1989.06",
+    "dongCnt": "1동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서초구 나루터로4길 70-5"
   },
   {
     "code": "A13790604",
@@ -913,7 +1405,13 @@
     "emd": "잠원동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2001.07",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 서초구 신반포로45길 23"
   },
   {
     "code": "A13790612",
@@ -924,7 +1422,13 @@
     "emd": "잠원동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "1992.11",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 서초구 잠원로 202-11"
   },
   {
     "code": "A13790620",
@@ -935,7 +1439,13 @@
     "emd": "잠원동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "1989.06",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서초구 잠원로 213-10"
   },
   {
     "code": "A13790701",
@@ -946,7 +1456,13 @@
     "emd": "잠원동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "1993.01",
+    "dongCnt": "1동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서초구 신반포로33길 71"
   },
   {
     "code": "A13790703",
@@ -957,7 +1473,13 @@
     "emd": "잠원동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "1997.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 서초구 잠원로14길 54"
   },
   {
     "code": "A13790706",
@@ -968,7 +1490,13 @@
     "emd": "잠원동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "1992.06",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 서초구 신반포로33길 64"
   },
   {
     "code": "A13790707",
@@ -979,7 +1507,13 @@
     "emd": "잠원동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "1993.04",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 서초구 잠원로12길 4"
   },
   {
     "code": "A13790709",
@@ -990,7 +1524,13 @@
     "emd": "잠원동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "1982.12",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 11,
+    "addr": "서울특별시 서초구 잠원로8길 20"
   },
   {
     "code": "A13790713",
@@ -1001,7 +1541,13 @@
     "emd": "잠원동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "1998.01",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 서초구 신반포로33길 66"
   },
   {
     "code": "A13790714",
@@ -1012,7 +1558,13 @@
     "emd": "잠원동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "1987.07",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서초구 잠원로 166-17"
   },
   {
     "code": "A13790716",
@@ -1023,7 +1575,13 @@
     "emd": "잠원동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "1984.11",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 서초구 잠원로8길 3"
   },
   {
     "code": "A13790717",
@@ -1034,7 +1592,13 @@
     "emd": "잠원동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "1983.01",
+    "dongCnt": "2동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 11,
+    "addr": "서울특별시 서초구 잠원로 157"
   },
   {
     "code": "A13790721",
@@ -1045,7 +1609,13 @@
     "emd": "잠원동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "1980.04",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "서울특별시 서초구 잠원로 88"
   },
   {
     "code": "A13790722",
@@ -1056,7 +1626,13 @@
     "emd": "잠원동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "1992.07",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서초구 잠원로 150"
   },
   {
     "code": "A13790726",
@@ -1067,7 +1643,13 @@
     "emd": "잠원동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "1981.12",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 서초구 잠원로14길 41"
   },
   {
     "code": "A13790828",
@@ -1078,7 +1660,13 @@
     "emd": "잠원동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "1979.10",
+    "dongCnt": "12동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 서초구 잠원로 37-48"
   },
   {
     "code": "A13790902",
@@ -1089,7 +1677,13 @@
     "emd": "잠원동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "1996.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서초구 잠원로3길 6"
   },
   {
     "code": "A13790910",
@@ -1100,7 +1694,13 @@
     "emd": "잠원동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "1996.08",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 서초구 잠원로3길 8"
   },
   {
     "code": "A13790929",
@@ -1111,7 +1711,13 @@
     "emd": "잠원동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "1978.06",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 서초구 신반포로23길 41"
   },
   {
     "code": "A10021765",
@@ -1122,7 +1728,13 @@
     "emd": "반포동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2021.07",
+    "dongCnt": "1동",
+    "heat": "",
+    "sale": "혼합",
+    "topFloor": 1,
+    "addr": "서울특별시 서초구 사평대로 310-4"
   },
   {
     "code": "A10022556",
@@ -1133,7 +1745,13 @@
     "emd": "반포동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2024.06",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 35,
+    "addr": "서울특별시 서초구 신반포로15길 1"
   },
   {
     "code": "A10023043",
@@ -1144,7 +1762,13 @@
     "emd": "반포동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2023.08",
+    "dongCnt": "23동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 35,
+    "addr": "서울특별시 서초구 반포대로 333"
   },
   {
     "code": "A10024254",
@@ -1155,7 +1779,13 @@
     "emd": "반포동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2021.06",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 35,
+    "addr": "서울특별시 서초구 서초중앙로 206"
   },
   {
     "code": "A10024646",
@@ -1166,7 +1796,13 @@
     "emd": "반포동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "1984.02",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "서울특별시 서초구 사평대로 142"
   },
   {
     "code": "A10025550",
@@ -1177,7 +1813,13 @@
     "emd": "반포동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2001.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 서초구 고무래로10길 16"
   },
   {
     "code": "A10026015",
@@ -1188,7 +1830,13 @@
     "emd": "반포동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2018.09",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 35,
+    "addr": "서울특별시 서초구 고무래로 89"
   },
   {
     "code": "A10026051",
@@ -1199,7 +1847,13 @@
     "emd": "반포동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2018.08",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 34,
+    "addr": "서울특별시 서초구 서초중앙로 220"
   },
   {
     "code": "A10026342",
@@ -1210,7 +1864,13 @@
     "emd": "반포동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "1995.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "서울특별시 서초구 서래로10길 26"
   },
   {
     "code": "A10027205",
@@ -1221,7 +1881,13 @@
     "emd": "반포동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2016.08",
+    "dongCnt": "15동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 38,
+    "addr": "서울특별시 서초구 신반포로15길 19"
   },
   {
     "code": "A13704004",
@@ -1232,7 +1898,13 @@
     "emd": "반포동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2006.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서초구 사평대로14길 12"
   },
   {
     "code": "A13704101",
@@ -1243,7 +1915,13 @@
     "emd": "반포동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "1986.02",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 서초구 서초중앙로 242"
   },
   {
     "code": "A13704104",
@@ -1254,7 +1932,13 @@
     "emd": "반포동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2009.03",
+    "dongCnt": "44동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 29,
+    "addr": "서울특별시 서초구 신반포로 270"
   },
   {
     "code": "A13704404",
@@ -1265,7 +1949,13 @@
     "emd": "반포동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "1987.06",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서초구 서초중앙로29길 28"
   },
   {
     "code": "A13770105",
@@ -1276,7 +1966,13 @@
     "emd": "반포동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "1989.05",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서초구 사평대로 240"
   },
   {
     "code": "A13776301",
@@ -1287,7 +1983,13 @@
     "emd": "반포동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2010.10",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 35,
+    "addr": "서울특별시 서초구 고무래로 35"
   },
   {
     "code": "A13776508",
@@ -1298,7 +2000,13 @@
     "emd": "반포동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2000.10",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 서초구 신반포로15길 4"
   },
   {
     "code": "A13776509",
@@ -1309,7 +2017,13 @@
     "emd": "반포동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2009.07",
+    "dongCnt": "28동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 32,
+    "addr": "서울특별시 서초구 반포대로 275"
   },
   {
     "code": "A13776510",
@@ -1320,7 +2034,13 @@
     "emd": "반포동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2012.04",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "서울특별시 서초구 신반포로16길 15-20"
   },
   {
     "code": "A13780201",
@@ -1331,7 +2051,13 @@
     "emd": "반포동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "1994.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 서초구 고무래로10길 39"
   },
   {
     "code": "A13780402",
@@ -1342,7 +2068,13 @@
     "emd": "반포동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "1991.07",
+    "dongCnt": "1동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서초구 사평대로 154"
   },
   {
     "code": "A13780403",
@@ -1353,7 +2085,13 @@
     "emd": "반포동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "1987.12",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 서초구 사평대로28길 31"
   },
   {
     "code": "A10020415",
@@ -1365,7 +2103,13 @@
     "sigunguCode": "11650",
     "sido": "서울특별시",
     "sigungu": "서초구",
-    "hhldCnt": 50
+    "hhldCnt": 50,
+    "built": "2005.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서초구 강남대로 455"
   },
   {
     "code": "A10020455",
@@ -1377,7 +2121,13 @@
     "sigunguCode": "11650",
     "sido": "서울특별시",
     "sigungu": "서초구",
-    "hhldCnt": 67
+    "hhldCnt": 67,
+    "built": "2022.08",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": "",
+    "addr": "서울특별시 서초구 남부순환로323길 33"
   },
   {
     "code": "A10020535",
@@ -1389,7 +2139,13 @@
     "sigunguCode": "11650",
     "sido": "서울특별시",
     "sigungu": "서초구",
-    "hhldCnt": 117
+    "hhldCnt": 117,
+    "built": "2006.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 서초구 서초중앙로 18"
   },
   {
     "code": "A10021305",
@@ -1400,7 +2156,13 @@
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2002.01",
+    "dongCnt": "1동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 서초구 효령로77길 20"
   },
   {
     "code": "A10021789",
@@ -1411,7 +2173,13 @@
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2017.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 서초구 서초대로38길 12"
   },
   {
     "code": "A10021828",
@@ -1422,7 +2190,13 @@
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2003.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 서초구 서운로6길 15-13"
   },
   {
     "code": "A10022209",
@@ -1433,7 +2207,13 @@
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2000.06",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 서초구 서운로 122"
   },
   {
     "code": "A10022390",
@@ -1444,7 +2224,13 @@
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2021.01",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 7,
+    "addr": "서울특별시 서초구 사임당로20길 5"
   },
   {
     "code": "A10022474",
@@ -1455,7 +2241,13 @@
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2005.03",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": "",
+    "addr": "서울특별시 서초구 사임당로10길 39"
   },
   {
     "code": "A10022539",
@@ -1466,7 +2258,13 @@
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2006.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서초구 반포대로10길 42"
   },
   {
     "code": "A10022623",
@@ -1477,7 +2275,13 @@
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2005.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서초구 강남대로 321"
   },
   {
     "code": "A10022656",
@@ -1488,7 +2292,13 @@
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2006.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 서초구 효령로74길 56"
   },
   {
     "code": "A10023049",
@@ -1500,7 +2310,13 @@
     "sigunguCode": "11650",
     "sido": "서울특별시",
     "sigungu": "서초구",
-    "hhldCnt": 379
+    "hhldCnt": 379,
+    "built": "2023.06",
+    "dongCnt": "1동",
+    "heat": "기타",
+    "sale": "임대",
+    "topFloor": 21,
+    "addr": "서울특별시 서초구 남부순환로 2567"
   },
   {
     "code": "A10023191",
@@ -1511,7 +2327,13 @@
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2005.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서초구 서초동 1420-18 서초신원아침도시2차아파트"
   },
   {
     "code": "A10023644",
@@ -1522,7 +2344,13 @@
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2004.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 서초구 반포대로4길 24"
   },
   {
     "code": "A10023688",
@@ -1533,7 +2361,13 @@
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2001.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서초구 명달로 10"
   },
   {
     "code": "A10023694",
@@ -1544,7 +2378,13 @@
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2001.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 서초구 강남대로61길 17"
   },
   {
     "code": "A10024156",
@@ -1556,7 +2396,13 @@
     "sigunguCode": "11650",
     "sido": "서울특별시",
     "sigungu": "서초구",
-    "hhldCnt": 280
+    "hhldCnt": 280,
+    "built": "2021.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 12,
+    "addr": "서울특별시 서초구 반포대로27길 13"
   },
   {
     "code": "A10024240",
@@ -1567,7 +2413,13 @@
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2021.06",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 35,
+    "addr": "서울특별시 서초구 효령로 391"
   },
   {
     "code": "A10024552",
@@ -1578,7 +2430,13 @@
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2020.09",
+    "dongCnt": "12동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 35,
+    "addr": "서울특별시 서초구 서운로 62"
   },
   {
     "code": "A10024574",
@@ -1589,7 +2447,13 @@
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2020.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 33,
+    "addr": "서울특별시 서초구 반포대로18길 36"
   },
   {
     "code": "A10024687",
@@ -1600,7 +2464,13 @@
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2005.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 서초구 반포대로23길 71"
   },
   {
     "code": "A10024987",
@@ -1611,7 +2481,13 @@
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2002.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서초구 효령로74길 57"
   },
   {
     "code": "A10025375",
@@ -1622,7 +2498,13 @@
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2019.05",
+    "dongCnt": "1동",
+    "heat": "중앙난방",
+    "sale": "임대",
+    "topFloor": 19,
+    "addr": "서울특별시 서초구 반포대로28길 94"
   },
   {
     "code": "A10025615",
@@ -1633,7 +2515,13 @@
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2005.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서초구 남부순환로323길 56-18"
   },
   {
     "code": "A10026317",
@@ -1644,7 +2532,13 @@
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "1997.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 11,
+    "addr": "서울특별시 서초구 서초대로64길 31"
   },
   {
     "code": "A10026337",
@@ -1655,7 +2549,13 @@
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2006.01",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 서초구 사임당로17길 80"
   },
   {
     "code": "A10026340",
@@ -1666,7 +2566,13 @@
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2001.02",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "서울특별시 서초구 사임당로17길 90"
   },
   {
     "code": "A10026411",
@@ -1677,7 +2583,13 @@
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2018.01",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 32,
+    "addr": "서울특별시 서초구 서운로 104"
   },
   {
     "code": "A10026941",
@@ -1688,7 +2600,13 @@
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2017.06",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 35,
+    "addr": "서울특별시 서초구 서운로 201"
   },
   {
     "code": "A10026972",
@@ -1699,7 +2617,13 @@
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2003.09",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 서초구 효령로68길 38"
   },
   {
     "code": "A10027221",
@@ -1710,7 +2634,13 @@
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2016.12",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 33,
+    "addr": "서울특별시 서초구 서운로 107"
   },
   {
     "code": "A10028146",
@@ -1721,7 +2651,13 @@
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2014.11",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 31,
+    "addr": "서울특별시 서초구 서초중앙로24길 57"
   },
   {
     "code": "A13707002",
@@ -1732,7 +2668,13 @@
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "1989.11",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 서초구 사임당로23길 53"
   },
   {
     "code": "A13707003",
@@ -1743,7 +2685,13 @@
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2003.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서초구 서초대로58길 10"
   },
   {
     "code": "A13707006",
@@ -1754,7 +2702,13 @@
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2003.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 서초구 서초중앙로22길 25"
   },
   {
     "code": "A13707009",
@@ -1765,7 +2719,13 @@
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2009.04",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 31,
+    "addr": "서울특별시 서초구 서운로 221"
   },
   {
     "code": "A13707010",
@@ -1776,7 +2736,13 @@
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2003.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 서초구 서초중앙로 26"
   },
   {
     "code": "A13707016",
@@ -1787,7 +2753,13 @@
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2010.05",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 20,
+    "addr": "서울특별시 서초구 서초중앙로24길 33"
   },
   {
     "code": "A13707017",
@@ -1798,7 +2770,13 @@
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "1996.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 서초구 서운로 138"
   },
   {
     "code": "A13707019",
@@ -1809,382 +2787,580 @@
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "1999.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 서초구 효령로 237"
   },
   {
     "code": "A13707203",
     "name": "풍림아이원플러스",
     "lat": 37.38895028743746,
     "lng": 127.12247470111714,
-    "units": 0,
+    "units": 200,
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
     "sigungu": "서초구",
-    "hhldCnt": 200
+    "hhldCnt": 200,
+    "built": "2004.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서초구 효령로77길 14"
   },
   {
     "code": "A13770607",
     "name": "서초5차e편한세상",
     "lat": 37.479722386314364,
     "lng": 127.00728100315256,
-    "units": 0,
+    "units": 161,
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
     "sigungu": "서초구",
-    "hhldCnt": 161
+    "hhldCnt": 161,
+    "built": "2005.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서초구 명달로4길 30"
   },
   {
     "code": "A13770608",
     "name": "서초현대ESA2차",
     "lat": 37.49107140101897,
     "lng": 127.00857117282723,
-    "units": 0,
+    "units": 174,
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
     "sigungu": "서초구",
-    "hhldCnt": 174
+    "hhldCnt": 174,
+    "built": "2003.01",
+    "dongCnt": "2동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 서초구 반포대로 122"
   },
   {
     "code": "A13770609",
     "name": "현대슈퍼빌",
     "lat": 37.4827705107862,
     "lng": 127.016226894701,
-    "units": 0,
+    "units": 645,
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
     "sigungu": "서초구",
-    "hhldCnt": 645
+    "hhldCnt": 645,
+    "built": "2003.10",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 46,
+    "addr": "서울특별시 서초구 서초중앙로 15"
   },
   {
     "code": "A13770610",
     "name": "서초아트자이",
     "lat": 37.48571555499237,
     "lng": 127.01156460382079,
-    "units": 0,
+    "units": 164,
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
     "sigungu": "서초구",
-    "hhldCnt": 164
+    "hhldCnt": 164,
+    "built": "2009.06",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 서초구 반포대로 58"
   },
   {
     "code": "A13770611",
     "name": "서초이오빌",
     "lat": 37.48650830311589,
     "lng": 127.01290798906814,
-    "units": 0,
+    "units": 462,
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
     "sigungu": "서초구",
-    "hhldCnt": 462
+    "hhldCnt": 462,
+    "built": "2003.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 서초구 효령로53길 45"
   },
   {
     "code": "A13772801",
     "name": "서초현대아파트",
     "lat": 37.49098709854844,
     "lng": 127.0201637178633,
-    "units": 0,
+    "units": 299,
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
     "sigungu": "서초구",
-    "hhldCnt": 299
+    "hhldCnt": 299,
+    "built": "1999.11",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "서울특별시 서초구 사임당로19길 10"
   },
   {
     "code": "A13775102",
     "name": "서초삼성쉐르빌2",
     "lat": 37.49396244873931,
     "lng": 127.02791731781552,
-    "units": 0,
+    "units": 365,
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
     "sigungu": "서초구",
-    "hhldCnt": 365
+    "hhldCnt": 365,
+    "built": "2002.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 서초구 강남대로53길 11"
   },
   {
     "code": "A13785604",
     "name": "서초진흥",
     "lat": 37.4898170780598,
     "lng": 127.010095270632,
-    "units": 0,
+    "units": 615,
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
     "sigungu": "서초구",
-    "hhldCnt": 615
+    "hhldCnt": 615,
+    "built": "1979.08",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서초구 서초대로 385"
   },
   {
     "code": "A13785607",
     "name": "롯데캐슬클래식",
     "lat": 37.5004653985854,
     "lng": 127.02180268328965,
-    "units": 0,
+    "units": 990,
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
     "sigungu": "서초구",
-    "hhldCnt": 990
+    "hhldCnt": 990,
+    "built": "2006.06",
+    "dongCnt": "15동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "서울특별시 서초구 서운로 200"
   },
   {
     "code": "A13785705",
     "name": "서초우성5차아파트",
     "lat": 37.494849327925714,
     "lng": 127.02666922429981,
-    "units": 0,
+    "units": 408,
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
     "sigungu": "서초구",
-    "hhldCnt": 408
+    "hhldCnt": 408,
+    "built": "1998.05",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 서초구 서초대로74길 30"
   },
   {
     "code": "A13786601",
     "name": "서초자이",
     "lat": 37.4890757696272,
     "lng": 127.026237493617,
-    "units": 0,
+    "units": 184,
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
     "sigungu": "서초구",
-    "hhldCnt": 184
+    "hhldCnt": 184,
+    "built": "2006.04",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 서초구 효령로68길 81"
   },
   {
     "code": "A13786606",
     "name": "서초더샵",
     "lat": 37.45200020112929,
     "lng": 127.06378357970566,
-    "units": 0,
+    "units": 329,
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
     "sigungu": "서초구",
-    "hhldCnt": 331
+    "hhldCnt": 331,
+    "built": "2006.01",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 32,
+    "addr": "서울특별시 서초구 서초중앙로2길 10"
   },
   {
     "code": "A13786704",
     "name": "서초한신플러스타운",
     "lat": 37.4828716693672,
     "lng": 127.01432744474846,
-    "units": 0,
+    "units": 194,
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
     "sigungu": "서초구",
-    "hhldCnt": 194
+    "hhldCnt": 194,
+    "built": "2001.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서초구 남부순환로323길 38-15"
   },
   {
     "code": "A13786803",
     "name": "서초3차e편한세상",
     "lat": 37.4786591686755,
     "lng": 127.007701473721,
-    "units": 0,
+    "units": 77,
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
     "sigungu": "서초구",
-    "hhldCnt": 77
+    "hhldCnt": 77,
+    "built": "2005.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서초구 남부순환로 2343-10"
   },
   {
     "code": "A13786901",
     "name": "서초1차e편한세상",
     "lat": 37.48119286588855,
     "lng": 127.00672940683323,
-    "units": 0,
+    "units": 154,
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
     "sigungu": "서초구",
-    "hhldCnt": 154
+    "hhldCnt": 154,
+    "built": "2004.08",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서초구 명달로6길 31"
   },
   {
     "code": "A13787102",
     "name": "서초2차e편한세상",
     "lat": 37.48622754706084,
     "lng": 127.00905003135817,
-    "units": 0,
+    "units": 159,
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
     "sigungu": "서초구",
-    "hhldCnt": 159
+    "hhldCnt": 159,
+    "built": "2005.02",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서초구 효령로49길 57"
   },
   {
     "code": "A13787105",
     "name": "서초한빛삼성",
     "lat": 37.48794674926806,
     "lng": 127.0079557071318,
-    "units": 0,
+    "units": 264,
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
     "sigungu": "서초구",
-    "hhldCnt": 264
+    "hhldCnt": 264,
+    "built": "1999.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 서초구 서초대로40길 72"
   },
   {
     "code": "A13788002",
     "name": "서초현대1,2차",
     "lat": 37.5329182099059,
     "lng": 127.028126431494,
-    "units": 0,
+    "units": 413,
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
     "sigungu": "서초구",
-    "hhldCnt": 412
+    "hhldCnt": 412,
+    "built": "1989.12",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서초구 효령로72길 14"
   },
   {
     "code": "A13788003",
     "name": "서초삼성래미안",
     "lat": 37.493452290504536,
     "lng": 127.0199517906533,
-    "units": 0,
+    "units": 299,
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
     "sigungu": "서초구",
-    "hhldCnt": 299
+    "hhldCnt": 299,
+    "built": "2001.05",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "서울특별시 서초구 사임당로17길 116"
   },
   {
     "code": "A13788201",
     "name": "서초현대4차",
     "lat": 37.499929975958885,
     "lng": 127.01776636285608,
-    "units": 0,
+    "units": 160,
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
     "sigungu": "서초구",
-    "hhldCnt": 160
+    "hhldCnt": 160,
+    "built": "2000.11",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 서초구 고무래로 94"
   },
   {
     "code": "A13788203",
     "name": "유원서초아파트",
     "lat": 37.4962997450762,
     "lng": 127.01826533428566,
-    "units": 0,
+    "units": 590,
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
     "sigungu": "서초구",
-    "hhldCnt": 646
+    "hhldCnt": 646,
+    "built": "1993.11",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 서초구 서초중앙로24길 43"
   },
   {
     "code": "A13788206",
     "name": "서초아크로비스타",
     "lat": 37.49819972879554,
     "lng": 127.01331259059629,
-    "units": 0,
+    "units": 757,
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2004.06",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 37,
+    "addr": "서울특별시 서초구 서초중앙로 188"
   },
   {
     "code": "A13788208",
     "name": "서초래미안",
     "lat": 37.49855576783903,
     "lng": 127.01888560295282,
-    "units": 0,
+    "units": 1129,
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
     "sigungu": "서초구",
-    "hhldCnt": 1129
+    "hhldCnt": 1129,
+    "built": "2003.05",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "서울특별시 서초구 서초대로65길 13-10"
   },
   {
     "code": "A13792001",
     "name": "서초삼풍",
     "lat": 37.498545433330456,
     "lng": 127.01561511197758,
-    "units": 0,
+    "units": 2390,
     "emd": "서초동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
     "sigungu": "서초구",
-    "hhldCnt": 2390
+    "hhldCnt": 2390,
+    "built": "1988.07",
+    "dongCnt": "24동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서초구 서초중앙로 200"
   },
   {
     "code": "A10028021",
     "name": "서초포레스타2단지아파트",
     "lat": 37.45539849140569,
     "lng": 127.06099707238414,
-    "units": 0,
+    "units": 1077,
     "emd": "내곡동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2015.06",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 21,
+    "addr": "서울특별시 서초구 헌릉로8길 45"
   },
   {
     "code": "A13718001",
     "name": "서초더샵포레",
     "lat": 37.45200020112929,
     "lng": 127.06378357970566,
-    "units": 0,
+    "units": 1264,
     "emd": "내곡동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2014.08",
+    "dongCnt": "26동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 20,
+    "addr": "서울특별시 서초구 헌릉로8길 58"
   },
   {
     "code": "A10028046",
     "name": "힐스테이트서초젠트리스",
     "lat": 37.45615442655966,
     "lng": 127.05742953277792,
-    "units": 0,
+    "units": 256,
     "emd": "신원동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2014.12",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 9,
+    "addr": "서울특별시 서초구 헌릉로8길 10-12"
   },
   {
     "code": "A10028105",
     "name": "서초포레스타6단지",
     "lat": 37.45001302604888,
     "lng": 127.0557454447634,
-    "units": 0,
+    "units": 585,
     "emd": "신원동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2015.04",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 7,
+    "addr": "서울특별시 서초구 청계산로9길 1-12"
   },
   {
     "code": "A13716001",
     "name": "서초포레스타7단지",
     "lat": 37.44853851540248,
     "lng": 127.05669591245892,
-    "units": 0,
+    "units": 310,
     "emd": "신원동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2013.09",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 7,
+    "addr": "서울특별시 서초구 청계산로11길 7-12"
   },
   {
     "code": "A13716002",
     "name": "서초포레스타5단지",
     "lat": 37.45174026240253,
     "lng": 127.05763749946588,
-    "units": 0,
+    "units": 547,
     "emd": "신원동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2014.05",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 17,
+    "addr": "서울특별시 서초구 청계산로7길 43"
   },
   {
     "code": "A13716003",
     "name": "서초포레스타3단지",
     "lat": 37.454987764019585,
     "lng": 127.05895669540581,
-    "units": 0,
+    "units": 482,
     "emd": "신원동",
     "sigunguCode": "11650",
     "sido": "서울특별시",
-    "sigungu": "서초구"
+    "sigungu": "서초구",
+    "built": "2014.06",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 19,
+    "addr": "서울특별시 서초구 헌릉로8길 22"
   }
 ]

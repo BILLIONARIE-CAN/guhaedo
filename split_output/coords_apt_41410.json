@@ -8,7 +8,13 @@
     "emd": "당동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "2003.02",
+    "dongCnt": "1동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "경기도 군포시 용호1로46번길 3"
   },
   {
     "code": "A10021267",
@@ -19,7 +25,13 @@
     "emd": "당동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "2004.04",
+    "dongCnt": "1동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "경기도 군포시 당동로21번길 61"
   },
   {
     "code": "A10022491",
@@ -30,7 +42,13 @@
     "emd": "당동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "2003.02",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 군포시 용호1로 57"
   },
   {
     "code": "A10023523",
@@ -41,7 +59,13 @@
     "emd": "당동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1998.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "경기도 군포시 군포역1길 186"
   },
   {
     "code": "A10025073",
@@ -52,7 +76,13 @@
     "emd": "당동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "2004.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 군포시 군포로476번길 7"
   },
   {
     "code": "A10025200",
@@ -63,7 +93,13 @@
     "emd": "당동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "2019.09",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경기도 군포시 용호1로46번길 11"
   },
   {
     "code": "A43501002",
@@ -74,7 +110,13 @@
     "emd": "당동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "2006.05",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 군포시 당동로21번길 52"
   },
   {
     "code": "A43501003",
@@ -85,7 +127,13 @@
     "emd": "당동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1992.12",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 군포시 군포로464번길 19"
   },
   {
     "code": "A43501004",
@@ -96,7 +144,13 @@
     "emd": "당동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "2003.02",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "경기도 군포시 용호1로 55"
   },
   {
     "code": "A43501005",
@@ -107,7 +161,13 @@
     "emd": "당동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1993.04",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 군포시 군포로490번길 22"
   },
   {
     "code": "A43501006",
@@ -118,7 +178,13 @@
     "emd": "당동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1997.07",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 군포시 용호2로 11"
   },
   {
     "code": "A43501007",
@@ -129,7 +195,13 @@
     "emd": "당동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1998.07",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "경기도 군포시 용호2로 51"
   },
   {
     "code": "A43501008",
@@ -140,7 +212,13 @@
     "emd": "당동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "2003.06",
+    "dongCnt": "12동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "경기도 군포시 금당로17번길 9"
   },
   {
     "code": "A43501009",
@@ -151,7 +229,13 @@
     "emd": "당동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "2005.09",
+    "dongCnt": "23동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 군포시 용호1로21번길 15"
   },
   {
     "code": "A43501012",
@@ -162,7 +246,13 @@
     "emd": "당동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "2014.05",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 17,
+    "addr": "경기도 군포시 삼성로59번길 16"
   },
   {
     "code": "A43501014",
@@ -173,7 +263,13 @@
     "emd": "당동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "2014.05",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "경기도 군포시 삼성로 79"
   },
   {
     "code": "A43501015",
@@ -184,7 +280,13 @@
     "emd": "당동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1998.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "경기도 군포시 금당로 102"
   },
   {
     "code": "A43572101",
@@ -195,7 +297,13 @@
     "emd": "당동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1997.07",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 군포시 용호2로 11"
   },
   {
     "code": "A43572203",
@@ -206,7 +314,13 @@
     "emd": "당동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1997.09",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 군포시 용호2로54번길 11"
   },
   {
     "code": "A43572302",
@@ -217,7 +331,13 @@
     "emd": "당동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1997.07",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 군포시 용호2로 36"
   },
   {
     "code": "A43503003",
@@ -228,7 +348,13 @@
     "emd": "당정동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "2004.04",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 군포시 고산로185번길 31"
   },
   {
     "code": "A43573201",
@@ -239,7 +365,13 @@
     "emd": "당정동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "2008.10",
+    "dongCnt": "12동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 군포시 고산로185번길 6"
   },
   {
     "code": "A43573202",
@@ -250,7 +382,13 @@
     "emd": "당정동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "2014.01",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "경기도 군포시 고산로185번길 36"
   },
   {
     "code": "A43573203",
@@ -261,7 +399,13 @@
     "emd": "당정동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "2009.02",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 군포시 당정역로 16"
   },
   {
     "code": "A43577404",
@@ -272,7 +416,13 @@
     "emd": "당정동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "2004.03",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "경기도 군포시 당정역로 9"
   },
   {
     "code": "A43583105",
@@ -283,7 +433,13 @@
     "emd": "당정동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "2003.04",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "경기도 군포시 고산로151번길 26-23"
   },
   {
     "code": "A43583301",
@@ -294,7 +450,13 @@
     "emd": "당정동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "2007.06",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "경기도 군포시 한세로66번길 3-12"
   },
   {
     "code": "A43501010",
@@ -305,7 +467,13 @@
     "emd": "부곡동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "2013.12",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "경기도 군포시 번영로200번길 71"
   },
   {
     "code": "A43501013",
@@ -316,7 +484,13 @@
     "emd": "부곡동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "2014.06",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 20,
+    "addr": "경기도 군포시 삼성로 41"
   },
   {
     "code": "A43573701",
@@ -327,7 +501,13 @@
     "emd": "부곡동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "2010.01",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "경기도 군포시 송부로291번길 30"
   },
   {
     "code": "A43573702",
@@ -338,7 +518,13 @@
     "emd": "부곡동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "2010.02",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "경기도 군포시 송부로291번길 29"
   },
   {
     "code": "A43573703",
@@ -349,7 +535,13 @@
     "emd": "부곡동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "2010.04",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 군포시 송부로221번길 3-13"
   },
   {
     "code": "A43573704",
@@ -360,7 +552,13 @@
     "emd": "부곡동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "2010.05",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 군포시 송부로 222"
   },
   {
     "code": "A43573705",
@@ -371,7 +569,13 @@
     "emd": "부곡동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "2010.07",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 군포시 송부로273번길 27"
   },
   {
     "code": "A43573706",
@@ -382,7 +586,13 @@
     "emd": "부곡동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "2012.04",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 군포시 번영로200번길 31"
   },
   {
     "code": "A43573707",
@@ -393,7 +603,13 @@
     "emd": "부곡동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "2014.04",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "경기도 군포시 삼성로 31"
   },
   {
     "code": "A43504001",
@@ -404,7 +620,13 @@
     "emd": "산본동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "2002.01",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 군포시 고산로 596-15"
   },
   {
     "code": "A43504003",
@@ -415,7 +637,13 @@
     "emd": "산본동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1996.08",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 군포시 광정로 122"
   },
   {
     "code": "A43504004",
@@ -426,7 +654,13 @@
     "emd": "산본동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1993.08",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 군포시 번영로 353"
   },
   {
     "code": "A43504005",
@@ -437,7 +671,13 @@
     "emd": "산본동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1994.07",
+    "dongCnt": "15동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 군포시 고산로517번길 20"
   },
   {
     "code": "A43504006",
@@ -448,7 +688,13 @@
     "emd": "산본동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1994.07",
+    "dongCnt": "21동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 군포시 산본천로 34"
   },
   {
     "code": "A43504007",
@@ -459,7 +705,13 @@
     "emd": "산본동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1993.06",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "경기도 군포시 번영로 353"
   },
   {
     "code": "A43504008",
@@ -470,7 +722,13 @@
     "emd": "산본동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1995.07",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "경기도 군포시 곡란로 26"
   },
   {
     "code": "A43570403",
@@ -481,7 +739,13 @@
     "emd": "산본동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1993.07",
+    "dongCnt": "12동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "경기도 군포시 산본로386번길 21"
   },
   {
     "code": "A43570601",
@@ -492,7 +756,13 @@
     "emd": "산본동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1994.10",
+    "dongCnt": "12동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "경기도 군포시 고산로643번길 9"
   },
   {
     "code": "A43570702",
@@ -503,7 +773,13 @@
     "emd": "산본동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1993.09",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 군포시 산본천로 12"
   },
   {
     "code": "A43570905",
@@ -514,7 +790,13 @@
     "emd": "산본동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1995.05",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "경기도 군포시 광정로 122"
   },
   {
     "code": "A43571004",
@@ -525,7 +807,13 @@
     "emd": "산본동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1994.10",
+    "dongCnt": "22동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 군포시 산본로432번길 25"
   },
   {
     "code": "A43572403",
@@ -536,7 +824,13 @@
     "emd": "산본동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1993.09",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 군포시 고산로539번길 6"
   },
   {
     "code": "A43572706",
@@ -547,7 +841,13 @@
     "emd": "산본동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1993.09",
+    "dongCnt": "16동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 군포시 광정로 119"
   },
   {
     "code": "A43572904",
@@ -558,7 +858,13 @@
     "emd": "산본동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1993.07",
+    "dongCnt": "12동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "경기도 군포시 고산로539번길 7-12"
   },
   {
     "code": "A43573005",
@@ -569,7 +875,13 @@
     "emd": "산본동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1994.09",
+    "dongCnt": "18동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 군포시 수리산로 244"
   },
   {
     "code": "A43573107",
@@ -580,7 +892,13 @@
     "emd": "산본동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1994.07",
+    "dongCnt": "15동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 군포시 산본천로 33"
   },
   {
     "code": "A43573904",
@@ -591,7 +909,13 @@
     "emd": "산본동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1995.10",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 군포시 곡란로 26"
   },
   {
     "code": "A43574003",
@@ -602,7 +926,13 @@
     "emd": "산본동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1987.11",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "경기도 군포시 산본천로214번길 32"
   },
   {
     "code": "A43574301",
@@ -613,7 +943,13 @@
     "emd": "산본동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1993.06",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "경기도 군포시 산본로386번길 61"
   },
   {
     "code": "A43574502",
@@ -624,7 +960,13 @@
     "emd": "산본동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1993.08",
+    "dongCnt": "15동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "경기도 군포시 고산로677번길 12"
   },
   {
     "code": "A43574805",
@@ -635,7 +977,13 @@
     "emd": "산본동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1991.08",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 군포시 산본천로 119-9"
   },
   {
     "code": "A43574905",
@@ -646,7 +994,13 @@
     "emd": "산본동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1993.06",
+    "dongCnt": "16동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 군포시 번영로 403"
   },
   {
     "code": "A43575102",
@@ -657,7 +1011,13 @@
     "emd": "산본동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1992.12",
+    "dongCnt": "15동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "경기도 군포시 수리산로 33"
   },
   {
     "code": "A43575201",
@@ -668,7 +1028,13 @@
     "emd": "산본동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1996.06",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 군포시 수리산로 71"
   },
   {
     "code": "A43575304",
@@ -679,7 +1045,13 @@
     "emd": "산본동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1996.05",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 군포시 수리산로 102"
   },
   {
     "code": "A43575403",
@@ -690,7 +1062,13 @@
     "emd": "산본동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1994.07",
+    "dongCnt": "26동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 군포시 수리산로 42"
   },
   {
     "code": "A43575904",
@@ -701,7 +1079,13 @@
     "emd": "산본동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1992.04",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 군포시 번영로 380"
   },
   {
     "code": "A43576005",
@@ -712,7 +1096,13 @@
     "emd": "산본동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1997.11",
+    "dongCnt": "16동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 군포시 번영로 328"
   },
   {
     "code": "A43576807",
@@ -723,7 +1113,13 @@
     "emd": "산본동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1995.11",
+    "dongCnt": "17동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 군포시 고산로677번길 34"
   },
   {
     "code": "A43576808",
@@ -734,7 +1130,13 @@
     "emd": "산본동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "2010.09",
+    "dongCnt": "29동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 34,
+    "addr": "경기도 군포시 금산로 91"
   },
   {
     "code": "A43582102",
@@ -745,7 +1147,13 @@
     "emd": "산본동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1993.03",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 군포시 고산로539번길 24"
   },
   {
     "code": "A43582201",
@@ -756,7 +1164,13 @@
     "emd": "산본동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1996.06",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 군포시 고산로 529"
   },
   {
     "code": "A43583802",
@@ -767,7 +1181,13 @@
     "emd": "산본동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1996.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 군포시 고산로 747"
   },
   {
     "code": "A43583901",
@@ -778,7 +1198,13 @@
     "emd": "산본동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "2005.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 군포시 곡란로8번길 6"
   },
   {
     "code": "A43584303",
@@ -789,7 +1215,13 @@
     "emd": "산본동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "2007.06",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "경기도 군포시 금산로 47"
   },
   {
     "code": "A43584904",
@@ -800,7 +1232,13 @@
     "emd": "산본동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1994.10",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "경기도 군포시 고산로643번길 10"
   },
   {
     "code": "A10023874",
@@ -811,7 +1249,13 @@
     "emd": "금정동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "2022.03",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 49,
+    "addr": "경기도 군포시 엘에스로 143"
   },
   {
     "code": "A43505003",
@@ -822,7 +1266,13 @@
     "emd": "금정동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1993.04",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 군포시 오금로 34"
   },
   {
     "code": "A43505004",
@@ -833,7 +1283,13 @@
     "emd": "금정동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1993.05",
+    "dongCnt": "20동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 군포시 산본로 299"
   },
   {
     "code": "A43575501",
@@ -844,7 +1300,13 @@
     "emd": "금정동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1992.04",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 군포시 오금로 16"
   },
   {
     "code": "A43575706",
@@ -855,7 +1317,13 @@
     "emd": "금정동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1994.05",
+    "dongCnt": "21동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 군포시 오금로 43"
   },
   {
     "code": "A43575803",
@@ -866,7 +1334,13 @@
     "emd": "금정동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1993.06",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 군포시 광정로 25-20"
   },
   {
     "code": "A43576205",
@@ -877,7 +1351,13 @@
     "emd": "금정동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1992.04",
+    "dongCnt": "15동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 군포시 산본로 296"
   },
   {
     "code": "A43576304",
@@ -888,7 +1368,13 @@
     "emd": "금정동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1990.09",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 군포시 번영로 580"
   },
   {
     "code": "A43576503",
@@ -899,7 +1385,13 @@
     "emd": "금정동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1993.06",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 군포시 산본로 299"
   },
   {
     "code": "A43576601",
@@ -910,7 +1402,13 @@
     "emd": "금정동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1992.12",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "경기도 군포시 번영로550번길 6"
   },
   {
     "code": "A43576702",
@@ -921,7 +1419,13 @@
     "emd": "금정동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1992.12",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "경기도 군포시 번영로550번길 5"
   },
   {
     "code": "A43582405",
@@ -932,7 +1436,13 @@
     "emd": "금정동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1995.04",
+    "dongCnt": "9동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 군포시 광정로 25-20"
   },
   {
     "code": "A43582406",
@@ -943,7 +1453,13 @@
     "emd": "금정동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1986.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "경기도 군포시 번영로 576"
   },
   {
     "code": "A43582502",
@@ -954,7 +1470,13 @@
     "emd": "금정동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "2002.10",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 군포시 금정로42번길 17"
   },
   {
     "code": "A10023995",
@@ -965,7 +1487,13 @@
     "emd": "대야미동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "2021.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "경기도 군포시 군포로 109-143"
   },
   {
     "code": "A43506001",
@@ -976,7 +1504,13 @@
     "emd": "대야미동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1997.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "경기도 군포시 대야1로22번길 8-1"
   },
   {
     "code": "A43506002",
@@ -987,7 +1521,13 @@
     "emd": "대야미동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "1998.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 군포시 대야1로15번길 6"
   },
   {
     "code": "A43506003",
@@ -998,7 +1538,13 @@
     "emd": "대야미동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "2007.09",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 군포시 대야2로143번길 25"
   },
   {
     "code": "A43506004",
@@ -1009,7 +1555,13 @@
     "emd": "대야미동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "2008.06",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 군포시 군포로 109"
   },
   {
     "code": "A10025244",
@@ -1020,7 +1572,13 @@
     "emd": "도마교동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "2019.09",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 군포시 송부로96번길 13"
   },
   {
     "code": "A10025364",
@@ -1031,7 +1589,13 @@
     "emd": "도마교동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "2019.07",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 24,
+    "addr": "경기도 군포시 송부로96번길 29"
   },
   {
     "code": "A10025389",
@@ -1042,7 +1606,13 @@
     "emd": "도마교동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "2019.07",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 25,
+    "addr": "경기도 군포시 송부로49번길 10"
   },
   {
     "code": "A10025864",
@@ -1053,7 +1623,13 @@
     "emd": "도마교동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "2018.11",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 25,
+    "addr": "경기도 군포시 송부로96번길 30"
   },
   {
     "code": "A10025954",
@@ -1064,7 +1640,13 @@
     "emd": "도마교동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "2018.10",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 군포시 송부로49번길 16"
   },
   {
     "code": "A10026533",
@@ -1075,6 +1657,12 @@
     "emd": "도마교동",
     "sigunguCode": "41410",
     "sido": "경기도",
-    "sigungu": "군포시"
+    "sigungu": "군포시",
+    "built": "2018.01",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 군포시 송부로49번길 15"
   }
 ]

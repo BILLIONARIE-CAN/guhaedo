@@ -8,7 +8,13 @@
     "emd": "대연동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2026.04",
+    "dongCnt": "",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": "",
+    "addr": "부산광역시 남구 황령대로492번길 35"
   },
   {
     "code": "A10020395",
@@ -20,7 +26,13 @@
     "sigunguCode": "26290",
     "sido": "부산광역시",
     "sigungu": "남구",
-    "hhldCnt": 58
+    "hhldCnt": 58,
+    "built": "2019.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 11,
+    "addr": "부산광역시 남구 유엔로 211"
   },
   {
     "code": "A10022581",
@@ -31,7 +43,13 @@
     "emd": "대연동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2024.05",
+    "dongCnt": "5동",
+    "heat": "개별난방+기타",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "부산광역시 남구 진남로 95"
   },
   {
     "code": "A10022847",
@@ -42,7 +60,13 @@
     "emd": "대연동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2025.05",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 43,
+    "addr": "부산광역시 남구 황령대로 504"
   },
   {
     "code": "A10022958",
@@ -53,7 +77,13 @@
     "emd": "대연동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2016.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "부산광역시 남구 수영로 324"
   },
   {
     "code": "A10022999",
@@ -64,7 +94,13 @@
     "emd": "대연동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2024.08",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 36,
+    "addr": "부산광역시 남구 유엔로 81"
   },
   {
     "code": "A10023635",
@@ -75,7 +111,13 @@
     "emd": "대연동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2022.08",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "부산광역시 남구 수영로325번길 159-30"
   },
   {
     "code": "A10024682",
@@ -86,7 +128,13 @@
     "emd": "대연동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2003.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 9,
+    "addr": "부산광역시 남구 수영로249번길 3"
   },
   {
     "code": "A10025593",
@@ -97,7 +145,13 @@
     "emd": "대연동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2019.03",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "부산광역시 남구 유엔로 246"
   },
   {
     "code": "A10026094",
@@ -108,7 +162,13 @@
     "emd": "대연동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2018.07",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "부산광역시 남구 수영로 261"
   },
   {
     "code": "A10026184",
@@ -119,7 +179,13 @@
     "emd": "대연동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2018.06",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "부산광역시 남구 홍곡로 360"
   },
   {
     "code": "A10026185",
@@ -130,7 +196,13 @@
     "emd": "대연동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2004.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "부산광역시 남구 수영로 294"
   },
   {
     "code": "A10026452",
@@ -141,7 +213,13 @@
     "emd": "대연동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2018.02",
+    "dongCnt": "30동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 35,
+    "addr": "부산광역시 남구 수영로 135"
   },
   {
     "code": "A10027944",
@@ -152,7 +230,13 @@
     "emd": "대연동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2015.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "부산광역시 남구 수영로 283"
   },
   {
     "code": "A10028145",
@@ -163,7 +247,13 @@
     "emd": "대연동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2015.01",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 25,
+    "addr": "부산광역시 남구 수영로325번길 61"
   },
   {
     "code": "A60802001",
@@ -174,7 +264,13 @@
     "emd": "대연동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2013.05",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 40,
+    "addr": "부산광역시 남구 수영로 345"
   },
   {
     "code": "A60874408",
@@ -185,7 +281,13 @@
     "emd": "대연동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2005.01",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "부산광역시 남구 수영로325번길 12"
   },
   {
     "code": "A60875509",
@@ -196,7 +298,13 @@
     "emd": "대연동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "1997.09",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "부산광역시 남구 황령대로319번가길 190-6"
   },
   {
     "code": "A60875603",
@@ -207,7 +315,13 @@
     "emd": "대연동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "1996.02",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 남구 황령대로319번길 120"
   },
   {
     "code": "A60875701",
@@ -218,7 +332,13 @@
     "emd": "대연동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "1997.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "부산광역시 남구 천제등로28번길 50"
   },
   {
     "code": "A60877710",
@@ -229,7 +349,13 @@
     "emd": "대연동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2001.02",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 남구 황령대로319번가길 142"
   },
   {
     "code": "A60877907",
@@ -240,7 +366,13 @@
     "emd": "대연동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2001.07",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "부산광역시 남구 황령대로319번가길 110"
   },
   {
     "code": "A60879402",
@@ -251,7 +383,13 @@
     "emd": "대연동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "1996.02",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "부산광역시 남구 홍곡로 343"
   },
   {
     "code": "A60879506",
@@ -262,7 +400,13 @@
     "emd": "대연동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "1996.10",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 남구 신선로 490"
   },
   {
     "code": "A60880501",
@@ -273,7 +417,13 @@
     "emd": "대연동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2003.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 남구 수영로325번길 11"
   },
   {
     "code": "A60880602",
@@ -284,7 +434,13 @@
     "emd": "대연동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2000.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "부산광역시 남구 황령대로319번가길 189"
   },
   {
     "code": "A60880604",
@@ -295,7 +451,13 @@
     "emd": "대연동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2000.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "부산광역시 남구 황령대로319번가길 158-30"
   },
   {
     "code": "A60880605",
@@ -306,7 +468,13 @@
     "emd": "대연동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2005.08",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 31,
+    "addr": "부산광역시 남구 황령대로319번길 26"
   },
   {
     "code": "A60880703",
@@ -317,7 +485,13 @@
     "emd": "대연동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2002.04",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "부산광역시 남구 수영로267번길 20"
   },
   {
     "code": "A60880704",
@@ -328,7 +502,13 @@
     "emd": "대연동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2002.08",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 남구 진남로36번길 50"
   },
   {
     "code": "A60880801",
@@ -339,7 +519,13 @@
     "emd": "대연동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2006.01",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 31,
+    "addr": "부산광역시 남구 수영로 209"
   },
   {
     "code": "A60881703",
@@ -350,7 +536,13 @@
     "emd": "대연동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2005.02",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 남구 못골로41번길 13"
   },
   {
     "code": "A60881704",
@@ -361,7 +553,13 @@
     "emd": "대연동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2007.06",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "부산광역시 남구 진남로 159"
   },
   {
     "code": "A10020679",
@@ -373,7 +571,13 @@
     "sigunguCode": "26290",
     "sido": "부산광역시",
     "sigungu": "남구",
-    "hhldCnt": 114
+    "hhldCnt": 114,
+    "built": "1988.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 6,
+    "addr": "부산광역시 남구 동명로170번길 101"
   },
   {
     "code": "A10023436",
@@ -384,7 +588,13 @@
     "emd": "용호동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2023.05",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 35,
+    "addr": "부산광역시 남구 용주로 36"
   },
   {
     "code": "A10026391",
@@ -395,7 +605,13 @@
     "emd": "용호동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2018.03",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 69,
+    "addr": "부산광역시 남구 분포로 145"
   },
   {
     "code": "A60809001",
@@ -406,7 +622,13 @@
     "emd": "용호동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2007.01",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 남구 용호로231번길 62"
   },
   {
     "code": "A60809002",
@@ -417,7 +639,13 @@
     "emd": "용호동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2008.04",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 39,
+    "addr": "부산광역시 남구 신선로 566"
   },
   {
     "code": "A60809003",
@@ -428,7 +656,13 @@
     "emd": "용호동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2008.10",
+    "dongCnt": "15동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 47,
+    "addr": "부산광역시 남구 오륙도로 85"
   },
   {
     "code": "A60809004",
@@ -439,7 +673,13 @@
     "emd": "용호동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2001.06",
+    "dongCnt": "80동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 남구 분포로 113"
   },
   {
     "code": "A60809201",
@@ -450,7 +690,13 @@
     "emd": "용호동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "1994.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 남구 용호로269번길 90"
   },
   {
     "code": "A60876301",
@@ -461,7 +707,13 @@
     "emd": "용호동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "1996.02",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 남구 용호로 34"
   },
   {
     "code": "A60876402",
@@ -472,7 +724,13 @@
     "emd": "용호동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "1997.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 남구 용호로42번길 14"
   },
   {
     "code": "A60876602",
@@ -483,7 +741,13 @@
     "emd": "용호동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "1993.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 남구 용호로232번길 31"
   },
   {
     "code": "A60876904",
@@ -494,7 +758,13 @@
     "emd": "용호동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "1992.12",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "부산광역시 남구 동명로 202"
   },
   {
     "code": "A60883203",
@@ -505,7 +775,13 @@
     "emd": "용호동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2006.01",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "부산광역시 남구 용호로 38-17"
   },
   {
     "code": "A60883501",
@@ -516,7 +792,13 @@
     "emd": "용호동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "1992.03",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 남구 동명로 193"
   },
   {
     "code": "A60883502",
@@ -527,7 +809,13 @@
     "emd": "용호동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "1993.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 남구 동명로 189"
   },
   {
     "code": "A60883603",
@@ -538,7 +826,13 @@
     "emd": "용호동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "1995.04",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 남구 이기대공원로26번길 45-3"
   },
   {
     "code": "A60883801",
@@ -549,7 +843,13 @@
     "emd": "용호동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "1999.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "부산광역시 남구 동명로92번길 91"
   },
   {
     "code": "A60883803",
@@ -560,7 +860,13 @@
     "emd": "용호동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "1988.11",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "부산광역시 남구 용호로198번길 37"
   },
   {
     "code": "A60883804",
@@ -571,7 +877,13 @@
     "emd": "용호동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "1996.03",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "부산광역시 남구 용호로232번길 61"
   },
   {
     "code": "A60883903",
@@ -582,7 +894,13 @@
     "emd": "용호동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2000.04",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 남구 용호로269번길 29"
   },
   {
     "code": "A60884602",
@@ -593,7 +911,13 @@
     "emd": "용호동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "1991.10",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 남구 동명로170번길 93"
   },
   {
     "code": "A61202008",
@@ -604,7 +928,13 @@
     "emd": "용호동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2013.06",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 남구 용호로216번가길 10"
   },
   {
     "code": "A60871104",
@@ -615,7 +945,13 @@
     "emd": "용당동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2002.12",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 남구 동명로 26"
   },
   {
     "code": "A60883001",
@@ -626,7 +962,13 @@
     "emd": "용당동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "1997.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "부산광역시 남구 유엔평화로126번길 19"
   },
   {
     "code": "A60883002",
@@ -637,7 +979,13 @@
     "emd": "용당동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "1990.10",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 남구 유엔평화로 152-2"
   },
   {
     "code": "A60883003",
@@ -648,7 +996,13 @@
     "emd": "용당동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2007.03",
+    "dongCnt": "15동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 남구 홍곡로320번길 132"
   },
   {
     "code": "A10021285",
@@ -659,7 +1013,13 @@
     "emd": "문현동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "1987.01",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "부산광역시 남구 장고개로85번길 14-37"
   },
   {
     "code": "A10021896",
@@ -670,7 +1030,13 @@
     "emd": "문현동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2005.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "부산광역시 남구 전포대로77번길 19"
   },
   {
     "code": "A10022835",
@@ -681,7 +1047,13 @@
     "emd": "문현동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2023.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 34,
+    "addr": "부산광역시 남구 전포대로 84-1"
   },
   {
     "code": "A10023533",
@@ -692,7 +1064,13 @@
     "emd": "문현동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2022.11",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 32,
+    "addr": "부산광역시 남구 우암로 300"
   },
   {
     "code": "A10023872",
@@ -703,7 +1081,13 @@
     "emd": "문현동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2022.02",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "부산광역시 남구 수영로 117"
   },
   {
     "code": "A10024704",
@@ -714,7 +1098,13 @@
     "emd": "문현동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2020.07",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "부산광역시 남구 문현로 36-1"
   },
   {
     "code": "A10025508",
@@ -725,7 +1115,13 @@
     "emd": "문현동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2019.04",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 31,
+    "addr": "부산광역시 남구 고동골로 29"
   },
   {
     "code": "A10026905",
@@ -736,7 +1132,13 @@
     "emd": "문현동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2017.05",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "부산광역시 남구 황령대로90번길 55"
   },
   {
     "code": "A60804001",
@@ -747,7 +1149,13 @@
     "emd": "문현동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2007.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 35,
+    "addr": "부산광역시 남구 전포대로 16"
   },
   {
     "code": "A60804002",
@@ -758,7 +1166,13 @@
     "emd": "문현동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2006.07",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 30,
+    "addr": "부산광역시 남구 전포대로 38"
   },
   {
     "code": "A60804003",
@@ -769,7 +1183,13 @@
     "emd": "문현동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2001.05",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 남구 전포대로20번길 15"
   },
   {
     "code": "A60804303",
@@ -780,7 +1200,13 @@
     "emd": "문현동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "1990.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 남구 지게골로 52-15"
   },
   {
     "code": "A60872101",
@@ -791,7 +1217,13 @@
     "emd": "문현동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "1999.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 36,
+    "addr": "부산광역시 남구 수영로 26"
   },
   {
     "code": "A60876202",
@@ -802,7 +1234,13 @@
     "emd": "문현동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "1978.11",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 9,
+    "addr": "부산광역시 남구 고동골로78번길 23"
   },
   {
     "code": "A60878104",
@@ -813,7 +1251,13 @@
     "emd": "문현동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2002.07",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 33,
+    "addr": "부산광역시 남구 전포대로 26"
   },
   {
     "code": "A60879704",
@@ -824,7 +1268,13 @@
     "emd": "문현동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "1998.06",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 남구 진남로198번길 9-1"
   },
   {
     "code": "A60882001",
@@ -835,7 +1285,13 @@
     "emd": "문현동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "1991.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 남구 고동골로97번길 67"
   },
   {
     "code": "A60882003",
@@ -846,7 +1302,13 @@
     "emd": "문현동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2000.06",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "부산광역시 남구 고동골로97번길 39-12"
   },
   {
     "code": "A60882302",
@@ -857,7 +1319,13 @@
     "emd": "문현동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "1992.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 남구 수영로39번가길 83"
   },
   {
     "code": "A60882401",
@@ -868,7 +1336,13 @@
     "emd": "문현동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2006.07",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 35,
+    "addr": "부산광역시 남구 전포대로20번길 26"
   },
   {
     "code": "A60882701",
@@ -879,7 +1353,13 @@
     "emd": "문현동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2006.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 31,
+    "addr": "부산광역시 남구 전포대로 17"
   },
   {
     "code": "A60885601",
@@ -890,7 +1370,13 @@
     "emd": "문현동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2006.10",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 40,
+    "addr": "부산광역시 남구 수영로 12"
   },
   {
     "code": "A10020289",
@@ -901,7 +1387,13 @@
     "emd": "우암동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2025.12",
+    "dongCnt": "29동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 34,
+    "addr": "부산광역시 남구 유엔로 35"
   },
   {
     "code": "A10023711",
@@ -912,7 +1404,13 @@
     "emd": "우암동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2022.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "부산광역시 남구 우암로154번길 25"
   },
   {
     "code": "A60806001",
@@ -923,7 +1421,13 @@
     "emd": "우암동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2004.12",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 남구 유엔로 46"
   },
   {
     "code": "A60806104",
@@ -934,7 +1438,13 @@
     "emd": "우암동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "1988.07",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 6,
+    "addr": "부산광역시 남구 유엔로 1-1"
   },
   {
     "code": "A60877106",
@@ -945,7 +1455,13 @@
     "emd": "우암동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "1996.04",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "부산광역시 남구 유엔로 10"
   },
   {
     "code": "A60877107",
@@ -956,7 +1472,13 @@
     "emd": "우암동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "1998.09",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 남구 유엔로 15"
   },
   {
     "code": "A60877302",
@@ -967,7 +1489,13 @@
     "emd": "우암동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "1991.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "부산광역시 남구 우암로154번길 57"
   },
   {
     "code": "A60877405",
@@ -978,7 +1506,13 @@
     "emd": "우암동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "1993.06",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "부산광역시 남구 유엔로 22"
   },
   {
     "code": "A60877503",
@@ -989,7 +1523,13 @@
     "emd": "우암동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "1994.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "부산광역시 남구 우암로 142"
   },
   {
     "code": "A60884101",
@@ -1000,7 +1540,13 @@
     "emd": "우암동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "1999.08",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "부산광역시 남구 유엔로 66"
   },
   {
     "code": "A10023300",
@@ -1011,7 +1557,13 @@
     "emd": "감만동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2023.03",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 31,
+    "addr": "부산광역시 남구 우암로104번길 20"
   },
   {
     "code": "A60875202",
@@ -1022,7 +1574,13 @@
     "emd": "감만동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2012.02",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "부산광역시 남구 양지골로 134"
   },
   {
     "code": "A60875301",
@@ -1033,7 +1591,13 @@
     "emd": "감만동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "1997.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "부산광역시 남구 우암로2번길 30"
   },
   {
     "code": "A60875303",
@@ -1044,7 +1608,13 @@
     "emd": "감만동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "1996.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "부산광역시 남구 신선로 165"
   },
   {
     "code": "A60875305",
@@ -1055,7 +1625,13 @@
     "emd": "감만동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "1996.05",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "부산광역시 남구 우암로2번길 5"
   },
   {
     "code": "A60875404",
@@ -1066,7 +1642,13 @@
     "emd": "감만동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "1996.10",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 남구 석포로 34"
   },
   {
     "code": "A60880001",
@@ -1077,7 +1659,13 @@
     "emd": "감만동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "1996.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "부산광역시 남구 양지골로 358"
   },
   {
     "code": "A60880003",
@@ -1088,7 +1676,13 @@
     "emd": "감만동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "1994.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "부산광역시 남구 석포로 7"
   },
   {
     "code": "A60880104",
@@ -1099,6 +1693,12 @@
     "emd": "감만동",
     "sigunguCode": "26290",
     "sido": "부산광역시",
-    "sigungu": "남구"
+    "sigungu": "남구",
+    "built": "2005.10",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 남구 우암로104번길 29"
   }
 ]

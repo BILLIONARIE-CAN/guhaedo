@@ -8,7 +8,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1999.07",
+    "dongCnt": "1동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 양천구 목동남로4길 20"
   },
   {
     "code": "A10022222",
@@ -19,7 +25,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2004.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 중앙로29길 102"
   },
   {
     "code": "A10023593",
@@ -30,7 +42,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2003.01",
+    "dongCnt": "1동",
+    "heat": "",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 오목로35길 5"
   },
   {
     "code": "A10023886",
@@ -41,7 +59,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2022.12",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 19,
+    "addr": "서울특별시 양천구 중앙로29길 11"
   },
   {
     "code": "A10024398",
@@ -52,7 +76,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2021.01",
+    "dongCnt": "23동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 27,
+    "addr": "서울특별시 양천구 중앙로43길 14"
   },
   {
     "code": "A10025649",
@@ -63,7 +93,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2019.02",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 신정로7길 75"
   },
   {
     "code": "A10025729",
@@ -74,7 +110,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2019.02",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 목동남로4길 80"
   },
   {
     "code": "A10027375",
@@ -85,7 +127,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2016.05",
+    "dongCnt": "15동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 22,
+    "addr": "서울특별시 양천구 중앙로36길 15"
   },
   {
     "code": "A10027396",
@@ -96,7 +144,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2016.08",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 20,
+    "addr": "서울특별시 양천구 신정동 831 신정숲속마을아파트"
   },
   {
     "code": "A15807001",
@@ -107,7 +161,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2004.06",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 양천구 목동동로10길 16-6"
   },
   {
     "code": "A15807002",
@@ -118,7 +178,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1999.05",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 신정로 293"
   },
   {
     "code": "A15807003",
@@ -129,7 +195,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2011.04",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 신정이펜1로 27"
   },
   {
     "code": "A15807004",
@@ -140,7 +212,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2011.06",
+    "dongCnt": "12동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 13,
+    "addr": "서울특별시 양천구 신정이펜1로 51"
   },
   {
     "code": "A15807005",
@@ -151,7 +229,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2014.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 8,
+    "addr": "서울특별시 양천구 신정로13가길 6"
   },
   {
     "code": "A15807101",
@@ -162,7 +246,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1987.07",
+    "dongCnt": "32동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 목동서로 340"
   },
   {
     "code": "A15807202",
@@ -173,7 +263,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2003.11",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 양천구 신목로 43"
   },
   {
     "code": "A15807204",
@@ -184,7 +280,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1995.07",
+    "dongCnt": "1동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 양천구 신목로 23"
   },
   {
     "code": "A15807205",
@@ -195,7 +297,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2004.11",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 신목로12길 22"
   },
   {
     "code": "A15807208",
@@ -206,7 +314,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1996.09",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 양천구 신목로 7"
   },
   {
     "code": "A15807210",
@@ -217,7 +331,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2002.07",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 양천구 목동동로 180"
   },
   {
     "code": "A15807211",
@@ -228,7 +348,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1997.07",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 양천구 목동동로12길 60"
   },
   {
     "code": "A15807306",
@@ -239,7 +365,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2004.01",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 양천구 신정로13길 38"
   },
   {
     "code": "A15807311",
@@ -250,7 +382,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2000.10",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 양천구 신정로 290"
   },
   {
     "code": "A15807313",
@@ -261,7 +399,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2000.05",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 신정로 275"
   },
   {
     "code": "A15807315",
@@ -272,7 +416,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2005.10",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 양천구 신정로11길 20"
   },
   {
     "code": "A15807316",
@@ -283,7 +433,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2000.05",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 신정로 260"
   },
   {
     "code": "A15807601",
@@ -294,7 +450,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2004.03",
+    "dongCnt": "1동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 양천구 목동동로 177"
   },
   {
     "code": "A15807603",
@@ -305,7 +467,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2003.04",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 39,
+    "addr": "서울특별시 양천구 목동동로 189"
   },
   {
     "code": "A15807604",
@@ -316,7 +484,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1987.09",
+    "dongCnt": "12동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 양천구 목동서로 280"
   },
   {
     "code": "A15807605",
@@ -327,7 +501,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1987.07",
+    "dongCnt": "33동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 목동동로 100"
   },
   {
     "code": "A15807606",
@@ -338,7 +518,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1987.07",
+    "dongCnt": "34동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 양천구 목동동로 130"
   },
   {
     "code": "A15807701",
@@ -349,7 +535,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2006.07",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 목동남로2길 60-30"
   },
   {
     "code": "A15807702",
@@ -360,7 +552,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2001.11",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "서울특별시 양천구 목동남로4길 81"
   },
   {
     "code": "A15807703",
@@ -371,7 +569,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2000.03",
+    "dongCnt": "12동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 양천구 목동남로4길 6-23"
   },
   {
     "code": "A15807704",
@@ -382,7 +586,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2000.03",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 목동남로4길 6-46"
   },
   {
     "code": "A15807705",
@@ -393,7 +603,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1988.10",
+    "dongCnt": "19동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 목동동로 10"
   },
   {
     "code": "A15807706",
@@ -404,7 +620,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1988.10",
+    "dongCnt": "26동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 목동동로 50"
   },
   {
     "code": "A15807707",
@@ -415,7 +637,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1995.12",
+    "dongCnt": "16동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 목동로3길 41"
   },
   {
     "code": "A15809002",
@@ -426,7 +654,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2011.04",
+    "dongCnt": "20동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 7,
+    "addr": "서울특별시 양천구 신정이펜2로 55"
   },
   {
     "code": "A15870701",
@@ -437,7 +671,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2011.07",
+    "dongCnt": "12동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 12,
+    "addr": "서울특별시 양천구 신정이펜1로 99"
   },
   {
     "code": "A15873701",
@@ -448,7 +688,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1987.07",
+    "dongCnt": "34동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 목동서로 400"
   },
   {
     "code": "A15873902",
@@ -459,7 +705,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2010.02",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 목동남로2길 60-7"
   },
   {
     "code": "A15876401",
@@ -470,7 +722,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1997.07",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "서울특별시 양천구 신목로 10"
   },
   {
     "code": "A15876402",
@@ -481,7 +739,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1996.09",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 22,
+    "addr": "서울특별시 양천구 신목로 5"
   },
   {
     "code": "A15879501",
@@ -492,7 +756,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2001.01",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 신정로7길 70"
   },
   {
     "code": "A15879502",
@@ -503,7 +773,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2011.06",
+    "dongCnt": "22동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 신정이펜1로 50"
   },
   {
     "code": "A15884901",
@@ -514,7 +790,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1990.12",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 신목로 77"
   },
   {
     "code": "A15885303",
@@ -525,7 +807,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1992.11",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 신목로5길 9"
   },
   {
     "code": "A15885306",
@@ -536,7 +824,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1992.11",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 신목로 9"
   },
   {
     "code": "A15885307",
@@ -547,7 +841,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1992.10",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 양천구 신목로2길 11"
   },
   {
     "code": "A15885514",
@@ -558,7 +858,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2000.10",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 양천구 신정로 170"
   },
   {
     "code": "A15886402",
@@ -569,7 +875,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2004.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 중앙로29길 108"
   },
   {
     "code": "A15886501",
@@ -580,7 +892,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2002.08",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 신정로 225-12"
   },
   {
     "code": "A15886504",
@@ -591,7 +909,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1999.11",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 양천구 신정로 300"
   },
   {
     "code": "A15886505",
@@ -602,7 +926,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2002.08",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 신정로7길 60-7"
   },
   {
     "code": "A15886507",
@@ -613,7 +943,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2001.01",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 신정로11길 63"
   },
   {
     "code": "A15886508",
@@ -624,7 +960,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2001.01",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 신정로7길 76"
   },
   {
     "code": "A15886510",
@@ -635,7 +977,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2000.10",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 신정로14길 1"
   },
   {
     "code": "A15886512",
@@ -646,7 +994,13 @@
     "emd": "신정동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2000.10",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 신정로14길 6"
   },
   {
     "code": "A10020839",
@@ -657,7 +1011,13 @@
     "emd": "목동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1999.03",
+    "dongCnt": "1동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "서울특별시 양천구 목동동로 385"
   },
   {
     "code": "A10021098",
@@ -668,7 +1028,13 @@
     "emd": "목동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2004.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 양천구 목동중앙로 79"
   },
   {
     "code": "A10021359",
@@ -679,7 +1045,13 @@
     "emd": "목동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2006.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 양천구 목동중앙북로 7"
   },
   {
     "code": "A10021824",
@@ -690,7 +1062,13 @@
     "emd": "목동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2003.10",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 목동동로 270"
   },
   {
     "code": "A10023948",
@@ -701,7 +1079,13 @@
     "emd": "목동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2018.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 9,
+    "addr": "서울특별시 양천구 목동 514-18 어바니엘 염창"
   },
   {
     "code": "A10024355",
@@ -712,7 +1096,13 @@
     "emd": "목동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2003.05",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 양천구 목동중앙남로3가길 59"
   },
   {
     "code": "A10024699",
@@ -723,7 +1113,13 @@
     "emd": "목동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1999.12",
+    "dongCnt": "1동",
+    "heat": "",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 양천구 목동서로 65"
   },
   {
     "code": "A10024823",
@@ -734,7 +1130,13 @@
     "emd": "목동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1995.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "서울특별시 양천구 목동중앙남로3길 11"
   },
   {
     "code": "A10025127",
@@ -745,7 +1147,13 @@
     "emd": "목동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2003.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 목동중앙본로7길 37-20"
   },
   {
     "code": "A10025345",
@@ -756,7 +1164,13 @@
     "emd": "목동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2003.10",
+    "dongCnt": "1동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 양천구 목동동로 391"
   },
   {
     "code": "A10025915",
@@ -767,7 +1181,13 @@
     "emd": "목동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2003.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 양천구 목동중앙남로 51-18"
   },
   {
     "code": "A10026023",
@@ -778,7 +1198,13 @@
     "emd": "목동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2019.04",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 양천구 목동중앙북로8길 71"
   },
   {
     "code": "A10027303",
@@ -789,7 +1215,13 @@
     "emd": "목동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2003.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 양천구 목동중앙북로24길 65"
   },
   {
     "code": "A10027849",
@@ -800,7 +1232,13 @@
     "emd": "목동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2015.06",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 31,
+    "addr": "서울특별시 양천구 오목로 354"
   },
   {
     "code": "A10028007",
@@ -811,7 +1249,13 @@
     "emd": "목동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2003.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 양천구 목동중앙남로 51-18"
   },
   {
     "code": "A15805002",
@@ -822,7 +1266,13 @@
     "emd": "목동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1997.12",
+    "dongCnt": "15동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 목동서로2길 22"
   },
   {
     "code": "A15805003",
@@ -833,7 +1283,13 @@
     "emd": "목동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1986.09",
+    "dongCnt": "30동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 목동서로 100"
   },
   {
     "code": "A15805101",
@@ -844,7 +1300,13 @@
     "emd": "목동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2001.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "서울특별시 양천구 목동로 224"
   },
   {
     "code": "A15805102",
@@ -855,7 +1317,13 @@
     "emd": "목동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2003.06",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 양천구 목동로 230"
   },
   {
     "code": "A15805105",
@@ -866,7 +1334,13 @@
     "emd": "목동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1997.01",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 목동서로 234"
   },
   {
     "code": "A15805109",
@@ -877,7 +1351,13 @@
     "emd": "목동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1994.06",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 양천구 목동동로12길 23"
   },
   {
     "code": "A15805111",
@@ -888,7 +1368,13 @@
     "emd": "목동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2006.11",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 40,
+    "addr": "서울특별시 양천구 오목로 300"
   },
   {
     "code": "A15805114",
@@ -899,7 +1385,13 @@
     "emd": "목동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2003.07",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 69,
+    "addr": "서울특별시 양천구 목동동로 257"
   },
   {
     "code": "A15805115",
@@ -910,7 +1402,13 @@
     "emd": "목동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1986.10",
+    "dongCnt": "34동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 목동로 212"
   },
   {
     "code": "A15805202",
@@ -921,7 +1419,13 @@
     "emd": "목동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2006.07",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 목동중앙로7길 32"
   },
   {
     "code": "A15805203",
@@ -932,7 +1436,13 @@
     "emd": "목동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1994.12",
+    "dongCnt": "4동",
+    "heat": "개별난방+기타",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 양천구 목동중앙본로22길 63"
   },
   {
     "code": "A15805301",
@@ -943,7 +1453,13 @@
     "emd": "목동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2000.11",
+    "dongCnt": "1동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 양천구 목동동로 411"
   },
   {
     "code": "A15805302",
@@ -954,7 +1470,13 @@
     "emd": "목동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2000.12",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 양천구 목동중앙남로 100"
   },
   {
     "code": "A15805303",
@@ -965,7 +1487,13 @@
     "emd": "목동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2005.06",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 양천구 목동중앙북로 38"
   },
   {
     "code": "A15805403",
@@ -976,7 +1504,13 @@
     "emd": "목동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2004.11",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 목동중앙서로 37"
   },
   {
     "code": "A15805404",
@@ -987,7 +1521,13 @@
     "emd": "목동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2003.06",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 목동중앙로 11"
   },
   {
     "code": "A15805501",
@@ -998,7 +1538,13 @@
     "emd": "목동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2000.05",
+    "dongCnt": "1동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "서울특별시 양천구 목동동로 401"
   },
   {
     "code": "A15805502",
@@ -1009,7 +1555,13 @@
     "emd": "목동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2000.04",
+    "dongCnt": "1동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 31,
+    "addr": "서울특별시 양천구 목동동로 339"
   },
   {
     "code": "A15805503",
@@ -1020,7 +1572,13 @@
     "emd": "목동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1986.09",
+    "dongCnt": "16동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 양천구 목동서로 130"
   },
   {
     "code": "A15805504",
@@ -1031,7 +1589,13 @@
     "emd": "목동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1986.09",
+    "dongCnt": "36동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 목동동로 350"
   },
   {
     "code": "A15870101",
@@ -1042,7 +1606,13 @@
     "emd": "목동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2009.01",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 49,
+    "addr": "서울특별시 양천구 오목로 299"
   },
   {
     "code": "A15870102",
@@ -1053,7 +1623,13 @@
     "emd": "목동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1997.07",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 17,
+    "addr": "서울특별시 양천구 목동동로12길 59"
   },
   {
     "code": "A15875101",
@@ -1064,7 +1640,13 @@
     "emd": "목동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1985.11",
+    "dongCnt": "34동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 목동서로 38"
   },
   {
     "code": "A15875102",
@@ -1075,7 +1657,13 @@
     "emd": "목동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1986.09",
+    "dongCnt": "37동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 목동서로 70"
   },
   {
     "code": "A15875103",
@@ -1086,7 +1674,13 @@
     "emd": "목동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1986.10",
+    "dongCnt": "15동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 양천구 목동동로 430"
   },
   {
     "code": "A15880204",
@@ -1097,7 +1691,13 @@
     "emd": "목동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1992.04",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 목동중앙로 143"
   },
   {
     "code": "A15880905",
@@ -1108,7 +1708,13 @@
     "emd": "목동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2002.03",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 양천구 목동중앙북로8길 111"
   },
   {
     "code": "A15881601",
@@ -1119,7 +1725,13 @@
     "emd": "목동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1998.10",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 양천구 목동중앙본로 10"
   },
   {
     "code": "A15881701",
@@ -1130,7 +1742,13 @@
     "emd": "목동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2002.08",
+    "dongCnt": "1동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 양천구 목동중앙본로 15"
   },
   {
     "code": "A15881702",
@@ -1141,7 +1759,13 @@
     "emd": "목동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2000.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "서울특별시 양천구 목동중앙로 67"
   },
   {
     "code": "A15882006",
@@ -1152,7 +1776,13 @@
     "emd": "목동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1996.07",
+    "dongCnt": "1동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 양천구 목동동로 202"
   },
   {
     "code": "A15882008",
@@ -1163,7 +1793,13 @@
     "emd": "목동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1997.12",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 양천구 목동동로 240"
   },
   {
     "code": "A15882010",
@@ -1174,7 +1810,13 @@
     "emd": "목동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1997.06",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 양천구 목동동로12길 45"
   },
   {
     "code": "A15882103",
@@ -1185,7 +1827,13 @@
     "emd": "목동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1999.03",
+    "dongCnt": "1동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 양천구 목동동로 250"
   },
   {
     "code": "A15882104",
@@ -1196,7 +1844,13 @@
     "emd": "목동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1998.09",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 양천구 목동서로 264"
   },
   {
     "code": "A15882107",
@@ -1207,7 +1861,13 @@
     "emd": "목동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1997.10",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 양천구 목동동로 258"
   },
   {
     "code": "A10020643",
@@ -1219,7 +1879,13 @@
     "sigunguCode": "11470",
     "sido": "서울특별시",
     "sigungu": "양천구",
-    "hhldCnt": 46
+    "hhldCnt": 46,
+    "built": "1999.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 양천구 오목로 88"
   },
   {
     "code": "A10020653",
@@ -1231,7 +1897,13 @@
     "sigunguCode": "11470",
     "sido": "서울특별시",
     "sigungu": "양천구",
-    "hhldCnt": 92
+    "hhldCnt": 92,
+    "built": "2023.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 양천구 월정로8길 8 (신월동 1030)"
   },
   {
     "code": "A10021018",
@@ -1242,7 +1914,13 @@
     "emd": "신월동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1999.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 양천구 신월로 220"
   },
   {
     "code": "A10021293",
@@ -1253,7 +1931,13 @@
     "emd": "신월동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2005.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 곰달래로7길 7"
   },
   {
     "code": "A10021332",
@@ -1264,7 +1948,13 @@
     "emd": "신월동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2009.01",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 양천구 남부순환로56길 9"
   },
   {
     "code": "A10021614",
@@ -1275,7 +1965,13 @@
     "emd": "신월동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1998.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 양천구 오목로7길 25"
   },
   {
     "code": "A10021670",
@@ -1286,7 +1982,13 @@
     "emd": "신월동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1998.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 양천구 남부순환로64길 23"
   },
   {
     "code": "A10021748",
@@ -1297,7 +1999,13 @@
     "emd": "신월동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2007.07",
+    "dongCnt": "1동",
+    "heat": "",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 오목로 76-2"
   },
   {
     "code": "A10022149",
@@ -1308,7 +2016,13 @@
     "emd": "신월동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2005.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": "",
+    "addr": "서울특별시 양천구 곰달래로11길 21"
   },
   {
     "code": "A10022185",
@@ -1319,7 +2033,13 @@
     "emd": "신월동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1998.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 곰달래로5길 37"
   },
   {
     "code": "A10022224",
@@ -1330,7 +2050,13 @@
     "emd": "신월동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1997.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": "",
+    "addr": "서울특별시 양천구 남부순환로65길 6"
   },
   {
     "code": "A10022304",
@@ -1341,7 +2067,13 @@
     "emd": "신월동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1998.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 양천구 신월로17길 22"
   },
   {
     "code": "A10022672",
@@ -1352,7 +2084,13 @@
     "emd": "신월동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1997.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 양천구 오목로 90"
   },
   {
     "code": "A10023219",
@@ -1363,7 +2101,13 @@
     "emd": "신월동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2023.02",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 18,
+    "addr": "서울특별시 양천구 오목로 55"
   },
   {
     "code": "A10024804",
@@ -1374,7 +2118,13 @@
     "emd": "신월동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1999.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 양천구 월정로 21"
   },
   {
     "code": "A10024872",
@@ -1385,7 +2135,13 @@
     "emd": "신월동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2020.05",
+    "dongCnt": "35동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 23,
+    "addr": "서울특별시 양천구 남부순환로83길 18"
   },
   {
     "code": "A10025120",
@@ -1396,7 +2152,13 @@
     "emd": "신월동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2012.02",
+    "dongCnt": "3동",
+    "heat": "",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 양천구 화곡로3길 43"
   },
   {
     "code": "A10025157",
@@ -1407,7 +2169,13 @@
     "emd": "신월동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2004.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 양천구 화곡로3길 34"
   },
   {
     "code": "A10025665",
@@ -1418,7 +2186,13 @@
     "emd": "신월동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2006.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 양천구 신월로 181"
   },
   {
     "code": "A10025980",
@@ -1429,7 +2203,13 @@
     "emd": "신월동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2004.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 곰달래로2길 31"
   },
   {
     "code": "A15809001",
@@ -1440,7 +2220,13 @@
     "emd": "신월동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2003.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 신월로9길 37"
   },
   {
     "code": "A15809003",
@@ -1451,7 +2237,13 @@
     "emd": "신월동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 오목로10길 7-8"
   },
   {
     "code": "A15809201",
@@ -1462,7 +2254,13 @@
     "emd": "신월동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2004.06",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 신월로20길 33"
   },
   {
     "code": "A15809401",
@@ -1473,7 +2271,13 @@
     "emd": "신월동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2005.03",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 양천구 오목로1길 46"
   },
   {
     "code": "A15809402",
@@ -1484,7 +2288,13 @@
     "emd": "신월동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2005.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 오목로3길 17"
   },
   {
     "code": "A15809403",
@@ -1495,7 +2305,13 @@
     "emd": "신월동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2004.12",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 신월로15길 25"
   },
   {
     "code": "A15809502",
@@ -1506,7 +2322,13 @@
     "emd": "신월동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2008.06",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 12,
+    "addr": "서울특별시 양천구 월정로 303"
   },
   {
     "code": "A15809601",
@@ -1517,7 +2339,13 @@
     "emd": "신월동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2004.07",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 양천구 남부순환로85길 16"
   },
   {
     "code": "A15809603",
@@ -1528,7 +2356,13 @@
     "emd": "신월동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2003.12",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 양천구 신정로13길 50"
   },
   {
     "code": "A15809701",
@@ -1539,7 +2373,13 @@
     "emd": "신월동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1987.11",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "서울특별시 양천구 지양로 101"
   },
   {
     "code": "A15809702",
@@ -1550,7 +2390,13 @@
     "emd": "신월동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1987.12",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "서울특별시 양천구 지양로15길 20"
   },
   {
     "code": "A15878601",
@@ -1561,7 +2407,13 @@
     "emd": "신월동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2016.12",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 7,
+    "addr": "서울특별시 양천구 가로공원로56길 10"
   },
   {
     "code": "A15882201",
@@ -1572,7 +2424,13 @@
     "emd": "신월동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2009.03",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 양천구 월정로 306"
   },
   {
     "code": "A15883101",
@@ -1583,7 +2441,13 @@
     "emd": "신월동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1996.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 양천구 곰달래로2길 16"
   },
   {
     "code": "A15883201",
@@ -1594,7 +2458,13 @@
     "emd": "신월동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2006.09",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 양천구 월정로9길 17"
   },
   {
     "code": "A15883202",
@@ -1605,7 +2475,13 @@
     "emd": "신월동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2010.10",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "서울특별시 양천구 오목로5길 19"
   },
   {
     "code": "A15883401",
@@ -1616,7 +2492,13 @@
     "emd": "신월동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2012.11",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 20,
+    "addr": "서울특별시 양천구 신월로20길 7"
   },
   {
     "code": "A15883402",
@@ -1627,7 +2509,13 @@
     "emd": "신월동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2014.02",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 20,
+    "addr": "서울특별시 양천구 중앙로29길 61"
   },
   {
     "code": "A15883702",
@@ -1638,7 +2526,13 @@
     "emd": "신월동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1985.05",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "서울특별시 양천구 중앙로53길 5"
   },
   {
     "code": "A15883803",
@@ -1649,7 +2543,13 @@
     "emd": "신월동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "2001.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "서울특별시 양천구 오목로13길 7"
   },
   {
     "code": "A15884202",
@@ -1660,7 +2560,13 @@
     "emd": "신월동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1985.12",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "서울특별시 양천구 중앙로29길 55"
   },
   {
     "code": "A15884703",
@@ -1671,6 +2577,12 @@
     "emd": "신월동",
     "sigunguCode": "11470",
     "sido": "서울특별시",
-    "sigungu": "양천구"
+    "sigungu": "양천구",
+    "built": "1988.04",
+    "dongCnt": "20동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 양천구 신월로 99"
   }
 ]

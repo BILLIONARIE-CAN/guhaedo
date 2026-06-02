@@ -8,7 +8,13 @@
     "emd": "가산동",
     "sigunguCode": "11545",
     "sido": "서울특별시",
-    "sigungu": "금천구"
+    "sigungu": "금천구",
+    "built": "2023.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 18,
+    "addr": "서울특별시 금천구 디지털로10길 55"
   },
   {
     "code": "A10023956",
@@ -19,7 +25,13 @@
     "emd": "가산동",
     "sigunguCode": "11545",
     "sido": "서울특별시",
-    "sigungu": "금천구"
+    "sigungu": "금천구",
+    "built": "2017.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 18,
+    "addr": "서울특별시 금천구 가산동 775 어바니엘가산"
   },
   {
     "code": "A10025913",
@@ -30,7 +42,13 @@
     "emd": "가산동",
     "sigunguCode": "11545",
     "sido": "서울특별시",
-    "sigungu": "금천구"
+    "sigungu": "금천구",
+    "built": "2018.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 금천구 가산로9길 12-8"
   },
   {
     "code": "A15380101",
@@ -41,7 +59,13 @@
     "emd": "가산동",
     "sigunguCode": "11545",
     "sido": "서울특별시",
-    "sigungu": "금천구"
+    "sigungu": "금천구",
+    "built": "1998.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 금천구 두산로9길 56"
   },
   {
     "code": "A15380403",
@@ -52,7 +76,13 @@
     "emd": "가산동",
     "sigunguCode": "11545",
     "sido": "서울특별시",
-    "sigungu": "금천구"
+    "sigungu": "금천구",
+    "built": "1998.03",
+    "dongCnt": "18동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 금천구 가산로 99"
   },
   {
     "code": "A10020894",
@@ -63,7 +93,13 @@
     "emd": "독산동",
     "sigunguCode": "11545",
     "sido": "서울특별시",
-    "sigungu": "금천구"
+    "sigungu": "금천구",
+    "built": "1998.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 금천구 남부순환로120길 22"
   },
   {
     "code": "A10022155",
@@ -74,7 +110,13 @@
     "emd": "독산동",
     "sigunguCode": "11545",
     "sido": "서울특별시",
-    "sigungu": "금천구"
+    "sigungu": "금천구",
+    "built": "2003.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "서울특별시 금천구 두산로11길 22"
   },
   {
     "code": "A10024179",
@@ -85,7 +127,13 @@
     "emd": "독산동",
     "sigunguCode": "11545",
     "sido": "서울특별시",
-    "sigungu": "금천구"
+    "sigungu": "금천구",
+    "built": "2001.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 금천구 범안로 1158"
   },
   {
     "code": "A10024302",
@@ -96,7 +144,13 @@
     "emd": "독산동",
     "sigunguCode": "11545",
     "sido": "서울특별시",
-    "sigungu": "금천구"
+    "sigungu": "금천구",
+    "built": "2021.04",
+    "dongCnt": "8동",
+    "heat": "개별난방+기타",
+    "sale": "임대",
+    "topFloor": 35,
+    "addr": "서울특별시 금천구 벚꽃로 100"
   },
   {
     "code": "A10025116",
@@ -107,7 +161,13 @@
     "emd": "독산동",
     "sigunguCode": "11545",
     "sido": "서울특별시",
-    "sigungu": "금천구"
+    "sigungu": "금천구",
+    "built": "2019.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 39,
+    "addr": "서울특별시 금천구 범안로 1212"
   },
   {
     "code": "A10025946",
@@ -118,7 +178,13 @@
     "emd": "독산동",
     "sigunguCode": "11545",
     "sido": "서울특별시",
-    "sigungu": "금천구"
+    "sigungu": "금천구",
+    "built": "2018.10",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 46,
+    "addr": "서울특별시 금천구 시흥대로 291"
   },
   {
     "code": "A10026024",
@@ -129,7 +195,13 @@
     "emd": "독산동",
     "sigunguCode": "11545",
     "sido": "서울특별시",
-    "sigungu": "금천구"
+    "sigungu": "금천구",
+    "built": "1996.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 금천구 벚꽃로 60"
   },
   {
     "code": "A10026626",
@@ -140,7 +212,13 @@
     "emd": "독산동",
     "sigunguCode": "11545",
     "sido": "서울특별시",
-    "sigungu": "금천구"
+    "sigungu": "금천구",
+    "built": "2017.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 41,
+    "addr": "서울특별시 금천구 벚꽃로 30"
   },
   {
     "code": "A10027188",
@@ -151,7 +229,13 @@
     "emd": "독산동",
     "sigunguCode": "11545",
     "sido": "서울특별시",
-    "sigungu": "금천구"
+    "sigungu": "금천구",
+    "built": "2016.11",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 35,
+    "addr": "서울특별시 금천구 벚꽃로 40"
   },
   {
     "code": "A15301001",
@@ -162,7 +246,13 @@
     "emd": "독산동",
     "sigunguCode": "11545",
     "sido": "서울특별시",
-    "sigungu": "금천구"
+    "sigungu": "금천구",
+    "built": "1996.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "서울특별시 금천구 벚꽃로18길 36"
   },
   {
     "code": "A15301105",
@@ -173,7 +263,13 @@
     "emd": "독산동",
     "sigunguCode": "11545",
     "sido": "서울특별시",
-    "sigungu": "금천구"
+    "sigungu": "금천구",
+    "built": "2004.10",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 금천구 범안로 1136"
   },
   {
     "code": "A15370301",
@@ -184,7 +280,13 @@
     "emd": "독산동",
     "sigunguCode": "11545",
     "sido": "서울특별시",
-    "sigungu": "금천구"
+    "sigungu": "금천구",
+    "built": "2011.09",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 금천구 시흥대로150길 6"
   },
   {
     "code": "A15375809",
@@ -195,7 +297,13 @@
     "emd": "독산동",
     "sigunguCode": "11545",
     "sido": "서울특별시",
-    "sigungu": "금천구"
+    "sigungu": "금천구",
+    "built": "1990.11",
+    "dongCnt": "5동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 금천구 한내로 69-54"
   },
   {
     "code": "A15375810",
@@ -206,7 +314,13 @@
     "emd": "독산동",
     "sigunguCode": "11545",
     "sido": "서울특별시",
-    "sigungu": "금천구"
+    "sigungu": "금천구",
+    "built": "2008.04",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 금천구 벚꽃로6길 3"
   },
   {
     "code": "A15381303",
@@ -217,7 +331,13 @@
     "emd": "독산동",
     "sigunguCode": "11545",
     "sido": "서울특별시",
-    "sigungu": "금천구"
+    "sigungu": "금천구",
+    "built": "1999.08",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 금천구 범안로17길 12"
   },
   {
     "code": "A15381402",
@@ -228,7 +348,13 @@
     "emd": "독산동",
     "sigunguCode": "11545",
     "sido": "서울특별시",
-    "sigungu": "금천구"
+    "sigungu": "금천구",
+    "built": "1998.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 금천구 범안로15길 7"
   },
   {
     "code": "A15381706",
@@ -239,7 +365,13 @@
     "emd": "독산동",
     "sigunguCode": "11545",
     "sido": "서울특별시",
-    "sigungu": "금천구"
+    "sigungu": "금천구",
+    "built": "2002.09",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 금천구 벚꽃로 73"
   },
   {
     "code": "A15382301",
@@ -250,7 +382,13 @@
     "emd": "독산동",
     "sigunguCode": "11545",
     "sido": "서울특별시",
-    "sigungu": "금천구"
+    "sigungu": "금천구",
+    "built": "2002.10",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 금천구 시흥대로152길 25"
   },
   {
     "code": "A15383307",
@@ -261,7 +399,13 @@
     "emd": "독산동",
     "sigunguCode": "11545",
     "sido": "서울특별시",
-    "sigungu": "금천구"
+    "sigungu": "금천구",
+    "built": "1991.08",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 금천구 한내로 62"
   },
   {
     "code": "A15383308",
@@ -272,7 +416,13 @@
     "emd": "독산동",
     "sigunguCode": "11545",
     "sido": "서울특별시",
-    "sigungu": "금천구"
+    "sigungu": "금천구",
+    "built": "1990.11",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 금천구 한내로 69-15"
   },
   {
     "code": "A15383601",
@@ -283,7 +433,13 @@
     "emd": "독산동",
     "sigunguCode": "11545",
     "sido": "서울특별시",
-    "sigungu": "금천구"
+    "sigungu": "금천구",
+    "built": "1997.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 금천구 두산로 36"
   },
   {
     "code": "A15383604",
@@ -294,7 +450,13 @@
     "emd": "독산동",
     "sigunguCode": "11545",
     "sido": "서울특별시",
-    "sigungu": "금천구"
+    "sigungu": "금천구",
+    "built": "1999.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 금천구 범안로17길 41"
   },
   {
     "code": "A10022481",
@@ -305,7 +467,13 @@
     "emd": "시흥동",
     "sigunguCode": "11545",
     "sido": "서울특별시",
-    "sigungu": "금천구"
+    "sigungu": "금천구",
+    "built": "1988.11",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": "",
+    "addr": "서울특별시 금천구 시흥대로36길 45"
   },
   {
     "code": "A10022788",
@@ -316,7 +484,13 @@
     "emd": "시흥동",
     "sigunguCode": "11545",
     "sido": "서울특별시",
-    "sigungu": "금천구"
+    "sigungu": "금천구",
+    "built": "2004.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 11,
+    "addr": "서울특별시 금천구 탑골로2길 24"
   },
   {
     "code": "A10025447",
@@ -327,7 +501,13 @@
     "emd": "시흥동",
     "sigunguCode": "11545",
     "sido": "서울특별시",
-    "sigungu": "금천구"
+    "sigungu": "금천구",
+    "built": "1998.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 금천구 독산로 78-1"
   },
   {
     "code": "A10026187",
@@ -338,7 +518,13 @@
     "emd": "시흥동",
     "sigunguCode": "11545",
     "sido": "서울특별시",
-    "sigungu": "금천구"
+    "sigungu": "금천구",
+    "built": "2003.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 금천구 탑골로2길 19"
   },
   {
     "code": "A10026792",
@@ -349,7 +535,13 @@
     "emd": "시흥동",
     "sigunguCode": "11545",
     "sido": "서울특별시",
-    "sigungu": "금천구"
+    "sigungu": "금천구",
+    "built": "2008.01",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 금천구 금하로23길 52"
   },
   {
     "code": "A15303002",
@@ -360,7 +552,13 @@
     "emd": "시흥동",
     "sigunguCode": "11545",
     "sido": "서울특별시",
-    "sigungu": "금천구"
+    "sigungu": "금천구",
+    "built": "2000.02",
+    "dongCnt": "16동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 금천구 금하로 793"
   },
   {
     "code": "A15303003",
@@ -371,7 +569,13 @@
     "emd": "시흥동",
     "sigunguCode": "11545",
     "sido": "서울특별시",
-    "sigungu": "금천구"
+    "sigungu": "금천구",
+    "built": "1996.09",
+    "dongCnt": "3동",
+    "heat": "",
+    "sale": "혼합",
+    "topFloor": 12,
+    "addr": "서울특별시 금천구 금하로3길 26"
   },
   {
     "code": "A15303102",
@@ -382,7 +586,13 @@
     "emd": "시흥동",
     "sigunguCode": "11545",
     "sido": "서울특별시",
-    "sigungu": "금천구"
+    "sigungu": "금천구",
+    "built": "2004.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 금천구 시흥대로77길 23"
   },
   {
     "code": "A15303103",
@@ -393,7 +603,13 @@
     "emd": "시흥동",
     "sigunguCode": "11545",
     "sido": "서울특별시",
-    "sigungu": "금천구"
+    "sigungu": "금천구",
+    "built": "1986.08",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 금천구 시흥대로51길 55"
   },
   {
     "code": "A15303202",
@@ -404,7 +620,13 @@
     "emd": "시흥동",
     "sigunguCode": "11545",
     "sido": "서울특별시",
-    "sigungu": "금천구"
+    "sigungu": "금천구",
+    "built": "2000.02",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "서울특별시 금천구 금하로 793"
   },
   {
     "code": "A15303203",
@@ -415,7 +637,13 @@
     "emd": "시흥동",
     "sigunguCode": "11545",
     "sido": "서울특별시",
-    "sigungu": "금천구"
+    "sigungu": "금천구",
+    "built": "2002.12",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 금천구 금하로 750"
   },
   {
     "code": "A15303204",
@@ -426,7 +654,13 @@
     "emd": "시흥동",
     "sigunguCode": "11545",
     "sido": "서울특별시",
-    "sigungu": "금천구"
+    "sigungu": "금천구",
+    "built": "2004.08",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "서울특별시 금천구 금하로 796"
   },
   {
     "code": "A15303205",
@@ -437,7 +671,13 @@
     "emd": "시흥동",
     "sigunguCode": "11545",
     "sido": "서울특별시",
-    "sigungu": "금천구"
+    "sigungu": "금천구",
+    "built": "2004.08",
+    "dongCnt": "25동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 금천구 금하로 816"
   },
   {
     "code": "A15303401",
@@ -448,7 +688,13 @@
     "emd": "시흥동",
     "sigunguCode": "11545",
     "sido": "서울특별시",
-    "sigungu": "금천구"
+    "sigungu": "금천구",
+    "built": "2000.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 금천구 독산로50길 57-2"
   },
   {
     "code": "A15303502",
@@ -459,7 +705,13 @@
     "emd": "시흥동",
     "sigunguCode": "11545",
     "sido": "서울특별시",
-    "sigungu": "금천구"
+    "sigungu": "금천구",
+    "built": "2006.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 금천구 금하로24나길 48"
   },
   {
     "code": "A15370103",
@@ -470,7 +722,13 @@
     "emd": "시흥동",
     "sigunguCode": "11545",
     "sido": "서울특별시",
-    "sigungu": "금천구"
+    "sigungu": "금천구",
+    "built": "2014.08",
+    "dongCnt": "19동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "서울특별시 금천구 시흥대로 165"
   },
   {
     "code": "A15378501",
@@ -481,7 +739,13 @@
     "emd": "시흥동",
     "sigunguCode": "11545",
     "sido": "서울특별시",
-    "sigungu": "금천구"
+    "sigungu": "금천구",
+    "built": "2006.01",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 금천구 독산로36길 36"
   },
   {
     "code": "A15383702",
@@ -492,7 +756,13 @@
     "emd": "시흥동",
     "sigunguCode": "11545",
     "sido": "서울특별시",
-    "sigungu": "금천구"
+    "sigungu": "금천구",
+    "built": "1999.09",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 금천구 독산로50길 89"
   },
   {
     "code": "A15383905",
@@ -503,7 +773,13 @@
     "emd": "시흥동",
     "sigunguCode": "11545",
     "sido": "서울특별시",
-    "sigungu": "금천구"
+    "sigungu": "금천구",
+    "built": "1980.12",
+    "dongCnt": "5동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "서울특별시 금천구 시흥대로73길 11"
   },
   {
     "code": "A15384101",
@@ -514,7 +790,13 @@
     "emd": "시흥동",
     "sigunguCode": "11545",
     "sido": "서울특별시",
-    "sigungu": "금천구"
+    "sigungu": "금천구",
+    "built": "1996.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 금천구 금하로23라길 31"
   },
   {
     "code": "A15384501",
@@ -525,7 +807,13 @@
     "emd": "시흥동",
     "sigunguCode": "11545",
     "sido": "서울특별시",
-    "sigungu": "금천구"
+    "sigungu": "금천구",
+    "built": "1998.10",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 금천구 탑골로 84"
   },
   {
     "code": "A15384603",
@@ -536,7 +824,13 @@
     "emd": "시흥동",
     "sigunguCode": "11545",
     "sido": "서울특별시",
-    "sigungu": "금천구"
+    "sigungu": "금천구",
+    "built": "1989.10",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 금천구 독산로10길 96"
   },
   {
     "code": "A15386404",
@@ -547,7 +841,13 @@
     "emd": "시흥동",
     "sigunguCode": "11545",
     "sido": "서울특별시",
-    "sigungu": "금천구"
+    "sigungu": "금천구",
+    "built": "1982.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 금천구 시흥대로59길 35"
   },
   {
     "code": "A15386506",
@@ -558,6 +858,12 @@
     "emd": "시흥동",
     "sigunguCode": "11545",
     "sido": "서울특별시",
-    "sigungu": "금천구"
+    "sigungu": "금천구",
+    "built": "1981.12",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 금천구 시흥대로47길 43"
   }
 ]

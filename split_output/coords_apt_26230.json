@@ -9,7 +9,13 @@
     "sigunguCode": "26230",
     "sido": "부산광역시",
     "sigungu": "부산진구",
-    "hhldCnt": 244
+    "hhldCnt": 244,
+    "built": "2025.04",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 35,
+    "addr": "부산광역시 부산진구 거제대로 42"
   },
   {
     "code": "A10020870",
@@ -20,7 +26,13 @@
     "emd": "양정동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2025.01",
+    "dongCnt": "22동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 34,
+    "addr": "부산광역시 부산진구 진남로 554"
   },
   {
     "code": "A10023040",
@@ -31,7 +43,13 @@
     "emd": "양정동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2023.08",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 35,
+    "addr": "부산광역시 부산진구 양연로 36"
   },
   {
     "code": "A10023407",
@@ -42,7 +60,13 @@
     "emd": "양정동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2004.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "부산광역시 부산진구 동평로 416"
   },
   {
     "code": "A10023933",
@@ -53,7 +77,13 @@
     "emd": "양정동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2015.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "부산광역시 부산진구 거제대로 46"
   },
   {
     "code": "A10024747",
@@ -64,7 +94,13 @@
     "emd": "양정동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2020.07",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "부산광역시 부산진구 양지로14번길 24"
   },
   {
     "code": "A10027048",
@@ -75,7 +111,13 @@
     "emd": "양정동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2017.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "부산광역시 부산진구 거제대로48번길 20"
   },
   {
     "code": "A61471001",
@@ -86,7 +128,13 @@
     "emd": "양정동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2006.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 30,
+    "addr": "부산광역시 부산진구 중앙대로969번길 11"
   },
   {
     "code": "A61475403",
@@ -97,7 +145,13 @@
     "emd": "양정동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1997.11",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 부산진구 동평로 352"
   },
   {
     "code": "A61479104",
@@ -108,7 +162,13 @@
     "emd": "양정동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1998.07",
+    "dongCnt": "15동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 부산진구 거제대로 37"
   },
   {
     "code": "A61479902",
@@ -119,7 +179,13 @@
     "emd": "양정동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2006.08",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 43,
+    "addr": "부산광역시 부산진구 거제대로 26"
   },
   {
     "code": "A61485301",
@@ -130,7 +196,13 @@
     "emd": "양정동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2000.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 부산진구 양지로5번길 60"
   },
   {
     "code": "A61488201",
@@ -141,7 +213,13 @@
     "emd": "양정동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1983.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "부산광역시 부산진구 동평로 409"
   },
   {
     "code": "A10020727",
@@ -152,7 +230,13 @@
     "emd": "전포동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2025.02",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "부산광역시 부산진구 진남로 412"
   },
   {
     "code": "A10020784",
@@ -163,7 +247,13 @@
     "emd": "전포동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1993.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 부산진구 진남로 388"
   },
   {
     "code": "A10020951",
@@ -174,7 +264,13 @@
     "emd": "전포동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2014.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "부산광역시 부산진구 전포대로 170"
   },
   {
     "code": "A10023625",
@@ -185,7 +281,13 @@
     "emd": "전포동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2022.09",
+    "dongCnt": "17동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 35,
+    "addr": "부산광역시 부산진구 진남로 460"
   },
   {
     "code": "A10024602",
@@ -196,7 +298,13 @@
     "emd": "전포동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2020.10",
+    "dongCnt": "27동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 30,
+    "addr": "부산광역시 부산진구 동성로 50"
   },
   {
     "code": "A10025901",
@@ -207,7 +315,13 @@
     "emd": "전포동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2018.11",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 24,
+    "addr": "부산광역시 부산진구 동성로 82"
   },
   {
     "code": "A10027340",
@@ -218,7 +332,13 @@
     "emd": "전포동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2016.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 28,
+    "addr": "부산광역시 부산진구 중앙대로 861"
   },
   {
     "code": "A10027805",
@@ -229,7 +349,13 @@
     "emd": "전포동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2013.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "부산광역시 부산진구 전포대로 189"
   },
   {
     "code": "A61404002",
@@ -240,7 +366,13 @@
     "emd": "전포동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2004.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 부산진구 동천로 134"
   },
   {
     "code": "A61404003",
@@ -251,7 +383,13 @@
     "emd": "전포동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2006.05",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 부산진구 진남로 477"
   },
   {
     "code": "A61404004",
@@ -262,7 +400,13 @@
     "emd": "전포동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2004.06",
+    "dongCnt": "1동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "부산광역시 부산진구 전포대로 162"
   },
   {
     "code": "A61404005",
@@ -273,7 +417,13 @@
     "emd": "전포동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1978.08",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "부산광역시 부산진구 진남로 336"
   },
   {
     "code": "A61404006",
@@ -284,7 +434,13 @@
     "emd": "전포동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1997.09",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "부산광역시 부산진구 전포대로 294"
   },
   {
     "code": "A61404007",
@@ -295,7 +451,13 @@
     "emd": "전포동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2004.12",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 38,
+    "addr": "부산광역시 부산진구 전포대로275번길 20"
   },
   {
     "code": "A61404101",
@@ -306,7 +468,13 @@
     "emd": "전포동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2006.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "부산광역시 부산진구 중앙대로 786"
   },
   {
     "code": "A61404203",
@@ -317,7 +485,13 @@
     "emd": "전포동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2005.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 30,
+    "addr": "부산광역시 부산진구 전포대로 274"
   },
   {
     "code": "A61477302",
@@ -328,7 +502,13 @@
     "emd": "전포동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2004.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "부산광역시 부산진구 동천로 10-1"
   },
   {
     "code": "A61477303",
@@ -339,7 +519,13 @@
     "emd": "전포동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2006.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 부산진구 전포대로171번길 13"
   },
   {
     "code": "A61477304",
@@ -350,7 +536,13 @@
     "emd": "전포동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2009.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 35,
+    "addr": "부산광역시 부산진구 전포대로171번길 12"
   },
   {
     "code": "A61486301",
@@ -361,7 +553,13 @@
     "emd": "전포동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2005.08",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 35,
+    "addr": "부산광역시 부산진구 전포대로 156"
   },
   {
     "code": "A61486501",
@@ -372,7 +570,13 @@
     "emd": "전포동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2000.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 부산진구 진남로 404"
   },
   {
     "code": "A61486502",
@@ -383,7 +587,13 @@
     "emd": "전포동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1993.02",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 부산진구 진남로356번길 90"
   },
   {
     "code": "A61486602",
@@ -394,7 +604,13 @@
     "emd": "전포동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2004.08",
+    "dongCnt": "1동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "부산광역시 부산진구 동천로 70"
   },
   {
     "code": "A10021181",
@@ -405,7 +621,13 @@
     "emd": "부전동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2021.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "부산광역시 부산진구 부전로 193"
   },
   {
     "code": "A10022733",
@@ -416,7 +638,13 @@
     "emd": "부전동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2024.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "부산광역시 부산진구 중앙대로783번길 11"
   },
   {
     "code": "A10022984",
@@ -427,7 +655,13 @@
     "emd": "부전동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2023.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 49,
+    "addr": "부산광역시 부산진구 신천대로126번길 42"
   },
   {
     "code": "A10023770",
@@ -439,7 +673,13 @@
     "sigunguCode": "26230",
     "sido": "부산광역시",
     "sigungu": "부산진구",
-    "hhldCnt": 299
+    "hhldCnt": 299,
+    "built": "2022.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 32,
+    "addr": "부산광역시 부산진구 중앙대로 664"
   },
   {
     "code": "A61403001",
@@ -450,7 +690,13 @@
     "emd": "부전동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2011.06",
+    "dongCnt": "5동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 58,
+    "addr": "부산광역시 부산진구 중앙대로666번길 50"
   },
   {
     "code": "A61473002",
@@ -461,7 +707,13 @@
     "emd": "부전동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1999.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "부산광역시 부산진구 신천대로 122"
   },
   {
     "code": "A61484701",
@@ -472,7 +724,13 @@
     "emd": "부전동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2005.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "부산광역시 부산진구 가야대로 754"
   },
   {
     "code": "A10020754",
@@ -483,7 +741,13 @@
     "emd": "범천동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2025.02",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 25,
+    "addr": "부산광역시 부산진구 엄광로384번길 48"
   },
   {
     "code": "A10020856",
@@ -494,7 +758,13 @@
     "emd": "범천동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2019.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "부산광역시 부산진구 범천로12번길 13"
   },
   {
     "code": "A10022379",
@@ -505,7 +775,13 @@
     "emd": "범천동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2019.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "부산광역시 부산진구 범일로192번길 10"
   },
   {
     "code": "A10022914",
@@ -516,7 +792,13 @@
     "emd": "범천동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2024.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 27,
+    "addr": "부산광역시 부산진구 신암로15번길 9"
   },
   {
     "code": "A10023750",
@@ -527,7 +809,13 @@
     "emd": "범천동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2022.06",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "부산광역시 부산진구 신암로 133"
   },
   {
     "code": "A10023796",
@@ -538,7 +826,13 @@
     "emd": "범천동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2022.05",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "부산광역시 부산진구 범일로 158"
   },
   {
     "code": "A10024852",
@@ -549,7 +843,13 @@
     "emd": "범천동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2020.06",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 37,
+    "addr": "부산광역시 부산진구 가야대로 694"
   },
   {
     "code": "A10024877",
@@ -560,7 +860,13 @@
     "emd": "범천동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2020.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 부산진구 범천로 16"
   },
   {
     "code": "A10024910",
@@ -571,7 +877,13 @@
     "emd": "범천동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2020.03",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "부산광역시 부산진구 중앙대로 582"
   },
   {
     "code": "A10025131",
@@ -582,7 +894,13 @@
     "emd": "범천동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2019.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "부산광역시 부산진구 범일로131번길 46"
   },
   {
     "code": "A10027052",
@@ -593,7 +911,13 @@
     "emd": "범천동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2017.03",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "부산광역시 부산진구 만리산로 11"
   },
   {
     "code": "A61402002",
@@ -604,7 +928,13 @@
     "emd": "범천동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2005.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 32,
+    "addr": "부산광역시 부산진구 자유평화로37번길 67"
   },
   {
     "code": "A61402003",
@@ -615,7 +945,13 @@
     "emd": "범천동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2004.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "부산광역시 부산진구 중앙대로 584"
   },
   {
     "code": "A61402004",
@@ -626,7 +962,13 @@
     "emd": "범천동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2012.05",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 30,
+    "addr": "부산광역시 부산진구 범일로154번길 33"
   },
   {
     "code": "A61402005",
@@ -637,7 +979,13 @@
     "emd": "범천동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2013.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 11,
+    "addr": "부산광역시 부산진구 범천로 22"
   },
   {
     "code": "A61402006",
@@ -648,7 +996,13 @@
     "emd": "범천동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2014.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 36,
+    "addr": "부산광역시 부산진구 신천대로 71"
   },
   {
     "code": "A61476002",
@@ -659,7 +1013,13 @@
     "emd": "범천동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2003.05",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 부산진구 신암로 32"
   },
   {
     "code": "A61476003",
@@ -670,7 +1030,13 @@
     "emd": "범천동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2013.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 36,
+    "addr": "부산광역시 부산진구 범천로12번길 8"
   },
   {
     "code": "A61476004",
@@ -681,7 +1047,13 @@
     "emd": "범천동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2013.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 37,
+    "addr": "부산광역시 부산진구 신암로 66"
   },
   {
     "code": "A61482801",
@@ -692,7 +1064,13 @@
     "emd": "범천동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1984.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "부산광역시 부산진구 황령대로18번길 37"
   },
   {
     "code": "A61482803",
@@ -703,7 +1081,13 @@
     "emd": "범천동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1986.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 부산진구 황령대로18번길 43"
   },
   {
     "code": "A61483201",
@@ -714,7 +1098,13 @@
     "emd": "범천동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2004.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 부산진구 가야대로 714"
   },
   {
     "code": "A61483202",
@@ -725,7 +1115,13 @@
     "emd": "범천동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2006.12",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 37,
+    "addr": "부산광역시 부산진구 가야대로 702"
   },
   {
     "code": "A61483301",
@@ -736,7 +1132,13 @@
     "emd": "범천동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1994.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "부산광역시 부산진구 신암로 72"
   },
   {
     "code": "A10025540",
@@ -747,7 +1149,13 @@
     "emd": "범전동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2019.05",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 58,
+    "addr": "부산광역시 부산진구 중앙대로 821"
   },
   {
     "code": "A10020156",
@@ -758,7 +1166,13 @@
     "emd": "연지동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2020.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "부산광역시 부산진구 동평로 269"
   },
   {
     "code": "A10021596",
@@ -769,7 +1183,13 @@
     "emd": "연지동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1986.01",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "부산광역시 부산진구 국악로 5"
   },
   {
     "code": "A10023616",
@@ -780,7 +1200,13 @@
     "emd": "연지동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2022.09",
+    "dongCnt": "24동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 33,
+    "addr": "부산광역시 부산진구 성지로 37"
   },
   {
     "code": "A10024430",
@@ -791,7 +1217,13 @@
     "emd": "연지동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2020.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": "",
+    "addr": "부산광역시 부산진구 동평로225번길 14"
   },
   {
     "code": "A10024735",
@@ -802,7 +1234,13 @@
     "emd": "연지동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2020.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "부산광역시 부산진구 동평로 281"
   },
   {
     "code": "A61478703",
@@ -813,7 +1251,13 @@
     "emd": "연지동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1994.01",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "부산광역시 부산진구 성지로61번길 30"
   },
   {
     "code": "A61478807",
@@ -824,7 +1268,13 @@
     "emd": "연지동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1996.08",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 부산진구 동평로291번길 30"
   },
   {
     "code": "A61478901",
@@ -835,7 +1285,13 @@
     "emd": "연지동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2011.12",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "부산광역시 부산진구 초연로 11"
   },
   {
     "code": "A61485902",
@@ -846,7 +1302,13 @@
     "emd": "연지동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2006.04",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "부산광역시 부산진구 성지로62번길 8"
   },
   {
     "code": "A61485904",
@@ -857,7 +1319,13 @@
     "emd": "연지동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2000.07",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "부산광역시 부산진구 성지로62번길 10"
   },
   {
     "code": "A61485906",
@@ -868,7 +1336,13 @@
     "emd": "연지동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2002.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 부산진구 동평로291번길 30-17"
   },
   {
     "code": "A61486001",
@@ -879,7 +1353,13 @@
     "emd": "연지동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2005.05",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "부산광역시 부산진구 초연로21번길 102"
   },
   {
     "code": "A61486005",
@@ -890,7 +1370,13 @@
     "emd": "연지동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2007.12",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "부산광역시 부산진구 동평로183번길 67"
   },
   {
     "code": "A61486008",
@@ -901,7 +1387,13 @@
     "emd": "연지동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1995.12",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 부산진구 새싹로 183"
   },
   {
     "code": "A10020675",
@@ -913,7 +1405,13 @@
     "sigunguCode": "26230",
     "sido": "부산광역시",
     "sigungu": "부산진구",
-    "hhldCnt": 116
+    "hhldCnt": 116,
+    "built": "2024.12",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "부산광역시 부산진구 성지로94번길 74"
   },
   {
     "code": "A10022574",
@@ -924,7 +1422,13 @@
     "emd": "초읍동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2024.05",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 30,
+    "addr": "부산광역시 부산진구 성지로 117"
   },
   {
     "code": "A10024953",
@@ -935,7 +1439,13 @@
     "emd": "초읍동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2020.03",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 29,
+    "addr": "부산광역시 부산진구 초연로 6"
   },
   {
     "code": "A10026454",
@@ -946,7 +1456,13 @@
     "emd": "초읍동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2018.02",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "부산광역시 부산진구 새싹로 229"
   },
   {
     "code": "A61487104",
@@ -957,7 +1473,13 @@
     "emd": "초읍동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1982.06",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 부산진구 새싹로 221"
   },
   {
     "code": "A61487301",
@@ -968,7 +1490,13 @@
     "emd": "초읍동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1992.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "부산광역시 부산진구 성지곡로 60"
   },
   {
     "code": "A61487303",
@@ -979,7 +1507,13 @@
     "emd": "초읍동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2002.02",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "부산광역시 부산진구 성지곡로 67"
   },
   {
     "code": "A61487305",
@@ -990,7 +1524,13 @@
     "emd": "초읍동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1996.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "부산광역시 부산진구 월드컵대로 449"
   },
   {
     "code": "A61487402",
@@ -1001,7 +1541,13 @@
     "emd": "초읍동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2000.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "부산광역시 부산진구 성지로114번길 68"
   },
   {
     "code": "A61487406",
@@ -1012,7 +1558,13 @@
     "emd": "초읍동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2000.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "부산광역시 부산진구 성지로94번길 85"
   },
   {
     "code": "A10020458",
@@ -1024,7 +1576,13 @@
     "sigunguCode": "26230",
     "sido": "부산광역시",
     "sigungu": "부산진구",
-    "hhldCnt": 440
+    "hhldCnt": 440,
+    "built": "2025.08",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": "",
+    "addr": "부산광역시 부산진구 동평로 149"
   },
   {
     "code": "A10020721",
@@ -1035,7 +1593,13 @@
     "emd": "부암동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2025.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "부산광역시 부산진구 백양산로 22"
   },
   {
     "code": "A10020971",
@@ -1046,7 +1610,13 @@
     "emd": "부암동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1986.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 6,
+    "addr": "부산광역시 부산진구 동평로131번길 8"
   },
   {
     "code": "A10022844",
@@ -1057,7 +1627,13 @@
     "emd": "부암동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2025.02",
+    "dongCnt": "21동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 34,
+    "addr": "부산광역시 부산진구 백양순환로 75"
   },
   {
     "code": "A10023494",
@@ -1068,7 +1644,13 @@
     "emd": "부암동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2022.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 31,
+    "addr": "부산광역시 부산진구 동평로 176"
   },
   {
     "code": "A10023896",
@@ -1079,7 +1661,13 @@
     "emd": "부암동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2022.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "부산광역시 부산진구 동평로 192"
   },
   {
     "code": "A10024194",
@@ -1090,7 +1678,13 @@
     "emd": "부암동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2021.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 39,
+    "addr": "부산광역시 부산진구 새싹로 99"
   },
   {
     "code": "A10024696",
@@ -1101,7 +1695,13 @@
     "emd": "부암동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2020.07",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 30,
+    "addr": "부산광역시 부산진구 동평로 173"
   },
   {
     "code": "A10026861",
@@ -1112,7 +1712,13 @@
     "emd": "부암동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2017.06",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "부산광역시 부산진구 동평로 162"
   },
   {
     "code": "A10027129",
@@ -1123,7 +1729,13 @@
     "emd": "부암동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2017.02",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "부산광역시 부산진구 동평로 128"
   },
   {
     "code": "A10028147",
@@ -1134,7 +1746,13 @@
     "emd": "부암동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2014.11",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 부산진구 동평로150번길 14"
   },
   {
     "code": "A61409001",
@@ -1145,7 +1763,13 @@
     "emd": "부암동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2008.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 37,
+    "addr": "부산광역시 부산진구 동평로 197"
   },
   {
     "code": "A61409002",
@@ -1156,7 +1780,13 @@
     "emd": "부암동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2007.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 40,
+    "addr": "부산광역시 부산진구 시민공원로 11"
   },
   {
     "code": "A61409003",
@@ -1167,7 +1797,13 @@
     "emd": "부암동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1997.12",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 부산진구 신천대로 252"
   },
   {
     "code": "A61409004",
@@ -1178,7 +1814,13 @@
     "emd": "부암동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2005.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 43,
+    "addr": "부산광역시 부산진구 시민공원로19번길 65"
   },
   {
     "code": "A61409005",
@@ -1189,7 +1831,13 @@
     "emd": "부암동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2011.09",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 35,
+    "addr": "부산광역시 부산진구 신천대로220번길 65"
   },
   {
     "code": "A61409006",
@@ -1200,7 +1848,13 @@
     "emd": "부암동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2004.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 부산진구 부암동 601-28 솔내음파미유"
   },
   {
     "code": "A61409301",
@@ -1211,7 +1865,13 @@
     "emd": "부암동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2006.04",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "부산광역시 부산진구 백양산로 36"
   },
   {
     "code": "A61409302",
@@ -1222,7 +1882,13 @@
     "emd": "부암동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2005.08",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 부산진구 백양산로 57"
   },
   {
     "code": "A61479403",
@@ -1233,7 +1899,13 @@
     "emd": "부암동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2004.12",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "부산광역시 부산진구 백양산로 70"
   },
   {
     "code": "A61479404",
@@ -1244,7 +1916,13 @@
     "emd": "부암동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2012.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 부산진구 용사촌로 52-16"
   },
   {
     "code": "A61483503",
@@ -1255,7 +1933,13 @@
     "emd": "부암동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2007.03",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "부산광역시 부산진구 동평로 218"
   },
   {
     "code": "A61483601",
@@ -1266,7 +1950,13 @@
     "emd": "부암동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1998.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "부산광역시 부산진구 신천대로 246"
   },
   {
     "code": "A61483604",
@@ -1277,7 +1967,13 @@
     "emd": "부암동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2007.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 32,
+    "addr": "부산광역시 부산진구 신천대로220번길 31"
   },
   {
     "code": "A61483802",
@@ -1288,7 +1984,13 @@
     "emd": "부암동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1989.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 부산진구 신천대로 279"
   },
   {
     "code": "A61484004",
@@ -1299,7 +2001,13 @@
     "emd": "부암동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1993.12",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 부산진구 당감로 118"
   },
   {
     "code": "A61484005",
@@ -1310,7 +2018,13 @@
     "emd": "부암동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1997.03",
+    "dongCnt": "20동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 부산진구 당감로 79"
   },
   {
     "code": "A10022080",
@@ -1321,7 +2035,13 @@
     "emd": "당감동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2001.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": "",
+    "addr": "부산광역시 부산진구 가야대로 635-12"
   },
   {
     "code": "A10023021",
@@ -1332,7 +2052,13 @@
     "emd": "당감동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2024.04",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 36,
+    "addr": "부산광역시 부산진구 마철로 114"
   },
   {
     "code": "A10025434",
@@ -1343,7 +2069,13 @@
     "emd": "당감동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2019.04",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 37,
+    "addr": "부산광역시 부산진구 신천대로197번길 15"
   },
   {
     "code": "A10027668",
@@ -1354,7 +2086,13 @@
     "emd": "당감동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2015.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "부산광역시 부산진구 가야대로691번길 19"
   },
   {
     "code": "A61410304",
@@ -1365,7 +2103,13 @@
     "emd": "당감동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1978.12",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "부산광역시 부산진구 당감로 17"
   },
   {
     "code": "A61475202",
@@ -1376,7 +2120,13 @@
     "emd": "당감동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1996.01",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 부산진구 가야대로 635-20"
   },
   {
     "code": "A61475903",
@@ -1387,7 +2137,13 @@
     "emd": "당감동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1996.06",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 부산진구 가야대로 635-13"
   },
   {
     "code": "A61476604",
@@ -1398,7 +2154,13 @@
     "emd": "당감동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1999.06",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 25,
+    "addr": "부산광역시 부산진구 백양산로53번길 125"
   },
   {
     "code": "A61477806",
@@ -1409,7 +2171,13 @@
     "emd": "당감동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1995.01",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 부산진구 백양관문로 104"
   },
   {
     "code": "A61477902",
@@ -1420,7 +2188,13 @@
     "emd": "당감동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1995.03",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 부산진구 백양관문로 101"
   },
   {
     "code": "A61479605",
@@ -1431,7 +2205,13 @@
     "emd": "당감동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2005.03",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 부산진구 백양관문로 115"
   },
   {
     "code": "A61481601",
@@ -1442,7 +2222,13 @@
     "emd": "당감동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2006.04",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 30,
+    "addr": "부산광역시 부산진구 마철로 98"
   },
   {
     "code": "A61482201",
@@ -1453,7 +2239,13 @@
     "emd": "당감동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1992.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "부산광역시 부산진구 동평로181번길 18"
   },
   {
     "code": "A61482207",
@@ -1464,7 +2256,13 @@
     "emd": "당감동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1989.06",
+    "dongCnt": "20동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 부산진구 백양관문로 10"
   },
   {
     "code": "A61482301",
@@ -1475,7 +2273,13 @@
     "emd": "당감동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1994.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "부산광역시 부산진구 백양순환로35번길 43"
   },
   {
     "code": "A61482302",
@@ -1486,7 +2290,13 @@
     "emd": "당감동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1999.07",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 부산진구 백양산로53번길 125"
   },
   {
     "code": "A61482303",
@@ -1497,7 +2307,13 @@
     "emd": "당감동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1999.11",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 부산진구 백양산로53번길 62"
   },
   {
     "code": "A10020213",
@@ -1508,7 +2324,13 @@
     "emd": "가야동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2026.01",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 43,
+    "addr": "부산광역시 부산진구 가야대로 661"
   },
   {
     "code": "A10021471",
@@ -1519,7 +2341,13 @@
     "emd": "가야동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2002.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "부산광역시 부산진구 가야대로 597"
   },
   {
     "code": "A10021678",
@@ -1530,7 +2358,13 @@
     "emd": "가야동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2012.07",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 9,
+    "addr": "부산광역시 부산진구 엄광로312번길 61"
   },
   {
     "code": "A10023627",
@@ -1541,7 +2375,13 @@
     "emd": "가야동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2022.09",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 36,
+    "addr": "부산광역시 부산진구 가야대로 538"
   },
   {
     "code": "A10024754",
@@ -1552,7 +2392,13 @@
     "emd": "가야동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2020.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 35,
+    "addr": "부산광역시 부산진구 가야공원로 6"
   },
   {
     "code": "A61401001",
@@ -1563,7 +2409,13 @@
     "emd": "가야동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2000.07",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "부산광역시 부산진구 엄광로238번길 5"
   },
   {
     "code": "A61401301",
@@ -1574,7 +2426,13 @@
     "emd": "가야동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2006.09",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "부산광역시 부산진구 가야대로 569"
   },
   {
     "code": "A61476403",
@@ -1585,7 +2443,13 @@
     "emd": "가야동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1991.01",
+    "dongCnt": "21동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 부산진구 엄광로 68"
   },
   {
     "code": "A61479502",
@@ -1596,7 +2460,13 @@
     "emd": "가야동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2005.02",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 부산진구 가야공원로 41"
   },
   {
     "code": "A61479503",
@@ -1607,7 +2477,13 @@
     "emd": "가야동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2013.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "부산광역시 부산진구 가야대로 531"
   },
   {
     "code": "A61480002",
@@ -1618,7 +2494,13 @@
     "emd": "가야동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1996.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 부산진구 가야대로679번길 155"
   },
   {
     "code": "A61480003",
@@ -1629,7 +2511,13 @@
     "emd": "가야동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1999.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 부산진구 가야대로679번길 166"
   },
   {
     "code": "A10021102",
@@ -1640,7 +2528,13 @@
     "emd": "개금동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2019.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "부산광역시 부산진구 복지로 15"
   },
   {
     "code": "A10022583",
@@ -1651,7 +2545,13 @@
     "emd": "개금동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2023.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 12,
+    "addr": "부산광역시 부산진구 가야대로406번길 15-4"
   },
   {
     "code": "A10023409",
@@ -1662,7 +2562,13 @@
     "emd": "개금동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2023.01",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 49,
+    "addr": "부산광역시 부산진구 가야대로 497"
   },
   {
     "code": "A10026363",
@@ -1673,7 +2579,13 @@
     "emd": "개금동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2018.02",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 39,
+    "addr": "부산광역시 부산진구 가야대로 450"
   },
   {
     "code": "A10027311",
@@ -1684,7 +2596,13 @@
     "emd": "개금동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2016.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 부산진구 가야대로 411"
   },
   {
     "code": "A61411202",
@@ -1695,7 +2613,13 @@
     "emd": "개금동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1986.03",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "부산광역시 부산진구 엄광로62번길 61"
   },
   {
     "code": "A61411303",
@@ -1706,7 +2630,13 @@
     "emd": "개금동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1992.02",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 부산진구 개금본동로22번길 31"
   },
   {
     "code": "A61471201",
@@ -1717,7 +2647,13 @@
     "emd": "개금동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2010.11",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 30,
+    "addr": "부산광역시 부산진구 개금온정로 10"
   },
   {
     "code": "A61475512",
@@ -1728,7 +2664,13 @@
     "emd": "개금동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1988.06",
+    "dongCnt": "18동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 부산진구 백양관문로 7"
   },
   {
     "code": "A61477009",
@@ -1739,7 +2681,13 @@
     "emd": "개금동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1994.07",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "부산광역시 부산진구 백양대로208번길 144"
   },
   {
     "code": "A61477105",
@@ -1750,7 +2698,13 @@
     "emd": "개금동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2002.06",
+    "dongCnt": "18동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "부산광역시 부산진구 복지로 70"
   },
   {
     "code": "A61477403",
@@ -1761,7 +2715,13 @@
     "emd": "개금동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1975.01",
+    "dongCnt": "17동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "부산광역시 부산진구 진사로61번길 29"
   },
   {
     "code": "A61477612",
@@ -1772,7 +2732,13 @@
     "emd": "개금동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1994.03",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "부산광역시 부산진구 개금본동로 42"
   },
   {
     "code": "A61480901",
@@ -1783,7 +2749,13 @@
     "emd": "개금동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1992.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 부산진구 백양대로208번길 88"
   },
   {
     "code": "A61480902",
@@ -1794,7 +2766,13 @@
     "emd": "개금동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1995.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 부산진구 백양대로208번길 133"
   },
   {
     "code": "A61480906",
@@ -1805,7 +2783,13 @@
     "emd": "개금동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1992.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "부산광역시 부산진구 개금본동로 34"
   },
   {
     "code": "A61480908",
@@ -1816,7 +2800,13 @@
     "emd": "개금동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1995.10",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 부산진구 백양관문로77번길 55"
   },
   {
     "code": "A61480910",
@@ -1827,7 +2817,13 @@
     "emd": "개금동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1994.07",
+    "dongCnt": "6동",
+    "heat": "중앙난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "부산광역시 부산진구 백양관문로77번길 145"
   },
   {
     "code": "A61481004",
@@ -1838,7 +2834,13 @@
     "emd": "개금동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1989.09",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 부산진구 백양대로208번길 38-25"
   },
   {
     "code": "A61481005",
@@ -1849,7 +2851,13 @@
     "emd": "개금동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1987.01",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "부산광역시 부산진구 백양대로208번길 25"
   },
   {
     "code": "A61481111",
@@ -1860,7 +2868,13 @@
     "emd": "개금동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1998.11",
+    "dongCnt": "24동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "부산광역시 부산진구 백양대로300번길 20"
   },
   {
     "code": "A61481301",
@@ -1871,7 +2885,13 @@
     "emd": "개금동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "2004.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "부산광역시 부산진구 개금온정로 5"
   },
   {
     "code": "A61481501",
@@ -1882,6 +2902,12 @@
     "emd": "개금동",
     "sigunguCode": "26230",
     "sido": "부산광역시",
-    "sigungu": "부산진구"
+    "sigungu": "부산진구",
+    "built": "1999.04",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 부산진구 진사로89번길 73"
   }
 ]

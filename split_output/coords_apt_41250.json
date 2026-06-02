@@ -9,7 +9,13 @@
     "sigunguCode": "41250",
     "sido": "경기도",
     "sigungu": "동두천시",
-    "hhldCnt": 466
+    "hhldCnt": 466,
+    "built": "2025.09",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 26,
+    "addr": "경기도 동두천시 동우로 32"
   },
   {
     "code": "A10024184",
@@ -20,7 +26,13 @@
     "emd": "송내동",
     "sigunguCode": "41250",
     "sido": "경기도",
-    "sigungu": "동두천시"
+    "sigungu": "동두천시",
+    "built": "2021.08",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 21,
+    "addr": "경기도 동두천시 이담로 10"
   },
   {
     "code": "A48301003",
@@ -31,7 +43,13 @@
     "emd": "송내동",
     "sigunguCode": "41250",
     "sido": "경기도",
-    "sigungu": "동두천시"
+    "sigungu": "동두천시",
+    "built": "2005.10",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "경기도 동두천시 중앙로 41"
   },
   {
     "code": "A48373801",
@@ -42,7 +60,13 @@
     "emd": "송내동",
     "sigunguCode": "41250",
     "sido": "경기도",
-    "sigungu": "동두천시"
+    "sigungu": "동두천시",
+    "built": "2005.07",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 동두천시 강변로 160"
   },
   {
     "code": "A48375404",
@@ -53,7 +77,13 @@
     "emd": "송내동",
     "sigunguCode": "41250",
     "sido": "경기도",
-    "sigungu": "동두천시"
+    "sigungu": "동두천시",
+    "built": "2003.05",
+    "dongCnt": "17동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경기도 동두천시 동두천로 63"
   },
   {
     "code": "A48375502",
@@ -64,7 +94,13 @@
     "emd": "송내동",
     "sigunguCode": "41250",
     "sido": "경기도",
-    "sigungu": "동두천시"
+    "sigungu": "동두천시",
+    "built": "2003.06",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 동두천시 중앙로 10"
   },
   {
     "code": "A10022959",
@@ -75,7 +111,13 @@
     "emd": "지행동",
     "sigunguCode": "41250",
     "sido": "경기도",
-    "sigungu": "동두천시"
+    "sigungu": "동두천시",
+    "built": "2023.09",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 동두천시 거북마루로 46"
   },
   {
     "code": "A10026546",
@@ -86,7 +128,13 @@
     "emd": "지행동",
     "sigunguCode": "41250",
     "sido": "경기도",
-    "sigungu": "동두천시"
+    "sigungu": "동두천시",
+    "built": "2018.01",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 동두천시 이담로 161"
   },
   {
     "code": "A48302002",
@@ -97,7 +145,13 @@
     "emd": "지행동",
     "sigunguCode": "41250",
     "sido": "경기도",
-    "sigungu": "동두천시"
+    "sigungu": "동두천시",
+    "built": "2009.03",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 동두천시 행선로 52"
   },
   {
     "code": "A48302004",
@@ -108,7 +162,13 @@
     "emd": "지행동",
     "sigunguCode": "41250",
     "sido": "경기도",
-    "sigungu": "동두천시"
+    "sigungu": "동두천시",
+    "built": "1999.06",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "경기도 동두천시 평화로 2316-6"
   },
   {
     "code": "A48302007",
@@ -119,7 +179,13 @@
     "emd": "지행동",
     "sigunguCode": "41250",
     "sido": "경기도",
-    "sigungu": "동두천시"
+    "sigungu": "동두천시",
+    "built": "1999.08",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경기도 동두천시 평화로 2316-13"
   },
   {
     "code": "A48370501",
@@ -130,7 +196,13 @@
     "emd": "지행동",
     "sigunguCode": "41250",
     "sido": "경기도",
-    "sigungu": "동두천시"
+    "sigungu": "동두천시",
+    "built": "2000.04",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 동두천시 삼육사로1002번길 93"
   },
   {
     "code": "A48373909",
@@ -141,7 +213,13 @@
     "emd": "지행동",
     "sigunguCode": "41250",
     "sido": "경기도",
-    "sigungu": "동두천시"
+    "sigungu": "동두천시",
+    "built": "2004.04",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 동두천시 거북마루로 64"
   },
   {
     "code": "A48373910",
@@ -152,7 +230,13 @@
     "emd": "지행동",
     "sigunguCode": "41250",
     "sido": "경기도",
-    "sigungu": "동두천시"
+    "sigungu": "동두천시",
+    "built": "2009.07",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 동두천시 이담로 89"
   },
   {
     "code": "A48373911",
@@ -163,7 +247,13 @@
     "emd": "지행동",
     "sigunguCode": "41250",
     "sido": "경기도",
-    "sigungu": "동두천시"
+    "sigungu": "동두천시",
+    "built": "2003.07",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 동두천시 생연로 28"
   },
   {
     "code": "A48373912",
@@ -174,7 +264,13 @@
     "emd": "지행동",
     "sigunguCode": "41250",
     "sido": "경기도",
-    "sigungu": "동두천시"
+    "sigungu": "동두천시",
+    "built": "2011.12",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 동두천시 행선로20번길 43"
   },
   {
     "code": "A48374208",
@@ -185,7 +281,13 @@
     "emd": "지행동",
     "sigunguCode": "41250",
     "sido": "경기도",
-    "sigungu": "동두천시"
+    "sigungu": "동두천시",
+    "built": "2005.04",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 동두천시 생연로 10"
   },
   {
     "code": "A48374903",
@@ -196,7 +298,13 @@
     "emd": "지행동",
     "sigunguCode": "41250",
     "sido": "경기도",
-    "sigungu": "동두천시"
+    "sigungu": "동두천시",
+    "built": "2004.07",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "경기도 동두천시 동두천로 139"
   },
   {
     "code": "A48375111",
@@ -207,7 +315,13 @@
     "emd": "지행동",
     "sigunguCode": "41250",
     "sido": "경기도",
-    "sigungu": "동두천시"
+    "sigungu": "동두천시",
+    "built": "2004.08",
+    "dongCnt": "17동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 동두천시 지행로 12"
   },
   {
     "code": "A48375210",
@@ -218,7 +332,13 @@
     "emd": "지행동",
     "sigunguCode": "41250",
     "sido": "경기도",
-    "sigungu": "동두천시"
+    "sigungu": "동두천시",
+    "built": "2004.07",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 동두천시 동두천로 89"
   },
   {
     "code": "A10020781",
@@ -230,7 +350,13 @@
     "sigunguCode": "41250",
     "sido": "경기도",
     "sigungu": "동두천시",
-    "hhldCnt": 185
+    "hhldCnt": 185,
+    "built": "2025.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 24,
+    "addr": "경기도 동두천시 장고갯로 41"
   },
   {
     "code": "A10021015",
@@ -242,7 +368,13 @@
     "sigunguCode": "41250",
     "sido": "경기도",
     "sigungu": "동두천시",
-    "hhldCnt": 576
+    "hhldCnt": 576,
+    "built": "2024.12",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 동두천시 못골로 10"
   },
   {
     "code": "A10021482",
@@ -253,7 +385,13 @@
     "emd": "생연동",
     "sigunguCode": "41250",
     "sido": "경기도",
-    "sigungu": "동두천시"
+    "sigungu": "동두천시",
+    "built": "1991.01",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 6,
+    "addr": "경기도 동두천시 못골로49번길 2"
   },
   {
     "code": "A10022613",
@@ -264,7 +402,13 @@
     "emd": "생연동",
     "sigunguCode": "41250",
     "sido": "경기도",
-    "sigungu": "동두천시"
+    "sigungu": "동두천시",
+    "built": "2024.04",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "경기도 동두천시 정장로17번길 26"
   },
   {
     "code": "A10024548",
@@ -275,7 +419,13 @@
     "emd": "생연동",
     "sigunguCode": "41250",
     "sido": "경기도",
-    "sigungu": "동두천시"
+    "sigungu": "동두천시",
+    "built": "2020.11",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "경기도 동두천시 생연로 91"
   },
   {
     "code": "A48303001",
@@ -286,7 +436,13 @@
     "emd": "생연동",
     "sigunguCode": "41250",
     "sido": "경기도",
-    "sigungu": "동두천시"
+    "sigungu": "동두천시",
+    "built": "2000.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "경기도 동두천시 삼육사로1002번길 25"
   },
   {
     "code": "A48303002",
@@ -297,7 +453,13 @@
     "emd": "생연동",
     "sigunguCode": "41250",
     "sido": "경기도",
-    "sigungu": "동두천시"
+    "sigungu": "동두천시",
+    "built": "2005.10",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 동두천시 거북마루로 45"
   },
   {
     "code": "A48303003",
@@ -308,7 +470,13 @@
     "emd": "생연동",
     "sigunguCode": "41250",
     "sido": "경기도",
-    "sigungu": "동두천시"
+    "sigungu": "동두천시",
+    "built": "1995.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경기도 동두천시 행선로 123-49"
   },
   {
     "code": "A48303004",
@@ -319,7 +487,13 @@
     "emd": "생연동",
     "sigunguCode": "41250",
     "sido": "경기도",
-    "sigungu": "동두천시"
+    "sigungu": "동두천시",
+    "built": "1991.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 동두천시 삼육사로 1057"
   },
   {
     "code": "A48303005",
@@ -330,7 +504,13 @@
     "emd": "생연동",
     "sigunguCode": "41250",
     "sido": "경기도",
-    "sigungu": "동두천시"
+    "sigungu": "동두천시",
+    "built": "1994.02",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 동두천시 못골로 60"
   },
   {
     "code": "A48303006",
@@ -341,7 +521,13 @@
     "emd": "생연동",
     "sigunguCode": "41250",
     "sido": "경기도",
-    "sigungu": "동두천시"
+    "sigungu": "동두천시",
+    "built": "1993.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 동두천시 행선로 123-19"
   },
   {
     "code": "A48303007",
@@ -352,7 +538,13 @@
     "emd": "생연동",
     "sigunguCode": "41250",
     "sido": "경기도",
-    "sigungu": "동두천시"
+    "sigungu": "동두천시",
+    "built": "1992.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 동두천시 행선로 100-21"
   },
   {
     "code": "A48303008",
@@ -363,7 +555,13 @@
     "emd": "생연동",
     "sigunguCode": "41250",
     "sido": "경기도",
-    "sigungu": "동두천시"
+    "sigungu": "동두천시",
+    "built": "2002.08",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "경기도 동두천시 삼육사로1002번길 47"
   },
   {
     "code": "A48303009",
@@ -374,7 +572,13 @@
     "emd": "생연동",
     "sigunguCode": "41250",
     "sido": "경기도",
-    "sigungu": "동두천시"
+    "sigungu": "동두천시",
+    "built": "1993.06",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 동두천시 행선로 100-9"
   },
   {
     "code": "A48303010",
@@ -385,7 +589,13 @@
     "emd": "생연동",
     "sigunguCode": "41250",
     "sido": "경기도",
-    "sigungu": "동두천시"
+    "sigungu": "동두천시",
+    "built": "2004.10",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "경기도 동두천시 생연로 72"
   },
   {
     "code": "A48303011",
@@ -396,7 +606,13 @@
     "emd": "생연동",
     "sigunguCode": "41250",
     "sido": "경기도",
-    "sigungu": "동두천시"
+    "sigungu": "동두천시",
+    "built": "2004.09",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 동두천시 동두천로 185"
   },
   {
     "code": "A48370313",
@@ -407,7 +623,13 @@
     "emd": "생연동",
     "sigunguCode": "41250",
     "sido": "경기도",
-    "sigungu": "동두천시"
+    "sigungu": "동두천시",
+    "built": "2009.07",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 동두천시 장고갯로 116"
   },
   {
     "code": "A48370314",
@@ -418,7 +640,13 @@
     "emd": "생연동",
     "sigunguCode": "41250",
     "sido": "경기도",
-    "sigungu": "동두천시"
+    "sigungu": "동두천시",
+    "built": "2010.04",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "경기도 동두천시 행선로110번길 9"
   },
   {
     "code": "A48370315",
@@ -429,7 +657,13 @@
     "emd": "생연동",
     "sigunguCode": "41250",
     "sido": "경기도",
-    "sigungu": "동두천시"
+    "sigungu": "동두천시",
+    "built": "2003.07",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "경기도 동두천시 동두천로 171"
   },
   {
     "code": "A48370316",
@@ -440,7 +674,13 @@
     "emd": "생연동",
     "sigunguCode": "41250",
     "sido": "경기도",
-    "sigungu": "동두천시"
+    "sigungu": "동두천시",
+    "built": "2014.09",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 동두천시 장고갯로 23"
   },
   {
     "code": "A48371103",
@@ -451,7 +691,13 @@
     "emd": "생연동",
     "sigunguCode": "41250",
     "sido": "경기도",
-    "sigungu": "동두천시"
+    "sigungu": "동두천시",
+    "built": "1996.10",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 동두천시 중앙로 424"
   },
   {
     "code": "A48371201",
@@ -462,7 +708,13 @@
     "emd": "생연동",
     "sigunguCode": "41250",
     "sido": "경기도",
-    "sigungu": "동두천시"
+    "sigungu": "동두천시",
+    "built": "1992.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 동두천시 송터로 21"
   },
   {
     "code": "A48371302",
@@ -473,7 +725,13 @@
     "emd": "생연동",
     "sigunguCode": "41250",
     "sido": "경기도",
-    "sigungu": "동두천시"
+    "sigungu": "동두천시",
+    "built": "1995.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "경기도 동두천시 강변로296번길 19"
   },
   {
     "code": "A48371701",
@@ -484,7 +742,13 @@
     "emd": "생연동",
     "sigunguCode": "41250",
     "sido": "경기도",
-    "sigungu": "동두천시"
+    "sigungu": "동두천시",
+    "built": "1993.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경기도 동두천시 큰시장로 64"
   },
   {
     "code": "A10027625",
@@ -495,7 +759,13 @@
     "emd": "동두천동",
     "sigunguCode": "41250",
     "sido": "경기도",
-    "sigungu": "동두천시"
+    "sigungu": "동두천시",
+    "built": "2009.12",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 동두천시 강변로664번길 25"
   },
   {
     "code": "A48308001",
@@ -506,7 +776,13 @@
     "emd": "동두천동",
     "sigunguCode": "41250",
     "sido": "경기도",
-    "sigungu": "동두천시"
+    "sigungu": "동두천시",
+    "built": "2009.12",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 동두천시 강변로664번길 45"
   },
   {
     "code": "A48312001",
@@ -517,6 +793,12 @@
     "emd": "상패동",
     "sigunguCode": "41250",
     "sido": "경기도",
-    "sigungu": "동두천시"
+    "sigungu": "동두천시",
+    "built": "1997.06",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 동두천시 어수로 29-16"
   }
 ]

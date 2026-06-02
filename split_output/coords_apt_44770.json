@@ -8,7 +8,13 @@
     "emd": "장항읍",
     "sigunguCode": "44770",
     "sido": "충청남도",
-    "sigungu": "서천군"
+    "sigungu": "서천군",
+    "built": "2020.06",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "충청남도 서천군 성화로 156"
   },
   {
     "code": "A10022023",
@@ -19,7 +25,13 @@
     "emd": "장항읍",
     "sigunguCode": "44770",
     "sido": "충청남도",
-    "sigungu": "서천군"
+    "sigungu": "서천군",
+    "built": "2022.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 1,
+    "addr": "충청남도 서천군 성주새길 8"
   },
   {
     "code": "A32590101",
@@ -30,7 +42,13 @@
     "emd": "장항읍",
     "sigunguCode": "44770",
     "sido": "충청남도",
-    "sigungu": "서천군"
+    "sigungu": "서천군",
+    "built": "1996.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "충청남도 서천군 성화로 194"
   },
   {
     "code": "A32590802",
@@ -41,7 +59,13 @@
     "emd": "장항읍",
     "sigunguCode": "44770",
     "sido": "충청남도",
-    "sigungu": "서천군"
+    "sigungu": "서천군",
+    "built": "1995.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 서천군 신창서로 81"
   },
   {
     "code": "A10024324",
@@ -52,7 +76,13 @@
     "emd": "장항읍",
     "sigunguCode": "44770",
     "sido": "충청남도",
-    "sigungu": "서천군"
+    "sigungu": "서천군",
+    "built": "2021.03",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 18,
+    "addr": "충청남도 서천군 장항산단1길 60"
   },
   {
     "code": "A10021023",
@@ -63,7 +93,13 @@
     "emd": "장항읍",
     "sigunguCode": "44770",
     "sido": "충청남도",
-    "sigungu": "서천군"
+    "sigungu": "서천군",
+    "built": "2014.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "충청남도 서천군 장산로 407"
   },
   {
     "code": "A32590102",
@@ -74,7 +110,13 @@
     "emd": "장항읍",
     "sigunguCode": "44770",
     "sido": "충청남도",
-    "sigungu": "서천군"
+    "sigungu": "서천군",
+    "built": "2010.05",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "충청남도 서천군 장항로 285"
   },
   {
     "code": "A10025164",
@@ -85,7 +127,13 @@
     "emd": "서천읍",
     "sigunguCode": "44770",
     "sido": "충청남도",
-    "sigungu": "서천군"
+    "sigungu": "서천군",
+    "built": "2019.11",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "충청남도 서천군 대백제로 1042-41"
   },
   {
     "code": "A10026854",
@@ -96,7 +144,13 @@
     "emd": "서천읍",
     "sigunguCode": "44770",
     "sido": "충청남도",
-    "sigungu": "서천군"
+    "sigungu": "서천군",
+    "built": "2015.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "충청남도 서천군 사곡로 8"
   },
   {
     "code": "A32570101",
@@ -107,7 +161,13 @@
     "emd": "서천읍",
     "sigunguCode": "44770",
     "sido": "충청남도",
-    "sigungu": "서천군"
+    "sigungu": "서천군",
+    "built": "2009.12",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 서천군 서천로143번길 51"
   },
   {
     "code": "A32570102",
@@ -118,7 +178,13 @@
     "emd": "서천읍",
     "sigunguCode": "44770",
     "sido": "충청남도",
-    "sigungu": "서천군"
+    "sigungu": "서천군",
+    "built": "2010.01",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "충청남도 서천군 사곡로 17"
   },
   {
     "code": "A32580601",
@@ -129,7 +195,13 @@
     "emd": "서천읍",
     "sigunguCode": "44770",
     "sido": "충청남도",
-    "sigungu": "서천군"
+    "sigungu": "서천군",
+    "built": "1996.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 서천군 사곡로75번길 7"
   },
   {
     "code": "A32580602",
@@ -140,7 +212,13 @@
     "emd": "서천읍",
     "sigunguCode": "44770",
     "sido": "충청남도",
-    "sigungu": "서천군"
+    "sigungu": "서천군",
+    "built": "2009.07",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 서천군 사곡로75번길 6"
   },
   {
     "code": "A32580603",
@@ -151,7 +229,13 @@
     "emd": "서천읍",
     "sigunguCode": "44770",
     "sido": "충청남도",
-    "sigungu": "서천군"
+    "sigungu": "서천군",
+    "built": "2004.03",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 서천군 사곡로 12-16"
   },
   {
     "code": "A10022455",
@@ -162,7 +246,13 @@
     "emd": "마서면",
     "sigunguCode": "44770",
     "sido": "충청남도",
-    "sigungu": "서천군"
+    "sigungu": "서천군",
+    "built": "2001.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "충청남도 서천군 장서로 493"
   },
   {
     "code": "A10021361",
@@ -173,6 +263,12 @@
     "emd": "종천면",
     "sigunguCode": "44770",
     "sido": "충청남도",
-    "sigungu": "서천군"
+    "sigungu": "서천군",
+    "built": "2011.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 1,
+    "addr": "충청남도 서천군 충서로302번길 88-34"
   }
 ]

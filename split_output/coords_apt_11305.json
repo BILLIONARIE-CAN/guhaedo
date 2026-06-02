@@ -8,7 +8,13 @@
     "emd": "미아동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "2025.11",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 29,
+    "addr": "서울특별시 강북구 솔샘로53길 21"
   },
   {
     "code": "A10021203",
@@ -19,7 +25,13 @@
     "emd": "미아동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "2005.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강북구 도봉로76길 52"
   },
   {
     "code": "A10021213",
@@ -30,7 +42,13 @@
     "emd": "미아동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "2000.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 강북구 오패산로60길 17-7"
   },
   {
     "code": "A10022183",
@@ -41,7 +59,13 @@
     "emd": "미아동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "2006.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": "",
+    "addr": "서울특별시 강북구 오패산로60길 22"
   },
   {
     "code": "A10022391",
@@ -52,7 +76,13 @@
     "emd": "미아동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "2024.08",
+    "dongCnt": "15동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 22,
+    "addr": "서울특별시 강북구 삼양로58길 29"
   },
   {
     "code": "A10022897",
@@ -63,7 +93,13 @@
     "emd": "미아동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "2007.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 7,
+    "addr": "서울특별시 강북구 삼양로 246-14"
   },
   {
     "code": "A10023829",
@@ -74,7 +110,13 @@
     "emd": "미아동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "2022.04",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 11,
+    "addr": "서울특별시 강북구 오패산로 202"
   },
   {
     "code": "A10024034",
@@ -85,7 +127,13 @@
     "emd": "미아동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "2014.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 강북구 도봉로 290"
   },
   {
     "code": "A10025241",
@@ -96,7 +144,13 @@
     "emd": "미아동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "2019.09",
+    "dongCnt": "17동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 14,
+    "addr": "서울특별시 강북구 오현로 45"
   },
   {
     "code": "A10026947",
@@ -107,7 +161,13 @@
     "emd": "미아동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "2017.02",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "서울특별시 강북구 오현로 56"
   },
   {
     "code": "A14210001",
@@ -118,7 +178,13 @@
     "emd": "미아동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "2003.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 25,
+    "addr": "서울특별시 강북구 삼양로19길 113"
   },
   {
     "code": "A14210002",
@@ -129,7 +195,13 @@
     "emd": "미아동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "2003.12",
+    "dongCnt": "20동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 강북구 삼양로19길 113"
   },
   {
     "code": "A14272303",
@@ -140,7 +212,13 @@
     "emd": "미아동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "2002.11",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 강북구 월계로21가길 41"
   },
   {
     "code": "A14272304",
@@ -151,7 +229,13 @@
     "emd": "미아동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "2004.05",
+    "dongCnt": "47동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 강북구 솔샘로 174"
   },
   {
     "code": "A14272305",
@@ -162,7 +246,13 @@
     "emd": "미아동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "2004.08",
+    "dongCnt": "19동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 강북구 인수봉로 18"
   },
   {
     "code": "A14272306",
@@ -173,7 +263,13 @@
     "emd": "미아동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "2003.06",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 강북구 오패산로30길 30"
   },
   {
     "code": "A14272307",
@@ -184,7 +280,13 @@
     "emd": "미아동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "1992.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 강북구 도봉로68길 26"
   },
   {
     "code": "A14272308",
@@ -195,7 +297,13 @@
     "emd": "미아동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "2010.05",
+    "dongCnt": "22동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 25,
+    "addr": "서울특별시 강북구 삼양로27길 19"
   },
   {
     "code": "A14272309",
@@ -206,7 +314,13 @@
     "emd": "미아동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "2010.05",
+    "dongCnt": "24동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 24,
+    "addr": "서울특별시 강북구 삼양로19길 25"
   },
   {
     "code": "A14272310",
@@ -217,7 +331,13 @@
     "emd": "미아동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "2004.08",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 18,
+    "addr": "서울특별시 강북구 솔샘로 159"
   },
   {
     "code": "A14272311",
@@ -228,7 +348,13 @@
     "emd": "미아동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "2004.05",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "서울특별시 강북구 솔샘로 174"
   },
   {
     "code": "A14272313",
@@ -239,7 +365,13 @@
     "emd": "미아동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "2010.09",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "서울특별시 강북구 숭인로 39"
   },
   {
     "code": "A14272314",
@@ -250,7 +382,13 @@
     "emd": "미아동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "2011.10",
+    "dongCnt": "24동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 23,
+    "addr": "서울특별시 강북구 삼양로27길 95"
   },
   {
     "code": "A14277601",
@@ -261,7 +399,13 @@
     "emd": "미아동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "2006.11",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강북구 삼양로 256"
   },
   {
     "code": "A14280502",
@@ -272,7 +416,13 @@
     "emd": "미아동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "2006.04",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강북구 숭인로7가길 37"
   },
   {
     "code": "A14281701",
@@ -283,7 +433,13 @@
     "emd": "미아동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "1998.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 강북구 삼양로24길 19"
   },
   {
     "code": "A14282301",
@@ -294,7 +450,13 @@
     "emd": "미아동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "2008.01",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강북구 삼양로74길 8"
   },
   {
     "code": "A14206001",
@@ -305,7 +467,13 @@
     "emd": "번동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "1998.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 강북구 도봉로98길 33"
   },
   {
     "code": "A14206002",
@@ -316,7 +484,13 @@
     "emd": "번동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "1998.06",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 강북구 오현로31길 85-7"
   },
   {
     "code": "A14206003",
@@ -327,7 +501,13 @@
     "emd": "번동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "1991.05",
+    "dongCnt": "14동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강북구 한천로105길 23"
   },
   {
     "code": "A14206004",
@@ -338,7 +518,13 @@
     "emd": "번동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "1997.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 강북구 한천로124나길 10"
   },
   {
     "code": "A14206201",
@@ -349,7 +535,13 @@
     "emd": "번동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "2001.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 강북구 오현로31길 89"
   },
   {
     "code": "A14206202",
@@ -360,7 +552,13 @@
     "emd": "번동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "1991.04",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강북구 오현로 207"
   },
   {
     "code": "A14206301",
@@ -371,7 +569,13 @@
     "emd": "번동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "1998.08",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 강북구 오현로 128"
   },
   {
     "code": "A14206302",
@@ -382,7 +586,13 @@
     "emd": "번동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "2000.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 강북구 월계로37길 65"
   },
   {
     "code": "A14206303",
@@ -393,7 +603,13 @@
     "emd": "번동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "2005.09",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 강북구 오현로 180"
   },
   {
     "code": "A14206305",
@@ -404,7 +620,13 @@
     "emd": "번동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "2000.02",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 강북구 월계로37길 137"
   },
   {
     "code": "A14206306",
@@ -415,7 +637,13 @@
     "emd": "번동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "2000.06",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 강북구 월계로37길 87-9"
   },
   {
     "code": "A14206307",
@@ -426,7 +654,13 @@
     "emd": "번동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "1999.09",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 강북구 한천로109길 83"
   },
   {
     "code": "A14206310",
@@ -437,7 +671,13 @@
     "emd": "번동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "1991.05",
+    "dongCnt": "11동",
+    "heat": "중앙난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 강북구 한천로105길 24"
   },
   {
     "code": "A14270301",
@@ -448,7 +688,13 @@
     "emd": "번동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "2009.06",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 강북구 덕릉로41길 12"
   },
   {
     "code": "A14276311",
@@ -459,7 +705,13 @@
     "emd": "번동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "1990.11",
+    "dongCnt": "9동",
+    "heat": "중앙난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 강북구 오현로 208"
   },
   {
     "code": "A14286104",
@@ -470,7 +722,13 @@
     "emd": "번동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "1992.11",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강북구 한천로109길 69"
   },
   {
     "code": "A14286108",
@@ -481,7 +739,13 @@
     "emd": "번동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "2003.07",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 강북구 오현로 156"
   },
   {
     "code": "A14286203",
@@ -492,7 +756,13 @@
     "emd": "번동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "1991.05",
+    "dongCnt": "8동",
+    "heat": "중앙난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 강북구 오현로31길 141"
   },
   {
     "code": "A10020326",
@@ -504,7 +774,13 @@
     "sigunguCode": "11305",
     "sido": "서울특별시",
     "sigungu": "강북구",
-    "hhldCnt": 426
+    "hhldCnt": 426,
+    "built": "2025.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 26,
+    "addr": "서울특별시 강북구 덕릉로 59"
   },
   {
     "code": "A10021522",
@@ -515,7 +791,13 @@
     "emd": "수유동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "2000.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강북구 한천로 1131"
   },
   {
     "code": "A10021929",
@@ -526,7 +808,13 @@
     "emd": "수유동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "1994.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강북구 삼각산로 143-1"
   },
   {
     "code": "A10023268",
@@ -537,7 +825,13 @@
     "emd": "수유동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "2022.06",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강북구 한천로148길 12-13"
   },
   {
     "code": "A10023955",
@@ -548,7 +842,13 @@
     "emd": "수유동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "2021.12",
+    "dongCnt": "1동",
+    "heat": "개별난방+기타",
+    "sale": "임대",
+    "topFloor": 23,
+    "addr": "서울특별시 강북구 수유동 740 에피소드수유838"
   },
   {
     "code": "A14207201",
@@ -559,7 +859,13 @@
     "emd": "수유동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "2001.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 강북구 한천로159길 8"
   },
   {
     "code": "A14207202",
@@ -570,7 +876,13 @@
     "emd": "수유동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "2001.11",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 강북구 한천로159길 8"
   },
   {
     "code": "A14207203",
@@ -581,7 +893,13 @@
     "emd": "수유동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "1993.11",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강북구 삼각산로 143-1"
   },
   {
     "code": "A14278101",
@@ -592,7 +910,13 @@
     "emd": "수유동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "1992.03",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강북구 인수봉로72길 4"
   },
   {
     "code": "A14209001",
@@ -603,7 +927,13 @@
     "emd": "우이동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "2000.11",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "서울특별시 강북구 삼양로149길 33"
   },
   {
     "code": "A14287102",
@@ -614,6 +944,12 @@
     "emd": "우이동",
     "sigunguCode": "11305",
     "sido": "서울특별시",
-    "sigungu": "강북구"
+    "sigungu": "강북구",
+    "built": "1990.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강북구 삼양로 658"
   }
 ]

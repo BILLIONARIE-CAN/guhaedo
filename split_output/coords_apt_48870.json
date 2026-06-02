@@ -8,7 +8,13 @@
     "emd": "함양읍",
     "sigunguCode": "48870",
     "sido": "경상남도",
-    "sigungu": "함양군"
+    "sigungu": "함양군",
+    "built": "",
+    "dongCnt": "1동",
+    "heat": "",
+    "sale": "",
+    "topFloor": 1,
+    "addr": "경상남도 함양군 한들로 99"
   },
   {
     "code": "A10021701",
@@ -19,7 +25,13 @@
     "emd": "함양읍",
     "sigunguCode": "48870",
     "sido": "경상남도",
-    "sigungu": "함양군"
+    "sigungu": "함양군",
+    "built": "2008.11",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "경상남도 함양군 원교길 9"
   },
   {
     "code": "A10024456",
@@ -30,7 +42,13 @@
     "emd": "함양읍",
     "sigunguCode": "48870",
     "sido": "경상남도",
-    "sigungu": "함양군"
+    "sigungu": "함양군",
+    "built": "2020.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 18,
+    "addr": "경상남도 함양군 함양로 1206-27"
   },
   {
     "code": "A10025513",
@@ -41,7 +59,13 @@
     "emd": "함양읍",
     "sigunguCode": "48870",
     "sido": "경상남도",
-    "sigungu": "함양군"
+    "sigungu": "함양군",
+    "built": "2019.04",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "경상남도 함양군 함양로 1206-71"
   },
   {
     "code": "A67680101",
@@ -52,7 +76,13 @@
     "emd": "함양읍",
     "sigunguCode": "48870",
     "sido": "경상남도",
-    "sigungu": "함양군"
+    "sigungu": "함양군",
+    "built": "1998.04",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 함양군 함양로 1224"
   },
   {
     "code": "A67680102",
@@ -63,7 +93,13 @@
     "emd": "함양읍",
     "sigunguCode": "48870",
     "sido": "경상남도",
-    "sigungu": "함양군"
+    "sigungu": "함양군",
+    "built": "1997.10",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경상남도 함양군 교산3길 6"
   },
   {
     "code": "A67680103",
@@ -74,7 +110,13 @@
     "emd": "함양읍",
     "sigunguCode": "48870",
     "sido": "경상남도",
-    "sigungu": "함양군"
+    "sigungu": "함양군",
+    "built": "2010.05",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "경상남도 함양군 함양로 1246"
   },
   {
     "code": "A67680104",
@@ -85,7 +127,13 @@
     "emd": "함양읍",
     "sigunguCode": "48870",
     "sido": "경상남도",
-    "sigungu": "함양군"
+    "sigungu": "함양군",
+    "built": "2013.04",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 함양군 함양로 1231"
   },
   {
     "code": "A10021093",
@@ -96,6 +144,12 @@
     "emd": "함양읍",
     "sigunguCode": "48870",
     "sido": "경상남도",
-    "sigungu": "함양군"
+    "sigungu": "함양군",
+    "built": "2024.12",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 함양군 한들로 17"
   }
 ]

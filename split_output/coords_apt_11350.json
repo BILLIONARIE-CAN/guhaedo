@@ -9,7 +9,13 @@
     "sigunguCode": "11350",
     "sido": "서울특별시",
     "sigungu": "노원구",
-    "hhldCnt": 132
+    "hhldCnt": 132,
+    "built": "2003.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 23,
+    "addr": "서울특별시 노원구 화랑로45길 42-18"
   },
   {
     "code": "A10020305",
@@ -21,7 +27,13 @@
     "sigunguCode": "11350",
     "sido": "서울특별시",
     "sigungu": "노원구",
-    "hhldCnt": 275
+    "hhldCnt": 275,
+    "built": "2025.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 14,
+    "addr": "서울특별시 노원구 석계로15길 14"
   },
   {
     "code": "A10021254",
@@ -32,7 +44,13 @@
     "emd": "월계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2002.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 노원구 석계로13길 6-9"
   },
   {
     "code": "A10024636",
@@ -43,7 +61,13 @@
     "emd": "월계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2005.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 석계로13길 35"
   },
   {
     "code": "A10024812",
@@ -54,7 +78,13 @@
     "emd": "월계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2001.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 노원구 화랑로 355"
   },
   {
     "code": "A10025097",
@@ -65,7 +95,13 @@
     "emd": "월계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2020.01",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 30,
+    "addr": "서울특별시 노원구 초안산로2라길 26"
   },
   {
     "code": "A10027121",
@@ -76,7 +112,13 @@
     "emd": "월계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2017.10",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 9,
+    "addr": "서울특별시 노원구 마들로5길 25"
   },
   {
     "code": "A10027716",
@@ -87,7 +129,13 @@
     "emd": "월계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2016.01",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 노원구 월계로42길 97"
   },
   {
     "code": "A13905003",
@@ -98,7 +146,13 @@
     "emd": "월계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2005.12",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 노원구 화랑로47길 38"
   },
   {
     "code": "A13905101",
@@ -109,7 +163,13 @@
     "emd": "월계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1999.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 노원구 석계로15길 25"
   },
   {
     "code": "A13905102",
@@ -120,7 +180,13 @@
     "emd": "월계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1997.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 노원구 광운로 46"
   },
   {
     "code": "A13905105",
@@ -131,7 +197,13 @@
     "emd": "월계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2000.11",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "서울특별시 노원구 석계로 49"
   },
   {
     "code": "A13905202",
@@ -142,7 +214,13 @@
     "emd": "월계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2004.09",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 우이천로2나길 14"
   },
   {
     "code": "A13905204",
@@ -153,7 +231,13 @@
     "emd": "월계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1998.04",
+    "dongCnt": "3동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 덕릉로60길 185"
   },
   {
     "code": "A13905208",
@@ -164,7 +248,13 @@
     "emd": "월계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1997.11",
+    "dongCnt": "4동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 우이천로 102"
   },
   {
     "code": "A13905301",
@@ -175,7 +265,13 @@
     "emd": "월계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1994.10",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 마들로1길 44"
   },
   {
     "code": "A13905302",
@@ -186,7 +282,13 @@
     "emd": "월계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1995.06",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 마들로3길 37"
   },
   {
     "code": "A13984003",
@@ -197,7 +299,13 @@
     "emd": "월계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1987.07",
+    "dongCnt": "7동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 노원구 마들로 127"
   },
   {
     "code": "A13984004",
@@ -208,7 +316,13 @@
     "emd": "월계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2002.10",
+    "dongCnt": "25동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "서울특별시 노원구 마들로 31"
   },
   {
     "code": "A13984005",
@@ -219,7 +333,13 @@
     "emd": "월계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1986.06",
+    "dongCnt": "32동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 노원구 마들로 111"
   },
   {
     "code": "A13984409",
@@ -230,7 +350,13 @@
     "emd": "월계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1995.06",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 월계로55길 16"
   },
   {
     "code": "A13984411",
@@ -241,7 +367,13 @@
     "emd": "월계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1995.06",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 월계로55길 15"
   },
   {
     "code": "A13984603",
@@ -252,7 +384,13 @@
     "emd": "월계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1984.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 노원구 광운로2나길 50"
   },
   {
     "code": "A13984604",
@@ -263,7 +401,13 @@
     "emd": "월계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1983.04",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 노원구 광운로2나길 30"
   },
   {
     "code": "A13984813",
@@ -274,7 +418,13 @@
     "emd": "월계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1992.11",
+    "dongCnt": "8동",
+    "heat": "중앙난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 초안산로1길 51"
   },
   {
     "code": "A13984814",
@@ -285,7 +435,13 @@
     "emd": "월계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1992.10",
+    "dongCnt": "16동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 초안산로1길 18"
   },
   {
     "code": "A13985103",
@@ -296,7 +452,13 @@
     "emd": "월계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1998.07",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 노원구 초안산로5길 22"
   },
   {
     "code": "A13985105",
@@ -307,7 +469,13 @@
     "emd": "월계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1998.08",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 월계로45가길 89"
   },
   {
     "code": "A13985106",
@@ -318,7 +486,13 @@
     "emd": "월계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1998.07",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 초안산로 89"
   },
   {
     "code": "A13985107",
@@ -329,7 +503,13 @@
     "emd": "월계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1998.08",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 월계로45가길 94"
   },
   {
     "code": "A13985201",
@@ -340,7 +520,13 @@
     "emd": "월계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1996.08",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 노원구 덕릉로60길 266"
   },
   {
     "code": "A13987501",
@@ -351,7 +537,13 @@
     "emd": "월계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2005.05",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 광운로19길 38"
   },
   {
     "code": "A13987502",
@@ -362,7 +554,13 @@
     "emd": "월계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2005.06",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 광운로 132"
   },
   {
     "code": "A13987503",
@@ -373,7 +571,13 @@
     "emd": "월계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2000.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 노원구 석계로13길 6-10"
   },
   {
     "code": "A13991015",
@@ -384,7 +588,13 @@
     "emd": "월계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1998.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 노원구 덕릉로60길 252"
   },
   {
     "code": "A13991016",
@@ -395,7 +605,13 @@
     "emd": "월계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2005.03",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 노원구 월계로53길 21"
   },
   {
     "code": "A13991017",
@@ -406,7 +622,13 @@
     "emd": "월계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2006.03",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 덕릉로60길 222"
   },
   {
     "code": "A13991018",
@@ -417,7 +639,13 @@
     "emd": "월계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2006.11",
+    "dongCnt": "21동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 노원구 월계로45길 21"
   },
   {
     "code": "A13995602",
@@ -428,7 +656,13 @@
     "emd": "월계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1995.06",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 월계로 372"
   },
   {
     "code": "A10020204",
@@ -439,7 +673,13 @@
     "emd": "공릉동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2025.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 성동구 마장로42길 6"
   },
   {
     "code": "A10021097",
@@ -450,7 +690,13 @@
     "emd": "공릉동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2024.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 1,
+    "addr": "서울특별시 노원구 화랑로 419-3"
   },
   {
     "code": "A10022152",
@@ -461,7 +707,13 @@
     "emd": "공릉동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2019.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 1,
+    "addr": "서울특별시 노원구 공릉로51길 20"
   },
   {
     "code": "A10023478",
@@ -472,7 +724,13 @@
     "emd": "공릉동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2013.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 노원구 화랑로 421"
   },
   {
     "code": "A10023990",
@@ -483,7 +741,13 @@
     "emd": "공릉동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2021.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "서울특별시 노원구 동일로 1000"
   },
   {
     "code": "A10023991",
@@ -494,7 +758,13 @@
     "emd": "공릉동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2022.01",
+    "dongCnt": "15동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 25,
+    "addr": "서울특별시 노원구 공릉로34길 86"
   },
   {
     "code": "A10026289",
@@ -505,7 +775,13 @@
     "emd": "공릉동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2002.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 노원구 동일로193길 7"
   },
   {
     "code": "A10027622",
@@ -516,7 +792,13 @@
     "emd": "공릉동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2016.01",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 36,
+    "addr": "서울특별시 노원구 동일로 986"
   },
   {
     "code": "A13924003",
@@ -527,7 +809,13 @@
     "emd": "공릉동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2000.10",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 노원구 공릉로46길 19"
   },
   {
     "code": "A13924004",
@@ -538,7 +826,13 @@
     "emd": "공릉동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1995.09",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 공릉로46길 32"
   },
   {
     "code": "A13924205",
@@ -549,7 +843,13 @@
     "emd": "공릉동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1996.04",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 공릉로 206"
   },
   {
     "code": "A13974401",
@@ -560,7 +860,13 @@
     "emd": "공릉동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1999.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 노원구 동일로176길 39-12"
   },
   {
     "code": "A13980004",
@@ -571,7 +877,13 @@
     "emd": "공릉동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2000.11",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 노원로1가길 10"
   },
   {
     "code": "A13980006",
@@ -582,7 +894,13 @@
     "emd": "공릉동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2000.11",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 노원구 노원로1길 21"
   },
   {
     "code": "A13980009",
@@ -593,7 +911,13 @@
     "emd": "공릉동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1985.10",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 9,
+    "addr": "서울특별시 노원구 노원로 29"
   },
   {
     "code": "A13980010",
@@ -604,7 +928,13 @@
     "emd": "공릉동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2000.01",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "서울특별시 노원구 화랑로51길 17"
   },
   {
     "code": "A13980012",
@@ -615,7 +945,13 @@
     "emd": "공릉동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2000.05",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 노원로 58"
   },
   {
     "code": "A13980014",
@@ -626,7 +962,13 @@
     "emd": "공릉동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2000.12",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 노원로 62"
   },
   {
     "code": "A13980017",
@@ -637,7 +979,13 @@
     "emd": "공릉동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1999.08",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 화랑로51길 81"
   },
   {
     "code": "A13980018",
@@ -648,7 +996,13 @@
     "emd": "공릉동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1999.07",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 화랑로51길 78"
   },
   {
     "code": "A13980019",
@@ -659,7 +1013,13 @@
     "emd": "공릉동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1999.07",
+    "dongCnt": "21동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 공릉로34길 62"
   },
   {
     "code": "A13980102",
@@ -670,7 +1030,13 @@
     "emd": "공릉동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2000.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "서울특별시 노원구 동일로192나길 26"
   },
   {
     "code": "A13980105",
@@ -681,7 +1047,13 @@
     "emd": "공릉동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1999.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 노원구 동일로195길 39"
   },
   {
     "code": "A13980107",
@@ -692,7 +1064,13 @@
     "emd": "공릉동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2002.03",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 노원구 동일로191가길 59"
   },
   {
     "code": "A13980108",
@@ -703,7 +1081,13 @@
     "emd": "공릉동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1995.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 노원구 동일로198길 24"
   },
   {
     "code": "A13980401",
@@ -714,7 +1098,13 @@
     "emd": "공릉동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2004.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 노원구 공릉로42길 13-14"
   },
   {
     "code": "A13980402",
@@ -725,7 +1115,13 @@
     "emd": "공릉동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1999.04",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 노원구 공릉로51길 14-1"
   },
   {
     "code": "A13980403",
@@ -736,7 +1132,13 @@
     "emd": "공릉동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2004.04",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 노원구 공릉로34길 118"
   },
   {
     "code": "A13980407",
@@ -747,7 +1149,13 @@
     "emd": "공릉동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1995.06",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "서울특별시 노원구 화랑로 556"
   },
   {
     "code": "A13980411",
@@ -758,7 +1166,13 @@
     "emd": "공릉동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1999.12",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 노원구 공릉로 213"
   },
   {
     "code": "A13980413",
@@ -769,7 +1183,13 @@
     "emd": "공릉동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1999.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 노원구 공릉로34길 45"
   },
   {
     "code": "A13980415",
@@ -780,7 +1200,13 @@
     "emd": "공릉동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2000.10",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 노원구 공릉로 126"
   },
   {
     "code": "A13980509",
@@ -791,7 +1217,13 @@
     "emd": "공릉동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1994.12",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 동일로198가길 13"
   },
   {
     "code": "A13980510",
@@ -802,7 +1234,13 @@
     "emd": "공릉동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1994.12",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 동일로198가길 149"
   },
   {
     "code": "A13980511",
@@ -813,7 +1251,13 @@
     "emd": "공릉동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1994.12",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 섬밭로 123"
   },
   {
     "code": "A13980512",
@@ -824,7 +1268,13 @@
     "emd": "공릉동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1994.12",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 동일로 1127"
   },
   {
     "code": "A13980513",
@@ -835,7 +1285,13 @@
     "emd": "공릉동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2001.09",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 노원구 섬밭로 139"
   },
   {
     "code": "A13980604",
@@ -846,7 +1302,13 @@
     "emd": "공릉동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2000.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 노원구 동일로183길 34"
   },
   {
     "code": "A13980706",
@@ -857,7 +1319,13 @@
     "emd": "공릉동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2003.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 노원구 섬밭로 52"
   },
   {
     "code": "A13980801",
@@ -868,7 +1336,13 @@
     "emd": "공릉동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1999.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "서울특별시 노원구 동일로175길 38"
   },
   {
     "code": "A13980803",
@@ -879,7 +1353,13 @@
     "emd": "공릉동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1997.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 노원구 섬밭로 17"
   },
   {
     "code": "A13994501",
@@ -890,7 +1370,13 @@
     "emd": "공릉동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2000.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 노원구 공릉로27길 110"
   },
   {
     "code": "A10026660",
@@ -902,7 +1388,13 @@
     "sigunguCode": "11350",
     "sido": "서울특별시",
     "sigungu": "노원구",
-    "hhldCnt": 120
+    "hhldCnt": 120,
+    "built": "2017.10",
+    "dongCnt": "8동",
+    "heat": "중앙난방",
+    "sale": "임대",
+    "topFloor": 7,
+    "addr": "서울특별시 노원구 한글비석로 97"
   },
   {
     "code": "A13923102",
@@ -913,7 +1405,13 @@
     "emd": "하계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1999.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 노원구 공릉로58길 176"
   },
   {
     "code": "A13923103",
@@ -924,7 +1422,13 @@
     "emd": "하계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1988.10",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 공릉로 351"
   },
   {
     "code": "A13923104",
@@ -935,7 +1439,13 @@
     "emd": "하계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1989.06",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 공릉로59길 28"
   },
   {
     "code": "A13923106",
@@ -946,7 +1456,13 @@
     "emd": "하계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1997.07",
+    "dongCnt": "12동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 노원로18길 19"
   },
   {
     "code": "A13923108",
@@ -957,7 +1473,13 @@
     "emd": "하계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1989.10",
+    "dongCnt": "8동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 공릉로59길 25"
   },
   {
     "code": "A13977913",
@@ -968,7 +1490,13 @@
     "emd": "하계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1992.09",
+    "dongCnt": "12동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 노원로16길 15"
   },
   {
     "code": "A13987205",
@@ -979,7 +1507,13 @@
     "emd": "하계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1997.06",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 한글비석로 91"
   },
   {
     "code": "A13987301",
@@ -990,7 +1524,13 @@
     "emd": "하계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2002.03",
+    "dongCnt": "1동",
+    "heat": "중앙난방",
+    "sale": "임대",
+    "topFloor": 18,
+    "addr": "서울특별시 노원구 한글비석로 6"
   },
   {
     "code": "A13987302",
@@ -1001,7 +1541,13 @@
     "emd": "하계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1989.10",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 5,
+    "addr": "서울특별시 노원구 한글비석로 24"
   },
   {
     "code": "A13987303",
@@ -1012,7 +1558,13 @@
     "emd": "하계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1988.09",
+    "dongCnt": "12동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 섬밭로 232"
   },
   {
     "code": "A13987304",
@@ -1023,7 +1575,13 @@
     "emd": "하계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1989.10",
+    "dongCnt": "15동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 섬밭로 196"
   },
   {
     "code": "A13987305",
@@ -1034,7 +1592,13 @@
     "emd": "하계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1999.02",
+    "dongCnt": "16동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 노원구 동일로207길 186"
   },
   {
     "code": "A13987306",
@@ -1045,7 +1609,13 @@
     "emd": "하계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1988.06",
+    "dongCnt": "12동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 섬밭로 229"
   },
   {
     "code": "A13993501",
@@ -1056,7 +1626,13 @@
     "emd": "하계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1993.06",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 노원로 214"
   },
   {
     "code": "A13993502",
@@ -1067,7 +1643,13 @@
     "emd": "하계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1993.03",
+    "dongCnt": "6동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 한글비석로 151"
   },
   {
     "code": "A13993503",
@@ -1078,7 +1660,13 @@
     "emd": "하계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1988.10",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 공릉로 351"
   },
   {
     "code": "A13993901",
@@ -1089,19 +1677,31 @@
     "emd": "하계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2001.06",
+    "dongCnt": "1동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 18,
+    "addr": "서울특별시 노원구 동일로207길 186"
   },
   {
     "code": "A10020107",
     "name": "에드가상계",
     "lat": 37.6741389603685,
     "lng": 127.054811573789,
-    "units": 0,
+    "units": 443,
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
     "sigungu": "노원구",
-    "hhldCnt": 443
+    "hhldCnt": 443,
+    "built": "2025.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 23,
+    "addr": "서울특별시 노원구 동일로 1633"
   },
   {
     "code": "A10020253",
@@ -1113,7 +1713,13 @@
     "sigunguCode": "11350",
     "sido": "서울특별시",
     "sigungu": "노원구",
-    "hhldCnt": 299
+    "hhldCnt": 299,
+    "built": "2025.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 23,
+    "addr": "서울특별시 노원구 노원로 495"
   },
   {
     "code": "A10020593",
@@ -1125,7 +1731,13 @@
     "sigunguCode": "11350",
     "sido": "서울특별시",
     "sigungu": "노원구",
-    "hhldCnt": 106
+    "hhldCnt": 106,
+    "built": "1995.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 노원구 동일로231다길 23"
   },
   {
     "code": "A10020986",
@@ -1136,7 +1748,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2009.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 노원구 상계로23다길 13-8"
   },
   {
     "code": "A10021185",
@@ -1147,7 +1765,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2005.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 노원구 상계로1길 82-14"
   },
   {
     "code": "A10023024",
@@ -1158,7 +1782,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2023.06",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 29,
+    "addr": "서울특별시 노원구 덕릉로 753"
   },
   {
     "code": "A10023060",
@@ -1169,7 +1799,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2023.06",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "서울특별시 노원구 덕릉로 753"
   },
   {
     "code": "A10024434",
@@ -1180,7 +1816,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2002.05",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 동일로239나길 31"
   },
   {
     "code": "A10024547",
@@ -1191,7 +1833,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2020.11",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 30,
+    "addr": "서울특별시 노원구 노원로38길 76"
   },
   {
     "code": "A10024770",
@@ -1202,7 +1850,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2002.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 수락산로 246"
   },
   {
     "code": "A10024778",
@@ -1213,7 +1867,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1996.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 동일로231길 72"
   },
   {
     "code": "A10025133",
@@ -1224,7 +1884,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2021.02",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 28,
+    "addr": "서울특별시 노원구 수락산로 12"
   },
   {
     "code": "A10027533",
@@ -1235,7 +1901,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2004.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 11,
+    "addr": "서울특별시 노원구 동일로242라길 21-11"
   },
   {
     "code": "A10027601",
@@ -1246,7 +1918,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2016.03",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 덕릉로70가길 21"
   },
   {
     "code": "A13920001",
@@ -1257,7 +1935,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2000.06",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 노원구 동일로230가길 15"
   },
   {
     "code": "A13920102",
@@ -1268,7 +1952,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1995.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 노원구 동일로242길 95"
   },
   {
     "code": "A13920104",
@@ -1279,7 +1969,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2004.11",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 동일로230가길 71"
   },
   {
     "code": "A13920105",
@@ -1290,7 +1986,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1997.04",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "서울특별시 노원구 동일로242길 80"
   },
   {
     "code": "A13920106",
@@ -1301,7 +2003,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2000.04",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 노원구 동일로246길 39"
   },
   {
     "code": "A13920202",
@@ -1312,7 +2020,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1997.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 노원구 노원로26가길 25"
   },
   {
     "code": "A13920205",
@@ -1323,7 +2037,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2005.02",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 노원구 노원로28길 62"
   },
   {
     "code": "A13920207",
@@ -1334,7 +2054,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1997.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 노원구 노원로28길 15"
   },
   {
     "code": "A13920209",
@@ -1345,7 +2071,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1998.09",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 노원구 노원로 428"
   },
   {
     "code": "A13920501",
@@ -1356,7 +2088,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1995.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 노원구 한글비석로46나길 10"
   },
   {
     "code": "A13920506",
@@ -1367,7 +2105,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1989.05",
+    "dongCnt": "9동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 한글비석로 396"
   },
   {
     "code": "A13920703",
@@ -1378,7 +2122,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1987.11",
+    "dongCnt": "19동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "서울특별시 노원구 동일로216길 47"
   },
   {
     "code": "A13920706",
@@ -1389,7 +2139,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1988.05",
+    "dongCnt": "17동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 노원구 동일로 1362"
   },
   {
     "code": "A13920707",
@@ -1400,7 +2156,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1988.05",
+    "dongCnt": "28동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 노해로 508"
   },
   {
     "code": "A13920802",
@@ -1411,7 +2173,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1988.07",
+    "dongCnt": "12동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 동일로227길 26"
   },
   {
     "code": "A13920803",
@@ -1422,7 +2190,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1988.09",
+    "dongCnt": "18동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 동일로227길 86"
   },
   {
     "code": "A13920804",
@@ -1433,7 +2207,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1988.09",
+    "dongCnt": "27동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 노원로 564"
   },
   {
     "code": "A13921005",
@@ -1444,7 +2224,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1988.10",
+    "dongCnt": "23동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 노원로 532"
   },
   {
     "code": "A13971501",
@@ -1455,7 +2241,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1988.04",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 덕릉로 459-18"
   },
   {
     "code": "A13971502",
@@ -1466,7 +2258,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1987.11",
+    "dongCnt": "26동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 동일로 1389"
   },
   {
     "code": "A13973201",
@@ -1477,7 +2275,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1992.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 상계로7길 18"
   },
   {
     "code": "A13973202",
@@ -1488,7 +2292,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2005.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 상계로1길 82-14"
   },
   {
     "code": "A13974101",
@@ -1499,7 +2309,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2009.11",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 누원로 18"
   },
   {
     "code": "A13974102",
@@ -1510,7 +2326,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2009.11",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 누원로 28"
   },
   {
     "code": "A13974103",
@@ -1521,7 +2343,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1998.09",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 동일로250길 17"
   },
   {
     "code": "A13980903",
@@ -1532,7 +2360,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2006.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 노원구 덕릉로127길 25"
   },
   {
     "code": "A13981001",
@@ -1543,7 +2377,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2000.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 17,
+    "addr": "서울특별시 노원구 덕릉로94가길 41"
   },
   {
     "code": "A13981006",
@@ -1554,7 +2394,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2000.03",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 노원구 덕릉로94길 21"
   },
   {
     "code": "A13981204",
@@ -1565,7 +2411,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1999.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 22,
+    "addr": "서울특별시 노원구 덕릉로118길 27"
   },
   {
     "code": "A13981208",
@@ -1576,7 +2428,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1999.12",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 노원구 덕릉로118길 29"
   },
   {
     "code": "A13981304",
@@ -1587,7 +2445,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1987.03",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 한글비석로46가길 16"
   },
   {
     "code": "A13981402",
@@ -1598,7 +2462,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2001.06",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 노원구 덕릉로112길 24"
   },
   {
     "code": "A13981405",
@@ -1609,7 +2479,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2001.06",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 노원구 덕릉로94가길 20"
   },
   {
     "code": "A13981407",
@@ -1620,7 +2496,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1989.08",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 상계로 193-14"
   },
   {
     "code": "A13981604",
@@ -1631,7 +2513,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1997.01",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 노원구 상계로3길 50"
   },
   {
     "code": "A13981606",
@@ -1642,7 +2530,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2001.05",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 노원구 상계로26길 20"
   },
   {
     "code": "A13981608",
@@ -1653,7 +2547,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2003.08",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 노원구 상계로5길 12"
   },
   {
     "code": "A13981901",
@@ -1664,7 +2564,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1989.04",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 한글비석로54길 92"
   },
   {
     "code": "A13981903",
@@ -1675,7 +2581,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1989.04",
+    "dongCnt": "26동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 동일로228길 23"
   },
   {
     "code": "A13982002",
@@ -1686,7 +2598,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1990.05",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 한글비석로46가길 34"
   },
   {
     "code": "A13982003",
@@ -1697,7 +2615,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1995.06",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 한글비석로52길 66"
   },
   {
     "code": "A13982005",
@@ -1708,7 +2632,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1988.05",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 한글비석로48길 6"
   },
   {
     "code": "A13982101",
@@ -1719,7 +2649,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1999.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 노원구 노원로34길 34"
   },
   {
     "code": "A13982103",
@@ -1730,7 +2666,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2002.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 노원구 노원로30길 81"
   },
   {
     "code": "A13982202",
@@ -1741,7 +2683,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1988.10",
+    "dongCnt": "15동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 한글비석로 530"
   },
   {
     "code": "A13982301",
@@ -1752,7 +2700,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1988.09",
+    "dongCnt": "16동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 동일로227길 25"
   },
   {
     "code": "A13982604",
@@ -1763,7 +2717,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1988.06",
+    "dongCnt": "21동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 한글비석로 480"
   },
   {
     "code": "A13982701",
@@ -1774,7 +2734,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1989.05",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 노원로 569"
   },
   {
     "code": "A13982702",
@@ -1785,7 +2751,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1988.06",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 동일로221길 22"
   },
   {
     "code": "A13982704",
@@ -1796,7 +2768,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1988.07",
+    "dongCnt": "21동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 상계로1길 92"
   },
   {
     "code": "A13983004",
@@ -1807,7 +2785,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1987.11",
+    "dongCnt": "23동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 동일로215길 23"
   },
   {
     "code": "A13983101",
@@ -1818,7 +2802,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1988.11",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "서울특별시 노원구 덕릉로70가길 101"
   },
   {
     "code": "A13983105",
@@ -1829,7 +2819,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1988.05",
+    "dongCnt": "24동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 동일로213길 21"
   },
   {
     "code": "A13983608",
@@ -1840,7 +2836,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1995.10",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 동일로230길 63"
   },
   {
     "code": "A13983707",
@@ -1851,7 +2853,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1993.04",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 동일로237길 41"
   },
   {
     "code": "A13983709",
@@ -1862,7 +2870,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1993.12",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 동일로231길 86"
   },
   {
     "code": "A13983712",
@@ -1873,7 +2887,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1999.04",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 수락산로 234"
   },
   {
     "code": "A13983713",
@@ -1884,7 +2904,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1994.10",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 동일로241길 53"
   },
   {
     "code": "A13983801",
@@ -1895,7 +2921,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2003.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 노원구 동일로242라길 27"
   },
   {
     "code": "A13983803",
@@ -1906,7 +2938,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2002.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 노원구 동일로239길 68"
   },
   {
     "code": "A13983810",
@@ -1917,7 +2955,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2001.05",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 동일로248길 16"
   },
   {
     "code": "A13983811",
@@ -1928,7 +2972,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2000.06",
+    "dongCnt": "12동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 동일로250길 18"
   },
   {
     "code": "A13983815",
@@ -1939,7 +2989,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1998.10",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 동일로245가길 41"
   },
   {
     "code": "A13983816",
@@ -1950,7 +3006,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1998.11",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 동일로245길 162"
   },
   {
     "code": "A13989701",
@@ -1961,7 +3023,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1999.11",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 노원구 덕릉로 780"
   },
   {
     "code": "A13989702",
@@ -1972,7 +3040,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1999.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 22,
+    "addr": "서울특별시 노원구 덕릉로112길 13"
   },
   {
     "code": "A13994302",
@@ -1983,7 +3057,13 @@
     "emd": "상계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1988.05",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 노원구 동일로216길 92"
   },
   {
     "code": "A10022333",
@@ -1994,7 +3074,13 @@
     "emd": "중계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2000.02",
+    "dongCnt": "1동",
+    "heat": "개별난방+기타",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 노원구 한글비석로 384"
   },
   {
     "code": "A10023027",
@@ -2005,7 +3091,13 @@
     "emd": "중계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2005.12",
+    "dongCnt": "1동",
+    "heat": "",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 덕릉로82길 13"
   },
   {
     "code": "A13922001",
@@ -2016,7 +3108,13 @@
     "emd": "중계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2003.09",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "서울특별시 노원구 덕릉로86길 70"
   },
   {
     "code": "A13922002",
@@ -2027,7 +3125,13 @@
     "emd": "중계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1992.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 노원구 중계로14가길 5"
   },
   {
     "code": "A13922003",
@@ -2038,7 +3142,13 @@
     "emd": "중계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2014.08",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 26,
+    "addr": "서울특별시 노원구 덕릉로83길 9-7"
   },
   {
     "code": "A13922102",
@@ -2049,7 +3159,13 @@
     "emd": "중계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1999.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 노원구 덕릉로 595"
   },
   {
     "code": "A13922103",
@@ -2060,7 +3176,13 @@
     "emd": "중계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1999.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 노원구 덕릉로77길 5"
   },
   {
     "code": "A13922105",
@@ -2071,7 +3193,13 @@
     "emd": "중계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1999.03",
+    "dongCnt": "1동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 25,
+    "addr": "서울특별시 노원구 덕릉로77길 27"
   },
   {
     "code": "A13922108",
@@ -2082,7 +3210,13 @@
     "emd": "중계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1998.12",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 노원구 덕릉로71길 30"
   },
   {
     "code": "A13922110",
@@ -2093,7 +3227,13 @@
     "emd": "중계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1999.02",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 노원구 덕릉로73길 28"
   },
   {
     "code": "A13922111",
@@ -2104,7 +3244,13 @@
     "emd": "중계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1993.03",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 한글비석로5길 62"
   },
   {
     "code": "A13922114",
@@ -2115,7 +3261,13 @@
     "emd": "중계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1992.04",
+    "dongCnt": "18동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 중계로 230"
   },
   {
     "code": "A13922406",
@@ -2126,7 +3278,13 @@
     "emd": "중계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1991.09",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 덕릉로76길 29"
   },
   {
     "code": "A13922901",
@@ -2137,7 +3295,13 @@
     "emd": "중계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1993.11",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 9,
+    "addr": "서울특별시 노원구 중계로8길 106"
   },
   {
     "code": "A13922903",
@@ -2148,7 +3312,13 @@
     "emd": "중계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1993.06",
+    "dongCnt": "6동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 한글비석로8길 20"
   },
   {
     "code": "A13922904",
@@ -2159,7 +3329,13 @@
     "emd": "중계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1997.01",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 중계로 140"
   },
   {
     "code": "A13922905",
@@ -2170,7 +3346,13 @@
     "emd": "중계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2005.03",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 중계로8길 29"
   },
   {
     "code": "A13922907",
@@ -2181,7 +3363,13 @@
     "emd": "중계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1993.05",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 중계로 195"
   },
   {
     "code": "A13922908",
@@ -2192,7 +3380,13 @@
     "emd": "중계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1999.10",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 노원구 중계로14나길 25"
   },
   {
     "code": "A13922909",
@@ -2203,7 +3397,13 @@
     "emd": "중계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1993.03",
+    "dongCnt": "4동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 한글비석로8길 41"
   },
   {
     "code": "A13922910",
@@ -2214,7 +3414,13 @@
     "emd": "중계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1993.03",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 한글비석로8길 42"
   },
   {
     "code": "A13972601",
@@ -2225,7 +3431,13 @@
     "emd": "중계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1991.01",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 덕릉로 517"
   },
   {
     "code": "A13972602",
@@ -2236,7 +3448,13 @@
     "emd": "중계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2008.06",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "서울특별시 노원구 공릉로 430"
   },
   {
     "code": "A13972603",
@@ -2247,7 +3465,13 @@
     "emd": "중계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1991.11",
+    "dongCnt": "14동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 노원로19길 31"
   },
   {
     "code": "A13985402",
@@ -2258,7 +3482,13 @@
     "emd": "중계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1998.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 9,
+    "addr": "서울특별시 노원구 중계로8길 39"
   },
   {
     "code": "A13985406",
@@ -2269,7 +3499,13 @@
     "emd": "중계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2018.06",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 노원구 중계로8길 20"
   },
   {
     "code": "A13985605",
@@ -2280,7 +3516,13 @@
     "emd": "중계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1998.06",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 노원구 덕릉로84길 7"
   },
   {
     "code": "A13985904",
@@ -2291,7 +3533,13 @@
     "emd": "중계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1991.02",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 한글비석로15길 51"
   },
   {
     "code": "A13985907",
@@ -2302,7 +3550,13 @@
     "emd": "중계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1996.06",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "서울특별시 노원구 덕릉로79길 23"
   },
   {
     "code": "A13985908",
@@ -2313,7 +3567,13 @@
     "emd": "중계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1991.09",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 덕릉로 662"
   },
   {
     "code": "A13985909",
@@ -2324,7 +3584,13 @@
     "emd": "중계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1992.06",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 한글비석로14길 8"
   },
   {
     "code": "A13986004",
@@ -2335,7 +3601,13 @@
     "emd": "중계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1995.04",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 11,
+    "addr": "서울특별시 노원구 노원로22길 53"
   },
   {
     "code": "A13986009",
@@ -2346,7 +3618,13 @@
     "emd": "중계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1993.07",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 노원로22길 34"
   },
   {
     "code": "A13986012",
@@ -2357,7 +3635,13 @@
     "emd": "중계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1996.07",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 중계로 233"
   },
   {
     "code": "A13986013",
@@ -2368,7 +3652,13 @@
     "emd": "중계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1995.12",
+    "dongCnt": "12동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 노원로22길 71"
   },
   {
     "code": "A13986111",
@@ -2379,7 +3669,13 @@
     "emd": "중계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1993.08",
+    "dongCnt": "17동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 중계로 184"
   },
   {
     "code": "A13986201",
@@ -2390,7 +3686,13 @@
     "emd": "중계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1999.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 노원구 덕릉로 613"
   },
   {
     "code": "A13986207",
@@ -2401,7 +3703,13 @@
     "emd": "중계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1999.02",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 23,
+    "addr": "서울특별시 노원구 덕릉로73길 31"
   },
   {
     "code": "A13986302",
@@ -2412,7 +3720,13 @@
     "emd": "중계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1989.06",
+    "dongCnt": "15동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 섬밭로 265"
   },
   {
     "code": "A13986306",
@@ -2423,7 +3737,13 @@
     "emd": "중계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1990.09",
+    "dongCnt": "25동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 동일로207길 18"
   },
   {
     "code": "A13986504",
@@ -2434,7 +3754,13 @@
     "emd": "중계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1991.11",
+    "dongCnt": "14동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 동일로208길 20"
   },
   {
     "code": "A13986505",
@@ -2445,7 +3771,13 @@
     "emd": "중계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1991.11",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 노원로 331"
   },
   {
     "code": "A13986509",
@@ -2456,7 +3788,13 @@
     "emd": "중계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1990.12",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 노원구 동일로210길 22"
   },
   {
     "code": "A13986606",
@@ -2467,7 +3805,13 @@
     "emd": "중계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1996.01",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 노원구 덕릉로71길 5"
   },
   {
     "code": "A13986701",
@@ -2478,7 +3822,13 @@
     "emd": "중계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1995.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 노원구 덕릉로89길 8"
   },
   {
     "code": "A13986702",
@@ -2489,7 +3839,13 @@
     "emd": "중계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1997.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 노원구 한글비석로 383"
   },
   {
     "code": "A13986703",
@@ -2500,7 +3856,13 @@
     "emd": "중계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "2002.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 노원구 덕릉로94길 10"
   },
   {
     "code": "A13993001",
@@ -2511,7 +3873,13 @@
     "emd": "중계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1992.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 11,
+    "addr": "서울특별시 노원구 중계로 172-13"
   },
   {
     "code": "A13993002",
@@ -2522,6 +3890,12 @@
     "emd": "중계동",
     "sigunguCode": "11350",
     "sido": "서울특별시",
-    "sigungu": "노원구"
+    "sigungu": "노원구",
+    "built": "1993.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 9,
+    "addr": "서울특별시 노원구 중계로8길 103"
   }
 ]

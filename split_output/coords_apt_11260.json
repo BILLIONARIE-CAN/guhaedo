@@ -8,7 +8,13 @@
     "emd": "면목동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "1998.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 중랑구 동일로 569-55"
   },
   {
     "code": "A10021891",
@@ -19,7 +25,13 @@
     "emd": "면목동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2013.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 1,
+    "addr": "서울특별시 중랑구 동일로109가길 5"
   },
   {
     "code": "A10023384",
@@ -30,7 +42,13 @@
     "emd": "면목동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2023.01",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 중랑구 용마산로84길 9-16"
   },
   {
     "code": "A10023606",
@@ -41,7 +59,13 @@
     "emd": "면목동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "1993.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 중랑구 면목동 1500 면목1차두산아파트"
   },
   {
     "code": "A10023835",
@@ -52,7 +76,13 @@
     "emd": "면목동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2013.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 8,
+    "addr": "서울특별시 중랑구 면목로69길 16"
   },
   {
     "code": "A10024366",
@@ -63,7 +93,13 @@
     "emd": "면목동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "1997.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 중랑구 망우로26길 43"
   },
   {
     "code": "A10024443",
@@ -74,7 +110,13 @@
     "emd": "면목동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2020.12",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 중랑구 용마산로 209"
   },
   {
     "code": "A10024703",
@@ -85,7 +127,13 @@
     "emd": "면목동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2020.06",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 30,
+    "addr": "서울특별시 중랑구 동일로91길 23"
   },
   {
     "code": "A10024741",
@@ -96,7 +144,13 @@
     "emd": "면목동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2020.07",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 30,
+    "addr": "서울특별시 중랑구 동일로92길 40"
   },
   {
     "code": "A10025159",
@@ -107,7 +161,13 @@
     "emd": "면목동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2019.11",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 17,
+    "addr": "서울특별시 중랑구 사가정로72길 26"
   },
   {
     "code": "A10028033",
@@ -118,7 +178,13 @@
     "emd": "면목동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2015.10",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "서울특별시 중랑구 용마산로 210"
   },
   {
     "code": "A13120001",
@@ -129,7 +195,13 @@
     "emd": "면목동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2007.03",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 중랑구 겸재로30길 42"
   },
   {
     "code": "A13120003",
@@ -140,7 +212,13 @@
     "emd": "면목동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "1993.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 중랑구 답십리로77길 139"
   },
   {
     "code": "A13120403",
@@ -151,7 +229,13 @@
     "emd": "면목동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2006.11",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 중랑구 답십리로75길 73"
   },
   {
     "code": "A13120701",
@@ -162,7 +246,13 @@
     "emd": "면목동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2006.06",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 중랑구 용마산로 290"
   },
   {
     "code": "A13120704",
@@ -173,7 +263,13 @@
     "emd": "면목동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2005.10",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 중랑구 용마산로 271"
   },
   {
     "code": "A13175101",
@@ -184,7 +280,13 @@
     "emd": "면목동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "",
+    "dongCnt": "1동",
+    "heat": "",
+    "sale": "",
+    "topFloor": 1,
+    "addr": "서울특별시 중랑구 중랑천로 14"
   },
   {
     "code": "A13175102",
@@ -195,7 +297,13 @@
     "emd": "면목동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2001.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 중랑구 봉우재로6길 19"
   },
   {
     "code": "A13175103",
@@ -206,7 +314,13 @@
     "emd": "면목동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "1987.12",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 중랑구 중랑천로 20"
   },
   {
     "code": "A13177701",
@@ -217,7 +331,13 @@
     "emd": "면목동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "1991.10",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 중랑구 용마산로 228"
   },
   {
     "code": "A13177702",
@@ -228,7 +348,13 @@
     "emd": "면목동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "1998.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 중랑구 동일로 483"
   },
   {
     "code": "A13181201",
@@ -239,7 +365,13 @@
     "emd": "면목동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2004.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 중랑구 용마산로86길 9-27"
   },
   {
     "code": "A13181203",
@@ -250,7 +382,13 @@
     "emd": "면목동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "1992.12",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 중랑구 용마산로 348"
   },
   {
     "code": "A13183202",
@@ -261,7 +399,13 @@
     "emd": "면목동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "1998.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 중랑구 사가정로71길 11"
   },
   {
     "code": "A13183204",
@@ -272,7 +416,13 @@
     "emd": "면목동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "1990.06",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 중랑구 사가정로71길 19"
   },
   {
     "code": "A13183303",
@@ -283,7 +433,13 @@
     "emd": "면목동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "1993.03",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 중랑구 용마산로62길 43"
   },
   {
     "code": "A13183405",
@@ -294,7 +450,13 @@
     "emd": "면목동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2003.04",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 중랑구 용마산로 285"
   },
   {
     "code": "A13183502",
@@ -305,7 +467,13 @@
     "emd": "면목동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "1997.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 중랑구 동일로 501"
   },
   {
     "code": "A13183504",
@@ -316,7 +484,13 @@
     "emd": "면목동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2002.11",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 중랑구 동일로 476"
   },
   {
     "code": "A13183701",
@@ -327,7 +501,13 @@
     "emd": "면목동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2004.12",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 중랑구 겸재로29길 27"
   },
   {
     "code": "A13184107",
@@ -338,7 +518,13 @@
     "emd": "면목동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2000.09",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 중랑구 사가정로42길 90"
   },
   {
     "code": "A13184208",
@@ -349,7 +535,13 @@
     "emd": "면목동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "1994.09",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 중랑구 용마산로 252"
   },
   {
     "code": "A13184301",
@@ -360,7 +552,13 @@
     "emd": "면목동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "1998.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 중랑구 중랑천로 43"
   },
   {
     "code": "A13184401",
@@ -371,7 +569,13 @@
     "emd": "면목동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2000.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 중랑구 용마산로 259"
   },
   {
     "code": "A13184502",
@@ -382,7 +586,13 @@
     "emd": "면목동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "1997.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 중랑구 용마산로 278"
   },
   {
     "code": "A13188406",
@@ -393,7 +603,13 @@
     "emd": "면목동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "1995.04",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 중랑구 면목로37길 58"
   },
   {
     "code": "A10020104",
@@ -404,7 +620,13 @@
     "emd": "상봉동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2014.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": "",
+    "addr": "서울특별시 중랑구 면목로 487"
   },
   {
     "code": "A10020423",
@@ -416,7 +638,13 @@
     "sigunguCode": "11260",
     "sido": "서울특별시",
     "sigungu": "중랑구",
-    "hhldCnt": 351
+    "hhldCnt": 351,
+    "built": "2025.07",
+    "dongCnt": "1동",
+    "heat": "중앙난방",
+    "sale": "임대",
+    "topFloor": 24,
+    "addr": "서울특별시 중랑구 망우로 313"
   },
   {
     "code": "A10020428",
@@ -428,7 +656,13 @@
     "sigunguCode": "11260",
     "sido": "서울특별시",
     "sigungu": "중랑구",
-    "hhldCnt": 782
+    "hhldCnt": 782,
+    "built": "2025.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 25,
+    "addr": "서울특별시 중랑구 봉우재로 101"
   },
   {
     "code": "A10020694",
@@ -440,7 +674,13 @@
     "sigunguCode": "11260",
     "sido": "서울특별시",
     "sigungu": "중랑구",
-    "hhldCnt": 114
+    "hhldCnt": 114,
+    "built": "2019.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 중랑구 망우로 304"
   },
   {
     "code": "A10020884",
@@ -451,7 +691,13 @@
     "emd": "상봉동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2019.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "서울특별시 중랑구 면목로 490"
   },
   {
     "code": "A10022528",
@@ -462,7 +708,13 @@
     "emd": "상봉동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2024.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "서울특별시 중랑구 망우로 266"
   },
   {
     "code": "A10022775",
@@ -473,7 +725,13 @@
     "emd": "상봉동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2023.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "서울특별시 중랑구 망우로50길 24"
   },
   {
     "code": "A10027670",
@@ -484,7 +742,13 @@
     "emd": "상봉동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2016.01",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 41,
+    "addr": "서울특별시 중랑구 상봉로 131"
   },
   {
     "code": "A13122001",
@@ -495,7 +759,13 @@
     "emd": "상봉동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2006.02",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "서울특별시 중랑구 상봉중앙로8길 76"
   },
   {
     "code": "A13122002",
@@ -506,7 +776,13 @@
     "emd": "상봉동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2013.11",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 48,
+    "addr": "서울특별시 중랑구 망우로 353"
   },
   {
     "code": "A13122104",
@@ -517,7 +793,13 @@
     "emd": "상봉동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2003.08",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "서울특별시 중랑구 상봉중앙로8길 104"
   },
   {
     "code": "A13170401",
@@ -528,7 +810,13 @@
     "emd": "상봉동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2003.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 중랑구 망우로 346"
   },
   {
     "code": "A13185602",
@@ -539,7 +827,13 @@
     "emd": "상봉동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2002.05",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 중랑구 상봉중앙로1다길 21"
   },
   {
     "code": "A13185603",
@@ -550,7 +844,13 @@
     "emd": "상봉동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "1997.08",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 중랑구 봉화산로48길 62"
   },
   {
     "code": "A13185607",
@@ -561,7 +861,13 @@
     "emd": "상봉동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "1996.11",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 중랑구 신내로7길 20"
   },
   {
     "code": "A13186305",
@@ -572,7 +878,13 @@
     "emd": "상봉동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "1996.03",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 중랑구 봉화산로 146"
   },
   {
     "code": "A13186306",
@@ -583,7 +895,13 @@
     "emd": "상봉동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "1995.11",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 중랑구 봉화산로 153"
   },
   {
     "code": "A13186401",
@@ -594,7 +912,13 @@
     "emd": "상봉동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "1999.04",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 중랑구 신내로7가길 31"
   },
   {
     "code": "A10020555",
@@ -605,7 +929,13 @@
     "emd": "중화동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2025.06",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 35,
+    "addr": "서울특별시 중랑구 중랑천로 200"
   },
   {
     "code": "A10020974",
@@ -616,7 +946,13 @@
     "emd": "중화동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2013.03",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 중랑구 중랑천로14길 34"
   },
   {
     "code": "A10021393",
@@ -627,7 +963,13 @@
     "emd": "중화동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2005.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 중랑구 동일로129길 35"
   },
   {
     "code": "A10023899",
@@ -638,7 +980,13 @@
     "emd": "중화동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2012.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 중랑구 중랑천로14길 58"
   },
   {
     "code": "A10026046",
@@ -649,7 +997,13 @@
     "emd": "중화동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2007.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "서울특별시 중랑구 동일로136길 15"
   },
   {
     "code": "A10027456",
@@ -660,7 +1014,13 @@
     "emd": "중화동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2010.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 중랑구 망우로 203"
   },
   {
     "code": "A13187501",
@@ -671,7 +1031,13 @@
     "emd": "중화동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "1991.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 중랑구 봉화산로27길 32"
   },
   {
     "code": "A13187702",
@@ -682,7 +1048,13 @@
     "emd": "중화동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "1997.10",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "서울특별시 중랑구 동일로 752"
   },
   {
     "code": "A10020086",
@@ -693,7 +1065,13 @@
     "emd": "묵동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2010.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": "",
+    "addr": "서울특별시 중랑구 숙선옹주로 6-9"
   },
   {
     "code": "A10020587",
@@ -705,7 +1083,13 @@
     "sigunguCode": "11260",
     "sido": "서울특별시",
     "sigungu": "중랑구",
-    "hhldCnt": 118
+    "hhldCnt": 118,
+    "built": "2005.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 중랑구 공릉로 32"
   },
   {
     "code": "A10020959",
@@ -716,7 +1100,13 @@
     "emd": "묵동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2004.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 중랑구 동일로 946"
   },
   {
     "code": "A10022599",
@@ -727,7 +1117,13 @@
     "emd": "묵동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2010.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 중랑구 동일로 942"
   },
   {
     "code": "A10023285",
@@ -738,7 +1134,13 @@
     "emd": "묵동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2009.03",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 12,
+    "addr": "서울특별시 중랑구 중랑천로 316"
   },
   {
     "code": "A10023815",
@@ -749,7 +1151,13 @@
     "emd": "묵동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2020.01",
+    "dongCnt": "1동",
+    "heat": "개별난방+기타",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 중랑구 동일로 952"
   },
   {
     "code": "A10023834",
@@ -760,7 +1168,13 @@
     "emd": "묵동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2021.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 중랑구 공릉로2길 8-4"
   },
   {
     "code": "A10025187",
@@ -771,7 +1185,13 @@
     "emd": "묵동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2013.06",
+    "dongCnt": "1동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 29,
+    "addr": "서울특별시 중랑구 신내로 277"
   },
   {
     "code": "A10025855",
@@ -782,7 +1202,13 @@
     "emd": "묵동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2017.12",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 25,
+    "addr": "서울특별시 중랑구 숙선옹주로 45"
   },
   {
     "code": "A10026469",
@@ -793,7 +1219,13 @@
     "emd": "묵동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2010.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 35,
+    "addr": "서울특별시 중랑구 동일로 932"
   },
   {
     "code": "A13114002",
@@ -804,7 +1236,13 @@
     "emd": "묵동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2002.06",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 중랑구 동일로157길 70"
   },
   {
     "code": "A13114003",
@@ -815,7 +1253,13 @@
     "emd": "묵동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "1983.10",
+    "dongCnt": "1동",
+    "heat": "",
+    "sale": "",
+    "topFloor": 1,
+    "addr": "서울특별시 중랑구 동일로144길 3"
   },
   {
     "code": "A13114103",
@@ -826,7 +1270,13 @@
     "emd": "묵동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2003.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 중랑구 공릉로2길 39"
   },
   {
     "code": "A13114106",
@@ -837,7 +1287,13 @@
     "emd": "묵동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2000.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 중랑구 공릉로2라길 4"
   },
   {
     "code": "A13114201",
@@ -848,7 +1304,13 @@
     "emd": "묵동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2004.05",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 중랑구 동일로169길 41"
   },
   {
     "code": "A13176801",
@@ -859,7 +1321,13 @@
     "emd": "묵동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "1999.04",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 중랑구 동일로 941"
   },
   {
     "code": "A13184609",
@@ -870,7 +1338,13 @@
     "emd": "묵동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "1996.06",
+    "dongCnt": "12동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 중랑구 숙선옹주로 91"
   },
   {
     "code": "A13184610",
@@ -881,7 +1355,13 @@
     "emd": "묵동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "1995.12",
+    "dongCnt": "28동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 중랑구 신내로21길 16"
   },
   {
     "code": "A13184804",
@@ -892,7 +1372,13 @@
     "emd": "묵동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "1998.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 중랑구 공릉로13길 30"
   },
   {
     "code": "A13185402",
@@ -903,7 +1389,13 @@
     "emd": "묵동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "1999.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 중랑구 중랑천로 332"
   },
   {
     "code": "A13185501",
@@ -914,7 +1406,13 @@
     "emd": "묵동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2000.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 중랑구 숙선옹주로9길 25"
   },
   {
     "code": "A13185502",
@@ -925,7 +1423,13 @@
     "emd": "묵동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2000.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 중랑구 공릉로2나길 46"
   },
   {
     "code": "A13185507",
@@ -936,7 +1440,13 @@
     "emd": "묵동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "1999.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 중랑구 공릉로2라길 15"
   },
   {
     "code": "A13185508",
@@ -947,7 +1457,13 @@
     "emd": "묵동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2004.03",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 중랑구 공릉로18길 59"
   },
   {
     "code": "A10020869",
@@ -958,7 +1474,13 @@
     "emd": "망우동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "1989.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 중랑구 양원역로 37"
   },
   {
     "code": "A10020968",
@@ -969,7 +1491,13 @@
     "emd": "망우동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "1983.03",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "서울특별시 중랑구 망우로81길 27"
   },
   {
     "code": "A10021760",
@@ -980,7 +1508,13 @@
     "emd": "망우동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2008.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "서울특별시 중랑구 용마산로115길 109"
   },
   {
     "code": "A10021794",
@@ -991,7 +1525,13 @@
     "emd": "망우동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2001.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 중랑구 용마산로116길 76"
   },
   {
     "code": "A10022919",
@@ -1002,7 +1542,13 @@
     "emd": "망우동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2023.11",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 40,
+    "addr": "서울특별시 중랑구 용마산로 670"
   },
   {
     "code": "A10023816",
@@ -1013,7 +1559,13 @@
     "emd": "망우동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2022.01",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 25,
+    "addr": "서울특별시 중랑구 양원역로 92"
   },
   {
     "code": "A10023952",
@@ -1024,7 +1576,13 @@
     "emd": "망우동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2022.01",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 29,
+    "addr": "서울특별시 중랑구 양원역로10길 47"
   },
   {
     "code": "A10024008",
@@ -1035,7 +1593,13 @@
     "emd": "망우동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2021.10",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 중랑구 봉화산로 301"
   },
   {
     "code": "A10024018",
@@ -1046,7 +1610,13 @@
     "emd": "망우동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2021.11",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 25,
+    "addr": "서울특별시 중랑구 양원역로10길 75"
   },
   {
     "code": "A10024214",
@@ -1057,7 +1627,13 @@
     "emd": "망우동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2021.07",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 중랑구 용마산로136길 160"
   },
   {
     "code": "A10027498",
@@ -1068,7 +1644,13 @@
     "emd": "망우동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2002.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 중랑구 상봉로26길 29"
   },
   {
     "code": "A13123001",
@@ -1079,7 +1661,13 @@
     "emd": "망우동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2004.05",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 중랑구 용마산로112가길 34"
   },
   {
     "code": "A13123002",
@@ -1090,7 +1678,13 @@
     "emd": "망우동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2012.08",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 중랑구 망우로75길 19"
   },
   {
     "code": "A13123003",
@@ -1101,7 +1695,13 @@
     "emd": "망우동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "",
+    "dongCnt": "1동",
+    "heat": "",
+    "sale": "",
+    "topFloor": 1,
+    "addr": "서울특별시 중랑구 망우로 504-10"
   },
   {
     "code": "A13123004",
@@ -1112,7 +1712,13 @@
     "emd": "망우동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "",
+    "dongCnt": "1동",
+    "heat": "",
+    "sale": "",
+    "topFloor": 1,
+    "addr": "서울특별시 중랑구 망우로76길 51"
   },
   {
     "code": "A13123101",
@@ -1123,7 +1729,13 @@
     "emd": "망우동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "1999.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 중랑구 망우로 504-7"
   },
   {
     "code": "A13123102",
@@ -1134,7 +1746,13 @@
     "emd": "망우동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2006.04",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 중랑구 양원역로 18"
   },
   {
     "code": "A13176101",
@@ -1145,7 +1763,13 @@
     "emd": "망우동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2008.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "서울특별시 중랑구 용마산로115길 127"
   },
   {
     "code": "A13176102",
@@ -1156,7 +1780,13 @@
     "emd": "망우동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2007.05",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 중랑구 양원역로6가길 19"
   },
   {
     "code": "A10022836",
@@ -1167,7 +1797,13 @@
     "emd": "신내동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2017.09",
+    "dongCnt": "1동",
+    "heat": "",
+    "sale": "임대",
+    "topFloor": 1,
+    "addr": "서울특별시 중랑구 신내역로1길 142"
   },
   {
     "code": "A10025137",
@@ -1178,7 +1814,13 @@
     "emd": "신내동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2019.10",
+    "dongCnt": "1동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 24,
+    "addr": "서울특별시 중랑구 신내로 208"
   },
   {
     "code": "A10025397",
@@ -1189,7 +1831,13 @@
     "emd": "신내동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2018.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 7,
+    "addr": "서울특별시 중랑구 신내역로 160"
   },
   {
     "code": "A10027297",
@@ -1200,7 +1848,13 @@
     "emd": "신내동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2005.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 중랑구 봉화산로56길 140"
   },
   {
     "code": "A10027775",
@@ -1211,7 +1865,13 @@
     "emd": "신내동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2015.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 7,
+    "addr": "서울특별시 중랑구 신내로16길 17"
   },
   {
     "code": "A13113001",
@@ -1222,7 +1882,13 @@
     "emd": "신내동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "1999.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 중랑구 신내로14길 21"
   },
   {
     "code": "A13113002",
@@ -1233,7 +1899,13 @@
     "emd": "신내동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2000.06",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 중랑구 용마산로125길 50"
   },
   {
     "code": "A13113003",
@@ -1244,7 +1916,13 @@
     "emd": "신내동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "1997.07",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 중랑구 봉화산로 216"
   },
   {
     "code": "A13113004",
@@ -1255,7 +1933,13 @@
     "emd": "신내동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "1997.05",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "서울특별시 중랑구 신내로 110"
   },
   {
     "code": "A13113006",
@@ -1266,7 +1950,13 @@
     "emd": "신내동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2007.02",
+    "dongCnt": "4동",
+    "heat": "개별난방+기타",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 중랑구 봉화산로56길 112"
   },
   {
     "code": "A13113007",
@@ -1277,7 +1967,13 @@
     "emd": "신내동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2013.12",
+    "dongCnt": "23동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 24,
+    "addr": "서울특별시 중랑구 신내역로 165"
   },
   {
     "code": "A13113008",
@@ -1288,7 +1984,13 @@
     "emd": "신내동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2014.06",
+    "dongCnt": "16동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 24,
+    "addr": "서울특별시 중랑구 신내역로1길 85"
   },
   {
     "code": "A13176901",
@@ -1299,7 +2001,13 @@
     "emd": "신내동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "1996.03",
+    "dongCnt": "16동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 중랑구 신내로19길 42"
   },
   {
     "code": "A13176902",
@@ -1310,7 +2018,13 @@
     "emd": "신내동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "1996.06",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 중랑구 신내로 127"
   },
   {
     "code": "A13178101",
@@ -1321,7 +2035,13 @@
     "emd": "신내동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2010.01",
+    "dongCnt": "15동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "서울특별시 중랑구 용마산로 669"
   },
   {
     "code": "A13178102",
@@ -1332,7 +2052,13 @@
     "emd": "신내동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "",
+    "dongCnt": "1동",
+    "heat": "",
+    "sale": "",
+    "topFloor": 1,
+    "addr": "서울특별시 중랑구 봉화산로56길 73"
   },
   {
     "code": "A13186502",
@@ -1343,7 +2069,13 @@
     "emd": "신내동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2005.04",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 중랑구 봉화산로56길 51"
   },
   {
     "code": "A13186503",
@@ -1354,7 +2086,13 @@
     "emd": "신내동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "1997.01",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 중랑구 용마산로125길 92"
   },
   {
     "code": "A13186504",
@@ -1365,7 +2103,13 @@
     "emd": "신내동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "2004.02",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 중랑구 용마산로129가길 41"
   },
   {
     "code": "A13186708",
@@ -1376,7 +2120,13 @@
     "emd": "신내동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "1993.02",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 중랑구 신내로 128"
   },
   {
     "code": "A13186801",
@@ -1387,7 +2137,13 @@
     "emd": "신내동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "1999.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 중랑구 송림길 16"
   },
   {
     "code": "A13186905",
@@ -1398,7 +2154,13 @@
     "emd": "신내동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "1992.04",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 중랑구 용마산로129나길 101"
   },
   {
     "code": "A13186907",
@@ -1409,7 +2171,13 @@
     "emd": "신내동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "1996.03",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 중랑구 봉화산로56길 145-1"
   },
   {
     "code": "A13187004",
@@ -1420,7 +2188,13 @@
     "emd": "신내동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "1994.09",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 중랑구 신내로 51"
   },
   {
     "code": "A13187201",
@@ -1431,7 +2205,13 @@
     "emd": "신내동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "1995.12",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 중랑구 신내로 155"
   },
   {
     "code": "A13187203",
@@ -1442,7 +2222,13 @@
     "emd": "신내동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "1995.12",
+    "dongCnt": "17동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 중랑구 신내로17길 41"
   },
   {
     "code": "A13187302",
@@ -1453,7 +2239,13 @@
     "emd": "신내동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "1996.03",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 중랑구 봉화산로 193"
   },
   {
     "code": "A13187305",
@@ -1464,7 +2256,13 @@
     "emd": "신내동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "1996.06",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 중랑구 신내로 127"
   },
   {
     "code": "A13187306",
@@ -1475,7 +2273,13 @@
     "emd": "신내동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "1996.03",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 중랑구 신내로 115"
   },
   {
     "code": "A13187406",
@@ -1486,6 +2290,12 @@
     "emd": "신내동",
     "sigunguCode": "11260",
     "sido": "서울특별시",
-    "sigungu": "중랑구"
+    "sigungu": "중랑구",
+    "built": "1998.11",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 중랑구 용마산로 616"
   }
 ]

@@ -8,7 +8,13 @@
     "emd": "해망동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2015.10",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 월명로 584"
   },
   {
     "code": "A57330001",
@@ -19,7 +25,13 @@
     "emd": "금동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1992.08",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 11,
+    "addr": "전북특별자치도 군산시 구영신창길 77"
   },
   {
     "code": "A10024612",
@@ -30,7 +42,13 @@
     "emd": "월명동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2002.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 구영6길 31"
   },
   {
     "code": "A57306001",
@@ -41,7 +59,13 @@
     "emd": "월명동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2003.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 구영5길 21-3"
   },
   {
     "code": "A57306002",
@@ -52,7 +76,13 @@
     "emd": "월명동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2004.05",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 월명1길 3"
   },
   {
     "code": "A10020834",
@@ -63,7 +93,13 @@
     "emd": "오룡동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2022.04",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 9,
+    "addr": "전북특별자치도 군산시 오룡재길 22"
   },
   {
     "code": "A10022473",
@@ -74,7 +110,13 @@
     "emd": "오룡동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2024.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 효자길 11"
   },
   {
     "code": "A57310001",
@@ -85,7 +127,13 @@
     "emd": "금광동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1990.11",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 대학로 114-1"
   },
   {
     "code": "A10021182",
@@ -96,7 +144,13 @@
     "emd": "신풍동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1979.05",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "전북특별자치도 군산시 신풍길 22"
   },
   {
     "code": "A10022035",
@@ -107,7 +161,13 @@
     "emd": "신풍동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1997.10",
+    "dongCnt": "1동",
+    "heat": "",
+    "sale": "혼합",
+    "topFloor": 1,
+    "addr": "전북특별자치도 군산시 신풍길 6"
   },
   {
     "code": "A57387301",
@@ -118,7 +178,13 @@
     "emd": "문화동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1992.08",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 백토로 93"
   },
   {
     "code": "A57331001",
@@ -129,7 +195,13 @@
     "emd": "삼학동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2005.09",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 미원로 61"
   },
   {
     "code": "A57331002",
@@ -140,7 +212,13 @@
     "emd": "삼학동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1996.07",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 축동로 188"
   },
   {
     "code": "A57316001",
@@ -151,7 +229,13 @@
     "emd": "창성동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2007.11",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 16,
+    "addr": "전북특별자치도 군산시 창성1길 10"
   },
   {
     "code": "A10025085",
@@ -162,7 +246,13 @@
     "emd": "대명동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2020.01",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 29,
+    "addr": "전북특별자치도 군산시 대명길 13"
   },
   {
     "code": "A10027484",
@@ -173,7 +263,13 @@
     "emd": "대명동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2016.04",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 40,
+    "addr": "전북특별자치도 군산시 구암3.1로 30"
   },
   {
     "code": "A57321001",
@@ -184,7 +280,13 @@
     "emd": "대명동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2011.10",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 33,
+    "addr": "전북특별자치도 군산시 대명길 3"
   },
   {
     "code": "A57322001",
@@ -195,7 +297,13 @@
     "emd": "장재동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1992.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 풍문2길 30"
   },
   {
     "code": "A57322002",
@@ -206,7 +314,13 @@
     "emd": "장재동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2002.03",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 동팔마길 45-6"
   },
   {
     "code": "A10021485",
@@ -217,7 +331,13 @@
     "emd": "금암동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2024.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 17,
+    "addr": "전북특별자치도 군산시 서래로 22"
   },
   {
     "code": "A10024686",
@@ -228,7 +348,13 @@
     "emd": "금암동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2020.06",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 40,
+    "addr": "전북특별자치도 군산시 대명4길 9"
   },
   {
     "code": "A57373901",
@@ -239,7 +365,13 @@
     "emd": "동흥남동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2006.02",
+    "dongCnt": "6동",
+    "heat": "개별난방+기타",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 동흥남길 9"
   },
   {
     "code": "A10023045",
@@ -250,7 +382,13 @@
     "emd": "조촌동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2023.07",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "전북특별자치도 군산시 궁포2로 77"
   },
   {
     "code": "A10024080",
@@ -261,7 +399,13 @@
     "emd": "조촌동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2021.10",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "전북특별자치도 군산시 궁포1로 79"
   },
   {
     "code": "A10024882",
@@ -272,7 +416,13 @@
     "emd": "조촌동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2020.04",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "전북특별자치도 군산시 궁포1로 82"
   },
   {
     "code": "A10025887",
@@ -283,7 +433,13 @@
     "emd": "조촌동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2018.11",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "전북특별자치도 군산시 궁포2로 25"
   },
   {
     "code": "A10026383",
@@ -294,7 +450,13 @@
     "emd": "조촌동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2018.03",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "전북특별자치도 군산시 궁포2로 20"
   },
   {
     "code": "A10026694",
@@ -305,7 +467,13 @@
     "emd": "조촌동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2017.10",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 36,
+    "addr": "전북특별자치도 군산시 번영로 190"
   },
   {
     "code": "A57370301",
@@ -316,7 +484,13 @@
     "emd": "조촌동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2001.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 양안로 123"
   },
   {
     "code": "A57370302",
@@ -327,7 +501,13 @@
     "emd": "조촌동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2012.06",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 25,
+    "addr": "전북특별자치도 군산시 공단대로 54"
   },
   {
     "code": "A57388302",
@@ -338,7 +518,13 @@
     "emd": "조촌동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1993.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 양안로 130"
   },
   {
     "code": "A57388403",
@@ -349,7 +535,13 @@
     "emd": "조촌동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1992.10",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 백릉로 162"
   },
   {
     "code": "A57388501",
@@ -360,7 +552,13 @@
     "emd": "조촌동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2001.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 번영로 159"
   },
   {
     "code": "A57388504",
@@ -371,7 +569,13 @@
     "emd": "조촌동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1995.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 양안로 119"
   },
   {
     "code": "A57388505",
@@ -382,7 +586,13 @@
     "emd": "조촌동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1996.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 18,
+    "addr": "전북특별자치도 군산시 번영로 188-22"
   },
   {
     "code": "A57388506",
@@ -393,7 +603,13 @@
     "emd": "조촌동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1995.09",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 양안로 120"
   },
   {
     "code": "A57342001",
@@ -404,7 +620,13 @@
     "emd": "경장동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2004.05",
+    "dongCnt": "2동",
+    "heat": "기타",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 번영로 86"
   },
   {
     "code": "A10021206",
@@ -415,7 +637,13 @@
     "emd": "경암동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2012.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "사택 및 관사 등",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 조촌로 234"
   },
   {
     "code": "A10027735",
@@ -426,7 +654,13 @@
     "emd": "경암동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2015.11",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "전북특별자치도 군산시 조촌로 214"
   },
   {
     "code": "A57386001",
@@ -437,7 +671,13 @@
     "emd": "경암동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1995.06",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 경촌3길 23"
   },
   {
     "code": "A57386002",
@@ -448,7 +688,13 @@
     "emd": "경암동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1998.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 17,
+    "addr": "전북특별자치도 군산시 경촌1길 56"
   },
   {
     "code": "A10020524",
@@ -459,7 +705,13 @@
     "emd": "구암동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2025.07",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "전북특별자치도 군산시 궁멀길 23"
   },
   {
     "code": "A10020625",
@@ -470,7 +722,13 @@
     "emd": "구암동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2025.05",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "전북특별자치도 군산시 구암로 53"
   },
   {
     "code": "A57333001",
@@ -481,7 +739,13 @@
     "emd": "구암동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1997.01",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 영명길 6"
   },
   {
     "code": "A57375302",
@@ -492,7 +756,13 @@
     "emd": "구암동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1994.03",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 서당길 11"
   },
   {
     "code": "A57375303",
@@ -503,7 +773,13 @@
     "emd": "구암동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2009.09",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 궁멀길 55-8"
   },
   {
     "code": "A10020389",
@@ -514,7 +790,13 @@
     "emd": "내흥동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2025.10",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "전북특별자치도 군산시 사옥로 119"
   },
   {
     "code": "A10021623",
@@ -525,7 +807,13 @@
     "emd": "내흥동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2024.10",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "전북특별자치도 군산시 돌끝로 53"
   },
   {
     "code": "A10022606",
@@ -536,7 +824,13 @@
     "emd": "내흥동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2024.05",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "전북특별자치도 군산시 정자로 45"
   },
   {
     "code": "A10023640",
@@ -547,7 +841,13 @@
     "emd": "내흥동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2022.08",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 19,
+    "addr": "전북특별자치도 군산시 내흥동 1017 군산내흥3단지 LH아파트"
   },
   {
     "code": "A10024654",
@@ -558,7 +858,13 @@
     "emd": "내흥동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2020.08",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 25,
+    "addr": "전북특별자치도 군산시 내정로 27"
   },
   {
     "code": "A10024824",
@@ -569,7 +875,13 @@
     "emd": "내흥동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2020.06",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "전북특별자치도 군산시 돌끝로 52"
   },
   {
     "code": "A57343001",
@@ -580,7 +892,13 @@
     "emd": "사정동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1993.02",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "전북특별자치도 군산시 내사길 43"
   },
   {
     "code": "A57343002",
@@ -591,7 +909,13 @@
     "emd": "사정동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1996.11",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 두란뜸2길 8"
   },
   {
     "code": "A10027996",
@@ -602,7 +926,13 @@
     "emd": "수송동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2015.01",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "전북특별자치도 군산시 진포2길 8"
   },
   {
     "code": "A57337001",
@@ -613,7 +943,13 @@
     "emd": "수송동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2008.09",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "전북특별자치도 군산시 수송동로 91"
   },
   {
     "code": "A57337002",
@@ -624,7 +960,13 @@
     "emd": "수송동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2008.10",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "전북특별자치도 군산시 축동로 42"
   },
   {
     "code": "A57337003",
@@ -635,7 +977,13 @@
     "emd": "수송동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1997.06",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "전북특별자치도 군산시 진포1길 10"
   },
   {
     "code": "A57337005",
@@ -646,7 +994,13 @@
     "emd": "수송동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2002.03",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "전북특별자치도 군산시 축동안길 37"
   },
   {
     "code": "A57339003",
@@ -657,7 +1011,13 @@
     "emd": "수송동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1991.09",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 축동로 10"
   },
   {
     "code": "A57373601",
@@ -668,7 +1028,13 @@
     "emd": "수송동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2008.11",
+    "dongCnt": "8동",
+    "heat": "개별난방+기타",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "전북특별자치도 군산시 수송동로 20"
   },
   {
     "code": "A57373602",
@@ -679,7 +1045,13 @@
     "emd": "수송동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2008.11",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "전북특별자치도 군산시 수송동로 36"
   },
   {
     "code": "A57373603",
@@ -690,7 +1062,13 @@
     "emd": "수송동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2008.10",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "전북특별자치도 군산시 축동로 34"
   },
   {
     "code": "A57373604",
@@ -701,7 +1079,13 @@
     "emd": "수송동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1998.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 신평길 12"
   },
   {
     "code": "A57373605",
@@ -712,7 +1096,13 @@
     "emd": "수송동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2010.06",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "전북특별자치도 군산시 수송동로 100"
   },
   {
     "code": "A57373606",
@@ -723,7 +1113,13 @@
     "emd": "수송동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2011.03",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "전북특별자치도 군산시 수송동로 105"
   },
   {
     "code": "A10026191",
@@ -734,7 +1130,13 @@
     "emd": "미장동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2018.06",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "전북특별자치도 군산시 미장남로 100"
   },
   {
     "code": "A10026918",
@@ -745,7 +1147,13 @@
     "emd": "미장동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2017.06",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "전북특별자치도 군산시 미장안길 45"
   },
   {
     "code": "A10027706",
@@ -756,7 +1164,13 @@
     "emd": "미장동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2016.02",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 25,
+    "addr": "전북특별자치도 군산시 미장13길 33"
   },
   {
     "code": "A10027977",
@@ -767,7 +1181,13 @@
     "emd": "미장동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2015.01",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "전북특별자치도 군산시 미장남로 10"
   },
   {
     "code": "A57338001",
@@ -778,7 +1198,13 @@
     "emd": "미장동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1992.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 문화로 205"
   },
   {
     "code": "A57338002",
@@ -789,7 +1215,13 @@
     "emd": "미장동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2006.06",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 미장안길 55"
   },
   {
     "code": "A57373103",
@@ -800,7 +1232,13 @@
     "emd": "미장동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2004.11",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 문화로 208-8"
   },
   {
     "code": "A57373301",
@@ -811,7 +1249,13 @@
     "emd": "미장동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2007.06",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 미장안길 42"
   },
   {
     "code": "A57373302",
@@ -822,7 +1266,13 @@
     "emd": "미장동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2009.12",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 경포천로 66"
   },
   {
     "code": "A57373303",
@@ -833,7 +1283,13 @@
     "emd": "미장동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2011.06",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 경포천로 34"
   },
   {
     "code": "A10020323",
@@ -844,7 +1300,13 @@
     "emd": "지곡동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2025.12",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "전북특별자치도 군산시 백토로 319"
   },
   {
     "code": "A10022786",
@@ -855,7 +1317,13 @@
     "emd": "지곡동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2024.01",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "전북특별자치도 군산시 백토로 263"
   },
   {
     "code": "A10027742",
@@ -866,7 +1334,13 @@
     "emd": "지곡동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2015.12",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "전북특별자치도 군산시 지곡로 60"
   },
   {
     "code": "A10028102",
@@ -877,7 +1351,13 @@
     "emd": "지곡동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2015.02",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "전북특별자치도 군산시 계산로 90"
   },
   {
     "code": "A57339001",
@@ -888,7 +1368,13 @@
     "emd": "지곡동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2004.03",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 계산로 78"
   },
   {
     "code": "A57339002",
@@ -899,7 +1385,13 @@
     "emd": "지곡동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2006.12",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 동지곡길 53"
   },
   {
     "code": "A57371301",
@@ -910,7 +1402,13 @@
     "emd": "지곡동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2014.08",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "전북특별자치도 군산시 계산로 71"
   },
   {
     "code": "A10023527",
@@ -921,7 +1419,13 @@
     "emd": "나운동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2022.12",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "전북특별자치도 군산시 하나운2길 15"
   },
   {
     "code": "A10026431",
@@ -932,7 +1436,13 @@
     "emd": "나운동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1995.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 상신6길 2"
   },
   {
     "code": "A57335001",
@@ -943,7 +1453,13 @@
     "emd": "나운동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1993.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 11,
+    "addr": "전북특별자치도 군산시 상나운1길 25"
   },
   {
     "code": "A57335002",
@@ -954,7 +1470,13 @@
     "emd": "나운동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1993.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "전북특별자치도 군산시 하나운1길 30-1"
   },
   {
     "code": "A57335003",
@@ -965,7 +1487,13 @@
     "emd": "나운동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1990.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 나운로 70"
   },
   {
     "code": "A57335005",
@@ -976,7 +1504,13 @@
     "emd": "나운동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1997.02",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 의료원로 136"
   },
   {
     "code": "A57335006",
@@ -987,7 +1521,13 @@
     "emd": "나운동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1997.02",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 하나운로 7"
   },
   {
     "code": "A57335007",
@@ -998,7 +1538,13 @@
     "emd": "나운동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1995.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 의료원로 137"
   },
   {
     "code": "A57335008",
@@ -1009,7 +1555,13 @@
     "emd": "나운동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1993.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "전북특별자치도 군산시 상신7길 15"
   },
   {
     "code": "A57335009",
@@ -1020,7 +1572,13 @@
     "emd": "나운동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1994.09",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 수송로 71"
   },
   {
     "code": "A57335010",
@@ -1031,7 +1589,13 @@
     "emd": "나운동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1995.06",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 백토로 230"
   },
   {
     "code": "A57335012",
@@ -1042,7 +1606,13 @@
     "emd": "나운동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1979.01",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "전북특별자치도 군산시 하신재길 23"
   },
   {
     "code": "A57335014",
@@ -1053,7 +1623,13 @@
     "emd": "나운동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1997.12",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 백토로 216"
   },
   {
     "code": "A57335016",
@@ -1064,7 +1640,13 @@
     "emd": "나운동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1996.07",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 하나운로 20"
   },
   {
     "code": "A57335017",
@@ -1075,7 +1657,13 @@
     "emd": "나운동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1990.11",
+    "dongCnt": "5동",
+    "heat": "개별난방+기타",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 부곡1길 39"
   },
   {
     "code": "A57335018",
@@ -1086,7 +1674,13 @@
     "emd": "나운동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1995.06",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 의료원로 147"
   },
   {
     "code": "A57335019",
@@ -1097,7 +1691,13 @@
     "emd": "나운동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1995.06",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "전북특별자치도 군산시 나운안2길 8"
   },
   {
     "code": "A57335020",
@@ -1108,7 +1708,13 @@
     "emd": "나운동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1995.06",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 의료원로 188"
   },
   {
     "code": "A57335021",
@@ -1119,7 +1725,13 @@
     "emd": "나운동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1990.04",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "전북특별자치도 군산시 현충로 33"
   },
   {
     "code": "A57335022",
@@ -1130,7 +1742,13 @@
     "emd": "나운동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1992.11",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 상나운1길 30"
   },
   {
     "code": "A57335023",
@@ -1141,7 +1759,13 @@
     "emd": "나운동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1994.06",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "전북특별자치도 군산시 하나운로 48"
   },
   {
     "code": "A57335024",
@@ -1152,7 +1776,13 @@
     "emd": "나운동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1995.12",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 의료원로 163"
   },
   {
     "code": "A57335025",
@@ -1163,7 +1793,13 @@
     "emd": "나운동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1998.07",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "전북특별자치도 군산시 나운안1길 24"
   },
   {
     "code": "A57335026",
@@ -1174,7 +1810,13 @@
     "emd": "나운동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1998.05",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "전북특별자치도 군산시 나운3길 9"
   },
   {
     "code": "A57335027",
@@ -1185,7 +1827,13 @@
     "emd": "나운동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2008.08",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "전북특별자치도 군산시 서수송2길 23"
   },
   {
     "code": "A57335029",
@@ -1196,7 +1844,13 @@
     "emd": "나운동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1983.12",
+    "dongCnt": "27동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "전북특별자치도 군산시 하나운안1길 40"
   },
   {
     "code": "A57335031",
@@ -1207,7 +1861,13 @@
     "emd": "나운동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1993.07",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 나운로 39"
   },
   {
     "code": "A57335032",
@@ -1218,7 +1878,13 @@
     "emd": "나운동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1991.09",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 수송로 49"
   },
   {
     "code": "A57375601",
@@ -1229,7 +1895,13 @@
     "emd": "나운동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1995.07",
+    "dongCnt": "12동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 백토로 117"
   },
   {
     "code": "A57375602",
@@ -1240,7 +1912,13 @@
     "emd": "나운동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1991.03",
+    "dongCnt": "10동",
+    "heat": "기타",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "전북특별자치도 군산시 하나운로 45"
   },
   {
     "code": "A57375603",
@@ -1251,7 +1929,13 @@
     "emd": "나운동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2009.03",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "전북특별자치도 군산시 축동로 83"
   },
   {
     "code": "A57375901",
@@ -1262,7 +1946,13 @@
     "emd": "나운동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2010.03",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 하신3길 7"
   },
   {
     "code": "A57376001",
@@ -1273,7 +1963,13 @@
     "emd": "나운동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1996.04",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 백토로 242"
   },
   {
     "code": "A57376002",
@@ -1284,7 +1980,13 @@
     "emd": "나운동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2002.12",
+    "dongCnt": "7동",
+    "heat": "개별난방+기타",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 하나운로 28"
   },
   {
     "code": "A57376003",
@@ -1295,7 +1997,13 @@
     "emd": "나운동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2002.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 나운로 133"
   },
   {
     "code": "A57377403",
@@ -1306,7 +2014,13 @@
     "emd": "나운동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1993.05",
+    "dongCnt": "8동",
+    "heat": "중앙난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 문화로 36"
   },
   {
     "code": "A10020254",
@@ -1317,7 +2031,13 @@
     "emd": "미룡동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2026.01",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "전북특별자치도 군산시 계산로 35"
   },
   {
     "code": "A10020551",
@@ -1328,7 +2048,13 @@
     "emd": "미룡동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2025.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 25,
+    "addr": "전북특별자치도 군산시 은파로 66"
   },
   {
     "code": "A10021161",
@@ -1339,7 +2065,13 @@
     "emd": "미룡동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2024.09",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "전북특별자치도 군산시 황룡로 83"
   },
   {
     "code": "A57336001",
@@ -1350,7 +2082,13 @@
     "emd": "미룡동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2007.02",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 미룡로 64"
   },
   {
     "code": "A57336003",
@@ -1361,7 +2099,13 @@
     "emd": "미룡동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1998.06",
+    "dongCnt": "1동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "전북특별자치도 군산시 칠성4길 20"
   },
   {
     "code": "A57336004",
@@ -1372,7 +2116,13 @@
     "emd": "미룡동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2001.03",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "전북특별자치도 군산시 미룡로 41"
   },
   {
     "code": "A57336006",
@@ -1383,7 +2133,13 @@
     "emd": "미룡동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2008.12",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "전북특별자치도 군산시 용둔길 12"
   },
   {
     "code": "A57370101",
@@ -1394,7 +2150,13 @@
     "emd": "미룡동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2007.09",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 미룡로 63"
   },
   {
     "code": "A57370102",
@@ -1405,7 +2167,13 @@
     "emd": "미룡동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2001.06",
+    "dongCnt": "18동",
+    "heat": "기타",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "전북특별자치도 군산시 미룡로 42"
   },
   {
     "code": "A57370103",
@@ -1416,7 +2184,13 @@
     "emd": "미룡동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2002.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "전북특별자치도 군산시 칠성3길 8"
   },
   {
     "code": "A57370104",
@@ -1427,7 +2201,13 @@
     "emd": "미룡동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2002.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "전북특별자치도 군산시 칠성3길 22"
   },
   {
     "code": "A57374608",
@@ -1438,7 +2218,13 @@
     "emd": "미룡동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2004.07",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 미룡로 12"
   },
   {
     "code": "A57378302",
@@ -1449,7 +2235,13 @@
     "emd": "미룡동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1998.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 칠성5길 30"
   },
   {
     "code": "A10022602",
@@ -1460,7 +2252,13 @@
     "emd": "소룡동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1993.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "전북특별자치도 군산시 소룡1길 26"
   },
   {
     "code": "A57371101",
@@ -1471,7 +2269,13 @@
     "emd": "소룡동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2006.06",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "전북특별자치도 군산시 해망로 606"
   },
   {
     "code": "A57387904",
@@ -1482,7 +2286,13 @@
     "emd": "소룡동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1991.05",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "전북특별자치도 군산시 설림안3길 32"
   },
   {
     "code": "A57387906",
@@ -1493,7 +2303,13 @@
     "emd": "소룡동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1990.10",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 동아로 160"
   },
   {
     "code": "A57388002",
@@ -1504,7 +2320,13 @@
     "emd": "소룡동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1993.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 풍전3길 30"
   },
   {
     "code": "A57388007",
@@ -1515,7 +2337,13 @@
     "emd": "소룡동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2001.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 19,
+    "addr": "전북특별자치도 군산시 풍전6길 16"
   },
   {
     "code": "A57388101",
@@ -1526,7 +2354,13 @@
     "emd": "소룡동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2003.02",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "전북특별자치도 군산시 설림2길 33-1"
   },
   {
     "code": "A57388105",
@@ -1537,7 +2371,13 @@
     "emd": "소룡동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2004.07",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 해망로 447"
   },
   {
     "code": "A57388203",
@@ -1548,7 +2388,13 @@
     "emd": "소룡동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2008.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 14,
+    "addr": "전북특별자치도 군산시 소룡안3길 34"
   },
   {
     "code": "A57354001",
@@ -1559,7 +2405,13 @@
     "emd": "오식도동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2012.08",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "전북특별자치도 군산시 요죽길 76"
   },
   {
     "code": "A10022597",
@@ -1570,7 +2422,13 @@
     "emd": "산북동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1990.12",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "전북특별자치도 군산시 칠성안1길 16"
   },
   {
     "code": "A10026056",
@@ -1581,7 +2439,13 @@
     "emd": "산북동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2008.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 9,
+    "addr": "전북특별자치도 군산시 원산북1길 32"
   },
   {
     "code": "A10028186",
@@ -1592,7 +2456,13 @@
     "emd": "산북동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2014.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 18,
+    "addr": "전북특별자치도 군산시 원산북2길 6"
   },
   {
     "code": "A57350003",
@@ -1603,7 +2473,13 @@
     "emd": "산북동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1997.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "전북특별자치도 군산시 원산북2길 35"
   },
   {
     "code": "A57387606",
@@ -1614,7 +2490,13 @@
     "emd": "산북동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1997.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 칠성안4길 39"
   },
   {
     "code": "A57387805",
@@ -1625,7 +2507,13 @@
     "emd": "산북동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1994.11",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "전북특별자치도 군산시 소룡안3길 24"
   },
   {
     "code": "A57387807",
@@ -1636,7 +2524,13 @@
     "emd": "산북동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1989.04",
+    "dongCnt": "19동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "전북특별자치도 군산시 동아로 145-1"
   },
   {
     "code": "A57388802",
@@ -1647,7 +2541,13 @@
     "emd": "산북동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2007.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 12,
+    "addr": "전북특별자치도 군산시 칠성로 126"
   },
   {
     "code": "A57388803",
@@ -1658,7 +2558,13 @@
     "emd": "산북동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1997.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "전북특별자치도 군산시 동아로 12"
   },
   {
     "code": "A57388805",
@@ -1669,7 +2575,13 @@
     "emd": "산북동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "1991.11",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "전북특별자치도 군산시 산북로 162"
   },
   {
     "code": "A57388806",
@@ -1680,7 +2592,13 @@
     "emd": "산북동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2001.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "전북특별자치도 군산시 부원로 116"
   },
   {
     "code": "A57388807",
@@ -1691,7 +2609,13 @@
     "emd": "산북동",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2014.02",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 18,
+    "addr": "전북특별자치도 군산시 칠성7길 56"
   },
   {
     "code": "A10026634",
@@ -1702,7 +2626,13 @@
     "emd": "옥산면",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2017.12",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "전북특별자치도 군산시 월명로 55"
   },
   {
     "code": "A10027853",
@@ -1713,6 +2643,12 @@
     "emd": "옥산면",
     "sigunguCode": "52130",
     "sido": "전북특별자치도",
-    "sigungu": "군산시"
+    "sigungu": "군산시",
+    "built": "2015.09",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "전북특별자치도 군산시 월명로 45"
   }
 ]

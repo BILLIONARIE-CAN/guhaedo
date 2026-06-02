@@ -9,7 +9,13 @@
     "sigunguCode": "11530",
     "sido": "서울특별시",
     "sigungu": "구로구",
-    "hhldCnt": 232
+    "hhldCnt": 232,
+    "built": "2015.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 16,
+    "addr": "서울특별시 구로구 경인로61길 21"
   },
   {
     "code": "A10020771",
@@ -20,7 +26,13 @@
     "emd": "신도림동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2018.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "서울특별시 구로구 경인로66길 19"
   },
   {
     "code": "A10021030",
@@ -31,7 +43,13 @@
     "emd": "신도림동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2006.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "서울특별시 구로구 경인로 584"
   },
   {
     "code": "A10022406",
@@ -42,7 +60,13 @@
     "emd": "신도림동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1997.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 구로구 경인로66길 5"
   },
   {
     "code": "A10022522",
@@ -53,7 +77,13 @@
     "emd": "신도림동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2008.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 구로구 경인로67길 23"
   },
   {
     "code": "A10028063",
@@ -64,7 +94,13 @@
     "emd": "신도림동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2015.02",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 27,
+    "addr": "서울특별시 구로구 경인로67길 33"
   },
   {
     "code": "A15277302",
@@ -75,7 +111,13 @@
     "emd": "신도림동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2011.07",
+    "dongCnt": "2동",
+    "heat": "기타",
+    "sale": "분양",
+    "topFloor": 51,
+    "addr": "서울특별시 구로구 경인로 662"
   },
   {
     "code": "A15288611",
@@ -86,7 +128,13 @@
     "emd": "신도림동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1987.12",
+    "dongCnt": "6동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 구로구 신도림로11가길 36"
   },
   {
     "code": "A15288801",
@@ -97,7 +145,13 @@
     "emd": "신도림동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1994.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 11,
+    "addr": "서울특별시 구로구 신도림로21길 21"
   },
   {
     "code": "A15288802",
@@ -108,7 +162,13 @@
     "emd": "신도림동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2001.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 구로구 신도림로 11"
   },
   {
     "code": "A15288803",
@@ -119,7 +179,13 @@
     "emd": "신도림동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1999.04",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 구로구 신도림로19길 16"
   },
   {
     "code": "A15288804",
@@ -130,7 +196,13 @@
     "emd": "신도림동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1993.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 구로구 신도림로21길 25"
   },
   {
     "code": "A15288805",
@@ -141,7 +213,13 @@
     "emd": "신도림동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2003.08",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 구로구 신도림로 32"
   },
   {
     "code": "A15288806",
@@ -152,7 +230,13 @@
     "emd": "신도림동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1992.12",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 구로구 신도림로 110"
   },
   {
     "code": "A15288807",
@@ -163,7 +247,13 @@
     "emd": "신도림동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2004.06",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 구로구 신도림로 56-13"
   },
   {
     "code": "A15288808",
@@ -174,7 +264,13 @@
     "emd": "신도림동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2006.04",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "서울특별시 구로구 경인로 638"
   },
   {
     "code": "A15288809",
@@ -185,7 +281,13 @@
     "emd": "신도림동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2000.05",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "서울특별시 구로구 경인로 643"
   },
   {
     "code": "A15288810",
@@ -196,7 +298,13 @@
     "emd": "신도림동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2000.11",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "서울특별시 구로구 신도림로 78"
   },
   {
     "code": "A15288812",
@@ -207,7 +315,13 @@
     "emd": "신도림동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2003.05",
+    "dongCnt": "15동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 구로구 경인로65길 16-15"
   },
   {
     "code": "A15288813",
@@ -218,7 +332,13 @@
     "emd": "신도림동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1999.11",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "서울특별시 구로구 신도림로 87"
   },
   {
     "code": "A15288814",
@@ -229,7 +349,13 @@
     "emd": "신도림동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1999.11",
+    "dongCnt": "27동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "서울특별시 구로구 신도림로 16"
   },
   {
     "code": "A10020947",
@@ -240,7 +366,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1999.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 구로구 공원로 41"
   },
   {
     "code": "A10021077",
@@ -251,7 +383,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1994.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 구로구 구일로8길 121"
   },
   {
     "code": "A10021214",
@@ -262,7 +400,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2004.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 구로구 도림로20길 50"
   },
   {
     "code": "A10021330",
@@ -273,7 +417,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2002.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 구로구 구로동로42길 77"
   },
   {
     "code": "A10021345",
@@ -284,7 +434,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2011.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 구로구 구로동로28길 42"
   },
   {
     "code": "A10021636",
@@ -295,7 +451,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2003.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 구로구 가마산로27길 24"
   },
   {
     "code": "A10021832",
@@ -306,7 +468,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2009.05",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 구로구 구로중앙로8길 41-23"
   },
   {
     "code": "A10022110",
@@ -317,7 +485,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2003.04",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 구로구 디지털로 318"
   },
   {
     "code": "A10022146",
@@ -328,7 +502,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2001.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": "",
+    "addr": "서울특별시 구로구 구일로8길 79"
   },
   {
     "code": "A10022507",
@@ -339,7 +519,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2010.04",
+    "dongCnt": "1동",
+    "heat": "",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 구로구 가마산로20다길 46"
   },
   {
     "code": "A10023471",
@@ -350,7 +536,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2022.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 구로구 가마산로 271"
   },
   {
     "code": "A10023681",
@@ -361,7 +553,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1998.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 구로구 구로중앙로 68"
   },
   {
     "code": "A10025743",
@@ -372,7 +570,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1998.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 30,
+    "addr": "서울특별시 구로구 공원로 63"
   },
   {
     "code": "A10026989",
@@ -383,7 +587,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2003.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 구로구 도림천로12길 6"
   },
   {
     "code": "A10027493",
@@ -394,7 +604,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2006.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 구로구 구로중앙로 34"
   },
   {
     "code": "A10027507",
@@ -405,7 +621,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1994.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 구로구 구일로8길 107"
   },
   {
     "code": "A15205001",
@@ -416,7 +638,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2004.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 구로구 구로동로43길 10"
   },
   {
     "code": "A15205002",
@@ -427,7 +655,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1998.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 21,
+    "addr": "서울특별시 구로구 도림로 59"
   },
   {
     "code": "A15205103",
@@ -438,7 +672,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1995.11",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 구로구 구일로8길 31"
   },
   {
     "code": "A15205104",
@@ -449,7 +689,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2006.06",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 구로구 가마산로 87"
   },
   {
     "code": "A15205108",
@@ -460,7 +706,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1998.05",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 구로구 구일로2길 60"
   },
   {
     "code": "A15205301",
@@ -471,7 +723,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2003.12",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 구로구 시흥대로161길 50"
   },
   {
     "code": "A15205303",
@@ -482,7 +740,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2007.05",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 구로구 디지털로31길 120"
   },
   {
     "code": "A15205305",
@@ -493,7 +757,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2006.07",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 구로구 디지털로31길 85"
   },
   {
     "code": "A15205405",
@@ -504,7 +774,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1998.11",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 구로구 도림로 59"
   },
   {
     "code": "A15205508",
@@ -515,7 +791,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2007.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 36,
+    "addr": "서울특별시 구로구 구로중앙로 134"
   },
   {
     "code": "A15205511",
@@ -526,7 +808,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1999.11",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 구로구 새말로 31"
   },
   {
     "code": "A15205513",
@@ -537,7 +825,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2000.12",
+    "dongCnt": "13동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "서울특별시 구로구 새말로 93"
   },
   {
     "code": "A15270501",
@@ -548,7 +842,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1998.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 구로구 새말로9길 22"
   },
   {
     "code": "A15283801",
@@ -559,7 +859,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2006.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 32,
+    "addr": "서울특별시 구로구 공원로 40"
   },
   {
     "code": "A15283803",
@@ -570,7 +876,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1997.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 구로구 공원로 26"
   },
   {
     "code": "A15283806",
@@ -581,7 +893,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1995.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 구로구 새말로16길 70"
   },
   {
     "code": "A15283807",
@@ -592,7 +910,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2004.02",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 31,
+    "addr": "서울특별시 구로구 새말로18길 64"
   },
   {
     "code": "A15283809",
@@ -603,7 +927,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1985.06",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 구로구 공원로6가길 67"
   },
   {
     "code": "A15283902",
@@ -614,7 +944,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1988.06",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 구로구 구로중앙로18길 68"
   },
   {
     "code": "A15284101",
@@ -625,7 +961,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2005.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 구로구 가마산로 280"
   },
   {
     "code": "A15284204",
@@ -636,7 +978,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2002.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 구로구 가마산로 283"
   },
   {
     "code": "A15284302",
@@ -647,7 +995,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2006.04",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 구로구 공원로 27"
   },
   {
     "code": "A15284305",
@@ -658,7 +1012,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1996.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 구로구 공원로 35"
   },
   {
     "code": "A15284603",
@@ -669,7 +1029,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1992.06",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 구로구 도림로 107"
   },
   {
     "code": "A15284906",
@@ -680,7 +1046,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2004.05",
+    "dongCnt": "16동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 구로구 디지털로31길 90"
   },
   {
     "code": "A15285004",
@@ -691,7 +1063,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1984.12",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 11,
+    "addr": "서울특별시 구로구 구로중앙로7길 28"
   },
   {
     "code": "A15285503",
@@ -702,7 +1080,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1984.06",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "서울특별시 구로구 가마산로 231"
   },
   {
     "code": "A15285804",
@@ -713,7 +1097,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2001.09",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 구로구 구로동로47길 24"
   },
   {
     "code": "A15286210",
@@ -724,7 +1114,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1994.01",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 구로구 새말로9길 45"
   },
   {
     "code": "A15286602",
@@ -735,7 +1131,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1998.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 구로구 구로중앙로 229"
   },
   {
     "code": "A15286801",
@@ -746,7 +1148,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1993.09",
+    "dongCnt": "2동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 구로구 구일로 154-17"
   },
   {
     "code": "A15286802",
@@ -757,7 +1165,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1987.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 구로구 구일로10길 53"
   },
   {
     "code": "A15286805",
@@ -768,7 +1182,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1988.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 구로구 구일로8길 63"
   },
   {
     "code": "A15286806",
@@ -779,7 +1199,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1987.11",
+    "dongCnt": "6동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 구로구 구일로8길 92"
   },
   {
     "code": "A15286807",
@@ -790,7 +1216,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1989.08",
+    "dongCnt": "6동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 구로구 구일로4길 46"
   },
   {
     "code": "A15286809",
@@ -801,7 +1233,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1986.06",
+    "dongCnt": "19동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 구로구 구일로4길 65"
   },
   {
     "code": "A15288002",
@@ -812,7 +1250,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1998.07",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 구로구 도림로22길 8"
   },
   {
     "code": "A15288004",
@@ -823,7 +1267,13 @@
     "emd": "구로동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1992.05",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 구로구 디지털로 319"
   },
   {
     "code": "A10020359",
@@ -835,7 +1285,13 @@
     "sigunguCode": "11530",
     "sido": "서울특별시",
     "sigungu": "구로구",
-    "hhldCnt": 162
+    "hhldCnt": 162,
+    "built": "2024.07",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": "",
+    "addr": "서울특별시 구로구 우마1다길 10"
   },
   {
     "code": "A10021933",
@@ -846,7 +1302,13 @@
     "emd": "고척동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1997.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 구로구 중앙로1길 18-18"
   },
   {
     "code": "A10023598",
@@ -857,7 +1319,13 @@
     "emd": "고척동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2022.08",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 35,
+    "addr": "서울특별시 구로구 중앙로5길 59"
   },
   {
     "code": "A10023604",
@@ -868,7 +1336,13 @@
     "emd": "고척동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2022.08",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 45,
+    "addr": "서울특별시 구로구 고척동 100-7 고척아이파크MD"
   },
   {
     "code": "A10024846",
@@ -879,7 +1353,13 @@
     "emd": "고척동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1996.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "서울특별시 구로구 경인로47가길 10"
   },
   {
     "code": "A15208003",
@@ -890,7 +1370,13 @@
     "emd": "고척동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2004.12",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 구로구 경인로 343"
   },
   {
     "code": "A15208005",
@@ -901,7 +1387,13 @@
     "emd": "고척동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2008.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "서울특별시 구로구 경인로47길 128"
   },
   {
     "code": "A15208006",
@@ -912,7 +1404,13 @@
     "emd": "고척동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2010.12",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 20,
+    "addr": "서울특별시 구로구 고척로60길 30"
   },
   {
     "code": "A15208007",
@@ -923,7 +1421,13 @@
     "emd": "고척동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2011.07",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 구로구 중앙로8길 11"
   },
   {
     "code": "A15208201",
@@ -934,7 +1438,13 @@
     "emd": "고척동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2000.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "서울특별시 구로구 고척로52길 9"
   },
   {
     "code": "A15208202",
@@ -945,7 +1455,13 @@
     "emd": "고척동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2001.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 구로구 중앙로15길 132-17"
   },
   {
     "code": "A15208204",
@@ -956,7 +1472,13 @@
     "emd": "고척동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2005.12",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 구로구 중앙로15길 151"
   },
   {
     "code": "A15279401",
@@ -967,7 +1489,13 @@
     "emd": "고척동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2000.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 구로구 중앙로 101"
   },
   {
     "code": "A15279402",
@@ -978,7 +1506,13 @@
     "emd": "고척동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2009.07",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 구로구 중앙로12길 7"
   },
   {
     "code": "A15279403",
@@ -989,7 +1523,13 @@
     "emd": "고척동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2009.05",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 구로구 중앙로 121"
   },
   {
     "code": "A15279404",
@@ -1000,7 +1540,13 @@
     "emd": "고척동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1999.02",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 구로구 고척로52길 48"
   },
   {
     "code": "A15282403",
@@ -1011,7 +1557,13 @@
     "emd": "고척동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1985.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "서울특별시 구로구 중앙로5길 24"
   },
   {
     "code": "A15282405",
@@ -1022,7 +1574,13 @@
     "emd": "고척동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1976.07",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "서울특별시 구로구 경인로47다길 43"
   },
   {
     "code": "A15282608",
@@ -1033,7 +1591,13 @@
     "emd": "고척동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1987.11",
+    "dongCnt": "4동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 11,
+    "addr": "서울특별시 구로구 중앙로1길 18-19"
   },
   {
     "code": "A15282810",
@@ -1044,7 +1608,13 @@
     "emd": "고척동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1989.07",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 구로구 중앙로5길 62"
   },
   {
     "code": "A15283603",
@@ -1055,7 +1625,13 @@
     "emd": "고척동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1999.01",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 구로구 고척로52길 21"
   },
   {
     "code": "A15283701",
@@ -1066,7 +1642,13 @@
     "emd": "고척동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1998.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 구로구 경인로47길 150"
   },
   {
     "code": "A15283702",
@@ -1077,7 +1659,13 @@
     "emd": "고척동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1996.02",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 구로구 경인로47다길 34-7"
   },
   {
     "code": "A15283704",
@@ -1088,7 +1676,13 @@
     "emd": "고척동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2001.11",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 구로구 중앙로15길 125"
   },
   {
     "code": "A15283706",
@@ -1099,7 +1693,13 @@
     "emd": "고척동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2000.04",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 구로구 중앙로6길 17"
   },
   {
     "code": "A15283707",
@@ -1110,7 +1710,13 @@
     "emd": "고척동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1994.03",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 구로구 중앙로12길 12"
   },
   {
     "code": "A15283709",
@@ -1121,7 +1727,13 @@
     "emd": "고척동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1999.06",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 구로구 중앙로6길 5-15"
   },
   {
     "code": "A15283711",
@@ -1132,7 +1744,13 @@
     "emd": "고척동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2003.03",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 구로구 경인로 390"
   },
   {
     "code": "A10020664",
@@ -1144,7 +1762,13 @@
     "sigunguCode": "11530",
     "sido": "서울특별시",
     "sigungu": "구로구",
-    "hhldCnt": 136
+    "hhldCnt": 136,
+    "built": "2002.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 구로구 고척로22길 84"
   },
   {
     "code": "A10020672",
@@ -1156,7 +1780,13 @@
     "sigunguCode": "11530",
     "sido": "서울특별시",
     "sigungu": "구로구",
-    "hhldCnt": 605
+    "hhldCnt": 605,
+    "built": "2025.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 24,
+    "addr": "서울특별시 구로구 개봉로19길 11"
   },
   {
     "code": "A10020797",
@@ -1167,7 +1797,13 @@
     "emd": "개봉동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2024.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 1,
+    "addr": "서울특별시 구로구 개봉로24길 46"
   },
   {
     "code": "A10020958",
@@ -1178,7 +1814,13 @@
     "emd": "개봉동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2024.11",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 24,
+    "addr": "서울특별시 구로구 고척로22길 36"
   },
   {
     "code": "A10021547",
@@ -1189,7 +1831,13 @@
     "emd": "개봉동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1989.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 구로구 서해안로34가길 22"
   },
   {
     "code": "A10021629",
@@ -1200,7 +1848,13 @@
     "emd": "개봉동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2018.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 구로구 개봉로23가길 10"
   },
   {
     "code": "A10022878",
@@ -1211,7 +1865,13 @@
     "emd": "개봉동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2005.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 구로구 남부순환로97길 74"
   },
   {
     "code": "A10024745",
@@ -1222,7 +1882,13 @@
     "emd": "개봉동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2020.07",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 35,
+    "addr": "서울특별시 구로구 경인로 302"
   },
   {
     "code": "A15209002",
@@ -1233,7 +1899,13 @@
     "emd": "개봉동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1999.04",
+    "dongCnt": "26동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 구로구 경인로 382"
   },
   {
     "code": "A15209003",
@@ -1244,7 +1916,13 @@
     "emd": "개봉동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1987.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 구로구 경인로40길 25"
   },
   {
     "code": "A15209004",
@@ -1255,7 +1933,13 @@
     "emd": "개봉동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2006.06",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "서울특별시 구로구 개봉로2길 133-15"
   },
   {
     "code": "A15209005",
@@ -1266,7 +1950,13 @@
     "emd": "개봉동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "",
+    "dongCnt": "5동",
+    "heat": "",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "서울특별시 구로구 개봉로15길 91"
   },
   {
     "code": "A15209006",
@@ -1277,7 +1967,13 @@
     "emd": "개봉동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2002.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 구로구 경인로 271"
   },
   {
     "code": "A15209007",
@@ -1288,7 +1984,13 @@
     "emd": "개봉동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2014.05",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 25,
+    "addr": "서울특별시 구로구 남부순환로 775"
   },
   {
     "code": "A15209201",
@@ -1299,7 +2001,13 @@
     "emd": "개봉동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1997.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 구로구 남부순환로97길 50"
   },
   {
     "code": "A15209202",
@@ -1310,7 +2018,13 @@
     "emd": "개봉동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1996.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 구로구 남부순환로95길 16"
   },
   {
     "code": "A15209203",
@@ -1321,7 +2035,13 @@
     "emd": "개봉동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1997.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "서울특별시 구로구 남부순환로95길 88"
   },
   {
     "code": "A15209205",
@@ -1332,7 +2052,13 @@
     "emd": "개봉동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1995.11",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 구로구 남부순환로95길 54"
   },
   {
     "code": "A15209206",
@@ -1343,7 +2069,13 @@
     "emd": "개봉동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2001.08",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "서울특별시 구로구 개봉로20길 158"
   },
   {
     "code": "A15209207",
@@ -1354,7 +2086,13 @@
     "emd": "개봉동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2001.08",
+    "dongCnt": "31동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 구로구 개봉로20길 6"
   },
   {
     "code": "A15209303",
@@ -1365,7 +2103,13 @@
     "emd": "개봉동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1999.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 구로구 개봉로1길 170"
   },
   {
     "code": "A15209304",
@@ -1376,7 +2120,13 @@
     "emd": "개봉동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2005.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 구로구 개봉로1길 188"
   },
   {
     "code": "A15209305",
@@ -1387,7 +2137,13 @@
     "emd": "개봉동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2000.01",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 구로구 개봉로3길 87"
   },
   {
     "code": "A15275101",
@@ -1398,7 +2154,13 @@
     "emd": "개봉동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1994.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 구로구 고척로21나길 85-6"
   },
   {
     "code": "A15280303",
@@ -1409,7 +2171,13 @@
     "emd": "개봉동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1994.07",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 구로구 고척로 82"
   },
   {
     "code": "A15280304",
@@ -1420,7 +2188,13 @@
     "emd": "개봉동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1993.11",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 구로구 고척로 85"
   },
   {
     "code": "A15280602",
@@ -1431,7 +2205,13 @@
     "emd": "개봉동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2001.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 구로구 경인로38길 13"
   },
   {
     "code": "A15282105",
@@ -1442,7 +2222,13 @@
     "emd": "개봉동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1998.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 구로구 경인로40길 11"
   },
   {
     "code": "A10020277",
@@ -1453,7 +2239,12 @@
     "emd": "오류동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "",
+    "dongCnt": "",
+    "heat": "",
+    "sale": "",
+    "topFloor": ""
   },
   {
     "code": "A10020416",
@@ -1465,7 +2256,13 @@
     "sigunguCode": "11530",
     "sido": "서울특별시",
     "sigungu": "구로구",
-    "hhldCnt": 440
+    "hhldCnt": 440,
+    "built": "2025.08",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 26,
+    "addr": "서울특별시 구로구 오리로 1165"
   },
   {
     "code": "A10022360",
@@ -1476,7 +2273,13 @@
     "emd": "오류동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2020.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 18,
+    "addr": "서울특별시 구로구 경인로27길 7"
   },
   {
     "code": "A10026434",
@@ -1487,7 +2290,13 @@
     "emd": "오류동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2018.02",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 18,
+    "addr": "서울특별시 구로구 경인로20가길 68"
   },
   {
     "code": "A10027522",
@@ -1498,7 +2307,13 @@
     "emd": "오류동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2005.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 구로구 서해안로 2368"
   },
   {
     "code": "A15210101",
@@ -1509,7 +2324,13 @@
     "emd": "오류동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2004.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 구로구 경인로 158"
   },
   {
     "code": "A15210102",
@@ -1520,7 +2341,13 @@
     "emd": "오류동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2006.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 구로구 고척로 41"
   },
   {
     "code": "A15210103",
@@ -1531,7 +2358,13 @@
     "emd": "오류동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1999.03",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 구로구 경인로 248-13"
   },
   {
     "code": "A15210104",
@@ -1542,7 +2375,13 @@
     "emd": "오류동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1995.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 구로구 경인로 230-13"
   },
   {
     "code": "A15210105",
@@ -1553,7 +2392,13 @@
     "emd": "오류동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1998.07",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 구로구 경인로 248-14"
   },
   {
     "code": "A15210106",
@@ -1564,7 +2409,13 @@
     "emd": "오류동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2002.07",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 구로구 고척로 52"
   },
   {
     "code": "A15210107",
@@ -1575,7 +2426,13 @@
     "emd": "오류동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1998.12",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 구로구 고척로 49"
   },
   {
     "code": "A15210206",
@@ -1586,7 +2443,13 @@
     "emd": "오류동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1996.01",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 구로구 서해안로34가길 18"
   },
   {
     "code": "A15210207",
@@ -1597,7 +2460,13 @@
     "emd": "오류동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2003.10",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 구로구 오류로 65"
   },
   {
     "code": "A15210209",
@@ -1608,7 +2477,13 @@
     "emd": "오류동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2004.04",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 구로구 오류로8길 11"
   },
   {
     "code": "A15210210",
@@ -1619,7 +2494,13 @@
     "emd": "오류동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1998.11",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 구로구 경인로8길 75"
   },
   {
     "code": "A15210211",
@@ -1630,7 +2511,13 @@
     "emd": "오류동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2003.09",
+    "dongCnt": "22동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "서울특별시 구로구 오리로 1197"
   },
   {
     "code": "A15210212",
@@ -1641,7 +2528,13 @@
     "emd": "오류동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2002.07",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 구로구 경인로8길 64"
   },
   {
     "code": "A15278201",
@@ -1652,7 +2545,13 @@
     "emd": "오류동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "",
+    "dongCnt": "1동",
+    "heat": "",
+    "sale": "",
+    "topFloor": 1,
+    "addr": "서울특별시 구로구 오리로13가길 30"
   },
   {
     "code": "A15278301",
@@ -1663,7 +2562,13 @@
     "emd": "오류동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1997.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "서울특별시 구로구 고척로 49"
   },
   {
     "code": "A15279101",
@@ -1674,7 +2579,13 @@
     "emd": "온수동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2010.02",
+    "dongCnt": "18동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 12,
+    "addr": "서울특별시 구로구 부일로9길 127"
   },
   {
     "code": "A10021128",
@@ -1685,7 +2596,13 @@
     "emd": "천왕동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2017.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 1,
+    "addr": "서울특별시 구로구 오리로 1102-13"
   },
   {
     "code": "A10026039",
@@ -1696,7 +2613,13 @@
     "emd": "천왕동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2018.09",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 구로구 금오로 882"
   },
   {
     "code": "A10026729",
@@ -1707,7 +2630,13 @@
     "emd": "천왕동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2017.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 10,
+    "addr": "서울특별시 구로구 오류로 36-13"
   },
   {
     "code": "A10027764",
@@ -1718,7 +2647,13 @@
     "emd": "천왕동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2017.02",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 구로구 천왕로1길 24"
   },
   {
     "code": "A15210001",
@@ -1729,7 +2664,13 @@
     "emd": "천왕동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2013.12",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 18,
+    "addr": "서울특별시 구로구 오류로 30"
   },
   {
     "code": "A15213001",
@@ -1740,7 +2681,13 @@
     "emd": "천왕동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2011.07",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 19,
+    "addr": "서울특별시 구로구 천왕로 10"
   },
   {
     "code": "A15213002",
@@ -1751,7 +2698,13 @@
     "emd": "천왕동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2011.06",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "서울특별시 구로구 천왕로 9"
   },
   {
     "code": "A15213003",
@@ -1762,7 +2715,13 @@
     "emd": "천왕동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2011.06",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 13,
+    "addr": "서울특별시 구로구 천왕로 92"
   },
   {
     "code": "A15213004",
@@ -1773,7 +2732,13 @@
     "emd": "천왕동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2011.08",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "서울특별시 구로구 천왕로 29"
   },
   {
     "code": "A15213005",
@@ -1784,7 +2749,13 @@
     "emd": "천왕동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2011.10",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 18,
+    "addr": "서울특별시 구로구 천왕로 56"
   },
   {
     "code": "A15213006",
@@ -1795,7 +2766,13 @@
     "emd": "천왕동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2011.10",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "서울특별시 구로구 천왕로 91"
   },
   {
     "code": "A15213007",
@@ -1806,7 +2783,13 @@
     "emd": "천왕동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2014.01",
+    "dongCnt": "16동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 20,
+    "addr": "서울특별시 구로구 오리로 1102-10"
   },
   {
     "code": "A10024849",
@@ -1817,7 +2800,13 @@
     "emd": "항동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2020.06",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 구로구 항동로 8"
   },
   {
     "code": "A10024927",
@@ -1828,7 +2817,13 @@
     "emd": "항동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2020.02",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 구로구 부광로 96-16"
   },
   {
     "code": "A10025115",
@@ -1839,7 +2834,13 @@
     "emd": "항동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2019.12",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 구로구 연동로 233"
   },
   {
     "code": "A10025193",
@@ -1850,7 +2851,13 @@
     "emd": "항동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2019.09",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 구로구 항동로 42"
   },
   {
     "code": "A10025302",
@@ -1861,7 +2868,13 @@
     "emd": "항동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2019.05",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "서울특별시 구로구 항동로 72"
   },
   {
     "code": "A10025386",
@@ -1872,7 +2885,13 @@
     "emd": "항동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2019.02",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 구로구 연동로 191-5"
   },
   {
     "code": "A10025387",
@@ -1883,7 +2902,13 @@
     "emd": "항동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2019.07",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 18,
+    "addr": "서울특별시 구로구 연동로 234"
   },
   {
     "code": "A10025527",
@@ -1894,7 +2919,13 @@
     "emd": "항동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2019.02",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 13,
+    "addr": "서울특별시 구로구 항동로 60"
   },
   {
     "code": "A10025564",
@@ -1905,7 +2936,13 @@
     "emd": "항동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2019.02",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 12,
+    "addr": "서울특별시 구로구 항동로 68"
   },
   {
     "code": "A10025614",
@@ -1916,7 +2953,13 @@
     "emd": "항동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2019.02",
+    "dongCnt": "12동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 18,
+    "addr": "서울특별시 구로구 항동로 43"
   },
   {
     "code": "A10025858",
@@ -1927,7 +2970,13 @@
     "emd": "항동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2018.10",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 구로구 서해안로 2036"
   },
   {
     "code": "A15271601",
@@ -1938,7 +2987,13 @@
     "emd": "항동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "2004.12",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "서울특별시 구로구 연동로13길 25"
   },
   {
     "code": "A15271602",
@@ -1949,6 +3004,12 @@
     "emd": "항동",
     "sigunguCode": "11530",
     "sido": "서울특별시",
-    "sigungu": "구로구"
+    "sigungu": "구로구",
+    "built": "1983.01",
+    "dongCnt": "43동",
+    "heat": "",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 구로구 연동로 287"
   }
 ]

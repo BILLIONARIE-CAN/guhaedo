@@ -8,7 +8,13 @@
     "emd": "의령읍",
     "sigunguCode": "48720",
     "sido": "경상남도",
-    "sigungu": "의령군"
+    "sigungu": "의령군",
+    "built": "1997.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": "",
+    "addr": "경상남도 의령군 의병로14길 23"
   },
   {
     "code": "A63680501",
@@ -19,7 +25,13 @@
     "emd": "의령읍",
     "sigunguCode": "48720",
     "sido": "경상남도",
-    "sigungu": "의령군"
+    "sigungu": "의령군",
+    "built": "2008.10",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "경상남도 의령군 의병로9길 25-6"
   },
   {
     "code": "A10024979",
@@ -30,7 +42,13 @@
     "emd": "의령읍",
     "sigunguCode": "48720",
     "sido": "경상남도",
-    "sigungu": "의령군"
+    "sigungu": "의령군",
+    "built": "2020.02",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 18,
+    "addr": "경상남도 의령군 행복로 23"
   },
   {
     "code": "A10026138",
@@ -41,6 +59,12 @@
     "emd": "의령읍",
     "sigunguCode": "48720",
     "sido": "경상남도",
-    "sigungu": "의령군"
+    "sigungu": "의령군",
+    "built": "2018.07",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경상남도 의령군 행복로 7"
   }
 ]

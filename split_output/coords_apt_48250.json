@@ -8,7 +8,13 @@
     "emd": "동상동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2017.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 김해시 가야로 470"
   },
   {
     "code": "A10026917",
@@ -19,7 +25,13 @@
     "emd": "동상동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2017.05",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 11,
+    "addr": "경상남도 김해시 가야로463번길 15"
   },
   {
     "code": "A62102001",
@@ -30,7 +42,13 @@
     "emd": "동상동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2005.12",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경상남도 김해시 가야로463번길 14"
   },
   {
     "code": "A62102002",
@@ -41,7 +59,13 @@
     "emd": "동상동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1994.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "경상남도 김해시 가야로 513"
   },
   {
     "code": "A62102003",
@@ -52,7 +76,13 @@
     "emd": "동상동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2005.12",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 11,
+    "addr": "경상남도 김해시 가야로451번길 9"
   },
   {
     "code": "A10025720",
@@ -63,7 +93,13 @@
     "emd": "부원동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2018.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 39,
+    "addr": "경상남도 김해시 김해대로 2349"
   },
   {
     "code": "A62178101",
@@ -74,7 +110,13 @@
     "emd": "부원동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2014.08",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 32,
+    "addr": "경상남도 김해시 김해대로 2326"
   },
   {
     "code": "A10020687",
@@ -86,7 +128,13 @@
     "sigunguCode": "48250",
     "sido": "경상남도",
     "sigungu": "김해시",
-    "hhldCnt": 120
+    "hhldCnt": 120,
+    "built": "1988.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "경상남도 김해시 가야의길 98-18"
   },
   {
     "code": "A10026919",
@@ -97,7 +145,13 @@
     "emd": "봉황동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2017.06",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 35,
+    "addr": "경상남도 김해시 김해대로2324번길 54-27"
   },
   {
     "code": "A10021988",
@@ -108,7 +162,13 @@
     "emd": "대성동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1995.09",
+    "dongCnt": "2동",
+    "heat": "",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 구지로 102-1"
   },
   {
     "code": "A10020763",
@@ -119,7 +179,13 @@
     "emd": "구산동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2025.02",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "경상남도 김해시 가락로 354"
   },
   {
     "code": "A62106010",
@@ -130,7 +196,13 @@
     "emd": "구산동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1995.12",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "경상남도 김해시 가락로 223"
   },
   {
     "code": "A62106013",
@@ -141,7 +213,13 @@
     "emd": "구산동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1992.10",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 6,
+    "addr": "경상남도 김해시 가락로 222"
   },
   {
     "code": "A62175901",
@@ -152,7 +230,13 @@
     "emd": "구산동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2013.06",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경상남도 김해시 김해대로1902번길 30"
   },
   {
     "code": "A62175902",
@@ -163,7 +247,13 @@
     "emd": "구산동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2013.09",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경상남도 김해시 김해대로1902번길 62"
   },
   {
     "code": "A62175903",
@@ -174,7 +264,13 @@
     "emd": "구산동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2013.12",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 김해시 김해대로 1902"
   },
   {
     "code": "A62175904",
@@ -185,7 +281,13 @@
     "emd": "구산동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2013.09",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경상남도 김해시 김해대로1902번길 88"
   },
   {
     "code": "A62190002",
@@ -196,7 +298,13 @@
     "emd": "구산동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1993.05",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 가락로 242-15"
   },
   {
     "code": "A62190004",
@@ -207,7 +315,13 @@
     "emd": "구산동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1999.01",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 가락로294번길 7"
   },
   {
     "code": "A62190005",
@@ -218,7 +332,13 @@
     "emd": "구산동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1999.01",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 가락로294번길 7"
   },
   {
     "code": "A62190006",
@@ -229,7 +349,13 @@
     "emd": "구산동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1994.01",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "경상남도 김해시 가락로 237"
   },
   {
     "code": "A62190007",
@@ -240,7 +366,13 @@
     "emd": "구산동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1992.05",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 가락로 242-20"
   },
   {
     "code": "A62190101",
@@ -251,7 +383,13 @@
     "emd": "구산동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1992.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 가락로 303"
   },
   {
     "code": "A62190103",
@@ -262,7 +400,13 @@
     "emd": "구산동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1990.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 11,
+    "addr": "경상남도 김해시 가락로 313"
   },
   {
     "code": "A62190108",
@@ -273,7 +417,13 @@
     "emd": "구산동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2007.07",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 가락로332번길 13"
   },
   {
     "code": "A62190109",
@@ -284,7 +434,13 @@
     "emd": "구산동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2000.03",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 가락로294번길 18"
   },
   {
     "code": "A62190111",
@@ -295,7 +451,13 @@
     "emd": "구산동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2001.12",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 김해시 구산로5번길 57"
   },
   {
     "code": "A62190112",
@@ -306,7 +468,13 @@
     "emd": "구산동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2004.06",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "경상남도 김해시 구산로5번길 89"
   },
   {
     "code": "A10020245",
@@ -318,7 +486,13 @@
     "sigunguCode": "48250",
     "sido": "경상남도",
     "sigungu": "김해시",
-    "hhldCnt": 299
+    "hhldCnt": 299,
+    "built": "2026.01",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 김해시 김해대로 1810"
   },
   {
     "code": "A10020891",
@@ -329,7 +503,13 @@
     "emd": "삼계동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2025.01",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "경상남도 김해시 생림대로 65"
   },
   {
     "code": "A10023202",
@@ -340,7 +520,13 @@
     "emd": "삼계동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2023.06",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "경상남도 김해시 생림대로 31"
   },
   {
     "code": "A10023972",
@@ -351,7 +537,13 @@
     "emd": "삼계동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2021.12",
+    "dongCnt": "21동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경상남도 김해시 두곡로 15"
   },
   {
     "code": "A10024556",
@@ -362,7 +554,13 @@
     "emd": "삼계동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2020.10",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "경상남도 김해시 김해대로1765번길 7"
   },
   {
     "code": "A10025286",
@@ -373,7 +571,13 @@
     "emd": "삼계동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2019.09",
+    "dongCnt": "16동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경상남도 김해시 해반천로 280"
   },
   {
     "code": "A62107001",
@@ -384,7 +588,13 @@
     "emd": "삼계동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2008.04",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 김해대로 1832"
   },
   {
     "code": "A62107002",
@@ -395,7 +605,13 @@
     "emd": "삼계동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2005.10",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 김해대로 1784-27"
   },
   {
     "code": "A62107003",
@@ -406,7 +622,13 @@
     "emd": "삼계동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1994.01",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 김해대로 1784-14"
   },
   {
     "code": "A62107004",
@@ -417,7 +639,13 @@
     "emd": "삼계동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2002.08",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 김해시 삼계로 223"
   },
   {
     "code": "A62107005",
@@ -428,7 +656,13 @@
     "emd": "삼계동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2002.08",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "경상남도 김해시 해반천로168번길 7"
   },
   {
     "code": "A62107006",
@@ -439,7 +673,13 @@
     "emd": "삼계동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2002.09",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 김해시 삼계로 239"
   },
   {
     "code": "A62107007",
@@ -450,7 +690,13 @@
     "emd": "삼계동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2003.06",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "경상남도 김해시 삼계로 253"
   },
   {
     "code": "A62107008",
@@ -461,7 +707,13 @@
     "emd": "삼계동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2005.01",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 김해시 삼계로 218"
   },
   {
     "code": "A62107009",
@@ -472,7 +724,13 @@
     "emd": "삼계동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2004.08",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 김해시 해반천로168번길 23"
   },
   {
     "code": "A62107010",
@@ -483,7 +741,13 @@
     "emd": "삼계동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2007.11",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 해반천로278번길 12-27"
   },
   {
     "code": "A62107013",
@@ -494,7 +758,13 @@
     "emd": "삼계동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2006.01",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 김해시 가야로 19"
   },
   {
     "code": "A62107014",
@@ -505,7 +775,13 @@
     "emd": "삼계동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2007.04",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "경상남도 김해시 삼계로 35"
   },
   {
     "code": "A62107015",
@@ -516,7 +792,13 @@
     "emd": "삼계동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2001.11",
+    "dongCnt": "15동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 김해시 삼계로 232"
   },
   {
     "code": "A62174801",
@@ -527,7 +809,13 @@
     "emd": "삼계동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2003.07",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 김해대로 1864"
   },
   {
     "code": "A62174802",
@@ -538,7 +826,13 @@
     "emd": "삼계동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2013.08",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경상남도 김해시 김해대로 1868"
   },
   {
     "code": "A62174803",
@@ -549,7 +843,13 @@
     "emd": "삼계동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2013.12",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 김해시 김해대로 1870"
   },
   {
     "code": "A62176812",
@@ -560,7 +860,13 @@
     "emd": "삼계동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2005.03",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "경상남도 김해시 삼계로 248"
   },
   {
     "code": "A62177011",
@@ -571,7 +877,13 @@
     "emd": "삼계동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2005.03",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 김해시 가야로 60"
   },
   {
     "code": "A10023873",
@@ -582,7 +894,13 @@
     "emd": "내동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2022.02",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 34,
+    "addr": "경상남도 김해시 금관대로 1407"
   },
   {
     "code": "A62175102",
@@ -593,7 +911,13 @@
     "emd": "내동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1994.11",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 구지로 63"
   },
   {
     "code": "A62176006",
@@ -604,7 +928,13 @@
     "emd": "내동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1998.12",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 우암로 106"
   },
   {
     "code": "A62176007",
@@ -615,7 +945,13 @@
     "emd": "내동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1992.05",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 평전로 219"
   },
   {
     "code": "A62176403",
@@ -626,7 +962,13 @@
     "emd": "내동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1995.09",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 구지로 55"
   },
   {
     "code": "A62190207",
@@ -637,7 +979,13 @@
     "emd": "내동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1990.07",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 6,
+    "addr": "경상남도 김해시 평전로 211"
   },
   {
     "code": "A62190308",
@@ -648,7 +996,13 @@
     "emd": "내동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1996.04",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 내외로 55"
   },
   {
     "code": "A62190309",
@@ -659,7 +1013,13 @@
     "emd": "내동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1998.04",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 우암로 76"
   },
   {
     "code": "A62190501",
@@ -670,7 +1030,13 @@
     "emd": "내동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1998.06",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 경원로55번길 9"
   },
   {
     "code": "A62190504",
@@ -681,7 +1047,13 @@
     "emd": "내동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1996.03",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 경원로 84"
   },
   {
     "code": "A62190505",
@@ -692,7 +1064,13 @@
     "emd": "내동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1994.09",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 내외중앙로 121"
   },
   {
     "code": "A62190510",
@@ -703,7 +1081,13 @@
     "emd": "내동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1996.05",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 경원로 83"
   },
   {
     "code": "A10024553",
@@ -714,7 +1098,13 @@
     "emd": "외동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2020.10",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경상남도 김해시 금관대로1134번길 16"
   },
   {
     "code": "A10025678",
@@ -725,7 +1115,13 @@
     "emd": "외동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2019.02",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "경상남도 김해시 분성로 4"
   },
   {
     "code": "A62175301",
@@ -736,7 +1132,13 @@
     "emd": "외동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2013.08",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 김해시 분성로 26"
   },
   {
     "code": "A62175408",
@@ -747,7 +1149,13 @@
     "emd": "외동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1996.05",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 우암로 8"
   },
   {
     "code": "A62175514",
@@ -758,7 +1166,13 @@
     "emd": "외동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1997.01",
+    "dongCnt": "15동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 함박로 122"
   },
   {
     "code": "A62175616",
@@ -769,7 +1183,13 @@
     "emd": "외동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1998.06",
+    "dongCnt": "22동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 분성로 155"
   },
   {
     "code": "A62177607",
@@ -780,7 +1200,13 @@
     "emd": "외동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1989.06",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "경상남도 김해시 평전로 33"
   },
   {
     "code": "A62177715",
@@ -791,7 +1217,13 @@
     "emd": "외동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1999.12",
+    "dongCnt": "27동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "경상남도 김해시 분성로 14"
   },
   {
     "code": "A62177909",
@@ -802,7 +1234,13 @@
     "emd": "외동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1992.09",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "경상남도 김해시 분성로48번길 16"
   },
   {
     "code": "A62191901",
@@ -813,7 +1251,13 @@
     "emd": "외동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1994.08",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 전하로 251"
   },
   {
     "code": "A62191902",
@@ -824,7 +1268,13 @@
     "emd": "외동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2004.06",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경상남도 김해시 분성로 94-21"
   },
   {
     "code": "A62191903",
@@ -835,7 +1285,13 @@
     "emd": "외동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1993.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 김해시 분성로172번길 18"
   },
   {
     "code": "A62191906",
@@ -846,7 +1302,13 @@
     "emd": "외동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2005.07",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 11,
+    "addr": "경상남도 김해시 분성로134번길 7"
   },
   {
     "code": "A62191912",
@@ -857,7 +1319,13 @@
     "emd": "외동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1996.08",
+    "dongCnt": "20동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 우암로 36"
   },
   {
     "code": "A62192204",
@@ -868,7 +1336,13 @@
     "emd": "외동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1995.04",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 함박로 149"
   },
   {
     "code": "A62192205",
@@ -879,7 +1353,13 @@
     "emd": "외동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1995.11",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 함박로 162"
   },
   {
     "code": "A62192210",
@@ -890,7 +1370,13 @@
     "emd": "외동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1997.02",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 함박로119번길 6"
   },
   {
     "code": "A62192213",
@@ -901,7 +1387,13 @@
     "emd": "외동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1995.11",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 함박로101번길 19"
   },
   {
     "code": "A62110001",
@@ -912,7 +1404,13 @@
     "emd": "전하동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1998.08",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 전하로176번길 71"
   },
   {
     "code": "A10021450",
@@ -923,7 +1421,13 @@
     "emd": "삼정동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1993.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "경상남도 김해시 활천로68번길 27"
   },
   {
     "code": "A10020978",
@@ -934,7 +1438,13 @@
     "emd": "어방동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1989.11",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "경상남도 김해시 활천로166번길 28"
   },
   {
     "code": "A10021860",
@@ -945,7 +1455,13 @@
     "emd": "어방동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1991.02",
+    "dongCnt": "1동",
+    "heat": "",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "경상남도 김해시 인제로169번길 9"
   },
   {
     "code": "A62175203",
@@ -956,7 +1472,13 @@
     "emd": "어방동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1996.12",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 김해시 인제로 167-1"
   },
   {
     "code": "A62175204",
@@ -967,7 +1489,13 @@
     "emd": "어방동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1998.04",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 활천로 181"
   },
   {
     "code": "A62175205",
@@ -978,7 +1506,13 @@
     "emd": "어방동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1994.11",
+    "dongCnt": "15동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "경상남도 김해시 인제로 167"
   },
   {
     "code": "A62175206",
@@ -989,7 +1523,13 @@
     "emd": "어방동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2009.06",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 김해시 분성로499번길 9"
   },
   {
     "code": "A62177401",
@@ -1000,7 +1540,13 @@
     "emd": "어방동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1991.02",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 인제로169번길 9"
   },
   {
     "code": "A62177402",
@@ -1011,7 +1557,13 @@
     "emd": "어방동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1997.04",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 인제로169번길 27"
   },
   {
     "code": "A62177102",
@@ -1022,7 +1574,13 @@
     "emd": "삼방동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1991.04",
+    "dongCnt": "16동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "경상남도 김해시 삼안로 207"
   },
   {
     "code": "A62177105",
@@ -1033,7 +1591,13 @@
     "emd": "삼방동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1991.11",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "경상남도 김해시 삼안로 226"
   },
   {
     "code": "A62177203",
@@ -1044,7 +1608,13 @@
     "emd": "삼방동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1992.07",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 삼안로 244"
   },
   {
     "code": "A62177204",
@@ -1055,7 +1625,13 @@
     "emd": "삼방동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1992.07",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 삼안로 264"
   },
   {
     "code": "A62190901",
@@ -1066,7 +1642,13 @@
     "emd": "삼방동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1990.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "경상남도 김해시 활천로285번길 4"
   },
   {
     "code": "A10022467",
@@ -1077,7 +1659,13 @@
     "emd": "안동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2024.07",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 47,
+    "addr": "경상남도 김해시 안동길 11"
   },
   {
     "code": "A10023054",
@@ -1088,7 +1676,13 @@
     "emd": "안동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2023.08",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 47,
+    "addr": "경상남도 김해시 안동길 31"
   },
   {
     "code": "A62177304",
@@ -1099,7 +1693,13 @@
     "emd": "안동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1998.07",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "경상남도 김해시 삼안로111번길 12"
   },
   {
     "code": "A62191401",
@@ -1110,7 +1710,13 @@
     "emd": "안동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2001.08",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "사택 및 관사 등",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 삼안로111번길 5"
   },
   {
     "code": "A62191402",
@@ -1121,7 +1727,13 @@
     "emd": "안동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1992.11",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 분성로627번길 16-3"
   },
   {
     "code": "A62191403",
@@ -1132,7 +1744,13 @@
     "emd": "안동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1995.06",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "경상남도 김해시 삼안로112번길 4"
   },
   {
     "code": "A62122001",
@@ -1143,7 +1761,13 @@
     "emd": "지내동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2003.04",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "경상남도 김해시 분성로727번길 26-41"
   },
   {
     "code": "A62178002",
@@ -1154,7 +1778,13 @@
     "emd": "지내동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2002.05",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 분성로727번길 21"
   },
   {
     "code": "A62178003",
@@ -1165,7 +1795,13 @@
     "emd": "지내동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2000.04",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 분성로727번길 16"
   },
   {
     "code": "A10020938",
@@ -1176,7 +1812,13 @@
     "emd": "내덕동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2024.12",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경상남도 김해시 외덕로 125"
   },
   {
     "code": "A10022485",
@@ -1187,7 +1829,13 @@
     "emd": "내덕동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2024.07",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경상남도 김해시 신내덕로 50"
   },
   {
     "code": "A10027260",
@@ -1198,7 +1846,13 @@
     "emd": "내덕동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2016.12",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "경상남도 김해시 금관대로 688"
   },
   {
     "code": "A62172127",
@@ -1209,7 +1863,13 @@
     "emd": "부곡동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2000.08",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 김해시 월산로 10"
   },
   {
     "code": "A62172128",
@@ -1220,7 +1880,13 @@
     "emd": "부곡동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2000.07",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 김해시 월산로 26"
   },
   {
     "code": "A62172144",
@@ -1231,7 +1897,13 @@
     "emd": "부곡동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2000.07",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 김해시 월산로 82-62"
   },
   {
     "code": "A62183103",
@@ -1242,7 +1914,13 @@
     "emd": "부곡동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2004.09",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 김해시 월산로 62"
   },
   {
     "code": "A62183106",
@@ -1253,7 +1931,13 @@
     "emd": "부곡동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2004.09",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "경상남도 김해시 월산로 74"
   },
   {
     "code": "A62183149",
@@ -1264,7 +1948,13 @@
     "emd": "부곡동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2003.09",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경상남도 김해시 월산로 13-14"
   },
   {
     "code": "A62183155",
@@ -1275,7 +1965,13 @@
     "emd": "부곡동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2004.02",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 김해시 능동로 118"
   },
   {
     "code": "A62183158",
@@ -1286,7 +1982,13 @@
     "emd": "부곡동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2004.02",
+    "dongCnt": "14동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 김해시 능동로 117"
   },
   {
     "code": "A62183164",
@@ -1297,7 +1999,13 @@
     "emd": "부곡동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2004.08",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "경상남도 김해시 월산로 112-55"
   },
   {
     "code": "A62183171",
@@ -1308,7 +2016,13 @@
     "emd": "부곡동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2002.10",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "경상남도 김해시 월산로 142"
   },
   {
     "code": "A62183301",
@@ -1319,7 +2033,13 @@
     "emd": "부곡동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2005.12",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "경상남도 김해시 월산로 112-34"
   },
   {
     "code": "A62183307",
@@ -1330,7 +2050,13 @@
     "emd": "부곡동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2002.10",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 대청로 421"
   },
   {
     "code": "A62183314",
@@ -1341,7 +2067,13 @@
     "emd": "부곡동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2002.03",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "경상남도 김해시 월산로 112-56"
   },
   {
     "code": "A62183315",
@@ -1352,7 +2084,13 @@
     "emd": "부곡동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2004.08",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경상남도 김해시 월산로 151"
   },
   {
     "code": "A62183316",
@@ -1363,7 +2101,13 @@
     "emd": "부곡동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2001.12",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 월산로 82-55"
   },
   {
     "code": "A62183326",
@@ -1374,7 +2118,13 @@
     "emd": "부곡동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2004.10",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 18,
+    "addr": "경상남도 김해시 월산로 81-14"
   },
   {
     "code": "A62183329",
@@ -1385,7 +2135,13 @@
     "emd": "부곡동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2004.09",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경상남도 김해시 부곡로 10"
   },
   {
     "code": "A62183333",
@@ -1396,7 +2152,13 @@
     "emd": "부곡동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2004.08",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 김해시 월산로 82-15"
   },
   {
     "code": "A62183338",
@@ -1407,7 +2169,13 @@
     "emd": "부곡동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2004.03",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 김해시 월산로 119"
   },
   {
     "code": "A62183339",
@@ -1418,7 +2186,13 @@
     "emd": "부곡동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2004.02",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경상남도 김해시 월산로 111-48"
   },
   {
     "code": "A62183340",
@@ -1429,7 +2203,13 @@
     "emd": "부곡동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2001.12",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 월산로 120"
   },
   {
     "code": "A62183348",
@@ -1440,7 +2220,13 @@
     "emd": "부곡동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2004.10",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "경상남도 김해시 월산로 103"
   },
   {
     "code": "A62183352",
@@ -1451,7 +2237,13 @@
     "emd": "부곡동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2002.09",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 부곡로 78"
   },
   {
     "code": "A10024499",
@@ -1462,7 +2254,13 @@
     "emd": "무계동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2020.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 38,
+    "addr": "경상남도 김해시 무계한빛길 50"
   },
   {
     "code": "A10024748",
@@ -1473,7 +2271,13 @@
     "emd": "무계동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2020.07",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 김해시 장유로307번길 17"
   },
   {
     "code": "A10025879",
@@ -1484,7 +2288,13 @@
     "emd": "무계동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2018.11",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 김해시 무계로 47"
   },
   {
     "code": "A10027132",
@@ -1495,7 +2305,13 @@
     "emd": "무계동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2017.02",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 25,
+    "addr": "경상남도 김해시 무계로 80"
   },
   {
     "code": "A10027140",
@@ -1506,7 +2322,13 @@
     "emd": "무계동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2017.02",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 23,
+    "addr": "경상남도 김해시 무계로 79"
   },
   {
     "code": "A62171357",
@@ -1517,7 +2339,13 @@
     "emd": "무계동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2000.07",
+    "dongCnt": "12동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "경상남도 김해시 금관대로599번길 11"
   },
   {
     "code": "A62171462",
@@ -1528,7 +2356,13 @@
     "emd": "무계동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2002.05",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 김해시 금관대로599번길 27"
   },
   {
     "code": "A62183305",
@@ -1539,7 +2373,13 @@
     "emd": "무계동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2007.01",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 장유로288번길 15"
   },
   {
     "code": "A10020225",
@@ -1550,7 +2390,13 @@
     "emd": "신문동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2026.02",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경상남도 김해시 신문중앙로 110"
   },
   {
     "code": "A10020807",
@@ -1561,7 +2407,13 @@
     "emd": "신문동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2025.02",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 49,
+    "addr": "경상남도 김해시 장유로 500"
   },
   {
     "code": "A10022703",
@@ -1572,7 +2424,13 @@
     "emd": "신문동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2024.03",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "경상남도 김해시 장유로334번길 67"
   },
   {
     "code": "A10022926",
@@ -1583,7 +2441,13 @@
     "emd": "신문동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2023.10",
+    "dongCnt": "8동",
+    "heat": "개별난방+기타",
+    "sale": "분양",
+    "topFloor": 38,
+    "addr": "경상남도 김해시 장유로334번길 30"
   },
   {
     "code": "A10025492",
@@ -1594,7 +2458,13 @@
     "emd": "신문동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2019.05",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 40,
+    "addr": "경상남도 김해시 장유로334번길 9"
   },
   {
     "code": "A62183235",
@@ -1605,7 +2475,13 @@
     "emd": "신문동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2007.02",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 장유로334번길 76"
   },
   {
     "code": "A62183237",
@@ -1616,7 +2492,13 @@
     "emd": "신문동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2008.07",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 장유로 362"
   },
   {
     "code": "A62183241",
@@ -1627,7 +2509,13 @@
     "emd": "신문동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2007.12",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 장유로 360"
   },
   {
     "code": "A10020079",
@@ -1638,7 +2526,13 @@
     "emd": "삼문동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2026.05",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경상남도 김해시 삼문로 61"
   },
   {
     "code": "A10023125",
@@ -1649,7 +2543,13 @@
     "emd": "삼문동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2023.06",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "경상남도 김해시 대청로261번길 9"
   },
   {
     "code": "A10023134",
@@ -1660,7 +2560,13 @@
     "emd": "삼문동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2023.06",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "경상남도 김해시 대청로261번길 7"
   },
   {
     "code": "A10026045",
@@ -1671,7 +2577,13 @@
     "emd": "삼문동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2018.08",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "경상남도 김해시 대청로 237"
   },
   {
     "code": "A10026980",
@@ -1682,7 +2594,13 @@
     "emd": "삼문동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2017.06",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 김해시 장유로334번길 73"
   },
   {
     "code": "A62172465",
@@ -1693,7 +2611,13 @@
     "emd": "삼문동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2002.10",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 능동로 76"
   },
   {
     "code": "A62183111",
@@ -1704,7 +2628,13 @@
     "emd": "삼문동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2002.09",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 김해시 대청로210번길 35"
   },
   {
     "code": "A62183112",
@@ -1715,7 +2645,13 @@
     "emd": "삼문동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2004.12",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 김해시 번화1로 104"
   },
   {
     "code": "A62183113",
@@ -1726,7 +2662,13 @@
     "emd": "삼문동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2003.09",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "경상남도 김해시 삼문로 88"
   },
   {
     "code": "A62183119",
@@ -1737,7 +2679,13 @@
     "emd": "삼문동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2004.10",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 번화1로 168"
   },
   {
     "code": "A62183121",
@@ -1748,7 +2696,13 @@
     "emd": "삼문동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2004.05",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "경상남도 김해시 번화1로84번길 9"
   },
   {
     "code": "A62183123",
@@ -1759,7 +2713,13 @@
     "emd": "삼문동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2004.10",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "경상남도 김해시 대청로210번길 13"
   },
   {
     "code": "A62183125",
@@ -1770,7 +2730,13 @@
     "emd": "삼문동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2003.03",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 김해시 번화1로84번길 29"
   },
   {
     "code": "A62183130",
@@ -1781,7 +2747,13 @@
     "emd": "삼문동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2003.08",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경상남도 김해시 반룡로 87-12"
   },
   {
     "code": "A62183131",
@@ -1792,7 +2764,13 @@
     "emd": "삼문동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2005.08",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 김해시 능동로 10"
   },
   {
     "code": "A62183136",
@@ -1803,7 +2781,13 @@
     "emd": "삼문동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2004.10",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 김해시 능동로 32"
   },
   {
     "code": "A62183161",
@@ -1814,7 +2798,13 @@
     "emd": "삼문동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2002.08",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 김해시 번화2로 90"
   },
   {
     "code": "A62171208",
@@ -1825,7 +2815,13 @@
     "emd": "대청동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2000.07",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 김해시 계동로102번길 17-27"
   },
   {
     "code": "A62183104",
@@ -1836,7 +2832,13 @@
     "emd": "대청동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2005.01",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "경상남도 김해시 계동로 138"
   },
   {
     "code": "A62183109",
@@ -1847,7 +2849,13 @@
     "emd": "대청동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2005.08",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 김해시 반룡로 65"
   },
   {
     "code": "A62183110",
@@ -1858,7 +2866,13 @@
     "emd": "대청동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2005.01",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 김해시 반룡로 11"
   },
   {
     "code": "A62183124",
@@ -1869,7 +2883,13 @@
     "emd": "대청동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2002.08",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경상남도 김해시 계동로 86"
   },
   {
     "code": "A62183134",
@@ -1880,7 +2900,13 @@
     "emd": "대청동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2002.10",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 김해시 계동로102번길 9"
   },
   {
     "code": "A62183146",
@@ -1891,7 +2917,13 @@
     "emd": "대청동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2002.07",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "경상남도 김해시 계동로 76-56"
   },
   {
     "code": "A62183151",
@@ -1902,7 +2934,13 @@
     "emd": "대청동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2002.09",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 김해시 계동로 76-22"
   },
   {
     "code": "A62183153",
@@ -1913,7 +2951,13 @@
     "emd": "대청동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2002.07",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 김해시 계동로102번길 24"
   },
   {
     "code": "A10025323",
@@ -1924,7 +2968,13 @@
     "emd": "관동동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2019.08",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "경상남도 김해시 관동로27번길 39"
   },
   {
     "code": "A10026713",
@@ -1935,7 +2985,13 @@
     "emd": "관동동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2017.10",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "경상남도 김해시 관동로27번길 117"
   },
   {
     "code": "A10027176",
@@ -1946,7 +3002,13 @@
     "emd": "관동동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2017.01",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 김해시 관동로27번길 95"
   },
   {
     "code": "A62130001",
@@ -1957,7 +3019,13 @@
     "emd": "관동동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2013.09",
+    "dongCnt": "18동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 김해시 율하3로 100"
   },
   {
     "code": "A62183102",
@@ -1968,7 +3036,13 @@
     "emd": "관동동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2005.02",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 계동로 31"
   },
   {
     "code": "A62183118",
@@ -1979,7 +3053,13 @@
     "emd": "관동동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2009.01",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 김해시 덕정로 187"
   },
   {
     "code": "A62183122",
@@ -1990,7 +3070,13 @@
     "emd": "관동동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2005.03",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "경상남도 김해시 팔판로 71"
   },
   {
     "code": "A62183132",
@@ -2001,7 +3087,13 @@
     "emd": "관동동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2005.06",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "경상남도 김해시 팔판로 93"
   },
   {
     "code": "A62183143",
@@ -2012,7 +3104,13 @@
     "emd": "관동동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2005.03",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 김해시 팔판로 27"
   },
   {
     "code": "A62183154",
@@ -2023,7 +3121,13 @@
     "emd": "관동동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2005.06",
+    "dongCnt": "12동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경상남도 김해시 덕정로 108"
   },
   {
     "code": "A62183160",
@@ -2034,7 +3138,13 @@
     "emd": "관동동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2004.05",
+    "dongCnt": "17동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 덕정로 68"
   },
   {
     "code": "A62183167",
@@ -2045,7 +3155,13 @@
     "emd": "관동동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2013.06",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "경상남도 김해시 관동로 138"
   },
   {
     "code": "A62183162",
@@ -2056,7 +3172,13 @@
     "emd": "율하동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2009.06",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 24,
+    "addr": "경상남도 김해시 율하2로 178"
   },
   {
     "code": "A62183163",
@@ -2067,7 +3189,13 @@
     "emd": "율하동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2009.06",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 25,
+    "addr": "경상남도 김해시 율하2로 164"
   },
   {
     "code": "A62183165",
@@ -2078,7 +3206,13 @@
     "emd": "율하동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2012.03",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 김해시 율하2로 87"
   },
   {
     "code": "A62183166",
@@ -2089,7 +3223,13 @@
     "emd": "율하동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2013.04",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 김해시 율하2로 125"
   },
   {
     "code": "A62183169",
@@ -2100,7 +3240,13 @@
     "emd": "율하동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2013.10",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 김해시 율하1로 130"
   },
   {
     "code": "A62183170",
@@ -2111,7 +3257,13 @@
     "emd": "율하동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2014.01",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 김해시 율하1로 90"
   },
   {
     "code": "A62183417",
@@ -2122,7 +3274,13 @@
     "emd": "율하동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2008.12",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "경상남도 김해시 율하1로 64"
   },
   {
     "code": "A62183442",
@@ -2133,7 +3291,13 @@
     "emd": "율하동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2009.01",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "경상남도 김해시 율하2로 198"
   },
   {
     "code": "A62183447",
@@ -2144,7 +3308,13 @@
     "emd": "율하동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2008.12",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 김해시 율하2로 57"
   },
   {
     "code": "A62183456",
@@ -2155,7 +3325,13 @@
     "emd": "율하동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2008.11",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 25,
+    "addr": "경상남도 김해시 율하1로 7"
   },
   {
     "code": "A62183459",
@@ -2166,7 +3342,13 @@
     "emd": "율하동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2009.01",
+    "dongCnt": "17동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 김해시 율하3로 76"
   },
   {
     "code": "A10024986",
@@ -2177,7 +3359,13 @@
     "emd": "장유동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2020.02",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 25,
+    "addr": "경상남도 김해시 율하5로 46"
   },
   {
     "code": "A10025090",
@@ -2188,7 +3376,13 @@
     "emd": "장유동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2020.01",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 23,
+    "addr": "경상남도 김해시 율하5로 48"
   },
   {
     "code": "A10025216",
@@ -2199,7 +3393,13 @@
     "emd": "장유동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2019.10",
+    "dongCnt": "17동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 김해시 율하5로 11"
   },
   {
     "code": "A10025494",
@@ -2210,7 +3410,13 @@
     "emd": "장유동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2019.05",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "경상남도 김해시 율하6로 17"
   },
   {
     "code": "A10025521",
@@ -2221,7 +3427,13 @@
     "emd": "장유동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2019.05",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 25,
+    "addr": "경상남도 김해시 율하5로 14"
   },
   {
     "code": "A10025782",
@@ -2232,7 +3444,13 @@
     "emd": "장유동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2018.12",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 김해시 율하로 479"
   },
   {
     "code": "A10025831",
@@ -2243,7 +3461,13 @@
     "emd": "장유동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2018.12",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 김해시 율하5로 99"
   },
   {
     "code": "A10025839",
@@ -2254,7 +3478,13 @@
     "emd": "장유동",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2018.12",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 김해시 율하6로 18"
   },
   {
     "code": "A10021875",
@@ -2265,7 +3495,13 @@
     "emd": "진영읍",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1991.11",
+    "dongCnt": "4동",
+    "heat": "",
+    "sale": "분양",
+    "topFloor": 6,
+    "addr": "경상남도 김해시 진남로 9"
   },
   {
     "code": "A62180005",
@@ -2276,7 +3512,13 @@
     "emd": "진영읍",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2008.09",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 하계로 9-29"
   },
   {
     "code": "A10022385",
@@ -2287,7 +3529,13 @@
     "emd": "진영읍",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1992.08",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 6,
+    "addr": "경상남도 김해시 진영로50번길 16"
   },
   {
     "code": "A10025054",
@@ -2298,7 +3546,13 @@
     "emd": "진영읍",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2018.06",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "경상남도 김해시 김해대로 258"
   },
   {
     "code": "A10025656",
@@ -2309,7 +3563,13 @@
     "emd": "진영읍",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2019.02",
+    "dongCnt": "19동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경상남도 김해시 진산대로 59"
   },
   {
     "code": "A10026999",
@@ -2320,7 +3580,13 @@
     "emd": "진영읍",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2017.05",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 30,
+    "addr": "경상남도 김해시 진산대로 61"
   },
   {
     "code": "A10027283",
@@ -2331,7 +3597,13 @@
     "emd": "진영읍",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2016.10",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "경상남도 김해시 장등1로31번길 7"
   },
   {
     "code": "A10027665",
@@ -2342,7 +3614,13 @@
     "emd": "진영읍",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2016.01",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "경상남도 김해시 김해대로332번길 79"
   },
   {
     "code": "A10027844",
@@ -2353,7 +3631,13 @@
     "emd": "진영읍",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2015.10",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경상남도 김해시 진영산복로 19"
   },
   {
     "code": "A10027991",
@@ -2364,7 +3648,13 @@
     "emd": "진영읍",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2015.06",
+    "dongCnt": "17동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 25,
+    "addr": "경상남도 김해시 장등로 9"
   },
   {
     "code": "A62180009",
@@ -2375,7 +3665,13 @@
     "emd": "진영읍",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2006.01",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 김해시 장등로19번길 18"
   },
   {
     "code": "A62180010",
@@ -2386,7 +3682,13 @@
     "emd": "진영읍",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2007.09",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 김해시 김해대로361번길 34"
   },
   {
     "code": "A62180011",
@@ -2397,7 +3699,13 @@
     "emd": "진영읍",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2007.12",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 김해시 김해대로361번길 31"
   },
   {
     "code": "A62180012",
@@ -2408,7 +3716,13 @@
     "emd": "진영읍",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2006.02",
+    "dongCnt": "17동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 김해시 장등로 55"
   },
   {
     "code": "A62180702",
@@ -2419,7 +3733,13 @@
     "emd": "진영읍",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1992.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경상남도 김해시 진영로 98-6"
   },
   {
     "code": "A62180706",
@@ -2430,7 +3750,13 @@
     "emd": "진영읍",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1997.07",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경상남도 김해시 진영로 10"
   },
   {
     "code": "A62180708",
@@ -2441,7 +3767,13 @@
     "emd": "진영읍",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2001.10",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 김해대로244번길 10"
   },
   {
     "code": "A10026586",
@@ -2452,7 +3784,13 @@
     "emd": "진영읍",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2017.12",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 21,
+    "addr": "경상남도 김해시 김해대로 461"
   },
   {
     "code": "A10026594",
@@ -2463,7 +3801,13 @@
     "emd": "진영읍",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2017.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 19,
+    "addr": "경상남도 김해시 김해대로 464-48"
   },
   {
     "code": "A10027012",
@@ -2474,7 +3818,13 @@
     "emd": "진영읍",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2017.05",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 28,
+    "addr": "경상남도 김해시 김해대로 463"
   },
   {
     "code": "A10027034",
@@ -2485,7 +3835,13 @@
     "emd": "진영읍",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2017.03",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 김해시 진영로 284"
   },
   {
     "code": "A62180105",
@@ -2496,7 +3852,13 @@
     "emd": "진영읍",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2010.03",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 김해대로 462"
   },
   {
     "code": "A62180106",
@@ -2507,7 +3869,13 @@
     "emd": "진영읍",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2014.05",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 김해시 진영로 273"
   },
   {
     "code": "A62180501",
@@ -2518,7 +3886,13 @@
     "emd": "진영읍",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1992.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "경상남도 김해시 진영로 262-15"
   },
   {
     "code": "A62180507",
@@ -2529,7 +3903,13 @@
     "emd": "진영읍",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1992.11",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 진영로 262-24"
   },
   {
     "code": "A62180603",
@@ -2540,7 +3920,13 @@
     "emd": "진영읍",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2004.09",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경상남도 김해시 하계로 415"
   },
   {
     "code": "A62180104",
@@ -2551,7 +3937,13 @@
     "emd": "진영읍",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2001.11",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "경상남도 김해시 서부로 190"
   },
   {
     "code": "A10020301",
@@ -2563,7 +3955,13 @@
     "sigunguCode": "48250",
     "sido": "경상남도",
     "sigungu": "김해시",
-    "hhldCnt": 992
+    "hhldCnt": 992,
+    "built": "2025.12",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경상남도 김해시 주선로 140"
   },
   {
     "code": "A10023354",
@@ -2574,7 +3972,13 @@
     "emd": "주촌면",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2023.02",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 김해시 선지로 59"
   },
   {
     "code": "A10025167",
@@ -2585,7 +3989,13 @@
     "emd": "주촌면",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2019.11",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경상남도 김해시 주선로 34"
   },
   {
     "code": "A10026250",
@@ -2596,7 +4006,13 @@
     "emd": "주촌면",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2018.05",
+    "dongCnt": "16동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 김해시 선지로 85"
   },
   {
     "code": "A10024183",
@@ -2607,7 +4023,13 @@
     "emd": "주촌면",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2021.08",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "경상남도 김해시 천곡로 52"
   },
   {
     "code": "A10025625",
@@ -2618,7 +4040,13 @@
     "emd": "주촌면",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "2019.02",
+    "dongCnt": "32동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 30,
+    "addr": "경상남도 김해시 천곡로 26"
   },
   {
     "code": "A10020680",
@@ -2630,7 +4058,13 @@
     "sigunguCode": "48250",
     "sido": "경상남도",
     "sigungu": "김해시",
-    "hhldCnt": 114
+    "hhldCnt": 114,
+    "built": "2005.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "경상남도 김해시 진례로371번길 24"
   },
   {
     "code": "A10021686",
@@ -2641,7 +4075,13 @@
     "emd": "진례면",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1992.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "경상남도 김해시 진례로256번길 10-1"
   },
   {
     "code": "A10021502",
@@ -2652,7 +4092,13 @@
     "emd": "진례면",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1992.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "경상남도 김해시 송현로 53"
   },
   {
     "code": "A62188401",
@@ -2663,7 +4109,13 @@
     "emd": "진례면",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1998.12",
+    "dongCnt": "2동",
+    "heat": "개별난방+기타",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 김해시 송현로 56"
   },
   {
     "code": "A62187401",
@@ -2674,6 +4126,12 @@
     "emd": "한림면",
     "sigunguCode": "48250",
     "sido": "경상남도",
-    "sigungu": "김해시"
+    "sigungu": "김해시",
+    "built": "1998.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경상남도 김해시 한림로342번길 24"
   }
 ]

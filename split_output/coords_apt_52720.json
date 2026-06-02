@@ -8,7 +8,13 @@
     "emd": "진안읍",
     "sigunguCode": "52720",
     "sido": "전북특별자치도",
-    "sigungu": "진안군"
+    "sigungu": "진안군",
+    "built": "2006.12",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 14,
+    "addr": "전북특별자치도 진안군 진장로 51-16"
   },
   {
     "code": "A56780502",
@@ -19,7 +25,13 @@
     "emd": "진안읍",
     "sigunguCode": "52720",
     "sido": "전북특별자치도",
-    "sigungu": "진안군"
+    "sigungu": "진안군",
+    "built": "2000.09",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "전북특별자치도 진안군 진용로 63-10"
   },
   {
     "code": "A56780601",
@@ -30,6 +42,12 @@
     "emd": "진안읍",
     "sigunguCode": "52720",
     "sido": "전북특별자치도",
-    "sigungu": "진안군"
+    "sigungu": "진안군",
+    "built": "1995.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 진안군 대광1길 4"
   }
 ]

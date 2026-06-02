@@ -8,7 +8,13 @@
     "emd": "갈매동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2017.03",
+    "dongCnt": "1동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 7,
+    "addr": "경기도 구리시 갈매중앙로 70"
   },
   {
     "code": "A10026043",
@@ -19,7 +25,13 @@
     "emd": "갈매동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2018.08",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 27,
+    "addr": "경기도 구리시 갈매중앙로 25"
   },
   {
     "code": "A10026309",
@@ -30,7 +42,13 @@
     "emd": "갈매동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2018.04",
+    "dongCnt": "12동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경기도 구리시 경춘북로 252"
   },
   {
     "code": "A10026703",
@@ -41,7 +59,13 @@
     "emd": "갈매동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2017.11",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 구리시 갈매중앙로 45"
   },
   {
     "code": "A10026724",
@@ -52,7 +76,13 @@
     "emd": "갈매동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2017.10",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 구리시 갈매중앙로 16"
   },
   {
     "code": "A10026867",
@@ -63,7 +93,13 @@
     "emd": "갈매동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2017.08",
+    "dongCnt": "12동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "경기도 구리시 산마루로 46"
   },
   {
     "code": "A10027267",
@@ -74,7 +110,13 @@
     "emd": "갈매동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2016.11",
+    "dongCnt": "14동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 29,
+    "addr": "경기도 구리시 갈매중앙로 132"
   },
   {
     "code": "A10027438",
@@ -85,7 +127,13 @@
     "emd": "갈매동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2016.07",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 24,
+    "addr": "경기도 구리시 갈매순환로 143"
   },
   {
     "code": "A10027511",
@@ -96,7 +144,13 @@
     "emd": "갈매동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2016.06",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 구리시 갈매순환로 10"
   },
   {
     "code": "A10027574",
@@ -107,7 +161,13 @@
     "emd": "갈매동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2016.05",
+    "dongCnt": "14동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경기도 구리시 갈매중앙로 131"
   },
   {
     "code": "A10020188",
@@ -118,7 +178,13 @@
     "emd": "인창동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2026.03",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "경기도 구리시 경춘로 207"
   },
   {
     "code": "A10020189",
@@ -129,7 +195,13 @@
     "emd": "인창동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2026.03",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 42,
+    "addr": "경기도 구리시 경춘로 199"
   },
   {
     "code": "A10023279",
@@ -140,7 +212,13 @@
     "emd": "인창동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2023.03",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 구리시 인창1로 39-9"
   },
   {
     "code": "A10024681",
@@ -151,7 +229,13 @@
     "emd": "인창동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2021.09",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 25,
+    "addr": "경기도 구리시 건원대로33번길 9"
   },
   {
     "code": "A10025318",
@@ -162,7 +246,13 @@
     "emd": "인창동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2008.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "경기도 구리시 동구릉로66번길 14"
   },
   {
     "code": "A10026269",
@@ -173,7 +263,13 @@
     "emd": "인창동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2001.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 구리시 동구릉로159번길 30"
   },
   {
     "code": "A10027730",
@@ -184,7 +280,13 @@
     "emd": "인창동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2015.05",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 구리시 인창2로 3"
   },
   {
     "code": "A10027731",
@@ -195,7 +297,13 @@
     "emd": "인창동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2015.05",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 구리시 인창2로 13"
   },
   {
     "code": "A47101004",
@@ -206,7 +314,13 @@
     "emd": "인창동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2007.01",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "경기도 구리시 동구릉로53번길 17"
   },
   {
     "code": "A47101007",
@@ -217,7 +331,13 @@
     "emd": "인창동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2007.08",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "경기도 구리시 건원대로99번길 112"
   },
   {
     "code": "A47172702",
@@ -228,7 +348,13 @@
     "emd": "인창동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2001.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 구리시 동구릉로85번길 52"
   },
   {
     "code": "A47172715",
@@ -239,7 +365,13 @@
     "emd": "인창동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "1994.07",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경기도 구리시 동구릉로 151"
   },
   {
     "code": "A47173421",
@@ -250,7 +382,13 @@
     "emd": "인창동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "1996.11",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 구리시 건원대로 56"
   },
   {
     "code": "A47173513",
@@ -261,7 +399,13 @@
     "emd": "인창동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "1996.11",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경기도 구리시 건원대로34번길 51"
   },
   {
     "code": "A47173605",
@@ -272,7 +416,13 @@
     "emd": "인창동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "1991.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 구리시 응달말로40번길 13"
   },
   {
     "code": "A47173703",
@@ -283,7 +433,13 @@
     "emd": "인창동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "1999.07",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "경기도 구리시 동구릉로53번길 87"
   },
   {
     "code": "A47173918",
@@ -294,7 +450,13 @@
     "emd": "인창동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "1998.10",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "경기도 구리시 동구릉로85번길 17"
   },
   {
     "code": "A47174108",
@@ -305,7 +467,13 @@
     "emd": "인창동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "1999.01",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "경기도 구리시 동구릉로 93"
   },
   {
     "code": "A47174224",
@@ -316,7 +484,13 @@
     "emd": "인창동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "1996.09",
+    "dongCnt": "15동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 구리시 건원대로 92"
   },
   {
     "code": "A47174320",
@@ -327,7 +501,13 @@
     "emd": "인창동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "1997.06",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 구리시 건원대로76번길 39"
   },
   {
     "code": "A47174425",
@@ -338,7 +518,13 @@
     "emd": "인창동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "1996.06",
+    "dongCnt": "16동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 구리시 건원대로76번길 134"
   },
   {
     "code": "A47174523",
@@ -349,7 +535,13 @@
     "emd": "인창동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "1996.06",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 구리시 건원대로34번길 77"
   },
   {
     "code": "A47174610",
@@ -360,7 +552,13 @@
     "emd": "인창동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "1999.05",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "경기도 구리시 동구릉로53번길 67"
   },
   {
     "code": "A47175011",
@@ -371,7 +569,13 @@
     "emd": "인창동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2002.10",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 구리시 동구릉로103번길 61"
   },
   {
     "code": "A47175209",
@@ -382,7 +586,13 @@
     "emd": "인창동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2000.10",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "경기도 구리시 동구릉로129번길 24"
   },
   {
     "code": "A47175422",
@@ -393,7 +603,13 @@
     "emd": "인창동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2002.01",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 구리시 동구릉로238번길 20"
   },
   {
     "code": "A47175516",
@@ -404,7 +620,13 @@
     "emd": "인창동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2002.08",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 구리시 동구릉로 114"
   },
   {
     "code": "A47177317",
@@ -415,7 +637,13 @@
     "emd": "인창동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2006.12",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 구리시 동구릉로129번길 23"
   },
   {
     "code": "A47182906",
@@ -426,7 +654,13 @@
     "emd": "인창동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2006.06",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 구리시 동구릉로 226"
   },
   {
     "code": "A47183301",
@@ -437,7 +671,13 @@
     "emd": "인창동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2004.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "경기도 구리시 동구릉로 64"
   },
   {
     "code": "A47183319",
@@ -448,7 +688,13 @@
     "emd": "인창동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2000.10",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 구리시 동구릉로85번길 63"
   },
   {
     "code": "A47185312",
@@ -459,7 +705,13 @@
     "emd": "인창동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2005.03",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 17,
+    "addr": "경기도 구리시 동구릉로148번길 15"
   },
   {
     "code": "A47186114",
@@ -470,7 +722,13 @@
     "emd": "인창동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2004.11",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 구리시 동구릉로53번길 42"
   },
   {
     "code": "A47102001",
@@ -481,7 +739,13 @@
     "emd": "교문동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2001.08",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "경기도 구리시 장자대로 66"
   },
   {
     "code": "A47102002",
@@ -492,7 +756,13 @@
     "emd": "교문동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2009.04",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "경기도 구리시 아차산로487번길 10"
   },
   {
     "code": "A47102003",
@@ -503,7 +773,13 @@
     "emd": "교문동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2010.09",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "경기도 구리시 아차산로487번길 27"
   },
   {
     "code": "A47102207",
@@ -514,7 +790,13 @@
     "emd": "교문동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "1994.10",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "경기도 구리시 장자대로37번길 20"
   },
   {
     "code": "A47170708",
@@ -525,7 +807,13 @@
     "emd": "교문동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "1994.07",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "경기도 구리시 체육관로 47"
   },
   {
     "code": "A47170801",
@@ -536,7 +824,13 @@
     "emd": "교문동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "1993.12",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 구리시 장자대로37번길 55"
   },
   {
     "code": "A47170902",
@@ -547,7 +841,13 @@
     "emd": "교문동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "1998.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "경기도 구리시 체육관로 124"
   },
   {
     "code": "A47171004",
@@ -558,7 +858,13 @@
     "emd": "교문동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "1991.05",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "경기도 구리시 체육관로113번길 45"
   },
   {
     "code": "A47171503",
@@ -569,7 +875,13 @@
     "emd": "교문동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "1999.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "경기도 구리시 체육관로 110"
   },
   {
     "code": "A47171609",
@@ -580,7 +892,13 @@
     "emd": "교문동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "1994.07",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 구리시 체육관로 69"
   },
   {
     "code": "A47171712",
@@ -591,7 +909,13 @@
     "emd": "교문동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "1994.12",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경기도 구리시 장자대로37번길 70"
   },
   {
     "code": "A47171806",
@@ -602,7 +926,13 @@
     "emd": "교문동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "1990.12",
+    "dongCnt": "16동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "경기도 구리시 이문안로 51"
   },
   {
     "code": "A47176305",
@@ -613,7 +943,13 @@
     "emd": "교문동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2001.09",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "경기도 구리시 장자호수길 71"
   },
   {
     "code": "A47186010",
@@ -624,7 +960,13 @@
     "emd": "교문동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2001.08",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 구리시 장자대로 38"
   },
   {
     "code": "A10022527",
@@ -635,7 +977,13 @@
     "emd": "수택동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2024.05",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 20,
+    "addr": "경기도 구리시 경춘로276번길 34"
   },
   {
     "code": "A10023749",
@@ -646,7 +994,13 @@
     "emd": "수택동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2022.01",
+    "dongCnt": "1동",
+    "heat": "개별난방+기타",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경기도 구리시 원수택로64번길 33"
   },
   {
     "code": "A10024182",
@@ -657,7 +1011,13 @@
     "emd": "수택동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2021.08",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 18,
+    "addr": "경기도 구리시 체육관로74번길 67"
   },
   {
     "code": "A10024187",
@@ -668,7 +1028,13 @@
     "emd": "수택동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2021.06",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 구리시 경춘로276번길 21"
   },
   {
     "code": "A10025060",
@@ -679,7 +1045,13 @@
     "emd": "수택동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2020.01",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경기도 구리시 안골로64번길 10"
   },
   {
     "code": "A10027803",
@@ -690,7 +1062,13 @@
     "emd": "수택동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "1999.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "경기도 구리시 이문안로155번길 21"
   },
   {
     "code": "A10028044",
@@ -701,7 +1079,13 @@
     "emd": "수택동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2014.11",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경기도 구리시 벌말로 185"
   },
   {
     "code": "A47103001",
@@ -712,7 +1096,13 @@
     "emd": "수택동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2008.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 구리시 검배로 55"
   },
   {
     "code": "A47103002",
@@ -723,7 +1113,13 @@
     "emd": "수택동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2006.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 구리시 원수택로64번길 9"
   },
   {
     "code": "A47103004",
@@ -734,7 +1130,13 @@
     "emd": "수택동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2004.11",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 구리시 경춘로276번길 67-40"
   },
   {
     "code": "A47103005",
@@ -745,7 +1147,13 @@
     "emd": "수택동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2001.08",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "경기도 구리시 장자호수길 77"
   },
   {
     "code": "A47103006",
@@ -756,7 +1164,13 @@
     "emd": "수택동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2002.05",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 구리시 벌말로 226"
   },
   {
     "code": "A47103007",
@@ -767,7 +1181,13 @@
     "emd": "수택동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2008.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 구리시 원수택로64번길 14"
   },
   {
     "code": "A47103101",
@@ -778,7 +1198,13 @@
     "emd": "수택동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2003.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "경기도 구리시 벌말로 226-6"
   },
   {
     "code": "A47103203",
@@ -789,7 +1215,13 @@
     "emd": "수택동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "1995.08",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경기도 구리시 체육관로 72"
   },
   {
     "code": "A47103301",
@@ -800,7 +1232,13 @@
     "emd": "수택동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "1994.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 구리시 체육관로 40"
   },
   {
     "code": "A47170401",
@@ -811,7 +1249,13 @@
     "emd": "수택동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2006.12",
+    "dongCnt": "4동",
+    "heat": "",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 구리시 경춘로276번길 66"
   },
   {
     "code": "A47175602",
@@ -822,7 +1266,13 @@
     "emd": "수택동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2000.11",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 구리시 수택천로 60"
   },
   {
     "code": "A47175801",
@@ -833,7 +1283,13 @@
     "emd": "수택동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "1995.08",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경기도 구리시 체육관로 54"
   },
   {
     "code": "A47181601",
@@ -844,7 +1300,13 @@
     "emd": "수택동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "1996.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 구리시 원수택로 20"
   },
   {
     "code": "A47182802",
@@ -855,7 +1317,13 @@
     "emd": "수택동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "1992.07",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "경기도 구리시 이문안로 124"
   },
   {
     "code": "A10023067",
@@ -866,7 +1334,13 @@
     "emd": "토평동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2006.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "경기도 구리시 이문안로152번길 11"
   },
   {
     "code": "A10026304",
@@ -877,7 +1351,13 @@
     "emd": "토평동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2003.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 구리시 검배로 132"
   },
   {
     "code": "A47175703",
@@ -888,7 +1368,13 @@
     "emd": "토평동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2002.01",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "경기도 구리시 장자대로111번길 56"
   },
   {
     "code": "A47176006",
@@ -899,7 +1385,13 @@
     "emd": "토평동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2001.06",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "경기도 구리시 장자호수길 125"
   },
   {
     "code": "A47176007",
@@ -910,7 +1402,13 @@
     "emd": "토평동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2009.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "경기도 구리시 벌말로 129"
   },
   {
     "code": "A47176102",
@@ -921,7 +1419,13 @@
     "emd": "토평동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2001.06",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "경기도 구리시 장자대로111번길 12"
   },
   {
     "code": "A47176404",
@@ -932,7 +1436,13 @@
     "emd": "토평동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2001.06",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "경기도 구리시 검배로 142"
   },
   {
     "code": "A47176601",
@@ -943,7 +1453,13 @@
     "emd": "토평동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2000.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 구리시 검배로 154"
   },
   {
     "code": "A47176805",
@@ -954,6 +1470,12 @@
     "emd": "토평동",
     "sigunguCode": "41310",
     "sido": "경기도",
-    "sigungu": "과천시"
+    "sigungu": "과천시",
+    "built": "2001.08",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "경기도 구리시 장자대로111번길 11"
   }
 ]

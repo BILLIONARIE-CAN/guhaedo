@@ -8,7 +8,13 @@
     "emd": "오산동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2018.10",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 오산시 현충로 107-30"
   },
   {
     "code": "A44773302",
@@ -19,7 +25,13 @@
     "emd": "오산동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2000.05",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "경기도 오산시 운암로 64"
   },
   {
     "code": "A44773303",
@@ -30,7 +42,13 @@
     "emd": "오산동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2006.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 오산시 경기대로 289"
   },
   {
     "code": "A44773304",
@@ -41,7 +59,13 @@
     "emd": "오산동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2000.11",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "경기도 오산시 운암로 89"
   },
   {
     "code": "A44773601",
@@ -52,7 +76,13 @@
     "emd": "오산동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2000.04",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "경기도 오산시 운암로 63"
   },
   {
     "code": "A44780409",
@@ -63,7 +93,13 @@
     "emd": "오산동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2000.11",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "경기도 오산시 운암로 45"
   },
   {
     "code": "A10025195",
@@ -74,7 +110,13 @@
     "emd": "부산동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2019.10",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경기도 오산시 부산중앙로 42"
   },
   {
     "code": "A10026708",
@@ -85,7 +127,13 @@
     "emd": "부산동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2017.10",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 오산시 부산중앙로 12"
   },
   {
     "code": "A10026716",
@@ -96,7 +144,13 @@
     "emd": "부산동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2017.10",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 오산시 부산중앙로 11"
   },
   {
     "code": "A44771702",
@@ -107,7 +161,13 @@
     "emd": "부산동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2000.03",
+    "dongCnt": "21동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 오산시 운암로 122"
   },
   {
     "code": "A44771901",
@@ -118,7 +178,13 @@
     "emd": "부산동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2000.05",
+    "dongCnt": "20동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 오산시 운암로 90"
   },
   {
     "code": "A10022789",
@@ -129,7 +195,13 @@
     "emd": "원동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2024.01",
+    "dongCnt": "18동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "경기도 오산시 원당로 35"
   },
   {
     "code": "A10023771",
@@ -140,7 +212,13 @@
     "emd": "원동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2022.05",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경기도 오산시 오산로198번길 32"
   },
   {
     "code": "A10025478",
@@ -151,7 +229,13 @@
     "emd": "원동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2019.06",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 25,
+    "addr": "경기도 오산시 부원로87번길 19"
   },
   {
     "code": "A10026822",
@@ -162,7 +246,13 @@
     "emd": "원동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2017.07",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "경기도 오산시 경기대로 114"
   },
   {
     "code": "A44706019",
@@ -173,7 +263,13 @@
     "emd": "원동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "1999.04",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 18,
+    "addr": "경기도 오산시 운천로 16-22"
   },
   {
     "code": "A44771315",
@@ -184,7 +280,13 @@
     "emd": "원동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "1996.11",
+    "dongCnt": "16동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 오산시 경기대로 99-15"
   },
   {
     "code": "A44771508",
@@ -195,7 +297,13 @@
     "emd": "원동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "1999.07",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경기도 오산시 경기대로 99-18"
   },
   {
     "code": "A44772116",
@@ -206,7 +314,13 @@
     "emd": "원동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "1999.04",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 오산시 대원로 70"
   },
   {
     "code": "A44772607",
@@ -217,7 +331,13 @@
     "emd": "원동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "1996.11",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 오산시 동부대로 407-10"
   },
   {
     "code": "A44772703",
@@ -228,7 +348,13 @@
     "emd": "원동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "1992.04",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 오산시 동부대로 429-9"
   },
   {
     "code": "A44773504",
@@ -239,7 +365,13 @@
     "emd": "원동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "1996.09",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 오산시 남부대로 330-14"
   },
   {
     "code": "A44773706",
@@ -250,7 +382,13 @@
     "emd": "원동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2001.07",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "경기도 오산시 운암로 14"
   },
   {
     "code": "A44774311",
@@ -261,7 +399,13 @@
     "emd": "원동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2005.09",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 오산시 남부대로 411-15"
   },
   {
     "code": "A44774402",
@@ -272,7 +416,13 @@
     "emd": "원동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2004.12",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 오산시 밀머리로 35"
   },
   {
     "code": "A44774513",
@@ -283,7 +433,13 @@
     "emd": "원동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2007.06",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경기도 오산시 오산로160번길 14"
   },
   {
     "code": "A44774514",
@@ -294,7 +450,13 @@
     "emd": "원동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2000.09",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 오산시 부원로 67-6"
   },
   {
     "code": "A44774515",
@@ -305,7 +467,13 @@
     "emd": "원동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2009.07",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "경기도 오산시 경기대로 78-7"
   },
   {
     "code": "A44774516",
@@ -316,7 +484,13 @@
     "emd": "원동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2005.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 오산시 경기대로 227"
   },
   {
     "code": "A44774617",
@@ -327,7 +501,13 @@
     "emd": "원동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2007.06",
+    "dongCnt": "18동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경기도 오산시 오산로132번길 10"
   },
   {
     "code": "A44780401",
@@ -338,7 +518,13 @@
     "emd": "원동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "1995.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "경기도 오산시 대원로 47"
   },
   {
     "code": "A44780505",
@@ -349,7 +535,13 @@
     "emd": "원동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "1988.10",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "경기도 오산시 밀머리로1번길 3"
   },
   {
     "code": "A10020128",
@@ -360,7 +552,13 @@
     "emd": "궐동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2026.04",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 오산시 죽담로 69"
   },
   {
     "code": "A10020538",
@@ -372,7 +570,13 @@
     "sigunguCode": "41370",
     "sido": "경기도",
     "sigungu": "오산시",
-    "hhldCnt": 192
+    "hhldCnt": 192,
+    "built": "2025.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "경기도 오산시 대호로71번길 39"
   },
   {
     "code": "A10020801",
@@ -383,7 +587,13 @@
     "emd": "궐동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2025.02",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 오산시 죽담로 142"
   },
   {
     "code": "A10022331",
@@ -394,7 +604,13 @@
     "emd": "궐동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2024.09",
+    "dongCnt": "12동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 오산시 죽담로 11"
   },
   {
     "code": "A10022686",
@@ -405,7 +621,13 @@
     "emd": "궐동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2024.03",
+    "dongCnt": "14동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 오산시 죽담로 107"
   },
   {
     "code": "A10023120",
@@ -416,7 +638,13 @@
     "emd": "궐동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2023.06",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 오산시 죽담로 108"
   },
   {
     "code": "A44714001",
@@ -427,7 +655,13 @@
     "emd": "궐동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2005.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 오산시 궐리사로 8"
   },
   {
     "code": "A44770905",
@@ -438,7 +672,13 @@
     "emd": "궐동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "1997.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 오산시 오산로360번길 9"
   },
   {
     "code": "A44770906",
@@ -449,7 +689,13 @@
     "emd": "궐동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2012.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "경기도 오산시 수목원로 326"
   },
   {
     "code": "A44773903",
@@ -460,7 +706,13 @@
     "emd": "궐동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2004.08",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 오산시 궐리사로29번길 11"
   },
   {
     "code": "A44774004",
@@ -471,7 +723,13 @@
     "emd": "궐동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2004.12",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 오산시 궐리사로29번길 13"
   },
   {
     "code": "A10023057",
@@ -482,7 +740,13 @@
     "emd": "청학동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2023.08",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 18,
+    "addr": "경기도 오산시 송로 11"
   },
   {
     "code": "A10025711",
@@ -493,7 +757,13 @@
     "emd": "청학동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2019.02",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 12,
+    "addr": "경기도 오산시 대호로 39"
   },
   {
     "code": "A44722001",
@@ -504,7 +774,13 @@
     "emd": "금암동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2009.09",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "경기도 오산시 수청로 142"
   },
   {
     "code": "A44728001",
@@ -515,7 +791,13 @@
     "emd": "금암동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2009.08",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "경기도 오산시 수청로 166"
   },
   {
     "code": "A44728002",
@@ -526,7 +808,13 @@
     "emd": "금암동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2009.10",
+    "dongCnt": "14동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경기도 오산시 여계산로 60"
   },
   {
     "code": "A44728003",
@@ -537,7 +825,13 @@
     "emd": "금암동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2009.10",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "경기도 오산시 여계산로 10"
   },
   {
     "code": "A44728004",
@@ -548,7 +842,13 @@
     "emd": "금암동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2010.05",
+    "dongCnt": "14동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "경기도 오산시 수청로 220"
   },
   {
     "code": "A44728005",
@@ -559,7 +859,13 @@
     "emd": "금암동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2010.04",
+    "dongCnt": "12동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "경기도 오산시 수청로 221"
   },
   {
     "code": "A44728006",
@@ -570,7 +876,13 @@
     "emd": "금암동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2010.09",
+    "dongCnt": "19동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 오산시 여계산로 21"
   },
   {
     "code": "A44728007",
@@ -581,7 +893,13 @@
     "emd": "금암동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2011.04",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경기도 오산시 수청로 107"
   },
   {
     "code": "A44728008",
@@ -592,7 +910,13 @@
     "emd": "금암동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2011.07",
+    "dongCnt": "12동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 오산시 수청로 165"
   },
   {
     "code": "A44728009",
@@ -603,7 +927,13 @@
     "emd": "금암동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2011.04",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 오산시 수청로 121"
   },
   {
     "code": "A10024737",
@@ -614,7 +944,13 @@
     "emd": "수청동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2020.07",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 오산시 내삼미로 65"
   },
   {
     "code": "A44729001",
@@ -625,7 +961,13 @@
     "emd": "수청동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "1992.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 오산시 박동길 8"
   },
   {
     "code": "A44729004",
@@ -636,7 +978,13 @@
     "emd": "수청동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "1993.10",
+    "dongCnt": "16동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 오산시 청학로173번길 9"
   },
   {
     "code": "A44771202",
@@ -647,7 +995,13 @@
     "emd": "수청동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "1989.05",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "경기도 오산시 내삼미로 40"
   },
   {
     "code": "A44773801",
@@ -658,7 +1012,13 @@
     "emd": "수청동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2011.04",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 오산시 수목원로 430"
   },
   {
     "code": "A44773802",
@@ -669,7 +1029,13 @@
     "emd": "수청동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2013.11",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "경기도 오산시 오산대역로 232"
   },
   {
     "code": "A44774103",
@@ -680,7 +1046,13 @@
     "emd": "수청동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2004.11",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 오산시 수청로 31"
   },
   {
     "code": "A44730001",
@@ -691,7 +1063,13 @@
     "emd": "은계동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "1996.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경기도 오산시 현충로72번길 41"
   },
   {
     "code": "A44730002",
@@ -702,7 +1080,13 @@
     "emd": "은계동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2004.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 오산시 은여울로 29"
   },
   {
     "code": "A44772803",
@@ -713,7 +1097,13 @@
     "emd": "은계동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "1987.03",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "경기도 오산시 은여울로43번길 16"
   },
   {
     "code": "A10026524",
@@ -724,7 +1114,13 @@
     "emd": "내삼미동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2018.01",
+    "dongCnt": "14동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 오산시 삼미로 34"
   },
   {
     "code": "A10026915",
@@ -735,7 +1131,13 @@
     "emd": "내삼미동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2017.07",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 21,
+    "addr": "경기도 오산시 내삼미로 110"
   },
   {
     "code": "A10027212",
@@ -746,7 +1148,13 @@
     "emd": "내삼미동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2017.01",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 오산시 내삼미로 142"
   },
   {
     "code": "A44773803",
@@ -757,7 +1165,13 @@
     "emd": "내삼미동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2013.12",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "경기도 오산시 내삼미로 109"
   },
   {
     "code": "A10025374",
@@ -768,7 +1182,13 @@
     "emd": "외삼미동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2019.07",
+    "dongCnt": "18동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경기도 오산시 문시로 183-19"
   },
   {
     "code": "A44774201",
@@ -779,7 +1199,13 @@
     "emd": "양산동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2004.03",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경기도 오산시 양산로398번길 58-5"
   },
   {
     "code": "A44774202",
@@ -790,7 +1216,13 @@
     "emd": "양산동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2010.02",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "경기도 오산시 양산로 422"
   },
   {
     "code": "A44774203",
@@ -801,7 +1233,13 @@
     "emd": "양산동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2010.02",
+    "dongCnt": "30동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "경기도 오산시 양산로 460"
   },
   {
     "code": "A10026564",
@@ -812,7 +1250,13 @@
     "emd": "세교동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2017.12",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 23,
+    "addr": "경기도 오산시 경기대로761번길 10"
   },
   {
     "code": "A44724001",
@@ -823,7 +1267,13 @@
     "emd": "세교동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2010.06",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 오산시 수목원로 577-15"
   },
   {
     "code": "A44724002",
@@ -834,7 +1284,13 @@
     "emd": "세교동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2013.06",
+    "dongCnt": "14동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "경기도 오산시 수목원로 615"
   },
   {
     "code": "A10026366",
@@ -845,7 +1301,13 @@
     "emd": "지곶동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2018.03",
+    "dongCnt": "23동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 오산시 세마문학로 50"
   },
   {
     "code": "A10022588",
@@ -856,7 +1318,13 @@
     "emd": "서동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2024.05",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경기도 오산시 여들동로 25"
   },
   {
     "code": "A10022857",
@@ -867,7 +1335,13 @@
     "emd": "서동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2023.12",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경기도 오산시 여들동로 26"
   },
   {
     "code": "A44771001",
@@ -878,7 +1352,13 @@
     "emd": "서동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "1995.08",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "경기도 오산시 초평로 35"
   },
   {
     "code": "A44771102",
@@ -889,7 +1369,13 @@
     "emd": "서동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "1999.11",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 오산시 초평로 84-4"
   },
   {
     "code": "A10020360",
@@ -901,7 +1387,13 @@
     "sigunguCode": "41370",
     "sido": "경기도",
     "sigungu": "오산시",
-    "hhldCnt": 1532
+    "hhldCnt": 1532,
+    "built": "2025.11",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 오산시 초평중앙로 37"
   },
   {
     "code": "A10020745",
@@ -912,7 +1404,13 @@
     "emd": "탑동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2025.03",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 오산시 초평중앙로 10"
   },
   {
     "code": "A10023888",
@@ -923,7 +1421,13 @@
     "emd": "탑동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2022.03",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 25,
+    "addr": "경기도 오산시 초평중앙로 15"
   },
   {
     "code": "A10020708",
@@ -934,7 +1438,13 @@
     "emd": "누읍동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2025.03",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 오산시 초평중앙로 140"
   },
   {
     "code": "A10022335",
@@ -945,7 +1455,13 @@
     "emd": "누읍동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2024.09",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 오산시 고을로 15"
   },
   {
     "code": "A44773101",
@@ -956,7 +1472,13 @@
     "emd": "누읍동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2000.11",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 오산시 발안로 1353-8"
   },
   {
     "code": "A44773102",
@@ -967,7 +1489,13 @@
     "emd": "누읍동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2010.05",
+    "dongCnt": "14동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "경기도 오산시 누읍로 20"
   },
   {
     "code": "A44773202",
@@ -978,7 +1506,13 @@
     "emd": "누읍동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2000.06",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 오산시 누읍로 17"
   },
   {
     "code": "A10020838",
@@ -989,7 +1523,13 @@
     "emd": "가수동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2025.01",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 오산시 가수1로 20"
   },
   {
     "code": "A10021081",
@@ -1000,7 +1540,13 @@
     "emd": "가수동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2024.11",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경기도 오산시 삼국마을로 29"
   },
   {
     "code": "A10025705",
@@ -1011,7 +1557,13 @@
     "emd": "가수동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2019.01",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "경기도 오산시 가수행복로 55-5"
   },
   {
     "code": "A44770002",
@@ -1022,7 +1574,13 @@
     "emd": "가수동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2006.03",
+    "dongCnt": "14동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 오산시 가수로 33"
   },
   {
     "code": "A44770401",
@@ -1033,7 +1591,13 @@
     "emd": "가수동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "1990.10",
+    "dongCnt": "16동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "경기도 오산시 가수1로 13"
   },
   {
     "code": "A10022540",
@@ -1044,7 +1608,13 @@
     "emd": "고현동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2024.06",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "경기도 오산시 동부대로338번길 38"
   },
   {
     "code": "A44732001",
@@ -1055,7 +1625,13 @@
     "emd": "고현동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2009.01",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 오산시 남부대로 430-12"
   },
   {
     "code": "A10025871",
@@ -1066,7 +1642,13 @@
     "emd": "청호동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2018.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "경기도 오산시 남부대로 486-13"
   },
   {
     "code": "A44772901",
@@ -1077,7 +1659,13 @@
     "emd": "청호동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2007.08",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 오산시 동부대로 332-14"
   },
   {
     "code": "A44772902",
@@ -1088,7 +1676,13 @@
     "emd": "청호동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2010.03",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 오산시 청호로 23-22"
   },
   {
     "code": "A44772903",
@@ -1099,7 +1693,13 @@
     "emd": "청호동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2011.10",
+    "dongCnt": "15동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "경기도 오산시 남부대로 486-23"
   },
   {
     "code": "A10022620",
@@ -1110,7 +1710,13 @@
     "emd": "갈곶동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2024.05",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경기도 오산시 경기대로 24-27"
   },
   {
     "code": "A44731003",
@@ -1121,7 +1727,13 @@
     "emd": "갈곶동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2007.08",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경기도 오산시 오산로 91-5"
   },
   {
     "code": "A44770605",
@@ -1132,7 +1744,13 @@
     "emd": "갈곶동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "1998.12",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 오산시 경기대로 74"
   },
   {
     "code": "A44770701",
@@ -1143,7 +1761,13 @@
     "emd": "갈곶동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "1998.12",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "경기도 오산시 오산로 29"
   },
   {
     "code": "A44772302",
@@ -1154,7 +1778,13 @@
     "emd": "갈곶동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "1999.08",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 오산시 오산로 77"
   },
   {
     "code": "A44773004",
@@ -1165,7 +1795,13 @@
     "emd": "갈곶동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2000.07",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 오산시 경기대로25번길 16"
   },
   {
     "code": "A44773005",
@@ -1176,7 +1812,13 @@
     "emd": "갈곶동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2010.04",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "경기도 오산시 오산로 49-5"
   },
   {
     "code": "A44773006",
@@ -1187,6 +1829,12 @@
     "emd": "갈곶동",
     "sigunguCode": "41370",
     "sido": "경기도",
-    "sigungu": "오산시"
+    "sigungu": "오산시",
+    "built": "2010.10",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 오산시 경기대로 52-21"
   }
 ]

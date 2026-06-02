@@ -8,7 +8,13 @@
     "emd": "장수읍",
     "sigunguCode": "52740",
     "sido": "전북특별자치도",
-    "sigungu": "장수군"
+    "sigungu": "장수군",
+    "built": "2008.02",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "전북특별자치도 장수군 관두길 16"
   },
   {
     "code": "A10025990",
@@ -19,7 +25,13 @@
     "emd": "장수읍",
     "sigunguCode": "52740",
     "sido": "전북특별자치도",
-    "sigungu": "장수군"
+    "sigungu": "장수군",
+    "built": "2014.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 장수군 시장로 27-14"
   },
   {
     "code": "A10021861",
@@ -30,6 +42,12 @@
     "emd": "장계면",
     "sigunguCode": "52740",
     "sido": "전북특별자치도",
-    "sigungu": "장수군"
+    "sigungu": "장수군",
+    "built": "2018.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 10,
+    "addr": "전북특별자치도 장수군 북동로 61-6"
   }
 ]

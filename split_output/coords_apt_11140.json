@@ -8,7 +8,13 @@
     "emd": "남대문로5가",
     "sigunguCode": "11140",
     "sido": "서울특별시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2025.08",
+    "dongCnt": "1동",
+    "heat": "중앙난방",
+    "sale": "임대",
+    "topFloor": 18,
+    "addr": "서울특별시 중구 후암로60길 21"
   },
   {
     "code": "A10088101",
@@ -19,7 +25,13 @@
     "emd": "회현동1가",
     "sigunguCode": "11140",
     "sido": "서울특별시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2010.01",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 30,
+    "addr": "서울특별시 중구 퇴계로 72"
   },
   {
     "code": "A10088102",
@@ -30,7 +42,13 @@
     "emd": "회현동1가",
     "sigunguCode": "11140",
     "sido": "서울특별시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2011.11",
+    "dongCnt": "2동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 32,
+    "addr": "서울특별시 중구 소공로 35"
   },
   {
     "code": "A10072501",
@@ -41,7 +59,13 @@
     "emd": "회현동2가",
     "sigunguCode": "11140",
     "sido": "서울특별시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2010.08",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 33,
+    "addr": "서울특별시 중구 소공로 46"
   },
   {
     "code": "A10071301",
@@ -52,7 +76,13 @@
     "emd": "충무로4가",
     "sigunguCode": "11140",
     "sido": "서울특별시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2009.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 32,
+    "addr": "서울특별시 중구 퇴계로 235"
   },
   {
     "code": "A10086301",
@@ -63,7 +93,13 @@
     "emd": "충무로4가",
     "sigunguCode": "11140",
     "sido": "서울특별시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "1970.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "서울특별시 중구 퇴계로 217"
   },
   {
     "code": "A10025223",
@@ -74,7 +110,13 @@
     "emd": "충무로5가",
     "sigunguCode": "11140",
     "sido": "서울특별시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2016.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 중구 퇴계로49길 14"
   },
   {
     "code": "A10023352",
@@ -85,7 +127,13 @@
     "emd": "인현동2가",
     "sigunguCode": "11140",
     "sido": "서울특별시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2023.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 26,
+    "addr": "서울특별시 중구 마른내로 79"
   },
   {
     "code": "A10028201",
@@ -96,7 +144,13 @@
     "emd": "인현동2가",
     "sigunguCode": "11140",
     "sido": "서울특별시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "1968.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "서울특별시 중구 마른내로 72"
   },
   {
     "code": "A10022761",
@@ -107,7 +161,13 @@
     "emd": "묵정동",
     "sigunguCode": "11140",
     "sido": "서울특별시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2024.01",
+    "dongCnt": "2동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 9,
+    "addr": "서울특별시 중구 퇴계로46길 26"
   },
   {
     "code": "A10026849",
@@ -118,7 +178,13 @@
     "emd": "묵정동",
     "sigunguCode": "11140",
     "sido": "서울특별시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "1981.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "서울특별시 중구 서애로1길 34"
   },
   {
     "code": "A10024327",
@@ -129,7 +195,13 @@
     "emd": "오장동",
     "sigunguCode": "11140",
     "sido": "서울특별시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2020.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 중구 동호로33길 15"
   },
   {
     "code": "A10023343",
@@ -140,7 +212,13 @@
     "emd": "입정동",
     "sigunguCode": "11140",
     "sido": "서울특별시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2023.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 27,
+    "addr": "서울특별시 중구 을지로15길 32"
   },
   {
     "code": "A10023356",
@@ -151,7 +229,13 @@
     "emd": "입정동",
     "sigunguCode": "11140",
     "sido": "서울특별시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2023.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 27,
+    "addr": "서울특별시 중구 을지로15길 31"
   },
   {
     "code": "A10021020",
@@ -162,7 +246,13 @@
     "emd": "신당동",
     "sigunguCode": "11140",
     "sido": "서울특별시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2001.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 1,
+    "addr": "서울특별시 중구 왕십리로39길 30"
   },
   {
     "code": "A10023488",
@@ -173,7 +263,13 @@
     "emd": "신당동",
     "sigunguCode": "11140",
     "sido": "서울특별시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2021.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 11,
+    "addr": "서울특별시 중구 신당동 367-15 약수역 더시티"
   },
   {
     "code": "A10025372",
@@ -184,7 +280,13 @@
     "emd": "신당동",
     "sigunguCode": "11140",
     "sido": "서울특별시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2019.06",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "서울특별시 중구 난계로 130"
   },
   {
     "code": "A10025456",
@@ -195,7 +297,13 @@
     "emd": "신당동",
     "sigunguCode": "11140",
     "sido": "서울특별시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2019.06",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "서울특별시 중구 왕십리로 407"
   },
   {
     "code": "A10045001",
@@ -206,7 +314,13 @@
     "emd": "신당동",
     "sigunguCode": "11140",
     "sido": "서울특별시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2005.12",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 중구 다산로36길 110"
   },
   {
     "code": "A10045002",
@@ -217,7 +331,13 @@
     "emd": "신당동",
     "sigunguCode": "11140",
     "sido": "서울특별시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2011.12",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 중구 청구로 64"
   },
   {
     "code": "A10045301",
@@ -228,7 +348,13 @@
     "emd": "신당동",
     "sigunguCode": "11140",
     "sido": "서울특별시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2002.05",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 18,
+    "addr": "서울특별시 중구 다산로 32"
   },
   {
     "code": "A10045302",
@@ -239,7 +365,13 @@
     "emd": "신당동",
     "sigunguCode": "11140",
     "sido": "서울특별시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2002.05",
+    "dongCnt": "35동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 중구 다산로 32"
   },
   {
     "code": "A10045401",
@@ -250,7 +382,13 @@
     "emd": "신당동",
     "sigunguCode": "11140",
     "sido": "서울특별시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "1999.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 21,
+    "addr": "서울특별시 중구 청구로1길 23"
   },
   {
     "code": "A10045402",
@@ -261,7 +399,13 @@
     "emd": "신당동",
     "sigunguCode": "11140",
     "sido": "서울특별시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "1999.07",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 18,
+    "addr": "서울특별시 중구 동호로10길 30"
   },
   {
     "code": "A10045403",
@@ -272,7 +416,13 @@
     "emd": "신당동",
     "sigunguCode": "11140",
     "sido": "서울특별시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "1999.12",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 중구 청구로1길 23"
   },
   {
     "code": "A10045404",
@@ -283,7 +433,13 @@
     "emd": "신당동",
     "sigunguCode": "11140",
     "sido": "서울특별시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "1999.07",
+    "dongCnt": "16동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 중구 동호로10길 30"
   },
   {
     "code": "A10045601",
@@ -294,7 +450,13 @@
     "emd": "신당동",
     "sigunguCode": "11140",
     "sido": "서울특별시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "1993.09",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 중구 다산로36길 109"
   },
   {
     "code": "A10078102",
@@ -305,7 +467,13 @@
     "emd": "신당동",
     "sigunguCode": "11140",
     "sido": "서울특별시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2000.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 중구 다산로42나길 46"
   },
   {
     "code": "A10078103",
@@ -316,7 +484,13 @@
     "emd": "신당동",
     "sigunguCode": "11140",
     "sido": "서울특별시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2011.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 중구 청구로 64"
   },
   {
     "code": "A10078901",
@@ -327,7 +501,13 @@
     "emd": "신당동",
     "sigunguCode": "11140",
     "sido": "서울특별시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2011.10",
+    "dongCnt": "15동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 중구 퇴계로90길 74"
   },
   {
     "code": "A10078902",
@@ -338,7 +518,13 @@
     "emd": "신당동",
     "sigunguCode": "11140",
     "sido": "서울특별시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2011.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 중구 퇴계로90길 74"
   },
   {
     "code": "A10095501",
@@ -349,7 +535,13 @@
     "emd": "흥인동",
     "sigunguCode": "11140",
     "sido": "서울특별시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2014.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 중구 퇴계로75길 7"
   },
   {
     "code": "A10095502",
@@ -361,7 +553,13 @@
     "sigunguCode": "11140",
     "sido": "서울특별시",
     "sigungu": "중구",
-    "hhldCnt": 295
+    "hhldCnt": 295,
+    "built": "2014.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 36,
+    "addr": "서울특별시 중구 다산로46길 17"
   },
   {
     "code": "A10020147",
@@ -372,7 +570,13 @@
     "emd": "황학동",
     "sigunguCode": "11140",
     "sido": "서울특별시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2013.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 중구 난계로 173"
   },
   {
     "code": "A10024801",
@@ -383,7 +587,13 @@
     "emd": "황학동",
     "sigunguCode": "11140",
     "sido": "서울특별시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2010.10",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 중구 난계로11길 30"
   },
   {
     "code": "A10044001",
@@ -394,7 +604,13 @@
     "emd": "황학동",
     "sigunguCode": "11140",
     "sido": "서울특별시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2008.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 33,
+    "addr": "서울특별시 중구 청계천로 400"
   },
   {
     "code": "A10044002",
@@ -405,7 +621,13 @@
     "emd": "황학동",
     "sigunguCode": "11140",
     "sido": "서울특별시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2008.12",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 33,
+    "addr": "서울특별시 중구 청계천로 400"
   },
   {
     "code": "A10086801",
@@ -416,7 +638,13 @@
     "emd": "황학동",
     "sigunguCode": "11140",
     "sido": "서울특별시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2010.03",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 중구 퇴계로 447"
   },
   {
     "code": "A10023548",
@@ -427,7 +655,13 @@
     "emd": "정동",
     "sigunguCode": "11140",
     "sido": "서울특별시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2008.09",
+    "dongCnt": "3동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 중구 정동 15-6 정동상림원아파트"
   },
   {
     "code": "A10024359",
@@ -438,7 +672,13 @@
     "emd": "정동",
     "sigunguCode": "11140",
     "sido": "서울특별시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2020.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 9,
+    "addr": "서울특별시 중구 서소문로 89-20"
   },
   {
     "code": "A10024756",
@@ -449,7 +689,13 @@
     "emd": "순화동",
     "sigunguCode": "11140",
     "sido": "서울특별시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2007.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 중구 칠패로 27"
   },
   {
     "code": "A10027364",
@@ -460,7 +706,13 @@
     "emd": "순화동",
     "sigunguCode": "11140",
     "sido": "서울특별시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2016.08",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 중구 서소문로9길 28"
   },
   {
     "code": "A10023788",
@@ -471,7 +723,13 @@
     "emd": "중림동",
     "sigunguCode": "11140",
     "sido": "서울특별시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2012.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 7,
+    "addr": "서울특별시 중구 중림로 21"
   },
   {
     "code": "A10085902",
@@ -482,7 +740,13 @@
     "emd": "중림동",
     "sigunguCode": "11140",
     "sido": "서울특별시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2001.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 18,
+    "addr": "서울특별시 중구 중림로4길 41"
   },
   {
     "code": "A10085903",
@@ -493,7 +757,13 @@
     "emd": "중림동",
     "sigunguCode": "11140",
     "sido": "서울특별시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2001.07",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 중구 중림로 10"
   },
   {
     "code": "A10095301",
@@ -504,7 +774,13 @@
     "emd": "중림동",
     "sigunguCode": "11140",
     "sido": "서울특별시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2006.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 35,
+    "addr": "서울특별시 중구 청파로 464"
   },
   {
     "code": "A10080701",
@@ -515,7 +791,13 @@
     "emd": "만리동1가",
     "sigunguCode": "11140",
     "sido": "서울특별시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2012.01",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 중구 만리재로33길 21"
   },
   {
     "code": "A10026517",
@@ -526,7 +808,13 @@
     "emd": "만리동2가",
     "sigunguCode": "11140",
     "sido": "서울특별시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2018.01",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 중구 만리재로 177"
   },
   {
     "code": "A10026881",
@@ -537,6 +825,12 @@
     "emd": "만리동2가",
     "sigunguCode": "11140",
     "sido": "서울특별시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2017.08",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 25,
+    "addr": "서울특별시 중구 만리재로 175"
   }
 ]

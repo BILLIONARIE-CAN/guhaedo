@@ -9,7 +9,13 @@
     "sigunguCode": "11380",
     "sido": "서울특별시",
     "sigungu": "은평구",
-    "hhldCnt": 753
+    "hhldCnt": 753,
+    "built": "2023.08",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 22,
+    "addr": "서울특별시 은평구 수색로 216"
   },
   {
     "code": "A10023076",
@@ -20,7 +26,13 @@
     "emd": "수색동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2023.07",
+    "dongCnt": "21동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 19,
+    "addr": "서울특별시 은평구 수색로 322"
   },
   {
     "code": "A10023079",
@@ -31,7 +43,13 @@
     "emd": "수색동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2023.07",
+    "dongCnt": "15동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 30,
+    "addr": "서울특별시 은평구 은평터널로 15"
   },
   {
     "code": "A10023126",
@@ -42,7 +60,13 @@
     "emd": "수색동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2023.06",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 22,
+    "addr": "서울특별시 은평구 은평터널로 27"
   },
   {
     "code": "A10024086",
@@ -53,7 +77,13 @@
     "emd": "수색동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2023.08",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 30,
+    "addr": "서울특별시 은평구 수색로 216"
   },
   {
     "code": "A10024828",
@@ -64,7 +94,13 @@
     "emd": "수색동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2021.12",
+    "dongCnt": "15동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 25,
+    "addr": "서울특별시 은평구 수색로 300"
   },
   {
     "code": "A12209001",
@@ -75,7 +111,13 @@
     "emd": "수색동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2000.03",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 은평구 증산로1길 26"
   },
   {
     "code": "A12275501",
@@ -86,7 +128,13 @@
     "emd": "수색동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2009.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 은평구 수색로 217"
   },
   {
     "code": "A12287202",
@@ -97,7 +145,13 @@
     "emd": "수색동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2003.07",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "서울특별시 은평구 은평터널로 60"
   },
   {
     "code": "A12287203",
@@ -108,7 +162,13 @@
     "emd": "수색동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2003.07",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 은평구 은평터널로 66"
   },
   {
     "code": "A12287204",
@@ -119,7 +179,13 @@
     "emd": "수색동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2003.07",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 은평구 은평터널로 65"
   },
   {
     "code": "A10024774",
@@ -130,7 +196,13 @@
     "emd": "녹번동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2001.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 은평구 응암로 366"
   },
   {
     "code": "A10025836",
@@ -142,7 +214,13 @@
     "sigunguCode": "11380",
     "sido": "서울특별시",
     "sigungu": "은평구",
-    "hhldCnt": 952
+    "hhldCnt": 952,
+    "built": "2018.10",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 20,
+    "addr": "서울특별시 은평구 통일로 610"
   },
   {
     "code": "A10025846",
@@ -153,7 +231,13 @@
     "emd": "녹번동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2018.12",
+    "dongCnt": "20동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 20,
+    "addr": "서울특별시 은평구 통일로 630"
   },
   {
     "code": "A10027816",
@@ -164,7 +248,13 @@
     "emd": "녹번동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2015.07",
+    "dongCnt": "22동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 20,
+    "addr": "서울특별시 은평구 통일로 660"
   },
   {
     "code": "A12283601",
@@ -175,7 +265,13 @@
     "emd": "녹번동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2001.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 은평구 서오릉로 46"
   },
   {
     "code": "A12283602",
@@ -186,7 +282,13 @@
     "emd": "녹번동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2002.09",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 은평구 통일로 586-19"
   },
   {
     "code": "A12283603",
@@ -197,7 +299,13 @@
     "emd": "녹번동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "1993.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 은평구 통일로 590"
   },
   {
     "code": "A10020749",
@@ -208,7 +316,13 @@
     "emd": "불광동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2024.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 22,
+    "addr": "서울특별시 은평구 통일로 816"
   },
   {
     "code": "A10022158",
@@ -219,7 +333,13 @@
     "emd": "불광동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "1999.12",
+    "dongCnt": "1동",
+    "heat": "",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "서울특별시 은평구 불광로 98-8"
   },
   {
     "code": "A10022256",
@@ -230,7 +350,13 @@
     "emd": "불광동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2001.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "서울특별시 은평구 불광로6길 20"
   },
   {
     "code": "A10022803",
@@ -241,7 +367,13 @@
     "emd": "불광동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2024.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 21,
+    "addr": "서울특별시 은평구 통일로 838-21"
   },
   {
     "code": "A10024026",
@@ -252,7 +384,13 @@
     "emd": "불광동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2021.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 12,
+    "addr": "서울특별시 은평구 통일로 742"
   },
   {
     "code": "A10024198",
@@ -263,7 +401,13 @@
     "emd": "불광동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2018.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 10,
+    "addr": "서울특별시 은평구 불광로2길 27"
   },
   {
     "code": "A10026061",
@@ -274,7 +418,13 @@
     "emd": "불광동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "1992.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 은평구 불광로 153"
   },
   {
     "code": "A10027568",
@@ -285,7 +435,13 @@
     "emd": "불광동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2005.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 10,
+    "addr": "서울특별시 은평구 불광로2길 46"
   },
   {
     "code": "A10027569",
@@ -296,7 +452,13 @@
     "emd": "불광동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2010.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 은평구 불광로14길 10-4"
   },
   {
     "code": "A10028056",
@@ -307,7 +469,13 @@
     "emd": "불광동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2011.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 12,
+    "addr": "서울특별시 은평구 통일로 792"
   },
   {
     "code": "A12204001",
@@ -318,7 +486,13 @@
     "emd": "불광동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2006.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 은평구 불광로 170"
   },
   {
     "code": "A12204002",
@@ -329,7 +503,13 @@
     "emd": "불광동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2004.06",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 은평구 불광로 208"
   },
   {
     "code": "A12204003",
@@ -340,7 +520,13 @@
     "emd": "불광동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2009.07",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 은평구 불광로2길 33"
   },
   {
     "code": "A12204004",
@@ -351,7 +537,13 @@
     "emd": "불광동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2010.08",
+    "dongCnt": "19동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 은평구 불광로 122-10"
   },
   {
     "code": "A12204005",
@@ -362,7 +554,13 @@
     "emd": "불광동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2010.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 10,
+    "addr": "서울특별시 은평구 불광로2길 41"
   },
   {
     "code": "A12204006",
@@ -373,7 +571,13 @@
     "emd": "불광동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2013.09",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 은평구 불광로 64"
   },
   {
     "code": "A12204102",
@@ -384,7 +588,13 @@
     "emd": "불광동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2004.05",
+    "dongCnt": "15동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 은평구 불광로2길 16"
   },
   {
     "code": "A12275201",
@@ -395,7 +605,13 @@
     "emd": "불광동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2010.08",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 은평구 진흥로 267"
   },
   {
     "code": "A12275202",
@@ -406,7 +622,13 @@
     "emd": "불광동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2011.07",
+    "dongCnt": "15동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 은평구 통일로 796"
   },
   {
     "code": "A12284701",
@@ -417,7 +639,13 @@
     "emd": "불광동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2000.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 은평구 불광로 90"
   },
   {
     "code": "A12285703",
@@ -428,7 +656,13 @@
     "emd": "불광동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "1988.10",
+    "dongCnt": "10동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 은평구 통일로 780"
   },
   {
     "code": "A10021288",
@@ -439,7 +673,13 @@
     "emd": "갈현동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "1991.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 은평구 갈현로29길 61"
   },
   {
     "code": "A10021391",
@@ -450,7 +690,13 @@
     "emd": "갈현동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2001.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 은평구 갈현로45길 57"
   },
   {
     "code": "A10022512",
@@ -461,7 +707,13 @@
     "emd": "갈현동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2024.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 19,
+    "addr": "서울특별시 은평구 연서로27길 4"
   },
   {
     "code": "A10023157",
@@ -472,7 +724,13 @@
     "emd": "갈현동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "1998.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "서울특별시 은평구 서오릉로 258"
   },
   {
     "code": "A10024128",
@@ -483,7 +741,13 @@
     "emd": "갈현동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2000.04",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 은평구 서오릉로20길 5-10"
   },
   {
     "code": "A12205001",
@@ -494,7 +758,13 @@
     "emd": "갈현동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "1997.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 은평구 갈현로29길 11"
   },
   {
     "code": "A12271402",
@@ -505,7 +775,13 @@
     "emd": "갈현동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2004.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 은평구 연서로 149"
   },
   {
     "code": "A12281701",
@@ -516,7 +792,13 @@
     "emd": "갈현동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2003.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "서울특별시 은평구 갈현로29길 62"
   },
   {
     "code": "A12281702",
@@ -527,7 +809,13 @@
     "emd": "갈현동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "1997.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "서울특별시 은평구 갈현로33길 24"
   },
   {
     "code": "A12281801",
@@ -538,19 +826,31 @@
     "emd": "갈현동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "1997.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 은평구 갈현로23길 41"
   },
   {
     "code": "A10020141",
     "name": "동익파크1차아파트",
     "lat": 37.614675355133,
     "lng": 126.906800141824,
-    "units": 0,
+    "units": 118,
     "emd": "구산동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
     "sigungu": "은평구",
-    "hhldCnt": 118
+    "hhldCnt": 118,
+    "built": "1991.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 은평구 서오릉로21길 20"
   },
   {
     "code": "A10022261",
@@ -561,7 +861,13 @@
     "emd": "구산동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2022.02",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 은평구 서오릉로 253"
   },
   {
     "code": "A10022339",
@@ -572,7 +878,13 @@
     "emd": "구산동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2004.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 은평구 서오릉로21길 48"
   },
   {
     "code": "A10023734",
@@ -583,7 +895,13 @@
     "emd": "구산동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2022.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 19,
+    "addr": "서울특별시 은평구 서오릉로 165"
   },
   {
     "code": "A12205003",
@@ -594,7 +912,13 @@
     "emd": "구산동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2004.10",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 은평구 서오릉로21길 47"
   },
   {
     "code": "A12205004",
@@ -605,7 +929,13 @@
     "emd": "구산동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "1998.11",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 은평구 서오릉로21길 36"
   },
   {
     "code": "A12276901",
@@ -616,7 +946,13 @@
     "emd": "구산동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2009.02",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 12,
+    "addr": "서울특별시 은평구 갈현로7길 56"
   },
   {
     "code": "A12282102",
@@ -627,7 +963,13 @@
     "emd": "구산동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2006.03",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 은평구 갈현로17길 17"
   },
   {
     "code": "A12282201",
@@ -638,7 +980,13 @@
     "emd": "구산동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "1989.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 은평구 구산동 162-1 경향파크아파트"
   },
   {
     "code": "A12282203",
@@ -649,7 +997,13 @@
     "emd": "구산동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2004.08",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 은평구 갈현로11길 46"
   },
   {
     "code": "A10023467",
@@ -660,7 +1014,13 @@
     "emd": "대조동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2022.12",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 28,
+    "addr": "서울특별시 은평구 통일로 767"
   },
   {
     "code": "A12284501",
@@ -671,7 +1031,13 @@
     "emd": "대조동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "1997.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 은평구 서오릉로 94"
   },
   {
     "code": "A10020158",
@@ -682,7 +1048,13 @@
     "emd": "응암동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2005.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 9,
+    "addr": "서울특별시 은평구 응암로18길 18-9"
   },
   {
     "code": "A10020935",
@@ -693,7 +1065,13 @@
     "emd": "응암동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2008.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 14,
+    "addr": "서울특별시 은평구 백련산로 146-30"
   },
   {
     "code": "A10021263",
@@ -704,7 +1082,13 @@
     "emd": "응암동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2004.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 은평구 은평로 160"
   },
   {
     "code": "A10023994",
@@ -715,7 +1099,13 @@
     "emd": "응암동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2022.07",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 은평구 백련산로 112"
   },
   {
     "code": "A10024313",
@@ -726,7 +1116,13 @@
     "emd": "응암동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2022.10",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 22,
+    "addr": "서울특별시 은평구 은평로 240"
   },
   {
     "code": "A10024831",
@@ -737,7 +1133,13 @@
     "emd": "응암동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2021.05",
+    "dongCnt": "32동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 은평구 은평로 220"
   },
   {
     "code": "A10024947",
@@ -748,7 +1150,13 @@
     "emd": "응암동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2020.06",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 24,
+    "addr": "서울특별시 은평구 응암로30길 15"
   },
   {
     "code": "A10025310",
@@ -759,7 +1167,13 @@
     "emd": "응암동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2020.05",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 25,
+    "addr": "서울특별시 은평구 응암로30길 16"
   },
   {
     "code": "A10025683",
@@ -770,7 +1184,13 @@
     "emd": "응암동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2021.04",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 20,
+    "addr": "서울특별시 은평구 백련산로 67"
   },
   {
     "code": "A10026834",
@@ -781,7 +1201,13 @@
     "emd": "응암동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2018.02",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 19,
+    "addr": "서울특별시 은평구 백련산로 37"
   },
   {
     "code": "A10027547",
@@ -792,7 +1218,13 @@
     "emd": "응암동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2007.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 은평구 불광천길 536"
   },
   {
     "code": "A10027551",
@@ -803,7 +1235,13 @@
     "emd": "응암동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2001.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 은평구 응암로 319"
   },
   {
     "code": "A12201001",
@@ -814,7 +1252,13 @@
     "emd": "응암동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2003.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 은평구 백련산로 6"
   },
   {
     "code": "A12201002",
@@ -825,7 +1269,13 @@
     "emd": "응암동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2011.12",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 은평구 백련산로 38"
   },
   {
     "code": "A12201003",
@@ -836,7 +1286,13 @@
     "emd": "응암동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2011.12",
+    "dongCnt": "15동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 은평구 백련산로2길 19"
   },
   {
     "code": "A12201004",
@@ -847,7 +1303,13 @@
     "emd": "응암동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2011.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 은평구 백련산로2길 19"
   },
   {
     "code": "A12201005",
@@ -858,7 +1320,13 @@
     "emd": "응암동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2013.09",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 19,
+    "addr": "서울특별시 은평구 백련산로 160"
   },
   {
     "code": "A12201101",
@@ -869,7 +1337,13 @@
     "emd": "응암동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "1990.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 은평구 백련산로 127"
   },
   {
     "code": "A12201102",
@@ -880,7 +1354,13 @@
     "emd": "응암동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "1998.07",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 은평구 응암로 318"
   },
   {
     "code": "A12201103",
@@ -891,7 +1371,13 @@
     "emd": "응암동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2008.07",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 은평구 백련산로 146"
   },
   {
     "code": "A12201301",
@@ -902,7 +1388,13 @@
     "emd": "응암동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "1995.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "서울특별시 은평구 가좌로7나길 35"
   },
   {
     "code": "A12290901",
@@ -913,7 +1405,13 @@
     "emd": "응암동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2011.12",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 은평구 백련산로 36"
   },
   {
     "code": "A12293002",
@@ -924,7 +1422,13 @@
     "emd": "응암동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "1988.07",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 은평구 가좌로7나길 30"
   },
   {
     "code": "A10021056",
@@ -935,7 +1439,13 @@
     "emd": "역촌동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2024.11",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 20,
+    "addr": "서울특별시 은평구 갈현로7길 25"
   },
   {
     "code": "A10023728",
@@ -946,7 +1456,13 @@
     "emd": "역촌동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2009.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 11,
+    "addr": "서울특별시 은평구 진흥로1길 28"
   },
   {
     "code": "A12289501",
@@ -957,7 +1473,13 @@
     "emd": "역촌동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2011.01",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 은평구 갈현로3나길 23"
   },
   {
     "code": "A10020307",
@@ -968,7 +1490,13 @@
     "emd": "신사동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2025.11",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 은평구 증산로17길 53"
   },
   {
     "code": "A10021335",
@@ -979,7 +1507,13 @@
     "emd": "신사동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2004.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 은평구 증산로15길 50"
   },
   {
     "code": "A10022090",
@@ -990,7 +1524,13 @@
     "emd": "신사동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2001.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "서울특별시 은평구 증산로21길 11"
   },
   {
     "code": "A10022477",
@@ -1001,7 +1541,13 @@
     "emd": "신사동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2011.10",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 은평구 가좌로12길 15"
   },
   {
     "code": "A10022590",
@@ -1012,7 +1558,13 @@
     "emd": "신사동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "1995.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 은평구 가좌로 342"
   },
   {
     "code": "A10025659",
@@ -1024,7 +1576,13 @@
     "sigunguCode": "11380",
     "sido": "서울특별시",
     "sigungu": "은평구",
-    "hhldCnt": 380
+    "hhldCnt": 380,
+    "built": "2018.07",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "서울특별시 은평구 가좌로 334"
   },
   {
     "code": "A12208001",
@@ -1035,7 +1593,13 @@
     "emd": "신사동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2006.11",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 은평구 갈현로1길 36"
   },
   {
     "code": "A12208002",
@@ -1046,7 +1610,13 @@
     "emd": "신사동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2004.05",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 은평구 은평터널로 121-6"
   },
   {
     "code": "A12208101",
@@ -1057,7 +1627,13 @@
     "emd": "신사동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2000.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 은평구 갈현로4길 26-5"
   },
   {
     "code": "A12208102",
@@ -1068,7 +1644,13 @@
     "emd": "신사동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "1993.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 은평구 가좌로 391"
   },
   {
     "code": "A12208103",
@@ -1079,7 +1661,13 @@
     "emd": "신사동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2003.11",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 은평구 갈현로1길 31"
   },
   {
     "code": "A12208104",
@@ -1090,7 +1678,13 @@
     "emd": "신사동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "1992.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 은평구 갈현로3다길 15"
   },
   {
     "code": "A12208105",
@@ -1101,7 +1695,13 @@
     "emd": "신사동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "1994.04",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 은평구 가좌로 344"
   },
   {
     "code": "A12208203",
@@ -1112,7 +1712,13 @@
     "emd": "신사동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "1988.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 은평구 증산로15길 67-7"
   },
   {
     "code": "A12208204",
@@ -1123,7 +1729,13 @@
     "emd": "신사동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "1997.09",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 은평구 은평터널로 164"
   },
   {
     "code": "A12208205",
@@ -1134,7 +1746,13 @@
     "emd": "신사동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "1987.11",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 은평구 증산로15길 35-10"
   },
   {
     "code": "A12289401",
@@ -1145,7 +1763,13 @@
     "emd": "신사동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "1993.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 은평구 은평터널로 163"
   },
   {
     "code": "A12289402",
@@ -1156,7 +1780,13 @@
     "emd": "신사동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "1996.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 은평구 은평터널로7길 2"
   },
   {
     "code": "A10022560",
@@ -1167,7 +1797,13 @@
     "emd": "증산동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2005.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 은평구 증산서길 79"
   },
   {
     "code": "A10022981",
@@ -1178,7 +1814,13 @@
     "emd": "증산동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2022.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 23,
+    "addr": "서울특별시 은평구 수색로 200"
   },
   {
     "code": "A10023056",
@@ -1189,7 +1831,13 @@
     "emd": "증산동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2001.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 은평구 증산로 285"
   },
   {
     "code": "A10023737",
@@ -1200,7 +1848,13 @@
     "emd": "증산동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2009.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 은평구 수색로 217-1"
   },
   {
     "code": "A10023875",
@@ -1211,7 +1865,13 @@
     "emd": "증산동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2023.01",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 30,
+    "addr": "서울특별시 은평구 수색로 200"
   },
   {
     "code": "A10024581",
@@ -1222,7 +1882,13 @@
     "emd": "증산동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2004.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 은평구 증산로13길 44-5"
   },
   {
     "code": "A10024769",
@@ -1233,7 +1899,13 @@
     "emd": "증산동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "1997.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 은평구 증산로 221"
   },
   {
     "code": "A10025969",
@@ -1244,7 +1916,13 @@
     "emd": "증산동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2002.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 은평구 증산로 333"
   },
   {
     "code": "A12275801",
@@ -1255,7 +1933,13 @@
     "emd": "증산동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2004.06",
+    "dongCnt": "1동",
+    "heat": "",
+    "sale": "",
+    "topFloor": 1,
+    "addr": "서울특별시 은평구 증산로13길 44-5"
   },
   {
     "code": "A12294102",
@@ -1266,7 +1950,13 @@
     "emd": "증산동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2000.03",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 은평구 증산로3길 26-1"
   },
   {
     "code": "A10020576",
@@ -1278,7 +1968,13 @@
     "sigunguCode": "11380",
     "sido": "서울특별시",
     "sigungu": "은평구",
-    "hhldCnt": 452
+    "hhldCnt": 452,
+    "built": "2025.06",
+    "dongCnt": "15동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 은평구 연서로46길 8"
   },
   {
     "code": "A10022206",
@@ -1289,7 +1985,13 @@
     "emd": "진관동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2017.02",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 은평구 진관3로 21"
   },
   {
     "code": "A10022263",
@@ -1300,7 +2002,13 @@
     "emd": "진관동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2009.12",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 1,
+    "addr": "서울특별시 은평구 진관2로 67"
   },
   {
     "code": "A10022468",
@@ -1311,7 +2019,13 @@
     "emd": "진관동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2008.05",
+    "dongCnt": "1동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 7,
+    "addr": "서울특별시 은평구 진관4로 78-8"
   },
   {
     "code": "A10024123",
@@ -1322,7 +2036,13 @@
     "emd": "진관동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2010.06",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 은평구 연서로44길 55"
   },
   {
     "code": "A10025677",
@@ -1333,7 +2053,13 @@
     "emd": "진관동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2019.02",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 은평구 통일로 972"
   },
   {
     "code": "A10025765",
@@ -1344,7 +2070,13 @@
     "emd": "진관동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2019.01",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 33,
+    "addr": "서울특별시 은평구 통일로 1034"
   },
   {
     "code": "A10026376",
@@ -1355,7 +2087,13 @@
     "emd": "진관동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2018.03",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 은평구 진관3로 33"
   },
   {
     "code": "A10026414",
@@ -1366,7 +2104,13 @@
     "emd": "진관동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2017.09",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 은평구 통일로 1080"
   },
   {
     "code": "A12220001",
@@ -1377,7 +2121,13 @@
     "emd": "진관동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2008.05",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 12,
+    "addr": "서울특별시 은평구 진관4로 78-7"
   },
   {
     "code": "A12220002",
@@ -1388,7 +2138,13 @@
     "emd": "진관동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2008.06",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 은평구 진관4로 48-50"
   },
   {
     "code": "A12220003",
@@ -1399,7 +2155,13 @@
     "emd": "진관동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2008.05",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 14,
+    "addr": "서울특별시 은평구 진관4로 37"
   },
   {
     "code": "A12220004",
@@ -1410,7 +2172,13 @@
     "emd": "진관동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2008.05",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 14,
+    "addr": "서울특별시 은평구 진관3로 70"
   },
   {
     "code": "A12220005",
@@ -1421,7 +2189,13 @@
     "emd": "진관동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2008.05",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 14,
+    "addr": "서울특별시 은평구 진관4로 17"
   },
   {
     "code": "A41279901",
@@ -1432,7 +2206,13 @@
     "emd": "진관동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2008.06",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 은평구 진관4로 48-51"
   },
   {
     "code": "A41279902",
@@ -1443,7 +2223,13 @@
     "emd": "진관동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2008.05",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 14,
+    "addr": "서울특별시 은평구 진관4로 87"
   },
   {
     "code": "A41279903",
@@ -1454,7 +2240,13 @@
     "emd": "진관동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2008.05",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 14,
+    "addr": "서울특별시 은평구 진관4로 100"
   },
   {
     "code": "A41279904",
@@ -1465,7 +2257,13 @@
     "emd": "진관동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2008.05",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 14,
+    "addr": "서울특별시 은평구 진관4로 107"
   },
   {
     "code": "A41279905",
@@ -1476,7 +2274,13 @@
     "emd": "진관동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2008.05",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 14,
+    "addr": "서울특별시 은평구 진관4로 77"
   },
   {
     "code": "A41279906",
@@ -1487,7 +2291,13 @@
     "emd": "진관동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2008.05",
+    "dongCnt": "4동",
+    "heat": "",
+    "sale": "혼합",
+    "topFloor": 10,
+    "addr": "서울특별시 은평구 진관4로 48-17"
   },
   {
     "code": "A41279907",
@@ -1498,7 +2308,13 @@
     "emd": "진관동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2008.05",
+    "dongCnt": "6동",
+    "heat": "",
+    "sale": "혼합",
+    "topFloor": 14,
+    "addr": "서울특별시 은평구 진관4로 48-8"
   },
   {
     "code": "A41279908",
@@ -1509,7 +2325,13 @@
     "emd": "진관동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2008.05",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 14,
+    "addr": "서울특별시 은평구 진관4로 47"
   },
   {
     "code": "A41279909",
@@ -1520,7 +2342,13 @@
     "emd": "진관동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2008.12",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 은평구 진관1로 22"
   },
   {
     "code": "A41279910",
@@ -1531,7 +2359,13 @@
     "emd": "진관동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2009.01",
+    "dongCnt": "16동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "서울특별시 은평구 진관1로 21-10"
   },
   {
     "code": "A41279911",
@@ -1542,7 +2376,13 @@
     "emd": "진관동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2009.01",
+    "dongCnt": "14동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 20,
+    "addr": "서울특별시 은평구 진관1로 21-9"
   },
   {
     "code": "A41279912",
@@ -1553,7 +2393,13 @@
     "emd": "진관동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2009.11",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 19,
+    "addr": "서울특별시 은평구 진관2로 90"
   },
   {
     "code": "A41279913",
@@ -1564,7 +2410,13 @@
     "emd": "진관동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2009.11",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 18,
+    "addr": "서울특별시 은평구 진관1로 55"
   },
   {
     "code": "A41279914",
@@ -1575,7 +2427,13 @@
     "emd": "진관동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2009.11",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 18,
+    "addr": "서울특별시 은평구 진관2로 60"
   },
   {
     "code": "A41279915",
@@ -1586,7 +2444,13 @@
     "emd": "진관동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2009.12",
+    "dongCnt": "14동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 은평구 진관2로 111-7"
   },
   {
     "code": "A41279916",
@@ -1597,7 +2461,13 @@
     "emd": "진관동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2009.12",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 16,
+    "addr": "서울특별시 은평구 진관2로 77"
   },
   {
     "code": "A41279917",
@@ -1608,7 +2478,13 @@
     "emd": "진관동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2009.12",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 은평구 진관2로 57-7"
   },
   {
     "code": "A41279918",
@@ -1619,7 +2495,13 @@
     "emd": "진관동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2010.01",
+    "dongCnt": "22동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 은평구 진관2로 57-37"
   },
   {
     "code": "A41279920",
@@ -1630,7 +2512,13 @@
     "emd": "진관동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2010.07",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "서울특별시 은평구 진관3로 77"
   },
   {
     "code": "A41279921",
@@ -1641,7 +2529,13 @@
     "emd": "진관동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2010.07",
+    "dongCnt": "15동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 은평구 진관3로 67"
   },
   {
     "code": "A41279922",
@@ -1652,7 +2546,13 @@
     "emd": "진관동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2010.09",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 은평구 연서로48길 11"
   },
   {
     "code": "A41279923",
@@ -1663,7 +2563,13 @@
     "emd": "진관동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2010.09",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 은평구 연서로48길 12"
   },
   {
     "code": "A41279924",
@@ -1674,7 +2580,13 @@
     "emd": "진관동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2010.06",
+    "dongCnt": "15동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 은평구 연서로44길 7"
   },
   {
     "code": "A41279925",
@@ -1685,7 +2597,13 @@
     "emd": "진관동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2010.09",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 11,
+    "addr": "서울특별시 은평구 연서로 487"
   },
   {
     "code": "A41279926",
@@ -1696,7 +2614,13 @@
     "emd": "진관동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2010.06",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 은평구 연서로44길 30"
   },
   {
     "code": "A41279927",
@@ -1707,7 +2631,13 @@
     "emd": "진관동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2010.11",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "서울특별시 은평구 진관3로 15-45"
   },
   {
     "code": "A41279928",
@@ -1718,7 +2648,13 @@
     "emd": "진관동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2010.11",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 은평구 진관3로 15-35"
   },
   {
     "code": "A41279929",
@@ -1729,7 +2665,13 @@
     "emd": "진관동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2010.09",
+    "dongCnt": "14동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 은평구 연서로 455"
   },
   {
     "code": "A41279930",
@@ -1740,7 +2682,13 @@
     "emd": "진관동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2010.06",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "서울특별시 은평구 진관1로 77-8"
   },
   {
     "code": "A41279931",
@@ -1751,7 +2699,13 @@
     "emd": "진관동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2012.02",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 은평구 북한산로 2"
   },
   {
     "code": "A41279932",
@@ -1762,6 +2716,12 @@
     "emd": "진관동",
     "sigunguCode": "11380",
     "sido": "서울특별시",
-    "sigungu": "은평구"
+    "sigungu": "은평구",
+    "built": "2015.01",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "서울특별시 은평구 연서로46길 7"
   }
 ]

@@ -8,7 +8,13 @@
     "emd": "괴정동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1989.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 사하구 낙동대로 106"
   },
   {
     "code": "A10020442",
@@ -20,7 +26,13 @@
     "sigunguCode": "26380",
     "sido": "부산광역시",
     "sigungu": "사하구",
-    "hhldCnt": 126
+    "hhldCnt": 126,
+    "built": "2019.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "부산광역시 사하구 낙동대로 137"
   },
   {
     "code": "A10022407",
@@ -31,7 +43,13 @@
     "emd": "괴정동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2017.08",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "부산광역시 사하구 낙동대로 182"
   },
   {
     "code": "A10023440",
@@ -42,7 +60,13 @@
     "emd": "괴정동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2022.12",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 38,
+    "addr": "부산광역시 사하구 괴정로 166"
   },
   {
     "code": "A10023969",
@@ -53,7 +77,13 @@
     "emd": "괴정동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2022.06",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 29,
+    "addr": "부산광역시 사하구 사리로 106"
   },
   {
     "code": "A10024383",
@@ -64,7 +94,13 @@
     "emd": "괴정동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2021.01",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 32,
+    "addr": "부산광역시 사하구 낙동대로 280"
   },
   {
     "code": "A10024844",
@@ -75,7 +111,13 @@
     "emd": "괴정동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2020.06",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "부산광역시 사하구 사하로142번길 38"
   },
   {
     "code": "A10025542",
@@ -86,7 +128,13 @@
     "emd": "괴정동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2019.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "부산광역시 사하구 사하로 189"
   },
   {
     "code": "A10027002",
@@ -97,7 +145,13 @@
     "emd": "괴정동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2017.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "부산광역시 사하구 사하로 182"
   },
   {
     "code": "A10027464",
@@ -108,7 +162,13 @@
     "emd": "괴정동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2016.05",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "부산광역시 사하구 사하로 183"
   },
   {
     "code": "A10027875",
@@ -119,7 +179,13 @@
     "emd": "괴정동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2015.08",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 사하구 낙동대로 180"
   },
   {
     "code": "A10028150",
@@ -130,7 +196,13 @@
     "emd": "괴정동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2015.01",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 사하구 사리로70번길 24"
   },
   {
     "code": "A60408001",
@@ -141,7 +213,13 @@
     "emd": "괴정동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2004.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "부산광역시 사하구 낙동대로233번길 1"
   },
   {
     "code": "A60470501",
@@ -152,7 +230,13 @@
     "emd": "괴정동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2012.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 사하구 대티로17번길 47"
   },
   {
     "code": "A60470801",
@@ -163,7 +247,13 @@
     "emd": "괴정동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2011.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 33,
+    "addr": "부산광역시 사하구 낙동대로 203"
   },
   {
     "code": "A60473407",
@@ -174,7 +264,13 @@
     "emd": "괴정동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1979.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "부산광역시 사하구 장평로450번길 12"
   },
   {
     "code": "A60480703",
@@ -185,7 +281,13 @@
     "emd": "괴정동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1995.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "부산광역시 사하구 오작로 104"
   },
   {
     "code": "A60480804",
@@ -196,7 +298,13 @@
     "emd": "괴정동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2007.04",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 사하구 대티로1번길 22"
   },
   {
     "code": "A60481001",
@@ -207,7 +315,13 @@
     "emd": "괴정동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1991.04",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 사하구 오작로 46"
   },
   {
     "code": "A60481002",
@@ -218,7 +332,13 @@
     "emd": "괴정동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1990.03",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 사하구 오작로 68"
   },
   {
     "code": "A60481201",
@@ -229,7 +349,13 @@
     "emd": "괴정동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2006.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 사하구 괴정로244번길 57"
   },
   {
     "code": "A60481203",
@@ -240,7 +366,13 @@
     "emd": "괴정동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1985.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 11,
+    "addr": "부산광역시 사하구 사하로141번길 20"
   },
   {
     "code": "A60481206",
@@ -251,7 +383,13 @@
     "emd": "괴정동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1989.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 사하구 사하로141번나길 35-4"
   },
   {
     "code": "A60481303",
@@ -262,7 +400,13 @@
     "emd": "괴정동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2004.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 사하구 낙동대로 301"
   },
   {
     "code": "A60481504",
@@ -273,7 +417,13 @@
     "emd": "괴정동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1997.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "부산광역시 사하구 승학로 221"
   },
   {
     "code": "A60481505",
@@ -284,7 +434,13 @@
     "emd": "괴정동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1997.02",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 사하구 승학로233번길 50"
   },
   {
     "code": "A60481508",
@@ -295,7 +451,13 @@
     "emd": "괴정동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1997.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 사하구 승학로233번길 33"
   },
   {
     "code": "A60481601",
@@ -306,7 +468,13 @@
     "emd": "괴정동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1995.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "부산광역시 사하구 장평로 378"
   },
   {
     "code": "A60485510",
@@ -317,7 +485,13 @@
     "emd": "괴정동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1982.09",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "부산광역시 사하구 낙동대로 263"
   },
   {
     "code": "A10020256",
@@ -329,7 +503,13 @@
     "sigunguCode": "26380",
     "sido": "부산광역시",
     "sigungu": "사하구",
-    "hhldCnt": 203
+    "hhldCnt": 203,
+    "built": "1985.03",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 6,
+    "addr": "부산광역시 사하구 승학로17번길 20"
   },
   {
     "code": "A10021073",
@@ -340,7 +520,13 @@
     "emd": "당리동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1982.03",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "부산광역시 사하구 다대로 30"
   },
   {
     "code": "A10026912",
@@ -351,7 +537,13 @@
     "emd": "당리동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2017.04",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "부산광역시 사하구 승학로71번길 146"
   },
   {
     "code": "A10027449",
@@ -362,7 +554,13 @@
     "emd": "당리동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2003.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "부산광역시 사하구 당리동 313-9 당리삼창아파트"
   },
   {
     "code": "A60471209",
@@ -373,7 +571,13 @@
     "emd": "당리동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1992.07",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 사하구 제석로79번길 11"
   },
   {
     "code": "A60471706",
@@ -384,7 +588,13 @@
     "emd": "당리동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1992.08",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 사하구 다대로22번길 30"
   },
   {
     "code": "A60471808",
@@ -395,7 +605,13 @@
     "emd": "당리동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1992.01",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 사하구 승학로 123-4"
   },
   {
     "code": "A60471809",
@@ -406,7 +622,13 @@
     "emd": "당리동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2011.01",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "부산광역시 사하구 승학로71번길 60"
   },
   {
     "code": "A60471810",
@@ -417,7 +639,13 @@
     "emd": "당리동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2013.07",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 26,
+    "addr": "부산광역시 사하구 승학로71번길 30"
   },
   {
     "code": "A60471811",
@@ -428,7 +656,13 @@
     "emd": "당리동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1989.01",
+    "dongCnt": "6동",
+    "heat": "",
+    "sale": "분양",
+    "topFloor": 6,
+    "addr": "부산광역시 사하구 승학로131번길 39"
   },
   {
     "code": "A60471904",
@@ -439,7 +673,13 @@
     "emd": "당리동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1991.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 사하구 마하로 81"
   },
   {
     "code": "A60472010",
@@ -450,7 +690,13 @@
     "emd": "당리동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1996.01",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 사하구 제석로 127"
   },
   {
     "code": "A60482811",
@@ -461,7 +707,13 @@
     "emd": "당리동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2006.01",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "부산광역시 사하구 제석로 171"
   },
   {
     "code": "A60482812",
@@ -472,7 +724,13 @@
     "emd": "당리동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2005.02",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 사하구 제석로 160"
   },
   {
     "code": "A60482901",
@@ -483,7 +741,13 @@
     "emd": "당리동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1998.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "부산광역시 사하구 제석로95번길 21"
   },
   {
     "code": "A60482902",
@@ -494,7 +758,13 @@
     "emd": "당리동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1991.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 사하구 제석로95번길 22-5"
   },
   {
     "code": "A10020688",
@@ -506,7 +776,13 @@
     "sigunguCode": "26380",
     "sido": "부산광역시",
     "sigungu": "사하구",
-    "hhldCnt": 114
+    "hhldCnt": 114,
+    "built": "2006.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 사하구 낙동남로1357번길 46"
   },
   {
     "code": "A10020808",
@@ -517,7 +793,13 @@
     "emd": "하단동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2025.01",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "부산광역시 사하구 승학로3번길 47"
   },
   {
     "code": "A10021191",
@@ -528,7 +810,13 @@
     "emd": "하단동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2021.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "부산광역시 사하구 낙동대로457번길 5"
   },
   {
     "code": "A10023581",
@@ -539,7 +827,13 @@
     "emd": "하단동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2022.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "부산광역시 사하구 낙동대로 413"
   },
   {
     "code": "A60402001",
@@ -550,7 +844,13 @@
     "emd": "하단동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1989.04",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "부산광역시 사하구 낙동대로575번길 10"
   },
   {
     "code": "A60402002",
@@ -561,7 +861,13 @@
     "emd": "하단동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1999.02",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 사하구 낙동대로520번길 14"
   },
   {
     "code": "A60402003",
@@ -572,7 +878,13 @@
     "emd": "하단동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2004.05",
+    "dongCnt": "17동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 사하구 하신번영로 400"
   },
   {
     "code": "A60402104",
@@ -583,7 +895,13 @@
     "emd": "하단동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1987.03",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 5,
+    "addr": "부산광역시 사하구 낙동대로575번길 30"
   },
   {
     "code": "A60474905",
@@ -594,7 +912,13 @@
     "emd": "하단동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1996.05",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 사하구 동매로 120"
   },
   {
     "code": "A60476101",
@@ -605,7 +929,13 @@
     "emd": "하단동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1992.09",
+    "dongCnt": "18동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "부산광역시 사하구 하신번영로 365"
   },
   {
     "code": "A60476206",
@@ -616,7 +946,13 @@
     "emd": "하단동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1992.09",
+    "dongCnt": "35동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "부산광역시 사하구 하신번영로 233"
   },
   {
     "code": "A60485001",
@@ -627,7 +963,13 @@
     "emd": "하단동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2001.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "부산광역시 사하구 괴정로 76"
   },
   {
     "code": "A10023928",
@@ -638,7 +980,13 @@
     "emd": "신평동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2021.12",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "부산광역시 사하구 신산북로 41"
   },
   {
     "code": "A10027236",
@@ -649,7 +997,13 @@
     "emd": "신평동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2016.12",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "부산광역시 사하구 신산북로 43"
   },
   {
     "code": "A10027330",
@@ -660,7 +1014,13 @@
     "emd": "신평동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2016.10",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 사하구 신산북로 5"
   },
   {
     "code": "A60403002",
@@ -671,7 +1031,13 @@
     "emd": "신평동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1990.07",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 사하구 신산북로43번길 43"
   },
   {
     "code": "A60403003",
@@ -682,7 +1048,13 @@
     "emd": "신평동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2012.03",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 사하구 장평로 339"
   },
   {
     "code": "A60472602",
@@ -693,7 +1065,13 @@
     "emd": "신평동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1993.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 사하구 다대로 109"
   },
   {
     "code": "A60472701",
@@ -704,7 +1082,13 @@
     "emd": "신평동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1993.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 사하구 다대로 109"
   },
   {
     "code": "A60475903",
@@ -715,7 +1099,13 @@
     "emd": "신평동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1992.03",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 사하구 하신중앙로 180"
   },
   {
     "code": "A60476805",
@@ -726,7 +1116,13 @@
     "emd": "신평동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1994.12",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 사하구 하신중앙로 170"
   },
   {
     "code": "A60483201",
@@ -737,7 +1133,13 @@
     "emd": "신평동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2001.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 사하구 신산로 187"
   },
   {
     "code": "A60483203",
@@ -748,7 +1150,13 @@
     "emd": "신평동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1989.05",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 6,
+    "addr": "부산광역시 사하구 장평로 311"
   },
   {
     "code": "A60483401",
@@ -759,7 +1167,13 @@
     "emd": "신평동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2001.06",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "부산광역시 사하구 비봉로 29"
   },
   {
     "code": "A60483402",
@@ -770,7 +1184,13 @@
     "emd": "신평동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1998.01",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "부산광역시 사하구 비봉로 37"
   },
   {
     "code": "A60483404",
@@ -781,7 +1201,13 @@
     "emd": "신평동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1993.12",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 사하구 비봉로 42"
   },
   {
     "code": "A10021074",
@@ -792,7 +1218,13 @@
     "emd": "장림동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1989.05",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "부산광역시 사하구 두송로 32"
   },
   {
     "code": "A10022280",
@@ -804,7 +1236,13 @@
     "sigunguCode": "26380",
     "sido": "부산광역시",
     "sigungu": "사하구",
-    "hhldCnt": 1643
+    "hhldCnt": 1643,
+    "built": "2024.09",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 35,
+    "addr": "부산광역시 사하구 장림로 199"
   },
   {
     "code": "A10024859",
@@ -815,7 +1253,13 @@
     "emd": "장림동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2020.06",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "부산광역시 사하구 장림번영로 76"
   },
   {
     "code": "A10025062",
@@ -826,7 +1270,13 @@
     "emd": "장림동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1993.03",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "부산광역시 사하구 다대로 365"
   },
   {
     "code": "A10025499",
@@ -837,7 +1287,13 @@
     "emd": "장림동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2019.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "부산광역시 사하구 다대로 328"
   },
   {
     "code": "A10025997",
@@ -848,7 +1304,13 @@
     "emd": "장림동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2018.10",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "부산광역시 사하구 장림번영로104번길 10"
   },
   {
     "code": "A10026102",
@@ -859,7 +1321,13 @@
     "emd": "장림동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2008.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "부산광역시 사하구 장림번영로 53"
   },
   {
     "code": "A10026369",
@@ -870,7 +1338,13 @@
     "emd": "장림동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2015.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 사하구 장림번영로 50"
   },
   {
     "code": "A10026478",
@@ -881,7 +1355,13 @@
     "emd": "장림동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2017.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "부산광역시 사하구 장림번영로 96"
   },
   {
     "code": "A60404202",
@@ -892,7 +1372,13 @@
     "emd": "장림동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1993.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 사하구 다대로227번길 45"
   },
   {
     "code": "A60470305",
@@ -903,7 +1389,13 @@
     "emd": "장림동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2002.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "부산광역시 사하구 다대로277번길 124"
   },
   {
     "code": "A60474002",
@@ -914,7 +1406,13 @@
     "emd": "장림동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2005.01",
+    "dongCnt": "18동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 사하구 하신중앙로 2"
   },
   {
     "code": "A60474410",
@@ -925,7 +1423,13 @@
     "emd": "장림동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1999.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "부산광역시 사하구 다대로227번길 37"
   },
   {
     "code": "A60474516",
@@ -936,7 +1440,13 @@
     "emd": "장림동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2003.04",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 사하구 다대로277번길 85"
   },
   {
     "code": "A60476911",
@@ -947,7 +1457,13 @@
     "emd": "장림동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1992.06",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 사하구 장평로41번길 61"
   },
   {
     "code": "A60477013",
@@ -958,7 +1474,13 @@
     "emd": "장림동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1995.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 사하구 다대로 339"
   },
   {
     "code": "A60477206",
@@ -969,7 +1491,13 @@
     "emd": "장림동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2001.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 사하구 다대로227번길 15"
   },
   {
     "code": "A60477315",
@@ -980,7 +1508,13 @@
     "emd": "장림동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1989.10",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 6,
+    "addr": "부산광역시 사하구 다대로 301"
   },
   {
     "code": "A60477509",
@@ -991,7 +1525,13 @@
     "emd": "장림동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2005.11",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "부산광역시 사하구 장평로 119"
   },
   {
     "code": "A60477608",
@@ -1002,7 +1542,13 @@
     "emd": "장림동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1993.04",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 사하구 다대로277번길 141"
   },
   {
     "code": "A60484001",
@@ -1013,7 +1559,13 @@
     "emd": "장림동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1995.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "부산광역시 사하구 두송로 47"
   },
   {
     "code": "A60484003",
@@ -1024,7 +1576,13 @@
     "emd": "장림동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1993.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "부산광역시 사하구 다대로277번길 56"
   },
   {
     "code": "A60484004",
@@ -1035,7 +1593,13 @@
     "emd": "장림동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1992.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 사하구 두송로 25"
   },
   {
     "code": "A60484514",
@@ -1046,7 +1610,13 @@
     "emd": "장림동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2007.05",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 사하구 장평로 87"
   },
   {
     "code": "A60484607",
@@ -1057,7 +1627,13 @@
     "emd": "장림동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1993.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 사하구 장평로41번길 51"
   },
   {
     "code": "A60484612",
@@ -1068,7 +1644,13 @@
     "emd": "장림동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1992.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 사하구 장평로41번길 19"
   },
   {
     "code": "A10020161",
@@ -1079,7 +1661,13 @@
     "emd": "다대동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1995.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "부산광역시 사하구 다대낙조2길 7"
   },
   {
     "code": "A10021031",
@@ -1090,7 +1678,13 @@
     "emd": "다대동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2024.10",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 사하구 윤공단로17번길 55"
   },
   {
     "code": "A10021113",
@@ -1101,7 +1695,13 @@
     "emd": "다대동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1986.12",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 3,
+    "addr": "부산광역시 사하구 윤공단로17번길 29"
   },
   {
     "code": "A60405001",
@@ -1112,7 +1712,13 @@
     "emd": "다대동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2007.11",
+    "dongCnt": "49동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "부산광역시 사하구 다대낙조2길 100"
   },
   {
     "code": "A60405002",
@@ -1123,7 +1729,13 @@
     "emd": "다대동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2014.12",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 35,
+    "addr": "부산광역시 사하구 다송로 23"
   },
   {
     "code": "A60472901",
@@ -1134,7 +1746,13 @@
     "emd": "다대동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2012.09",
+    "dongCnt": "15동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "부산광역시 사하구 윤공단로 123"
   },
   {
     "code": "A60473003",
@@ -1145,7 +1763,13 @@
     "emd": "다대동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1990.03",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 6,
+    "addr": "부산광역시 사하구 윤공단로17번길 103"
   },
   {
     "code": "A60474307",
@@ -1156,7 +1780,13 @@
     "emd": "다대동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1991.12",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 사하구 다대로 470"
   },
   {
     "code": "A60475305",
@@ -1167,7 +1797,13 @@
     "emd": "다대동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1991.12",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 사하구 다대로 400"
   },
   {
     "code": "A60475309",
@@ -1178,7 +1814,13 @@
     "emd": "다대동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1989.11",
+    "dongCnt": "5동",
+    "heat": "중앙난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "부산광역시 사하구 다대로 430"
   },
   {
     "code": "A60475401",
@@ -1189,7 +1831,13 @@
     "emd": "다대동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1998.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 22,
+    "addr": "부산광역시 사하구 다대로381번길 105"
   },
   {
     "code": "A60475402",
@@ -1200,7 +1848,13 @@
     "emd": "다대동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1999.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 사하구 다대로381번길 41"
   },
   {
     "code": "A60475408",
@@ -1211,7 +1865,13 @@
     "emd": "다대동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1995.05",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 사하구 다대로381번길 75"
   },
   {
     "code": "A60475411",
@@ -1222,7 +1882,13 @@
     "emd": "다대동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1995.06",
+    "dongCnt": "10동",
+    "heat": "중앙난방",
+    "sale": "임대",
+    "topFloor": 25,
+    "addr": "부산광역시 사하구 다송로 59"
   },
   {
     "code": "A60475412",
@@ -1233,7 +1899,13 @@
     "emd": "다대동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1995.05",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 사하구 다대로381번길 99"
   },
   {
     "code": "A60475507",
@@ -1244,7 +1916,13 @@
     "emd": "다대동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1998.09",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 사하구 다대낙조1길 12"
   },
   {
     "code": "A60475509",
@@ -1255,7 +1933,13 @@
     "emd": "다대동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1996.06",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "부산광역시 사하구 다대낙조2길 11"
   },
   {
     "code": "A60475612",
@@ -1266,7 +1950,13 @@
     "emd": "다대동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1993.09",
+    "dongCnt": "15동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 사하구 다대로 473"
   },
   {
     "code": "A60475710",
@@ -1277,7 +1967,13 @@
     "emd": "다대동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1996.09",
+    "dongCnt": "10동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 사하구 다대로429번길 20"
   },
   {
     "code": "A60475803",
@@ -1288,7 +1984,13 @@
     "emd": "다대동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1986.11",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 6,
+    "addr": "부산광역시 사하구 다송로 7"
   },
   {
     "code": "A60476511",
@@ -1299,7 +2001,13 @@
     "emd": "다대동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1993.10",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 사하구 다대로 617"
   },
   {
     "code": "A60476604",
@@ -1310,7 +2018,13 @@
     "emd": "다대동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1988.07",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "부산광역시 사하구 다송로 36"
   },
   {
     "code": "A60482013",
@@ -1321,7 +2035,13 @@
     "emd": "다대동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1996.01",
+    "dongCnt": "17동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "부산광역시 사하구 다대낙조2길 12"
   },
   {
     "code": "A60482502",
@@ -1332,7 +2052,13 @@
     "emd": "다대동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2005.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 35,
+    "addr": "부산광역시 사하구 다대동로 30"
   },
   {
     "code": "A60482708",
@@ -1343,7 +2069,13 @@
     "emd": "다대동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1998.09",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 사하구 다대낙조1길 42"
   },
   {
     "code": "A60482712",
@@ -1354,7 +2086,13 @@
     "emd": "다대동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1996.10",
+    "dongCnt": "12동",
+    "heat": "중앙난방",
+    "sale": "임대",
+    "topFloor": 22,
+    "addr": "부산광역시 사하구 다대낙조2길 13"
   },
   {
     "code": "A10024185",
@@ -1365,7 +2103,13 @@
     "emd": "구평동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2021.07",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 29,
+    "addr": "부산광역시 사하구 서포로30번길 42"
   },
   {
     "code": "A10026651",
@@ -1376,7 +2120,13 @@
     "emd": "구평동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2017.10",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "부산광역시 사하구 서포로30번길 12"
   },
   {
     "code": "A10027306",
@@ -1387,7 +2137,13 @@
     "emd": "구평동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2016.09",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "부산광역시 사하구 서포로30번길 26"
   },
   {
     "code": "A60473602",
@@ -1398,7 +2154,13 @@
     "emd": "구평동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1993.05",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "부산광역시 사하구 사하로 47"
   },
   {
     "code": "A60473701",
@@ -1409,7 +2171,13 @@
     "emd": "구평동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2013.07",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "부산광역시 사하구 을숙도대로709번길 22"
   },
   {
     "code": "A60481703",
@@ -1420,7 +2188,13 @@
     "emd": "구평동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1999.03",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "부산광역시 사하구 을숙도대로709번길 31"
   },
   {
     "code": "A10020525",
@@ -1432,7 +2206,13 @@
     "sigunguCode": "26380",
     "sido": "부산광역시",
     "sigungu": "사하구",
-    "hhldCnt": 142
+    "hhldCnt": 142,
+    "built": "1987.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "부산광역시 사하구 감천로 53"
   },
   {
     "code": "A10022107",
@@ -1443,7 +2223,13 @@
     "emd": "감천동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2018.07",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "부산광역시 사하구 감천로105번길 53"
   },
   {
     "code": "A60473106",
@@ -1454,7 +2240,13 @@
     "emd": "감천동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1997.11",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "부산광역시 사하구 감천로 24"
   },
   {
     "code": "A60473107",
@@ -1465,7 +2257,13 @@
     "emd": "감천동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1999.08",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "부산광역시 사하구 사하로 80"
   },
   {
     "code": "A60473304",
@@ -1476,7 +2274,13 @@
     "emd": "감천동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2000.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "부산광역시 사하구 사하로 74-6"
   },
   {
     "code": "A60478201",
@@ -1487,7 +2291,13 @@
     "emd": "감천동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1994.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "부산광역시 사하구 감천로 38"
   },
   {
     "code": "A60478203",
@@ -1498,7 +2308,13 @@
     "emd": "감천동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1995.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "부산광역시 사하구 감천로 32"
   },
   {
     "code": "A60480001",
@@ -1509,7 +2325,13 @@
     "emd": "감천동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2003.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "부산광역시 사하구 옥천로 87"
   },
   {
     "code": "A60480405",
@@ -1520,7 +2342,13 @@
     "emd": "감천동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "1995.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 사하구 감천로 175"
   },
   {
     "code": "A60480608",
@@ -1531,6 +2359,12 @@
     "emd": "감천동",
     "sigunguCode": "26380",
     "sido": "부산광역시",
-    "sigungu": "사하구"
+    "sigungu": "사하구",
+    "built": "2002.12",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 사하구 감천로21번길 35"
   }
 ]

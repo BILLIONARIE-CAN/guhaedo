@@ -8,7 +8,13 @@
     "emd": "합천읍",
     "sigunguCode": "48890",
     "sido": "경상남도",
-    "sigungu": "합천군"
+    "sigungu": "합천군",
+    "built": "1993.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "경상남도 합천군 충효로 13"
   },
   {
     "code": "A10023800",
@@ -19,7 +25,13 @@
     "emd": "합천읍",
     "sigunguCode": "48890",
     "sido": "경상남도",
-    "sigungu": "합천군"
+    "sigungu": "합천군",
+    "built": "2021.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 8,
+    "addr": "경상남도 합천군 합천읍 합천리 428-1 합천핫들LH아파트"
   },
   {
     "code": "A67880201",
@@ -30,6 +42,12 @@
     "emd": "합천읍",
     "sigunguCode": "48890",
     "sido": "경상남도",
-    "sigungu": "합천군"
+    "sigungu": "합천군",
+    "built": "2004.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "경상남도 합천군 충효로 152"
   }
 ]

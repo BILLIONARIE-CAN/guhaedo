@@ -8,7 +8,13 @@
     "emd": "교동",
     "sigunguCode": "44150",
     "sido": "충청남도",
-    "sigungu": "공주시"
+    "sigungu": "공주시",
+    "built": "1999.07",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "충청남도 공주시 무령로 169-5"
   },
   {
     "code": "A10026981",
@@ -19,7 +25,13 @@
     "emd": "웅진동",
     "sigunguCode": "44150",
     "sido": "충청남도",
-    "sigungu": "공주시"
+    "sigungu": "공주시",
+    "built": "2017.04",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 공주시 웅진절골3길 38"
   },
   {
     "code": "A31402002",
@@ -30,7 +42,13 @@
     "emd": "웅진동",
     "sigunguCode": "44150",
     "sido": "충청남도",
-    "sigungu": "공주시"
+    "sigungu": "공주시",
+    "built": "1993.12",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "충청남도 공주시 백제문화로 2151"
   },
   {
     "code": "A10022639",
@@ -41,7 +59,13 @@
     "emd": "옥룡동",
     "sigunguCode": "44150",
     "sido": "충청남도",
-    "sigungu": "공주시"
+    "sigungu": "공주시",
+    "built": "1986.12",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "충청남도 공주시 월성산1길 19-2"
   },
   {
     "code": "A31404005",
@@ -52,7 +76,13 @@
     "emd": "옥룡동",
     "sigunguCode": "44150",
     "sido": "충청남도",
-    "sigungu": "공주시"
+    "sigungu": "공주시",
+    "built": "1993.05",
+    "dongCnt": "3동",
+    "heat": "중앙난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "충청남도 공주시 우금티로 709-12"
   },
   {
     "code": "A31480401",
@@ -63,7 +93,13 @@
     "emd": "옥룡동",
     "sigunguCode": "44150",
     "sido": "충청남도",
-    "sigungu": "공주시"
+    "sigungu": "공주시",
+    "built": "1995.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "충청남도 공주시 우금티로 704"
   },
   {
     "code": "A31480406",
@@ -74,7 +110,13 @@
     "emd": "옥룡동",
     "sigunguCode": "44150",
     "sido": "충청남도",
-    "sigungu": "공주시"
+    "sigungu": "공주시",
+    "built": "1994.08",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 공주시 우금티로 709-11"
   },
   {
     "code": "A31408002",
@@ -85,7 +127,13 @@
     "emd": "금학동",
     "sigunguCode": "44150",
     "sido": "충청남도",
-    "sigungu": "공주시"
+    "sigungu": "공주시",
+    "built": "2008.12",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "충청남도 공주시 우금티로 580"
   },
   {
     "code": "A10022858",
@@ -96,7 +144,13 @@
     "emd": "월송동",
     "sigunguCode": "44150",
     "sido": "충청남도",
-    "sigungu": "공주시"
+    "sigungu": "공주시",
+    "built": "2023.12",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "충청남도 공주시 무령로 600-26"
   },
   {
     "code": "A10023753",
@@ -107,7 +161,13 @@
     "emd": "월송동",
     "sigunguCode": "44150",
     "sido": "충청남도",
-    "sigungu": "공주시"
+    "sigungu": "공주시",
+    "built": "2022.08",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 16,
+    "addr": "충청남도 공주시 무령로 550-39"
   },
   {
     "code": "A10025859",
@@ -118,7 +178,13 @@
     "emd": "월송동",
     "sigunguCode": "44150",
     "sido": "충청남도",
-    "sigungu": "공주시"
+    "sigungu": "공주시",
+    "built": "2018.11",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "충청남도 공주시 무령로 600-85"
   },
   {
     "code": "A10026615",
@@ -129,7 +195,13 @@
     "emd": "월송동",
     "sigunguCode": "44150",
     "sido": "충청남도",
-    "sigungu": "공주시"
+    "sigungu": "공주시",
+    "built": "2017.10",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 21,
+    "addr": "충청남도 공주시 무령로 600-25"
   },
   {
     "code": "A10020487",
@@ -140,7 +212,13 @@
     "emd": "신관동",
     "sigunguCode": "44150",
     "sido": "충청남도",
-    "sigungu": "공주시"
+    "sigungu": "공주시",
+    "built": "1994.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 공주시 의당로 3-8"
   },
   {
     "code": "A10020519",
@@ -152,7 +230,13 @@
     "sigunguCode": "44150",
     "sido": "충청남도",
     "sigungu": "공주시",
-    "hhldCnt": 20
+    "hhldCnt": 20,
+    "built": "1989.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "충청남도 공주시 한적1길 8-31"
   },
   {
     "code": "A10020616",
@@ -164,7 +248,13 @@
     "sigunguCode": "44150",
     "sido": "충청남도",
     "sigungu": "공주시",
-    "hhldCnt": 120
+    "hhldCnt": 120,
+    "built": "2003.08",
+    "dongCnt": "1동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 공주시 신금2길 38-36"
   },
   {
     "code": "A10020619",
@@ -176,7 +266,13 @@
     "sigunguCode": "44150",
     "sido": "충청남도",
     "sigungu": "공주시",
-    "hhldCnt": 105
+    "hhldCnt": 105,
+    "built": "1992.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "충청남도 공주시 관골1길 49-3"
   },
   {
     "code": "A10020667",
@@ -188,7 +284,13 @@
     "sigunguCode": "44150",
     "sido": "충청남도",
     "sigungu": "공주시",
-    "hhldCnt": 30
+    "hhldCnt": 30,
+    "built": "1988.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "충청남도 공주시 신금1길 10"
   },
   {
     "code": "A10020669",
@@ -200,7 +302,13 @@
     "sigunguCode": "44150",
     "sido": "충청남도",
     "sigungu": "공주시",
-    "hhldCnt": 240
+    "hhldCnt": 240,
+    "built": "1985.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "충청남도 공주시 번영1로 77-8"
   },
   {
     "code": "A10026177",
@@ -211,7 +319,13 @@
     "emd": "신관동",
     "sigunguCode": "44150",
     "sido": "충청남도",
-    "sigungu": "공주시"
+    "sigungu": "공주시",
+    "built": "2018.07",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "충청남도 공주시 관골1길 7"
   },
   {
     "code": "A10026949",
@@ -222,7 +336,13 @@
     "emd": "신관동",
     "sigunguCode": "44150",
     "sido": "충청남도",
-    "sigungu": "공주시"
+    "sigungu": "공주시",
+    "built": "2017.06",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "충청남도 공주시 관골2길 35"
   },
   {
     "code": "A31470119",
@@ -233,7 +353,13 @@
     "emd": "신관동",
     "sigunguCode": "44150",
     "sido": "충청남도",
-    "sigungu": "공주시"
+    "sigungu": "공주시",
+    "built": "2009.05",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 공주시 관골1길 31-8"
   },
   {
     "code": "A31470120",
@@ -244,7 +370,13 @@
     "emd": "신관동",
     "sigunguCode": "44150",
     "sido": "충청남도",
-    "sigungu": "공주시"
+    "sigungu": "공주시",
+    "built": "2009.09",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "충청남도 공주시 관골2길 34"
   },
   {
     "code": "A31480203",
@@ -255,7 +387,13 @@
     "emd": "신관동",
     "sigunguCode": "44150",
     "sido": "충청남도",
-    "sigungu": "공주시"
+    "sigungu": "공주시",
+    "built": "1996.05",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 공주시 신금2길 47-1"
   },
   {
     "code": "A31480204",
@@ -266,7 +404,13 @@
     "emd": "신관동",
     "sigunguCode": "44150",
     "sido": "충청남도",
-    "sigungu": "공주시"
+    "sigungu": "공주시",
+    "built": "2002.11",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "충청남도 공주시 번영1로 194-7"
   },
   {
     "code": "A31480208",
@@ -277,7 +421,13 @@
     "emd": "신관동",
     "sigunguCode": "44150",
     "sido": "충청남도",
-    "sigungu": "공주시"
+    "sigungu": "공주시",
+    "built": "2006.08",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 공주시 신금2길 17"
   },
   {
     "code": "A31480210",
@@ -288,7 +438,13 @@
     "emd": "신관동",
     "sigunguCode": "44150",
     "sido": "충청남도",
-    "sigungu": "공주시"
+    "sigungu": "공주시",
+    "built": "1992.07",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 공주시 공주대학로 23-4"
   },
   {
     "code": "A31480211",
@@ -299,7 +455,13 @@
     "emd": "신관동",
     "sigunguCode": "44150",
     "sido": "충청남도",
-    "sigungu": "공주시"
+    "sigungu": "공주시",
+    "built": "2006.03",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 공주시 공주대학로 49-5"
   },
   {
     "code": "A31480214",
@@ -310,7 +472,13 @@
     "emd": "신관동",
     "sigunguCode": "44150",
     "sido": "충청남도",
-    "sigungu": "공주시"
+    "sigungu": "공주시",
+    "built": "2005.07",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 공주시 관골2길 24-29"
   },
   {
     "code": "A31480215",
@@ -321,7 +489,13 @@
     "emd": "신관동",
     "sigunguCode": "44150",
     "sido": "충청남도",
-    "sigungu": "공주시"
+    "sigungu": "공주시",
+    "built": "1990.06",
+    "dongCnt": "15동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 6,
+    "addr": "충청남도 공주시 신금1길 30-3"
   },
   {
     "code": "A31480217",
@@ -332,7 +506,13 @@
     "emd": "신관동",
     "sigunguCode": "44150",
     "sido": "충청남도",
-    "sigungu": "공주시"
+    "sigungu": "공주시",
+    "built": "1996.03",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 공주시 신금1길 72"
   },
   {
     "code": "A31480218",
@@ -343,7 +523,13 @@
     "emd": "신관동",
     "sigunguCode": "44150",
     "sido": "충청남도",
-    "sigungu": "공주시"
+    "sigungu": "공주시",
+    "built": "1998.05",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "충청남도 공주시 신금2길 48"
   },
   {
     "code": "A31480309",
@@ -354,7 +540,13 @@
     "emd": "신관동",
     "sigunguCode": "44150",
     "sido": "충청남도",
-    "sigungu": "공주시"
+    "sigungu": "공주시",
+    "built": "1994.10",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 공주시 신금1길 62-15"
   },
   {
     "code": "A31480313",
@@ -365,7 +557,13 @@
     "emd": "신관동",
     "sigunguCode": "44150",
     "sido": "충청남도",
-    "sigungu": "공주시"
+    "sigungu": "공주시",
+    "built": "1999.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "충청남도 공주시 관골2길 24-5"
   },
   {
     "code": "A10023277",
@@ -376,7 +574,13 @@
     "emd": "금흥동",
     "sigunguCode": "44150",
     "sido": "충청남도",
-    "sigungu": "공주시"
+    "sigungu": "공주시",
+    "built": "2023.02",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "충청남도 공주시 금흥동 311-8 공주금흥LH행복1단지"
   },
   {
     "code": "A10023480",
@@ -387,7 +591,13 @@
     "emd": "금흥동",
     "sigunguCode": "44150",
     "sido": "충청남도",
-    "sigungu": "공주시"
+    "sigungu": "공주시",
+    "built": "2022.12",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "충청남도 공주시 무령로 599-50"
   },
   {
     "code": "A10025943",
@@ -398,7 +608,13 @@
     "emd": "금흥동",
     "sigunguCode": "44150",
     "sido": "충청남도",
-    "sigungu": "공주시"
+    "sigungu": "공주시",
+    "built": "2018.11",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "충청남도 공주시 무령로 599-40"
   },
   {
     "code": "A31414002",
@@ -409,7 +625,13 @@
     "emd": "금흥동",
     "sigunguCode": "44150",
     "sido": "충청남도",
-    "sigungu": "공주시"
+    "sigungu": "공주시",
+    "built": "1999.10",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "충청남도 공주시 신금1길 98"
   },
   {
     "code": "A31471501",
@@ -420,7 +642,13 @@
     "emd": "금흥동",
     "sigunguCode": "44150",
     "sido": "충청남도",
-    "sigungu": "공주시"
+    "sigungu": "공주시",
+    "built": "2010.09",
+    "dongCnt": "9동",
+    "heat": "개별난방+기타",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "충청남도 공주시 한적2길 51-14"
   },
   {
     "code": "A10021166",
@@ -431,7 +659,13 @@
     "emd": "유구읍",
     "sigunguCode": "44150",
     "sido": "충청남도",
-    "sigungu": "공주시"
+    "sigungu": "공주시",
+    "built": "2024.08",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "충청남도 공주시 석남외마루길 21"
   },
   {
     "code": "A31481301",
@@ -442,7 +676,13 @@
     "emd": "의당면",
     "sigunguCode": "44150",
     "sido": "충청남도",
-    "sigungu": "공주시"
+    "sigungu": "공주시",
+    "built": "1998.10",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 8,
+    "addr": "충청남도 공주시 연수원길 116"
   },
   {
     "code": "A31481303",
@@ -453,6 +693,12 @@
     "emd": "의당면",
     "sigunguCode": "44150",
     "sido": "충청남도",
-    "sigungu": "공주시"
+    "sigungu": "공주시",
+    "built": "1998.01",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 8,
+    "addr": "충청남도 공주시 연수원길 115-21"
   }
 ]

@@ -8,7 +8,13 @@
     "emd": "쌍문동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "2021.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 7,
+    "addr": "서울특별시 도봉구 노해로 144"
   },
   {
     "code": "A10022118",
@@ -19,7 +25,13 @@
     "emd": "쌍문동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1995.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 도봉구 시루봉로2길 62"
   },
   {
     "code": "A10022144",
@@ -30,7 +42,13 @@
     "emd": "쌍문동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1998.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 도봉구 해등로 190"
   },
   {
     "code": "A10022967",
@@ -41,7 +59,13 @@
     "emd": "쌍문동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "2018.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 도봉구 방학로5길 33"
   },
   {
     "code": "A10023732",
@@ -52,7 +76,13 @@
     "emd": "쌍문동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "2022.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 7,
+    "addr": "서울특별시 도봉구 삼양로 602"
   },
   {
     "code": "A10023827",
@@ -63,7 +93,13 @@
     "emd": "쌍문동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "2001.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 9,
+    "addr": "서울특별시 도봉구 도봉로137길 31"
   },
   {
     "code": "A10023914",
@@ -74,7 +110,13 @@
     "emd": "쌍문동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "2022.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 17,
+    "addr": "서울특별시 도봉구 도봉로 445"
   },
   {
     "code": "A10024827",
@@ -85,7 +127,13 @@
     "emd": "쌍문동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "2007.04",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 도봉구 노해로41가길 16"
   },
   {
     "code": "A10026175",
@@ -96,7 +144,13 @@
     "emd": "쌍문동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1997.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "서울특별시 도봉구 우이천로30길 28"
   },
   {
     "code": "A13203001",
@@ -107,7 +161,13 @@
     "emd": "쌍문동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "2005.06",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "서울특별시 도봉구 삼양로 566"
   },
   {
     "code": "A13203002",
@@ -118,7 +178,13 @@
     "emd": "쌍문동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "2014.04",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 18,
+    "addr": "서울특별시 도봉구 우이천로 367"
   },
   {
     "code": "A13203102",
@@ -129,7 +195,13 @@
     "emd": "쌍문동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1996.08",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 도봉구 노해로45길 26"
   },
   {
     "code": "A13203202",
@@ -140,7 +212,13 @@
     "emd": "쌍문동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1996.07",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 도봉구 도당로 13"
   },
   {
     "code": "A13203302",
@@ -151,7 +229,13 @@
     "emd": "쌍문동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "2002.07",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 도봉구 우이천로 328"
   },
   {
     "code": "A13203303",
@@ -162,7 +246,13 @@
     "emd": "쌍문동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1986.12",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 도봉구 우이천로 304"
   },
   {
     "code": "A13203401",
@@ -173,7 +263,13 @@
     "emd": "쌍문동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "2004.04",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 도봉구 시루봉로 8"
   },
   {
     "code": "A13203403",
@@ -184,7 +280,13 @@
     "emd": "쌍문동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1991.12",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 도봉구 해등로 241-14"
   },
   {
     "code": "A13203408",
@@ -195,7 +297,13 @@
     "emd": "쌍문동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1990.09",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 도봉구 해등로 206"
   },
   {
     "code": "A13286002",
@@ -206,7 +314,13 @@
     "emd": "쌍문동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1993.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 도봉구 시루봉로6길 53"
   },
   {
     "code": "A13286105",
@@ -217,7 +331,13 @@
     "emd": "쌍문동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1991.05",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 도봉구 해등로25길 36"
   },
   {
     "code": "A13286106",
@@ -228,7 +348,13 @@
     "emd": "쌍문동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1989.10",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 도봉구 해등로 242-11"
   },
   {
     "code": "A13286107",
@@ -239,7 +365,13 @@
     "emd": "쌍문동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "2002.03",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 도봉구 시루봉로 58"
   },
   {
     "code": "A13286109",
@@ -250,7 +382,13 @@
     "emd": "쌍문동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1990.10",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 도봉구 해등로 242-12"
   },
   {
     "code": "A13286110",
@@ -261,7 +399,13 @@
     "emd": "쌍문동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1988.11",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 도봉구 해등로 231"
   },
   {
     "code": "A13286203",
@@ -272,7 +416,13 @@
     "emd": "쌍문동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1988.03",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 도봉구 도봉로129길 45-12"
   },
   {
     "code": "A13286304",
@@ -283,7 +433,13 @@
     "emd": "쌍문동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1988.12",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 도봉구 해등로 195"
   },
   {
     "code": "A13286904",
@@ -294,7 +450,13 @@
     "emd": "쌍문동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1993.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 도봉구 해등로25길 41"
   },
   {
     "code": "A13287503",
@@ -305,7 +467,13 @@
     "emd": "쌍문동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1987.05",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 도봉구 우이천로32길 65"
   },
   {
     "code": "A13287801",
@@ -316,7 +484,13 @@
     "emd": "쌍문동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1995.06",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 도봉구 우이천로38가길 32"
   },
   {
     "code": "A13295201",
@@ -327,7 +501,13 @@
     "emd": "쌍문동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "2006.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 도봉구 노해로40길 71"
   },
   {
     "code": "A10020507",
@@ -339,7 +519,13 @@
     "sigunguCode": "11320",
     "sido": "서울특별시",
     "sigungu": "도봉구",
-    "hhldCnt": 282
+    "hhldCnt": 282,
+    "built": "2025.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 23,
+    "addr": "서울특별시 도봉구 도봉로150마길 34"
   },
   {
     "code": "A10024463",
@@ -350,7 +536,13 @@
     "emd": "방학동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "2018.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 도봉구 도봉로150다길 28"
   },
   {
     "code": "A10024822",
@@ -361,7 +553,13 @@
     "emd": "방학동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "2016.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 8,
+    "addr": "서울특별시 도봉구 도당로15길 36"
   },
   {
     "code": "A10026279",
@@ -372,7 +570,13 @@
     "emd": "방학동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "2005.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 도봉구 도봉로150바길 26"
   },
   {
     "code": "A10026856",
@@ -383,7 +587,13 @@
     "emd": "방학동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1997.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "서울특별시 도봉구 방학로 210"
   },
   {
     "code": "A10027555",
@@ -394,7 +604,13 @@
     "emd": "방학동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "2002.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 도봉구 방학로11길 33"
   },
   {
     "code": "A13202002",
@@ -405,7 +621,13 @@
     "emd": "방학동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "2001.10",
+    "dongCnt": "16동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 도봉구 마들로 616"
   },
   {
     "code": "A13202102",
@@ -416,7 +638,13 @@
     "emd": "방학동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1996.06",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 도봉구 도당로6길 14-5"
   },
   {
     "code": "A13202103",
@@ -427,7 +655,13 @@
     "emd": "방학동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "2002.10",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 도봉구 도봉로150길 42"
   },
   {
     "code": "A13202302",
@@ -438,7 +672,13 @@
     "emd": "방학동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1993.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 도봉구 시루봉로11길 25-5"
   },
   {
     "code": "A13202304",
@@ -449,7 +689,13 @@
     "emd": "방학동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1987.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 도봉구 방학로 212-11"
   },
   {
     "code": "A13202306",
@@ -460,7 +706,13 @@
     "emd": "방학동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1996.04",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 도봉구 방학로11길 10"
   },
   {
     "code": "A13202308",
@@ -471,7 +723,13 @@
     "emd": "방학동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1988.07",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 도봉구 도당로 41"
   },
   {
     "code": "A13202312",
@@ -482,7 +740,13 @@
     "emd": "방학동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1986.12",
+    "dongCnt": "30동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 도봉구 시루봉로 107"
   },
   {
     "code": "A13272101",
@@ -493,7 +757,13 @@
     "emd": "방학동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "2003.09",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 도봉구 도봉로150길 43"
   },
   {
     "code": "A13272102",
@@ -504,7 +774,13 @@
     "emd": "방학동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "2005.11",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 도봉구 방학로 120"
   },
   {
     "code": "A13276414",
@@ -515,7 +791,13 @@
     "emd": "방학동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1992.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 도봉구 방학로15길 26-7"
   },
   {
     "code": "A13276415",
@@ -526,7 +808,13 @@
     "emd": "방학동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1994.06",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 도봉구 해등로 264"
   },
   {
     "code": "A13276416",
@@ -537,7 +825,13 @@
     "emd": "방학동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1992.07",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 도봉구 해등로 286-5"
   },
   {
     "code": "A13276417",
@@ -548,7 +842,13 @@
     "emd": "방학동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1991.09",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 도봉구 방학로11길 36"
   },
   {
     "code": "A13282510",
@@ -559,7 +859,13 @@
     "emd": "방학동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1993.09",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 도봉구 해등로 307"
   },
   {
     "code": "A13283405",
@@ -570,7 +876,13 @@
     "emd": "방학동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1998.06",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "서울특별시 도봉구 시루봉로5길 48"
   },
   {
     "code": "A13283611",
@@ -581,7 +893,13 @@
     "emd": "방학동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1992.09",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 도봉구 방학로15길 40"
   },
   {
     "code": "A13285305",
@@ -592,7 +910,13 @@
     "emd": "방학동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1994.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 도봉구 도당로 116"
   },
   {
     "code": "A13285401",
@@ -603,7 +927,13 @@
     "emd": "방학동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "2003.04",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 도봉구 도봉로146길 36"
   },
   {
     "code": "A13285404",
@@ -614,7 +944,13 @@
     "emd": "방학동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "2003.10",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 도봉구 마들로 657"
   },
   {
     "code": "A13285406",
@@ -625,7 +961,13 @@
     "emd": "방학동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "2002.10",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 도봉구 마들로 646"
   },
   {
     "code": "A13285503",
@@ -636,7 +978,13 @@
     "emd": "방학동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "2004.12",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 도봉구 시루봉로 166"
   },
   {
     "code": "A13285507",
@@ -647,7 +995,13 @@
     "emd": "방학동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1995.05",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 도봉구 방학로 200"
   },
   {
     "code": "A13285601",
@@ -658,7 +1012,13 @@
     "emd": "방학동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1998.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 도봉구 시루봉로 148"
   },
   {
     "code": "A10024782",
@@ -669,7 +1029,13 @@
     "emd": "창동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1999.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 도봉구 덕릉로60바길 17"
   },
   {
     "code": "A10026109",
@@ -680,7 +1046,13 @@
     "emd": "창동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1992.08",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "서울특별시 도봉구 해등로 32"
   },
   {
     "code": "A13201003",
@@ -691,7 +1063,13 @@
     "emd": "창동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "",
+    "dongCnt": "1동",
+    "heat": "",
+    "sale": "",
+    "topFloor": 1,
+    "addr": "서울특별시 도봉구 노해로62길 77"
   },
   {
     "code": "A13204001",
@@ -702,7 +1080,13 @@
     "emd": "창동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "2003.10",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 도봉구 노해로63길 75"
   },
   {
     "code": "A13204002",
@@ -713,7 +1097,13 @@
     "emd": "창동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "2003.09",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 도봉구 도봉로136나길 40"
   },
   {
     "code": "A13204003",
@@ -724,7 +1114,13 @@
     "emd": "창동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "2004.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 도봉구 덕릉로60길 164-13"
   },
   {
     "code": "A13204103",
@@ -735,7 +1131,13 @@
     "emd": "창동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1992.07",
+    "dongCnt": "18동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 도봉구 노해로66길 21"
   },
   {
     "code": "A13204104",
@@ -746,7 +1148,13 @@
     "emd": "창동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1991.11",
+    "dongCnt": "10동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 도봉구 덕릉로 349"
   },
   {
     "code": "A13204105",
@@ -757,7 +1165,13 @@
     "emd": "창동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1990.09",
+    "dongCnt": "32동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 도봉구 해등로 50"
   },
   {
     "code": "A13204201",
@@ -768,7 +1182,13 @@
     "emd": "창동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1997.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 도봉구 우이천로 200"
   },
   {
     "code": "A13204203",
@@ -779,7 +1199,13 @@
     "emd": "창동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "2002.08",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 도봉구 우이천로20길 7"
   },
   {
     "code": "A13204204",
@@ -790,7 +1216,13 @@
     "emd": "창동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1995.11",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 도봉구 덕릉로63가길 43"
   },
   {
     "code": "A13204205",
@@ -801,7 +1233,13 @@
     "emd": "창동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "2003.07",
+    "dongCnt": "15동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 도봉구 도봉로110다길 51"
   },
   {
     "code": "A13204301",
@@ -812,7 +1250,13 @@
     "emd": "창동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "2005.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 도봉구 우이천로4라길 11-14"
   },
   {
     "code": "A13204302",
@@ -823,7 +1267,13 @@
     "emd": "창동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1998.07",
+    "dongCnt": "5동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 도봉구 덕릉로62길 13"
   },
   {
     "code": "A13204402",
@@ -834,7 +1284,13 @@
     "emd": "창동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "2003.05",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 도봉구 노해로69가길 54"
   },
   {
     "code": "A13204404",
@@ -845,7 +1301,13 @@
     "emd": "창동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "2001.06",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 도봉구 도봉로136길 111"
   },
   {
     "code": "A13204406",
@@ -856,7 +1318,13 @@
     "emd": "창동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1997.02",
+    "dongCnt": "15동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 도봉구 마들로 551"
   },
   {
     "code": "A13204408",
@@ -867,7 +1335,13 @@
     "emd": "창동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1989.07",
+    "dongCnt": "11동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 도봉구 덕릉로66길 17"
   },
   {
     "code": "A13204409",
@@ -878,7 +1352,13 @@
     "emd": "창동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1997.03",
+    "dongCnt": "18동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 도봉구 노해로69길 103"
   },
   {
     "code": "A13204501",
@@ -889,7 +1369,13 @@
     "emd": "창동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1999.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 도봉구 도봉로 642-30"
   },
   {
     "code": "A13204502",
@@ -900,7 +1386,13 @@
     "emd": "창동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "2007.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 도봉구 도봉로136가길 73"
   },
   {
     "code": "A13204503",
@@ -911,7 +1403,13 @@
     "emd": "창동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "2000.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 도봉구 해등로16길 12"
   },
   {
     "code": "A13204505",
@@ -922,7 +1420,13 @@
     "emd": "창동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1988.02",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 도봉구 노해로63가길 7"
   },
   {
     "code": "A13204506",
@@ -933,7 +1437,13 @@
     "emd": "창동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1996.11",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 도봉구 노해로63다길 34"
   },
   {
     "code": "A13204507",
@@ -944,7 +1454,13 @@
     "emd": "창동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1987.11",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 도봉구 해등로 118"
   },
   {
     "code": "A13204508",
@@ -955,7 +1471,13 @@
     "emd": "창동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1990.07",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 도봉구 해등로12길 44"
   },
   {
     "code": "A13204510",
@@ -966,7 +1488,13 @@
     "emd": "창동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "2004.07",
+    "dongCnt": "25동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 도봉구 도봉로136길 28"
   },
   {
     "code": "A13272201",
@@ -977,7 +1505,13 @@
     "emd": "창동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "2000.11",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 도봉구 덕릉로 371"
   },
   {
     "code": "A13275001",
@@ -988,7 +1522,13 @@
     "emd": "창동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "2004.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 도봉구 우이천로20길 6"
   },
   {
     "code": "A13290003",
@@ -999,7 +1539,13 @@
     "emd": "창동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1988.12",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 도봉구 노해로70길 12"
   },
   {
     "code": "A13290105",
@@ -1010,7 +1556,13 @@
     "emd": "창동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1988.10",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 도봉구 노해로70길 126"
   },
   {
     "code": "A13290107",
@@ -1021,7 +1573,13 @@
     "emd": "창동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1988.11",
+    "dongCnt": "12동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 도봉구 노해로70길 54"
   },
   {
     "code": "A13290404",
@@ -1032,7 +1590,13 @@
     "emd": "창동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "2004.01",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 도봉구 도봉로136가길 68"
   },
   {
     "code": "A13290809",
@@ -1043,7 +1607,13 @@
     "emd": "창동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1990.09",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 도봉구 해등로 113"
   },
   {
     "code": "A13292002",
@@ -1054,7 +1624,13 @@
     "emd": "창동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "2002.07",
+    "dongCnt": "3동",
+    "heat": "개별난방+기타",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 도봉구 도봉로110다길 5"
   },
   {
     "code": "A13292501",
@@ -1065,7 +1641,13 @@
     "emd": "창동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1999.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 도봉구 도봉로114길 22-8"
   },
   {
     "code": "A13292701",
@@ -1076,7 +1658,13 @@
     "emd": "창동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "2001.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 도봉구 마들로16길 56"
   },
   {
     "code": "A10020195",
@@ -1087,7 +1675,13 @@
     "emd": "도봉동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "2025.12",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 18,
+    "addr": "서울특별시 도봉구 마들로 708"
   },
   {
     "code": "A10020905",
@@ -1098,7 +1692,13 @@
     "emd": "도봉동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "2004.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "서울특별시 도봉구 도봉로181길 74-30"
   },
   {
     "code": "A10026714",
@@ -1109,7 +1709,13 @@
     "emd": "도봉동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "2004.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 도봉구 도봉로180가길 32"
   },
   {
     "code": "A10027136",
@@ -1120,7 +1726,13 @@
     "emd": "도봉동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "2016.09",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "서울특별시 도봉구 도봉로167길 38"
   },
   {
     "code": "A13201001",
@@ -1131,7 +1743,13 @@
     "emd": "도봉동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1999.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 10,
+    "addr": "서울특별시 도봉구 마들로 770"
   },
   {
     "code": "A13201002",
@@ -1142,7 +1760,13 @@
     "emd": "도봉동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "2002.11",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 도봉구 도봉로180길 83-14"
   },
   {
     "code": "A13201201",
@@ -1153,7 +1777,13 @@
     "emd": "도봉동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1998.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 도봉구 마들로 735-8"
   },
   {
     "code": "A13201202",
@@ -1164,7 +1794,13 @@
     "emd": "도봉동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "2002.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 도봉구 마들로 891"
   },
   {
     "code": "A13201203",
@@ -1175,7 +1811,13 @@
     "emd": "도봉동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1991.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 도봉구 도봉로180길 77"
   },
   {
     "code": "A13201206",
@@ -1186,7 +1828,13 @@
     "emd": "도봉동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "2003.03",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 도봉구 도봉로180길 6-23"
   },
   {
     "code": "A13201207",
@@ -1197,7 +1845,13 @@
     "emd": "도봉동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1987.10",
+    "dongCnt": "4동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 도봉구 도봉로180길 6-81"
   },
   {
     "code": "A13201208",
@@ -1208,7 +1862,13 @@
     "emd": "도봉동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1996.10",
+    "dongCnt": "12동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 도봉구 마들로 684-9"
   },
   {
     "code": "A13201209",
@@ -1219,7 +1879,13 @@
     "emd": "도봉동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1995.09",
+    "dongCnt": "25동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 도봉구 마들로 859-19"
   },
   {
     "code": "A13275301",
@@ -1230,7 +1896,13 @@
     "emd": "도봉동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "2005.06",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 도봉구 도봉로180나길 16"
   },
   {
     "code": "A13275302",
@@ -1241,7 +1913,13 @@
     "emd": "도봉동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1996.10",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 18,
+    "addr": "서울특별시 도봉구 마들로 684-20"
   },
   {
     "code": "A13275303",
@@ -1252,7 +1930,13 @@
     "emd": "도봉동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "2002.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 도봉구 마들로 835"
   },
   {
     "code": "A13280104",
@@ -1263,7 +1947,13 @@
     "emd": "도봉동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1990.11",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 도봉구 도봉로180길 50"
   },
   {
     "code": "A13281201",
@@ -1274,7 +1964,13 @@
     "emd": "도봉동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1987.07",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 도봉구 도봉산길 35"
   },
   {
     "code": "A13281802",
@@ -1285,7 +1981,13 @@
     "emd": "도봉동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "1992.09",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 도봉구 도봉로169길 31"
   },
   {
     "code": "A13293505",
@@ -1296,6 +1998,12 @@
     "emd": "도봉동",
     "sigunguCode": "11320",
     "sido": "서울특별시",
-    "sigungu": "도봉구"
+    "sigungu": "도봉구",
+    "built": "2005.02",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 도봉구 도봉로170길 40"
   }
 ]

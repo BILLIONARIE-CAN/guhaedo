@@ -8,7 +8,13 @@
     "emd": "부여읍",
     "sigunguCode": "44760",
     "sido": "충청남도",
-    "sigungu": "부여군"
+    "sigungu": "부여군",
+    "built": "1986.06",
+    "dongCnt": "20동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "충청남도 부여군 금성로 20"
   },
   {
     "code": "A32380803",
@@ -19,7 +25,13 @@
     "emd": "부여읍",
     "sigunguCode": "44760",
     "sido": "충청남도",
-    "sigungu": "부여군"
+    "sigungu": "부여군",
+    "built": "1991.11",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "충청남도 부여군 성왕로328번길 15"
   },
   {
     "code": "A32380804",
@@ -30,7 +42,13 @@
     "emd": "부여읍",
     "sigunguCode": "44760",
     "sido": "충청남도",
-    "sigungu": "부여군"
+    "sigungu": "부여군",
+    "built": "2001.12",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "충청남도 부여군 성왕로328번길 18-7"
   },
   {
     "code": "A32380805",
@@ -41,7 +59,13 @@
     "emd": "부여읍",
     "sigunguCode": "44760",
     "sido": "충청남도",
-    "sigungu": "부여군"
+    "sigungu": "부여군",
+    "built": "2000.09",
+    "dongCnt": "17동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "충청남도 부여군 성왕로352번길 11"
   },
   {
     "code": "A32380807",
@@ -52,7 +76,13 @@
     "emd": "부여읍",
     "sigunguCode": "44760",
     "sido": "충청남도",
-    "sigungu": "부여군"
+    "sigungu": "부여군",
+    "built": "1991.11",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 5,
+    "addr": "충청남도 부여군 성왕로328번길 15"
   },
   {
     "code": "A10026258",
@@ -63,7 +93,13 @@
     "emd": "규암면",
     "sigunguCode": "44760",
     "sido": "충청남도",
-    "sigungu": "부여군"
+    "sigungu": "부여군",
+    "built": "2018.04",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "충청남도 부여군 흥수로 878"
   },
   {
     "code": "A32381302",
@@ -74,7 +110,13 @@
     "emd": "규암면",
     "sigunguCode": "44760",
     "sido": "충청남도",
-    "sigungu": "부여군"
+    "sigungu": "부여군",
+    "built": "2002.02",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "충청남도 부여군 흥수로 771-5"
   },
   {
     "code": "A32381303",
@@ -85,7 +127,13 @@
     "emd": "규암면",
     "sigunguCode": "44760",
     "sido": "충청남도",
-    "sigungu": "부여군"
+    "sigungu": "부여군",
+    "built": "2002.08",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 부여군 호수로 32"
   },
   {
     "code": "A10026334",
@@ -96,7 +144,13 @@
     "emd": "규암면",
     "sigunguCode": "44760",
     "sido": "충청남도",
-    "sigungu": "부여군"
+    "sigungu": "부여군",
+    "built": "2018.04",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "충청남도 부여군 수북로 14-16"
   },
   {
     "code": "A10027407",
@@ -107,7 +161,13 @@
     "emd": "규암면",
     "sigunguCode": "44760",
     "sido": "충청남도",
-    "sigungu": "부여군"
+    "sigungu": "부여군",
+    "built": "2016.07",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 12,
+    "addr": "충청남도 부여군 규암면 내리 839 부여규암LH천년나무1단지아파트"
   },
   {
     "code": "A32381601",
@@ -118,6 +178,12 @@
     "emd": "규암면",
     "sigunguCode": "44760",
     "sido": "충청남도",
-    "sigungu": "부여군"
+    "sigungu": "부여군",
+    "built": "2001.05",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 부여군 흥수로 646"
   }
 ]

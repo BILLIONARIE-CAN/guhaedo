@@ -8,7 +8,13 @@
     "emd": "남해읍",
     "sigunguCode": "48840",
     "sido": "경상남도",
-    "sigungu": "남해군"
+    "sigungu": "남해군",
+    "built": "1997.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 남해군 화전로 154"
   },
   {
     "code": "A10021718",
@@ -19,7 +25,13 @@
     "emd": "남해읍",
     "sigunguCode": "48840",
     "sido": "경상남도",
-    "sigungu": "남해군"
+    "sigungu": "남해군",
+    "built": "1992.12",
+    "dongCnt": "1동",
+    "heat": "",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "경상남도 남해군 망운로 77"
   },
   {
     "code": "A10021903",
@@ -30,7 +42,13 @@
     "emd": "남해읍",
     "sigunguCode": "48840",
     "sido": "경상남도",
-    "sigungu": "남해군"
+    "sigungu": "남해군",
+    "built": "2002.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "경상남도 남해군 오동로 12"
   },
   {
     "code": "A66880101",
@@ -41,6 +59,12 @@
     "emd": "남해읍",
     "sigunguCode": "48840",
     "sido": "경상남도",
-    "sigungu": "남해군"
+    "sigungu": "남해군",
+    "built": "2009.12",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "경상남도 남해군 스포츠로 20"
   }
 ]

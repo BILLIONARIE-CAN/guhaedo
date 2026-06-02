@@ -8,7 +8,13 @@
     "emd": "창우동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2004.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 하남시 대청로116번길 25"
   },
   {
     "code": "A46512002",
@@ -19,7 +25,13 @@
     "emd": "창우동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "1994.05",
+    "dongCnt": "20동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경기도 하남시 대청로116번길 30"
   },
   {
     "code": "A46571004",
@@ -30,7 +42,13 @@
     "emd": "창우동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "1994.12",
+    "dongCnt": "15동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 하남시 대청로 119"
   },
   {
     "code": "A46571103",
@@ -41,7 +59,13 @@
     "emd": "창우동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "1994.12",
+    "dongCnt": "21동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경기도 하남시 대청로116번길 59"
   },
   {
     "code": "A10022293",
@@ -52,7 +76,13 @@
     "emd": "신장동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2001.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 하남시 하남대로739번길 54"
   },
   {
     "code": "A10022435",
@@ -63,7 +93,13 @@
     "emd": "신장동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2006.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 하남시 하남대로 815"
   },
   {
     "code": "A10024119",
@@ -74,7 +110,13 @@
     "emd": "신장동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2021.08",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 하남시 하남유니온로 10"
   },
   {
     "code": "A10025930",
@@ -85,7 +127,13 @@
     "emd": "신장동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2018.09",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 하남시 하남유니온로 30"
   },
   {
     "code": "A10026837",
@@ -96,7 +144,13 @@
     "emd": "신장동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2017.08",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 하남시 하남유니온로 70"
   },
   {
     "code": "A46503001",
@@ -107,7 +161,13 @@
     "emd": "신장동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "1999.09",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 하남시 대청로59번길 20"
   },
   {
     "code": "A46503002",
@@ -118,7 +178,13 @@
     "emd": "신장동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2004.11",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "경기도 하남시 하남대로802번길 55"
   },
   {
     "code": "A46503003",
@@ -129,7 +195,13 @@
     "emd": "신장동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2004.11",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "경기도 하남시 하남대로802번길 111"
   },
   {
     "code": "A46503201",
@@ -140,7 +212,13 @@
     "emd": "신장동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2004.04",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "경기도 하남시 신장로76번길 50"
   },
   {
     "code": "A46570703",
@@ -151,7 +229,13 @@
     "emd": "신장동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "1994.06",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경기도 하남시 대청로 50"
   },
   {
     "code": "A46570804",
@@ -162,7 +246,13 @@
     "emd": "신장동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "1996.08",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "경기도 하남시 대청로59번길 15"
   },
   {
     "code": "A46570905",
@@ -173,7 +263,13 @@
     "emd": "신장동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "1994.07",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 하남시 대청로 62"
   },
   {
     "code": "A46571502",
@@ -184,7 +280,13 @@
     "emd": "신장동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2004.11",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "경기도 하남시 하남대로784번길 29"
   },
   {
     "code": "A46572201",
@@ -195,7 +297,13 @@
     "emd": "신장동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2007.08",
+    "dongCnt": "19동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 하남시 대청로 79"
   },
   {
     "code": "A46572202",
@@ -206,7 +314,13 @@
     "emd": "신장동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2010.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 하남시 하남대로 747"
   },
   {
     "code": "A46581101",
@@ -217,7 +331,13 @@
     "emd": "신장동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2003.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경기도 하남시 신장로 104"
   },
   {
     "code": "A10020232",
@@ -228,7 +348,13 @@
     "emd": "덕풍동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2021.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 17,
+    "addr": "경기도 하남시 하남대로 856"
   },
   {
     "code": "A10022208",
@@ -239,7 +365,13 @@
     "emd": "덕풍동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2008.06",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": "",
+    "addr": "경기도 하남시 하남대로861번안길 15"
   },
   {
     "code": "A10022630",
@@ -250,7 +382,13 @@
     "emd": "덕풍동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2024.03",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 25,
+    "addr": "경기도 하남시 하남대로 830"
   },
   {
     "code": "A10025534",
@@ -261,7 +399,13 @@
     "emd": "덕풍동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2019.04",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "경기도 하남시 덕풍공원로 50"
   },
   {
     "code": "A10026359",
@@ -272,7 +416,13 @@
     "emd": "덕풍동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2008.06",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 4,
+    "addr": "경기도 하남시 덕풍북로 210"
   },
   {
     "code": "A10027368",
@@ -283,7 +433,13 @@
     "emd": "덕풍동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2016.08",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "경기도 하남시 하남대로 856"
   },
   {
     "code": "A46501001",
@@ -294,7 +450,13 @@
     "emd": "덕풍동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2008.05",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 하남시 덕풍북로 236"
   },
   {
     "code": "A46501004",
@@ -305,7 +467,13 @@
     "emd": "덕풍동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2008.07",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 하남시 덕풍서로 65"
   },
   {
     "code": "A46501005",
@@ -316,7 +484,13 @@
     "emd": "덕풍동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2008.08",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 하남시 덕풍북로 140"
   },
   {
     "code": "A46501007",
@@ -327,7 +501,13 @@
     "emd": "덕풍동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2008.07",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 하남시 덕풍남로 11"
   },
   {
     "code": "A46501201",
@@ -338,7 +518,13 @@
     "emd": "덕풍동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2006.02",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 하남시 신장로205번길 30"
   },
   {
     "code": "A46501301",
@@ -349,7 +535,13 @@
     "emd": "덕풍동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2008.03",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "경기도 하남시 덕풍동로 110"
   },
   {
     "code": "A46501304",
@@ -360,7 +552,13 @@
     "emd": "덕풍동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2008.09",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "경기도 하남시 덕풍동로 90"
   },
   {
     "code": "A46501305",
@@ -371,7 +569,13 @@
     "emd": "덕풍동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2008.12",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "경기도 하남시 덕풍서로 45"
   },
   {
     "code": "A46501306",
@@ -382,7 +586,13 @@
     "emd": "덕풍동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2008.12",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "경기도 하남시 덕풍북로 70"
   },
   {
     "code": "A46501308",
@@ -393,7 +603,13 @@
     "emd": "덕풍동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2008.09",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 13,
+    "addr": "경기도 하남시 덕풍남로 17"
   },
   {
     "code": "A46570205",
@@ -404,7 +620,13 @@
     "emd": "덕풍동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "1998.01",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "경기도 하남시 역말로15번길 35"
   },
   {
     "code": "A46570304",
@@ -415,7 +637,13 @@
     "emd": "덕풍동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "1995.11",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 하남시 대성로 259"
   },
   {
     "code": "A46570401",
@@ -426,7 +654,13 @@
     "emd": "덕풍동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2005.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 하남시 신장로 151"
   },
   {
     "code": "A46570503",
@@ -437,7 +671,13 @@
     "emd": "덕풍동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "1996.04",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "경기도 하남시 신장로205번길 16"
   },
   {
     "code": "A46571301",
@@ -448,7 +688,13 @@
     "emd": "덕풍동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2006.02",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 하남시 덕산로 50"
   },
   {
     "code": "A46571302",
@@ -459,7 +705,13 @@
     "emd": "덕풍동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2006.01",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 하남시 덕산로 80"
   },
   {
     "code": "A46571303",
@@ -470,7 +722,13 @@
     "emd": "덕풍동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2002.12",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 하남시 덕산로 60"
   },
   {
     "code": "A46571307",
@@ -481,7 +739,13 @@
     "emd": "덕풍동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2002.12",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 하남시 덕산로 39"
   },
   {
     "code": "A46571403",
@@ -492,7 +756,13 @@
     "emd": "덕풍동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2000.12",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 하남시 신평로 81"
   },
   {
     "code": "A46571605",
@@ -503,7 +773,13 @@
     "emd": "덕풍동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2006.04",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "경기도 하남시 덕풍공원로 38"
   },
   {
     "code": "A46571704",
@@ -514,7 +790,13 @@
     "emd": "덕풍동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2006.06",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 하남시 하남대로887번길 25"
   },
   {
     "code": "A46572006",
@@ -525,7 +807,13 @@
     "emd": "덕풍동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2007.04",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 하남시 신평로 36"
   },
   {
     "code": "A46580001",
@@ -536,7 +824,13 @@
     "emd": "덕풍동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2009.05",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 14,
+    "addr": "경기도 하남시 덕풍동로 60"
   },
   {
     "code": "A46580302",
@@ -547,7 +841,13 @@
     "emd": "덕풍동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "1997.04",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "경기도 하남시 하남대로 895"
   },
   {
     "code": "A10024211",
@@ -558,7 +858,13 @@
     "emd": "망월동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2021.07",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 30,
+    "addr": "경기도 하남시 미사강변동로 100"
   },
   {
     "code": "A10025469",
@@ -569,7 +875,13 @@
     "emd": "망월동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2019.06",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 30,
+    "addr": "경기도 하남시 미사강변한강로 270"
   },
   {
     "code": "A10025941",
@@ -580,7 +892,13 @@
     "emd": "망월동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2018.11",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 29,
+    "addr": "경기도 하남시 미사강변한강로 290"
   },
   {
     "code": "A10026105",
@@ -591,7 +909,13 @@
     "emd": "망월동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2018.07",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 25,
+    "addr": "경기도 하남시 미사강변동로 180"
   },
   {
     "code": "A10026619",
@@ -602,7 +926,13 @@
     "emd": "망월동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2017.10",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경기도 하남시 미사강변동로 20"
   },
   {
     "code": "A10026784",
@@ -613,7 +943,13 @@
     "emd": "망월동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2017.09",
+    "dongCnt": "12동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 28,
+    "addr": "경기도 하남시 미사강변한강로 326"
   },
   {
     "code": "A10027180",
@@ -624,7 +960,13 @@
     "emd": "망월동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2016.11",
+    "dongCnt": "16동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "경기도 하남시 미사강변대로 240"
   },
   {
     "code": "A10027379",
@@ -635,7 +977,13 @@
     "emd": "망월동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2016.07",
+    "dongCnt": "17동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "경기도 하남시 미사강변서로 127"
   },
   {
     "code": "A10027476",
@@ -646,7 +994,13 @@
     "emd": "망월동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2016.07",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 28,
+    "addr": "경기도 하남시 미사강변서로 167-4"
   },
   {
     "code": "A10027514",
@@ -657,7 +1011,13 @@
     "emd": "망월동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2016.04",
+    "dongCnt": "15동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경기도 하남시 미사강변대로 165"
   },
   {
     "code": "A10027537",
@@ -668,7 +1028,13 @@
     "emd": "망월동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2016.05",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "경기도 하남시 미사강변대로 135"
   },
   {
     "code": "A10027691",
@@ -679,7 +1045,13 @@
     "emd": "망월동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2015.11",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 28,
+    "addr": "경기도 하남시 아리수로 530"
   },
   {
     "code": "A10027782",
@@ -690,7 +1062,13 @@
     "emd": "망월동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2015.09",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경기도 하남시 아리수로 499-3"
   },
   {
     "code": "A10027846",
@@ -701,7 +1079,13 @@
     "emd": "망월동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2015.10",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 20,
+    "addr": "경기도 하남시 미사강변북로 99"
   },
   {
     "code": "A10027978",
@@ -712,7 +1096,13 @@
     "emd": "망월동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2015.07",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "경기도 하남시 미사강변동로 177"
   },
   {
     "code": "A10028139",
@@ -723,7 +1113,13 @@
     "emd": "망월동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2014.12",
+    "dongCnt": "14동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 30,
+    "addr": "경기도 하남시 미사강변동로 50-1"
   },
   {
     "code": "A10028157",
@@ -734,7 +1130,13 @@
     "emd": "망월동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2015.01",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "경기도 하남시 미사강변한강로 170"
   },
   {
     "code": "A10028200",
@@ -745,7 +1147,13 @@
     "emd": "망월동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2014.06",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "경기도 하남시 아리수로 589"
   },
   {
     "code": "A10024890",
@@ -756,7 +1164,13 @@
     "emd": "풍산동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2020.04",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "경기도 하남시 세미로1길 10"
   },
   {
     "code": "A10025667",
@@ -767,7 +1181,13 @@
     "emd": "풍산동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2019.01",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경기도 하남시 미사강변서로 65"
   },
   {
     "code": "A10025739",
@@ -778,7 +1198,13 @@
     "emd": "풍산동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2019.01",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경기도 하남시 미사강변동로 19"
   },
   {
     "code": "A10025947",
@@ -789,7 +1215,13 @@
     "emd": "풍산동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2018.11",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 28,
+    "addr": "경기도 하남시 미사강변동로 47"
   },
   {
     "code": "A10025953",
@@ -800,7 +1232,13 @@
     "emd": "풍산동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2018.09",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "경기도 하남시 세미로1길 30"
   },
   {
     "code": "A10025966",
@@ -811,7 +1249,13 @@
     "emd": "풍산동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2018.10",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 29,
+    "addr": "경기도 하남시 미사강변중앙로 120"
   },
   {
     "code": "A10025991",
@@ -822,7 +1266,13 @@
     "emd": "풍산동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2018.09",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "경기도 하남시 세미로1길 11"
   },
   {
     "code": "A10026131",
@@ -833,7 +1283,13 @@
     "emd": "풍산동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2018.06",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경기도 하남시 미사강변중앙로 90"
   },
   {
     "code": "A10026501",
@@ -844,7 +1300,13 @@
     "emd": "풍산동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2018.02",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "경기도 하남시 미사강변서로 85"
   },
   {
     "code": "A10026707",
@@ -855,7 +1317,13 @@
     "emd": "풍산동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2017.10",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경기도 하남시 미사강변대로 55"
   },
   {
     "code": "A10027116",
@@ -866,7 +1334,13 @@
     "emd": "풍산동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2017.02",
+    "dongCnt": "12동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경기도 하남시 미사강변대로 95"
   },
   {
     "code": "A10027308",
@@ -877,7 +1351,13 @@
     "emd": "풍산동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2016.09",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 21,
+    "addr": "경기도 하남시 미사강변중앙로 100"
   },
   {
     "code": "A10027552",
@@ -888,7 +1368,13 @@
     "emd": "풍산동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2016.04",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "경기도 하남시 미사강변서로 45"
   },
   {
     "code": "A10026040",
@@ -899,7 +1385,13 @@
     "emd": "선동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2018.05",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경기도 하남시 미사강변한강로 30"
   },
   {
     "code": "A10026523",
@@ -910,7 +1402,13 @@
     "emd": "선동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2018.01",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 28,
+    "addr": "경기도 하남시 미사강변북로 25"
   },
   {
     "code": "A10026806",
@@ -921,7 +1419,13 @@
     "emd": "선동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2017.08",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경기도 하남시 미사강변한강로 10"
   },
   {
     "code": "A10027344",
@@ -932,7 +1436,13 @@
     "emd": "선동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2016.09",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "경기도 하남시 미사강변대로 270"
   },
   {
     "code": "A10027359",
@@ -943,7 +1453,13 @@
     "emd": "선동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2016.09",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경기도 하남시 미사강변한강로 60"
   },
   {
     "code": "A10027385",
@@ -954,7 +1470,13 @@
     "emd": "선동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2016.07",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경기도 하남시 미사강변북로 65"
   },
   {
     "code": "A10028065",
@@ -965,7 +1487,13 @@
     "emd": "선동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2015.05",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 하남시 풍산로 270-1"
   },
   {
     "code": "A10028143",
@@ -976,7 +1504,13 @@
     "emd": "선동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2014.07",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "경기도 하남시 미사강변한강로 110"
   },
   {
     "code": "A10024292",
@@ -987,7 +1521,13 @@
     "emd": "감일동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2021.05",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 25,
+    "addr": "경기도 하남시 신우실로 15"
   },
   {
     "code": "A10024471",
@@ -998,7 +1538,13 @@
     "emd": "감일동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2021.01",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 18,
+    "addr": "경기도 하남시 감일순환로 140"
   },
   {
     "code": "A10024472",
@@ -1009,7 +1555,13 @@
     "emd": "감일동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2021.01",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 25,
+    "addr": "경기도 하남시 감일순환로 135"
   },
   {
     "code": "A10024644",
@@ -1020,7 +1572,13 @@
     "emd": "감일동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2020.09",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 22,
+    "addr": "경기도 하남시 감일순환로 95"
   },
   {
     "code": "A10024895",
@@ -1031,7 +1589,13 @@
     "emd": "감일동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2020.05",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 18,
+    "addr": "경기도 하남시 감일순환로 130"
   },
   {
     "code": "A10024992",
@@ -1042,7 +1606,13 @@
     "emd": "감일동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2020.03",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 27,
+    "addr": "경기도 하남시 감일로 86"
   },
   {
     "code": "A10021515",
@@ -1053,7 +1623,13 @@
     "emd": "감이동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2022.04",
+    "dongCnt": "1동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경기도 하남시 감일백제로 155"
   },
   {
     "code": "A10023026",
@@ -1064,7 +1640,13 @@
     "emd": "감이동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2023.06",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경기도 하남시 감일중앙로 80"
   },
   {
     "code": "A10023226",
@@ -1075,7 +1657,13 @@
     "emd": "감이동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2023.03",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 30,
+    "addr": "경기도 하남시 감일백제로 165"
   },
   {
     "code": "A10023672",
@@ -1086,7 +1674,13 @@
     "emd": "감이동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2022.08",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 29,
+    "addr": "경기도 하남시 감일순환로 40"
   },
   {
     "code": "A10023676",
@@ -1098,7 +1692,13 @@
     "sigunguCode": "41450",
     "sido": "경기도",
     "sigungu": "하남시",
-    "hhldCnt": 512
+    "hhldCnt": 512,
+    "built": "2022.08",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경기도 하남시 감일백제로180번길 30"
   },
   {
     "code": "A10024045",
@@ -1109,7 +1709,13 @@
     "emd": "감이동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2021.09",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경기도 하남시 감일중앙로 20"
   },
   {
     "code": "A10024051",
@@ -1120,7 +1726,13 @@
     "emd": "감이동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2021.10",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경기도 하남시 감일순환로 170"
   },
   {
     "code": "A10024104",
@@ -1131,7 +1743,13 @@
     "emd": "감이동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2021.10",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경기도 하남시 감일순환로 190"
   },
   {
     "code": "A10024382",
@@ -1142,7 +1760,13 @@
     "emd": "감이동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2021.02",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경기도 하남시 감일백제로 20"
   },
   {
     "code": "A10024388",
@@ -1153,7 +1777,13 @@
     "emd": "감이동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2021.01",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경기도 하남시 감일백제로 70"
   },
   {
     "code": "A10024569",
@@ -1164,7 +1794,13 @@
     "emd": "감이동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2020.10",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 30,
+    "addr": "경기도 하남시 감일백제로 120"
   },
   {
     "code": "A10024941",
@@ -1175,7 +1811,13 @@
     "emd": "감이동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2020.03",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 하남시 감일백제로 35"
   },
   {
     "code": "A10025043",
@@ -1186,7 +1828,13 @@
     "emd": "감이동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2020.01",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 28,
+    "addr": "경기도 하남시 감일순환로 35"
   },
   {
     "code": "A10025339",
@@ -1197,7 +1845,13 @@
     "emd": "감이동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2019.06",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경기도 하남시 감일백제로 65"
   },
   {
     "code": "A10023115",
@@ -1208,7 +1862,13 @@
     "emd": "학암동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2023.06",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 25,
+    "addr": "경기도 하남시 위례대로6길 77"
   },
   {
     "code": "A10023410",
@@ -1219,7 +1879,13 @@
     "emd": "학암동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2022.11",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 하남시 위례대로6길 100"
   },
   {
     "code": "A10023583",
@@ -1231,7 +1897,13 @@
     "sigunguCode": "41450",
     "sido": "경기도",
     "sigungu": "하남시",
-    "hhldCnt": 475
+    "hhldCnt": 475,
+    "built": "2022.09",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 하남시 위례대로6길 70"
   },
   {
     "code": "A10023953",
@@ -1242,7 +1914,13 @@
     "emd": "학암동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2022.01",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "경기도 하남시 위례대로6길 45"
   },
   {
     "code": "A10024124",
@@ -1253,7 +1931,13 @@
     "emd": "학암동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2021.09",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 25,
+    "addr": "경기도 하남시 위례학암로 30"
   },
   {
     "code": "A10024247",
@@ -1264,7 +1948,13 @@
     "emd": "학암동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2021.05",
+    "dongCnt": "14동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 하남시 위례대로6길 15"
   },
   {
     "code": "A10024304",
@@ -1275,7 +1965,13 @@
     "emd": "학암동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2021.04",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "경기도 하남시 위례대로6길 95"
   },
   {
     "code": "A10024378",
@@ -1286,7 +1982,13 @@
     "emd": "학암동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2021.01",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 하남시 위례대로6길 20"
   },
   {
     "code": "A10027070",
@@ -1297,7 +1999,13 @@
     "emd": "학암동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2017.02",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 하남시 위례광장로 285-1"
   },
   {
     "code": "A10027546",
@@ -1308,7 +2016,13 @@
     "emd": "학암동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2016.06",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "경기도 하남시 위례광장로 265"
   },
   {
     "code": "A10027686",
@@ -1319,7 +2033,13 @@
     "emd": "학암동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2016.01",
+    "dongCnt": "14동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "경기도 하남시 위례중앙로 215"
   },
   {
     "code": "A10027715",
@@ -1330,7 +2050,13 @@
     "emd": "학암동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2016.01",
+    "dongCnt": "16동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "경기도 하남시 위례순환로 270"
   },
   {
     "code": "A10027741",
@@ -1341,6 +2067,12 @@
     "emd": "학암동",
     "sigunguCode": "41450",
     "sido": "경기도",
-    "sigungu": "하남시"
+    "sigungu": "하남시",
+    "built": "2015.10",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "경기도 하남시 위례중앙로 185"
   }
 ]

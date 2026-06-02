@@ -8,7 +8,13 @@
     "emd": "아현동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2008.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 마포구 마포대로 201"
   },
   {
     "code": "A10022941",
@@ -19,7 +25,13 @@
     "emd": "아현동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2023.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 18,
+    "addr": "서울특별시 마포구 마포대로 231"
   },
   {
     "code": "A10023508",
@@ -30,7 +42,13 @@
     "emd": "아현동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2022.11",
+    "dongCnt": "17동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 25,
+    "addr": "서울특별시 마포구 신촌로28길 50"
   },
   {
     "code": "A10027090",
@@ -41,7 +59,13 @@
     "emd": "아현동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2017.11",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 29,
+    "addr": "서울특별시 마포구 마포대로 246"
   },
   {
     "code": "A10027906",
@@ -52,7 +76,13 @@
     "emd": "아현동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2015.04",
+    "dongCnt": "16동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 마포구 마포대로24길 16"
   },
   {
     "code": "A10027951",
@@ -63,7 +93,13 @@
     "emd": "아현동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2015.04",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 10,
+    "addr": "서울특별시 마포구 마포대로26길 22"
   },
   {
     "code": "A12101001",
@@ -74,7 +110,13 @@
     "emd": "아현동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "1998.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 마포구 마포대로 262"
   },
   {
     "code": "A12175202",
@@ -85,7 +127,13 @@
     "emd": "아현동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2008.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 마포구 마포대로 201"
   },
   {
     "code": "A12175203",
@@ -96,7 +144,13 @@
     "emd": "아현동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2014.09",
+    "dongCnt": "51동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 30,
+    "addr": "서울특별시 마포구 마포대로 195"
   },
   {
     "code": "A10023118",
@@ -107,7 +161,13 @@
     "emd": "공덕동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2023.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "서울특별시 마포구 백범로31길 19"
   },
   {
     "code": "A10024408",
@@ -118,7 +178,13 @@
     "emd": "공덕동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2021.11",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 28,
+    "addr": "서울특별시 마포구 백범로31길 7"
   },
   {
     "code": "A10024626",
@@ -129,7 +195,13 @@
     "emd": "공덕동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2021.11",
+    "dongCnt": "2동",
+    "heat": "",
+    "sale": "혼합",
+    "topFloor": 29,
+    "addr": "서울특별시 마포구 백범로31길 8"
   },
   {
     "code": "A10027748",
@@ -140,7 +212,13 @@
     "emd": "공덕동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2015.08",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 마포구 백범로 152"
   },
   {
     "code": "A12102002",
@@ -151,7 +229,13 @@
     "emd": "공덕동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2004.08",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 마포구 마포대로10길 22"
   },
   {
     "code": "A12102005",
@@ -162,7 +246,13 @@
     "emd": "공덕동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "1988.05",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "서울특별시 마포구 마포대로11길 84"
   },
   {
     "code": "A12102008",
@@ -173,7 +263,13 @@
     "emd": "공덕동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2004.06",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 마포구 마포대로20길 26"
   },
   {
     "code": "A12170601",
@@ -184,7 +280,13 @@
     "emd": "공덕동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2005.11",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 마포구 마포대로11길 50"
   },
   {
     "code": "A12170602",
@@ -195,7 +297,13 @@
     "emd": "공덕동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2004.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 16,
+    "addr": "서울특별시 마포구 마포대로20길 26"
   },
   {
     "code": "A12170603",
@@ -206,7 +314,13 @@
     "emd": "공덕동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2011.08",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 17,
+    "addr": "서울특별시 마포구 마포대로 167"
   },
   {
     "code": "A12180401",
@@ -217,7 +331,13 @@
     "emd": "공덕동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "1989.08",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 마포구 마포대로11길 73"
   },
   {
     "code": "A12180404",
@@ -228,7 +348,13 @@
     "emd": "공덕동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "1999.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "서울특별시 마포구 마포대로 115-8"
   },
   {
     "code": "A12180407",
@@ -239,7 +365,13 @@
     "emd": "공덕동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "1999.10",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 마포구 마포대로 115-8"
   },
   {
     "code": "A12180506",
@@ -250,7 +382,13 @@
     "emd": "공덕동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2004.08",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 마포구 마포대로7길 22"
   },
   {
     "code": "A10024334",
@@ -261,7 +399,13 @@
     "emd": "신공덕동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2011.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 31,
+    "addr": "서울특별시 마포구 백범로 202"
   },
   {
     "code": "A10027504",
@@ -272,7 +416,13 @@
     "emd": "신공덕동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2011.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 마포구 백범로 212"
   },
   {
     "code": "A12103002",
@@ -283,7 +433,13 @@
     "emd": "신공덕동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2003.05",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 마포구 만리재로 60"
   },
   {
     "code": "A12103006",
@@ -294,7 +450,13 @@
     "emd": "신공덕동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2005.12",
+    "dongCnt": "1동",
+    "heat": "개별난방+기타",
+    "sale": "분양",
+    "topFloor": 30,
+    "addr": "서울특별시 마포구 백범로 199"
   },
   {
     "code": "A12179001",
@@ -305,7 +467,13 @@
     "emd": "신공덕동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2009.02",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 마포구 백범로 230"
   },
   {
     "code": "A12179002",
@@ -316,7 +484,13 @@
     "emd": "신공덕동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2000.08",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 19,
+    "addr": "서울특별시 마포구 백범로37길 6"
   },
   {
     "code": "A12179003",
@@ -327,7 +501,13 @@
     "emd": "신공덕동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2000.10",
+    "dongCnt": "1동",
+    "heat": "",
+    "sale": "임대",
+    "topFloor": 11,
+    "addr": "서울특별시 마포구 만리재로 74"
   },
   {
     "code": "A12179004",
@@ -338,7 +518,13 @@
     "emd": "신공덕동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2011.05",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 마포구 백범로 205"
   },
   {
     "code": "A12179005",
@@ -349,7 +535,13 @@
     "emd": "신공덕동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2013.03",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 마포구 만리재로 36"
   },
   {
     "code": "A12179006",
@@ -360,7 +552,13 @@
     "emd": "신공덕동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2007.10",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 마포구 백범로 239"
   },
   {
     "code": "A12185303",
@@ -371,7 +569,13 @@
     "emd": "신공덕동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2000.08",
+    "dongCnt": "11동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 마포구 백범로37길 12"
   },
   {
     "code": "A12185304",
@@ -382,7 +586,13 @@
     "emd": "신공덕동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2000.10",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 마포구 만리재로 74"
   },
   {
     "code": "A12104001",
@@ -393,7 +603,13 @@
     "emd": "도화동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "1998.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 마포구 새창로6다길 22"
   },
   {
     "code": "A12104005",
@@ -404,7 +620,13 @@
     "emd": "도화동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "1997.05",
+    "dongCnt": "14동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 마포구 도화길 28"
   },
   {
     "code": "A12104007",
@@ -415,7 +637,13 @@
     "emd": "도화동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "1991.03",
+    "dongCnt": "15동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 마포구 삼개로 38"
   },
   {
     "code": "A12170401",
@@ -426,7 +654,13 @@
     "emd": "도화동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2010.04",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 마포구 도화4길 41"
   },
   {
     "code": "A12170402",
@@ -437,7 +671,13 @@
     "emd": "도화동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2004.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 37,
+    "addr": "서울특별시 마포구 마포대로 33"
   },
   {
     "code": "A12181403",
@@ -448,7 +688,13 @@
     "emd": "도화동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2000.03",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "서울특별시 마포구 새창로8길 72"
   },
   {
     "code": "A12181404",
@@ -459,7 +705,13 @@
     "emd": "도화동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2000.03",
+    "dongCnt": "10동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 마포구 새창로8길 72"
   },
   {
     "code": "A12181406",
@@ -470,7 +722,13 @@
     "emd": "도화동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "1996.09",
+    "dongCnt": "11동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "서울특별시 마포구 새창로 52"
   },
   {
     "code": "A10021282",
@@ -481,7 +739,13 @@
     "emd": "용강동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2004.06",
+    "dongCnt": "1동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 마포구 토정로32길 6"
   },
   {
     "code": "A10022303",
@@ -492,7 +756,13 @@
     "emd": "용강동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2002.10",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 마포구 마포대로1길 21"
   },
   {
     "code": "A10028006",
@@ -503,7 +773,13 @@
     "emd": "용강동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2016.10",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 21,
+    "addr": "서울특별시 마포구 토정로31길 24"
   },
   {
     "code": "A12187501",
@@ -514,7 +790,13 @@
     "emd": "용강동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2015.02",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 23,
+    "addr": "서울특별시 마포구 토정로31길 23"
   },
   {
     "code": "A12187602",
@@ -525,7 +807,13 @@
     "emd": "용강동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2003.03",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 마포구 큰우물로 28"
   },
   {
     "code": "A12106001",
@@ -536,7 +824,13 @@
     "emd": "토정동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "1997.10",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "서울특별시 마포구 토정로32길 11"
   },
   {
     "code": "A10025672",
@@ -547,7 +841,13 @@
     "emd": "마포동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "1996.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 마포구 마포대로4길 90"
   },
   {
     "code": "A12105001",
@@ -558,7 +858,13 @@
     "emd": "마포동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2000.08",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 마포구 마포대로4라길 30"
   },
   {
     "code": "A10021649",
@@ -569,7 +875,13 @@
     "emd": "대흥동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2000.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 마포구 독막로 288"
   },
   {
     "code": "A10025003",
@@ -580,7 +892,13 @@
     "emd": "대흥동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2020.02",
+    "dongCnt": "18동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 23,
+    "addr": "서울특별시 마포구 대흥로 175"
   },
   {
     "code": "A12172401",
@@ -591,7 +909,13 @@
     "emd": "대흥동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2014.03",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 25,
+    "addr": "서울특별시 마포구 서강대길 40"
   },
   {
     "code": "A12172402",
@@ -602,7 +926,13 @@
     "emd": "대흥동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2014.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 마포구 신촌로 160"
   },
   {
     "code": "A12181101",
@@ -613,7 +943,13 @@
     "emd": "대흥동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2007.04",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 마포구 백범로 82"
   },
   {
     "code": "A12181102",
@@ -624,7 +960,13 @@
     "emd": "대흥동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "1999.11",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 25,
+    "addr": "서울특별시 마포구 독막로 266"
   },
   {
     "code": "A12181103",
@@ -635,7 +977,13 @@
     "emd": "대흥동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "1999.11",
+    "dongCnt": "14동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 마포구 독막로 266"
   },
   {
     "code": "A10024347",
@@ -646,7 +994,13 @@
     "emd": "염리동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2021.12",
+    "dongCnt": "18동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 27,
+    "addr": "서울특별시 마포구 대흥로24길 24"
   },
   {
     "code": "A10024597",
@@ -657,7 +1011,13 @@
     "emd": "염리동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2005.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 마포구 독막로42길 5"
   },
   {
     "code": "A10026036",
@@ -668,7 +1028,13 @@
     "emd": "염리동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2018.09",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 25,
+    "addr": "서울특별시 마포구 숭문길 98"
   },
   {
     "code": "A12109001",
@@ -679,7 +1045,13 @@
     "emd": "염리동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2003.12",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 마포구 독막로42길 2"
   },
   {
     "code": "A12109002",
@@ -690,7 +1062,13 @@
     "emd": "염리동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2001.03",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 마포구 숭문길 58"
   },
   {
     "code": "A12187403",
@@ -701,7 +1079,13 @@
     "emd": "염리동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "1997.08",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 21,
+    "addr": "서울특별시 마포구 숭문길 106"
   },
   {
     "code": "A10020279",
@@ -712,7 +1096,13 @@
     "emd": "노고산동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2025.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 23,
+    "addr": "서울특별시 마포구 백범로 24"
   },
   {
     "code": "A10022963",
@@ -723,7 +1113,13 @@
     "emd": "노고산동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2023.01",
+    "dongCnt": "1동",
+    "heat": "개별난방+기타",
+    "sale": "임대",
+    "topFloor": 13,
+    "addr": "서울특별시 마포구 서강로 121"
   },
   {
     "code": "A12172201",
@@ -734,7 +1130,13 @@
     "emd": "노고산동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2004.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 마포구 신촌로 150"
   },
   {
     "code": "A10024974",
@@ -745,7 +1147,13 @@
     "emd": "신수동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2019.08",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 35,
+    "addr": "서울특별시 마포구 광성로 17"
   },
   {
     "code": "A12111001",
@@ -756,7 +1164,13 @@
     "emd": "신수동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2007.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 마포구 신수로 81"
   },
   {
     "code": "A12171201",
@@ -767,7 +1181,13 @@
     "emd": "신수동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2009.12",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 마포구 독막로28길 10"
   },
   {
     "code": "A12185504",
@@ -778,7 +1198,13 @@
     "emd": "신수동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "1998.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 마포구 독막로28길 7"
   },
   {
     "code": "A12185602",
@@ -789,7 +1215,13 @@
     "emd": "신수동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2003.12",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 마포구 독막로 209"
   },
   {
     "code": "A12185603",
@@ -800,7 +1232,13 @@
     "emd": "신수동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "1996.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 마포구 토정로 242"
   },
   {
     "code": "A12185605",
@@ -811,7 +1249,13 @@
     "emd": "신수동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2004.07",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 마포구 창전로2길 10"
   },
   {
     "code": "A12185606",
@@ -822,7 +1266,13 @@
     "emd": "신수동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "1997.04",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 마포구 신수로 105"
   },
   {
     "code": "A10027714",
@@ -833,7 +1283,13 @@
     "emd": "현석동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2016.01",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 35,
+    "addr": "서울특별시 마포구 토정로 11"
   },
   {
     "code": "A12112001",
@@ -844,7 +1300,13 @@
     "emd": "현석동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "1999.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 마포구 신수로3길 19"
   },
   {
     "code": "A12112002",
@@ -855,7 +1317,13 @@
     "emd": "현석동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2004.02",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 마포구 신수로 15"
   },
   {
     "code": "A10020640",
@@ -866,7 +1334,13 @@
     "emd": "창전동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2005.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 마포구 창전로 63"
   },
   {
     "code": "A10024425",
@@ -877,7 +1351,13 @@
     "emd": "창전동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2021.01",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 16,
+    "addr": "서울특별시 마포구 서강로 75-16"
   },
   {
     "code": "A10025633",
@@ -888,7 +1368,13 @@
     "emd": "창전동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2019.05",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 21,
+    "addr": "서울특별시 마포구 서강로3길 32"
   },
   {
     "code": "A12119004",
@@ -899,7 +1385,13 @@
     "emd": "창전동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2007.12",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 마포구 토정로 167"
   },
   {
     "code": "A12119006",
@@ -910,7 +1402,13 @@
     "emd": "창전동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2007.11",
+    "dongCnt": "15동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 마포구 독막로 145"
   },
   {
     "code": "A12119007",
@@ -921,7 +1419,13 @@
     "emd": "창전동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "1998.06",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 마포구 서강로 95"
   },
   {
     "code": "A12177801",
@@ -932,7 +1436,13 @@
     "emd": "창전동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2007.04",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 마포구 창전로 45"
   },
   {
     "code": "A12177802",
@@ -943,7 +1453,13 @@
     "emd": "창전동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "1998.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 마포구 서강로 95"
   },
   {
     "code": "A12188201",
@@ -954,7 +1470,13 @@
     "emd": "창전동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2001.03",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 마포구 서강로9길 19"
   },
   {
     "code": "A12188202",
@@ -965,7 +1487,13 @@
     "emd": "창전동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2005.08",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 마포구 서강로 83"
   },
   {
     "code": "A12188205",
@@ -976,7 +1504,13 @@
     "emd": "창전동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2003.11",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 마포구 서강로9길 45"
   },
   {
     "code": "A10028177",
@@ -987,7 +1521,13 @@
     "emd": "상수동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2014.10",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 25,
+    "addr": "서울특별시 마포구 독막로20나길 22"
   },
   {
     "code": "A12170702",
@@ -998,7 +1538,13 @@
     "emd": "상수동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2014.10",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 24,
+    "addr": "서울특별시 마포구 독막로20나길 21"
   },
   {
     "code": "A12182901",
@@ -1009,7 +1555,13 @@
     "emd": "상수동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2004.12",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 마포구 독막로18길 5"
   },
   {
     "code": "A12115001",
@@ -1020,7 +1572,13 @@
     "emd": "하중동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2010.02",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 마포구 토정로 158"
   },
   {
     "code": "A12114001",
@@ -1031,7 +1589,13 @@
     "emd": "신정동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "1999.07",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 마포구 창전로 26"
   },
   {
     "code": "A10024784",
@@ -1042,7 +1606,13 @@
     "emd": "서교동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2004.11",
+    "dongCnt": "1동",
+    "heat": "",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 마포구 홍익로 10"
   },
   {
     "code": "A10024891",
@@ -1053,7 +1623,13 @@
     "emd": "서교동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2020.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 24,
+    "addr": "서울특별시 마포구 양화로 72"
   },
   {
     "code": "A12174601",
@@ -1064,7 +1640,13 @@
     "emd": "서교동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2012.06",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 39,
+    "addr": "서울특별시 마포구 양화로 45"
   },
   {
     "code": "A12184201",
@@ -1075,7 +1657,13 @@
     "emd": "서교동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2005.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 마포구 월드컵북로5나길 18"
   },
   {
     "code": "A10027301",
@@ -1086,7 +1674,13 @@
     "emd": "합정동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2016.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 36,
+    "addr": "서울특별시 마포구 월드컵로3길 14"
   },
   {
     "code": "A10027902",
@@ -1097,7 +1691,13 @@
     "emd": "합정동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2015.03",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 37,
+    "addr": "서울특별시 마포구 월드컵로1길 14"
   },
   {
     "code": "A10022359",
@@ -1108,7 +1708,13 @@
     "emd": "망원동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "1997.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "서울특별시 마포구 월드컵로29길 68"
   },
   {
     "code": "A10023665",
@@ -1119,7 +1725,13 @@
     "emd": "망원동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2003.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 마포구 월드컵로31길 77"
   },
   {
     "code": "A10023755",
@@ -1130,7 +1742,13 @@
     "emd": "망원동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2019.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 마포구 방울내로 37"
   },
   {
     "code": "A10024150",
@@ -1141,7 +1759,13 @@
     "emd": "망원동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "1999.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 마포구 망원로4길 8"
   },
   {
     "code": "A10026053",
@@ -1152,7 +1776,13 @@
     "emd": "망원동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2019.08",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 마포구 희우정로 77"
   },
   {
     "code": "A10027572",
@@ -1163,7 +1793,13 @@
     "emd": "망원동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2009.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "경기도 고양시 덕양구 호국로 1000"
   },
   {
     "code": "A12123001",
@@ -1174,7 +1810,13 @@
     "emd": "망원동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2004.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 마포구 방울내로 31"
   },
   {
     "code": "A12182101",
@@ -1185,7 +1827,13 @@
     "emd": "망원동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2002.10",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 마포구 망원로2길 103"
   },
   {
     "code": "A12182401",
@@ -1196,7 +1844,13 @@
     "emd": "망원동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2002.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "서울특별시 마포구 망원로1길 27"
   },
   {
     "code": "A10024587",
@@ -1207,7 +1861,13 @@
     "emd": "연남동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "1995.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 마포구 동교로39길 11"
   },
   {
     "code": "A12186901",
@@ -1218,7 +1878,13 @@
     "emd": "연남동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2003.06",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 마포구 연남로 52"
   },
   {
     "code": "A10022213",
@@ -1229,7 +1895,13 @@
     "emd": "성산동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "1999.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": "",
+    "addr": "서울특별시 마포구 모래내로3길 4"
   },
   {
     "code": "A10027157",
@@ -1240,7 +1912,13 @@
     "emd": "성산동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2016.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "서울특별시 마포구 성암로 28"
   },
   {
     "code": "A12125001",
@@ -1251,7 +1929,13 @@
     "emd": "성산동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2005.07",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 마포구 월드컵북로 216"
   },
   {
     "code": "A12125202",
@@ -1262,7 +1946,13 @@
     "emd": "성산동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2004.08",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 마포구 월드컵북로30길 9-22"
   },
   {
     "code": "A12171101",
@@ -1273,7 +1963,13 @@
     "emd": "성산동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2009.03",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 25,
+    "addr": "서울특별시 마포구 모래내로9길 6"
   },
   {
     "code": "A12185001",
@@ -1284,7 +1980,13 @@
     "emd": "성산동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2000.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 마포구 성암로1길 8"
   },
   {
     "code": "A12185003",
@@ -1295,7 +1997,13 @@
     "emd": "성산동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "1991.07",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 마포구 월드컵로 207"
   },
   {
     "code": "A12185004",
@@ -1306,7 +2014,13 @@
     "emd": "성산동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "1986.06",
+    "dongCnt": "33동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 마포구 월드컵북로 260"
   },
   {
     "code": "A10022429",
@@ -1317,7 +2031,13 @@
     "emd": "중동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2004.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "서울특별시 마포구 성암로5길 12"
   },
   {
     "code": "A12187703",
@@ -1328,7 +2048,13 @@
     "emd": "중동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2000.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 마포구 성암로7길 3"
   },
   {
     "code": "A12187901",
@@ -1339,7 +2065,13 @@
     "emd": "중동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2000.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 마포구 월드컵북로38가길 20"
   },
   {
     "code": "A12187902",
@@ -1350,7 +2082,13 @@
     "emd": "중동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2002.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 마포구 성암로 41"
   },
   {
     "code": "A12187904",
@@ -1361,7 +2099,13 @@
     "emd": "중동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "1994.09",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 마포구 성암로11길 60"
   },
   {
     "code": "A12187905",
@@ -1372,7 +2116,13 @@
     "emd": "중동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2001.07",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 마포구 성암로 91"
   },
   {
     "code": "A12187906",
@@ -1383,7 +2133,13 @@
     "emd": "중동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2006.05",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 마포구 월드컵북로38길 54"
   },
   {
     "code": "A12127001",
@@ -1394,7 +2150,13 @@
     "emd": "상암동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2005.09",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 마포구 상암산로1길 52"
   },
   {
     "code": "A12127002",
@@ -1405,7 +2167,13 @@
     "emd": "상암동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2005.07",
+    "dongCnt": "14동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 마포구 상암산로1길 57"
   },
   {
     "code": "A12127003",
@@ -1416,7 +2184,13 @@
     "emd": "상암동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2003.09",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 마포구 월드컵로 338"
   },
   {
     "code": "A12127004",
@@ -1427,7 +2201,13 @@
     "emd": "상암동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2003.11",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 마포구 월드컵북로47길 46"
   },
   {
     "code": "A12127005",
@@ -1438,7 +2218,13 @@
     "emd": "상암동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2005.06",
+    "dongCnt": "17동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 마포구 상암산로1길 92"
   },
   {
     "code": "A12127006",
@@ -1449,7 +2235,13 @@
     "emd": "상암동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2006.10",
+    "dongCnt": "12동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "서울특별시 마포구 상암산로1길 24"
   },
   {
     "code": "A12127007",
@@ -1460,7 +2252,13 @@
     "emd": "상암동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2003.09",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 19,
+    "addr": "서울특별시 마포구 월드컵북로47길 8"
   },
   {
     "code": "A12127008",
@@ -1471,7 +2269,13 @@
     "emd": "상암동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2008.02",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 18,
+    "addr": "서울특별시 마포구 월드컵로42길 12"
   },
   {
     "code": "A12179501",
@@ -1482,7 +2286,13 @@
     "emd": "상암동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2009.06",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 마포구 월드컵북로42가길 11"
   },
   {
     "code": "A12179502",
@@ -1493,7 +2303,13 @@
     "emd": "상암동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2009.06",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 마포구 월드컵북로43길 11"
   },
   {
     "code": "A12179503",
@@ -1504,7 +2320,13 @@
     "emd": "상암동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2010.06",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "서울특별시 마포구 월드컵북로 502-37"
   },
   {
     "code": "A12179504",
@@ -1515,7 +2337,13 @@
     "emd": "상암동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2010.10",
+    "dongCnt": "16동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "서울특별시 마포구 월드컵북로 501"
   },
   {
     "code": "A12179505",
@@ -1526,7 +2354,13 @@
     "emd": "상암동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2010.10",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "서울특별시 마포구 월드컵북로 502-7"
   },
   {
     "code": "A12179508",
@@ -1537,6 +2371,12 @@
     "emd": "상암동",
     "sigunguCode": "11440",
     "sido": "서울특별시",
-    "sigungu": "마포구"
+    "sigungu": "마포구",
+    "built": "2010.07",
+    "dongCnt": "16동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "서울특별시 마포구 월드컵북로 502-36"
   }
 ]

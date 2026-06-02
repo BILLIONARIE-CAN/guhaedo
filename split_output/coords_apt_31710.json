@@ -8,7 +8,13 @@
     "emd": "온산읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2000.06",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 4,
+    "addr": "울산광역시 울주군 영남4길 47"
   },
   {
     "code": "A10021084",
@@ -19,7 +25,13 @@
     "emd": "온산읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2005.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "울산광역시 울주군 영남4길 22"
   },
   {
     "code": "A68989302",
@@ -30,7 +42,13 @@
     "emd": "온산읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2008.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "울산광역시 울주군 영남길 26"
   },
   {
     "code": "A68989303",
@@ -41,7 +59,13 @@
     "emd": "온산읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "1991.05",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "울산광역시 울주군 신온9길 45"
   },
   {
     "code": "A68989504",
@@ -52,7 +76,13 @@
     "emd": "온산읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "1992.09",
+    "dongCnt": "12동",
+    "heat": "",
+    "sale": "분양",
+    "topFloor": 6,
+    "addr": "울산광역시 울주군 영남7길 35"
   },
   {
     "code": "A68989505",
@@ -63,7 +93,13 @@
     "emd": "온산읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "1997.09",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "울산광역시 울주군 영남7길 17"
   },
   {
     "code": "A68989506",
@@ -74,7 +110,13 @@
     "emd": "온산읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "1992.10",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "울산광역시 울주군 영남7길 21"
   },
   {
     "code": "A68980101",
@@ -85,7 +127,13 @@
     "emd": "언양읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "1995.01",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "울산광역시 울주군 언양로 422"
   },
   {
     "code": "A68980504",
@@ -96,7 +144,13 @@
     "emd": "언양읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "1994.12",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "울산광역시 울주군 반천강변길 51"
   },
   {
     "code": "A10021486",
@@ -107,7 +161,13 @@
     "emd": "언양읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "1997.08",
+    "dongCnt": "1동",
+    "heat": "기타",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "울산광역시 울주군 언양로 65"
   },
   {
     "code": "A10023568",
@@ -118,7 +178,13 @@
     "emd": "언양읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2022.07",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "울산광역시 울주군 언양로 77"
   },
   {
     "code": "A10025671",
@@ -129,7 +195,13 @@
     "emd": "언양읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2019.01",
+    "dongCnt": "28동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "울산광역시 울주군 내곡능골길 93-20"
   },
   {
     "code": "A68980103",
@@ -140,7 +212,13 @@
     "emd": "언양읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2010.01",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "울산광역시 울주군 북문11길 9"
   },
   {
     "code": "A68980402",
@@ -151,7 +229,13 @@
     "emd": "언양읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "1999.07",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "울산광역시 울주군 북문8길 17"
   },
   {
     "code": "A68980102",
@@ -162,7 +246,13 @@
     "emd": "언양읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2009.04",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "울산광역시 울주군 헌양길 202"
   },
   {
     "code": "A68980104",
@@ -173,7 +263,13 @@
     "emd": "언양읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2013.06",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "울산광역시 울주군 웃방천1길 48"
   },
   {
     "code": "A68980603",
@@ -184,7 +280,13 @@
     "emd": "언양읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "1996.08",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "울산광역시 울주군 웃방천1길 33"
   },
   {
     "code": "A10022884",
@@ -195,7 +297,13 @@
     "emd": "온양읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2024.03",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "울산광역시 울주군 발리동상로 35"
   },
   {
     "code": "A10026404",
@@ -206,7 +314,13 @@
     "emd": "온양읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2017.09",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "울산광역시 울주군 보곡3길 40"
   },
   {
     "code": "A68990110",
@@ -217,7 +331,13 @@
     "emd": "온양읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2012.07",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "울산광역시 울주군 솔밭3길 19-10"
   },
   {
     "code": "A68990304",
@@ -228,7 +348,13 @@
     "emd": "온양읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2003.06",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "울산광역시 울주군 솔밭3길 35"
   },
   {
     "code": "A10026499",
@@ -239,7 +365,13 @@
     "emd": "온양읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2018.02",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "울산광역시 울주군 대안3길 46"
   },
   {
     "code": "A68975207",
@@ -250,7 +382,13 @@
     "emd": "온양읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "1998.09",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "울산광역시 울주군 솔밭1길 12"
   },
   {
     "code": "A68990301",
@@ -261,7 +399,13 @@
     "emd": "온양읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "1993.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "울산광역시 울주군 연안8길 44-7"
   },
   {
     "code": "A68990302",
@@ -272,7 +416,13 @@
     "emd": "온양읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "1992.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "울산광역시 울주군 화산발리로 712"
   },
   {
     "code": "A68990303",
@@ -283,7 +433,13 @@
     "emd": "온양읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "1993.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "울산광역시 울주군 연안1길 3"
   },
   {
     "code": "A68990305",
@@ -294,7 +450,13 @@
     "emd": "온양읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "1991.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "사택 및 관사 등",
+    "topFloor": 12,
+    "addr": "울산광역시 울주군 온양로 86"
   },
   {
     "code": "A68990306",
@@ -305,7 +467,13 @@
     "emd": "온양읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "1993.10",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "울산광역시 울주군 연안2길 22"
   },
   {
     "code": "A68990308",
@@ -316,7 +484,13 @@
     "emd": "온양읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "1993.08",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "울산광역시 울주군 남창강변로 93"
   },
   {
     "code": "A10026358",
@@ -327,7 +501,13 @@
     "emd": "온양읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2018.03",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "울산광역시 울주군 망양길 50"
   },
   {
     "code": "A68990109",
@@ -338,7 +518,13 @@
     "emd": "온양읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2000.01",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "울산광역시 울주군 원동2길 19-1"
   },
   {
     "code": "A10020094",
@@ -349,7 +535,13 @@
     "emd": "온양읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "1994.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "울산광역시 울주군 온양로 38-2"
   },
   {
     "code": "A10028195",
@@ -360,7 +552,13 @@
     "emd": "범서읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2014.03",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 30,
+    "addr": "울산광역시 울주군 대동길 21"
   },
   {
     "code": "A68985505",
@@ -371,7 +569,13 @@
     "emd": "범서읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2002.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "울산광역시 울주군 천상5길 22-6"
   },
   {
     "code": "A68985506",
@@ -382,7 +586,13 @@
     "emd": "범서읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2000.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "울산광역시 울주군 평천길 82"
   },
   {
     "code": "A68985507",
@@ -393,7 +603,13 @@
     "emd": "범서읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "1999.05",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "울산광역시 울주군 천상길 55"
   },
   {
     "code": "A68985509",
@@ -404,7 +620,13 @@
     "emd": "범서읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "1998.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "울산광역시 울주군 대동길 50"
   },
   {
     "code": "A68985513",
@@ -415,7 +637,13 @@
     "emd": "범서읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "1998.04",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "울산광역시 울주군 대동길 34"
   },
   {
     "code": "A68985515",
@@ -426,7 +654,13 @@
     "emd": "범서읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "1998.03",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "울산광역시 울주군 천상3길 20"
   },
   {
     "code": "A68985516",
@@ -437,7 +671,13 @@
     "emd": "범서읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "1997.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "울산광역시 울주군 천상2길 16"
   },
   {
     "code": "A68985520",
@@ -448,7 +688,13 @@
     "emd": "범서읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "1999.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "울산광역시 울주군 천상6길 6"
   },
   {
     "code": "A68985522",
@@ -459,7 +705,13 @@
     "emd": "범서읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2001.03",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "울산광역시 울주군 천상4길 4"
   },
   {
     "code": "A68985523",
@@ -470,7 +722,13 @@
     "emd": "범서읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "1998.08",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "울산광역시 울주군 평천길 94"
   },
   {
     "code": "A68985533",
@@ -481,7 +739,13 @@
     "emd": "범서읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2001.02",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 22,
+    "addr": "울산광역시 울주군 천상길 43"
   },
   {
     "code": "A10022064",
@@ -492,7 +756,13 @@
     "emd": "범서읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2014.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "울산광역시 울주군 장검길 143"
   },
   {
     "code": "A10026860",
@@ -503,7 +773,13 @@
     "emd": "범서읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2017.08",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "울산광역시 울주군 장검길 60"
   },
   {
     "code": "A68976334",
@@ -514,7 +790,13 @@
     "emd": "범서읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2002.12",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "울산광역시 울주군 울밀로 2879-8"
   },
   {
     "code": "A68976336",
@@ -525,7 +807,13 @@
     "emd": "범서읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2010.05",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "울산광역시 울주군 장검길 123"
   },
   {
     "code": "A68976337",
@@ -536,7 +824,13 @@
     "emd": "범서읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2010.06",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "울산광역시 울주군 장검길 122"
   },
   {
     "code": "A68976338",
@@ -547,7 +841,13 @@
     "emd": "범서읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2014.02",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 32,
+    "addr": "울산광역시 울주군 장검길 88"
   },
   {
     "code": "A68976340",
@@ -558,7 +858,13 @@
     "emd": "범서읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2014.10",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "울산광역시 울주군 장검길 48"
   },
   {
     "code": "A68985301",
@@ -569,7 +875,13 @@
     "emd": "범서읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2001.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "울산광역시 울주군 장검1길 30"
   },
   {
     "code": "A68985302",
@@ -580,7 +892,13 @@
     "emd": "범서읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2004.01",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "울산광역시 울주군 장검1길 16"
   },
   {
     "code": "A68985318",
@@ -591,7 +909,13 @@
     "emd": "범서읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2002.12",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "울산광역시 울주군 울밀로 2879-7"
   },
   {
     "code": "A68985330",
@@ -602,7 +926,13 @@
     "emd": "범서읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2008.12",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "울산광역시 울주군 굴화1길 55"
   },
   {
     "code": "A10020549",
@@ -614,7 +944,13 @@
     "sigunguCode": "31710",
     "sido": "울산광역시",
     "sigungu": "울주군",
-    "hhldCnt": 1252
+    "hhldCnt": 1252,
+    "built": "2025.06",
+    "dongCnt": "16동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 24,
+    "addr": "울산광역시 울주군 다운서사로 240"
   },
   {
     "code": "A10021246",
@@ -625,7 +961,13 @@
     "emd": "범서읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "1995.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "울산광역시 울주군 점촌5길 16"
   },
   {
     "code": "A10021970",
@@ -636,7 +978,13 @@
     "emd": "범서읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "1993.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "울산광역시 울주군 점촌4길 40"
   },
   {
     "code": "A10022005",
@@ -647,7 +995,13 @@
     "emd": "범서읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "1992.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "울산광역시 울주군 점촌6길 28"
   },
   {
     "code": "A10023170",
@@ -658,7 +1012,13 @@
     "emd": "범서읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2008.09",
+    "dongCnt": "2동",
+    "heat": "",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "울산광역시 울주군 점촌4길 9"
   },
   {
     "code": "A68976335",
@@ -669,7 +1029,13 @@
     "emd": "범서읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2007.11",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "울산광역시 울주군 점촌3길 23"
   },
   {
     "code": "A68985203",
@@ -680,7 +1046,13 @@
     "emd": "범서읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2008.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "울산광역시 울주군 대리3길 23"
   },
   {
     "code": "A68985204",
@@ -691,7 +1063,13 @@
     "emd": "범서읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "1998.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "울산광역시 울주군 점촌5길 51-3"
   },
   {
     "code": "A68985208",
@@ -702,7 +1080,13 @@
     "emd": "범서읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "1992.06",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "사택 및 관사 등",
+    "topFloor": 14,
+    "addr": "울산광역시 울주군 구영앞길 114"
   },
   {
     "code": "A68985210",
@@ -713,7 +1097,13 @@
     "emd": "범서읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "1993.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "울산광역시 울주군 점촌4길 65"
   },
   {
     "code": "A68985211",
@@ -724,7 +1114,13 @@
     "emd": "범서읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "1993.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "울산광역시 울주군 점촌4길 25"
   },
   {
     "code": "A68985212",
@@ -735,7 +1131,13 @@
     "emd": "범서읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2007.09",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "울산광역시 울주군 구영로 75-26"
   },
   {
     "code": "A68985214",
@@ -746,7 +1148,13 @@
     "emd": "범서읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2006.05",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "울산광역시 울주군 대리2길 48"
   },
   {
     "code": "A68985217",
@@ -757,7 +1165,13 @@
     "emd": "범서읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "1994.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "울산광역시 울주군 점촌4길 77"
   },
   {
     "code": "A68985219",
@@ -768,7 +1182,13 @@
     "emd": "범서읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "1991.11",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "울산광역시 울주군 점촌4길 43"
   },
   {
     "code": "A68985224",
@@ -779,7 +1199,13 @@
     "emd": "범서읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2007.10",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "울산광역시 울주군 대리로 15-15"
   },
   {
     "code": "A68985225",
@@ -790,7 +1216,13 @@
     "emd": "범서읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2007.12",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "울산광역시 울주군 대리로 15-10"
   },
   {
     "code": "A68985227",
@@ -801,7 +1233,13 @@
     "emd": "범서읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2007.12",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "울산광역시 울주군 구영로 101-9"
   },
   {
     "code": "A68985228",
@@ -812,7 +1250,13 @@
     "emd": "범서읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2007.10",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "울산광역시 울주군 구영로 75-9"
   },
   {
     "code": "A68985231",
@@ -823,7 +1267,13 @@
     "emd": "범서읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2007.05",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "울산광역시 울주군 대리로 43"
   },
   {
     "code": "A68985232",
@@ -834,7 +1284,13 @@
     "emd": "범서읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2007.10",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "울산광역시 울주군 구영로 75-25"
   },
   {
     "code": "A10022546",
@@ -845,7 +1301,13 @@
     "emd": "청량읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2024.06",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 33,
+    "addr": "울산광역시 울주군 덕하1로 55"
   },
   {
     "code": "A10022781",
@@ -856,7 +1318,13 @@
     "emd": "청량읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2024.01",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 33,
+    "addr": "울산광역시 울주군 덕하1로 25"
   },
   {
     "code": "A68986201",
@@ -867,7 +1335,13 @@
     "emd": "청량읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "1998.08",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "울산광역시 울주군 덕정1길 2"
   },
   {
     "code": "A10025462",
@@ -878,7 +1352,13 @@
     "emd": "청량읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2019.06",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "울산광역시 울주군 삼정로 811"
   },
   {
     "code": "A10026251",
@@ -890,7 +1370,13 @@
     "sigunguCode": "31710",
     "sido": "울산광역시",
     "sigungu": "울주군",
-    "hhldCnt": 572
+    "hhldCnt": 572,
+    "built": "2018.05",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "울산광역시 울주군 덕하로 182"
   },
   {
     "code": "A10026831",
@@ -901,7 +1387,13 @@
     "emd": "청량읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2017.08",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "울산광역시 울주군 상남길 25"
   },
   {
     "code": "A68986202",
@@ -912,7 +1404,13 @@
     "emd": "청량읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "1999.07",
+    "dongCnt": "23동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "울산광역시 울주군 삼정로 92"
   },
   {
     "code": "A10027990",
@@ -923,7 +1421,13 @@
     "emd": "청량읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2015.05",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 21,
+    "addr": "울산광역시 울주군 율리영해로 13-9"
   },
   {
     "code": "A10027992",
@@ -934,7 +1438,13 @@
     "emd": "청량읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2015.05",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "울산광역시 울주군 율리영해2길 8"
   },
   {
     "code": "A10027993",
@@ -945,7 +1455,13 @@
     "emd": "청량읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2015.05",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 20,
+    "addr": "울산광역시 울주군 율리영해2길 7"
   },
   {
     "code": "A10025530",
@@ -956,7 +1472,13 @@
     "emd": "삼남읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2019.04",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 37,
+    "addr": "울산광역시 울주군 울산역로 274"
   },
   {
     "code": "A10026179",
@@ -967,7 +1489,13 @@
     "emd": "삼남읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2018.06",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 34,
+    "addr": "울산광역시 울주군 울산역로 300"
   },
   {
     "code": "A10028135",
@@ -978,7 +1506,13 @@
     "emd": "삼남읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2015.02",
+    "dongCnt": "16동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "울산광역시 울주군 작괘들길 41"
   },
   {
     "code": "A68981203",
@@ -989,7 +1523,13 @@
     "emd": "삼남읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "1993.01",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "울산광역시 울주군 반구대로 591-16"
   },
   {
     "code": "A68981204",
@@ -1000,7 +1540,13 @@
     "emd": "삼남읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "1992.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "울산광역시 울주군 반구대로 613"
   },
   {
     "code": "A68981206",
@@ -1011,7 +1557,13 @@
     "emd": "삼남읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2008.05",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "울산광역시 울주군 향교로 164"
   },
   {
     "code": "A68981207",
@@ -1022,7 +1574,13 @@
     "emd": "삼남읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2003.12",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "울산광역시 울주군 봉화마을길 9"
   },
   {
     "code": "A10025834",
@@ -1033,7 +1591,13 @@
     "emd": "삼남읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2018.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 40,
+    "addr": "울산광역시 울주군 도호1길 39-11"
   },
   {
     "code": "A68981102",
@@ -1044,7 +1608,13 @@
     "emd": "삼남읍",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "1993.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "울산광역시 울주군 중남로 1"
   },
   {
     "code": "A10026953",
@@ -1055,7 +1625,13 @@
     "emd": "서생면",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2017.04",
+    "dongCnt": "26동",
+    "heat": "개별난방",
+    "sale": "사택 및 관사 등",
+    "topFloor": 4,
+    "addr": "울산광역시 울주군 해맞이로 1017"
   },
   {
     "code": "A68988301",
@@ -1066,7 +1642,13 @@
     "emd": "서생면",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "1993.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "울산광역시 울주군 진하8길 21"
   },
   {
     "code": "A10025525",
@@ -1077,7 +1659,13 @@
     "emd": "웅촌면",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2019.03",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 18,
+    "addr": "울산광역시 울주군 웅촌면 곡천리 840 울산웅촌LH아파트"
   },
   {
     "code": "A68987301",
@@ -1088,7 +1676,13 @@
     "emd": "웅촌면",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "1997.06",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "울산광역시 울주군 삼동로 1617"
   },
   {
     "code": "A68982101",
@@ -1099,7 +1693,13 @@
     "emd": "상북면",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "1991.09",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "울산광역시 울주군 남천로 247"
   },
   {
     "code": "A10022259",
@@ -1110,7 +1710,13 @@
     "emd": "상북면",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "2024.09",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "울산광역시 울주군 거리1길 77"
   },
   {
     "code": "A68982202",
@@ -1121,6 +1727,12 @@
     "emd": "상북면",
     "sigunguCode": "31710",
     "sido": "울산광역시",
-    "sigungu": "울주군"
+    "sigungu": "울주군",
+    "built": "1993.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "울산광역시 울주군 신기길 26"
   }
 ]

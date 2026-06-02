@@ -8,7 +8,13 @@
     "emd": "노량진동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2026.02",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 29,
+    "addr": "서울특별시 동작구 상도로 195"
   },
   {
     "code": "A10022416",
@@ -19,7 +25,13 @@
     "emd": "노량진동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2024.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 27,
+    "addr": "서울특별시 동작구 장승배기로 174"
   },
   {
     "code": "A10023966",
@@ -31,7 +43,13 @@
     "sigunguCode": "11590",
     "sido": "서울특별시",
     "sigungu": "동작구",
-    "hhldCnt": 207
+    "hhldCnt": 207,
+    "built": "2018.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 19,
+    "addr": "서울특별시 동작구 노량진동 333 어바니엘한강"
   },
   {
     "code": "A10024524",
@@ -42,7 +60,13 @@
     "emd": "노량진동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2020.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 18,
+    "addr": "서울특별시 동작구 노량진로8길 55"
   },
   {
     "code": "A15603205",
@@ -53,7 +77,13 @@
     "emd": "노량진동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "1997.09",
+    "dongCnt": "6동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 동작구 만양로 26"
   },
   {
     "code": "A15605001",
@@ -64,7 +94,13 @@
     "emd": "노량진동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2001.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 동작구 만양로 84"
   },
   {
     "code": "A15605002",
@@ -75,7 +111,13 @@
     "emd": "노량진동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "1997.12",
+    "dongCnt": "7동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 동작구 만양로8길 50"
   },
   {
     "code": "A15605003",
@@ -86,7 +128,13 @@
     "emd": "노량진동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2010.08",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 동작구 장승배기로16길 134"
   },
   {
     "code": "A15605103",
@@ -97,7 +145,13 @@
     "emd": "노량진동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2001.02",
+    "dongCnt": "7동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "서울특별시 동작구 만양로 19"
   },
   {
     "code": "A15676701",
@@ -108,7 +162,13 @@
     "emd": "노량진동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2001.02",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 25,
+    "addr": "서울특별시 동작구 만양로 19"
   },
   {
     "code": "A10020109",
@@ -119,7 +179,13 @@
     "emd": "상도동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2003.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 12,
+    "addr": "서울특별시 동작구 상도로 107"
   },
   {
     "code": "A10021490",
@@ -130,7 +196,13 @@
     "emd": "상도동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "1980.03",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 동작구 양녕로26길 15"
   },
   {
     "code": "A10022456",
@@ -141,7 +213,13 @@
     "emd": "상도동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2006.09",
+    "dongCnt": "1동",
+    "heat": "",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 동작구 국사봉길 175"
   },
   {
     "code": "A10022720",
@@ -153,7 +231,13 @@
     "sigunguCode": "11590",
     "sido": "서울특별시",
     "sigungu": "동작구",
-    "hhldCnt": 771
+    "hhldCnt": 771,
+    "built": "2024.02",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 동작구 성대로 164"
   },
   {
     "code": "A10022916",
@@ -164,7 +248,13 @@
     "emd": "상도동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2006.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 동작구 국사봉길 178"
   },
   {
     "code": "A10024365",
@@ -175,7 +265,13 @@
     "emd": "상도동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2021.02",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 동작구 양녕로 220"
   },
   {
     "code": "A10024777",
@@ -186,7 +282,13 @@
     "emd": "상도동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2010.12",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "서울특별시 동작구 양녕로 170"
   },
   {
     "code": "A10025768",
@@ -197,7 +299,13 @@
     "emd": "상도동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2018.12",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 29,
+    "addr": "서울특별시 동작구 만양로 6"
   },
   {
     "code": "A10027424",
@@ -208,7 +316,13 @@
     "emd": "상도동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2016.08",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 25,
+    "addr": "서울특별시 동작구 장승배기로11가길 11"
   },
   {
     "code": "A10027472",
@@ -219,7 +333,13 @@
     "emd": "상도동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2016.02",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 28,
+    "addr": "서울특별시 동작구 상도로 207"
   },
   {
     "code": "A10027614",
@@ -230,7 +350,13 @@
     "emd": "상도동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2016.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 동작구 상도로15길 131"
   },
   {
     "code": "A10027633",
@@ -241,7 +367,13 @@
     "emd": "상도동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2016.01",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 23,
+    "addr": "서울특별시 동작구 상도로30길 39"
   },
   {
     "code": "A15603001",
@@ -252,7 +384,13 @@
     "emd": "상도동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2008.10",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 동작구 상도로34길 42"
   },
   {
     "code": "A15603002",
@@ -263,7 +401,13 @@
     "emd": "상도동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2007.12",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 동작구 상도로31길 19"
   },
   {
     "code": "A15603003",
@@ -274,7 +418,13 @@
     "emd": "상도동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "1997.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 18,
+    "addr": "서울특별시 동작구 만양로 26"
   },
   {
     "code": "A15603004",
@@ -285,7 +435,13 @@
     "emd": "상도동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2006.11",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 동작구 상도로53길 70"
   },
   {
     "code": "A15603006",
@@ -296,7 +452,13 @@
     "emd": "상도동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2004.12",
+    "dongCnt": "28동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 동작구 상도로53길 8"
   },
   {
     "code": "A15603007",
@@ -307,7 +469,13 @@
     "emd": "상도동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2004.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 18,
+    "addr": "서울특별시 동작구 등용로 37"
   },
   {
     "code": "A15603008",
@@ -318,7 +486,13 @@
     "emd": "상도동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2013.08",
+    "dongCnt": "16동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 동작구 상도로 346-2"
   },
   {
     "code": "A15603009",
@@ -329,7 +503,13 @@
     "emd": "상도동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2014.04",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 동작구 장승배기로10길 100"
   },
   {
     "code": "A15603203",
@@ -340,7 +520,13 @@
     "emd": "상도동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2004.04",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 동작구 장승배기로 26"
   },
   {
     "code": "A15603204",
@@ -351,7 +537,13 @@
     "emd": "상도동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2004.12",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 동작구 등용로 37"
   },
   {
     "code": "A15603206",
@@ -362,7 +554,13 @@
     "emd": "상도동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2007.09",
+    "dongCnt": "22동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 동작구 장승배기로4길 9"
   },
   {
     "code": "A15603401",
@@ -373,7 +571,13 @@
     "emd": "상도동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2002.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 동작구 양녕로23길 9"
   },
   {
     "code": "A15603502",
@@ -384,7 +588,13 @@
     "emd": "상도동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2003.10",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 동작구 상도로55길 47"
   },
   {
     "code": "A15671801",
@@ -395,7 +605,13 @@
     "emd": "상도동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2010.03",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 동작구 상도로30길 39"
   },
   {
     "code": "A15678101",
@@ -406,7 +622,13 @@
     "emd": "상도동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2003.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 동작구 사당로2길 2-32"
   },
   {
     "code": "A15678102",
@@ -417,7 +639,13 @@
     "emd": "상도동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "1994.02",
+    "dongCnt": "5동",
+    "heat": "중앙난방",
+    "sale": "혼합",
+    "topFloor": 17,
+    "addr": "서울특별시 동작구 상도로 407"
   },
   {
     "code": "A15678103",
@@ -428,7 +656,13 @@
     "emd": "상도동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2012.09",
+    "dongCnt": "22동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 동작구 상도로 346-1"
   },
   {
     "code": "A15683402",
@@ -439,7 +673,13 @@
     "emd": "상도동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2003.10",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 동작구 상도로 320"
   },
   {
     "code": "A15683601",
@@ -450,7 +690,13 @@
     "emd": "상도동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "1995.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 동작구 상도로60길 20"
   },
   {
     "code": "A15683901",
@@ -461,7 +707,13 @@
     "emd": "상도동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2003.11",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 동작구 상도로 107"
   },
   {
     "code": "A10026873",
@@ -472,7 +724,13 @@
     "emd": "본동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "1992.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 동작구 매봉로 156"
   },
   {
     "code": "A15605102",
@@ -483,7 +741,13 @@
     "emd": "본동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2004.08",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 동작구 매봉로 99"
   },
   {
     "code": "A15606001",
@@ -494,7 +758,13 @@
     "emd": "본동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2004.12",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 동작구 노량진로32길 156"
   },
   {
     "code": "A15606002",
@@ -505,7 +775,13 @@
     "emd": "본동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2000.08",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 동작구 노량진로23가길 20"
   },
   {
     "code": "A15606003",
@@ -516,7 +792,13 @@
     "emd": "본동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2004.10",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 동작구 매봉로 123"
   },
   {
     "code": "A15606004",
@@ -527,7 +809,13 @@
     "emd": "본동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "1993.06",
+    "dongCnt": "9동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 동작구 매봉로 134"
   },
   {
     "code": "A15606005",
@@ -538,7 +826,13 @@
     "emd": "본동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "1999.04",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 동작구 노량진로24길 2"
   },
   {
     "code": "A15606006",
@@ -549,7 +843,13 @@
     "emd": "본동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2004.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 18,
+    "addr": "서울특별시 동작구 매봉로 99"
   },
   {
     "code": "A15606007",
@@ -560,7 +860,13 @@
     "emd": "본동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2011.11",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 29,
+    "addr": "서울특별시 동작구 노량진로23가길 23"
   },
   {
     "code": "A15676702",
@@ -571,7 +877,13 @@
     "emd": "본동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2006.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 17,
+    "addr": "서울특별시 동작구 노량진로22길 60"
   },
   {
     "code": "A10023350",
@@ -582,7 +894,13 @@
     "emd": "흑석동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2023.02",
+    "dongCnt": "26동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 20,
+    "addr": "서울특별시 동작구 서달로 90"
   },
   {
     "code": "A10025770",
@@ -593,7 +911,13 @@
     "emd": "흑석동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2019.12",
+    "dongCnt": "20동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 28,
+    "addr": "서울특별시 동작구 현충로 52"
   },
   {
     "code": "A10025867",
@@ -604,7 +928,13 @@
     "emd": "흑석동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2018.11",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 23,
+    "addr": "서울특별시 동작구 서달로 123"
   },
   {
     "code": "A15607001",
@@ -615,7 +945,13 @@
     "emd": "흑석동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2003.11",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 동작구 서달로1길 17"
   },
   {
     "code": "A15679103",
@@ -626,7 +962,13 @@
     "emd": "흑석동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2003.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 동작구 서달로 83"
   },
   {
     "code": "A15679104",
@@ -637,7 +979,13 @@
     "emd": "흑석동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "1997.10",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 14,
+    "addr": "서울특별시 동작구 서달로2길 29"
   },
   {
     "code": "A15679105",
@@ -648,7 +996,13 @@
     "emd": "흑석동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "1988.08",
+    "dongCnt": "8동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 동작구 현충로 119"
   },
   {
     "code": "A15679106",
@@ -659,7 +1013,13 @@
     "emd": "흑석동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2010.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 동작구 서달로 150"
   },
   {
     "code": "A15679107",
@@ -670,7 +1030,13 @@
     "emd": "흑석동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2011.09",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 20,
+    "addr": "서울특별시 동작구 흑석한강로 12"
   },
   {
     "code": "A15679108",
@@ -681,7 +1047,13 @@
     "emd": "흑석동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2012.08",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 19,
+    "addr": "서울특별시 동작구 흑석한강로 27"
   },
   {
     "code": "A15679109",
@@ -692,7 +1064,13 @@
     "emd": "흑석동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2012.12",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 20,
+    "addr": "서울특별시 동작구 서달로 91"
   },
   {
     "code": "A15685702",
@@ -703,7 +1081,13 @@
     "emd": "흑석동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "1988.09",
+    "dongCnt": "13동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 동작구 현충로 151"
   },
   {
     "code": "A10023898",
@@ -714,7 +1098,13 @@
     "emd": "동작동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2022.02",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 동작구 동작대로45길 10"
   },
   {
     "code": "A10025175",
@@ -725,7 +1115,13 @@
     "emd": "동작동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2001.07",
+    "dongCnt": "1동",
+    "heat": "",
+    "sale": "",
+    "topFloor": 1,
+    "addr": "서울특별시 동작구 동작대로43길 36"
   },
   {
     "code": "A15608001",
@@ -736,7 +1132,13 @@
     "emd": "동작동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2006.03",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 동작구 동작대로45길 22"
   },
   {
     "code": "A15608002",
@@ -747,7 +1149,13 @@
     "emd": "동작동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2003.10",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 동작구 동작대로39가길 55"
   },
   {
     "code": "A15608003",
@@ -758,19 +1166,31 @@
     "emd": "동작동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2013.02",
+    "dongCnt": "15동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 동작구 동작대로39길 22"
   },
   {
     "code": "A10020085",
     "name": "스타팰리스 이수",
     "lat": 37.4826081258433,
     "lng": 126.981186475909,
-    "units": 0,
+    "units": 162,
     "emd": "사당동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
     "sigungu": "동작구",
-    "hhldCnt": 162
+    "hhldCnt": 162,
+    "built": "2026.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 동작구 동작대로17길 5"
   },
   {
     "code": "A10021807",
@@ -781,7 +1201,13 @@
     "emd": "사당동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "1999.12",
+    "dongCnt": "1동",
+    "heat": "",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 동작구 동작대로35아길 14"
   },
   {
     "code": "A10022181",
@@ -792,7 +1218,13 @@
     "emd": "사당동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2007.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 동작구 사당로20나길 57"
   },
   {
     "code": "A10022230",
@@ -803,7 +1235,13 @@
     "emd": "사당동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2001.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": "",
+    "addr": "서울특별시 동작구 사당로20길 119"
   },
   {
     "code": "A10024245",
@@ -814,7 +1252,13 @@
     "emd": "사당동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2021.06",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "서울특별시 동작구 동작대로39길 39"
   },
   {
     "code": "A10024642",
@@ -825,7 +1269,13 @@
     "emd": "사당동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2004.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 동작구 사당로16아길 43"
   },
   {
     "code": "A10024811",
@@ -836,7 +1286,13 @@
     "emd": "사당동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2002.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 동작구 사당로2가길 173"
   },
   {
     "code": "A10025013",
@@ -847,7 +1303,13 @@
     "emd": "사당동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2021.07",
+    "dongCnt": "17동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 동작구 사당로 90"
   },
   {
     "code": "A10026025",
@@ -858,7 +1320,13 @@
     "emd": "사당동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2006.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 동작구 솔밭로 65"
   },
   {
     "code": "A10026299",
@@ -869,7 +1337,13 @@
     "emd": "사당동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2018.12",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 25,
+    "addr": "서울특별시 동작구 사당로23길 112"
   },
   {
     "code": "A10027495",
@@ -880,7 +1354,13 @@
     "emd": "사당동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2010.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 동작구 사당동 147-29 이수자이 주상복합"
   },
   {
     "code": "A15609001",
@@ -891,7 +1371,13 @@
     "emd": "사당동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2009.02",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 9,
+    "addr": "서울특별시 동작구 동작대로29길 195"
   },
   {
     "code": "A15609002",
@@ -902,7 +1388,13 @@
     "emd": "사당동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "1999.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 동작구 사당로2가길 188"
   },
   {
     "code": "A15609003",
@@ -913,7 +1405,13 @@
     "emd": "사당동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2009.03",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 동작구 사당로16길 96"
   },
   {
     "code": "A15609005",
@@ -924,7 +1422,13 @@
     "emd": "사당동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "1990.08",
+    "dongCnt": "12동",
+    "heat": "개별난방+기타",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 동작구 사당로17길 52"
   },
   {
     "code": "A15609006",
@@ -935,7 +1439,13 @@
     "emd": "사당동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "1998.11",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 19,
+    "addr": "서울특별시 동작구 동작대로29길 118"
   },
   {
     "code": "A15609007",
@@ -946,7 +1456,13 @@
     "emd": "사당동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2013.09",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 동작구 사당로27길 130"
   },
   {
     "code": "A15609008",
@@ -957,7 +1473,13 @@
     "emd": "사당동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "1998.05",
+    "dongCnt": "1동",
+    "heat": "",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 동작구 사당로 165"
   },
   {
     "code": "A15609301",
@@ -968,7 +1490,13 @@
     "emd": "사당동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2004.09",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 동작구 사당로27길 181"
   },
   {
     "code": "A15609303",
@@ -979,7 +1507,13 @@
     "emd": "사당동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "1997.02",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 동작구 사당로9가길 82"
   },
   {
     "code": "A15609305",
@@ -990,7 +1524,13 @@
     "emd": "사당동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2003.10",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 동작구 사당로27길 190"
   },
   {
     "code": "A15609306",
@@ -1001,7 +1541,13 @@
     "emd": "사당동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2003.02",
+    "dongCnt": "18동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 동작구 사당로23바길 9"
   },
   {
     "code": "A15609401",
@@ -1012,7 +1558,13 @@
     "emd": "사당동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2003.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "서울특별시 동작구 남부순환로255길 21"
   },
   {
     "code": "A15609501",
@@ -1023,7 +1575,13 @@
     "emd": "사당동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "1987.02",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "서울특별시 동작구 사당로16다길 57"
   },
   {
     "code": "A15609502",
@@ -1034,7 +1592,13 @@
     "emd": "사당동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "1999.12",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 동작구 사당로2가길 102"
   },
   {
     "code": "A15677204",
@@ -1045,7 +1609,13 @@
     "emd": "사당동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "1993.12",
+    "dongCnt": "8동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 동작구 동작대로29길 110"
   },
   {
     "code": "A15677501",
@@ -1056,7 +1626,13 @@
     "emd": "사당동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2011.10",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 28,
+    "addr": "서울특별시 동작구 사당로13길 31"
   },
   {
     "code": "A15681501",
@@ -1067,7 +1643,13 @@
     "emd": "사당동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "1993.12",
+    "dongCnt": "6동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 동작구 동작대로29길 115"
   },
   {
     "code": "A15681502",
@@ -1078,7 +1660,13 @@
     "emd": "사당동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "1993.12",
+    "dongCnt": "8동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 동작구 동작대로29길 91"
   },
   {
     "code": "A15681503",
@@ -1089,7 +1677,13 @@
     "emd": "사당동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "1993.12",
+    "dongCnt": "12동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 동작구 동작대로29길 119"
   },
   {
     "code": "A15681802",
@@ -1100,7 +1694,13 @@
     "emd": "사당동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "1991.04",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 동작구 사당로17길 111"
   },
   {
     "code": "A10022093",
@@ -1111,7 +1711,13 @@
     "emd": "대방동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2023.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 14,
+    "addr": "서울특별시 동작구 상도로 36"
   },
   {
     "code": "A10022384",
@@ -1122,7 +1728,13 @@
     "emd": "대방동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2003.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 동작구 알마타길 53"
   },
   {
     "code": "A10023859",
@@ -1133,7 +1745,13 @@
     "emd": "대방동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2005.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 동작구 여의대방로62길 7"
   },
   {
     "code": "A10024752",
@@ -1144,7 +1762,13 @@
     "emd": "대방동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "1997.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 동작구 등용로14길 34"
   },
   {
     "code": "A15602001",
@@ -1155,7 +1779,13 @@
     "emd": "대방동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2006.03",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 동작구 여의대방로54길 6"
   },
   {
     "code": "A15602002",
@@ -1166,7 +1796,13 @@
     "emd": "대방동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2005.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 동작구 여의대방로24다길 40"
   },
   {
     "code": "A15602007",
@@ -1177,7 +1813,13 @@
     "emd": "대방동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2003.06",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 동작구 알마타길 37"
   },
   {
     "code": "A15676512",
@@ -1188,7 +1830,13 @@
     "emd": "대방동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "1993.04",
+    "dongCnt": "5동",
+    "heat": "중앙난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 동작구 여의대방로44길 47"
   },
   {
     "code": "A15681103",
@@ -1199,7 +1847,13 @@
     "emd": "대방동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "1999.01",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 동작구 여의대방로62길 23"
   },
   {
     "code": "A15681104",
@@ -1210,7 +1864,13 @@
     "emd": "대방동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "1999.12",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 동작구 알마타길 58"
   },
   {
     "code": "A15681105",
@@ -1221,7 +1881,13 @@
     "emd": "대방동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "1994.01",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "서울특별시 동작구 여의대방로44길 9"
   },
   {
     "code": "A15681106",
@@ -1232,7 +1898,13 @@
     "emd": "대방동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "1994.08",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 동작구 등용로 127"
   },
   {
     "code": "A15681108",
@@ -1243,7 +1915,13 @@
     "emd": "대방동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "1995.04",
+    "dongCnt": "10동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 동작구 여의대방로44길 47"
   },
   {
     "code": "A15681110",
@@ -1254,7 +1932,13 @@
     "emd": "대방동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "1993.11",
+    "dongCnt": "14동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 동작구 여의대방로44길 10"
   },
   {
     "code": "A10020786",
@@ -1265,7 +1949,13 @@
     "emd": "신대방동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2025.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 27,
+    "addr": "서울특별시 동작구 보라매로 105"
   },
   {
     "code": "A10021100",
@@ -1276,7 +1966,13 @@
     "emd": "신대방동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "1997.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 동작구 여의대방로22길 24"
   },
   {
     "code": "A10022217",
@@ -1287,7 +1983,13 @@
     "emd": "신대방동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2003.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 동작구 신대방1나길 45"
   },
   {
     "code": "A10023324",
@@ -1298,7 +2000,13 @@
     "emd": "신대방동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2000.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "서울특별시 동작구 보라매로5가길 7"
   },
   {
     "code": "A10023551",
@@ -1309,7 +2017,13 @@
     "emd": "신대방동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2022.05",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "서울특별시 동작구 시흥대로 606"
   },
   {
     "code": "A10024098",
@@ -1321,7 +2035,13 @@
     "sigunguCode": "11590",
     "sido": "서울특별시",
     "sigungu": "동작구",
-    "hhldCnt": 959
+    "hhldCnt": 959,
+    "built": "2021.10",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 38,
+    "addr": "서울특별시 동작구 여의대방로22길 121"
   },
   {
     "code": "A10024188",
@@ -1332,7 +2052,13 @@
     "emd": "신대방동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "1996.06",
+    "dongCnt": "1동",
+    "heat": "",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 동작구 보라매로5길 51"
   },
   {
     "code": "A10025504",
@@ -1343,7 +2069,13 @@
     "emd": "신대방동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2005.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 동작구 여의대방로10길 100"
   },
   {
     "code": "A15183001",
@@ -1354,7 +2086,13 @@
     "emd": "신대방동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "1996.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 관악구 보라매로3길 29"
   },
   {
     "code": "A15601002",
@@ -1365,7 +2103,13 @@
     "emd": "신대방동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "1998.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 41,
+    "addr": "서울특별시 동작구 보라매로5가길 16"
   },
   {
     "code": "A15601003",
@@ -1376,7 +2120,13 @@
     "emd": "신대방동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2010.07",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 동작구 보라매로 70"
   },
   {
     "code": "A15601004",
@@ -1387,7 +2137,13 @@
     "emd": "신대방동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "1995.05",
+    "dongCnt": "1동",
+    "heat": "",
+    "sale": "혼합",
+    "topFloor": 12,
+    "addr": "서울특별시 동작구 보라매로 83"
   },
   {
     "code": "A15601102",
@@ -1398,7 +2154,13 @@
     "emd": "신대방동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2001.08",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 동작구 여의대방로10길 14"
   },
   {
     "code": "A15601103",
@@ -1409,7 +2171,13 @@
     "emd": "신대방동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2003.02",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 동작구 신대방길 85"
   },
   {
     "code": "A15601104",
@@ -1420,7 +2188,13 @@
     "emd": "신대방동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2003.08",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 동작구 여의대방로10길 38"
   },
   {
     "code": "A15601105",
@@ -1431,7 +2205,13 @@
     "emd": "신대방동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "1996.02",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 동작구 여의대방로 28"
   },
   {
     "code": "A15601201",
@@ -1442,7 +2222,13 @@
     "emd": "신대방동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "1993.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 동작구 여의대방로22아길 22"
   },
   {
     "code": "A15601202",
@@ -1453,7 +2239,13 @@
     "emd": "신대방동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "1995.02",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 동작구 여의대방로10길 13"
   },
   {
     "code": "A15670001",
@@ -1464,7 +2256,13 @@
     "emd": "신대방동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2006.08",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "서울특별시 동작구 신대방1가길 38"
   },
   {
     "code": "A15672001",
@@ -1475,7 +2273,13 @@
     "emd": "신대방동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "1995.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 동작구 보라매로5길 5"
   },
   {
     "code": "A15672002",
@@ -1486,7 +2290,13 @@
     "emd": "신대방동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2003.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 49,
+    "addr": "서울특별시 동작구 보라매로5길 43"
   },
   {
     "code": "A15685201",
@@ -1497,7 +2307,13 @@
     "emd": "신대방동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "1995.01",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 동작구 여의대방로 8"
   },
   {
     "code": "A15685206",
@@ -1508,7 +2324,13 @@
     "emd": "신대방동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "1988.09",
+    "dongCnt": "16동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 동작구 여의대방로 22"
   },
   {
     "code": "A15685503",
@@ -1519,6 +2341,12 @@
     "emd": "신대방동",
     "sigunguCode": "11590",
     "sido": "서울특별시",
-    "sigungu": "동작구"
+    "sigungu": "동작구",
+    "built": "2002.02",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 동작구 여의대방로10길 59"
   }
 ]

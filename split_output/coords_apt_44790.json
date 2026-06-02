@@ -8,7 +8,13 @@
     "emd": "청양읍",
     "sigunguCode": "44790",
     "sido": "충청남도",
-    "sigungu": "청양군"
+    "sigungu": "청양군",
+    "built": "1997.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 청양군 중앙로 80-1"
   },
   {
     "code": "A34570101",
@@ -19,7 +25,13 @@
     "emd": "청양읍",
     "sigunguCode": "44790",
     "sido": "충청남도",
-    "sigungu": "청양군"
+    "sigungu": "청양군",
+    "built": "2009.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "충청남도 청양군 고리섬들길 53"
   },
   {
     "code": "A34580401",
@@ -30,7 +42,13 @@
     "emd": "청양읍",
     "sigunguCode": "44790",
     "sido": "충청남도",
-    "sigungu": "청양군"
+    "sigungu": "청양군",
+    "built": "1996.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "충청남도 청양군 청산로 29"
   },
   {
     "code": "A34580402",
@@ -41,7 +59,13 @@
     "emd": "청양읍",
     "sigunguCode": "44790",
     "sido": "충청남도",
-    "sigungu": "청양군"
+    "sigungu": "청양군",
+    "built": "2000.01",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 청양군 청산로 35"
   },
   {
     "code": "A34580403",
@@ -52,7 +76,13 @@
     "emd": "청양읍",
     "sigunguCode": "44790",
     "sido": "충청남도",
-    "sigungu": "청양군"
+    "sigungu": "청양군",
+    "built": "2002.02",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 청양군 고리섬들길 68-8"
   },
   {
     "code": "A10022366",
@@ -63,7 +93,13 @@
     "emd": "청양읍",
     "sigunguCode": "44790",
     "sido": "충청남도",
-    "sigungu": "청양군"
+    "sigungu": "청양군",
+    "built": "2023.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 10,
+    "addr": "충청남도 청양군 칠갑산로 316"
   },
   {
     "code": "A10022374",
@@ -74,6 +110,12 @@
     "emd": "청양읍",
     "sigunguCode": "44790",
     "sido": "충청남도",
-    "sigungu": "청양군"
+    "sigungu": "청양군",
+    "built": "2023.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 8,
+    "addr": "충청남도 청양군 월촌길 9"
   }
 ]

@@ -8,7 +8,13 @@
     "emd": "고천동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2026.02",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 의왕시 시청로 42"
   },
   {
     "code": "A10020425",
@@ -19,7 +25,13 @@
     "emd": "고천동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2025.09",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 의왕시 시청1로 11"
   },
   {
     "code": "A10023041",
@@ -30,7 +42,13 @@
     "emd": "고천동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2023.08",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 20,
+    "addr": "경기도 의왕시 시청1로 10"
   },
   {
     "code": "A10024662",
@@ -41,7 +59,13 @@
     "emd": "고천동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2020.08",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 25,
+    "addr": "경기도 의왕시 행복마을3로 18"
   },
   {
     "code": "A10021848",
@@ -52,7 +76,13 @@
     "emd": "삼동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "1986.06",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "경기도 의왕시 부곡중앙남6길 53"
   },
   {
     "code": "A10025037",
@@ -63,7 +93,13 @@
     "emd": "삼동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2020.02",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "경기도 의왕시 장안남북로 24"
   },
   {
     "code": "A10025055",
@@ -74,7 +110,13 @@
     "emd": "삼동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2020.02",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "경기도 의왕시 장안중앙로 23"
   },
   {
     "code": "A10025761",
@@ -85,7 +127,13 @@
     "emd": "삼동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2019.01",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "경기도 의왕시 장안중앙로 42"
   },
   {
     "code": "A43704008",
@@ -96,7 +144,13 @@
     "emd": "삼동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2005.07",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "경기도 의왕시 신장승길 12"
   },
   {
     "code": "A43771701",
@@ -107,7 +161,13 @@
     "emd": "삼동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "1992.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "경기도 의왕시 까치골길 7"
   },
   {
     "code": "A43772003",
@@ -118,7 +178,13 @@
     "emd": "삼동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "1993.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 의왕시 까치골길 8"
   },
   {
     "code": "A43772004",
@@ -129,7 +195,13 @@
     "emd": "삼동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "1994.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 의왕시 까치골길 20"
   },
   {
     "code": "A43772307",
@@ -140,7 +212,13 @@
     "emd": "삼동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "1986.08",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "경기도 의왕시 부곡초등1길 6"
   },
   {
     "code": "A43772311",
@@ -151,7 +229,13 @@
     "emd": "삼동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "1986.01",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "경기도 의왕시 부곡초등1길 16"
   },
   {
     "code": "A43772409",
@@ -162,7 +246,13 @@
     "emd": "삼동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "1997.09",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 의왕시 부곡시장길 63"
   },
   {
     "code": "A43775110",
@@ -173,7 +263,13 @@
     "emd": "삼동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "1995.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "경기도 의왕시 부곡복지관길 27"
   },
   {
     "code": "A43776912",
@@ -184,7 +280,13 @@
     "emd": "삼동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2003.09",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 의왕시 부곡복지관길 41"
   },
   {
     "code": "A43781506",
@@ -195,7 +297,13 @@
     "emd": "삼동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2000.06",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 의왕시 부곡복지관길 40"
   },
   {
     "code": "A43702005",
@@ -206,7 +314,13 @@
     "emd": "왕곡동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "1994.10",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경기도 의왕시 왕곡로 55"
   },
   {
     "code": "A43773703",
@@ -217,7 +331,13 @@
     "emd": "왕곡동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "1994.03",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "경기도 의왕시 위인로 2"
   },
   {
     "code": "A43773804",
@@ -228,7 +348,13 @@
     "emd": "왕곡동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "1994.07",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경기도 의왕시 위인로 20"
   },
   {
     "code": "A43774102",
@@ -239,7 +365,13 @@
     "emd": "왕곡동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "1994.12",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경기도 의왕시 위인로 15"
   },
   {
     "code": "A43774201",
@@ -250,7 +382,13 @@
     "emd": "왕곡동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "1994.03",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경기도 의왕시 왕곡로 56"
   },
   {
     "code": "A10024246",
@@ -261,7 +399,13 @@
     "emd": "오전동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2021.06",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 38,
+    "addr": "경기도 의왕시 어내들로 5"
   },
   {
     "code": "A10025698",
@@ -272,7 +416,13 @@
     "emd": "오전동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2018.11",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 42,
+    "addr": "경기도 의왕시 경수대로 262"
   },
   {
     "code": "A43707016",
@@ -283,7 +433,13 @@
     "emd": "오전동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2009.11",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "경기도 의왕시 보식골로 17"
   },
   {
     "code": "A43772502",
@@ -294,7 +450,13 @@
     "emd": "오전동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "1994.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 의왕시 오전로 43"
   },
   {
     "code": "A43772607",
@@ -305,7 +467,13 @@
     "emd": "오전동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "1994.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경기도 의왕시 원골로 13"
   },
   {
     "code": "A43772723",
@@ -316,7 +484,13 @@
     "emd": "오전동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "1995.12",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "경기도 의왕시 오전로 150"
   },
   {
     "code": "A43772811",
@@ -327,7 +501,13 @@
     "emd": "오전동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "1994.10",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경기도 의왕시 오전로 163"
   },
   {
     "code": "A43772917",
@@ -338,7 +518,13 @@
     "emd": "오전동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "1994.03",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "경기도 의왕시 오전로 179"
   },
   {
     "code": "A43773214",
@@ -349,7 +535,13 @@
     "emd": "오전동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "1995.08",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "경기도 의왕시 오전로 63"
   },
   {
     "code": "A43773321",
@@ -360,7 +552,13 @@
     "emd": "오전동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "1991.10",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 의왕시 원골로 10"
   },
   {
     "code": "A43773420",
@@ -371,7 +569,13 @@
     "emd": "오전동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "1998.04",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "경기도 의왕시 호성로 48-7"
   },
   {
     "code": "A43775218",
@@ -382,7 +586,13 @@
     "emd": "오전동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2004.12",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "경기도 의왕시 포도원로 46"
   },
   {
     "code": "A43775415",
@@ -393,7 +603,13 @@
     "emd": "오전동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2000.07",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "경기도 의왕시 모락로 89-16"
   },
   {
     "code": "A43775513",
@@ -404,7 +620,13 @@
     "emd": "오전동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2000.06",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "경기도 의왕시 오전천로 54"
   },
   {
     "code": "A43775622",
@@ -415,7 +637,13 @@
     "emd": "오전동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2004.08",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "경기도 의왕시 모락로 89-15"
   },
   {
     "code": "A43777024",
@@ -426,7 +654,13 @@
     "emd": "오전동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2002.11",
+    "dongCnt": "19동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "경기도 의왕시 원골로 43"
   },
   {
     "code": "A43781805",
@@ -437,7 +671,13 @@
     "emd": "오전동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "1999.10",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "경기도 의왕시 보식골로 13"
   },
   {
     "code": "A43781808",
@@ -448,7 +688,13 @@
     "emd": "오전동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "1997.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "경기도 의왕시 오전로 208"
   },
   {
     "code": "A43782103",
@@ -459,7 +705,13 @@
     "emd": "오전동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2008.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 의왕시 전주남이4길 17"
   },
   {
     "code": "A43782106",
@@ -470,7 +722,13 @@
     "emd": "오전동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2000.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "경기도 의왕시 보식골로 30"
   },
   {
     "code": "A43782119",
@@ -481,7 +739,13 @@
     "emd": "오전동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2000.06",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "경기도 의왕시 보식골로 6"
   },
   {
     "code": "A43782204",
@@ -492,7 +756,13 @@
     "emd": "오전동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2004.11",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "경기도 의왕시 전주남이길 8"
   },
   {
     "code": "A10024983",
@@ -503,7 +773,13 @@
     "emd": "학의동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2020.01",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "경기도 의왕시 백운호수로1길 9"
   },
   {
     "code": "A10025058",
@@ -514,7 +790,13 @@
     "emd": "학의동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2020.01",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "경기도 의왕시 바라산로 76"
   },
   {
     "code": "A10025512",
@@ -525,7 +807,13 @@
     "emd": "학의동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2019.03",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "경기도 의왕시 백운중앙로 45"
   },
   {
     "code": "A10025539",
@@ -536,7 +824,13 @@
     "emd": "학의동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2019.05",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 16,
+    "addr": "경기도 의왕시 바라산로 75"
   },
   {
     "code": "A10025627",
@@ -547,7 +841,13 @@
     "emd": "학의동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2019.03",
+    "dongCnt": "18동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "경기도 의왕시 백운중앙로 46"
   },
   {
     "code": "A10025639",
@@ -558,7 +858,13 @@
     "emd": "학의동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2019.03",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "경기도 의왕시 백운중앙로 99"
   },
   {
     "code": "A10025640",
@@ -569,7 +875,13 @@
     "emd": "학의동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2019.03",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "경기도 의왕시 백운중앙로 88"
   },
   {
     "code": "A10025644",
@@ -580,7 +892,13 @@
     "emd": "학의동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2019.03",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "경기도 의왕시 백운중앙로 100"
   },
   {
     "code": "A10020620",
@@ -591,7 +909,13 @@
     "emd": "내손동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2025.05",
+    "dongCnt": "20동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 1,
+    "addr": "경기도 의왕시 내손중앙로 68"
   },
   {
     "code": "A10024934",
@@ -602,7 +926,13 @@
     "emd": "내손동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2005.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 의왕시 포일로 17"
   },
   {
     "code": "A43708001",
@@ -613,7 +943,13 @@
     "emd": "내손동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2002.10",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 의왕시 갈미로 8"
   },
   {
     "code": "A43708003",
@@ -624,7 +960,13 @@
     "emd": "내손동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2002.06",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 의왕시 갈미로 64"
   },
   {
     "code": "A43708004",
@@ -635,7 +977,13 @@
     "emd": "내손동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2009.03",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 의왕시 내손순환로 7"
   },
   {
     "code": "A43708006",
@@ -646,7 +994,13 @@
     "emd": "내손동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2003.06",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "경기도 의왕시 갈미1로 18"
   },
   {
     "code": "A43708007",
@@ -657,7 +1011,13 @@
     "emd": "내손동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2009.08",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 의왕시 내손순환로 8"
   },
   {
     "code": "A43708008",
@@ -668,7 +1028,13 @@
     "emd": "내손동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2009.11",
+    "dongCnt": "38동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 의왕시 내손로 13"
   },
   {
     "code": "A43770702",
@@ -679,7 +1045,13 @@
     "emd": "내손동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2001.04",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "경기도 의왕시 포일로 39"
   },
   {
     "code": "A43770703",
@@ -690,7 +1062,13 @@
     "emd": "내손동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2012.10",
+    "dongCnt": "32동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 의왕시 내손로 57"
   },
   {
     "code": "A43771204",
@@ -701,7 +1079,13 @@
     "emd": "내손동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2002.12",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 의왕시 갈미1로 17"
   },
   {
     "code": "A43776501",
@@ -712,7 +1096,13 @@
     "emd": "내손동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2002.10",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경기도 의왕시 갈미로 7"
   },
   {
     "code": "A43776703",
@@ -723,7 +1113,13 @@
     "emd": "내손동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2002.06",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 의왕시 갈미로 32"
   },
   {
     "code": "A10023727",
@@ -734,7 +1130,13 @@
     "emd": "청계동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2007.07",
+    "dongCnt": "14동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 12,
+    "addr": "경기도 의왕시 청계1로 9"
   },
   {
     "code": "A43711001",
@@ -745,7 +1147,13 @@
     "emd": "청계동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2007.09",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 의왕시 청계1로 27"
   },
   {
     "code": "A43711002",
@@ -756,7 +1164,13 @@
     "emd": "청계동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2007.09",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 의왕시 덕장로 76"
   },
   {
     "code": "A43777203",
@@ -767,7 +1181,13 @@
     "emd": "청계동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2007.07",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "경기도 의왕시 청계1로 28"
   },
   {
     "code": "A43777204",
@@ -778,7 +1198,13 @@
     "emd": "청계동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2009.11",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 의왕시 덕장로 22"
   },
   {
     "code": "A10020374",
@@ -789,7 +1215,13 @@
     "emd": "포일동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2025.08",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 28,
+    "addr": "경기도 의왕시 안양판교로 120"
   },
   {
     "code": "A10025188",
@@ -800,7 +1232,13 @@
     "emd": "포일동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2019.11",
+    "dongCnt": "12동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 43,
+    "addr": "경기도 의왕시 안양판교로 100"
   },
   {
     "code": "A43774502",
@@ -811,7 +1249,13 @@
     "emd": "포일동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "1997.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "경기도 의왕시 새롬길 10"
   },
   {
     "code": "A43774503",
@@ -822,7 +1266,13 @@
     "emd": "포일동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2009.07",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "경기도 의왕시 평의길 48"
   },
   {
     "code": "A43774504",
@@ -833,7 +1283,13 @@
     "emd": "포일동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2009.10",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "경기도 의왕시 흥안대로434번길 86"
   },
   {
     "code": "A43774505",
@@ -844,7 +1300,13 @@
     "emd": "포일동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2011.05",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "경기도 의왕시 포일세거리로 23"
   },
   {
     "code": "A43774506",
@@ -855,7 +1317,13 @@
     "emd": "포일동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2011.09",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 의왕시 포일세거리로 93"
   },
   {
     "code": "A43774507",
@@ -866,7 +1334,13 @@
     "emd": "포일동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2011.11",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 의왕시 포일세거리로 73"
   },
   {
     "code": "A43774508",
@@ -877,7 +1351,13 @@
     "emd": "포일동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2012.12",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 의왕시 포일세거리로 96"
   },
   {
     "code": "A43774509",
@@ -888,7 +1368,13 @@
     "emd": "포일동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2013.05",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "경기도 의왕시 이미로 17"
   },
   {
     "code": "A43774605",
@@ -899,7 +1385,13 @@
     "emd": "포일동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "1991.04",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 의왕시 안양판교로 64"
   },
   {
     "code": "A43774801",
@@ -910,7 +1402,13 @@
     "emd": "포일동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "1997.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "경기도 의왕시 새롬길 7"
   },
   {
     "code": "A43777104",
@@ -921,7 +1419,13 @@
     "emd": "포일동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2001.06",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "경기도 의왕시 흥안대로456번길 125"
   },
   {
     "code": "A43783103",
@@ -932,7 +1436,13 @@
     "emd": "포일동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2001.04",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 의왕시 새롬길 21"
   },
   {
     "code": "A10022939",
@@ -943,6 +1453,12 @@
     "emd": "초평동",
     "sigunguCode": "41430",
     "sido": "경기도",
-    "sigungu": "의왕시"
+    "sigungu": "의왕시",
+    "built": "2023.10",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 25,
+    "addr": "경기도 의왕시 광진말1로 11"
   }
 ]

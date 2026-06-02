@@ -8,7 +8,13 @@
     "emd": "영등포동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2002.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 영등포구 영등포로62길 42"
   },
   {
     "code": "A15003001",
@@ -19,7 +25,13 @@
     "emd": "영등포동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2004.10",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 영등포구 신길로60나길 9"
   },
   {
     "code": "A15003002",
@@ -30,7 +42,13 @@
     "emd": "영등포동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2002.05",
+    "dongCnt": "31동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 영등포구 도신로29길 28"
   },
   {
     "code": "A10024490",
@@ -41,7 +59,13 @@
     "emd": "영등포동1가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2020.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 영등포구 경인로 900"
   },
   {
     "code": "A10022098",
@@ -52,7 +76,13 @@
     "emd": "영등포동2가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2024.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "서울특별시 영등포구 영등포로53길 40"
   },
   {
     "code": "A10025518",
@@ -63,7 +93,13 @@
     "emd": "영등포동5가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1999.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 영등포구 양산로 214"
   },
   {
     "code": "A10024567",
@@ -74,7 +110,13 @@
     "emd": "영등포동7가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2020.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 30,
+    "addr": "서울특별시 영등포구 국회대로50길 20"
   },
   {
     "code": "A10026801",
@@ -85,7 +127,13 @@
     "emd": "영등포동7가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2004.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 영등포구 버드나루로12가길 13"
   },
   {
     "code": "A10026816",
@@ -96,7 +144,13 @@
     "emd": "영등포동7가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2017.08",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 35,
+    "addr": "서울특별시 영등포구 국회대로54길 10"
   },
   {
     "code": "A15003701",
@@ -107,7 +161,13 @@
     "emd": "영등포동7가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1998.11",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 영등포구 양산로 177"
   },
   {
     "code": "A15003801",
@@ -118,7 +178,13 @@
     "emd": "영등포동8가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1999.05",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 영등포구 영중로 145"
   },
   {
     "code": "A15003802",
@@ -129,7 +195,13 @@
     "emd": "영등포동8가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2004.08",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 영등포구 영중로 154"
   },
   {
     "code": "A10022891",
@@ -140,7 +212,13 @@
     "emd": "여의도동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2023.08",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 49,
+    "addr": "서울특별시 영등포구 국제금융로 39"
   },
   {
     "code": "A10024981",
@@ -151,7 +229,13 @@
     "emd": "여의도동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1994.07",
+    "dongCnt": "1동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 영등포구 63로 32"
   },
   {
     "code": "A15001001",
@@ -162,7 +246,13 @@
     "emd": "여의도동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1971.08",
+    "dongCnt": "1동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 영등포구 국회대로76가길 11"
   },
   {
     "code": "A15001003",
@@ -173,7 +263,13 @@
     "emd": "여의도동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1976.09",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 영등포구 여의나루로 121"
   },
   {
     "code": "A15001004",
@@ -184,7 +280,13 @@
     "emd": "여의도동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1978.06",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 영등포구 국제금융로7길 32"
   },
   {
     "code": "A15001005",
@@ -195,7 +297,13 @@
     "emd": "여의도동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2003.11",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 40,
+    "addr": "서울특별시 영등포구 여의동로 213"
   },
   {
     "code": "A15001009",
@@ -206,7 +314,13 @@
     "emd": "여의도동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1976.07",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 영등포구 국제금융로7길 1"
   },
   {
     "code": "A15001012",
@@ -217,7 +331,13 @@
     "emd": "여의도동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1976.08",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 영등포구 여의대로6길 17"
   },
   {
     "code": "A15001016",
@@ -228,7 +348,13 @@
     "emd": "여의도동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1975.09",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 영등포구 국제금융로7길 20"
   },
   {
     "code": "A15001019",
@@ -239,7 +365,13 @@
     "emd": "여의도동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1978.07",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 영등포구 여의나루로 7"
   },
   {
     "code": "A15001020",
@@ -250,7 +382,13 @@
     "emd": "여의도동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1975.12",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 영등포구 국제금융로7길 27"
   },
   {
     "code": "A15076301",
@@ -261,7 +399,13 @@
     "emd": "여의도동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2002.10",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 40,
+    "addr": "서울특별시 영등포구 여의동로 143"
   },
   {
     "code": "A15076302",
@@ -272,7 +416,13 @@
     "emd": "여의도동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2008.04",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 39,
+    "addr": "서울특별시 영등포구 여의동로3길 10"
   },
   {
     "code": "A15088208",
@@ -283,7 +433,13 @@
     "emd": "여의도동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1977.10",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 영등포구 여의나루로 126"
   },
   {
     "code": "A15088614",
@@ -294,7 +450,13 @@
     "emd": "여의도동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2005.05",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 39,
+    "addr": "서울특별시 영등포구 의사당대로 127"
   },
   {
     "code": "A15088717",
@@ -305,7 +467,13 @@
     "emd": "여의도동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1978.05",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 영등포구 의사당대로 110"
   },
   {
     "code": "A15088802",
@@ -316,7 +484,13 @@
     "emd": "여의도동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1977.12",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "서울특별시 영등포구 국제금융로7가길 21"
   },
   {
     "code": "A15088915",
@@ -327,7 +501,13 @@
     "emd": "여의도동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2005.12",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 35,
+    "addr": "서울특별시 영등포구 국제금융로 86"
   },
   {
     "code": "A15088918",
@@ -338,7 +518,13 @@
     "emd": "여의도동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1975.11",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 영등포구 국제금융로 79"
   },
   {
     "code": "A15089307",
@@ -349,7 +535,13 @@
     "emd": "여의도동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2003.07",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 34,
+    "addr": "서울특별시 영등포구 여의동로 97"
   },
   {
     "code": "A15089411",
@@ -360,7 +552,13 @@
     "emd": "여의도동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1974.10",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 영등포구 국제금융로 109"
   },
   {
     "code": "A15089421",
@@ -371,7 +569,13 @@
     "emd": "여의도동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1971.12",
+    "dongCnt": "24동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 영등포구 63로 45"
   },
   {
     "code": "A15089510",
@@ -382,7 +586,13 @@
     "emd": "여의도동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1974.12",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 영등포구 63로 7"
   },
   {
     "code": "A15089513",
@@ -393,7 +603,13 @@
     "emd": "여의도동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1977.06",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 영등포구 국제금융로 108-6"
   },
   {
     "code": "A15004101",
@@ -404,7 +620,13 @@
     "emd": "당산동1가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2008.01",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 영등포구 영신로33길 3"
   },
   {
     "code": "A15075001",
@@ -415,7 +637,13 @@
     "emd": "당산동1가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1996.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "서울특별시 영등포구 영등포로28길 5"
   },
   {
     "code": "A15080002",
@@ -426,7 +654,13 @@
     "emd": "당산동1가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1997.08",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 영등포구 당산로 68"
   },
   {
     "code": "A10023489",
@@ -437,7 +671,13 @@
     "emd": "당산동2가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2022.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 19,
+    "addr": "서울특별시 영등포구 당산로 83"
   },
   {
     "code": "A15004201",
@@ -448,7 +688,13 @@
     "emd": "당산동2가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1999.01",
+    "dongCnt": "2동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 영등포구 영등포로 106"
   },
   {
     "code": "A15004202",
@@ -459,7 +705,13 @@
     "emd": "당산동2가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1994.06",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 영등포구 당산로 95"
   },
   {
     "code": "A10020541",
@@ -470,7 +722,13 @@
     "emd": "당산동3가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2025.05",
+    "dongCnt": "1동",
+    "heat": "중앙난방",
+    "sale": "임대",
+    "topFloor": 7,
+    "addr": "서울특별시 영등포구 양산로23길 16"
   },
   {
     "code": "A10021962",
@@ -481,7 +739,13 @@
     "emd": "당산동3가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2014.11",
+    "dongCnt": "2동",
+    "heat": "",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 영등포구 양산로25길 12"
   },
   {
     "code": "A10021966",
@@ -492,7 +756,13 @@
     "emd": "당산동3가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2014.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 영등포구 양산로25길 16"
   },
   {
     "code": "A10021967",
@@ -503,7 +773,13 @@
     "emd": "당산동3가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2014.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 영등포구 양산로25길 8"
   },
   {
     "code": "A10024834",
@@ -514,7 +790,13 @@
     "emd": "당산동3가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2009.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 영등포구 양산로17길 22"
   },
   {
     "code": "A15072001",
@@ -525,7 +807,13 @@
     "emd": "당산동3가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2010.07",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 영등포구 당산로31길 32"
   },
   {
     "code": "A15072002",
@@ -536,7 +824,13 @@
     "emd": "당산동3가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2005.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 23,
+    "addr": "서울특별시 영등포구 영신로 183"
   },
   {
     "code": "A15080204",
@@ -547,7 +841,13 @@
     "emd": "당산동3가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1986.02",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 영등포구 영신로 193"
   },
   {
     "code": "A15080205",
@@ -558,7 +858,13 @@
     "emd": "당산동3가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2003.06",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 영등포구 영신로 191"
   },
   {
     "code": "A15080402",
@@ -569,7 +875,13 @@
     "emd": "당산동3가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1979.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 11,
+    "addr": "서울특별시 영등포구 국회대로 552"
   },
   {
     "code": "A10026797",
@@ -580,7 +892,13 @@
     "emd": "당산동4가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2017.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "서울특별시 영등포구 영신로 237"
   },
   {
     "code": "A10027684",
@@ -591,7 +909,13 @@
     "emd": "당산동4가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2015.11",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 영등포구 영신로55길 6"
   },
   {
     "code": "A15004403",
@@ -602,7 +926,13 @@
     "emd": "당산동4가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2002.09",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 영등포구 국회대로37길 22"
   },
   {
     "code": "A15004405",
@@ -613,7 +943,13 @@
     "emd": "당산동4가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1997.09",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 영등포구 당산로36길 12"
   },
   {
     "code": "A15004406",
@@ -624,7 +960,13 @@
     "emd": "당산동4가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1988.12",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 영등포구 당산로41길 23"
   },
   {
     "code": "A15072201",
@@ -635,7 +977,13 @@
     "emd": "당산동4가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2010.02",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 영등포구 국회대로 597"
   },
   {
     "code": "A15080501",
@@ -646,7 +994,13 @@
     "emd": "당산동4가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1999.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 영등포구 영신로57길 5"
   },
   {
     "code": "A15080507",
@@ -657,7 +1011,13 @@
     "emd": "당산동4가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2000.03",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 영등포구 당산로42길 16"
   },
   {
     "code": "A10024789",
@@ -668,7 +1028,13 @@
     "emd": "당산동5가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2020.04",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 29,
+    "addr": "서울특별시 영등포구 영신로 247"
   },
   {
     "code": "A15004501",
@@ -679,7 +1045,13 @@
     "emd": "당산동5가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1997.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 영등포구 양평로 57"
   },
   {
     "code": "A15004502",
@@ -690,7 +1062,13 @@
     "emd": "당산동5가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2005.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 영등포구 당산로 222"
   },
   {
     "code": "A15004503",
@@ -701,7 +1079,13 @@
     "emd": "당산동5가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2001.10",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 영등포구 당산로42길 7"
   },
   {
     "code": "A15004505",
@@ -712,7 +1096,13 @@
     "emd": "당산동5가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1984.09",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 영등포구 선유동2로 56"
   },
   {
     "code": "A15004506",
@@ -723,7 +1113,13 @@
     "emd": "당산동5가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1999.12",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 영등포구 당산로42길 13"
   },
   {
     "code": "A15004507",
@@ -734,7 +1130,13 @@
     "emd": "당산동5가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2003.12",
+    "dongCnt": "25동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 영등포구 당산로 214"
   },
   {
     "code": "A15081001",
@@ -745,7 +1147,13 @@
     "emd": "당산동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1995.05",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 영등포구 당산로54길 11"
   },
   {
     "code": "A15081002",
@@ -756,7 +1164,13 @@
     "emd": "당산동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2002.06",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 영등포구 버드나루로 130"
   },
   {
     "code": "A15076701",
@@ -767,7 +1181,13 @@
     "emd": "도림동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1998.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 영등포구 도신로15다길 33"
   },
   {
     "code": "A15076702",
@@ -778,7 +1198,13 @@
     "emd": "도림동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2014.03",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 31,
+    "addr": "서울특별시 영등포구 도영로 66"
   },
   {
     "code": "A15083201",
@@ -789,7 +1215,13 @@
     "emd": "도림동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1997.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 영등포구 도영로7길 7"
   },
   {
     "code": "A15083202",
@@ -800,7 +1232,13 @@
     "emd": "도림동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2000.01",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 영등포구 도림로 365"
   },
   {
     "code": "A15009201",
@@ -811,7 +1249,13 @@
     "emd": "문래동2가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1983.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 영등포구 경인로77길 21"
   },
   {
     "code": "A10022428",
@@ -822,7 +1266,13 @@
     "emd": "문래동3가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1998.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "서울특별시 영등포구 문래로 94-7"
   },
   {
     "code": "A10024832",
@@ -833,7 +1283,13 @@
     "emd": "문래동3가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1999.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 영등포구 영신로25길 8"
   },
   {
     "code": "A10027023",
@@ -844,7 +1300,13 @@
     "emd": "문래동3가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1998.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 영등포구 도림로 456"
   },
   {
     "code": "A15076801",
@@ -855,7 +1317,13 @@
     "emd": "문래동3가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2006.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 영등포구 문래로 137"
   },
   {
     "code": "A15083404",
@@ -866,7 +1334,13 @@
     "emd": "문래동3가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2001.11",
+    "dongCnt": "18동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 영등포구 당산로4길 12"
   },
   {
     "code": "A15083601",
@@ -877,7 +1351,13 @@
     "emd": "문래동3가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1983.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 영등포구 도림로 464"
   },
   {
     "code": "A15083602",
@@ -888,7 +1368,13 @@
     "emd": "문래동3가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1988.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 영등포구 문래로20길 14"
   },
   {
     "code": "A15083603",
@@ -899,7 +1385,13 @@
     "emd": "문래동3가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2003.06",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 영등포구 문래로 82"
   },
   {
     "code": "A15009401",
@@ -910,7 +1402,13 @@
     "emd": "문래동4가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2008.05",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 영등포구 도림로145길 28"
   },
   {
     "code": "A15009402",
@@ -921,7 +1419,13 @@
     "emd": "문래동4가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2001.09",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 영등포구 도림로143길 30"
   },
   {
     "code": "A10026197",
@@ -932,7 +1436,13 @@
     "emd": "문래동5가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2017.11",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 18,
+    "addr": "서울특별시 영등포구 선유로9나길 5"
   },
   {
     "code": "A15009502",
@@ -943,7 +1453,13 @@
     "emd": "문래동5가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1991.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 영등포구 선유서로 6"
   },
   {
     "code": "A15009503",
@@ -954,7 +1470,13 @@
     "emd": "문래동5가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2000.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 영등포구 선유로 33"
   },
   {
     "code": "A15009504",
@@ -965,7 +1487,13 @@
     "emd": "문래동5가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1992.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 영등포구 선유서로9길 5"
   },
   {
     "code": "A15009505",
@@ -976,7 +1504,13 @@
     "emd": "문래동5가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1988.11",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 영등포구 선유로9나길 8"
   },
   {
     "code": "A10024495",
@@ -987,7 +1521,13 @@
     "emd": "문래동6가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2020.09",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 20,
+    "addr": "서울특별시 영등포구 선유서로 50"
   },
   {
     "code": "A10024925",
@@ -998,7 +1538,13 @@
     "emd": "문래동6가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2020.03",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 21,
+    "addr": "서울특별시 영등포구 선유로9길 30"
   },
   {
     "code": "A10027512",
@@ -1009,7 +1555,13 @@
     "emd": "문래동6가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1991.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 영등포구 문래동6가 11-1 문래유원아파트"
   },
   {
     "code": "A15009601",
@@ -1020,7 +1572,13 @@
     "emd": "문래동6가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1996.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 영등포구 문래로8길 5"
   },
   {
     "code": "A15009602",
@@ -1031,7 +1589,13 @@
     "emd": "문래동6가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1985.01",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 영등포구 선유서로 35"
   },
   {
     "code": "A15009603",
@@ -1042,7 +1606,13 @@
     "emd": "문래동6가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1998.10",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 영등포구 문래로4길 26"
   },
   {
     "code": "A15009604",
@@ -1053,7 +1623,13 @@
     "emd": "문래동6가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1986.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 영등포구 문래로4길 20"
   },
   {
     "code": "A15009605",
@@ -1064,7 +1640,13 @@
     "emd": "문래동6가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1997.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 영등포구 선유서로 31"
   },
   {
     "code": "A15009606",
@@ -1075,7 +1657,13 @@
     "emd": "문래동6가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1997.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 영등포구 선유서로 40"
   },
   {
     "code": "A15009607",
@@ -1086,7 +1674,13 @@
     "emd": "문래동6가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1987.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 영등포구 문래로4길 6"
   },
   {
     "code": "A10020127",
@@ -1097,7 +1691,13 @@
     "emd": "양평동1가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2026.03",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 35,
+    "addr": "서울특별시 영등포구 영등포로11길 19"
   },
   {
     "code": "A10024316",
@@ -1108,7 +1708,13 @@
     "emd": "양평동1가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2021.03",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 영등포구 선유서로24길 6"
   },
   {
     "code": "A15086201",
@@ -1119,7 +1725,13 @@
     "emd": "양평동1가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1996.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 영등포구 영등포로12길 7"
   },
   {
     "code": "A15086202",
@@ -1130,7 +1742,13 @@
     "emd": "양평동1가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1982.04",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 영등포구 영등포로12길 8"
   },
   {
     "code": "A10022708",
@@ -1141,7 +1759,13 @@
     "emd": "양평동2가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1996.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 영등포구 선유서로21길 30"
   },
   {
     "code": "A15010201",
@@ -1152,7 +1776,13 @@
     "emd": "양평동2가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1999.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 20,
+    "addr": "서울특별시 영등포구 영등포로 17"
   },
   {
     "code": "A15010202",
@@ -1163,7 +1793,13 @@
     "emd": "양평동2가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1998.07",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 영등포구 영등포로3길 9"
   },
   {
     "code": "A15010203",
@@ -1174,7 +1810,13 @@
     "emd": "양평동2가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1990.11",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 영등포구 선유서로21길 19"
   },
   {
     "code": "A10020758",
@@ -1185,7 +1827,13 @@
     "emd": "양평동3가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1991.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 영등포구 선유동2로 23"
   },
   {
     "code": "A10021291",
@@ -1196,7 +1844,13 @@
     "emd": "양평동3가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2005.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 영등포구 선유서로 116"
   },
   {
     "code": "A10026457",
@@ -1207,7 +1861,13 @@
     "emd": "양평동3가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2018.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 영등포구 양산로 11"
   },
   {
     "code": "A15010301",
@@ -1218,7 +1878,13 @@
     "emd": "양평동3가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2004.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 영등포구 선유로33길 23"
   },
   {
     "code": "A15010302",
@@ -1229,7 +1895,13 @@
     "emd": "양평동3가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1998.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 영등포구 선유로33길 22"
   },
   {
     "code": "A15010303",
@@ -1240,7 +1912,13 @@
     "emd": "양평동3가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2000.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 영등포구 선유서로 115"
   },
   {
     "code": "A15010304",
@@ -1251,7 +1929,13 @@
     "emd": "양평동3가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1998.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 영등포구 선유로 172"
   },
   {
     "code": "A15010305",
@@ -1262,7 +1946,13 @@
     "emd": "양평동3가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1990.08",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 영등포구 선유동2로 29"
   },
   {
     "code": "A15010306",
@@ -1273,7 +1963,13 @@
     "emd": "양평동3가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1999.05",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 영등포구 선유로43가길 24"
   },
   {
     "code": "A15010307",
@@ -1284,7 +1980,13 @@
     "emd": "양평동3가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2000.12",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 영등포구 선유로 207"
   },
   {
     "code": "A15086601",
@@ -1295,7 +1997,13 @@
     "emd": "양평동4가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2000.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 영등포구 양평로17길 9"
   },
   {
     "code": "A15086603",
@@ -1306,7 +2014,13 @@
     "emd": "양평동4가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1993.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 영등포구 양평로17길 36"
   },
   {
     "code": "A15086702",
@@ -1317,7 +2031,13 @@
     "emd": "양평동4가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2000.02",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 영등포구 선유로47길 34"
   },
   {
     "code": "A15010501",
@@ -1328,7 +2048,13 @@
     "emd": "양평동5가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1998.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 영등포구 양평로23길 18"
   },
   {
     "code": "A15010502",
@@ -1339,7 +2065,13 @@
     "emd": "양평동5가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1996.04",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 영등포구 양평로24길 9"
   },
   {
     "code": "A15010601",
@@ -1350,7 +2082,13 @@
     "emd": "양평동6가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1999.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 영등포구 양평로30길 51"
   },
   {
     "code": "A15010602",
@@ -1361,7 +2099,13 @@
     "emd": "양평동6가",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2000.08",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 영등포구 양평로30가길 15"
   },
   {
     "code": "A10021119",
@@ -1372,7 +2116,13 @@
     "emd": "신길동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2003.06",
+    "dongCnt": "101동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 영등포구 가마산로50길 27"
   },
   {
     "code": "A10021210",
@@ -1383,7 +2133,13 @@
     "emd": "신길동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2024.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 1,
+    "addr": "서울특별시 영등포구 신풍로 28"
   },
   {
     "code": "A10022430",
@@ -1394,7 +2150,13 @@
     "emd": "신길동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2024.07",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 24,
+    "addr": "서울특별시 영등포구 가마산로 483"
   },
   {
     "code": "A10022974",
@@ -1405,7 +2167,13 @@
     "emd": "신길동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2023.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 영등포구 영등포로62길 5"
   },
   {
     "code": "A10023715",
@@ -1416,7 +2184,13 @@
     "emd": "신길동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2022.11",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 32,
+    "addr": "서울특별시 영등포구 가마산로79길 37"
   },
   {
     "code": "A10024470",
@@ -1427,7 +2201,13 @@
     "emd": "신길동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2022.02",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 27,
+    "addr": "서울특별시 영등포구 신길로28길 25"
   },
   {
     "code": "A10024615",
@@ -1438,7 +2218,13 @@
     "emd": "신길동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2020.12",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 29,
+    "addr": "서울특별시 영등포구 신길로28길 9"
   },
   {
     "code": "A10025024",
@@ -1449,7 +2235,13 @@
     "emd": "신길동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2021.04",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 29,
+    "addr": "서울특별시 영등포구 신길로29길 17"
   },
   {
     "code": "A10025070",
@@ -1460,7 +2252,13 @@
     "emd": "신길동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2020.01",
+    "dongCnt": "18동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 29,
+    "addr": "서울특별시 영등포구 여의대방로35가길 19"
   },
   {
     "code": "A10025562",
@@ -1471,7 +2269,13 @@
     "emd": "신길동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2019.02",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 28,
+    "addr": "서울특별시 영등포구 가마산로 426"
   },
   {
     "code": "A10026182",
@@ -1482,7 +2286,13 @@
     "emd": "신길동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1981.06",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "서울특별시 영등포구 신길로23길 20"
   },
   {
     "code": "A10027073",
@@ -1493,7 +2303,13 @@
     "emd": "신길동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2017.04",
+    "dongCnt": "19동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 27,
+    "addr": "서울특별시 영등포구 신풍로 77"
   },
   {
     "code": "A10027755",
@@ -1504,7 +2320,13 @@
     "emd": "신길동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2015.12",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 25,
+    "addr": "서울특별시 영등포구 가마산로 442"
   },
   {
     "code": "A15005001",
@@ -1515,7 +2337,13 @@
     "emd": "신길동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1991.05",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 영등포구 영등포로64길 11"
   },
   {
     "code": "A15005002",
@@ -1526,7 +2354,13 @@
     "emd": "신길동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2013.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 영등포구 가마산로 468"
   },
   {
     "code": "A15005102",
@@ -1537,7 +2371,13 @@
     "emd": "신길동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2000.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 20,
+    "addr": "서울특별시 영등포구 신길로42가길 34"
   },
   {
     "code": "A15005301",
@@ -1548,7 +2388,13 @@
     "emd": "신길동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1993.10",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 영등포구 도신로 100"
   },
   {
     "code": "A15005302",
@@ -1559,7 +2405,13 @@
     "emd": "신길동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1985.09",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 영등포구 도림로 313"
   },
   {
     "code": "A15005303",
@@ -1570,7 +2422,13 @@
     "emd": "신길동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1986.09",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 영등포구 도신로 68"
   },
   {
     "code": "A15005401",
@@ -1581,7 +2439,13 @@
     "emd": "신길동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2001.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "서울특별시 영등포구 신길로42길 25"
   },
   {
     "code": "A15005402",
@@ -1592,7 +2456,13 @@
     "emd": "신길동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2001.06",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 영등포구 가마산로79길 7"
   },
   {
     "code": "A15005501",
@@ -1603,7 +2473,13 @@
     "emd": "신길동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2008.06",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 영등포구 신길로 119"
   },
   {
     "code": "A15005602",
@@ -1614,7 +2490,13 @@
     "emd": "신길동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1983.08",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 영등포구 신길동 4501 신길우창"
   },
   {
     "code": "A15005603",
@@ -1625,7 +2507,13 @@
     "emd": "신길동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1984.04",
+    "dongCnt": "2동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 영등포구 여의대방로 45"
   },
   {
     "code": "A15005705",
@@ -1636,7 +2524,13 @@
     "emd": "신길동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1997.05",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 영등포구 여의대방로43라길 9"
   },
   {
     "code": "A15083701",
@@ -1647,7 +2541,13 @@
     "emd": "신길동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1987.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "서울특별시 영등포구 여의대방로61길 19"
   },
   {
     "code": "A15083703",
@@ -1658,7 +2558,13 @@
     "emd": "신길동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1999.06",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 영등포구 영등포로 351"
   },
   {
     "code": "A15085404",
@@ -1669,7 +2575,13 @@
     "emd": "신길동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1997.07",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 영등포구 가마산로 575"
   },
   {
     "code": "A15086001",
@@ -1680,7 +2592,13 @@
     "emd": "신길동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2005.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 영등포구 여의대방로9길 5"
   },
   {
     "code": "A15086004",
@@ -1691,7 +2609,13 @@
     "emd": "신길동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1989.04",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 영등포구 대방천로14길 32"
   },
   {
     "code": "A15086006",
@@ -1702,7 +2626,13 @@
     "emd": "신길동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2005.08",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 영등포구 여의대방로 25"
   },
   {
     "code": "A15086007",
@@ -1713,7 +2643,13 @@
     "emd": "신길동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1986.09",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 영등포구 대방천로 180"
   },
   {
     "code": "A15096001",
@@ -1724,7 +2660,13 @@
     "emd": "신길동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2011.06",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 영등포구 가마산로79길 19"
   },
   {
     "code": "A10021177",
@@ -1735,7 +2677,13 @@
     "emd": "대림동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2001.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 영등포구 도림천로 391"
   },
   {
     "code": "A10021186",
@@ -1746,7 +2694,13 @@
     "emd": "대림동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1998.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 영등포구 디지털로69길 13"
   },
   {
     "code": "A10023516",
@@ -1757,7 +2711,13 @@
     "emd": "대림동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2022.11",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 영등포구 시흥대로 625"
   },
   {
     "code": "A10024725",
@@ -1768,7 +2728,13 @@
     "emd": "대림동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2020.07",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 21,
+    "addr": "서울특별시 영등포구 신길로 29"
   },
   {
     "code": "A10024829",
@@ -1779,7 +2745,13 @@
     "emd": "대림동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1992.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 영등포구 도림로47길 1"
   },
   {
     "code": "A10025122",
@@ -1790,7 +2762,13 @@
     "emd": "대림동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2018.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "서울특별시 영등포구 도림천로19길 11"
   },
   {
     "code": "A10026761",
@@ -1801,7 +2779,13 @@
     "emd": "대림동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2017.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "서울특별시 영등포구 시흥대로 595"
   },
   {
     "code": "A10027381",
@@ -1812,7 +2796,13 @@
     "emd": "대림동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2016.07",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 20,
+    "addr": "서울특별시 영등포구 디지털로 420"
   },
   {
     "code": "A10027935",
@@ -1823,7 +2813,13 @@
     "emd": "대림동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2013.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 영등포구 대림로29길 13"
   },
   {
     "code": "A15007002",
@@ -1834,7 +2830,13 @@
     "emd": "대림동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2008.09",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 영등포구 도림천로 431"
   },
   {
     "code": "A15007101",
@@ -1845,7 +2847,13 @@
     "emd": "대림동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2005.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 영등포구 대림로22길 29"
   },
   {
     "code": "A15007201",
@@ -1856,7 +2864,13 @@
     "emd": "대림동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2007.09",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 영등포구 시흥대로173길 13"
   },
   {
     "code": "A15081105",
@@ -1867,7 +2881,13 @@
     "emd": "대림동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1998.10",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 영등포구 도영로 2-5"
   },
   {
     "code": "A15081107",
@@ -1878,7 +2898,13 @@
     "emd": "대림동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1997.10",
+    "dongCnt": "7동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 30,
+    "addr": "서울특별시 영등포구 도신로 31"
   },
   {
     "code": "A15081201",
@@ -1889,7 +2915,13 @@
     "emd": "대림동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1995.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 영등포구 대림로 256"
   },
   {
     "code": "A15081503",
@@ -1900,7 +2932,13 @@
     "emd": "대림동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1985.11",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 영등포구 도림로 187"
   },
   {
     "code": "A15081602",
@@ -1911,7 +2949,13 @@
     "emd": "대림동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1992.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 영등포구 도신로4길 6"
   },
   {
     "code": "A15081604",
@@ -1922,7 +2966,13 @@
     "emd": "대림동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1992.04",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 영등포구 도신로4길 14"
   },
   {
     "code": "A15081606",
@@ -1933,7 +2983,13 @@
     "emd": "대림동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1987.01",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 영등포구 가마산로 312"
   },
   {
     "code": "A15081802",
@@ -1944,7 +3000,13 @@
     "emd": "대림동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1999.03",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 영등포구 디지털로69길 16"
   },
   {
     "code": "A15095001",
@@ -1955,7 +3017,13 @@
     "emd": "대림동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "1999.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 영등포구 시흥대로187길 12"
   },
   {
     "code": "A15095002",
@@ -1966,6 +3034,12 @@
     "emd": "대림동",
     "sigunguCode": "11560",
     "sido": "서울특별시",
-    "sigungu": "영등포구"
+    "sigungu": "영등포구",
+    "built": "2013.07",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 영등포구 도림로54길 14"
   }
 ]

@@ -8,7 +8,13 @@
     "emd": "학성동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2021.05",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 29,
+    "addr": "울산광역시 중구 구교로 59"
   },
   {
     "code": "A10025723",
@@ -19,7 +25,13 @@
     "emd": "학성동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2019.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "울산광역시 중구 학성로 218"
   },
   {
     "code": "A68172801",
@@ -30,7 +42,13 @@
     "emd": "학성동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "1991.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "울산광역시 중구 학성4길 61"
   },
   {
     "code": "A10020743",
@@ -41,7 +59,13 @@
     "emd": "학산동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2004.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "울산광역시 중구 장춘로 164"
   },
   {
     "code": "A10021667",
@@ -52,7 +76,13 @@
     "emd": "복산동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "1989.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 6,
+    "addr": "울산광역시 중구 손골2길 17-6"
   },
   {
     "code": "A10022270",
@@ -63,7 +93,13 @@
     "emd": "복산동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2024.01",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "울산광역시 중구 화합로 459"
   },
   {
     "code": "A10022294",
@@ -74,7 +110,13 @@
     "emd": "복산동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2023.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "울산광역시 중구 복산1길 1"
   },
   {
     "code": "A10022626",
@@ -85,7 +127,13 @@
     "emd": "복산동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "1991.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "울산광역시 중구 손골2길 5"
   },
   {
     "code": "A10022936",
@@ -96,7 +144,13 @@
     "emd": "복산동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2023.09",
+    "dongCnt": "5동",
+    "heat": "개별난방+기타",
+    "sale": "혼합",
+    "topFloor": 25,
+    "addr": "울산광역시 중구 복산1길 1"
   },
   {
     "code": "A10022976",
@@ -107,7 +161,13 @@
     "emd": "복산동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2023.09",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "울산광역시 중구 복산1길 1"
   },
   {
     "code": "A10022992",
@@ -118,7 +178,13 @@
     "emd": "복산동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2023.09",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "울산광역시 중구 복산1길 1"
   },
   {
     "code": "A10022994",
@@ -129,7 +195,13 @@
     "emd": "복산동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2023.09",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "울산광역시 중구 복산1길 1"
   },
   {
     "code": "A10024461",
@@ -140,7 +212,13 @@
     "emd": "복산동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2021.01",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "울산광역시 중구 도화골길 30"
   },
   {
     "code": "A10025400",
@@ -151,7 +229,13 @@
     "emd": "복산동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2018.11",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 11,
+    "addr": "울산광역시 중구 번영로 463"
   },
   {
     "code": "A10026959",
@@ -162,7 +246,13 @@
     "emd": "복산동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2017.06",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "울산광역시 중구 계변로 96"
   },
   {
     "code": "A10027526",
@@ -173,7 +263,13 @@
     "emd": "복산동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2016.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "울산광역시 중구 계변로 54"
   },
   {
     "code": "A10027840",
@@ -184,7 +280,13 @@
     "emd": "복산동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2015.11",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "울산광역시 중구 번영로 445"
   },
   {
     "code": "A10027843",
@@ -195,7 +297,13 @@
     "emd": "복산동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2015.11",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "울산광역시 중구 번영로 436"
   },
   {
     "code": "A68122001",
@@ -206,7 +314,13 @@
     "emd": "복산동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "1991.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "울산광역시 중구 손골9길 38"
   },
   {
     "code": "A68122002",
@@ -217,7 +331,13 @@
     "emd": "복산동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "1989.08",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "울산광역시 중구 북부순환도로 680"
   },
   {
     "code": "A68122003",
@@ -228,7 +348,13 @@
     "emd": "복산동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "1998.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "울산광역시 중구 푸름길 81"
   },
   {
     "code": "A68122005",
@@ -239,7 +365,13 @@
     "emd": "복산동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "1989.08",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "울산광역시 중구 도화골길 28"
   },
   {
     "code": "A68182501",
@@ -250,7 +382,13 @@
     "emd": "복산동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "1991.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "울산광역시 중구 손골5길 30"
   },
   {
     "code": "A68182502",
@@ -261,7 +399,13 @@
     "emd": "복산동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "1991.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "울산광역시 중구 손골2길 12"
   },
   {
     "code": "A68119001",
@@ -272,7 +416,13 @@
     "emd": "옥교동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2010.03",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 54,
+    "addr": "울산광역시 중구 강북로 123"
   },
   {
     "code": "A10022642",
@@ -283,7 +433,13 @@
     "emd": "성남동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2009.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 41,
+    "addr": "울산광역시 중구 강북로 105"
   },
   {
     "code": "A10020413",
@@ -295,7 +451,13 @@
     "sigunguCode": "31110",
     "sido": "울산광역시",
     "sigungu": "중구",
-    "hhldCnt": 312
+    "hhldCnt": 312,
+    "built": "2025.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 49,
+    "addr": "울산광역시 중구 당산2길 3"
   },
   {
     "code": "A10022947",
@@ -306,7 +468,13 @@
     "emd": "우정동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2023.10",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 49,
+    "addr": "울산광역시 중구 당산4길 12"
   },
   {
     "code": "A10025421",
@@ -317,7 +485,13 @@
     "emd": "우정동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2019.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "울산광역시 중구 당산2길 25"
   },
   {
     "code": "A68175101",
@@ -328,7 +502,13 @@
     "emd": "우정동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2010.03",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "울산광역시 중구 우정2길 45"
   },
   {
     "code": "A68175102",
@@ -339,7 +519,13 @@
     "emd": "우정동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2010.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 40,
+    "addr": "울산광역시 중구 학성로 11"
   },
   {
     "code": "A68181502",
@@ -350,7 +536,13 @@
     "emd": "우정동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2009.01",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 35,
+    "addr": "울산광역시 중구 학성로 1"
   },
   {
     "code": "A68181603",
@@ -361,7 +553,13 @@
     "emd": "우정동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "1994.07",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "울산광역시 중구 우정3길 9"
   },
   {
     "code": "A68181604",
@@ -372,7 +570,13 @@
     "emd": "우정동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "1997.07",
+    "dongCnt": "15동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "울산광역시 중구 유곡로 10"
   },
   {
     "code": "A68181701",
@@ -383,7 +587,13 @@
     "emd": "우정동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "1995.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "울산광역시 중구 평동길 26"
   },
   {
     "code": "A10020934",
@@ -394,7 +604,13 @@
     "emd": "성안동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2005.03",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "울산광역시 중구 함월로 46"
   },
   {
     "code": "A10022306",
@@ -405,7 +621,13 @@
     "emd": "성안동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2007.01",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "울산광역시 중구 함월로 75"
   },
   {
     "code": "A10026926",
@@ -416,7 +638,13 @@
     "emd": "성안동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2002.08",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 9,
+    "addr": "울산광역시 중구 함월11길 21-10"
   },
   {
     "code": "A68130002",
@@ -427,7 +655,13 @@
     "emd": "성안동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2001.06",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 9,
+    "addr": "울산광역시 중구 함월11길 10"
   },
   {
     "code": "A68130003",
@@ -438,7 +672,13 @@
     "emd": "성안동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "1998.11",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "울산광역시 중구 함월5길 35"
   },
   {
     "code": "A68130004",
@@ -449,7 +689,13 @@
     "emd": "성안동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "1996.08",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 8,
+    "addr": "울산광역시 중구 함월22길 25"
   },
   {
     "code": "A68130005",
@@ -460,7 +706,13 @@
     "emd": "성안동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2004.11",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "울산광역시 중구 함월22길 24"
   },
   {
     "code": "A68170301",
@@ -471,7 +723,13 @@
     "emd": "유곡동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2010.02",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "울산광역시 중구 평동3길 2"
   },
   {
     "code": "A68170302",
@@ -482,7 +740,13 @@
     "emd": "유곡동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2010.04",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "울산광역시 중구 평동3길 1"
   },
   {
     "code": "A68170303",
@@ -493,7 +757,13 @@
     "emd": "유곡동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2013.06",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "울산광역시 중구 유곡로 80"
   },
   {
     "code": "A68170304",
@@ -504,7 +774,13 @@
     "emd": "유곡동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2013.10",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "울산광역시 중구 종가5길 10"
   },
   {
     "code": "A68170305",
@@ -515,7 +791,13 @@
     "emd": "유곡동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2013.10",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "울산광역시 중구 종가로 250"
   },
   {
     "code": "A68170306",
@@ -526,7 +808,13 @@
     "emd": "유곡동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2014.06",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "울산광역시 중구 종가4길 10"
   },
   {
     "code": "A68170307",
@@ -537,7 +825,13 @@
     "emd": "유곡동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2014.07",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "울산광역시 중구 종가로 245"
   },
   {
     "code": "A10020760",
@@ -548,7 +842,13 @@
     "emd": "태화동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "1991.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "울산광역시 중구 신기12길 4"
   },
   {
     "code": "A10020761",
@@ -559,7 +859,13 @@
     "emd": "태화동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "1992.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "울산광역시 중구 신기13길 2"
   },
   {
     "code": "A68132012",
@@ -570,7 +876,13 @@
     "emd": "태화동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "1994.02",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "울산광역시 중구 신기12길 38"
   },
   {
     "code": "A68176401",
@@ -581,7 +893,13 @@
     "emd": "태화동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "1985.12",
+    "dongCnt": "3동",
+    "heat": "",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "울산광역시 중구 신기11길 8"
   },
   {
     "code": "A68176402",
@@ -592,7 +910,13 @@
     "emd": "태화동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2014.11",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "울산광역시 중구 종가로 140"
   },
   {
     "code": "A68176403",
@@ -603,7 +927,13 @@
     "emd": "태화동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2014.11",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 20,
+    "addr": "울산광역시 중구 유곡로 99"
   },
   {
     "code": "A68176404",
@@ -614,7 +944,13 @@
     "emd": "태화동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2014.11",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "울산광역시 중구 종가로 142"
   },
   {
     "code": "A68181803",
@@ -625,7 +961,13 @@
     "emd": "태화동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2007.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "울산광역시 중구 화진길 13-2"
   },
   {
     "code": "A68181804",
@@ -636,7 +978,13 @@
     "emd": "태화동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "1990.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "울산광역시 중구 유곡로 77"
   },
   {
     "code": "A68181805",
@@ -647,7 +995,13 @@
     "emd": "태화동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "1990.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "울산광역시 중구 신기11길 22"
   },
   {
     "code": "A68181806",
@@ -658,7 +1012,13 @@
     "emd": "태화동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "1990.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "울산광역시 중구 유곡로 55"
   },
   {
     "code": "A68181808",
@@ -669,7 +1029,13 @@
     "emd": "태화동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "1986.10",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "울산광역시 중구 신기11길 10-10"
   },
   {
     "code": "A68181907",
@@ -680,7 +1046,13 @@
     "emd": "태화동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "1990.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "울산광역시 중구 신기12길 70"
   },
   {
     "code": "A68181909",
@@ -691,7 +1063,13 @@
     "emd": "태화동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "1997.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "울산광역시 중구 신기14길 1"
   },
   {
     "code": "A68181911",
@@ -702,7 +1080,13 @@
     "emd": "태화동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "1991.10",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "울산광역시 중구 신기길 31"
   },
   {
     "code": "A10020380",
@@ -713,7 +1097,13 @@
     "emd": "다운동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2025.10",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 25,
+    "addr": "울산광역시 중구 다전로 247"
   },
   {
     "code": "A10020399",
@@ -724,7 +1114,13 @@
     "emd": "다운동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2025.10",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 22,
+    "addr": "울산광역시 중구 다전로 277"
   },
   {
     "code": "A68134004",
@@ -735,7 +1131,13 @@
     "emd": "다운동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2002.03",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "울산광역시 중구 다운로 175"
   },
   {
     "code": "A68180203",
@@ -746,7 +1148,13 @@
     "emd": "다운동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "1992.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "사택 및 관사 등",
+    "topFloor": 15,
+    "addr": "울산광역시 중구 다운6길 16"
   },
   {
     "code": "A68180205",
@@ -757,7 +1165,13 @@
     "emd": "다운동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "1992.07",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "울산광역시 중구 다운6길 16"
   },
   {
     "code": "A68180301",
@@ -768,7 +1182,13 @@
     "emd": "다운동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "1999.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "울산광역시 중구 운곡3길 23"
   },
   {
     "code": "A68180302",
@@ -779,7 +1199,13 @@
     "emd": "다운동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "1997.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "울산광역시 중구 운곡3길 24"
   },
   {
     "code": "A10027774",
@@ -790,7 +1216,13 @@
     "emd": "서동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2015.09",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 11,
+    "addr": "울산광역시 중구 종가로 668-10"
   },
   {
     "code": "A68129001",
@@ -801,7 +1233,13 @@
     "emd": "서동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "1996.03",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "울산광역시 중구 동천4길 31"
   },
   {
     "code": "A68129002",
@@ -812,7 +1250,13 @@
     "emd": "서동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "1992.08",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "울산광역시 중구 동천1길 31"
   },
   {
     "code": "A68129003",
@@ -823,7 +1267,13 @@
     "emd": "서동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2014.06",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 10,
+    "addr": "울산광역시 중구 종가로 668-9"
   },
   {
     "code": "A68127002",
@@ -834,7 +1284,13 @@
     "emd": "남외동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2007.07",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "울산광역시 중구 남외로 60"
   },
   {
     "code": "A68127004",
@@ -845,7 +1301,13 @@
     "emd": "남외동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2006.01",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "울산광역시 중구 남외3길 33"
   },
   {
     "code": "A68171601",
@@ -856,7 +1318,13 @@
     "emd": "남외동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2010.03",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "울산광역시 중구 남외1길 20"
   },
   {
     "code": "A68172105",
@@ -867,7 +1335,13 @@
     "emd": "남외동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2007.07",
+    "dongCnt": "16동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "울산광역시 중구 남외1길 105"
   },
   {
     "code": "A68180003",
@@ -878,7 +1352,13 @@
     "emd": "남외동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "1997.11",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "울산광역시 중구 남외로 88"
   },
   {
     "code": "A68142001",
@@ -889,7 +1369,13 @@
     "emd": "장현동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2013.10",
+    "dongCnt": "15동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "울산광역시 중구 종가로 730"
   },
   {
     "code": "A68142002",
@@ -900,7 +1386,13 @@
     "emd": "장현동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2014.04",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 13,
+    "addr": "울산광역시 중구 종가로 760"
   },
   {
     "code": "A10027142",
@@ -911,7 +1403,13 @@
     "emd": "약사동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2017.02",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 11,
+    "addr": "울산광역시 중구 약사로 20"
   },
   {
     "code": "A10027746",
@@ -922,7 +1420,13 @@
     "emd": "약사동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2015.09",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "울산광역시 중구 평산로 50"
   },
   {
     "code": "A68143001",
@@ -933,7 +1437,13 @@
     "emd": "약사동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2001.12",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "울산광역시 중구 약사로 10"
   },
   {
     "code": "A68143002",
@@ -944,7 +1454,13 @@
     "emd": "약사동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2004.07",
+    "dongCnt": "20동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "울산광역시 중구 약사로 25"
   },
   {
     "code": "A10020849",
@@ -955,7 +1471,13 @@
     "emd": "반구동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "1991.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "울산광역시 중구 반구로 58"
   },
   {
     "code": "A10026818",
@@ -966,7 +1488,13 @@
     "emd": "반구동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2017.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "울산광역시 중구 화합로 379"
   },
   {
     "code": "A10028075",
@@ -977,7 +1505,13 @@
     "emd": "반구동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2015.03",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "울산광역시 중구 반구로 55"
   },
   {
     "code": "A68126001",
@@ -988,7 +1522,13 @@
     "emd": "반구동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2005.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "울산광역시 중구 염포로 26"
   },
   {
     "code": "A68126003",
@@ -999,7 +1539,13 @@
     "emd": "반구동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "1993.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "울산광역시 중구 반구정9길 20"
   },
   {
     "code": "A68126004",
@@ -1010,7 +1556,13 @@
     "emd": "반구동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "1994.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "울산광역시 중구 반구정9길 10"
   },
   {
     "code": "A68171301",
@@ -1021,7 +1573,13 @@
     "emd": "반구동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2014.10",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "울산광역시 중구 반구정15길 8"
   },
   {
     "code": "A68180401",
@@ -1032,6 +1590,12 @@
     "emd": "반구동",
     "sigunguCode": "31110",
     "sido": "울산광역시",
-    "sigungu": "중구"
+    "sigungu": "중구",
+    "built": "2006.05",
+    "dongCnt": "2동",
+    "heat": "",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "울산광역시 중구 화합로 404"
   }
 ]

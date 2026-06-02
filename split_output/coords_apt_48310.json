@@ -8,7 +8,13 @@
     "emd": "능포동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2005.04",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 능포로4길 23"
   },
   {
     "code": "A65675001",
@@ -19,7 +25,13 @@
     "emd": "능포동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1980.03",
+    "dongCnt": "17동",
+    "heat": "개별난방",
+    "sale": "사택 및 관사 등",
+    "topFloor": 5,
+    "addr": "경상남도 거제시 능포로 199"
   },
   {
     "code": "A65677003",
@@ -30,7 +42,13 @@
     "emd": "능포동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1999.02",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 능포로2길 38"
   },
   {
     "code": "A65690001",
@@ -41,7 +59,13 @@
     "emd": "능포동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1993.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "경상남도 거제시 옥수로8길 31"
   },
   {
     "code": "A65690102",
@@ -52,7 +76,13 @@
     "emd": "능포동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2006.09",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 능포로2길 62"
   },
   {
     "code": "A10020274",
@@ -63,7 +93,13 @@
     "emd": "장승포동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2025.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 47,
+    "addr": "경상남도 거제시 능포로 40"
   },
   {
     "code": "A65691001",
@@ -74,7 +110,13 @@
     "emd": "장승포동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1997.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경상남도 거제시 마전5길 8-2"
   },
   {
     "code": "A65691002",
@@ -85,7 +127,13 @@
     "emd": "장승포동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1998.06",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경상남도 거제시 장승로 26"
   },
   {
     "code": "A10021863",
@@ -96,7 +144,13 @@
     "emd": "아주동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2013.05",
+    "dongCnt": "2동",
+    "heat": "",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경상남도 거제시 아주로 116-15"
   },
   {
     "code": "A10026374",
@@ -107,7 +161,13 @@
     "emd": "아주동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2018.08",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "경상남도 거제시 아주2로2길 10"
   },
   {
     "code": "A10027063",
@@ -118,7 +178,13 @@
     "emd": "아주동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2017.02",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 거제시 용소1길 17-10"
   },
   {
     "code": "A10028016",
@@ -129,7 +195,13 @@
     "emd": "아주동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2015.09",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 18,
+    "addr": "경상남도 거제시 아주2로 110"
   },
   {
     "code": "A10028106",
@@ -140,7 +212,13 @@
     "emd": "아주동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2015.01",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경상남도 거제시 용소1길 17-7"
   },
   {
     "code": "A10028153",
@@ -151,7 +229,13 @@
     "emd": "아주동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2015.01",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 거제시 용소1길 17-17"
   },
   {
     "code": "A65613002",
@@ -162,7 +246,13 @@
     "emd": "아주동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2014.09",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경상남도 거제시 아주로 63"
   },
   {
     "code": "A65622001",
@@ -173,7 +263,13 @@
     "emd": "아주동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1997.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 용소4길 5"
   },
   {
     "code": "A65671401",
@@ -184,7 +280,13 @@
     "emd": "아주동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2010.01",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 아주2로4길 10"
   },
   {
     "code": "A65671402",
@@ -195,7 +297,13 @@
     "emd": "아주동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2012.12",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 아주로 100-10"
   },
   {
     "code": "A65671403",
@@ -206,7 +314,13 @@
     "emd": "아주동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2013.11",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 아주로 116-7"
   },
   {
     "code": "A65671404",
@@ -217,7 +331,13 @@
     "emd": "아주동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2013.11",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 아주로 100-11"
   },
   {
     "code": "A65671405",
@@ -228,7 +348,13 @@
     "emd": "아주동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2014.09",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경상남도 거제시 아주2로 138"
   },
   {
     "code": "A65671406",
@@ -239,7 +365,13 @@
     "emd": "아주동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2014.10",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경상남도 거제시 아주2로 137"
   },
   {
     "code": "A65690202",
@@ -250,7 +382,13 @@
     "emd": "아주동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1993.02",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "경상남도 거제시 탑곡로 80"
   },
   {
     "code": "A65690203",
@@ -261,7 +399,13 @@
     "emd": "아주동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2001.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 탑곡로2길 17"
   },
   {
     "code": "A65690304",
@@ -272,7 +416,13 @@
     "emd": "아주동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2005.12",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 아주로 73"
   },
   {
     "code": "A65690305",
@@ -283,7 +433,13 @@
     "emd": "아주동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2008.07",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 용소1길 85"
   },
   {
     "code": "A65690306",
@@ -294,7 +450,13 @@
     "emd": "아주동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2005.02",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 용소7길 20"
   },
   {
     "code": "A10021083",
@@ -305,7 +467,13 @@
     "emd": "옥포동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1991.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 옥포대첩로 1"
   },
   {
     "code": "A10021212",
@@ -316,7 +484,13 @@
     "emd": "옥포동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1993.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "경상남도 거제시 옥포로 269"
   },
   {
     "code": "A10021230",
@@ -327,7 +501,13 @@
     "emd": "옥포동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1990.12",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "경상남도 거제시 옥포로 260"
   },
   {
     "code": "A10021252",
@@ -338,7 +518,13 @@
     "emd": "옥포동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1994.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "경상남도 거제시 옥포로5길 26"
   },
   {
     "code": "A10021365",
@@ -349,7 +535,13 @@
     "emd": "옥포동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1990.05",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "경상남도 거제시 옥포로 293-1"
   },
   {
     "code": "A10021378",
@@ -360,7 +552,13 @@
     "emd": "옥포동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1992.01",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "경상남도 거제시 성산로 20"
   },
   {
     "code": "A10021435",
@@ -371,7 +569,13 @@
     "emd": "옥포동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1992.09",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "경상남도 거제시 옥포로 315-2"
   },
   {
     "code": "A10021540",
@@ -382,7 +586,13 @@
     "emd": "옥포동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1987.01",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "경상남도 거제시 진목1길 6"
   },
   {
     "code": "A10021775",
@@ -393,7 +603,13 @@
     "emd": "옥포동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1998.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 옥포대첩로 88"
   },
   {
     "code": "A10022832",
@@ -404,7 +620,13 @@
     "emd": "옥포동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2023.12",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 거제시 서간도길 17"
   },
   {
     "code": "A10026752",
@@ -415,7 +637,13 @@
     "emd": "옥포동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2017.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 거제시 국산로 191"
   },
   {
     "code": "A10027269",
@@ -426,7 +654,13 @@
     "emd": "옥포동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2016.08",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 거제시 성산로 33"
   },
   {
     "code": "A10028003",
@@ -437,7 +671,13 @@
     "emd": "옥포동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2015.01",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "경상남도 거제시 서간도길 9-9"
   },
   {
     "code": "A65613001",
@@ -448,7 +688,13 @@
     "emd": "옥포동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2007.06",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 옥포대첩로 115"
   },
   {
     "code": "A65670201",
@@ -459,7 +705,13 @@
     "emd": "옥포동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1999.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "경상남도 거제시 옥포대첩로 85"
   },
   {
     "code": "A65675508",
@@ -470,7 +722,13 @@
     "emd": "옥포동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1989.11",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "경상남도 거제시 옥포로 298"
   },
   {
     "code": "A65675709",
@@ -481,7 +739,13 @@
     "emd": "옥포동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1990.12",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "경상남도 거제시 옥포로 305"
   },
   {
     "code": "A65675812",
@@ -492,7 +756,13 @@
     "emd": "옥포동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1996.07",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 거제시 옥포로 315"
   },
   {
     "code": "A65676010",
@@ -503,7 +773,13 @@
     "emd": "옥포동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1994.11",
+    "dongCnt": "17동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "경상남도 거제시 성산로 54"
   },
   {
     "code": "A65690402",
@@ -514,7 +790,13 @@
     "emd": "옥포동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2006.11",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "경상남도 거제시 거제대로 3696"
   },
   {
     "code": "A65690501",
@@ -525,7 +807,13 @@
     "emd": "옥포동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1994.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "경상남도 거제시 거제대로 3697-19"
   },
   {
     "code": "A65690503",
@@ -536,7 +824,13 @@
     "emd": "옥포동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1994.09",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 거제대로 3697-25"
   },
   {
     "code": "A65690701",
@@ -547,7 +841,13 @@
     "emd": "옥포동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1996.03",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 성산로4길 15"
   },
   {
     "code": "A65690703",
@@ -558,7 +858,13 @@
     "emd": "옥포동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1998.04",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 옥포중앙로 125"
   },
   {
     "code": "A65690802",
@@ -569,7 +875,13 @@
     "emd": "옥포동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1992.01",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 거제대로 3801"
   },
   {
     "code": "A65690804",
@@ -580,7 +892,13 @@
     "emd": "옥포동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2001.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 옥포로 365"
   },
   {
     "code": "A65690805",
@@ -591,7 +909,13 @@
     "emd": "옥포동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1994.01",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 진목2길 82"
   },
   {
     "code": "A65690806",
@@ -602,7 +926,13 @@
     "emd": "옥포동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1993.07",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 진목로 19"
   },
   {
     "code": "A65690807",
@@ -613,7 +943,13 @@
     "emd": "옥포동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1992.07",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 옥포로 280"
   },
   {
     "code": "A10026943",
@@ -624,7 +960,13 @@
     "emd": "덕포동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2017.05",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 거제시 성산로 169"
   },
   {
     "code": "A10024386",
@@ -635,7 +977,13 @@
     "emd": "장평동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2021.02",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 거제시 장평3로 42"
   },
   {
     "code": "A10027045",
@@ -646,7 +994,13 @@
     "emd": "장평동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2017.03",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 49,
+    "addr": "경상남도 거제시 장평1로 7"
   },
   {
     "code": "A65677202",
@@ -657,7 +1011,13 @@
     "emd": "장평동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1992.03",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "경상남도 거제시 장평1로 143"
   },
   {
     "code": "A65679003",
@@ -668,7 +1028,13 @@
     "emd": "장평동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1995.10",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "경상남도 거제시 장평로6길 30"
   },
   {
     "code": "A65691801",
@@ -679,7 +1045,13 @@
     "emd": "장평동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2000.05",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 장평3로3길 7"
   },
   {
     "code": "A65691802",
@@ -690,7 +1062,13 @@
     "emd": "장평동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2006.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 장평1로16길 65"
   },
   {
     "code": "A65691803",
@@ -701,7 +1079,13 @@
     "emd": "장평동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2003.08",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 거제대로 4951"
   },
   {
     "code": "A65691804",
@@ -712,7 +1096,13 @@
     "emd": "장평동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1996.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "경상남도 거제시 장평3로3길 41"
   },
   {
     "code": "A65691805",
@@ -723,7 +1113,13 @@
     "emd": "장평동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2008.02",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 장평3로3길 25"
   },
   {
     "code": "A65691807",
@@ -734,7 +1130,13 @@
     "emd": "장평동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1994.03",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "경상남도 거제시 장평로6길 7"
   },
   {
     "code": "A65691808",
@@ -745,7 +1147,13 @@
     "emd": "장평동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1994.12",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 장평로6길 20"
   },
   {
     "code": "A65691809",
@@ -756,7 +1164,13 @@
     "emd": "장평동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2004.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 장평1로 180"
   },
   {
     "code": "A65691810",
@@ -767,7 +1181,13 @@
     "emd": "장평동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1993.05",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "경상남도 거제시 장평로6길 23"
   },
   {
     "code": "A65691811",
@@ -778,7 +1198,13 @@
     "emd": "장평동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2008.06",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 장평2로 36"
   },
   {
     "code": "A65691812",
@@ -789,7 +1215,13 @@
     "emd": "장평동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2008.02",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 장평2로2길 10"
   },
   {
     "code": "A65691813",
@@ -800,7 +1232,13 @@
     "emd": "장평동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2008.02",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 장평2로 19"
   },
   {
     "code": "A65691814",
@@ -811,7 +1249,13 @@
     "emd": "장평동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2009.05",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 장평1로 86"
   },
   {
     "code": "A10021610",
@@ -822,7 +1266,13 @@
     "emd": "고현동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2005.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "경상남도 거제시 중곡2로 107"
   },
   {
     "code": "A10021662",
@@ -833,7 +1283,13 @@
     "emd": "고현동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1991.06",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "경상남도 거제시 서문로3길 8"
   },
   {
     "code": "A10021663",
@@ -844,7 +1300,13 @@
     "emd": "고현동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1991.07",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "경상남도 거제시 서문로3길 7"
   },
   {
     "code": "A10021664",
@@ -855,7 +1317,13 @@
     "emd": "고현동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1991.08",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "경상남도 거제시 서문로3길 13"
   },
   {
     "code": "A10021887",
@@ -866,7 +1334,13 @@
     "emd": "고현동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2012.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "경상남도 거제시 거제중앙로 1930-10"
   },
   {
     "code": "A10022909",
@@ -877,7 +1351,13 @@
     "emd": "고현동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2023.11",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 34,
+    "addr": "경상남도 거제시 고현항2로 51"
   },
   {
     "code": "A10023748",
@@ -888,7 +1368,13 @@
     "emd": "고현동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2022.06",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 34,
+    "addr": "경상남도 거제시 고현항2로 52"
   },
   {
     "code": "A10028180",
@@ -899,7 +1385,13 @@
     "emd": "고현동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2015.05",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "경상남도 거제시 고현로 138-37"
   },
   {
     "code": "A65672001",
@@ -910,7 +1402,13 @@
     "emd": "고현동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2002.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 중곡로5길 11"
   },
   {
     "code": "A65672002",
@@ -921,7 +1419,13 @@
     "emd": "고현동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2007.04",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 서문로 30"
   },
   {
     "code": "A65672003",
@@ -932,7 +1436,13 @@
     "emd": "고현동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1998.01",
+    "dongCnt": "19동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 중곡로 42"
   },
   {
     "code": "A65672004",
@@ -943,7 +1453,13 @@
     "emd": "고현동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2002.04",
+    "dongCnt": "17동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 중곡2로 89"
   },
   {
     "code": "A65672005",
@@ -954,7 +1470,13 @@
     "emd": "고현동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1993.05",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 중곡로 14"
   },
   {
     "code": "A65672007",
@@ -965,7 +1487,13 @@
     "emd": "고현동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1990.12",
+    "dongCnt": "1동",
+    "heat": "",
+    "sale": "",
+    "topFloor": 1,
+    "addr": "경상남도 거제시 서문로6길 6"
   },
   {
     "code": "A65672008",
@@ -976,7 +1504,13 @@
     "emd": "고현동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2015.02",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 거제시 거제대로 4500-45"
   },
   {
     "code": "A65676205",
@@ -987,7 +1521,13 @@
     "emd": "고현동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1993.02",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 중곡로2길 29"
   },
   {
     "code": "A65676207",
@@ -998,7 +1538,13 @@
     "emd": "고현동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1996.07",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 중곡로2길 25"
   },
   {
     "code": "A65676209",
@@ -1009,7 +1555,13 @@
     "emd": "고현동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1997.04",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 중곡로2길 22"
   },
   {
     "code": "A65678606",
@@ -1020,7 +1572,13 @@
     "emd": "고현동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2004.10",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 중곡로2길 56"
   },
   {
     "code": "A65680301",
@@ -1031,7 +1589,13 @@
     "emd": "고현동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1994.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 고현로13길 12"
   },
   {
     "code": "A65680302",
@@ -1042,7 +1606,13 @@
     "emd": "고현동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1996.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 중곡2로4길 5-3"
   },
   {
     "code": "A65680303",
@@ -1053,7 +1623,13 @@
     "emd": "고현동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1991.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 서문로1길 20"
   },
   {
     "code": "A65680602",
@@ -1064,7 +1640,13 @@
     "emd": "고현동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1997.12",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 중곡로2길 12"
   },
   {
     "code": "A10021872",
@@ -1075,7 +1657,13 @@
     "emd": "상동동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2017.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "경상남도 거제시 거제중앙로 1772"
   },
   {
     "code": "A10022784",
@@ -1086,7 +1674,13 @@
     "emd": "상동동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2024.01",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 거제시 상동5길 46"
   },
   {
     "code": "A10026303",
@@ -1097,7 +1691,13 @@
     "emd": "상동동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2018.04",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 거제시 상동3길 15"
   },
   {
     "code": "A10026544",
@@ -1108,7 +1708,13 @@
     "emd": "상동동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2018.01",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 거제시 상동5길 117-55"
   },
   {
     "code": "A10026709",
@@ -1119,7 +1725,13 @@
     "emd": "상동동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2017.10",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 거제시 상동5길 100"
   },
   {
     "code": "A10028061",
@@ -1130,7 +1742,13 @@
     "emd": "상동동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2015.03",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 거제시 상동5길 117-50"
   },
   {
     "code": "A10028141",
@@ -1141,7 +1759,13 @@
     "emd": "상동동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2015.02",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 거제시 상동5길 117-16"
   },
   {
     "code": "A65677701",
@@ -1152,7 +1776,13 @@
     "emd": "상동동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2005.07",
+    "dongCnt": "24동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 상동7길 30"
   },
   {
     "code": "A65677702",
@@ -1163,7 +1793,13 @@
     "emd": "상동동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2003.03",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "경상남도 거제시 거제중앙로 1581"
   },
   {
     "code": "A65677703",
@@ -1174,7 +1810,13 @@
     "emd": "상동동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2001.07",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 상동1길 31"
   },
   {
     "code": "A65677704",
@@ -1185,7 +1827,13 @@
     "emd": "상동동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2000.11",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 거제중앙로3길 15"
   },
   {
     "code": "A65677705",
@@ -1196,7 +1844,13 @@
     "emd": "상동동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2004.11",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 상동1길 15-9"
   },
   {
     "code": "A65677706",
@@ -1207,7 +1861,13 @@
     "emd": "상동동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2008.04",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 상동1길 39"
   },
   {
     "code": "A65677708",
@@ -1218,7 +1878,13 @@
     "emd": "상동동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2013.12",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 거제시 상동5길 75-40"
   },
   {
     "code": "A10026476",
@@ -1229,7 +1895,13 @@
     "emd": "문동동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2018.01",
+    "dongCnt": "15동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 거제시 문동1길 42"
   },
   {
     "code": "A65691601",
@@ -1240,7 +1912,13 @@
     "emd": "문동동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2008.08",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 거제중앙로 1515"
   },
   {
     "code": "A65691602",
@@ -1251,7 +1929,13 @@
     "emd": "문동동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2002.02",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 거제중앙로 1509-22"
   },
   {
     "code": "A65691603",
@@ -1262,7 +1946,13 @@
     "emd": "문동동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2004.04",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 거제중앙로 1509-13"
   },
   {
     "code": "A10021598",
@@ -1273,7 +1963,13 @@
     "emd": "양정동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2003.12",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "경상남도 거제시 거제대로 4601"
   },
   {
     "code": "A10025248",
@@ -1284,7 +1980,13 @@
     "emd": "양정동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2019.10",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "경상남도 거제시 수양로 104"
   },
   {
     "code": "A10025289",
@@ -1295,7 +1997,13 @@
     "emd": "양정동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2018.07",
+    "dongCnt": "16동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 거제시 수양로 110"
   },
   {
     "code": "A10026962",
@@ -1306,7 +2014,13 @@
     "emd": "양정동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2017.03",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 거제시 양정5길 36"
   },
   {
     "code": "A65680601",
@@ -1317,7 +2031,13 @@
     "emd": "양정동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2005.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 수양로 487"
   },
   {
     "code": "A65680603",
@@ -1328,7 +2048,13 @@
     "emd": "양정동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2007.03",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 제산로 2-5"
   },
   {
     "code": "A65680604",
@@ -1339,7 +2065,13 @@
     "emd": "양정동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2009.03",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 거제시 제산로 86"
   },
   {
     "code": "A65691401",
@@ -1350,7 +2082,13 @@
     "emd": "양정동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2012.04",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 거제시 제산로 51"
   },
   {
     "code": "A10021521",
@@ -1361,7 +2099,13 @@
     "emd": "수월동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2003.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 해명로6길 19"
   },
   {
     "code": "A10027697",
@@ -1372,7 +2116,13 @@
     "emd": "수월동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2015.09",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경상남도 거제시 해명로4길 8"
   },
   {
     "code": "A65630301",
@@ -1383,7 +2133,13 @@
     "emd": "수월동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2008.02",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 수양로 435"
   },
   {
     "code": "A65630302",
@@ -1394,7 +2150,13 @@
     "emd": "수월동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1998.01",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "경상남도 거제시 해명로6길 11"
   },
   {
     "code": "A65630303",
@@ -1405,7 +2167,13 @@
     "emd": "수월동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2008.12",
+    "dongCnt": "15동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 거제시 해명로 52"
   },
   {
     "code": "A65630304",
@@ -1416,7 +2184,13 @@
     "emd": "수월동",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2010.10",
+    "dongCnt": "2동",
+    "heat": "개별난방+기타",
+    "sale": "사택 및 관사 등",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 해명로 3-8"
   },
   {
     "code": "A10021831",
@@ -1427,7 +2201,13 @@
     "emd": "일운면",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1992.01",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "경상남도 거제시 거제대로 2454-6"
   },
   {
     "code": "A10025959",
@@ -1438,7 +2218,13 @@
     "emd": "일운면",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2018.11",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "경상남도 거제시 지세포1길 27"
   },
   {
     "code": "A10025163",
@@ -1449,7 +2235,13 @@
     "emd": "일운면",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2019.11",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 거제시 소동8길 11"
   },
   {
     "code": "A65689101",
@@ -1460,7 +2252,13 @@
     "emd": "일운면",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2000.10",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 반송재로 481-9"
   },
   {
     "code": "A65689201",
@@ -1471,7 +2269,13 @@
     "emd": "일운면",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2009.06",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 14,
+    "addr": "경상남도 거제시 거제대로 2591"
   },
   {
     "code": "A10026725",
@@ -1482,7 +2286,13 @@
     "emd": "거제면",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2017.09",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 거제시 두동로 259-90"
   },
   {
     "code": "A10027603",
@@ -1493,7 +2303,13 @@
     "emd": "사등면",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2017.01",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "경상남도 거제시 두동로 30"
   },
   {
     "code": "A65688102",
@@ -1504,7 +2320,13 @@
     "emd": "사등면",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2013.11",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 거제시 두동로 54-40"
   },
   {
     "code": "A65688103",
@@ -1515,7 +2337,13 @@
     "emd": "사등면",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2014.06",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 거제시 두동로 54-42"
   },
   {
     "code": "A65688201",
@@ -1526,7 +2354,13 @@
     "emd": "사등면",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1996.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "경상남도 거제시 사곡1길 10"
   },
   {
     "code": "A65688101",
@@ -1537,7 +2371,13 @@
     "emd": "사등면",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2011.01",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 지석2길 47"
   },
   {
     "code": "A10023130",
@@ -1548,7 +2388,13 @@
     "emd": "연초면",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2024.05",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 20,
+    "addr": "경상남도 거제시 연하해안로 740-28"
   },
   {
     "code": "A65677602",
@@ -1559,7 +2405,13 @@
     "emd": "연초면",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "1997.12",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 거제시 연하해안로 419"
   },
   {
     "code": "A10026332",
@@ -1570,7 +2422,13 @@
     "emd": "연초면",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2018.05",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "경상남도 거제시 거제북로 57"
   },
   {
     "code": "A65681201",
@@ -1581,7 +2439,13 @@
     "emd": "연초면",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2006.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 거제시 죽토로 2"
   },
   {
     "code": "A10020388",
@@ -1593,7 +2457,13 @@
     "sigunguCode": "48310",
     "sido": "경상남도",
     "sigungu": "거제시",
-    "hhldCnt": 824
+    "hhldCnt": 824,
+    "built": "2025.09",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 29,
+    "addr": "경상남도 거제시 국산로 21-16"
   },
   {
     "code": "A10027797",
@@ -1604,6 +2474,12 @@
     "emd": "하청면",
     "sigunguCode": "48310",
     "sido": "경상남도",
-    "sigungu": "거제시"
+    "sigungu": "거제시",
+    "built": "2015.09",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 10,
+    "addr": "경상남도 거제시 거제북로 554"
   }
 ]

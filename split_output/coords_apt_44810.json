@@ -9,7 +9,13 @@
     "sigunguCode": "44810",
     "sido": "충청남도",
     "sigungu": "예산군",
-    "hhldCnt": 108
+    "hhldCnt": 108,
+    "built": "2001.06",
+    "dongCnt": "",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": "",
+    "addr": "충청남도 예산군 아리랑로144번길 8"
   },
   {
     "code": "A10024011",
@@ -20,7 +26,13 @@
     "emd": "예산읍",
     "sigunguCode": "44810",
     "sido": "충청남도",
-    "sigungu": "예산군"
+    "sigungu": "예산군",
+    "built": "2021.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 9,
+    "addr": "충청남도 예산군 사직로 31"
   },
   {
     "code": "A10026812",
@@ -31,7 +43,13 @@
     "emd": "예산읍",
     "sigunguCode": "44810",
     "sido": "충청남도",
-    "sigungu": "예산군"
+    "sigungu": "예산군",
+    "built": "2017.08",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "충청남도 예산군 군청로3길 16"
   },
   {
     "code": "A34080403",
@@ -42,7 +60,13 @@
     "emd": "예산읍",
     "sigunguCode": "44810",
     "sido": "충청남도",
-    "sigungu": "예산군"
+    "sigungu": "예산군",
+    "built": "2002.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "충청남도 예산군 예산로 118-8"
   },
   {
     "code": "A34080709",
@@ -53,7 +77,13 @@
     "emd": "예산읍",
     "sigunguCode": "44810",
     "sido": "충청남도",
-    "sigungu": "예산군"
+    "sigungu": "예산군",
+    "built": "1993.06",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 예산군 아리랑로144번길 19"
   },
   {
     "code": "A10022838",
@@ -64,7 +94,13 @@
     "emd": "예산읍",
     "sigunguCode": "44810",
     "sido": "충청남도",
-    "sigungu": "예산군"
+    "sigungu": "예산군",
+    "built": "2023.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 10,
+    "addr": "충청남도 예산군 산성길 10"
   },
   {
     "code": "A34080815",
@@ -75,7 +111,13 @@
     "emd": "예산읍",
     "sigunguCode": "44810",
     "sido": "충청남도",
-    "sigungu": "예산군"
+    "sigungu": "예산군",
+    "built": "1997.10",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "충청남도 예산군 아리랑로 43"
   },
   {
     "code": "A10028162",
@@ -86,7 +128,13 @@
     "emd": "예산읍",
     "sigunguCode": "44810",
     "sido": "충청남도",
-    "sigungu": "예산군"
+    "sigungu": "예산군",
+    "built": "2015.02",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "충청남도 예산군 벚꽃로 182"
   },
   {
     "code": "A34080301",
@@ -97,7 +145,13 @@
     "emd": "예산읍",
     "sigunguCode": "44810",
     "sido": "충청남도",
-    "sigungu": "예산군"
+    "sigungu": "예산군",
+    "built": "1998.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 예산군 역전로126번길 24-10"
   },
   {
     "code": "A34080305",
@@ -108,7 +162,13 @@
     "emd": "예산읍",
     "sigunguCode": "44810",
     "sido": "충청남도",
-    "sigungu": "예산군"
+    "sigungu": "예산군",
+    "built": "1992.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 예산군 역전로 150-13"
   },
   {
     "code": "A34080307",
@@ -119,7 +179,13 @@
     "emd": "예산읍",
     "sigunguCode": "44810",
     "sido": "충청남도",
-    "sigungu": "예산군"
+    "sigungu": "예산군",
+    "built": "1991.01",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "충청남도 예산군 역전로 150-6"
   },
   {
     "code": "A34080311",
@@ -130,7 +196,13 @@
     "emd": "예산읍",
     "sigunguCode": "44810",
     "sido": "충청남도",
-    "sigungu": "예산군"
+    "sigungu": "예산군",
+    "built": "2000.05",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 예산군 아리랑로 77-6"
   },
   {
     "code": "A34080312",
@@ -141,7 +213,13 @@
     "emd": "예산읍",
     "sigunguCode": "44810",
     "sido": "충청남도",
-    "sigungu": "예산군"
+    "sigungu": "예산군",
+    "built": "2006.09",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 예산군 아리랑로 93-8"
   },
   {
     "code": "A34080313",
@@ -152,7 +230,13 @@
     "emd": "예산읍",
     "sigunguCode": "44810",
     "sido": "충청남도",
-    "sigungu": "예산군"
+    "sigungu": "예산군",
+    "built": "1996.06",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "충청남도 예산군 역전로160번길 16"
   },
   {
     "code": "A34070217",
@@ -163,7 +247,13 @@
     "emd": "예산읍",
     "sigunguCode": "44810",
     "sido": "충청남도",
-    "sigungu": "예산군"
+    "sigungu": "예산군",
+    "built": "2009.07",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "충청남도 예산군 벚꽃로 175-17"
   },
   {
     "code": "A34070218",
@@ -174,7 +264,13 @@
     "emd": "예산읍",
     "sigunguCode": "44810",
     "sido": "충청남도",
-    "sigungu": "예산군"
+    "sigungu": "예산군",
+    "built": "2010.04",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "충청남도 예산군 벚꽃로 175-30"
   },
   {
     "code": "A34080210",
@@ -185,7 +281,13 @@
     "emd": "예산읍",
     "sigunguCode": "44810",
     "sido": "충청남도",
-    "sigungu": "예산군"
+    "sigungu": "예산군",
+    "built": "2008.01",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "충청남도 예산군 벚꽃로155번길 50"
   },
   {
     "code": "A10025965",
@@ -196,7 +298,13 @@
     "emd": "예산읍",
     "sigunguCode": "44810",
     "sido": "충청남도",
-    "sigungu": "예산군"
+    "sigungu": "예산군",
+    "built": "2017.10",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "충청남도 예산군 신례원로 176"
   },
   {
     "code": "A34070216",
@@ -207,7 +315,13 @@
     "emd": "예산읍",
     "sigunguCode": "44810",
     "sido": "충청남도",
-    "sigungu": "예산군"
+    "sigungu": "예산군",
+    "built": "1994.09",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "충청남도 예산군 창신로 55"
   },
   {
     "code": "A34080502",
@@ -218,7 +332,13 @@
     "emd": "예산읍",
     "sigunguCode": "44810",
     "sido": "충청남도",
-    "sigungu": "예산군"
+    "sigungu": "예산군",
+    "built": "2005.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "충청남도 예산군 창신로 51-7"
   },
   {
     "code": "A10020542",
@@ -230,7 +350,13 @@
     "sigunguCode": "44810",
     "sido": "충청남도",
     "sigungu": "예산군",
-    "hhldCnt": 100
+    "hhldCnt": 100,
+    "built": "1994.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "충청남도 예산군 두리학교길 28"
   },
   {
     "code": "A10020581",
@@ -242,7 +368,13 @@
     "sigunguCode": "44810",
     "sido": "충청남도",
     "sigungu": "예산군",
-    "hhldCnt": 601
+    "hhldCnt": 601,
+    "built": "2025.06",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "충청남도 예산군 홍예로 485"
   },
   {
     "code": "A10022176",
@@ -253,7 +385,13 @@
     "emd": "삽교읍",
     "sigunguCode": "44810",
     "sido": "충청남도",
-    "sigungu": "예산군"
+    "sigungu": "예산군",
+    "built": "2024.09",
+    "dongCnt": "15동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "충청남도 예산군 청사로 250"
   },
   {
     "code": "A10022695",
@@ -264,7 +402,13 @@
     "emd": "삽교읍",
     "sigunguCode": "44810",
     "sido": "충청남도",
-    "sigungu": "예산군"
+    "sigungu": "예산군",
+    "built": "2024.03",
+    "dongCnt": "15동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "충청남도 예산군 예학로 111"
   },
   {
     "code": "A10023414",
@@ -275,7 +419,13 @@
     "emd": "삽교읍",
     "sigunguCode": "44810",
     "sido": "충청남도",
-    "sigungu": "예산군"
+    "sigungu": "예산군",
+    "built": "2023.01",
+    "dongCnt": "15동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "충청남도 예산군 충예로 215"
   },
   {
     "code": "A10023521",
@@ -286,7 +436,13 @@
     "emd": "삽교읍",
     "sigunguCode": "44810",
     "sido": "충청남도",
-    "sigungu": "예산군"
+    "sigungu": "예산군",
+    "built": "2022.09",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "충청남도 예산군 수암천로 23"
   },
   {
     "code": "A10023639",
@@ -297,7 +453,13 @@
     "emd": "삽교읍",
     "sigunguCode": "44810",
     "sido": "충청남도",
-    "sigungu": "예산군"
+    "sigungu": "예산군",
+    "built": "2022.08",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 7,
+    "addr": "충청남도 예산군 삽교읍 목리 1271 학재마을 도나우에듀파크 2단지 아파트"
   },
   {
     "code": "A10023801",
@@ -308,7 +470,13 @@
     "emd": "삽교읍",
     "sigunguCode": "44810",
     "sido": "충청남도",
-    "sigungu": "예산군"
+    "sigungu": "예산군",
+    "built": "2022.04",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 7,
+    "addr": "충청남도 예산군 삽교읍 목리 840 학재마을 도나우에듀파크1차"
   },
   {
     "code": "A10026591",
@@ -319,7 +487,13 @@
     "emd": "삽교읍",
     "sigunguCode": "44810",
     "sido": "충청남도",
-    "sigungu": "예산군"
+    "sigungu": "예산군",
+    "built": "2017.12",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "충청남도 예산군 수암천로 11"
   },
   {
     "code": "A10025033",
@@ -330,7 +504,13 @@
     "emd": "삽교읍",
     "sigunguCode": "44810",
     "sido": "충청남도",
-    "sigungu": "예산군"
+    "sigungu": "예산군",
+    "built": "2020.02",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "충청남도 예산군 충예로 258"
   },
   {
     "code": "A34083101",
@@ -341,7 +521,13 @@
     "emd": "응봉면",
     "sigunguCode": "44810",
     "sido": "충청남도",
-    "sigungu": "예산군"
+    "sigungu": "예산군",
+    "built": "1998.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 예산군 예당로 1605"
   },
   {
     "code": "A34092302",
@@ -352,7 +538,13 @@
     "emd": "덕산면",
     "sigunguCode": "44810",
     "sido": "충청남도",
-    "sigungu": "예산군"
+    "sigungu": "예산군",
+    "built": "2008.06",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 예산군 덕산온천로 413-26"
   },
   {
     "code": "A34092401",
@@ -363,7 +555,13 @@
     "emd": "덕산면",
     "sigunguCode": "44810",
     "sido": "충청남도",
-    "sigungu": "예산군"
+    "sigungu": "예산군",
+    "built": "2000.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "충청남도 예산군 덕산온천로 21-11"
   },
   {
     "code": "A34094201",
@@ -374,7 +572,13 @@
     "emd": "봉산면",
     "sigunguCode": "44810",
     "sido": "충청남도",
-    "sigungu": "예산군"
+    "sigungu": "예산군",
+    "built": "2003.04",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 6,
+    "addr": "충청남도 예산군 황금뜰로 156"
   },
   {
     "code": "A34091301",
@@ -385,6 +589,12 @@
     "emd": "오가면",
     "sigunguCode": "44810",
     "sido": "충청남도",
-    "sigungu": "예산군"
+    "sigungu": "예산군",
+    "built": "1997.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "충청남도 예산군 신석길 159"
   }
 ]

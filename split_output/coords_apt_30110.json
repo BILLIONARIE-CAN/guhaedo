@@ -8,7 +8,13 @@
     "emd": "원동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2007.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 동구 대전로 758"
   },
   {
     "code": "A10020521",
@@ -20,7 +26,13 @@
     "sigunguCode": "30110",
     "sido": "대전광역시",
     "sigungu": "동구",
-    "hhldCnt": 175
+    "hhldCnt": 175,
+    "built": "2025.07",
+    "dongCnt": "1동",
+    "heat": "개별난방+기타",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "대전광역시 동구 대전로 719"
   },
   {
     "code": "A10022215",
@@ -31,7 +43,13 @@
     "emd": "인동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2004.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": "",
+    "addr": "대전광역시 동구 대전천동로 478"
   },
   {
     "code": "A10026863",
@@ -42,7 +60,13 @@
     "emd": "인동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2017.07",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 7,
+    "addr": "대전광역시 동구 계족로51번길 38"
   },
   {
     "code": "A30002004",
@@ -53,7 +77,13 @@
     "emd": "인동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2007.04",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "대전광역시 동구 계족로 65"
   },
   {
     "code": "A30074001",
@@ -64,7 +94,13 @@
     "emd": "인동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2010.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "대전광역시 동구 대전로 706"
   },
   {
     "code": "A30076903",
@@ -75,7 +111,13 @@
     "emd": "인동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "1987.06",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "대전광역시 동구 대전로 664"
   },
   {
     "code": "A30082701",
@@ -86,7 +128,13 @@
     "emd": "인동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2006.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "대전광역시 동구 대전천동로 458"
   },
   {
     "code": "A30082702",
@@ -97,7 +145,13 @@
     "emd": "인동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2003.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 동구 대흥로206번길 54"
   },
   {
     "code": "A30078301",
@@ -108,7 +162,13 @@
     "emd": "효동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "1998.09",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "대전광역시 동구 대전로 646"
   },
   {
     "code": "A10020979",
@@ -119,7 +179,13 @@
     "emd": "천동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2024.12",
+    "dongCnt": "16동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 29,
+    "addr": "대전광역시 동구 안샘로14번길 7"
   },
   {
     "code": "A10022216",
@@ -130,7 +196,13 @@
     "emd": "천동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2000.08",
+    "dongCnt": "1동",
+    "heat": "",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 동구 대전로 529"
   },
   {
     "code": "A10022472",
@@ -141,7 +213,13 @@
     "emd": "천동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2024.07",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "대전광역시 동구 안샘로 11"
   },
   {
     "code": "A30004002",
@@ -152,7 +230,13 @@
     "emd": "천동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2008.11",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 23,
+    "addr": "대전광역시 동구 대전로542번길 78"
   },
   {
     "code": "A30077701",
@@ -163,7 +247,13 @@
     "emd": "천동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2008.11",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "대전광역시 동구 대전로542번길 78-1"
   },
   {
     "code": "A30077702",
@@ -174,7 +264,13 @@
     "emd": "천동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2013.06",
+    "dongCnt": "16동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "대전광역시 동구 대전로542번길 121"
   },
   {
     "code": "A30005001",
@@ -185,7 +281,13 @@
     "emd": "가오동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2007.07",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 14,
+    "addr": "대전광역시 동구 은어송로 116"
   },
   {
     "code": "A30005002",
@@ -196,7 +298,13 @@
     "emd": "가오동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2007.10",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "대전광역시 동구 신기로 100"
   },
   {
     "code": "A30005004",
@@ -207,7 +315,13 @@
     "emd": "가오동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2007.01",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "대전광역시 동구 은어송로 100"
   },
   {
     "code": "A30005005",
@@ -218,7 +332,13 @@
     "emd": "가오동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2007.06",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 31,
+    "addr": "대전광역시 동구 동구청로 67"
   },
   {
     "code": "A30005006",
@@ -229,7 +349,13 @@
     "emd": "가오동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2006.07",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대전광역시 동구 은어송로 117"
   },
   {
     "code": "A30075903",
@@ -240,7 +366,13 @@
     "emd": "가오동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "1985.10",
+    "dongCnt": "15동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "대전광역시 동구 대전로448번길 11"
   },
   {
     "code": "A10023828",
@@ -251,7 +383,13 @@
     "emd": "신흥동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2022.04",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 33,
+    "addr": "대전광역시 동구 충무로 255"
   },
   {
     "code": "A10025986",
@@ -262,7 +400,13 @@
     "emd": "신흥동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2018.10",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 24,
+    "addr": "대전광역시 동구 동대전로46번길 120"
   },
   {
     "code": "A30011001",
@@ -273,7 +417,13 @@
     "emd": "신흥동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2006.05",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "대전광역시 동구 옥천로 38"
   },
   {
     "code": "A10022892",
@@ -284,7 +434,13 @@
     "emd": "판암동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "1998.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 동구 동구청로204번길 46"
   },
   {
     "code": "A10026140",
@@ -295,7 +451,13 @@
     "emd": "판암동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2018.07",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "대전광역시 동구 새울로 19"
   },
   {
     "code": "A10026152",
@@ -306,7 +468,13 @@
     "emd": "판암동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2018.07",
+    "dongCnt": "16동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "대전광역시 동구 동부로10번길 55"
   },
   {
     "code": "A30013001",
@@ -317,7 +485,13 @@
     "emd": "판암동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "1992.08",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 동구 동부로 73"
   },
   {
     "code": "A30013002",
@@ -328,7 +502,13 @@
     "emd": "판암동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "1990.03",
+    "dongCnt": "19동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 동구 옥천로180번길 47-2"
   },
   {
     "code": "A30077302",
@@ -339,7 +519,13 @@
     "emd": "판암동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "1991.08",
+    "dongCnt": "3동",
+    "heat": "중앙난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "대전광역시 동구 옥천로 152-9"
   },
   {
     "code": "A30077402",
@@ -350,7 +536,13 @@
     "emd": "판암동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "1992.08",
+    "dongCnt": "15동",
+    "heat": "",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "대전광역시 동구 동부로 56-7"
   },
   {
     "code": "A30077601",
@@ -361,7 +553,13 @@
     "emd": "판암동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "1992.08",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 동구 동부로 55-58"
   },
   {
     "code": "A30083201",
@@ -372,7 +570,13 @@
     "emd": "판암동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "1999.07",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "대전광역시 동구 동구청로203번길 35"
   },
   {
     "code": "A10024504",
@@ -383,7 +587,13 @@
     "emd": "용운동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2020.11",
+    "dongCnt": "18동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 34,
+    "addr": "대전광역시 동구 용운로 203"
   },
   {
     "code": "A30012001",
@@ -394,7 +604,13 @@
     "emd": "용운동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2006.08",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 동구 대학로 102-7"
   },
   {
     "code": "A30012002",
@@ -405,7 +621,13 @@
     "emd": "용운동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "1990.07",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "대전광역시 동구 동부로73번길 95"
   },
   {
     "code": "A30075207",
@@ -416,7 +638,13 @@
     "emd": "용운동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "1987.09",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 동구 백룡로 138"
   },
   {
     "code": "A30082203",
@@ -427,7 +655,13 @@
     "emd": "용운동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2006.01",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 동구 대학로50번길 53"
   },
   {
     "code": "A30082206",
@@ -438,7 +672,13 @@
     "emd": "용운동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2003.05",
+    "dongCnt": "20동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 동구 용운로 80"
   },
   {
     "code": "A10025925",
@@ -449,7 +689,13 @@
     "emd": "대동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2018.11",
+    "dongCnt": "12동",
+    "heat": "",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "대전광역시 동구 동대전로46번길 30"
   },
   {
     "code": "A30007001",
@@ -460,7 +706,13 @@
     "emd": "대동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2010.04",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "대전광역시 동구 계족로 135"
   },
   {
     "code": "A30007002",
@@ -471,7 +723,13 @@
     "emd": "대동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2010.10",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "대전광역시 동구 계족로 137"
   },
   {
     "code": "A30007003",
@@ -482,7 +740,13 @@
     "emd": "대동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2011.10",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "대전광역시 동구 계족로140번길 33"
   },
   {
     "code": "A10021585",
@@ -493,7 +757,13 @@
     "emd": "자양동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "1985.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "대전광역시 동구 백룡로 50"
   },
   {
     "code": "A30077001",
@@ -504,7 +774,13 @@
     "emd": "자양동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "1990.10",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 동구 성동로 74"
   },
   {
     "code": "A10021173",
@@ -515,7 +791,13 @@
     "emd": "가양동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "1994.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 동구 비래서로62번길 5"
   },
   {
     "code": "A10021731",
@@ -526,7 +808,13 @@
     "emd": "가양동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2024.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 49,
+    "addr": "대전광역시 동구 동서대로 1722"
   },
   {
     "code": "A10021925",
@@ -537,7 +825,13 @@
     "emd": "가양동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "1984.10",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "대전광역시 동구 비래서로62번길 57"
   },
   {
     "code": "A10021932",
@@ -548,7 +842,13 @@
     "emd": "가양동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "1990.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "대전광역시 동구 충정로 5"
   },
   {
     "code": "A10022326",
@@ -559,7 +859,13 @@
     "emd": "가양동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "1991.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "대전광역시 동구 동서대로1778번길 79"
   },
   {
     "code": "A10023173",
@@ -570,7 +876,13 @@
     "emd": "가양동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2004.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "대전광역시 동구 동서대로1770번길 76"
   },
   {
     "code": "A10023487",
@@ -581,7 +893,13 @@
     "emd": "가양동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2023.05",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "대전광역시 동구 동서대로1754번길 60"
   },
   {
     "code": "A30009002",
@@ -592,7 +910,13 @@
     "emd": "가양동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2006.01",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "대전광역시 동구 충정로 136"
   },
   {
     "code": "A30009003",
@@ -603,7 +927,13 @@
     "emd": "가양동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "",
+    "dongCnt": "",
+    "heat": "",
+    "sale": "분양",
+    "topFloor": "",
+    "addr": "대전광역시 동구 동서대로1778번길 48"
   },
   {
     "code": "A30009202",
@@ -614,7 +944,13 @@
     "emd": "가양동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2002.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 11,
+    "addr": "대전광역시 동구 충정로18번길 60"
   },
   {
     "code": "A30070301",
@@ -625,7 +961,13 @@
     "emd": "가양동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2011.08",
+    "dongCnt": "16동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "대전광역시 동구 우암로 192"
   },
   {
     "code": "A10027524",
@@ -636,7 +978,13 @@
     "emd": "용전동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "1985.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 동구 계족로 443"
   },
   {
     "code": "A30020001",
@@ -647,7 +995,13 @@
     "emd": "용전동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2002.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "대전광역시 동구 계족로450번길 52"
   },
   {
     "code": "A30020003",
@@ -658,7 +1012,13 @@
     "emd": "용전동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2000.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 동구 계족로512번길 96"
   },
   {
     "code": "A30071001",
@@ -669,7 +1029,13 @@
     "emd": "용전동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "1999.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "대전광역시 동구 계족로512번길 42"
   },
   {
     "code": "A30076502",
@@ -680,7 +1046,13 @@
     "emd": "용전동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "1997.04",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 동구 홍도로46번길 20"
   },
   {
     "code": "A30076605",
@@ -691,7 +1063,13 @@
     "emd": "용전동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "1990.09",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 동구 한밭대로1237번길 52"
   },
   {
     "code": "A30076806",
@@ -702,7 +1080,13 @@
     "emd": "용전동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "1999.08",
+    "dongCnt": "15동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "대전광역시 동구 계족로489번길 73"
   },
   {
     "code": "A30070901",
@@ -713,7 +1097,13 @@
     "emd": "성남동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2003.04",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대전광역시 동구 계족로368번길 11"
   },
   {
     "code": "A30070902",
@@ -724,7 +1114,13 @@
     "emd": "성남동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2003.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 동구 동서대로1572번길 165"
   },
   {
     "code": "A30070903",
@@ -735,7 +1131,13 @@
     "emd": "성남동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2011.12",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "대전광역시 동구 성남로 15"
   },
   {
     "code": "A30076401",
@@ -746,7 +1148,13 @@
     "emd": "성남동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2000.07",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 동구 우암로 186"
   },
   {
     "code": "A10023421",
@@ -757,7 +1165,13 @@
     "emd": "홍도동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2023.02",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "대전광역시 동구 한남로67번길 193"
   },
   {
     "code": "A30019005",
@@ -768,7 +1182,13 @@
     "emd": "홍도동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2007.07",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 동구 동산초교로55번길 20"
   },
   {
     "code": "A30077801",
@@ -779,7 +1199,13 @@
     "emd": "홍도동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "1985.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 8,
+    "addr": "대전광역시 동구 동산초교로23번길 15"
   },
   {
     "code": "A30078103",
@@ -790,7 +1216,13 @@
     "emd": "홍도동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "1979.04",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "대전광역시 동구 동산초교로22번길 17"
   },
   {
     "code": "A30078202",
@@ -801,7 +1233,13 @@
     "emd": "홍도동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "1995.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "대전광역시 동구 대전로994번길 75"
   },
   {
     "code": "A30083504",
@@ -812,7 +1250,13 @@
     "emd": "홍도동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "1996.10",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "대전광역시 동구 동서대로 1579"
   },
   {
     "code": "A10020809",
@@ -823,7 +1267,13 @@
     "emd": "삼성동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2024.06",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "대전광역시 동구 삼성시장2길 28"
   },
   {
     "code": "A10021107",
@@ -834,7 +1284,13 @@
     "emd": "삼성동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "1980.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 2,
+    "addr": "대전광역시 동구 대전천동로 618"
   },
   {
     "code": "A10022087",
@@ -845,7 +1301,13 @@
     "emd": "삼성동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2006.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 동구 대전로 872"
   },
   {
     "code": "A30017002",
@@ -856,7 +1318,13 @@
     "emd": "삼성동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2006.08",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 31,
+    "addr": "대전광역시 동구 대전로 935"
   },
   {
     "code": "A30017005",
@@ -867,7 +1335,13 @@
     "emd": "삼성동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2007.09",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 23,
+    "addr": "대전광역시 동구 우암로 133"
   },
   {
     "code": "A30071201",
@@ -878,7 +1352,13 @@
     "emd": "삼성동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2007.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "대전광역시 동구 우암로 133-1"
   },
   {
     "code": "A30081601",
@@ -889,7 +1369,13 @@
     "emd": "삼성동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2000.01",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대전광역시 동구 대전로 968"
   },
   {
     "code": "A10020554",
@@ -901,7 +1387,13 @@
     "sigunguCode": "30110",
     "sido": "대전광역시",
     "sigungu": "동구",
-    "hhldCnt": 162
+    "hhldCnt": 162,
+    "built": "2025.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 1,
+    "addr": "대전광역시 동구 산내로 1326"
   },
   {
     "code": "A30022002",
@@ -912,7 +1404,13 @@
     "emd": "낭월동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2008.08",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 32,
+    "addr": "대전광역시 동구 산내로 1375"
   },
   {
     "code": "A30022003",
@@ -923,7 +1421,13 @@
     "emd": "낭월동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2004.11",
+    "dongCnt": "15동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 18,
+    "addr": "대전광역시 동구 산내로1257번길 40"
   },
   {
     "code": "A30074301",
@@ -934,7 +1438,13 @@
     "emd": "낭월동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2011.09",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "대전광역시 동구 산내로 1330"
   },
   {
     "code": "A30076004",
@@ -945,7 +1455,13 @@
     "emd": "낭월동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "1990.11",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 6,
+    "addr": "대전광역시 동구 산내로 1352-25"
   },
   {
     "code": "A10022382",
@@ -956,7 +1472,13 @@
     "emd": "대성동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2024.07",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 33,
+    "addr": "대전광역시 동구 대전로 357"
   },
   {
     "code": "A10027361",
@@ -967,7 +1489,13 @@
     "emd": "대성동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2016.09",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대전광역시 동구 대전로340번길 15"
   },
   {
     "code": "A30021002",
@@ -978,7 +1506,13 @@
     "emd": "대성동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "2007.02",
+    "dongCnt": "16동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 31,
+    "addr": "대전광역시 동구 동구청로 35"
   },
   {
     "code": "A30076101",
@@ -989,6 +1523,12 @@
     "emd": "대성동",
     "sigunguCode": "30110",
     "sido": "대전광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "built": "1991.08",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 동구 대전로340번길 20"
   }
 ]

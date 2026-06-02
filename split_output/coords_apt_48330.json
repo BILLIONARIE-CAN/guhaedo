@@ -8,7 +8,13 @@
     "emd": "남부동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2008.05",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 18,
+    "addr": "경상남도 양산시 양주로 58"
   },
   {
     "code": "A62670601",
@@ -19,7 +25,13 @@
     "emd": "남부동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2006.03",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 양산시 양주로 33"
   },
   {
     "code": "A62676203",
@@ -30,7 +42,13 @@
     "emd": "남부동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2005.02",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 양주로 32"
   },
   {
     "code": "A62676305",
@@ -41,7 +59,13 @@
     "emd": "남부동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2005.10",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 양산시 양주로 16"
   },
   {
     "code": "A62676402",
@@ -52,7 +76,13 @@
     "emd": "남부동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2003.04",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 양산시 양주로 39"
   },
   {
     "code": "A62676504",
@@ -63,7 +93,13 @@
     "emd": "남부동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2004.07",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 양주로 97"
   },
   {
     "code": "A62678507",
@@ -74,7 +110,13 @@
     "emd": "남부동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2005.01",
+    "dongCnt": "24동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "경상남도 양산시 양주로 94"
   },
   {
     "code": "A10020090",
@@ -85,7 +127,13 @@
     "emd": "중부동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2026.04",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 31,
+    "addr": "경상남도 양산시 일동6길 4"
   },
   {
     "code": "A10022579",
@@ -96,7 +144,13 @@
     "emd": "중부동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2024.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 44,
+    "addr": "경상남도 양산시 서일동1길 60"
   },
   {
     "code": "A62605002",
@@ -107,7 +161,13 @@
     "emd": "중부동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1999.12",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "경상남도 양산시 양주로 114"
   },
   {
     "code": "A62675804",
@@ -118,7 +178,13 @@
     "emd": "중부동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1999.12",
+    "dongCnt": "22동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 양산시 양주로 154"
   },
   {
     "code": "A62675901",
@@ -129,7 +195,13 @@
     "emd": "중부동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2005.04",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 양주로 153"
   },
   {
     "code": "A62677203",
@@ -140,7 +212,13 @@
     "emd": "중부동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2000.05",
+    "dongCnt": "15동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 양주로 113"
   },
   {
     "code": "A10025152",
@@ -151,7 +229,13 @@
     "emd": "북부동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2019.11",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 30,
+    "addr": "경상남도 양산시 호국학도병길 17"
   },
   {
     "code": "A10025326",
@@ -162,7 +246,13 @@
     "emd": "신기동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2019.08",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 양산시 명곡로 141"
   },
   {
     "code": "A62613001",
@@ -173,7 +263,13 @@
     "emd": "신기동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1989.12",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 고향의봄10길 71"
   },
   {
     "code": "A62613003",
@@ -184,7 +280,13 @@
     "emd": "신기동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1993.06",
+    "dongCnt": "18동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 신기서길 23"
   },
   {
     "code": "A62675301",
@@ -195,7 +297,13 @@
     "emd": "신기동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2014.07",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "경상남도 양산시 신기강변1길 11"
   },
   {
     "code": "A62675402",
@@ -206,7 +314,13 @@
     "emd": "신기동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1993.10",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 신기서길 14"
   },
   {
     "code": "A10021356",
@@ -217,7 +331,13 @@
     "emd": "북정동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1996.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 고향의봄로 80"
   },
   {
     "code": "A62611001",
@@ -228,7 +348,13 @@
     "emd": "북정동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1997.08",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 북정로 86"
   },
   {
     "code": "A62611002",
@@ -239,7 +365,13 @@
     "emd": "북정동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1998.09",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 북정로 118"
   },
   {
     "code": "A62611003",
@@ -250,7 +382,13 @@
     "emd": "북정동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1993.07",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "경상남도 양산시 북정중앙로 62"
   },
   {
     "code": "A62611004",
@@ -261,7 +399,13 @@
     "emd": "북정동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1995.08",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 북정로 116"
   },
   {
     "code": "A62611005",
@@ -272,7 +416,13 @@
     "emd": "북정동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2005.05",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "경상남도 양산시 북정서길 16"
   },
   {
     "code": "A10025757",
@@ -283,7 +433,13 @@
     "emd": "교동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2019.01",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 양산시 교동1길 74"
   },
   {
     "code": "A62621002",
@@ -294,7 +450,13 @@
     "emd": "교동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1991.10",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 회현1길 3"
   },
   {
     "code": "A62621003",
@@ -305,7 +467,13 @@
     "emd": "교동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2008.06",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "경상남도 양산시 회현1길 48"
   },
   {
     "code": "A62675001",
@@ -316,7 +484,13 @@
     "emd": "교동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1991.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 회현1길 6"
   },
   {
     "code": "A62622001",
@@ -327,7 +501,13 @@
     "emd": "어곡동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2004.08",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "경상남도 양산시 두전길 18"
   },
   {
     "code": "A62676902",
@@ -338,7 +518,13 @@
     "emd": "어곡동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1992.10",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 두전길 42-3"
   },
   {
     "code": "A62676903",
@@ -349,7 +535,13 @@
     "emd": "어곡동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2001.11",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 18,
+    "addr": "경상남도 양산시 두전길 42"
   },
   {
     "code": "A10022190",
@@ -360,7 +552,13 @@
     "emd": "삼호동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1992.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": "",
+    "addr": "경상남도 양산시 서창서1길 7"
   },
   {
     "code": "A62672306",
@@ -371,7 +569,13 @@
     "emd": "삼호동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2007.01",
+    "dongCnt": "15동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 삼호로 74"
   },
   {
     "code": "A62683601",
@@ -382,7 +586,13 @@
     "emd": "삼호동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1993.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 양산시 삼호로 206"
   },
   {
     "code": "A62683605",
@@ -393,7 +603,13 @@
     "emd": "삼호동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2004.03",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 대운로 338"
   },
   {
     "code": "A62683607",
@@ -404,7 +620,13 @@
     "emd": "삼호동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2004.03",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 대운로 354"
   },
   {
     "code": "A62683702",
@@ -415,7 +637,13 @@
     "emd": "삼호동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1990.08",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "경상남도 양산시 서창로 133"
   },
   {
     "code": "A62683703",
@@ -426,7 +654,13 @@
     "emd": "삼호동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2008.04",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 삼호로 98"
   },
   {
     "code": "A62683704",
@@ -437,7 +671,13 @@
     "emd": "삼호동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2001.10",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 삼호로 86"
   },
   {
     "code": "A10027793",
@@ -448,7 +688,13 @@
     "emd": "명동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2015.10",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "경상남도 양산시 대운로 144"
   },
   {
     "code": "A62625001",
@@ -459,7 +705,13 @@
     "emd": "명동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2005.10",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 덕명로 320"
   },
   {
     "code": "A62625002",
@@ -470,7 +722,13 @@
     "emd": "명동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2008.11",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 양산시 대운5길 7"
   },
   {
     "code": "A62625003",
@@ -481,7 +739,13 @@
     "emd": "명동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2013.08",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경상남도 양산시 신명동로 43"
   },
   {
     "code": "A62630001",
@@ -492,7 +756,13 @@
     "emd": "주남동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2008.06",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "경상남도 양산시 대평들5길 16"
   },
   {
     "code": "A10027389",
@@ -503,7 +773,13 @@
     "emd": "소주동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2016.06",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "경상남도 양산시 소주회야로 93"
   },
   {
     "code": "A62628001",
@@ -514,7 +790,13 @@
     "emd": "소주동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1992.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "경상남도 양산시 소주회야로 45-153"
   },
   {
     "code": "A62628002",
@@ -525,7 +807,13 @@
     "emd": "소주동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1993.10",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 번영로 441"
   },
   {
     "code": "A62628003",
@@ -536,7 +824,13 @@
     "emd": "소주동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1991.02",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "경상남도 양산시 모래들1길 14"
   },
   {
     "code": "A62628004",
@@ -547,7 +841,13 @@
     "emd": "소주동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1997.09",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "경상남도 양산시 소주로 182"
   },
   {
     "code": "A62670501",
@@ -558,7 +858,13 @@
     "emd": "소주동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1998.09",
+    "dongCnt": "26동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 양산시 소주회야로 75"
   },
   {
     "code": "A62670502",
@@ -569,7 +875,13 @@
     "emd": "소주동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2011.08",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 번영로 435"
   },
   {
     "code": "A10022796",
@@ -580,7 +892,13 @@
     "emd": "주진동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2024.01",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "경상남도 양산시 번영로 209"
   },
   {
     "code": "A10024730",
@@ -591,7 +909,13 @@
     "emd": "주진동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2020.07",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 양산시 진등길 15"
   },
   {
     "code": "A10025237",
@@ -602,7 +926,13 @@
     "emd": "주진동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2019.09",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 34,
+    "addr": "경상남도 양산시 모래들길 57-27"
   },
   {
     "code": "A10027365",
@@ -613,7 +943,13 @@
     "emd": "주진동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2016.08",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 양산시 진등길 26"
   },
   {
     "code": "A62631001",
@@ -624,7 +960,13 @@
     "emd": "주진동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2016.07",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "경상남도 양산시 주진1길 43"
   },
   {
     "code": "A10020655",
@@ -636,7 +978,13 @@
     "sigunguCode": "48330",
     "sido": "경상남도",
     "sigungu": "양산시",
-    "hhldCnt": 136
+    "hhldCnt": 136,
+    "built": "2015.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "경상남도 양산시 평산6길 22"
   },
   {
     "code": "A10020704",
@@ -647,7 +995,13 @@
     "emd": "평산동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2014.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "경상남도 양산시 평산중앙로 46"
   },
   {
     "code": "A10020790",
@@ -658,7 +1012,13 @@
     "emd": "평산동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2025.02",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 30,
+    "addr": "경상남도 양산시 신명4길 24"
   },
   {
     "code": "A10025226",
@@ -669,7 +1029,13 @@
     "emd": "평산동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2019.10",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 38,
+    "addr": "경상남도 양산시 평산회야로 167"
   },
   {
     "code": "A10027097",
@@ -680,7 +1046,13 @@
     "emd": "평산동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2017.01",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 양산시 평산로 101-20"
   },
   {
     "code": "A62632011",
@@ -691,7 +1063,13 @@
     "emd": "평산동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2008.04",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 평산북로 54"
   },
   {
     "code": "A62672012",
@@ -702,7 +1080,13 @@
     "emd": "평산동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2002.11",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "경상남도 양산시 평산중앙로 88"
   },
   {
     "code": "A62675505",
@@ -713,7 +1097,13 @@
     "emd": "평산동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1993.05",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경상남도 양산시 평산회야로 33"
   },
   {
     "code": "A62675508",
@@ -724,7 +1114,13 @@
     "emd": "평산동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1992.11",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "경상남도 양산시 평산회야로 51"
   },
   {
     "code": "A62675509",
@@ -735,7 +1131,13 @@
     "emd": "평산동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2010.08",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 배움터길 11"
   },
   {
     "code": "A62675614",
@@ -746,7 +1148,13 @@
     "emd": "평산동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1994.01",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 양산시 신명로 87"
   },
   {
     "code": "A62675713",
@@ -757,7 +1165,13 @@
     "emd": "평산동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1993.09",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 양산시 신명로 73"
   },
   {
     "code": "A62684801",
@@ -768,7 +1182,13 @@
     "emd": "평산동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1992.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 평산로 95"
   },
   {
     "code": "A62684803",
@@ -779,7 +1199,13 @@
     "emd": "평산동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1993.01",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 신명2길 16-33"
   },
   {
     "code": "A62684804",
@@ -790,7 +1216,13 @@
     "emd": "평산동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1992.07",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 평산11길 5"
   },
   {
     "code": "A62684806",
@@ -801,7 +1233,13 @@
     "emd": "평산동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1992.04",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 평산13길 19"
   },
   {
     "code": "A62684807",
@@ -812,7 +1250,13 @@
     "emd": "평산동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1992.08",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 평산중앙4길 20"
   },
   {
     "code": "A62684809",
@@ -823,7 +1267,13 @@
     "emd": "평산동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1992.08",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 평산회야로 149"
   },
   {
     "code": "A62684810",
@@ -834,7 +1284,13 @@
     "emd": "평산동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2001.10",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 신명로 88"
   },
   {
     "code": "A62684815",
@@ -845,7 +1301,13 @@
     "emd": "평산동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2008.06",
+    "dongCnt": "18동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 25,
+    "addr": "경상남도 양산시 평산로 116"
   },
   {
     "code": "A62684902",
@@ -856,7 +1318,13 @@
     "emd": "평산동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1992.08",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 평산회야로 135"
   },
   {
     "code": "A10020468",
@@ -868,7 +1336,13 @@
     "sigunguCode": "48330",
     "sido": "경상남도",
     "sigungu": "양산시",
-    "hhldCnt": 311
+    "hhldCnt": 311,
+    "built": "2025.08",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 38,
+    "addr": "경상남도 양산시 덕계7길 14"
   },
   {
     "code": "A10022423",
@@ -879,7 +1353,13 @@
     "emd": "덕계동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2024.07",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "경상남도 양산시 신덕계2길 49"
   },
   {
     "code": "A10022437",
@@ -890,7 +1370,13 @@
     "emd": "덕계동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2024.07",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 33,
+    "addr": "경상남도 양산시 신덕계2길 15"
   },
   {
     "code": "A10024373",
@@ -901,7 +1387,13 @@
     "emd": "덕계동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2021.03",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "경상남도 양산시 신덕계8길 37"
   },
   {
     "code": "A10024392",
@@ -912,7 +1404,13 @@
     "emd": "덕계동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2021.03",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "경상남도 양산시 신덕계8길 40"
   },
   {
     "code": "A10025160",
@@ -923,7 +1421,13 @@
     "emd": "덕계동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2019.11",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경상남도 양산시 신덕계3길 36"
   },
   {
     "code": "A10025219",
@@ -934,7 +1438,13 @@
     "emd": "덕계동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2019.10",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 34,
+    "addr": "경상남도 양산시 덕계회야길 16"
   },
   {
     "code": "A62671203",
@@ -945,7 +1455,13 @@
     "emd": "덕계동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1993.12",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "경상남도 양산시 웅상대로 866"
   },
   {
     "code": "A62672404",
@@ -956,7 +1472,13 @@
     "emd": "덕계동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2003.02",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 양산시 덕계5길 14"
   },
   {
     "code": "A62672501",
@@ -967,7 +1489,13 @@
     "emd": "덕계동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2014.01",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 양산시 신덕계로 34"
   },
   {
     "code": "A62677805",
@@ -978,7 +1506,13 @@
     "emd": "덕계동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1999.02",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 양산시 덕계11길 12"
   },
   {
     "code": "A62684201",
@@ -989,7 +1523,13 @@
     "emd": "덕계동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1992.03",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 덕계회야길 7"
   },
   {
     "code": "A62684202",
@@ -1000,7 +1540,13 @@
     "emd": "덕계동",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1994.11",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "경상남도 양산시 덕계북길 9"
   },
   {
     "code": "A10026226",
@@ -1011,7 +1557,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2018.06",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "경상남도 양산시 청운로 42"
   },
   {
     "code": "A10026776",
@@ -1022,7 +1574,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2017.07",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "경상남도 양산시 물금로 57"
   },
   {
     "code": "A10027120",
@@ -1033,7 +1591,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2016.12",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "경상남도 양산시 물금로 41"
   },
   {
     "code": "A10027647",
@@ -1044,7 +1608,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2016.03",
+    "dongCnt": "14동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 청운로 41"
   },
   {
     "code": "A10027648",
@@ -1055,7 +1625,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2016.03",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 물금2길 50"
   },
   {
     "code": "A62681201",
@@ -1066,7 +1642,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1992.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 원동로 59"
   },
   {
     "code": "A10024546",
@@ -1077,7 +1659,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2020.11",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "경상남도 양산시 가촌서로 11"
   },
   {
     "code": "A10025298",
@@ -1088,7 +1676,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2020.01",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 양산시 가촌서로 45"
   },
   {
     "code": "A10026361",
@@ -1099,7 +1693,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2018.03",
+    "dongCnt": "1동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "경상남도 양산시 메기로 199"
   },
   {
     "code": "A10026410",
@@ -1110,7 +1710,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2018.03",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 33,
+    "addr": "경상남도 양산시 야리로 50"
   },
   {
     "code": "A10026437",
@@ -1121,7 +1727,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2018.02",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경상남도 양산시 물금로 76"
   },
   {
     "code": "A10026883",
@@ -1132,7 +1744,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2017.07",
+    "dongCnt": "18동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 32,
+    "addr": "경상남도 양산시 새실로 11"
   },
   {
     "code": "A10026931",
@@ -1143,7 +1761,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2017.04",
+    "dongCnt": "16동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "경상남도 양산시 물금로 75"
   },
   {
     "code": "A10026935",
@@ -1154,7 +1778,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2017.06",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 30,
+    "addr": "경상남도 양산시 백호로 155"
   },
   {
     "code": "A10027036",
@@ -1165,7 +1795,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2017.05",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 30,
+    "addr": "경상남도 양산시 백호로 156"
   },
   {
     "code": "A10027170",
@@ -1176,7 +1812,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2016.11",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 양산시 새실로 53"
   },
   {
     "code": "A10027250",
@@ -1187,7 +1829,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2016.11",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경상남도 양산시 야리로 89"
   },
   {
     "code": "A10027265",
@@ -1198,7 +1846,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2015.08",
+    "dongCnt": "14동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 31,
+    "addr": "경상남도 양산시 야리로 90"
   },
   {
     "code": "A10027272",
@@ -1209,7 +1863,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2016.09",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 34,
+    "addr": "경상남도 양산시 새실로 116"
   },
   {
     "code": "A10027392",
@@ -1220,7 +1880,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2016.08",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 양산시 야리로 75"
   },
   {
     "code": "A10027443",
@@ -1231,7 +1897,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2016.07",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "경상남도 양산시 물금로 160"
   },
   {
     "code": "A10027515",
@@ -1242,7 +1914,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2016.04",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 34,
+    "addr": "경상남도 양산시 새실로 115"
   },
   {
     "code": "A10027564",
@@ -1253,7 +1931,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2016.05",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 21,
+    "addr": "경상남도 양산시 새실로 54"
   },
   {
     "code": "A10027723",
@@ -1264,7 +1948,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2015.12",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 25,
+    "addr": "경상남도 양산시 청운로 131"
   },
   {
     "code": "A10027724",
@@ -1275,7 +1965,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2015.12",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 25,
+    "addr": "경상남도 양산시 물금로 134"
   },
   {
     "code": "A62681103",
@@ -1286,7 +1982,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2012.03",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 가촌로 155"
   },
   {
     "code": "A62681106",
@@ -1297,7 +1999,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2013.12",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 양산시 가촌서로 93"
   },
   {
     "code": "A62681109",
@@ -1308,7 +2016,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2014.03",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "경상남도 양산시 야리로 30"
   },
   {
     "code": "A10023122",
@@ -1319,7 +2033,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2013.10",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 양산시 동중7길 24"
   },
   {
     "code": "A10023701",
@@ -1330,7 +2050,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2023.01",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경상남도 양산시 황산로 699"
   },
   {
     "code": "A10025861",
@@ -1341,7 +2067,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2018.12",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 41,
+    "addr": "경상남도 양산시 범구로 14"
   },
   {
     "code": "A10027035",
@@ -1352,7 +2084,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2017.04",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 37,
+    "addr": "경상남도 양산시 범구로 28"
   },
   {
     "code": "A10028198",
@@ -1363,7 +2101,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2014.10",
+    "dongCnt": "16동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경상남도 양산시 백호로 91"
   },
   {
     "code": "A62677310",
@@ -1374,7 +2118,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1994.06",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 오봉로 15"
   },
   {
     "code": "A62677518",
@@ -1385,7 +2135,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1995.09",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 오봉로 165"
   },
   {
     "code": "A62677607",
@@ -1396,7 +2152,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1990.05",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "경상남도 양산시 동중1길 7"
   },
   {
     "code": "A62677608",
@@ -1407,7 +2169,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1990.03",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "경상남도 양산시 동중1길 21"
   },
   {
     "code": "A62677716",
@@ -1418,7 +2186,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1996.03",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 오봉로 180"
   },
   {
     "code": "A62681102",
@@ -1429,7 +2203,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2009.10",
+    "dongCnt": "14동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 양산시 신주로 69"
   },
   {
     "code": "A62681104",
@@ -1440,7 +2220,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2013.06",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "경상남도 양산시 범어로 77"
   },
   {
     "code": "A62681105",
@@ -1451,7 +2237,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2013.10",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "경상남도 양산시 범어로 57"
   },
   {
     "code": "A62681107",
@@ -1462,7 +2254,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2013.12",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 양산시 서들로 179"
   },
   {
     "code": "A62681108",
@@ -1473,7 +2271,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2014.04",
+    "dongCnt": "18동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 양산시 신주1길 46"
   },
   {
     "code": "A62681302",
@@ -1484,7 +2288,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1994.10",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 황산로 707"
   },
   {
     "code": "A62681303",
@@ -1495,7 +2305,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1996.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "사택 및 관사 등",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 오봉로 192"
   },
   {
     "code": "A62681304",
@@ -1506,7 +2322,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1990.08",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 6,
+    "addr": "경상남도 양산시 오봉로 185"
   },
   {
     "code": "A62681305",
@@ -1517,7 +2339,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1996.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 오봉로 179"
   },
   {
     "code": "A62681406",
@@ -1528,7 +2356,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2008.08",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "경상남도 양산시 신주로 64"
   },
   {
     "code": "A62681409",
@@ -1539,7 +2373,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1993.08",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 오봉로 29"
   },
   {
     "code": "A62681411",
@@ -1550,7 +2390,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2007.11",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "경상남도 양산시 범어로 11"
   },
   {
     "code": "A62681412",
@@ -1561,7 +2407,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2007.09",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경상남도 양산시 신주로 16"
   },
   {
     "code": "A62681414",
@@ -1572,7 +2424,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2007.09",
+    "dongCnt": "9동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "경상남도 양산시 신주로 40"
   },
   {
     "code": "A62681415",
@@ -1583,7 +2441,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2007.11",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 양산시 범어로 33"
   },
   {
     "code": "A62681417",
@@ -1594,7 +2458,13 @@
     "emd": "물금읍",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2007.11",
+    "dongCnt": "15동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 양산시 신주로 35"
   },
   {
     "code": "A10023445",
@@ -1605,7 +2475,13 @@
     "emd": "동면",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2022.12",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 양산시 외송로 60"
   },
   {
     "code": "A10020730",
@@ -1616,7 +2492,13 @@
     "emd": "동면",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2025.02",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 19,
+    "addr": "경상남도 양산시 사송로 183"
   },
   {
     "code": "A10022488",
@@ -1627,7 +2509,13 @@
     "emd": "동면",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2024.07",
+    "dongCnt": "15동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 사송로 55"
   },
   {
     "code": "A10022562",
@@ -1638,7 +2526,13 @@
     "emd": "동면",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2024.05",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 19,
+    "addr": "경상남도 양산시 사송로 155"
   },
   {
     "code": "A10022668",
@@ -1649,7 +2543,13 @@
     "emd": "동면",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2024.03",
+    "dongCnt": "15동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "경상남도 양산시 사송로 169"
   },
   {
     "code": "A10022754",
@@ -1660,7 +2560,13 @@
     "emd": "동면",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2024.02",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경상남도 양산시 사송로 133"
   },
   {
     "code": "A10022842",
@@ -1671,7 +2577,13 @@
     "emd": "동면",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2023.12",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 25,
+    "addr": "경상남도 양산시 외송로 49"
   },
   {
     "code": "A10023241",
@@ -1682,7 +2594,13 @@
     "emd": "동면",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2023.04",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 양산시 외송로 30"
   },
   {
     "code": "A10023393",
@@ -1693,7 +2611,13 @@
     "emd": "동면",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2023.01",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 양산시 외송로 50"
   },
   {
     "code": "A10023456",
@@ -1704,7 +2628,13 @@
     "emd": "동면",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2022.12",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "경상남도 양산시 노포사송로 400"
   },
   {
     "code": "A10023566",
@@ -1715,7 +2645,13 @@
     "emd": "동면",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2022.10",
+    "dongCnt": "18동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 20,
+    "addr": "경상남도 양산시 내송큰들로 84"
   },
   {
     "code": "A10022676",
@@ -1726,7 +2662,13 @@
     "emd": "동면",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2024.03",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경상남도 양산시 내송큰들로 140"
   },
   {
     "code": "A10023585",
@@ -1737,7 +2679,13 @@
     "emd": "동면",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2022.07",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 17,
+    "addr": "경상남도 양산시 내송큰들로 94"
   },
   {
     "code": "A10024087",
@@ -1748,7 +2696,13 @@
     "emd": "동면",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2021.10",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "경상남도 양산시 내송큰들로 141"
   },
   {
     "code": "A10024089",
@@ -1759,7 +2713,13 @@
     "emd": "동면",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2021.10",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 양산시 내송큰들로 73"
   },
   {
     "code": "A10024094",
@@ -1770,7 +2730,13 @@
     "emd": "동면",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2021.10",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 양산시 내송큰들로 107"
   },
   {
     "code": "A10022383",
@@ -1781,7 +2747,13 @@
     "emd": "동면",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2024.08",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "경상남도 양산시 석산2길 14"
   },
   {
     "code": "A10026212",
@@ -1792,7 +2764,13 @@
     "emd": "동면",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2018.05",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "경상남도 양산시 금오15길 10"
   },
   {
     "code": "A10026810",
@@ -1803,7 +2781,13 @@
     "emd": "동면",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2017.07",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "경상남도 양산시 금오16길 100"
   },
   {
     "code": "A10026914",
@@ -1814,7 +2798,13 @@
     "emd": "동면",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2017.05",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경상남도 양산시 금오15길 29"
   },
   {
     "code": "A10027005",
@@ -1825,7 +2815,13 @@
     "emd": "동면",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2017.05",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경상남도 양산시 금오13길 38"
   },
   {
     "code": "A10027168",
@@ -1836,7 +2832,13 @@
     "emd": "동면",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2016.11",
+    "dongCnt": "16동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 양산시 금오16길 122"
   },
   {
     "code": "A62682101",
@@ -1847,7 +2849,13 @@
     "emd": "동면",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2003.07",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "경상남도 양산시 석금산로 171"
   },
   {
     "code": "A62682102",
@@ -1858,7 +2866,13 @@
     "emd": "동면",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1992.01",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 석산6길 28"
   },
   {
     "code": "A62682103",
@@ -1869,7 +2883,13 @@
     "emd": "동면",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2006.09",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "경상남도 양산시 석산1길 10"
   },
   {
     "code": "A62682104",
@@ -1880,7 +2900,13 @@
     "emd": "동면",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1995.09",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "경상남도 양산시 계석로 10"
   },
   {
     "code": "A62682106",
@@ -1891,7 +2917,13 @@
     "emd": "동면",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2013.05",
+    "dongCnt": "17동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 양산시 금오13길 71"
   },
   {
     "code": "A62682108",
@@ -1902,7 +2934,13 @@
     "emd": "동면",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2013.05",
+    "dongCnt": "14동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 양산시 금오16길 65"
   },
   {
     "code": "A62682109",
@@ -1913,7 +2951,13 @@
     "emd": "동면",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2013.08",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "경상남도 양산시 금오15길 9"
   },
   {
     "code": "A10021445",
@@ -1924,7 +2968,13 @@
     "emd": "동면",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1992.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "경상남도 양산시 금산3길 7"
   },
   {
     "code": "A62682105",
@@ -1935,7 +2985,13 @@
     "emd": "동면",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2011.05",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 금산2길 12"
   },
   {
     "code": "A10020859",
@@ -1946,7 +3002,13 @@
     "emd": "상북면",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1993.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 양산시 상북중앙로 447"
   },
   {
     "code": "A10021561",
@@ -1957,7 +3019,13 @@
     "emd": "상북면",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1989.04",
+    "dongCnt": "2동",
+    "heat": "",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "경상남도 양산시 반회서3길 28"
   },
   {
     "code": "A10021606",
@@ -1968,7 +3036,13 @@
     "emd": "상북면",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1988.03",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "경상남도 양산시 삼계1길 2"
   },
   {
     "code": "A10022561",
@@ -1979,7 +3053,13 @@
     "emd": "상북면",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2024.12",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 30,
+    "addr": "경상남도 양산시 석계로 15"
   },
   {
     "code": "A62678304",
@@ -1990,7 +3070,13 @@
     "emd": "상북면",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1992.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 반회서7길 20"
   },
   {
     "code": "A62678306",
@@ -2001,7 +3087,13 @@
     "emd": "상북면",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1992.04",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 반회서5길 21"
   },
   {
     "code": "A62685401",
@@ -2012,7 +3104,13 @@
     "emd": "상북면",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1992.04",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 반회서1길 6"
   },
   {
     "code": "A62685402",
@@ -2023,7 +3121,13 @@
     "emd": "상북면",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1992.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "경상남도 양산시 삼계1길 9"
   },
   {
     "code": "A62685403",
@@ -2034,7 +3138,13 @@
     "emd": "상북면",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1992.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 양산시 상북중앙로 437-3"
   },
   {
     "code": "A62678205",
@@ -2045,7 +3155,13 @@
     "emd": "상북면",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1992.08",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 공암길 26"
   },
   {
     "code": "A62685308",
@@ -2056,7 +3172,13 @@
     "emd": "상북면",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2009.05",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 양산대로 1360"
   },
   {
     "code": "A62678407",
@@ -2067,7 +3189,13 @@
     "emd": "상북면",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1994.11",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 양산시 감결길 17"
   },
   {
     "code": "A62686302",
@@ -2078,7 +3206,13 @@
     "emd": "하북면",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "2000.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "경상남도 양산시 통도사로 5"
   },
   {
     "code": "A10021426",
@@ -2089,7 +3223,13 @@
     "emd": "하북면",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1991.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "경상남도 양산시 지산로 27-9"
   },
   {
     "code": "A62686201",
@@ -2100,6 +3240,12 @@
     "emd": "하북면",
     "sigunguCode": "48330",
     "sido": "경상남도",
-    "sigungu": "양산시"
+    "sigungu": "양산시",
+    "built": "1993.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 양산시 용연로 59"
   }
 ]

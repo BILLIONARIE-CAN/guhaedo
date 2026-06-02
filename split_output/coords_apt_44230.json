@@ -8,7 +8,13 @@
     "emd": "화지동",
     "sigunguCode": "44230",
     "sido": "충청남도",
-    "sigungu": "논산시"
+    "sigungu": "논산시",
+    "built": "2018.04",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "충청남도 논산시 해월로 281"
   },
   {
     "code": "A32012001",
@@ -19,7 +25,13 @@
     "emd": "화지동",
     "sigunguCode": "44230",
     "sido": "충청남도",
-    "sigungu": "논산시"
+    "sigungu": "논산시",
+    "built": "2002.07",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "충청남도 논산시 해월로259번길 14"
   },
   {
     "code": "A10020464",
@@ -31,7 +43,13 @@
     "sigunguCode": "44230",
     "sido": "충청남도",
     "sigungu": "논산시",
-    "hhldCnt": 116
+    "hhldCnt": 116,
+    "built": "2002.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": "",
+    "addr": "충청남도 논산시 해월로 137"
   },
   {
     "code": "A10020689",
@@ -43,7 +61,13 @@
     "sigunguCode": "44230",
     "sido": "충청남도",
     "sigungu": "논산시",
-    "hhldCnt": 453
+    "hhldCnt": 453,
+    "built": "2025.02",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "충청남도 논산시 해월로259번길 23"
   },
   {
     "code": "A10027286",
@@ -54,7 +78,13 @@
     "emd": "대교동",
     "sigunguCode": "44230",
     "sido": "충청남도",
-    "sigungu": "논산시"
+    "sigungu": "논산시",
+    "built": "2016.10",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "충청남도 논산시 대화로119번길 11"
   },
   {
     "code": "A10027825",
@@ -65,7 +95,13 @@
     "emd": "대교동",
     "sigunguCode": "44230",
     "sido": "충청남도",
-    "sigungu": "논산시"
+    "sigungu": "논산시",
+    "built": "2015.10",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "충청남도 논산시 대화로133번길 9-14"
   },
   {
     "code": "A32080001",
@@ -76,7 +112,13 @@
     "emd": "대교동",
     "sigunguCode": "44230",
     "sido": "충청남도",
-    "sigungu": "논산시"
+    "sigungu": "논산시",
+    "built": "2009.10",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "충청남도 논산시 대화로 143"
   },
   {
     "code": "A32008001",
@@ -87,7 +129,13 @@
     "emd": "부창동",
     "sigunguCode": "44230",
     "sido": "충청남도",
-    "sigungu": "논산시"
+    "sigungu": "논산시",
+    "built": "1989.08",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "충청남도 논산시 해월로 63-4"
   },
   {
     "code": "A32008003",
@@ -98,7 +146,13 @@
     "emd": "부창동",
     "sigunguCode": "44230",
     "sido": "충청남도",
-    "sigungu": "논산시"
+    "sigungu": "논산시",
+    "built": "1997.02",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "충청남도 논산시 대림길 7"
   },
   {
     "code": "A32075301",
@@ -109,7 +163,13 @@
     "emd": "부창동",
     "sigunguCode": "44230",
     "sido": "충청남도",
-    "sigungu": "논산시"
+    "sigungu": "논산시",
+    "built": "2012.04",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 논산시 부창로 69-5"
   },
   {
     "code": "A10023797",
@@ -120,7 +180,13 @@
     "emd": "취암동",
     "sigunguCode": "44230",
     "sido": "충청남도",
-    "sigungu": "논산시"
+    "sigungu": "논산시",
+    "built": "2021.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "충청남도 논산시 논산대로 344"
   },
   {
     "code": "A10027506",
@@ -131,7 +197,13 @@
     "emd": "취암동",
     "sigunguCode": "44230",
     "sido": "충청남도",
-    "sigungu": "논산시"
+    "sigungu": "논산시",
+    "built": "2016.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "충청남도 논산시 중앙로 281-6"
   },
   {
     "code": "A32080202",
@@ -142,7 +214,13 @@
     "emd": "취암동",
     "sigunguCode": "44230",
     "sido": "충청남도",
-    "sigungu": "논산시"
+    "sigungu": "논산시",
+    "built": "2000.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 논산시 체육로 39"
   },
   {
     "code": "A32080203",
@@ -153,7 +231,13 @@
     "emd": "취암동",
     "sigunguCode": "44230",
     "sido": "충청남도",
-    "sigungu": "논산시"
+    "sigungu": "논산시",
+    "built": "2002.08",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 논산시 중앙로260번길 59-5"
   },
   {
     "code": "A32080205",
@@ -164,7 +248,13 @@
     "emd": "취암동",
     "sigunguCode": "44230",
     "sido": "충청남도",
-    "sigungu": "논산시"
+    "sigungu": "논산시",
+    "built": "2005.07",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "충청남도 논산시 논산대로348번길 7"
   },
   {
     "code": "A32080301",
@@ -175,7 +265,13 @@
     "emd": "취암동",
     "sigunguCode": "44230",
     "sido": "충청남도",
-    "sigungu": "논산시"
+    "sigungu": "논산시",
+    "built": "2007.05",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 논산시 번영로29번길 10"
   },
   {
     "code": "A10022582",
@@ -186,7 +282,13 @@
     "emd": "내동",
     "sigunguCode": "44230",
     "sido": "충청남도",
-    "sigungu": "논산시"
+    "sigungu": "논산시",
+    "built": "2014.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 논산시 체육로 13"
   },
   {
     "code": "A10025700",
@@ -197,7 +299,13 @@
     "emd": "내동",
     "sigunguCode": "44230",
     "sido": "충청남도",
-    "sigungu": "논산시"
+    "sigungu": "논산시",
+    "built": "2019.01",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "충청남도 논산시 시민로132번길 7"
   },
   {
     "code": "A10027811",
@@ -208,7 +316,13 @@
     "emd": "내동",
     "sigunguCode": "44230",
     "sido": "충청남도",
-    "sigungu": "논산시"
+    "sigungu": "논산시",
+    "built": "2015.11",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 19,
+    "addr": "충청남도 논산시 시민로132번길 40-10"
   },
   {
     "code": "A10028189",
@@ -219,7 +333,13 @@
     "emd": "내동",
     "sigunguCode": "44230",
     "sido": "충청남도",
-    "sigungu": "논산시"
+    "sigungu": "논산시",
+    "built": "2014.12",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "충청남도 논산시 대학로65번길 46"
   },
   {
     "code": "A32003002",
@@ -230,7 +350,13 @@
     "emd": "내동",
     "sigunguCode": "44230",
     "sido": "충청남도",
-    "sigungu": "논산시"
+    "sigungu": "논산시",
+    "built": "1994.10",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "충청남도 논산시 체육로 18"
   },
   {
     "code": "A32003003",
@@ -241,7 +367,13 @@
     "emd": "내동",
     "sigunguCode": "44230",
     "sido": "충청남도",
-    "sigungu": "논산시"
+    "sigungu": "논산시",
+    "built": "1994.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "충청남도 논산시 시민로222번길 7"
   },
   {
     "code": "A32003004",
@@ -252,7 +384,13 @@
     "emd": "내동",
     "sigunguCode": "44230",
     "sido": "충청남도",
-    "sigungu": "논산시"
+    "sigungu": "논산시",
+    "built": "1993.11",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "충청남도 논산시 체육로 48-6"
   },
   {
     "code": "A32003007",
@@ -263,7 +401,13 @@
     "emd": "내동",
     "sigunguCode": "44230",
     "sido": "충청남도",
-    "sigungu": "논산시"
+    "sigungu": "논산시",
+    "built": "2003.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 논산시 시민로258번길 22"
   },
   {
     "code": "A32003008",
@@ -274,7 +418,13 @@
     "emd": "내동",
     "sigunguCode": "44230",
     "sido": "충청남도",
-    "sigungu": "논산시"
+    "sigungu": "논산시",
+    "built": "2003.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 논산시 시민로258번길 9"
   },
   {
     "code": "A32003010",
@@ -285,7 +435,13 @@
     "emd": "내동",
     "sigunguCode": "44230",
     "sido": "충청남도",
-    "sigungu": "논산시"
+    "sigungu": "논산시",
+    "built": "1994.11",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "충청남도 논산시 체육로 30"
   },
   {
     "code": "A32071101",
@@ -296,7 +452,13 @@
     "emd": "내동",
     "sigunguCode": "44230",
     "sido": "충청남도",
-    "sigungu": "논산시"
+    "sigungu": "논산시",
+    "built": "2014.03",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 19,
+    "addr": "충청남도 논산시 대학로65번길 19"
   },
   {
     "code": "A32001001",
@@ -307,7 +469,13 @@
     "emd": "강산동",
     "sigunguCode": "44230",
     "sido": "충청남도",
-    "sigungu": "논산시"
+    "sigungu": "논산시",
+    "built": "1995.12",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 논산시 시민로307번길 19"
   },
   {
     "code": "A32001003",
@@ -318,7 +486,13 @@
     "emd": "강산동",
     "sigunguCode": "44230",
     "sido": "충청남도",
-    "sigungu": "논산시"
+    "sigungu": "논산시",
+    "built": "2000.12",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 논산시 논산대로 269-19"
   },
   {
     "code": "A32001004",
@@ -329,7 +503,13 @@
     "emd": "강산동",
     "sigunguCode": "44230",
     "sido": "충청남도",
-    "sigungu": "논산시"
+    "sigungu": "논산시",
+    "built": "1996.01",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "충청남도 논산시 시민로307번길 28"
   },
   {
     "code": "A32090204",
@@ -340,7 +520,13 @@
     "emd": "강경읍",
     "sigunguCode": "44230",
     "sido": "충청남도",
-    "sigungu": "논산시"
+    "sigungu": "논산시",
+    "built": "2000.07",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "충청남도 논산시 대흥로5번길 39"
   },
   {
     "code": "A32090201",
@@ -351,7 +537,13 @@
     "emd": "강경읍",
     "sigunguCode": "44230",
     "sido": "충청남도",
-    "sigungu": "논산시"
+    "sigungu": "논산시",
+    "built": "1993.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 논산시 옥녀봉로27번길 52"
   },
   {
     "code": "A32090203",
@@ -362,7 +554,13 @@
     "emd": "강경읍",
     "sigunguCode": "44230",
     "sido": "충청남도",
-    "sigungu": "논산시"
+    "sigungu": "논산시",
+    "built": "2008.11",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 논산시 금백로 74"
   },
   {
     "code": "A32090101",
@@ -373,7 +571,13 @@
     "emd": "강경읍",
     "sigunguCode": "44230",
     "sido": "충청남도",
-    "sigungu": "논산시"
+    "sigungu": "논산시",
+    "built": "2001.07",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "충청남도 논산시 동안로 96"
   },
   {
     "code": "A10026680",
@@ -384,7 +588,13 @@
     "emd": "연무읍",
     "sigunguCode": "44230",
     "sido": "충청남도",
-    "sigungu": "논산시"
+    "sigungu": "논산시",
+    "built": "2017.10",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "충청남도 논산시 안심로 150-22"
   },
   {
     "code": "A32083303",
@@ -395,7 +605,13 @@
     "emd": "연무읍",
     "sigunguCode": "44230",
     "sido": "충청남도",
-    "sigungu": "논산시"
+    "sigungu": "논산시",
+    "built": "1997.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "충청남도 논산시 동안로 870"
   },
   {
     "code": "A10025740",
@@ -406,7 +622,13 @@
     "emd": "연무읍",
     "sigunguCode": "44230",
     "sido": "충청남도",
-    "sigungu": "논산시"
+    "sigungu": "논산시",
+    "built": "2018.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "충청남도 논산시 동안로828번길 3"
   },
   {
     "code": "A32083802",
@@ -417,6 +639,12 @@
     "emd": "연무읍",
     "sigunguCode": "44230",
     "sido": "충청남도",
-    "sigungu": "논산시"
+    "sigungu": "논산시",
+    "built": "1998.07",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "충청남도 논산시 안심로 250"
   }
 ]

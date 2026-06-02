@@ -4,11 +4,17 @@
     "name": "지안타워",
     "lat": 37.4805005122461,
     "lng": 126.950661761932,
-    "units": 0,
+    "units": 169,
     "emd": "봉천동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2026.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 18,
+    "addr": "서울특별시 관악구 남부순환로218길 17"
   },
   {
     "code": "A10020559",
@@ -20,7 +26,13 @@
     "sigunguCode": "11620",
     "sido": "서울특별시",
     "sigungu": "관악구",
-    "hhldCnt": 123
+    "hhldCnt": 123,
+    "built": "1998.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 관악구 낙성대로 37"
   },
   {
     "code": "A10020665",
@@ -32,7 +44,13 @@
     "sigunguCode": "11620",
     "sido": "서울특별시",
     "sigungu": "관악구",
-    "hhldCnt": 138
+    "hhldCnt": 138,
+    "built": "2006.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 관악구 인헌16다길 14"
   },
   {
     "code": "A10020718",
@@ -44,7 +62,13 @@
     "sigunguCode": "11620",
     "sido": "서울특별시",
     "sigungu": "관악구",
-    "hhldCnt": 140
+    "hhldCnt": 140,
+    "built": "2025.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 4,
+    "addr": "서울특별시 관악구 인헌16가길 38"
   },
   {
     "code": "A10020964",
@@ -55,7 +79,13 @@
     "emd": "봉천동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2024.12",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "서울특별시 관악구 구암5길 28"
   },
   {
     "code": "A10021647",
@@ -66,7 +96,13 @@
     "emd": "봉천동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2012.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 관악구 남부순환로 1773"
   },
   {
     "code": "A10021687",
@@ -77,7 +113,13 @@
     "emd": "봉천동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "1999.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "서울특별시 관악구 봉천로 576"
   },
   {
     "code": "A10021724",
@@ -88,7 +130,13 @@
     "emd": "봉천동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2014.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 관악구 남부순환로 1777-7"
   },
   {
     "code": "A10023372",
@@ -99,7 +147,13 @@
     "emd": "봉천동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2022.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "서울특별시 관악구 봉천동 854-3 BX201 청년주택"
   },
   {
     "code": "A10023490",
@@ -110,7 +164,13 @@
     "emd": "봉천동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "1985.11",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 6,
+    "addr": "서울특별시 관악구 봉천동 1021 일두아파트"
   },
   {
     "code": "A10024514",
@@ -121,7 +181,13 @@
     "emd": "봉천동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2010.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 관악구 관악로 195"
   },
   {
     "code": "A10024638",
@@ -132,7 +198,13 @@
     "emd": "봉천동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2005.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 관악구 관악로28길 80"
   },
   {
     "code": "A10024666",
@@ -143,7 +215,13 @@
     "emd": "봉천동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2015.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 관악구 청림3길 10"
   },
   {
     "code": "A10024894",
@@ -154,7 +232,13 @@
     "emd": "봉천동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2020.04",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 18,
+    "addr": "서울특별시 관악구 참숯1길 19"
   },
   {
     "code": "A10025092",
@@ -165,7 +249,13 @@
     "emd": "봉천동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2019.06",
+    "dongCnt": "19동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 20,
+    "addr": "서울특별시 관악구 청룡16길 43"
   },
   {
     "code": "A10025428",
@@ -176,7 +266,13 @@
     "emd": "봉천동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2019.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 14,
+    "addr": "서울특별시 관악구 참숯5길 7"
   },
   {
     "code": "A10026710",
@@ -187,7 +283,13 @@
     "emd": "봉천동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2013.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 관악구 남부순환로218길 37"
   },
   {
     "code": "A15105002",
@@ -198,7 +300,13 @@
     "emd": "봉천동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "1998.10",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 7,
+    "addr": "서울특별시 관악구 낙성대로15길 66"
   },
   {
     "code": "A15105004",
@@ -209,7 +317,13 @@
     "emd": "봉천동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "1996.04",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 관악구 보라매로 62"
   },
   {
     "code": "A15105005",
@@ -220,7 +334,13 @@
     "emd": "봉천동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "1999.10",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 관악구 관악로 125"
   },
   {
     "code": "A15105006",
@@ -231,7 +351,13 @@
     "emd": "봉천동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2002.02",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 관악구 솔밭로7길 16"
   },
   {
     "code": "A15105007",
@@ -242,7 +368,13 @@
     "emd": "봉천동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "",
+    "dongCnt": "1동",
+    "heat": "",
+    "sale": "",
+    "topFloor": 1,
+    "addr": "서울특별시 관악구 남부순환로230길 117"
   },
   {
     "code": "A15105008",
@@ -253,7 +385,13 @@
     "emd": "봉천동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2014.09",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 관악구 행운10길 21"
   },
   {
     "code": "A15105301",
@@ -264,7 +402,13 @@
     "emd": "봉천동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2004.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "서울특별시 관악구 청림5길 28"
   },
   {
     "code": "A15105302",
@@ -275,7 +419,13 @@
     "emd": "봉천동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2004.08",
+    "dongCnt": "23동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 관악구 관악로30길 27"
   },
   {
     "code": "A15105303",
@@ -286,7 +436,13 @@
     "emd": "봉천동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "1992.04",
+    "dongCnt": "26동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 관악구 관악로 304"
   },
   {
     "code": "A15105503",
@@ -297,7 +453,13 @@
     "emd": "봉천동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2003.09",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 24,
+    "addr": "서울특별시 관악구 구암길 106"
   },
   {
     "code": "A15105602",
@@ -308,7 +470,13 @@
     "emd": "봉천동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2000.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 21,
+    "addr": "서울특별시 관악구 관악로30길 40"
   },
   {
     "code": "A15105603",
@@ -319,7 +487,13 @@
     "emd": "봉천동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2000.12",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "서울특별시 관악구 관악로30길 12"
   },
   {
     "code": "A15106001",
@@ -330,7 +504,13 @@
     "emd": "봉천동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "1999.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "서울특별시 관악구 양녕로6나길 18"
   },
   {
     "code": "A15106101",
@@ -341,7 +521,13 @@
     "emd": "봉천동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2001.06",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "서울특별시 관악구 인헌12길 46-2"
   },
   {
     "code": "A15106103",
@@ -352,7 +538,13 @@
     "emd": "봉천동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2000.09",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 관악구 인헌12길 46-1"
   },
   {
     "code": "A15106901",
@@ -363,7 +555,13 @@
     "emd": "봉천동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2000.12",
+    "dongCnt": "25동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 관악구 봉천로 387"
   },
   {
     "code": "A15176202",
@@ -374,7 +572,13 @@
     "emd": "봉천동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2000.05",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 관악구 관악로 285"
   },
   {
     "code": "A15176602",
@@ -385,7 +589,13 @@
     "emd": "봉천동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "1999.05",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 관악구 관악로 133"
   },
   {
     "code": "A15176603",
@@ -396,7 +606,13 @@
     "emd": "봉천동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "",
+    "dongCnt": "1동",
+    "heat": "",
+    "sale": "",
+    "topFloor": 1,
+    "addr": "서울특별시 관악구 관악로5길 42"
   },
   {
     "code": "A15178201",
@@ -407,7 +623,13 @@
     "emd": "봉천동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2005.06",
+    "dongCnt": "18동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 관악구 은천로 93"
   },
   {
     "code": "A15178202",
@@ -418,7 +640,13 @@
     "emd": "봉천동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2004.12",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 관악구 은천로15길 24"
   },
   {
     "code": "A15178203",
@@ -429,7 +657,13 @@
     "emd": "봉천동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2000.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 23,
+    "addr": "서울특별시 관악구 양녕로 31"
   },
   {
     "code": "A15178204",
@@ -440,7 +674,13 @@
     "emd": "봉천동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2005.07",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 22,
+    "addr": "서울특별시 관악구 양녕로 117"
   },
   {
     "code": "A15180701",
@@ -451,7 +691,13 @@
     "emd": "봉천동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2003.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 관악구 구암5가길 49"
   },
   {
     "code": "A15180705",
@@ -462,7 +708,13 @@
     "emd": "봉천동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2003.09",
+    "dongCnt": "44동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "서울특별시 관악구 성현로 80"
   },
   {
     "code": "A15181602",
@@ -473,7 +725,13 @@
     "emd": "봉천동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "1988.03",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 관악구 인헌길 68"
   },
   {
     "code": "A15184101",
@@ -484,7 +742,13 @@
     "emd": "봉천동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2006.11",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 관악구 청룡길 78"
   },
   {
     "code": "A15192201",
@@ -495,7 +759,13 @@
     "emd": "봉천동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2004.05",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 관악구 은천로33길 5"
   },
   {
     "code": "A15192202",
@@ -506,7 +776,13 @@
     "emd": "봉천동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2000.05",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 24,
+    "addr": "서울특별시 관악구 관악로37길 20"
   },
   {
     "code": "A10020658",
@@ -517,7 +793,13 @@
     "emd": "신림동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2025.04",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 17,
+    "addr": "서울특별시 관악구 약수암길 1-8 "
   },
   {
     "code": "A10020921",
@@ -528,7 +810,13 @@
     "emd": "신림동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2004.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 관악구 양지길 52-1"
   },
   {
     "code": "A10021418",
@@ -539,7 +827,13 @@
     "emd": "신림동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2024.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 1,
+    "addr": "서울특별시 관악구 신림로 99"
   },
   {
     "code": "A10021742",
@@ -550,7 +844,13 @@
     "emd": "신림동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2013.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 11,
+    "addr": "서울특별시 관악구 신림로65길 27"
   },
   {
     "code": "A10022412",
@@ -561,7 +861,13 @@
     "emd": "신림동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "1992.02",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 관악구 미성5길 33"
   },
   {
     "code": "A10022424",
@@ -572,7 +878,13 @@
     "emd": "신림동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2003.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 관악구 조원로11길 24"
   },
   {
     "code": "A10022801",
@@ -583,7 +895,13 @@
     "emd": "신림동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2023.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 22,
+    "addr": "서울특별시 관악구 남부순환로180길 6"
   },
   {
     "code": "A10023661",
@@ -594,7 +912,13 @@
     "emd": "신림동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2022.08",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 35,
+    "addr": "서울특별시 관악구 조원로 25"
   },
   {
     "code": "A10024621",
@@ -605,7 +929,13 @@
     "emd": "신림동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "1995.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 관악구 호암로 541"
   },
   {
     "code": "A10024634",
@@ -616,7 +946,13 @@
     "emd": "신림동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2003.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 관악구 호암로16길 5"
   },
   {
     "code": "A10024749",
@@ -627,7 +963,13 @@
     "emd": "신림동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "1998.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "서울특별시 관악구 신림로3가길 7"
   },
   {
     "code": "A10026910",
@@ -638,7 +980,13 @@
     "emd": "신림동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2004.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 관악구 양지길 50-5"
   },
   {
     "code": "A15101101",
@@ -649,7 +997,13 @@
     "emd": "신림동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "1993.07",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 19,
+    "addr": "서울특별시 관악구 신원로 26"
   },
   {
     "code": "A15101501",
@@ -660,7 +1014,13 @@
     "emd": "신림동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2003.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 관악구 관천로24길 3"
   },
   {
     "code": "A15101503",
@@ -671,7 +1031,13 @@
     "emd": "신림동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2007.02",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 관악구 난곡로 66"
   },
   {
     "code": "A15101504",
@@ -682,7 +1048,13 @@
     "emd": "신림동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2008.03",
+    "dongCnt": "39동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 20,
+    "addr": "서울특별시 관악구 난곡로 55"
   },
   {
     "code": "A15101505",
@@ -693,7 +1065,13 @@
     "emd": "신림동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2005.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 관악구 호암로 519"
   },
   {
     "code": "A15101506",
@@ -704,7 +1082,13 @@
     "emd": "신림동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2000.08",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 관악구 호암로 399"
   },
   {
     "code": "A15101507",
@@ -715,7 +1099,13 @@
     "emd": "신림동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "1995.10",
+    "dongCnt": "7동",
+    "heat": "중앙난방",
+    "sale": "혼합",
+    "topFloor": 23,
+    "addr": "서울특별시 관악구 광신길 160"
   },
   {
     "code": "A15101508",
@@ -726,7 +1116,13 @@
     "emd": "신림동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "1993.05",
+    "dongCnt": "12동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 관악구 신림로29길 8"
   },
   {
     "code": "A15101509",
@@ -737,7 +1133,13 @@
     "emd": "신림동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2007.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 관악구 난곡로 80"
   },
   {
     "code": "A15101702",
@@ -748,7 +1150,13 @@
     "emd": "신림동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2008.03",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "서울특별시 관악구 난곡로 63"
   },
   {
     "code": "A15101802",
@@ -759,7 +1167,13 @@
     "emd": "신림동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2003.04",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 관악구 조원로16길 7"
   },
   {
     "code": "A15101901",
@@ -770,7 +1184,13 @@
     "emd": "신림동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "1997.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 관악구 대학18길 9"
   },
   {
     "code": "A15101903",
@@ -781,7 +1201,13 @@
     "emd": "신림동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "1996.06",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 관악구 신림로3길 40"
   },
   {
     "code": "A15102202",
@@ -792,7 +1218,13 @@
     "emd": "신림동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2006.04",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 관악구 미성3길 16"
   },
   {
     "code": "A15102203",
@@ -803,7 +1235,13 @@
     "emd": "신림동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "1998.02",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 관악구 미성길 122"
   },
   {
     "code": "A15102902",
@@ -814,7 +1252,13 @@
     "emd": "신림동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "1997.05",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 관악구 신림로48길 17-20"
   },
   {
     "code": "A15176701",
@@ -825,7 +1269,13 @@
     "emd": "신림동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "1993.08",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 관악구 호암로 417"
   },
   {
     "code": "A15177101",
@@ -836,7 +1286,13 @@
     "emd": "신림동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "1996.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 관악구 문성로 86"
   },
   {
     "code": "A15178401",
@@ -847,7 +1303,13 @@
     "emd": "신림동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "1996.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "서울특별시 관악구 조원로13길 15"
   },
   {
     "code": "A15179403",
@@ -858,7 +1320,13 @@
     "emd": "신림동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2000.08",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 25,
+    "addr": "서울특별시 관악구 광신길 86"
   },
   {
     "code": "A15179701",
@@ -869,7 +1337,13 @@
     "emd": "신림동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2003.09",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 관악구 난곡로 167"
   },
   {
     "code": "A15185201",
@@ -880,7 +1354,13 @@
     "emd": "신림동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "1998.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 관악구 남부순환로198길 7"
   },
   {
     "code": "A15185704",
@@ -891,7 +1371,13 @@
     "emd": "신림동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "1984.10",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 관악구 문성로 74"
   },
   {
     "code": "A15186002",
@@ -902,7 +1388,13 @@
     "emd": "신림동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "1991.10",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 관악구 대학20길 27"
   },
   {
     "code": "A15187101",
@@ -913,7 +1405,13 @@
     "emd": "신림동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "1999.11",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 24,
+    "addr": "서울특별시 관악구 관천로27길 2"
   },
   {
     "code": "A15188101",
@@ -924,7 +1422,13 @@
     "emd": "신림동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "1988.01",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 관악구 난곡로35길 28-7"
   },
   {
     "code": "A15188801",
@@ -935,7 +1439,13 @@
     "emd": "신림동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "1999.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 18,
+    "addr": "서울특별시 관악구 미성5길 40"
   },
   {
     "code": "A15190301",
@@ -946,7 +1456,13 @@
     "emd": "신림동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "1982.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "서울특별시 관악구 조원로2길 13"
   },
   {
     "code": "A15190705",
@@ -957,7 +1473,13 @@
     "emd": "신림동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2005.06",
+    "dongCnt": "23동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 관악구 남부순환로 1430"
   },
   {
     "code": "A10021899",
@@ -968,7 +1490,13 @@
     "emd": "남현동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2007.03",
+    "dongCnt": "3동",
+    "heat": "",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 관악구 승방길 66"
   },
   {
     "code": "A10025511",
@@ -979,7 +1507,13 @@
     "emd": "남현동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2003.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 관악구 남현길 144"
   },
   {
     "code": "A15108001",
@@ -990,7 +1524,13 @@
     "emd": "남현동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2005.03",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 11,
+    "addr": "서울특별시 관악구 남부순환로256라길 25"
   },
   {
     "code": "A15108003",
@@ -1001,6 +1541,12 @@
     "emd": "남현동",
     "sigunguCode": "11620",
     "sido": "서울특별시",
-    "sigungu": "관악구"
+    "sigungu": "관악구",
+    "built": "2004.12",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 관악구 남현길 91"
   }
 ]

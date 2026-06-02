@@ -8,7 +8,13 @@
     "emd": "무주읍",
     "sigunguCode": "52730",
     "sido": "전북특별자치도",
-    "sigungu": "무주군"
+    "sigungu": "무주군",
+    "built": "2016.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "전북특별자치도 무주군 신교로 49"
   },
   {
     "code": "A56880001",
@@ -19,7 +25,13 @@
     "emd": "무주읍",
     "sigunguCode": "52730",
     "sido": "전북특별자치도",
-    "sigungu": "무주군"
+    "sigungu": "무주군",
+    "built": "2009.09",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "전북특별자치도 무주군 무주읍 읍내리 1190-1 무주남대천휴먼시아"
   },
   {
     "code": "A56880601",
@@ -30,6 +42,12 @@
     "emd": "무주읍",
     "sigunguCode": "52730",
     "sido": "전북특별자치도",
-    "sigungu": "무주군"
+    "sigungu": "무주군",
+    "built": "2001.01",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "전북특별자치도 무주군 신교로3길 10"
   }
 ]

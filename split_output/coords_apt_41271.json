@@ -8,7 +8,13 @@
     "emd": "이동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구"
+    "sigungu": "안산시 상록구",
+    "built": "2003.03",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 안산시 상록구 안산천남1로 100"
   },
   {
     "code": "A42685702",
@@ -19,7 +25,13 @@
     "emd": "이동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구"
+    "sigungu": "안산시 상록구",
+    "built": "2001.12",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 안산시 상록구 안산천남1로 70"
   },
   {
     "code": "A10020657",
@@ -30,8 +42,13 @@
     "emd": "사동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구",
-    "hhldCnt": 106
+    "sigungu": "안산시 상록구",
+    "built": "2000.05",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "경기도 안산시 상록구 삼리로 86"
   },
   {
     "code": "A10024584",
@@ -42,7 +59,13 @@
     "emd": "사동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구"
+    "sigungu": "안산시 상록구",
+    "built": "2020.10",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 49,
+    "addr": "경기도 안산시 상록구 해양5로 17"
   },
   {
     "code": "A10025014",
@@ -53,7 +76,13 @@
     "emd": "사동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구"
+    "sigungu": "안산시 상록구",
+    "built": "2020.02",
+    "dongCnt": "14동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 49,
+    "addr": "경기도 안산시 상록구 해양4로 31"
   },
   {
     "code": "A10025108",
@@ -64,7 +93,13 @@
     "emd": "사동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구"
+    "sigungu": "안산시 상록구",
+    "built": "2019.12",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 46,
+    "addr": "경기도 안산시 상록구 항가울로 28"
   },
   {
     "code": "A42617204",
@@ -75,7 +110,13 @@
     "emd": "사동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구"
+    "sigungu": "안산시 상록구",
+    "built": "1994.07",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "경기도 안산시 상록구 감골2로 58"
   },
   {
     "code": "A42617206",
@@ -86,7 +127,13 @@
     "emd": "사동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구"
+    "sigungu": "안산시 상록구",
+    "built": "1994.08",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 안산시 상록구 선진로 114"
   },
   {
     "code": "A42617209",
@@ -97,7 +144,13 @@
     "emd": "사동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구"
+    "sigungu": "안산시 상록구",
+    "built": "1992.11",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 안산시 상록구 선진로 108"
   },
   {
     "code": "A42673901",
@@ -108,7 +161,13 @@
     "emd": "사동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구"
+    "sigungu": "안산시 상록구",
+    "built": "2000.01",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "경기도 안산시 상록구 용하공원로 39"
   },
   {
     "code": "A42682401",
@@ -119,7 +178,13 @@
     "emd": "사동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구"
+    "sigungu": "안산시 상록구",
+    "built": "1994.10",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "경기도 안산시 상록구 감골1로 43"
   },
   {
     "code": "A42682402",
@@ -130,7 +195,13 @@
     "emd": "사동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구"
+    "sigungu": "안산시 상록구",
+    "built": "1994.10",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "경기도 안산시 상록구 감골로 83"
   },
   {
     "code": "A42682403",
@@ -141,7 +212,13 @@
     "emd": "사동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구"
+    "sigungu": "안산시 상록구",
+    "built": "1995.02",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "경기도 안산시 상록구 감골2로 12"
   },
   {
     "code": "A42682405",
@@ -152,7 +229,13 @@
     "emd": "사동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구"
+    "sigungu": "안산시 상록구",
+    "built": "1994.05",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "경기도 안산시 상록구 감골2로 11"
   },
   {
     "code": "A42682407",
@@ -163,7 +246,13 @@
     "emd": "사동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구"
+    "sigungu": "안산시 상록구",
+    "built": "1994.08",
+    "dongCnt": "15동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "경기도 안산시 상록구 감골2로 47"
   },
   {
     "code": "A42682408",
@@ -174,7 +263,13 @@
     "emd": "사동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구"
+    "sigungu": "안산시 상록구",
+    "built": "1993.10",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "경기도 안산시 상록구 감골로 59"
   },
   {
     "code": "A42689401",
@@ -185,7 +280,13 @@
     "emd": "사동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구"
+    "sigungu": "안산시 상록구",
+    "built": "2000.05",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "경기도 안산시 상록구 중보로 16"
   },
   {
     "code": "A42689402",
@@ -196,7 +297,13 @@
     "emd": "사동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구"
+    "sigungu": "안산시 상록구",
+    "built": "2000.05",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 안산시 상록구 용하공원로 7"
   },
   {
     "code": "A42689405",
@@ -207,7 +314,13 @@
     "emd": "사동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구"
+    "sigungu": "안산시 상록구",
+    "built": "1999.11",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 안산시 상록구 중보로 22"
   },
   {
     "code": "A42689406",
@@ -218,7 +331,13 @@
     "emd": "사동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구"
+    "sigungu": "안산시 상록구",
+    "built": "2000.05",
+    "dongCnt": "21동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 안산시 상록구 광덕4로 460"
   },
   {
     "code": "A42690101",
@@ -229,7 +348,13 @@
     "emd": "사동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구"
+    "sigungu": "안산시 상록구",
+    "built": "1999.11",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 안산시 상록구 삼리로 23"
   },
   {
     "code": "A42690102",
@@ -240,7 +365,13 @@
     "emd": "사동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구"
+    "sigungu": "안산시 상록구",
+    "built": "2005.07",
+    "dongCnt": "23동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "경기도 안산시 상록구 해양1로 11"
   },
   {
     "code": "A42690103",
@@ -251,7 +382,13 @@
     "emd": "사동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구"
+    "sigungu": "안산시 상록구",
+    "built": "2007.09",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "경기도 안산시 상록구 해양로 16"
   },
   {
     "code": "A42690104",
@@ -262,7 +399,13 @@
     "emd": "사동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구"
+    "sigungu": "안산시 상록구",
+    "built": "2005.12",
+    "dongCnt": "18동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "경기도 안산시 상록구 해양1로 30"
   },
   {
     "code": "A42690105",
@@ -273,7 +416,13 @@
     "emd": "사동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구"
+    "sigungu": "안산시 상록구",
+    "built": "1999.11",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 안산시 상록구 삼리로 24"
   },
   {
     "code": "A42618201",
@@ -284,7 +433,13 @@
     "emd": "본오동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구"
+    "sigungu": "안산시 상록구",
+    "built": "1993.06",
+    "dongCnt": "25동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 안산시 상록구 반석로 44"
   },
   {
     "code": "A42672901",
@@ -295,7 +450,13 @@
     "emd": "본오동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구"
+    "sigungu": "안산시 상록구",
+    "built": "1990.12",
+    "dongCnt": "35동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "경기도 안산시 상록구 반석로 8"
   },
   {
     "code": "A42681501",
@@ -306,7 +467,13 @@
     "emd": "본오동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구"
+    "sigungu": "안산시 상록구",
+    "built": "1996.08",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 안산시 상록구 본삼로 8"
   },
   {
     "code": "A42681502",
@@ -317,7 +484,13 @@
     "emd": "본오동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구"
+    "sigungu": "안산시 상록구",
+    "built": "1991.07",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 안산시 상록구 충장로 198"
   },
   {
     "code": "A42681503",
@@ -328,7 +501,13 @@
     "emd": "본오동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구"
+    "sigungu": "안산시 상록구",
+    "built": "1993.05",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "경기도 안산시 상록구 반석로 9"
   },
   {
     "code": "A42681504",
@@ -339,7 +518,13 @@
     "emd": "본오동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구"
+    "sigungu": "안산시 상록구",
+    "built": "1988.12",
+    "dongCnt": "28동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "경기도 안산시 상록구 본삼로 48"
   },
   {
     "code": "A42681505",
@@ -350,7 +535,13 @@
     "emd": "본오동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구"
+    "sigungu": "안산시 상록구",
+    "built": "1990.03",
+    "dongCnt": "15동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 안산시 상록구 본오로 145"
   },
   {
     "code": "A10026018",
@@ -361,7 +552,13 @@
     "emd": "성포동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구"
+    "sigungu": "안산시 상록구",
+    "built": "2018.09",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 35,
+    "addr": "경기도 안산시 상록구 화랑로 534"
   },
   {
     "code": "A42683701",
@@ -372,7 +569,13 @@
     "emd": "성포동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구"
+    "sigungu": "안산시 상록구",
+    "built": "1989.03",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "경기도 안산시 상록구 성포로 31"
   },
   {
     "code": "A42683703",
@@ -383,7 +586,13 @@
     "emd": "성포동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구"
+    "sigungu": "안산시 상록구",
+    "built": "1985.11",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 안산시 상록구 화랑로 510"
   },
   {
     "code": "A42683704",
@@ -394,7 +603,13 @@
     "emd": "성포동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구"
+    "sigungu": "안산시 상록구",
+    "built": "1987.06",
+    "dongCnt": "15동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 안산시 상록구 화랑로 527"
   },
   {
     "code": "A42683705",
@@ -405,7 +620,13 @@
     "emd": "성포동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구"
+    "sigungu": "안산시 상록구",
+    "built": "1985.12",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 안산시 상록구 화랑로 495"
   },
   {
     "code": "A42683706",
@@ -416,7 +637,13 @@
     "emd": "성포동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구"
+    "sigungu": "안산시 상록구",
+    "built": "1990.12",
+    "dongCnt": "21동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "경기도 안산시 상록구 예술광장1로 131"
   },
   {
     "code": "A42683707",
@@ -427,7 +654,13 @@
     "emd": "성포동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구"
+    "sigungu": "안산시 상록구",
+    "built": "1994.11",
+    "dongCnt": "33동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 안산시 상록구 충장로 533"
   },
   {
     "code": "A42685302",
@@ -438,7 +671,13 @@
     "emd": "월피동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구"
+    "sigungu": "안산시 상록구",
+    "built": "1995.11",
+    "dongCnt": "24동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "경기도 안산시 상록구 안산천동로 146"
   },
   {
     "code": "A42685303",
@@ -449,7 +688,13 @@
     "emd": "월피동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구"
+    "sigungu": "안산시 상록구",
+    "built": "1989.07",
+    "dongCnt": "18동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 안산시 상록구 안산천동로1길 29"
   },
   {
     "code": "A42685304",
@@ -460,7 +705,13 @@
     "emd": "월피동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구"
+    "sigungu": "안산시 상록구",
+    "built": "1993.05",
+    "dongCnt": "14동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 안산시 상록구 충장로 565"
   },
   {
     "code": "A42685305",
@@ -471,7 +722,13 @@
     "emd": "월피동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구"
+    "sigungu": "안산시 상록구",
+    "built": "1994.06",
+    "dongCnt": "8동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 안산시 상록구 안산천동로 146"
   },
   {
     "code": "A42685306",
@@ -482,7 +739,13 @@
     "emd": "월피동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구"
+    "sigungu": "안산시 상록구",
+    "built": "1990.02",
+    "dongCnt": "23동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 안산시 상록구 안산천동로1길 9"
   },
   {
     "code": "A42620001",
@@ -493,7 +756,13 @@
     "emd": "팔곡일동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구"
+    "sigungu": "안산시 상록구",
+    "built": "2005.12",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 13,
+    "addr": "경기도 안산시 상록구 정동1길 3"
   },
   {
     "code": "A10020325",
@@ -504,8 +773,13 @@
     "emd": "건건동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구",
-    "hhldCnt": 165
+    "sigungu": "안산시 상록구",
+    "built": "2013.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 7,
+    "addr": "경기도 안산시 상록구 건건로 119-9"
   },
   {
     "code": "A10020563",
@@ -516,8 +790,13 @@
     "emd": "건건동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구",
-    "hhldCnt": 133
+    "sigungu": "안산시 상록구",
+    "built": "2024.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 130,
+    "addr": "경기도 안산시 상록구 건건1길 16"
   },
   {
     "code": "A10020802",
@@ -528,7 +807,13 @@
     "emd": "건건동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구"
+    "sigungu": "안산시 상록구",
+    "built": "2025.02",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 34,
+    "addr": "경기도 안산시 상록구 건지미길 28"
   },
   {
     "code": "A10024858",
@@ -539,7 +824,13 @@
     "emd": "건건동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구"
+    "sigungu": "안산시 상록구",
+    "built": "2020.06",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "경기도 안산시 상록구 건건로 82"
   },
   {
     "code": "A42621002",
@@ -550,7 +841,13 @@
     "emd": "건건동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구"
+    "sigungu": "안산시 상록구",
+    "built": "1998.09",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "경기도 안산시 상록구 건건5길 10"
   },
   {
     "code": "A42621003",
@@ -561,7 +858,13 @@
     "emd": "건건동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구"
+    "sigungu": "안산시 상록구",
+    "built": "2006.09",
+    "dongCnt": "19동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 30,
+    "addr": "경기도 안산시 상록구 건건8길 10"
   },
   {
     "code": "A42622001",
@@ -572,7 +875,13 @@
     "emd": "사사동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구"
+    "sigungu": "안산시 상록구",
+    "built": "2002.04",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "경기도 안산시 상록구 양지마을1길 81"
   },
   {
     "code": "A10021461",
@@ -583,6 +892,12 @@
     "emd": "장상동",
     "sigunguCode": "41271",
     "sido": "경기도",
-    "sigungu": "안산시 단원구"
+    "sigungu": "안산시 상록구",
+    "built": "1995.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "경기도 안산시 상록구 청룡길 25"
   }
 ]

@@ -8,7 +8,13 @@
     "emd": "충정로2가",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "1992.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 서대문구 충정로7길 30"
   },
   {
     "code": "A10022194",
@@ -19,7 +25,13 @@
     "emd": "충정로3가",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2008.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 서대문구 경기대로 26-7"
   },
   {
     "code": "A10024966",
@@ -30,7 +42,13 @@
     "emd": "충정로3가",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2020.01",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 26,
+    "addr": "서울특별시 서대문구 경기대로 26-26"
   },
   {
     "code": "A12070201",
@@ -41,7 +59,13 @@
     "emd": "충정로3가",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2004.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 서대문구 서소문로 27"
   },
   {
     "code": "A12003001",
@@ -52,7 +76,13 @@
     "emd": "합동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2008.10",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 서대문구 서소문로 43-8"
   },
   {
     "code": "A12005001",
@@ -63,7 +93,13 @@
     "emd": "냉천동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2002.03",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 서대문구 독립문로14길 74"
   },
   {
     "code": "A12070101",
@@ -74,7 +110,13 @@
     "emd": "냉천동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2011.04",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서대문구 독립문로14길 33"
   },
   {
     "code": "A12004001",
@@ -85,7 +127,13 @@
     "emd": "천연동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2006.03",
+    "dongCnt": "15동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 서대문구 독립문로8길 54"
   },
   {
     "code": "A12007001",
@@ -96,7 +144,13 @@
     "emd": "영천동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "1995.06",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 서대문구 독립문로 10"
   },
   {
     "code": "A12008001",
@@ -107,7 +161,13 @@
     "emd": "현저동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2000.12",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서대문구 통일로 279-75"
   },
   {
     "code": "A12008003",
@@ -118,7 +178,13 @@
     "emd": "현저동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "1998.12",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 서대문구 독립문공원길 17"
   },
   {
     "code": "A12079601",
@@ -129,7 +195,13 @@
     "emd": "현저동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "1998.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 서대문구 독립문공원길 17"
   },
   {
     "code": "A10023016",
@@ -140,7 +212,13 @@
     "emd": "북아현동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "1996.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "서울특별시 서대문구 북아현로 40"
   },
   {
     "code": "A10024719",
@@ -151,7 +229,13 @@
     "emd": "북아현동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2020.08",
+    "dongCnt": "15동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 20,
+    "addr": "서울특별시 서대문구 이화여대8길 123"
   },
   {
     "code": "A10026370",
@@ -162,7 +246,13 @@
     "emd": "북아현동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2018.05",
+    "dongCnt": "22동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 34,
+    "addr": "서울특별시 서대문구 북아현로1길 17"
   },
   {
     "code": "A10027851",
@@ -173,7 +263,13 @@
     "emd": "북아현동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2015.10",
+    "dongCnt": "16동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 20,
+    "addr": "서울특별시 서대문구 북아현로1길 50"
   },
   {
     "code": "A12079501",
@@ -184,7 +280,13 @@
     "emd": "북아현동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "1999.03",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 서대문구 이화여대8길 62"
   },
   {
     "code": "A10020829",
@@ -195,7 +297,13 @@
     "emd": "홍제동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2001.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 서대문구 홍제내2길 67"
   },
   {
     "code": "A10021965",
@@ -206,7 +314,13 @@
     "emd": "홍제동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "1975.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": "",
+    "addr": "서울특별시 서대문구 모래내로 453"
   },
   {
     "code": "A10023330",
@@ -217,7 +331,13 @@
     "emd": "홍제동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2001.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 서대문구 통일로 357"
   },
   {
     "code": "A10023560",
@@ -228,7 +348,13 @@
     "emd": "홍제동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2022.10",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 18,
+    "addr": "서울특별시 서대문구 통일로 339"
   },
   {
     "code": "A10023959",
@@ -239,7 +365,13 @@
     "emd": "홍제동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2024.03",
+    "dongCnt": "18동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 20,
+    "addr": "서울특별시 서대문구 세무서8길 30"
   },
   {
     "code": "A10024620",
@@ -250,7 +382,13 @@
     "emd": "홍제동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2006.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서대문구 홍제동 467 인왕산어울림 아파트"
   },
   {
     "code": "A10025767",
@@ -262,7 +400,13 @@
     "sigunguCode": "11410",
     "sido": "서울특별시",
     "sigungu": "서대문구",
-    "hhldCnt": 906
+    "hhldCnt": 906,
+    "built": "2020.06",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 18,
+    "addr": "서울특별시 서대문구 통일로 395"
   },
   {
     "code": "A10027681",
@@ -273,7 +417,13 @@
     "emd": "홍제동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2016.02",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 13,
+    "addr": "서울특별시 서대문구 모래내로 411"
   },
   {
     "code": "A12009001",
@@ -284,7 +434,13 @@
     "emd": "홍제동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "1996.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 서대문구 세검정로 134"
   },
   {
     "code": "A12009002",
@@ -295,7 +451,13 @@
     "emd": "홍제동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2009.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서대문구 통일로 397"
   },
   {
     "code": "A12009101",
@@ -306,7 +468,13 @@
     "emd": "홍제동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "1999.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 서대문구 홍제내길 168"
   },
   {
     "code": "A12009102",
@@ -317,7 +485,13 @@
     "emd": "홍제동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "1992.07",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서대문구 통일로39가길 57"
   },
   {
     "code": "A12009201",
@@ -328,7 +502,13 @@
     "emd": "홍제동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "1998.05",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 서대문구 모래내로 430"
   },
   {
     "code": "A12009202",
@@ -339,7 +519,13 @@
     "emd": "홍제동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2001.06",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서대문구 통일로 319"
   },
   {
     "code": "A12009203",
@@ -350,7 +536,13 @@
     "emd": "홍제동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "1994.06",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 서대문구 통일로 348"
   },
   {
     "code": "A12009302",
@@ -361,7 +553,13 @@
     "emd": "홍제동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2003.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 서대문구 세무서길 106-12"
   },
   {
     "code": "A12009303",
@@ -372,7 +570,13 @@
     "emd": "홍제동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "1996.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서대문구 세무서2길 64"
   },
   {
     "code": "A12009304",
@@ -383,7 +587,13 @@
     "emd": "홍제동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "1996.08",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 18,
+    "addr": "서울특별시 서대문구 세검정로 134"
   },
   {
     "code": "A12009305",
@@ -394,7 +604,13 @@
     "emd": "홍제동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2002.11",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 서대문구 문화촌길 6-24"
   },
   {
     "code": "A12076401",
@@ -405,7 +621,13 @@
     "emd": "홍제동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2006.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서대문구 세무서8길 49"
   },
   {
     "code": "A12078201",
@@ -416,7 +638,13 @@
     "emd": "홍제동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2000.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 18,
+    "addr": "서울특별시 서대문구 통일로34길 46"
   },
   {
     "code": "A12078704",
@@ -427,7 +655,13 @@
     "emd": "홍제동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2000.06",
+    "dongCnt": "15동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 서대문구 통일로34길 43"
   },
   {
     "code": "A12078705",
@@ -438,7 +672,13 @@
     "emd": "홍제동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2000.07",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 서대문구 통일로34길 46"
   },
   {
     "code": "A12078706",
@@ -449,7 +689,13 @@
     "emd": "홍제동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2001.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 서대문구 통일로 332"
   },
   {
     "code": "A12078707",
@@ -460,7 +706,13 @@
     "emd": "홍제동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2000.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 18,
+    "addr": "서울특별시 서대문구 통일로34길 43"
   },
   {
     "code": "A12085303",
@@ -471,7 +723,13 @@
     "emd": "홍제동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "1993.05",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서대문구 통일로25길 30"
   },
   {
     "code": "A12086001",
@@ -482,7 +740,13 @@
     "emd": "홍제동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "1998.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 서대문구 세검정로3길 63"
   },
   {
     "code": "A12017001",
@@ -493,7 +757,13 @@
     "emd": "대현동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "1999.02",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서대문구 이화여대길 50-12"
   },
   {
     "code": "A10025822",
@@ -504,7 +774,13 @@
     "emd": "연희동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2018.12",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 19,
+    "addr": "서울특별시 서대문구 홍제천로 136"
   },
   {
     "code": "A12011002",
@@ -515,7 +791,13 @@
     "emd": "연희동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2002.07",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 서대문구 연희로 38-20"
   },
   {
     "code": "A12071101",
@@ -526,7 +808,13 @@
     "emd": "연희동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2001.05",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 서대문구 연희로32길 48"
   },
   {
     "code": "A12071102",
@@ -537,7 +825,13 @@
     "emd": "연희동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "1999.02",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 서대문구 동교로 291"
   },
   {
     "code": "A12071103",
@@ -548,7 +842,13 @@
     "emd": "연희동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "1993.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "서울특별시 서대문구 연희로32길 20"
   },
   {
     "code": "A12071104",
@@ -559,7 +859,13 @@
     "emd": "연희동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2014.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 서대문구 연희로5길 14"
   },
   {
     "code": "A10020562",
@@ -570,7 +876,13 @@
     "emd": "홍은동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2025.06",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "서울특별시 서대문구 홍은중앙로11길 31"
   },
   {
     "code": "A10023449",
@@ -581,7 +893,13 @@
     "emd": "홍은동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2023.09",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "서울특별시 서대문구 통일로 505"
   },
   {
     "code": "A10023482",
@@ -592,7 +910,13 @@
     "emd": "홍은동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2023.12",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 14,
+    "addr": "서울특별시 서대문구 가좌로4길 21"
   },
   {
     "code": "A10023562",
@@ -603,7 +927,13 @@
     "emd": "홍은동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "1997.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 서대문구 홍은중앙로 81"
   },
   {
     "code": "A10024532",
@@ -614,7 +944,13 @@
     "emd": "홍은동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2021.09",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 14,
+    "addr": "서울특별시 서대문구 홍은중앙로1길 100"
   },
   {
     "code": "A10025166",
@@ -625,7 +961,13 @@
     "emd": "홍은동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2020.07",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 21,
+    "addr": "서울특별시 서대문구 홍은중앙로3길 9"
   },
   {
     "code": "A10026604",
@@ -636,7 +978,13 @@
     "emd": "홍은동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2017.12",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 20,
+    "addr": "서울특별시 서대문구 통일로 510"
   },
   {
     "code": "A12010001",
@@ -647,7 +995,13 @@
     "emd": "홍은동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2012.09",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 13,
+    "addr": "서울특별시 서대문구 홍은중앙로1길 65"
   },
   {
     "code": "A12010101",
@@ -658,7 +1012,13 @@
     "emd": "홍은동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "1988.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 서대문구 통일로48가길 37"
   },
   {
     "code": "A12010103",
@@ -669,7 +1029,13 @@
     "emd": "홍은동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "1990.12",
+    "dongCnt": "3동",
+    "heat": "개별난방+기타",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서대문구 세검정로1길 35"
   },
   {
     "code": "A12010104",
@@ -680,7 +1046,13 @@
     "emd": "홍은동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "1997.09",
+    "dongCnt": "17동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "서울특별시 서대문구 세검정로1길 95"
   },
   {
     "code": "A12010202",
@@ -691,7 +1063,13 @@
     "emd": "홍은동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2002.11",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 서대문구 홍은중앙로 149"
   },
   {
     "code": "A12010203",
@@ -702,7 +1080,13 @@
     "emd": "홍은동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "1995.11",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 서대문구 포방터10길 33"
   },
   {
     "code": "A12071001",
@@ -713,7 +1097,13 @@
     "emd": "홍은동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "1997.10",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서대문구 모래내로 309"
   },
   {
     "code": "A12071002",
@@ -724,7 +1114,13 @@
     "emd": "홍은동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2009.08",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 서대문구 통일로 553"
   },
   {
     "code": "A12071003",
@@ -735,7 +1131,13 @@
     "emd": "홍은동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "1985.03",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 서대문구 연희로41길 102"
   },
   {
     "code": "A12071004",
@@ -746,7 +1148,13 @@
     "emd": "홍은동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2018.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서대문구 모래내로 319"
   },
   {
     "code": "A12084302",
@@ -757,7 +1165,13 @@
     "emd": "홍은동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "1987.10",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 서대문구 홍은중앙로1길 33"
   },
   {
     "code": "A12084504",
@@ -768,7 +1182,13 @@
     "emd": "홍은동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "1988.07",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서대문구 연희로 377"
   },
   {
     "code": "A10024428",
@@ -779,7 +1199,13 @@
     "emd": "북가좌동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2005.10",
+    "dongCnt": "2동",
+    "heat": "",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 서대문구 수색로 147-1"
   },
   {
     "code": "A12013001",
@@ -790,7 +1216,13 @@
     "emd": "북가좌동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2008.12",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서대문구 거북골로18가길 23"
   },
   {
     "code": "A12013002",
@@ -801,7 +1233,13 @@
     "emd": "북가좌동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2009.03",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "서울특별시 서대문구 거북골로14길 32"
   },
   {
     "code": "A12013003",
@@ -812,7 +1250,13 @@
     "emd": "북가좌동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2012.10",
+    "dongCnt": "51동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 35,
+    "addr": "서울특별시 서대문구 수색로 100"
   },
   {
     "code": "A12013101",
@@ -823,7 +1267,13 @@
     "emd": "북가좌동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2000.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서대문구 응암로 33"
   },
   {
     "code": "A12013201",
@@ -834,7 +1284,13 @@
     "emd": "북가좌동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2007.02",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서대문구 증가로 200-8"
   },
   {
     "code": "A12013202",
@@ -845,7 +1301,13 @@
     "emd": "북가좌동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "1996.02",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 서대문구 거북골로 154"
   },
   {
     "code": "A12076601",
@@ -856,7 +1318,13 @@
     "emd": "북가좌동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "1996.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 18,
+    "addr": "서울특별시 서대문구 거북골로 154"
   },
   {
     "code": "A12081602",
@@ -867,7 +1335,13 @@
     "emd": "북가좌동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "1998.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 서대문구 수색로 154"
   },
   {
     "code": "A12081703",
@@ -878,7 +1352,13 @@
     "emd": "북가좌동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "1987.08",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서대문구 응암로 28"
   },
   {
     "code": "A10020267",
@@ -889,7 +1369,13 @@
     "emd": "남가좌동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2025.11",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 27,
+    "addr": "서울특별시 서대문구 수색로4나길 11"
   },
   {
     "code": "A10023709",
@@ -900,7 +1386,13 @@
     "emd": "남가좌동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2024.01",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "서울특별시 서대문구 수색로2길 39"
   },
   {
     "code": "A10024938",
@@ -911,7 +1403,13 @@
     "emd": "남가좌동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2020.04",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 25,
+    "addr": "서울특별시 서대문구 거북골로 100"
   },
   {
     "code": "A10025130",
@@ -922,7 +1420,13 @@
     "emd": "남가좌동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2019.12",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 24,
+    "addr": "서울특별시 서대문구 거북골로 84"
   },
   {
     "code": "A10025976",
@@ -933,7 +1437,13 @@
     "emd": "남가좌동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2018.12",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 22,
+    "addr": "서울특별시 서대문구 증가로 150"
   },
   {
     "code": "A10027019",
@@ -944,7 +1454,13 @@
     "emd": "남가좌동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2017.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서대문구 모래내로 151"
   },
   {
     "code": "A10027817",
@@ -955,7 +1471,13 @@
     "emd": "남가좌동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2015.10",
+    "dongCnt": "61동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 33,
+    "addr": "서울특별시 서대문구 가재울미래로 2"
   },
   {
     "code": "A12012001",
@@ -966,7 +1488,13 @@
     "emd": "남가좌동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2005.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 서대문구 거북골로 91-6"
   },
   {
     "code": "A12012101",
@@ -977,7 +1505,13 @@
     "emd": "남가좌동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2005.10",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 서대문구 수색로6길 43"
   },
   {
     "code": "A12012201",
@@ -988,7 +1522,13 @@
     "emd": "남가좌동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2000.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 17,
+    "addr": "서울특별시 서대문구 증가로 191"
   },
   {
     "code": "A12012202",
@@ -999,7 +1539,13 @@
     "emd": "남가좌동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2000.12",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 서대문구 증가로 191"
   },
   {
     "code": "A12012203",
@@ -1010,7 +1556,13 @@
     "emd": "남가좌동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "1999.05",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 서대문구 가재울로 45"
   },
   {
     "code": "A12072801",
@@ -1021,7 +1573,13 @@
     "emd": "남가좌동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "2009.06",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "서울특별시 서대문구 거북골로 120"
   },
   {
     "code": "A12072802",
@@ -1032,6 +1590,12 @@
     "emd": "남가좌동",
     "sigunguCode": "11410",
     "sido": "서울특별시",
-    "sigungu": "서대문구"
+    "sigungu": "서대문구",
+    "built": "1999.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 18,
+    "addr": "서울특별시 서대문구 가재울로 45"
   }
 ]

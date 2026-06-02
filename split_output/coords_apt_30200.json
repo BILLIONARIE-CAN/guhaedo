@@ -8,7 +8,13 @@
     "emd": "원내동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "1998.10",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 유성구 진잠로42번길 30"
   },
   {
     "code": "A30572401",
@@ -19,7 +25,13 @@
     "emd": "원내동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "1996.12",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "대전광역시 유성구 원내로 52"
   },
   {
     "code": "A30575703",
@@ -30,7 +42,13 @@
     "emd": "원내동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "1995.10",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 유성구 진잠로42번길 88"
   },
   {
     "code": "A30525001",
@@ -41,7 +59,13 @@
     "emd": "교촌동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2005.08",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 유성구 진잠로149번길 24"
   },
   {
     "code": "A30525002",
@@ -52,7 +76,13 @@
     "emd": "교촌동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2006.11",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대전광역시 유성구 진잠로149번길 30"
   },
   {
     "code": "A30525101",
@@ -63,7 +93,13 @@
     "emd": "대정동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2006.03",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 유성구 대정로28번안길 80"
   },
   {
     "code": "A30525102",
@@ -74,7 +110,13 @@
     "emd": "대정동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2004.08",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 유성구 대정로28번길 50"
   },
   {
     "code": "A10023923",
@@ -85,7 +127,13 @@
     "emd": "용계동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2022.02",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 18,
+    "addr": "대전광역시 서구 계백로 1111"
   },
   {
     "code": "A10020221",
@@ -96,7 +144,13 @@
     "emd": "학하동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2026.02",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 34,
+    "addr": "대전광역시 유성구 동서대로 383"
   },
   {
     "code": "A10023656",
@@ -107,7 +161,13 @@
     "emd": "학하동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2022.08",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 29,
+    "addr": "대전광역시 유성구 학하동 787 학하리슈빌포레공공지원민간임대주택"
   },
   {
     "code": "A10026194",
@@ -118,7 +178,13 @@
     "emd": "계산동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2018.06",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "대전광역시 유성구 학하중앙로 99"
   },
   {
     "code": "A30536501",
@@ -129,7 +195,13 @@
     "emd": "계산동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2011.08",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "대전광역시 유성구 학하로 33"
   },
   {
     "code": "A30536502",
@@ -140,7 +212,13 @@
     "emd": "계산동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2011.10",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "대전광역시 유성구 학하남로 10"
   },
   {
     "code": "A10021595",
@@ -151,7 +229,13 @@
     "emd": "봉명동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2020.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "대전광역시 유성구 문화원로146번길 7-21"
   },
   {
     "code": "A10021907",
@@ -162,7 +246,13 @@
     "emd": "봉명동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2011.10",
+    "dongCnt": "1동",
+    "heat": "",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "대전광역시 유성구 문화원로 109"
   },
   {
     "code": "A10021973",
@@ -173,7 +263,13 @@
     "emd": "봉명동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2004.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "대전광역시 유성구 온천북로 73"
   },
   {
     "code": "A10022025",
@@ -184,7 +280,13 @@
     "emd": "봉명동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2011.04",
+    "dongCnt": "1동",
+    "heat": "",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 유성구 문화원로 107"
   },
   {
     "code": "A10022132",
@@ -195,7 +297,13 @@
     "emd": "봉명동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2004.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 11,
+    "addr": "대전광역시 유성구 문화원로 131"
   },
   {
     "code": "A10022363",
@@ -206,7 +314,13 @@
     "emd": "봉명동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2013.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 13,
+    "addr": "대전광역시 유성구 온천로107번길 15"
   },
   {
     "code": "A10023659",
@@ -217,7 +331,13 @@
     "emd": "봉명동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2022.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 16,
+    "addr": "대전광역시 유성구 문화원로 94"
   },
   {
     "code": "A10024157",
@@ -228,7 +348,13 @@
     "emd": "봉명동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2018.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "대전광역시 유성구 문화원로146번길 2"
   },
   {
     "code": "A10025040",
@@ -239,7 +365,13 @@
     "emd": "봉명동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2019.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대전광역시 유성구 대학로 39-10"
   },
   {
     "code": "A10026461",
@@ -250,7 +382,13 @@
     "emd": "봉명동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2018.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 유성구 온천북로13번길 21"
   },
   {
     "code": "A10027169",
@@ -261,7 +399,13 @@
     "emd": "봉명동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2016.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대전광역시 유성구 온천북로 7"
   },
   {
     "code": "A10027192",
@@ -272,7 +416,13 @@
     "emd": "봉명동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2016.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 8,
+    "addr": "대전광역시 유성구 온천북로33번길 35-17"
   },
   {
     "code": "A10028053",
@@ -283,7 +433,13 @@
     "emd": "봉명동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2015.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "대전광역시 유성구 대학로 45"
   },
   {
     "code": "A10028076",
@@ -294,7 +450,13 @@
     "emd": "봉명동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2015.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 유성구 계룡로105번길 20"
   },
   {
     "code": "A30530101",
@@ -305,7 +467,13 @@
     "emd": "봉명동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2008.01",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "대전광역시 유성구 계룡로 92"
   },
   {
     "code": "A30530102",
@@ -316,7 +484,13 @@
     "emd": "봉명동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2006.04",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 유성구 계룡로 64"
   },
   {
     "code": "A30530103",
@@ -327,7 +501,13 @@
     "emd": "봉명동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2006.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "대전광역시 유성구 대학로 34"
   },
   {
     "code": "A30530104",
@@ -338,7 +518,13 @@
     "emd": "봉명동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2010.08",
+    "dongCnt": "14동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 25,
+    "addr": "대전광역시 유성구 도안대로 560"
   },
   {
     "code": "A30530105",
@@ -349,7 +535,13 @@
     "emd": "봉명동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2010.10",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 39,
+    "addr": "대전광역시 유성구 계룡로 55"
   },
   {
     "code": "A30530106",
@@ -360,7 +552,13 @@
     "emd": "봉명동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2010.10",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "대전광역시 유성구 봉명로 93"
   },
   {
     "code": "A30530107",
@@ -371,7 +569,13 @@
     "emd": "봉명동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2004.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "대전광역시 유성구 문화원로 119"
   },
   {
     "code": "A30530108",
@@ -382,7 +586,13 @@
     "emd": "봉명동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2011.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 유성구 계룡로74번길 20"
   },
   {
     "code": "A30530109",
@@ -393,7 +603,13 @@
     "emd": "봉명동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2012.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 유성구 문화원로 80"
   },
   {
     "code": "A30530110",
@@ -404,7 +620,13 @@
     "emd": "봉명동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2013.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 유성구 계룡로 84"
   },
   {
     "code": "A30530111",
@@ -415,7 +637,13 @@
     "emd": "봉명동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2013.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 35,
+    "addr": "대전광역시 유성구 온천로 60"
   },
   {
     "code": "A30530112",
@@ -426,7 +654,13 @@
     "emd": "봉명동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2013.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 유성구 온천로 26"
   },
   {
     "code": "A30530113",
@@ -437,7 +671,13 @@
     "emd": "봉명동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2014.02",
+    "dongCnt": "16동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "대전광역시 유성구 도안동로 523"
   },
   {
     "code": "A30530114",
@@ -448,7 +688,13 @@
     "emd": "봉명동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2014.06",
+    "dongCnt": "15동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "대전광역시 유성구 봉명로 94"
   },
   {
     "code": "A30530115",
@@ -459,7 +705,13 @@
     "emd": "봉명동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2014.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "대전광역시 유성구 계룡로52번길 11"
   },
   {
     "code": "A30530116",
@@ -470,7 +722,13 @@
     "emd": "봉명동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2014.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "대전광역시 유성구 온천로 45"
   },
   {
     "code": "A10022344",
@@ -481,7 +739,13 @@
     "emd": "구암동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "1993.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "대전광역시 유성구 계룡로60번길 86"
   },
   {
     "code": "A10022671",
@@ -492,7 +756,13 @@
     "emd": "구암동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2024.03",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 12,
+    "addr": "대전광역시 유성구 복합환승로 12"
   },
   {
     "code": "A30580101",
@@ -503,7 +773,13 @@
     "emd": "구암동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "1991.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "대전광역시 유성구 유성대로668번길 29"
   },
   {
     "code": "A30580102",
@@ -514,7 +790,13 @@
     "emd": "구암동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "1995.02",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 유성구 월드컵대로253번길 37"
   },
   {
     "code": "A10025232",
@@ -525,7 +807,13 @@
     "emd": "덕명동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2019.10",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "대전광역시 유성구 학하중앙로 60"
   },
   {
     "code": "A30571901",
@@ -536,7 +824,13 @@
     "emd": "덕명동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2010.05",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "대전광역시 유성구 덕명로 26"
   },
   {
     "code": "A30571902",
@@ -547,7 +841,13 @@
     "emd": "덕명동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2010.05",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "대전광역시 유성구 덕명로 63"
   },
   {
     "code": "A10020327",
@@ -558,7 +858,13 @@
     "emd": "원신흥동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2025.10",
+    "dongCnt": "15동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대전광역시 유성구 원신흥로 122-12"
   },
   {
     "code": "A10022968",
@@ -569,7 +875,13 @@
     "emd": "원신흥동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2023.10",
+    "dongCnt": "18동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대전광역시 유성구 도안동로 422"
   },
   {
     "code": "A10025190",
@@ -580,7 +892,13 @@
     "emd": "원신흥동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2019.11",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "대전광역시 유성구 원신흥남로27번길 68"
   },
   {
     "code": "A10027314",
@@ -591,7 +909,13 @@
     "emd": "원신흥동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2016.10",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 21,
+    "addr": "대전광역시 유성구 봉명로 16"
   },
   {
     "code": "A10027869",
@@ -602,7 +926,13 @@
     "emd": "원신흥동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2015.10",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 유성구 도안동로 446"
   },
   {
     "code": "A30531501",
@@ -613,7 +943,13 @@
     "emd": "원신흥동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2010.09",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 25,
+    "addr": "대전광역시 유성구 원신흥로 37"
   },
   {
     "code": "A30531502",
@@ -624,7 +960,13 @@
     "emd": "원신흥동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2011.10",
+    "dongCnt": "12동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "대전광역시 유성구 동서대로 725"
   },
   {
     "code": "A30531503",
@@ -635,7 +977,13 @@
     "emd": "원신흥동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2012.07",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 30,
+    "addr": "대전광역시 유성구 봉명로 48"
   },
   {
     "code": "A10021802",
@@ -646,7 +994,13 @@
     "emd": "상대동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2002.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 유성구 월드컵대로290번길 25"
   },
   {
     "code": "A10024070",
@@ -657,7 +1011,13 @@
     "emd": "상대동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2021.10",
+    "dongCnt": "12동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 35,
+    "addr": "대전광역시 유성구 상대복용로29번길 51"
   },
   {
     "code": "A10024092",
@@ -668,7 +1028,13 @@
     "emd": "상대동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2021.10",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 34,
+    "addr": "대전광역시 유성구 상대복용로29번길 52"
   },
   {
     "code": "A30531301",
@@ -679,7 +1045,13 @@
     "emd": "상대동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2000.11",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "대전광역시 유성구 월드컵대로290번길 20"
   },
   {
     "code": "A30531302",
@@ -690,7 +1062,13 @@
     "emd": "상대동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2010.11",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 25,
+    "addr": "대전광역시 유성구 상대로 40"
   },
   {
     "code": "A30531303",
@@ -701,7 +1079,13 @@
     "emd": "상대동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2011.06",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "대전광역시 유성구 상대로 17"
   },
   {
     "code": "A30531304",
@@ -712,7 +1096,13 @@
     "emd": "상대동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2011.11",
+    "dongCnt": "24동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 30,
+    "addr": "대전광역시 유성구 상대남로 26"
   },
   {
     "code": "A30531305",
@@ -723,7 +1113,13 @@
     "emd": "상대동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2014.06",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "대전광역시 유성구 상대로 16"
   },
   {
     "code": "A10020406",
@@ -735,7 +1131,13 @@
     "sigunguCode": "30200",
     "sido": "대전광역시",
     "sigungu": "유성구",
-    "hhldCnt": 800
+    "hhldCnt": 800,
+    "built": "2025.10",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "대전광역시 유성구 월드컵남로 16"
   },
   {
     "code": "A10021054",
@@ -746,7 +1148,13 @@
     "emd": "장대동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2005.08",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 유성구 장대로 103"
   },
   {
     "code": "A10021478",
@@ -757,7 +1165,13 @@
     "emd": "장대동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2004.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "대전광역시 유성구 유성대로736번길 62"
   },
   {
     "code": "A10021976",
@@ -768,7 +1182,13 @@
     "emd": "장대동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2003.11",
+    "dongCnt": "1동",
+    "heat": "",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "대전광역시 유성구 유성대로730번길 78"
   },
   {
     "code": "A10023450",
@@ -779,7 +1199,13 @@
     "emd": "장대동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2004.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 유성구 장대동 376-2 성원상떼빌아파트"
   },
   {
     "code": "A30530801",
@@ -790,7 +1216,13 @@
     "emd": "장대동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2002.04",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "대전광역시 유성구 유성대로783번길 38"
   },
   {
     "code": "A30530802",
@@ -801,7 +1233,13 @@
     "emd": "장대동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2006.12",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 유성구 장대로71번길 34"
   },
   {
     "code": "A30530803",
@@ -812,7 +1250,13 @@
     "emd": "장대동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2002.04",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 유성구 문화원로 13"
   },
   {
     "code": "A30532502",
@@ -823,7 +1267,13 @@
     "emd": "노은동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2002.08",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대전광역시 유성구 은구비남로 56"
   },
   {
     "code": "A30532503",
@@ -834,7 +1284,13 @@
     "emd": "노은동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2001.05",
+    "dongCnt": "16동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "대전광역시 유성구 은구비남로 34"
   },
   {
     "code": "A30576801",
@@ -845,7 +1301,13 @@
     "emd": "노은동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2003.09",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "대전광역시 유성구 왕가봉로 23"
   },
   {
     "code": "A30576802",
@@ -856,7 +1318,13 @@
     "emd": "노은동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2005.12",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "대전광역시 유성구 노은동로 111"
   },
   {
     "code": "A30576803",
@@ -867,7 +1335,13 @@
     "emd": "노은동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2005.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 유성구 노은로 71"
   },
   {
     "code": "A10021146",
@@ -878,7 +1352,13 @@
     "emd": "지족동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2005.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 유성구 은구비남로33번길 5"
   },
   {
     "code": "A10025642",
@@ -889,7 +1369,13 @@
     "emd": "지족동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2005.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "대전광역시 유성구 지족로364번길 91"
   },
   {
     "code": "A10026886",
@@ -900,7 +1386,13 @@
     "emd": "지족동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2017.06",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대전광역시 유성구 지족로190번길 36"
   },
   {
     "code": "A10026987",
@@ -911,7 +1403,13 @@
     "emd": "지족동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2017.04",
+    "dongCnt": "17동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 9,
+    "addr": "대전광역시 유성구 지족로 92"
   },
   {
     "code": "A10027932",
@@ -922,7 +1420,13 @@
     "emd": "지족동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2015.08",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "대전광역시 유성구 지족로190번길 16"
   },
   {
     "code": "A10027947",
@@ -933,7 +1437,13 @@
     "emd": "지족동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2015.08",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 18,
+    "addr": "대전광역시 유성구 지족로190번길 15"
   },
   {
     "code": "A10027997",
@@ -944,7 +1454,13 @@
     "emd": "지족동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2015.06",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 19,
+    "addr": "대전광역시 유성구 지족로148번길 22"
   },
   {
     "code": "A10028062",
@@ -955,7 +1471,13 @@
     "emd": "지족동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2015.05",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 31,
+    "addr": "대전광역시 유성구 지족동로 124"
   },
   {
     "code": "A10028100",
@@ -966,7 +1488,13 @@
     "emd": "지족동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2015.01",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 19,
+    "addr": "대전광역시 유성구 지족로190번길 39"
   },
   {
     "code": "A30533001",
@@ -977,7 +1505,13 @@
     "emd": "지족동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2006.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 유성구 은구비남로 13"
   },
   {
     "code": "A30533003",
@@ -988,7 +1522,13 @@
     "emd": "지족동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2001.06",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "대전광역시 유성구 은구비로 31"
   },
   {
     "code": "A30533004",
@@ -999,7 +1539,13 @@
     "emd": "지족동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2001.10",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "대전광역시 유성구 노은서로 222"
   },
   {
     "code": "A30533005",
@@ -1010,7 +1556,13 @@
     "emd": "지족동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2005.02",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "대전광역시 유성구 지족로 317"
   },
   {
     "code": "A30533006",
@@ -1021,7 +1573,13 @@
     "emd": "지족동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2005.11",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "대전광역시 유성구 지족로 343"
   },
   {
     "code": "A30533007",
@@ -1032,7 +1590,13 @@
     "emd": "지족동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2000.12",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대전광역시 유성구 노은동로 187"
   },
   {
     "code": "A30533008",
@@ -1043,7 +1607,13 @@
     "emd": "지족동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2000.11",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대전광역시 유성구 노은동로 219"
   },
   {
     "code": "A30533009",
@@ -1054,7 +1624,13 @@
     "emd": "지족동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2006.02",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대전광역시 유성구 지족로 362"
   },
   {
     "code": "A30533010",
@@ -1065,7 +1641,13 @@
     "emd": "지족동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2000.12",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "대전광역시 유성구 은구비남로 55"
   },
   {
     "code": "A30533011",
@@ -1076,7 +1658,13 @@
     "emd": "지족동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2001.12",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "대전광역시 유성구 노은서로210번길 32"
   },
   {
     "code": "A30571101",
@@ -1087,7 +1675,13 @@
     "emd": "지족동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2004.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 유성구 은구비로 18"
   },
   {
     "code": "A30571102",
@@ -1098,7 +1692,13 @@
     "emd": "지족동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2007.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 유성구 북유성대로 219"
   },
   {
     "code": "A30571103",
@@ -1109,7 +1709,13 @@
     "emd": "지족동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2012.06",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "대전광역시 유성구 지족로148번길 40"
   },
   {
     "code": "A30571104",
@@ -1120,7 +1726,13 @@
     "emd": "지족동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2014.02",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 35,
+    "addr": "대전광역시 유성구 지족북로 60"
   },
   {
     "code": "A30571105",
@@ -1131,7 +1743,13 @@
     "emd": "지족동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2014.02",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 35,
+    "addr": "대전광역시 유성구 지족북로 33"
   },
   {
     "code": "A30571106",
@@ -1142,7 +1760,13 @@
     "emd": "지족동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2014.06",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대전광역시 유성구 지족로 240"
   },
   {
     "code": "A30571107",
@@ -1153,7 +1777,13 @@
     "emd": "지족동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2014.06",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대전광역시 유성구 지족동로 123"
   },
   {
     "code": "A30576902",
@@ -1164,7 +1794,13 @@
     "emd": "지족동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2001.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "대전광역시 유성구 노은동로 233"
   },
   {
     "code": "A10027008",
@@ -1175,7 +1811,13 @@
     "emd": "죽동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2017.04",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 33,
+    "addr": "대전광역시 유성구 죽동로 39"
   },
   {
     "code": "A10027471",
@@ -1186,7 +1828,13 @@
     "emd": "죽동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2016.05",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 21,
+    "addr": "대전광역시 유성구 죽동로 72"
   },
   {
     "code": "A10027538",
@@ -1197,7 +1845,13 @@
     "emd": "죽동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2016.05",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 30,
+    "addr": "대전광역시 유성구 죽동로 321"
   },
   {
     "code": "A10028011",
@@ -1208,7 +1862,13 @@
     "emd": "죽동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2015.06",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "대전광역시 유성구 죽동로 251"
   },
   {
     "code": "A10020932",
@@ -1219,7 +1879,13 @@
     "emd": "궁동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2022.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 1,
+    "addr": "대전광역시 유성구 궁동로 71"
   },
   {
     "code": "A30533501",
@@ -1230,7 +1896,13 @@
     "emd": "궁동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "1995.01",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "대전광역시 유성구 궁동로 5"
   },
   {
     "code": "A30533502",
@@ -1241,7 +1913,13 @@
     "emd": "궁동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "1998.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "대전광역시 유성구 궁동로 49"
   },
   {
     "code": "A30575501",
@@ -1252,7 +1930,13 @@
     "emd": "어은동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "1992.12",
+    "dongCnt": "34동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "대전광역시 유성구 어은로 57"
   },
   {
     "code": "A30570702",
@@ -1263,7 +1947,13 @@
     "emd": "신성동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "1992.12",
+    "dongCnt": "10동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "대전광역시 유성구 가정로 43"
   },
   {
     "code": "A30572003",
@@ -1274,7 +1964,13 @@
     "emd": "신성동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "1993.03",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 유성구 가정로 65"
   },
   {
     "code": "A30572101",
@@ -1285,7 +1981,13 @@
     "emd": "신성동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "1993.01",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 유성구 가정로 63"
   },
   {
     "code": "A10024701",
@@ -1296,7 +1998,13 @@
     "emd": "가정동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2020.08",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "대전광역시 유성구 대덕대로541번길 99"
   },
   {
     "code": "A10025041",
@@ -1307,7 +2015,13 @@
     "emd": "도룡동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2019.12",
+    "dongCnt": "1동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 11,
+    "addr": "대전광역시 유성구 대덕대로 524"
   },
   {
     "code": "A10025905",
@@ -1318,7 +2032,13 @@
     "emd": "도룡동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "1991.09",
+    "dongCnt": "8동",
+    "heat": "개별난방+기타",
+    "sale": "사택 및 관사 등",
+    "topFloor": 11,
+    "addr": "대전광역시 유성구 대덕대로603번길 20"
   },
   {
     "code": "A10026041",
@@ -1329,7 +2049,13 @@
     "emd": "도룡동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2018.08",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "대전광역시 유성구 가정로 306-6"
   },
   {
     "code": "A30534002",
@@ -1340,7 +2066,13 @@
     "emd": "도룡동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "1989.10",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "대전광역시 유성구 대덕대로541번길 68"
   },
   {
     "code": "A30534006",
@@ -1351,7 +2083,13 @@
     "emd": "도룡동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2008.12",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 38,
+    "addr": "대전광역시 유성구 엑스포로123번길 65-38"
   },
   {
     "code": "A30535801",
@@ -1362,7 +2100,13 @@
     "emd": "하기동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2006.06",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "대전광역시 유성구 노은로426번길 15"
   },
   {
     "code": "A30535802",
@@ -1373,7 +2117,13 @@
     "emd": "하기동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2004.09",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "대전광역시 유성구 송림로 20"
   },
   {
     "code": "A30535803",
@@ -1384,7 +2134,13 @@
     "emd": "하기동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2006.07",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "대전광역시 유성구 노은로 416"
   },
   {
     "code": "A30535804",
@@ -1395,7 +2151,13 @@
     "emd": "하기동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2005.06",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "대전광역시 유성구 노은로 353"
   },
   {
     "code": "A30575905",
@@ -1406,7 +2168,13 @@
     "emd": "하기동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2005.05",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 23,
+    "addr": "대전광역시 유성구 노은로 358"
   },
   {
     "code": "A30575906",
@@ -1417,7 +2185,13 @@
     "emd": "하기동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2005.02",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "대전광역시 유성구 송림로 13"
   },
   {
     "code": "A10024883",
@@ -1428,7 +2202,13 @@
     "emd": "반석동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2020.04",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "대전광역시 유성구 반석로 80"
   },
   {
     "code": "A30515001",
@@ -1439,7 +2219,13 @@
     "emd": "반석동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2005.08",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "대전광역시 유성구 반석동로 33"
   },
   {
     "code": "A30515002",
@@ -1450,7 +2236,13 @@
     "emd": "반석동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2005.04",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "대전광역시 유성구 반석서로 98"
   },
   {
     "code": "A30515003",
@@ -1461,7 +2253,13 @@
     "emd": "반석동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2005.11",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 23,
+    "addr": "대전광역시 유성구 반석동로 82"
   },
   {
     "code": "A30515004",
@@ -1472,7 +2270,13 @@
     "emd": "반석동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2004.11",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "대전광역시 유성구 반석서로 109"
   },
   {
     "code": "A30515005",
@@ -1483,7 +2287,13 @@
     "emd": "반석동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2004.10",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 22,
+    "addr": "대전광역시 유성구 반석로 46"
   },
   {
     "code": "A10027053",
@@ -1494,7 +2304,13 @@
     "emd": "문지동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2017.04",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "대전광역시 유성구 문지로 300"
   },
   {
     "code": "A30572701",
@@ -1505,7 +2321,13 @@
     "emd": "전민동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "1993.05",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 유성구 전민로 71"
   },
   {
     "code": "A30572803",
@@ -1516,7 +2338,13 @@
     "emd": "전민동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "1994.09",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 유성구 유성대로 1741"
   },
   {
     "code": "A30572902",
@@ -1527,7 +2355,13 @@
     "emd": "전민동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "1994.11",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "대전광역시 유성구 엑스포로 501"
   },
   {
     "code": "A30581204",
@@ -1538,7 +2372,13 @@
     "emd": "전민동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "1994.05",
+    "dongCnt": "51동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "대전광역시 유성구 엑스포로 448"
   },
   {
     "code": "A10022593",
@@ -1549,7 +2389,13 @@
     "emd": "용산동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2024.04",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 35,
+    "addr": "대전광역시 유성구 용성로 21"
   },
   {
     "code": "A10022619",
@@ -1560,7 +2406,13 @@
     "emd": "용산동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2024.04",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 35,
+    "addr": "대전광역시 유성구 용산1로 99"
   },
   {
     "code": "A10023287",
@@ -1571,7 +2423,13 @@
     "emd": "용산동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2023.03",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 35,
+    "addr": "대전광역시 유성구 용성로 20"
   },
   {
     "code": "A10023291",
@@ -1582,7 +2440,13 @@
     "emd": "용산동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2023.03",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 31,
+    "addr": "대전광역시 유성구 용산1로 83"
   },
   {
     "code": "A30550003",
@@ -1593,7 +2457,13 @@
     "emd": "용산동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2008.01",
+    "dongCnt": "17동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 7,
+    "addr": "대전광역시 유성구 용산2로 30"
   },
   {
     "code": "A30550004",
@@ -1604,7 +2474,13 @@
     "emd": "용산동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2008.01",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 유성구 배울2로 114"
   },
   {
     "code": "A30550005",
@@ -1615,7 +2491,13 @@
     "emd": "용산동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2007.05",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 유성구 배울1로 119"
   },
   {
     "code": "A30579201",
@@ -1626,7 +2508,13 @@
     "emd": "용산동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2008.06",
+    "dongCnt": "16동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 7,
+    "addr": "대전광역시 유성구 배울2로 134"
   },
   {
     "code": "A10023836",
@@ -1637,7 +2525,13 @@
     "emd": "봉산동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2022.03",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "대전광역시 유성구 와룡로 206"
   },
   {
     "code": "A10025493",
@@ -1648,7 +2542,13 @@
     "emd": "봉산동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2019.05",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 25,
+    "addr": "대전광역시 유성구 와룡로136번길 97"
   },
   {
     "code": "A30550601",
@@ -1659,7 +2559,13 @@
     "emd": "봉산동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2009.09",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "대전광역시 유성구 와룡로136번길 15"
   },
   {
     "code": "A30550602",
@@ -1670,7 +2576,13 @@
     "emd": "봉산동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2009.07",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 25,
+    "addr": "대전광역시 유성구 와룡로136번길 75"
   },
   {
     "code": "A30550901",
@@ -1681,7 +2593,13 @@
     "emd": "관평동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2008.01",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "대전광역시 유성구 배울2로 19"
   },
   {
     "code": "A30550902",
@@ -1692,7 +2610,13 @@
     "emd": "관평동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2007.12",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "대전광역시 유성구 배울2로 3"
   },
   {
     "code": "A30550903",
@@ -1703,7 +2627,13 @@
     "emd": "관평동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2007.12",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "대전광역시 유성구 관평1로 12"
   },
   {
     "code": "A30550904",
@@ -1714,7 +2644,13 @@
     "emd": "관평동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2006.02",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "대전광역시 유성구 배울1로 35"
   },
   {
     "code": "A30550905",
@@ -1725,7 +2661,13 @@
     "emd": "관평동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2006.02",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "대전광역시 유성구 배울2로 24"
   },
   {
     "code": "A30550906",
@@ -1736,7 +2678,13 @@
     "emd": "관평동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2006.02",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "대전광역시 유성구 배울2로 6"
   },
   {
     "code": "A30550907",
@@ -1747,7 +2695,13 @@
     "emd": "관평동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2006.02",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "대전광역시 유성구 배울1로 13"
   },
   {
     "code": "A30550908",
@@ -1758,7 +2712,13 @@
     "emd": "관평동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2006.02",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "대전광역시 유성구 배울2로 78"
   },
   {
     "code": "A30550909",
@@ -1769,7 +2729,13 @@
     "emd": "관평동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2006.02",
+    "dongCnt": "16동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "대전광역시 유성구 배울2로 42"
   },
   {
     "code": "A30550910",
@@ -1780,7 +2746,13 @@
     "emd": "관평동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2008.01",
+    "dongCnt": "16동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "대전광역시 유성구 배울2로 61"
   },
   {
     "code": "A30575105",
@@ -1791,7 +2763,13 @@
     "emd": "송강동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "1996.10",
+    "dongCnt": "19동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 유성구 구즉로 25"
   },
   {
     "code": "A30575206",
@@ -1802,7 +2780,13 @@
     "emd": "송강동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "1995.08",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 유성구 송강로42번길 61"
   },
   {
     "code": "A30580201",
@@ -1813,7 +2797,13 @@
     "emd": "송강동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "1994.07",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "대전광역시 유성구 봉산로 45"
   },
   {
     "code": "A30580202",
@@ -1824,7 +2814,13 @@
     "emd": "송강동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "1994.10",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 유성구 봉산로 39"
   },
   {
     "code": "A30580303",
@@ -1835,7 +2831,13 @@
     "emd": "송강동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "1995.05",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 유성구 송강로 15"
   },
   {
     "code": "A30580304",
@@ -1846,7 +2848,13 @@
     "emd": "송강동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "1999.04",
+    "dongCnt": "15동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "대전광역시 유성구 구즉로 16"
   },
   {
     "code": "A10023507",
@@ -1857,7 +2865,13 @@
     "emd": "둔곡동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2022.11",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 28,
+    "addr": "대전광역시 유성구 과학성장로 77"
   },
   {
     "code": "A10023531",
@@ -1868,7 +2882,13 @@
     "emd": "둔곡동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2022.11",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "대전광역시 유성구 과학성장로 33"
   },
   {
     "code": "A10023535",
@@ -1879,6 +2899,12 @@
     "emd": "둔곡동",
     "sigunguCode": "30200",
     "sido": "대전광역시",
-    "sigungu": "유성구"
+    "sigungu": "유성구",
+    "built": "2022.10",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "대전광역시 유성구 과학성장로 80"
   }
 ]

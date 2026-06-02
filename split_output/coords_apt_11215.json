@@ -8,7 +8,13 @@
     "emd": "중곡동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "2025.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 16,
+    "addr": "서울특별시 광진구 천호대로 643"
   },
   {
     "code": "A10020402",
@@ -20,7 +26,13 @@
     "sigunguCode": "11215",
     "sido": "서울특별시",
     "sigungu": "광진구",
-    "hhldCnt": 123
+    "hhldCnt": 123,
+    "built": "1976.10",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "서울특별시 광진구 긴고랑로1길 55"
   },
   {
     "code": "A10023395",
@@ -31,7 +43,13 @@
     "emd": "중곡동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "2022.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 19,
+    "addr": "서울특별시 광진구 천호대로 517"
   },
   {
     "code": "A14322001",
@@ -42,7 +60,13 @@
     "emd": "중곡동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "1999.11",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 광진구 용마산로 174"
   },
   {
     "code": "A14322002",
@@ -53,7 +77,13 @@
     "emd": "중곡동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "1998.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 광진구 동일로 459"
   },
   {
     "code": "A10020269",
@@ -64,7 +94,13 @@
     "emd": "구의동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "2000.09",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 9,
+    "addr": "서울특별시 광진구 자양로26길 71"
   },
   {
     "code": "A10021381",
@@ -75,7 +111,13 @@
     "emd": "구의동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "2010.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 광진구 천호대로 716"
   },
   {
     "code": "A10023951",
@@ -86,7 +128,13 @@
     "emd": "구의동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "2021.12",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 35,
+    "addr": "서울특별시 광진구 광나루로 458"
   },
   {
     "code": "A10024667",
@@ -97,7 +145,13 @@
     "emd": "구의동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "2002.01",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 광진구 구의강변로 84"
   },
   {
     "code": "A10025573",
@@ -108,7 +162,13 @@
     "emd": "구의동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "2005.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 광진구 아차산로 451"
   },
   {
     "code": "A10025985",
@@ -119,7 +179,13 @@
     "emd": "구의동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "2018.09",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 광진구 광나루로 545"
   },
   {
     "code": "A10026874",
@@ -130,7 +196,13 @@
     "emd": "구의동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "2017.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "서울특별시 광진구 아차산로 431"
   },
   {
     "code": "A14320001",
@@ -141,7 +213,13 @@
     "emd": "구의동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "1997.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 광진구 구의강변로3가길 39"
   },
   {
     "code": "A14320002",
@@ -152,7 +230,13 @@
     "emd": "구의동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "2004.01",
+    "dongCnt": "2동",
+    "heat": "개별난방+기타",
+    "sale": "분양",
+    "topFloor": 37,
+    "addr": "서울특별시 광진구 구의강변로 64"
   },
   {
     "code": "A14320003",
@@ -163,7 +247,13 @@
     "emd": "구의동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "2006.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 광진구 구의강변로 102"
   },
   {
     "code": "A14320302",
@@ -174,7 +264,13 @@
     "emd": "구의동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "1992.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 광진구 구의강변로 42"
   },
   {
     "code": "A14320304",
@@ -185,7 +281,13 @@
     "emd": "구의동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "1997.03",
+    "dongCnt": "15동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 30,
+    "addr": "서울특별시 광진구 광나루로56길 29"
   },
   {
     "code": "A14382101",
@@ -196,7 +298,13 @@
     "emd": "구의동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "2001.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 광진구 구의강변로 106"
   },
   {
     "code": "A14383203",
@@ -207,7 +315,13 @@
     "emd": "구의동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "1994.04",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 광진구 구의강변로 94"
   },
   {
     "code": "A14383205",
@@ -218,7 +332,13 @@
     "emd": "구의동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "1996.12",
+    "dongCnt": "15동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "서울특별시 광진구 광나루로56길 32"
   },
   {
     "code": "A10020376",
@@ -230,7 +350,13 @@
     "sigunguCode": "11215",
     "sido": "서울특별시",
     "sigungu": "광진구",
-    "hhldCnt": 128
+    "hhldCnt": 128,
+    "built": "2025.08",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 광진구 구천면로 25"
   },
   {
     "code": "A10023281",
@@ -241,7 +367,13 @@
     "emd": "광장동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "2011.02",
+    "dongCnt": "1동",
+    "heat": "",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 광진구 아차산로78길 7"
   },
   {
     "code": "A10024751",
@@ -252,7 +384,13 @@
     "emd": "광장동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "2008.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 광진구 광나루로 595"
   },
   {
     "code": "A10026162",
@@ -263,7 +401,13 @@
     "emd": "광장동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "1997.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 광진구 아차산로 540"
   },
   {
     "code": "A14375301",
@@ -274,7 +418,13 @@
     "emd": "광장동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "2012.03",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 광진구 아차산로 537-17"
   },
   {
     "code": "A14375302",
@@ -285,7 +435,13 @@
     "emd": "광장동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "1987.03",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 11,
+    "addr": "서울특별시 광진구 아차산로78길 12"
   },
   {
     "code": "A14375303",
@@ -296,7 +452,13 @@
     "emd": "광장동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "2004.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 광진구 천호대로 808"
   },
   {
     "code": "A14380211",
@@ -307,7 +469,13 @@
     "emd": "광장동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "1978.11",
+    "dongCnt": "14동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 광진구 아차산로 637"
   },
   {
     "code": "A14380409",
@@ -318,7 +486,13 @@
     "emd": "광장동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "1985.09",
+    "dongCnt": "5동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 광진구 아차산로 552"
   },
   {
     "code": "A14380414",
@@ -329,7 +503,13 @@
     "emd": "광장동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "1989.03",
+    "dongCnt": "11동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 광진구 아차산로 552"
   },
   {
     "code": "A14380605",
@@ -340,7 +520,13 @@
     "emd": "광장동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "2007.10",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 광진구 아차산로 599"
   },
   {
     "code": "A14381407",
@@ -351,7 +537,13 @@
     "emd": "광장동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "1996.04",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 광진구 아차산로76길 31"
   },
   {
     "code": "A14381415",
@@ -362,7 +554,13 @@
     "emd": "광장동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "1990.10",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 광진구 아차산로70길 62"
   },
   {
     "code": "A14381504",
@@ -373,7 +571,13 @@
     "emd": "광장동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "2001.06",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 광진구 광나루로 579"
   },
   {
     "code": "A14381506",
@@ -384,7 +588,13 @@
     "emd": "광장동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "1987.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 광진구 아차산로 544"
   },
   {
     "code": "A14381508",
@@ -395,7 +605,13 @@
     "emd": "광장동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "1999.04",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 광진구 아차산로69길 19"
   },
   {
     "code": "A14381510",
@@ -406,7 +622,13 @@
     "emd": "광장동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "1995.03",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 광진구 아차산로 522"
   },
   {
     "code": "A14381512",
@@ -417,7 +639,13 @@
     "emd": "광장동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "1989.04",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 광진구 아차산로70길 61"
   },
   {
     "code": "A14381513",
@@ -428,7 +656,13 @@
     "emd": "광장동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "1996.07",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 광진구 아차산로 503-23"
   },
   {
     "code": "A14381516",
@@ -439,7 +673,13 @@
     "emd": "광장동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "2000.08",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 광진구 아차산로 549"
   },
   {
     "code": "A10020506",
@@ -450,7 +690,13 @@
     "emd": "자양동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "2025.01",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 48,
+    "addr": "서울특별시 광진구 아차산로 420"
   },
   {
     "code": "A10020686",
@@ -462,7 +708,13 @@
     "sigunguCode": "11215",
     "sido": "서울특별시",
     "sigungu": "광진구",
-    "hhldCnt": 480
+    "hhldCnt": 480,
+    "built": "2025.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 1,
+    "addr": "서울특별시 광진구 아차산로 212"
   },
   {
     "code": "A10020868",
@@ -473,7 +725,13 @@
     "emd": "자양동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "2024.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 1,
+    "addr": "서울특별시 광진구 아차산로58길 58"
   },
   {
     "code": "A10022137",
@@ -484,7 +742,13 @@
     "emd": "자양동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "2006.03",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "서울특별시 광진구 능동로 68"
   },
   {
     "code": "A10022362",
@@ -495,7 +759,13 @@
     "emd": "자양동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "2002.04",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 광진구 뚝섬로34길 32"
   },
   {
     "code": "A10022641",
@@ -506,7 +776,13 @@
     "emd": "자양동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "2006.03",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 광진구 능동로 50"
   },
   {
     "code": "A10023099",
@@ -517,7 +793,13 @@
     "emd": "자양동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "2023.06",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 30,
+    "addr": "서울특별시 광진구 뚝섬로 467"
   },
   {
     "code": "A10023282",
@@ -528,7 +810,13 @@
     "emd": "자양동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "2006.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 광진구 자양동 853 광진한화꿈에그린아파트"
   },
   {
     "code": "A10023336",
@@ -539,7 +827,13 @@
     "emd": "자양동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "2023.02",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 광진구 자양로 55"
   },
   {
     "code": "A10024132",
@@ -550,7 +844,13 @@
     "emd": "자양동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "2021.08",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "서울특별시 광진구 능동로 69"
   },
   {
     "code": "A10024154",
@@ -561,7 +861,13 @@
     "emd": "자양동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "2002.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 광진구 아차산로36길 13"
   },
   {
     "code": "A10024965",
@@ -572,7 +878,13 @@
     "emd": "자양동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "2005.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 광진구 자양로5길 33"
   },
   {
     "code": "A10026399",
@@ -583,7 +895,13 @@
     "emd": "자양동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "2006.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 광진구 뚝섬로36길 75"
   },
   {
     "code": "A10026720",
@@ -594,7 +912,13 @@
     "emd": "자양동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "2017.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 29,
+    "addr": "서울특별시 광진구 아차산로 345"
   },
   {
     "code": "A14319001",
@@ -605,7 +929,13 @@
     "emd": "자양동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "1997.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 광진구 자양로3길 55"
   },
   {
     "code": "A14319002",
@@ -616,7 +946,13 @@
     "emd": "자양동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "1991.08",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 11,
+    "addr": "서울특별시 광진구 능동로3길 53"
   },
   {
     "code": "A14319003",
@@ -627,7 +963,13 @@
     "emd": "자양동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "1993.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 광진구 뚝섬로56길 72"
   },
   {
     "code": "A14319005",
@@ -638,7 +980,13 @@
     "emd": "자양동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "1993.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 광진구 능동로 19"
   },
   {
     "code": "A14319006",
@@ -649,7 +997,13 @@
     "emd": "자양동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "1995.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 광진구 뚝섬로34길 9"
   },
   {
     "code": "A14319007",
@@ -660,7 +1014,13 @@
     "emd": "자양동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "2002.05",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 광진구 뚝섬로36길 19"
   },
   {
     "code": "A14319008",
@@ -671,7 +1031,13 @@
     "emd": "자양동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "1999.03",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 광진구 뚝섬로31길 20"
   },
   {
     "code": "A14319009",
@@ -682,7 +1048,13 @@
     "emd": "자양동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "1999.09",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 광진구 뚝섬로52마길 56"
   },
   {
     "code": "A14319010",
@@ -693,7 +1065,13 @@
     "emd": "자양동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "1993.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 광진구 능동로1길 15"
   },
   {
     "code": "A14319011",
@@ -704,7 +1082,13 @@
     "emd": "자양동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "1988.09",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 광진구 뚝섬로 569"
   },
   {
     "code": "A14319012",
@@ -715,7 +1099,13 @@
     "emd": "자양동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "2007.01",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 58,
+    "addr": "서울특별시 광진구 아차산로 262"
   },
   {
     "code": "A14319013",
@@ -726,7 +1116,13 @@
     "emd": "자양동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "1997.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 광진구 능동로3길 17"
   },
   {
     "code": "A14319015",
@@ -737,7 +1133,13 @@
     "emd": "자양동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "2006.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 광진구 자양로 109"
   },
   {
     "code": "A14319201",
@@ -748,7 +1150,13 @@
     "emd": "자양동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "1991.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 광진구 자양로3가길 43"
   },
   {
     "code": "A14319203",
@@ -759,7 +1167,13 @@
     "emd": "자양동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "1998.06",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 광진구 뚝섬로54길 74"
   },
   {
     "code": "A14319204",
@@ -770,7 +1184,13 @@
     "emd": "자양동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "1996.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 광진구 뚝섬로58길 101"
   },
   {
     "code": "A14319301",
@@ -781,7 +1201,13 @@
     "emd": "자양동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "1999.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 광진구 자양번영로3길 66"
   },
   {
     "code": "A14319302",
@@ -792,7 +1218,13 @@
     "emd": "자양동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "2003.10",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 광진구 능동로4길 78"
   },
   {
     "code": "A14319303",
@@ -803,7 +1235,13 @@
     "emd": "자양동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "2002.10",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 광진구 뚝섬로34길 25-19"
   },
   {
     "code": "A14319305",
@@ -814,7 +1252,13 @@
     "emd": "자양동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "2006.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "서울특별시 광진구 뚝섬로34길 67"
   },
   {
     "code": "A14319306",
@@ -825,7 +1269,13 @@
     "emd": "자양동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "2007.04",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 광진구 능동로 18"
   },
   {
     "code": "A14319307",
@@ -836,7 +1286,13 @@
     "emd": "자양동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "1996.08",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 광진구 뚝섬로33길 20"
   },
   {
     "code": "A14319311",
@@ -847,7 +1303,13 @@
     "emd": "자양동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "1998.07",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 광진구 아차산로36길 39"
   },
   {
     "code": "A14375801",
@@ -858,7 +1320,13 @@
     "emd": "자양동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "1992.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 광진구 뚝섬로33길 42"
   },
   {
     "code": "A14376501",
@@ -869,7 +1337,13 @@
     "emd": "자양동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "2002.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 광진구 뚝섬로56가길 28"
   },
   {
     "code": "A14377402",
@@ -880,7 +1354,13 @@
     "emd": "자양동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "2009.09",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 광진구 능동로4길 40"
   },
   {
     "code": "A14386109",
@@ -891,7 +1371,13 @@
     "emd": "자양동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "1989.07",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 광진구 뚝섬로 576"
   },
   {
     "code": "A14386110",
@@ -902,7 +1388,13 @@
     "emd": "자양동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "1989.12",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 광진구 뚝섬로35길 32"
   },
   {
     "code": "A14386802",
@@ -913,7 +1405,13 @@
     "emd": "자양동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "1999.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 광진구 뚝섬로52길 71"
   },
   {
     "code": "A14387605",
@@ -924,7 +1422,13 @@
     "emd": "자양동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "1983.05",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 광진구 구의강변로 11"
   },
   {
     "code": "A14388204",
@@ -935,7 +1439,13 @@
     "emd": "자양동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "2001.05",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 광진구 능동로4길 41"
   },
   {
     "code": "A14388208",
@@ -946,7 +1456,13 @@
     "emd": "자양동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "1999.04",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 광진구 자양번영로3길 65"
   },
   {
     "code": "A10021996",
@@ -957,7 +1473,13 @@
     "emd": "화양동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "2014.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 광진구 능동로19길 35"
   },
   {
     "code": "A10022135",
@@ -968,7 +1490,13 @@
     "emd": "화양동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "2019.09",
+    "dongCnt": "1동",
+    "heat": "",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 광진구 광나루로 370"
   },
   {
     "code": "A10022318",
@@ -979,7 +1507,13 @@
     "emd": "화양동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "2017.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "서울특별시 광진구 광나루로20길 17"
   },
   {
     "code": "A10025404",
@@ -990,7 +1524,13 @@
     "emd": "화양동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "2018.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 광진구 광나루로 382"
   },
   {
     "code": "A14313001",
@@ -1001,7 +1541,13 @@
     "emd": "화양동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "1999.05",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 광진구 동일로24길 5"
   },
   {
     "code": "A10022248",
@@ -1012,7 +1558,13 @@
     "emd": "군자동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "2008.01",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 광진구 광나루로 361"
   },
   {
     "code": "A10028012",
@@ -1023,7 +1575,13 @@
     "emd": "군자동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "2008.09",
+    "dongCnt": "2동",
+    "heat": "기타",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 광진구 광나루로 369"
   },
   {
     "code": "A14383901",
@@ -1034,6 +1592,12 @@
     "emd": "군자동",
     "sigunguCode": "11215",
     "sido": "서울특별시",
-    "sigungu": "광진구"
+    "sigungu": "광진구",
+    "built": "1996.03",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 광진구 군자로12길 46"
   }
 ]

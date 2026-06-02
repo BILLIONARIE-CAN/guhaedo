@@ -8,7 +8,13 @@
     "emd": "신흥동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "2007.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 성남시 수정구 수정로 316"
   },
   {
     "code": "A10022065",
@@ -19,7 +25,13 @@
     "emd": "신흥동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "2006.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 성남시 수정구 수정로 312"
   },
   {
     "code": "A10022077",
@@ -30,7 +42,13 @@
     "emd": "신흥동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "2006.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 성남시 수정구 산성대로 305"
   },
   {
     "code": "A10022845",
@@ -41,7 +59,13 @@
     "emd": "신흥동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "2024.03",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경기도 성남시 수정구 수정로 260"
   },
   {
     "code": "A10022853",
@@ -52,7 +76,13 @@
     "emd": "신흥동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "2024.03",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경기도 성남시 수정구 수정로 288"
   },
   {
     "code": "A10022854",
@@ -63,7 +93,13 @@
     "emd": "신흥동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "2024.03",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경기도 성남시 수정구 희망로 531"
   },
   {
     "code": "A10022929",
@@ -74,7 +110,13 @@
     "emd": "신흥동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "2024.03",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 26,
+    "addr": "경기도 성남시 수정구 희망로 533"
   },
   {
     "code": "A10023197",
@@ -85,7 +127,13 @@
     "emd": "신흥동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "2006.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 성남시 수정구 시민로 165"
   },
   {
     "code": "A10024631",
@@ -96,7 +144,13 @@
     "emd": "신흥동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "2020.07",
+    "dongCnt": "39동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "경기도 성남시 수정구 수정로 319"
   },
   {
     "code": "A46170904",
@@ -107,7 +161,13 @@
     "emd": "신흥동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "1990.09",
+    "dongCnt": "5동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 성남시 수정구 산성대로 341"
   },
   {
     "code": "A46172303",
@@ -118,7 +178,13 @@
     "emd": "신흥동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "1993.04",
+    "dongCnt": "6동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 성남시 수정구 공원로 360"
   },
   {
     "code": "A46172402",
@@ -129,7 +195,13 @@
     "emd": "신흥동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "1994.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 성남시 수정구 공원로 340"
   },
   {
     "code": "A46181001",
@@ -140,7 +212,13 @@
     "emd": "신흥동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "2006.02",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 성남시 수정구 공원로 322"
   },
   {
     "code": "A10021745",
@@ -151,7 +229,13 @@
     "emd": "태평동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "2005.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "경기도 성남시 수정구 수정로 81"
   },
   {
     "code": "A10026003",
@@ -162,7 +246,13 @@
     "emd": "태평동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "2018.10",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 성남시 수정구 태평로 65"
   },
   {
     "code": "A10028128",
@@ -173,7 +263,13 @@
     "emd": "태평동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "2013.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "경기도 성남시 수정구 성남대로 1330"
   },
   {
     "code": "A46119001",
@@ -184,7 +280,13 @@
     "emd": "태평동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "2005.12",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 성남시 수정구 태평로 9"
   },
   {
     "code": "A46119002",
@@ -195,7 +297,13 @@
     "emd": "태평동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "2010.06",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "경기도 성남시 수정구 수정로 201"
   },
   {
     "code": "A46182001",
@@ -206,7 +314,13 @@
     "emd": "태평동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "2005.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "경기도 성남시 수정구 시민로 209"
   },
   {
     "code": "A46182002",
@@ -217,7 +331,13 @@
     "emd": "태평동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "1991.12",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 6,
+    "addr": "경기도 성남시 수정구 남문로140번길 19"
   },
   {
     "code": "A46182801",
@@ -228,7 +348,13 @@
     "emd": "태평동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "2006.10",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "경기도 성남시 수정구 태평로 28"
   },
   {
     "code": "A10023216",
@@ -239,7 +365,13 @@
     "emd": "수진동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "2005.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 7,
+    "addr": "경기도 성남수정구 수진동 4569 세븐빌"
   },
   {
     "code": "A46118001",
@@ -250,7 +382,13 @@
     "emd": "수진동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "",
+    "dongCnt": "1동",
+    "heat": "",
+    "sale": "",
+    "topFloor": 1,
+    "addr": "경기도 성남시 수정구 수정로 80"
   },
   {
     "code": "A46170702",
@@ -261,7 +399,13 @@
     "emd": "수진동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "1996.10",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 성남시 수정구 모란로 65"
   },
   {
     "code": "A46170703",
@@ -272,7 +416,13 @@
     "emd": "수진동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "2006.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "경기도 성남시 수정구 산성대로93번길 25"
   },
   {
     "code": "A46172801",
@@ -283,7 +433,13 @@
     "emd": "수진동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "2003.12",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 11,
+    "addr": "경기도 성남시 수정구 수정로 2"
   },
   {
     "code": "A46170401",
@@ -294,7 +450,13 @@
     "emd": "단대동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "2012.09",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 성남시 수정구 산성대로437번길 7"
   },
   {
     "code": "A46170402",
@@ -305,7 +467,13 @@
     "emd": "단대동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "2012.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 18,
+    "addr": "경기도 성남시 수정구 산성대로437번길 8"
   },
   {
     "code": "A46170403",
@@ -316,7 +484,13 @@
     "emd": "단대동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "2013.02",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 성남시 수정구 단대로15번길 2"
   },
   {
     "code": "A46172504",
@@ -327,7 +501,13 @@
     "emd": "단대동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "1998.12",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 성남시 수정구 단대로23번길 32"
   },
   {
     "code": "A46180001",
@@ -338,7 +518,13 @@
     "emd": "단대동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "2005.05",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 성남시 수정구 단대로23번길 10"
   },
   {
     "code": "A46180003",
@@ -349,7 +535,13 @@
     "emd": "단대동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "1991.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "경기도 성남시 수정구 논골로 87"
   },
   {
     "code": "A46180102",
@@ -360,7 +552,13 @@
     "emd": "단대동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "1982.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "경기도 성남시 수정구 희망로 472"
   },
   {
     "code": "A10023228",
@@ -371,7 +569,13 @@
     "emd": "양지동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "2004.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 성남시 수정구 수정로 568"
   },
   {
     "code": "A10023229",
@@ -382,7 +586,13 @@
     "emd": "양지동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "2004.07",
+    "dongCnt": "15동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 성남시 수정구 수정로 566"
   },
   {
     "code": "A46171301",
@@ -393,7 +603,13 @@
     "emd": "양지동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "2011.09",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 성남시 수정구 논골로36번길 15"
   },
   {
     "code": "A10020314",
@@ -404,7 +620,13 @@
     "emd": "복정동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "2025.12",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 20,
+    "addr": "경기도 성남시 수정구 남위례로 140"
   },
   {
     "code": "A10020315",
@@ -415,7 +637,13 @@
     "emd": "복정동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "2025.12",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 19,
+    "addr": "경기도 성남시 수정구 남위례로 200"
   },
   {
     "code": "A10020330",
@@ -426,7 +654,13 @@
     "emd": "복정동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "2025.12",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "경기도 성남시 수정구 남위례로 116"
   },
   {
     "code": "A10021312",
@@ -437,7 +671,13 @@
     "emd": "창곡동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "2016.12",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 성남시 수정구 위례광장로 70"
   },
   {
     "code": "A10023289",
@@ -448,7 +688,13 @@
     "emd": "창곡동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "2023.03",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 23,
+    "addr": "경기도 성남시 수정구 위례중앙로 190"
   },
   {
     "code": "A10024483",
@@ -459,7 +705,13 @@
     "emd": "창곡동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "2021.01",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "경기도 성남시 수정구 위례순환로 53"
   },
   {
     "code": "A10024817",
@@ -470,8 +722,13 @@
     "emd": "창곡동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구",
-    "hhldCnt": 265
+    "sigungu": "성남시 수정구",
+    "built": "2017.10",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 성남시 수정구 위례광장로 12"
   },
   {
     "code": "A10025589",
@@ -482,7 +739,13 @@
     "emd": "창곡동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "2019.02",
+    "dongCnt": "14동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 14,
+    "addr": "경기도 성남시 수정구 헌릉로 1005"
   },
   {
     "code": "A10026777",
@@ -493,7 +756,13 @@
     "emd": "창곡동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "2017.07",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "경기도 성남시 수정구 위례순환로 17"
   },
   {
     "code": "A10026944",
@@ -504,7 +773,13 @@
     "emd": "창곡동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "2017.06",
+    "dongCnt": "19동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 성남시 수정구 위례광장로 97"
   },
   {
     "code": "A10027277",
@@ -515,7 +790,13 @@
     "emd": "창곡동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "2016.12",
+    "dongCnt": "15동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 성남시 수정구 위례광장로 9-10"
   },
   {
     "code": "A10027335",
@@ -526,7 +807,13 @@
     "emd": "창곡동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "2016.10",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "경기도 성남시 수정구 위례순환로 100"
   },
   {
     "code": "A10027369",
@@ -537,7 +824,13 @@
     "emd": "창곡동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "2016.06",
+    "dongCnt": "21동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "경기도 성남시 수정구 위례동로 61"
   },
   {
     "code": "A10027509",
@@ -548,7 +841,13 @@
     "emd": "창곡동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "2016.05",
+    "dongCnt": "14동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 22,
+    "addr": "경기도 성남시 수정구 위례광장로 311"
   },
   {
     "code": "A10027595",
@@ -559,7 +858,13 @@
     "emd": "창곡동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "2016.04",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경기도 성남시 수정구 위례순환로 211"
   },
   {
     "code": "A10027692",
@@ -570,7 +875,13 @@
     "emd": "창곡동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "2015.12",
+    "dongCnt": "21동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경기도 성남시 수정구 위례순환로 150"
   },
   {
     "code": "A10027709",
@@ -581,7 +892,13 @@
     "emd": "창곡동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "2015.11",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "경기도 성남시 수정구 위례순환로 150"
   },
   {
     "code": "A10027720",
@@ -592,7 +909,13 @@
     "emd": "창곡동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "2015.11",
+    "dongCnt": "14동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "경기도 성남시 수정구 위례동로 15"
   },
   {
     "code": "A10021790",
@@ -603,7 +926,13 @@
     "emd": "고등동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "2023.02",
+    "dongCnt": "3동",
+    "heat": "",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "경기도 성남시 수정구 대왕판교로 981"
   },
   {
     "code": "A10021793",
@@ -614,7 +943,13 @@
     "emd": "고등동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "2023.02",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "경기도 성남시 수정구 대왕판교로 995"
   },
   {
     "code": "A10024122",
@@ -625,7 +960,13 @@
     "emd": "고등동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "2021.09",
+    "dongCnt": "12동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "경기도 성남시 수정구 고등로 33"
   },
   {
     "code": "A10024914",
@@ -636,7 +977,13 @@
     "emd": "고등동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "2020.04",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경기도 성남시 수정구 고등공원로 19"
   },
   {
     "code": "A10025350",
@@ -647,7 +994,13 @@
     "emd": "고등동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "2019.07",
+    "dongCnt": "19동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "경기도 성남시 수정구 고등로 34"
   },
   {
     "code": "A10025391",
@@ -658,7 +1011,13 @@
     "emd": "고등동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "2019.07",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "경기도 성남시 수정구 고등로 57"
   },
   {
     "code": "A10024816",
@@ -669,6 +1028,12 @@
     "emd": "시흥동",
     "sigunguCode": "41131",
     "sido": "경기도",
-    "sigungu": "성남시 중원구"
+    "sigungu": "성남시 수정구",
+    "built": "2020.05",
+    "dongCnt": "1동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 10,
+    "addr": "경기도 성남시 수정구 창업로40번길 6"
   }
 ]

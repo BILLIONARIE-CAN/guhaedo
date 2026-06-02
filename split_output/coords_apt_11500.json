@@ -8,7 +8,13 @@
     "emd": "염창동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1993.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 강서구 양천로73길 6"
   },
   {
     "code": "A10021935",
@@ -19,7 +25,13 @@
     "emd": "염창동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1993.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 양천로 686-5"
   },
   {
     "code": "A10022042",
@@ -30,7 +42,13 @@
     "emd": "염창동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1999.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 강서구 공항대로75길 42"
   },
   {
     "code": "A10022108",
@@ -41,7 +59,13 @@
     "emd": "염창동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2007.05",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 양천로71길 54"
   },
   {
     "code": "A10022537",
@@ -52,7 +76,13 @@
     "emd": "염창동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2009.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 강서구 양천로73길 24"
   },
   {
     "code": "A10024353",
@@ -63,7 +93,13 @@
     "emd": "염창동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2005.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 강서구 공항대로 637"
   },
   {
     "code": "A10024436",
@@ -74,7 +110,13 @@
     "emd": "염창동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2020.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "서울특별시 강서구 공항대로 543"
   },
   {
     "code": "A10025049",
@@ -85,7 +127,13 @@
     "emd": "염창동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1999.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 양천로65길 45"
   },
   {
     "code": "A10025600",
@@ -96,7 +144,13 @@
     "emd": "염창동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2019.03",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 20,
+    "addr": "서울특별시 강서구 공항대로 583"
   },
   {
     "code": "A10027541",
@@ -107,7 +161,13 @@
     "emd": "염창동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2014.06",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 강서구 양천로 613"
   },
   {
     "code": "A15704001",
@@ -118,7 +178,13 @@
     "emd": "염창동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2006.04",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 공항대로63길 16"
   },
   {
     "code": "A15704002",
@@ -129,7 +195,13 @@
     "emd": "염창동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2004.11",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 강서구 양천로71가길 22"
   },
   {
     "code": "A15704003",
@@ -140,7 +212,13 @@
     "emd": "염창동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2004.07",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 강서구 양천로71길 38"
   },
   {
     "code": "A15704006",
@@ -151,7 +229,13 @@
     "emd": "염창동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1993.01",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 강서구 공항대로63길 14"
   },
   {
     "code": "A15704007",
@@ -162,7 +246,13 @@
     "emd": "염창동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2008.01",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 양천로 666"
   },
   {
     "code": "A15704009",
@@ -173,7 +263,13 @@
     "emd": "염창동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1998.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 양천로63길 52"
   },
   {
     "code": "A15704015",
@@ -184,7 +280,13 @@
     "emd": "염창동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2005.03",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 공항대로65길 21"
   },
   {
     "code": "A15704017",
@@ -195,7 +297,13 @@
     "emd": "염창동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2001.06",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 강서구 양천로69길 65"
   },
   {
     "code": "A15704023",
@@ -206,7 +314,13 @@
     "emd": "염창동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2005.06",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 강서구 양천로75길 19"
   },
   {
     "code": "A15704025",
@@ -217,7 +331,13 @@
     "emd": "염창동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2005.09",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 강서구 양천로63길 38"
   },
   {
     "code": "A15704028",
@@ -228,7 +348,13 @@
     "emd": "염창동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1998.06",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 강서구 양천로69길 58"
   },
   {
     "code": "A15776001",
@@ -239,7 +365,13 @@
     "emd": "염창동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2010.03",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 강서구 양천로63길 51"
   },
   {
     "code": "A15776002",
@@ -250,7 +382,13 @@
     "emd": "염창동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2003.03",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 강서구 양천로 663"
   },
   {
     "code": "A15776003",
@@ -261,7 +399,13 @@
     "emd": "염창동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2004.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 양천로75길 22-21"
   },
   {
     "code": "A15776004",
@@ -272,7 +416,13 @@
     "emd": "염창동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1996.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 양천로75길 60"
   },
   {
     "code": "A15785919",
@@ -283,7 +433,13 @@
     "emd": "염창동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1990.11",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 강서구 양천로67길 77"
   },
   {
     "code": "A15786104",
@@ -294,7 +450,13 @@
     "emd": "염창동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1994.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 양천로73길 5"
   },
   {
     "code": "A15786111",
@@ -305,7 +467,13 @@
     "emd": "염창동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2000.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 강서구 양천로69길 18"
   },
   {
     "code": "A15786116",
@@ -316,7 +484,13 @@
     "emd": "염창동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1999.04",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 강서구 양천로 595"
   },
   {
     "code": "A15786118",
@@ -327,7 +501,13 @@
     "emd": "염창동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1995.07",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 양천로 637"
   },
   {
     "code": "A15786213",
@@ -338,7 +518,13 @@
     "emd": "염창동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1999.03",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 강서구 양천로77길 45"
   },
   {
     "code": "A15786222",
@@ -349,7 +535,13 @@
     "emd": "염창동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1994.10",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 공항대로71길 54"
   },
   {
     "code": "A15786227",
@@ -360,7 +552,13 @@
     "emd": "염창동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1999.01",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 강서구 양천로 731"
   },
   {
     "code": "A15786312",
@@ -371,7 +569,13 @@
     "emd": "염창동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1999.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 강서구 공항대로71길 31"
   },
   {
     "code": "A15786314",
@@ -382,7 +586,13 @@
     "emd": "염창동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1999.11",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 강서구 공항대로61길 60"
   },
   {
     "code": "A15786321",
@@ -393,7 +603,13 @@
     "emd": "염창동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1997.08",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 강서구 양천로 656"
   },
   {
     "code": "A15786405",
@@ -404,7 +620,13 @@
     "emd": "염창동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1992.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 양천로67길 54"
   },
   {
     "code": "A15786408",
@@ -415,7 +637,13 @@
     "emd": "염창동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2001.05",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 공항대로75길 30"
   },
   {
     "code": "A15786420",
@@ -426,7 +654,13 @@
     "emd": "염창동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1995.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 양천로67길 32"
   },
   {
     "code": "A15786424",
@@ -437,7 +671,13 @@
     "emd": "염창동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2005.04",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 강서구 공항대로75길 17"
   },
   {
     "code": "A15786426",
@@ -448,7 +688,13 @@
     "emd": "염창동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1994.04",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 강서구 양천로75길 57"
   },
   {
     "code": "A15786510",
@@ -459,7 +705,13 @@
     "emd": "염창동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1998.07",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 강서구 양천로73길 80"
   },
   {
     "code": "A10021139",
@@ -470,7 +722,13 @@
     "emd": "등촌동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2002.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 양천로 420"
   },
   {
     "code": "A10022233",
@@ -481,7 +739,13 @@
     "emd": "등촌동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2002.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 화곡로 390"
   },
   {
     "code": "A10022348",
@@ -492,7 +756,13 @@
     "emd": "등촌동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2002.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 양천로62길 41"
   },
   {
     "code": "A10023075",
@@ -503,7 +773,13 @@
     "emd": "등촌동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2023.06",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 강서구 양천로 620"
   },
   {
     "code": "A10023543",
@@ -514,7 +790,13 @@
     "emd": "등촌동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2022.03",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 강서구 공항대로45길 15"
   },
   {
     "code": "A10023934",
@@ -525,7 +807,13 @@
     "emd": "등촌동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2022.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 14,
+    "addr": "서울특별시 강서구 강서로56길 44"
   },
   {
     "code": "A10024768",
@@ -536,7 +824,13 @@
     "emd": "등촌동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2020.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 17,
+    "addr": "서울특별시 강서구 공항대로59가길 14"
   },
   {
     "code": "A10025703",
@@ -547,7 +841,13 @@
     "emd": "등촌동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2001.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 강서구 등촌로 91"
   },
   {
     "code": "A15703001",
@@ -558,7 +858,13 @@
     "emd": "등촌동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2003.11",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 공항대로55길 19"
   },
   {
     "code": "A15703002",
@@ -569,7 +875,13 @@
     "emd": "등촌동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2000.07",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 강서구 공항대로59길 103"
   },
   {
     "code": "A15703004",
@@ -580,7 +892,13 @@
     "emd": "등촌동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1994.12",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 강서로56나길 110"
   },
   {
     "code": "A15703005",
@@ -591,7 +909,13 @@
     "emd": "등촌동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2003.10",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 공항대로55길 50"
   },
   {
     "code": "A15703204",
@@ -602,7 +926,13 @@
     "emd": "등촌동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2004.01",
+    "dongCnt": "29동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 강서구 등촌로 163"
   },
   {
     "code": "A15703301",
@@ -613,7 +943,13 @@
     "emd": "등촌동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1994.11",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 공항대로43길 104"
   },
   {
     "code": "A15703302",
@@ -624,7 +960,13 @@
     "emd": "등촌동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1995.11",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 강서구 강서로68길 108"
   },
   {
     "code": "A15703303",
@@ -635,7 +977,13 @@
     "emd": "등촌동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1994.10",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 강서구 공항대로 351-21"
   },
   {
     "code": "A15703304",
@@ -646,7 +994,13 @@
     "emd": "등촌동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1995.06",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 강서로68길 36"
   },
   {
     "code": "A15703306",
@@ -657,7 +1011,13 @@
     "emd": "등촌동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1995.10",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 화곡로63가길 71"
   },
   {
     "code": "A15703307",
@@ -668,7 +1028,13 @@
     "emd": "등촌동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1995.07",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 강서구 공항대로39길 100"
   },
   {
     "code": "A15703308",
@@ -679,7 +1045,13 @@
     "emd": "등촌동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1995.10",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 강서로56나길 37"
   },
   {
     "code": "A15703309",
@@ -690,7 +1062,13 @@
     "emd": "등촌동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1995.10",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 공항대로39길 74"
   },
   {
     "code": "A15703313",
@@ -701,7 +1079,13 @@
     "emd": "등촌동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1994.11",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 강서로68길 36"
   },
   {
     "code": "A15703318",
@@ -712,7 +1096,13 @@
     "emd": "등촌동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2004.10",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 12,
+    "addr": "서울특별시 강서구 공항대로43길 39"
   },
   {
     "code": "A15772901",
@@ -723,7 +1113,13 @@
     "emd": "등촌동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1992.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 강서구 화곡로68길 115"
   },
   {
     "code": "A15772902",
@@ -734,7 +1130,13 @@
     "emd": "등촌동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1992.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 강서구 화곡로68길 103"
   },
   {
     "code": "A15776414",
@@ -745,7 +1147,13 @@
     "emd": "등촌동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1995.05",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 공항대로39길 59"
   },
   {
     "code": "A15776617",
@@ -756,7 +1164,13 @@
     "emd": "등촌동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1995.10",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 화곡로63가길 18"
   },
   {
     "code": "A15776715",
@@ -767,7 +1181,13 @@
     "emd": "등촌동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1994.11",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 공항대로43길 104"
   },
   {
     "code": "A15776916",
@@ -778,7 +1198,13 @@
     "emd": "등촌동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1994.11",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 화곡로63가길 92"
   },
   {
     "code": "A15783701",
@@ -789,7 +1215,13 @@
     "emd": "등촌동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2000.05",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 강서구 등촌로 113"
   },
   {
     "code": "A15783703",
@@ -800,7 +1232,13 @@
     "emd": "등촌동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2002.05",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "서울특별시 강서구 등촌로 137"
   },
   {
     "code": "A15783806",
@@ -811,7 +1249,13 @@
     "emd": "등촌동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1997.10",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 강서구 화곡로68길 33"
   },
   {
     "code": "A15783902",
@@ -822,7 +1266,13 @@
     "emd": "등촌동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1998.06",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 강서구 양천로 590"
   },
   {
     "code": "A15783905",
@@ -833,7 +1283,13 @@
     "emd": "등촌동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1997.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 강서구 양천로66길 6"
   },
   {
     "code": "A15783907",
@@ -844,7 +1300,13 @@
     "emd": "등촌동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1999.06",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 강서구 공항대로59길 64"
   },
   {
     "code": "A15784003",
@@ -855,7 +1317,13 @@
     "emd": "등촌동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1999.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 강서구 화곡로66길 90"
   },
   {
     "code": "A15784008",
@@ -866,7 +1334,13 @@
     "emd": "등촌동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1999.04",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 강서구 공항대로45길 68-6"
   },
   {
     "code": "A15784201",
@@ -877,7 +1351,13 @@
     "emd": "등촌동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1995.07",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 강서구 공항대로45길 24"
   },
   {
     "code": "A15784402",
@@ -888,7 +1368,13 @@
     "emd": "등촌동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1995.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "서울특별시 강서구 등촌로53길 39"
   },
   {
     "code": "A10020155",
@@ -900,7 +1386,13 @@
     "sigunguCode": "11500",
     "sido": "서울특별시",
     "sigungu": "강서구",
-    "hhldCnt": 122
+    "hhldCnt": 122,
+    "built": "2013.01",
+    "dongCnt": "",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": "",
+    "addr": "서울특별시 강서구 화곡로18길 24"
   },
   {
     "code": "A10020494",
@@ -912,7 +1404,13 @@
     "sigunguCode": "11500",
     "sido": "서울특별시",
     "sigungu": "강서구",
-    "hhldCnt": 130
+    "hhldCnt": 130,
+    "built": "2000.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 강서구 강서로5나길 104"
   },
   {
     "code": "A10021232",
@@ -923,7 +1421,13 @@
     "emd": "화곡동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1974.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 4,
+    "addr": "서울특별시 강서구 강서로17라길 3"
   },
   {
     "code": "A10021290",
@@ -934,7 +1438,13 @@
     "emd": "화곡동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2002.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 강서구 강서로45다길 30-17"
   },
   {
     "code": "A10022019",
@@ -945,7 +1455,13 @@
     "emd": "화곡동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2022.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 강서구 가로공원로80길 40"
   },
   {
     "code": "A10022928",
@@ -956,7 +1472,13 @@
     "emd": "화곡동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2023.12",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 25,
+    "addr": "서울특별시 강서구 화곡로54길 43"
   },
   {
     "code": "A10023515",
@@ -967,7 +1489,13 @@
     "emd": "화곡동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2022.12",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 화곡로31다길 20"
   },
   {
     "code": "A10024145",
@@ -978,7 +1506,13 @@
     "emd": "화곡동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2021.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 강서로 231"
   },
   {
     "code": "A10024391",
@@ -989,7 +1523,13 @@
     "emd": "화곡동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2000.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "서울특별시 강서구 등촌로13자길 74"
   },
   {
     "code": "A10025201",
@@ -1000,7 +1540,13 @@
     "emd": "화곡동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2006.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 화곡로 292"
   },
   {
     "code": "A15701002",
@@ -1011,7 +1557,13 @@
     "emd": "화곡동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2006.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 우현로 26"
   },
   {
     "code": "A15701003",
@@ -1022,7 +1574,13 @@
     "emd": "화곡동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2008.01",
+    "dongCnt": "42동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 강서구 강서로 266"
   },
   {
     "code": "A15701004",
@@ -1033,7 +1591,13 @@
     "emd": "화곡동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2004.11",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 우장산로 103"
   },
   {
     "code": "A15701005",
@@ -1044,7 +1608,13 @@
     "emd": "화곡동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "",
+    "dongCnt": "1동",
+    "heat": "",
+    "sale": "",
+    "topFloor": 1,
+    "addr": "서울특별시 강서구 우현로 18"
   },
   {
     "code": "A15701006",
@@ -1055,7 +1625,13 @@
     "emd": "화곡동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2005.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 11,
+    "addr": "서울특별시 강서구 등촌로13아길 44"
   },
   {
     "code": "A15701007",
@@ -1066,7 +1642,13 @@
     "emd": "화곡동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2015.08",
+    "dongCnt": "37동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 강서구 우현로 67"
   },
   {
     "code": "A15701601",
@@ -1077,7 +1659,13 @@
     "emd": "화곡동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2004.08",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 강서구 우장산로 92"
   },
   {
     "code": "A15701602",
@@ -1088,7 +1676,13 @@
     "emd": "화곡동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2003.09",
+    "dongCnt": "21동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 강서구 공항대로 382"
   },
   {
     "code": "A15770101",
@@ -1099,7 +1693,13 @@
     "emd": "화곡동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2004.11",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 공항대로48길 12"
   },
   {
     "code": "A15770102",
@@ -1110,7 +1710,13 @@
     "emd": "화곡동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2010.06",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 강서구 화곡로 347"
   },
   {
     "code": "A15770801",
@@ -1121,7 +1727,13 @@
     "emd": "화곡동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1998.11",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 강서구 강서로45다길 30-27"
   },
   {
     "code": "A15788203",
@@ -1132,7 +1744,13 @@
     "emd": "화곡동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1988.12",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 강서구 강서로17가길 46"
   },
   {
     "code": "A15788302",
@@ -1143,7 +1761,13 @@
     "emd": "화곡동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1992.08",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 월정로 160"
   },
   {
     "code": "A15788901",
@@ -1154,7 +1778,13 @@
     "emd": "화곡동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1987.05",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 강서구 초록마을로 176"
   },
   {
     "code": "A15791001",
@@ -1165,7 +1795,13 @@
     "emd": "화곡동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2004.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 강서구 곰달래로 96"
   },
   {
     "code": "A15792602",
@@ -1176,7 +1812,13 @@
     "emd": "화곡동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2002.10",
+    "dongCnt": "50동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 화곡로13길 107"
   },
   {
     "code": "A10021511",
@@ -1187,7 +1829,13 @@
     "emd": "가양동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1999.03",
+    "dongCnt": "1동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 강서구 양천로 521"
   },
   {
     "code": "A10021562",
@@ -1198,7 +1846,13 @@
     "emd": "가양동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2006.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 허준로 16-9"
   },
   {
     "code": "A10024367",
@@ -1209,7 +1863,13 @@
     "emd": "가양동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2001.08",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 강서구 양천로 497"
   },
   {
     "code": "A10025616",
@@ -1220,7 +1880,13 @@
     "emd": "가양동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2006.04",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 강서구 양천로53길 66"
   },
   {
     "code": "A15720001",
@@ -1231,7 +1897,13 @@
     "emd": "가양동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2013.09",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 22,
+    "addr": "서울특별시 강서구 양천로55길 55"
   },
   {
     "code": "A15720101",
@@ -1242,7 +1914,13 @@
     "emd": "가양동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2004.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 강서로 490"
   },
   {
     "code": "A15774708",
@@ -1253,7 +1931,13 @@
     "emd": "가양동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1992.07",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 허준로 209"
   },
   {
     "code": "A15780002",
@@ -1264,7 +1948,13 @@
     "emd": "가양동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1990.10",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 양천로 489"
   },
   {
     "code": "A15780401",
@@ -1275,7 +1965,13 @@
     "emd": "가양동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1999.03",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 강서구 양천로 507"
   },
   {
     "code": "A15780602",
@@ -1286,7 +1982,13 @@
     "emd": "가양동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1999.02",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 강서구 허준로 76"
   },
   {
     "code": "A15780603",
@@ -1297,7 +1999,13 @@
     "emd": "가양동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1993.06",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 강서로 532"
   },
   {
     "code": "A15780604",
@@ -1308,7 +2016,13 @@
     "emd": "가양동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1993.06",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 허준로 23"
   },
   {
     "code": "A15780605",
@@ -1319,7 +2033,13 @@
     "emd": "가양동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1992.11",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 허준로 47"
   },
   {
     "code": "A15780701",
@@ -1330,7 +2050,13 @@
     "emd": "가양동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1999.04",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 강서구 허준로 55-20"
   },
   {
     "code": "A15780703",
@@ -1341,7 +2067,13 @@
     "emd": "가양동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1993.09",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 허준로 121"
   },
   {
     "code": "A15780704",
@@ -1352,7 +2084,13 @@
     "emd": "가양동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1992.12",
+    "dongCnt": "12동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 허준로 139"
   },
   {
     "code": "A15780705",
@@ -1363,7 +2101,13 @@
     "emd": "가양동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1992.11",
+    "dongCnt": "12동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 양천로57길 37"
   },
   {
     "code": "A15780806",
@@ -1374,7 +2118,13 @@
     "emd": "가양동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1992.11",
+    "dongCnt": "16동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 양천로57길 36"
   },
   {
     "code": "A15780904",
@@ -1385,7 +2135,13 @@
     "emd": "가양동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1992.11",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 허준로 176"
   },
   {
     "code": "A15780905",
@@ -1396,7 +2152,13 @@
     "emd": "가양동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1992.11",
+    "dongCnt": "15동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 허준로 175"
   },
   {
     "code": "A15781002",
@@ -1407,7 +2169,13 @@
     "emd": "가양동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1992.11",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 허준로 224"
   },
   {
     "code": "A15781003",
@@ -1418,7 +2186,13 @@
     "emd": "가양동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1993.02",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 허준로 234"
   },
   {
     "code": "A10021574",
@@ -1429,7 +2203,13 @@
     "emd": "마곡동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1991.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 강서구 양천로30길 108"
   },
   {
     "code": "A10024426",
@@ -1440,7 +2220,13 @@
     "emd": "마곡동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2021.02",
+    "dongCnt": "19동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 16,
+    "addr": "서울특별시 강서구 공항대로 103"
   },
   {
     "code": "A10026879",
@@ -1451,7 +2237,13 @@
     "emd": "마곡동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2017.04",
+    "dongCnt": "22동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "서울특별시 강서구 마곡중앙1로 71"
   },
   {
     "code": "A10027371",
@@ -1462,7 +2254,13 @@
     "emd": "마곡동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2016.09",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 공항대로 124"
   },
   {
     "code": "A10027403",
@@ -1473,7 +2271,13 @@
     "emd": "마곡동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2016.09",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 공항대로 140"
   },
   {
     "code": "A10027433",
@@ -1484,7 +2288,13 @@
     "emd": "마곡동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2016.07",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 마곡서1로 81"
   },
   {
     "code": "A10027452",
@@ -1495,7 +2305,13 @@
     "emd": "마곡동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2016.08",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 16,
+    "addr": "서울특별시 강서구 마곡중앙1로 72"
   },
   {
     "code": "A10027687",
@@ -1506,7 +2322,13 @@
     "emd": "마곡동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2017.08",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 마곡중앙3로 74"
   },
   {
     "code": "A15721001",
@@ -1517,7 +2339,13 @@
     "emd": "마곡동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2005.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 양천로47길 94"
   },
   {
     "code": "A15721003",
@@ -1528,7 +2356,13 @@
     "emd": "마곡동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1993.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 양천로30길 123-9"
   },
   {
     "code": "A15721004",
@@ -1539,7 +2373,13 @@
     "emd": "마곡동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2005.02",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 양천로30길 77"
   },
   {
     "code": "A15721005",
@@ -1550,7 +2390,13 @@
     "emd": "마곡동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1999.06",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 강서구 양천로47길 118"
   },
   {
     "code": "A15721006",
@@ -1561,7 +2407,13 @@
     "emd": "마곡동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2014.06",
+    "dongCnt": "19동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 16,
+    "addr": "서울특별시 강서구 마곡서1로 100"
   },
   {
     "code": "A15721007",
@@ -1572,7 +2424,13 @@
     "emd": "마곡동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2014.06",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 16,
+    "addr": "서울특별시 강서구 마곡서로 133"
   },
   {
     "code": "A15721008",
@@ -1583,7 +2441,13 @@
     "emd": "마곡동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2014.06",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 마곡서로 175"
   },
   {
     "code": "A15721009",
@@ -1594,7 +2458,13 @@
     "emd": "마곡동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2014.06",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 14,
+    "addr": "서울특별시 강서구 마곡서1로 146"
   },
   {
     "code": "A15721010",
@@ -1605,7 +2475,13 @@
     "emd": "마곡동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2014.05",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 16,
+    "addr": "서울특별시 강서구 마곡중앙로 33"
   },
   {
     "code": "A15721011",
@@ -1616,7 +2492,13 @@
     "emd": "마곡동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2014.06",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 마곡서1로 132"
   },
   {
     "code": "A15722009",
@@ -1627,7 +2509,13 @@
     "emd": "마곡동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2014.06",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 13,
+    "addr": "서울특별시 강서구 마곡서1로 131"
   },
   {
     "code": "A15722010",
@@ -1638,7 +2526,13 @@
     "emd": "마곡동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2014.06",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 마곡서1로 111-11"
   },
   {
     "code": "A15728011",
@@ -1649,7 +2543,13 @@
     "emd": "마곡동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2014.05",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 16,
+    "addr": "서울특별시 강서구 마곡중앙로 36"
   },
   {
     "code": "A10020082",
@@ -1660,7 +2560,13 @@
     "emd": "내발산동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2002.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 강서구 공항대로42길 51-8"
   },
   {
     "code": "A10020618",
@@ -1672,7 +2578,13 @@
     "sigunguCode": "11500",
     "sido": "서울특별시",
     "sigungu": "강서구",
-    "hhldCnt": 716
+    "hhldCnt": 716,
+    "built": "2025.03",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 17,
+    "addr": "서울특별시 강서구 공항대로 302"
   },
   {
     "code": "A10020646",
@@ -1684,7 +2596,13 @@
     "sigunguCode": "11500",
     "sido": "서울특별시",
     "sigungu": "강서구",
-    "hhldCnt": 87
+    "hhldCnt": 87,
+    "built": "2023.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 7,
+    "addr": "서울특별시 강서구 강서로45길 92-27"
   },
   {
     "code": "A15728002",
@@ -1695,7 +2613,13 @@
     "emd": "내발산동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2007.10",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 13,
+    "addr": "서울특별시 강서구 수명로2길 63"
   },
   {
     "code": "A15728003",
@@ -1706,7 +2630,13 @@
     "emd": "내발산동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2007.09",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 수명로1길 110"
   },
   {
     "code": "A15728004",
@@ -1717,7 +2647,13 @@
     "emd": "내발산동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2007.07",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 강서로47길 158"
   },
   {
     "code": "A15728005",
@@ -1728,7 +2664,13 @@
     "emd": "내발산동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2008.10",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 13,
+    "addr": "서울특별시 강서구 수명로2가길 22"
   },
   {
     "code": "A15728006",
@@ -1739,7 +2681,13 @@
     "emd": "내발산동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2008.02",
+    "dongCnt": "14동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 수명로1길 16"
   },
   {
     "code": "A15728007",
@@ -1750,7 +2698,13 @@
     "emd": "내발산동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2008.06",
+    "dongCnt": "19동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 수명로2길 105"
   },
   {
     "code": "A15728008",
@@ -1761,7 +2715,13 @@
     "emd": "내발산동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2007.11",
+    "dongCnt": "16동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 강서로47길 108"
   },
   {
     "code": "A15728009",
@@ -1772,7 +2732,13 @@
     "emd": "내발산동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2005.05",
+    "dongCnt": "40동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 강서구 강서로 348"
   },
   {
     "code": "A15728010",
@@ -1783,7 +2749,13 @@
     "emd": "내발산동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2003.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 우장산로 47"
   },
   {
     "code": "A15728013",
@@ -1794,7 +2766,13 @@
     "emd": "내발산동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2002.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 우장산로 38"
   },
   {
     "code": "A15728014",
@@ -1805,7 +2783,13 @@
     "emd": "내발산동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "",
+    "dongCnt": "1동",
+    "heat": "",
+    "sale": "",
+    "topFloor": 1,
+    "addr": "서울특별시 강서구 강서로45나길 15"
   },
   {
     "code": "A15779704",
@@ -1816,7 +2800,13 @@
     "emd": "내발산동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2003.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 강서구 강서로46길 79"
   },
   {
     "code": "A15782501",
@@ -1827,7 +2817,13 @@
     "emd": "내발산동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2006.03",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 공항대로42길 54-26"
   },
   {
     "code": "A10022156",
@@ -1838,7 +2834,13 @@
     "emd": "공항동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2024.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 강서구 공항대로 67"
   },
   {
     "code": "A10028020",
@@ -1849,7 +2851,13 @@
     "emd": "공항동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2000.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "서울특별시 강서구 방화대로 259"
   },
   {
     "code": "A15781201",
@@ -1860,7 +2868,13 @@
     "emd": "공항동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2009.11",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 남부순환로 11"
   },
   {
     "code": "A10021043",
@@ -1871,7 +2885,13 @@
     "emd": "방화동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2025.02",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 개화동로21길 22"
   },
   {
     "code": "A10021419",
@@ -1882,7 +2902,13 @@
     "emd": "방화동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2021.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 강서구 양천로24길 13"
   },
   {
     "code": "A10021866",
@@ -1893,7 +2919,13 @@
     "emd": "방화동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2009.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 1,
+    "addr": "서울특별시 강서구 방화대로41길 6"
   },
   {
     "code": "A10023292",
@@ -1904,7 +2936,13 @@
     "emd": "방화동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2017.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "서울특별시 강서구 금낭화로 162"
   },
   {
     "code": "A10024505",
@@ -1915,7 +2953,13 @@
     "emd": "방화동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2020.11",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 16,
+    "addr": "서울특별시 강서구 양천로10길 38"
   },
   {
     "code": "A10025641",
@@ -1926,7 +2970,13 @@
     "emd": "방화동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2005.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 양천로26길 38"
   },
   {
     "code": "A15722001",
@@ -1937,7 +2987,13 @@
     "emd": "방화동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1998.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 방화대로34길 113"
   },
   {
     "code": "A15722003",
@@ -1948,7 +3004,13 @@
     "emd": "방화동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2002.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 양천로14길 37"
   },
   {
     "code": "A15722004",
@@ -1959,7 +3021,13 @@
     "emd": "방화동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2008.06",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 12,
+    "addr": "서울특별시 강서구 방화대로34길 88"
   },
   {
     "code": "A15722005",
@@ -1970,7 +3038,13 @@
     "emd": "방화동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2004.05",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 양천로24가길 59"
   },
   {
     "code": "A15722007",
@@ -1981,7 +3055,13 @@
     "emd": "방화동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1997.10",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 강서구 양천로18길 27"
   },
   {
     "code": "A15722008",
@@ -1992,7 +3072,13 @@
     "emd": "방화동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "",
+    "dongCnt": "1동",
+    "heat": "",
+    "sale": "",
+    "topFloor": 1,
+    "addr": "서울특별시 강서구 양천로7길 8"
   },
   {
     "code": "A15722011",
@@ -2003,7 +3089,13 @@
     "emd": "방화동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1989.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 강서구 양천로30길 98"
   },
   {
     "code": "A15722102",
@@ -2014,7 +3106,13 @@
     "emd": "방화동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2003.02",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 양천로3길 17"
   },
   {
     "code": "A15722104",
@@ -2025,7 +3123,13 @@
     "emd": "방화동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1998.02",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 양천로26길 103"
   },
   {
     "code": "A15722106",
@@ -2036,7 +3140,13 @@
     "emd": "방화동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2003.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 양천로28길 29"
   },
   {
     "code": "A15722108",
@@ -2047,7 +3157,13 @@
     "emd": "방화동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2003.11",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "서울특별시 강서구 방화대로45길 32"
   },
   {
     "code": "A15722201",
@@ -2058,7 +3174,13 @@
     "emd": "방화동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2003.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 강서구 양천로14길 17"
   },
   {
     "code": "A15722203",
@@ -2069,7 +3191,13 @@
     "emd": "방화동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1995.12",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 방화대로37길 15"
   },
   {
     "code": "A15722204",
@@ -2080,7 +3208,13 @@
     "emd": "방화동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2003.10",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 양천로6길 57"
   },
   {
     "code": "A15722304",
@@ -2091,7 +3225,13 @@
     "emd": "방화동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2004.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 금낭화로24가길 28"
   },
   {
     "code": "A15722306",
@@ -2102,7 +3242,13 @@
     "emd": "방화동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1998.08",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "서울특별시 강서구 양천로27길 129"
   },
   {
     "code": "A15722307",
@@ -2113,7 +3259,13 @@
     "emd": "방화동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1994.07",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 양천로 125"
   },
   {
     "code": "A15722314",
@@ -2124,7 +3276,13 @@
     "emd": "방화동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1993.10",
+    "dongCnt": "12동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 방화대로48길 40"
   },
   {
     "code": "A15773501",
@@ -2135,7 +3293,13 @@
     "emd": "방화동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2004.06",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 강서구 양천로1길 117"
   },
   {
     "code": "A15777501",
@@ -2146,7 +3310,13 @@
     "emd": "방화동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1994.05",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 양천로6길 28"
   },
   {
     "code": "A15778101",
@@ -2157,7 +3327,13 @@
     "emd": "방화동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1993.12",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 강서구 금낭화로23길 8"
   },
   {
     "code": "A15784601",
@@ -2168,7 +3344,13 @@
     "emd": "방화동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1999.12",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 양천로 140"
   },
   {
     "code": "A15785002",
@@ -2179,7 +3361,13 @@
     "emd": "방화동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2005.06",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 양천로14길 118"
   },
   {
     "code": "A15785005",
@@ -2190,7 +3378,13 @@
     "emd": "방화동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1994.05",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 개화동로21길 4"
   },
   {
     "code": "A15785507",
@@ -2201,7 +3395,13 @@
     "emd": "방화동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1993.11",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 방화대로37길 26"
   },
   {
     "code": "A15785601",
@@ -2212,7 +3412,13 @@
     "emd": "방화동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1994.09",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "서울특별시 강서구 금낭화로 258"
   },
   {
     "code": "A15785605",
@@ -2223,7 +3429,13 @@
     "emd": "방화동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1996.09",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 9,
+    "addr": "서울특별시 강서구 양천로11길 57"
   },
   {
     "code": "A15785608",
@@ -2234,7 +3446,13 @@
     "emd": "방화동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1994.03",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 강서구 금낭화로 167"
   },
   {
     "code": "A15785612",
@@ -2245,7 +3463,13 @@
     "emd": "방화동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1994.08",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 13,
+    "addr": "서울특별시 강서구 금낭화로23길 25"
   },
   {
     "code": "A15785613",
@@ -2256,7 +3480,13 @@
     "emd": "방화동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1994.08",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 강서구 금낭화로 287-19"
   },
   {
     "code": "A15785703",
@@ -2267,7 +3497,13 @@
     "emd": "방화동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1999.08",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 방화대로50길 7"
   },
   {
     "code": "A15785709",
@@ -2278,7 +3514,13 @@
     "emd": "방화동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1994.07",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 방화대로47길 55"
   },
   {
     "code": "A15785710",
@@ -2289,7 +3531,13 @@
     "emd": "방화동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1994.08",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 방화대로47가길 22"
   },
   {
     "code": "A15785711",
@@ -2300,6 +3548,12 @@
     "emd": "방화동",
     "sigunguCode": "11500",
     "sido": "서울특별시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "1993.10",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 강서구 방화대로48길 40"
   }
 ]

@@ -8,7 +8,13 @@
     "emd": "온천동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "1983.11",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "충청남도 아산시 온여고길 27"
   },
   {
     "code": "A10022679",
@@ -19,7 +25,13 @@
     "emd": "온천동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2024.03",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 41,
+    "addr": "충청남도 아산시 아산로17번길 5"
   },
   {
     "code": "A10022814",
@@ -30,7 +42,13 @@
     "emd": "온천동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2024.01",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 29,
+    "addr": "충청남도 아산시 문화공원로 42"
   },
   {
     "code": "A10026233",
@@ -42,7 +60,13 @@
     "sigunguCode": "44200",
     "sido": "충청남도",
     "sigungu": "아산시",
-    "hhldCnt": 256
+    "hhldCnt": 256,
+    "built": "2018.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 온천대로 1532-5"
   },
   {
     "code": "A10027131",
@@ -53,7 +77,13 @@
     "emd": "온천동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2017.02",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "충청남도 아산시 아산로 116-20"
   },
   {
     "code": "A10027179",
@@ -64,7 +94,13 @@
     "emd": "온천동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2016.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 13,
+    "addr": "충청남도 아산시 청운로84번길 15"
   },
   {
     "code": "A10027531",
@@ -75,7 +111,13 @@
     "emd": "온천동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2016.03",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "충청남도 아산시 아산로 116-21"
   },
   {
     "code": "A33601001",
@@ -86,7 +128,13 @@
     "emd": "온천동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "1996.04",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "충청남도 아산시 문화로 115"
   },
   {
     "code": "A33601002",
@@ -97,7 +145,13 @@
     "emd": "온천동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "1995.11",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "충청남도 아산시 시민로 485"
   },
   {
     "code": "A33601003",
@@ -108,7 +162,13 @@
     "emd": "온천동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2014.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 14,
+    "addr": "충청남도 아산시 온천대로 1555"
   },
   {
     "code": "A33601201",
@@ -119,7 +179,13 @@
     "emd": "온천동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "1991.04",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "충청남도 아산시 어의정로 41"
   },
   {
     "code": "A33676001",
@@ -130,7 +196,13 @@
     "emd": "온천동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2006.03",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 남산로 126"
   },
   {
     "code": "A33602001",
@@ -141,7 +213,13 @@
     "emd": "실옥동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "1996.12",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "충청남도 아산시 문화로 33-10"
   },
   {
     "code": "A33602002",
@@ -152,7 +230,13 @@
     "emd": "실옥동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "1999.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "충청남도 아산시 아산로 103-17"
   },
   {
     "code": "A33602003",
@@ -163,7 +247,13 @@
     "emd": "실옥동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2006.05",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 아산로117번길 17"
   },
   {
     "code": "A10021805",
@@ -174,7 +264,13 @@
     "emd": "방축동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "1991.04",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "충청남도 아산시 방축로 8"
   },
   {
     "code": "A10024665",
@@ -185,7 +281,13 @@
     "emd": "방축동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2020.08",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 25,
+    "addr": "충청남도 아산시 온천대로 1323-25"
   },
   {
     "code": "A10024977",
@@ -196,7 +298,13 @@
     "emd": "방축동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2020.03",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "충청남도 아산시 실옥로 15"
   },
   {
     "code": "A33607002",
@@ -207,7 +315,13 @@
     "emd": "방축동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "1997.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "충청남도 아산시 온천대로 1315"
   },
   {
     "code": "A33607003",
@@ -218,7 +332,13 @@
     "emd": "방축동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2006.10",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 번영로 15"
   },
   {
     "code": "A33607004",
@@ -229,7 +349,13 @@
     "emd": "방축동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "1997.08",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "충청남도 아산시 온천대로1333번길 10"
   },
   {
     "code": "A33607005",
@@ -240,7 +366,13 @@
     "emd": "방축동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "1998.11",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 문화로 26-4"
   },
   {
     "code": "A33607006",
@@ -251,7 +383,13 @@
     "emd": "방축동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "1990.08",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "충청남도 아산시 방축로 21"
   },
   {
     "code": "A33607007",
@@ -262,7 +400,13 @@
     "emd": "방축동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "1997.08",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "충청남도 아산시 온천대로1333번길 7"
   },
   {
     "code": "A33614001",
@@ -273,7 +417,13 @@
     "emd": "신인동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2010.09",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "충청남도 아산시 순천향로 602"
   },
   {
     "code": "A10025471",
@@ -284,7 +434,13 @@
     "emd": "법곡동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2019.09",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "충청남도 아산시 법곡길 20-12"
   },
   {
     "code": "A10027178",
@@ -295,7 +451,13 @@
     "emd": "법곡동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2016.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "충청남도 아산시 법곡길 10"
   },
   {
     "code": "A10027596",
@@ -306,7 +468,13 @@
     "emd": "법곡동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2016.02",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 법곡길 8"
   },
   {
     "code": "A33678801",
@@ -317,7 +485,13 @@
     "emd": "장존동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2004.08",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 외암로 1247"
   },
   {
     "code": "A33621001",
@@ -328,7 +502,13 @@
     "emd": "좌부동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "1995.11",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "충청남도 아산시 고불로 665"
   },
   {
     "code": "A33621002",
@@ -339,7 +519,13 @@
     "emd": "좌부동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "1994.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 고불로 667"
   },
   {
     "code": "A33621003",
@@ -350,7 +536,13 @@
     "emd": "좌부동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "1995.11",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 고불로 669"
   },
   {
     "code": "A33676602",
@@ -361,7 +553,13 @@
     "emd": "읍내동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "1993.07",
+    "dongCnt": "7동",
+    "heat": "중앙난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 외암로 1420"
   },
   {
     "code": "A10026373",
@@ -372,7 +570,13 @@
     "emd": "풍기동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2018.03",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "충청남도 아산시 어의정로 182"
   },
   {
     "code": "A10026757",
@@ -383,7 +587,13 @@
     "emd": "풍기동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2017.09",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "충청남도 아산시 어의정로 184"
   },
   {
     "code": "A33606001",
@@ -394,7 +604,13 @@
     "emd": "풍기동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "1993.06",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 어의정로183번길 15"
   },
   {
     "code": "A33606002",
@@ -405,7 +621,13 @@
     "emd": "풍기동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2008.01",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "충청남도 아산시 남부로 321-8"
   },
   {
     "code": "A33606003",
@@ -416,7 +638,13 @@
     "emd": "풍기동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2000.08",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "충청남도 아산시 어의정로183번길 14"
   },
   {
     "code": "A33606004",
@@ -427,7 +655,13 @@
     "emd": "풍기동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2008.01",
+    "dongCnt": "18동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "충청남도 아산시 남부로 353"
   },
   {
     "code": "A10020215",
@@ -438,7 +672,13 @@
     "emd": "용화동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2026.02",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 37,
+    "addr": "충청남도 아산시 남부로 195"
   },
   {
     "code": "A10022973",
@@ -449,7 +689,13 @@
     "emd": "용화동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2023.10",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "충청남도 아산시 시민로 135"
   },
   {
     "code": "A33605002",
@@ -460,7 +706,13 @@
     "emd": "용화동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "1989.03",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "충청남도 아산시 시민로 277-3"
   },
   {
     "code": "A33605003",
@@ -471,7 +723,13 @@
     "emd": "용화동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2005.02",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 온중로 6"
   },
   {
     "code": "A33605004",
@@ -482,7 +740,13 @@
     "emd": "용화동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "1998.06",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 어의정로 46"
   },
   {
     "code": "A33605005",
@@ -493,7 +757,13 @@
     "emd": "용화동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "1997.03",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 온중로 22"
   },
   {
     "code": "A33679001",
@@ -504,7 +774,13 @@
     "emd": "용화동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2009.10",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 31,
+    "addr": "충청남도 아산시 용화고길 90"
   },
   {
     "code": "A33679002",
@@ -515,7 +791,13 @@
     "emd": "용화동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2014.07",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 31,
+    "addr": "충청남도 아산시 용화고길 46"
   },
   {
     "code": "A33679003",
@@ -526,7 +808,13 @@
     "emd": "용화동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2014.09",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "충청남도 아산시 어의정로 92-7"
   },
   {
     "code": "A10020171",
@@ -537,7 +825,13 @@
     "emd": "모종동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2026.03",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "충청남도 아산시 한마음로 127-12"
   },
   {
     "code": "A10020271",
@@ -548,7 +842,13 @@
     "emd": "모종동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2025.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 46,
+    "addr": "충청남도 아산시 삼동로70번길 36"
   },
   {
     "code": "A10022442",
@@ -559,7 +859,13 @@
     "emd": "모종동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2024.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 39,
+    "addr": "충청남도 아산시 번영로196번길 5"
   },
   {
     "code": "A10023037",
@@ -570,7 +876,13 @@
     "emd": "모종동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2023.08",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "충청남도 아산시 못마루로 139"
   },
   {
     "code": "A10023666",
@@ -581,7 +893,13 @@
     "emd": "모종동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2022.08",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "충청남도 아산시 모종동 734 삼일파라뷰더센트럴"
   },
   {
     "code": "A10023919",
@@ -592,7 +910,13 @@
     "emd": "모종동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2022.04",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "충청남도 아산시 삼동로16번길 52"
   },
   {
     "code": "A10026850",
@@ -603,7 +927,13 @@
     "emd": "모종동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2017.06",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "충청남도 아산시 모종로22번길 33"
   },
   {
     "code": "A10027173",
@@ -614,7 +944,13 @@
     "emd": "모종동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2017.02",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "충청남도 아산시 모종로22번길 7"
   },
   {
     "code": "A10027175",
@@ -625,7 +961,13 @@
     "emd": "모종동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2017.02",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "충청남도 아산시 모종남로22번길 11"
   },
   {
     "code": "A33604001",
@@ -636,7 +978,13 @@
     "emd": "모종동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "1992.12",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 9,
+    "addr": "충청남도 아산시 번영로206번길 32"
   },
   {
     "code": "A33604002",
@@ -647,7 +995,13 @@
     "emd": "모종동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2008.07",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "충청남도 아산시 문화로 353"
   },
   {
     "code": "A33604003",
@@ -658,7 +1012,13 @@
     "emd": "모종동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2006.06",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 문화로 301-16"
   },
   {
     "code": "A33604004",
@@ -669,7 +1029,13 @@
     "emd": "모종동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "1998.11",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "충청남도 아산시 삼동로 34"
   },
   {
     "code": "A33604005",
@@ -680,7 +1046,13 @@
     "emd": "모종동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2006.08",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "충청남도 아산시 문화로 355"
   },
   {
     "code": "A33604006",
@@ -691,7 +1063,13 @@
     "emd": "모종동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2005.12",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 모종로 21"
   },
   {
     "code": "A33675201",
@@ -702,7 +1080,13 @@
     "emd": "모종동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2010.04",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "충청남도 아산시 모종로 22"
   },
   {
     "code": "A10020460",
@@ -714,7 +1098,13 @@
     "sigunguCode": "44200",
     "sido": "충청남도",
     "sigungu": "아산시",
-    "hhldCnt": 603
+    "hhldCnt": 603,
+    "built": "2025.08",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "충청남도 아산시 문화로 257-45"
   },
   {
     "code": "A10024037",
@@ -725,7 +1115,13 @@
     "emd": "권곡동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2021.12",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "충청남도 아산시 문화로 271-30"
   },
   {
     "code": "A33603001",
@@ -736,7 +1132,13 @@
     "emd": "권곡동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2003.07",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "충청남도 아산시 박물관로 13"
   },
   {
     "code": "A33603002",
@@ -747,7 +1149,13 @@
     "emd": "권곡동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2005.11",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 문화로243번길 13"
   },
   {
     "code": "A33603003",
@@ -758,7 +1166,13 @@
     "emd": "권곡동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2002.07",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 문화로 257-17"
   },
   {
     "code": "A33671201",
@@ -769,7 +1183,13 @@
     "emd": "권곡동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2009.06",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "충청남도 아산시 권곡로 47"
   },
   {
     "code": "A33671202",
@@ -780,7 +1200,13 @@
     "emd": "권곡동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2009.05",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 문화로 257-24"
   },
   {
     "code": "A33671203",
@@ -791,7 +1217,13 @@
     "emd": "권곡동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2009.05",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 문화로 257-20"
   },
   {
     "code": "A33613001",
@@ -802,7 +1234,13 @@
     "emd": "배미동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2008.09",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 서부북로 988"
   },
   {
     "code": "A33613002",
@@ -813,7 +1251,13 @@
     "emd": "배미동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2000.05",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 서부북로 973"
   },
   {
     "code": "A33612002",
@@ -824,7 +1268,13 @@
     "emd": "득산동",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "1998.05",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 온천대로 1105-17"
   },
   {
     "code": "A10021302",
@@ -835,7 +1285,13 @@
     "emd": "염치읍",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "1995.06",
+    "dongCnt": "1동",
+    "heat": "개별난방+기타",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "충청남도 아산시 충무로 227"
   },
   {
     "code": "A33681402",
@@ -846,7 +1302,13 @@
     "emd": "염치읍",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2002.10",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 충무로308번길 24"
   },
   {
     "code": "A33681301",
@@ -857,7 +1319,13 @@
     "emd": "염치읍",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2001.08",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 송곡길68번길 3"
   },
   {
     "code": "A10021660",
@@ -868,7 +1336,13 @@
     "emd": "배방읍",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2024.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "충청남도 아산시 배방로105번길 14"
   },
   {
     "code": "A10023930",
@@ -880,7 +1354,13 @@
     "sigunguCode": "44200",
     "sido": "충청남도",
     "sigungu": "아산시",
-    "hhldCnt": 519
+    "hhldCnt": 519,
+    "built": "2022.01",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 26,
+    "addr": "충청남도 아산시 모산로 38-11"
   },
   {
     "code": "A10024283",
@@ -891,7 +1371,13 @@
     "emd": "배방읍",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2021.05",
+    "dongCnt": "15동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "충청남도 아산시 배방로 58-44"
   },
   {
     "code": "A10024521",
@@ -902,7 +1388,13 @@
     "emd": "배방읍",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2020.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "충청남도 아산시 북수로 31"
   },
   {
     "code": "A10024761",
@@ -913,7 +1405,13 @@
     "emd": "배방읍",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2020.07",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "충청남도 아산시 배방로 127"
   },
   {
     "code": "A10025378",
@@ -924,7 +1422,13 @@
     "emd": "배방읍",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2019.07",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "충청남도 아산시 북수로 33"
   },
   {
     "code": "A10025904",
@@ -935,7 +1439,13 @@
     "emd": "배방읍",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2018.11",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 26,
+    "addr": "충청남도 아산시 모산로 52"
   },
   {
     "code": "A10026121",
@@ -946,7 +1456,13 @@
     "emd": "배방읍",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2018.08",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "충청남도 아산시 모산로 67"
   },
   {
     "code": "A10026656",
@@ -957,7 +1473,13 @@
     "emd": "배방읍",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2017.10",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "충청남도 아산시 모산로 51"
   },
   {
     "code": "A10027042",
@@ -968,7 +1490,13 @@
     "emd": "배방읍",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2017.02",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "충청남도 아산시 북수로25번길 33"
   },
   {
     "code": "A10028005",
@@ -979,7 +1507,13 @@
     "emd": "배방읍",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2015.04",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "충청남도 아산시 배방로 58-38"
   },
   {
     "code": "A33672927",
@@ -990,7 +1524,13 @@
     "emd": "배방읍",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2012.01",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "충청남도 아산시 모산로126번길 17-7"
   },
   {
     "code": "A33685202",
@@ -1001,7 +1541,13 @@
     "emd": "배방읍",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2007.08",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 배방로 58-46"
   },
   {
     "code": "A33685204",
@@ -1012,7 +1558,13 @@
     "emd": "배방읍",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2006.06",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 배방로 58-11"
   },
   {
     "code": "A33685205",
@@ -1023,7 +1575,13 @@
     "emd": "배방읍",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2006.12",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 배방로 58-43"
   },
   {
     "code": "A33685209",
@@ -1034,7 +1592,13 @@
     "emd": "배방읍",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2006.06",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 배방로 58-10"
   },
   {
     "code": "A33685217",
@@ -1045,7 +1609,13 @@
     "emd": "배방읍",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "1997.06",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "충청남도 아산시 모산로126번길 17-26"
   },
   {
     "code": "A33685314",
@@ -1056,7 +1626,13 @@
     "emd": "배방읍",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2007.03",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 배방로105번길 31"
   },
   {
     "code": "A33685813",
@@ -1067,7 +1643,13 @@
     "emd": "배방읍",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2006.08",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 배방로 131"
   },
   {
     "code": "A10022937",
@@ -1078,7 +1660,13 @@
     "emd": "배방읍",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2023.10",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "충청남도 아산시 북수로 163"
   },
   {
     "code": "A10023707",
@@ -1089,7 +1677,13 @@
     "emd": "배방읍",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2022.06",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 25,
+    "addr": "충청남도 아산시 배방읍 북수리 1873 충남꿈비채아산배방"
   },
   {
     "code": "A33685106",
@@ -1100,7 +1694,13 @@
     "emd": "배방읍",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2008.01",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 북수로 137"
   },
   {
     "code": "A33685107",
@@ -1111,7 +1711,13 @@
     "emd": "배방읍",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2005.05",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 배방로201번길 10"
   },
   {
     "code": "A33685111",
@@ -1122,7 +1728,13 @@
     "emd": "배방읍",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2007.12",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 북수로 116"
   },
   {
     "code": "A33685410",
@@ -1133,7 +1745,13 @@
     "emd": "배방읍",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2008.01",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 북수로 183"
   },
   {
     "code": "A33685108",
@@ -1144,7 +1762,13 @@
     "emd": "배방읍",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "1998.03",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 솔치로 261"
   },
   {
     "code": "A33685118",
@@ -1155,7 +1779,13 @@
     "emd": "배방읍",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2007.12",
+    "dongCnt": "30동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 호서로 460"
   },
   {
     "code": "A10020284",
@@ -1167,7 +1797,13 @@
     "sigunguCode": "44200",
     "sido": "충청남도",
     "sigungu": "아산시",
-    "hhldCnt": 787
+    "hhldCnt": 787,
+    "built": "2026.01",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "충청남도 아산시 배방읍 동방로 169 "
   },
   {
     "code": "A10020398",
@@ -1179,7 +1815,13 @@
     "sigunguCode": "44200",
     "sido": "충청남도",
     "sigungu": "아산시",
-    "hhldCnt": 438
+    "hhldCnt": 438,
+    "built": "2025.06",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "충청남도 아산시 동방로 136"
   },
   {
     "code": "A10020547",
@@ -1191,7 +1833,13 @@
     "sigunguCode": "44200",
     "sido": "충청남도",
     "sigungu": "아산시",
-    "hhldCnt": 682
+    "hhldCnt": 682,
+    "built": "2025.06",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "충청남도 아산시 동방로 220"
   },
   {
     "code": "A10020900",
@@ -1202,7 +1850,13 @@
     "emd": "배방읍",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2025.01",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "충청남도 아산시 동방로 201"
   },
   {
     "code": "A10022470",
@@ -1213,7 +1867,13 @@
     "emd": "배방읍",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2024.07",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "충청남도 아산시 동방로 134"
   },
   {
     "code": "A10022864",
@@ -1224,7 +1884,13 @@
     "emd": "배방읍",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2023.12",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 27,
+    "addr": "충청남도 아산시 세교길 14"
   },
   {
     "code": "A10022921",
@@ -1235,7 +1901,13 @@
     "emd": "배방읍",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2023.11",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 29,
+    "addr": "충청남도 아산시 동방로 219"
   },
   {
     "code": "A10023501",
@@ -1246,7 +1918,13 @@
     "emd": "배방읍",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2022.11",
+    "dongCnt": "22동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 29,
+    "addr": "충청남도 아산시 배방읍 세교리 1592 아산배방LH15단지"
   },
   {
     "code": "A10023637",
@@ -1257,7 +1935,13 @@
     "emd": "배방읍",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2022.09",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 29,
+    "addr": "충청남도 아산시 배방읍 세교리 1599 아산배방LH 14단지"
   },
   {
     "code": "A10024291",
@@ -1268,7 +1952,13 @@
     "emd": "배방읍",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2021.05",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 24,
+    "addr": "충청남도 아산시 세교길 13"
   },
   {
     "code": "A33685501",
@@ -1279,7 +1969,13 @@
     "emd": "배방읍",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "1996.01",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 6,
+    "addr": "충청남도 아산시 온천대로 2332"
   },
   {
     "code": "A33685515",
@@ -1290,7 +1986,13 @@
     "emd": "배방읍",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "1997.10",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 온천대로 2358"
   },
   {
     "code": "A33685503",
@@ -1301,7 +2003,13 @@
     "emd": "배방읍",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "1999.04",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "충청남도 아산시 휴대길 212"
   },
   {
     "code": "A10024818",
@@ -1312,7 +2020,13 @@
     "emd": "배방읍",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2020.06",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 17,
+    "addr": "충청남도 아산시 공원로 89"
   },
   {
     "code": "A10025952",
@@ -1323,7 +2037,13 @@
     "emd": "배방읍",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2018.11",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 25,
+    "addr": "충청남도 아산시 공원로 69"
   },
   {
     "code": "A33672919",
@@ -1334,7 +2054,13 @@
     "emd": "배방읍",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2009.06",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "충청남도 아산시 연화로 36"
   },
   {
     "code": "A33672920",
@@ -1345,7 +2071,13 @@
     "emd": "배방읍",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2009.06",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "충청남도 아산시 용연로 54"
   },
   {
     "code": "A33672921",
@@ -1356,7 +2088,13 @@
     "emd": "배방읍",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2010.09",
+    "dongCnt": "12동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "충청남도 아산시 장재로 27"
   },
   {
     "code": "A33672922",
@@ -1367,7 +2105,13 @@
     "emd": "배방읍",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2008.09",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 18,
+    "addr": "충청남도 아산시 용연로 36"
   },
   {
     "code": "A33672923",
@@ -1378,7 +2122,13 @@
     "emd": "배방읍",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2010.10",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "충청남도 아산시 용연로 37"
   },
   {
     "code": "A33672924",
@@ -1389,7 +2139,13 @@
     "emd": "배방읍",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2011.01",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "충청남도 아산시 연화로 11"
   },
   {
     "code": "A33672925",
@@ -1400,7 +2156,13 @@
     "emd": "배방읍",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2011.02",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "충청남도 아산시 용연로 53"
   },
   {
     "code": "A33672926",
@@ -1411,7 +2173,13 @@
     "emd": "배방읍",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2011.06",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 30,
+    "addr": "충청남도 아산시 광장로 210"
   },
   {
     "code": "A33685712",
@@ -1422,7 +2190,13 @@
     "emd": "배방읍",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2008.10",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 22,
+    "addr": "충청남도 아산시 연화로 16"
   },
   {
     "code": "A10022752",
@@ -1433,7 +2207,13 @@
     "emd": "탕정면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2023.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "충청남도 아산시 용머리길 49"
   },
   {
     "code": "A10022753",
@@ -1444,7 +2224,13 @@
     "emd": "탕정면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2023.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "충청남도 아산시 용머리길 41"
   },
   {
     "code": "A10024242",
@@ -1455,7 +2241,13 @@
     "emd": "탕정면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2021.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "충청남도 아산시 용머리길 109"
   },
   {
     "code": "A33672501",
@@ -1466,7 +2258,13 @@
     "emd": "탕정면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2009.02",
+    "dongCnt": "20동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 39,
+    "addr": "충청남도 아산시 탕정면로 37"
   },
   {
     "code": "A33672502",
@@ -1477,7 +2275,13 @@
     "emd": "탕정면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "1997.11",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 탕정면로 379-20"
   },
   {
     "code": "A33684201",
@@ -1488,7 +2292,13 @@
     "emd": "탕정면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "1995.02",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 탕정면로 405"
   },
   {
     "code": "A33684302",
@@ -1499,7 +2309,13 @@
     "emd": "탕정면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "1999.12",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 선문로 385"
   },
   {
     "code": "A10023469",
@@ -1510,7 +2326,13 @@
     "emd": "탕정면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2022.12",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 29,
+    "addr": "충청남도 아산시 한들물빛1로 8"
   },
   {
     "code": "A10023524",
@@ -1521,7 +2343,13 @@
     "emd": "탕정면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2022.11",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 32,
+    "addr": "충청남도 아산시 한들물빛3로 14"
   },
   {
     "code": "A10023803",
@@ -1532,7 +2360,13 @@
     "emd": "탕정면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2022.05",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 35,
+    "addr": "충청남도 아산시 한들물빛도시로 69"
   },
   {
     "code": "A10023970",
@@ -1543,7 +2377,13 @@
     "emd": "탕정면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2022.01",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 40,
+    "addr": "충청남도 아산시 한들물빛도시로 70"
   },
   {
     "code": "A10023973",
@@ -1554,7 +2394,13 @@
     "emd": "탕정면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2022.01",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 40,
+    "addr": "충청남도 아산시 한들물빛5로 36"
   },
   {
     "code": "A10024219",
@@ -1565,7 +2411,13 @@
     "emd": "탕정면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2021.06",
+    "dongCnt": "12동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "충청남도 아산시 한들물빛3로 36"
   },
   {
     "code": "A10024509",
@@ -1576,7 +2428,13 @@
     "emd": "탕정면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2020.10",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 21,
+    "addr": "충청남도 아산시 한들물빛1로 7"
   },
   {
     "code": "A10023086",
@@ -1587,7 +2445,13 @@
     "emd": "탕정면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2023.07",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "충청남도 아산시 갈산교로 250"
   },
   {
     "code": "A10023105",
@@ -1598,7 +2462,13 @@
     "emd": "탕정면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2023.07",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "충청남도 아산시 갈산샛들로 57"
   },
   {
     "code": "A10023107",
@@ -1609,7 +2479,13 @@
     "emd": "탕정면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2023.07",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "충청남도 아산시 갈산교로 224"
   },
   {
     "code": "A10023111",
@@ -1620,7 +2496,13 @@
     "emd": "탕정면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2023.07",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "충청남도 아산시 갈산샛들로 67"
   },
   {
     "code": "A10023119",
@@ -1631,7 +2513,13 @@
     "emd": "탕정면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2023.07",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "충청남도 아산시 갈산교로 223"
   },
   {
     "code": "A10026204",
@@ -1642,7 +2530,13 @@
     "emd": "음봉면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2018.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "충청남도 아산시 아산밸리로 461"
   },
   {
     "code": "A10027747",
@@ -1653,7 +2547,13 @@
     "emd": "음봉면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2015.12",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "충청남도 아산시 음봉로 515-38"
   },
   {
     "code": "A10022824",
@@ -1664,7 +2564,13 @@
     "emd": "음봉면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2023.12",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "충청남도 아산시 산동희망로 40"
   },
   {
     "code": "A10022982",
@@ -1675,7 +2581,13 @@
     "emd": "음봉면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2023.09",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "충청남도 아산시 산동희망로 17"
   },
   {
     "code": "A33686301",
@@ -1686,7 +2598,13 @@
     "emd": "음봉면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "1996.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "충청남도 아산시 음봉로 803-10"
   },
   {
     "code": "A33686303",
@@ -1697,7 +2615,13 @@
     "emd": "음봉면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "1997.08",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 음봉로 847"
   },
   {
     "code": "A33686102",
@@ -1708,7 +2632,13 @@
     "emd": "음봉면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2006.12",
+    "dongCnt": "24동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 음봉로 567"
   },
   {
     "code": "A33686104",
@@ -1719,7 +2649,13 @@
     "emd": "음봉면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "1997.04",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 음봉로681번길 24"
   },
   {
     "code": "A10027752",
@@ -1730,7 +2666,13 @@
     "emd": "음봉면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2015.12",
+    "dongCnt": "17동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "충청남도 아산시 음봉로 515-37"
   },
   {
     "code": "A10027076",
@@ -1741,7 +2683,13 @@
     "emd": "둔포면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2005.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 둔포중앙로161번길 34"
   },
   {
     "code": "A33687201",
@@ -1752,7 +2700,13 @@
     "emd": "둔포면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "1996.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "충청남도 아산시 둔포중앙로171번길 97"
   },
   {
     "code": "A33687402",
@@ -1763,7 +2717,13 @@
     "emd": "둔포면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2000.07",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "충청남도 아산시 윤보선로450번길 3"
   },
   {
     "code": "A10022957",
@@ -1774,7 +2734,13 @@
     "emd": "둔포면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2023.10",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "충청남도 아산시 아산밸리남로 37"
   },
   {
     "code": "A10026592",
@@ -1785,7 +2751,13 @@
     "emd": "둔포면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2017.12",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "충청남도 아산시 아산밸리남로 81"
   },
   {
     "code": "A10026602",
@@ -1796,7 +2768,13 @@
     "emd": "둔포면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2017.11",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "충청남도 아산시 아산밸리남로 77"
   },
   {
     "code": "A10027092",
@@ -1807,7 +2785,13 @@
     "emd": "둔포면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2017.02",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "충청남도 아산시 아산밸리북로 48"
   },
   {
     "code": "A10027094",
@@ -1818,7 +2802,13 @@
     "emd": "둔포면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2017.02",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "충청남도 아산시 아산밸리북로 68"
   },
   {
     "code": "A10027259",
@@ -1829,7 +2819,13 @@
     "emd": "둔포면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2016.12",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "충청남도 아산시 아산밸리중앙로 67"
   },
   {
     "code": "A10027263",
@@ -1840,7 +2836,13 @@
     "emd": "둔포면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2016.12",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "충청남도 아산시 아산밸리중앙로 47"
   },
   {
     "code": "A10027635",
@@ -1851,7 +2853,13 @@
     "emd": "둔포면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2015.09",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "충청남도 아산시 아산밸리중앙로 58-5"
   },
   {
     "code": "A10027667",
@@ -1862,7 +2870,13 @@
     "emd": "둔포면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2015.09",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "충청남도 아산시 아산밸리중앙로 50"
   },
   {
     "code": "A33683201",
@@ -1873,7 +2887,13 @@
     "emd": "인주면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2000.05",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "충청남도 아산시 공세길 6-7"
   },
   {
     "code": "A33673001",
@@ -1884,7 +2904,13 @@
     "emd": "인주면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2011.01",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 아산만로 1674-10"
   },
   {
     "code": "A33673002",
@@ -1895,7 +2921,13 @@
     "emd": "인주면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "1998.06",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "사택 및 관사 등",
+    "topFloor": 9,
+    "addr": "충청남도 아산시 현대로1029번길 200-17"
   },
   {
     "code": "A33683302",
@@ -1906,7 +2938,13 @@
     "emd": "인주면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2000.04",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 현대로 862"
   },
   {
     "code": "A33688512",
@@ -1917,7 +2955,13 @@
     "emd": "신창면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "1996.12",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 순천향로 49"
   },
   {
     "code": "A33677802",
@@ -1928,7 +2972,13 @@
     "emd": "신창면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2014.08",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 행목로 202"
   },
   {
     "code": "A33688405",
@@ -1939,7 +2989,13 @@
     "emd": "신창면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2007.05",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 행목로 217"
   },
   {
     "code": "A33688406",
@@ -1950,7 +3006,13 @@
     "emd": "신창면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "1994.11",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 행목로 152"
   },
   {
     "code": "A10020196",
@@ -1961,7 +3023,13 @@
     "emd": "신창면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2026.02",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 35,
+    "addr": "충청남도 아산시 남부로 196"
   },
   {
     "code": "A10022787",
@@ -1972,7 +3040,13 @@
     "emd": "신창면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2023.12",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 27,
+    "addr": "충청남도 아산시 천우물로 23"
   },
   {
     "code": "A10023066",
@@ -1983,7 +3057,13 @@
     "emd": "신창면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2023.07",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 27,
+    "addr": "충청남도 아산시 남성길 72"
   },
   {
     "code": "A33677801",
@@ -1994,7 +3074,13 @@
     "emd": "신창면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2009.01",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 온천대로 984"
   },
   {
     "code": "A33688201",
@@ -2005,7 +3091,13 @@
     "emd": "신창면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2005.08",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 남성길 198"
   },
   {
     "code": "A33688203",
@@ -2016,7 +3108,13 @@
     "emd": "신창면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "1995.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "충청남도 아산시 서부북로 813"
   },
   {
     "code": "A33688204",
@@ -2027,7 +3125,13 @@
     "emd": "신창면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "1997.12",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 서부북로 844"
   },
   {
     "code": "A33688207",
@@ -2038,7 +3142,13 @@
     "emd": "신창면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2006.01",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 남성길 123"
   },
   {
     "code": "A33688208",
@@ -2049,7 +3159,13 @@
     "emd": "신창면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "1994.12",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 6,
+    "addr": "충청남도 아산시 서부북로 933-30"
   },
   {
     "code": "A33688209",
@@ -2060,7 +3176,13 @@
     "emd": "신창면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2008.08",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 10,
+    "addr": "충청남도 아산시 온천대로 985"
   },
   {
     "code": "A33688210",
@@ -2071,7 +3193,13 @@
     "emd": "신창면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2008.10",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 남성길 116-8"
   },
   {
     "code": "A33688211",
@@ -2082,7 +3210,13 @@
     "emd": "신창면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2001.03",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "충청남도 아산시 남성길 85"
   },
   {
     "code": "A33688102",
@@ -2093,7 +3227,13 @@
     "emd": "신창면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2000.10",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 5,
+    "addr": "충청남도 아산시 서부북로 270"
   },
   {
     "code": "A10022730",
@@ -2104,6 +3244,12 @@
     "emd": "신창면",
     "sigunguCode": "44200",
     "sido": "충청남도",
-    "sigungu": "아산시"
+    "sigungu": "아산시",
+    "built": "2024.01",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "충청남도 아산시 천우물로 22"
   }
 ]

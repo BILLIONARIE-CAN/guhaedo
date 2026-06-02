@@ -8,7 +8,13 @@
     "emd": "순창읍",
     "sigunguCode": "52770",
     "sido": "전북특별자치도",
-    "sigungu": "순창군"
+    "sigungu": "순창군",
+    "built": "2019.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "전북특별자치도 순창군 금산로 34"
   },
   {
     "code": "A10026607",
@@ -19,7 +25,13 @@
     "emd": "순창읍",
     "sigunguCode": "52770",
     "sido": "전북특별자치도",
-    "sigungu": "순창군"
+    "sigungu": "순창군",
+    "built": "2017.10",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "전북특별자치도 순창군 금산로 22"
   },
   {
     "code": "A10020179",
@@ -30,7 +42,13 @@
     "emd": "순창읍",
     "sigunguCode": "52770",
     "sido": "전북특별자치도",
-    "sigungu": "순창군"
+    "sigungu": "순창군",
+    "built": "1999.01",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "전북특별자치도 순창군 양지길 81"
   },
   {
     "code": "A10020615",
@@ -41,7 +59,13 @@
     "emd": "순창읍",
     "sigunguCode": "52770",
     "sido": "전북특별자치도",
-    "sigungu": "순창군"
+    "sigungu": "순창군",
+    "built": "1995.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "전북특별자치도 순창군 남계로 96"
   },
   {
     "code": "A10021969",
@@ -52,7 +76,13 @@
     "emd": "순창읍",
     "sigunguCode": "52770",
     "sido": "전북특별자치도",
-    "sigungu": "순창군"
+    "sigungu": "순창군",
+    "built": "2013.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "전북특별자치도 순창군 장류로 422"
   },
   {
     "code": "A10023301",
@@ -63,7 +93,13 @@
     "emd": "순창읍",
     "sigunguCode": "52770",
     "sido": "전북특별자치도",
-    "sigungu": "순창군"
+    "sigungu": "순창군",
+    "built": "2023.03",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "전북특별자치도 순창군 교성로 55"
   },
   {
     "code": "A59580201",
@@ -74,6 +110,12 @@
     "emd": "순창읍",
     "sigunguCode": "52770",
     "sido": "전북특별자치도",
-    "sigungu": "순창군"
+    "sigungu": "순창군",
+    "built": "2006.09",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "전북특별자치도 순창군 경천1로 102"
   }
 ]

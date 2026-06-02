@@ -8,7 +8,13 @@
     "emd": "하동읍",
     "sigunguCode": "48850",
     "sido": "경상남도",
-    "sigungu": "하동군"
+    "sigungu": "하동군",
+    "built": "2018.08",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "경상남도 하동군 군청로 24"
   },
   {
     "code": "A66780401",
@@ -19,7 +25,13 @@
     "emd": "하동읍",
     "sigunguCode": "48850",
     "sido": "경상남도",
-    "sigungu": "하동군"
+    "sigungu": "하동군",
+    "built": "2003.07",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 하동군 중앙로 103"
   },
   {
     "code": "A10021142",
@@ -30,7 +42,13 @@
     "emd": "하동읍",
     "sigunguCode": "48850",
     "sido": "경상남도",
-    "sigungu": "하동군"
+    "sigungu": "하동군",
+    "built": "2023.02",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 14,
+    "addr": "경상남도 하동군 굴다리2길 23"
   },
   {
     "code": "A66780102",
@@ -41,7 +59,13 @@
     "emd": "하동읍",
     "sigunguCode": "48850",
     "sido": "경상남도",
-    "sigungu": "하동군"
+    "sigungu": "하동군",
+    "built": "1992.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 하동군 경서대로 71"
   },
   {
     "code": "A10020682",
@@ -53,7 +77,13 @@
     "sigunguCode": "48850",
     "sido": "경상남도",
     "sigungu": "하동군",
-    "hhldCnt": 144
+    "hhldCnt": 144,
+    "built": "1991.01",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 6,
+    "addr": "경상남도 하동군 소재1길 21"
   },
   {
     "code": "A66791101",
@@ -64,7 +94,13 @@
     "emd": "진교면",
     "sigunguCode": "48850",
     "sido": "경상남도",
-    "sigungu": "하동군"
+    "sigungu": "하동군",
+    "built": "2002.05",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 하동군 들포길 38"
   },
   {
     "code": "A10021144",
@@ -75,7 +111,13 @@
     "emd": "금성면",
     "sigunguCode": "48850",
     "sido": "경상남도",
-    "sigungu": "하동군"
+    "sigungu": "하동군",
+    "built": "1999.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "사택 및 관사 등",
+    "topFloor": 5,
+    "addr": "경상남도 하동군 회목길 58"
   },
   {
     "code": "A10021575",
@@ -86,6 +128,12 @@
     "emd": "금성면",
     "sigunguCode": "48850",
     "sido": "경상남도",
-    "sigungu": "하동군"
+    "sigungu": "하동군",
+    "built": "2011.06",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "경상남도 하동군 산업로 485"
   }
 ]

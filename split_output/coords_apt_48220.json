@@ -8,7 +8,13 @@
     "emd": "도천동",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "1991.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "경상남도 통영시 중앙로 34"
   },
   {
     "code": "A65011001",
@@ -19,7 +25,13 @@
     "emd": "도천동",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "1998.07",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "경상남도 통영시 도천상가안길 9"
   },
   {
     "code": "A65075601",
@@ -30,7 +42,13 @@
     "emd": "태평동",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "1997.05",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경상남도 통영시 비석1길 49"
   },
   {
     "code": "A10021179",
@@ -41,7 +59,13 @@
     "emd": "동호동",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "1993.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "경상남도 통영시 장좌로 131-7"
   },
   {
     "code": "A65007001",
@@ -52,7 +76,13 @@
     "emd": "동호동",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "1995.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "경상남도 통영시 동호안길 86"
   },
   {
     "code": "A65007002",
@@ -63,7 +93,13 @@
     "emd": "동호동",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "2001.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "경상남도 통영시 장좌로 145"
   },
   {
     "code": "A10020990",
@@ -74,7 +110,13 @@
     "emd": "정량동",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "1986.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 6,
+    "addr": "경상남도 통영시 장대4길 2"
   },
   {
     "code": "A10021264",
@@ -85,7 +127,13 @@
     "emd": "정량동",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "1993.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "경상남도 통영시 통영해안로 398"
   },
   {
     "code": "A10027807",
@@ -96,7 +144,13 @@
     "emd": "정량동",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "2015.08",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 통영시 비석1길 28"
   },
   {
     "code": "A65080601",
@@ -107,7 +161,13 @@
     "emd": "정량동",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "1993.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "경상남도 통영시 정량안길 1"
   },
   {
     "code": "A65080602",
@@ -118,7 +178,13 @@
     "emd": "정량동",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "1987.08",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 통영시 항북길 12-27"
   },
   {
     "code": "A10020447",
@@ -130,7 +196,13 @@
     "sigunguCode": "48220",
     "sido": "경상남도",
     "sigungu": "통영시",
-    "hhldCnt": 132
+    "hhldCnt": 132,
+    "built": "1995.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 통영시 원문로 52"
   },
   {
     "code": "A10025951",
@@ -141,7 +213,13 @@
     "emd": "북신동",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "2018.10",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 27,
+    "addr": "경상남도 통영시 북신로 22"
   },
   {
     "code": "A65002001",
@@ -152,7 +230,13 @@
     "emd": "북신동",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "1992.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 통영시 여황로 404-26"
   },
   {
     "code": "A65075404",
@@ -163,7 +247,13 @@
     "emd": "북신동",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "1995.02",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "경상남도 통영시 원문로 11"
   },
   {
     "code": "A65080502",
@@ -174,7 +264,13 @@
     "emd": "북신동",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "1995.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 통영시 원문로 35"
   },
   {
     "code": "A65080503",
@@ -185,7 +281,13 @@
     "emd": "북신동",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "1992.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 통영시 여황로 399-4"
   },
   {
     "code": "A10020500",
@@ -197,7 +299,13 @@
     "sigunguCode": "48220",
     "sido": "경상남도",
     "sigungu": "통영시",
-    "hhldCnt": 102
+    "hhldCnt": 102,
+    "built": "2001.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 통영시 무전4길 46-8"
   },
   {
     "code": "A10020577",
@@ -209,7 +317,13 @@
     "sigunguCode": "48220",
     "sido": "경상남도",
     "sigungu": "통영시",
-    "hhldCnt": 108
+    "hhldCnt": 108,
+    "built": "2002.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "경상남도 통영시 무전6길 22-8 주영에이스빌2차아파트"
   },
   {
     "code": "A10020741",
@@ -220,7 +334,13 @@
     "emd": "무전동",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "2002.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 통영시 무전8길 14-12"
   },
   {
     "code": "A10021040",
@@ -231,7 +351,13 @@
     "emd": "무전동",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "2002.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 통영시 무전4길 46-20"
   },
   {
     "code": "A10021057",
@@ -242,7 +368,13 @@
     "emd": "무전동",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "2003.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "경상남도 통영시 무전4길 10"
   },
   {
     "code": "A10021067",
@@ -253,7 +385,13 @@
     "emd": "무전동",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "2003.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "경상남도 통영시 무전2길 36"
   },
   {
     "code": "A10021304",
@@ -264,7 +402,13 @@
     "emd": "무전동",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "2018.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "경상남도 통영시 중앙로 336"
   },
   {
     "code": "A10021321",
@@ -275,7 +419,13 @@
     "emd": "무전동",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "2013.08",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 통영시 무전대로 12-50"
   },
   {
     "code": "A65001001",
@@ -286,7 +436,13 @@
     "emd": "무전동",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "2001.04",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경상남도 통영시 북신3길 26-13"
   },
   {
     "code": "A65075903",
@@ -297,7 +453,13 @@
     "emd": "무전동",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "2004.09",
+    "dongCnt": "16동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 통영시 무전7길 135"
   },
   {
     "code": "A65080102",
@@ -308,7 +470,13 @@
     "emd": "무전동",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "2003.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 통영시 무전5길 45"
   },
   {
     "code": "A10021137",
@@ -319,7 +487,13 @@
     "emd": "인평동",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "1992.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 11,
+    "addr": "경상남도 통영시 한실7길 51"
   },
   {
     "code": "A10021233",
@@ -330,7 +504,13 @@
     "emd": "인평동",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "1989.09",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "경상남도 통영시 평인일주로 82"
   },
   {
     "code": "A65016001",
@@ -341,7 +521,13 @@
     "emd": "인평동",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "1998.04",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 통영시 한실1길 21"
   },
   {
     "code": "A10021156",
@@ -352,7 +538,13 @@
     "emd": "미수동",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "1990.03",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "경상남도 통영시 선금산2길 18"
   },
   {
     "code": "A10021271",
@@ -363,7 +555,13 @@
     "emd": "미수동",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "1987.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "경상남도 통영시 미우지5길 17"
   },
   {
     "code": "A10027628",
@@ -374,7 +572,13 @@
     "emd": "미수동",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "2015.12",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "경상남도 통영시 미수해안로 38"
   },
   {
     "code": "A65013001",
@@ -385,7 +589,13 @@
     "emd": "미수동",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "2010.07",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 10,
+    "addr": "경상남도 통영시 미우지해안로 107"
   },
   {
     "code": "A65075103",
@@ -396,7 +606,13 @@
     "emd": "미수동",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "1994.09",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 통영시 미수해안로 36"
   },
   {
     "code": "A65080201",
@@ -407,7 +623,13 @@
     "emd": "미수동",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "1992.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 통영시 운하1길 25"
   },
   {
     "code": "A65080202",
@@ -418,7 +640,13 @@
     "emd": "미수동",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "1996.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "경상남도 통영시 미수해안로 52"
   },
   {
     "code": "A65080204",
@@ -429,7 +657,13 @@
     "emd": "미수동",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "1991.09",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "경상남도 통영시 미수해안로 54-21"
   },
   {
     "code": "A65080301",
@@ -440,7 +674,13 @@
     "emd": "미수동",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "1991.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 통영시 미수로 91"
   },
   {
     "code": "A65080302",
@@ -451,7 +691,13 @@
     "emd": "미수동",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "1991.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 통영시 미수로 64-10"
   },
   {
     "code": "A65080303",
@@ -462,7 +708,13 @@
     "emd": "미수동",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "1991.02",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "경상남도 통영시 선금산2길 28"
   },
   {
     "code": "A65080304",
@@ -473,7 +725,13 @@
     "emd": "미수동",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "2002.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 통영시 미우지해안로 17"
   },
   {
     "code": "A65080305",
@@ -484,7 +742,13 @@
     "emd": "미수동",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "1995.06",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 통영시 미우지5길 35"
   },
   {
     "code": "A10020920",
@@ -495,7 +759,13 @@
     "emd": "봉평동",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "1984.06",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "경상남도 통영시 봉수로 21-19"
   },
   {
     "code": "A65014001",
@@ -506,7 +776,13 @@
     "emd": "봉평동",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "1990.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 통영시 미수해안로 167"
   },
   {
     "code": "A65075202",
@@ -517,7 +793,13 @@
     "emd": "봉평동",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "1980.12",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "경상남도 통영시 봉수로 86"
   },
   {
     "code": "A10020477",
@@ -529,7 +811,13 @@
     "sigunguCode": "48220",
     "sido": "경상남도",
     "sigungu": "통영시",
-    "hhldCnt": 144
+    "hhldCnt": 144,
+    "built": "1988.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 6,
+    "addr": "경상남도 통영시 데메4길 45"
   },
   {
     "code": "A10020512",
@@ -541,7 +829,13 @@
     "sigunguCode": "48220",
     "sido": "경상남도",
     "sigungu": "통영시",
-    "hhldCnt": 144
+    "hhldCnt": 144,
+    "built": "1986.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "경상남도 통영시 데메4길 32"
   },
   {
     "code": "A10020840",
@@ -552,7 +846,13 @@
     "emd": "도남동",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "1996.03",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 9,
+    "addr": "경상남도 통영시 서송정길 6"
   },
   {
     "code": "A10020878",
@@ -563,7 +863,13 @@
     "emd": "도남동",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "1988.01",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "경상남도 통영시 데메4길 6"
   },
   {
     "code": "A65015001",
@@ -574,7 +880,13 @@
     "emd": "도남동",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "1996.03",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "경상남도 통영시 데메4길 68"
   },
   {
     "code": "A65015002",
@@ -585,7 +897,13 @@
     "emd": "도남동",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "2002.08",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "경상남도 통영시 도남로 190"
   },
   {
     "code": "A65015003",
@@ -596,7 +914,13 @@
     "emd": "도남동",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "1993.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 12,
+    "addr": "경상남도 통영시 도남동 483-2 도남주공아파트"
   },
   {
     "code": "A65076403",
@@ -607,7 +931,13 @@
     "emd": "용남면",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "2010.10",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 통영시 화포1길 59-9"
   },
   {
     "code": "A10027460",
@@ -618,7 +948,13 @@
     "emd": "용남면",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "2016.06",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 통영시 남해안대로 432"
   },
   {
     "code": "A65076402",
@@ -629,7 +965,13 @@
     "emd": "용남면",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "2000.09",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 통영시 대곡길 12"
   },
   {
     "code": "A10021011",
@@ -640,7 +982,13 @@
     "emd": "용남면",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "2013.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "경상남도 통영시 견내량로 102"
   },
   {
     "code": "A10026561",
@@ -651,7 +999,13 @@
     "emd": "용남면",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "2017.11",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 통영시 견내량로 91"
   },
   {
     "code": "A65076501",
@@ -662,7 +1016,13 @@
     "emd": "용남면",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "2003.07",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 통영시 장평신촌1길 29"
   },
   {
     "code": "A10020648",
@@ -674,7 +1034,13 @@
     "sigunguCode": "48220",
     "sido": "경상남도",
     "sigungu": "통영시",
-    "hhldCnt": 784
+    "hhldCnt": 784,
+    "built": "2025.04",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경상남도 통영시 죽림안길 61"
   },
   {
     "code": "A10020683",
@@ -686,7 +1052,13 @@
     "sigunguCode": "48220",
     "sido": "경상남도",
     "sigungu": "통영시",
-    "hhldCnt": 322
+    "hhldCnt": 322,
+    "built": "2025.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 39,
+    "addr": "경상남도 통영시 남해안대로 1038"
   },
   {
     "code": "A10026079",
@@ -697,7 +1069,13 @@
     "emd": "광도면",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "2018.08",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "경상남도 통영시 향교옆길 33-31"
   },
   {
     "code": "A10026097",
@@ -708,7 +1086,13 @@
     "emd": "광도면",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "2018.08",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 통영시 향교옆길 33-32"
   },
   {
     "code": "A10026488",
@@ -719,7 +1103,13 @@
     "emd": "광도면",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "2018.02",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "경상남도 통영시 죽림5로 56"
   },
   {
     "code": "A10026495",
@@ -730,7 +1120,13 @@
     "emd": "광도면",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "2018.02",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 통영시 신죽1길 12"
   },
   {
     "code": "A65076004",
@@ -741,7 +1137,13 @@
     "emd": "광도면",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "2004.04",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 통영시 죽림1로 41-14"
   },
   {
     "code": "A65076102",
@@ -752,7 +1154,13 @@
     "emd": "광도면",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "2005.04",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 통영시 죽림1로 41-55"
   },
   {
     "code": "A65076203",
@@ -763,7 +1171,13 @@
     "emd": "광도면",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "2006.04",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 통영시 죽림1로 41-23"
   },
   {
     "code": "A65076306",
@@ -774,7 +1188,13 @@
     "emd": "광도면",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "2005.05",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "경상남도 통영시 죽림1로 17-18"
   },
   {
     "code": "A65082101",
@@ -785,7 +1205,13 @@
     "emd": "광도면",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "2009.06",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "경상남도 통영시 죽림2로 76-58"
   },
   {
     "code": "A65082103",
@@ -796,7 +1222,13 @@
     "emd": "광도면",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "2009.11",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 11,
+    "addr": "경상남도 통영시 죽림2로 31"
   },
   {
     "code": "A65082104",
@@ -807,7 +1239,13 @@
     "emd": "광도면",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "2010.07",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "경상남도 통영시 죽림3로 13"
   },
   {
     "code": "A65082108",
@@ -818,7 +1256,13 @@
     "emd": "광도면",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "2013.03",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 통영시 죽림3로 14"
   },
   {
     "code": "A65082109",
@@ -829,7 +1273,13 @@
     "emd": "광도면",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "2013.03",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "경상남도 통영시 죽림3로 5"
   },
   {
     "code": "A65082110",
@@ -840,7 +1290,13 @@
     "emd": "광도면",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "2014.04",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "경상남도 통영시 죽림2로 9"
   },
   {
     "code": "A65082111",
@@ -851,7 +1307,13 @@
     "emd": "광도면",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "2014.04",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "경상남도 통영시 죽림해안로 10"
   },
   {
     "code": "A65082112",
@@ -862,7 +1324,13 @@
     "emd": "광도면",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "2014.08",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "경상남도 통영시 신죽2길 112"
   },
   {
     "code": "A65082601",
@@ -873,7 +1341,13 @@
     "emd": "광도면",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "2008.04",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 통영시 죽림2로 14-23"
   },
   {
     "code": "A65082605",
@@ -884,7 +1358,13 @@
     "emd": "광도면",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "2007.12",
+    "dongCnt": "12동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "경상남도 통영시 죽림1로 41-42"
   },
   {
     "code": "A10024633",
@@ -895,7 +1375,13 @@
     "emd": "광도면",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "2020.09",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "경상남도 통영시 벽방2길 76"
   },
   {
     "code": "A65082106",
@@ -906,7 +1392,13 @@
     "emd": "광도면",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "2010.02",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "경상남도 통영시 안정1길 53"
   },
   {
     "code": "A65082107",
@@ -917,6 +1409,12 @@
     "emd": "광도면",
     "sigunguCode": "48220",
     "sido": "경상남도",
-    "sigungu": "통영시"
+    "sigungu": "통영시",
+    "built": "2010.05",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "경상남도 통영시 안정1길 55"
   }
 ]

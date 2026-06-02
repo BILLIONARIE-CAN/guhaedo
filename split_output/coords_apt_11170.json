@@ -8,7 +8,13 @@
     "emd": "후암동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "1980.07",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 7,
+    "addr": "서울특별시 용산구 후암로 71-1"
   },
   {
     "code": "A10020608",
@@ -20,7 +26,13 @@
     "sigunguCode": "11170",
     "sido": "서울특별시",
     "sigungu": "용산구",
-    "hhldCnt": 269
+    "hhldCnt": 269,
+    "built": "2025.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 24,
+    "addr": "서울특별시 용산구 한강대로71길 47"
   },
   {
     "code": "A14070901",
@@ -31,7 +43,13 @@
     "emd": "동자동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2013.09",
+    "dongCnt": "3동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 35,
+    "addr": "서울특별시 용산구 한강대로 372"
   },
   {
     "code": "A10020656",
@@ -43,7 +61,13 @@
     "sigunguCode": "11170",
     "sido": "서울특별시",
     "sigungu": "용산구",
-    "hhldCnt": 265
+    "hhldCnt": 265,
+    "built": "2025.03",
+    "dongCnt": "1동",
+    "heat": "중앙난방",
+    "sale": "임대",
+    "topFloor": 10,
+    "addr": "서울특별시 용산구 청파로73길 36-7"
   },
   {
     "code": "A10023798",
@@ -54,7 +78,13 @@
     "emd": "원효로1가",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2022.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 29,
+    "addr": "서울특별시 용산구 원효로1가 134 용산원효루미니"
   },
   {
     "code": "A14070301",
@@ -65,7 +95,13 @@
     "emd": "원효로1가",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2010.04",
+    "dongCnt": "3동",
+    "heat": "개별난방+기타",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 용산구 백범로 341"
   },
   {
     "code": "A14070302",
@@ -76,7 +112,13 @@
     "emd": "원효로1가",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2014.02",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 37,
+    "addr": "서울특별시 용산구 원효로90길 11"
   },
   {
     "code": "A14006001",
@@ -87,7 +129,13 @@
     "emd": "신창동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2005.04",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 용산구 효창원로15길 16"
   },
   {
     "code": "A14004001",
@@ -98,7 +146,13 @@
     "emd": "산천동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2001.02",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 용산구 새창로8길 157"
   },
   {
     "code": "A14004002",
@@ -109,7 +163,13 @@
     "emd": "산천동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2001.01",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 용산구 효창원로 17"
   },
   {
     "code": "A14076401",
@@ -120,7 +180,13 @@
     "emd": "산천동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2001.01",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "서울특별시 용산구 효창원로13길 7"
   },
   {
     "code": "A10023464",
@@ -131,7 +197,13 @@
     "emd": "청암동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2001.07",
+    "dongCnt": "1동",
+    "heat": "",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 용산구 삼개로 58"
   },
   {
     "code": "A14005001",
@@ -142,7 +214,13 @@
     "emd": "청암동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2005.08",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 용산구 삼개로 60"
   },
   {
     "code": "A10022232",
@@ -153,7 +231,13 @@
     "emd": "원효로4가",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "1971.05",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 6,
+    "addr": "서울특별시 용산구 원효로25길 14"
   },
   {
     "code": "A14085002",
@@ -164,7 +248,13 @@
     "emd": "원효로4가",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "1977.04",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 용산구 원효로 66"
   },
   {
     "code": "A14085101",
@@ -175,7 +265,13 @@
     "emd": "원효로4가",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "1999.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 용산구 원효로 40"
   },
   {
     "code": "A10023858",
@@ -186,7 +282,13 @@
     "emd": "효창동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2022.03",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 14,
+    "addr": "서울특별시 용산구 효창원로 227"
   },
   {
     "code": "A10025533",
@@ -197,7 +299,13 @@
     "emd": "효창동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2019.04",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 22,
+    "addr": "서울특별시 용산구 백범로 313"
   },
   {
     "code": "A10025898",
@@ -208,7 +316,13 @@
     "emd": "효창동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2018.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 용산구 백범로 275"
   },
   {
     "code": "A14074101",
@@ -219,7 +333,13 @@
     "emd": "효창동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2010.08",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 용산구 백범로 260"
   },
   {
     "code": "A14074102",
@@ -230,7 +350,13 @@
     "emd": "효창동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "1987.10",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 용산구 백범로45길 9-11"
   },
   {
     "code": "A14007001",
@@ -241,7 +367,13 @@
     "emd": "도원동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2001.08",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "서울특별시 용산구 새창로8길 7"
   },
   {
     "code": "A14007002",
@@ -252,7 +384,13 @@
     "emd": "도원동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2001.08",
+    "dongCnt": "15동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 용산구 새창로 70"
   },
   {
     "code": "A14083101",
@@ -263,7 +401,13 @@
     "emd": "용문동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2011.07",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "서울특별시 용산구 효창원로 88"
   },
   {
     "code": "A10026183",
@@ -274,7 +418,13 @@
     "emd": "문배동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2004.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 용산구 백범로 346"
   },
   {
     "code": "A10027901",
@@ -285,7 +435,13 @@
     "emd": "문배동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2015.03",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 39,
+    "addr": "서울특별시 용산구 백범로90길 90"
   },
   {
     "code": "A14010001",
@@ -296,7 +452,13 @@
     "emd": "문배동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2007.01",
+    "dongCnt": "2동",
+    "heat": "개별난방+기타",
+    "sale": "분양",
+    "topFloor": 32,
+    "addr": "서울특별시 용산구 백범로90길 26"
   },
   {
     "code": "A14010002",
@@ -307,7 +469,13 @@
     "emd": "문배동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2007.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 34,
+    "addr": "서울특별시 용산구 청파로 213"
   },
   {
     "code": "A14010003",
@@ -318,7 +486,13 @@
     "emd": "문배동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2007.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 32,
+    "addr": "서울특별시 용산구 백범로90다길 12"
   },
   {
     "code": "A14009001",
@@ -329,7 +503,13 @@
     "emd": "신계동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2011.04",
+    "dongCnt": "13동",
+    "heat": "중앙난방",
+    "sale": "혼합",
+    "topFloor": 25,
+    "addr": "서울특별시 용산구 원효로 216"
   },
   {
     "code": "A14001101",
@@ -340,7 +520,13 @@
     "emd": "한강로1가",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2007.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 37,
+    "addr": "서울특별시 용산구 한강대로 211"
   },
   {
     "code": "A14075201",
@@ -351,7 +537,13 @@
     "emd": "한강로1가",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2005.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 34,
+    "addr": "서울특별시 용산구 한강대로 205"
   },
   {
     "code": "A10020622",
@@ -362,7 +554,13 @@
     "emd": "한강로2가",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2025.03",
+    "dongCnt": "1동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 39,
+    "addr": "서울특별시 용산구 한강대로 66"
   },
   {
     "code": "A10021269",
@@ -373,7 +571,13 @@
     "emd": "한강로2가",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2004.09",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 용산구 한강대로43길 13"
   },
   {
     "code": "A10023195",
@@ -384,7 +588,13 @@
     "emd": "한강로2가",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2007.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "서울특별시 용산구 한강로2가 417 용산파크 이편한세상"
   },
   {
     "code": "A10024333",
@@ -395,7 +605,13 @@
     "emd": "한강로2가",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2021.03",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 37,
+    "addr": "서울특별시 용산구 백범로99길 40"
   },
   {
     "code": "A10026719",
@@ -406,7 +622,13 @@
     "emd": "한강로2가",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2012.12",
+    "dongCnt": "1동",
+    "heat": "",
+    "sale": "분양",
+    "topFloor": 36,
+    "addr": "서울특별시 용산구 한강대로30길 25"
   },
   {
     "code": "A10026759",
@@ -417,7 +639,13 @@
     "emd": "한강로2가",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2017.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 37,
+    "addr": "서울특별시 용산구 한강대로 69"
   },
   {
     "code": "A10026922",
@@ -428,7 +656,13 @@
     "emd": "한강로2가",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2017.05",
+    "dongCnt": "2동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 40,
+    "addr": "서울특별시 용산구 한강대로 95"
   },
   {
     "code": "A14001201",
@@ -439,7 +673,13 @@
     "emd": "한강로2가",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2005.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 33,
+    "addr": "서울특별시 용산구 한강대로43길 8"
   },
   {
     "code": "A14002501",
@@ -450,7 +690,13 @@
     "emd": "용산동5가",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2009.05",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 40,
+    "addr": "서울특별시 용산구 서빙고로 67"
   },
   {
     "code": "A10022504",
@@ -461,7 +707,13 @@
     "emd": "한강로3가",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2024.02",
+    "dongCnt": "1동",
+    "heat": "중앙난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "서울특별시 용산구 한강대로 37"
   },
   {
     "code": "A10024691",
@@ -472,7 +724,13 @@
     "emd": "한강로3가",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2020.08",
+    "dongCnt": "5동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 43,
+    "addr": "서울특별시 용산구 서빙고로 17"
   },
   {
     "code": "A10025626",
@@ -483,7 +741,13 @@
     "emd": "한강로3가",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2003.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 용산구 한강대로10길 14"
   },
   {
     "code": "A14001303",
@@ -494,7 +758,13 @@
     "emd": "한강로3가",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2007.08",
+    "dongCnt": "3동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 42,
+    "addr": "서울특별시 용산구 서빙고로 35"
   },
   {
     "code": "A14074501",
@@ -505,7 +775,13 @@
     "emd": "한강로3가",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2006.09",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 용산구 이촌로29길 21-7"
   },
   {
     "code": "A14088201",
@@ -516,7 +792,13 @@
     "emd": "한강로3가",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2007.08",
+    "dongCnt": "2동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 33,
+    "addr": "서울특별시 용산구 서빙고로 31"
   },
   {
     "code": "A14088302",
@@ -527,7 +809,13 @@
     "emd": "한강로3가",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2004.04",
+    "dongCnt": "1동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 30,
+    "addr": "서울특별시 용산구 한강대로 26"
   },
   {
     "code": "A10022800",
@@ -538,7 +826,13 @@
     "emd": "이촌동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2005.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 용산구 이촌로14길 7"
   },
   {
     "code": "A10023360",
@@ -549,7 +843,13 @@
     "emd": "이촌동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "1974.04",
+    "dongCnt": "1동",
+    "heat": "",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 용산구 이촌로 156"
   },
   {
     "code": "A10027908",
@@ -560,7 +860,13 @@
     "emd": "이촌동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2015.07",
+    "dongCnt": "3동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 56,
+    "addr": "서울특별시 용산구 이촌로 300"
   },
   {
     "code": "A14003001",
@@ -571,7 +877,13 @@
     "emd": "이촌동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "1995.12",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 용산구 이촌로 193"
   },
   {
     "code": "A14003002",
@@ -582,7 +894,13 @@
     "emd": "이촌동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "1974.12",
+    "dongCnt": "5동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "서울특별시 용산구 이촌로88길 15"
   },
   {
     "code": "A14003003",
@@ -593,7 +911,13 @@
     "emd": "이촌동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "1979.12",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 용산구 이촌로 264"
   },
   {
     "code": "A14003004",
@@ -604,7 +928,13 @@
     "emd": "이촌동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2001.06",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 용산구 이촌로 174"
   },
   {
     "code": "A14003006",
@@ -615,7 +945,13 @@
     "emd": "이촌동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "1999.05",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 용산구 이촌로 100-8"
   },
   {
     "code": "A14003007",
@@ -626,7 +962,13 @@
     "emd": "이촌동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2003.04",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 용산구 이촌로64길 15"
   },
   {
     "code": "A14003008",
@@ -637,7 +979,13 @@
     "emd": "이촌동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "1971.03",
+    "dongCnt": "23동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "서울특별시 용산구 이촌로 248"
   },
   {
     "code": "A14003101",
@@ -648,7 +996,13 @@
     "emd": "이촌동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "1977.01",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 용산구 이촌로 324-10"
   },
   {
     "code": "A14003104",
@@ -659,7 +1013,13 @@
     "emd": "이촌동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2002.04",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 용산구 이촌로88길 30"
   },
   {
     "code": "A14003105",
@@ -670,7 +1030,13 @@
     "emd": "이촌동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2000.03",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 용산구 이촌로 181"
   },
   {
     "code": "A14003106",
@@ -681,7 +1047,13 @@
     "emd": "이촌동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "1998.01",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 용산구 이촌로81길 14"
   },
   {
     "code": "A14072701",
@@ -692,7 +1064,13 @@
     "emd": "이촌동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "1998.09",
+    "dongCnt": "19동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 용산구 이촌로 201"
   },
   {
     "code": "A14072702",
@@ -703,7 +1081,13 @@
     "emd": "이촌동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "1999.11",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 용산구 이촌로87길 21"
   },
   {
     "code": "A14072901",
@@ -714,7 +1098,13 @@
     "emd": "이촌동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2001.08",
+    "dongCnt": "2동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 용산구 이촌로2가길 66"
   },
   {
     "code": "A14077401",
@@ -725,7 +1115,13 @@
     "emd": "이촌동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "1974.07",
+    "dongCnt": "1동",
+    "heat": "지역난방",
+    "sale": "사택 및 관사 등",
+    "topFloor": 18,
+    "addr": "서울특별시 용산구 이촌로88길 3"
   },
   {
     "code": "A14085501",
@@ -736,7 +1132,13 @@
     "emd": "이촌동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "1997.03",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 용산구 이촌로34길 29"
   },
   {
     "code": "A14090902",
@@ -747,7 +1149,13 @@
     "emd": "이촌동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "1994.11",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 용산구 이촌로2가길 122"
   },
   {
     "code": "A10027425",
@@ -758,7 +1166,13 @@
     "emd": "이태원동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "1993.04",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "서울특별시 용산구 이태원동 728 이태원주공아파트"
   },
   {
     "code": "A14086001",
@@ -769,7 +1183,13 @@
     "emd": "이태원동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "1982.09",
+    "dongCnt": "9동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 용산구 장문로 27"
   },
   {
     "code": "A14086101",
@@ -780,7 +1200,13 @@
     "emd": "이태원동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "1994.12",
+    "dongCnt": "16동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 5,
+    "addr": "서울특별시 용산구 녹사평대로 254"
   },
   {
     "code": "A10021339",
@@ -791,7 +1217,13 @@
     "emd": "한남동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "1974.08",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 6,
+    "addr": "서울특별시 용산구 독서당로 73-4"
   },
   {
     "code": "A10021637",
@@ -802,7 +1234,13 @@
     "emd": "한남동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2010.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 용산구 독서당로 22"
   },
   {
     "code": "A10022228",
@@ -813,7 +1251,13 @@
     "emd": "한남동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2002.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 용산구 서빙고로 413"
   },
   {
     "code": "A10023379",
@@ -824,7 +1268,13 @@
     "emd": "한남동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2001.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 용산구 한남동 802 한남리버탑아파트"
   },
   {
     "code": "A10025192",
@@ -835,7 +1285,13 @@
     "emd": "한남동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2019.11",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 9,
+    "addr": "서울특별시 용산구 한남대로 91"
   },
   {
     "code": "A10027071",
@@ -846,7 +1302,13 @@
     "emd": "한남동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2017.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 용산구 독서당로 46"
   },
   {
     "code": "A14021001",
@@ -857,7 +1319,13 @@
     "emd": "한남동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2004.04",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 용산구 한남대로 60"
   },
   {
     "code": "A14077901",
@@ -868,7 +1336,13 @@
     "emd": "한남동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2003.10",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 용산구 장문로 141"
   },
   {
     "code": "A14077902",
@@ -879,7 +1353,13 @@
     "emd": "한남동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2011.01",
+    "dongCnt": "32동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 12,
+    "addr": "서울특별시 용산구 독서당로 111"
   },
   {
     "code": "A14080901",
@@ -890,7 +1370,13 @@
     "emd": "동빙고동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2011.05",
+    "dongCnt": "14동",
+    "heat": "",
+    "sale": "사택 및 관사 등",
+    "topFloor": 16,
+    "addr": "서울특별시 용산구 장문로6길 76"
   },
   {
     "code": "A10022221",
@@ -901,7 +1387,13 @@
     "emd": "서빙고동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2000.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 용산구 서빙고로51길 64"
   },
   {
     "code": "A14024001",
@@ -912,7 +1404,13 @@
     "emd": "서빙고동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2002.10",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 용산구 서빙고로51길 68-14"
   },
   {
     "code": "A14024002",
@@ -923,7 +1421,13 @@
     "emd": "서빙고동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "1984.06",
+    "dongCnt": "15동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 용산구 이촌로 347"
   },
   {
     "code": "A14082302",
@@ -934,7 +1438,13 @@
     "emd": "보광동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "2000.10",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 용산구 보광로5길 40"
   },
   {
     "code": "A14082601",
@@ -945,6 +1455,12 @@
     "emd": "보광동",
     "sigunguCode": "11170",
     "sido": "서울특별시",
-    "sigungu": "용산구"
+    "sigungu": "용산구",
+    "built": "1992.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 용산구 보광로 14"
   }
 ]

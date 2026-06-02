@@ -8,7 +8,13 @@
     "emd": "대저2동",
     "sigunguCode": "26440",
     "sido": "부산광역시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2021.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "부산광역시 강서구 대저2동 2033-1 공항마을 리베르하임"
   },
   {
     "code": "A10020264",
@@ -19,7 +25,13 @@
     "emd": "강동동",
     "sigunguCode": "26440",
     "sido": "부산광역시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2026.01",
+    "dongCnt": "16동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "부산광역시 강서구 에코델타5로 60"
   },
   {
     "code": "A10020378",
@@ -30,7 +42,13 @@
     "emd": "강동동",
     "sigunguCode": "26440",
     "sido": "부산광역시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2025.09",
+    "dongCnt": "14동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "부산광역시 강서구 에코델타3로 43"
   },
   {
     "code": "A10020569",
@@ -42,7 +60,13 @@
     "sigunguCode": "26440",
     "sido": "부산광역시",
     "sigungu": "강서구",
-    "hhldCnt": 526
+    "hhldCnt": 526,
+    "built": "2025.06",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "부산광역시 강서구 에코델타1로 66"
   },
   {
     "code": "A10020645",
@@ -54,7 +78,13 @@
     "sigunguCode": "26440",
     "sido": "부산광역시",
     "sigungu": "강서구",
-    "hhldCnt": 526
+    "hhldCnt": 526,
+    "built": "2025.04",
+    "dongCnt": "10동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "부산광역시 강서구 에코델타1로 24"
   },
   {
     "code": "A10020649",
@@ -66,7 +96,13 @@
     "sigunguCode": "26440",
     "sido": "부산광역시",
     "sigungu": "강서구",
-    "hhldCnt": 526
+    "hhldCnt": 526,
+    "built": "2025.04",
+    "dongCnt": "15동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "부산광역시 강서구 에코델타1로 42"
   },
   {
     "code": "A10022541",
@@ -77,7 +113,13 @@
     "emd": "강동동",
     "sigunguCode": "26440",
     "sido": "부산광역시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2024.06",
+    "dongCnt": "7동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "부산광역시 강서구 에코중앙1로 33"
   },
   {
     "code": "A10022696",
@@ -88,7 +130,13 @@
     "emd": "강동동",
     "sigunguCode": "26440",
     "sido": "부산광역시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2024.03",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "부산광역시 강서구 에코대로 243"
   },
   {
     "code": "A10023943",
@@ -99,7 +147,13 @@
     "emd": "명지동",
     "sigunguCode": "26440",
     "sido": "부산광역시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2021.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "부산광역시 강서구 명지동 3227-2 명지행복주택"
   },
   {
     "code": "A10024664",
@@ -110,7 +164,13 @@
     "emd": "명지동",
     "sigunguCode": "26440",
     "sido": "부산광역시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2020.07",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 34,
+    "addr": "부산광역시 강서구 명지국제2로 41"
   },
   {
     "code": "A10024697",
@@ -121,7 +181,13 @@
     "emd": "명지동",
     "sigunguCode": "26440",
     "sido": "부산광역시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2020.07",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 30,
+    "addr": "부산광역시 강서구 명지국제7로 37"
   },
   {
     "code": "A10025343",
@@ -132,7 +198,13 @@
     "emd": "명지동",
     "sigunguCode": "26440",
     "sido": "부산광역시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2019.08",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 30,
+    "addr": "부산광역시 강서구 명지국제3로 97"
   },
   {
     "code": "A10025684",
@@ -143,7 +215,13 @@
     "emd": "명지동",
     "sigunguCode": "26440",
     "sido": "부산광역시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2019.02",
+    "dongCnt": "4동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "부산광역시 강서구 명지국제2로 80"
   },
   {
     "code": "A10025776",
@@ -154,7 +232,13 @@
     "emd": "명지동",
     "sigunguCode": "26440",
     "sido": "부산광역시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2019.01",
+    "dongCnt": "16동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "부산광역시 강서구 명지국제7로 110"
   },
   {
     "code": "A10025923",
@@ -165,7 +249,13 @@
     "emd": "명지동",
     "sigunguCode": "26440",
     "sido": "부산광역시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2018.11",
+    "dongCnt": "12동",
+    "heat": "지역난방",
+    "sale": "혼합",
+    "topFloor": 20,
+    "addr": "부산광역시 강서구 명지국제5로 165"
   },
   {
     "code": "A10025932",
@@ -176,7 +266,13 @@
     "emd": "명지동",
     "sigunguCode": "26440",
     "sido": "부산광역시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2018.11",
+    "dongCnt": "12동",
+    "heat": "지역난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "부산광역시 강서구 명지국제5로 110"
   },
   {
     "code": "A10026157",
@@ -187,7 +283,13 @@
     "emd": "명지동",
     "sigunguCode": "26440",
     "sido": "부산광역시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2018.06",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "부산광역시 강서구 명지국제7로 111"
   },
   {
     "code": "A10026445",
@@ -198,7 +300,13 @@
     "emd": "명지동",
     "sigunguCode": "26440",
     "sido": "부산광역시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2018.02",
+    "dongCnt": "12동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "부산광역시 강서구 명지국제5로 90"
   },
   {
     "code": "A10027139",
@@ -209,7 +317,13 @@
     "emd": "명지동",
     "sigunguCode": "26440",
     "sido": "부산광역시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2017.01",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "부산광역시 강서구 명지국제5로 89"
   },
   {
     "code": "A10027280",
@@ -220,7 +334,13 @@
     "emd": "명지동",
     "sigunguCode": "26440",
     "sido": "부산광역시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2016.11",
+    "dongCnt": "28동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "부산광역시 강서구 명지국제5로 141"
   },
   {
     "code": "A10027282",
@@ -231,7 +351,13 @@
     "emd": "명지동",
     "sigunguCode": "26440",
     "sido": "부산광역시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2016.12",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "부산광역시 강서구 명지국제7로 133"
   },
   {
     "code": "A10027581",
@@ -242,7 +368,13 @@
     "emd": "명지동",
     "sigunguCode": "26440",
     "sido": "부산광역시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2016.04",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "부산광역시 강서구 명지국제5로 60"
   },
   {
     "code": "A10027621",
@@ -253,7 +385,13 @@
     "emd": "명지동",
     "sigunguCode": "26440",
     "sido": "부산광역시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2016.03",
+    "dongCnt": "6동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "부산광역시 강서구 명지국제5로 109"
   },
   {
     "code": "A10027656",
@@ -264,7 +402,13 @@
     "emd": "명지동",
     "sigunguCode": "26440",
     "sido": "부산광역시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2015.12",
+    "dongCnt": "11동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "부산광역시 강서구 명지국제5로 30"
   },
   {
     "code": "A10027698",
@@ -275,7 +419,13 @@
     "emd": "명지동",
     "sigunguCode": "26440",
     "sido": "부산광역시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2016.02",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "부산광역시 강서구 명지국제5로 60"
   },
   {
     "code": "A10027918",
@@ -286,7 +436,13 @@
     "emd": "명지동",
     "sigunguCode": "26440",
     "sido": "부산광역시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2015.07",
+    "dongCnt": "8동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "부산광역시 강서구 명지국제5로 60"
   },
   {
     "code": "A10027953",
@@ -297,7 +453,13 @@
     "emd": "명지동",
     "sigunguCode": "26440",
     "sido": "부산광역시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2015.05",
+    "dongCnt": "13동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "부산광역시 강서구 명지국제5로 60"
   },
   {
     "code": "A10028079",
@@ -308,7 +470,13 @@
     "emd": "명지동",
     "sigunguCode": "26440",
     "sido": "부산광역시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2014.11",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 11,
+    "addr": "부산광역시 강서구 명지오션시티12로 10"
   },
   {
     "code": "A10028117",
@@ -319,7 +487,13 @@
     "emd": "명지동",
     "sigunguCode": "26440",
     "sido": "부산광역시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2014.07",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "부산광역시 강서구 명지오션시티10로 114"
   },
   {
     "code": "A61820001",
@@ -330,7 +504,13 @@
     "emd": "명지동",
     "sigunguCode": "26440",
     "sido": "부산광역시",
-    "sigungu": "강서구"
+    "sigungu": "강서구",
+    "built": "2008.12",
+    "dongCnt": "16동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "부산광역시 강서구 명지오션시티11로 84"
   },
   {
     "code": "A61870404",

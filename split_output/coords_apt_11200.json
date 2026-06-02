@@ -8,7 +8,13 @@
     "emd": "상왕십리동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2014.06",
+    "dongCnt": "13동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 성동구 마장로 137"
   },
   {
     "code": "A13373302",
@@ -19,7 +25,13 @@
     "emd": "상왕십리동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2014.06",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 13,
+    "addr": "서울특별시 성동구 마장로 137"
   },
   {
     "code": "A10026900",
@@ -30,7 +42,13 @@
     "emd": "하왕십리동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2017.07",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 성동구 난계로 100"
   },
   {
     "code": "A10027289",
@@ -42,7 +60,13 @@
     "sigunguCode": "11200",
     "sido": "서울특별시",
     "sigungu": "성동구",
-    "hhldCnt": 2529
+    "hhldCnt": 2529,
+    "built": "2016.11",
+    "dongCnt": "30동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 28,
+    "addr": "서울특별시 성동구 왕십리로 410"
   },
   {
     "code": "A10027432",
@@ -53,7 +77,13 @@
     "emd": "하왕십리동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2016.04",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 성동구 무학봉길 35"
   },
   {
     "code": "A10027454",
@@ -64,7 +94,13 @@
     "emd": "하왕십리동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2009.11",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 25,
+    "addr": "서울특별시 성동구 청계천로 474"
   },
   {
     "code": "A10027920",
@@ -75,7 +111,13 @@
     "emd": "하왕십리동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2015.04",
+    "dongCnt": "18동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 성동구 무학로 33"
   },
   {
     "code": "A10027969",
@@ -86,7 +128,13 @@
     "emd": "하왕십리동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2015.04",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 14,
+    "addr": "서울특별시 성동구 무학로 33"
   },
   {
     "code": "A13302001",
@@ -97,7 +145,13 @@
     "emd": "하왕십리동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "1996.06",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 성동구 무학로 50"
   },
   {
     "code": "A13302201",
@@ -108,7 +162,13 @@
     "emd": "하왕십리동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2001.06",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 성동구 왕십리로31길 20"
   },
   {
     "code": "A13302203",
@@ -119,7 +179,13 @@
     "emd": "하왕십리동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2001.12",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 성동구 난계로 73"
   },
   {
     "code": "A13302204",
@@ -130,7 +196,13 @@
     "emd": "하왕십리동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2001.10",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 성동구 난계로 114-31"
   },
   {
     "code": "A13302206",
@@ -141,7 +213,13 @@
     "emd": "하왕십리동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2004.11",
+    "dongCnt": "15동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 성동구 난계로 84"
   },
   {
     "code": "A13377301",
@@ -152,7 +230,13 @@
     "emd": "하왕십리동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2001.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 18,
+    "addr": "서울특별시 성동구 난계로 73"
   },
   {
     "code": "A13377302",
@@ -163,7 +247,13 @@
     "emd": "하왕십리동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2001.10",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 18,
+    "addr": "서울특별시 성동구 난계로 114-31"
   },
   {
     "code": "A13385705",
@@ -174,7 +264,13 @@
     "emd": "하왕십리동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "1989.03",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 성동구 왕십리로31나길 22"
   },
   {
     "code": "A13385802",
@@ -185,7 +281,13 @@
     "emd": "하왕십리동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "1996.03",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 성동구 무학봉길 49"
   },
   {
     "code": "A13388001",
@@ -196,7 +298,13 @@
     "emd": "하왕십리동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "1996.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 성동구 무학로 50"
   },
   {
     "code": "A10024762",
@@ -207,7 +315,13 @@
     "emd": "홍익동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2005.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 성동구 무학로12길 11"
   },
   {
     "code": "A13370801",
@@ -218,7 +332,13 @@
     "emd": "도선동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2006.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 27,
+    "addr": "서울특별시 성동구 무학로6길 50"
   },
   {
     "code": "A10020365",
@@ -230,7 +350,13 @@
     "sigunguCode": "11200",
     "sido": "서울특별시",
     "sigungu": "성동구",
-    "hhldCnt": 346
+    "hhldCnt": 346,
+    "built": "2025.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 16,
+    "addr": "서울특별시 성동구 마조로 66"
   },
   {
     "code": "A13305002",
@@ -241,7 +367,13 @@
     "emd": "마장동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2004.11",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 22,
+    "addr": "서울특별시 성동구 마장로37길 7"
   },
   {
     "code": "A13305003",
@@ -252,7 +384,13 @@
     "emd": "마장동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2004.06",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 성동구 마장로39길 43"
   },
   {
     "code": "A13305005",
@@ -263,7 +401,13 @@
     "emd": "마장동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2006.11",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 12,
+    "addr": "서울특별시 성동구 마조로15가길 23"
   },
   {
     "code": "A13305006",
@@ -274,7 +418,13 @@
     "emd": "마장동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "1996.12",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 성동구 마장로 271"
   },
   {
     "code": "A13305007",
@@ -285,7 +435,13 @@
     "emd": "마장동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "1986.12",
+    "dongCnt": "9동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 성동구 마장로42길 16"
   },
   {
     "code": "A13381601",
@@ -296,7 +452,13 @@
     "emd": "마장동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "1999.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 성동구 마장로 262"
   },
   {
     "code": "A13381604",
@@ -307,7 +469,13 @@
     "emd": "마장동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2006.09",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 성동구 마조로 57"
   },
   {
     "code": "A13381608",
@@ -318,7 +486,13 @@
     "emd": "마장동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "1998.04",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 28,
+    "addr": "서울특별시 성동구 마장로35길 76"
   },
   {
     "code": "A10022058",
@@ -329,7 +503,13 @@
     "emd": "사근동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2000.05",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 성동구 살곶이길 176"
   },
   {
     "code": "A13381701",
@@ -340,7 +520,13 @@
     "emd": "사근동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "1989.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 성동구 사근동길 67"
   },
   {
     "code": "A10020503",
@@ -351,7 +537,13 @@
     "emd": "행당동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2025.07",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 35,
+    "addr": "서울특별시 성동구 고산자로2길 71"
   },
   {
     "code": "A10025685",
@@ -362,7 +554,13 @@
     "emd": "행당동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2011.05",
+    "dongCnt": "1동",
+    "heat": "",
+    "sale": "임대",
+    "topFloor": 11,
+    "addr": "서울특별시 성동구 고산자로 175"
   },
   {
     "code": "A10025686",
@@ -373,7 +571,13 @@
     "emd": "행당동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2009.12",
+    "dongCnt": "1동",
+    "heat": "",
+    "sale": "임대",
+    "topFloor": 13,
+    "addr": "서울특별시 성동구 행당로8길 8"
   },
   {
     "code": "A10026207",
@@ -384,7 +588,13 @@
     "emd": "행당동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2018.06",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 39,
+    "addr": "서울특별시 성동구 고산자로2길 65"
   },
   {
     "code": "A13307001",
@@ -395,7 +605,13 @@
     "emd": "행당동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "1997.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 성동구 고산자로14길 40"
   },
   {
     "code": "A13307002",
@@ -406,7 +622,13 @@
     "emd": "행당동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2011.05",
+    "dongCnt": "9동",
+    "heat": "지역난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 성동구 고산자로 177"
   },
   {
     "code": "A13307003",
@@ -417,7 +639,13 @@
     "emd": "행당동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2014.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 42,
+    "addr": "서울특별시 성동구 왕십리로 241"
   },
   {
     "code": "A13307101",
@@ -428,7 +656,13 @@
     "emd": "행당동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "1998.07",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 성동구 왕십리로 280"
   },
   {
     "code": "A13307201",
@@ -439,7 +673,13 @@
     "emd": "행당동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2005.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 성동구 행당로 99"
   },
   {
     "code": "A13307202",
@@ -450,7 +690,13 @@
     "emd": "행당동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "1995.05",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 성동구 독서당로 441"
   },
   {
     "code": "A13307204",
@@ -461,7 +707,13 @@
     "emd": "행당동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2000.12",
+    "dongCnt": "31동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 성동구 행당로 79"
   },
   {
     "code": "A13373101",
@@ -472,7 +724,13 @@
     "emd": "행당동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2003.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 16,
+    "addr": "서울특별시 성동구 고산자로 164"
   },
   {
     "code": "A13377703",
@@ -483,7 +741,13 @@
     "emd": "행당동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2000.11",
+    "dongCnt": "21동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 성동구 행당로 82"
   },
   {
     "code": "A13377901",
@@ -494,7 +758,13 @@
     "emd": "행당동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2009.12",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 성동구 행당로8길 8"
   },
   {
     "code": "A13377902",
@@ -505,7 +775,13 @@
     "emd": "행당동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2000.12",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 성동구 행당로 79"
   },
   {
     "code": "A13377903",
@@ -516,7 +792,13 @@
     "emd": "행당동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2000.11",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 25,
+    "addr": "서울특별시 성동구 행당로 82"
   },
   {
     "code": "A13386702",
@@ -527,7 +809,13 @@
     "emd": "행당동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2003.12",
+    "dongCnt": "19동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 성동구 고산자로 164"
   },
   {
     "code": "A13308004",
@@ -538,7 +826,13 @@
     "emd": "응봉동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "1990.09",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 성동구 독서당로 377"
   },
   {
     "code": "A13308005",
@@ -549,7 +843,13 @@
     "emd": "응봉동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "1986.10",
+    "dongCnt": "10동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 성동구 독서당로62길 43"
   },
   {
     "code": "A13376906",
@@ -560,7 +860,13 @@
     "emd": "응봉동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2001.10",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 성동구 고산자로 160"
   },
   {
     "code": "A13385202",
@@ -571,7 +877,13 @@
     "emd": "응봉동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "1989.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 성동구 독서당로 431"
   },
   {
     "code": "A13385301",
@@ -582,7 +894,13 @@
     "emd": "응봉동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2003.06",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 성동구 고산자로4길 34"
   },
   {
     "code": "A13385303",
@@ -593,7 +911,13 @@
     "emd": "응봉동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "1996.04",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 성동구 독서당로 375"
   },
   {
     "code": "A10026418",
@@ -604,7 +928,13 @@
     "emd": "금호동1가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2019.05",
+    "dongCnt": "17동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 21,
+    "addr": "서울특별시 성동구 금호로 140"
   },
   {
     "code": "A13309101",
@@ -615,7 +945,13 @@
     "emd": "금호동1가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2006.03",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 성동구 행당로 27"
   },
   {
     "code": "A13309102",
@@ -626,7 +962,13 @@
     "emd": "금호동1가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2001.10",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 성동구 독서당로 343"
   },
   {
     "code": "A13309103",
@@ -637,7 +979,13 @@
     "emd": "금호동1가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2001.12",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "서울특별시 성동구 행당로6길 2"
   },
   {
     "code": "A13380104",
@@ -648,7 +996,13 @@
     "emd": "금호동1가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2001.12",
+    "dongCnt": "20동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 성동구 금호로 100"
   },
   {
     "code": "A10027602",
@@ -659,7 +1013,13 @@
     "emd": "금호동2가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2016.04",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 21,
+    "addr": "서울특별시 성동구 금호로 173"
   },
   {
     "code": "A13380301",
@@ -670,7 +1030,13 @@
     "emd": "금호동2가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2012.05",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 성동구 금호로 117"
   },
   {
     "code": "A13380302",
@@ -681,7 +1047,13 @@
     "emd": "금호동2가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2012.05",
+    "dongCnt": "10동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 성동구 금호로 107"
   },
   {
     "code": "A13380303",
@@ -692,7 +1064,13 @@
     "emd": "금호동2가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2012.05",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 성동구 금호로 111"
   },
   {
     "code": "A13309301",
@@ -703,7 +1081,13 @@
     "emd": "금호동3가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2005.07",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 성동구 금호산길 27"
   },
   {
     "code": "A13379001",
@@ -714,7 +1098,13 @@
     "emd": "금호동3가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2012.07",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 22,
+    "addr": "서울특별시 성동구 금호산8길 14"
   },
   {
     "code": "A13380602",
@@ -725,7 +1115,13 @@
     "emd": "금호동3가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2005.05",
+    "dongCnt": "8동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 성동구 금호산8길 5"
   },
   {
     "code": "A13380703",
@@ -736,7 +1132,13 @@
     "emd": "금호동3가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "1994.09",
+    "dongCnt": "16동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 성동구 동호로 100"
   },
   {
     "code": "A10020977",
@@ -747,7 +1149,13 @@
     "emd": "금호동4가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2023.03",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 16,
+    "addr": "서울특별시 성동구 독서당로46길 34"
   },
   {
     "code": "A10023252",
@@ -758,7 +1166,13 @@
     "emd": "금호동4가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2010.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 성동구 동호로 93"
   },
   {
     "code": "A10026470",
@@ -769,7 +1183,13 @@
     "emd": "금호동4가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2018.02",
+    "dongCnt": "15동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "서울특별시 성동구 독서당로 344"
   },
   {
     "code": "A13309402",
@@ -780,7 +1200,13 @@
     "emd": "금호동4가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2003.01",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 성동구 동호로 84"
   },
   {
     "code": "A13309404",
@@ -791,7 +1217,13 @@
     "emd": "금호동4가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2001.05",
+    "dongCnt": "14동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 24,
+    "addr": "서울특별시 성동구 독서당로 272"
   },
   {
     "code": "A13378101",
@@ -802,7 +1234,13 @@
     "emd": "금호동4가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2001.05",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 21,
+    "addr": "서울특별시 성동구 독서당로 272"
   },
   {
     "code": "A13378102",
@@ -813,7 +1251,13 @@
     "emd": "금호동4가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2012.08",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 성동구 금호로 17"
   },
   {
     "code": "A13378103",
@@ -824,7 +1268,13 @@
     "emd": "금호동4가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2012.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 12,
+    "addr": "서울특별시 성동구 금호로3길 11"
   },
   {
     "code": "A13380803",
@@ -835,7 +1285,13 @@
     "emd": "금호동4가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2007.07",
+    "dongCnt": "19동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 성동구 금호로 15"
   },
   {
     "code": "A13380901",
@@ -846,7 +1302,13 @@
     "emd": "금호동4가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2007.03",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 성동구 매봉길 24"
   },
   {
     "code": "A10022640",
@@ -857,7 +1319,13 @@
     "emd": "옥수동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "1987.06",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 3,
+    "addr": "서울특별시 성동구 독서당로39길 22"
   },
   {
     "code": "A10026748",
@@ -868,7 +1336,13 @@
     "emd": "옥수동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2016.11",
+    "dongCnt": "25동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 20,
+    "addr": "서울특별시 성동구 매봉길 50"
   },
   {
     "code": "A13310004",
@@ -879,7 +1353,13 @@
     "emd": "옥수동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "1986.12",
+    "dongCnt": "8동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 성동구 독서당로 191"
   },
   {
     "code": "A13375901",
@@ -890,7 +1370,13 @@
     "emd": "옥수동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "1982.09",
+    "dongCnt": "8동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 14,
+    "addr": "서울특별시 성동구 독서당로 156"
   },
   {
     "code": "A13375902",
@@ -901,7 +1387,13 @@
     "emd": "옥수동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "1999.04",
+    "dongCnt": "10동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 성동구 독서당로 218"
   },
   {
     "code": "A13375903",
@@ -912,7 +1404,13 @@
     "emd": "옥수동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2004.10",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 성동구 뚝섬로 51"
   },
   {
     "code": "A13375904",
@@ -923,7 +1421,13 @@
     "emd": "옥수동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "1998.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 18,
+    "addr": "서울특별시 성동구 한림말길 50"
   },
   {
     "code": "A13375905",
@@ -934,7 +1438,13 @@
     "emd": "옥수동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "1999.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 20,
+    "addr": "서울특별시 성동구 독서당로 218"
   },
   {
     "code": "A13375906",
@@ -945,7 +1455,13 @@
     "emd": "옥수동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2011.12",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 성동구 독서당로40길 37"
   },
   {
     "code": "A13375907",
@@ -956,7 +1472,13 @@
     "emd": "옥수동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2012.12",
+    "dongCnt": "15동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 성동구 매봉길 15"
   },
   {
     "code": "A13375908",
@@ -967,7 +1489,13 @@
     "emd": "옥수동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2013.04",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 15,
+    "addr": "서울특별시 성동구 매봉길 17"
   },
   {
     "code": "A13375909",
@@ -978,7 +1506,13 @@
     "emd": "옥수동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "",
+    "dongCnt": "1동",
+    "heat": "",
+    "sale": "",
+    "topFloor": 1,
+    "addr": "서울특별시 성동구 한림말길 24"
   },
   {
     "code": "A13376702",
@@ -989,7 +1523,13 @@
     "emd": "옥수동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "1990.05",
+    "dongCnt": "8동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 성동구 독서당로40길 25"
   },
   {
     "code": "A13383801",
@@ -1000,7 +1540,13 @@
     "emd": "옥수동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "1998.03",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 성동구 한림말길 50"
   },
   {
     "code": "A13384403",
@@ -1011,7 +1557,13 @@
     "emd": "옥수동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "1997.10",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 19,
+    "addr": "서울특별시 성동구 독서당로 175"
   },
   {
     "code": "A10020345",
@@ -1022,7 +1574,13 @@
     "emd": "성수동1가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2025.11",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 36,
+    "addr": "서울특별시 성동구 왕십리로 135"
   },
   {
     "code": "A10020907",
@@ -1033,7 +1591,13 @@
     "emd": "성수동1가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2024.12",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 33,
+    "addr": "서울특별시 성동구 왕십리로 137"
   },
   {
     "code": "A10021528",
@@ -1044,7 +1608,13 @@
     "emd": "성수동1가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2001.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 성동구 둘레길 21"
   },
   {
     "code": "A10024503",
@@ -1055,7 +1625,13 @@
     "emd": "성수동1가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2020.11",
+    "dongCnt": "2동",
+    "heat": "중앙난방",
+    "sale": "분양",
+    "topFloor": 47,
+    "addr": "서울특별시 성동구 왕십리로 83-21"
   },
   {
     "code": "A10026988",
@@ -1066,7 +1642,13 @@
     "emd": "성수동1가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2017.05",
+    "dongCnt": "4동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 47,
+    "addr": "서울특별시 성동구 왕십리로 16"
   },
   {
     "code": "A13311101",
@@ -1077,7 +1659,13 @@
     "emd": "성수동1가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2003.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 성동구 뚝섬로5길 17"
   },
   {
     "code": "A13372101",
@@ -1088,7 +1676,13 @@
     "emd": "성수동1가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "1999.07",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 성동구 상원6길 16"
   },
   {
     "code": "A13372102",
@@ -1099,7 +1693,13 @@
     "emd": "성수동1가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "1997.10",
+    "dongCnt": "9동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 성동구 상원길 63"
   },
   {
     "code": "A13376405",
@@ -1110,7 +1710,13 @@
     "emd": "성수동1가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "1994.04",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 17,
+    "addr": "서울특별시 성동구 뚝섬로 312"
   },
   {
     "code": "A13379401",
@@ -1121,7 +1727,13 @@
     "emd": "성수동1가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2011.07",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 44,
+    "addr": "서울특별시 성동구 서울숲2길 32-14"
   },
   {
     "code": "A13381902",
@@ -1132,7 +1744,13 @@
     "emd": "성수동1가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "1994.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 성동구 뚝섬로3길 6"
   },
   {
     "code": "A13382104",
@@ -1143,7 +1761,13 @@
     "emd": "성수동1가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2000.10",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 성동구 뚝섬로 311"
   },
   {
     "code": "A13382106",
@@ -1154,7 +1778,13 @@
     "emd": "성수동1가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "1983.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 10,
+    "addr": "서울특별시 성동구 왕십리로 80-1"
   },
   {
     "code": "A13382502",
@@ -1165,7 +1795,13 @@
     "emd": "성수동1가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "1990.09",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 15,
+    "addr": "서울특별시 성동구 서울숲길 25"
   },
   {
     "code": "A13384301",
@@ -1176,7 +1812,13 @@
     "emd": "성수동1가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "1999.01",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 성동구 상원1길 17"
   },
   {
     "code": "A13384303",
@@ -1187,7 +1829,13 @@
     "emd": "성수동1가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2003.10",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 23,
+    "addr": "서울특별시 성동구 상원길 47"
   },
   {
     "code": "A13384304",
@@ -1198,7 +1846,13 @@
     "emd": "성수동1가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "1999.06",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 성동구 상원길 76"
   },
   {
     "code": "A13392307",
@@ -1209,7 +1863,13 @@
     "emd": "성수동1가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2002.02",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 성동구 왕십리로 36"
   },
   {
     "code": "A10020852",
@@ -1220,7 +1880,13 @@
     "emd": "성수동2가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2000.08",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 성동구 둘레19길 5"
   },
   {
     "code": "A10021167",
@@ -1231,7 +1897,13 @@
     "emd": "성수동2가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2004.03",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 성동구 아차산로9길 34"
   },
   {
     "code": "A10021449",
@@ -1242,7 +1914,13 @@
     "emd": "성수동2가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "1994.02",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 성동구 둘레19길 7"
   },
   {
     "code": "A10021638",
@@ -1253,7 +1931,13 @@
     "emd": "성수동2가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "1999.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 1,
+    "addr": "서울특별시 성동구 동일로 143"
   },
   {
     "code": "A10021716",
@@ -1264,7 +1948,13 @@
     "emd": "성수동2가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "1994.03",
+    "dongCnt": "2동",
+    "heat": "",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 성동구 둘레11길 1"
   },
   {
     "code": "A10022325",
@@ -1275,7 +1965,13 @@
     "emd": "성수동2가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "1997.08",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 성동구 연무장길 31"
   },
   {
     "code": "A10023316",
@@ -1286,7 +1982,13 @@
     "emd": "성수동2가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2001.12",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 성동구 성수동2가 833 성수신성아파트"
   },
   {
     "code": "A10025101",
@@ -1297,7 +1999,13 @@
     "emd": "성수동2가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2009.02",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 성동구 뚝섬로 436"
   },
   {
     "code": "A13312101",
@@ -1308,7 +2016,13 @@
     "emd": "성수동2가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2006.05",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 13,
+    "addr": "서울특별시 성동구 뚝섬로 434"
   },
   {
     "code": "A13312302",
@@ -1319,7 +2033,13 @@
     "emd": "성수동2가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2003.09",
+    "dongCnt": "7동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 성동구 성수일로8길 47"
   },
   {
     "code": "A13312303",
@@ -1330,7 +2050,13 @@
     "emd": "성수동2가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2003.08",
+    "dongCnt": "11동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 성동구 성수이로 137"
   },
   {
     "code": "A13378001",
@@ -1341,7 +2067,13 @@
     "emd": "성수동2가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2009.06",
+    "dongCnt": "5동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 29,
+    "addr": "서울특별시 성동구 성수일로4길 26"
   },
   {
     "code": "A13382802",
@@ -1352,7 +2084,13 @@
     "emd": "성수동2가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2000.09",
+    "dongCnt": "2동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 19,
+    "addr": "서울특별시 성동구 성수이로 3"
   },
   {
     "code": "A13383003",
@@ -1363,7 +2101,13 @@
     "emd": "성수동2가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "1994.04",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 21,
+    "addr": "서울특별시 성동구 둘레15길 7"
   },
   {
     "code": "A13383301",
@@ -1374,7 +2118,13 @@
     "emd": "성수동2가",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "1999.12",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 18,
+    "addr": "서울특별시 성동구 성수일로10길 3"
   },
   {
     "code": "A13316001",
@@ -1385,7 +2135,13 @@
     "emd": "송정동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2009.03",
+    "dongCnt": "6동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 15,
+    "addr": "서울특별시 성동구 동일로 237"
   },
   {
     "code": "A13383702",
@@ -1396,7 +2152,13 @@
     "emd": "송정동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2000.05",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 25,
+    "addr": "서울특별시 성동구 동일로 263"
   },
   {
     "code": "A10020466",
@@ -1408,7 +2170,13 @@
     "sigunguCode": "11200",
     "sido": "서울특별시",
     "sigungu": "성동구",
-    "hhldCnt": 396
+    "hhldCnt": 396,
+    "built": "2025.07",
+    "dongCnt": "3동",
+    "heat": "개별난방",
+    "sale": "혼합",
+    "topFloor": 34,
+    "addr": "서울특별시 성동구 천호대로 244"
   },
   {
     "code": "A10022175",
@@ -1419,7 +2187,13 @@
     "emd": "용답동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "1995.11",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "분양",
+    "topFloor": 20,
+    "addr": "서울특별시 성동구 용답중앙27길 8"
   },
   {
     "code": "A10024886",
@@ -1430,6 +2204,12 @@
     "emd": "용답동",
     "sigunguCode": "11200",
     "sido": "서울특별시",
-    "sigungu": "성동구"
+    "sigungu": "성동구",
+    "built": "2020.03",
+    "dongCnt": "1동",
+    "heat": "개별난방",
+    "sale": "임대",
+    "topFloor": 19,
+    "addr": "서울특별시 성동구 천호대로 416"
   }
 ]
