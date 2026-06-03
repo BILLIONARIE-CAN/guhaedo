@@ -6,6 +6,14 @@
 <title>아구구 - 아파트 구할땐 아구구!</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
+@keyframes pinBounce {
+  0%,100%{transform:translateY(0)}
+  20%{transform:translateY(-10px)}
+  40%{transform:translateY(0)}
+  60%{transform:translateY(-5px)}
+  80%{transform:translateY(0)}
+}
+.pin-bounce{animation:pinBounce .5s ease}
 @keyframes brokerGlow {
   0%,100% { box-shadow: 0 1px 4px rgba(0,0,0,.4), 0 0 0 0 rgba(49,130,206,0); }
   50% { box-shadow: 0 1px 4px rgba(0,0,0,.4), 0 0 0 5px rgba(49,130,206,.55); }
@@ -296,6 +304,9 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
     <div class="map-tabbar">
       <button class="island-btn" id="menu-btn" onclick="toggleRegionSidebar()" title="메뉴">
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+      <button class="island-btn" id="school-toggle" onclick="toggleSchools()" title="학군" style="margin-top:8px;font-size:11px;font-weight:700">
+        🏫
       </button>
     </div>
 
@@ -744,6 +755,63 @@ async function loadBrokers(){
   }catch(e){console.log('brokers 로드 실패:',e);}
 }
 
+const SCHOOL_COLOR={elementary:'#16a34a',middle:'#ea580c',high:'#dc2626'};
+const SCHOOL_LABEL={elementary:'초',middle:'중',high:'고'};
+let schoolData=[];
+let schoolMarkers=[];
+let schoolVisible=false;
+
+async function loadSchools(){
+  try{
+    const r=await fetch('/split_output/coords_school.json');
+    schoolData=await r.json();
+    console.log('학교 로드:',schoolData.length+'개');
+  }catch(e){console.log('학교 로드 실패:',e);}
+}
+
+function toggleSchools(){
+  schoolVisible=!schoolVisible;
+  const btn=document.getElementById('school-toggle');
+  if(btn)btn.classList.toggle('active',schoolVisible);
+  if(schoolVisible){
+    renderSchoolPins();
+  }else{
+    schoolMarkers.forEach(m=>m.setMap(null));
+    schoolMarkers=[];
+  }
+}
+
+function renderSchoolPins(){
+  schoolMarkers.forEach(m=>m.setMap(null));
+  schoolMarkers=[];
+  if(!map||!schoolVisible)return;
+  const level=map.getLevel();
+  if(level>5)return; // 250m 이하에서만
+  const bounds=map.getBounds();
+  const sw=bounds.getSouthWest(),ne=bounds.getNorthEast();
+  const visible=schoolData.filter(s=>
+    s.lat>=sw.getLat()&&s.lat<=ne.getLat()&&
+    s.lng>=sw.getLng()&&s.lng<=ne.getLng()
+  );
+  const sz=level<=2?16:level<=3?13:10;
+  visible.forEach(s=>{
+    const clr=SCHOOL_COLOR[s.type]||'#666';
+    const label=SCHOOL_LABEL[s.type]||'?';
+    const div=document.createElement('div');
+    div.style.cssText='width:'+sz+'px;height:'+sz+'px;border-radius:50%;background:'+clr+';border:1.5px solid #fff;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:'+(sz-4)+'px;color:#fff;font-weight:700;box-shadow:0 1px 3px rgba(0,0,0,.3)';
+    div.textContent=label;
+    div.title=s.name;
+    div.onclick=function(){
+      if(map)map.panTo(new kakao.maps.LatLng(s.lat,s.lng));
+      alert(s.name+'\n'+s.addr);
+    };
+    const o=new kakao.maps.CustomOverlay({position:new kakao.maps.LatLng(s.lat,s.lng),content:div,yAnchor:.5,zIndex:1});
+    o.setMap(map);
+    schoolMarkers.push(o);
+  });
+}
+
+
 // 공공데이터 API
 const API_KEY='8dfbbd6dc2fff98040507b95b9688bc24cbdfb35e253494d734a697d4658f1cf';
 const SIGUNGU_CODES=[
@@ -896,6 +964,7 @@ async function loadAllApts(){
     loadSigunguData();
     loadDongData();
     loadBrokers();
+    loadSchools();
   }catch(e){
     console.log('sido 로드 실패:', e);
     showMapLoading(false);
@@ -1041,6 +1110,7 @@ function updateMarkersForZoom(){
       if(map&&map.getLevel()<=5) renderVisibleMarkers('all');
     });
   }
+  if(schoolVisible)renderSchoolPins();
 }
 
 // 현재 지도 범위의 시군구 단지 파일 로드
@@ -1280,6 +1350,12 @@ function renderList(query=''){
 function selectItem(id){
   const d=MAP_DATA.find(x=>x.id===id);
   if(!d) return;
+  // 이전 bounce 해제 + 선택한 핀 bounce
+  markers.forEach(m=>{
+    try{const el=m.marker.getContent();if(el&&el.classList)el.classList.remove('pin-bounce');}catch(e){}
+  });
+  const mk=markers.find(x=>x.id===id);
+  if(mk){try{const el=mk.marker.getContent();if(el&&el.classList)el.classList.add('pin-bounce');}catch(e){}}
   if(d.lat&&d.lng&&map) map.panTo(new kakao.maps.LatLng(d.lat,d.lng));
   if(d.type==='broker') openBrokerSidebar(d);
   else openAptDetail(d);
