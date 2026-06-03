@@ -1926,96 +1926,105 @@ function loadListingTab(){
 }
 
 function listingHTML(){
-  return `<div class="listing-layout">
-    <div>
-      <div class="lsec">
-        <div class="lsec-title">단지 선택</div>
-        <div class="step-row">
-          <div class="step-item active" id="st1">① 단지</div>
-          <div class="step-item" id="st2">② 동</div>
-          <div class="step-item" id="st3">③ 타입</div>
-          <div class="step-item" id="st4">④ 층/호</div>
-          <div class="step-item" id="st5">⑤ 완성</div>
+  return `<div style="max-width:520px;margin:0 auto">
+    <!-- 1. 단지 선택/검색 -->
+    <div class="lsec">
+      <div class="lsec-title">단지 선택</div>
+      <div style="margin-bottom:10px">
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:6px">
+          <span style="font-size:11px;color:var(--text3);font-weight:500">⭐ 즐겨찾기 단지</span>
+          <button onclick="toggleFavForm()" style="background:none;border:none;font-size:11px;color:var(--green);cursor:pointer;font-family:inherit">+ 추가</button>
         </div>
-        <div style="margin-bottom:10px">
-          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:6px">
-            <span style="font-size:11px;color:var(--text3);font-weight:500">⭐ 즐겨찾기 단지</span>
-            <button onclick="toggleFavForm()" style="background:none;border:none;font-size:11px;color:var(--green);cursor:pointer;font-family:inherit">+ 추가</button>
+        <div class="chip-row" id="fav-apt-list"><span style="font-size:11px;color:var(--text3)">즐겨찾기 단지가 없어요</span></div>
+        <div id="fav-add-form" style="display:none;margin-top:8px;background:var(--bg);border-radius:var(--radius-sm);padding:12px">
+          <div class="field" style="margin-bottom:8px"><label>단지 선택</label>
+            <input type="text" id="fav-select" placeholder="단지명 검색..." oninput="searchFavComplex(this.value)" autocomplete="off" style="width:100%;padding:8px 10px;border:1px solid var(--border);border-radius:var(--radius-sm);font-size:13px;font-family:inherit">
+            <div id="fav-results" style="display:none;max-height:180px;overflow-y:auto;border:1px solid var(--border);border-radius:var(--radius-sm);margin-top:4px"></div>
           </div>
-          <div class="chip-row" id="fav-apt-list"><span style="font-size:11px;color:var(--text3)">즐겨찾기 단지가 없어요</span></div>
-          <div id="fav-add-form" style="display:none;margin-top:8px;background:var(--bg);border-radius:var(--radius-sm);padding:12px">
-            <div class="field" style="margin-bottom:8px"><label>단지 선택</label>
-              <input type="text" id="fav-select" placeholder="단지명 검색..." oninput="searchFavComplex(this.value)" autocomplete="off" style="width:100%;padding:8px 10px;border:1px solid var(--border);border-radius:var(--radius-sm);font-size:13px;font-family:inherit">
-              <div id="fav-results" style="display:none;max-height:180px;overflow-y:auto;border:1px solid var(--border);border-radius:var(--radius-sm);margin-top:4px"></div>
-            </div>
-            <div style="display:flex;gap:6px;justify-content:flex-end">
-              <button class="btn-clear" style="height:32px;font-size:12px" onclick="toggleFavForm()">취소</button>
-              <button class="btn-print" style="height:32px;font-size:12px" onclick="addFavApt()">저장</button>
-            </div>
+          <div style="display:flex;gap:6px;justify-content:flex-end">
+            <button class="btn-clear" style="height:32px;font-size:12px" onclick="toggleFavForm()">취소</button>
+            <button class="btn-print" style="height:32px;font-size:12px" onclick="addFavApt()">저장</button>
           </div>
         </div>
-        <div class="field"><label>단지명 검색</label>
-          <div style="position:relative">
-            <input type="text" id="sel-complex" placeholder="단지명 입력" oninput="searchComplex(this.value)" autocomplete="off" style="width:100%;padding:10px 12px;border:1px solid var(--border);border-radius:var(--radius-sm);font-size:14px;font-family:inherit">
-            <div id="complex-results" style="display:none;position:absolute;top:100%;left:0;right:0;max-height:240px;overflow-y:auto;background:var(--white);border:1px solid var(--border);border-top:none;border-radius:0 0 var(--radius-sm) var(--radius-sm);z-index:999;box-shadow:0 4px 12px rgba(0,0,0,.12)"></div>
-          </div>
-        </div>
-        <div class="field"><label>지번 검색</label>
-          <div style="position:relative">
-            <input type="text" id="sel-jibun" placeholder="읍면동 또는 주소 입력" oninput="searchComplex(this.value)" autocomplete="off" style="width:100%;padding:10px 12px;border:1px solid var(--border);border-radius:var(--radius-sm);font-size:14px;font-family:inherit">
-          </div>
-        </div>
-        <div class="info-notice" id="complex-info" style="display:none"></div>
       </div>
-      <div class="lsec" id="sec-dong" style="display:none"><div class="lsec-title">동 · 타입 · 층 · 호</div><div id="dong-btns"></div></div>
-      <div class="lsec" id="sec-type" style="display:none"><div class="lsec-title">타입 선택</div><div class="chip-row" id="type-chips"></div></div>
-      <div class="lsec" id="sec-ho" style="display:none">
-        <div class="lsec-title">층수 및 호수 라인</div>
-        <div class="grid2">
-          <div class="field"><label>층수</label><input type="number" id="in-floor" placeholder="예: 12" min="1" oninput="tryAutoFill()"></div>
-          <div class="field"><label>호수 라인</label><select id="sel-line" onchange="tryAutoFill()"><option value="">-- 라인 --</option></select></div>
+      <div class="field"><label>단지명 또는 주소 검색</label>
+        <div style="position:relative">
+          <input type="text" id="sel-complex" placeholder="단지명, 읍면동, 주소 입력" oninput="searchComplex(this.value)" autocomplete="off" style="width:100%;padding:10px 12px;border:1px solid var(--border);border-radius:var(--radius-sm);font-size:14px;font-family:inherit">
+          <div id="complex-results" style="display:none;position:absolute;top:100%;left:0;right:0;max-height:240px;overflow-y:auto;background:var(--white);border:1px solid var(--border);border-top:none;border-radius:0 0 var(--radius-sm) var(--radius-sm);z-index:999;box-shadow:0 4px 12px rgba(0,0,0,.12)"></div>
         </div>
-        <div class="floor-notice" id="floor-notice" style="display:none"></div>
       </div>
-      <div class="lsec" id="sec-result" style="display:none">
-        <div class="lsec-title">자동완성 결과 <span style="background:var(--green-bg);color:var(--green-deeper);font-size:10px;padding:2px 6px;border-radius:10px;margin-left:5px">✦ 자동입력</span></div>
-        <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px" id="auto-result-grid"></div>
-        <div class="grid2" style="margin-top:7px">
-          <div class="field"><label>매물 호수</label><input type="text" id="out-ho" readonly style="font-weight:700;color:var(--green-dark)"></div>
-          <div class="field"><label>거실 기준 방향</label><input type="text" id="out-dir" readonly style="font-weight:700;color:var(--green-dark)"></div>
+      <div style="text-align:center;margin-top:6px"><span onclick="toggleManualInput()" style="font-size:11px;color:var(--green);cursor:pointer;font-weight:500" id="manual-toggle">검색에 없나요? 직접입력 →</span></div>
+      <div id="manual-input-area" style="display:none;margin-top:8px;background:var(--bg);border-radius:var(--radius-sm);padding:12px">
+        <div class="field"><label>단지명 *</label><input type="text" id="manual-complex" placeholder="예: 힐스테이트자이아산센텀"></div>
+        <div class="field"><label>주소</label><input type="text" id="manual-addr" placeholder="예: 충남 아산시 배방읍 세교리 507"></div>
+        <div class="grid3">
+          <div class="field"><label>세대수</label><input type="text" id="manual-units" placeholder="2,032"></div>
+          <div class="field"><label>준공년도</label><input type="text" id="manual-built" placeholder="2023"></div>
+          <div class="field"><label>주차대수</label><input type="text" id="manual-park" placeholder="3,200"></div>
         </div>
       </div>
     </div>
-    <div>
-      <div class="lsec">
-        <div class="lsec-title">매물 가격 <span style="font-size:11px;color:var(--text3);font-weight:400">(인쇄할 항목만 체크)</span></div>
-          <label class="chk-row" style="margin-bottom:8px"><input type="checkbox" id="chk-sale" checked onchange="ge('box-sale').style.display=this.checked?'block':'none'"> 매매</label>
-          <div id="box-sale" class="price-box" style="margin-bottom:8px"><label>매매가 (만원)</label><input type="text" id="p-sale" placeholder="35,000"></div>
-          <label class="chk-row" style="margin-bottom:8px"><input type="checkbox" id="chk-jeonse" checked onchange="ge('box-jeonse').style.display=this.checked?'block':'none'"> 전세</label>
-          <div id="box-jeonse" class="price-box" style="margin-bottom:8px"><label>전세가 (만원)</label><input type="text" id="p-jeonse" placeholder="25,000"></div>
-          <label class="chk-row" style="margin-bottom:8px"><input type="checkbox" id="chk-monthly" onchange="ge('box-monthly').style.display=this.checked?'block':'none'"> 월세</label>
-          <div id="box-monthly" style="display:none">
-            <div class="grid2" style="margin-bottom:8px">
-              <div class="price-box"><label>월세 보증금</label><input type="text" id="p-deposit" placeholder="2,000"></div>
-              <div class="price-box"><label>월세 월차임</label><input type="text" id="p-monthly" placeholder="70"></div>
-            </div>
+
+    <!-- 2. 선택한 단지 정보 -->
+    <div class="lsec" id="complex-info" style="display:none">
+      <div id="complex-info-inner"></div>
+    </div>
+
+    <!-- 3. 동 호수 타입 방향 -->
+    <div class="lsec">
+      <div class="lsec-title">동 호수 타입 방향</div>
+      <div class="grid2">
+        <div class="field"><label>동</label><input type="text" id="input-dong" placeholder="예: 101동"></div>
+        <div class="field"><label>호수</label><input type="text" id="input-ho" placeholder="예: 1201호"></div>
+      </div>
+      <div class="grid2">
+        <div class="field"><label>타입</label><input type="text" id="input-type" placeholder="예: 84A"></div>
+        <div class="field"><label>방향</label><select id="input-dir" style="width:100%;padding:8px 10px;border:1px solid var(--border);border-radius:var(--radius-sm);font-size:13px;font-family:inherit;color:var(--text);cursor:pointer;background:var(--white)"><option value="">선택</option><option>동</option><option>서</option><option>남</option><option>북</option><option>남동</option><option>남서</option><option>북동</option><option>북서</option></select></div>
+      </div>
+      <div class="field" style="margin-top:4px"><label>입주가능일</label><input type="date" id="input-movein" style="width:100%;padding:8px 10px;border:1px solid var(--border);border-radius:var(--radius-sm);font-size:13px;font-family:inherit;color:var(--text);cursor:pointer"></div>
+    </div>
+
+    <!-- 4. 가격 -->
+    <div class="lsec">
+      <div class="lsec-title">가격</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px">
+        <div>
+          <label class="chk-row"><input type="checkbox" id="chk-sale" onchange="ge('box-sale').style.display=this.checked?'block':'none'"> 매매</label>
+          <div id="box-sale" class="price-box" style="display:none;margin-top:6px"><label>매매가 (만원)</label><input type="text" id="p-sale" placeholder="35,000"></div>
+        </div>
+        <div>
+          <label class="chk-row"><input type="checkbox" id="chk-jeonse" onchange="ge('box-jeonse').style.display=this.checked?'block':'none'"> 전세</label>
+          <div id="box-jeonse" class="price-box" style="display:none;margin-top:6px"><label>전세가 (만원)</label><input type="text" id="p-jeonse" placeholder="25,000"></div>
+        </div>
+        <div>
+          <label class="chk-row"><input type="checkbox" id="chk-monthly" onchange="ge('box-monthly').style.display=this.checked?'block':'none'"> 월세</label>
+          <div id="box-monthly" style="display:none;margin-top:6px">
+            <div class="price-box" style="margin-bottom:6px"><label>보증금</label><input type="text" id="p-deposit" placeholder="2,000"></div>
+            <div class="price-box"><label>월차임</label><input type="text" id="p-monthly" placeholder="70"></div>
           </div>
-      </div>
-      <div class="lsec">
-        <div class="lsec-title">매물 사진 (최대 5장)</div>
-        <div class="photo-drop" onclick="document.getElementById('photo-input').click()">↑ 클릭하여 사진 업로드</div>
-        <input type="file" id="photo-input" accept="image/*" multiple style="display:none" onchange="handlePhotos(event)">
-        <div class="photo-preview" id="photo-preview"></div>
-      </div>
-      <div class="lsec">
-        <div class="lsec-title">특이사항 / 매물 설명</div>
-        <div class="field"><label>특이사항</label><input type="text" id="f-special" placeholder="예: 초등학교 도보 3분, 리모델링 완료"></div>
-        <div class="field"><label>매물 설명</label><textarea id="f-desc" style="width:100%;height:76px;border:1px solid var(--border);border-radius:var(--radius-sm);padding:8px 10px;font-size:13px;font-family:inherit;resize:none;line-height:1.7" placeholder="예) 남향 판상형, 채광 우수, 즉시 입주 가능"></textarea></div>
-        <div class="btn-row">
-          <button class="btn-clear" onclick="clearListing()">초기화</button>
-          <button class="btn-print" onclick="doPrint()">🖨 미리보기 / 인쇄</button>
         </div>
       </div>
+    </div>
+
+    <!-- 5. 특이사항 / 매물 설명 -->
+    <div class="lsec">
+      <div class="lsec-title">특이사항 매물설명</div>
+      <div class="field"><label>특이사항</label><input type="text" id="f-special" placeholder="예: 초등학교 도보 3분, 리모델링 완료"></div>
+      <div class="field"><label>매물 설명</label><textarea id="f-desc" style="width:100%;height:76px;border:1px solid var(--border);border-radius:var(--radius-sm);padding:8px 10px;font-size:13px;font-family:inherit;resize:none;line-height:1.7" placeholder="예) 남향 판상형, 채광 우수, 즉시 입주 가능"></textarea></div>
+    </div>
+
+    <!-- 6. 사진 -->
+    <div class="lsec">
+      <div class="lsec-title">사진 (최대 5장)</div>
+      <div class="photo-drop" onclick="document.getElementById('photo-input').click()">📷 클릭하여 사진 업로드</div>
+      <input type="file" id="photo-input" accept="image/*" multiple style="display:none" onchange="handlePhotos(event)">
+      <div class="photo-preview" id="photo-preview"></div>
+    </div>
+
+    <!-- 버튼 -->
+    <div style="display:flex;gap:8px;margin-top:4px;margin-bottom:20px">
+      <button class="btn-clear" onclick="clearListing()" style="flex:1;height:44px">초기화</button>
+      <button class="btn-print" onclick="doPrint()" style="flex:2;height:44px;font-size:15px">🖨 미리보기 / 인쇄</button>
     </div>
   </div>`;
 }
@@ -2032,9 +2041,9 @@ function saveMyApts(){try{localStorage.setItem('myApts',JSON.stringify(myApts));
 const APT_NAMES={hilstate:'힐스테이트자이아산센텀',ipark:'아산 아이파크'};
 function renderFavApts(){const list=ge('fav-apt-list');if(!list)return;if(myApts.length===0){list.innerHTML='<span style="font-size:11px;color:var(--text3)">즐겨찾기 단지가 없어요</span>';return;}list.innerHTML=myApts.map((a,i)=>`<div style="display:inline-flex;align-items:center;gap:4px;background:var(--green-bg);border:1px solid var(--green-mid);border-radius:20px;padding:4px 8px 4px 12px;font-size:12px;color:var(--green-deeper)"><span style="cursor:pointer;font-weight:500" onclick="quickFavSelect('${a.key}')">${a.name}</span><button onclick="delFavApt(${i})" style="background:none;border:none;color:var(--text3);cursor:pointer;font-size:14px;line-height:1;padding:0 2px">×</button></div>`).join('');}
 function toggleFavForm(){const f=ge('fav-add-form');f.style.display=f.style.display==='none'?'block':'none';}
-function addFavApt(){const sel=gv('fav-select');if(!sel){toast('단지를 선택해주세요.');return;}if(myApts.find(a=>a.key===sel)){toast('이미 즐겨찾기에 있어요.');return;}myApts.push({key:sel,name:APT_NAMES[sel]||sel});saveMyApts();ge('fav-add-form').style.display='none';ge('fav-select').value='';renderFavApts();toast(`⭐ ${APT_NAMES[sel]} 즐겨찾기 추가!`);}
+function addFavApt(){const name=gv('fav-select');if(!name||!favSelectedCode){toast('단지를 선택해주세요.');return;}if(myApts.find(a=>a.key===favSelectedCode)){toast('이미 즐겨찾기에 있어요.');return;}myApts.push({key:favSelectedCode,name:name});saveMyApts();ge('fav-add-form').style.display='none';ge('fav-select').value='';favSelectedCode=null;renderFavApts();toast('⭐ '+name+' 즐겨찾기 추가!');}
 function delFavApt(i){myApts.splice(i,1);saveMyApts();renderFavApts();}
-function quickFavSelect(key){const sel=ge('sel-complex');if(sel){sel.value=key;onComplexChange();}toast(`${APT_NAMES[key]} 선택됨`);}
+function quickFavSelect(code){pickComplex(code);toast(allAptData.find(x=>x.code===code)?.name+' 선택됨');}
 
 // ===== 매물 안내서 =====
 let allAptData=[];
@@ -2062,24 +2071,25 @@ function pickComplex(code){
   const d=allAptData.find(x=>x.code===code);
   if(!d)return;
   selectedApt=d;
-  lstCur={complex:code,dong:null,type:null};
   ge('sel-complex').value=d.name;
   ge('complex-results').style.display='none';
-  ge('complex-info').style.display='block';
-  ge('complex-info').innerHTML='<strong>'+d.name+'</strong> · '+(d.addr||d.sido+' '+d.sigungu+' '+d.emd)+'<br>준공: '+(d.built||'-')+' · '+(d.units?d.units+'세대':'-')+' · '+(d.dongCnt||'-');
-  // 동+타입+층+호 한 통으로 표시
-  ge('sec-dong').style.display='block';
-  ge('dong-btns').innerHTML='<div style="display:flex;flex-direction:column;gap:8px">'+
-    '<div class="field"><label>동</label><input type="text" id="input-dong" placeholder="101동" style="width:100%;padding:8px 10px;border:1px solid var(--border);border-radius:var(--radius-sm);font-size:13px;font-family:inherit"></div>'+
-    '<div class="field"><label>타입</label><input type="text" id="input-type" placeholder="84A" style="width:100%;padding:8px 10px;border:1px solid var(--border);border-radius:var(--radius-sm);font-size:13px;font-family:inherit"></div>'+
-    '<div class="field"><label>층수</label><input type="number" id="input-floor" placeholder="12" min="1" style="width:100%;padding:8px 10px;border:1px solid var(--border);border-radius:var(--radius-sm);font-size:13px;font-family:inherit"></div>'+
-    '<div class="field"><label>호수 라인</label><input type="text" id="input-line" placeholder="01" style="width:100%;padding:8px 10px;border:1px solid var(--border);border-radius:var(--radius-sm);font-size:13px;font-family:inherit"></div>'+
-    '<div class="field"><label>방향</label><input type="text" id="input-dir" placeholder="남향" style="width:100%;padding:8px 10px;border:1px solid var(--border);border-radius:var(--radius-sm);font-size:13px;font-family:inherit"></div>'+
+  const infoEl=ge('complex-info');
+  infoEl.style.display='block';
+  const addr=d.addr||[d.sido,d.sigungu,d.emd].filter(Boolean).join(' ');
+  ge('complex-info-inner').innerHTML=
+    '<div style="font-size:15px;font-weight:700;margin-bottom:6px;color:var(--green-dark)">'+d.name+'</div>'+
+    '<div style="font-size:12px;color:var(--text2);margin-bottom:10px">'+addr+'</div>'+
+    '<div style="display:grid;grid-template-columns:1fr 1fr;gap:6px">'+
+    [['세대수',d.units?d.units+'세대':'-'],
+     ['준공',d.built||'-'],
+     ['동수',d.dongCnt||'-'],
+     ['주차대수',d.totalPark||'-'],
+     ['세대당 주차',d.units&&d.totalPark?(d.totalPark/d.units).toFixed(2)+'대':'-'],
+     ['난방',d.heating||'-'],
+     ['분양형태',d.supplyType||'-'],
+     ['최고층',d.maxFloor||'-']
+    ].map(function(r){return '<div style="background:var(--bg);border-radius:var(--radius-sm);padding:7px 10px"><div style="font-size:10px;color:var(--text3)">'+r[0]+'</div><div style="font-size:13px;font-weight:600">'+r[1]+'</div></div>';}).join('')+
     '</div>';
-  ge('sec-type').style.display='none';
-  ge('sec-ho').style.display='none';
-  ge('sec-result').style.display='none';
-  setStep(2);
 }
 
 function searchFavComplex(q){
@@ -2099,15 +2109,16 @@ function pickFavComplex(code,name,sigungu){
 
 const DB={};
 let lstCur={complex:null,dong:null,type:null},photos=[];
-function onComplexChange(){const key=ge('sel-complex').value;lstCur={complex:key,dong:null,type:null};['sec-dong','sec-type','sec-ho','sec-result'].forEach(id=>ge(id).style.display='none');if(!key){ge('complex-info').style.display='none';return;}const d=selectedApt||DB[key];if(!d)return;ge('complex-info').style.display='block';ge('complex-info').innerHTML=`<strong>${d.name}</strong> · ${d.addr}<br>준공: ${d.built} · 총 ${d.total_units} · 주차 ${d.total_park}`;ge('dong-btns').innerHTML=Object.keys(d.dongs).map(dong=>`<button class="dong-chip" onclick="selectDong('${dong}')">${dong}</button>`).join('');ge('sec-dong').style.display='block';setStep(2);}
-function selectDong(dong){lstCur.dong=dong;lstCur.type=null;document.querySelectorAll('.dong-chip').forEach(b=>b.classList.toggle('active',b.textContent===dong));const types=DB[lstCur.complex].dongs[dong].types;ge('type-chips').innerHTML=types.map(t=>`<span class="chip" onclick="selectType('${t}')">${t}타입</span>`).join('');ge('sec-type').style.display='block';ge('sec-ho').style.display='none';ge('sec-result').style.display='none';setStep(3);}
-function selectType(type){lstCur.type=type;document.querySelectorAll('.chip').forEach(c=>c.classList.toggle('active',c.textContent===type+'타입'));const lines=Object.keys(DB[lstCur.complex].dongs[lstCur.dong].lines[type].dir);const sel=ge('sel-line');sel.innerHTML='<option value="">-- 라인 --</option>'+lines.map(l=>`<option value="${l}">${l}호 라인</option>`).join('');ge('in-floor').value='';ge('floor-notice').style.display='none';ge('sec-ho').style.display='block';ge('sec-result').style.display='none';setStep(4);}
-function tryAutoFill(){const floor=parseInt(ge('in-floor').value),line=ge('sel-line').value;if(!lstCur.type||!lstCur.dong||!lstCur.complex)return;const maxF=DB[lstCur.complex].dongs[lstCur.dong].lines[lstCur.type].floors_max;const notice=ge('floor-notice');if(floor&&maxF){const tier=floor<=5?'저층':floor<=15?'중층':'고층';notice.style.display='block';notice.textContent=`최고 ${maxF}층 · ${floor}층 (${tier})`;}if(!floor||!line)return;const d=DB[lstCur.complex],td=d.dongs[lstCur.dong].lines[lstCur.type];const dir=td.dir[line]||'확인 필요';ge('auto-result-grid').innerHTML=[{l:'타입',v:lstCur.type,g:0},{l:'방/화장실',v:`${td.rooms}개/${td.bath}개`,g:0},{l:'방향',v:dir,g:1},{l:'준공',v:d.built,g:0},{l:'세대수',v:d.total_units,g:0},{l:'주차',v:d.total_park,g:0}].map(r=>`<div class="result-item"><div class="r-label">${r.l}</div><div class="r-val${r.g?' green':''}">${r.v}</div></div>`).join('');ge('out-ho').value=`${lstCur.dong} ${floor}${line}호`;ge('out-dir').value=dir;ge('sec-result').style.display='block';setStep(5);}
-function setStep(n){for(let i=1;i<=5;i++){const el=ge('st'+i);if(el)el.className='step-item'+(i<n?' done':i===n?' active':'');}}
+function onComplexChange(){}
+function selectDong(){}
+function selectType(){}
+function tryAutoFill(){}
+function setStep(){}
 function handlePhotos(e){const files=[...e.target.files].slice(0,5-photos.length);files.forEach(f=>{const r=new FileReader();r.onload=ev=>{photos.push(ev.target.result);renderPhotos();};r.readAsDataURL(f);});}
 function renderPhotos(){ge('photo-preview').innerHTML=photos.map((s,i)=>`<div style="position:relative;display:inline-block"><img src="${s}" class="photo-thumb"><span onclick="photos.splice(${i},1);renderPhotos()" style="position:absolute;top:-4px;right:-4px;background:#E24B4A;color:#fff;border-radius:50%;width:15px;height:15px;font-size:10px;cursor:pointer;display:flex;align-items:center;justify-content:center">×</span></div>`).join('');}
-function clearListing(){ge('sel-complex').value='';selectedApt=null;ge('complex-info').style.display='none';['sec-dong','sec-type','sec-ho','sec-result'].forEach(id=>ge(id).style.display='none');lstCur={complex:null,dong:null,type:null};['p-sale','p-jeonse','p-deposit','p-monthly','f-special','f-desc'].forEach(id=>{const el=ge(id);if(el)el.value='';});photos=[];renderPhotos();setStep(1);}
-function doPrint(){const d=selectedApt||null;const complex=d?d.name:'단지명 미입력',ho=(ge('input-dong')?.value||'')+' '+(ge('input-floor')?.value||'')+(ge('input-line')?.value||'')+'호',dir=ge('input-dir')?.value||'';const chkSale=ge('chk-sale')?.checked!==false,chkJeonse=ge('chk-jeonse')?.checked!==false,chkMonthly=ge('chk-monthly')?.checked||false;const sale=chkSale?(ge('p-sale')?.value||''):'',jeonse=chkJeonse?(ge('p-jeonse')?.value||''):'',deposit=chkMonthly?(ge('p-deposit')?.value||''):'',monthly=chkMonthly?(ge('p-monthly')?.value||''):'';const special=ge('f-special')?.value||'',desc=ge('f-desc')?.value||'';const photoHtml=photos.slice(0,3).map(s=>`<img src="${s}" style="width:140px;height:95px;object-fit:cover;border-radius:6px;border:1px solid #eee">`).join('');const now=new Date(),ds=`${now.getFullYear()}.${String(now.getMonth()+1).padStart(2,'0')}.${String(now.getDate()).padStart(2,'0')}`;const monthlyLabel=deposit&&monthly?`보증 ${deposit}/월 ${monthly}만원`:monthly?monthly+'만원':'협의';const content=`<div style="display:flex;justify-content:space-between;align-items:flex-start;border-bottom:2.5px solid #1D9E75;padding-bottom:14px;margin-bottom:18px"><div><div style="font-size:20px;font-weight:700;color:#1D9E75">아구<span style="color:#1a1a1a">구</span></div><div style="font-size:11px;color:#888;margin-top:2px">협력중개사 매물 안내서 · agugu.kr</div></div><div style="text-align:right;font-size:11px;color:#888;line-height:1.6">공인중개사 전용<br>${ds}</div></div><div style="font-size:26px;font-weight:700;color:#1a1a1a;margin-bottom:4px">${complex}</div><div style="font-size:13px;color:#666;margin-bottom:16px">${ho?ho+' · ':''}${dir?dir+' · ':''}${d?d.addr:''}</div>${photoHtml?`<div style="display:flex;gap:8px;margin-bottom:16px">${photoHtml}</div>`:''}<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-bottom:14px">${[['타입',lstCur.type||'-'],['방/화장실',td?td.rooms+'개/'+td.bath+'개':'-'],['거실 방향',dir||'-'],['준공년도',d?d.built:'-'],['총 세대수',d?d.total_units:'-'],['총 주차',d?d.total_park:'-','s2'],['동/호',ho||'-']].map(r=>`<div style="background:#f8f8f8;border-radius:6px;padding:9px 10px;${r[2]==='s2'?'grid-column:span 2':''}"><div style="font-size:10px;color:#999;margin-bottom:2px">${r[0]}</div><div style="font-size:13px;font-weight:700">${r[1]}</div></div>`).join('')}</div><div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-bottom:14px">${[[chkSale,'매매',sale?sale+'만원':'협의'],[chkJeonse,'전세',jeonse?jeonse+'만원':'협의'],[chkMonthly,'월세',monthlyLabel]].filter(r=>r[0]).map(r=>`<div style="border:1.5px solid #e8e8e8;border-radius:8px;padding:12px;text-align:center"><div style="font-size:12px;color:#888;margin-bottom:4px">${r[1]}</div><div style="font-size:16px;font-weight:700;color:#0F6E56">${r[2]}</div></div>`).join('')}</div>${special?`<div style="background:#fffbe6;border-radius:6px;padding:9px 12px;font-size:12px;color:#6b5a00;margin-bottom:12px;border:1px solid #f0de8a">⚡ ${special}</div>`:''}${desc?`<div style="background:#f8f8f8;border-radius:6px;padding:12px;font-size:13px;color:#444;line-height:1.8;margin-bottom:14px">${desc.replace(/\n/g,'<br>')}</div>`:''}<div style="border-top:1px solid #eee;padding-top:10px;text-align:center;font-size:10px;color:#bbb">agugu.kr 협력 공인중개사 매물 안내서 · 허위매물 금지 · ${ds}</div>`;const w=window.open('','_blank','width=780,height=900');w.document.write(`<!DOCTYPE html><html><head><meta charset="utf-8"><title>매물안내서-${complex}</title><style>@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');*{box-sizing:border-box;margin:0;padding:0}body{font-family:'Noto Sans KR',sans-serif;background:#fff;padding:32px}.wrap{max-width:660px;margin:0 auto}@media print{button{display:none}body{padding:12px}}</style></head><body><div class="wrap">${content}</div><div style="text-align:center;margin-top:20px"><button onclick="window.print()" style="background:#1D9E75;color:#fff;border:none;padding:12px 32px;border-radius:8px;font-size:15px;font-weight:700;cursor:pointer;font-family:inherit">🖨 인쇄하기</button></div></body></html>`);w.document.close();}
+function clearListing(){ge('sel-complex').value='';selectedApt=null;ge('complex-info').style.display='none';['input-dong','input-ho','input-type','input-movein','p-sale','p-jeonse','p-deposit','p-monthly','f-special','f-desc','manual-complex','manual-addr','manual-units','manual-built','manual-park'].forEach(id=>{const el=ge(id);if(el)el.value='';});const dirEl=ge('input-dir');if(dirEl)dirEl.selectedIndex=0;['chk-sale','chk-jeonse','chk-monthly'].forEach(id=>{const el=ge(id);if(el)el.checked=false;});['box-sale','box-jeonse','box-monthly'].forEach(id=>{const el=ge(id);if(el)el.style.display='none';});photos=[];renderPhotos();}
+function toggleManualInput(){const area=ge('manual-input-area');const on=area.style.display==='none';area.style.display=on?'block':'none';ge('manual-toggle').textContent=on?'← 검색으로 돌아가기':'검색에 없나요? 직접입력 →';if(on){selectedApt=null;ge('sel-complex').value='';ge('complex-info').style.display='none';}}
+function doPrint(){const d=selectedApt||null;const complex=d?d.name:(ge('manual-complex')?.value||'단지명 미입력');const dong=ge('input-dong')?.value||'';const hoNum=ge('input-ho')?.value||'';const hoFull=dong&&hoNum?dong+' '+hoNum:dong||hoNum||'';const type=ge('input-type')?.value||'';const dir=ge('input-dir')?.value||'';const movein=ge('input-movein')?.value||'';const chkSale=ge('chk-sale')?.checked||false,chkJeonse=ge('chk-jeonse')?.checked||false,chkMonthly=ge('chk-monthly')?.checked||false;const sale=chkSale?(ge('p-sale')?.value||''):'',jeonse=chkJeonse?(ge('p-jeonse')?.value||''):'',deposit=chkMonthly?(ge('p-deposit')?.value||''):'',monthly=chkMonthly?(ge('p-monthly')?.value||''):'';const special=ge('f-special')?.value||'',desc=ge('f-desc')?.value||'';const addr=d?(d.addr||[d.sido,d.sigungu,d.emd].filter(Boolean).join(' ')):(ge('manual-addr')?.value||'');const photoHtml=photos.slice(0,3).map(s=>'<img src="'+s+'" style="width:140px;height:95px;object-fit:cover;border-radius:6px;border:1px solid #eee">').join('');const now=new Date(),ds=now.getFullYear()+'.'+String(now.getMonth()+1).padStart(2,'0')+'.'+String(now.getDate()).padStart(2,'0');const monthlyLabel=deposit&&monthly?'보증 '+deposit+'/월 '+monthly+'만원':monthly?monthly+'만원':'협의';const content='<div style="display:flex;justify-content:space-between;align-items:flex-start;border-bottom:2.5px solid #1D9E75;padding-bottom:14px;margin-bottom:18px"><div><div style="font-size:20px;font-weight:700;color:#1D9E75">아구<span style="color:#1a1a1a">구</span></div><div style="font-size:11px;color:#888;margin-top:2px">매물 안내서 · guhaedo.kr</div></div><div style="text-align:right;font-size:11px;color:#888;line-height:1.6">공인중개사 전용<br>'+ds+'</div></div><div style="font-size:26px;font-weight:700;color:#1a1a1a;margin-bottom:4px">'+complex+'</div><div style="font-size:13px;color:#666;margin-bottom:16px">'+(hoFull?hoFull+' · ':'')+(dir?dir+' · ':'')+addr+'</div>'+(photoHtml?'<div style="display:flex;gap:8px;margin-bottom:16px">'+photoHtml+'</div>':'')+'<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-bottom:14px">'+[['타입',type||'-'],['동/호',hoFull||'-'],['방향',dir||'-'],['준공',d?d.built||'-':(ge('manual-built')?.value||'-')],['세대수',d?d.units||'-':(ge('manual-units')?.value||'-')],['주차',d?d.totalPark||'-':(ge('manual-park')?.value||'-')],['난방',d?d.heating||'-':'-'],['입주가능',movein||'-']].map(function(r){return '<div style="background:#f8f8f8;border-radius:6px;padding:9px 10px;'+(r[2]==='s2'?'grid-column:span 2':'')+'"><div style="font-size:10px;color:#999;margin-bottom:2px">'+r[0]+'</div><div style="font-size:13px;font-weight:700">'+r[1]+'</div></div>';}).join('')+'</div><div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-bottom:14px">'+[[chkSale,'매매',sale?sale+'만원':'협의'],[chkJeonse,'전세',jeonse?jeonse+'만원':'협의'],[chkMonthly,'월세',monthlyLabel]].filter(function(r){return r[0];}).map(function(r){return '<div style="border:1.5px solid #e8e8e8;border-radius:8px;padding:12px;text-align:center"><div style="font-size:12px;color:#888;margin-bottom:4px">'+r[1]+'</div><div style="font-size:16px;font-weight:700;color:#0F6E56">'+r[2]+'</div></div>';}).join('')+'</div>'+(special?'<div style="background:#fffbe6;border-radius:6px;padding:9px 12px;font-size:12px;color:#6b5a00;margin-bottom:12px;border:1px solid #f0de8a">⚡ '+special+'</div>':'')+(desc?'<div style="background:#f8f8f8;border-radius:6px;padding:12px;font-size:13px;color:#444;line-height:1.8;margin-bottom:14px">'+desc.replace(/\n/g,'<br>')+'</div>':'')+'<div style="border-top:1px solid #eee;padding-top:10px;text-align:center;font-size:10px;color:#bbb">guhaedo.kr 매물 안내서 · 허위매물 금지 · '+ds+'</div>';const w=window.open('','_blank','width=780,height=900');w.document.write('<!DOCTYPE html><html><head><meta charset="utf-8"><title>매물안내서-'+complex+'</title><style>@import url(\'https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap\');*{box-sizing:border-box;margin:0;padding:0}body{font-family:\'Noto Sans KR\',sans-serif;background:#fff;padding:32px}.wrap{max-width:660px;margin:0 auto}@media print{button{display:none}body{padding:12px}}</style></head><body><div class="wrap">'+content+'</div><div style="text-align:center;margin-top:20px"><button onclick="window.print()" style="background:#1D9E75;color:#fff;border:none;padding:12px 32px;border-radius:8px;font-size:15px;font-weight:700;cursor:pointer;font-family:inherit">🖨 인쇄하기</button></div></body></html>');w.document.close();}
 
 // ===== 손님 가입 모달 =====
 let aptClickCount=0;
