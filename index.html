@@ -1962,7 +1962,7 @@ function listingHTML(){
         </div>
         <div class="info-notice" id="complex-info" style="display:none"></div>
       </div>
-      <div class="lsec" id="sec-dong" style="display:none"><div class="lsec-title">동 선택</div><div class="chip-row" id="dong-btns"></div></div>
+      <div class="lsec" id="sec-dong" style="display:none"><div class="lsec-title">동 · 타입 · 층 · 호</div><div id="dong-btns"></div></div>
       <div class="lsec" id="sec-type" style="display:none"><div class="lsec-title">타입 선택</div><div class="chip-row" id="type-chips"></div></div>
       <div class="lsec" id="sec-ho" style="display:none">
         <div class="lsec-title">층수 및 호수 라인</div>
@@ -1984,11 +1984,11 @@ function listingHTML(){
     <div>
       <div class="lsec">
         <div class="lsec-title">매물 가격 <span style="font-size:11px;color:var(--text3);font-weight:400">(인쇄할 항목만 체크)</span></div>
-          <label class="chk-row" style="margin-bottom:8px"><input type="checkbox" id="chk-sale" checked> 매매</label>
+          <label class="chk-row" style="margin-bottom:8px"><input type="checkbox" id="chk-sale" checked onchange="ge('box-sale').style.display=this.checked?'block':'none'"> 매매</label>
           <div id="box-sale" class="price-box" style="margin-bottom:8px"><label>매매가 (만원)</label><input type="text" id="p-sale" placeholder="35,000"></div>
-          <label class="chk-row" style="margin-bottom:8px"><input type="checkbox" id="chk-jeonse" checked> 전세</label>
+          <label class="chk-row" style="margin-bottom:8px"><input type="checkbox" id="chk-jeonse" checked onchange="ge('box-jeonse').style.display=this.checked?'block':'none'"> 전세</label>
           <div id="box-jeonse" class="price-box" style="margin-bottom:8px"><label>전세가 (만원)</label><input type="text" id="p-jeonse" placeholder="25,000"></div>
-          <label class="chk-row" style="margin-bottom:8px"><input type="checkbox" id="chk-monthly"> 월세</label>
+          <label class="chk-row" style="margin-bottom:8px"><input type="checkbox" id="chk-monthly" onchange="ge('box-monthly').style.display=this.checked?'block':'none'"> 월세</label>
           <div id="box-monthly" style="display:none">
             <div class="grid2" style="margin-bottom:8px">
               <div class="price-box"><label>월세 보증금</label><input type="text" id="p-deposit" placeholder="2,000"></div>
@@ -2057,28 +2057,24 @@ function pickComplex(code){
   const d=allAptData.find(x=>x.code===code);
   if(!d)return;
   selectedApt=d;
+  lstCur={complex:code,dong:null,type:null};
   ge('sel-complex').value=d.name;
   ge('complex-results').style.display='none';
   ge('complex-info').style.display='block';
   ge('complex-info').innerHTML='<strong>'+d.name+'</strong> · '+(d.addr||d.sido+' '+d.sigungu+' '+d.emd)+'<br>준공: '+(d.built||'-')+' · '+(d.units?d.units+'세대':'-')+' · '+(d.dongCnt||'-');
+  // 동+타입+층+호 한 통으로 표시
   ge('sec-dong').style.display='block';
-  ge('dong-btns').innerHTML='<input type="text" id="input-dong" placeholder="동 입력 (예: 101동)" style="padding:8px 10px;border:1px solid var(--border);border-radius:var(--radius-sm);font-size:13px;width:120px;font-family:inherit" onchange="onDongInput()">';
+  ge('dong-btns').innerHTML='<div style="display:grid;grid-template-columns:1fr 1fr;gap:8px">'+
+    '<div class="field"><label>동</label><input type="text" id="input-dong" placeholder="101동" style="width:100%;padding:8px 10px;border:1px solid var(--border);border-radius:var(--radius-sm);font-size:13px;font-family:inherit"></div>'+
+    '<div class="field"><label>타입</label><input type="text" id="input-type" placeholder="84A" style="width:100%;padding:8px 10px;border:1px solid var(--border);border-radius:var(--radius-sm);font-size:13px;font-family:inherit"></div>'+
+    '<div class="field"><label>층수</label><input type="number" id="input-floor" placeholder="12" min="1" style="width:100%;padding:8px 10px;border:1px solid var(--border);border-radius:var(--radius-sm);font-size:13px;font-family:inherit"></div>'+
+    '<div class="field"><label>호수 라인</label><input type="text" id="input-line" placeholder="01" style="width:100%;padding:8px 10px;border:1px solid var(--border);border-radius:var(--radius-sm);font-size:13px;font-family:inherit"></div>'+
+    '<div class="field"><label>방향</label><input type="text" id="input-dir" placeholder="남향" style="width:100%;padding:8px 10px;border:1px solid var(--border);border-radius:var(--radius-sm);font-size:13px;font-family:inherit"></div>'+
+    '</div>';
+  ge('sec-type').style.display='none';
+  ge('sec-ho').style.display='none';
+  ge('sec-result').style.display='none';
   setStep(2);
-}
-
-function onDongInput(){
-  const dong=ge('input-dong').value;
-  if(!dong)return;
-  lstCur.dong=dong;
-  ge('sec-type').style.display='block';
-  ge('type-chips').innerHTML='<input type="text" id="input-type" placeholder="타입 입력 (예: 84A)" style="padding:8px 10px;border:1px solid var(--border);border-radius:var(--radius-sm);font-size:13px;width:120px;font-family:inherit" onchange="onTypeInput()">';
-  setStep(3);
-}
-
-function onTypeInput(){
-  lstCur.type=ge('input-type').value||'';
-  ge('sec-ho').style.display='block';
-  setStep(4);
 }
 
 function searchFavComplex(q){
@@ -2106,7 +2102,7 @@ function setStep(n){for(let i=1;i<=5;i++){const el=ge('st'+i);if(el)el.className
 function handlePhotos(e){const files=[...e.target.files].slice(0,5-photos.length);files.forEach(f=>{const r=new FileReader();r.onload=ev=>{photos.push(ev.target.result);renderPhotos();};r.readAsDataURL(f);});}
 function renderPhotos(){ge('photo-preview').innerHTML=photos.map((s,i)=>`<div style="position:relative;display:inline-block"><img src="${s}" class="photo-thumb"><span onclick="photos.splice(${i},1);renderPhotos()" style="position:absolute;top:-4px;right:-4px;background:#E24B4A;color:#fff;border-radius:50%;width:15px;height:15px;font-size:10px;cursor:pointer;display:flex;align-items:center;justify-content:center">×</span></div>`).join('');}
 function clearListing(){ge('sel-complex').value='';selectedApt=null;ge('complex-info').style.display='none';['sec-dong','sec-type','sec-ho','sec-result'].forEach(id=>ge(id).style.display='none');lstCur={complex:null,dong:null,type:null};['p-sale','p-jeonse','p-deposit','p-monthly','f-special','f-desc'].forEach(id=>{const el=ge(id);if(el)el.value='';});photos=[];renderPhotos();setStep(1);}
-function doPrint(){const d=selectedApt||null,td=d&&lstCur.dong&&lstCur.type?d.dongs[lstCur.dong].lines[lstCur.type]:null;const complex=d?d.name:'단지명 미입력',ho=ge('out-ho')?.value||'',dir=ge('out-dir')?.value||'';const chkSale=ge('chk-sale')?.checked!==false,chkJeonse=ge('chk-jeonse')?.checked!==false,chkMonthly=ge('chk-monthly')?.checked||false;const sale=chkSale?(ge('p-sale')?.value||''):'',jeonse=chkJeonse?(ge('p-jeonse')?.value||''):'',deposit=chkMonthly?(ge('p-deposit')?.value||''):'',monthly=chkMonthly?(ge('p-monthly')?.value||''):'';const special=ge('f-special')?.value||'',desc=ge('f-desc')?.value||'';const photoHtml=photos.slice(0,3).map(s=>`<img src="${s}" style="width:140px;height:95px;object-fit:cover;border-radius:6px;border:1px solid #eee">`).join('');const now=new Date(),ds=`${now.getFullYear()}.${String(now.getMonth()+1).padStart(2,'0')}.${String(now.getDate()).padStart(2,'0')}`;const monthlyLabel=deposit&&monthly?`보증 ${deposit}/월 ${monthly}만원`:monthly?monthly+'만원':'협의';const content=`<div style="display:flex;justify-content:space-between;align-items:flex-start;border-bottom:2.5px solid #1D9E75;padding-bottom:14px;margin-bottom:18px"><div><div style="font-size:20px;font-weight:700;color:#1D9E75">아구<span style="color:#1a1a1a">구</span></div><div style="font-size:11px;color:#888;margin-top:2px">협력중개사 매물 안내서 · agugu.kr</div></div><div style="text-align:right;font-size:11px;color:#888;line-height:1.6">공인중개사 전용<br>${ds}</div></div><div style="font-size:26px;font-weight:700;color:#1a1a1a;margin-bottom:4px">${complex}</div><div style="font-size:13px;color:#666;margin-bottom:16px">${ho?ho+' · ':''}${dir?dir+' · ':''}${d?d.addr:''}</div>${photoHtml?`<div style="display:flex;gap:8px;margin-bottom:16px">${photoHtml}</div>`:''}<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-bottom:14px">${[['타입',lstCur.type||'-'],['방/화장실',td?td.rooms+'개/'+td.bath+'개':'-'],['거실 방향',dir||'-'],['준공년도',d?d.built:'-'],['총 세대수',d?d.total_units:'-'],['총 주차',d?d.total_park:'-','s2'],['동/호',ho||'-']].map(r=>`<div style="background:#f8f8f8;border-radius:6px;padding:9px 10px;${r[2]==='s2'?'grid-column:span 2':''}"><div style="font-size:10px;color:#999;margin-bottom:2px">${r[0]}</div><div style="font-size:13px;font-weight:700">${r[1]}</div></div>`).join('')}</div><div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-bottom:14px">${[[chkSale,'매매',sale?sale+'만원':'협의'],[chkJeonse,'전세',jeonse?jeonse+'만원':'협의'],[chkMonthly,'월세',monthlyLabel]].filter(r=>r[0]).map(r=>`<div style="border:1.5px solid #e8e8e8;border-radius:8px;padding:12px;text-align:center"><div style="font-size:12px;color:#888;margin-bottom:4px">${r[1]}</div><div style="font-size:16px;font-weight:700;color:#0F6E56">${r[2]}</div></div>`).join('')}</div>${special?`<div style="background:#fffbe6;border-radius:6px;padding:9px 12px;font-size:12px;color:#6b5a00;margin-bottom:12px;border:1px solid #f0de8a">⚡ ${special}</div>`:''}${desc?`<div style="background:#f8f8f8;border-radius:6px;padding:12px;font-size:13px;color:#444;line-height:1.8;margin-bottom:14px">${desc.replace(/\n/g,'<br>')}</div>`:''}<div style="border-top:1px solid #eee;padding-top:10px;text-align:center;font-size:10px;color:#bbb">agugu.kr 협력 공인중개사 매물 안내서 · 허위매물 금지 · ${ds}</div>`;const w=window.open('','_blank','width=780,height=900');w.document.write(`<!DOCTYPE html><html><head><meta charset="utf-8"><title>매물안내서-${complex}</title><style>@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');*{box-sizing:border-box;margin:0;padding:0}body{font-family:'Noto Sans KR',sans-serif;background:#fff;padding:32px}.wrap{max-width:660px;margin:0 auto}@media print{button{display:none}body{padding:12px}}</style></head><body><div class="wrap">${content}</div><div style="text-align:center;margin-top:20px"><button onclick="window.print()" style="background:#1D9E75;color:#fff;border:none;padding:12px 32px;border-radius:8px;font-size:15px;font-weight:700;cursor:pointer;font-family:inherit">🖨 인쇄하기</button></div></body></html>`);w.document.close();}
+function doPrint(){const d=selectedApt||null;const complex=d?d.name:'단지명 미입력',ho=(ge('input-dong')?.value||'')+' '+(ge('input-floor')?.value||'')+(ge('input-line')?.value||'')+'호',dir=ge('input-dir')?.value||'';const chkSale=ge('chk-sale')?.checked!==false,chkJeonse=ge('chk-jeonse')?.checked!==false,chkMonthly=ge('chk-monthly')?.checked||false;const sale=chkSale?(ge('p-sale')?.value||''):'',jeonse=chkJeonse?(ge('p-jeonse')?.value||''):'',deposit=chkMonthly?(ge('p-deposit')?.value||''):'',monthly=chkMonthly?(ge('p-monthly')?.value||''):'';const special=ge('f-special')?.value||'',desc=ge('f-desc')?.value||'';const photoHtml=photos.slice(0,3).map(s=>`<img src="${s}" style="width:140px;height:95px;object-fit:cover;border-radius:6px;border:1px solid #eee">`).join('');const now=new Date(),ds=`${now.getFullYear()}.${String(now.getMonth()+1).padStart(2,'0')}.${String(now.getDate()).padStart(2,'0')}`;const monthlyLabel=deposit&&monthly?`보증 ${deposit}/월 ${monthly}만원`:monthly?monthly+'만원':'협의';const content=`<div style="display:flex;justify-content:space-between;align-items:flex-start;border-bottom:2.5px solid #1D9E75;padding-bottom:14px;margin-bottom:18px"><div><div style="font-size:20px;font-weight:700;color:#1D9E75">아구<span style="color:#1a1a1a">구</span></div><div style="font-size:11px;color:#888;margin-top:2px">협력중개사 매물 안내서 · agugu.kr</div></div><div style="text-align:right;font-size:11px;color:#888;line-height:1.6">공인중개사 전용<br>${ds}</div></div><div style="font-size:26px;font-weight:700;color:#1a1a1a;margin-bottom:4px">${complex}</div><div style="font-size:13px;color:#666;margin-bottom:16px">${ho?ho+' · ':''}${dir?dir+' · ':''}${d?d.addr:''}</div>${photoHtml?`<div style="display:flex;gap:8px;margin-bottom:16px">${photoHtml}</div>`:''}<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-bottom:14px">${[['타입',lstCur.type||'-'],['방/화장실',td?td.rooms+'개/'+td.bath+'개':'-'],['거실 방향',dir||'-'],['준공년도',d?d.built:'-'],['총 세대수',d?d.total_units:'-'],['총 주차',d?d.total_park:'-','s2'],['동/호',ho||'-']].map(r=>`<div style="background:#f8f8f8;border-radius:6px;padding:9px 10px;${r[2]==='s2'?'grid-column:span 2':''}"><div style="font-size:10px;color:#999;margin-bottom:2px">${r[0]}</div><div style="font-size:13px;font-weight:700">${r[1]}</div></div>`).join('')}</div><div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-bottom:14px">${[[chkSale,'매매',sale?sale+'만원':'협의'],[chkJeonse,'전세',jeonse?jeonse+'만원':'협의'],[chkMonthly,'월세',monthlyLabel]].filter(r=>r[0]).map(r=>`<div style="border:1.5px solid #e8e8e8;border-radius:8px;padding:12px;text-align:center"><div style="font-size:12px;color:#888;margin-bottom:4px">${r[1]}</div><div style="font-size:16px;font-weight:700;color:#0F6E56">${r[2]}</div></div>`).join('')}</div>${special?`<div style="background:#fffbe6;border-radius:6px;padding:9px 12px;font-size:12px;color:#6b5a00;margin-bottom:12px;border:1px solid #f0de8a">⚡ ${special}</div>`:''}${desc?`<div style="background:#f8f8f8;border-radius:6px;padding:12px;font-size:13px;color:#444;line-height:1.8;margin-bottom:14px">${desc.replace(/\n/g,'<br>')}</div>`:''}<div style="border-top:1px solid #eee;padding-top:10px;text-align:center;font-size:10px;color:#bbb">agugu.kr 협력 공인중개사 매물 안내서 · 허위매물 금지 · ${ds}</div>`;const w=window.open('','_blank','width=780,height=900');w.document.write(`<!DOCTYPE html><html><head><meta charset="utf-8"><title>매물안내서-${complex}</title><style>@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');*{box-sizing:border-box;margin:0;padding:0}body{font-family:'Noto Sans KR',sans-serif;background:#fff;padding:32px}.wrap{max-width:660px;margin:0 auto}@media print{button{display:none}body{padding:12px}}</style></head><body><div class="wrap">${content}</div><div style="text-align:center;margin-top:20px"><button onclick="window.print()" style="background:#1D9E75;color:#fff;border:none;padding:12px 32px;border-radius:8px;font-size:15px;font-weight:700;cursor:pointer;font-family:inherit">🖨 인쇄하기</button></div></body></html>`);w.document.close();}
 
 // ===== 손님 가입 모달 =====
 let aptClickCount=0;
