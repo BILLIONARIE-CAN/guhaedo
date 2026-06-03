@@ -1298,7 +1298,11 @@ function addMarker(d){
     const u=d.units?'<br><span style="font-size:10px;font-weight:400;opacity:.85">'+d.units+'</span>':'';
     const clr=TYPE_COLOR[d.type]||'#1a56db';
     const txtClr=d.type==='bunyang'?'#1a1a1a':'#fff';
-    bc=`<div onclick="selectItem('${d.id}')" style="background:${clr};color:${txtClr};padding:2px 5px;border-radius:3px;font-size:11px;font-weight:700;cursor:pointer;box-shadow:0 1px 3px rgba(0,0,0,.3);white-space:nowrap;text-align:center;line-height:1.4;border:1.5px solid #fff">${n}${u}</div>`;
+    const aptDiv=document.createElement('div');
+    aptDiv.style.cssText='background:'+clr+';color:'+txtClr+';padding:2px 5px;border-radius:3px;font-size:11px;font-weight:700;cursor:pointer;box-shadow:0 1px 3px rgba(0,0,0,.3);white-space:nowrap;text-align:center;line-height:1.4;border:1.5px solid #fff';
+    aptDiv.innerHTML=n+u;
+    aptDiv.onclick=function(){selectItem(d.id);};
+    bc=aptDiv;
   }else if(d.type==='broker'){
     const bname=d.name.length>8?d.name.substring(0,8)+'..':d.name;
     const lv=map?map.getLevel():5;
