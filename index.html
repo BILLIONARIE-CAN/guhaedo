@@ -793,7 +793,7 @@ function renderSchoolPins(){
     s.lat>=sw.getLat()&&s.lat<=ne.getLat()&&
     s.lng>=sw.getLng()&&s.lng<=ne.getLng()
   );
-  const sz=level<=2?16:level<=3?13:10;
+  const sz=level<=2?24:level<=3?20:16;
   visible.forEach(s=>{
     const clr=SCHOOL_COLOR[s.type]||'#666';
     const label=SCHOOL_LABEL[s.type]||'?';
