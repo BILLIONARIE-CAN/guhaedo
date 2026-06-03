@@ -246,6 +246,9 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
 .ad-slot span{font-size:11px;color:var(--text3)}
 .ad-slot img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border-radius:var(--radius-sm)}
 .ad-slot:hover{border-color:var(--green)}
+.search-mode-tab{flex:1;padding:8px;text-align:center;font-size:12px;font-weight:500;cursor:pointer;background:var(--bg);color:var(--text3);border-right:1px solid var(--border);transition:all .15s}
+.search-mode-tab:last-child{border-right:none}
+.search-mode-tab.active{background:var(--green);color:#fff;font-weight:700}
 .price-box{background:var(--bg);border-radius:var(--radius-sm);padding:9px;margin-bottom:0}
 .price-box label{font-size:11px;color:var(--text3);display:block;margin-bottom:4px}
 .price-box input{width:100%;height:32px;border:1px solid var(--border);border-radius:var(--radius-sm);padding:0 8px;font-size:13px;font-family:inherit;background:var(--white)}
@@ -1927,6 +1930,7 @@ function loadListingTab(){
   if(!sub0) return;
   sub0.innerHTML=listingHTML();
   renderFavApts();
+  initLocSelects();
 }
 
 function listingHTML(){
@@ -1951,10 +1955,24 @@ function listingHTML(){
           </div>
         </div>
       </div>
-      <div class="field"><label>단지명 또는 주소 검색</label>
-        <div style="position:relative">
-          <input type="text" id="sel-complex" placeholder="단지명, 읍면동, 주소 입력" oninput="searchComplex(this.value)" autocomplete="off" style="width:100%;padding:10px 12px;border:1px solid var(--border);border-radius:var(--radius-sm);font-size:14px;font-family:inherit">
-          <div id="complex-results" style="display:none;position:absolute;top:100%;left:0;right:0;max-height:240px;overflow-y:auto;background:var(--white);border:1px solid var(--border);border-top:none;border-radius:0 0 var(--radius-sm) var(--radius-sm);z-index:999;box-shadow:0 4px 12px rgba(0,0,0,.12)"></div>
+      <div style="display:flex;gap:0;margin-bottom:10px;border:1px solid var(--border);border-radius:var(--radius-sm);overflow:hidden">
+        <div class="search-mode-tab active" id="smt-loc" onclick="switchSearchMode('loc')">소재지 선택</div>
+        <div class="search-mode-tab" id="smt-name" onclick="switchSearchMode('name')">단지명 검색</div>
+      </div>
+      <div id="search-loc">
+        <div class="grid3" style="margin-bottom:8px">
+          <div class="field"><label>시도</label><select id="loc-sido" onchange="onSidoChange()" style="width:100%;padding:8px;border:1px solid var(--border);border-radius:var(--radius-sm);font-size:13px;font-family:inherit;cursor:pointer"><option value="">선택</option></select></div>
+          <div class="field"><label>시군구</label><select id="loc-sigungu" onchange="onSigunguChange()" style="width:100%;padding:8px;border:1px solid var(--border);border-radius:var(--radius-sm);font-size:13px;font-family:inherit;cursor:pointer"><option value="">선택</option></select></div>
+          <div class="field"><label>읍면동</label><select id="loc-emd" onchange="onEmdChange()" style="width:100%;padding:8px;border:1px solid var(--border);border-radius:var(--radius-sm);font-size:13px;font-family:inherit;cursor:pointer"><option value="">선택</option></select></div>
+        </div>
+        <div id="loc-apt-list" style="display:none;max-height:200px;overflow-y:auto;border:1px solid var(--border);border-radius:var(--radius-sm);background:var(--white)"></div>
+      </div>
+      <div id="search-name" style="display:none">
+        <div class="field"><label>단지명 검색</label>
+          <div style="position:relative">
+            <input type="text" id="sel-complex" placeholder="단지명으로 검색" oninput="searchComplex(this.value)" autocomplete="off" style="width:100%;padding:10px 12px;border:1px solid var(--border);border-radius:var(--radius-sm);font-size:14px;font-family:inherit">
+            <div id="complex-results" style="display:none;position:absolute;top:100%;left:0;right:0;max-height:240px;overflow-y:auto;background:var(--white);border:1px solid var(--border);border-top:none;border-radius:0 0 var(--radius-sm) var(--radius-sm);z-index:999;box-shadow:0 4px 12px rgba(0,0,0,.12)"></div>
+          </div>
         </div>
       </div>
       <div style="text-align:center;margin-top:6px"><span onclick="toggleManualInput()" style="font-size:11px;color:var(--green);cursor:pointer;font-weight:500" id="manual-toggle">검색에 없나요? 직접입력 →</span></div>
@@ -2088,8 +2106,9 @@ function pickComplex(code){
   const d=allAptData.find(x=>x.code===code);
   if(!d)return;
   selectedApt=d;
-  ge('sel-complex').value=d.name;
-  ge('complex-results').style.display='none';
+  var sc=ge('sel-complex');if(sc)sc.value=d.name;
+  var cr=ge('complex-results');if(cr)cr.style.display='none';
+  var la=ge('loc-apt-list');if(la)la.style.display='none';
   const infoEl=ge('complex-info');
   infoEl.style.display='block';
   const addr=d.addr||[d.sido,d.sigungu,d.emd].filter(Boolean).join(' ');
@@ -2136,6 +2155,12 @@ function handlePhotos(e){const files=[...e.target.files].slice(0,5-photos.length
 function renderPhotos(){ge('photo-preview').innerHTML=photos.map((s,i)=>`<div style="position:relative;display:inline-block"><img src="${s}" class="photo-thumb"><span onclick="photos.splice(${i},1);renderPhotos()" style="position:absolute;top:-4px;right:-4px;background:#E24B4A;color:#fff;border-radius:50%;width:15px;height:15px;font-size:10px;cursor:pointer;display:flex;align-items:center;justify-content:center">×</span></div>`).join('');}
 function clearListing(){ge('sel-complex').value='';selectedApt=null;ge('complex-info').style.display='none';['input-dong','input-ho','input-type','input-movein','p-sale','p-jeonse','p-deposit','p-monthly','f-special','f-desc','manual-complex','manual-addr','manual-units','manual-built','manual-park'].forEach(id=>{const el=ge(id);if(el)el.value='';});const dirEl=ge('input-dir');if(dirEl)dirEl.selectedIndex=0;['chk-sale','chk-jeonse','chk-monthly'].forEach(id=>{const el=ge(id);if(el)el.checked=false;});['box-sale','box-jeonse','box-monthly'].forEach(id=>{const el=ge(id);if(el)el.style.display='none';});photos=[];renderPhotos();adSlots=[null,null,null,null,null,null];for(var ai=0;ai<6;ai++){var aimg=ge('ad-img-'+ai);if(aimg){aimg.style.display='none';aimg.src='';}}}
 function toggleManualInput(){const area=ge('manual-input-area');const on=area.style.display==='none';area.style.display=on?'block':'none';ge('manual-toggle').textContent=on?'← 검색으로 돌아가기':'검색에 없나요? 직접입력 →';if(on){selectedApt=null;ge('sel-complex').value='';ge('complex-info').style.display='none';}}
+function switchSearchMode(mode){ge('search-loc').style.display=mode==='loc'?'block':'none';ge('search-name').style.display=mode==='name'?'block':'none';ge('smt-loc').className='search-mode-tab'+(mode==='loc'?' active':'');ge('smt-name').className='search-mode-tab'+(mode==='name'?' active':'');}
+function initLocSelects(){if(!allAptData.length)return;var sidos=[...new Set(allAptData.map(function(d){return d.sido;}))].sort();var sel=ge('loc-sido');if(!sel)return;sel.innerHTML='<option value="">시도 선택</option>'+sidos.map(function(s){return '<option value="'+s+'">'+s+'</option>';}).join('');}
+function onSidoChange(){var v=ge('loc-sido').value;ge('loc-sigungu').innerHTML='<option value="">시군구 선택</option>';ge('loc-emd').innerHTML='<option value="">읍면동 선택</option>';ge('loc-apt-list').style.display='none';if(!v)return;var list=[...new Set(allAptData.filter(function(d){return d.sido===v;}).map(function(d){return d.sigungu;}))].sort();ge('loc-sigungu').innerHTML='<option value="">시군구 선택</option>'+list.map(function(s){return '<option value="'+s+'">'+s+'</option>';}).join('');}
+function onSigunguChange(){var sido=ge('loc-sido').value,sigungu=ge('loc-sigungu').value;ge('loc-emd').innerHTML='<option value="">읍면동 선택</option>';ge('loc-apt-list').style.display='none';if(!sigungu)return;var list=[...new Set(allAptData.filter(function(d){return d.sido===sido&&d.sigungu===sigungu;}).map(function(d){return d.emd;}))].filter(Boolean).sort();ge('loc-emd').innerHTML='<option value="">읍면동 선택</option>'+list.map(function(s){return '<option value="'+s+'">'+s+'</option>';}).join('');}
+function onEmdChange(){var sido=ge('loc-sido').value,sigungu=ge('loc-sigungu').value,emd=ge('loc-emd').value;var box=ge('loc-apt-list');if(!emd){box.style.display='none';return;}var apts=allAptData.filter(function(d){return d.sido===sido&&d.sigungu===sigungu&&d.emd===emd;}).sort(function(a,b){return a.name.localeCompare(b.name);});box.style.display='block';box.innerHTML=apts.map(function(d){return '<div onclick="pickComplex(\''+d.code+'\')" style="padding:8px 12px;cursor:pointer;border-bottom:1px solid var(--bg);font-size:13px" onmouseover="this.style.background=\'var(--bg)\'" onmouseout="this.style.background=\'\'"><strong>'+d.name+'</strong> <span style="color:var(--text3);font-size:11px">'+(d.units||'-')+'세대</span></div>';}).join('')||'<div style="padding:10px;color:var(--text3);font-size:12px">해당 지역에 단지가 없습니다</div>';}
+document.addEventListener('click',function(e){var r=ge('complex-results');if(r&&r.style.display!=='none'){var inp=ge('sel-complex');if(inp&&!inp.contains(e.target)&&!r.contains(e.target))r.style.display='none';}var fr=ge('fav-results');if(fr&&fr.style.display!=='none'){var fi=ge('fav-select');if(fi&&!fi.contains(e.target)&&!fr.contains(e.target))fr.style.display='none';}});
 function doPrint(){const d=selectedApt||null;const complex=d?d.name:(ge('manual-complex')?.value||'단지명 미입력');const dong=ge('input-dong')?.value||'';const hoNum=ge('input-ho')?.value||'';const hoFull=dong&&hoNum?dong+' '+hoNum:dong||hoNum||'';const type=ge('input-type')?.value||'';const dir=ge('input-dir')?.value||'';const movein=ge('input-movein')?.value||'';const chkSale=ge('chk-sale')?.checked||false,chkJeonse=ge('chk-jeonse')?.checked||false,chkMonthly=ge('chk-monthly')?.checked||false;const sale=chkSale?(ge('p-sale')?.value||''):'',jeonse=chkJeonse?(ge('p-jeonse')?.value||''):'',deposit=chkMonthly?(ge('p-deposit')?.value||''):'',monthly=chkMonthly?(ge('p-monthly')?.value||''):'';const special=ge('f-special')?.value||'',desc=ge('f-desc')?.value||'';const addr=d?(d.addr||[d.sido,d.sigungu,d.emd].filter(Boolean).join(' ')):(ge('manual-addr')?.value||'');const photoHtml=photos.slice(0,3).map(s=>'<img src="'+s+'" style="width:140px;height:95px;object-fit:cover;border-radius:6px;border:1px solid #eee">').join('');const now=new Date(),ds=now.getFullYear()+'.'+String(now.getMonth()+1).padStart(2,'0')+'.'+String(now.getDate()).padStart(2,'0');const monthlyLabel=deposit&&monthly?'보증 '+deposit+'/월 '+monthly+'만원':monthly?monthly+'만원':'협의';const content='<div style="display:flex;justify-content:space-between;align-items:flex-start;border-bottom:2.5px solid #1D9E75;padding-bottom:14px;margin-bottom:18px"><div><div style="font-size:20px;font-weight:700;color:#1D9E75">아구<span style="color:#1a1a1a">구</span></div><div style="font-size:11px;color:#888;margin-top:2px">매물 안내서 · guhaedo.kr</div></div><div style="text-align:right;font-size:11px;color:#888;line-height:1.6">공인중개사 전용<br>'+ds+'</div></div><div style="font-size:26px;font-weight:700;color:#1a1a1a;margin-bottom:4px">'+complex+'</div><div style="font-size:13px;color:#666;margin-bottom:16px">'+(hoFull?hoFull+' · ':'')+(dir?dir+' · ':'')+addr+'</div>'+(photoHtml?'<div style="display:flex;gap:8px;margin-bottom:16px">'+photoHtml+'</div>':'')+'<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-bottom:14px">'+[['타입',type||'-'],['동/호',hoFull||'-'],['방향',dir||'-'],['준공',d?d.built||'-':(ge('manual-built')?.value||'-')],['세대수',d?d.units||'-':(ge('manual-units')?.value||'-')],['주차',d?d.totalPark||'-':(ge('manual-park')?.value||'-')],['난방',d?d.heating||'-':'-'],['입주가능',movein||'-']].map(function(r){return '<div style="background:#f8f8f8;border-radius:6px;padding:9px 10px;'+(r[2]==='s2'?'grid-column:span 2':'')+'"><div style="font-size:10px;color:#999;margin-bottom:2px">'+r[0]+'</div><div style="font-size:13px;font-weight:700">'+r[1]+'</div></div>';}).join('')+'</div><div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-bottom:14px">'+[[chkSale,'매매',sale?sale+'만원':'협의'],[chkJeonse,'전세',jeonse?jeonse+'만원':'협의'],[chkMonthly,'월세',monthlyLabel]].filter(function(r){return r[0];}).map(function(r){return '<div style="border:1.5px solid #e8e8e8;border-radius:8px;padding:12px;text-align:center"><div style="font-size:12px;color:#888;margin-bottom:4px">'+r[1]+'</div><div style="font-size:16px;font-weight:700;color:#0F6E56">'+r[2]+'</div></div>';}).join('')+'</div>'+(special?'<div style="background:#fffbe6;border-radius:6px;padding:9px 12px;font-size:12px;color:#6b5a00;margin-bottom:12px;border:1px solid #f0de8a">⚡ '+special+'</div>':'')+(desc?'<div style="background:#f8f8f8;border-radius:6px;padding:12px;font-size:13px;color:#444;line-height:1.8;margin-bottom:14px">'+desc.replace(/\n/g,'<br>')+'</div>':'')+'<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px;margin-bottom:12px">'+adSlots.filter(Boolean).map(function(s){return '<img src="'+s+'" style="width:100%;height:60px;object-fit:cover;border-radius:4px;border:1px solid #eee">';}).join('')+'</div><div style="border-top:1px solid #eee;padding-top:10px;text-align:center;font-size:10px;color:#bbb">guhaedo.kr 매물 안내서 · 허위매물 금지 · '+ds+'</div>';const w=window.open('','_blank','width=780,height=900');w.document.write('<!DOCTYPE html><html><head><meta charset="utf-8"><title>매물안내서-'+complex+'</title><style>@import url(\'https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap\');*{box-sizing:border-box;margin:0;padding:0}body{font-family:\'Noto Sans KR\',sans-serif;background:#fff;padding:32px}.wrap{max-width:660px;margin:0 auto}@media print{button{display:none}body{padding:12px}}</style></head><body><div class="wrap">'+content+'</div><div style="text-align:center;margin-top:20px"><button onclick="window.print()" style="background:#1D9E75;color:#fff;border:none;padding:12px 32px;border-radius:8px;font-size:15px;font-weight:700;cursor:pointer;font-family:inherit">🖨 인쇄하기</button></div></body></html>');w.document.close();}
 
 // ===== 손님 가입 모달 =====
