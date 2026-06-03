@@ -1954,10 +1954,15 @@ function listingHTML(){
             </div>
           </div>
         </div>
-        <div class="field"><label>단지명 검색 (전국 21,308개)</label>
+        <div class="field"><label>단지명 검색</label>
           <div style="position:relative">
-            <input type="text" id="sel-complex" placeholder="단지명 또는 주소 입력..." oninput="searchComplex(this.value)" autocomplete="off" style="width:100%;padding:10px 12px;border:1px solid var(--border);border-radius:var(--radius-sm);font-size:14px;font-family:inherit">
+            <input type="text" id="sel-complex" placeholder="단지명 입력" oninput="searchComplex(this.value)" autocomplete="off" style="width:100%;padding:10px 12px;border:1px solid var(--border);border-radius:var(--radius-sm);font-size:14px;font-family:inherit">
             <div id="complex-results" style="display:none;position:absolute;top:100%;left:0;right:0;max-height:240px;overflow-y:auto;background:var(--white);border:1px solid var(--border);border-top:none;border-radius:0 0 var(--radius-sm) var(--radius-sm);z-index:999;box-shadow:0 4px 12px rgba(0,0,0,.12)"></div>
+          </div>
+        </div>
+        <div class="field"><label>지번 검색</label>
+          <div style="position:relative">
+            <input type="text" id="sel-jibun" placeholder="읍면동 또는 주소 입력" oninput="searchComplex(this.value)" autocomplete="off" style="width:100%;padding:10px 12px;border:1px solid var(--border);border-radius:var(--radius-sm);font-size:14px;font-family:inherit">
           </div>
         </div>
         <div class="info-notice" id="complex-info" style="display:none"></div>
@@ -2047,7 +2052,7 @@ let selectedApt=null;
 function searchComplex(q){
   const box=ge('complex-results');
   if(!q||q.length<2){box.style.display='none';return;}
-  const results=allAptData.filter(d=>d.name.includes(q)||d.addr.includes(q)||(d.sigungu&&d.sigungu.includes(q))).slice(0,20);
+  const results=allAptData.filter(d=>d.name.includes(q)||d.addr.includes(q)||(d.sigungu&&d.sigungu.includes(q))||(d.emd&&d.emd.includes(q))||(d.sido&&d.sido.includes(q))).slice(0,20);
   if(results.length===0){box.innerHTML='<div style="padding:10px;color:var(--text3);font-size:12px">검색 결과 없음</div>';box.style.display='block';return;}
   box.innerHTML=results.map(d=>'<div onclick="pickComplex(\''+d.code+'\')" style="padding:8px 12px;cursor:pointer;border-bottom:1px solid var(--bg);font-size:13px" onmouseover="this.style.background=\'var(--bg)\'" onmouseout="this.style.background=\'\'"><strong>'+d.name+'</strong> <span style="color:var(--text3);font-size:11px">'+d.units+'세대 · '+(d.sigungu||'')+'</span><br><span style="font-size:11px;color:var(--text3)">'+(d.addr||d.sido+' '+d.sigungu+' '+d.emd)+'</span></div>').join('');
   box.style.display='block';
@@ -2064,7 +2069,7 @@ function pickComplex(code){
   ge('complex-info').innerHTML='<strong>'+d.name+'</strong> · '+(d.addr||d.sido+' '+d.sigungu+' '+d.emd)+'<br>준공: '+(d.built||'-')+' · '+(d.units?d.units+'세대':'-')+' · '+(d.dongCnt||'-');
   // 동+타입+층+호 한 통으로 표시
   ge('sec-dong').style.display='block';
-  ge('dong-btns').innerHTML='<div style="display:grid;grid-template-columns:1fr 1fr;gap:8px">'+
+  ge('dong-btns').innerHTML='<div style="display:flex;flex-direction:column;gap:8px">'+
     '<div class="field"><label>동</label><input type="text" id="input-dong" placeholder="101동" style="width:100%;padding:8px 10px;border:1px solid var(--border);border-radius:var(--radius-sm);font-size:13px;font-family:inherit"></div>'+
     '<div class="field"><label>타입</label><input type="text" id="input-type" placeholder="84A" style="width:100%;padding:8px 10px;border:1px solid var(--border);border-radius:var(--radius-sm);font-size:13px;font-family:inherit"></div>'+
     '<div class="field"><label>층수</label><input type="number" id="input-floor" placeholder="12" min="1" style="width:100%;padding:8px 10px;border:1px solid var(--border);border-radius:var(--radius-sm);font-size:13px;font-family:inherit"></div>'+
