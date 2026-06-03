@@ -793,19 +793,28 @@ function renderSchoolPins(){
     s.lat>=sw.getLat()&&s.lat<=ne.getLat()&&
     s.lng>=sw.getLng()&&s.lng<=ne.getLng()
   );
-  const sz=level<=2?24:level<=3?20:16;
+  const sz=level<=2?28:level<=3?24:20;
   visible.forEach(s=>{
     const clr=SCHOOL_COLOR[s.type]||'#666';
     const label=SCHOOL_LABEL[s.type]||'?';
-    const div=document.createElement('div');
-    div.style.cssText='width:'+sz+'px;height:'+sz+'px;border-radius:50%;background:'+clr+';border:1.5px solid #fff;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:'+(sz-4)+'px;color:#fff;font-weight:700;box-shadow:0 1px 3px rgba(0,0,0,.3)';
-    div.textContent=label;
-    div.title=s.name;
-    div.onclick=function(){
+    const wrap=document.createElement('div');
+    wrap.style.cssText='cursor:pointer;display:flex;flex-direction:column;align-items:center';
+    wrap.title=s.name;
+    const pin=document.createElement('div');
+    pin.style.cssText='width:'+sz+'px;height:'+sz+'px;border-radius:50% 50% 50% 0;background:'+clr+';transform:rotate(-45deg);display:flex;align-items:center;justify-content:center;box-shadow:0 2px 6px rgba(0,0,0,.35);border:2px solid #fff';
+    const txt=document.createElement('span');
+    txt.style.cssText='transform:rotate(45deg);color:#fff;font-size:'+(sz-6)+'px;font-weight:800';
+    txt.textContent=label;
+    pin.appendChild(txt);
+    wrap.appendChild(pin);
+    const tail=document.createElement('div');
+    tail.style.cssText='width:0;height:0;border-left:'+(sz/3)+'px solid transparent;border-right:'+(sz/3)+'px solid transparent;border-top:'+(sz/3)+'px solid '+clr+';margin-top:-2px';
+    wrap.appendChild(tail);
+    wrap.onclick=function(){
       if(map)map.panTo(new kakao.maps.LatLng(s.lat,s.lng));
       alert(s.name+'\n'+s.addr);
     };
-    const o=new kakao.maps.CustomOverlay({position:new kakao.maps.LatLng(s.lat,s.lng),content:div,yAnchor:.5,zIndex:1});
+    const o=new kakao.maps.CustomOverlay({position:new kakao.maps.LatLng(s.lat,s.lng),content:wrap,yAnchor:1,zIndex:1});
     o.setMap(map);
     schoolMarkers.push(o);
   });
