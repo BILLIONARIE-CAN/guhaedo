@@ -15,8 +15,9 @@ body{font-family:'Apple SD Gothic Neo',sans-serif;background:#0f1117;color:#e2e8
 .card-title{font-size:15px;font-weight:700;margin-bottom:18px;color:#fff;display:flex;align-items:center;gap:8px}
 .field{margin-bottom:14px}
 .field label{display:block;font-size:11px;color:#a0aec0;font-weight:600;margin-bottom:5px;text-transform:uppercase;letter-spacing:.5px}
-.input{width:100%;padding:9px 12px;background:#2d3748;border:1px solid #4a5568;border-radius:7px;color:#fff;font-size:13px;outline:none;transition:border .2s}
-.input:focus{border-color:#48bb78}
+.input,.sel{width:100%;padding:9px 12px;background:#2d3748;border:1px solid #4a5568;border-radius:7px;color:#fff;font-size:13px;outline:none;transition:border .2s}
+.input:focus,.sel:focus{border-color:#48bb78}
+.sel{cursor:pointer;-webkit-appearance:none}
 .grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
 .grid3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}
 .btn{padding:9px 18px;border:none;border-radius:7px;font-size:13px;font-weight:600;cursor:pointer;transition:.15s}
@@ -25,7 +26,7 @@ body{font-family:'Apple SD Gothic Neo',sans-serif;background:#0f1117;color:#e2e8
 .btn-red{background:#e53e3e;color:#fff}.btn-red:hover{background:#c53030}
 .btn-gray{background:#4a5568;color:#fff}.btn-gray:hover{background:#2d3748}
 .btn-sm{padding:5px 12px;font-size:11px}
-#map-picker{width:100%;height:300px;border-radius:8px;border:1px solid #4a5568;margin-bottom:10px}
+.map-box{width:100%;height:300px;border-radius:8px;border:1px solid #4a5568;margin-bottom:10px}
 .coord-display{background:#2d3748;border-radius:6px;padding:8px 12px;font-size:12px;color:#a0aec0;display:flex;align-items:center;gap:8px}
 .coord-display span{color:#48bb78;font-weight:600}
 .photo-upload{border:2px dashed #4a5568;border-radius:8px;padding:16px;text-align:center;cursor:pointer;transition:.2s}
@@ -49,6 +50,16 @@ tr:hover td{background:#1a2030}
 .search-wrap{display:flex;align-items:center;gap:10px;margin-bottom:16px}
 .search-input{flex:1;padding:9px 12px;background:#2d3748;border:1px solid #4a5568;border-radius:7px;color:#fff;font-size:13px;outline:none}
 .search-input:focus{border-color:#48bb78}
+.tabs{display:flex;gap:0;border:1px solid #2d3748;border-radius:8px;overflow:hidden;margin-bottom:20px}
+.tab{flex:1;padding:12px;text-align:center;font-size:14px;font-weight:600;cursor:pointer;background:#1a1f2e;color:#718096;transition:.15s;border-right:1px solid #2d3748}
+.tab:last-child{border-right:none}
+.tab.active{background:#48bb78;color:#fff}
+.tab:hover:not(.active){background:#2d3748}
+.area-chip{display:inline-flex;align-items:center;gap:4px;background:#2d3748;border:1px solid #4a5568;border-radius:16px;padding:4px 10px;font-size:11px;color:#e2e8f0;margin:3px}
+.area-chip .x{cursor:pointer;color:#fc8181;font-weight:700;margin-left:2px}
+.banner-preview{width:100%;max-height:80px;object-fit:cover;border-radius:6px;border:1px solid #4a5568}
+.section{display:none}
+.section.active{display:block}
 </style>
 </head>
 <body>
@@ -80,92 +91,164 @@ tr:hover td{background:#1a2030}
   </div>
 
   <div class="container">
-    <!-- 등록/수정 폼 -->
-    <div class="card" id="form-card">
-      <div class="card-title">
-        <span id="form-title-text">➕ 중개사 등록</span>
-        <span id="edit-badge" style="display:none;background:#3182ce;color:#fff;font-size:11px;padding:2px 8px;border-radius:4px;font-weight:600">수정 중</span>
-        <div style="margin-left:auto;display:flex;gap:6px">
-          <button class="btn btn-gray btn-sm" id="cancel-edit-btn" style="display:none" onclick="cancelEdit()">취소</button>
-        </div>
-      </div>
+    <div class="tabs">
+      <div class="tab active" onclick="switchTab('broker')">🏠 중개사</div>
+      <div class="tab" onclick="switchTab('biz')">🏢 업체</div>
+      <div class="tab" onclick="switchTab('banner')">📢 배너</div>
+    </div>
 
-      <div class="field">
-        <label>📍 지도 클릭으로 위치 지정</label>
-        <div id="map-picker"></div>
-        <div class="coord-display">
-          위도 <span id="disp-lat">-</span> / 경도 <span id="disp-lng">-</span>
-          <span style="color:#718096;margin-left:auto;font-size:11px">지도를 클릭해서 위치 지정</span>
-        </div>
-      </div>
-
-      <div class="grid2">
-        <div class="field">
-          <label>사무소명 *</label>
-          <input class="input" id="f-name" placeholder="사무소 이름">
+    <!-- ==================== 중개사 탭 ==================== -->
+    <div class="section active" id="sec-broker">
+      <div class="card" id="broker-form-card">
+        <div class="card-title">
+          <span id="broker-form-title">➕ 중개사 등록</span>
+          <span id="broker-edit-badge" style="display:none" class="badge badge-on">수정 중</span>
+          <div style="margin-left:auto"><button class="btn btn-gray btn-sm" id="broker-cancel-btn" style="display:none" onclick="brokerCancel()">취소</button></div>
         </div>
         <div class="field">
-          <label>연락처</label>
-          <input class="input" id="f-phone" placeholder="010-0000-0000">
+          <label>📍 지도 클릭으로 위치 지정</label>
+          <div class="map-box" id="broker-map"></div>
+          <div class="coord-display">위도 <span id="broker-lat">-</span> / 경도 <span id="broker-lng">-</span></div>
         </div>
-      </div>
-      <div class="field">
-        <label>주소</label>
-        <input class="input" id="f-addr" placeholder="도로명 주소">
-      </div>
-      <div class="grid3">
-        <div class="field">
-          <label>가입 시작일</label>
-          <input class="input" type="date" id="f-start">
+        <div class="grid2">
+          <div class="field"><label>사무소명 *</label><input class="input" id="b-name" placeholder="사무소 이름"></div>
+          <div class="field"><label>연락처</label><input class="input" id="b-phone" placeholder="010-0000-0000"></div>
         </div>
-        <div class="field">
-          <label>만료일 (비워두면 무제한)</label>
-          <input class="input" type="date" id="f-expires">
+        <div class="field"><label>주소</label><input class="input" id="b-addr" placeholder="도로명 주소"></div>
+        <div class="grid3">
+          <div class="field"><label>가입 시작일</label><input class="input" type="date" id="b-start"></div>
+          <div class="field"><label>만료일</label><input class="input" type="date" id="b-expires"></div>
+          <div class="field"><label>메모</label><input class="input" id="b-memo" placeholder="내부 메모"></div>
         </div>
         <div class="field">
-          <label>메모</label>
-          <input class="input" id="f-memo" placeholder="내부 메모">
-        </div>
-      </div>
-
-      <div class="field">
-        <label>프로필 사진</label>
-        <div class="photo-upload" onclick="document.getElementById('f-photo-file').click()">
-          <input type="file" id="f-photo-file" accept="image/*" style="display:none" onchange="previewPhoto(this)">
-          <div id="photo-upload-text">
-            <div style="font-size:22px;margin-bottom:4px">📷</div>
-            <div style="font-size:13px;color:#a0aec0">클릭해서 사진 선택</div>
-            <div style="font-size:11px;color:#718096;margin-top:2px">JPG, PNG (최대 1MB 권장)</div>
+          <label>프로필 사진</label>
+          <div class="photo-upload" onclick="document.getElementById('b-photo-file').click()">
+            <input type="file" id="b-photo-file" accept="image/*" style="display:none" onchange="previewImg(this,'b')">
+            <div id="b-photo-text"><div style="font-size:22px">📷</div><div style="font-size:13px;color:#a0aec0">클릭해서 사진 선택</div></div>
+          </div>
+          <div class="photo-preview-wrap" id="b-photo-wrap" style="display:none">
+            <img id="b-photo-preview" class="photo-circle">
+            <div><div style="font-size:13px;font-weight:600" id="b-photo-name"></div>
+            <button class="btn btn-gray btn-sm" style="margin-top:4px" onclick="clearImg('b')">제거</button></div>
           </div>
         </div>
-        <div class="photo-preview-wrap" id="photo-preview-wrap" style="display:none">
-          <img id="photo-preview" class="photo-circle">
-          <div>
-            <div style="font-size:13px;font-weight:600" id="photo-filename"></div>
-            <button class="btn btn-gray btn-sm" style="margin-top:4px" onclick="clearPhoto()">사진 제거</button>
-          </div>
-        </div>
+        <button class="btn btn-green" id="broker-submit" onclick="brokerSubmit()">✅ 등록하기</button>
       </div>
-
-      <div style="display:flex;gap:8px">
-        <button class="btn btn-green" onclick="submitForm()" id="submit-btn">✅ 등록하기</button>
-        <button class="btn btn-gray" id="cancel-edit-btn2" style="display:none" onclick="cancelEdit()">취소</button>
+      <div class="card">
+        <div class="card-title">👥 등록된 중개사 <span id="broker-count" style="font-size:13px;color:#718096;font-weight:400"></span></div>
+        <div class="search-wrap">
+          <input class="search-input" id="broker-search" placeholder="🔍 검색" oninput="filterList('broker')">
+        </div>
+        <div class="table-wrap" id="broker-list"></div>
       </div>
     </div>
 
-    <!-- 목록 -->
-    <div class="card">
-      <div class="card-title">
-        👥 등록된 중개사 <span id="broker-count" style="font-size:13px;color:#718096;font-weight:400"></span>
+    <!-- ==================== 업체 탭 ==================== -->
+    <div class="section" id="sec-biz">
+      <div class="card" id="biz-form-card">
+        <div class="card-title">
+          <span id="biz-form-title">➕ 업체 등록</span>
+          <span id="biz-edit-badge" style="display:none" class="badge badge-on">수정 중</span>
+          <div style="margin-left:auto"><button class="btn btn-gray btn-sm" id="biz-cancel-btn" style="display:none" onclick="bizCancel()">취소</button></div>
+        </div>
+        <div class="field">
+          <label>📍 지도 클릭으로 위치 지정</label>
+          <div class="map-box" id="biz-map"></div>
+          <div class="coord-display">위도 <span id="biz-lat">-</span> / 경도 <span id="biz-lng">-</span></div>
+        </div>
+        <div class="grid2">
+          <div class="field"><label>업체명 *</label><input class="input" id="z-name" placeholder="업체 이름"></div>
+          <div class="field"><label>업종 *</label>
+            <select class="sel" id="z-category">
+              <option value="">선택</option>
+              <option>법무사</option><option>세무사</option><option>이사업체</option>
+              <option>청소업체</option><option>수리업체</option><option>기타</option>
+            </select>
+          </div>
+        </div>
+        <div class="grid2">
+          <div class="field"><label>연락처</label><input class="input" id="z-phone" placeholder="010-0000-0000"></div>
+          <div class="field"><label>주소</label><input class="input" id="z-addr" placeholder="도로명 주소"></div>
+        </div>
+        <div class="grid3">
+          <div class="field"><label>가입 시작일</label><input class="input" type="date" id="z-start"></div>
+          <div class="field"><label>만료일</label><input class="input" type="date" id="z-expires"></div>
+          <div class="field"><label>메모</label><input class="input" id="z-memo" placeholder="내부 메모"></div>
+        </div>
+        <div class="field">
+          <label>프로필 사진</label>
+          <div class="photo-upload" onclick="document.getElementById('z-photo-file').click()">
+            <input type="file" id="z-photo-file" accept="image/*" style="display:none" onchange="previewImg(this,'z')">
+            <div id="z-photo-text"><div style="font-size:22px">📷</div><div style="font-size:13px;color:#a0aec0">클릭해서 사진 선택</div></div>
+          </div>
+          <div class="photo-preview-wrap" id="z-photo-wrap" style="display:none">
+            <img id="z-photo-preview" class="photo-circle">
+            <div><div style="font-size:13px;font-weight:600" id="z-photo-name"></div>
+            <button class="btn btn-gray btn-sm" style="margin-top:4px" onclick="clearImg('z')">제거</button></div>
+          </div>
+        </div>
+        <button class="btn btn-green" id="biz-submit" onclick="bizSubmit()">✅ 등록하기</button>
       </div>
-      <div class="search-wrap">
-        <input class="search-input" id="search-input" placeholder="🔍 사무소명, 주소, 연락처 검색" oninput="filterBrokers()">
-        <button class="btn btn-gray btn-sm" onclick="document.getElementById('search-input').value='';filterBrokers()">초기화</button>
-      </div>
-      <div class="table-wrap" id="broker-list">
-        <div style="text-align:center;padding:32px;color:#718096">불러오는 중...</div>
+      <div class="card">
+        <div class="card-title">🏢 등록된 업체 <span id="biz-count" style="font-size:13px;color:#718096;font-weight:400"></span></div>
+        <div class="search-wrap">
+          <input class="search-input" id="biz-search" placeholder="🔍 검색" oninput="filterList('biz')">
+        </div>
+        <div class="table-wrap" id="biz-list"></div>
       </div>
     </div>
+
+    <!-- ==================== 배너 탭 ==================== -->
+    <div class="section" id="sec-banner">
+      <div class="card" id="banner-form-card">
+        <div class="card-title">
+          <span id="banner-form-title">➕ 배너 등록</span>
+          <span id="banner-edit-badge" style="display:none" class="badge badge-on">수정 중</span>
+          <div style="margin-left:auto"><button class="btn btn-gray btn-sm" id="banner-cancel-btn" style="display:none" onclick="bannerCancel()">취소</button></div>
+        </div>
+        <div class="grid2">
+          <div class="field"><label>업체명 *</label><input class="input" id="bn-name" placeholder="광고 업체명"></div>
+          <div class="field"><label>업종</label>
+            <select class="sel" id="bn-category">
+              <option value="">선택</option>
+              <option>법무사</option><option>세무사</option><option>이사업체</option>
+              <option>청소업체</option><option>수리업체</option><option>기타</option>
+            </select>
+          </div>
+        </div>
+        <div class="grid2">
+          <div class="field"><label>연락처</label><input class="input" id="bn-phone" placeholder="010-0000-0000"></div>
+          <div class="field"><label>만료일</label><input class="input" type="date" id="bn-expires"></div>
+        </div>
+        <div class="field">
+          <label>배너 이미지 *</label>
+          <div class="photo-upload" onclick="document.getElementById('bn-img-file').click()">
+            <input type="file" id="bn-img-file" accept="image/*" style="display:none" onchange="previewBanner(this)">
+            <div id="bn-img-text"><div style="font-size:22px">🖼️</div><div style="font-size:13px;color:#a0aec0">클릭해서 배너 이미지 선택</div><div style="font-size:11px;color:#718096">가로형 권장 (예: 300×80)</div></div>
+          </div>
+          <div id="bn-img-wrap" style="display:none;margin-top:10px">
+            <img id="bn-img-preview" class="banner-preview">
+            <button class="btn btn-gray btn-sm" style="margin-top:6px" onclick="clearBannerImg()">제거</button>
+          </div>
+        </div>
+        <div class="field">
+          <label>📍 대상 읍면동 (이 지역 아파트 인쇄 시 배너 자동 삽입)</label>
+          <div class="grid3" style="margin-bottom:8px">
+            <select class="sel" id="bn-sido" onchange="bnSidoChange()"><option value="">시도</option></select>
+            <select class="sel" id="bn-sigungu" onchange="bnSigunguChange()"><option value="">시군구</option></select>
+            <select class="sel" id="bn-emd"><option value="">읍면동</option></select>
+          </div>
+          <button class="btn btn-gray btn-sm" onclick="addBannerArea()">+ 지역 추가</button>
+          <div id="bn-areas" style="margin-top:8px;min-height:20px"></div>
+        </div>
+        <button class="btn btn-green" id="banner-submit" onclick="bannerSubmit()">✅ 등록하기</button>
+      </div>
+      <div class="card">
+        <div class="card-title">📢 등록된 배너 <span id="banner-count" style="font-size:13px;color:#718096;font-weight:400"></span></div>
+        <div class="table-wrap" id="banner-list"></div>
+      </div>
+    </div>
+
   </div>
 </div>
 
@@ -173,200 +256,376 @@ tr:hover td{background:#1a2030}
 
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=a7a67059ffadc0b7c6e4318639cdedeb&autoload=false"></script>
 <script>
-const SUPABASE_URL = 'https://nqnbbccazjanjhktknyz.supabase.co';
-const SUPABASE_ANON = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5xbmJiY2Nhemphbmpoa3Rrbnl6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzk0OTA5NDQsImV4cCI6MjA5NTA2Njk0NH0.rT_hIwTJyBnCDGyudmJYvN44G67WgZ9-bSVCzShiRjI';
-const ADMIN_PW = '8888';
-const hdrs = {'Content-Type':'application/json',apikey:SUPABASE_ANON,Authorization:`Bearer ${SUPABASE_ANON}`,Prefer:'return=representation'};
+const SUPABASE_URL='https://nqnbbccazjanjhktknyz.supabase.co';
+const SUPABASE_ANON='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5xbmJiY2Nhemphbmpoa3Rrbnl6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzk0OTA5NDQsImV4cCI6MjA5NTA2Njk0NH0.rT_hIwTJyBnCDGyudmJYvN44G67WgZ9-bSVCzShiRjI';
+const ADMIN_PW='8888';
+const hdrs={'Content-Type':'application/json',apikey:SUPABASE_ANON,Authorization:'Bearer '+SUPABASE_ANON,Prefer:'return=representation'};
 
-let pickedLat=null, pickedLng=null, kakaoMap=null, pickerMarker=null;
-let photoBase64=null, editingId=null, allBrokers=[];
+// ===== 공통 변수 =====
+let allBrokers=[],allBiz=[],allBanners=[];
+let brokerMap=null,bizMap=null;
+let brokerMarker=null,bizMarker=null;
+let brokerLat=null,brokerLng=null,bizLat=null,bizLng=null;
+let brokerPhoto=null,bizPhoto=null,bannerImg=null;
+let brokerEditId=null,bizEditId=null,bannerEditId=null;
+let bannerAreas=[];
+let areaData={sidos:[],sigunguMap:{},emdMap:{}};
 
+// ===== 로그인 =====
 function doLogin(){
   if(document.getElementById('pw').value===ADMIN_PW){
     document.getElementById('login-page').style.display='none';
     document.getElementById('main-page').style.display='block';
-    initMap(); loadBrokers();
-    document.getElementById('f-start').value=new Date().toISOString().split('T')[0];
-  } else { document.getElementById('login-err').textContent='비밀번호가 틀렸습니다.'; }
+    initMaps();loadAll();
+  }else{document.getElementById('login-err').textContent='비밀번호가 틀렸습니다.';}
 }
 function logout(){
   document.getElementById('login-page').style.display='block';
   document.getElementById('main-page').style.display='none';
-  document.getElementById('pw').value='';
 }
 
-function initMap(){
-  kakao.maps.load(()=>{
-    kakaoMap = new kakao.maps.Map(document.getElementById('map-picker'),{
-      center:new kakao.maps.LatLng(36.7782,127.0952), level:7
+// ===== 탭 =====
+function switchTab(name){
+  document.querySelectorAll('.tab').forEach(function(t,i){t.classList.toggle('active',['broker','biz','banner'][i]===name);});
+  document.querySelectorAll('.section').forEach(function(s){s.classList.remove('active');});
+  document.getElementById('sec-'+name).classList.add('active');
+  if(name==='broker'&&brokerMap)brokerMap.relayout();
+  if(name==='biz'&&bizMap)bizMap.relayout();
+}
+
+// ===== 지도 초기화 =====
+function initMaps(){
+  kakao.maps.load(function(){
+    var center=new kakao.maps.LatLng(36.7782,127.0952);
+    brokerMap=new kakao.maps.Map(document.getElementById('broker-map'),{center:center,level:7});
+    kakao.maps.event.addListener(brokerMap,'click',function(e){
+      brokerLat=e.latLng.getLat();brokerLng=e.latLng.getLng();
+      document.getElementById('broker-lat').textContent=brokerLat.toFixed(6);
+      document.getElementById('broker-lng').textContent=brokerLng.toFixed(6);
+      if(brokerMarker)brokerMarker.setMap(null);
+      brokerMarker=new kakao.maps.Marker({position:e.latLng,map:brokerMap});
     });
-    kakao.maps.event.addListener(kakaoMap,'click',e=>{
-      pickedLat=e.latLng.getLat(); pickedLng=e.latLng.getLng();
-      document.getElementById('disp-lat').textContent=pickedLat.toFixed(6);
-      document.getElementById('disp-lng').textContent=pickedLng.toFixed(6);
-      if(pickerMarker) pickerMarker.setMap(null);
-      pickerMarker=new kakao.maps.Marker({position:e.latLng,map:kakaoMap});
+    bizMap=new kakao.maps.Map(document.getElementById('biz-map'),{center:center,level:7});
+    kakao.maps.event.addListener(bizMap,'click',function(e){
+      bizLat=e.latLng.getLat();bizLng=e.latLng.getLng();
+      document.getElementById('biz-lat').textContent=bizLat.toFixed(6);
+      document.getElementById('biz-lng').textContent=bizLng.toFixed(6);
+      if(bizMarker)bizMarker.setMap(null);
+      bizMarker=new kakao.maps.Marker({position:e.latLng,map:bizMap});
     });
   });
 }
 
-function previewPhoto(input){
-  const file=input.files[0]; if(!file) return;
-  const reader=new FileReader();
-  reader.onload=e=>{
-    photoBase64=e.target.result;
-    document.getElementById('photo-preview').src=e.target.result;
-    document.getElementById('photo-filename').textContent=file.name;
-    document.getElementById('photo-upload-text').style.display='none';
-    document.getElementById('photo-preview-wrap').style.display='flex';
-  };
-  reader.readAsDataURL(file);
+// ===== 공통 함수 =====
+function ge(id){return document.getElementById(id);}
+function gv(id){var el=ge(id);return el?el.value.trim():'';}
+function toast(msg,err){var t=ge('toast');t.textContent=msg;t.style.background=err?'#742a2a':'#276749';t.style.color=err?'#feb2b2':'#9ae6b4';t.classList.add('show');setTimeout(function(){t.classList.remove('show');},2500);}
+
+function previewImg(input,prefix){
+  var file=input.files[0];if(!file)return;
+  var r=new FileReader();
+  r.onload=function(e){
+    if(prefix==='b')brokerPhoto=e.target.result;else bizPhoto=e.target.result;
+    ge(prefix+'-photo-preview').src=e.target.result;
+    ge(prefix+'-photo-name').textContent=file.name;
+    ge(prefix+'-photo-text').style.display='none';
+    ge(prefix+'-photo-wrap').style.display='flex';
+  };r.readAsDataURL(file);
 }
-function clearPhoto(){
-  photoBase64=null;
-  document.getElementById('f-photo-file').value='';
-  document.getElementById('photo-upload-text').style.display='block';
-  document.getElementById('photo-preview-wrap').style.display='none';
+function clearImg(prefix){
+  if(prefix==='b')brokerPhoto=null;else bizPhoto=null;
+  ge(prefix+'-photo-file').value='';
+  ge(prefix+'-photo-text').style.display='block';
+  ge(prefix+'-photo-wrap').style.display='none';
+}
+function previewBanner(input){
+  var file=input.files[0];if(!file)return;
+  var r=new FileReader();
+  r.onload=function(e){bannerImg=e.target.result;ge('bn-img-preview').src=e.target.result;ge('bn-img-text').style.display='none';ge('bn-img-wrap').style.display='block';};
+  r.readAsDataURL(file);
+}
+function clearBannerImg(){bannerImg=null;ge('bn-img-file').value='';ge('bn-img-text').style.display='block';ge('bn-img-wrap').style.display='none';}
+
+function statusBadge(d){
+  var today=new Date().toISOString().split('T')[0];
+  var expired=d.expires_at&&d.expires_at<today;
+  return !d.active?'<span class="badge badge-off">비활성</span>':expired?'<span class="badge badge-exp">만료</span>':'<span class="badge badge-on">활성</span>';
+}
+function expLabel(d){
+  var today=new Date().toISOString().split('T')[0];
+  if(!d.expires_at)return '<span style="color:#48bb78;font-size:11px">무제한</span>';
+  var expired=d.expires_at<today;
+  return '<span style="font-size:12px;color:'+(expired?'#fc8181':'#a0aec0')+'">'+d.expires_at+'</span>';
 }
 
-function toast(msg,err=false){
-  const t=document.getElementById('toast');
-  t.textContent=msg; t.style.background=err?'#742a2a':'#276749'; t.style.color=err?'#feb2b2':'#9ae6b4';
-  t.classList.add('show'); setTimeout(()=>t.classList.remove('show'),2500);
+// ===== 데이터 로드 =====
+function loadAll(){
+  ge('b-start').value=new Date().toISOString().split('T')[0];
+  ge('z-start').value=new Date().toISOString().split('T')[0];
+  loadBrokers();loadBiz();loadBanners();loadAreaData();
 }
 
 async function loadBrokers(){
-  const r=await fetch(`${SUPABASE_URL}/rest/v1/brokers?select=*&order=created_at.desc`,{headers:hdrs});
-  allBrokers=await r.json();
-  document.getElementById('broker-count').textContent=`(${allBrokers.length}명)`;
-  renderBrokers(allBrokers);
+  var r=await fetch(SUPABASE_URL+'/rest/v1/brokers?select=*&order=created_at.desc',{headers:hdrs});
+  allBrokers=await r.json();ge('broker-count').textContent='('+allBrokers.length+'명)';renderBrokers(allBrokers);
+}
+async function loadBiz(){
+  try{var r=await fetch(SUPABASE_URL+'/rest/v1/businesses?select=*&order=created_at.desc',{headers:hdrs});allBiz=await r.json();}catch(e){allBiz=[];}
+  ge('biz-count').textContent='('+allBiz.length+'곳)';renderBiz(allBiz);
+}
+async function loadBanners(){
+  try{var r=await fetch(SUPABASE_URL+'/rest/v1/banners?select=*&order=created_at.desc',{headers:hdrs});allBanners=await r.json();}catch(e){allBanners=[];}
+  ge('banner-count').textContent='('+allBanners.length+'개)';renderBanners(allBanners);
+  // localStorage에도 저장 (메인사이트 인쇄용)
+  try{localStorage.setItem('adBannersData',JSON.stringify(allBanners.filter(function(b){return b.active;})));}catch(e){}
+}
+async function loadAreaData(){
+  try{
+    var r1=await fetch('/split_output/coords_sigungu.json');
+    var sgArr=await r1.json();
+    var sidoSet={};
+    sgArr.forEach(function(s){
+      sidoSet[s.sido]=1;
+      if(!areaData.sigunguMap[s.sido])areaData.sigunguMap[s.sido]=[];
+      areaData.sigunguMap[s.sido].push(s.name);
+    });
+    areaData.sidos=Object.keys(sidoSet).sort();
+    var r2=await fetch('/split_output/coords_dong.json');
+    var dongArr=await r2.json();
+    dongArr.forEach(function(d){
+      var key=d.sido+'|'+d.sigungu;
+      if(!areaData.emdMap[key])areaData.emdMap[key]=[];
+      areaData.emdMap[key].push(d.name);
+    });
+    // 시도 셀렉트 채우기
+    var sel=ge('bn-sido');
+    sel.innerHTML='<option value="">시도</option>'+areaData.sidos.map(function(s){return '<option>'+s+'</option>';}).join('');
+  }catch(e){console.log('지역 데이터 로드 실패:',e);}
 }
 
-function filterBrokers(){
-  const q=document.getElementById('search-input').value.trim().toLowerCase();
-  if(!q){ renderBrokers(allBrokers); return; }
-  const filtered=allBrokers.filter(d=>
-    (d.name||'').toLowerCase().includes(q)||
-    (d.addr||'').toLowerCase().includes(q)||
-    (d.phone||'').includes(q)||
-    (d.memo||'').toLowerCase().includes(q)
-  );
-  renderBrokers(filtered);
+// ===== 배너 지역 선택 =====
+function bnSidoChange(){
+  var v=gv('bn-sido');
+  ge('bn-sigungu').innerHTML='<option value="">시군구</option>';
+  ge('bn-emd').innerHTML='<option value="">읍면동</option>';
+  if(!v)return;
+  var list=(areaData.sigunguMap[v]||[]).sort();
+  ge('bn-sigungu').innerHTML='<option value="">시군구</option>'+list.map(function(s){return '<option>'+s+'</option>';}).join('');
+}
+function bnSigunguChange(){
+  var sido=gv('bn-sido'),sg=gv('bn-sigungu');
+  ge('bn-emd').innerHTML='<option value="">읍면동</option>';
+  if(!sg)return;
+  var list=(areaData.emdMap[sido+'|'+sg]||[]).sort();
+  ge('bn-emd').innerHTML='<option value="">읍면동</option>'+list.map(function(s){return '<option>'+s+'</option>';}).join('');
+}
+function addBannerArea(){
+  var sido=gv('bn-sido'),sg=gv('bn-sigungu'),emd=gv('bn-emd');
+  if(!sido||!sg||!emd){toast('시도/시군구/읍면동 모두 선택하세요',true);return;}
+  var key=sido+' '+sg+' '+emd;
+  if(bannerAreas.find(function(a){return a.key===key;}))return;
+  bannerAreas.push({sido:sido,sigungu:sg,emd:emd,key:key});
+  renderBannerAreas();
+}
+function removeBannerArea(i){bannerAreas.splice(i,1);renderBannerAreas();}
+function renderBannerAreas(){
+  ge('bn-areas').innerHTML=bannerAreas.map(function(a,i){
+    return '<span class="area-chip">'+a.key+' <span class="x" onclick="removeBannerArea('+i+')">✕</span></span>';
+  }).join('')||'<span style="font-size:11px;color:#718096">지역을 추가하세요</span>';
 }
 
+// ===== 검색 =====
+function filterList(type){
+  var q=ge(type+'-search').value.trim().toLowerCase();
+  if(type==='broker'){renderBrokers(q?allBrokers.filter(function(d){return (d.name||'').toLowerCase().includes(q)||(d.addr||'').toLowerCase().includes(q)||(d.phone||'').includes(q);}):allBrokers);}
+  else{renderBiz(q?allBiz.filter(function(d){return (d.name||'').toLowerCase().includes(q)||(d.category||'').includes(q)||(d.phone||'').includes(q);}):allBiz);}
+}
+
+// ===== 중개사 렌더/CRUD =====
 function renderBrokers(data){
-  const el=document.getElementById('broker-list');
-  if(!data.length){ el.innerHTML='<div style="text-align:center;padding:32px;color:#718096">검색 결과가 없습니다</div>'; return; }
-  const today=new Date().toISOString().split('T')[0];
-  el.innerHTML=`<table>
-    <tr><th>사진</th><th>사무소명</th><th>연락처</th><th>주소</th><th>만료일</th><th>상태</th><th>관리</th></tr>
-    ${data.map(d=>{
-      const expired=d.expires_at&&d.expires_at<today;
-      const status=!d.active?'<span class="badge badge-off">비활성</span>':expired?'<span class="badge badge-exp">만료</span>':'<span class="badge badge-on">활성</span>';
-      const exp=!d.expires_at?'<span style="color:#48bb78;font-size:11px">무제한</span>':`<span style="font-size:12px;color:${expired?'#fc8181':'#a0aec0'}">${d.expires_at}</span>`;
-      const av=d.photo?`<img class="avatar" src="${d.photo}">`:'<div class="avatar-ph">🏠</div>';
-      return `<tr>
-        <td>${av}</td>
-        <td style="font-weight:600">${d.name}${d.memo?`<div style="font-size:11px;color:#718096;margin-top:2px">${d.memo}</div>`:''}</td>
-        <td style="color:#a0aec0">${d.phone||'-'}</td>
-        <td style="color:#a0aec0;font-size:12px;max-width:160px">${d.addr||'-'}</td>
-        <td>${exp}</td>
-        <td>${status}</td>
-        <td><div style="display:flex;gap:5px;flex-wrap:wrap">
-          <button class="btn btn-blue btn-sm" onclick="startEdit('${d.id}')">수정</button>
-          <button class="btn btn-gray btn-sm" onclick="toggleActive('${d.id}',${d.active})">${d.active?'비활성':'활성'}</button>
-          <button class="btn btn-red btn-sm" onclick="deleteBroker('${d.id}','${d.name}')">삭제</button>
-        </div></td>
-      </tr>`;
-    }).join('')}
-  </table>`;
+  var el=ge('broker-list');
+  if(!data.length){el.innerHTML='<div style="text-align:center;padding:32px;color:#718096">등록된 중개사가 없습니다</div>';return;}
+  el.innerHTML='<table><tr><th>사진</th><th>사무소명</th><th>연락처</th><th>주소</th><th>만료일</th><th>상태</th><th>관리</th></tr>'+
+    data.map(function(d){
+      var av=d.photo?'<img class="avatar" src="'+d.photo+'">':'<div class="avatar-ph">🏠</div>';
+      return '<tr><td>'+av+'</td><td style="font-weight:600">'+d.name+(d.memo?'<div style="font-size:11px;color:#718096">'+d.memo+'</div>':'')+'</td><td style="color:#a0aec0">'+(d.phone||'-')+'</td><td style="color:#a0aec0;font-size:12px;max-width:160px">'+(d.addr||'-')+'</td><td>'+expLabel(d)+'</td><td>'+statusBadge(d)+'</td><td><div style="display:flex;gap:5px;flex-wrap:wrap"><button class="btn btn-blue btn-sm" onclick="brokerEdit(\''+d.id+'\')">수정</button><button class="btn btn-gray btn-sm" onclick="brokerToggle(\''+d.id+'\','+d.active+')">'+(d.active?'비활성':'활성')+'</button><button class="btn btn-red btn-sm" onclick="brokerDelete(\''+d.id+'\',\''+d.name+'\')">삭제</button></div></td></tr>';
+    }).join('')+'</table>';
 }
-
-// ===== 수정: 폼 위로 올라가서 수정모드 =====
-function startEdit(id){
-  const d=allBrokers.find(b=>b.id===id); if(!d) return;
-  editingId=id;
-  // 폼으로 스크롤
-  document.getElementById('form-card').scrollIntoView({behavior:'smooth',block:'start'});
-  // 수정모드 UI
-  document.getElementById('form-title-text').textContent='✏️ 중개사 수정';
-  document.getElementById('edit-badge').style.display='inline-block';
-  document.getElementById('submit-btn').textContent='💾 저장하기';
-  document.getElementById('submit-btn').className='btn btn-blue';
-  document.getElementById('cancel-edit-btn').style.display='inline-block';
-  document.getElementById('cancel-edit-btn2').style.display='inline-block';
-  document.getElementById('form-card').classList.add('edit-mode');
-  // 값 채우기
-  document.getElementById('f-name').value=d.name||'';
-  document.getElementById('f-phone').value=d.phone||'';
-  document.getElementById('f-addr').value=d.addr||'';
-  document.getElementById('f-expires').value=d.expires_at||'';
-  document.getElementById('f-memo').value=d.memo||'';
-  // 지도 마커
-  if(d.lat&&d.lng&&kakaoMap){
-    const pos=new kakao.maps.LatLng(d.lat,d.lng);
-    kakaoMap.setCenter(pos); kakaoMap.setLevel(5);
-    if(pickerMarker) pickerMarker.setMap(null);
-    pickerMarker=new kakao.maps.Marker({position:pos,map:kakaoMap});
-    pickedLat=d.lat; pickedLng=d.lng;
-    document.getElementById('disp-lat').textContent=d.lat.toFixed(6);
-    document.getElementById('disp-lng').textContent=d.lng.toFixed(6);
+function brokerCancel(){
+  brokerEditId=null;brokerPhoto=null;clearImg('b');
+  ge('broker-form-title').textContent='➕ 중개사 등록';
+  ge('broker-edit-badge').style.display='none';
+  ge('broker-submit').textContent='✅ 등록하기';ge('broker-submit').className='btn btn-green';
+  ge('broker-cancel-btn').style.display='none';
+  ge('broker-form-card').classList.remove('edit-mode');
+  ['b-name','b-phone','b-addr','b-expires','b-memo'].forEach(function(id){ge(id).value='';});
+  if(brokerMarker){brokerMarker.setMap(null);brokerMarker=null;}
+  brokerLat=null;brokerLng=null;ge('broker-lat').textContent='-';ge('broker-lng').textContent='-';
+}
+function brokerEdit(id){
+  var d=allBrokers.find(function(b){return b.id===id;});if(!d)return;
+  brokerEditId=id;
+  ge('broker-form-card').scrollIntoView({behavior:'smooth'});
+  ge('broker-form-title').textContent='✏️ 중개사 수정';
+  ge('broker-edit-badge').style.display='inline-block';
+  ge('broker-submit').textContent='💾 저장하기';ge('broker-submit').className='btn btn-blue';
+  ge('broker-cancel-btn').style.display='inline-block';
+  ge('broker-form-card').classList.add('edit-mode');
+  ge('b-name').value=d.name||'';ge('b-phone').value=d.phone||'';ge('b-addr').value=d.addr||'';
+  ge('b-expires').value=d.expires_at||'';ge('b-memo').value=d.memo||'';
+  if(d.lat&&d.lng&&brokerMap){
+    var pos=new kakao.maps.LatLng(d.lat,d.lng);brokerMap.setCenter(pos);brokerMap.setLevel(5);
+    if(brokerMarker)brokerMarker.setMap(null);
+    brokerMarker=new kakao.maps.Marker({position:pos,map:brokerMap});
+    brokerLat=d.lat;brokerLng=d.lng;ge('broker-lat').textContent=d.lat.toFixed(6);ge('broker-lng').textContent=d.lng.toFixed(6);
   }
-  // 사진
-  if(d.photo){
-    photoBase64=d.photo;
-    document.getElementById('photo-preview').src=d.photo;
-    document.getElementById('photo-filename').textContent='기존 사진';
-    document.getElementById('photo-upload-text').style.display='none';
-    document.getElementById('photo-preview-wrap').style.display='flex';
-  } else { clearPhoto(); }
+  if(d.photo){brokerPhoto=d.photo;ge('b-photo-preview').src=d.photo;ge('b-photo-name').textContent='기존 사진';ge('b-photo-text').style.display='none';ge('b-photo-wrap').style.display='flex';}else{clearImg('b');}
 }
-
-function cancelEdit(){
-  editingId=null; photoBase64=null;
-  document.getElementById('form-title-text').textContent='➕ 중개사 등록';
-  document.getElementById('edit-badge').style.display='none';
-  document.getElementById('submit-btn').textContent='✅ 등록하기';
-  document.getElementById('submit-btn').className='btn btn-green';
-  document.getElementById('cancel-edit-btn').style.display='none';
-  document.getElementById('cancel-edit-btn2').style.display='none';
-  document.getElementById('form-card').classList.remove('edit-mode');
-  ['f-name','f-phone','f-addr','f-expires','f-memo'].forEach(id=>document.getElementById(id).value='');
-  clearPhoto();
-  if(pickerMarker){pickerMarker.setMap(null);pickerMarker=null;}
-  pickedLat=null; pickedLng=null;
-  document.getElementById('disp-lat').textContent='-';
-  document.getElementById('disp-lng').textContent='-';
-}
-
-async function submitForm(){
-  const name=document.getElementById('f-name').value.trim();
-  if(!name){toast('사무소명을 입력하세요',true);return;}
-  if(!pickedLat){toast('지도에서 위치를 선택하세요',true);return;}
-  const body={name,phone:document.getElementById('f-phone').value.trim(),addr:document.getElementById('f-addr').value.trim(),lat:pickedLat,lng:pickedLng,photo:photoBase64||null,expires_at:document.getElementById('f-expires').value||null,memo:document.getElementById('f-memo').value.trim(),active:true};
-
-  if(editingId){
-    // 수정
-    const r=await fetch(`${SUPABASE_URL}/rest/v1/brokers?id=eq.${editingId}`,{method:'PATCH',headers:hdrs,body:JSON.stringify(body)});
-    if(r.ok){toast('✅ 수정 완료!');cancelEdit();loadBrokers();}
-    else toast('수정 실패',true);
-  } else {
-    // 신규
-    const r=await fetch(`${SUPABASE_URL}/rest/v1/brokers`,{method:'POST',headers:hdrs,body:JSON.stringify(body)});
-    if(r.ok){toast('✅ 등록 완료!');cancelEdit();loadBrokers();}
-    else toast('등록 실패',true);
+async function brokerSubmit(){
+  var name=gv('b-name');if(!name){toast('사무소명을 입력하세요',true);return;}
+  if(!brokerLat){toast('지도에서 위치를 선택하세요',true);return;}
+  var body={name:name,phone:gv('b-phone'),addr:gv('b-addr'),lat:brokerLat,lng:brokerLng,photo:brokerPhoto||null,expires_at:gv('b-expires')||null,memo:gv('b-memo'),active:true};
+  if(brokerEditId){
+    var r=await fetch(SUPABASE_URL+'/rest/v1/brokers?id=eq.'+brokerEditId,{method:'PATCH',headers:hdrs,body:JSON.stringify(body)});
+    if(r.ok){toast('수정 완료!');brokerCancel();loadBrokers();}else toast('실패',true);
+  }else{
+    var r=await fetch(SUPABASE_URL+'/rest/v1/brokers',{method:'POST',headers:hdrs,body:JSON.stringify(body)});
+    if(r.ok){toast('등록 완료!');brokerCancel();loadBrokers();}else toast('실패',true);
   }
 }
-
-async function toggleActive(id,current){
-  await fetch(`${SUPABASE_URL}/rest/v1/brokers?id=eq.${id}`,{method:'PATCH',headers:hdrs,body:JSON.stringify({active:!current})});
-  toast(current?'비활성화했어요':'활성화했어요'); loadBrokers();
+async function brokerToggle(id,cur){
+  await fetch(SUPABASE_URL+'/rest/v1/brokers?id=eq.'+id,{method:'PATCH',headers:hdrs,body:JSON.stringify({active:!cur})});
+  toast(cur?'비활성화':'활성화');loadBrokers();
+}
+async function brokerDelete(id,name){
+  if(!confirm('"'+name+'" 삭제할까요?'))return;
+  await fetch(SUPABASE_URL+'/rest/v1/brokers?id=eq.'+id,{method:'DELETE',headers:hdrs});
+  toast('삭제 완료');loadBrokers();
 }
 
-async function deleteBroker(id,name){
-  if(!confirm(`"${name}" 삭제할까요?`)) return;
-  await fetch(`${SUPABASE_URL}/rest/v1/brokers?id=eq.${id}`,{method:'DELETE',headers:hdrs});
-  toast('삭제했어요'); loadBrokers();
+// ===== 업체 렌더/CRUD =====
+function renderBiz(data){
+  var el=ge('biz-list');
+  if(!data.length){el.innerHTML='<div style="text-align:center;padding:32px;color:#718096">등록된 업체가 없습니다</div>';return;}
+  el.innerHTML='<table><tr><th>사진</th><th>업체명</th><th>업종</th><th>연락처</th><th>만료일</th><th>상태</th><th>관리</th></tr>'+
+    data.map(function(d){
+      var av=d.photo?'<img class="avatar" src="'+d.photo+'">':'<div class="avatar-ph">🏢</div>';
+      return '<tr><td>'+av+'</td><td style="font-weight:600">'+d.name+'</td><td>'+(d.category||'-')+'</td><td style="color:#a0aec0">'+(d.phone||'-')+'</td><td>'+expLabel(d)+'</td><td>'+statusBadge(d)+'</td><td><div style="display:flex;gap:5px;flex-wrap:wrap"><button class="btn btn-blue btn-sm" onclick="bizEdit(\''+d.id+'\')">수정</button><button class="btn btn-gray btn-sm" onclick="bizToggle(\''+d.id+'\','+d.active+')">'+(d.active?'비활성':'활성')+'</button><button class="btn btn-red btn-sm" onclick="bizDelete(\''+d.id+'\',\''+d.name+'\')">삭제</button></div></td></tr>';
+    }).join('')+'</table>';
+}
+function bizCancel(){
+  bizEditId=null;bizPhoto=null;clearImg('z');
+  ge('biz-form-title').textContent='➕ 업체 등록';
+  ge('biz-edit-badge').style.display='none';
+  ge('biz-submit').textContent='✅ 등록하기';ge('biz-submit').className='btn btn-green';
+  ge('biz-cancel-btn').style.display='none';
+  ge('biz-form-card').classList.remove('edit-mode');
+  ['z-name','z-phone','z-addr','z-expires','z-memo'].forEach(function(id){ge(id).value='';});
+  ge('z-category').selectedIndex=0;
+  if(bizMarker){bizMarker.setMap(null);bizMarker=null;}
+  bizLat=null;bizLng=null;ge('biz-lat').textContent='-';ge('biz-lng').textContent='-';
+}
+function bizEdit(id){
+  var d=allBiz.find(function(b){return b.id===id;});if(!d)return;
+  bizEditId=id;
+  ge('biz-form-card').scrollIntoView({behavior:'smooth'});
+  ge('biz-form-title').textContent='✏️ 업체 수정';
+  ge('biz-edit-badge').style.display='inline-block';
+  ge('biz-submit').textContent='💾 저장하기';ge('biz-submit').className='btn btn-blue';
+  ge('biz-cancel-btn').style.display='inline-block';
+  ge('biz-form-card').classList.add('edit-mode');
+  ge('z-name').value=d.name||'';ge('z-phone').value=d.phone||'';ge('z-addr').value=d.addr||'';
+  ge('z-expires').value=d.expires_at||'';ge('z-memo').value=d.memo||'';ge('z-category').value=d.category||'';
+  if(d.lat&&d.lng&&bizMap){
+    var pos=new kakao.maps.LatLng(d.lat,d.lng);bizMap.setCenter(pos);bizMap.setLevel(5);
+    if(bizMarker)bizMarker.setMap(null);
+    bizMarker=new kakao.maps.Marker({position:pos,map:bizMap});
+    bizLat=d.lat;bizLng=d.lng;ge('biz-lat').textContent=d.lat.toFixed(6);ge('biz-lng').textContent=d.lng.toFixed(6);
+  }
+  if(d.photo){bizPhoto=d.photo;ge('z-photo-preview').src=d.photo;ge('z-photo-name').textContent='기존 사진';ge('z-photo-text').style.display='none';ge('z-photo-wrap').style.display='flex';}else{clearImg('z');}
+}
+async function bizSubmit(){
+  var name=gv('z-name'),cat=gv('z-category');
+  if(!name){toast('업체명을 입력하세요',true);return;}
+  if(!cat){toast('업종을 선택하세요',true);return;}
+  if(!bizLat){toast('지도에서 위치를 선택하세요',true);return;}
+  var body={name:name,category:cat,phone:gv('z-phone'),addr:gv('z-addr'),lat:bizLat,lng:bizLng,photo:bizPhoto||null,expires_at:gv('z-expires')||null,memo:gv('z-memo'),active:true};
+  if(bizEditId){
+    var r=await fetch(SUPABASE_URL+'/rest/v1/businesses?id=eq.'+bizEditId,{method:'PATCH',headers:hdrs,body:JSON.stringify(body)});
+    if(r.ok){toast('수정 완료!');bizCancel();loadBiz();}else toast('실패',true);
+  }else{
+    var r=await fetch(SUPABASE_URL+'/rest/v1/businesses',{method:'POST',headers:hdrs,body:JSON.stringify(body)});
+    if(r.ok){toast('등록 완료!');bizCancel();loadBiz();}else toast('실패',true);
+  }
+}
+async function bizToggle(id,cur){
+  await fetch(SUPABASE_URL+'/rest/v1/businesses?id=eq.'+id,{method:'PATCH',headers:hdrs,body:JSON.stringify({active:!cur})});
+  toast(cur?'비활성화':'활성화');loadBiz();
+}
+async function bizDelete(id,name){
+  if(!confirm('"'+name+'" 삭제할까요?'))return;
+  await fetch(SUPABASE_URL+'/rest/v1/businesses?id=eq.'+id,{method:'DELETE',headers:hdrs});
+  toast('삭제 완료');loadBiz();
+}
+
+// ===== 배너 렌더/CRUD =====
+function renderBanners(data){
+  var el=ge('banner-list');
+  if(!data.length){el.innerHTML='<div style="text-align:center;padding:32px;color:#718096">등록된 배너가 없습니다</div>';return;}
+  el.innerHTML='<table><tr><th>배너</th><th>업체명</th><th>업종</th><th>대상 지역</th><th>만료일</th><th>상태</th><th>관리</th></tr>'+
+    data.map(function(d){
+      var img=d.image?'<img src="'+d.image+'" style="width:120px;height:40px;object-fit:cover;border-radius:4px;border:1px solid #4a5568">':'<span style="color:#718096">없음</span>';
+      var areas=(d.areas||[]).map(function(a){return '<span class="area-chip" style="margin:1px">'+a.sido+' '+a.sigungu+' '+a.emd+'</span>';}).join('')||'-';
+      return '<tr><td>'+img+'</td><td style="font-weight:600">'+d.business_name+'</td><td>'+(d.category||'-')+'</td><td style="max-width:200px">'+areas+'</td><td>'+expLabel(d)+'</td><td>'+statusBadge(d)+'</td><td><div style="display:flex;gap:5px;flex-wrap:wrap"><button class="btn btn-blue btn-sm" onclick="bannerEdit(\''+d.id+'\')">수정</button><button class="btn btn-gray btn-sm" onclick="bannerToggle(\''+d.id+'\','+d.active+')">'+(d.active?'비활성':'활성')+'</button><button class="btn btn-red btn-sm" onclick="bannerDelete(\''+d.id+'\',\''+d.business_name+'\')">삭제</button></div></td></tr>';
+    }).join('')+'</table>';
+}
+function bannerCancel(){
+  bannerEditId=null;bannerImg=null;bannerAreas=[];clearBannerImg();renderBannerAreas();
+  ge('banner-form-title').textContent='➕ 배너 등록';
+  ge('banner-edit-badge').style.display='none';
+  ge('banner-submit').textContent='✅ 등록하기';ge('banner-submit').className='btn btn-green';
+  ge('banner-cancel-btn').style.display='none';
+  ge('banner-form-card').classList.remove('edit-mode');
+  ['bn-name','bn-phone','bn-expires'].forEach(function(id){ge(id).value='';});
+  ge('bn-category').selectedIndex=0;
+}
+function bannerEdit(id){
+  var d=allBanners.find(function(b){return b.id===id;});if(!d)return;
+  bannerEditId=id;
+  ge('banner-form-card').scrollIntoView({behavior:'smooth'});
+  ge('banner-form-title').textContent='✏️ 배너 수정';
+  ge('banner-edit-badge').style.display='inline-block';
+  ge('banner-submit').textContent='💾 저장하기';ge('banner-submit').className='btn btn-blue';
+  ge('banner-cancel-btn').style.display='inline-block';
+  ge('banner-form-card').classList.add('edit-mode');
+  ge('bn-name').value=d.business_name||'';ge('bn-phone').value=d.phone||'';
+  ge('bn-expires').value=d.expires_at||'';ge('bn-category').value=d.category||'';
+  if(d.image){bannerImg=d.image;ge('bn-img-preview').src=d.image;ge('bn-img-text').style.display='none';ge('bn-img-wrap').style.display='block';}
+  bannerAreas=(d.areas||[]).map(function(a){return {sido:a.sido,sigungu:a.sigungu,emd:a.emd,key:a.sido+' '+a.sigungu+' '+a.emd};});
+  renderBannerAreas();
+}
+async function bannerSubmit(){
+  var name=gv('bn-name');if(!name){toast('업체명을 입력하세요',true);return;}
+  if(!bannerImg){toast('배너 이미지를 선택하세요',true);return;}
+  if(!bannerAreas.length){toast('대상 지역을 1개 이상 추가하세요',true);return;}
+  var areas=bannerAreas.map(function(a){return {sido:a.sido,sigungu:a.sigungu,emd:a.emd};});
+  var body={business_name:name,category:gv('bn-category'),phone:gv('bn-phone'),image:bannerImg,areas:areas,expires_at:gv('bn-expires')||null,active:true};
+  if(bannerEditId){
+    var r=await fetch(SUPABASE_URL+'/rest/v1/banners?id=eq.'+bannerEditId,{method:'PATCH',headers:hdrs,body:JSON.stringify(body)});
+    if(r.ok){toast('수정 완료!');bannerCancel();loadBanners();}else toast('실패',true);
+  }else{
+    var r=await fetch(SUPABASE_URL+'/rest/v1/banners',{method:'POST',headers:hdrs,body:JSON.stringify(body)});
+    if(r.ok){toast('등록 완료!');bannerCancel();loadBanners();}else toast('실패',true);
+  }
+}
+async function bannerToggle(id,cur){
+  await fetch(SUPABASE_URL+'/rest/v1/banners?id=eq.'+id,{method:'PATCH',headers:hdrs,body:JSON.stringify({active:!cur})});
+  toast(cur?'비활성화':'활성화');loadBanners();
+}
+async function bannerDelete(id,name){
+  if(!confirm('"'+name+'" 배너 삭제할까요?'))return;
+  await fetch(SUPABASE_URL+'/rest/v1/banners?id=eq.'+id,{method:'DELETE',headers:hdrs});
+  toast('삭제 완료');loadBanners();
 }
 </script>
 </body>
