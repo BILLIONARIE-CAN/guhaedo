@@ -315,6 +315,18 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
       <button class="island-btn" id="school-toggle" onclick="toggleSchools()" title="학군" style="margin-top:8px;font-size:11px;font-weight:700">
         🏫
       </button>
+      <button class="island-btn" id="biz-toggle" onclick="toggleBizPanel()" title="업체" style="margin-top:4px;font-size:11px;font-weight:700">
+        🏢
+      </button>
+      <div id="biz-panel" style="display:none;position:absolute;left:48px;top:80px;background:#fff;border-radius:8px;box-shadow:0 2px 12px rgba(0,0,0,.15);padding:10px;z-index:90;min-width:120px">
+        <div style="font-size:11px;font-weight:700;color:#333;margin-bottom:6px">업체 표시</div>
+        <label style="display:flex;align-items:center;gap:6px;font-size:12px;color:#333;cursor:pointer;padding:3px 0"><input type="checkbox" onchange="toggleBizCat('법무사',this.checked)"> 법무사</label>
+        <label style="display:flex;align-items:center;gap:6px;font-size:12px;color:#333;cursor:pointer;padding:3px 0"><input type="checkbox" onchange="toggleBizCat('세무사',this.checked)"> 세무사</label>
+        <label style="display:flex;align-items:center;gap:6px;font-size:12px;color:#333;cursor:pointer;padding:3px 0"><input type="checkbox" onchange="toggleBizCat('이사업체',this.checked)"> 이사업체</label>
+        <label style="display:flex;align-items:center;gap:6px;font-size:12px;color:#333;cursor:pointer;padding:3px 0"><input type="checkbox" onchange="toggleBizCat('청소업체',this.checked)"> 청소업체</label>
+        <label style="display:flex;align-items:center;gap:6px;font-size:12px;color:#333;cursor:pointer;padding:3px 0"><input type="checkbox" onchange="toggleBizCat('수리업체',this.checked)"> 수리업체</label>
+        <label style="display:flex;align-items:center;gap:6px;font-size:12px;color:#333;cursor:pointer;padding:3px 0"><input type="checkbox" onchange="toggleBizCat('기타',this.checked)"> 기타</label>
+      </div>
     </div>
 
     <!-- 지역 탐색 사이드바 -->
@@ -827,6 +839,87 @@ function renderSchoolPins(){
   });
 }
 
+// ===== 업체 핀 =====
+const BIZ_COLORS={'법무사':'#c2410c','세무사':'#7c3aed','이사업체':'#92400e','청소업체':'#0d9488','수리업체':'#dc2626','기타':'#6b7280'};
+const BIZ_ICONS={'법무사':'⚖️','세무사':'📊','이사업체':'🚚','청소업체':'🧹','수리업체':'🔧','기타':'🏢'};
+let bizData=[];
+let bizMarkers=[];
+let bizVisibleCats={};
+let bizPanelOpen=false;
+let allBannersCache=[];
+
+async function loadBusinesses(){
+  try{
+    var r=await fetch(SUPABASE_URL+'/rest/v1/businesses?select=*&active=eq.true',{headers:{apikey:SUPABASE_ANON,Authorization:'Bearer '+SUPABASE_ANON}});
+    bizData=await r.json();
+    if(!Array.isArray(bizData))bizData=[];
+  }catch(e){bizData=[];console.log('업체 로드 실패:',e);}
+}
+
+async function loadBannersCache(){
+  try{
+    var r=await fetch(SUPABASE_URL+'/rest/v1/banners?select=*&active=eq.true',{headers:{apikey:SUPABASE_ANON,Authorization:'Bearer '+SUPABASE_ANON}});
+    allBannersCache=await r.json();
+    if(!Array.isArray(allBannersCache))allBannersCache=[];
+  }catch(e){allBannersCache=[];console.log('배너 로드 실패:',e);}
+}
+
+function toggleBizPanel(){
+  bizPanelOpen=!bizPanelOpen;
+  var p=ge('biz-panel');if(p)p.style.display=bizPanelOpen?'block':'none';
+  var btn=ge('biz-toggle');if(btn)btn.classList.toggle('active',bizPanelOpen);
+}
+
+function toggleBizCat(cat,on){
+  if(on)bizVisibleCats[cat]=true;else delete bizVisibleCats[cat];
+  renderBizPins();
+}
+
+function renderBizPins(){
+  bizMarkers.forEach(function(m){m.setMap(null);});
+  bizMarkers=[];
+  if(!map)return;
+  var cats=Object.keys(bizVisibleCats);
+  if(!cats.length)return;
+  var level=map.getLevel();
+  if(level>5)return;
+  var bounds=map.getBounds();
+  var sw=bounds.getSouthWest(),ne=bounds.getNorthEast();
+  var visible=bizData.filter(function(b){
+    return bizVisibleCats[b.category]&&b.lat>=sw.getLat()&&b.lat<=ne.getLat()&&b.lng>=sw.getLng()&&b.lng<=ne.getLng();
+  });
+  var sz=level<=2?36:level<=3?30:24;
+  visible.forEach(function(b){
+    var clr=BIZ_COLORS[b.category]||'#6b7280';
+    var icon=BIZ_ICONS[b.category]||'🏢';
+    var wrap=document.createElement('div');
+    wrap.style.cssText='cursor:pointer;display:flex;flex-direction:column;align-items:center';
+    wrap.title=b.name+' ('+b.category+')';
+    var pin=document.createElement('div');
+    pin.style.cssText='width:'+sz+'px;height:'+sz+'px;border-radius:50%;background:'+clr+';display:flex;align-items:center;justify-content:center;box-shadow:0 2px 8px rgba(0,0,0,.3);border:2px solid #fff;font-size:'+(sz-8)+'px';
+    pin.textContent=icon;
+    wrap.appendChild(pin);
+    if(level<=3){
+      var lbl=document.createElement('div');
+      lbl.style.cssText='background:rgba(0,0,0,.7);color:#fff;font-size:9px;padding:1px 5px;border-radius:8px;margin-top:2px;white-space:nowrap;font-weight:600';
+      lbl.textContent=b.name;
+      wrap.appendChild(lbl);
+    }
+    wrap.onclick=function(){if(map)map.panTo(new kakao.maps.LatLng(b.lat,b.lng));alert(b.name+'\n'+b.category+'\n'+(b.phone||'')+'\n'+(b.addr||''));};
+    var o=new kakao.maps.CustomOverlay({position:new kakao.maps.LatLng(b.lat,b.lng),content:wrap,yAnchor:1,zIndex:2});
+    o.setMap(map);
+    bizMarkers.push(o);
+  });
+}
+
+// 읍면동 매칭 배너 가져오기
+function getMatchedBanners(sido,sigungu,emd){
+  return allBannersCache.filter(function(b){
+    if(!b.areas||!b.areas.length)return false;
+    return b.areas.some(function(a){return a.sido===sido&&a.sigungu===sigungu&&a.emd===emd;});
+  }).slice(0,6);
+}
+
 
 // 공공데이터 API
 const API_KEY='8dfbbd6dc2fff98040507b95b9688bc24cbdfb35e253494d734a697d4658f1cf';
@@ -981,6 +1074,8 @@ async function loadAllApts(){
     loadDongData();
     loadBrokers();
     loadSchools();
+    loadBusinesses();
+    loadBannersCache();
   }catch(e){
     console.log('sido 로드 실패:', e);
     showMapLoading(false);
@@ -1127,6 +1222,7 @@ function updateMarkersForZoom(){
     });
   }
   if(schoolVisible)renderSchoolPins();
+  renderBizPins();
 }
 
 // 현재 지도 범위의 시군구 단지 파일 로드
@@ -2149,8 +2245,7 @@ function pickFavComplex(code,name,sigungu){
 
 const DB={};
 let lstCur={complex:null,dong:null,type:null},photos=[];
-// 관리자 설정 광고배너 (admin 페이지에서 관리, localStorage 저장)
-function getAdBanners(){try{return JSON.parse(localStorage.getItem('adBanners')||'[]');}catch(e){return [];}}
+// 배너는 Supabase에서 로드하여 getMatchedBanners()로 매칭
 function onComplexChange(){}
 function selectDong(){}
 function selectType(){}
@@ -2172,7 +2267,7 @@ function onFavSidoChange(){var v=ge('fav-sido').value;ge('fav-sigungu').innerHTM
 function onFavSigunguChange(){var sido=ge('fav-sido').value,sg=ge('fav-sigungu').value;ge('fav-emd').innerHTML='<option value="">읍면동</option>';ge('fav-loc-list').style.display='none';if(!sg)return;var list=[...new Set(allAptData.filter(function(d){return d.sido===sido&&d.sigungu===sg;}).map(function(d){return d.emd;}))].filter(Boolean).sort();ge('fav-emd').innerHTML='<option value="">읍면동</option>'+list.map(function(s){return '<option value="'+s+'">'+s+'</option>';}).join('');}
 function onFavEmdChange(){var sido=ge('fav-sido').value,sg=ge('fav-sigungu').value,emd=ge('fav-emd').value;var box=ge('fav-loc-list');if(!emd){box.style.display='none';return;}var apts=allAptData.filter(function(d){return d.sido===sido&&d.sigungu===sg&&d.emd===emd;}).sort(function(a,b){return a.name.localeCompare(b.name);});box.style.display='block';box.innerHTML=apts.map(function(d){return '<div onclick="pickFavFromLoc(\''+d.code+'\',\''+d.name.replace(/'/g,'')+'\')" style="padding:6px 10px;cursor:pointer;font-size:12px;border-bottom:1px solid var(--bg)" onmouseover="this.style.background=\'var(--white)\'" onmouseout="this.style.background=\'\'">'+d.name+' <span style="color:var(--text3)">'+(d.units||'')+'세대</span></div>';}).join('');}
 function pickFavFromLoc(code,name){favSelectedCode=code;var el=ge('fav-selected-name');el.style.display='block';el.textContent='✓ '+name;ge('fav-loc-list').style.display='none';}
-function doPrint(){const d=selectedApt||null;const complex=d?d.name:(ge('manual-complex')?.value||'단지명 미입력');const dong=ge('input-dong')?.value||'';const hoNum=ge('input-ho')?.value||'';const hoFull=dong&&hoNum?dong+' '+hoNum:dong||hoNum||'';const type=ge('input-type')?.value||'';const dir=ge('input-dir')?.value||'';const movein=ge('input-movein')?.value||'';const chkSale=ge('chk-sale')?.checked||false,chkJeonse=ge('chk-jeonse')?.checked||false,chkMonthly=ge('chk-monthly')?.checked||false;const sale=chkSale?(ge('p-sale')?.value||''):'',jeonse=chkJeonse?(ge('p-jeonse')?.value||''):'',deposit=chkMonthly?(ge('p-deposit')?.value||''):'',monthly=chkMonthly?(ge('p-monthly')?.value||''):'';const special=ge('f-special')?.value||'',desc=ge('f-desc')?.value||'';const addr=d?(d.addr||[d.sido,d.sigungu,d.emd].filter(Boolean).join(' ')):(ge('manual-addr')?.value||'');const photoHtml=photos.slice(0,3).map(s=>'<img src="'+s+'" style="width:140px;height:95px;object-fit:cover;border-radius:6px;border:1px solid #eee">').join('');const now=new Date(),ds=now.getFullYear()+'.'+String(now.getMonth()+1).padStart(2,'0')+'.'+String(now.getDate()).padStart(2,'0');const monthlyLabel=deposit&&monthly?'보증 '+deposit+'/월 '+monthly+'만원':monthly?monthly+'만원':'협의';const content='<div style="display:flex;justify-content:space-between;align-items:flex-start;border-bottom:2.5px solid #1D9E75;padding-bottom:14px;margin-bottom:18px"><div><div style="font-size:20px;font-weight:700;color:#1D9E75">아구<span style="color:#1a1a1a">구</span></div><div style="font-size:11px;color:#888;margin-top:2px">매물 안내서 · guhaedo.kr</div></div><div style="text-align:right;font-size:11px;color:#888;line-height:1.6">공인중개사 전용<br>'+ds+'</div></div><div style="font-size:26px;font-weight:700;color:#1a1a1a;margin-bottom:4px">'+complex+'</div><div style="font-size:13px;color:#666;margin-bottom:16px">'+(hoFull?hoFull+' · ':'')+(dir?dir+' · ':'')+addr+'</div>'+(photoHtml?'<div style="display:flex;gap:8px;margin-bottom:16px">'+photoHtml+'</div>':'')+'<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-bottom:14px">'+[['타입',type||'-'],['동/호',hoFull||'-'],['방향',dir||'-'],['준공',d?d.built||'-':(ge('manual-built')?.value||'-')],['세대수',d?d.units||'-':(ge('manual-units')?.value||'-')],['주차',d?d.totalPark||'-':(ge('manual-park')?.value||'-')],['난방',d?d.heating||'-':'-'],['입주가능',movein||'-']].map(function(r){return '<div style="background:#f8f8f8;border-radius:6px;padding:9px 10px;'+(r[2]==='s2'?'grid-column:span 2':'')+'"><div style="font-size:10px;color:#999;margin-bottom:2px">'+r[0]+'</div><div style="font-size:13px;font-weight:700">'+r[1]+'</div></div>';}).join('')+'</div><div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-bottom:14px">'+[[chkSale,'매매',sale?sale+'만원':'협의'],[chkJeonse,'전세',jeonse?jeonse+'만원':'협의'],[chkMonthly,'월세',monthlyLabel]].filter(function(r){return r[0];}).map(function(r){return '<div style="border:1.5px solid #e8e8e8;border-radius:8px;padding:12px;text-align:center"><div style="font-size:12px;color:#888;margin-bottom:4px">'+r[1]+'</div><div style="font-size:16px;font-weight:700;color:#0F6E56">'+r[2]+'</div></div>';}).join('')+'</div>'+(special?'<div style="background:#fffbe6;border-radius:6px;padding:9px 12px;font-size:12px;color:#6b5a00;margin-bottom:12px;border:1px solid #f0de8a">⚡ '+special+'</div>':'')+(desc?'<div style="background:#f8f8f8;border-radius:6px;padding:12px;font-size:13px;color:#444;line-height:1.8;margin-bottom:14px">'+desc.replace(/\n/g,'<br>')+'</div>':'')+'<div id="ad-area" style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px;margin-bottom:12px">'+getAdBanners().map(function(s){return '<img src="'+s+'" style="width:100%;height:60px;object-fit:cover;border-radius:4px;border:1px solid #eee">';}).join('')+'</div><div style="border-top:1px solid #eee;padding-top:10px;text-align:center;font-size:10px;color:#bbb">guhaedo.kr 매물 안내서 · 허위매물 금지 · '+ds+'</div>';const w=window.open('','_blank','width=780,height=900');w.document.write('<!DOCTYPE html><html><head><meta charset="utf-8"><title>매물안내서-'+complex+'</title><style>@import url(\'https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap\');*{box-sizing:border-box;margin:0;padding:0;-webkit-user-select:none;user-select:none}body{font-family:\'Noto Sans KR\',sans-serif;background:#fff;padding:32px}.wrap{max-width:660px;margin:0 auto}@media print{.no-print{display:none!important}body{padding:12px}}</style></head><body oncontextmenu="return false"><div class="wrap">'+content+'</div><div class="no-print" style="text-align:center;margin-top:20px"><button onclick="window.print()" style="background:#1D9E75;color:#fff;border:none;padding:12px 32px;border-radius:8px;font-size:15px;font-weight:700;cursor:pointer;font-family:inherit">🖨 인쇄하기</button></div><script>document.addEventListener("keydown",function(e){if((e.ctrlKey||e.metaKey)&&(e.key==="s"||e.key==="S"||e.key==="u"||e.key==="U")){e.preventDefault();}});window.onafterprint=function(){window.close();};<\/script></body></html>');w.document.close();}
+function doPrint(){const d=selectedApt||null;const complex=d?d.name:(ge('manual-complex')?.value||'단지명 미입력');const dong=ge('input-dong')?.value||'';const hoNum=ge('input-ho')?.value||'';const hoFull=dong&&hoNum?dong+' '+hoNum:dong||hoNum||'';const type=ge('input-type')?.value||'';const dir=ge('input-dir')?.value||'';const movein=ge('input-movein')?.value||'';const chkSale=ge('chk-sale')?.checked||false,chkJeonse=ge('chk-jeonse')?.checked||false,chkMonthly=ge('chk-monthly')?.checked||false;const sale=chkSale?(ge('p-sale')?.value||''):'',jeonse=chkJeonse?(ge('p-jeonse')?.value||''):'',deposit=chkMonthly?(ge('p-deposit')?.value||''):'',monthly=chkMonthly?(ge('p-monthly')?.value||''):'';const special=ge('f-special')?.value||'',desc=ge('f-desc')?.value||'';const addr=d?(d.addr||[d.sido,d.sigungu,d.emd].filter(Boolean).join(' ')):(ge('manual-addr')?.value||'');const photoHtml=photos.slice(0,3).map(s=>'<img src="'+s+'" style="width:140px;height:95px;object-fit:cover;border-radius:6px;border:1px solid #eee">').join('');const now=new Date(),ds=now.getFullYear()+'.'+String(now.getMonth()+1).padStart(2,'0')+'.'+String(now.getDate()).padStart(2,'0');const monthlyLabel=deposit&&monthly?'보증 '+deposit+'/월 '+monthly+'만원':monthly?monthly+'만원':'협의';const content='<div style="display:flex;justify-content:space-between;align-items:flex-start;border-bottom:2.5px solid #1D9E75;padding-bottom:14px;margin-bottom:18px"><div><div style="font-size:20px;font-weight:700;color:#1D9E75">아구<span style="color:#1a1a1a">구</span></div><div style="font-size:11px;color:#888;margin-top:2px">매물 안내서 · guhaedo.kr</div></div><div style="text-align:right;font-size:11px;color:#888;line-height:1.6">공인중개사 전용<br>'+ds+'</div></div><div style="font-size:26px;font-weight:700;color:#1a1a1a;margin-bottom:4px">'+complex+'</div><div style="font-size:13px;color:#666;margin-bottom:16px">'+(hoFull?hoFull+' · ':'')+(dir?dir+' · ':'')+addr+'</div>'+(photoHtml?'<div style="display:flex;gap:8px;margin-bottom:16px">'+photoHtml+'</div>':'')+'<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-bottom:14px">'+[['타입',type||'-'],['동/호',hoFull||'-'],['방향',dir||'-'],['준공',d?d.built||'-':(ge('manual-built')?.value||'-')],['세대수',d?d.units||'-':(ge('manual-units')?.value||'-')],['주차',d?d.totalPark||'-':(ge('manual-park')?.value||'-')],['난방',d?d.heating||'-':'-'],['입주가능',movein||'-']].map(function(r){return '<div style="background:#f8f8f8;border-radius:6px;padding:9px 10px;'+(r[2]==='s2'?'grid-column:span 2':'')+'"><div style="font-size:10px;color:#999;margin-bottom:2px">'+r[0]+'</div><div style="font-size:13px;font-weight:700">'+r[1]+'</div></div>';}).join('')+'</div><div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-bottom:14px">'+[[chkSale,'매매',sale?sale+'만원':'협의'],[chkJeonse,'전세',jeonse?jeonse+'만원':'협의'],[chkMonthly,'월세',monthlyLabel]].filter(function(r){return r[0];}).map(function(r){return '<div style="border:1.5px solid #e8e8e8;border-radius:8px;padding:12px;text-align:center"><div style="font-size:12px;color:#888;margin-bottom:4px">'+r[1]+'</div><div style="font-size:16px;font-weight:700;color:#0F6E56">'+r[2]+'</div></div>';}).join('')+'</div>'+(special?'<div style="background:#fffbe6;border-radius:6px;padding:9px 12px;font-size:12px;color:#6b5a00;margin-bottom:12px;border:1px solid #f0de8a">⚡ '+special+'</div>':'')+(desc?'<div style="background:#f8f8f8;border-radius:6px;padding:12px;font-size:13px;color:#444;line-height:1.8;margin-bottom:14px">'+desc.replace(/\n/g,'<br>')+'</div>':'')+'<div id="ad-area" style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px;margin-bottom:12px">'+getMatchedBanners(d?d.sido:'',d?d.sigungu:'',d?d.emd:'').map(function(b){return '<img src="'+b.image+'" style="width:100%;height:60px;object-fit:cover;border-radius:4px;border:1px solid #eee">';}).join('')+'</div><div style="border-top:1px solid #eee;padding-top:10px;text-align:center;font-size:10px;color:#bbb">guhaedo.kr 매물 안내서 · 허위매물 금지 · '+ds+'</div>';const w=window.open('','_blank','width=780,height=900');w.document.write('<!DOCTYPE html><html><head><meta charset="utf-8"><title>매물안내서-'+complex+'</title><style>@import url(\'https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap\');*{box-sizing:border-box;margin:0;padding:0;-webkit-user-select:none;user-select:none}body{font-family:\'Noto Sans KR\',sans-serif;background:#fff;padding:32px}.wrap{max-width:660px;margin:0 auto}@media print{.no-print{display:none!important}body{padding:12px}}</style></head><body oncontextmenu="return false"><div class="wrap">'+content+'</div><div class="no-print" style="text-align:center;margin-top:20px"><button onclick="window.print()" style="background:#1D9E75;color:#fff;border:none;padding:12px 32px;border-radius:8px;font-size:15px;font-weight:700;cursor:pointer;font-family:inherit">🖨 인쇄하기</button></div><script>document.addEventListener("keydown",function(e){if((e.ctrlKey||e.metaKey)&&(e.key==="s"||e.key==="S"||e.key==="u"||e.key==="U")){e.preventDefault();}});window.onafterprint=function(){window.close();};<\/script></body></html>');w.document.close();}
 
 // ===== 손님 가입 모달 =====
 let aptClickCount=0;
