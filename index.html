@@ -492,12 +492,12 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
           <!-- 1단계: 정보 입력 -->
           <div id="signup-step-1">
             <div class="field"><label>공인중개사 성함 *</label><input type="text" id="su-name" placeholder="홍길동"></div>
-            <div class="field"><label>사무소명 *</label><input type="text" id="su-office" placeholder="예: 아산 해피공인중개사"></div>
+            <div class="field"><label>사무소명 *</label><input type="text" id="su-office" placeholder="강남스마일공인중개사"></div>
             <div class="field"><label>연락처 *</label><input type="tel" id="su-tel" placeholder="010-0000-0000"></div>
             <div class="field"><label>이메일 *</label><input type="email" id="su-email" placeholder="example@email.com"></div>
             <div class="field"><label>비밀번호 *</label><input type="password" id="su-pw" placeholder="8자 이상"></div>
             <div class="field"><label>비밀번호 확인 *</label><input type="password" id="su-pw2" placeholder="비밀번호 재입력"></div>
-            <div class="field"><label>사무소 주소</label><input type="text" id="su-addr" placeholder="예: 충남 아산시 배방읍 ..."></div>
+            <div class="field"><label>사무소 주소</label><input type="text" id="su-addr" placeholder="서울시 강남구 역삼로 123"></div>
             <div id="signup-error" style="display:none;color:#c0392b;font-size:12px;margin-bottom:8px;padding:8px 12px;background:#fff3f3;border-radius:var(--radius-sm)"></div>
             <button class="join-submit" onclick="signupNext()">다음 →</button>
           </div>
@@ -607,7 +607,7 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
         <div class="field"><label>연락처</label><input type="tel" id="m-tel" placeholder="010-0000-0000"></div>
       </div>
       <div class="grid2">
-        <div class="field"><label>단지명</label><input type="text" id="m-complex" placeholder="예: 힐스테이트자이아산센텀"></div>
+        <div class="field"><label>단지명</label><input type="text" id="m-complex" placeholder="래미안퍼스티지"></div>
         <div class="field"><label>동/호수</label><input type="text" id="m-ho" placeholder="예: 101동 1201호"></div>
       </div>
       <div class="grid3">
@@ -1720,8 +1720,8 @@ function initPrintPage(){
     <div>
       <div class="lsec">
         <div class="lsec-title">단지 정보 직접 입력</div>
-        <div class="field"><label>단지명 *</label><input type="text" id="pt-complex" placeholder="예: 힐스테이트자이아산센텀"></div>
-        <div class="field"><label>주소</label><input type="text" id="pt-addr" placeholder="예: 충남 아산시 배방읍 세교리 507"></div>
+        <div class="field"><label>단지명 *</label><input type="text" id="pt-complex" placeholder="래미안퍼스티지"></div>
+        <div class="field"><label>주소</label><input type="text" id="pt-addr" placeholder="서울시 송파구 잠실동 40"></div>
         <div class="grid3">
           <div class="field"><label>동</label><input type="text" id="pt-dong" placeholder="예: 101동"></div>
           <div class="field"><label>호수</label><input type="text" id="pt-ho" placeholder="예: 1201호"></div>
@@ -1733,8 +1733,8 @@ function initPrintPage(){
           <div class="field"><label>준공년도</label><input type="text" id="pt-built" placeholder="예: 2023년"></div>
         </div>
         <div class="grid2">
-          <div class="field"><label>총 세대수</label><input type="text" id="pt-units" placeholder="예: 2,032세대"></div>
-          <div class="field"><label>총 주차</label><input type="text" id="pt-park" placeholder="예: 3,200대"></div>
+          <div class="field"><label>총 세대수</label><input type="text" id="pt-units" placeholder="예: 1,580세대"></div>
+          <div class="field"><label>총 주차</label><input type="text" id="pt-park" placeholder="예: 2,100대"></div>
         </div>
       </div>
     </div>
@@ -1756,7 +1756,7 @@ function initPrintPage(){
       </div>
       <div class="lsec">
         <div class="lsec-title">특이사항 / 매물 설명</div>
-        <div class="field"><label>특이사항</label><input type="text" id="pt-special" placeholder="예: 초등학교 도보 3분, 리모델링 완료"></div>
+        <div class="field"><label>특이사항</label><input type="text" id="pt-special" placeholder="올수리 완료, 즉시입주 가능"></div>
         <div class="field"><label>매물 설명</label><textarea id="pt-desc" style="width:100%;height:76px;border:1px solid var(--border);border-radius:var(--radius-sm);padding:8px 10px;font-size:13px;font-family:inherit;resize:none;line-height:1.7" placeholder="예) 남향 판상형, 채광 우수, 즉시 입주 가능"></textarea></div>
         <div class="btn-row">
           <button class="btn-clear" onclick="clearPtListing()">초기화</button>
@@ -1993,12 +1993,12 @@ function listingHTML(){
       </div>
       <div style="text-align:center;margin-top:6px"><span onclick="toggleManualInput()" style="font-size:11px;color:var(--green);cursor:pointer;font-weight:500" id="manual-toggle">검색에 없나요? 직접입력 →</span></div>
       <div id="manual-input-area" style="display:none;margin-top:8px;background:var(--bg);border-radius:var(--radius-sm);padding:12px">
-        <div class="field"><label>단지명 *</label><input type="text" id="manual-complex" placeholder="예: 힐스테이트자이아산센텀"></div>
-        <div class="field"><label>주소</label><input type="text" id="manual-addr" placeholder="예: 충남 아산시 배방읍 세교리 507"></div>
+        <div class="field"><label>단지명 *</label><input type="text" id="manual-complex" placeholder="래미안위브"></div>
+        <div class="field"><label>주소</label><input type="text" id="manual-addr" placeholder="서울시 강남구 역삼동 123-4"></div>
         <div class="grid3">
-          <div class="field"><label>세대수</label><input type="text" id="manual-units" placeholder="2,032"></div>
-          <div class="field"><label>준공년도</label><input type="text" id="manual-built" placeholder="2023"></div>
-          <div class="field"><label>주차대수</label><input type="text" id="manual-park" placeholder="3,200"></div>
+          <div class="field"><label>세대수</label><input type="text" id="manual-units" placeholder="1,240"></div>
+          <div class="field"><label>준공년도</label><input type="text" id="manual-built" placeholder="2019"></div>
+          <div class="field"><label>주차대수</label><input type="text" id="manual-park" placeholder="1,860"></div>
         </div>
       </div>
     </div>
@@ -2047,7 +2047,7 @@ function listingHTML(){
     <!-- 5. 특이사항 / 매물 설명 -->
     <div class="lsec">
       <div class="lsec-title">특이사항 매물설명</div>
-      <div class="field"><label>특이사항</label><input type="text" id="f-special" placeholder="예: 초등학교 도보 3분, 리모델링 완료"></div>
+      <div class="field"><label>특이사항</label><input type="text" id="f-special" placeholder="올수리 완료, 즉시입주 가능"></div>
       <div class="field"><label>매물 설명</label><textarea id="f-desc" style="width:100%;height:76px;border:1px solid var(--border);border-radius:var(--radius-sm);padding:8px 10px;font-size:13px;font-family:inherit;resize:none;line-height:1.7" placeholder="예) 남향 판상형, 채광 우수, 즉시 입주 가능"></textarea></div>
     </div>
 
