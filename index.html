@@ -1032,8 +1032,21 @@ function initMap(){
   map.addControl(new kakao.maps.ZoomControl(),kakao.maps.ControlPosition.BOTTOMRIGHT);
   // 기본 지도타입 컨트롤 제거 (커스텀으로 대체)
 
-  // 거리뷰 오버레이 상태
+  // 거리뷰
   var rvOverlayOn=false;
+  var rvContainer=document.createElement('div');
+  rvContainer.id='rv-container';
+  rvContainer.style.cssText='display:none;position:absolute;top:0;left:0;width:100%;height:100%;z-index:80';
+  ge('kakao-map').parentNode.appendChild(rvContainer);
+  var rvCloseBtn=document.createElement('button');
+  rvCloseBtn.textContent='✕ 닫기';
+  rvCloseBtn.style.cssText='position:absolute;top:10px;left:50%;transform:translateX(-50%);z-index:81;background:#fff;border:none;padding:8px 20px;border-radius:20px;font-size:13px;font-weight:700;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.3);font-family:inherit';
+  rvCloseBtn.onclick=function(){rvContainer.style.display='none';};
+  rvContainer.appendChild(rvCloseBtn);
+  var rvView=null;
+  var rvClient=new kakao.maps.RoadviewClient();
+
+  var rvClickHandler=null;
   window.setMapType=function(type){
     document.querySelectorAll('.mtb').forEach(function(b){b.classList.remove('active');});
     if(type==='map'){
@@ -1049,12 +1062,24 @@ function initMap(){
     }else if(type==='road'){
       if(rvOverlayOn){
         map.removeOverlayMapTypeId(kakao.maps.MapTypeId.ROADVIEW);
+        if(rvClickHandler){kakao.maps.event.removeListener(map,'click',rvClickHandler);rvClickHandler=null;}
         rvOverlayOn=false;
+        rvContainer.style.display='none';
         ge('mt-map').classList.add('active');
       }else{
         map.addOverlayMapTypeId(kakao.maps.MapTypeId.ROADVIEW);
         rvOverlayOn=true;
         ge('mt-road').classList.add('active');
+        rvClickHandler=function(e){
+          var pos=e.latLng;
+          rvClient.getNearestPanoId(pos,50,function(panoid){
+            if(panoid===null){alert('이 위치에 거리뷰가 없습니다.');return;}
+            rvContainer.style.display='block';
+            if(!rvView){rvView=new kakao.maps.Roadview(document.getElementById('rv-container'));}
+            rvView.setPanoId(panoid,pos);
+          });
+        };
+        kakao.maps.event.addListener(map,'click',rvClickHandler);
       }
     }
   };
