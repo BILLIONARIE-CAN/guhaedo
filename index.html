@@ -731,7 +731,7 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
 <div class="toast" id="toast"></div>
 
 <!-- 카카오 지도 SDK -->
-<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=a7a67059ffadc0b7c6e4318639cdedeb&libraries=services"></script>
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=a7a67059ffadc0b7c6e4318639cdedeb&libraries=services,roadview"></script>
 
 <script>
 // ===== 유틸 =====
@@ -1032,8 +1032,7 @@ function initMap(){
   map.addControl(new kakao.maps.ZoomControl(),kakao.maps.ControlPosition.BOTTOMRIGHT);
   // 기본 지도타입 컨트롤 제거 (커스텀으로 대체)
 
-  // 거리뷰용 오버레이
-  var rvClient=new kakao.maps.RoadviewClient();
+  // 거리뷰 오버레이 상태
   var rvOverlayOn=false;
   window.setMapType=function(type){
     document.querySelectorAll('.mtb').forEach(function(b){b.classList.remove('active');});
