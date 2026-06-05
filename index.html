@@ -316,6 +316,7 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
       <button class="mtb active" id="mt-map" onclick="setMapType('map')">지도</button>
       <button class="mtb" id="mt-sky" onclick="setMapType('sky')">스카이뷰</button>
       <button class="mtb" id="mt-road" onclick="setMapType('road')">거리뷰</button>
+      <button id="rv-close-btn" onclick="closeRoadview()" style="display:none;width:32px;height:32px;border-radius:50%;background:#fff;border:2px solid #ddd;font-size:16px;font-weight:700;cursor:pointer;color:#333;box-shadow:0 2px 6px rgba(0,0,0,.2);line-height:1">✕</button>
     </div>
 
     <div class="map-tabbar">
@@ -1041,12 +1042,8 @@ function initMap(){
   rvContainer.id='rv-container';
   rvContainer.style.cssText='width:100%;height:100%';
   rvWrap.appendChild(rvContainer);
-  var rvCloseBtn=document.createElement('button');
-  rvCloseBtn.textContent='✕ 거리뷰 닫기';
-  rvCloseBtn.style.cssText='position:absolute;top:10px;left:50%;transform:translateX(-50%);z-index:9999;background:#fff;border:none;padding:10px 24px;border-radius:20px;font-size:14px;font-weight:700;cursor:pointer;box-shadow:0 2px 12px rgba(0,0,0,.4);font-family:inherit;color:#333';
-  rvCloseBtn.onclick=function(){rvWrap.style.display='none';};
-  rvWrap.appendChild(rvCloseBtn);
   ge('kakao-map').parentNode.appendChild(rvWrap);
+  window.closeRoadview=function(){rvWrap.style.display='none';ge('rv-close-btn').style.display='none';};
   var rvView=null;
   var rvClient=new kakao.maps.RoadviewClient();
 
@@ -1069,6 +1066,7 @@ function initMap(){
         if(rvClickHandler){kakao.maps.event.removeListener(map,'click',rvClickHandler);rvClickHandler=null;}
         rvOverlayOn=false;
         rvWrap.style.display='none';
+        ge('rv-close-btn').style.display='none';
         ge('mt-map').classList.add('active');
       }else{
         map.addOverlayMapTypeId(kakao.maps.MapTypeId.ROADVIEW);
@@ -1079,6 +1077,7 @@ function initMap(){
           rvClient.getNearestPanoId(pos,50,function(panoid){
             if(panoid===null){alert('이 위치에 거리뷰가 없습니다.');return;}
             rvWrap.style.display='block';
+            ge('rv-close-btn').style.display='block';
             if(!rvView){rvView=new kakao.maps.Roadview(document.getElementById('rv-container'));}
             rvView.setPanoId(panoid,pos);
           });
