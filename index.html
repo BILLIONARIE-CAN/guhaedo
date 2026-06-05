@@ -53,6 +53,10 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
 
 /* ===== 지도 페이지 ===== */
 #page-map{position:relative;overflow:hidden;width:100%;height:100%}
+.map-type-btns{position:absolute;top:60px;right:10px;z-index:90;display:flex;flex-direction:column;gap:0;border-radius:8px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.15)}
+.mtb{display:block;padding:8px 12px;font-size:11px;font-weight:600;border:none;border-bottom:1px solid #e2e8f0;cursor:pointer;background:#fff;color:#555;font-family:inherit;white-space:nowrap}
+.mtb:last-child{border-bottom:none}
+.mtb.active{background:#1D9E75;color:#fff}
 #kakao-map{width:100%;height:100%;position:absolute;inset:0}
 .map-right{flex:1;position:relative;width:100%;height:100%;overflow:hidden}
 
@@ -308,6 +312,12 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
     </div>
 
     <!-- 왼쪽 탭바 -->
+    <div class="map-type-btns">
+      <button class="mtb active" id="mt-map" onclick="setMapType('map')">지도</button>
+      <button class="mtb" id="mt-sky" onclick="setMapType('sky')">스카이뷰</button>
+      <button class="mtb" id="mt-road" onclick="setMapType('road')">거리뷰</button>
+    </div>
+
     <div class="map-tabbar">
       <button class="island-btn" id="menu-btn" onclick="toggleRegionSidebar()" title="메뉴">
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
@@ -1020,8 +1030,37 @@ function initMap(){
   if(!container) return;
   const options={center:new kakao.maps.LatLng(36.5,127.5),level:13};
   map=new kakao.maps.Map(container,options);
-  map.addControl(new kakao.maps.ZoomControl(),kakao.maps.ControlPosition.RIGHT);
-  map.addControl(new kakao.maps.MapTypeControl(),kakao.maps.ControlPosition.TOPRIGHT);
+  // 줌 컨트롤 우하단
+  map.addControl(new kakao.maps.ZoomControl(),kakao.maps.ControlPosition.BOTTOMRIGHT);
+  // 기본 지도타입 컨트롤 제거 (커스텀으로 대체)
+
+  // 거리뷰용 오버레이
+  var rvClient=new kakao.maps.RoadviewClient();
+  var rvOverlayOn=false;
+  window.setMapType=function(type){
+    document.querySelectorAll('.mtb').forEach(function(b){b.classList.remove('active');});
+    if(type==='map'){
+      map.setMapTypeId(kakao.maps.MapTypeId.ROADMAP);
+      map.removeOverlayMapTypeId(kakao.maps.MapTypeId.ROADVIEW);
+      rvOverlayOn=false;
+      ge('mt-map').classList.add('active');
+    }else if(type==='sky'){
+      map.setMapTypeId(kakao.maps.MapTypeId.SKYVIEW);
+      map.removeOverlayMapTypeId(kakao.maps.MapTypeId.ROADVIEW);
+      rvOverlayOn=false;
+      ge('mt-sky').classList.add('active');
+    }else if(type==='road'){
+      if(rvOverlayOn){
+        map.removeOverlayMapTypeId(kakao.maps.MapTypeId.ROADVIEW);
+        rvOverlayOn=false;
+        ge('mt-map').classList.add('active');
+      }else{
+        map.addOverlayMapTypeId(kakao.maps.MapTypeId.ROADVIEW);
+        rvOverlayOn=true;
+        ge('mt-road').classList.add('active');
+      }
+    }
+  };
   // 줌 변경 시 마커 업데이트
   kakao.maps.event.addListener(map,'zoom_changed',()=>{
     updateMarkersForZoom();
@@ -2186,6 +2225,8 @@ async function loadAllAptData(){
     const r=await fetch('/split_output/coords_all_apt.json');
     allAptData=await r.json();
     console.log('매물안내서 단지 로드:',allAptData.length+'개');
+    initLocSelects();
+    initFavLocSelects();
   }catch(e){console.log('단지 로드 실패:',e);}
 }
 loadAllAptData();
