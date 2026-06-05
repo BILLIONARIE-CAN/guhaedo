@@ -1043,7 +1043,7 @@ function initMap(){
   rvContainer.style.cssText='width:100%;height:100%';
   rvWrap.appendChild(rvContainer);
   ge('kakao-map').parentNode.appendChild(rvWrap);
-  window.closeRoadview=function(){rvWrap.style.display='none';ge('rv-close-btn').style.display='none';};
+  window.closeRoadview=function(){rvWrap.style.display='none';ge('rv-close-btn').style.display='none';if(rvOverlayOn){map.removeOverlayMapTypeId(kakao.maps.MapTypeId.ROADVIEW);if(rvClickHandler){kakao.maps.event.removeListener(map,'click',rvClickHandler);rvClickHandler=null;}rvOverlayOn=false;}document.querySelectorAll('.mtb').forEach(function(b){b.classList.remove('active');});ge('mt-map').classList.add('active');};
   var rvView=null;
   var rvClient=new kakao.maps.RoadviewClient();
 
@@ -1072,6 +1072,7 @@ function initMap(){
         map.addOverlayMapTypeId(kakao.maps.MapTypeId.ROADVIEW);
         rvOverlayOn=true;
         ge('mt-road').classList.add('active');
+        ge('rv-close-btn').style.display='block';
         rvClickHandler=function(e){
           var pos=e.latLng;
           rvClient.getNearestPanoId(pos,50,function(panoid){
