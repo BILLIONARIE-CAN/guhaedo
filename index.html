@@ -1034,15 +1034,19 @@ function initMap(){
 
   // 거리뷰
   var rvOverlayOn=false;
+  var rvWrap=document.createElement('div');
+  rvWrap.id='rv-wrap';
+  rvWrap.style.cssText='display:none;position:absolute;top:0;left:0;width:100%;height:100%;z-index:80';
   var rvContainer=document.createElement('div');
   rvContainer.id='rv-container';
-  rvContainer.style.cssText='display:none;position:absolute;top:0;left:0;width:100%;height:100%;z-index:80';
-  ge('kakao-map').parentNode.appendChild(rvContainer);
+  rvContainer.style.cssText='width:100%;height:100%';
+  rvWrap.appendChild(rvContainer);
   var rvCloseBtn=document.createElement('button');
-  rvCloseBtn.textContent='✕ 닫기';
-  rvCloseBtn.style.cssText='position:absolute;top:10px;left:50%;transform:translateX(-50%);z-index:81;background:#fff;border:none;padding:8px 20px;border-radius:20px;font-size:13px;font-weight:700;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.3);font-family:inherit';
-  rvCloseBtn.onclick=function(){rvContainer.style.display='none';};
-  rvContainer.appendChild(rvCloseBtn);
+  rvCloseBtn.textContent='✕ 거리뷰 닫기';
+  rvCloseBtn.style.cssText='position:absolute;top:10px;left:50%;transform:translateX(-50%);z-index:9999;background:#fff;border:none;padding:10px 24px;border-radius:20px;font-size:14px;font-weight:700;cursor:pointer;box-shadow:0 2px 12px rgba(0,0,0,.4);font-family:inherit;color:#333';
+  rvCloseBtn.onclick=function(){rvWrap.style.display='none';};
+  rvWrap.appendChild(rvCloseBtn);
+  ge('kakao-map').parentNode.appendChild(rvWrap);
   var rvView=null;
   var rvClient=new kakao.maps.RoadviewClient();
 
@@ -1064,7 +1068,7 @@ function initMap(){
         map.removeOverlayMapTypeId(kakao.maps.MapTypeId.ROADVIEW);
         if(rvClickHandler){kakao.maps.event.removeListener(map,'click',rvClickHandler);rvClickHandler=null;}
         rvOverlayOn=false;
-        rvContainer.style.display='none';
+        rvWrap.style.display='none';
         ge('mt-map').classList.add('active');
       }else{
         map.addOverlayMapTypeId(kakao.maps.MapTypeId.ROADVIEW);
@@ -1074,7 +1078,7 @@ function initMap(){
           var pos=e.latLng;
           rvClient.getNearestPanoId(pos,50,function(panoid){
             if(panoid===null){alert('이 위치에 거리뷰가 없습니다.');return;}
-            rvContainer.style.display='block';
+            rvWrap.style.display='block';
             if(!rvView){rvView=new kakao.maps.Roadview(document.getElementById('rv-container'));}
             rvView.setPanoId(panoid,pos);
           });
