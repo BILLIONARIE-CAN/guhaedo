@@ -317,7 +317,7 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
       <button class="mtb" id="mt-sky" onclick="setMapType('sky')">스카이뷰</button>
       <button class="mtb" id="mt-road" onclick="setMapType('road')">거리뷰</button>
     </div>
-    <div id="rv-close-btn" onclick="closeRoadview()" style="display:none;position:absolute;top:128px;right:14px;z-index:91;width:30px;height:30px;border-radius:50%;background:#fff;border:none;font-size:15px;font-weight:700;cursor:pointer;color:#333;box-shadow:0 2px 6px rgba(0,0,0,.2);line-height:30px;text-align:center">✕</div>
+    <div id="rv-close-btn" onclick="closeRoadview()" style="display:none;position:absolute;top:122px;right:72px;z-index:91;width:28px;height:28px;border-radius:50%;background:#fff;border:none;font-size:14px;font-weight:700;cursor:pointer;color:#333;line-height:28px;text-align:center">✕</div>
 
     <div class="map-tabbar">
       <button class="island-btn" id="menu-btn" onclick="toggleRegionSidebar()" title="메뉴">
@@ -1076,7 +1076,7 @@ function initMap(){
         rvClickHandler=function(e){
           var pos=e.latLng;
           rvClient.getNearestPanoId(pos,50,function(panoid){
-            if(panoid===null){alert('이 위치에 거리뷰가 없습니다.');return;}
+            if(panoid===null)return;
             rvWrap.style.display='block';
             ge('rv-close-btn').style.display='block';
             if(!rvView){rvView=new kakao.maps.Roadview(document.getElementById('rv-container'));}
