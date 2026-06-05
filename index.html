@@ -316,8 +316,8 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
       <button class="mtb active" id="mt-map" onclick="setMapType('map')">지도</button>
       <button class="mtb" id="mt-sky" onclick="setMapType('sky')">스카이뷰</button>
       <button class="mtb" id="mt-road" onclick="setMapType('road')">거리뷰</button>
-      <button id="rv-close-btn" onclick="closeRoadview()" style="display:none;width:32px;height:32px;border-radius:50%;background:#fff;border:none;font-size:16px;font-weight:700;cursor:pointer;color:#333;box-shadow:0 2px 6px rgba(0,0,0,.2);line-height:1;outline:none">✕</button>
     </div>
+    <div id="rv-close-btn" onclick="closeRoadview()" style="display:none;position:absolute;top:128px;right:14px;z-index:91;width:30px;height:30px;border-radius:50%;background:#fff;border:none;font-size:15px;font-weight:700;cursor:pointer;color:#333;box-shadow:0 2px 6px rgba(0,0,0,.2);line-height:30px;text-align:center">✕</div>
 
     <div class="map-tabbar">
       <button class="island-btn" id="menu-btn" onclick="toggleRegionSidebar()" title="메뉴">
