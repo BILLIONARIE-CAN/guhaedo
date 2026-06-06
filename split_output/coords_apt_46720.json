@@ -9,7 +9,21 @@
     "sigunguCode": "46720",
     "sido": "전라남도",
     "sigungu": "곡성군",
-    "hhldCnt": 152
+    "hhldCnt": 152,
+    "jibunAddr": "전라남도 곡성군 곡성읍 읍내리 1367- 신화휴리브센트럴곡성",
+    "builder": "신화건설(주)",
+    "entrance": "계단식",
+    "useArea": "12917.9784",
+    "bjdCode": "4672025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020873",
@@ -20,6 +34,20 @@
     "emd": "곡성읍",
     "sigunguCode": "46720",
     "sido": "전라남도",
-    "sigungu": "곡성군"
+    "sigungu": "곡성군",
+    "jibunAddr": "전라남도 곡성군 곡성읍 묘천리 800- 곡성묘천마을LH아파트",
+    "builder": "한국토지주택공사",
+    "entrance": "복도식",
+    "useArea": "3689.04",
+    "bjdCode": "4672025034",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 8,
+    "areaBreak": {
+      "u60": 120,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

@@ -8,7 +8,21 @@
     "emd": "수정동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 수정동 230 여수블루써밋",
+    "builder": "샘코건설주식회사",
+    "entrance": "복도식",
+    "useArea": "5436.58",
+    "bjdCode": "4613010200",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 272,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025802",
@@ -19,7 +33,21 @@
     "emd": "수정동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 수정동 167-1 여수수정 행복주택",
+    "builder": "한솔공영",
+    "entrance": "복도식",
+    "useArea": "5200.57",
+    "bjdCode": "4613010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 9,
+    "areaBreak": {
+      "u60": 200,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020410",
@@ -31,7 +59,21 @@
     "sigunguCode": "46130",
     "sido": "전라남도",
     "sigungu": "여수시",
-    "hhldCnt": 184
+    "hhldCnt": 184,
+    "jibunAddr": "전라남도 여수시 관문동 232- 더로제아델리움해양공원",
+    "builder": "(주)대유산업",
+    "entrance": "혼합식",
+    "useArea": "13576.9482",
+    "bjdCode": "4613010400",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024364",
@@ -42,7 +84,21 @@
     "emd": "관문동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 관문동 251-2 여수관문행복주택",
+    "builder": "(주)트래콘건설",
+    "entrance": "복도식",
+    "useArea": "6245.56",
+    "bjdCode": "4613010400",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 200,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025320",
@@ -53,7 +109,21 @@
     "emd": "관문동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 관문동 8-7 여수엑스포 골드클래스아파트",
+    "builder": "보광종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "23550.3367",
+    "bjdCode": "4613010400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 286,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55005001",
@@ -64,7 +134,21 @@
     "emd": "고소동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 고소동 42 한신아파트",
+    "builder": "한신공영",
+    "entrance": "계단식",
+    "useArea": "30802.08",
+    "bjdCode": "4613010500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 239,
+      "u85": 194,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55005002",
@@ -75,7 +159,21 @@
     "emd": "고소동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 고소동 51 여수고소시영",
+    "builder": "엘씨안전연구소(주)",
+    "entrance": "계단식",
+    "useArea": "6045.9",
+    "bjdCode": "4613010500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 130,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023351",
@@ -86,7 +184,21 @@
     "emd": "연등동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 연등동 845 메트하임",
+    "builder": "(주)대한종건",
+    "entrance": "복도식",
+    "useArea": "6899.96",
+    "bjdCode": "4613011100",
+    "aptType": "주상복합",
+    "mgrType": "관리방식미정",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 269,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55015001",
@@ -97,7 +209,21 @@
     "emd": "광무동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 광무동 928-14 럭키광무아파트",
+    "builder": "럭키개발(주)",
+    "entrance": "계단식",
+    "useArea": "33480.8",
+    "bjdCode": "4613011200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 400,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023097",
@@ -108,7 +234,21 @@
     "emd": "서교동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 서교동 30 중해마루힐아너스",
+    "builder": "(주)중해건설",
+    "entrance": "계단식",
+    "useArea": "19548.5964",
+    "bjdCode": "4613011300",
+    "aptType": "주상복합",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 31,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 230,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023194",
@@ -119,7 +259,21 @@
     "emd": "서교동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 서교동 153-4 여수서교LH1단지행복주택",
+    "builder": "(유)신호건설산업(60%),(주)유탑엔지니어링(40%)",
+    "entrance": "복도식",
+    "useArea": "5395.8",
+    "bjdCode": "4613011300",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 200,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55016001",
@@ -130,7 +284,21 @@
     "emd": "봉강동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 봉강동 471 해태동백",
+    "builder": "해태제과(주)",
+    "entrance": "계단식",
+    "useArea": "32360.41",
+    "bjdCode": "4613011400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 178,
+      "u85": 162,
+      "u135": 68,
+      "o135": 0
+    }
   },
   {
     "code": "A55018001",
@@ -141,7 +309,21 @@
     "emd": "국동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 국동 543 국동대주아파트",
+    "builder": "대주건설",
+    "entrance": "계단식",
+    "useArea": "19127.52",
+    "bjdCode": "4613011700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 90,
+      "u85": 162,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55018002",
@@ -152,7 +334,21 @@
     "emd": "국동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 국동 1104 국동경남아파트",
+    "builder": "경남기업",
+    "entrance": "계단식",
+    "useArea": "19991.322",
+    "bjdCode": "4613011700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 357,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55018003",
@@ -163,7 +359,21 @@
     "emd": "국동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 국동 1103 구봉아파트",
+    "builder": "경남기업",
+    "entrance": "계단식",
+    "useArea": "15777.9",
+    "bjdCode": "4613011700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 370,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55018004",
@@ -174,7 +384,21 @@
     "emd": "국동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 국동 800 중앙",
+    "builder": "중앙공영(주)",
+    "entrance": "계단식",
+    "useArea": "20468.8",
+    "bjdCode": "4613011700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 360,
+      "u85": 40,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55018005",
@@ -185,7 +409,21 @@
     "emd": "국동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 국동 1010 국동주공",
+    "builder": "대한주택공사",
+    "entrance": "계단식",
+    "useArea": "28886.9",
+    "bjdCode": "4613011700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 580,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55075201",
@@ -196,7 +434,21 @@
     "emd": "국동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 국동 438 국동서희스타힐스",
+    "builder": "서희건설",
+    "entrance": "계단식",
+    "useArea": "82636.022",
+    "bjdCode": "4613011700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 359,
+      "u85": 496,
+      "u135": 153,
+      "o135": 0
+    }
   },
   {
     "code": "A55075606",
@@ -207,7 +459,21 @@
     "emd": "국동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 국동 857 국동라인아파트",
+    "builder": "1차(주)라인주택",
+    "entrance": "복도식",
+    "useArea": "42864.25",
+    "bjdCode": "4613011700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 715,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022298",
@@ -218,7 +484,21 @@
     "emd": "신월동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 신월동 114-7 금성휴먼터치빌",
+    "builder": "금성건설(주)",
+    "entrance": "계단식",
+    "useArea": "9004.0852",
+    "bjdCode": "4613011800",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 11,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 106,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023553",
@@ -229,7 +509,21 @@
     "emd": "신월동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 신월동 1806 경도비전 지에이그린웰",
+    "builder": "(주)지에이건설",
+    "entrance": "계단식",
+    "useArea": "33227.1564",
+    "bjdCode": "4613011800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 391,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55019001",
@@ -240,7 +534,21 @@
     "emd": "신월동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 신월동 1-4 신월대주아파트",
+    "builder": "대주건설(주)",
+    "entrance": "계단식",
+    "useArea": "25363.2",
+    "bjdCode": "4613011800",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 240,
+      "u135": 52,
+      "o135": 0
+    }
   },
   {
     "code": "A55019002",
@@ -251,7 +559,21 @@
     "emd": "신월동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 신월동 51 신월코아루",
+    "builder": "새롬성원",
+    "entrance": "계단식",
+    "useArea": "39117.576",
+    "bjdCode": "4613011800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 330,
+      "u135": 90,
+      "o135": 0
+    }
   },
   {
     "code": "A55019003",
@@ -262,7 +584,21 @@
     "emd": "신월동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 신월동 60 신월금호타운",
+    "builder": "금호건설(주)",
+    "entrance": "계단식",
+    "useArea": "102212.64",
+    "bjdCode": "4613011800",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 48,
+      "u85": 1020,
+      "u135": 120,
+      "o135": 0
+    }
   },
   {
     "code": "A55026001",
@@ -273,7 +609,21 @@
     "emd": "여서동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 여서동 484 여서현대산업3차아파트",
+    "builder": "(주) 오현건축",
+    "entrance": "혼합식",
+    "useArea": "17430.475",
+    "bjdCode": "4613011900",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 121,
+      "u85": 120,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55026003",
@@ -284,7 +634,21 @@
     "emd": "여서동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 여서동 480-4 현대산업1.2차아파트",
+    "builder": "현대산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "29798.66",
+    "bjdCode": "4613011900",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 382,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55026004",
@@ -295,7 +659,21 @@
     "emd": "여서동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 여서동 43-3 경남2단지아파트",
+    "builder": "경남기업(주)",
+    "entrance": "혼합식",
+    "useArea": "49741.8",
+    "bjdCode": "4613011900",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 120,
+      "u85": 510,
+      "u135": 0,
+      "o135": 30
+    }
   },
   {
     "code": "A55026005",
@@ -306,7 +684,21 @@
     "emd": "여서동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 여서동 43-12 여서경남아파트1단지",
+    "builder": "경남건설",
+    "entrance": "계단식",
+    "useArea": "49409.4",
+    "bjdCode": "4613011900",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 30,
+      "u85": 450,
+      "u135": 90,
+      "o135": 0
+    }
   },
   {
     "code": "A55026006",
@@ -317,7 +709,21 @@
     "emd": "여서동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 여서동 238 여서금호아파트",
+    "builder": "금호건설",
+    "entrance": "계단식",
+    "useArea": "67023.3",
+    "bjdCode": "4613011900",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 570,
+      "u135": 180,
+      "o135": 0
+    }
   },
   {
     "code": "A55026007",
@@ -328,7 +734,21 @@
     "emd": "여서동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 여서동 241 여서주공아파트",
+    "builder": "대한주택공사",
+    "entrance": "계단식",
+    "useArea": "36245.4",
+    "bjdCode": "4613011900",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 810,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55077501",
@@ -339,7 +759,21 @@
     "emd": "여서동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 여서동 489-1 현대건설아파트",
+    "builder": "성화양행(주)",
+    "entrance": "계단식",
+    "useArea": "90963.62",
+    "bjdCode": "4613011900",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 90,
+      "u85": 922,
+      "u135": 45,
+      "o135": 45
+    }
   },
   {
     "code": "A55077502",
@@ -350,7 +784,21 @@
     "emd": "여서동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 여서동 243 여서부영5단지임대",
+    "builder": "동광주택",
+    "entrance": "복도식",
+    "useArea": "22200",
+    "bjdCode": "4613011900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 370,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55077503",
@@ -361,7 +809,21 @@
     "emd": "여서동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 여서동 479 여수부영6차",
+    "builder": "부영주택(주)",
+    "entrance": "복도식",
+    "useArea": "91800",
+    "bjdCode": "4613011900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1530,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55077602",
@@ -372,7 +834,21 @@
     "emd": "여서동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 여서동 242 여수여서부영5단지아파트",
+    "builder": "부영건설",
+    "entrance": "복도식",
+    "useArea": "13915.04",
+    "bjdCode": "4613011900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 166,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55077808",
@@ -383,7 +859,21 @@
     "emd": "여서동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 여서동 496-1 여수부영7차아파트",
+    "builder": "(주)부영주택",
+    "entrance": "복도식",
+    "useArea": "70450",
+    "bjdCode": "4613011900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1280,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024539",
@@ -394,7 +884,21 @@
     "emd": "문수동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 문수동 929 문수대성베르힐아파트",
+    "builder": "디에스종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "60799.6542",
+    "bjdCode": "4613012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 722,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55020001",
@@ -405,7 +909,21 @@
     "emd": "문수동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 문수동 640-1 세종캐슬하임",
+    "builder": "세종건설",
+    "entrance": "계단식",
+    "useArea": "26744.75",
+    "bjdCode": "4613012000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 180
+    }
   },
   {
     "code": "A55020003",
@@ -416,7 +934,21 @@
     "emd": "문수동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 문수동 8-8 문수그린(구.부영2차)",
+    "builder": "(주)부영주택",
+    "entrance": "혼합식",
+    "useArea": "32594.8776",
+    "bjdCode": "4613012000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 240,
+      "u85": 243,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55020004",
@@ -427,7 +959,21 @@
     "emd": "문수동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 문수동 675-1 문수흥화",
+    "builder": "흥화공업(주)",
+    "entrance": "계단식",
+    "useArea": "61194.6",
+    "bjdCode": "4613012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 646,
+      "u135": 0,
+      "o135": 54
+    }
   },
   {
     "code": "A55020005",
@@ -438,7 +984,21 @@
     "emd": "문수동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 문수동 310-1 문수원앙",
+    "builder": "주식회사 부영",
+    "entrance": "계단식",
+    "useArea": "61661.7",
+    "bjdCode": "4613012000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 780,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55076301",
@@ -449,7 +1009,21 @@
     "emd": "문수동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 문수동 928 피오레",
+    "builder": "(주)해광건설",
+    "entrance": "계단식",
+    "useArea": "33982.5712",
+    "bjdCode": "4613012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 11,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 82,
+      "u135": 197,
+      "o135": 20
+    }
   },
   {
     "code": "A55076302",
@@ -460,7 +1034,21 @@
     "emd": "문수동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 문수동 480 여수부영10차",
+    "builder": "동광주택",
+    "entrance": "복도식",
+    "useArea": "22328.31",
+    "bjdCode": "4613012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 396,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55076303",
@@ -471,7 +1059,21 @@
     "emd": "문수동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 문수동 450-1 여수부영9차",
+    "builder": "부영주택",
+    "entrance": "복도식",
+    "useArea": "92524.84",
+    "bjdCode": "4613012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1910,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55076606",
@@ -482,7 +1084,21 @@
     "emd": "문수동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 문수동 797 여수문수1",
+    "builder": "미도파",
+    "entrance": "복도식",
+    "useArea": "38180.16",
+    "bjdCode": "4613012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1403,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55081702",
@@ -493,7 +1109,21 @@
     "emd": "문수동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 문수동 787 문수코아루",
+    "builder": "41780117260 문수코아루수아파트입주자대표회의",
+    "entrance": "계단식",
+    "useArea": "40190.3458",
+    "bjdCode": "4613012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 118,
+      "o135": 159
+    }
   },
   {
     "code": "A55021001",
@@ -504,7 +1134,21 @@
     "emd": "오림동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 오림동 409-2 여수부영3차",
+    "builder": "부영주택 흥산(주)",
+    "entrance": "계단식",
+    "useArea": "32934.6",
+    "bjdCode": "4613012100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 570,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023101",
@@ -515,7 +1159,21 @@
     "emd": "미평동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 미평동 937 미평 해광샹그릴라 힐즈파크",
+    "builder": "(주)해광건설",
+    "entrance": "계단식",
+    "useArea": "23937.7493",
+    "bjdCode": "4613012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 9,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 282,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55024001",
@@ -526,7 +1184,21 @@
     "emd": "미평동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 미평동 746 선경1차",
+    "builder": "선경건설(주)",
+    "entrance": "혼합식",
+    "useArea": "26315.6",
+    "bjdCode": "4613012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 200,
+      "u85": 120,
+      "u135": 40,
+      "o135": 0
+    }
   },
   {
     "code": "A55024002",
@@ -537,7 +1209,21 @@
     "emd": "미평동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 미평동 741 선경2차",
+    "builder": "SK건설(주)",
+    "entrance": "계단식",
+    "useArea": "26974.5",
+    "bjdCode": "4613012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 240,
+      "u85": 150,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55024004",
@@ -548,7 +1234,21 @@
     "emd": "미평동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 미평동 284 미평주공2차아파트",
+    "builder": "대한주택공사",
+    "entrance": "복도식",
+    "useArea": "40332.6",
+    "bjdCode": "4613012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 990,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55024005",
@@ -559,7 +1259,21 @@
     "emd": "미평동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 미평동 284 여수미평1관리소",
+    "builder": "한국토지주택공사",
+    "entrance": "복도식",
+    "useArea": "15343.74",
+    "bjdCode": "4613012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 537,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55076903",
@@ -570,7 +1284,21 @@
     "emd": "미평동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 미평동 807 선경아파트3차",
+    "builder": "SK건설(주)",
+    "entrance": "계단식",
+    "useArea": "68253.599",
+    "bjdCode": "4613012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 699,
+      "u85": 181,
+      "u135": 96,
+      "o135": 0
+    }
   },
   {
     "code": "A10026294",
@@ -581,7 +1309,21 @@
     "emd": "둔덕동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 둔덕동 53-48 여도아파트",
+    "builder": "우진",
+    "entrance": "복도식",
+    "useArea": "4576.46",
+    "bjdCode": "4613012300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 97,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55025001",
@@ -592,7 +1334,21 @@
     "emd": "둔덕동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 둔덕동 464-3 여수신원아르시스",
+    "builder": "(주)신한주택개발",
+    "entrance": "계단식",
+    "useArea": "19868.0908",
+    "bjdCode": "4613012300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 234,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55025002",
@@ -603,7 +1359,21 @@
     "emd": "둔덕동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 둔덕동 464 둔덕주공",
+    "builder": "대한주택공사",
+    "entrance": "계단식",
+    "useArea": "22685.52",
+    "bjdCode": "4613012300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 420,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55025003",
@@ -614,7 +1384,21 @@
     "emd": "둔덕동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 둔덕동 266 라온유",
+    "builder": "라온건설",
+    "entrance": "계단식",
+    "useArea": "71024.055",
+    "bjdCode": "4613012300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 660,
+      "u135": 150,
+      "o135": 0
+    }
   },
   {
     "code": "A55025004",
@@ -625,7 +1409,21 @@
     "emd": "둔덕동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 둔덕동 583 여수중앙하이츠",
+    "builder": "중앙건설",
+    "entrance": "혼합식",
+    "useArea": "69945.6",
+    "bjdCode": "4613012300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 195,
+      "u85": 720,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55025005",
@@ -636,7 +1434,21 @@
     "emd": "둔덕동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 둔덕동 648 한려아파트",
+    "builder": "화성건설,중앙건설",
+    "entrance": "계단식",
+    "useArea": "68272.69",
+    "bjdCode": "4613012300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 756,
+      "u85": 270,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025908",
@@ -647,7 +1459,21 @@
     "emd": "덕충동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 덕충동 2033 여수엑스포시티프라디움",
+    "builder": "시티건설(주)",
+    "entrance": "계단식",
+    "useArea": "29918.1544",
+    "bjdCode": "4613012600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 352,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026323",
@@ -658,7 +1484,21 @@
     "emd": "덕충동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 덕충동 2040 동성노블힐스2차",
+    "builder": "동성종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "4257.7236",
+    "bjdCode": "4613012600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 52,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026429",
@@ -669,7 +1509,21 @@
     "emd": "덕충동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 덕충동 2041 동성노블힐스1차",
+    "builder": "동성노블리",
+    "entrance": "계단식",
+    "useArea": "7211.5363",
+    "bjdCode": "4613012600",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 99,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55001001",
@@ -680,7 +1534,21 @@
     "emd": "덕충동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 덕충동 1797 귀인그린파크",
+    "builder": "영광건설(주)",
+    "entrance": "계단식",
+    "useArea": "15523.68",
+    "bjdCode": "4613012600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 196,
+      "u85": 46,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55075901",
@@ -691,7 +1559,21 @@
     "emd": "덕충동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 덕충동 2038 엑스포힐스테이트1단지",
+    "builder": "한국토지주택공사",
+    "entrance": "계단식",
+    "useArea": "104388.84",
+    "bjdCode": "4613012600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 554,
+      "u135": 516,
+      "o135": 10
+    }
   },
   {
     "code": "A55075902",
@@ -702,7 +1584,21 @@
     "emd": "덕충동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 덕충동 2020 엑스포힐스테이트2단지",
+    "builder": "(주)현대건설",
+    "entrance": "계단식",
+    "useArea": "21711.68",
+    "bjdCode": "4613012600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 322,
+      "u85": 40,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020412",
@@ -714,7 +1610,21 @@
     "sigunguCode": "46130",
     "sido": "전라남도",
     "sigungu": "여수시",
-    "hhldCnt": 244
+    "hhldCnt": 244,
+    "jibunAddr": "전라남도 여수시 학동 74- 쌍용더플래티넘여수35아파트",
+    "builder": "쌍용건설(주)",
+    "entrance": "계단식",
+    "useArea": "20916.34",
+    "bjdCode": "4613012800",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 35,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023997",
@@ -725,7 +1635,21 @@
     "emd": "학동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 학동 1 e-편한세상 여수 더퍼스트아파트",
+    "builder": "DL 이앤씨",
+    "entrance": "계단식",
+    "useArea": "64624.5851",
+    "bjdCode": "4613012800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 106,
+      "u85": 715,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027290",
@@ -736,7 +1660,21 @@
     "emd": "학동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 학동 175-9 센트럴파크",
+    "builder": "제이앤케이",
+    "entrance": "복도식",
+    "useArea": "5588.76",
+    "bjdCode": "4613012800",
+    "aptType": "주상복합",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 220,
+      "u85": 1,
+      "u135": 0,
+      "o135": 2
+    }
   },
   {
     "code": "A55570501",
@@ -747,7 +1685,21 @@
     "emd": "학동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 학동 39-13 프라임시티",
+    "builder": "엑스포종합건설(주)",
+    "entrance": "복도식",
+    "useArea": "7773.9904",
+    "bjdCode": "4613012800",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 297,
+      "u85": 0,
+      "u135": 0,
+      "o135": 3
+    }
   },
   {
     "code": "A55580804",
@@ -758,7 +1710,21 @@
     "emd": "학동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 학동 54 신동아파밀리에아파트",
+    "builder": "신동아건설",
+    "entrance": "계단식",
+    "useArea": "149600.9352",
+    "bjdCode": "4613012800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 472,
+      "u85": 1198,
+      "u135": 160,
+      "o135": 0
+    }
   },
   {
     "code": "A55580901",
@@ -769,7 +1735,21 @@
     "emd": "학동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 학동 111 여천부영1차",
+    "builder": "(주)부영주택",
+    "entrance": "계단식",
+    "useArea": "33796.7776",
+    "bjdCode": "4613012800",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 60,
+      "u85": 356,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020334",
@@ -780,7 +1760,21 @@
     "emd": "학용동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 학용동 73-3 여수원더라움더힐",
+    "builder": "우평건설주식회사",
+    "entrance": "계단식",
+    "useArea": "14577.6104",
+    "bjdCode": "4613012900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022178",
@@ -791,7 +1785,21 @@
     "emd": "안산동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 안산동 28- LG화학 여수 안산사택",
+    "builder": "대명종합건설",
+    "entrance": "계단식",
+    "useArea": "12826.32",
+    "bjdCode": "4613013000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 4,
+    "areaBreak": {
+      "u60": 40,
+      "u85": 152,
+      "u135": 8,
+      "o135": 0
+    }
   },
   {
     "code": "A10022244",
@@ -802,7 +1810,20 @@
     "emd": "안산동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 안산동 435 LG화학 도원사택",
+    "builder": "lg건설",
+    "entrance": "복도식",
+    "useArea": "13226.4",
+    "bjdCode": "4613013000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "areaBreak": {
+      "u60": 156,
+      "u85": 48,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55505001",
@@ -813,7 +1834,21 @@
     "emd": "안산동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 안산동 658 모아미래도 아파트",
+    "builder": "모아건설산업(주)",
+    "entrance": "계단식",
+    "useArea": "25397.6281",
+    "bjdCode": "4613013000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 299,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55570901",
@@ -824,7 +1859,21 @@
     "emd": "안산동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 안산동 727 우미린아파트",
+    "builder": "우미건설",
+    "entrance": "계단식",
+    "useArea": "24087.084",
+    "bjdCode": "4613013000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 120,
+      "u135": 120,
+      "o135": 0
+    }
   },
   {
     "code": "A55570902",
@@ -835,7 +1884,21 @@
     "emd": "안산동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 안산동 441-1 여천부영2차아파트",
+    "builder": "부영주택",
+    "entrance": "복도식",
+    "useArea": "50931.36",
+    "bjdCode": "4613013000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 768,
+      "u85": 108,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55570903",
@@ -846,7 +1909,21 @@
     "emd": "안산동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 안산동 440 여천부영5차",
+    "builder": "(주)부영주택",
+    "entrance": "계단식",
+    "useArea": "60988.5392",
+    "bjdCode": "4613013000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 222,
+      "u85": 562,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022116",
@@ -857,7 +1934,20 @@
     "emd": "소호동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 소호동 352-2 LG소호사택",
+    "builder": "엘지",
+    "entrance": "복도식",
+    "useArea": "16869.6",
+    "bjdCode": "4613013100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "areaBreak": {
+      "u60": 284,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55506001",
@@ -868,7 +1958,21 @@
     "emd": "소호동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 소호동 427 우미오션빌",
+    "builder": "우미건설",
+    "entrance": "계단식",
+    "useArea": "23437.767",
+    "bjdCode": "4613013100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 149,
+      "u135": 90,
+      "o135": 0
+    }
   },
   {
     "code": "A55506002",
@@ -879,7 +1983,21 @@
     "emd": "소호동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 소호동 424 프레지던트",
+    "builder": "금호건설",
+    "entrance": "계단식",
+    "useArea": "47314.85",
+    "bjdCode": "4613013100",
+    "aptType": "아파트",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 325,
+      "u135": 111,
+      "o135": 30
+    }
   },
   {
     "code": "A55506003",
@@ -890,7 +2008,21 @@
     "emd": "소호동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 소호동 353 소호금호아파트",
+    "builder": "금호건설(주)",
+    "entrance": "계단식",
+    "useArea": "48611.1",
+    "bjdCode": "4613013100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 512,
+      "u135": 24,
+      "o135": 24
+    }
   },
   {
     "code": "A55506004",
@@ -901,7 +2033,21 @@
     "emd": "소호동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 소호동 423 주은금호아파트",
+    "builder": "금호산업(주)",
+    "entrance": "복도식",
+    "useArea": "97498.777",
+    "bjdCode": "4613013100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1392,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55506005",
@@ -912,7 +2058,21 @@
     "emd": "소호동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 소호동 352-1 여수소호",
+    "builder": "호반건설",
+    "entrance": "복도식",
+    "useArea": "19360.45",
+    "bjdCode": "4613013100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 476,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55503001",
@@ -923,7 +2083,21 @@
     "emd": "시전동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 시전동 243 우미타운",
+    "builder": "우미건설",
+    "entrance": "계단식",
+    "useArea": "35898.43",
+    "bjdCode": "4613013200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 206,
+      "u85": 265,
+      "u135": 24,
+      "o135": 0
+    }
   },
   {
     "code": "A10021769",
@@ -934,7 +2108,21 @@
     "emd": "신기동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 신기동 11- 신기휴스티지",
+    "builder": "대창기업",
+    "entrance": "계단식",
+    "useArea": "11983.557",
+    "bjdCode": "4613013300",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 142,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023090",
@@ -945,7 +2133,21 @@
     "emd": "신기동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 신기동 8-1 여수 대광 로제비앙",
+    "builder": "대광건영",
+    "entrance": "계단식",
+    "useArea": "34135.2671",
+    "bjdCode": "4613013300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 305,
+      "u135": 0,
+      "o135": 58
+    }
   },
   {
     "code": "A55502004",
@@ -956,7 +2158,21 @@
     "emd": "신기동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 신기동 140 신화아파트",
+    "builder": "(주)광주고속",
+    "entrance": "계단식",
+    "useArea": "32655.51",
+    "bjdCode": "4613013300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 90,
+      "u85": 330,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55502005",
@@ -967,7 +2183,21 @@
     "emd": "신기동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 신기동 6 신기주공3단지아파트",
+    "builder": "대한주택공사",
+    "entrance": "계단식",
+    "useArea": "18934.5",
+    "bjdCode": "4613013300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 450,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55570601",
@@ -978,7 +2208,21 @@
     "emd": "신기동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 신기동 137 신기부영3차",
+    "builder": "부영주택",
+    "entrance": "복도식",
+    "useArea": "90172.32",
+    "bjdCode": "4613013300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 1367,
+      "u85": 96,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55580303",
@@ -989,7 +2233,21 @@
     "emd": "신기동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 신기동 75 우림필유아파트",
+    "builder": "우림건설(주)",
+    "entrance": "계단식",
+    "useArea": "49131.5284",
+    "bjdCode": "4613013300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 90,
+      "u135": 268,
+      "o135": 60
+    }
   },
   {
     "code": "A10023465",
@@ -1000,7 +2258,21 @@
     "emd": "웅천동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 웅천동 1840 웅천더힐",
+    "builder": "(주)부영주택",
+    "entrance": "계단식",
+    "useArea": "89523.9828",
+    "bjdCode": "4613013400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1054,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024010",
@@ -1011,7 +2283,21 @@
     "emd": "웅천동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 웅천동 1835 여수웅천포레스트 부영2단지",
+    "builder": "부영주택",
+    "entrance": "계단식",
+    "useArea": "53452.0326",
+    "bjdCode": "4613013400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 370,
+      "u85": 368,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024033",
@@ -1022,7 +2308,21 @@
     "emd": "웅천동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 웅천동 1832 여수웅천포레스트부영1단지",
+    "builder": "(주)부영주택",
+    "entrance": "계단식",
+    "useArea": "46850.0544",
+    "bjdCode": "4613013400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 376,
+      "u85": 286,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024432",
@@ -1033,7 +2333,21 @@
     "emd": "웅천동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 웅천동 1866-1 포레나 여수웅천더테라스",
+    "builder": "한화건설",
+    "entrance": "계단식",
+    "useArea": "41642.1464",
+    "bjdCode": "4613013400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 4,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 348,
+      "u135": 96,
+      "o135": 8
+    }
   },
   {
     "code": "A10025466",
@@ -1044,7 +2358,21 @@
     "emd": "웅천동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 웅천동 1889-1 포레나 여수 웅천2단지아파트",
+    "builder": "한화건설",
+    "entrance": "계단식",
+    "useArea": "122766.2353",
+    "bjdCode": "4613013400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1162,
+      "u135": 286,
+      "o135": 0
+    }
   },
   {
     "code": "A10025501",
@@ -1055,7 +2383,21 @@
     "emd": "웅천동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 웅천동 1888-1 포레나여수웅천1단지아파트",
+    "builder": "아시아신탁(주)",
+    "entrance": "계단식",
+    "useArea": "31240.5797",
+    "bjdCode": "4613013400",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 180,
+      "u135": 153,
+      "o135": 0
+    }
   },
   {
     "code": "A10026573",
@@ -1066,7 +2408,21 @@
     "emd": "웅천동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 웅천동 1853 여수웅천사랑으로부영5차아파트",
+    "builder": "부영주택(주)",
+    "entrance": "계단식",
+    "useArea": "15874.2092",
+    "bjdCode": "4613013400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 103,
+      "u85": 115,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027959",
@@ -1077,7 +2433,21 @@
     "emd": "웅천동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 웅천동 1232 웅천부영2차",
+    "builder": "부영",
+    "entrance": "계단식",
+    "useArea": "86712.552",
+    "bjdCode": "4613013400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 180,
+      "u85": 900,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027968",
@@ -1088,7 +2458,21 @@
     "emd": "웅천동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 웅천동 270 웅천부영3차아파트",
+    "builder": "(주)부영주택",
+    "entrance": "계단식",
+    "useArea": "43358.9584",
+    "bjdCode": "4613013400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 228,
+      "u85": 352,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10028039",
@@ -1099,7 +2483,21 @@
     "emd": "웅천동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 웅천동 1395 여수웅천사랑으로부영1차아파트",
+    "builder": "부영주택",
+    "entrance": "계단식",
+    "useArea": "33423.7312",
+    "bjdCode": "4613013400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 96,
+      "u85": 328,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55507001",
@@ -1110,7 +2508,21 @@
     "emd": "웅천동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 웅천동 1683 웅천지웰",
+    "builder": "한라건설",
+    "entrance": "혼합식",
+    "useArea": "88323.44",
+    "bjdCode": "4613013400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 150,
+      "u85": 934,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55507002",
@@ -1121,7 +2533,21 @@
     "emd": "웅천동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 웅천동 1642 웅천지웰2차",
+    "builder": "주식회사 신영",
+    "entrance": "계단식",
+    "useArea": "53498.3",
+    "bjdCode": "4613013400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 564,
+      "u135": 50,
+      "o135": 0
+    }
   },
   {
     "code": "A55507003",
@@ -1132,7 +2558,21 @@
     "emd": "웅천동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 웅천동 1643 여수웅천지웰3차",
+    "builder": "한라건설",
+    "entrance": "계단식",
+    "useArea": "58704.2056",
+    "bjdCode": "4613013400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 571,
+      "u135": 101,
+      "o135": 0
+    }
   },
   {
     "code": "A55504001",
@@ -1143,7 +2583,21 @@
     "emd": "선원동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 선원동 1311-2 선원대주아파트",
+    "builder": "송촌건설(주)",
+    "entrance": "계단식",
+    "useArea": "11117.85",
+    "bjdCode": "4613013500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 165,
+      "u85": 15,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55504002",
@@ -1154,7 +2608,21 @@
     "emd": "선원동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 선원동 53 선원금호타운",
+    "builder": "(주)광주고속",
+    "entrance": "계단식",
+    "useArea": "45797.7",
+    "bjdCode": "4613013500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 540,
+      "u135": 30,
+      "o135": 0
+    }
   },
   {
     "code": "A55504003",
@@ -1165,7 +2633,21 @@
     "emd": "선원동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 선원동 1256 남양아파트",
+    "builder": "남양건설",
+    "entrance": "혼합식",
+    "useArea": "51581.08",
+    "bjdCode": "4613013500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 970,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55571404",
@@ -1176,7 +2658,21 @@
     "emd": "선원동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 선원동 1341 우미이노스빌",
+    "builder": "우미건설",
+    "entrance": "계단식",
+    "useArea": "36215.6955",
+    "bjdCode": "4613013500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 150,
+      "u85": 141,
+      "u135": 120,
+      "o135": 0
+    }
   },
   {
     "code": "A55511001",
@@ -1187,7 +2683,21 @@
     "emd": "화장동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 화장동 882 무선주공3단지",
+    "builder": "한국토지주택공사",
+    "entrance": "복도식",
+    "useArea": "63973.48",
+    "bjdCode": "4613013700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1497,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55511003",
@@ -1198,7 +2708,21 @@
     "emd": "화장동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 화장동 740 무선주공2단지",
+    "builder": "라인건설,삼능건설",
+    "entrance": "복도식",
+    "useArea": "43139.88",
+    "bjdCode": "4613013700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 742,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55571104",
@@ -1209,7 +2733,21 @@
     "emd": "화장동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 화장동 740 무선주공1단지",
+    "builder": "라인건설",
+    "entrance": "복도식",
+    "useArea": "8595.81",
+    "bjdCode": "4613013700",
+    "aptType": "아파트",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 298,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55508001",
@@ -1220,7 +2758,21 @@
     "emd": "봉계동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 봉계동 2 신동아아파트",
+    "builder": "(주)신동아건설",
+    "entrance": "계단식",
+    "useArea": "25537.36",
+    "bjdCode": "4613013900",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 367,
+      "u85": 42,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55508002",
@@ -1231,7 +2783,21 @@
     "emd": "봉계동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 봉계동 5-5 로얄골드빌",
+    "builder": "로얄종합건설",
+    "entrance": "계단식",
+    "useArea": "47292.732",
+    "bjdCode": "4613013900",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 558,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55508003",
@@ -1242,7 +2808,21 @@
     "emd": "봉계동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 봉계동 5-25 아주타운아파트",
+    "builder": "(주)석탑건설",
+    "entrance": "계단식",
+    "useArea": "43545.6",
+    "bjdCode": "4613013900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 650,
+      "u85": 54,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55575001",
@@ -1253,7 +2833,21 @@
     "emd": "봉계동",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 봉계동 11 대광오투빌아파트",
+    "builder": "(주)대광건설",
+    "entrance": "계단식",
+    "useArea": "59597.3467",
+    "bjdCode": "4613013900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 176,
+      "u85": 579,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55690201",
@@ -1264,7 +2858,21 @@
     "emd": "돌산읍",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 돌산읍 우두리 1046-1 청솔1차",
+    "builder": "새롬성원산업주식회사",
+    "entrance": "복도식",
+    "useArea": "44887.5",
+    "bjdCode": "4613025030",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 750,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55690202",
@@ -1275,7 +2883,21 @@
     "emd": "돌산읍",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 돌산읍 우두리 1132-1 돌산청솔2차",
+    "builder": "새롬성원",
+    "entrance": "복도식",
+    "useArea": "33516",
+    "bjdCode": "4613025030",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 560,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55690203",
@@ -1286,7 +2908,21 @@
     "emd": "돌산읍",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 돌산읍 우두리 1134-2 여수청솔3차",
+    "builder": "새롬성원",
+    "entrance": "복도식",
+    "useArea": "33994.8",
+    "bjdCode": "4613025030",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 568,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024028",
@@ -1297,7 +2933,21 @@
     "emd": "소라면",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 소라면 죽림리 1254 여수힐스테이트 죽림 젠트리스아파트",
+    "builder": "현대엔지니어링(주)",
+    "entrance": "계단식",
+    "useArea": "77595.7135",
+    "bjdCode": "4613031022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 180,
+      "u85": 809,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026843",
@@ -1308,7 +2958,21 @@
     "emd": "소라면",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 소라면 죽림리 1247 양우내안애 아파트",
+    "builder": "양우건설",
+    "entrance": "계단식",
+    "useArea": "60550.8456",
+    "bjdCode": "4613031022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 220,
+      "u85": 593,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026950",
@@ -1319,7 +2983,21 @@
     "emd": "소라면",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 소라면 죽림리 1117 여수 죽림호반베르디움 아파트",
+    "builder": "(주)리젠시빌주택, (주)호반건설",
+    "entrance": "계단식",
+    "useArea": "22845.1121",
+    "bjdCode": "4613031022",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 269,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55681101",
@@ -1330,7 +3008,21 @@
     "emd": "소라면",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 소라면 죽림리 1123 여수죽림휴먼시아2단지",
+    "builder": "신동아건설",
+    "entrance": "계단식",
+    "useArea": "33109.05",
+    "bjdCode": "4613031022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 775,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55681102",
@@ -1341,7 +3033,21 @@
     "emd": "소라면",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 소라면 죽림리 1102 여수죽림휴먼시아1단지",
+    "builder": "한국토지주택공사",
+    "entrance": "복도식",
+    "useArea": "33826.58",
+    "bjdCode": "4613031022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 830,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55681103",
@@ -1352,7 +3058,21 @@
     "emd": "소라면",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 소라면 죽림리 1130 죽림부영1차",
+    "builder": "(주)부영주택",
+    "entrance": "계단식",
+    "useArea": "103629.344",
+    "bjdCode": "4613031022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 390,
+      "u85": 950,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55681104",
@@ -1363,7 +3083,21 @@
     "emd": "소라면",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 소라면 죽림리 1111 여수죽림부영2차",
+    "builder": "부영주택",
+    "entrance": "계단식",
+    "useArea": "51901.8824",
+    "bjdCode": "4613031022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 866,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020433",
@@ -1375,7 +3109,21 @@
     "sigunguCode": "46130",
     "sido": "전라남도",
     "sigungu": "여수시",
-    "hhldCnt": 258
+    "hhldCnt": 258,
+    "jibunAddr": "전라남도 여수시 율촌면 월산리 1502-1 율촌국제미소래 1·2차아파트",
+    "builder": "국제미소래(주)",
+    "entrance": "계단식",
+    "useArea": "26968.8892",
+    "bjdCode": "4613032022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A55689101",
@@ -1386,6 +3134,20 @@
     "emd": "율촌면",
     "sigunguCode": "46130",
     "sido": "전라남도",
-    "sigungu": "여수시"
+    "sigungu": "여수시",
+    "jibunAddr": "전라남도 여수시 율촌면 월산리 1501-1 여수동양엔파트",
+    "builder": "동양메이져(주)건설",
+    "entrance": "계단식",
+    "useArea": "27337.6652",
+    "bjdCode": "4613032022",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 118,
+      "u85": 239,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

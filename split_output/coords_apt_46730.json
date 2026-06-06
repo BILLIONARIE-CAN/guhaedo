@@ -8,7 +8,21 @@
     "emd": "구례읍",
     "sigunguCode": "46730",
     "sido": "전라남도",
-    "sigungu": "구례군"
+    "sigungu": "구례군",
+    "jibunAddr": "전라남도 구례군 구례읍 봉동리 578- 구례월드메르디앙아파트",
+    "builder": "혜우이엔씨",
+    "entrance": "계단식",
+    "useArea": "22008.2991",
+    "bjdCode": "4673025021",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 261,
+      "u135": 3,
+      "o135": 0
+    }
   },
   {
     "code": "A10022445",
@@ -19,7 +33,21 @@
     "emd": "구례읍",
     "sigunguCode": "46730",
     "sido": "전라남도",
-    "sigungu": "구례군"
+    "sigungu": "구례군",
+    "jibunAddr": "전라남도 구례군 구례읍 백련리 594- 트루엘 센텀포레",
+    "builder": "일성건설",
+    "entrance": "복도식",
+    "useArea": "20971.613",
+    "bjdCode": "4673025023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 247,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54280001",
@@ -30,7 +58,21 @@
     "emd": "구례읍",
     "sigunguCode": "46730",
     "sido": "전라남도",
-    "sigungu": "구례군"
+    "sigungu": "구례군",
+    "jibunAddr": "전라남도 구례군 구례읍 백련리 575 명지아파트",
+    "builder": "명지건설",
+    "entrance": "계단식",
+    "useArea": "19844.32",
+    "bjdCode": "4673025023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 212,
+      "u85": 84,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54280003",
@@ -41,7 +83,21 @@
     "emd": "구례읍",
     "sigunguCode": "46730",
     "sido": "전라남도",
-    "sigungu": "구례군"
+    "sigungu": "구례군",
+    "jibunAddr": "전라남도 구례군 구례읍 봉서리 2269 구례산이고운",
+    "builder": "산이건설(주)",
+    "entrance": "계단식",
+    "useArea": "12505.48",
+    "bjdCode": "4673025026",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 172,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54280002",
@@ -52,6 +108,20 @@
     "emd": "구례읍",
     "sigunguCode": "46730",
     "sido": "전라남도",
-    "sigungu": "구례군"
+    "sigungu": "구례군",
+    "jibunAddr": "전라남도 구례군 구례읍 봉북리 458-6 지리산파크",
+    "builder": "주영주택",
+    "entrance": "혼합식",
+    "useArea": "12195.9",
+    "bjdCode": "4673025030",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 90,
+      "u85": 90,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

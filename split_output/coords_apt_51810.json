@@ -8,7 +8,21 @@
     "emd": "인제읍",
     "sigunguCode": "51810",
     "sido": "강원특별자치도",
-    "sigungu": "인제군"
+    "sigungu": "인제군",
+    "jibunAddr": "강원특별자치도 인제군 인제읍 상동리 43-1 내설악아파트",
+    "builder": "우신(주)",
+    "entrance": "혼합식",
+    "useArea": "11629.32",
+    "bjdCode": "5181025021",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 82,
+      "u85": 80,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024991",
@@ -19,7 +33,21 @@
     "emd": "인제읍",
     "sigunguCode": "51810",
     "sido": "강원특별자치도",
-    "sigungu": "인제군"
+    "sigungu": "인제군",
+    "jibunAddr": "강원특별자치도 인제군 인제읍 남북리 833 라온프라이빗 아파트",
+    "builder": "라온건설",
+    "entrance": "계단식",
+    "useArea": "25171.29",
+    "bjdCode": "5181025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 111,
+      "u85": 218,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024690",
@@ -30,7 +58,21 @@
     "emd": "인제읍",
     "sigunguCode": "51810",
     "sido": "강원특별자치도",
-    "sigungu": "인제군"
+    "sigungu": "인제군",
+    "jibunAddr": "강원특별자치도 인제군 인제읍 합강리 370 인제 양우내안애 아파트",
+    "builder": "양우건설주식회사",
+    "entrance": "계단식",
+    "useArea": "18300.0127",
+    "bjdCode": "5181025023",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 216,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020998",
@@ -41,7 +83,21 @@
     "emd": "북면",
     "sigunguCode": "51810",
     "sido": "강원특별자치도",
-    "sigungu": "인제군"
+    "sigungu": "인제군",
+    "jibunAddr": "강원특별자치도 인제군 북면 원통리 732-14 인제라포레아파트",
+    "builder": "주식회사종합건설목금토",
+    "entrance": "혼합식",
+    "useArea": "9020.4",
+    "bjdCode": "5181032021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 75,
+      "u85": 54,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022112",
@@ -52,6 +108,20 @@
     "emd": "북면",
     "sigunguCode": "51810",
     "sido": "강원특별자치도",
-    "sigungu": "인제군"
+    "sigungu": "인제군",
+    "jibunAddr": "강원특별자치도 인제군 북면 원통리 546-7 신아아파트",
+    "builder": "신아",
+    "entrance": "복도식",
+    "useArea": "5322.91",
+    "bjdCode": "5181032021",
+    "aptType": "아파트",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 116,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

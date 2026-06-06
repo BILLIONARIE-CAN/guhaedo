@@ -8,7 +8,21 @@
     "emd": "삼북동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 삼북동 27 삼북주공아파트",
+    "builder": "LH",
+    "entrance": "계단식",
+    "useArea": "37184.8",
+    "bjdCode": "4729010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 620,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024300",
@@ -19,7 +33,20 @@
     "emd": "서상동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 서상동 131-7 동남아파트",
+    "builder": "삼화건설주식회사",
+    "entrance": "혼합식",
+    "useArea": "6263.116",
+    "bjdCode": "4729010300",
+    "mgrType": "자치관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 106,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71204001",
@@ -30,7 +57,21 @@
     "emd": "신교동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 신교동 0 경산은하맨션",
+    "builder": "경남,신천지",
+    "entrance": "혼합식",
+    "useArea": "8728.54",
+    "bjdCode": "4729010400",
+    "aptType": "아파트",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 42,
+      "u85": 76,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025180",
@@ -41,7 +82,21 @@
     "emd": "상방동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 상방동 298 남천리버뷰우방아이유쉘",
+    "builder": "(주)우방",
+    "entrance": "계단식",
+    "useArea": "20652.3597",
+    "bjdCode": "4729010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 28,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 279,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71207002",
@@ -52,7 +107,21 @@
     "emd": "상방동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 상방동 130 경산태성맨션",
+    "builder": "(주)태성주택건업",
+    "entrance": "혼합식",
+    "useArea": "25573.61",
+    "bjdCode": "4729010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 131,
+      "u85": 152,
+      "u135": 38,
+      "o135": 0
+    }
   },
   {
     "code": "A71279501",
@@ -63,7 +132,21 @@
     "emd": "상방동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 상방동 292 상방주공아파트",
+    "builder": "남양건설",
+    "entrance": "혼합식",
+    "useArea": "27364.62",
+    "bjdCode": "4729010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 528,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026245",
@@ -74,7 +157,21 @@
     "emd": "백천동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 백천동 166 경산삼도뷰엔빌W아파트",
+    "builder": "삼도주택(주)",
+    "entrance": "계단식",
+    "useArea": "94970.6423",
+    "bjdCode": "4729010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 95,
+      "u85": 1020,
+      "u135": 98,
+      "o135": 0
+    }
   },
   {
     "code": "A71210001",
@@ -85,7 +182,21 @@
     "emd": "백천동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 백천동 572-1 동화리버빌",
+    "builder": "동화주택",
+    "entrance": "계단식",
+    "useArea": "27314.3376",
+    "bjdCode": "4729010600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 236,
+      "u135": 60,
+      "o135": 0
+    }
   },
   {
     "code": "A71210002",
@@ -96,7 +207,21 @@
     "emd": "백천동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 백천동 115-7 윤성2차아파트",
+    "builder": "삼화건설",
+    "entrance": "혼합식",
+    "useArea": "24647.47",
+    "bjdCode": "4729010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 413,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71210003",
@@ -107,7 +232,21 @@
     "emd": "백천동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 백천동 588-1 백천신나리아파트",
+    "builder": "(주)삼능건설",
+    "entrance": "계단식",
+    "useArea": "41982.303",
+    "bjdCode": "4729010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 390,
+      "u85": 240,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71210004",
@@ -118,7 +257,21 @@
     "emd": "백천동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 백천동 571-1 부영초록마을",
+    "builder": "(주)동광주택",
+    "entrance": "계단식",
+    "useArea": "72898.8584",
+    "bjdCode": "4729010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 48,
+      "u85": 824,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71210005",
@@ -129,7 +282,21 @@
     "emd": "백천동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 백천동 571-2 경산백천월드메르디앙",
+    "builder": "월드건설",
+    "entrance": "계단식",
+    "useArea": "77227.7239",
+    "bjdCode": "4729010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 755,
+      "u135": 118,
+      "o135": 0
+    }
   },
   {
     "code": "A71275406",
@@ -140,7 +307,21 @@
     "emd": "백천동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 백천동 570 경산백천1",
+    "builder": "삼아건설",
+    "entrance": "복도식",
+    "useArea": "21375.04",
+    "bjdCode": "4729010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 627,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027666",
@@ -151,7 +332,21 @@
     "emd": "옥곡동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 옥곡동 85-12 경산옥곡태왕아너스고은",
+    "builder": "(주)태왕이엔씨",
+    "entrance": "혼합식",
+    "useArea": "19109.0353",
+    "bjdCode": "4729010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 225,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71208002",
@@ -162,7 +357,21 @@
     "emd": "옥곡동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 옥곡동 828 경산옥곡한일유앤아이",
+    "builder": "한일건설",
+    "entrance": "계단식",
+    "useArea": "25954.0816",
+    "bjdCode": "4729010700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 328,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71208003",
@@ -173,7 +382,21 @@
     "emd": "옥곡동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 옥곡동 85-1 성암산 신동아파밀리에",
+    "builder": "금세기건설",
+    "entrance": "계단식",
+    "useArea": "120502.507",
+    "bjdCode": "4729010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 662,
+      "o135": 238
+    }
   },
   {
     "code": "A71208004",
@@ -184,7 +407,21 @@
     "emd": "옥곡동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 옥곡동 829-1 경산서부2차부영",
+    "builder": "동광산업",
+    "entrance": "계단식",
+    "useArea": "43337.301",
+    "bjdCode": "4729010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 510,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71208005",
@@ -195,7 +432,21 @@
     "emd": "옥곡동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 옥곡동 830 동화프라임빌",
+    "builder": "동화주택",
+    "entrance": "계단식",
+    "useArea": "41436.9064",
+    "bjdCode": "4729010700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 516,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71208007",
@@ -206,7 +457,21 @@
     "emd": "옥곡동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 옥곡동 831-1 경산서부1차부영아파트",
+    "builder": "동광주택산업(주)",
+    "entrance": "계단식",
+    "useArea": "48017.843",
+    "bjdCode": "4729010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 418,
+      "u85": 270,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71208008",
@@ -217,7 +482,21 @@
     "emd": "옥곡동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 옥곡동 832-1 경산서부3차부영사랑으로",
+    "builder": "동광주택",
+    "entrance": "계단식",
+    "useArea": "74689.469",
+    "bjdCode": "4729010700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 296,
+      "u85": 670,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71277801",
@@ -228,7 +507,21 @@
     "emd": "옥곡동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 옥곡동 3-1 경산우방유쉘",
+    "builder": "(주)우방",
+    "entrance": "계단식",
+    "useArea": "37028.3759",
+    "bjdCode": "4729010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 264,
+      "o135": 33
+    }
   },
   {
     "code": "A71279301",
@@ -239,7 +532,21 @@
     "emd": "옥곡동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 옥곡동 80 웰리치성암",
+    "builder": "(주)보국건설",
+    "entrance": "계단식",
+    "useArea": "30554.6821",
+    "bjdCode": "4729010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 250,
+      "o135": 0
+    }
   },
   {
     "code": "A10020842",
@@ -250,7 +557,21 @@
     "emd": "사정동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 사정동 326- 경산역풀리비에",
+    "builder": " 매경주택",
+    "entrance": "계단식",
+    "useArea": "7021.7462",
+    "bjdCode": "4729010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 76,
+      "u85": 34,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020843",
@@ -261,7 +582,21 @@
     "emd": "사정동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 사정동 15- 경산창신1차",
+    "builder": "창신주택",
+    "entrance": "계단식",
+    "useArea": "8770.95",
+    "bjdCode": "4729010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 115,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71205001",
@@ -272,7 +607,21 @@
     "emd": "사정동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 사정동 141 옥산서한이다음아파트",
+    "builder": "(주)서한",
+    "entrance": "계단식",
+    "useArea": "23326.5165",
+    "bjdCode": "4729010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 147,
+      "u135": 90,
+      "o135": 0
+    }
   },
   {
     "code": "A71275802",
@@ -283,7 +632,21 @@
     "emd": "사정동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 사정동 124 옥산삼산타운",
+    "builder": "(주)삼산주택",
+    "entrance": "혼합식",
+    "useArea": "21061.24",
+    "bjdCode": "4729010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 240,
+      "u85": 80,
+      "u135": 22,
+      "o135": 0
+    }
   },
   {
     "code": "A71209005",
@@ -294,7 +657,21 @@
     "emd": "옥산동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 옥산동 884-2 옥산청구타운",
+    "builder": "청구",
+    "entrance": "계단식",
+    "useArea": "47757.4",
+    "bjdCode": "4729010900",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1,
+      "u85": 609,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71209006",
@@ -305,7 +682,21 @@
     "emd": "옥산동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 옥산동 725-2 신화평광아파트",
+    "builder": "신화주택,평광주택",
+    "entrance": "계단식",
+    "useArea": "69623.1",
+    "bjdCode": "4729010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 609,
+      "u85": 204,
+      "u135": 128,
+      "o135": 0
+    }
   },
   {
     "code": "A71276102",
@@ -316,7 +707,21 @@
     "emd": "옥산동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 옥산동 884-4 옥산해오름",
+    "builder": "경산시청",
+    "entrance": "복도식",
+    "useArea": "37517.445",
+    "bjdCode": "4729010900",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 672,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71276404",
@@ -327,7 +732,21 @@
     "emd": "옥산동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 옥산동 885 창신성암타운",
+    "builder": "(주)창신주택",
+    "entrance": "복도식",
+    "useArea": "34151.04",
+    "bjdCode": "4729010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리(직영+위탁)",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 489,
+      "u85": 90,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71276703",
@@ -338,7 +757,21 @@
     "emd": "옥산동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 옥산동 884 옥산협화타운",
+    "builder": "협화주택",
+    "entrance": "계단식",
+    "useArea": "34752.9",
+    "bjdCode": "4729010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 300,
+      "u85": 270,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71280101",
@@ -349,7 +782,21 @@
     "emd": "옥산동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 옥산동 884-1 옥산우방타운",
+    "builder": "(주)우방주택",
+    "entrance": "계단식",
+    "useArea": "70980.73",
+    "bjdCode": "4729010900",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 440,
+      "u135": 324,
+      "o135": 0
+    }
   },
   {
     "code": "A10022078",
@@ -360,7 +807,21 @@
     "emd": "중산동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 중산동 686- 펜타힐즈 푸르지오 2차",
+    "builder": "(주)대우건설",
+    "entrance": "계단식",
+    "useArea": "43072.4184",
+    "bjdCode": "4729011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 35,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 437,
+      "u135": 69,
+      "o135": 0
+    }
   },
   {
     "code": "A10022893",
@@ -371,7 +832,21 @@
     "emd": "중산동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 중산동 705 중산자이1단지",
+    "builder": "GS건설",
+    "entrance": "계단식",
+    "useArea": "96956.3166",
+    "bjdCode": "4729011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1088,
+      "u135": 56,
+      "o135": 0
+    }
   },
   {
     "code": "A10022896",
@@ -382,7 +857,21 @@
     "emd": "중산동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 중산동 706 중산자이2단지",
+    "builder": "GS건설",
+    "entrance": "계단식",
+    "useArea": "35455.8001",
+    "bjdCode": "4729011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 28,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 309,
+      "o135": 0
+    }
   },
   {
     "code": "A10024332",
@@ -393,7 +882,21 @@
     "emd": "중산동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 중산동 693 중산하늘채더퍼스트",
+    "builder": "코오롱글로벌(주)",
+    "entrance": "계단식",
+    "useArea": "107622.7708",
+    "bjdCode": "4729011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 31,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 924,
+      "u135": 260,
+      "o135": 0
+    }
   },
   {
     "code": "A10024343",
@@ -404,7 +907,21 @@
     "emd": "중산동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 중산동 688 힐스테이트펜타힐즈",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "55129.41",
+    "bjdCode": "4729011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 35,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 519,
+      "u135": 138,
+      "o135": 0
+    }
   },
   {
     "code": "A10025420",
@@ -415,7 +932,21 @@
     "emd": "중산동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 중산동 663 펜타힐즈푸르지오",
+    "builder": "(주)대우건설",
+    "entrance": "계단식",
+    "useArea": "64266.6563",
+    "bjdCode": "4729011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 35,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 613,
+      "u135": 140,
+      "o135": 0
+    }
   },
   {
     "code": "A10026129",
@@ -426,7 +957,21 @@
     "emd": "중산동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 중산동 655 펜타힐즈더샵2차아파트",
+    "builder": "포스코건설",
+    "entrance": "계단식",
+    "useArea": "67989.4672",
+    "bjdCode": "4729011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 35,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 688,
+      "u135": 103,
+      "o135": 0
+    }
   },
   {
     "code": "A10026826",
@@ -437,7 +982,21 @@
     "emd": "중산동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 중산동 643 펜타힐즈 더샵1차",
+    "builder": "포스코건설",
+    "entrance": "계단식",
+    "useArea": "138626.0566",
+    "bjdCode": "4729011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 35,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1560,
+      "u135": 136,
+      "o135": 0
+    }
   },
   {
     "code": "A71228001",
@@ -448,7 +1007,21 @@
     "emd": "중산동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 중산동 35-3 경남신성아파트",
+    "builder": "경남건설, 신성건설",
+    "entrance": "계단식",
+    "useArea": "84130.92",
+    "bjdCode": "4729011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 710,
+      "u85": 192,
+      "u135": 216,
+      "o135": 0
+    }
   },
   {
     "code": "A71228002",
@@ -459,7 +1032,21 @@
     "emd": "중산동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 중산동 36-2 옥산태왕한라타운",
+    "builder": "(주)태왕,(주)한라주택",
+    "entrance": "계단식",
+    "useArea": "89567.06",
+    "bjdCode": "4729011000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 748,
+      "u85": 202,
+      "u135": 226,
+      "o135": 0
+    }
   },
   {
     "code": "A71277401",
@@ -470,7 +1057,21 @@
     "emd": "중산동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 중산동 624 펜타힐즈서한이다음",
+    "builder": "(주)서한",
+    "entrance": "계단식",
+    "useArea": "58368.5652",
+    "bjdCode": "4729011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 35,
+    "areaBreak": {
+      "u60": 235,
+      "u85": 516,
+      "u135": 33,
+      "o135": 0
+    }
   },
   {
     "code": "A10022415",
@@ -481,7 +1082,21 @@
     "emd": "정평동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 정평동 168- 한솔3차아파트",
+    "builder": "한솔건설",
+    "entrance": "계단식",
+    "useArea": "10772.15",
+    "bjdCode": "4729011100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 58,
+      "u85": 86,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024529",
@@ -492,7 +1107,21 @@
     "emd": "정평동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 정평동 276 정평역 하늘채 RIVER PARK",
+    "builder": "코오롱글로벌(주)",
+    "entrance": "계단식",
+    "useArea": "71539.0653",
+    "bjdCode": "4729011100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 904,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71211002",
@@ -503,7 +1132,21 @@
     "emd": "정평동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 정평동 130 경산현대타운",
+    "builder": "현대산업개발",
+    "entrance": "계단식",
+    "useArea": "72195.72",
+    "bjdCode": "4729011100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 415,
+      "u85": 558,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71211003",
@@ -514,7 +1157,21 @@
     "emd": "정평동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 정평동 255-87 경산3차우방맨션",
+    "builder": "우방",
+    "entrance": "혼합식",
+    "useArea": "14311.84",
+    "bjdCode": "4729011100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 80,
+      "u85": 112,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71211005",
@@ -525,7 +1182,21 @@
     "emd": "정평동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 정평동 138-6 경산우방1차맨션",
+    "builder": "우방주택",
+    "entrance": "계단식",
+    "useArea": "26118.01",
+    "bjdCode": "4729011100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 149,
+      "u135": 105,
+      "o135": 0
+    }
   },
   {
     "code": "A71211006",
@@ -536,7 +1207,21 @@
     "emd": "정평동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 정평동 151 경산LIG1단지",
+    "builder": "LIG건설",
+    "entrance": "계단식",
+    "useArea": "19694.4778",
+    "bjdCode": "4729011100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 81,
+      "u85": 175,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71211007",
@@ -547,7 +1232,21 @@
     "emd": "정평동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 정평동 138-4 경산우방2차",
+    "builder": "우방",
+    "entrance": "계단식",
+    "useArea": "23736.27",
+    "bjdCode": "4729011100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 291,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71211010",
@@ -558,7 +1257,21 @@
     "emd": "정평동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 정평동 222 태왕귀빈타운",
+    "builder": "(주)태왕주택건설",
+    "entrance": "혼합식",
+    "useArea": "57419.38",
+    "bjdCode": "4729011100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 268,
+      "u85": 404,
+      "u135": 78,
+      "o135": 0
+    }
   },
   {
     "code": "A71277004",
@@ -569,7 +1282,21 @@
     "emd": "정평동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 정평동 255-39 경산한서신혼하이츠",
+    "builder": "한서주택",
+    "entrance": "계단식",
+    "useArea": "18791.28",
+    "bjdCode": "4729011100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 228,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71277101",
@@ -580,7 +1307,21 @@
     "emd": "정평동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 정평동 255-35 한솔2차아파트",
+    "builder": "한솔건설",
+    "entrance": "계단식",
+    "useArea": "28435.735",
+    "bjdCode": "4729011100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 150,
+      "u85": 150,
+      "u135": 50,
+      "o135": 0
+    }
   },
   {
     "code": "A71277108",
@@ -591,7 +1332,21 @@
     "emd": "정평동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 정평동 123 한솔1차아파트",
+    "builder": "한솔건설",
+    "entrance": "계단식",
+    "useArea": "34080.55",
+    "bjdCode": "4729011100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 233,
+      "u85": 177,
+      "u135": 38,
+      "o135": 0
+    }
   },
   {
     "code": "A71277309",
@@ -602,7 +1357,21 @@
     "emd": "정평동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 정평동 240 경산현대아파트",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "40549.84",
+    "bjdCode": "4729011100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 495,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026327",
@@ -613,7 +1382,21 @@
     "emd": "대평동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 대평동 463 협성휴포레 경산대평",
+    "builder": "(주)협성건설",
+    "entrance": "계단식",
+    "useArea": "39605.4817",
+    "bjdCode": "4729011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 494,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71213001",
@@ -624,7 +1407,21 @@
     "emd": "대평동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 대평동 428-1 경산대평그린빌",
+    "builder": "금강기업.호반건설",
+    "entrance": "계단식",
+    "useArea": "88773.34",
+    "bjdCode": "4729011200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 660,
+      "u85": 618,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027261",
@@ -635,7 +1432,21 @@
     "emd": "임당동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 임당동 522 영남대역 코아루 더테라스",
+    "builder": "(주)홍성건설",
+    "entrance": "계단식",
+    "useArea": "12253.66",
+    "bjdCode": "4729011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 148,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021072",
@@ -646,7 +1457,21 @@
     "emd": "계양동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 계양동 690- 초원전원아파트",
+    "builder": "초원전원",
+    "entrance": "계단식",
+    "useArea": "12385.44",
+    "bjdCode": "4729011600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 207,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025554",
@@ -657,7 +1482,21 @@
     "emd": "계양동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 계양동 769 경산임당호반베르디움",
+    "builder": "(주) 호반건설",
+    "entrance": "계단식",
+    "useArea": "46220.3161",
+    "bjdCode": "4729011600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 27,
+    "areaBreak": {
+      "u60": 144,
+      "u85": 443,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71212002",
@@ -668,7 +1507,21 @@
     "emd": "계양동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 계양동 672-1 초원맘모스",
+    "builder": "초원주택",
+    "entrance": "복도식",
+    "useArea": "11871.48",
+    "bjdCode": "4729011600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 262,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71212004",
@@ -679,7 +1532,21 @@
     "emd": "계양동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 계양동 669 계양주공2.3차",
+    "builder": "(구)대한주택공사",
+    "entrance": "계단식",
+    "useArea": "26174.85",
+    "bjdCode": "4729011600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 680,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71275103",
@@ -690,7 +1557,21 @@
     "emd": "계양동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 계양동 669 계양주공1단지아파트",
+    "builder": "대한주택공사",
+    "entrance": "계단식",
+    "useArea": "18013.2",
+    "bjdCode": "4729011600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 410,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020844",
@@ -701,7 +1582,21 @@
     "emd": "중방동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 중방동 304-1 은호아파트",
+    "builder": "모름",
+    "entrance": "계단식",
+    "useArea": "9007.38",
+    "bjdCode": "4729011700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 204,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022589",
@@ -712,7 +1607,21 @@
     "emd": "중방동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 중방동 818-59 경산세광아파트",
+    "builder": "세광주택",
+    "entrance": "계단식",
+    "useArea": "10828.62",
+    "bjdCode": "4729011700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 138,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022738",
@@ -723,7 +1632,21 @@
     "emd": "중방동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 중방동 831-1 초원하이츠",
+    "builder": "확인불가",
+    "entrance": "계단식",
+    "useArea": "10517.76",
+    "bjdCode": "4729011700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 144,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023144",
@@ -734,7 +1657,21 @@
     "emd": "중방동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 중방동 914 중방스타힐스",
+    "builder": "서희건설",
+    "entrance": "계단식",
+    "useArea": "70235.9218",
+    "bjdCode": "4729011700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 28,
+    "areaBreak": {
+      "u60": 217,
+      "u85": 743,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71270301",
@@ -745,7 +1682,21 @@
     "emd": "중방동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 중방동 894 중방e편한세상2단지",
+    "builder": "대림산업",
+    "entrance": "계단식",
+    "useArea": "45991.993",
+    "bjdCode": "4729011700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 285,
+      "u135": 178,
+      "o135": 0
+    }
   },
   {
     "code": "A71270302",
@@ -756,7 +1707,21 @@
     "emd": "중방동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 중방동 893 중방e편한세상1단지",
+    "builder": "대림산업(주)",
+    "entrance": "계단식",
+    "useArea": "43406.657",
+    "bjdCode": "4729011700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 233,
+      "u135": 219,
+      "o135": 0
+    }
   },
   {
     "code": "A71270303",
@@ -767,7 +1732,21 @@
     "emd": "중방동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 중방동 895 중방e편한세상3단지",
+    "builder": "대림산업(주)",
+    "entrance": "계단식",
+    "useArea": "59626.224",
+    "bjdCode": "4729011700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 226,
+      "u135": 214,
+      "o135": 122
+    }
   },
   {
     "code": "A71270304",
@@ -778,7 +1757,21 @@
     "emd": "중방동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 중방동 0 광명(경상북도 경산시 중방동 0 광명)",
+    "builder": "광명",
+    "entrance": "계단식",
+    "useArea": "12857.075",
+    "bjdCode": "4729011700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 190,
+      "u85": 50,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021268",
@@ -789,7 +1782,21 @@
     "emd": "조영동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 조영동 572-2 강산애아파트",
+    "builder": "경동주택건설",
+    "entrance": "계단식",
+    "useArea": "24455.4527",
+    "bjdCode": "4729011800",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 299,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71225001",
@@ -800,7 +1807,21 @@
     "emd": "평산동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 평산동 695 사동휴먼시아2단지",
+    "builder": "남양건설(주)",
+    "entrance": "복도식",
+    "useArea": "24753.74",
+    "bjdCode": "4729012500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 521,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021060",
@@ -811,7 +1832,21 @@
     "emd": "사동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 사동 600-1 창신백조2차아파트",
+    "builder": "창신",
+    "entrance": "계단식",
+    "useArea": "11230.56",
+    "bjdCode": "4729012600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 204,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024722",
@@ -822,7 +1857,21 @@
     "emd": "사동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 사동 297 팰리스부영2단지",
+    "builder": "(주)부영주택",
+    "entrance": "계단식",
+    "useArea": "84846.5784",
+    "bjdCode": "4729012600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1028,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025257",
@@ -833,7 +1882,21 @@
     "emd": "사동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 사동 310 팰리스부영1단지",
+    "builder": "부영주택",
+    "entrance": "계단식",
+    "useArea": "49870.476",
+    "bjdCode": "4729012600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 630,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71219004",
@@ -844,7 +1907,21 @@
     "emd": "사동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 사동 575 효동맨션",
+    "builder": "삼진개발",
+    "entrance": "혼합식",
+    "useArea": "11739.255",
+    "bjdCode": "4729012600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 59,
+      "u85": 98,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71219005",
@@ -855,7 +1932,21 @@
     "emd": "사동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 사동 595 경산계양우방아파트",
+    "builder": "우방",
+    "entrance": "혼합식",
+    "useArea": "14361.9",
+    "bjdCode": "4729012600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 78,
+      "u85": 114,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71219007",
@@ -866,7 +1957,21 @@
     "emd": "사동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 사동 662-1 경산사동1차부영",
+    "builder": "동광주택(주)",
+    "entrance": "혼합식",
+    "useArea": "36485.39",
+    "bjdCode": "4729012600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 640,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71219008",
@@ -877,7 +1982,21 @@
     "emd": "사동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 사동 650-1 경산사동2차부영아파트",
+    "builder": "부영",
+    "entrance": "계단식",
+    "useArea": "61183.296",
+    "bjdCode": "4729012600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 720,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71275502",
@@ -888,7 +2007,21 @@
     "emd": "사동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 사동 600 동산아파트",
+    "builder": "(주)동화건설",
+    "entrance": "계단식",
+    "useArea": "21140.4",
+    "bjdCode": "4729012600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 370,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71275606",
@@ -899,7 +2032,21 @@
     "emd": "사동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 사동 600-5 창신백조1차",
+    "builder": "(주)창신",
+    "entrance": "계단식",
+    "useArea": "18990",
+    "bjdCode": "4729012600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 360,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71275703",
@@ -910,7 +2057,21 @@
     "emd": "사동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 사동 600-3 경산초원파크",
+    "builder": "(주)초원주택",
+    "entrance": "복도식",
+    "useArea": "25085.62",
+    "bjdCode": "4729012600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 420,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71277601",
@@ -921,7 +2082,21 @@
     "emd": "사동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 사동 670-1 경산사동부영5차",
+    "builder": "(주)부영주택",
+    "entrance": "계단식",
+    "useArea": "60962.768",
+    "bjdCode": "4729012600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 138,
+      "u85": 620,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71277602",
@@ -932,7 +2107,21 @@
     "emd": "사동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 사동 180 사동휴먼시아1단지",
+    "builder": "한국토지주택공사",
+    "entrance": "복도식",
+    "useArea": "43492.52",
+    "bjdCode": "4729012600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 896,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71277604",
@@ -943,7 +2132,21 @@
     "emd": "사동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 사동 21 사동2지구화성파크드림",
+    "builder": "화성산업(주)",
+    "entrance": "계단식",
+    "useArea": "60363.5177",
+    "bjdCode": "4729012600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 505,
+      "o135": 0
+    }
   },
   {
     "code": "A71277605",
@@ -954,7 +2157,21 @@
     "emd": "사동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 사동 148 경산사동6차부영",
+    "builder": "부영주택",
+    "entrance": "계단식",
+    "useArea": "117140.0264",
+    "bjdCode": "4729012600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1395,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71277901",
@@ -965,7 +2182,21 @@
     "emd": "사동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 사동 659-1 경산사동3차부영아파트",
+    "builder": "동광주택산업(주)",
+    "entrance": "계단식",
+    "useArea": "26992.4384",
+    "bjdCode": "4729012600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 76,
+      "u85": 264,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71277701",
@@ -976,7 +2207,21 @@
     "emd": "삼풍동",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 삼풍동 500-1 경산태왕드림하이츠",
+    "builder": "(주)태왕",
+    "entrance": "혼합식",
+    "useArea": "77766.4016",
+    "bjdCode": "4729012700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 312,
+      "u85": 597,
+      "u135": 106,
+      "o135": 0
+    }
   },
   {
     "code": "A10021199",
@@ -987,7 +2232,21 @@
     "emd": "하양읍",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 하양읍 금락리 130-5 하양우방2차",
+    "builder": "우방",
+    "entrance": "계단식",
+    "useArea": "18337.6",
+    "bjdCode": "4729025021",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 160,
+      "u135": 40,
+      "o135": 0
+    }
   },
   {
     "code": "A71270108",
@@ -998,7 +2257,21 @@
     "emd": "하양읍",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 하양읍 금락리 130-8 하양3차우방타운",
+    "builder": "우방주택",
+    "entrance": "계단식",
+    "useArea": "38014.68",
+    "bjdCode": "4729025021",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 216,
+      "u85": 220,
+      "u135": 48,
+      "o135": 0
+    }
   },
   {
     "code": "A71270110",
@@ -1009,7 +2282,21 @@
     "emd": "하양읍",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 하양읍 금락리 391-1 하양금락우방타운",
+    "builder": "(주) 우방",
+    "entrance": "혼합식",
+    "useArea": "23621.14",
+    "bjdCode": "4729025021",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 249,
+      "u85": 116,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71290202",
@@ -1020,7 +2307,21 @@
     "emd": "하양읍",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 하양읍 금락리 407-1 하양2차롯데낙천대",
+    "builder": "롯데건설",
+    "entrance": "계단식",
+    "useArea": "35768.364",
+    "bjdCode": "4729025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 272,
+      "u85": 170,
+      "u135": 44,
+      "o135": 0
+    }
   },
   {
     "code": "A71290204",
@@ -1031,7 +2332,21 @@
     "emd": "하양읍",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 하양읍 금락리 392-1 하양롯데1차아파트",
+    "builder": "롯데건설",
+    "entrance": "계단식",
+    "useArea": "62396.36",
+    "bjdCode": "4729025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 184,
+      "u85": 460,
+      "u135": 0,
+      "o135": 80
+    }
   },
   {
     "code": "A71290506",
@@ -1042,7 +2357,21 @@
     "emd": "하양읍",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 하양읍 금락리 116-58 하나맨션1차",
+    "builder": "(주)하나공영",
+    "entrance": "계단식",
+    "useArea": "19529.85",
+    "bjdCode": "4729025021",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 238,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71291103",
@@ -1053,7 +2382,21 @@
     "emd": "하양읍",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 하양읍 금락리 408-1 하양평광타운",
+    "builder": "평광주택",
+    "entrance": "계단식",
+    "useArea": "41967.64",
+    "bjdCode": "4729025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 700,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026537",
@@ -1064,7 +2407,21 @@
     "emd": "하양읍",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 하양읍 동서리 1220 하양코아루3차",
+    "builder": "동서건설",
+    "entrance": "계단식",
+    "useArea": "16784.308",
+    "bjdCode": "4729025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 48,
+      "u85": 164,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027081",
@@ -1075,7 +2432,21 @@
     "emd": "하양읍",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 하양읍 동서리 1218 경산하양코아루2차",
+    "builder": "우미건설",
+    "entrance": "계단식",
+    "useArea": "35369.4808",
+    "bjdCode": "4729025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 30,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 441,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027540",
@@ -1086,7 +2457,21 @@
     "emd": "하양읍",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 하양읍 동서리 1216 경산하양코아루 1차",
+    "builder": "동서건설",
+    "entrance": "계단식",
+    "useArea": "22837.9434",
+    "bjdCode": "4729025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 126,
+      "u85": 188,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71290007",
@@ -1097,7 +2482,21 @@
     "emd": "하양읍",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 하양읍 동서리 740-1 하양2차청구타운",
+    "builder": "(주)청구",
+    "entrance": "계단식",
+    "useArea": "31329.87",
+    "bjdCode": "4729025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 172,
+      "u85": 202,
+      "u135": 32,
+      "o135": 0
+    }
   },
   {
     "code": "A71290009",
@@ -1108,7 +2507,21 @@
     "emd": "하양읍",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 하양읍 동서리 1082-1 하양청구타운",
+    "builder": "청구주택",
+    "entrance": "계단식",
+    "useArea": "42399.64",
+    "bjdCode": "4729025022",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 228,
+      "u85": 284,
+      "u135": 34,
+      "o135": 0
+    }
   },
   {
     "code": "A71290801",
@@ -1119,7 +2532,21 @@
     "emd": "하양읍",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 하양읍 동서리 747 하양삼우궁전맨션",
+    "builder": "삼우건설",
+    "entrance": "혼합식",
+    "useArea": "12180.63",
+    "bjdCode": "4729025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 66,
+      "u85": 97,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71270105",
@@ -1130,7 +2557,21 @@
     "emd": "하양읍",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 하양읍 도리리 112-6 하양동신",
+    "builder": "(주)동신건설",
+    "entrance": "계단식",
+    "useArea": "12596.56",
+    "bjdCode": "4729025023",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 104,
+      "u85": 84,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022658",
@@ -1141,7 +2582,21 @@
     "emd": "하양읍",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 하양읍 서사리 278 경산하양 제일풍경채",
+    "builder": "(주)제일건설",
+    "entrance": "계단식",
+    "useArea": "49337.3378",
+    "bjdCode": "4729025024",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 35,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 614,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023401",
@@ -1152,7 +2607,21 @@
     "emd": "하양읍",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 하양읍 서사리 281 경산하양금호어울림",
+    "builder": "금호건설(주),이수건설(주)",
+    "entrance": "계단식",
+    "useArea": "37512.98",
+    "bjdCode": "4729025024",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 626,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023428",
@@ -1163,7 +2632,21 @@
     "emd": "하양읍",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 하양읍 서사리 286 우미린 에코포레",
+    "builder": "우미건설",
+    "entrance": "계단식",
+    "useArea": "65594.6386",
+    "bjdCode": "4729025024",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 35,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 787,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024199",
@@ -1174,7 +2657,21 @@
     "emd": "하양읍",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 하양읍 서사리 351 우미린 더센트럴",
+    "builder": "우미건설",
+    "entrance": "계단식",
+    "useArea": "65912.4995",
+    "bjdCode": "4729025024",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 33,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 551,
+      "u135": 186,
+      "o135": 0
+    }
   },
   {
     "code": "A10024312",
@@ -1185,7 +2682,21 @@
     "emd": "하양읍",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 하양읍 서사리 349 하양 호반써밋 더퍼스트",
+    "builder": "호반건설(주)",
+    "entrance": "계단식",
+    "useArea": "57773.8111",
+    "bjdCode": "4729025024",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 30,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 490,
+      "u135": 165,
+      "o135": 0
+    }
   },
   {
     "code": "A10023867",
@@ -1196,7 +2707,21 @@
     "emd": "하양읍",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 하양읍 양지리 265 경산하양LH천년나무3단지",
+    "builder": "남양건설(주)",
+    "entrance": "복도식",
+    "useArea": "21447.09",
+    "bjdCode": "4729025025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 765,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023921",
@@ -1207,7 +2732,21 @@
     "emd": "하양읍",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 하양읍 양지리 266 하양 LH 천년나무 4단지",
+    "builder": "한양",
+    "entrance": "혼합식",
+    "useArea": "25892.76",
+    "bjdCode": "4729025025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 723,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023313",
@@ -1218,7 +2757,21 @@
     "emd": "하양읍",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 하양읍 대학리 1107 경산하양파인앤유더퍼스트",
+    "builder": "(주)파인건설",
+    "entrance": "혼합식",
+    "useArea": "5126",
+    "bjdCode": "4729025030",
+    "aptType": "아파트",
+    "mgrType": "위탁관리(직영+위탁)",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 280,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71283010",
@@ -1229,7 +2782,21 @@
     "emd": "진량읍",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 진량읍 신상리 868 경산우방힐타운",
+    "builder": "우방",
+    "entrance": "계단식",
+    "useArea": "36882.46",
+    "bjdCode": "4729025321",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 193,
+      "u85": 276,
+      "u135": 40,
+      "o135": 0
+    }
   },
   {
     "code": "A71283712",
@@ -1240,7 +2807,21 @@
     "emd": "진량읍",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 진량읍 신상리 205-1 경산보국웰리치",
+    "builder": "(주)보국웰리치",
+    "entrance": "혼합식",
+    "useArea": "41821.26",
+    "bjdCode": "4729025321",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 192,
+      "u85": 302,
+      "u135": 40,
+      "o135": 0
+    }
   },
   {
     "code": "A10024549",
@@ -1251,7 +2832,21 @@
     "emd": "진량읍",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 진량읍 선화리 2206 진량호반써밋 더포레스트",
+    "builder": "호반산업",
+    "entrance": "계단식",
+    "useArea": "39705.3809",
+    "bjdCode": "4729025322",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 278,
+      "u85": 271,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026482",
@@ -1262,7 +2857,21 @@
     "emd": "진량읍",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 진량읍 선화리 1990 이안경산진량",
+    "builder": "대우산업개발",
+    "entrance": "계단식",
+    "useArea": "40032.7885",
+    "bjdCode": "4729025322",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 178,
+      "u85": 362,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71273407",
@@ -1273,7 +2882,21 @@
     "emd": "진량읍",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 진량읍 선화리 1089 윤성1차타운",
+    "builder": "(주)윤성",
+    "entrance": "복도식",
+    "useArea": "66082.98",
+    "bjdCode": "4729025322",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 1305,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71283011",
@@ -1284,7 +2907,21 @@
     "emd": "진량읍",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 진량읍 선화리 731 선화청구타운",
+    "builder": "청구",
+    "entrance": "혼합식",
+    "useArea": "34393.32",
+    "bjdCode": "4729025322",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 367,
+      "u85": 146,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71283102",
@@ -1295,7 +2932,21 @@
     "emd": "진량읍",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 진량읍 선화리 720-2 진량영호맨션",
+    "builder": "영호개발",
+    "entrance": "혼합식",
+    "useArea": "13522.18",
+    "bjdCode": "4729025322",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 91,
+      "u85": 95,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71271409",
@@ -1306,7 +2957,21 @@
     "emd": "진량읍",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 진량읍 봉회리 81-4 삼주2차봉황타운",
+    "builder": "(주)삼주개발",
+    "entrance": "복도식",
+    "useArea": "29333.7",
+    "bjdCode": "4729025324",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 495,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71271414",
@@ -1317,7 +2982,21 @@
     "emd": "진량읍",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 진량읍 봉회리 62-16 삼주3차봉황타운",
+    "builder": "삼주건설",
+    "entrance": "복도식",
+    "useArea": "16991.7",
+    "bjdCode": "4729025324",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 285,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71283506",
@@ -1328,7 +3007,21 @@
     "emd": "진량읍",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 진량읍 봉회리 71-1 삼주1차봉황타운",
+    "builder": "삼주개발(주)",
+    "entrance": "복도식",
+    "useArea": "59255.26",
+    "bjdCode": "4729025324",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 1177,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71271413",
@@ -1339,7 +3032,21 @@
     "emd": "진량읍",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 진량읍 북리 100 삼주봉황4차타운",
+    "builder": "삼주건설(주)",
+    "entrance": "복도식",
+    "useArea": "64779.52",
+    "bjdCode": "4729025325",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 1191,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71283508",
@@ -1350,7 +3057,21 @@
     "emd": "진량읍",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 진량읍 북리 122-3 우림필유",
+    "builder": "우림건설(주)",
+    "entrance": "계단식",
+    "useArea": "40000.858",
+    "bjdCode": "4729025325",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 352,
+      "u135": 84,
+      "o135": 0
+    }
   },
   {
     "code": "A71273704",
@@ -1361,7 +3082,21 @@
     "emd": "진량읍",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 진량읍 부기리 565-2 창신무학타운",
+    "builder": "창신",
+    "entrance": "복도식",
+    "useArea": "58711.8",
+    "bjdCode": "4729025326",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 980,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71283301",
@@ -1372,7 +3107,21 @@
     "emd": "진량읍",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 진량읍 부기리 126-6 진량에덴타운",
+    "builder": "(주)에덴주택",
+    "entrance": "계단식",
+    "useArea": "12945.6",
+    "bjdCode": "4729025326",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 60,
+      "u85": 110,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71283303",
@@ -1383,7 +3132,21 @@
     "emd": "진량읍",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 진량읍 부기리 715 진량휴먼시아",
+    "builder": "(주)흥화",
+    "entrance": "혼합식",
+    "useArea": "20916.24",
+    "bjdCode": "4729025326",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 458,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71283514",
@@ -1394,7 +3157,21 @@
     "emd": "진량읍",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 진량읍 양기리 403-3 초원장미타운",
+    "builder": "(주)초원주택",
+    "entrance": "계단식",
+    "useArea": "71856",
+    "bjdCode": "4729025327",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 1200,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71283205",
@@ -1405,7 +3182,21 @@
     "emd": "진량읍",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 진량읍 황제리 70-1 창신황제타운",
+    "builder": "주)창신",
+    "entrance": "복도식",
+    "useArea": "65296.64",
+    "bjdCode": "4729025343",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 1112,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022627",
@@ -1416,7 +3207,21 @@
     "emd": "압량읍",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 압량읍 부적리 808 경산아이파크1차아파트",
+    "builder": "(주)현대산업개발",
+    "entrance": "계단식",
+    "useArea": "85168.8935",
+    "bjdCode": "4729025621",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 863,
+      "u135": 111,
+      "o135": 3
+    }
   },
   {
     "code": "A10023809",
@@ -1427,7 +3232,20 @@
     "emd": "압량읍",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 압량읍 부적리 263-1 세익로얄맨션",
+    "builder": "경산건축",
+    "entrance": "혼합식",
+    "useArea": "9731.46",
+    "bjdCode": "4729025621",
+    "mgrType": "자치관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 131,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71282001",
@@ -1438,7 +3256,21 @@
     "emd": "압량읍",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 압량읍 부적리 537 압량한라빌라트",
+    "builder": "한라주택",
+    "entrance": "혼합식",
+    "useArea": "13512.43",
+    "bjdCode": "4729025621",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 98,
+      "u85": 96,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71282101",
@@ -1449,7 +3281,21 @@
     "emd": "압량읍",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 압량읍 부적리 777 부적주공아파트",
+    "builder": "일성건설",
+    "entrance": "혼합식",
+    "useArea": "33241.86",
+    "bjdCode": "4729025621",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 577,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027579",
@@ -1460,7 +3306,21 @@
     "emd": "압량읍",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 압량읍 신대리 482 경산우미린더포레스트",
+    "builder": "(주)우미건설",
+    "entrance": "계단식",
+    "useArea": "35735.9554",
+    "bjdCode": "4729025622",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 445,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027661",
@@ -1471,7 +3331,21 @@
     "emd": "압량읍",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 압량읍 신대리 703 경산푸르지오",
+    "builder": "대우건설",
+    "entrance": "계단식",
+    "useArea": "57605.1",
+    "bjdCode": "4729025622",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 754,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027680",
@@ -1482,7 +3356,21 @@
     "emd": "압량읍",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 압량읍 신대리 702 경산신대부적한신휴플러스",
+    "builder": "(주)한신공영",
+    "entrance": "계단식",
+    "useArea": "28374.138",
+    "bjdCode": "4729025622",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 67,
+      "u85": 287,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027795",
@@ -1493,7 +3381,21 @@
     "emd": "압량읍",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 압량읍 신대리 709 e편한세상경산신대",
+    "builder": "고려개발(주)",
+    "entrance": "계단식",
+    "useArea": "26434.9512",
+    "bjdCode": "4729025622",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 158,
+      "u85": 200,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027866",
@@ -1504,7 +3406,21 @@
     "emd": "압량읍",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 압량읍 신대리 481 경산코아루",
+    "builder": "(주)이테크건설",
+    "entrance": "계단식",
+    "useArea": "34250.4058",
+    "bjdCode": "4729025622",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 403,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71282102",
@@ -1515,7 +3431,21 @@
     "emd": "압량읍",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 압량읍 신대리 485 신대팰리스",
+    "builder": "동광주택",
+    "entrance": "계단식",
+    "useArea": "26382.62",
+    "bjdCode": "4729025622",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 440,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71282103",
@@ -1526,7 +3456,21 @@
     "emd": "압량읍",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 압량읍 신대리 486 경산신대부적2차부영아파트",
+    "builder": "부영주택",
+    "entrance": "계단식",
+    "useArea": "26382.62",
+    "bjdCode": "4729025622",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 440,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71282002",
@@ -1537,7 +3481,21 @@
     "emd": "압량읍",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 압량읍 인안리 47 윤성3차아파트",
+    "builder": "(주)윤성주택",
+    "entrance": "복도식",
+    "useArea": "27152.82",
+    "bjdCode": "4729025627",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 453,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71284101",
@@ -1548,6 +3506,20 @@
     "emd": "와촌면",
     "sigunguCode": "47290",
     "sido": "경상북도",
-    "sigungu": "경산시"
+    "sigungu": "경산시",
+    "jibunAddr": "경상북도 경산시 와촌면 덕촌리 594-1 경산와촌예다인",
+    "builder": "가우스건축사무소",
+    "entrance": "복도식",
+    "useArea": "29806.5175",
+    "bjdCode": "4729031022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 499,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

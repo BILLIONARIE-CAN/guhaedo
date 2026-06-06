@@ -8,7 +8,21 @@
     "emd": "운천동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 운천동 556-3 거성하모니아파트",
+    "builder": "직지건설(주)",
+    "entrance": "복도식",
+    "useArea": "3719.3148",
+    "bjdCode": "4311310400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 164,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36179801",
@@ -19,7 +33,21 @@
     "emd": "운천동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 운천동 677-1 운천진양아파트",
+    "builder": "진양건설",
+    "entrance": "계단식",
+    "useArea": "23902.2",
+    "bjdCode": "4311310400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 420,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36179902",
@@ -30,7 +58,21 @@
     "emd": "운천동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 운천동 577 운천무지개삼일아파트",
+    "builder": "삼일주택공사",
+    "entrance": "혼합식",
+    "useArea": "43025.47",
+    "bjdCode": "4311310400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 236,
+      "u85": 381,
+      "u135": 22,
+      "o135": 0
+    }
   },
   {
     "code": "A36179503",
@@ -41,7 +83,21 @@
     "emd": "신봉동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 신봉동 310 신봉삼정백조아파트",
+    "builder": "삼정건설",
+    "entrance": "계단식",
+    "useArea": "46987.56",
+    "bjdCode": "4311310500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 11,
+    "areaBreak": {
+      "u60": 264,
+      "u85": 220,
+      "u135": 40,
+      "o135": 40
+    }
   },
   {
     "code": "A36179604",
@@ -52,7 +108,21 @@
     "emd": "신봉동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 신봉동 159 신봉삼성아파트",
+    "builder": "삼성물산",
+    "entrance": "계단식",
+    "useArea": "51595.56",
+    "bjdCode": "4311310500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 480,
+      "u135": 90,
+      "o135": 0
+    }
   },
   {
     "code": "A36183901",
@@ -63,7 +133,21 @@
     "emd": "신봉동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 신봉동 35-1 신봉두진백로아파트",
+    "builder": "두진공영(주)",
+    "entrance": "혼합식",
+    "useArea": "16223.36",
+    "bjdCode": "4311310500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 162,
+      "u85": 82,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36183902",
@@ -74,7 +158,21 @@
     "emd": "신봉동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 신봉동 177 (주)일택 신봉우림필유아파트",
+    "builder": "우림건설",
+    "entrance": "계단식",
+    "useArea": "46145.7",
+    "bjdCode": "4311310500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 173,
+      "u135": 254,
+      "o135": 0
+    }
   },
   {
     "code": "A10020644",
@@ -85,7 +183,21 @@
     "emd": "가경동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 가경동 1416-1 힐스테이트청주센트럴2차",
+    "builder": "(주)현대엔지니어링",
+    "entrance": "계단식",
+    "useArea": "23254.331",
+    "bjdCode": "4311311300",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 48,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023877",
@@ -96,7 +208,21 @@
     "emd": "가경동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 가경동 2251 청주가경아이파크4단지",
+    "builder": "(주)HDC현대산업개발",
+    "entrance": "계단식",
+    "useArea": "17047.4805",
+    "bjdCode": "4311311300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 27,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 201,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024286",
@@ -107,7 +233,21 @@
     "emd": "가경동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 가경동 2276 청주가경아이파크3단지",
+    "builder": "현대산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "91173.59",
+    "bjdCode": "4311311300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 635,
+      "u135": 335,
+      "o135": 13
+    }
   },
   {
     "code": "A10024555",
@@ -118,7 +258,21 @@
     "emd": "가경동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 가경동 635 가경자이아파트",
+    "builder": "GS건설",
+    "entrance": "계단식",
+    "useArea": "79914.8728",
+    "bjdCode": "4311311300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 992,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025027",
@@ -129,7 +283,21 @@
     "emd": "가경동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 가경동 2236 청주가경아이파크2단지",
+    "builder": "HDC현대산업개발",
+    "entrance": "계단식",
+    "useArea": "59121.64",
+    "bjdCode": "4311311300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 503,
+      "u135": 161,
+      "o135": 0
+    }
   },
   {
     "code": "A10025425",
@@ -140,7 +308,21 @@
     "emd": "가경동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 가경동 2220 청주 가경 아이파크아파트",
+    "builder": "HDC현대산업개발 주식회사",
+    "entrance": "계단식",
+    "useArea": "70987.38",
+    "bjdCode": "4311311300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 240,
+      "u85": 565,
+      "u135": 100,
+      "o135": 0
+    }
   },
   {
     "code": "A36126001",
@@ -151,7 +333,21 @@
     "emd": "가경동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 가경동 1758 가경선광로즈웰아파트",
+    "builder": "선광토건(주)",
+    "entrance": "계단식",
+    "useArea": "21750.225",
+    "bjdCode": "4311311300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 256,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36126009",
@@ -162,7 +358,21 @@
     "emd": "가경동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 가경동 1764 가경e편한세상",
+    "builder": "대림건설",
+    "entrance": "계단식",
+    "useArea": "53569.4345",
+    "bjdCode": "4311311300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 305,
+      "o135": 80
+    }
   },
   {
     "code": "A36126011",
@@ -173,7 +383,21 @@
     "emd": "가경동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 가경동 1761 가경한라비발디아파트",
+    "builder": "한라건설",
+    "entrance": "계단식",
+    "useArea": "35345.749",
+    "bjdCode": "4311311300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 416,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36126015",
@@ -184,7 +408,21 @@
     "emd": "가경동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 가경동 1759 가경호반베르디움",
+    "builder": "(주)호반건설",
+    "entrance": "계단식",
+    "useArea": "38998.6873",
+    "bjdCode": "4311311300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 459,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36126022",
@@ -195,7 +433,21 @@
     "emd": "가경동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 가경동 2077 청주가로수마을휴먼시아",
+    "builder": "대한주택공사",
+    "entrance": "복도식",
+    "useArea": "35313.84",
+    "bjdCode": "4311311300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 773,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36170018",
@@ -206,7 +458,21 @@
     "emd": "가경동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 가경동 1549 청주가경1",
+    "builder": "대야건설",
+    "entrance": "계단식",
+    "useArea": "30566.15",
+    "bjdCode": "4311311300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 581,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36170021",
@@ -217,7 +483,21 @@
     "emd": "가경동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 가경동 1550 가경주공2차아파트",
+    "builder": "토지주택공사",
+    "entrance": "혼합식",
+    "useArea": "41353.84",
+    "bjdCode": "4311311300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 704,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36172910",
@@ -228,7 +508,21 @@
     "emd": "가경동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 가경동 764 가경대림아파트",
+    "builder": "(주)대림산업",
+    "entrance": "계단식",
+    "useArea": "35637.03",
+    "bjdCode": "4311311300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 144,
+      "u135": 242,
+      "o135": 0
+    }
   },
   {
     "code": "A36173008",
@@ -239,7 +533,21 @@
     "emd": "가경동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 가경동 762 가경벽산아파트",
+    "builder": "벽산개발 주식회사",
+    "entrance": "계단식",
+    "useArea": "40383",
+    "bjdCode": "4311311300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 380,
+      "o135": 0
+    }
   },
   {
     "code": "A36173105",
@@ -250,7 +558,21 @@
     "emd": "가경동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 가경동 768 가경신라아파트",
+    "builder": "신라개발(주)",
+    "entrance": "계단식",
+    "useArea": "25568.64",
+    "bjdCode": "4311311300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 324,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36173206",
@@ -261,7 +583,21 @@
     "emd": "가경동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 가경동 766 가경형석2차아파트",
+    "builder": "새한주택",
+    "entrance": "계단식",
+    "useArea": "29150.46",
+    "bjdCode": "4311311300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 370,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36173320",
@@ -272,7 +608,21 @@
     "emd": "가경동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 가경동 1190 가경세원2차아파트",
+    "builder": "(주)세원건설",
+    "entrance": "혼합식",
+    "useArea": "42172.8",
+    "bjdCode": "4311311300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 420,
+      "u85": 200,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36173419",
@@ -283,7 +633,21 @@
     "emd": "가경동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 가경동 1189 가경형석1차아파트",
+    "builder": "새한주택",
+    "entrance": "혼합식",
+    "useArea": "39585",
+    "bjdCode": "4311311300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 300,
+      "u85": 300,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36173502",
@@ -294,7 +658,21 @@
     "emd": "가경동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 가경동 1506 가경진로아파트",
+    "builder": "진로건설",
+    "entrance": "계단식",
+    "useArea": "37971.24",
+    "bjdCode": "4311311300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 320,
+      "o135": 0
+    }
   },
   {
     "code": "A36173603",
@@ -305,7 +683,21 @@
     "emd": "가경동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 가경동 1507 가경효성아파트",
+    "builder": "효성중공업",
+    "entrance": "계단식",
+    "useArea": "35424.7",
+    "bjdCode": "4311311300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 290,
+      "o135": 30
+    }
   },
   {
     "code": "A36173714",
@@ -316,7 +708,21 @@
     "emd": "가경동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 가경동 1517 가경동부아파트",
+    "builder": "동부건설",
+    "entrance": "계단식",
+    "useArea": "35855.6",
+    "bjdCode": "4311311300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 455,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36173812",
@@ -327,7 +733,21 @@
     "emd": "가경동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 가경동 1515 가경덕일한마음아파트",
+    "builder": "((주)덕일건설",
+    "entrance": "계단식",
+    "useArea": "26870.54",
+    "bjdCode": "4311311300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 448,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36174013",
@@ -338,7 +758,21 @@
     "emd": "가경동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 가경동 1516 가경태암수정아파트",
+    "builder": "(주)태암",
+    "entrance": "계단식",
+    "useArea": "37320.675",
+    "bjdCode": "4311311300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 450,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36174116",
@@ -349,7 +783,21 @@
     "emd": "가경동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 가경동 1514 가경삼일원앙아파트",
+    "builder": "(주)삼일주택공사",
+    "entrance": "계단식",
+    "useArea": "31158",
+    "bjdCode": "4311311300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 520,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36174324",
@@ -360,7 +808,21 @@
     "emd": "가경동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 가경동 1510 가경세원3차아파트",
+    "builder": "세원건설(주)",
+    "entrance": "계단식",
+    "useArea": "54634.86",
+    "bjdCode": "4311311300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 952,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36180223",
@@ -371,7 +833,21 @@
     "emd": "가경동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 가경동 1511 가경대원아파트",
+    "builder": "(주)대원",
+    "entrance": "계단식",
+    "useArea": "55723.4",
+    "bjdCode": "4311311300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 940,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36184617",
@@ -382,7 +858,21 @@
     "emd": "가경동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 가경동 1695 가경푸르지오아파트",
+    "builder": "(주)대우건설",
+    "entrance": "계단식",
+    "useArea": "66679.0668",
+    "bjdCode": "4311311300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 498,
+      "o135": 77
+    }
   },
   {
     "code": "A36184804",
@@ -393,7 +883,21 @@
     "emd": "가경동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 가경동 1579 가경뜨란채8단지",
+    "builder": "남양건설(주)",
+    "entrance": "계단식",
+    "useArea": "27265.74",
+    "bjdCode": "4311311300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 321,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36184807",
@@ -404,7 +908,21 @@
     "emd": "가경동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 가경동 1581 가경뜨란채7단지",
+    "builder": "요진건설(주)",
+    "entrance": "계단식",
+    "useArea": "31126",
+    "bjdCode": "4311311300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 370,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36186925",
@@ -415,7 +933,21 @@
     "emd": "가경동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 가경동 1762 가경대원칸타빌",
+    "builder": "(주)대원",
+    "entrance": "계단식",
+    "useArea": "43163.2134",
+    "bjdCode": "4311311300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 48,
+      "o135": 262
+    }
   },
   {
     "code": "A36186926",
@@ -426,7 +958,21 @@
     "emd": "가경동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 가경동 1693 청주가경6",
+    "builder": "제일건설(주) 외",
+    "entrance": "복도식",
+    "useArea": "34613.91",
+    "bjdCode": "4311311300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 855,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020756",
@@ -437,7 +983,21 @@
     "emd": "복대동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 복대동 824-4 성광아파트",
+    "builder": "성광건설",
+    "entrance": "계단식",
+    "useArea": "8663.025",
+    "bjdCode": "4311311400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 90,
+      "u85": 50,
+      "u135": 1,
+      "o135": 0
+    }
   },
   {
     "code": "A10021444",
@@ -448,7 +1008,21 @@
     "emd": "복대동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 복대동 2008- 복대2동 삼일아파트",
+    "builder": "삼일주택공사",
+    "entrance": "복도식",
+    "useArea": "22338.2",
+    "bjdCode": "4311311400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 150,
+      "u135": 80,
+      "o135": 0
+    }
   },
   {
     "code": "A10021484",
@@ -459,7 +1033,21 @@
     "emd": "복대동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 복대동 2442- 형석타운아파트",
+    "builder": "새한주택",
+    "entrance": "계단식",
+    "useArea": "13424.3",
+    "bjdCode": "4311311400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 270,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022698",
@@ -470,7 +1058,21 @@
     "emd": "복대동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 복대동 3405 더샵청주센트럴아파트",
+    "builder": "포스코",
+    "entrance": "혼합식",
+    "useArea": "144422.75",
+    "bjdCode": "4311311400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025156",
@@ -481,7 +1083,21 @@
     "emd": "복대동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 복대동 3404 청주지웰시티푸르지오 아파트",
+    "builder": "대우건설",
+    "entrance": "계단식",
+    "useArea": "38163.378",
+    "bjdCode": "4311311400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 49,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 466,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025910",
@@ -492,7 +1108,21 @@
     "emd": "복대동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 복대동 3403 하트리움시티파크",
+    "builder": "(주)두진건설",
+    "entrance": "계단식",
+    "useArea": "21942.2865",
+    "bjdCode": "4311311400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 293,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027167",
@@ -503,7 +1133,21 @@
     "emd": "복대동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 복대동 853-5 포빌",
+    "builder": "(주)삼우주택건설",
+    "entrance": "복도식",
+    "useArea": "12664.8795",
+    "bjdCode": "4311311400",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 299,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027850",
@@ -514,7 +1158,21 @@
     "emd": "복대동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 복대동 3382 복대두진하트리움",
+    "builder": "(주)두진건설",
+    "entrance": "복도식",
+    "useArea": "27932.4068",
+    "bjdCode": "4311311400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 92,
+      "u85": 264,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027970",
@@ -525,7 +1183,21 @@
     "emd": "복대동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 복대동 3381 두산위브지웰시티",
+    "builder": "(주)두산건설",
+    "entrance": "기타",
+    "useArea": "156894.672",
+    "bjdCode": "4311311400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 45,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1956,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36127001",
@@ -536,7 +1208,21 @@
     "emd": "복대동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 복대동 3366 청주금호어울림아파트",
+    "builder": "금호건설",
+    "entrance": "계단식",
+    "useArea": "139237.321",
+    "bjdCode": "4311311400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 404,
+      "u135": 709,
+      "o135": 121
+    }
   },
   {
     "code": "A36127105",
@@ -547,7 +1233,21 @@
     "emd": "복대동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 복대동 3034 하복대삼일아파트",
+    "builder": "삼일주택공사",
+    "entrance": "계단식",
+    "useArea": "40575.64",
+    "bjdCode": "4311311400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 478,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36174507",
@@ -558,7 +1258,21 @@
     "emd": "복대동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 복대동 3033 아름다운나날2차아파트",
+    "builder": "영조주택",
+    "entrance": "계단식",
+    "useArea": "44657.1422",
+    "bjdCode": "4311311400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 539,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36174511",
@@ -569,7 +1283,21 @@
     "emd": "복대동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 복대동 2456 아름다운나날1차아파트",
+    "builder": "(주)영조주택",
+    "entrance": "계단식",
+    "useArea": "56473.4334",
+    "bjdCode": "4311311400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 952,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36175501",
@@ -580,7 +1308,21 @@
     "emd": "복대동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 복대동 3377 신영지웰홈스아파트",
+    "builder": "(주)한라건설",
+    "entrance": "계단식",
+    "useArea": "41742.585",
+    "bjdCode": "4311311400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 371,
+      "u135": 78,
+      "o135": 3
+    }
   },
   {
     "code": "A36175502",
@@ -591,7 +1333,21 @@
     "emd": "복대동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 복대동 3379 신영지웰시티1차",
+    "builder": "두산건설",
+    "entrance": "계단식",
+    "useArea": "277076.772",
+    "bjdCode": "4311311400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 45,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 1376,
+      "o135": 788
+    }
   },
   {
     "code": "A36181001",
@@ -602,7 +1358,21 @@
     "emd": "복대동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 복대동 221-12 복대주은아파트",
+    "builder": "주은건설",
+    "entrance": "계단식",
+    "useArea": "13121.746",
+    "bjdCode": "4311311400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 220,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36181010",
@@ -613,7 +1383,21 @@
     "emd": "복대동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 복대동 221-7 복대대원아파트",
+    "builder": "(주)대원",
+    "entrance": "계단식",
+    "useArea": "61466.27",
+    "bjdCode": "4311311400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 238,
+      "u85": 574,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36181106",
@@ -624,7 +1408,21 @@
     "emd": "복대동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 복대동 95-1 복대덕성아파트",
+    "builder": "덕성건설",
+    "entrance": "복도식",
+    "useArea": "12530.7",
+    "bjdCode": "4311311400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 498,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36181502",
@@ -635,7 +1433,21 @@
     "emd": "복대동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 복대동 2606 하복대벽산아파트",
+    "builder": "벽산건설(주)",
+    "entrance": "계단식",
+    "useArea": "33726.32",
+    "bjdCode": "4311311400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 244,
+      "o135": 30
+    }
   },
   {
     "code": "A36181503",
@@ -646,7 +1458,21 @@
     "emd": "복대동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 복대동 3098 하복대현대1차아파트",
+    "builder": "현대산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "42083.615",
+    "bjdCode": "4311311400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 86,
+      "u135": 264,
+      "o135": 30
+    }
   },
   {
     "code": "A36181504",
@@ -657,7 +1483,21 @@
     "emd": "복대동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 복대동 2607 세원테마빌아파트",
+    "builder": "(주)세원건설",
+    "entrance": "계단식",
+    "useArea": "30093.2392",
+    "bjdCode": "4311311400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 388,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36181508",
@@ -668,7 +1508,21 @@
     "emd": "복대동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 복대동 2461 세원느티마을아파트",
+    "builder": "(주)세원건설",
+    "entrance": "계단식",
+    "useArea": "31550.94",
+    "bjdCode": "4311311400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 526,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36181509",
@@ -679,7 +1533,21 @@
     "emd": "복대동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 복대동 2459 하복대두진하트리움아파트",
+    "builder": "(주)두진건설",
+    "entrance": "계단식",
+    "useArea": "31580.2302",
+    "bjdCode": "4311311400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 527,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36181512",
@@ -690,7 +1558,21 @@
     "emd": "복대동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 복대동 3029 하복대현대2차아파트",
+    "builder": "현대산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "87803.28",
+    "bjdCode": "4311311400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1464,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36184301",
@@ -701,7 +1583,21 @@
     "emd": "복대동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 복대동 993 복대덕일아파트",
+    "builder": "덕일건설(주)",
+    "entrance": "계단식",
+    "useArea": "18802.6",
+    "bjdCode": "4311311400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 350,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36184302",
@@ -712,7 +1608,21 @@
     "emd": "복대동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 복대동 992 복대형석아파트",
+    "builder": "새한주택",
+    "entrance": "혼합식",
+    "useArea": "17724.6",
+    "bjdCode": "4311311400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 275,
+      "u85": 80,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020064",
@@ -723,7 +1633,20 @@
     "emd": "봉명동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 봉명동 26 월명공원에피트온더파크아파트",
+    "builder": "한라디앤아이",
+    "entrance": "계단식",
+    "useArea": "97112.05",
+    "bjdCode": "4311311500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 857,
+      "o135": 17
+    }
   },
   {
     "code": "A10020261",
@@ -734,7 +1657,20 @@
     "emd": "봉명동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 봉명동 90-44 삼정맨션1,2동",
+    "builder": "삼정건설",
+    "entrance": "계단식",
+    "useArea": "4320",
+    "bjdCode": "4311311500",
+    "aptType": "아파트",
+    "mgrType": "자치관리(직영)",
+    "areaBreak": {
+      "u60": 80,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021058",
@@ -745,7 +1681,21 @@
     "emd": "봉명동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 봉명동 90-8 삼정아파트",
+    "builder": "(주)삼정건설",
+    "entrance": "계단식",
+    "useArea": "12015.54",
+    "bjdCode": "4311311500",
+    "aptType": "아파트",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 150,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022478",
@@ -756,7 +1706,21 @@
     "emd": "봉명동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 봉명동 1603- 봉명동신라아파트1,2,3동 입주자대표회의",
+    "builder": "신라개발",
+    "entrance": "계단식",
+    "useArea": "11874.6",
+    "bjdCode": "4311311500",
+    "aptType": "아파트",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 180,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022569",
@@ -767,7 +1731,21 @@
     "emd": "봉명동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 봉명동 193 청주 sk 뷰 자이",
+    "builder": "(주)SK건설,  (주)GS건설",
+    "entrance": "계단식",
+    "useArea": "131806.9315",
+    "bjdCode": "4311311500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 594,
+      "u85": 1055,
+      "u135": 96,
+      "o135": 0
+    }
   },
   {
     "code": "A10022870",
@@ -778,7 +1756,21 @@
     "emd": "봉명동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 봉명동 1857-1 청주봉명리치먼드시티",
+    "builder": "파크종합건설(주)",
+    "entrance": "복도식",
+    "useArea": "7120.7156",
+    "bjdCode": "4311311500",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 296,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022917",
@@ -789,7 +1781,21 @@
     "emd": "봉명동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 봉명동 1831 봉명HS포레",
+    "builder": "HS건설 주식회사",
+    "entrance": "복도식",
+    "useArea": "7867.2",
+    "bjdCode": "4311311500",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 220,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023136",
@@ -800,7 +1806,21 @@
     "emd": "봉명동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 봉명동 1833 봉명베리굿2차",
+    "builder": "세지건설",
+    "entrance": "혼합식",
+    "useArea": "10293.1368",
+    "bjdCode": "4311311500",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 225,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024571",
@@ -811,7 +1831,21 @@
     "emd": "봉명동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 봉명동 197-11 봉명베리굿",
+    "builder": "(주)세지건설",
+    "entrance": "복도식",
+    "useArea": "6013.6302",
+    "bjdCode": "4311311500",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 151,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027018",
@@ -822,7 +1856,21 @@
     "emd": "봉명동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 봉명동 795 봉명 아이제이포커스",
+    "builder": "(주)익진건설",
+    "entrance": "복도식",
+    "useArea": "8868.6",
+    "bjdCode": "4311311500",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 270,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027827",
@@ -833,7 +1881,21 @@
     "emd": "봉명동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 봉명동 757 봉명동 하이젠시티",
+    "builder": "(주)코리콘건설",
+    "entrance": "혼합식",
+    "useArea": "11428.74",
+    "bjdCode": "4311311500",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 298,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36130001",
@@ -844,7 +1906,21 @@
     "emd": "봉명동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 봉명동 87 봉명삼정백조아파트",
+    "builder": "삼정주택건설주식회사",
+    "entrance": "계단식",
+    "useArea": "13973.51",
+    "bjdCode": "4311311500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 116,
+      "u85": 83,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36130002",
@@ -855,7 +1931,21 @@
     "emd": "봉명동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 봉명동 2758 두진하트리움",
+    "builder": "두진공영",
+    "entrance": "계단식",
+    "useArea": "17507.988",
+    "bjdCode": "4311311500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 200,
+      "u135": 0,
+      "o135": 4
+    }
   },
   {
     "code": "A36130003",
@@ -866,7 +1956,21 @@
     "emd": "봉명동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 봉명동 2044 봉명초원아파트",
+    "builder": "대원건설(주), 미림건설(주)",
+    "entrance": "복도식",
+    "useArea": "11572.16",
+    "bjdCode": "4311311500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 8,
+    "areaBreak": {
+      "u60": 232,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36130004",
@@ -877,7 +1981,21 @@
     "emd": "봉명동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 봉명동 2193 봉명세원아파트",
+    "builder": "(주)세원건설",
+    "entrance": "계단식",
+    "useArea": "23678.58",
+    "bjdCode": "4311311500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리(직영+위탁)",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 228,
+      "u135": 48,
+      "o135": 0
+    }
   },
   {
     "code": "A36130005",
@@ -888,7 +2006,21 @@
     "emd": "봉명동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 봉명동 353-5 엘지사원아파트",
+    "builder": "LG건설",
+    "entrance": "복도식",
+    "useArea": "22780.08",
+    "bjdCode": "4311311500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 502,
+      "u85": 24,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36130006",
@@ -899,7 +2031,21 @@
     "emd": "봉명동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 봉명동 1602 봉명주공2단지아파트",
+    "builder": "임광토건",
+    "entrance": "계단식",
+    "useArea": "29270.82",
+    "bjdCode": "4311311500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 394,
+      "u85": 162,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36130008",
@@ -910,7 +2056,21 @@
     "emd": "봉명동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 봉명동 1855 봉명푸른아파트",
+    "builder": "보성건설(주)",
+    "entrance": "복도식",
+    "useArea": "26610.39",
+    "bjdCode": "4311311500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 603,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36130009",
@@ -921,7 +2081,21 @@
     "emd": "봉명동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 봉명동 2752 봉명아이파크아파트",
+    "builder": "(주)현대산업개발",
+    "entrance": "계단식",
+    "useArea": "124229.9132",
+    "bjdCode": "4311311500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 610,
+      "u135": 524,
+      "o135": 88
+    }
   },
   {
     "code": "A10020720",
@@ -932,7 +2106,21 @@
     "emd": "송정동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 송정동 140-41 청주산단1단지",
+    "builder": "서해종합건설",
+    "entrance": "복도식",
+    "useArea": "17411.52",
+    "bjdCode": "4311311600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021298",
@@ -943,7 +2131,21 @@
     "emd": "강서동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 강서동 500- 강서미소랑2차아파트",
+    "builder": "신영종합건설(주)",
+    "entrance": "복도식",
+    "useArea": "3979.2229",
+    "bjdCode": "4311311700",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 112,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021725",
@@ -954,7 +2156,21 @@
     "emd": "강서동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 강서동 45-1 강서 우림아파트",
+    "builder": "선 엔지니어링",
+    "entrance": "복도식",
+    "useArea": "7490.88",
+    "bjdCode": "4311311700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 8,
+    "areaBreak": {
+      "u60": 130,
+      "u85": 0,
+      "u135": 2,
+      "o135": 0
+    }
   },
   {
     "code": "A10021958",
@@ -965,7 +2181,21 @@
     "emd": "강서동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 강서동 502- 강서베리굿3차",
+    "builder": "세지건설",
+    "entrance": "복도식",
+    "useArea": "6876.48",
+    "bjdCode": "4311311700",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 16,
+    "areaBreak": {
+      "u60": 144,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023353",
@@ -976,7 +2206,21 @@
     "emd": "강서동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 강서동 583 청주가경아이파크5단지",
+    "builder": "현대산업개발",
+    "entrance": "계단식",
+    "useArea": "85852.4029",
+    "bjdCode": "4311311700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 582,
+      "u135": 343,
+      "o135": 0
+    }
   },
   {
     "code": "A10024293",
@@ -987,7 +2231,21 @@
     "emd": "강서동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 강서동 470 청주강서나보나시티",
+    "builder": "코리콘건설",
+    "entrance": "혼합식",
+    "useArea": "7373.76",
+    "bjdCode": "4311311700",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 26,
+    "areaBreak": {
+      "u60": 264,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025189",
@@ -998,7 +2256,21 @@
     "emd": "강서동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 강서동 460 이랜드타운힐스 싱글스위트 청주",
+    "builder": "(주)이랜드건설",
+    "entrance": "복도식",
+    "useArea": "5748.48",
+    "bjdCode": "4311311700",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 288,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026655",
@@ -1009,7 +2281,21 @@
     "emd": "강서동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 강서동 459 청주블루지움B910",
+    "builder": "신해공영",
+    "entrance": "복도식",
+    "useArea": "6015.18",
+    "bjdCode": "4311311700",
+    "aptType": "도시형 생활주택(주상복합)",
+    "mgrType": "위탁관리",
+    "topFloor": 26,
+    "areaBreak": {
+      "u60": 298,
+      "u85": 0,
+      "u135": 0,
+      "o135": 1
+    }
   },
   {
     "code": "A10027266",
@@ -1020,7 +2306,21 @@
     "emd": "강서동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 강서동 458 강서동광모닝스카이",
+    "builder": "동광건설",
+    "entrance": "복도식",
+    "useArea": "5439.9",
+    "bjdCode": "4311311700",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 26,
+    "areaBreak": {
+      "u60": 298,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027305",
@@ -1031,7 +2331,21 @@
     "emd": "강서동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 강서동 472 강서 우양센트럴",
+    "builder": "우양주식회사",
+    "entrance": "복도식",
+    "useArea": "5230.4952",
+    "bjdCode": "4311311700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 26,
+    "areaBreak": {
+      "u60": 216,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027345",
@@ -1042,7 +2356,21 @@
     "emd": "강서동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 강서동 482 강서베리굿2차",
+    "builder": "주식회사 세지건설",
+    "entrance": "복도식",
+    "useArea": "6934.2495",
+    "bjdCode": "4311311700",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 285,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027727",
@@ -1053,7 +2381,21 @@
     "emd": "강서동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 강서동 503 강서베리굿1차",
+    "builder": "세지건설",
+    "entrance": "계단식",
+    "useArea": "7652.869",
+    "bjdCode": "4311311700",
+    "aptType": "도시형 생활주택(아파트)",
+    "mgrType": "위탁관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 154,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10028122",
@@ -1064,7 +2406,21 @@
     "emd": "강서동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 강서동 466 강서미소랑1차아파트",
+    "builder": "신영종합건설(주)",
+    "entrance": "복도식",
+    "useArea": "5373.24",
+    "bjdCode": "4311311700",
+    "aptType": "도시형 생활주택(주상복합)",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 183,
+      "u85": 1,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36138001",
@@ -1075,7 +2431,21 @@
     "emd": "강서동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 강서동 45-4 강서청도아파트",
+    "builder": "청도주택",
+    "entrance": "계단식",
+    "useArea": "12395.16",
+    "bjdCode": "4311311700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 207,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36138002",
@@ -1086,7 +2456,21 @@
     "emd": "강서동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 강서동 33-7 강서우정아파트",
+    "builder": "우정건설",
+    "entrance": "복도식",
+    "useArea": "5275.12",
+    "bjdCode": "4311311700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 233,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36138003",
@@ -1097,7 +2481,21 @@
     "emd": "강서동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 강서동 37-1 강서대림아파트",
+    "builder": "대림",
+    "entrance": "혼합식",
+    "useArea": "20584.08",
+    "bjdCode": "4311311700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 134,
+      "u85": 150,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36138101",
@@ -1108,7 +2506,21 @@
     "emd": "강서동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 강서동 473 경성하늘샵",
+    "builder": "승하건설",
+    "entrance": "복도식",
+    "useArea": "4121.25",
+    "bjdCode": "4311311700",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 11,
+    "areaBreak": {
+      "u60": 160,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023812",
@@ -1119,7 +2531,21 @@
     "emd": "문암동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 문암동 213 청주테크노폴리스지웰푸르지오아파트",
+    "builder": "(주)대우건설",
+    "entrance": "계단식",
+    "useArea": "88884.2982",
+    "bjdCode": "4311313300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 400,
+      "u85": 657,
+      "u135": 91,
+      "o135": 0
+    }
   },
   {
     "code": "A10020481",
@@ -1130,7 +2556,21 @@
     "emd": "송절동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 송절동 1196- 테크노폴리스 힐데스하임 아파트",
+    "builder": "대한개발",
+    "entrance": "계단식",
+    "useArea": "37380.3",
+    "bjdCode": "4311313400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024559",
@@ -1141,7 +2581,21 @@
     "emd": "송절동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 송절동 842 테크노폴리스우방아이유쉘",
+    "builder": "(주)티케이케미칼(1단지), 에스엠상선(주)(2단지)",
+    "entrance": "계단식",
+    "useArea": "71103.4343",
+    "bjdCode": "4311313400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 851,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025044",
@@ -1152,7 +2606,21 @@
     "emd": "송절동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 송절동 690 청주테크노폴리스지웰",
+    "builder": "우미건설",
+    "entrance": "계단식",
+    "useArea": "28550.4312",
+    "bjdCode": "4311313400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 336,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025889",
@@ -1163,7 +2631,21 @@
     "emd": "송절동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 송절동 851 청주테크노폴리스푸르지오",
+    "builder": "대우건설",
+    "entrance": "계단식",
+    "useArea": "86456.381",
+    "bjdCode": "4311313400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1034,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026112",
@@ -1174,7 +2656,21 @@
     "emd": "송절동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 송절동 850 청주테크노폴리스우미린",
+    "builder": "우미 건설",
+    "entrance": "계단식",
+    "useArea": "86664.896",
+    "bjdCode": "4311313400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 27,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1020,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021430",
@@ -1185,7 +2681,21 @@
     "emd": "비하동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 비하동 75-32 평화아파트 2동",
+    "builder": "평화건설",
+    "entrance": "복도식",
+    "useArea": "6846.06",
+    "bjdCode": "4311313800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 7,
+    "areaBreak": {
+      "u60": 138,
+      "u85": 0,
+      "u135": 1,
+      "o135": 0
+    }
   },
   {
     "code": "A10022495",
@@ -1196,7 +2706,20 @@
     "emd": "비하동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 비하동 295-40 대주피오레1차",
+    "builder": "디제이산업개발",
+    "entrance": "계단식",
+    "useArea": "12648.7995",
+    "bjdCode": "4311313800",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 149,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025262",
@@ -1207,7 +2730,21 @@
     "emd": "비하동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 비하동 422 서청주파크자이",
+    "builder": "GS건설",
+    "entrance": "계단식",
+    "useArea": "123334.5257",
+    "bjdCode": "4311313800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 159,
+      "u85": 1189,
+      "u135": 147,
+      "o135": 0
+    }
   },
   {
     "code": "A10026442",
@@ -1218,7 +2755,21 @@
     "emd": "비하동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 비하동 819 비하대광로제비앙 아파트",
+    "builder": "대광건영",
+    "entrance": "계단식",
+    "useArea": "44866.0222",
+    "bjdCode": "4311313800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 27,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 528,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36177304",
@@ -1229,7 +2780,21 @@
     "emd": "비하동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 비하동 362 비하효성2차아파트",
+    "builder": "효성건설",
+    "entrance": "복도식",
+    "useArea": "26207.38",
+    "bjdCode": "4311313800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 478,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36177306",
@@ -1240,7 +2805,21 @@
     "emd": "비하동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 비하동 300 비하효성1차아파트",
+    "builder": "(주)효성건설",
+    "entrance": "복도식",
+    "useArea": "46843.8",
+    "bjdCode": "4311313800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 894,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36182501",
@@ -1251,7 +2830,21 @@
     "emd": "비하동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 비하동 311-4 송곡그린아파트",
+    "builder": "(주)송곡종합건설",
+    "entrance": "계단식",
+    "useArea": "9997.14",
+    "bjdCode": "4311313800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 150,
+      "u85": 12,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36182502",
@@ -1262,7 +2855,21 @@
     "emd": "비하동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 비하동 367 대주피오레2차아파트",
+    "builder": "대주건설(주) .해광건설(주)",
+    "entrance": "혼합식",
+    "useArea": "16057.4748",
+    "bjdCode": "4311313800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 189,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36182503",
@@ -1273,7 +2880,21 @@
     "emd": "비하동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 비하동 238-1 비하삼일아파트",
+    "builder": "삼일주택공사",
+    "entrance": "혼합식",
+    "useArea": "26147.61",
+    "bjdCode": "4311313800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 128,
+      "u85": 237,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36185805",
@@ -1284,7 +2905,21 @@
     "emd": "비하동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 비하동 125 비하계룡리슈빌",
+    "builder": "(주)계룡건설",
+    "entrance": "계단식",
+    "useArea": "53491.428",
+    "bjdCode": "4311313800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 150,
+      "u135": 270,
+      "o135": 60
+    }
   },
   {
     "code": "A36185806",
@@ -1295,7 +2930,21 @@
     "emd": "비하동",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 비하동 809 비하계룡리슈빌2차",
+    "builder": "계룡건설",
+    "entrance": "계단식",
+    "useArea": "60647.7469",
+    "bjdCode": "4311313800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 176,
+      "u135": 253,
+      "o135": 111
+    }
   },
   {
     "code": "A36395101",
@@ -1306,7 +2955,21 @@
     "emd": "오송읍",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 오송읍 만수리 549 오송 경남아너스빌아파트",
+    "builder": "경남기업",
+    "entrance": "계단식",
+    "useArea": "39751.11",
+    "bjdCode": "4311325025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 468,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36395403",
@@ -1317,7 +2980,21 @@
     "emd": "오송읍",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 오송읍 만수리 549-1 청원오송1",
+    "builder": "(주)신일",
+    "entrance": "복도식",
+    "useArea": "55362.36",
+    "bjdCode": "4311325025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1118,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36395102",
@@ -1328,7 +3005,21 @@
     "emd": "오송읍",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 오송읍 연제리 736 오송호반베르디움",
+    "builder": "(주)호반건설",
+    "entrance": "계단식",
+    "useArea": "53829.2302",
+    "bjdCode": "4311325026",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 30,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 634,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36395103",
@@ -1339,7 +3030,21 @@
     "emd": "오송읍",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 오송읍 연제리 700 오송힐데스하임",
+    "builder": "(주)원건설",
+    "entrance": "계단식",
+    "useArea": "52546.0284",
+    "bjdCode": "4311325026",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 28,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 348,
+      "o135": 54
+    }
   },
   {
     "code": "A36395104",
@@ -1350,7 +3055,21 @@
     "emd": "오송읍",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 오송읍 연제리 731 오송상록롯데캐슬",
+    "builder": "롯데건설",
+    "entrance": "계단식",
+    "useArea": "56995.307",
+    "bjdCode": "4311325026",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 27,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 671,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36395105",
@@ -1361,7 +3080,21 @@
     "emd": "오송읍",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 오송읍 연제리 726 오송모아미래도아파트",
+    "builder": "미래도건설",
+    "entrance": "계단식",
+    "useArea": "33915.8512",
+    "bjdCode": "4311325026",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 30,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 400,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36395106",
@@ -1372,7 +3105,21 @@
     "emd": "오송읍",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 오송읍 연제리 740 오송대원칸타빌",
+    "builder": "(주)대원",
+    "entrance": "계단식",
+    "useArea": "25837.6288",
+    "bjdCode": "4311325026",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 28,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 304,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021149",
@@ -1383,7 +3130,21 @@
     "emd": "오송읍",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 오송읍 서평리 621-4 그린나래아파트",
+    "builder": "조항건설(주)",
+    "entrance": "복도식",
+    "useArea": "3232.8706",
+    "bjdCode": "4311325030",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 8,
+    "areaBreak": {
+      "u60": 127,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020632",
@@ -1394,7 +3155,21 @@
     "emd": "오송읍",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 오송읍 봉산리 1530- 오송역 서한이다음 노블리스",
+    "builder": "서한",
+    "entrance": "계단식",
+    "useArea": "146035.8714",
+    "bjdCode": "4311325031",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021734",
@@ -1405,7 +3180,21 @@
     "emd": "오송읍",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 오송읍 봉산리 1523- 오송역 파라곤 센트럴시티 3차아파트",
+    "builder": "주식회사 라인산업, 주식회사 동양건설산업",
+    "entrance": "계단식",
+    "useArea": "141663.1496",
+    "bjdCode": "4311325031",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1754,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022633",
@@ -1416,7 +3205,21 @@
     "emd": "오송읍",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 오송읍 봉산리 1531 오송역 대광로제비앙그랜드센텀",
+    "builder": "(주)대광건영",
+    "entrance": "계단식",
+    "useArea": "137243.4396",
+    "bjdCode": "4311325031",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1615,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022645",
@@ -1427,7 +3230,21 @@
     "emd": "오송읍",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 오송읍 봉산리 1514 오송역파라곤센트럴시티2차",
+    "builder": "(주)동양동탄주택. 동양주택개발",
+    "entrance": "계단식",
+    "useArea": "136730.6852",
+    "bjdCode": "4311325031",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1673,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023065",
@@ -1438,7 +3255,21 @@
     "emd": "오송읍",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 오송읍 봉산리 1516 제일풍경채오송아파트",
+    "builder": "제일건설",
+    "entrance": "계단식",
+    "useArea": "46305.2279",
+    "bjdCode": "4311325031",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 545,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023149",
@@ -1449,7 +3280,21 @@
     "emd": "오송읍",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 오송읍 봉산리 798 오송역파라곤센트럴시티1차",
+    "builder": "(주)라인건설 /(주)동양건설산업",
+    "entrance": "계단식",
+    "useArea": "144623.9021",
+    "bjdCode": "4311325031",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 2415,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023156",
@@ -1460,7 +3305,21 @@
     "emd": "오송읍",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 오송읍 봉산리 1510 오송역대광로제비앙아파트",
+    "builder": "(주)대광건영",
+    "entrance": "혼합식",
+    "useArea": "90868.8961",
+    "bjdCode": "4311325031",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 1516,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024867",
@@ -1471,7 +3330,21 @@
     "emd": "오송읍",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 오송읍 봉산리 1527 오송역 동아라이크텐(오송역 동아라이크텐)",
+    "builder": "동아건설산업(주)",
+    "entrance": "계단식",
+    "useArea": "81045.495",
+    "bjdCode": "4311325031",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 970,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36395302",
@@ -1482,7 +3355,21 @@
     "emd": "오송읍",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 오송읍 봉산리 612-6 삼부청솔아파트",
+    "builder": "삼부주택건설(주)",
+    "entrance": "혼합식",
+    "useArea": "8354.31",
+    "bjdCode": "4311325031",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 11,
+    "areaBreak": {
+      "u60": 179,
+      "u85": 0,
+      "u135": 20,
+      "o135": 0
+    }
   },
   {
     "code": "A10021228",
@@ -1493,7 +3380,21 @@
     "emd": "오송읍",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 오송읍 정중리 562-8 우양개나리아파트",
+    "builder": "우양주택건설(주)",
+    "entrance": "계단식",
+    "useArea": "8097.1",
+    "bjdCode": "4311325032",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 50,
+      "u85": 60,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36389301",
@@ -1504,7 +3405,21 @@
     "emd": "강내면",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 강내면 황탄리 3-1 서호e-TOWN아파트",
+    "builder": "서호건설",
+    "entrance": "복도식",
+    "useArea": "9143.29",
+    "bjdCode": "4311331029",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 277,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36389304",
@@ -1515,7 +3430,21 @@
     "emd": "강내면",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 강내면 월탄리 90 강내태암수정아파트",
+    "builder": "(주)태암건설",
+    "entrance": "복도식",
+    "useArea": "18371.665",
+    "bjdCode": "4311331030",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 410,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10028050",
@@ -1526,7 +3455,21 @@
     "emd": "강내면",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 강내면 탑연리 301-1 강내주은반석아파트",
+    "builder": "(주)주은건설",
+    "entrance": "계단식",
+    "useArea": "12408.4816",
+    "bjdCode": "4311331031",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 11,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 146,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36389303",
@@ -1537,7 +3480,21 @@
     "emd": "강내면",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 강내면 탑연리 388 신성청원미소지움아파트",
+    "builder": "신성건설",
+    "entrance": "계단식",
+    "useArea": "35988.5728",
+    "bjdCode": "4311331031",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 204,
+      "u135": 168,
+      "o135": 0
+    }
   },
   {
     "code": "A36389402",
@@ -1548,7 +3505,21 @@
     "emd": "강내면",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 강내면 탑연리 322-1 강내선광한빛아파트",
+    "builder": "선광건설",
+    "entrance": "혼합식",
+    "useArea": "19824.77",
+    "bjdCode": "4311331031",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 244,
+      "u85": 98,
+      "u135": 8,
+      "o135": 0
+    }
   },
   {
     "code": "A10020969",
@@ -1559,7 +3530,21 @@
     "emd": "강내면",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 강내면 월곡리 82-1 흥덕칸타빌더뉴아파트",
+    "builder": "(주)대원",
+    "entrance": "계단식",
+    "useArea": "22988.5018",
+    "bjdCode": "4311331034",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 158,
+      "u85": 176,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021371",
@@ -1570,7 +3555,21 @@
     "emd": "강내면",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 강내면 월곡리 263-2 두진아파트",
+    "builder": "두진건설",
+    "entrance": "혼합식",
+    "useArea": "7799.15",
+    "bjdCode": "4311331034",
+    "aptType": "아파트",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 78,
+      "u85": 40,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026115",
@@ -1581,7 +3580,21 @@
     "emd": "강내면",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 강내면 월곡리 126-8 강내 두진하트리움",
+    "builder": "(주)두진건설",
+    "entrance": "계단식",
+    "useArea": "23593.48",
+    "bjdCode": "4311331034",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 359,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36389205",
@@ -1592,7 +3605,21 @@
     "emd": "강내면",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 강내면 월곡리 428 청원쌍용예가",
+    "builder": "쌍용건설(주)",
+    "entrance": "계단식",
+    "useArea": "43754.76",
+    "bjdCode": "4311331034",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 196,
+      "u135": 231,
+      "o135": 0
+    }
   },
   {
     "code": "A10021250",
@@ -1603,7 +3630,21 @@
     "emd": "옥산면",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 옥산면 오산리 160-1 옥산한울",
+    "builder": "한울건설",
+    "entrance": "혼합식",
+    "useArea": "7771.7",
+    "bjdCode": "4311332021",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 93,
+      "u85": 26,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36391401",
@@ -1614,7 +3655,21 @@
     "emd": "옥산면",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 옥산면 오산리 247-1 옥산한울2차 아파트",
+    "builder": "한울건설(주)",
+    "entrance": "복도식",
+    "useArea": "12683.46",
+    "bjdCode": "4311332021",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 212,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36391402",
@@ -1625,7 +3680,21 @@
     "emd": "옥산면",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 옥산면 오산리 589-1 옥산금정1차아파트",
+    "builder": "(주)금정개발",
+    "entrance": "복도식",
+    "useArea": "6986.25",
+    "bjdCode": "4311332021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 225,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36391403",
@@ -1636,7 +3705,21 @@
     "emd": "옥산면",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 옥산면 오산리 589-5 옥산금정2차아파트",
+    "builder": "금정산업개발",
+    "entrance": "계단식",
+    "useArea": "13383",
+    "bjdCode": "4311332021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 230,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36391405",
@@ -1647,7 +3730,21 @@
     "emd": "옥산면",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 옥산면 오산리 590-1 아트빌아파트",
+    "builder": "(주)금정산업개발",
+    "entrance": "복도식",
+    "useArea": "33206.76",
+    "bjdCode": "4311332021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 618,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025357",
@@ -1658,7 +3755,21 @@
     "emd": "옥산면",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 옥산면 가락리 265 리버파크자이 아파트",
+    "builder": "GS 건설",
+    "entrance": "계단식",
+    "useArea": "204281.193",
+    "bjdCode": "4311332025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 2529,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027292",
@@ -1669,7 +3780,21 @@
     "emd": "옥산면",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 옥산면 가락리 953 흥덕코오롱하늘채아파트",
+    "builder": "코오롱글로벌주식회사",
+    "entrance": "계단식",
+    "useArea": "87343.437",
+    "bjdCode": "4311332025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 604,
+      "u85": 602,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36391104",
@@ -1680,6 +3805,20 @@
     "emd": "옥산면",
     "sigunguCode": "43113",
     "sido": "충청북도",
-    "sigungu": "청주시 흥덕구"
+    "sigungu": "청주시 흥덕구",
+    "jibunAddr": "충청북도 청주흥덕구 옥산면 가락리 455-1 화인테크노빌아파트",
+    "builder": "화인종합건설",
+    "entrance": "계단식",
+    "useArea": "17260.848",
+    "bjdCode": "4311332025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 288,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

@@ -8,7 +8,21 @@
     "emd": "옥천동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 옥천동 231-1 옥천현대아파트",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "13180",
+    "bjdCode": "4615010400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 168,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024614",
@@ -19,7 +33,21 @@
     "emd": "매곡동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 매곡동 572 신매곡서한이다음",
+    "builder": "(주)서한건설",
+    "entrance": "계단식",
+    "useArea": "75631.2397",
+    "bjdCode": "4615010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 80,
+      "u85": 842,
+      "u135": 6,
+      "o135": 0
+    }
   },
   {
     "code": "A54007001",
@@ -30,7 +58,21 @@
     "emd": "매곡동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 매곡동 179-1 삼풍그린2차",
+    "builder": "삼풍건설",
+    "entrance": "계단식",
+    "useArea": "15631.96",
+    "bjdCode": "4615010700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 169,
+      "u135": 13,
+      "o135": 0
+    }
   },
   {
     "code": "A54007002",
@@ -41,7 +83,21 @@
     "emd": "매곡동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 매곡동 407 순천매곡2단지",
+    "builder": "대한주택공사",
+    "entrance": "계단식",
+    "useArea": "21473.94",
+    "bjdCode": "4615010700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 470,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021092",
@@ -52,7 +108,21 @@
     "emd": "석현동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 석현동 525- 향림현대2차아파트",
+    "builder": "현대건설주식회사",
+    "entrance": "계단식",
+    "useArea": "11377.44",
+    "bjdCode": "4615010800",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 137,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54010001",
@@ -63,7 +133,21 @@
     "emd": "석현동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 석현동 235 석현동중흥파크맨션",
+    "builder": "(합)중흥주택",
+    "entrance": "계단식",
+    "useArea": "15521.36",
+    "bjdCode": "4615010800",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 137,
+      "u85": 57,
+      "u135": 19,
+      "o135": 0
+    }
   },
   {
     "code": "A54010002",
@@ -74,7 +158,21 @@
     "emd": "석현동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 석현동 896 순천향림현대1차아파트",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "45243.39",
+    "bjdCode": "4615010800",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 450,
+      "u135": 60,
+      "o135": 0
+    }
   },
   {
     "code": "A10021376",
@@ -85,7 +183,21 @@
     "emd": "가곡동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 가곡동 429- 순천가곡대주아파트",
+    "builder": "대주건설",
+    "entrance": "계단식",
+    "useArea": "9578.59",
+    "bjdCode": "4615010900",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 106,
+      "u85": 38,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022004",
@@ -96,7 +208,21 @@
     "emd": "가곡동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 가곡동 980-1 드라마시티 목련마을",
+    "builder": "(주)시티밸리주택산업",
+    "entrance": "복도식",
+    "useArea": "4577.473",
+    "bjdCode": "4615010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 4,
+    "areaBreak": {
+      "u60": 130,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023179",
@@ -107,7 +233,21 @@
     "emd": "가곡동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 가곡동 1081 대광로제비앙 리버팰리스",
+    "builder": "(주)대광건영",
+    "entrance": "계단식",
+    "useArea": "56521.886",
+    "bjdCode": "4615010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 181,
+      "u85": 542,
+      "u135": 4,
+      "o135": 0
+    }
   },
   {
     "code": "A10024166",
@@ -118,7 +258,21 @@
     "emd": "가곡동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 가곡동 1022 가곡 영무예다음",
+    "builder": "영무토건",
+    "entrance": "계단식",
+    "useArea": "21074.8168",
+    "bjdCode": "4615010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 354,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54008001",
@@ -129,7 +283,21 @@
     "emd": "가곡동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 가곡동 972 가곡시영아파트",
+    "builder": "순천시",
+    "entrance": "계단식",
+    "useArea": "14976.3",
+    "bjdCode": "4615010900",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 250,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54008002",
@@ -140,7 +308,21 @@
     "emd": "가곡동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 가곡동 646 가곡신영아파트",
+    "builder": "(주)신영",
+    "entrance": "복도식",
+    "useArea": "33345.9",
+    "bjdCode": "4615010900",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 670,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54071001",
@@ -151,7 +333,21 @@
     "emd": "가곡동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 가곡동 728 참샘마을휴먼시아",
+    "builder": "남해종합개발",
+    "entrance": "복도식",
+    "useArea": "23788.66",
+    "bjdCode": "4615010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 571,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54071002",
@@ -162,7 +358,21 @@
     "emd": "가곡동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 가곡동 812 양우내안애",
+    "builder": "양우건설",
+    "entrance": "계단식",
+    "useArea": "54000.0062",
+    "bjdCode": "4615010900",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 342,
+      "u135": 152,
+      "o135": 36
+    }
   },
   {
     "code": "A10023318",
@@ -173,7 +383,21 @@
     "emd": "용당동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 용당동 175 한양수자인디에스티지",
+    "builder": "(주)한양",
+    "entrance": "계단식",
+    "useArea": "110231.6295",
+    "bjdCode": "4615011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1011,
+      "u135": 241,
+      "o135": 0
+    }
   },
   {
     "code": "A10024795",
@@ -184,7 +408,21 @@
     "emd": "용당동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 용당동 763 e편한세상순천 1.2단지",
+    "builder": "대림산업",
+    "entrance": "계단식",
+    "useArea": "55189.9839",
+    "bjdCode": "4615011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 459,
+      "u135": 146,
+      "o135": 0
+    }
   },
   {
     "code": "A10025704",
@@ -195,7 +433,21 @@
     "emd": "용당동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 용당동 756 덕진 순천의봄 아파트",
+    "builder": "덕진토건(주)",
+    "entrance": "계단식",
+    "useArea": "48795.9177",
+    "bjdCode": "4615011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 588,
+      "u85": 161,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54009002",
@@ -206,7 +458,21 @@
     "emd": "용당동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 용당동 215 삼성아파트",
+    "builder": "(주)삼성건설",
+    "entrance": "혼합식",
+    "useArea": "60942.06",
+    "bjdCode": "4615011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 276,
+      "u85": 414,
+      "u135": 72,
+      "o135": 0
+    }
   },
   {
     "code": "A54009003",
@@ -217,7 +483,21 @@
     "emd": "용당동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 용당동 191-1 삼산현대아파트",
+    "builder": "현대건설(주)",
+    "entrance": "혼합식",
+    "useArea": "73849.14",
+    "bjdCode": "4615011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 156,
+      "u85": 618,
+      "u135": 120,
+      "o135": 0
+    }
   },
   {
     "code": "A54076901",
@@ -228,7 +508,21 @@
     "emd": "용당동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 용당동 431 용당피오레",
+    "builder": "대주건설",
+    "entrance": "계단식",
+    "useArea": "93653.1721",
+    "bjdCode": "4615011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 666,
+      "u135": 389,
+      "o135": 0
+    }
   },
   {
     "code": "A54095801",
@@ -239,7 +533,21 @@
     "emd": "용당동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 용당동 570 용당동아아파트",
+    "builder": "동아건설",
+    "entrance": "계단식",
+    "useArea": "48335.789",
+    "bjdCode": "4615011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 597,
+      "u135": 1,
+      "o135": 0
+    }
   },
   {
     "code": "A10023338",
@@ -250,7 +558,21 @@
     "emd": "조곡동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 조곡동 634 e편한세상 순천 어반타워 아파트",
+    "builder": "DL 이앤씨",
+    "entrance": "계단식",
+    "useArea": "60355.1613",
+    "bjdCode": "4615011100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 391,
+      "u135": 241,
+      "o135": 0
+    }
   },
   {
     "code": "A54096201",
@@ -261,7 +583,21 @@
     "emd": "조곡동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 조곡동 71-87 조곡금호타운",
+    "builder": "(주)광주고속",
+    "entrance": "계단식",
+    "useArea": "21648.27",
+    "bjdCode": "4615011100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 266,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54096302",
@@ -272,7 +608,21 @@
     "emd": "조곡동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 조곡동 512 정원넥스빌아파트",
+    "builder": "(주)정원건설",
+    "entrance": "계단식",
+    "useArea": "24479.9473",
+    "bjdCode": "4615011100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 289,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54096303",
@@ -283,7 +633,21 @@
     "emd": "조곡동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 조곡동 566 금강메트로빌",
+    "builder": "금강종합건설",
+    "entrance": "계단식",
+    "useArea": "60711.0609",
+    "bjdCode": "4615011100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 717,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54013001",
@@ -294,7 +658,21 @@
     "emd": "생목동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 생목동 28-1 생목현대아파트",
+    "builder": "현대산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "41120.715",
+    "bjdCode": "4615011200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 499,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54013002",
@@ -305,7 +683,21 @@
     "emd": "생목동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 생목동 59 벽산첼시빌아파트",
+    "builder": "성지주택건설(주)",
+    "entrance": "계단식",
+    "useArea": "70709.379",
+    "bjdCode": "4615011200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 491,
+      "u135": 210,
+      "o135": 30
+    }
   },
   {
     "code": "A10020418",
@@ -317,7 +709,21 @@
     "sigunguCode": "46150",
     "sido": "전라남도",
     "sigungu": "순천시",
-    "hhldCnt": 560
+    "hhldCnt": 560,
+    "jibunAddr": "전라남도 순천시 덕암동 450- 순천푸르지오더퍼스트",
+    "builder": "대우건설",
+    "entrance": "계단식",
+    "useArea": "57015.395",
+    "bjdCode": "4615011300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54012001",
@@ -328,7 +734,21 @@
     "emd": "덕암동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 덕암동 1 덕암현대아파트",
+    "builder": "(주)현대산업개발",
+    "entrance": "계단식",
+    "useArea": "26217.96",
+    "bjdCode": "4615011300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 280,
+      "u85": 111,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10028008",
@@ -339,7 +759,21 @@
     "emd": "연향동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 연향동 1746 순천 연향송보파인빌 아파트",
+    "builder": "한빛건설(주)",
+    "entrance": "계단식",
+    "useArea": "64186.375",
+    "bjdCode": "4615011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 757,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54000301",
@@ -350,7 +784,21 @@
     "emd": "연향동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 연향동 1384-2 연향우미",
+    "builder": "우미",
+    "entrance": "복도식",
+    "useArea": "14800.5",
+    "bjdCode": "4615011400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 300,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54000306",
@@ -361,7 +809,21 @@
     "emd": "연향동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 연향동 1514 대주파크빌",
+    "builder": "대주건설(주)",
+    "entrance": "계단식",
+    "useArea": "37430.81",
+    "bjdCode": "4615011400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 16,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 253,
+      "u135": 190,
+      "o135": 0
+    }
   },
   {
     "code": "A54000309",
@@ -372,7 +834,21 @@
     "emd": "연향동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 연향동 1345 대우아파트",
+    "builder": "(주)대우",
+    "entrance": "계단식",
+    "useArea": "53984.496",
+    "bjdCode": "4615011400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 330,
+      "u135": 232,
+      "o135": 0
+    }
   },
   {
     "code": "A54000310",
@@ -383,7 +859,21 @@
     "emd": "연향동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 연향동 1347 연향동성",
+    "builder": "동성종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "53738.1",
+    "bjdCode": "4615011400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 660,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54000311",
@@ -394,7 +884,21 @@
     "emd": "연향동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 연향동 1346 연향동부아파트",
+    "builder": "동부건설",
+    "entrance": "계단식",
+    "useArea": "56825.19",
+    "bjdCode": "4615011400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 711,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54000312",
@@ -405,7 +909,21 @@
     "emd": "연향동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 연향동 1387 연향금호타운",
+    "builder": "(주)금호산업",
+    "entrance": "계단식",
+    "useArea": "63533.1",
+    "bjdCode": "4615011400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 60,
+      "u85": 610,
+      "u135": 60,
+      "o135": 0
+    }
   },
   {
     "code": "A54000313",
@@ -416,7 +934,21 @@
     "emd": "연향동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 연향동 1378 연향현대1차",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "68595.255",
+    "bjdCode": "4615011400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 717,
+      "u135": 90,
+      "o135": 0
+    }
   },
   {
     "code": "A54072715",
@@ -427,7 +959,21 @@
     "emd": "연향동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 연향동 1628 연향2차호반리젠시빌",
+    "builder": "리젠시빌(주)",
+    "entrance": "계단식",
+    "useArea": "65924.5416",
+    "bjdCode": "4615011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 414,
+      "u85": 498,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54075901",
@@ -438,7 +984,21 @@
     "emd": "연향동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 연향동 1660-1 연향주공",
+    "builder": "남양건설",
+    "entrance": "복도식",
+    "useArea": "17770.13",
+    "bjdCode": "4615011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 383,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54075902",
@@ -449,7 +1009,21 @@
     "emd": "연향동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 연향동 1631 율산에코지오아파트",
+    "builder": "(주)부영",
+    "entrance": "계단식",
+    "useArea": "37559.5246",
+    "bjdCode": "4615011400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 442,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54076417",
@@ -460,7 +1034,21 @@
     "emd": "연향동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 연향동 1384-3 순천부영1차",
+    "builder": "부영주택",
+    "entrance": "복도식",
+    "useArea": "74700",
+    "bjdCode": "4615011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 1245,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54076808",
@@ -471,7 +1059,21 @@
     "emd": "연향동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 연향동 1344 연향현대2차",
+    "builder": "현대건설(주)",
+    "entrance": "계단식",
+    "useArea": "50053.78",
+    "bjdCode": "4615011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 344,
+      "u135": 0,
+      "o135": 150
+    }
   },
   {
     "code": "A54095107",
@@ -482,7 +1084,21 @@
     "emd": "연향동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 연향동 89-28 연향코아루",
+    "builder": "금강",
+    "entrance": "계단식",
+    "useArea": "38212.155",
+    "bjdCode": "4615011400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 450,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54095216",
@@ -493,7 +1109,21 @@
     "emd": "연향동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 연향동 1386 순천부영2차",
+    "builder": "부영주택",
+    "entrance": "복도식",
+    "useArea": "72600",
+    "bjdCode": "4615011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1210,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54097505",
@@ -504,7 +1134,21 @@
     "emd": "연향동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 연향동 1515 금당중흥s-클레스빌",
+    "builder": "중흥건설",
+    "entrance": "계단식",
+    "useArea": "30575.988",
+    "bjdCode": "4615011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 360,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54097602",
@@ -515,7 +1159,21 @@
     "emd": "연향동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 연향동 1660-2 세영더조은",
+    "builder": "세영종합건설",
+    "entrance": "계단식",
+    "useArea": "28294.1497",
+    "bjdCode": "4615011400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 333,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54097603",
@@ -526,7 +1184,21 @@
     "emd": "연향동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 연향동 1659 연향3지구대주피오레",
+    "builder": "대주건설(주)",
+    "entrance": "계단식",
+    "useArea": "43068.8209",
+    "bjdCode": "4615011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 258,
+      "o135": 78
+    }
   },
   {
     "code": "A54097604",
@@ -537,7 +1209,21 @@
     "emd": "연향동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 연향동 1658 블루시안",
+    "builder": "중도건설",
+    "entrance": "계단식",
+    "useArea": "28546.4178",
+    "bjdCode": "4615011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 346,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54097614",
@@ -548,7 +1234,21 @@
     "emd": "연향동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 연향동 1626-1 연향호반리젠시빌1차",
+    "builder": "호반건설",
+    "entrance": "계단식",
+    "useArea": "43236.0331",
+    "bjdCode": "4615011400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 841,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027534",
@@ -559,7 +1259,21 @@
     "emd": "풍덕동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 풍덕동 276-3 풍덕 리가안",
+    "builder": "현진토건",
+    "entrance": "기타",
+    "useArea": "4442.63",
+    "bjdCode": "4615011500",
+    "aptType": "도시형 생활주택(주상복합)",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 252,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54015001",
@@ -570,7 +1284,21 @@
     "emd": "풍덕동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 풍덕동 255-5 풍덕주공",
+    "builder": "대주건설",
+    "entrance": "계단식",
+    "useArea": "16391.4",
+    "bjdCode": "4615011500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 300,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54015002",
@@ -581,7 +1309,21 @@
     "emd": "풍덕동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 풍덕동 807-7 한신아파트",
+    "builder": "우진건설",
+    "entrance": "계단식",
+    "useArea": "38419.68",
+    "bjdCode": "4615011500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 390,
+      "u135": 52,
+      "o135": 0
+    }
   },
   {
     "code": "A54015003",
@@ -592,7 +1334,21 @@
     "emd": "풍덕동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 풍덕동 255-3 풍덕금호타운아파트",
+    "builder": "광주고속",
+    "entrance": "계단식",
+    "useArea": "41238.74",
+    "bjdCode": "4615011500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 430,
+      "u135": 56,
+      "o135": 0
+    }
   },
   {
     "code": "A54018001",
@@ -603,7 +1359,21 @@
     "emd": "저전동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 저전동 270-2 성진아파트",
+    "builder": "합성공사",
+    "entrance": "복도식",
+    "useArea": "12300",
+    "bjdCode": "4615011800",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 205,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54020001",
@@ -614,7 +1384,21 @@
     "emd": "동외동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 동외동 56-14 선미중앙하이츠",
+    "builder": "중앙건설(주)",
+    "entrance": "계단식",
+    "useArea": "17261.6",
+    "bjdCode": "4615012200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 132,
+      "u135": 46,
+      "o135": 0
+    }
   },
   {
     "code": "A10022022",
@@ -625,7 +1409,21 @@
     "emd": "오천동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 오천동 1086- 순천오천해광샹그릴라",
+    "builder": "다인산업",
+    "entrance": "계단식",
+    "useArea": "6999.132",
+    "bjdCode": "4615012600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 9,
+    "areaBreak": {
+      "u60": 140,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026627",
@@ -636,7 +1434,21 @@
     "emd": "오천동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 오천동 953-2 순천오천영무예다음아파트",
+    "builder": "(주)영무건영",
+    "entrance": "계단식",
+    "useArea": "14887.4084",
+    "bjdCode": "4615012600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 258,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026633",
@@ -647,7 +1459,21 @@
     "emd": "오천동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 오천동 951 호반 베르디움 2차 그린파크",
+    "builder": "호반건설",
+    "entrance": "계단식",
+    "useArea": "38472.1383",
+    "bjdCode": "4615012600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 642,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026692",
@@ -658,7 +1484,21 @@
     "emd": "오천동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 오천동 953-1 순천오천부영",
+    "builder": "(주)부영주택",
+    "entrance": "계단식",
+    "useArea": "28320.2262",
+    "bjdCode": "4615012600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 349,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026996",
@@ -669,7 +1509,21 @@
     "emd": "오천동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 오천동 982 진아리채 파크원",
+    "builder": "진아건설(주)",
+    "entrance": "계단식",
+    "useArea": "35474.7484",
+    "bjdCode": "4615012600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 420,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027502",
@@ -680,7 +1534,21 @@
     "emd": "오천동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 오천동 954 순천오천골드클래스아파트",
+    "builder": "세종종합건설(주), 세종건설(주), (주)누리산업개발",
+    "entrance": "계단식",
+    "useArea": "51564.6283",
+    "bjdCode": "4615012600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 646,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027560",
@@ -691,7 +1559,21 @@
     "emd": "오천동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 오천동 952 대광로제비앙지에이그린웰 아파트",
+    "builder": "(주)지에이건설",
+    "entrance": "계단식",
+    "useArea": "37022.1587",
+    "bjdCode": "4615012600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 436,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10028047",
@@ -702,7 +1584,21 @@
     "emd": "오천동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 오천동 950 호반베르디움",
+    "builder": "(주)호반건설",
+    "entrance": "계단식",
+    "useArea": "50555.8713",
+    "bjdCode": "4615012600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 595,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54026001",
@@ -713,7 +1609,21 @@
     "emd": "덕월동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 덕월동 1369-1 신보아파트",
+    "builder": "정한건설",
+    "entrance": "혼합식",
+    "useArea": "15949.69",
+    "bjdCode": "4615012700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 25,
+      "u85": 199,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54026002",
@@ -724,7 +1634,21 @@
     "emd": "덕월동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 덕월동 653-2 우성아파트",
+    "builder": "우성건설",
+    "entrance": "계단식",
+    "useArea": "38166.14",
+    "bjdCode": "4615012700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 198,
+      "u85": 270,
+      "u135": 26,
+      "o135": 0
+    }
   },
   {
     "code": "A54074401",
@@ -735,7 +1659,21 @@
     "emd": "덕월동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 덕월동 331 청미래2차아파트",
+    "builder": "청미래주택(주)",
+    "entrance": "혼합식",
+    "useArea": "9830.766",
+    "bjdCode": "4615012700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 207,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54074402",
@@ -746,7 +1684,21 @@
     "emd": "덕월동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 덕월동 1-2 청미래1차아파트",
+    "builder": "청미래건설(주)",
+    "entrance": "계단식",
+    "useArea": "10513.0201",
+    "bjdCode": "4615012700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 133,
+      "u85": 30,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54074403",
@@ -757,7 +1709,21 @@
     "emd": "덕월동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 덕월동 9-1 청미래3차아파트",
+    "builder": "해남군 시골 집(한옥)",
+    "entrance": "계단식",
+    "useArea": "8745.357",
+    "bjdCode": "4615012700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 103,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54070501",
@@ -768,7 +1734,21 @@
     "emd": "왕지동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 왕지동 843 롯데캐슬아파트",
+    "builder": "롯데건설",
+    "entrance": "계단식",
+    "useArea": "159026.359",
+    "bjdCode": "4615013200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 205,
+      "u135": 442,
+      "o135": 514
+    }
   },
   {
     "code": "A54070502",
@@ -779,7 +1759,21 @@
     "emd": "왕지동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 왕지동 891 순천두산위브1단지",
+    "builder": "두산중공업",
+    "entrance": "계단식",
+    "useArea": "84544.0277",
+    "bjdCode": "4615013200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 358,
+      "u135": 373,
+      "o135": 92
+    }
   },
   {
     "code": "A54070503",
@@ -790,7 +1784,21 @@
     "emd": "왕지동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 왕지동 891 순천두산위브2단지",
+    "builder": "두산중공업",
+    "entrance": "계단식",
+    "useArea": "47903.485",
+    "bjdCode": "4615013200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 356,
+      "u135": 94,
+      "o135": 44
+    }
   },
   {
     "code": "A10020537",
@@ -801,7 +1809,21 @@
     "emd": "조례동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 조례동 1519-1 조례 수자인에디션",
+    "builder": "한양건설",
+    "entrance": "계단식",
+    "useArea": "39978.3273",
+    "bjdCode": "4615013300",
+    "aptType": "아파트",
+    "mgrType": "관리방식미정",
+    "topFloor": 27,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021251",
@@ -812,7 +1834,21 @@
     "emd": "조례동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 조례동 168- 트리마제순천1단지아파트",
+    "builder": "두산에너빌리티(주)",
+    "entrance": "계단식",
+    "useArea": "130635.3406",
+    "bjdCode": "4615013300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 926,
+      "u135": 286,
+      "o135": 102
+    }
   },
   {
     "code": "A10021483",
@@ -823,7 +1859,21 @@
     "emd": "조례동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 조례동 161-10 트리마제 순천 2단지",
+    "builder": "두산에너빌리티(주)",
+    "entrance": "계단식",
+    "useArea": "69047.1439",
+    "bjdCode": "4615013300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 26,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 522,
+      "u135": 128,
+      "o135": 55
+    }
   },
   {
     "code": "A10022508",
@@ -834,7 +1884,21 @@
     "emd": "조례동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 조례동 1276-1 순천 오네뜨센트럴 아파트",
+    "builder": "남해종합건설(주),남해종합개발(주)",
+    "entrance": "계단식",
+    "useArea": "36507.0558",
+    "bjdCode": "4615013300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 349,
+      "u135": 52,
+      "o135": 3
+    }
   },
   {
     "code": "A10022819",
@@ -845,7 +1909,21 @@
     "emd": "조례동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 조례동 1418-1 현대아미스주식회사순천조례3차골드클래스관리사무소",
+    "builder": "보광종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "44885.0461",
+    "bjdCode": "4615013300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 279,
+      "u135": 190,
+      "o135": 4
+    }
   },
   {
     "code": "A10024206",
@@ -856,7 +1934,21 @@
     "emd": "조례동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 조례동 528 골드클래스 시그니처",
+    "builder": "골드클래스",
+    "entrance": "계단식",
+    "useArea": "36491.6073",
+    "bjdCode": "4615013300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 363,
+      "u135": 50,
+      "o135": 0
+    }
   },
   {
     "code": "A10025538",
@@ -867,7 +1959,21 @@
     "emd": "조례동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 조례동 1884 영무예다음아파트",
+    "builder": "(주)영무건설",
+    "entrance": "계단식",
+    "useArea": "26330.588",
+    "bjdCode": "4615013300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 310,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025906",
@@ -878,7 +1984,21 @@
     "emd": "조례동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 조례동 1882 순천 조례 대광로제비앙 아파트",
+    "builder": "(주)대광건영",
+    "entrance": "계단식",
+    "useArea": "38547.1",
+    "bjdCode": "4615013300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 477,
+      "u135": 13,
+      "o135": 0
+    }
   },
   {
     "code": "A54032001",
@@ -889,7 +2009,21 @@
     "emd": "조례동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 조례동 802-6 조례시영아파트",
+    "builder": "남양건설(주)",
+    "entrance": "계단식",
+    "useArea": "11982.48",
+    "bjdCode": "4615013300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 200,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54032002",
@@ -900,7 +2034,21 @@
     "emd": "조례동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 조례동 1629 금당대림아파트",
+    "builder": "대림건설",
+    "entrance": "계단식",
+    "useArea": "29782.172",
+    "bjdCode": "4615013300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 280,
+      "o135": 0
+    }
   },
   {
     "code": "A54032003",
@@ -911,7 +2059,21 @@
     "emd": "조례동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 조례동 1658 조례주공8단지아파트",
+    "builder": "lh주택공사",
+    "entrance": "계단식",
+    "useArea": "18292.82",
+    "bjdCode": "4615013300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 310,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54032004",
@@ -922,7 +2084,21 @@
     "emd": "조례동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 조례동 1299-5 조례명지장미아파트",
+    "builder": "명지",
+    "entrance": "계단식",
+    "useArea": "15563.1",
+    "bjdCode": "4615013300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 322,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54032005",
@@ -933,7 +2109,21 @@
     "emd": "조례동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 조례동 1630 금당중흥1차파크맨션",
+    "builder": "중흥건설",
+    "entrance": "복도식",
+    "useArea": "18967.95",
+    "bjdCode": "4615013300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 350,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54032007",
@@ -944,7 +2134,21 @@
     "emd": "조례동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 조례동 1607 순천동신2차아파트",
+    "builder": "(주)동신",
+    "entrance": "계단식",
+    "useArea": "34766.78",
+    "bjdCode": "4615013300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 359,
+      "o135": 0
+    }
   },
   {
     "code": "A54032008",
@@ -955,7 +2159,21 @@
     "emd": "조례동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 조례동 505-3 조례현대1차아파트",
+    "builder": "현대산업개발",
+    "entrance": "계단식",
+    "useArea": "26833.944",
+    "bjdCode": "4615013300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 165,
+      "u85": 209,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54032011",
@@ -966,7 +2184,21 @@
     "emd": "조례동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 조례동 1804 왕지중흥3차아파트",
+    "builder": "중흥주택",
+    "entrance": "계단식",
+    "useArea": "24215.76",
+    "bjdCode": "4615013300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 404,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54032014",
@@ -977,7 +2209,21 @@
     "emd": "조례동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 조례동 1611 금당중흥2차아파트",
+    "builder": "중흥건설",
+    "entrance": "계단식",
+    "useArea": "26866.56",
+    "bjdCode": "4615013300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 448,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54032015",
@@ -988,7 +2234,21 @@
     "emd": "조례동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 조례동 1668 조례주공4차아파트",
+    "builder": "대한주택공사",
+    "entrance": "복도식",
+    "useArea": "18159.39",
+    "bjdCode": "4615013300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 465,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54032016",
@@ -999,7 +2259,21 @@
     "emd": "조례동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 조례동 807 조례동아아파트",
+    "builder": "동아건설(주)",
+    "entrance": "계단식",
+    "useArea": "39037.92",
+    "bjdCode": "4615013300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 474,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54032017",
@@ -1010,7 +2284,21 @@
     "emd": "조례동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 조례동 840 대림2차",
+    "builder": "삼호건설",
+    "entrance": "계단식",
+    "useArea": "35144.2",
+    "bjdCode": "4615013300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 210,
+      "u85": 266,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54032018",
@@ -1021,7 +2309,21 @@
     "emd": "조례동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 조례동 851 조례대림1차아파트",
+    "builder": "(주)삼호",
+    "entrance": "계단식",
+    "useArea": "42251.845",
+    "bjdCode": "4615013300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 419,
+      "u135": 60,
+      "o135": 0
+    }
   },
   {
     "code": "A54032020",
@@ -1032,7 +2334,21 @@
     "emd": "조례동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 조례동 1658 조례주공7차아파트",
+    "builder": "남양건설",
+    "entrance": "복도식",
+    "useArea": "22989.88",
+    "bjdCode": "4615013300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 490,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54032021",
@@ -1043,7 +2359,21 @@
     "emd": "조례동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 조례동 1659 조례주공6단지",
+    "builder": "롯데기공",
+    "entrance": "복도식",
+    "useArea": "29283.07",
+    "bjdCode": "4615013300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 535,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54032022",
@@ -1054,7 +2384,21 @@
     "emd": "조례동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 조례동 1609 순천부영8차",
+    "builder": "부영",
+    "entrance": "복도식",
+    "useArea": "27306.24",
+    "bjdCode": "4615013300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 547,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54032023",
@@ -1065,7 +2409,21 @@
     "emd": "조례동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 조례동 1608 조례대주아파트",
+    "builder": "대주건설",
+    "entrance": "계단식",
+    "useArea": "36179.06",
+    "bjdCode": "4615013300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 447,
+      "u85": 112,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54032024",
@@ -1076,7 +2434,21 @@
     "emd": "조례동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 조례동 1610 동신1차아파트",
+    "builder": "(주)동신",
+    "entrance": "혼합식",
+    "useArea": "41120.64",
+    "bjdCode": "4615013300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 288,
+      "u85": 288,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54032026",
@@ -1087,7 +2459,21 @@
     "emd": "조례동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 조례동 1348 조례주공1아파트",
+    "builder": "한국토지주택공사",
+    "entrance": "계단식",
+    "useArea": "33438.89",
+    "bjdCode": "4615013300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 499,
+      "u85": 151,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54032027",
@@ -1098,7 +2484,21 @@
     "emd": "조례동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 조례동 1362 조례5차현대아파트",
+    "builder": "대양토건주식회사",
+    "entrance": "계단식",
+    "useArea": "70367.64",
+    "bjdCode": "4615013300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 358,
+      "u135": 328,
+      "o135": 20
+    }
   },
   {
     "code": "A54032028",
@@ -1109,7 +2509,21 @@
     "emd": "조례동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 조례동 560 조례금호타운",
+    "builder": "금호산업",
+    "entrance": "계단식",
+    "useArea": "50334.69",
+    "bjdCode": "4615013300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 300,
+      "u85": 416,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54074601",
@@ -1120,7 +2534,21 @@
     "emd": "조례동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 조례동 1803 왕지아파트",
+    "builder": "(주)부영",
+    "entrance": "복도식",
+    "useArea": "19242.72",
+    "bjdCode": "4615013300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 322,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54074602",
@@ -1131,7 +2559,21 @@
     "emd": "조례동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 조례동 1612 순천5차부영아파트",
+    "builder": "(주)부영주택",
+    "entrance": "복도식",
+    "useArea": "34306.8",
+    "bjdCode": "4615013300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 690,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54074603",
@@ -1142,7 +2584,21 @@
     "emd": "조례동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 조례동 68-19 연동2차대주파크빌",
+    "builder": "대한건설",
+    "entrance": "계단식",
+    "useArea": "41643.5848",
+    "bjdCode": "4615013300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 91,
+      "u85": 426,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54074604",
@@ -1153,7 +2609,21 @@
     "emd": "조례동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 조례동 1820 연동1차대주파크빌",
+    "builder": "대한건설",
+    "entrance": "계단식",
+    "useArea": "45611.76",
+    "bjdCode": "4615013300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 150,
+      "u85": 431,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54074605",
@@ -1164,7 +2634,21 @@
     "emd": "조례동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 조례동 1730-1 서해골드빌",
+    "builder": "서해산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "20363.088",
+    "bjdCode": "4615013300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 240,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54074606",
@@ -1175,7 +2659,21 @@
     "emd": "조례동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 조례동 766 시대아파트",
+    "builder": "시대종합건설",
+    "entrance": "복도식",
+    "useArea": "101232.292",
+    "bjdCode": "4615013300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 2794,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54074607",
@@ -1186,7 +2684,21 @@
     "emd": "조례동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 조례동 1489 조례주공3차",
+    "builder": "lh",
+    "entrance": "계단식",
+    "useArea": "9452.97",
+    "bjdCode": "4615013300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 240,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54078109",
@@ -1197,7 +2709,21 @@
     "emd": "조례동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 조례동 1801 왕지현대2차아파트",
+    "builder": "현대건설(주)",
+    "entrance": "계단식",
+    "useArea": "37132.2",
+    "bjdCode": "4615013300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 300,
+      "u135": 90,
+      "o135": 0
+    }
   },
   {
     "code": "A54078110",
@@ -1208,7 +2734,21 @@
     "emd": "조례동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 조례동 1802 왕지현대1차아파트",
+    "builder": "현대산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "36361.91",
+    "bjdCode": "4615013300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 291,
+      "u135": 106,
+      "o135": 0
+    }
   },
   {
     "code": "A54078433",
@@ -1219,7 +2759,21 @@
     "emd": "조례동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 조례동 1666 조례주공5차",
+    "builder": "남양건설",
+    "entrance": "복도식",
+    "useArea": "25469.82",
+    "bjdCode": "4615013300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 921,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54079325",
@@ -1230,7 +2784,21 @@
     "emd": "조례동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 조례동 550 남양휴튼",
+    "builder": "(주)원당필하우징",
+    "entrance": "계단식",
+    "useArea": "78270.8712",
+    "bjdCode": "4615013300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 384,
+      "o135": 207
+    }
   },
   {
     "code": "A54096430",
@@ -1241,7 +2809,21 @@
     "emd": "조례동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 조례동 372-1 조례3차대주파크빌",
+    "builder": "대주건설",
+    "entrance": "계단식",
+    "useArea": "87254.652",
+    "bjdCode": "4615013300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 176,
+      "u85": 921,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54096706",
@@ -1252,7 +2834,21 @@
     "emd": "조례동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 조례동 1450 석호가람휘",
+    "builder": "(주)석호",
+    "entrance": "계단식",
+    "useArea": "25318.071",
+    "bjdCode": "4615013300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 180,
+      "u85": 175,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54096919",
@@ -1263,7 +2859,21 @@
     "emd": "조례동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 조례동 1800 왕지송촌프라임아파트",
+    "builder": "송촌건설(주)",
+    "entrance": "계단식",
+    "useArea": "44893.9961",
+    "bjdCode": "4615013300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 16,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 286,
+      "u135": 198,
+      "o135": 0
+    }
   },
   {
     "code": "A54097813",
@@ -1274,7 +2884,21 @@
     "emd": "조례동",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 조례동 1661 봉화그린빌",
+    "builder": "삼협개발",
+    "entrance": "계단식",
+    "useArea": "34615.47",
+    "bjdCode": "4615013300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 408,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023894",
@@ -1285,7 +2909,21 @@
     "emd": "해룡면",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 해룡면 복성리 694 순천한신더휴",
+    "builder": "한신공영(주)",
+    "entrance": "계단식",
+    "useArea": "82042.7415",
+    "bjdCode": "4615031021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 855,
+      "u135": 120,
+      "o135": 0
+    }
   },
   {
     "code": "A10024502",
@@ -1296,7 +2934,21 @@
     "emd": "해룡면",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 해룡면 신대리 1964 중흥S클래스에듀하이10단지아파트",
+    "builder": "중흥토건",
+    "entrance": "계단식",
+    "useArea": "46671.8234",
+    "bjdCode": "4615031022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 260,
+      "u135": 233,
+      "o135": 0
+    }
   },
   {
     "code": "A10025278",
@@ -1307,7 +2959,21 @@
     "emd": "해룡면",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 해룡면 신대리 1965 중흥S-클래스에듀힐스 9차",
+    "builder": "중흥건설(주)",
+    "entrance": "계단식",
+    "useArea": "98748.4386",
+    "bjdCode": "4615031022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 910,
+      "u85": 554,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026135",
@@ -1318,7 +2984,21 @@
     "emd": "해룡면",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 해룡면 신대리 1970 중흥s-클래스에코시티 7차",
+    "builder": "(주)중흥건설",
+    "entrance": "계단식",
+    "useArea": "28459.5182",
+    "bjdCode": "4615031022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 245,
+      "u85": 191,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026148",
@@ -1329,7 +3009,21 @@
     "emd": "해룡면",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 해룡면 신대리 1969 중흥S-클래스8차아파트",
+    "builder": "중흥건설 주식회사",
+    "entrance": "계단식",
+    "useArea": "85366.4452",
+    "bjdCode": "4615031022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 637,
+      "u135": 294,
+      "o135": 0
+    }
   },
   {
     "code": "A10027940",
@@ -1340,7 +3034,21 @@
     "emd": "해룡면",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 해룡면 신대리 1968 신대 중흥S-클래스 6단지 메가타운",
+    "builder": "중흥건설(주), 중흥토건(주)",
+    "entrance": "계단식",
+    "useArea": "145440.6832",
+    "bjdCode": "4615031022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 491,
+      "u85": 1137,
+      "u135": 214,
+      "o135": 0
+    }
   },
   {
     "code": "A54079510",
@@ -1351,7 +3059,21 @@
     "emd": "해룡면",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 해룡면 신대리 2103 중흥S클래스1단지",
+    "builder": "중흥건설산업(주)",
+    "entrance": "계단식",
+    "useArea": "105419.7378",
+    "bjdCode": "4615031022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 30,
+    "areaBreak": {
+      "u60": 561,
+      "u85": 905,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54079511",
@@ -1362,7 +3084,21 @@
     "emd": "해룡면",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 해룡면 신대리 2039 중흥S클래스2단지",
+    "builder": "중흥건설외1",
+    "entrance": "계단식",
+    "useArea": "99826.3306",
+    "bjdCode": "4615031022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1015,
+      "u135": 151,
+      "o135": 0
+    }
   },
   {
     "code": "A54079512",
@@ -1373,7 +3109,21 @@
     "emd": "해룡면",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 해룡면 신대리 2004 중흥S클래스3단지",
+    "builder": "(주)에코벨리",
+    "entrance": "계단식",
+    "useArea": "108458.9533",
+    "bjdCode": "4615031022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1296,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54079513",
@@ -1384,7 +3134,21 @@
     "emd": "해룡면",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 해룡면 신대리 2003 신대 중흥S-클래스 5단지",
+    "builder": "(합)중흥주택",
+    "entrance": "계단식",
+    "useArea": "118700.656",
+    "bjdCode": "4615031022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 30,
+    "areaBreak": {
+      "u60": 579,
+      "u85": 1027,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027186",
@@ -1395,7 +3159,21 @@
     "emd": "해룡면",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 해룡면 상삼리 35-31 대광로제비앙센트럴",
+    "builder": "대광건영",
+    "entrance": "계단식",
+    "useArea": "37165.9915",
+    "bjdCode": "4615031023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 27,
+    "areaBreak": {
+      "u60": 272,
+      "u85": 278,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10028170",
@@ -1406,7 +3184,21 @@
     "emd": "해룡면",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 해룡면 상삼리 927 대광로제비앙아파트",
+    "builder": "(주)대광건영",
+    "entrance": "계단식",
+    "useArea": "33837.9",
+    "bjdCode": "4615031023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 254,
+      "u135": 110,
+      "o135": 0
+    }
   },
   {
     "code": "A54079501",
@@ -1417,7 +3209,21 @@
     "emd": "해룡면",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 해룡면 상삼리 660 순천 정원에코힐",
+    "builder": "(주)부영",
+    "entrance": "계단식",
+    "useArea": "25497",
+    "bjdCode": "4615031023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리(직영+위탁)",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 300,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54079502",
@@ -1428,7 +3234,21 @@
     "emd": "해룡면",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 해룡면 상삼리 696 금당송촌파인힐아파트",
+    "builder": "송촌건설(주)",
+    "entrance": "계단식",
+    "useArea": "27688.96",
+    "bjdCode": "4615031023",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 16,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 352,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54079503",
@@ -1439,7 +3259,21 @@
     "emd": "해룡면",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 해룡면 상삼리 654 금당우미1차아파트",
+    "builder": "우미주택(주)",
+    "entrance": "복도식",
+    "useArea": "20990.82",
+    "bjdCode": "4615031023",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 398,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54079505",
@@ -1450,7 +3284,21 @@
     "emd": "해룡면",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 해룡면 상삼리 653 순천금당우미2차아파트",
+    "builder": "우미건설",
+    "entrance": "계단식",
+    "useArea": "23404.28",
+    "bjdCode": "4615031023",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 416,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54079506",
@@ -1461,7 +3309,21 @@
     "emd": "해룡면",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 해룡면 상삼리 657 순천부영3차 아파트",
+    "builder": "(주)동광주택산업",
+    "entrance": "복도식",
+    "useArea": "68331.44",
+    "bjdCode": "4615031023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 1242,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54079507",
@@ -1472,7 +3334,21 @@
     "emd": "해룡면",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 해룡면 상삼리 652 부영9차아파트",
+    "builder": "(주)부영",
+    "entrance": "혼합식",
+    "useArea": "21433.5",
+    "bjdCode": "4615031023",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 60,
+      "u85": 210,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54079508",
@@ -1483,7 +3359,21 @@
     "emd": "해룡면",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 해룡면 상삼리 661 순천부영6차",
+    "builder": "부영주택",
+    "entrance": "복도식",
+    "useArea": "24840",
+    "bjdCode": "4615031023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 414,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54079509",
@@ -1494,7 +3384,21 @@
     "emd": "해룡면",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 해룡면 상삼리 693 금당그리안아파트",
+    "builder": "부영주택",
+    "entrance": "복도식",
+    "useArea": "19661.04",
+    "bjdCode": "4615031023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 329,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54085405",
@@ -1505,7 +3409,21 @@
     "emd": "해룡면",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 해룡면 상삼리 428 신원아르시스",
+    "builder": "(주)신한주택개발",
+    "entrance": "계단식",
+    "useArea": "41125.0928",
+    "bjdCode": "4615031023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 484,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54085506",
@@ -1516,7 +3434,21 @@
     "emd": "해룡면",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 해룡면 상삼리 691 순천청솔1차아파트",
+    "builder": "광토건설(주)",
+    "entrance": "복도식",
+    "useArea": "31471.2",
+    "bjdCode": "4615031023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 558,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54085507",
@@ -1527,7 +3459,21 @@
     "emd": "해룡면",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 해룡면 상삼리 694 순천청솔2차아파트",
+    "builder": "(주)광토건설",
+    "entrance": "복도식",
+    "useArea": "39762",
+    "bjdCode": "4615031023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 705,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023320",
@@ -1538,7 +3484,21 @@
     "emd": "서면",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 서면 선평리 1100 포레나순천",
+    "builder": "(주)한화건설",
+    "entrance": "계단식",
+    "useArea": "54431.0696",
+    "bjdCode": "4615032028",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 511,
+      "u135": 102,
+      "o135": 0
+    }
   },
   {
     "code": "A10023857",
@@ -1550,7 +3510,21 @@
     "sigunguCode": "46150",
     "sido": "전라남도",
     "sigungu": "순천시",
-    "hhldCnt": 322
+    "hhldCnt": 322,
+    "jibunAddr": "전라남도 순천시 서면 선평리 1096 순천금호어울림더파크2차아파트",
+    "builder": "금호건설(주)",
+    "entrance": "계단식",
+    "useArea": "30439.2351",
+    "bjdCode": "4615032028",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023924",
@@ -1561,7 +3535,21 @@
     "emd": "서면",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 서면 선평리 1096 모아엘가리버파크",
+    "builder": "주)혜림건설",
+    "entrance": "계단식",
+    "useArea": "27273.394",
+    "bjdCode": "4615032028",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 322,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024273",
@@ -1572,7 +3560,21 @@
     "emd": "서면",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 서면 선평리 85 금호어울림더파크1차",
+    "builder": "금호건설",
+    "entrance": "계단식",
+    "useArea": "33693.6156",
+    "bjdCode": "4615032028",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 16,
+    "areaBreak": {
+      "u60": 186,
+      "u85": 273,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026727",
@@ -1583,7 +3585,21 @@
     "emd": "서면",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 서면 선평리 1092 LH선평3빛찬들아파트",
+    "builder": "(주)한양",
+    "entrance": "복도식",
+    "useArea": "25122.32",
+    "bjdCode": "4615032028",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 820,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54072001",
@@ -1594,7 +3610,21 @@
     "emd": "서면",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 서면 선평리 1089 라송센트럴카운티",
+    "builder": "한토건설",
+    "entrance": "계단식",
+    "useArea": "55828.4934",
+    "bjdCode": "4615032028",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 634,
+      "u135": 30,
+      "o135": 0
+    }
   },
   {
     "code": "A54081301",
@@ -1605,7 +3635,21 @@
     "emd": "서면",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 서면 선평리 201-1 선평주공2단지",
+    "builder": "진흥건설(주)",
+    "entrance": "복도식",
+    "useArea": "23339.97",
+    "bjdCode": "4615032028",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 550,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54081302",
@@ -1616,6 +3660,20 @@
     "emd": "서면",
     "sigunguCode": "46150",
     "sido": "전라남도",
-    "sigungu": "순천시"
+    "sigungu": "순천시",
+    "jibunAddr": "전라남도 순천시 서면 선평리 1087 선평배들마을아파트(주공1차)",
+    "builder": "주공",
+    "entrance": "계단식",
+    "useArea": "49992.84",
+    "bjdCode": "4615032028",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 900,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

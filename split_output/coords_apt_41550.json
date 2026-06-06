@@ -9,7 +9,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 420
+    "hhldCnt": 420,
+    "jibunAddr": "경기도 안성시 봉산동 42 한주아파트",
+    "builder": "한주건설",
+    "entrance": "계단식",
+    "useArea": "35609.24",
+    "bjdCode": "4155010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 166,
+      "u85": 146,
+      "u135": 108,
+      "o135": 0
+    }
   },
   {
     "code": "A45670801",
@@ -21,7 +35,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 4960
+    "hhldCnt": 4960,
+    "jibunAddr": "경기도 안성시 숭인동 88 안성동신아파트",
+    "builder": "(주)동신주택",
+    "entrance": "계단식",
+    "useArea": "39964.2",
+    "bjdCode": "4155010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 188,
+      "u85": 248,
+      "u135": 60,
+      "o135": 0
+    }
   },
   {
     "code": "A10021089",
@@ -32,7 +60,21 @@
     "emd": "낙원동",
     "sigunguCode": "41550",
     "sido": "경기도",
-    "sigungu": "화성시"
+    "sigungu": "화성시",
+    "jibunAddr": "경기도 안성시 낙원동 68-3 서광맨션아파트",
+    "builder": "서광산업",
+    "entrance": "계단식",
+    "useArea": "12345.31",
+    "bjdCode": "4155010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 146,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024022",
@@ -44,7 +86,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 299
+    "hhldCnt": 299,
+    "jibunAddr": "경기도 안성시 인지동 7 안성골든캐슬타워",
+    "builder": "한창종합건설",
+    "entrance": "복도식",
+    "useArea": "6756.98",
+    "bjdCode": "4155011300",
+    "aptType": "도시형 생활주택(아파트)",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 299,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A45631001",
@@ -56,7 +112,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 226
+    "hhldCnt": 226,
+    "jibunAddr": "경기도 안성시 금산동 50-1 삼부",
+    "builder": "삼부토건 (주)",
+    "entrance": "계단식",
+    "useArea": "17968",
+    "bjdCode": "4155011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 226,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A45670302",
@@ -68,7 +138,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 390
+    "hhldCnt": 390,
+    "jibunAddr": "경기도 안성시 금산동 100 금산주공",
+    "builder": "2022-11-01",
+    "entrance": "계단식",
+    "useArea": "16245",
+    "bjdCode": "4155011400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 390,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024101",
@@ -80,7 +164,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 644
+    "hhldCnt": 644,
+    "jibunAddr": "경기도 안성시 석정동 368 안성센트럴파밀리에",
+    "builder": "신동아건설",
+    "entrance": "계단식",
+    "useArea": "51917.24",
+    "bjdCode": "4155011800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 644,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024929",
@@ -92,7 +190,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 192
+    "hhldCnt": 192,
+    "jibunAddr": "경기도 안성시 석정동 29-2 안성엘리시아",
+    "builder": "(주)엘리시아",
+    "entrance": "계단식",
+    "useArea": "4177.81",
+    "bjdCode": "4155011800",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 192,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A45624001",
@@ -104,7 +216,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 486
+    "hhldCnt": 486,
+    "jibunAddr": "경기도 안성시 석정동 343 한빛마을우남퍼스트빌",
+    "builder": "(주)우남건설",
+    "entrance": "계단식",
+    "useArea": "51109.5049",
+    "bjdCode": "4155011800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 251,
+      "u135": 157,
+      "o135": 78
+    }
   },
   {
     "code": "A45624002",
@@ -116,7 +242,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 614
+    "hhldCnt": 614,
+    "jibunAddr": "경기도 안성시 석정동 355 신원아침도시",
+    "builder": "신원종합개발(주)",
+    "entrance": "계단식",
+    "useArea": "54826.38",
+    "bjdCode": "4155011800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 538,
+      "u135": 76,
+      "o135": 0
+    }
   },
   {
     "code": "A10022636",
@@ -128,7 +268,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 474
+    "hhldCnt": 474,
+    "jibunAddr": "경기도 안성시 아양동 417 안성아양   흥화하브 아파트",
+    "builder": "흥화건설",
+    "entrance": "계단식",
+    "useArea": "40273.3702",
+    "bjdCode": "4155011900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 474,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024724",
@@ -140,7 +294,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 447
+    "hhldCnt": 447,
+    "jibunAddr": "경기도 안성시 아양동 415 아양LH5단지",
+    "builder": "남양건설",
+    "entrance": "복도식",
+    "useArea": "16990.56",
+    "bjdCode": "4155011900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 447,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025516",
@@ -151,7 +319,21 @@
     "emd": "아양동",
     "sigunguCode": "41550",
     "sido": "경기도",
-    "sigungu": "화성시"
+    "sigungu": "화성시",
+    "jibunAddr": "경기도 안성시 아양동 344-11 안성하우스디NHF아파트",
+    "builder": "대보건설",
+    "entrance": "계단식",
+    "useArea": "36242.27",
+    "bjdCode": "4155011900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 443,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026595",
@@ -162,7 +344,21 @@
     "emd": "아양동",
     "sigunguCode": "41550",
     "sido": "경기도",
-    "sigungu": "화성시"
+    "sigungu": "화성시",
+    "jibunAddr": "경기도 안성시 아양동  안성아양서희스타힐스NHF아파트",
+    "builder": "(주)서희건설",
+    "entrance": "계단식",
+    "useArea": "79967.14",
+    "bjdCode": "4155011900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 963,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027143",
@@ -173,7 +369,21 @@
     "emd": "아양동",
     "sigunguCode": "41550",
     "sido": "경기도",
-    "sigungu": "화성시"
+    "sigungu": "화성시",
+    "jibunAddr": "경기도 안성시 아양동  아양LH1단지아파트",
+    "builder": "한국토지주택공사",
+    "entrance": "복도식",
+    "useArea": "18759.14",
+    "bjdCode": "4155011900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 540,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A45670902",
@@ -185,7 +395,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 936
+    "hhldCnt": 936,
+    "jibunAddr": "경기도 안성시 아양동 300 아양주공1차",
+    "builder": "한국주택공사",
+    "entrance": "계단식",
+    "useArea": "38392.56",
+    "bjdCode": "4155011900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 936,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A45671001",
@@ -197,7 +421,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 712
+    "hhldCnt": 712,
+    "jibunAddr": "경기도 안성시 아양동 384 아양주공2단지아파트",
+    "builder": "대한주택공사",
+    "entrance": "복도식",
+    "useArea": "32114.4",
+    "bjdCode": "4155011900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 712,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A45676301",
@@ -209,7 +447,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 499
+    "hhldCnt": 499,
+    "jibunAddr": "경기도 안성시 금석동 81 동남타운",
+    "builder": "동남종합건설(주)",
+    "entrance": "복도식",
+    "useArea": "29311.26",
+    "bjdCode": "4155012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 499,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026077",
@@ -221,7 +473,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 545
+    "hhldCnt": 545,
+    "jibunAddr": "경기도 안성시 옥산동 557 광신프로그레스아파트",
+    "builder": "광신건설",
+    "entrance": "계단식",
+    "useArea": "45912.9168",
+    "bjdCode": "4155012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 545,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026285",
@@ -232,7 +498,21 @@
     "emd": "옥산동",
     "sigunguCode": "41550",
     "sido": "경기도",
-    "sigungu": "화성시"
+    "sigungu": "화성시",
+    "jibunAddr": "경기도 안성시 옥산동  안성아양시티프라디움아파트",
+    "builder": "(주)시티건설",
+    "entrance": "계단식",
+    "useArea": "59104.6502",
+    "bjdCode": "4155012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 26,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 643,
+      "u135": 45,
+      "o135": 0
+    }
   },
   {
     "code": "A45671101",
@@ -244,7 +524,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 30
+    "hhldCnt": 30,
+    "jibunAddr": "경기도 안성시 옥산동 10 옥산주공",
+    "builder": "대한주택공사",
+    "entrance": "계단식",
+    "useArea": "17909.1",
+    "bjdCode": "4155012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 440,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021038",
@@ -256,7 +550,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 1370
+    "hhldCnt": 1370,
+    "jibunAddr": "경기도 안성시 당왕동 587- e편한세상안성그랑루체",
+    "builder": " D/L건설",
+    "entrance": "계단식",
+    "useArea": "123315.7065",
+    "bjdCode": "4155012500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1030,
+      "u135": 340,
+      "o135": 0
+    }
   },
   {
     "code": "A10022806",
@@ -267,7 +575,21 @@
     "emd": "당왕동",
     "sigunguCode": "41550",
     "sido": "경기도",
-    "sigungu": "화성시"
+    "sigungu": "화성시",
+    "jibunAddr": "경기도 안성시 당왕동 121 금호어울림 더프라임아파트",
+    "builder": "금호건설",
+    "entrance": "계단식",
+    "useArea": "92126.3318",
+    "bjdCode": "4155012500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 288,
+      "u85": 952,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025837",
@@ -279,7 +601,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 1657
+    "hhldCnt": 1657,
+    "jibunAddr": "경기도 안성시 당왕동 584 안성 삼정그린코아더베스트 아파트",
+    "builder": "(주)삼정",
+    "entrance": "계단식",
+    "useArea": "122677.3134",
+    "bjdCode": "4155012500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 32,
+    "areaBreak": {
+      "u60": 713,
+      "u85": 944,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A45670503",
@@ -291,7 +627,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 120
+    "hhldCnt": 120,
+    "jibunAddr": "경기도 안성시 당왕동 534 당왕대우1차",
+    "builder": "(주)대우건설",
+    "entrance": "계단식",
+    "useArea": "57713.472",
+    "bjdCode": "4155012500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 762,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A45670504",
@@ -303,7 +653,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 995
+    "hhldCnt": 995,
+    "jibunAddr": "경기도 안성시 당왕동 535 대우경남",
+    "builder": "(주)대우건설, 경남기업(주)",
+    "entrance": "계단식",
+    "useArea": "62395.26",
+    "bjdCode": "4155012500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 828,
+      "u85": 156,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A45676402",
@@ -315,7 +679,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 498
+    "hhldCnt": 498,
+    "jibunAddr": "경기도 안성시 당왕동 536 당왕쌍용",
+    "builder": "쌍용건설",
+    "entrance": "계단식",
+    "useArea": "39791.88",
+    "bjdCode": "4155012500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 498,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A45676701",
@@ -327,7 +705,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 234
+    "hhldCnt": 234,
+    "jibunAddr": "경기도 안성시 당왕동 462-1 당왕태영",
+    "builder": "(주)태영",
+    "entrance": "계단식",
+    "useArea": "18945.78",
+    "bjdCode": "4155012500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 60,
+      "u85": 155,
+      "u135": 19,
+      "o135": 0
+    }
   },
   {
     "code": "A10026585",
@@ -339,7 +731,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 759
+    "hhldCnt": 759,
+    "jibunAddr": "경기도 안성시 가사동 175 안성푸르지오아파트",
+    "builder": "(주)대우건설",
+    "entrance": "계단식",
+    "useArea": "50070.4335",
+    "bjdCode": "4155012600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 455,
+      "u85": 304,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023233",
@@ -350,7 +756,21 @@
     "emd": "신소현동",
     "sigunguCode": "41550",
     "sido": "경기도",
-    "sigungu": "화성시"
+    "sigungu": "화성시",
+    "jibunAddr": "경기도 안성시 신소현동 184 안성골든스테이",
+    "builder": "일진종합건설(주)",
+    "entrance": "복도식",
+    "useArea": "4282.1838",
+    "bjdCode": "4155012900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 299,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A45638001",
@@ -362,7 +782,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 829
+    "hhldCnt": 829,
+    "jibunAddr": "경기도 안성시 신소현동 175 안성신소현코아루",
+    "builder": "솔리드건설(주) 평창토건(주)",
+    "entrance": "계단식",
+    "useArea": "74724.18",
+    "bjdCode": "4155012900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 695,
+      "u135": 134,
+      "o135": 0
+    }
   },
   {
     "code": "A45629001",
@@ -374,7 +808,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 930
+    "hhldCnt": 930,
+    "jibunAddr": "경기도 안성시 중리동 616 안성동광1차아파트",
+    "builder": "동광종합토건(주)",
+    "entrance": "계단식",
+    "useArea": "64690.5",
+    "bjdCode": "4155013300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 570,
+      "u85": 360,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A45674701",
@@ -386,7 +834,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 576
+    "hhldCnt": 576,
+    "jibunAddr": "경기도 안성시 중리동 618 안성중리2차동광",
+    "builder": "동광종합토건(주)",
+    "entrance": "계단식",
+    "useArea": "48937.818",
+    "bjdCode": "4155013300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 576,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020880",
@@ -397,7 +859,21 @@
     "emd": "공도읍",
     "sigunguCode": "41550",
     "sido": "경기도",
-    "sigungu": "화성시"
+    "sigungu": "화성시",
+    "jibunAddr": "경기도 안성시 공도읍 양기리 302-2 안성우방아이유쉘에스티지",
+    "builder": "에스엠스틸 (주) 건축부문",
+    "entrance": "계단식",
+    "useArea": "80663.2848",
+    "bjdCode": "4155025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 946,
+      "u135": 0,
+      "o135": 2
+    }
   },
   {
     "code": "A10025488",
@@ -409,7 +885,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 976
+    "hhldCnt": 976,
+    "jibunAddr": "경기도 안성시 공도읍 양기리 615 서해그랑블아파트",
+    "builder": "(주)서해종합건설",
+    "entrance": "계단식",
+    "useArea": "62047.1769",
+    "bjdCode": "4155025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 28,
+    "areaBreak": {
+      "u60": 622,
+      "u85": 354,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A45672815",
@@ -421,7 +911,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 878
+    "hhldCnt": 878,
+    "jibunAddr": "경기도 안성시 공도읍 양기리 567 송정그린빌",
+    "builder": "송정건설",
+    "entrance": "계단식",
+    "useArea": "61697.882",
+    "bjdCode": "4155025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 455,
+      "u85": 405,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022459",
@@ -433,7 +937,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 433
+    "hhldCnt": 433,
+    "jibunAddr": "경기도 안성시 공도읍 용두리 763- 공도센트럴카운티에듀파크",
+    "builder": "(주)한토건설",
+    "entrance": "계단식",
+    "useArea": "36798.7455",
+    "bjdCode": "4155025025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 27,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 433,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022970",
@@ -445,7 +963,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 533
+    "hhldCnt": 533,
+    "jibunAddr": "경기도 안성시 공도읍 용두리 757 공도센트럴카운티아파트",
+    "builder": "한토건설",
+    "entrance": "계단식",
+    "useArea": "44628.3925",
+    "bjdCode": "4155025025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 533,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026069",
@@ -457,7 +989,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 1358
+    "hhldCnt": 1358,
+    "jibunAddr": "경기도 안성시 공도읍 용두리 755 안성공도우미린더퍼스트",
+    "builder": "우미건설",
+    "entrance": "계단식",
+    "useArea": "100144.2564",
+    "bjdCode": "4155025025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 279,
+      "u85": 1079,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A45671419",
@@ -469,7 +1015,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 2615
+    "hhldCnt": 2615,
+    "jibunAddr": "경기도 안성시 공도읍 용두리 752 공도주은풍림",
+    "builder": "주은산업",
+    "entrance": "복도식",
+    "useArea": "131430.15",
+    "bjdCode": "4155025025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 2614,
+      "u85": 0,
+      "u135": 1,
+      "o135": 0
+    }
   },
   {
     "code": "A45671616",
@@ -481,7 +1041,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 593
+    "hhldCnt": 593,
+    "jibunAddr": "경기도 안성시 공도읍 용두리 683 태산1차",
+    "builder": "내외건설(주)",
+    "entrance": "계단식",
+    "useArea": "35433.27",
+    "bjdCode": "4155025025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 593,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A45672312",
@@ -493,7 +1067,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 751
+    "hhldCnt": 751,
+    "jibunAddr": "경기도 안성시 공도읍 용두리 753 산수화",
+    "builder": "내외건설, KDE건설",
+    "entrance": "계단식",
+    "useArea": "44877.57",
+    "bjdCode": "4155025025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 751,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022510",
@@ -505,7 +1093,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 786
+    "hhldCnt": 786,
+    "jibunAddr": "경기도 안성시 공도읍 승두리 936- 공도서희스타힐스",
+    "builder": "(주)서희건설",
+    "entrance": "계단식",
+    "useArea": "52058.9771",
+    "bjdCode": "4155025026",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 526,
+      "u85": 260,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022576",
@@ -517,7 +1119,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 705
+    "hhldCnt": 705,
+    "jibunAddr": "경기도 안성시 공도읍 승두리 939 효성해링턴플레이스안성공도",
+    "builder": "진흥기업(주)",
+    "entrance": "복도식",
+    "useArea": "46296.6895",
+    "bjdCode": "4155025026",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 484,
+      "u85": 221,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022826",
@@ -528,7 +1144,21 @@
     "emd": "공도읍",
     "sigunguCode": "41550",
     "sido": "경기도",
-    "sigungu": "화성시"
+    "sigungu": "화성시",
+    "jibunAddr": "경기도 안성시 공도읍 승두리 73 안성쌍용더플래티넘프리미어",
+    "builder": "쌍용건설(주)",
+    "entrance": "계단식",
+    "useArea": "123825.3",
+    "bjdCode": "4155025026",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 35,
+    "areaBreak": {
+      "u60": 548,
+      "u85": 1138,
+      "u135": 2,
+      "o135": 8
+    }
   },
   {
     "code": "A10024516",
@@ -540,7 +1170,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 715
+    "hhldCnt": 715,
+    "jibunAddr": "경기도 안성시 공도읍 승두리 889 공도우방아이유쉘",
+    "builder": "우방건설",
+    "entrance": "계단식",
+    "useArea": "51392.2818",
+    "bjdCode": "4155025026",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 26,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 715,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020579",
@@ -551,7 +1195,21 @@
     "emd": "공도읍",
     "sigunguCode": "41550",
     "sido": "경기도",
-    "sigungu": "화성시"
+    "sigungu": "화성시",
+    "jibunAddr": "경기도 안성시 공도읍 만정리 358-23 라포르테공도",
+    "builder": "건영건설",
+    "entrance": "계단식",
+    "useArea": "63179.559",
+    "bjdCode": "4155025029",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023234",
@@ -563,7 +1221,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 680
+    "hhldCnt": 680,
+    "jibunAddr": "경기도 안성시 공도읍 만정리 881 이트리니티공도센트럴파크",
+    "builder": "이랜드건설",
+    "entrance": "계단식",
+    "useArea": "48760.9535",
+    "bjdCode": "4155025029",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 28,
+    "areaBreak": {
+      "u60": 209,
+      "u85": 471,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A45672206",
@@ -574,7 +1246,21 @@
     "emd": "공도읍",
     "sigunguCode": "41550",
     "sido": "경기도",
-    "sigungu": "화성시"
+    "sigungu": "화성시",
+    "jibunAddr": "경기도 안성시 공도읍 만정리 709-1 한일타운",
+    "builder": "한일건설",
+    "entrance": "계단식",
+    "useArea": "16380.89825",
+    "bjdCode": "4155025029",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 274,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A45672714",
@@ -586,7 +1272,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 795
+    "hhldCnt": 795,
+    "jibunAddr": "경기도 안성시 공도읍 만정리 707-1 공도부영",
+    "builder": "부영",
+    "entrance": "혼합식",
+    "useArea": "43502.21",
+    "bjdCode": "4155025029",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 788,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A45682101",
@@ -598,7 +1298,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 1039
+    "hhldCnt": 1039,
+    "jibunAddr": "경기도 안성시 공도읍 만정리 783-2 참아름2단지",
+    "builder": "경기주택도시공사",
+    "entrance": "혼합식",
+    "useArea": "48099.785",
+    "bjdCode": "4155025029",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 1039,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A45682102",
@@ -610,7 +1324,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 1101
+    "hhldCnt": 1101,
+    "jibunAddr": "경기도 안성시 공도읍 만정리 877 KCC스위첸",
+    "builder": "그린토건",
+    "entrance": "계단식",
+    "useArea": "109647.222",
+    "bjdCode": "4155025029",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 781,
+      "u135": 250,
+      "o135": 70
+    }
   },
   {
     "code": "A45682103",
@@ -622,7 +1350,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 1378
+    "hhldCnt": 1378,
+    "jibunAddr": "경기도 안성시 공도읍 만정리 880 공도벽산블루밍디자인시티",
+    "builder": "넥스트개발",
+    "entrance": "계단식",
+    "useArea": "137413.4886",
+    "bjdCode": "4155025029",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 712,
+      "u135": 628,
+      "o135": 38
+    }
   },
   {
     "code": "A45682305",
@@ -634,7 +1376,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 254
+    "hhldCnt": 254,
+    "jibunAddr": "경기도 안성시 공도읍 만정리 777-1 금호어울림2단지",
+    "builder": "신의개발",
+    "entrance": "계단식",
+    "useArea": "29394.024",
+    "bjdCode": "4155025029",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 254,
+      "o135": 0
+    }
   },
   {
     "code": "A45682307",
@@ -646,7 +1402,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 344
+    "hhldCnt": 344,
+    "jibunAddr": "경기도 안성시 공도읍 만정리 786-1 금호어울림3단지",
+    "builder": "금호건설",
+    "entrance": "계단식",
+    "useArea": "29137.144",
+    "bjdCode": "4155025029",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 344,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A45682309",
@@ -658,7 +1428,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 474
+    "hhldCnt": 474,
+    "jibunAddr": "경기도 안성시 공도읍 만정리 785-6 금호어울림1단지",
+    "builder": "금호건설",
+    "entrance": "계단식",
+    "useArea": "40195.584",
+    "bjdCode": "4155025029",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 474,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A45682310",
@@ -670,7 +1454,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 517
+    "hhldCnt": 517,
+    "jibunAddr": "경기도 안성시 공도읍 만정리 788-4 참아름5단지",
+    "builder": "경기도시공사",
+    "entrance": "혼합식",
+    "useArea": "23814.738",
+    "bjdCode": "4155025029",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 517,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A45672002",
@@ -682,7 +1480,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 222
+    "hhldCnt": 222,
+    "jibunAddr": "경기도 안성시 공도읍 마정리 561 베르빌아파트",
+    "builder": "(주)대교D&S",
+    "entrance": "계단식",
+    "useArea": "15073.9242",
+    "bjdCode": "4155025030",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 138,
+      "u85": 80,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A45672103",
@@ -694,7 +1506,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 222
+    "hhldCnt": 222,
+    "jibunAddr": "경기도 안성시 공도읍 마정리 45-6 대림한숲원",
+    "builder": "대림흥산주",
+    "entrance": "복도식",
+    "useArea": "6408.3",
+    "bjdCode": "4155025030",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 222,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A45682201",
@@ -705,7 +1531,21 @@
     "emd": "공도읍",
     "sigunguCode": "41550",
     "sido": "경기도",
-    "sigungu": "화성시"
+    "sigungu": "화성시",
+    "jibunAddr": "경기도 안성시 공도읍 마정리 590 임광그대가2단지",
+    "builder": "임광토건",
+    "entrance": "계단식",
+    "useArea": "16474.2084",
+    "bjdCode": "4155025030",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 194,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A45682204",
@@ -717,7 +1557,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 250
+    "hhldCnt": 250,
+    "jibunAddr": "경기도 안성시 공도읍 마정리 592 임광그대가1단지",
+    "builder": "임광토건",
+    "entrance": "계단식",
+    "useArea": "23035.1412",
+    "bjdCode": "4155025030",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 202,
+      "u135": 48,
+      "o135": 0
+    }
   },
   {
     "code": "A10020185",
@@ -729,7 +1583,20 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 355
+    "hhldCnt": 355,
+    "jibunAddr": "경기도 안성시 공도읍 진사리 29-13 해링턴 플레이스 진사 1단지",
+    "builder": "효성중공업",
+    "entrance": "복도식",
+    "useArea": "39031.54",
+    "bjdCode": "4155025031",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 355,
+      "o135": 0
+    }
   },
   {
     "code": "A10025517",
@@ -741,7 +1608,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 213
+    "hhldCnt": 213,
+    "jibunAddr": "경기도 안성시 공도읍 진사리 742 수창해뜨레아파트",
+    "builder": "수창건설(주)",
+    "entrance": "계단식",
+    "useArea": "13382.09",
+    "bjdCode": "4155025031",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 175,
+      "u85": 38,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A45671317",
@@ -753,7 +1634,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 940
+    "hhldCnt": 940,
+    "jibunAddr": "경기도 안성시 공도읍 진사리 20-14 공도우림",
+    "builder": "우림건설(주)",
+    "entrance": "복도식",
+    "useArea": "48054.61",
+    "bjdCode": "4155025031",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 940,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A45671518",
@@ -765,7 +1660,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 2377
+    "hhldCnt": 2377,
+    "jibunAddr": "경기도 안성시 공도읍 진사리 36-1 공도주은청설",
+    "builder": "(주)주은산업,(주)청설종합건설",
+    "entrance": "복도식",
+    "useArea": "107803.83",
+    "bjdCode": "4155025031",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 2295,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A45672408",
@@ -777,7 +1686,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 357
+    "hhldCnt": 357,
+    "jibunAddr": "경기도 안성시 공도읍 진사리 639-1 진사리삼성",
+    "builder": "삼성중공업",
+    "entrance": "계단식",
+    "useArea": "25897.12",
+    "bjdCode": "4155025031",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 180,
+      "u85": 148,
+      "u135": 20,
+      "o135": 0
+    }
   },
   {
     "code": "A45672511",
@@ -788,7 +1711,21 @@
     "emd": "공도읍",
     "sigunguCode": "41550",
     "sido": "경기도",
-    "sigungu": "화성시"
+    "sigungu": "화성시",
+    "jibunAddr": "경기도 안성시 공도읍 진사리 643 우림루미아트",
+    "builder": "(주)우림건설",
+    "entrance": "계단식",
+    "useArea": "46740.1",
+    "bjdCode": "4155025031",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 550,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A45672613",
@@ -800,7 +1737,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 776
+    "hhldCnt": 776,
+    "jibunAddr": "경기도 안성시 공도읍 진사리 644 쌍용스윗닷홈",
+    "builder": "남우건설",
+    "entrance": "계단식",
+    "useArea": "65380.5332",
+    "bjdCode": "4155025031",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 718,
+      "u135": 58,
+      "o135": 0
+    }
   },
   {
     "code": "A45687101",
@@ -812,7 +1763,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 232
+    "hhldCnt": 232,
+    "jibunAddr": "경기도 안성시 보개면 기좌리 359-1 양지리치타운",
+    "builder": "양지건설",
+    "entrance": "계단식",
+    "useArea": "12813.36",
+    "bjdCode": "4155031022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 232,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A45676501",
@@ -824,7 +1789,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 1719
+    "hhldCnt": 1719,
+    "jibunAddr": "경기도 안성시 금광면 신양복리 139-1 홍익골든빌",
+    "builder": "홍익건설",
+    "entrance": "혼합식",
+    "useArea": "87604.794",
+    "bjdCode": "4155032034",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1719,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A45684101",
@@ -836,7 +1815,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 488
+    "hhldCnt": 488,
+    "jibunAddr": "경기도 안성시 미양면 보체리 405 경동메르빌",
+    "builder": "(주)경동건설",
+    "entrance": "계단식",
+    "useArea": "33614.6994",
+    "bjdCode": "4155034033",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 269,
+      "u85": 219,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A45674501",
@@ -848,7 +1841,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 507
+    "hhldCnt": 507,
+    "jibunAddr": "경기도 안성시 미양면 양변리 240-19 금화마을",
+    "builder": "금화건설",
+    "entrance": "복도식",
+    "useArea": "20748.42",
+    "bjdCode": "4155034038",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 499,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A45683202",
@@ -860,7 +1867,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 476
+    "hhldCnt": 476,
+    "jibunAddr": "경기도 안성시 대덕면 진현리 555 안성유안",
+    "builder": "유안종합건설",
+    "entrance": "계단식",
+    "useArea": "30878.63",
+    "bjdCode": "4155035026",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 356,
+      "u85": 120,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A45683103",
@@ -872,7 +1893,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 590
+    "hhldCnt": 590,
+    "jibunAddr": "경기도 안성시 대덕면 내리 675 신라아파트",
+    "builder": "신라",
+    "entrance": "복도식",
+    "useArea": "21530.92",
+    "bjdCode": "4155035028",
+    "aptType": "아파트",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 590,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027618",
@@ -884,7 +1919,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 2320
+    "hhldCnt": 2320,
+    "jibunAddr": "경기도 안성시 대덕면 신령리 820 안성 롯데캐슬 아파트",
+    "builder": "롯데건설",
+    "entrance": "계단식",
+    "useArea": "159991.2517",
+    "bjdCode": "4155035031",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 1176,
+      "u85": 1144,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026108",
@@ -895,7 +1944,21 @@
     "emd": "원곡면",
     "sigunguCode": "41550",
     "sido": "경기도",
-    "sigungu": "화성시"
+    "sigungu": "화성시",
+    "jibunAddr": "경기도 안성시 원곡면 외가천리 228-12 안성원곡제일오투그란데",
+    "builder": "제일건설(주)",
+    "entrance": "계단식",
+    "useArea": "51366.61",
+    "bjdCode": "4155038026",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 587,
+      "u85": 210,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A45691501",
@@ -907,7 +1970,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 474
+    "hhldCnt": 474,
+    "jibunAddr": "경기도 안성시 일죽면 송천리 610 일죽IC타운",
+    "builder": "반석주택",
+    "entrance": "계단식",
+    "useArea": "36406.968",
+    "bjdCode": "4155039028",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 474,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020373",
@@ -919,7 +1996,21 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 474
+    "hhldCnt": 474,
+    "jibunAddr": "경기도 안성시 죽산면 죽산리 790- 안성하우스토리퍼스트시티",
+    "builder": "남광토건주식회사",
+    "entrance": "계단식",
+    "useArea": "38465.6185",
+    "bjdCode": "4155040021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 26,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A45689301",
@@ -931,6 +2022,20 @@
     "sigunguCode": "41550",
     "sido": "경기도",
     "sigungu": "화성시",
-    "hhldCnt": 480
+    "hhldCnt": 480,
+    "jibunAddr": "경기도 안성시 죽산면 장원리 1379-1 GF다빈치",
+    "builder": "신성지에프건설(주)",
+    "entrance": "복도식",
+    "useArea": "25611.3725",
+    "bjdCode": "4155040023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 368,
+      "u85": 112,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

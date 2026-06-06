@@ -8,7 +8,20 @@
     "emd": "증평읍",
     "sigunguCode": "43745",
     "sido": "충청북도",
-    "sigungu": "증평군"
+    "sigungu": "증평군",
+    "jibunAddr": "충청북도 증평군 증평읍 증평리 666-6 증평석미아데나에듀스카이",
+    "builder": "석미건설",
+    "entrance": "계단식",
+    "useArea": "43039.7",
+    "bjdCode": "4374525021",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "areaBreak": {
+      "u60": 0,
+      "u85": 85,
+      "u135": 329,
+      "o135": 0
+    }
   },
   {
     "code": "A10027737",
@@ -19,7 +32,21 @@
     "emd": "증평읍",
     "sigunguCode": "43745",
     "sido": "충청북도",
-    "sigungu": "증평군"
+    "sigungu": "증평군",
+    "jibunAddr": "충청북도 증평군 증평읍 증평리 14 증평송산 LH천년나무3단지",
+    "builder": "성지건설(주)",
+    "entrance": "복도식",
+    "useArea": "24130.2",
+    "bjdCode": "4374525021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 640,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36890702",
@@ -30,7 +57,21 @@
     "emd": "증평읍",
     "sigunguCode": "43745",
     "sido": "충청북도",
-    "sigungu": "증평군"
+    "sigungu": "증평군",
+    "jibunAddr": "충청북도 증평군 증평읍 신동리 545 증평주공2단지아파트",
+    "builder": "대한주택공사",
+    "entrance": "복도식",
+    "useArea": "17209.44",
+    "bjdCode": "4374525025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 296,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36890712",
@@ -41,7 +82,21 @@
     "emd": "증평읍",
     "sigunguCode": "43745",
     "sido": "충청북도",
-    "sigungu": "증평군"
+    "sigungu": "증평군",
+    "jibunAddr": "충청북도 증평군 증평읍 신동리 545 괴산증평3",
+    "builder": "제일건설",
+    "entrance": "복도식",
+    "useArea": "9440.46",
+    "bjdCode": "4374525025",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 358,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022089",
@@ -52,7 +107,21 @@
     "emd": "증평읍",
     "sigunguCode": "43745",
     "sido": "충청북도",
-    "sigungu": "증평군"
+    "sigungu": "증평군",
+    "jibunAddr": "충청북도 증평군 증평읍 창동리 282- 영우아파트",
+    "builder": "영우주택",
+    "entrance": "복도식",
+    "useArea": "8386",
+    "bjdCode": "4374525026",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 140,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36890804",
@@ -63,7 +132,21 @@
     "emd": "증평읍",
     "sigunguCode": "43745",
     "sido": "충청북도",
-    "sigungu": "증평군"
+    "sigungu": "증평군",
+    "jibunAddr": "충청북도 증평군 증평읍 창동리 544 증평주공1단지아파트",
+    "builder": "대한주택공사",
+    "entrance": "계단식",
+    "useArea": "14001",
+    "bjdCode": "4374525026",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 330,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36890806",
@@ -74,7 +157,21 @@
     "emd": "증평읍",
     "sigunguCode": "43745",
     "sido": "충청북도",
-    "sigungu": "증평군"
+    "sigungu": "증평군",
+    "jibunAddr": "충청북도 증평군 증평읍 창동리 822 증평파라디아1차아파트",
+    "builder": "(주)파라다이스글로벌",
+    "entrance": "계단식",
+    "useArea": "37913.386",
+    "bjdCode": "4374525026",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 361,
+      "u135": 60,
+      "o135": 0
+    }
   },
   {
     "code": "A10027982",
@@ -85,7 +182,21 @@
     "emd": "증평읍",
     "sigunguCode": "43745",
     "sido": "충청북도",
-    "sigungu": "증평군"
+    "sigungu": "증평군",
+    "jibunAddr": "충청북도 증평군 증평읍 장동리 930 증평 대성베르힐 아파트",
+    "builder": "대성베르힐(주)",
+    "entrance": "계단식",
+    "useArea": "71050.209",
+    "bjdCode": "4374525027",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 422,
+      "u85": 567,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36890107",
@@ -96,7 +207,21 @@
     "emd": "증평읍",
     "sigunguCode": "43745",
     "sido": "충청북도",
-    "sigungu": "증평군"
+    "sigungu": "증평군",
+    "jibunAddr": "충청북도 증평군 증평읍 장동리 925 증평장동관리사무소",
+    "builder": "(주)한양",
+    "entrance": "혼합식",
+    "useArea": "29145.92",
+    "bjdCode": "4374525027",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 558,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36890108",
@@ -107,7 +232,21 @@
     "emd": "증평읍",
     "sigunguCode": "43745",
     "sido": "충청북도",
-    "sigungu": "증평군"
+    "sigungu": "증평군",
+    "jibunAddr": "충청북도 증평군 증평읍 장동리 921 증평4단지주공아파트",
+    "builder": "서희건설,경남기업",
+    "entrance": "계단식",
+    "useArea": "33939.15",
+    "bjdCode": "4374525027",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 627,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36890109",
@@ -118,7 +257,21 @@
     "emd": "증평읍",
     "sigunguCode": "43745",
     "sido": "충청북도",
-    "sigungu": "증평군"
+    "sigungu": "증평군",
+    "jibunAddr": "충청북도 증평군 증평읍 장동리 255 증평삼일아파트",
+    "builder": "삼일주택공사",
+    "entrance": "혼합식",
+    "useArea": "74377.4",
+    "bjdCode": "4374525027",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 404,
+      "u85": 480,
+      "u135": 0,
+      "o135": 58
+    }
   },
   {
     "code": "A10022159",
@@ -129,7 +282,21 @@
     "emd": "증평읍",
     "sigunguCode": "43745",
     "sido": "충청북도",
-    "sigungu": "증평군"
+    "sigungu": "증평군",
+    "jibunAddr": "충청북도 증평군 증평읍 증천리 728- 한성아파트",
+    "builder": "(주)한성주택",
+    "entrance": "계단식",
+    "useArea": "8937.8",
+    "bjdCode": "4374525028",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 210,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022133",
@@ -140,7 +307,21 @@
     "emd": "증평읍",
     "sigunguCode": "43745",
     "sido": "충청북도",
-    "sigungu": "증평군"
+    "sigungu": "증평군",
+    "jibunAddr": "충청북도 증평군 증평읍 초중리 45-4 파라디아2차아파트",
+    "builder": "(주)미르R&D",
+    "entrance": "계단식",
+    "useArea": "16746.3184",
+    "bjdCode": "4374525030",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 112
+    }
   },
   {
     "code": "A36870201",
@@ -151,7 +332,21 @@
     "emd": "증평읍",
     "sigunguCode": "43745",
     "sido": "충청북도",
-    "sigungu": "증평군"
+    "sigungu": "증평군",
+    "jibunAddr": "충청북도 증평군 증평읍 초중리 533-1 증평한라비발디아파트",
+    "builder": "(주)한라건설",
+    "entrance": "계단식",
+    "useArea": "51005.448",
+    "bjdCode": "4374525030",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 420,
+      "u135": 120,
+      "o135": 0
+    }
   },
   {
     "code": "A36891001",
@@ -162,7 +357,21 @@
     "emd": "증평읍",
     "sigunguCode": "43745",
     "sido": "충청북도",
-    "sigungu": "증평군"
+    "sigungu": "증평군",
+    "jibunAddr": "충청북도 증평군 증평읍 초중리 114 증평일진뜨리에",
+    "builder": "일진건설산업(주)",
+    "entrance": "계단식",
+    "useArea": "13128.5",
+    "bjdCode": "4374525030",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 220,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022932",
@@ -173,7 +382,21 @@
     "emd": "증평읍",
     "sigunguCode": "43745",
     "sido": "충청북도",
-    "sigungu": "증평군"
+    "sigungu": "증평군",
+    "jibunAddr": "충청북도 증평군 증평읍 송산리 722-1 송산칸타빌 더센트럴 아파트",
+    "builder": "DW대원(주)",
+    "entrance": "계단식",
+    "useArea": "28048.581",
+    "bjdCode": "4374525032",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 330,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023714",
@@ -184,7 +407,21 @@
     "emd": "증평읍",
     "sigunguCode": "43745",
     "sido": "충청북도",
-    "sigungu": "증평군"
+    "sigungu": "증평군",
+    "jibunAddr": "충청북도 증평군 증평읍 송산리 722 증평 송산 5단지",
+    "builder": "kp산업",
+    "entrance": "복도식",
+    "useArea": "22761.54",
+    "bjdCode": "4374525032",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 605,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025577",
@@ -195,7 +432,21 @@
     "emd": "증평읍",
     "sigunguCode": "43745",
     "sido": "충청북도",
-    "sigungu": "증평군"
+    "sigungu": "증평군",
+    "jibunAddr": "충청북도 증평군 증평읍 송산리 762 증평송산대광로제비앙아파트",
+    "builder": "(주)대광건영",
+    "entrance": "계단식",
+    "useArea": "52727.658",
+    "bjdCode": "4374525032",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 702,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36870203",
@@ -206,7 +457,21 @@
     "emd": "증평읍",
     "sigunguCode": "43745",
     "sido": "충청북도",
-    "sigungu": "증평군"
+    "sigungu": "증평군",
+    "jibunAddr": "충청북도 증평군 증평읍 송산리 717 증평송산휴먼시아2단지",
+    "builder": "한국토지주택공사",
+    "entrance": "복도식",
+    "useArea": "20568.98",
+    "bjdCode": "4374525032",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 514,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36870204",
@@ -217,7 +482,21 @@
     "emd": "증평읍",
     "sigunguCode": "43745",
     "sido": "충청북도",
-    "sigungu": "증평군"
+    "sigungu": "증평군",
+    "jibunAddr": "충청북도 증평군 증평읍 송산리 720 증평송산휴먼시아1단지",
+    "builder": "신한종합건설(주)",
+    "entrance": "복도식",
+    "useArea": "19945.04",
+    "bjdCode": "4374525032",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 504,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36870205",
@@ -228,7 +507,21 @@
     "emd": "증평읍",
     "sigunguCode": "43745",
     "sido": "충청북도",
-    "sigungu": "증평군"
+    "sigungu": "증평군",
+    "jibunAddr": "충청북도 증평군 증평읍 송산리 721 증평송산지평더웰",
+    "builder": "지평건설(주)",
+    "entrance": "계단식",
+    "useArea": "22305.1854",
+    "bjdCode": "4374525032",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 372,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024058",
@@ -239,7 +532,21 @@
     "emd": "증평읍",
     "sigunguCode": "43745",
     "sido": "충청북도",
-    "sigungu": "증평군"
+    "sigungu": "증평군",
+    "jibunAddr": "충청북도 증평군 증평읍 미암리 1073 증평코아루휴티스아파트",
+    "builder": "금강종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "50535.3162",
+    "bjdCode": "4374525033",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 566,
+      "u85": 204,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36890303",
@@ -250,6 +557,20 @@
     "emd": "증평읍",
     "sigunguCode": "43745",
     "sido": "충청북도",
-    "sigungu": "증평군"
+    "sigungu": "증평군",
+    "jibunAddr": "충청북도 증평군 증평읍 용강리 35 증평서호이타운아파트",
+    "builder": "서호건설주식회사",
+    "entrance": "복도식",
+    "useArea": "10381.78",
+    "bjdCode": "4374525035",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 298,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

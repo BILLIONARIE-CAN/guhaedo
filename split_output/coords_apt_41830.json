@@ -8,7 +8,20 @@
     "emd": "양평읍",
     "sigunguCode": "41830",
     "sido": "경기도",
-    "sigungu": "양평군"
+    "sigungu": "양평군",
+    "jibunAddr": "경기도 양평군 양평읍 양근리 170-7 금광2차아파트",
+    "builder": "대원건설",
+    "entrance": "혼합식",
+    "useArea": "12160.66",
+    "bjdCode": "4183025021",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "areaBreak": {
+      "u60": 0,
+      "u85": 2,
+      "u135": 110,
+      "o135": 8
+    }
   },
   {
     "code": "A10020105",
@@ -19,7 +32,20 @@
     "emd": "양평읍",
     "sigunguCode": "41830",
     "sido": "경기도",
-    "sigungu": "양평군"
+    "sigungu": "양평군",
+    "jibunAddr": "경기도 양평군 양평읍 양근리 170-43 금광1차아파트",
+    "builder": "대원건설",
+    "entrance": "복도식",
+    "useArea": "11715.03",
+    "bjdCode": "4183025021",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 135,
+      "o135": 0
+    }
   },
   {
     "code": "A10021801",
@@ -30,7 +56,21 @@
     "emd": "양평읍",
     "sigunguCode": "41830",
     "sido": "경기도",
-    "sigungu": "양평군"
+    "sigungu": "양평군",
+    "jibunAddr": "경기도 양평군 양평읍 양근리 652- 해모로아파트",
+    "builder": "한진중공업",
+    "entrance": "계단식",
+    "useArea": "11087.1846",
+    "bjdCode": "4183025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 97,
+      "u135": 23,
+      "o135": 0
+    }
   },
   {
     "code": "A10022492",
@@ -41,7 +81,21 @@
     "emd": "양평읍",
     "sigunguCode": "41830",
     "sido": "경기도",
-    "sigungu": "양평군"
+    "sigungu": "양평군",
+    "jibunAddr": "경기도 양평군 양평읍 양근리 655- 양평코아루리버팰리스아파트",
+    "builder": "우남건설",
+    "entrance": "혼합식",
+    "useArea": "15953.853",
+    "bjdCode": "4183025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 33,
+      "u135": 73,
+      "o135": 30
+    }
   },
   {
     "code": "A10022783",
@@ -52,7 +106,21 @@
     "emd": "양평읍",
     "sigunguCode": "41830",
     "sido": "경기도",
-    "sigungu": "양평군"
+    "sigungu": "양평군",
+    "jibunAddr": "경기도 양평군 양평읍 양근리 538-1 더샵양평리버포레",
+    "builder": "(주)포스코",
+    "entrance": "계단식",
+    "useArea": "37045.3427",
+    "bjdCode": "4183025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리(직영+위탁)",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 453,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022983",
@@ -63,7 +131,21 @@
     "emd": "양평읍",
     "sigunguCode": "41830",
     "sido": "경기도",
-    "sigungu": "양평군"
+    "sigungu": "양평군",
+    "jibunAddr": "경기도 양평군 양평읍 양근리 24-41 양평역 한라비발디아파트",
+    "builder": "(주)한라건설",
+    "entrance": "계단식",
+    "useArea": "124984.2878",
+    "bjdCode": "4183025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 346,
+      "u85": 1180,
+      "u135": 76,
+      "o135": 0
+    }
   },
   {
     "code": "A10023294",
@@ -74,7 +156,21 @@
     "emd": "양평읍",
     "sigunguCode": "41830",
     "sido": "경기도",
-    "sigungu": "양평군"
+    "sigungu": "양평군",
+    "jibunAddr": "경기도 양평군 양평읍 양근리 664 양평역센트럴시티",
+    "builder": "일신건영",
+    "entrance": "계단식",
+    "useArea": "18317.9576",
+    "bjdCode": "4183025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 77,
+      "u85": 171,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023918",
@@ -85,7 +181,21 @@
     "emd": "양평읍",
     "sigunguCode": "41830",
     "sido": "경기도",
-    "sigungu": "양평군"
+    "sigungu": "양평군",
+    "jibunAddr": "경기도 양평군 양평읍 양근리 128-2 센트럴파크 써밋 아파트",
+    "builder": "일신건영",
+    "entrance": "계단식",
+    "useArea": "36221.193",
+    "bjdCode": "4183025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 26,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 486,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A47680107",
@@ -96,7 +206,21 @@
     "emd": "양평읍",
     "sigunguCode": "41830",
     "sido": "경기도",
-    "sigungu": "양평군"
+    "sigungu": "양평군",
+    "jibunAddr": "경기도 양평군 양평읍 양근리 654 양평일신건영휴먼빌",
+    "builder": "일신건영주식회사",
+    "entrance": "계단식",
+    "useArea": "14212.47",
+    "bjdCode": "4183025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 168,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A47680110",
@@ -107,7 +231,21 @@
     "emd": "양평읍",
     "sigunguCode": "41830",
     "sido": "경기도",
-    "sigungu": "양평군"
+    "sigungu": "양평군",
+    "jibunAddr": "경기도 양평군 양평읍 양근리 376-8 현대성우오스타코아루",
+    "builder": "성우종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "27958.545",
+    "bjdCode": "4183025021",
+    "aptType": "주상복합",
+    "mgrType": "자치관리",
+    "topFloor": 38,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 54,
+      "o135": 143
+    }
   },
   {
     "code": "A47680202",
@@ -118,7 +256,21 @@
     "emd": "양평읍",
     "sigunguCode": "41830",
     "sido": "경기도",
-    "sigungu": "양평군"
+    "sigungu": "양평군",
+    "jibunAddr": "경기도 양평군 양평읍 양근리 651 양평 에스케이뷰",
+    "builder": "에스케이건설(주)",
+    "entrance": "혼합식",
+    "useArea": "14542.08",
+    "bjdCode": "4183025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 147,
+      "u135": 21,
+      "o135": 0
+    }
   },
   {
     "code": "A47680203",
@@ -129,7 +281,21 @@
     "emd": "양평읍",
     "sigunguCode": "41830",
     "sido": "경기도",
-    "sigungu": "양평군"
+    "sigungu": "양평군",
+    "jibunAddr": "경기도 양평군 양평읍 양근리 91-5 양평그린1차아파트",
+    "builder": "한국자원건설(주)",
+    "entrance": "계단식",
+    "useArea": "19509.6",
+    "bjdCode": "4183025021",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 179,
+      "u135": 41,
+      "o135": 0
+    }
   },
   {
     "code": "A47680204",
@@ -140,7 +306,21 @@
     "emd": "양평읍",
     "sigunguCode": "41830",
     "sido": "경기도",
-    "sigungu": "양평군"
+    "sigungu": "양평군",
+    "jibunAddr": "경기도 양평군 양평읍 양근리 137-48 양평그린2차",
+    "builder": "한국자원건설(주)",
+    "entrance": "계단식",
+    "useArea": "18474.41",
+    "bjdCode": "4183025021",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 104,
+      "u85": 148,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A47680205",
@@ -151,7 +331,21 @@
     "emd": "양평읍",
     "sigunguCode": "41830",
     "sido": "경기도",
-    "sigungu": "양평군"
+    "sigungu": "양평군",
+    "jibunAddr": "경기도 양평군 양평읍 양근리 140-5 현대",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "25811.46",
+    "bjdCode": "4183025021",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 200,
+      "u85": 148,
+      "u135": 10,
+      "o135": 0
+    }
   },
   {
     "code": "A10020813",
@@ -162,7 +356,21 @@
     "emd": "양평읍",
     "sigunguCode": "41830",
     "sido": "경기도",
-    "sigungu": "양평군"
+    "sigungu": "양평군",
+    "jibunAddr": "경기도 양평군 양평읍 공흥리 418- 양평 공흥3 휴먼빌 아틀리에 ",
+    "builder": "일신건영",
+    "entrance": "계단식",
+    "useArea": "33466.3643",
+    "bjdCode": "4183025025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 26,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 406,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027441",
@@ -173,7 +381,21 @@
     "emd": "양평읍",
     "sigunguCode": "41830",
     "sido": "경기도",
-    "sigungu": "양평군"
+    "sigungu": "양평군",
+    "jibunAddr": "경기도 양평군 양평읍 공흥리 885 양평한신휴플러스",
+    "builder": "한신공영(주)",
+    "entrance": "계단식",
+    "useArea": "24513.8553",
+    "bjdCode": "4183025025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 128,
+      "u85": 222,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A47680106",
@@ -184,7 +406,21 @@
     "emd": "양평읍",
     "sigunguCode": "41830",
     "sido": "경기도",
-    "sigungu": "양평군"
+    "sigungu": "양평군",
+    "jibunAddr": "경기도 양평군 양평읍 공흥리 883 행복마을",
+    "builder": "한국주택공사",
+    "entrance": "복도식",
+    "useArea": "21505.9",
+    "bjdCode": "4183025025",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 490,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A47680108",
@@ -195,7 +431,21 @@
     "emd": "양평읍",
     "sigunguCode": "41830",
     "sido": "경기도",
-    "sigungu": "양평군"
+    "sigungu": "양평군",
+    "jibunAddr": "경기도 양평군 양평읍 백안리 876 벽산블루밍2단지",
+    "builder": "벽산건설(주)",
+    "entrance": "계단식",
+    "useArea": "50272.4124",
+    "bjdCode": "4183025026",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 65,
+      "u135": 370,
+      "o135": 6
+    }
   },
   {
     "code": "A47680109",
@@ -206,7 +456,21 @@
     "emd": "양평읍",
     "sigunguCode": "41830",
     "sido": "경기도",
-    "sigungu": "양평군"
+    "sigungu": "양평군",
+    "jibunAddr": "경기도 양평군 양평읍 백안리 875 양평벽산블루밍1단지",
+    "builder": "벽산건설",
+    "entrance": "계단식",
+    "useArea": "49742.4672",
+    "bjdCode": "4183025026",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 197,
+      "u135": 284,
+      "o135": 6
+    }
   },
   {
     "code": "A10023310",
@@ -217,7 +481,21 @@
     "emd": "양평읍",
     "sigunguCode": "41830",
     "sido": "경기도",
-    "sigungu": "양평군"
+    "sigungu": "양평군",
+    "jibunAddr": "경기도 양평군 양평읍 창대리 527-2 리버파크어반입주자대표회의",
+    "builder": "(주)일신건영",
+    "entrance": "계단식",
+    "useArea": "34306.1877",
+    "bjdCode": "4183025032",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 420,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023413",
@@ -228,7 +506,21 @@
     "emd": "양평읍",
     "sigunguCode": "41830",
     "sido": "경기도",
-    "sigungu": "양평군"
+    "sigungu": "양평군",
+    "jibunAddr": "경기도 양평군 양평읍 창대리 650-12 포레나양평",
+    "builder": "(주)한화/건설",
+    "entrance": "계단식",
+    "useArea": "31140.1008",
+    "bjdCode": "4183025032",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 171,
+      "u85": 267,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023849",
@@ -239,7 +531,21 @@
     "emd": "양평읍",
     "sigunguCode": "41830",
     "sido": "경기도",
-    "sigungu": "양평군"
+    "sigungu": "양평군",
+    "jibunAddr": "경기도 양평군 양평읍 창대리 836 양평까뮤이스테이트",
+    "builder": "까뮤이앤씨",
+    "entrance": "계단식",
+    "useArea": "19298.91",
+    "bjdCode": "4183025032",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 3,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 233,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022526",
@@ -250,7 +556,21 @@
     "emd": "강상면",
     "sigunguCode": "41830",
     "sido": "경기도",
-    "sigungu": "양평군"
+    "sigungu": "양평군",
+    "jibunAddr": "경기도 양평군 강상면 병산리 24-1 양평우방아이유쉘에코리버",
+    "builder": "sm스틸건설부문",
+    "entrance": "계단식",
+    "useArea": "34305.2614",
+    "bjdCode": "4183031021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027126",
@@ -261,7 +581,21 @@
     "emd": "강상면",
     "sigunguCode": "41830",
     "sido": "경기도",
-    "sigungu": "양평군"
+    "sigungu": "양평군",
+    "jibunAddr": "경기도 양평군 강상면 병산리 1208 양평2차 휴먼빌아파트",
+    "builder": "일신건영(주)",
+    "entrance": "계단식",
+    "useArea": "32059.7037",
+    "bjdCode": "4183031021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 228,
+      "u85": 259,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A47691101",
@@ -272,7 +606,21 @@
     "emd": "강상면",
     "sigunguCode": "41830",
     "sido": "경기도",
-    "sigungu": "양평군"
+    "sigungu": "양평군",
+    "jibunAddr": "경기도 양평군 강상면 병산리 1205 양평현대성우1단지",
+    "builder": "성우종합건설",
+    "entrance": "계단식",
+    "useArea": "15417.5062",
+    "bjdCode": "4183031021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 110,
+      "u135": 58,
+      "o135": 0
+    }
   },
   {
     "code": "A47691102",
@@ -283,7 +631,21 @@
     "emd": "강상면",
     "sigunguCode": "41830",
     "sido": "경기도",
-    "sigungu": "양평군"
+    "sigungu": "양평군",
+    "jibunAddr": "경기도 양평군 강상면 병산리 1206 양평현대성우2단지",
+    "builder": "성우건설(주)",
+    "entrance": "계단식",
+    "useArea": "24425.4092",
+    "bjdCode": "4183031021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 156,
+      "u135": 114,
+      "o135": 0
+    }
   },
   {
     "code": "A47691103",
@@ -294,7 +656,21 @@
     "emd": "강상면",
     "sigunguCode": "41830",
     "sido": "경기도",
-    "sigungu": "양평군"
+    "sigungu": "양평군",
+    "jibunAddr": "경기도 양평군 강상면 병산리 1207 양평현대성우3단지",
+    "builder": "성우 종합 건설(주)",
+    "entrance": "계단식",
+    "useArea": "22415.2",
+    "bjdCode": "4183031021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 190,
+      "u135": 60,
+      "o135": 0
+    }
   },
   {
     "code": "A10023298",
@@ -305,7 +681,20 @@
     "emd": "양서면",
     "sigunguCode": "41830",
     "sido": "경기도",
-    "sigungu": "양평군"
+    "sigungu": "양평군",
+    "jibunAddr": "경기도 양평군 양서면 양수리 1185 아이파크아파트",
+    "builder": "HDC현대산업",
+    "entrance": "계단식",
+    "useArea": "10940.85",
+    "bjdCode": "4183033021",
+    "mgrType": "자치관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 22,
+      "u135": 64,
+      "o135": 6
+    }
   },
   {
     "code": "A47682301",
@@ -316,7 +705,21 @@
     "emd": "양서면",
     "sigunguCode": "41830",
     "sido": "경기도",
-    "sigungu": "양평군"
+    "sigungu": "양평군",
+    "jibunAddr": "경기도 양평군 양서면 양수리 621-13 양수삼익",
+    "builder": "(주)삼익",
+    "entrance": "계단식",
+    "useArea": "23193.18",
+    "bjdCode": "4183033021",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 122,
+      "u85": 153,
+      "u135": 24,
+      "o135": 0
+    }
   },
   {
     "code": "A10023069",
@@ -327,7 +730,21 @@
     "emd": "용문면",
     "sigunguCode": "41830",
     "sido": "경기도",
-    "sigungu": "양평군"
+    "sigungu": "양평군",
+    "jibunAddr": "경기도 양평군 용문면 다문리 1107 용문역반도유보라아이비파크",
+    "builder": "(주)반도건설",
+    "entrance": "기타",
+    "useArea": "52985.7708",
+    "bjdCode": "4183040024",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 396,
+      "u85": 344,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027276",
@@ -338,6 +755,20 @@
     "emd": "용문면",
     "sigunguCode": "41830",
     "sido": "경기도",
-    "sigungu": "양평군"
+    "sigungu": "양평군",
+    "jibunAddr": "경기도 양평군 용문면 다문리 1052 용문코아루아파트",
+    "builder": "동서건설주식회사",
+    "entrance": "계단식",
+    "useArea": "19439",
+    "bjdCode": "4183040024",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 280,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

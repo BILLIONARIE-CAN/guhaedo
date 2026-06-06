@@ -8,7 +8,21 @@
     "emd": "횡성읍",
     "sigunguCode": "51730",
     "sido": "강원특별자치도",
-    "sigungu": "횡성군"
+    "sigungu": "횡성군",
+    "jibunAddr": "강원특별자치도 횡성군 횡성읍 읍상리 608 횡성골드클래스아파트",
+    "builder": "보광건설",
+    "entrance": "계단식",
+    "useArea": "20873.8056",
+    "bjdCode": "5173025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 348,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22570201",
@@ -19,7 +33,21 @@
     "emd": "횡성읍",
     "sigunguCode": "51730",
     "sido": "강원특별자치도",
-    "sigungu": "횡성군"
+    "sigungu": "횡성군",
+    "jibunAddr": "강원특별자치도 횡성군 횡성읍 읍상리 609 횡성이안아파트",
+    "builder": "대우자동차판매(주)",
+    "entrance": "계단식",
+    "useArea": "22414.5884",
+    "bjdCode": "5173025021",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 265,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22570203",
@@ -30,7 +58,21 @@
     "emd": "횡성읍",
     "sigunguCode": "51730",
     "sido": "강원특별자치도",
-    "sigungu": "횡성군"
+    "sigungu": "횡성군",
+    "jibunAddr": "강원특별자치도 횡성군 횡성읍 읍상리 607 횡성석미모닝파크",
+    "builder": "석미건설(주)",
+    "entrance": "계단식",
+    "useArea": "20747",
+    "bjdCode": "5173025021",
+    "aptType": "아파트",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 258,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022308",
@@ -41,7 +83,21 @@
     "emd": "횡성읍",
     "sigunguCode": "51730",
     "sido": "강원특별자치도",
-    "sigungu": "횡성군"
+    "sigungu": "횡성군",
+    "jibunAddr": "강원특별자치도 횡성군 횡성읍 읍하리 380- 원흥1차아파트",
+    "builder": "원흥건설(주)",
+    "entrance": "복도식",
+    "useArea": "6525.96",
+    "bjdCode": "5173025022",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 66,
+      "u85": 39,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022414",
@@ -52,7 +108,21 @@
     "emd": "횡성읍",
     "sigunguCode": "51730",
     "sido": "강원특별자치도",
-    "sigungu": "횡성군"
+    "sigungu": "횡성군",
+    "jibunAddr": "강원특별자치도 횡성군 횡성읍 읍하리 601- 횡성벨라시티",
+    "builder": "SG건설",
+    "entrance": "계단식",
+    "useArea": "13941.16",
+    "bjdCode": "5173025022",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 120,
+      "u85": 81,
+      "u135": 5,
+      "o135": 0
+    }
   },
   {
     "code": "A10024331",
@@ -63,7 +133,21 @@
     "emd": "횡성읍",
     "sigunguCode": "51730",
     "sido": "강원특별자치도",
-    "sigungu": "횡성군"
+    "sigungu": "횡성군",
+    "jibunAddr": "강원특별자치도 횡성군 횡성읍 읍하리 599 횡성코아루하우스토리",
+    "builder": "남광토건",
+    "entrance": "계단식",
+    "useArea": "27492.3557",
+    "bjdCode": "5173025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 154,
+      "u85": 220,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22570202",
@@ -74,7 +158,21 @@
     "emd": "횡성읍",
     "sigunguCode": "51730",
     "sido": "강원특별자치도",
-    "sigungu": "횡성군"
+    "sigungu": "횡성군",
+    "jibunAddr": "강원특별자치도 횡성군 횡성읍 읍하리 172 횡성읍하LH",
+    "builder": "한성개발",
+    "entrance": "혼합식",
+    "useArea": "16229.74",
+    "bjdCode": "5173025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 361,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22580002",
@@ -85,7 +183,21 @@
     "emd": "횡성읍",
     "sigunguCode": "51730",
     "sido": "강원특별자치도",
-    "sigungu": "횡성군"
+    "sigungu": "횡성군",
+    "jibunAddr": "강원특별자치도 횡성군 횡성읍 읍하리 395-2 횡성원흥2차아파트",
+    "builder": "원흥주택건설",
+    "entrance": "혼합식",
+    "useArea": "9480.77",
+    "bjdCode": "5173025022",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 171,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22580006",
@@ -96,7 +208,21 @@
     "emd": "횡성읍",
     "sigunguCode": "51730",
     "sido": "강원특별자치도",
-    "sigungu": "횡성군"
+    "sigungu": "횡성군",
+    "jibunAddr": "강원특별자치도 횡성군 횡성읍 읍하리 518 횡성대동아파트",
+    "builder": "(주)대동주택",
+    "entrance": "계단식",
+    "useArea": "21853.19",
+    "bjdCode": "5173025022",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 54,
+      "u85": 184,
+      "u135": 26,
+      "o135": 0
+    }
   },
   {
     "code": "A22580801",
@@ -107,7 +233,21 @@
     "emd": "횡성읍",
     "sigunguCode": "51730",
     "sido": "강원특별자치도",
-    "sigungu": "횡성군"
+    "sigungu": "횡성군",
+    "jibunAddr": "강원특별자치도 횡성군 횡성읍 읍하리 442 서도1차",
+    "builder": "(주) 서도주택",
+    "entrance": "복도식",
+    "useArea": "9040.14",
+    "bjdCode": "5173025022",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 157,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22580807",
@@ -118,7 +258,21 @@
     "emd": "횡성읍",
     "sigunguCode": "51730",
     "sido": "강원특별자치도",
-    "sigungu": "횡성군"
+    "sigungu": "횡성군",
+    "jibunAddr": "강원특별자치도 횡성군 횡성읍 읍하리 500 횡성금광포란재아파트",
+    "builder": "(주)금광건업",
+    "entrance": "계단식",
+    "useArea": "33665.4",
+    "bjdCode": "5173025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 180,
+      "u85": 300,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022252",
@@ -129,7 +283,20 @@
     "emd": "횡성읍",
     "sigunguCode": "51730",
     "sido": "강원특별자치도",
-    "sigungu": "횡성군"
+    "sigungu": "횡성군",
+    "jibunAddr": "강원특별자치도 횡성군 횡성읍 북천리 115-48 횡성중앙아파트",
+    "builder": "(주)인천건설",
+    "entrance": "계단식",
+    "useArea": "11286",
+    "bjdCode": "5173025023",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 250,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22580004",
@@ -140,7 +307,21 @@
     "emd": "횡성읍",
     "sigunguCode": "51730",
     "sido": "강원특별자치도",
-    "sigungu": "횡성군"
+    "sigungu": "횡성군",
+    "jibunAddr": "강원특별자치도 횡성군 횡성읍 북천리 115-87 횡성태우아파트",
+    "builder": "태우건설",
+    "entrance": "계단식",
+    "useArea": "18255.58",
+    "bjdCode": "5173025023",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 234,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026130",
@@ -151,7 +332,21 @@
     "emd": "횡성읍",
     "sigunguCode": "51730",
     "sido": "강원특별자치도",
-    "sigungu": "횡성군"
+    "sigungu": "횡성군",
+    "jibunAddr": "강원특별자치도 횡성군 횡성읍 교항리 67 횡성코아루센트럴퍼스트",
+    "builder": "파인건설(주)",
+    "entrance": "계단식",
+    "useArea": "24965.5317",
+    "bjdCode": "5173025035",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 261,
+      "u85": 110,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22580003",
@@ -162,7 +357,21 @@
     "emd": "횡성읍",
     "sigunguCode": "51730",
     "sido": "강원특별자치도",
-    "sigungu": "횡성군"
+    "sigungu": "횡성군",
+    "jibunAddr": "강원특별자치도 횡성군 횡성읍 교항리 109 보람더하임",
+    "builder": "보람건설",
+    "entrance": "계단식",
+    "useArea": "20836.106",
+    "bjdCode": "5173025035",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 186,
+      "u135": 41,
+      "o135": 0
+    }
   },
   {
     "code": "A10022273",
@@ -173,7 +382,21 @@
     "emd": "횡성읍",
     "sigunguCode": "51730",
     "sido": "강원특별자치도",
-    "sigungu": "횡성군"
+    "sigungu": "횡성군",
+    "jibunAddr": "강원특별자치도 횡성군 횡성읍 입석리 161-1 횡성서도2차아파트",
+    "builder": "(주)서도주택",
+    "entrance": "계단식",
+    "useArea": "5755.68",
+    "bjdCode": "5173025036",
+    "aptType": "아파트",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 144,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026196",
@@ -184,7 +407,21 @@
     "emd": "둔내면",
     "sigunguCode": "51730",
     "sido": "강원특별자치도",
-    "sigungu": "횡성군"
+    "sigungu": "횡성군",
+    "jibunAddr": "강원특별자치도 횡성군 둔내면 둔방내리 578 둔내건영아모리움아파트",
+    "builder": "(주)건영",
+    "entrance": "계단식",
+    "useArea": "11079.9157",
+    "bjdCode": "5173033022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 16,
+    "areaBreak": {
+      "u60": 73,
+      "u85": 79,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22583101",
@@ -195,6 +432,20 @@
     "emd": "둔내면",
     "sigunguCode": "51730",
     "sido": "강원특별자치도",
-    "sigungu": "횡성군"
+    "sigungu": "횡성군",
+    "jibunAddr": "강원특별자치도 횡성군 둔내면 둔방내리 590-4 경림아파트",
+    "builder": "석미건설(주)",
+    "entrance": "복도식",
+    "useArea": "13477.906",
+    "bjdCode": "5173033022",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 286,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

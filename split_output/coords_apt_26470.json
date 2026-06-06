@@ -8,7 +8,21 @@
     "emd": "거제동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 거제동 867-5 화랑아파트",
+    "builder": "(주)화랑주택",
+    "entrance": "계단식",
+    "useArea": "8638.65",
+    "bjdCode": "2647010100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 105,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021493",
@@ -19,7 +33,21 @@
     "emd": "거제동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 거제동 1466-19 벧엘아파트",
+    "builder": "서린종합건설",
+    "entrance": "복도식",
+    "useArea": "7283.25",
+    "bjdCode": "2647010100",
+    "aptType": "도시형 생활주택(아파트)",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 30,
+      "u85": 75,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021495",
@@ -30,7 +58,21 @@
     "emd": "거제동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 거제동 1088-5 다뉴브하이타운아파트",
+    "builder": "확인안됨",
+    "entrance": "계단식",
+    "useArea": "11560.464",
+    "bjdCode": "2647010100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 144,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021577",
@@ -41,7 +83,21 @@
     "emd": "거제동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 거제동 1513- 온천천2차동원로얄듀크아파트",
+    "builder": "동원개발",
+    "entrance": "계단식",
+    "useArea": "9233.1106",
+    "bjdCode": "2647010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 118,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022565",
@@ -52,7 +108,21 @@
     "emd": "거제동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 거제동 43 거제 미소지움 더퍼스트 아파트",
+    "builder": "SG 신성건설",
+    "entrance": "계단식",
+    "useArea": "14830.9755",
+    "bjdCode": "2647010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 27,
+    "areaBreak": {
+      "u60": 59,
+      "u85": 133,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022890",
@@ -64,7 +134,21 @@
     "sigunguCode": "26470",
     "sido": "부산광역시",
     "sigungu": "연제구",
-    "hhldCnt": 4470
+    "hhldCnt": 4470,
+    "jibunAddr": "부산광역시 연제구 거제동 1536- 레이카운티 아파트",
+    "builder": "삼성, 대림, 현산",
+    "entrance": "계단식",
+    "useArea": "355244.8221",
+    "bjdCode": "2647010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 35,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023405",
@@ -75,7 +159,21 @@
     "emd": "거제동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 거제동 860-1 쌍용더플래티넘거제아시아드",
+    "builder": "쌍용건설",
+    "entrance": "계단식",
+    "useArea": "37080.8825",
+    "bjdCode": "2647010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 33,
+    "areaBreak": {
+      "u60": 130,
+      "u85": 352,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025258",
@@ -86,7 +184,21 @@
     "emd": "거제동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 거제동 890-1 아시아드코오롱하늘채",
+    "builder": "코오롱 건설",
+    "entrance": "계단식",
+    "useArea": "55807.156",
+    "bjdCode": "2647010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 42,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 660,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025950",
@@ -97,7 +209,21 @@
     "emd": "거제동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 거제동 307-6 거제센트럴자이",
+    "builder": "GS건설",
+    "entrance": "계단식",
+    "useArea": "65863.3682",
+    "bjdCode": "2647010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 278,
+      "u85": 593,
+      "u135": 7,
+      "o135": 0
+    }
   },
   {
     "code": "A10026994",
@@ -108,7 +234,21 @@
     "emd": "거제동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 거제동 1469-1 거제동2차 월드메르디앙아파트",
+    "builder": "주)월드건설",
+    "entrance": "계단식",
+    "useArea": "28498.5996",
+    "bjdCode": "2647010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61107001",
@@ -119,7 +259,21 @@
     "emd": "거제동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 거제동 18-3 거제동한일유앤아이",
+    "builder": "한일건설",
+    "entrance": "계단식",
+    "useArea": "21066.83",
+    "bjdCode": "2647010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 32,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 63,
+      "u135": 139,
+      "o135": 0
+    }
   },
   {
     "code": "A61107002",
@@ -130,7 +284,21 @@
     "emd": "거제동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 거제동 1515 거제동일동미라주리버",
+    "builder": "(주)일동",
+    "entrance": "계단식",
+    "useArea": "18682.6554",
+    "bjdCode": "2647010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 32,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 220,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61107303",
@@ -141,7 +309,21 @@
     "emd": "거제동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 거제동 1503 거제유림노르웨이숲아파트",
+    "builder": "유림건설",
+    "entrance": "계단식",
+    "useArea": "35594.7571",
+    "bjdCode": "2647010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 57,
+      "u85": 320,
+      "u135": 41,
+      "o135": 0
+    }
   },
   {
     "code": "A61175307",
@@ -152,7 +334,21 @@
     "emd": "거제동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 거제동 129-1 거제한양아파트",
+    "builder": "한양건설",
+    "entrance": "계단식",
+    "useArea": "36429.75",
+    "bjdCode": "2647010100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 168,
+      "u135": 84,
+      "o135": 84
+    }
   },
   {
     "code": "A61175403",
@@ -163,7 +359,21 @@
     "emd": "거제동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 거제동 1288-3 대우그린타워아파트",
+    "builder": "(주)대우건설",
+    "entrance": "계단식",
+    "useArea": "26814.693",
+    "bjdCode": "2647010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 336,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61175404",
@@ -174,7 +384,21 @@
     "emd": "거제동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 거제동 1510 거제동롯데캐슬피렌체",
+    "builder": "(주)롯데건설",
+    "entrance": "계단식",
+    "useArea": "47377.9888",
+    "bjdCode": "2647010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 36,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 97,
+      "u135": 63,
+      "o135": 204
+    }
   },
   {
     "code": "A61175405",
@@ -185,7 +409,21 @@
     "emd": "거제동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 거제동 1506 아시아드푸르지오",
+    "builder": "(주)대우건설",
+    "entrance": "계단식",
+    "useArea": "51703.1061",
+    "bjdCode": "2647010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 27,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 268,
+      "u135": 68,
+      "o135": 142
+    }
   },
   {
     "code": "A61175505",
@@ -196,7 +434,21 @@
     "emd": "거제동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 거제동 917-1 거제대우아파트",
+    "builder": "(주)대우",
+    "entrance": "혼합식",
+    "useArea": "33384.4",
+    "bjdCode": "2647010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 412,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61175702",
@@ -207,7 +459,21 @@
     "emd": "거제동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 거제동 38-45 거제경남아파트",
+    "builder": "경남기업 주식회사",
+    "entrance": "혼합식",
+    "useArea": "36657.84",
+    "bjdCode": "2647010100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 72,
+      "u85": 120,
+      "u135": 144,
+      "o135": 48
+    }
   },
   {
     "code": "A61175804",
@@ -218,7 +484,21 @@
     "emd": "거제동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 거제동 840 거제현대아파트",
+    "builder": "현대산업개발",
+    "entrance": "계단식",
+    "useArea": "49725.96",
+    "bjdCode": "2647010100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 618,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61176513",
@@ -229,7 +509,21 @@
     "emd": "거제동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 거제동 1481 거제1차현대홈타운",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "96979.02",
+    "bjdCode": "2647010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 30,
+    "areaBreak": {
+      "u60": 456,
+      "u85": 476,
+      "u135": 87,
+      "o135": 108
+    }
   },
   {
     "code": "A61176612",
@@ -240,7 +534,21 @@
     "emd": "거제동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 거제동 1479 거제2차현대홈타운아파트",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "92783.32",
+    "bjdCode": "2647010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 28,
+    "areaBreak": {
+      "u60": 422,
+      "u85": 488,
+      "u135": 96,
+      "o135": 104
+    }
   },
   {
     "code": "A61176708",
@@ -251,7 +559,21 @@
     "emd": "거제동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 거제동 1466-17 온천천쌍용예가",
+    "builder": "쌍용건설(주)",
+    "entrance": "계단식",
+    "useArea": "30215.1242",
+    "bjdCode": "2647010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 290,
+      "u135": 46,
+      "o135": 0
+    }
   },
   {
     "code": "A61176709",
@@ -262,7 +584,21 @@
     "emd": "거제동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 거제동 1475 거제쌍용스윗닷홈아파트",
+    "builder": "(주)쌍용건설",
+    "entrance": "계단식",
+    "useArea": "41256.6",
+    "bjdCode": "2647010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 208,
+      "u85": 218,
+      "u135": 38,
+      "o135": 38
+    }
   },
   {
     "code": "A61176911",
@@ -273,7 +609,21 @@
     "emd": "거제동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 거제동 1467-1 거제동롯데캐슬아파트",
+    "builder": "(주)롯데건설",
+    "entrance": "계단식",
+    "useArea": "44796.84",
+    "bjdCode": "2647010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 100,
+      "u85": 360,
+      "u135": 80,
+      "o135": 0
+    }
   },
   {
     "code": "A61177006",
@@ -284,7 +634,21 @@
     "emd": "거제동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 거제동 36-8 삼익퓨처타워",
+    "builder": "삼익건설(주)",
+    "entrance": "계단식",
+    "useArea": "26548.18",
+    "bjdCode": "2647010100",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 34,
+    "areaBreak": {
+      "u60": 61,
+      "u85": 190,
+      "u135": 62,
+      "o135": 0
+    }
   },
   {
     "code": "A61177102",
@@ -295,7 +659,21 @@
     "emd": "거제동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 거제동 768-1 거제동유림아시아드타워",
+    "builder": "(주)유림건설",
+    "entrance": "계단식",
+    "useArea": "26071.8096",
+    "bjdCode": "2647010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 344,
+      "u85": 64,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61177214",
@@ -306,7 +684,21 @@
     "emd": "거제동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 거제동 1468-1 거제동월드메르디앙",
+    "builder": "월드건설(주)",
+    "entrance": "계단식",
+    "useArea": "128558.0692",
+    "bjdCode": "2647010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 27,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 574,
+      "u135": 270,
+      "o135": 312
+    }
   },
   {
     "code": "A61180301",
@@ -317,7 +709,21 @@
     "emd": "거제동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 거제동 1461-2 동래화신타운",
+    "builder": "(주)화신종합건설",
+    "entrance": "계단식",
+    "useArea": "12170.34",
+    "bjdCode": "2647010100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 84,
+      "u85": 84,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61180302",
@@ -328,7 +734,21 @@
     "emd": "거제동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 거제동 150-8 청마마이우스",
+    "builder": "(주)디디재테크",
+    "entrance": "복도식",
+    "useArea": "6317.6425",
+    "bjdCode": "2647010100",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 169,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61180303",
@@ -339,7 +759,21 @@
     "emd": "거제동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 거제동 1464-3 거제우성아파트",
+    "builder": "우성건설",
+    "entrance": "계단식",
+    "useArea": "14051.91",
+    "bjdCode": "2647010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 90,
+      "u85": 107,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61180304",
@@ -350,7 +784,21 @@
     "emd": "거제동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 거제동 163-1 태경선샤인아파트",
+    "builder": "동흥종합",
+    "entrance": "혼합식",
+    "useArea": "18410.16",
+    "bjdCode": "2647010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 80,
+      "u85": 96,
+      "u135": 48,
+      "o135": 0
+    }
   },
   {
     "code": "A61180305",
@@ -361,7 +809,21 @@
     "emd": "거제동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 거제동 1465-3 온천천동원로얄듀크",
+    "builder": "(주)동원개발",
+    "entrance": "계단식",
+    "useArea": "28180.5258",
+    "bjdCode": "2647010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 50,
+      "u85": 148,
+      "u135": 100,
+      "o135": 0
+    }
   },
   {
     "code": "A61180310",
@@ -372,7 +834,21 @@
     "emd": "거제동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 거제동 139-1 벽산e-메타폴리스",
+    "builder": "(주)벽산엔지니어링",
+    "entrance": "계단식",
+    "useArea": "33265.11",
+    "bjdCode": "2647010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 34,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 394,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61180401",
@@ -383,7 +859,21 @@
     "emd": "거제동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 거제동 577-1 연제그린타워아파트",
+    "builder": "대광건설",
+    "entrance": "계단식",
+    "useArea": "27711.79",
+    "bjdCode": "2647010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 117,
+      "u85": 148,
+      "u135": 32,
+      "o135": 35
+    }
   },
   {
     "code": "A61180501",
@@ -394,7 +884,21 @@
     "emd": "거제동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 거제동 769-78 거제청구하이츠아파트",
+    "builder": "(주)청구",
+    "entrance": "계단식",
+    "useArea": "17998.8",
+    "bjdCode": "2647010100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 84,
+      "u135": 58,
+      "o135": 28
+    }
   },
   {
     "code": "A61180503",
@@ -405,7 +909,21 @@
     "emd": "거제동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 거제동 714-144 유림아시아드아파트",
+    "builder": "유림건설",
+    "entrance": "계단식",
+    "useArea": "141380.1338",
+    "bjdCode": "2647010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 282,
+      "u85": 408,
+      "u135": 350,
+      "o135": 290
+    }
   },
   {
     "code": "A61180701",
@@ -416,7 +934,21 @@
     "emd": "거제동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 거제동 1025 거제현대타운아파트",
+    "builder": "고려산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "20072.34",
+    "bjdCode": "2647010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 124,
+      "u85": 149,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61180702",
@@ -427,7 +959,21 @@
     "emd": "거제동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 거제동 898-1 월드마크아시아드",
+    "builder": "(주)대우건설",
+    "entrance": "계단식",
+    "useArea": "39063.87",
+    "bjdCode": "2647010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 36,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 200,
+      "o135": 99
+    }
   },
   {
     "code": "A61180706",
@@ -438,7 +984,21 @@
     "emd": "거제동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 거제동 1029-2 거제동원아파트",
+    "builder": "(주)동원개발",
+    "entrance": "계단식",
+    "useArea": "33793.12",
+    "bjdCode": "2647010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 172,
+      "u85": 162,
+      "u135": 80,
+      "o135": 0
+    }
   },
   {
     "code": "A61180904",
@@ -449,7 +1009,21 @@
     "emd": "거제동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 거제동 1272 거제아시아드삼정그린코아아파트",
+    "builder": "삼정건설",
+    "entrance": "계단식",
+    "useArea": "33876.9212",
+    "bjdCode": "2647010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 80,
+      "u85": 244,
+      "u135": 84,
+      "o135": 0
+    }
   },
   {
     "code": "A10020475",
@@ -460,7 +1034,20 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 588-1 연산하늘채엘센트로",
+    "builder": "코오롱글로벌(주)",
+    "entrance": "계단식",
+    "useArea": "38262.505",
+    "bjdCode": "2647010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "areaBreak": {
+      "u60": 0,
+      "u85": 94,
+      "u135": 274,
+      "o135": 0
+    }
   },
   {
     "code": "A10020498",
@@ -471,7 +1058,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 1590-25 시청앞 행복주택1단지",
+    "builder": "GS건설(주)",
+    "entrance": "복도식",
+    "useArea": "19285.5113",
+    "bjdCode": "2647010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 37,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020638",
@@ -483,7 +1084,21 @@
     "sigunguCode": "26470",
     "sido": "부산광역시",
     "sigungu": "연제구",
-    "hhldCnt": 108
+    "hhldCnt": 108,
+    "jibunAddr": "부산광역시 연제구 연산동 309-5 월드파크4",
+    "builder": "김광수(주)월드뷰종합건설",
+    "entrance": "계단식",
+    "useArea": "6559.83",
+    "bjdCode": "2647010200",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021243",
@@ -494,7 +1109,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 1637-1 동서하이빌아파트 ",
+    "builder": "(주)동서좋합개발",
+    "entrance": "계단식",
+    "useArea": "9551.267",
+    "bjdCode": "2647010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 113,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021500",
@@ -505,7 +1134,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 705-5 연산역이즈",
+    "builder": "허진호 창비건설 (주)",
+    "entrance": "계단식",
+    "useArea": "4856.97",
+    "bjdCode": "2647010200",
+    "aptType": "도시형 생활주택(아파트)",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 102,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021527",
@@ -516,7 +1159,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 867-2 성일이안시티아파트",
+    "builder": "중외종합건설(주)",
+    "entrance": "혼합식",
+    "useArea": "6185.5531",
+    "bjdCode": "2647010200",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리(직영+위탁)",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 55,
+      "u85": 48,
+      "u135": 2,
+      "o135": 0
+    }
   },
   {
     "code": "A10021542",
@@ -527,7 +1184,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 1355-6 시청역이즈팰리스1차",
+    "builder": "창비건설",
+    "entrance": "계단식",
+    "useArea": "6472.1731",
+    "bjdCode": "2647010200",
+    "aptType": "도시형 생활주택(아파트)",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 130,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022365",
@@ -538,7 +1209,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 1135-227 연산포레서희스타힐스",
+    "builder": "서희건설",
+    "entrance": "계단식",
+    "useArea": "50095.0316",
+    "bjdCode": "2647010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 612,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023014",
@@ -549,7 +1234,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 1590-25 시청앞 행복주택2단지",
+    "builder": "GS 건설(주)",
+    "entrance": "기타",
+    "useArea": "33185.8289",
+    "bjdCode": "2647010200",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 37,
+    "areaBreak": {
+      "u60": 999,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023018",
@@ -560,7 +1259,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 1135-160 연산삼성타워맨션아파트",
+    "builder": "삼성건설",
+    "entrance": "계단식",
+    "useArea": "12522.925",
+    "bjdCode": "2647010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 149,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023114",
@@ -571,7 +1284,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 1325-4 연제SK뷰센트럴",
+    "builder": "SK에코플랜트",
+    "entrance": "계단식",
+    "useArea": "29065.3161",
+    "bjdCode": "2647010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 34,
+    "areaBreak": {
+      "u60": 30,
+      "u85": 375,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023232",
@@ -582,7 +1309,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 1244-1 연산예서두레라움",
+    "builder": "(주) 예서건설",
+    "entrance": "계단식",
+    "useArea": "12442.5975",
+    "bjdCode": "2647010200",
+    "aptType": "도시형 생활주택(주상복합)",
+    "mgrType": "위탁관리",
+    "topFloor": 27,
+    "areaBreak": {
+      "u60": 276,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023308",
@@ -593,7 +1334,20 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 1507-1 시청역삼정그린코아포레스트",
+    "builder": "(주)삼정기업",
+    "entrance": "계단식",
+    "useArea": "14685.0276",
+    "bjdCode": "2647010200",
+    "aptType": "도시형 생활주택(아파트)",
+    "mgrType": "위탁관리",
+    "areaBreak": {
+      "u60": 24,
+      "u85": 40,
+      "u135": 96,
+      "o135": 0
+    }
   },
   {
     "code": "A10023526",
@@ -604,7 +1358,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 2382 힐스테이트연산 아파트",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "122831.6616",
+    "bjdCode": "2647010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 35,
+    "areaBreak": {
+      "u60": 505,
+      "u85": 1146,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023561",
@@ -615,7 +1383,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 856-3 부산연산행복주택",
+    "builder": "동양종합건설(주)",
+    "entrance": "혼합식",
+    "useArea": "4316.84",
+    "bjdCode": "2647010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 150,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024113",
@@ -626,7 +1408,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 590-6 이편한세상 연산 더퍼스트",
+    "builder": "디엘이엔씨",
+    "entrance": "기타",
+    "useArea": "36008.4319",
+    "bjdCode": "2647010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 39,
+    "areaBreak": {
+      "u60": 72,
+      "u85": 383,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024627",
@@ -637,7 +1433,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 2367 연산롯데캐슬골드포레",
+    "builder": "(주)롯데건설",
+    "entrance": "계단식",
+    "useArea": "94309.8607",
+    "bjdCode": "2647010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 36,
+    "areaBreak": {
+      "u60": 250,
+      "u85": 944,
+      "u135": 36,
+      "o135": 0
+    }
   },
   {
     "code": "A10025135",
@@ -648,7 +1458,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 1445-11 시청역 비스타동원아파트",
+    "builder": "동원개발(주)",
+    "entrance": "계단식",
+    "useArea": "62889.8368",
+    "bjdCode": "2647010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 38,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 740,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025411",
@@ -659,7 +1483,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 1 동서연천타워",
+    "builder": "동서주택(주)",
+    "entrance": "계단식",
+    "useArea": "9402.08",
+    "bjdCode": "2647010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 113,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025559",
@@ -670,7 +1508,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 1990 연산더샵아파트",
+    "builder": "포스코 건설",
+    "entrance": "혼합식",
+    "useArea": "81700.5194",
+    "bjdCode": "2647010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 30,
+    "areaBreak": {
+      "u60": 273,
+      "u85": 798,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025752",
@@ -681,7 +1533,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 1361-9 시청역 SK VIEW",
+    "builder": "SKT",
+    "entrance": "기타",
+    "useArea": "24568.4069",
+    "bjdCode": "2647010200",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 33,
+    "areaBreak": {
+      "u60": 27,
+      "u85": 267,
+      "u135": 4,
+      "o135": 0
+    }
   },
   {
     "code": "A10025994",
@@ -692,7 +1558,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 772-1 연제 롯데캐슬앤데시앙",
+    "builder": "롯데건설,태영건설",
+    "entrance": "계단식",
+    "useArea": "93209.46",
+    "bjdCode": "2647010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 37,
+    "areaBreak": {
+      "u60": 219,
+      "u85": 865,
+      "u135": 84,
+      "o135": 0
+    }
   },
   {
     "code": "A10025998",
@@ -703,7 +1583,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 822-6 시청스마트W아파트",
+    "builder": "(주)경성리츠",
+    "entrance": "계단식",
+    "useArea": "11741.6156",
+    "bjdCode": "2647010200",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 105,
+      "u85": 76,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026119",
@@ -714,7 +1608,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 1866-2 아이유파크아파트",
+    "builder": "(주)보해토건",
+    "entrance": "계단식",
+    "useArea": "10213.3891",
+    "bjdCode": "2647010200",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 27,
+    "areaBreak": {
+      "u60": 17,
+      "u85": 141,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026902",
@@ -725,7 +1633,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 2335 연산동 일동미라주 더 스타",
+    "builder": "일동건설",
+    "entrance": "혼합식",
+    "useArea": "40606.6299",
+    "bjdCode": "2647010200",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 34,
+    "areaBreak": {
+      "u60": 153,
+      "u85": 471,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026942",
@@ -736,7 +1658,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 859-2 시청역퀸즈W아파트",
+    "builder": "대성문종합건설(주)",
+    "entrance": "복도식",
+    "useArea": "8506.1337",
+    "bjdCode": "2647010200",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 172,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027085",
@@ -747,7 +1683,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 2166 센텀리버sk뷰",
+    "builder": "sk건설",
+    "entrance": "계단식",
+    "useArea": "39945.9182",
+    "bjdCode": "2647010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 529,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027141",
@@ -758,7 +1708,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 1366-1 부산더샵시티애비뉴2차아파트",
+    "builder": "포스코건설",
+    "entrance": "계단식",
+    "useArea": "16790.82",
+    "bjdCode": "2647010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 33,
+    "areaBreak": {
+      "u60": 62,
+      "u85": 154,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027159",
@@ -769,7 +1733,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 1573 브라운스톤연제",
+    "builder": "이수건설",
+    "entrance": "혼합식",
+    "useArea": "39418.566",
+    "bjdCode": "2647010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 125,
+      "u85": 396,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027652",
@@ -780,7 +1758,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 1361-7 부산더샵시티애비뉴",
+    "builder": "포스코건설",
+    "entrance": "계단식",
+    "useArea": "16816.52",
+    "bjdCode": "2647010200",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 32,
+    "areaBreak": {
+      "u60": 116,
+      "u85": 116,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027937",
@@ -791,7 +1783,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 2311 더샵 파크시티",
+    "builder": "포스코",
+    "entrance": "기타",
+    "useArea": "154039.62",
+    "bjdCode": "2647010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 41,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1293,
+      "u135": 465,
+      "o135": 0
+    }
   },
   {
     "code": "A10028028",
@@ -802,7 +1808,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 137-15 부산센텀푸르지오",
+    "builder": "(주)대우건설",
+    "entrance": "계단식",
+    "useArea": "44277.7964",
+    "bjdCode": "2647010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 28,
+    "areaBreak": {
+      "u60": 48,
+      "u85": 512,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61108001",
@@ -813,7 +1833,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 958-6 연산센트럴파크",
+    "builder": "동서주택",
+    "entrance": "계단식",
+    "useArea": "23102.25",
+    "bjdCode": "2647010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 293,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61108002",
@@ -824,7 +1858,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 2022-587 연산동현대홈타운",
+    "builder": "현대건설(주)",
+    "entrance": "계단식",
+    "useArea": "34842.333",
+    "bjdCode": "2647010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 410,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61108003",
@@ -835,7 +1883,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 2298 연산경동메르빌",
+    "builder": "경동건설(주)",
+    "entrance": "기타",
+    "useArea": "38845.1052",
+    "bjdCode": "2647010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 49,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 282,
+      "u135": 188,
+      "o135": 0
+    }
   },
   {
     "code": "A61175110",
@@ -846,7 +1908,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 2220 망미주공아파트",
+    "builder": "대한주택공사",
+    "entrance": "혼합식",
+    "useArea": "148673.81",
+    "bjdCode": "2647010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 150,
+      "u85": 1848,
+      "u135": 40,
+      "o135": 0
+    }
   },
   {
     "code": "A61175113",
@@ -857,7 +1933,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 406-10 한솔솔파크",
+    "builder": "한솔건설",
+    "entrance": "계단식",
+    "useArea": "14174.9156",
+    "bjdCode": "2647010200",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 1,
+      "u85": 158,
+      "u135": 6,
+      "o135": 0
+    }
   },
   {
     "code": "A61175209",
@@ -868,7 +1958,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 387-1 연산한양아파트",
+    "builder": "(주)한양",
+    "entrance": "혼합식",
+    "useArea": "110097.35",
+    "bjdCode": "2647010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 480,
+      "u85": 716,
+      "u135": 256,
+      "o135": 0
+    }
   },
   {
     "code": "A61175901",
@@ -879,7 +1983,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 2262 연산자이",
+    "builder": "LG건설",
+    "entrance": "계단식",
+    "useArea": "184767.1751",
+    "bjdCode": "2647010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 28,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 822,
+      "u135": 379,
+      "o135": 397
+    }
   },
   {
     "code": "A61176004",
@@ -890,7 +2008,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 584-1 연산한성기린아파트",
+    "builder": "한성기린건설",
+    "entrance": "계단식",
+    "useArea": "39761.04",
+    "bjdCode": "2647010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 162,
+      "u85": 168,
+      "u135": 102,
+      "o135": 18
+    }
   },
   {
     "code": "A61176101",
@@ -901,7 +2033,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 1829-1 동덕현대아파트",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "36786.56",
+    "bjdCode": "2647010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 28,
+      "u85": 450,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61176202",
@@ -912,7 +2058,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 1110 연산현대아파트",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "37110.5",
+    "bjdCode": "2647010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 203,
+      "u85": 166,
+      "u135": 95,
+      "o135": 0
+    }
   },
   {
     "code": "A61176308",
@@ -923,7 +2083,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 2235-4 연산선경아파트",
+    "builder": "에스케이건설주식회사",
+    "entrance": "계단식",
+    "useArea": "68045.76",
+    "bjdCode": "2647010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 36,
+      "u85": 180,
+      "u135": 288,
+      "o135": 72
+    }
   },
   {
     "code": "A61176411",
@@ -934,7 +2108,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 243-18 연산LG아파트",
+    "builder": "LG건설",
+    "entrance": "계단식",
+    "useArea": "205355.772",
+    "bjdCode": "2647010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 736,
+      "u85": 1028,
+      "u135": 246,
+      "o135": 292
+    }
   },
   {
     "code": "A61181003",
@@ -945,7 +2133,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 3 동서그린맨션아파트",
+    "builder": "동서주택",
+    "entrance": "계단식",
+    "useArea": "15038.96",
+    "bjdCode": "2647010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 188,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61181004",
@@ -956,7 +2158,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 57-134 연산부전타워아파트",
+    "builder": "부전건설",
+    "entrance": "계단식",
+    "useArea": "16105.62",
+    "bjdCode": "2647010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 80,
+      "u85": 115,
+      "u135": 19,
+      "o135": 0
+    }
   },
   {
     "code": "A61181006",
@@ -967,7 +2183,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 30-1 연산동대우아파트",
+    "builder": "(주)대우",
+    "entrance": "혼합식",
+    "useArea": "25469.07",
+    "bjdCode": "2647010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 125,
+      "u85": 105,
+      "u135": 73,
+      "o135": 0
+    }
   },
   {
     "code": "A61181102",
@@ -978,7 +2208,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 307-10 연산한양타워아파트",
+    "builder": "한양건설",
+    "entrance": "계단식",
+    "useArea": "25275.52",
+    "bjdCode": "2647010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 302,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61181103",
@@ -989,7 +2233,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 304-1 연산경동아파트",
+    "builder": "경동건설",
+    "entrance": "혼합식",
+    "useArea": "22958.01",
+    "bjdCode": "2647010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 156,
+      "u85": 162,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61181202",
@@ -1000,7 +2258,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 481-3 연산현대아파트",
+    "builder": "고려산업개발(주)",
+    "entrance": "혼합식",
+    "useArea": "12248.4",
+    "bjdCode": "2647010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 111,
+      "u85": 70,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61181205",
@@ -1011,7 +2283,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 137 연산경남아파트",
+    "builder": "경남기업",
+    "entrance": "계단식",
+    "useArea": "23439.89",
+    "bjdCode": "2647010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 297,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61181207",
@@ -1022,7 +2308,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 129 센텀수영강푸르지오",
+    "builder": "대우건설",
+    "entrance": "계단식",
+    "useArea": "35282.153",
+    "bjdCode": "2647010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 120,
+      "u85": 250,
+      "u135": 60,
+      "o135": 0
+    }
   },
   {
     "code": "A61181601",
@@ -1033,7 +2333,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 346-11 동원베네스트",
+    "builder": "동원 시스템즈",
+    "entrance": "계단식",
+    "useArea": "12427.6605",
+    "bjdCode": "2647010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 150,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61182002",
@@ -1044,7 +2358,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 603-7 연산쌍용아파트",
+    "builder": "남광토건",
+    "entrance": "계단식",
+    "useArea": "13362.69",
+    "bjdCode": "2647010200",
+    "aptType": "주상복합",
+    "mgrType": "자치관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 144,
+      "u135": 15,
+      "o135": 0
+    }
   },
   {
     "code": "A61182006",
@@ -1055,7 +2383,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 578-1 연산삼익아파트",
+    "builder": "삼익주택",
+    "entrance": "복도식",
+    "useArea": "19007.41",
+    "bjdCode": "2647010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 109,
+      "u85": 196,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61182007",
@@ -1066,7 +2408,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 585-6 연산센터빌",
+    "builder": "동서주택",
+    "entrance": "혼합식",
+    "useArea": "23282",
+    "bjdCode": "2647010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 128,
+      "u85": 184,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61182009",
@@ -1077,7 +2433,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 587-4 연산sk뷰1단지",
+    "builder": "(주)sk건설",
+    "entrance": "계단식",
+    "useArea": "41090.1564",
+    "bjdCode": "2647010200",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 35,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 31,
+      "u135": 233,
+      "o135": 65
+    }
   },
   {
     "code": "A61182301",
@@ -1088,7 +2458,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 1135-48 연산서전기아타운아파트",
+    "builder": "기아조합",
+    "entrance": "복도식",
+    "useArea": "11341.44",
+    "bjdCode": "2647010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 26,
+      "u85": 126,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61182303",
@@ -1099,7 +2483,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 1135-3 대진그린타워아파트",
+    "builder": "(주)대진건업",
+    "entrance": "혼합식",
+    "useArea": "12751.3",
+    "bjdCode": "2647010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 136,
+      "u135": 25,
+      "o135": 0
+    }
   },
   {
     "code": "A61182305",
@@ -1110,7 +2508,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 766-2 연산반도보라 아파트",
+    "builder": "(주)반도건설",
+    "entrance": "계단식",
+    "useArea": "25917.4328",
+    "bjdCode": "2647010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 196,
+      "u135": 98,
+      "o135": 0
+    }
   },
   {
     "code": "A61182308",
@@ -1121,7 +2533,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 1136-5 연산동한일유앤아이아파트",
+    "builder": "한일건설",
+    "entrance": "계단식",
+    "useArea": "31633.742",
+    "bjdCode": "2647010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 77,
+      "u85": 335,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61182901",
@@ -1132,7 +2558,21 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 1643-2 동성효성아파트",
+    "builder": "(주)동성실업",
+    "entrance": "복도식",
+    "useArea": "12187.54",
+    "bjdCode": "2647010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 24,
+      "u85": 165,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61182902",
@@ -1143,6 +2583,20 @@
     "emd": "연산동",
     "sigunguCode": "26470",
     "sido": "부산광역시",
-    "sigungu": "연제구"
+    "sigungu": "연제구",
+    "jibunAddr": "부산광역시 연제구 연산동 862 연제힐스테이트",
+    "builder": "현대건설(주)",
+    "entrance": "계단식",
+    "useArea": "30161.1236",
+    "bjdCode": "2647010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 151,
+      "o135": 69
+    }
   }
 ]

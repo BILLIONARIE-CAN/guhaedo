@@ -8,7 +8,21 @@
     "emd": "대가야읍",
     "sigunguCode": "47830",
     "sido": "경상북도",
-    "sigungu": "봉화군"
+    "sigungu": "봉화군",
+    "jibunAddr": "경상북도 고령군 대가야읍 쾌빈리 433-1 고령궁전맨션",
+    "builder": "동화주택",
+    "entrance": "혼합식",
+    "useArea": "12142.65",
+    "bjdCode": "4783025321",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 75,
+      "u85": 90,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71780103",
@@ -19,7 +33,21 @@
     "emd": "대가야읍",
     "sigunguCode": "47830",
     "sido": "경상북도",
-    "sigungu": "봉화군"
+    "sigungu": "봉화군",
+    "jibunAddr": "경상북도 고령군 대가야읍 쾌빈리 6-1 (해동)디오팰리스",
+    "builder": "(주)금호건설",
+    "entrance": "계단식",
+    "useArea": "22403.85",
+    "bjdCode": "4783025321",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 315,
+      "u85": 60,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71780202",
@@ -30,7 +58,21 @@
     "emd": "대가야읍",
     "sigunguCode": "47830",
     "sido": "경상북도",
-    "sigungu": "봉화군"
+    "sigungu": "봉화군",
+    "jibunAddr": "경상북도 고령군 대가야읍 지산리 906-47 덕경인터빌",
+    "builder": "주)덕경종합건설",
+    "entrance": "혼합식",
+    "useArea": "11951.4593",
+    "bjdCode": "4783025326",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 278,
+      "u85": 20,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71770207",
@@ -41,7 +83,21 @@
     "emd": "다산면",
     "sigunguCode": "47830",
     "sido": "경상북도",
-    "sigungu": "봉화군"
+    "sigungu": "봉화군",
+    "jibunAddr": "경상북도 고령군 다산면 곽촌리 357 고령다산휴먼시아3단지",
+    "builder": "주식회사 서한",
+    "entrance": "복도식",
+    "useArea": "19743.1",
+    "bjdCode": "4783034033",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 474,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022496",
@@ -52,7 +108,21 @@
     "emd": "다산면",
     "sigunguCode": "47830",
     "sido": "경상북도",
-    "sigungu": "봉화군"
+    "sigungu": "봉화군",
+    "jibunAddr": "경상북도 고령군 다산면 상곡리 566- 다산월드메르디앙아파트",
+    "builder": " 대창기업",
+    "entrance": "계단식",
+    "useArea": "42497.8887",
+    "bjdCode": "4783034034",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 33,
+    "areaBreak": {
+      "u60": 376,
+      "u85": 255,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71770206",
@@ -63,7 +133,21 @@
     "emd": "다산면",
     "sigunguCode": "47830",
     "sido": "경상북도",
-    "sigungu": "봉화군"
+    "sigungu": "봉화군",
+    "jibunAddr": "경상북도 고령군 다산면 상곡리 358 금류강남타운1차",
+    "builder": "(주)금류건설",
+    "entrance": "혼합식",
+    "useArea": "39198.18",
+    "bjdCode": "4783034034",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 423,
+      "u85": 233,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71787102",
@@ -74,7 +158,21 @@
     "emd": "다산면",
     "sigunguCode": "47830",
     "sido": "경상북도",
-    "sigungu": "봉화군"
+    "sigungu": "봉화군",
+    "jibunAddr": "경상북도 고령군 다산면 상곡리 53 고령다산주공2단지",
+    "builder": "양우건설주식회사",
+    "entrance": "혼합식",
+    "useArea": "24815.76",
+    "bjdCode": "4783034034",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 496,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71787301",
@@ -85,7 +183,21 @@
     "emd": "다산면",
     "sigunguCode": "47830",
     "sido": "경상북도",
-    "sigungu": "봉화군"
+    "sigungu": "봉화군",
+    "jibunAddr": "경상북도 고령군 다산면 상곡리 162-7 고령다산주공아파트",
+    "builder": "(주)대림",
+    "entrance": "계단식",
+    "useArea": "15897.7",
+    "bjdCode": "4783034034",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 290,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A71787304",
@@ -96,6 +208,20 @@
     "emd": "다산면",
     "sigunguCode": "47830",
     "sido": "경상북도",
-    "sigungu": "봉화군"
+    "sigungu": "봉화군",
+    "jibunAddr": "경상북도 고령군 다산면 상곡리 150-1 2차금류강남타운",
+    "builder": "금류건설주식회사",
+    "entrance": "혼합식",
+    "useArea": "30952.42",
+    "bjdCode": "4783034034",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 363,
+      "u85": 136,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

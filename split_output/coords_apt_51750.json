@@ -8,7 +8,21 @@
     "emd": "영월읍",
     "sigunguCode": "51750",
     "sido": "강원특별자치도",
-    "sigungu": "영월군"
+    "sigungu": "영월군",
+    "jibunAddr": "강원특별자치도 영월군 영월읍 영흥리 1049-16 삼호아파트",
+    "builder": "삼호건설",
+    "entrance": "계단식",
+    "useArea": "13047.09",
+    "bjdCode": "5175025021",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 259,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022666",
@@ -19,7 +33,21 @@
     "emd": "영월읍",
     "sigunguCode": "51750",
     "sido": "강원특별자치도",
-    "sigungu": "영월군"
+    "sigungu": "영월군",
+    "jibunAddr": "강원특별자치도 영월군 영월읍 영흥리 931 영월LH천년나무아파트",
+    "builder": "2023-06-12",
+    "entrance": "계단식",
+    "useArea": "9454.79",
+    "bjdCode": "5175025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 70,
+      "u85": 66,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024272",
@@ -30,7 +58,21 @@
     "emd": "영월읍",
     "sigunguCode": "51750",
     "sido": "강원특별자치도",
-    "sigungu": "영월군"
+    "sigungu": "영월군",
+    "jibunAddr": "강원특별자치도 영월군 영월읍 영흥리 1137 영월코아루에듀타운",
+    "builder": "동서건설(주)",
+    "entrance": "계단식",
+    "useArea": "21765.5047",
+    "bjdCode": "5175025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 279,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020210",
@@ -41,7 +83,20 @@
     "emd": "영월읍",
     "sigunguCode": "51750",
     "sido": "강원특별자치도",
-    "sigungu": "영월군"
+    "sigungu": "영월군",
+    "jibunAddr": "강원특별자치도 영월군 영월읍 하송리 197 수정타운 아파트",
+    "builder": "추후 확인 후 입력 예정",
+    "entrance": "계단식",
+    "useArea": "9127.23",
+    "bjdCode": "5175025022",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "areaBreak": {
+      "u60": 0,
+      "u85": 147,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021858",
@@ -52,7 +107,21 @@
     "emd": "영월읍",
     "sigunguCode": "51750",
     "sido": "강원특별자치도",
-    "sigungu": "영월군"
+    "sigungu": "영월군",
+    "jibunAddr": "강원특별자치도 영월군 영월읍 하송리 389- 하송2차아파트자치관리소",
+    "builder": "한국주택공사",
+    "entrance": "계단식",
+    "useArea": "12657",
+    "bjdCode": "5175025022",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 290,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021880",
@@ -63,7 +132,21 @@
     "emd": "영월읍",
     "sigunguCode": "51750",
     "sido": "강원특별자치도",
-    "sigungu": "영월군"
+    "sigungu": "영월군",
+    "jibunAddr": "강원특별자치도 영월군 영월읍 하송리 26- 대림다미아 아파트",
+    "builder": "(주)대림",
+    "entrance": "계단식",
+    "useArea": "7334.074",
+    "bjdCode": "5175025022",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 72,
+      "u85": 38,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024190",
@@ -74,7 +157,21 @@
     "emd": "영월읍",
     "sigunguCode": "51750",
     "sido": "강원특별자치도",
-    "sigungu": "영월군"
+    "sigungu": "영월군",
+    "jibunAddr": "강원특별자치도 영월군 영월읍 하송리 543 극동스타클래스영월아파트",
+    "builder": "극동건설(주)",
+    "entrance": "혼합식",
+    "useArea": "23861.668",
+    "bjdCode": "5175025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 260,
+      "u135": 32,
+      "o135": 0
+    }
   },
   {
     "code": "A23071102",
@@ -85,7 +182,21 @@
     "emd": "영월읍",
     "sigunguCode": "51750",
     "sido": "강원특별자치도",
-    "sigungu": "영월군"
+    "sigungu": "영월군",
+    "jibunAddr": "강원특별자치도 영월군 영월읍 하송리 363 영월대선드림채",
+    "builder": "대선건설",
+    "entrance": "계단식",
+    "useArea": "29401.8426",
+    "bjdCode": "5175025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 296,
+      "u135": 38,
+      "o135": 0
+    }
   },
   {
     "code": "A23071103",
@@ -96,7 +207,21 @@
     "emd": "영월읍",
     "sigunguCode": "51750",
     "sido": "강원특별자치도",
-    "sigungu": "영월군"
+    "sigungu": "영월군",
+    "jibunAddr": "강원특별자치도 영월군 영월읍 하송리 53 레스트힐주상복합",
+    "builder": "영상건설",
+    "entrance": "계단식",
+    "useArea": "10132.68",
+    "bjdCode": "5175025022",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 78,
+      "u85": 77,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A23080003",
@@ -107,7 +232,21 @@
     "emd": "영월읍",
     "sigunguCode": "51750",
     "sido": "강원특별자치도",
-    "sigungu": "영월군"
+    "sigungu": "영월군",
+    "jibunAddr": "강원특별자치도 영월군 영월읍 하송리 394 하송4주공아파트",
+    "builder": "LH공사",
+    "entrance": "혼합식",
+    "useArea": "24332.16",
+    "bjdCode": "5175025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 433,
+      "u85": 1,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A23080805",
@@ -118,7 +257,21 @@
     "emd": "영월읍",
     "sigunguCode": "51750",
     "sido": "강원특별자치도",
-    "sigungu": "영월군"
+    "sigungu": "영월군",
+    "jibunAddr": "강원특별자치도 영월군 영월읍 하송리 403 하송주공3차아파트",
+    "builder": "대한주택공사",
+    "entrance": "복도식",
+    "useArea": "22482",
+    "bjdCode": "5175025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 450,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A23080902",
@@ -129,7 +282,21 @@
     "emd": "영월읍",
     "sigunguCode": "51750",
     "sido": "강원특별자치도",
-    "sigungu": "영월군"
+    "sigungu": "영월군",
+    "jibunAddr": "강원특별자치도 영월군 영월읍 하송리 189-2 영월하송1차주공아파트",
+    "builder": "대한주택공사",
+    "entrance": "계단식",
+    "useArea": "14096.4",
+    "bjdCode": "5175025022",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 320,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A23071101",
@@ -140,7 +307,21 @@
     "emd": "영월읍",
     "sigunguCode": "51750",
     "sido": "강원특별자치도",
-    "sigungu": "영월군"
+    "sigungu": "영월군",
+    "jibunAddr": "강원특별자치도 영월군 영월읍 방절리 482-1 영월신아",
+    "builder": "(주)신아",
+    "entrance": "복도식",
+    "useArea": "6232.8",
+    "bjdCode": "5175025023",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 173,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026100",
@@ -151,7 +332,21 @@
     "emd": "영월읍",
     "sigunguCode": "51750",
     "sido": "강원특별자치도",
-    "sigungu": "영월군"
+    "sigungu": "영월군",
+    "jibunAddr": "강원특별자치도 영월군 영월읍 덕포리 797 영월코아루웰라움아파트",
+    "builder": "동서건설",
+    "entrance": "계단식",
+    "useArea": "15941.7843",
+    "bjdCode": "5175025024",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 39,
+      "u85": 195,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A23080201",
@@ -162,7 +357,21 @@
     "emd": "영월읍",
     "sigunguCode": "51750",
     "sido": "강원특별자치도",
-    "sigungu": "영월군"
+    "sigungu": "영월군",
+    "jibunAddr": "강원특별자치도 영월군 영월읍 덕포리 505-11 영월금용아파트",
+    "builder": "금용건설",
+    "entrance": "혼합식",
+    "useArea": "21351.05",
+    "bjdCode": "5175025024",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 156,
+      "u85": 162,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021178",
@@ -173,6 +382,20 @@
     "emd": "주천면",
     "sigunguCode": "51750",
     "sido": "강원특별자치도",
-    "sigungu": "영월군"
+    "sigungu": "영월군",
+    "jibunAddr": "강원특별자치도 영월군 주천면 주천리 2742- 영월주천고령자복지주택아파트",
+    "builder": "서진산업",
+    "entrance": "복도식",
+    "useArea": "4870.4",
+    "bjdCode": "5175036021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 11,
+    "areaBreak": {
+      "u60": 140,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

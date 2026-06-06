@@ -8,7 +8,21 @@
     "emd": "단양읍",
     "sigunguCode": "43800",
     "sido": "충청북도",
-    "sigungu": "단양군"
+    "sigungu": "단양군",
+    "jibunAddr": "충청북도 단양군 단양읍 별곡리 106-1 신성단양미소지움",
+    "builder": "신성건설(주)",
+    "entrance": "계단식",
+    "useArea": "26707.697",
+    "bjdCode": "4380025025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 46,
+      "u85": 231,
+      "u135": 34,
+      "o135": 0
+    }
   },
   {
     "code": "A10023198",
@@ -19,7 +33,21 @@
     "emd": "단양읍",
     "sigunguCode": "43800",
     "sido": "충청북도",
-    "sigungu": "단양군"
+    "sigungu": "단양군",
+    "jibunAddr": "충청북도 단양군 단양읍 도전리 682 e편한세상 단양 리버비스타",
+    "builder": "DL건설",
+    "entrance": "계단식",
+    "useArea": "33609.8632",
+    "bjdCode": "4380025026",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 396,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020775",
@@ -30,7 +58,21 @@
     "emd": "단양읍",
     "sigunguCode": "43800",
     "sido": "충청북도",
-    "sigungu": "단양군"
+    "sigungu": "단양군",
+    "jibunAddr": "충청북도 단양군 단양읍 상진리 955- 단양공간아파트",
+    "builder": "(주)대호",
+    "entrance": "복도식",
+    "useArea": "8473.2",
+    "bjdCode": "4380025027",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 106,
+      "u85": 40,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026120",
@@ -41,7 +83,21 @@
     "emd": "단양읍",
     "sigunguCode": "43800",
     "sido": "충청북도",
-    "sigungu": "단양군"
+    "sigungu": "단양군",
+    "jibunAddr": "충청북도 단양군 단양읍 상진리 1042 단양 단아루아파트",
+    "builder": "대명건설",
+    "entrance": "혼합식",
+    "useArea": "10817.5588",
+    "bjdCode": "4380025027",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 128,
+      "u85": 60,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026415",
@@ -52,7 +108,21 @@
     "emd": "단양읍",
     "sigunguCode": "43800",
     "sido": "충청북도",
-    "sigungu": "단양군"
+    "sigungu": "단양군",
+    "jibunAddr": "충청북도 단양군 단양읍 상진리 1038 단양코아루해피트리아파트",
+    "builder": "(주)신일",
+    "entrance": "계단식",
+    "useArea": "19899.1751",
+    "bjdCode": "4380025027",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 179,
+      "u85": 119,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A39580601",
@@ -63,7 +133,21 @@
     "emd": "단양읍",
     "sigunguCode": "43800",
     "sido": "충청북도",
-    "sigungu": "단양군"
+    "sigungu": "단양군",
+    "jibunAddr": "충청북도 단양군 단양읍 상진리 978 단양주공아파트",
+    "builder": "대한주택공사",
+    "entrance": "계단식",
+    "useArea": "12994.2",
+    "bjdCode": "4380025027",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 300,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A39580603",
@@ -74,7 +158,21 @@
     "emd": "단양읍",
     "sigunguCode": "43800",
     "sido": "충청북도",
-    "sigungu": "단양군"
+    "sigungu": "단양군",
+    "jibunAddr": "충청북도 단양군 단양읍 상진리 50 단양두진아파트",
+    "builder": "두진종합건설",
+    "entrance": "복도식",
+    "useArea": "19507.36",
+    "bjdCode": "4380025027",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 422,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A39590401",
@@ -85,7 +183,21 @@
     "emd": "매포읍",
     "sigunguCode": "43800",
     "sido": "충청북도",
-    "sigungu": "단양군"
+    "sigungu": "단양군",
+    "jibunAddr": "충청북도 단양군 매포읍 평동리 1335 태양드림빌",
+    "builder": "남북건설",
+    "entrance": "복도식",
+    "useArea": "14444.4",
+    "bjdCode": "4380025327",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 297,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A39590402",
@@ -96,6 +208,20 @@
     "emd": "매포읍",
     "sigunguCode": "43800",
     "sido": "충청북도",
-    "sigungu": "단양군"
+    "sigungu": "단양군",
+    "jibunAddr": "충청북도 단양군 매포읍 평동리 1000 평동한라아파트 입주자대표회의",
+    "builder": "한라건설(주)",
+    "entrance": "혼합식",
+    "useArea": "17171.82",
+    "bjdCode": "4380025327",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 254,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

@@ -8,7 +8,21 @@
     "emd": "옥천읍",
     "sigunguCode": "43730",
     "sido": "충청북도",
-    "sigungu": "옥천군"
+    "sigungu": "옥천군",
+    "jibunAddr": "충청북도 옥천군 옥천읍 죽향리 196-2 향수마을",
+    "builder": "(주)영락건설",
+    "entrance": "계단식",
+    "useArea": "13992.3135",
+    "bjdCode": "4373025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 165,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A37380405",
@@ -19,7 +33,21 @@
     "emd": "옥천읍",
     "sigunguCode": "43730",
     "sido": "충청북도",
-    "sigungu": "옥천군"
+    "sigungu": "옥천군",
+    "jibunAddr": "충청북도 옥천군 옥천읍 죽향리 153 주은옥향아파트",
+    "builder": "주은산업",
+    "entrance": "혼합식",
+    "useArea": "24624.053",
+    "bjdCode": "4373025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 165,
+      "u85": 101,
+      "u135": 57,
+      "o135": 0
+    }
   },
   {
     "code": "A37380301",
@@ -30,7 +58,21 @@
     "emd": "옥천읍",
     "sigunguCode": "43730",
     "sido": "충청북도",
-    "sigungu": "옥천군"
+    "sigungu": "옥천군",
+    "jibunAddr": "충청북도 옥천군 옥천읍 문정리 430-1 옥천하늘빛",
+    "builder": "천광산업(주)",
+    "entrance": "계단식",
+    "useArea": "38240.55",
+    "bjdCode": "4373025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 173,
+      "u85": 290,
+      "u135": 28,
+      "o135": 0
+    }
   },
   {
     "code": "A37380302",
@@ -41,7 +83,21 @@
     "emd": "옥천읍",
     "sigunguCode": "43730",
     "sido": "충청북도",
-    "sigungu": "옥천군"
+    "sigungu": "옥천군",
+    "jibunAddr": "충청북도 옥천군 옥천읍 문정리 467-5 대성진달래아파트",
+    "builder": "(주)두진공영",
+    "entrance": "계단식",
+    "useArea": "11417.205",
+    "bjdCode": "4373025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 90,
+      "u85": 49,
+      "u135": 15,
+      "o135": 0
+    }
   },
   {
     "code": "A37380307",
@@ -52,7 +108,21 @@
     "emd": "옥천읍",
     "sigunguCode": "43730",
     "sido": "충청북도",
-    "sigungu": "옥천군"
+    "sigungu": "옥천군",
+    "jibunAddr": "충청북도 옥천군 옥천읍 문정리 376 옥천문정3단지아파트",
+    "builder": "계룡건설산업주식회사",
+    "entrance": "복도식",
+    "useArea": "21266.59",
+    "bjdCode": "4373025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 445,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A37380310",
@@ -63,7 +133,21 @@
     "emd": "옥천읍",
     "sigunguCode": "43730",
     "sido": "충청북도",
-    "sigungu": "옥천군"
+    "sigungu": "옥천군",
+    "jibunAddr": "충청북도 옥천군 옥천읍 문정리 374 문정주공2단지아파트",
+    "builder": "대한주택공사",
+    "entrance": "복도식",
+    "useArea": "23569.5",
+    "bjdCode": "4373025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 475,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020764",
@@ -74,7 +158,21 @@
     "emd": "옥천읍",
     "sigunguCode": "43730",
     "sido": "충청북도",
-    "sigungu": "옥천군"
+    "sigungu": "옥천군",
+    "jibunAddr": "충청북도 옥천군 옥천읍 동안리 15-1 e편한세상 옥천퍼스트원",
+    "builder": "DL건설(주)",
+    "entrance": "계단식",
+    "useArea": "89078.108",
+    "bjdCode": "4373025026",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 485,
+      "u135": 60,
+      "o135": 0
+    }
   },
   {
     "code": "A10021761",
@@ -85,7 +183,21 @@
     "emd": "옥천읍",
     "sigunguCode": "43730",
     "sido": "충청북도",
-    "sigungu": "옥천군"
+    "sigungu": "옥천군",
+    "jibunAddr": "충청북도 옥천군 옥천읍 대천리 373-1 청솔아파트",
+    "builder": "확인안됨",
+    "entrance": "계단식",
+    "useArea": "4074.9",
+    "bjdCode": "4373025033",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 102,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020846",
@@ -96,7 +208,21 @@
     "emd": "옥천읍",
     "sigunguCode": "43730",
     "sido": "충청북도",
-    "sigungu": "옥천군"
+    "sigungu": "옥천군",
+    "jibunAddr": "충청북도 옥천군 옥천읍 마암리 2-3 옥천역금호어울림더퍼스트",
+    "builder": "금호건설(주)",
+    "entrance": "계단식",
+    "useArea": "43576.5514",
+    "bjdCode": "4373025034",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 459,
+      "u135": 40,
+      "o135": 0
+    }
   },
   {
     "code": "A10026556",
@@ -107,7 +233,21 @@
     "emd": "옥천읍",
     "sigunguCode": "43730",
     "sido": "충청북도",
-    "sigungu": "옥천군"
+    "sigungu": "옥천군",
+    "jibunAddr": "충청북도 옥천군 옥천읍 마암리 487 옥천양우내안애",
+    "builder": "양우건설",
+    "entrance": "계단식",
+    "useArea": "20787.14",
+    "bjdCode": "4373025034",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 120,
+      "u85": 160,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A37380804",
@@ -118,7 +258,21 @@
     "emd": "옥천읍",
     "sigunguCode": "43730",
     "sido": "충청북도",
-    "sigungu": "옥천군"
+    "sigungu": "옥천군",
+    "jibunAddr": "충청북도 옥천군 옥천읍 마암리 16 마암현대아파트",
+    "builder": "현대건설(주)",
+    "entrance": "계단식",
+    "useArea": "21948.3",
+    "bjdCode": "4373025034",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 275,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026754",
@@ -129,7 +283,21 @@
     "emd": "옥천읍",
     "sigunguCode": "43730",
     "sido": "충청북도",
-    "sigungu": "옥천군"
+    "sigungu": "옥천군",
+    "jibunAddr": "충청북도 옥천군 옥천읍 양수리 438 옥천지엘리베라움아파트",
+    "builder": "지엘건설(주)",
+    "entrance": "계단식",
+    "useArea": "34570.7842",
+    "bjdCode": "4373025035",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 446,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024418",
@@ -140,7 +308,21 @@
     "emd": "옥천읍",
     "sigunguCode": "43730",
     "sido": "충청북도",
-    "sigungu": "옥천군"
+    "sigungu": "옥천군",
+    "jibunAddr": "충청북도 옥천군 옥천읍 금구리 259-2 옥천계룡리슈빌",
+    "builder": "계룡건설",
+    "entrance": "계단식",
+    "useArea": "18357.1244",
+    "bjdCode": "4373025036",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 231,
+      "u85": 53,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A37380209",
@@ -151,7 +333,21 @@
     "emd": "옥천읍",
     "sigunguCode": "43730",
     "sido": "충청북도",
-    "sigungu": "옥천군"
+    "sigungu": "옥천군",
+    "jibunAddr": "충청북도 옥천군 옥천읍 금구리 235-1 가화현대아파트",
+    "builder": "(주)조원개발",
+    "entrance": "혼합식",
+    "useArea": "31951.62",
+    "bjdCode": "4373025036",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 279,
+      "u85": 180,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A37380603",
@@ -162,7 +358,21 @@
     "emd": "옥천읍",
     "sigunguCode": "43730",
     "sido": "충청북도",
-    "sigungu": "옥천군"
+    "sigungu": "옥천군",
+    "jibunAddr": "충청북도 옥천군 옥천읍 금구리 235-26 다산금빛아파트",
+    "builder": "다산건설",
+    "entrance": "혼합식",
+    "useArea": "15723.6",
+    "bjdCode": "4373025036",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 270,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024437",
@@ -173,7 +383,21 @@
     "emd": "옥천읍",
     "sigunguCode": "43730",
     "sido": "충청북도",
-    "sigungu": "옥천군"
+    "sigungu": "옥천군",
+    "jibunAddr": "충청북도 옥천군 옥천읍 장야리 444 더퍼스트이안 아파트",
+    "builder": "대우산업개발주식회사",
+    "entrance": "계단식",
+    "useArea": "22641.0499",
+    "bjdCode": "4373025037",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 125,
+      "u85": 200,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A37380508",
@@ -184,7 +408,21 @@
     "emd": "옥천읍",
     "sigunguCode": "43730",
     "sido": "충청북도",
-    "sigungu": "옥천군"
+    "sigungu": "옥천군",
+    "jibunAddr": "충청북도 옥천군 옥천읍 장야리 313 장야주공1단지아파트",
+    "builder": "대화건설(주)",
+    "entrance": "계단식",
+    "useArea": "25220.24",
+    "bjdCode": "4373025037",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 446,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A37380513",
@@ -195,7 +433,21 @@
     "emd": "옥천읍",
     "sigunguCode": "43730",
     "sido": "충청북도",
-    "sigungu": "옥천군"
+    "sigungu": "옥천군",
+    "jibunAddr": "충청북도 옥천군 옥천읍 장야리 311 옥천장야2",
+    "builder": "흥진건설",
+    "entrance": "계단식",
+    "useArea": "32538.7",
+    "bjdCode": "4373025037",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 610,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022516",
@@ -206,6 +458,20 @@
     "emd": "옥천읍",
     "sigunguCode": "43730",
     "sido": "충청북도",
-    "sigungu": "옥천군"
+    "sigungu": "옥천군",
+    "jibunAddr": "충청북도 옥천군 옥천읍 삼양리 232-2 옥천삼양 행복주택",
+    "builder": "태진종합건설(주)",
+    "entrance": "복도식",
+    "useArea": "6066.54",
+    "bjdCode": "4373025038",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 200,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

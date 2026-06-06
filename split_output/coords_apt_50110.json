@@ -8,7 +8,21 @@
     "emd": "일도이동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 일도이동 371- 삼화아파트",
+    "builder": "삼화주택",
+    "entrance": "복도식",
+    "useArea": "11091.64",
+    "bjdCode": "5011010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 7,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 112,
+      "u135": 14,
+      "o135": 0
+    }
   },
   {
     "code": "A10021363",
@@ -19,7 +33,21 @@
     "emd": "일도이동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 일도이동 113-1 일도수선화아파트",
+    "builder": "동방건설(주)",
+    "entrance": "계단식",
+    "useArea": "9713.88",
+    "bjdCode": "5011010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 198,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021537",
@@ -30,7 +58,21 @@
     "emd": "일도이동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 일도이동 408- 서해1차아파트",
+    "builder": "서해건설",
+    "entrance": "복도식",
+    "useArea": "10015.45",
+    "bjdCode": "5011010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 119,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021730",
@@ -41,7 +83,21 @@
     "emd": "일도이동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 일도이동 113-6 우성아파트2단지",
+    "builder": "(주)우성건설",
+    "entrance": "계단식",
+    "useArea": "15701.5",
+    "bjdCode": "5011010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 170,
+      "o135": 0
+    }
   },
   {
     "code": "A10021766",
@@ -52,7 +108,21 @@
     "emd": "일도이동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 일도이동 113-4 일도1차 대림아파트",
+    "builder": "대림",
+    "entrance": "계단식",
+    "useArea": "12939.36",
+    "bjdCode": "5011010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 168,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021833",
@@ -63,7 +133,21 @@
     "emd": "일도이동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 일도이동 113-5 일도2차대림아파트",
+    "builder": "대림",
+    "entrance": "계단식",
+    "useArea": "13786.58",
+    "bjdCode": "5011010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 179,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022604",
@@ -74,7 +158,21 @@
     "emd": "일도이동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 일도이동 161 제주일도삼도행복주택관리사무소",
+    "builder": "흥남종합건설 ",
+    "entrance": "복도식",
+    "useArea": "5622.36",
+    "bjdCode": "5011010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 208,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A69001201",
@@ -85,7 +183,21 @@
     "emd": "일도이동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 일도이동 47 삼주",
+    "builder": "(주)삼주",
+    "entrance": "계단식",
+    "useArea": "10794.6",
+    "bjdCode": "5011010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 180,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A69001202",
@@ -96,7 +208,21 @@
     "emd": "일도이동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 일도이동 46-1 혜성대유",
+    "builder": "대유건설",
+    "entrance": "계단식",
+    "useArea": "12203.28",
+    "bjdCode": "5011010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 204,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A69001203",
@@ -107,7 +233,21 @@
     "emd": "일도이동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 일도이동 113 일도우성1단지",
+    "builder": "(주)우성건설",
+    "entrance": "계단식",
+    "useArea": "24165.3",
+    "bjdCode": "5011010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 180,
+      "u85": 180,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A69001204",
@@ -118,7 +258,21 @@
     "emd": "일도이동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 일도이동 47-1 일도신천지아파트",
+    "builder": "(주)에덴주택",
+    "entrance": "계단식",
+    "useArea": "28065.96",
+    "bjdCode": "5011010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 468,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A69001205",
@@ -129,7 +283,21 @@
     "emd": "일도이동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 일도이동 113-7 대유대림",
+    "builder": "대림산업주식회사",
+    "entrance": "계단식",
+    "useArea": "54509.04",
+    "bjdCode": "5011010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 510,
+      "u135": 90,
+      "o135": 0
+    }
   },
   {
     "code": "A69077901",
@@ -140,7 +308,21 @@
     "emd": "일도이동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 일도이동 46 신천지2차",
+    "builder": "(주)에덴주택",
+    "entrance": "계단식",
+    "useArea": "13675.44",
+    "bjdCode": "5011010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 228,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A69077902",
@@ -151,7 +333,21 @@
     "emd": "일도이동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 일도이동 113-3 일도성환아파트",
+    "builder": "성환건설(주)",
+    "entrance": "계단식",
+    "useArea": "13075.785",
+    "bjdCode": "5011010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 90,
+      "u85": 99,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A69077001",
@@ -162,7 +358,21 @@
     "emd": "이도일동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 이도일동 1650-4 장원월드컵아파트",
+    "builder": "장원종합건설",
+    "entrance": "계단식",
+    "useArea": "19434.77",
+    "bjdCode": "5011010300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 11,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 60,
+      "u135": 121,
+      "o135": 0
+    }
   },
   {
     "code": "A10021567",
@@ -173,7 +383,21 @@
     "emd": "이도이동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 이도이동 1909-19 동아아파트",
+    "builder": "동아건설",
+    "entrance": "혼합식",
+    "useArea": "6285.676",
+    "bjdCode": "5011010400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 7,
+    "areaBreak": {
+      "u60": 110,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024973",
@@ -184,7 +408,21 @@
     "emd": "이도이동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 이도이동 1011-3 영도갤럭시타운 (아파트)",
+    "builder": "(주)영도건설",
+    "entrance": "복도식",
+    "useArea": "5292.7713",
+    "bjdCode": "5011010400",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 207,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025784",
@@ -195,7 +433,20 @@
     "emd": "이도이동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 이도이동 1860-1 나라키움 제주마루",
+    "builder": "도원이엔지",
+    "entrance": "복도식",
+    "useArea": "5226",
+    "bjdCode": "5011010400",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "areaBreak": {
+      "u60": 217,
+      "u85": 3,
+      "u135": 5,
+      "o135": 5
+    }
   },
   {
     "code": "A69002202",
@@ -206,7 +457,21 @@
     "emd": "이도이동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 이도이동 888 이도주공1",
+    "builder": "동아건설",
+    "entrance": "계단식",
+    "useArea": "24353.98",
+    "bjdCode": "5011010400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 480,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A69073101",
@@ -217,7 +482,21 @@
     "emd": "이도이동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 이도이동 1956 제주이도한일베라체",
+    "builder": "한일건설(주)",
+    "entrance": "계단식",
+    "useArea": "63995.06",
+    "bjdCode": "5011010400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 445,
+      "u135": 138,
+      "o135": 78
+    }
   },
   {
     "code": "A10021650",
@@ -228,7 +507,21 @@
     "emd": "삼도이동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 삼도이동 300-4 미듬아뜨리에아파트",
+    "builder": "미듬종합건설",
+    "entrance": "혼합식",
+    "useArea": "9453.3468",
+    "bjdCode": "5011010600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 112,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A69005001",
@@ -239,7 +532,21 @@
     "emd": "건입동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 건입동 940-3 건입동 현대아파트",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "40094.6",
+    "bjdCode": "5011010700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 7,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 364,
+      "u135": 0,
+      "o135": 84
+    }
   },
   {
     "code": "A10021755",
@@ -250,7 +557,21 @@
     "emd": "용담이동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 용담이동 2706-1 장원하이빌아파트",
+    "builder": "주)장일주택",
+    "entrance": "계단식",
+    "useArea": "9225.651",
+    "bjdCode": "5011010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 8,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 109,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021757",
@@ -261,7 +582,21 @@
     "emd": "용담이동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 용담이동 619- 현대3차아파트",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "11797.94",
+    "bjdCode": "5011010900",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 7,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 140,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022707",
@@ -272,7 +607,21 @@
     "emd": "용담이동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 용담이동 481-3 호반써밋제주",
+    "builder": "(주)호반건설",
+    "entrance": "계단식",
+    "useArea": "19643.8065",
+    "bjdCode": "5011010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 157,
+      "u135": 56,
+      "o135": 0
+    }
   },
   {
     "code": "A69004301",
@@ -283,7 +632,21 @@
     "emd": "용담삼동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 용담삼동 505 용담현대1",
+    "builder": "(주)현대화성",
+    "entrance": "계단식",
+    "useArea": "22686.58",
+    "bjdCode": "5011011000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 7,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 210,
+      "u135": 28,
+      "o135": 14
+    }
   },
   {
     "code": "A69006101",
@@ -294,7 +657,21 @@
     "emd": "화북일동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 화북일동 10-1 화북주공1",
+    "builder": "대한주택공사",
+    "entrance": "계단식",
+    "useArea": "33156.9",
+    "bjdCode": "5011011100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 7,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 392,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A69006102",
@@ -305,7 +682,21 @@
     "emd": "화북일동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 화북일동 9-1 화북주공2",
+    "builder": "lh",
+    "entrance": "계단식",
+    "useArea": "33920.38",
+    "bjdCode": "5011011100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 7,
+    "areaBreak": {
+      "u60": 566,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A69078101",
@@ -316,7 +707,21 @@
     "emd": "화북일동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 화북일동 1002-1 삼화휴먼시아1단지",
+    "builder": "금호건설,계룡건설",
+    "entrance": "복도식",
+    "useArea": "57340.6",
+    "bjdCode": "5011011100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 1364,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A69083703",
@@ -327,7 +732,21 @@
     "emd": "화북일동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 화북일동 12-1 화북4아파트",
+    "builder": "대한주택공사",
+    "entrance": "혼합식",
+    "useArea": "43870.66",
+    "bjdCode": "5011011100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 7,
+    "areaBreak": {
+      "u60": 810,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A69083704",
@@ -338,7 +757,21 @@
     "emd": "화북일동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 화북일동 9-1 제주화북3",
+    "builder": "lh공사",
+    "entrance": "복도식",
+    "useArea": "29220.96",
+    "bjdCode": "5011011100",
+    "aptType": "아파트",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 7,
+    "areaBreak": {
+      "u60": 590,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020929",
@@ -349,7 +782,21 @@
     "emd": "화북이동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 화북이동 5764- 더트루엘제주",
+    "builder": "일성건설",
+    "entrance": "계단식",
+    "useArea": "12042.432",
+    "bjdCode": "5011011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 4,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 181,
+      "u135": 3,
+      "o135": 0
+    }
   },
   {
     "code": "A69006201",
@@ -360,7 +807,21 @@
     "emd": "화북이동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 화북이동 116 삼화2차부영",
+    "builder": "(주) 부영주택",
+    "entrance": "계단식",
+    "useArea": "37816.7464",
+    "bjdCode": "5011011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 448,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A69006202",
@@ -371,7 +832,21 @@
     "emd": "화북이동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 화북이동 117 제주삼화LH2단지",
+    "builder": "요진건설산업",
+    "entrance": "계단식",
+    "useArea": "34242.09",
+    "bjdCode": "5011011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 411,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026597",
@@ -382,7 +857,21 @@
     "emd": "삼양이동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 삼양이동 2312 NHF 제주삼화 1단지",
+    "builder": "(주)대보건설",
+    "entrance": "계단식",
+    "useArea": "38439.58",
+    "bjdCode": "5011011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 316,
+      "u85": 244,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A69007201",
@@ -393,7 +882,21 @@
     "emd": "삼양이동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 삼양이동 2318 제주삼화3차",
+    "builder": "부영주택(주)",
+    "entrance": "계단식",
+    "useArea": "40334.6072",
+    "bjdCode": "5011011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 524,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A69007202",
@@ -404,7 +907,21 @@
     "emd": "삼양이동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 삼양이동 2333 제주삼화5차 부영아파트",
+    "builder": "동광주택",
+    "entrance": "계단식",
+    "useArea": "46478.6214",
+    "bjdCode": "5011011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 610,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025876",
@@ -415,7 +932,21 @@
     "emd": "봉개동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 봉개동 1890 제주봉개LH아파트",
+    "builder": "동부건설(주)",
+    "entrance": "복도식",
+    "useArea": "17006.92",
+    "bjdCode": "5011011600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 7,
+    "areaBreak": {
+      "u60": 540,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021919",
@@ -426,7 +957,21 @@
     "emd": "아라일동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 아라일동 6075-2 아라미화아파트",
+    "builder": "종합건축사 사무소 유림",
+    "entrance": "혼합식",
+    "useArea": "8693.09",
+    "bjdCode": "5011011700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 7,
+    "areaBreak": {
+      "u60": 53,
+      "u85": 65,
+      "u135": 7,
+      "o135": 0
+    }
   },
   {
     "code": "A69012001",
@@ -437,7 +982,21 @@
     "emd": "아라일동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 아라일동 6142-13 염광",
+    "builder": "염광건설",
+    "entrance": "계단식",
+    "useArea": "19869.9",
+    "bjdCode": "5011011700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 210,
+      "u85": 140,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A69012101",
@@ -448,7 +1007,21 @@
     "emd": "아라일동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 아라일동 6082-3 아라원신",
+    "builder": "주)원신",
+    "entrance": "계단식",
+    "useArea": "14759.185",
+    "bjdCode": "5011011700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 7,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 154,
+      "u135": 14,
+      "o135": 0
+    }
   },
   {
     "code": "A69075601",
@@ -459,7 +1032,21 @@
     "emd": "아라일동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 아라일동 6088 아라스위첸",
+    "builder": "kcc건설",
+    "entrance": "계단식",
+    "useArea": "55765.732",
+    "bjdCode": "5011011700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 294,
+      "u135": 278,
+      "o135": 0
+    }
   },
   {
     "code": "A69075603",
@@ -470,7 +1057,21 @@
     "emd": "아라일동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 아라일동 6121 아라아이파크",
+    "builder": "현대산업개발",
+    "entrance": "혼합식",
+    "useArea": "58233.3969",
+    "bjdCode": "5011011700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 378,
+      "u135": 236,
+      "o135": 0
+    }
   },
   {
     "code": "A69077302",
@@ -481,7 +1082,21 @@
     "emd": "아라일동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 아라일동 1683 제주아라",
+    "builder": "LH",
+    "entrance": "복도식",
+    "useArea": "19723.68",
+    "bjdCode": "5011011700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 696,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021710",
@@ -492,7 +1107,21 @@
     "emd": "오라이동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 오라이동 1365- 헤르지아아파트",
+    "builder": "헤르지아주택(주)",
+    "entrance": "계단식",
+    "useArea": "10123.12",
+    "bjdCode": "5011012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리(직영+위탁)",
+    "topFloor": 7,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 120,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021109",
@@ -503,7 +1132,21 @@
     "emd": "노형동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 노형동 1058-1 노형수선화아파트",
+    "builder": "노형수선화",
+    "entrance": "계단식",
+    "useArea": "7188",
+    "bjdCode": "5011012200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 120,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021767",
@@ -514,7 +1157,21 @@
     "emd": "노형동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 노형동 3779-5 인텔리젼트 한빛아파트",
+    "builder": "나인건설",
+    "entrance": "계단식",
+    "useArea": "9109.2615",
+    "bjdCode": "5011012200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 108,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021948",
@@ -525,7 +1182,21 @@
     "emd": "노형동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 노형동 2528-1 노형성환1차아파트",
+    "builder": "성환건설(주)",
+    "entrance": "계단식",
+    "useArea": "8328.464",
+    "bjdCode": "5011012200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 7,
+    "areaBreak": {
+      "u60": 125,
+      "u85": 14,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025210",
@@ -536,7 +1207,21 @@
     "emd": "노형동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 노형동 943 노형 해모로 루엔 아파트",
+    "builder": "(주)한진중공업",
+    "entrance": "계단식",
+    "useArea": "11865.4497",
+    "bjdCode": "5011012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 50,
+      "u85": 107,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A69000301",
@@ -547,7 +1232,21 @@
     "emd": "노형동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 노형동 945 유나이티드",
+    "builder": "유나이티드",
+    "entrance": "복도식",
+    "useArea": "8693.07",
+    "bjdCode": "5011012200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 191,
+      "u85": 6,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A69074411",
@@ -558,7 +1257,21 @@
     "emd": "노형동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 노형동 731-2 한화아파트",
+    "builder": "한화건설",
+    "entrance": "계단식",
+    "useArea": "27502.1558",
+    "bjdCode": "5011012200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 206,
+      "o135": 28
+    }
   },
   {
     "code": "A69074412",
@@ -569,7 +1282,21 @@
     "emd": "노형동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 노형동 754 제주노형부영5차아파트",
+    "builder": "부영",
+    "entrance": "계단식",
+    "useArea": "32621.1072",
+    "bjdCode": "5011012200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 384,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A69074413",
@@ -580,7 +1307,21 @@
     "emd": "노형동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 노형동 754-4 부영2차",
+    "builder": "(주)부영주택",
+    "entrance": "복도식",
+    "useArea": "32594.538",
+    "bjdCode": "5011012200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 710,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A69074414",
@@ -591,7 +1332,21 @@
     "emd": "노형동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 노형동 3791-1 노형2차아이파크",
+    "builder": "현대산업개발",
+    "entrance": "계단식",
+    "useArea": "17496.6054",
+    "bjdCode": "5011012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 84,
+      "u135": 90,
+      "o135": 0
+    }
   },
   {
     "code": "A69080202",
@@ -602,7 +1357,21 @@
     "emd": "노형동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 노형동 754-3 부영3차",
+    "builder": "부영",
+    "entrance": "계단식",
+    "useArea": "20388.192",
+    "bjdCode": "5011012200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 240,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A69080203",
@@ -613,7 +1382,21 @@
     "emd": "노형동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 노형동 731-1 노형아이파크",
+    "builder": "현대산업개발",
+    "entrance": "계단식",
+    "useArea": "20155.238",
+    "bjdCode": "5011012200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 247,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A69080205",
@@ -624,7 +1407,21 @@
     "emd": "노형동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 노형동 732-1 해오름",
+    "builder": "한국토지주택공사",
+    "entrance": "계단식",
+    "useArea": "20562.22",
+    "bjdCode": "5011012200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 346,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A69080207",
@@ -635,7 +1432,21 @@
     "emd": "노형동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 노형동 753-1 중흥S-클래스",
+    "builder": "중흥건설",
+    "entrance": "계단식",
+    "useArea": "26660.8422",
+    "bjdCode": "5011012200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 11,
+    "areaBreak": {
+      "u60": 198,
+      "u85": 174,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A69080208",
@@ -646,7 +1457,21 @@
     "emd": "노형동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 노형동 732 부영1차",
+    "builder": "(주)부영주택",
+    "entrance": "계단식",
+    "useArea": "35328.3354",
+    "bjdCode": "5011012200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 438,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A69080214",
@@ -657,7 +1482,21 @@
     "emd": "노형동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 노형동 753 제주으뜸마을",
+    "builder": "한국토지주택공사",
+    "entrance": "복도식",
+    "useArea": "16736.16",
+    "bjdCode": "5011012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 420,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A69080504",
@@ -668,7 +1507,21 @@
     "emd": "노형동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 노형동 2585-1 노형중흥s클래스미리내",
+    "builder": "중흥건설(주)",
+    "entrance": "계단식",
+    "useArea": "42743.3652",
+    "bjdCode": "5011012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 232,
+      "o135": 98
+    }
   },
   {
     "code": "A69080506",
@@ -679,7 +1532,21 @@
     "emd": "노형동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 노형동 2585-2 노형e-편한세상아파트",
+    "builder": "(주)대림",
+    "entrance": "계단식",
+    "useArea": "44622.2",
+    "bjdCode": "5011012200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 294,
+      "o135": 56
+    }
   },
   {
     "code": "A69080509",
@@ -690,7 +1557,21 @@
     "emd": "노형동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 노형동 2582-2 정든마을3단지",
+    "builder": "범양건영(주)",
+    "entrance": "계단식",
+    "useArea": "28300.97",
+    "bjdCode": "5011012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 511,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A69080510",
@@ -701,7 +1582,21 @@
     "emd": "노형동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 노형동 2583-1 노형뜨란채아파트",
+    "builder": "국제토건, KT건설",
+    "entrance": "계단식",
+    "useArea": "87137.18",
+    "bjdCode": "5011012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1068,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A69080513",
@@ -712,7 +1607,21 @@
     "emd": "노형동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 노형동 2582-4 제주정든마을1",
+    "builder": "한신공영",
+    "entrance": "복도식",
+    "useArea": "25804.06",
+    "bjdCode": "5011012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 620,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021554",
@@ -723,7 +1632,21 @@
     "emd": "외도일동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 외도일동 426-1 일우한란아파트",
+    "builder": "(주)일우건설",
+    "entrance": "혼합식",
+    "useArea": "6686.28",
+    "bjdCode": "5011012300",
+    "aptType": "주상복합",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 53,
+      "u85": 48,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A69019101",
@@ -734,7 +1657,21 @@
     "emd": "외도일동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 외도일동 641-1 제주외도 아름마을",
+    "builder": "신진종합토건(주)",
+    "entrance": "복도식",
+    "useArea": "14208.51",
+    "bjdCode": "5011012300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 321,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A69019102",
@@ -745,7 +1682,21 @@
     "emd": "외도일동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 외도일동 560-2 제주외도2차부영",
+    "builder": "(주)부영주택",
+    "entrance": "계단식",
+    "useArea": "75808.6716",
+    "bjdCode": "5011012300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 11,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 892,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A69077501",
@@ -756,7 +1707,21 @@
     "emd": "외도일동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 외도일동 560-1 제주외도1차부영아파트",
+    "builder": "(주)부영주택",
+    "entrance": "복도식",
+    "useArea": "51484.026",
+    "bjdCode": "5011012300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 11,
+    "areaBreak": {
+      "u60": 1012,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020991",
@@ -767,7 +1732,21 @@
     "emd": "도두일동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 도두일동 2614- 블루파크시티",
+    "builder": "해온종합건설",
+    "entrance": "복도식",
+    "useArea": "3466.6072",
+    "bjdCode": "5011012700",
+    "aptType": "도시형 생활주택(주상복합)",
+    "mgrType": "자치관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 148,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021394",
@@ -778,7 +1757,21 @@
     "emd": "도남동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 도남동 70- 도남1차 수선화아파트",
+    "builder": "(주)우주종합건설",
+    "entrance": "계단식",
+    "useArea": "10723.05",
+    "bjdCode": "5011012900",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 200,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025713",
@@ -789,7 +1782,21 @@
     "emd": "도남동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 도남동 811 도남해모로리치힐아파트",
+    "builder": "(주)한진중공업",
+    "entrance": "계단식",
+    "useArea": "35697.876",
+    "bjdCode": "5011012900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 30,
+      "u85": 337,
+      "u135": 56,
+      "o135": 0
+    }
   },
   {
     "code": "A69080601",
@@ -800,7 +1807,21 @@
     "emd": "도남동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 도남동 902 도남2차e편한세상",
+    "builder": "대림산업주식회사",
+    "entrance": "계단식",
+    "useArea": "18986.202",
+    "bjdCode": "5011012900",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 11,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 90,
+      "u135": 103,
+      "o135": 0
+    }
   },
   {
     "code": "A69080602",
@@ -811,7 +1832,21 @@
     "emd": "도남동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 도남동 800 도남1차e편한세상",
+    "builder": "대림산업",
+    "entrance": "계단식",
+    "useArea": "45188.721",
+    "bjdCode": "5011012900",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 11,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 231,
+      "u135": 236,
+      "o135": 0
+    }
   },
   {
     "code": "A10027483",
@@ -822,7 +1857,21 @@
     "emd": "도련일동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 도련일동 1910 제주 삼화8차 부영아파트",
+    "builder": "주식회사 부영주택",
+    "entrance": "계단식",
+    "useArea": "32637.4272",
+    "bjdCode": "5011013000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 384,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027773",
@@ -833,7 +1882,21 @@
     "emd": "도련일동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 도련일동 1909 제주삼화부영7차아파트",
+    "builder": "(주)부영주택",
+    "entrance": "계단식",
+    "useArea": "30589.7928",
+    "bjdCode": "5011013000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 360,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A69008101",
@@ -844,7 +1907,21 @@
     "emd": "도련일동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 도련일동 1618 제주도련LH아파트",
+    "builder": "금강건업",
+    "entrance": "복도식",
+    "useArea": "16126.71",
+    "bjdCode": "5011013000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 7,
+    "areaBreak": {
+      "u60": 382,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A69008102",
@@ -855,7 +1932,21 @@
     "emd": "도련일동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 도련일동 1789-2 미듬하나로",
+    "builder": "미듬종합건설",
+    "entrance": "계단식",
+    "useArea": "10417.3387",
+    "bjdCode": "5011013000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 7,
+    "areaBreak": {
+      "u60": 185,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A69008103",
@@ -866,7 +1957,21 @@
     "emd": "도련일동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 도련일동 1911 제주삼화6차부영",
+    "builder": "남광건설",
+    "entrance": "계단식",
+    "useArea": "42517.944",
+    "bjdCode": "5011013000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 504,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027756",
@@ -877,7 +1982,21 @@
     "emd": "도련이동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 도련이동 550 제주삼화LH3단지",
+    "builder": "금호건설",
+    "entrance": "복도식",
+    "useArea": "35264.32",
+    "bjdCode": "5011013100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 850,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A69008201",
@@ -888,7 +2007,21 @@
     "emd": "도련이동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 도련이동 548 제주삼화1차부영",
+    "builder": "부영주택",
+    "entrance": "계단식",
+    "useArea": "25743.74",
+    "bjdCode": "5011013100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 324,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024670",
@@ -899,7 +2032,21 @@
     "emd": "월평동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 월평동 717 JDC제주첨단리슈빌",
+    "builder": "제주국제자유도시개발센터",
+    "entrance": "계단식",
+    "useArea": "26531.3252",
+    "bjdCode": "5011013500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 231,
+      "u85": 160,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024671",
@@ -910,7 +2057,21 @@
     "emd": "월평동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 월평동 717-3 JDC제주첨단행복주택",
+    "builder": "계룡건설산업(주)",
+    "entrance": "복도식",
+    "useArea": "12657.4148",
+    "bjdCode": "5011013500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 402,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026487",
@@ -921,7 +2082,21 @@
     "emd": "월평동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 월평동 747 제주첨단꿈에그린3단지아파트",
+    "builder": "한화건설",
+    "entrance": "계단식",
+    "useArea": "35956.892",
+    "bjdCode": "5011013500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 140,
+      "u135": 143,
+      "o135": 66
+    }
   },
   {
     "code": "A10026705",
@@ -932,7 +2107,21 @@
     "emd": "월평동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 월평동 745 제주첨단꿈에그린2단지",
+    "builder": "한화건설(주)",
+    "entrance": "계단식",
+    "useArea": "37681.6724",
+    "bjdCode": "5011013500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 240,
+      "u135": 170,
+      "o135": 0
+    }
   },
   {
     "code": "A10020597",
@@ -944,7 +2133,21 @@
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
     "sigungu": "제주시",
-    "hhldCnt": 90
+    "hhldCnt": 90,
+    "jibunAddr": "제주특별자치도 제주시 연동 265- e편한세상연동센트럴메종",
+    "builder": "DLenc",
+    "entrance": "계단식",
+    "useArea": "6327.8966",
+    "bjdCode": "5011013700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020700",
@@ -955,7 +2158,21 @@
     "emd": "연동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 연동 257- 디지털한빛아파트",
+    "builder": "나인건설(주)",
+    "entrance": "계단식",
+    "useArea": "8256.6251",
+    "bjdCode": "5011013700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 13,
+      "u85": 89,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021183",
@@ -966,7 +2183,21 @@
     "emd": "연동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 연동 293-46 이편한세상 연동 센트럴파크 2단지아파트",
+    "builder": "DL이앤씨",
+    "entrance": "계단식",
+    "useArea": "18410.4984",
+    "bjdCode": "5011013700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 188,
+      "u135": 0,
+      "o135": 16
+    }
   },
   {
     "code": "A10021740",
@@ -977,7 +2208,21 @@
     "emd": "연동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 연동 278-2 한일베라체 더퍼스트",
+    "builder": "한일건설(주)외 1",
+    "entrance": "계단식",
+    "useArea": "9361.1896",
+    "bjdCode": "5011013700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 112,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021753",
@@ -988,7 +2233,21 @@
     "emd": "연동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 연동 304-5 코스모스태홍누리안5차아파트",
+    "builder": "신대홍건설(주)",
+    "entrance": "혼합식",
+    "useArea": "9803.825",
+    "bjdCode": "5011013700",
+    "aptType": "주상복합",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 117,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021776",
@@ -999,7 +2258,21 @@
     "emd": "연동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 연동 284-5 미도스카이빌",
+    "builder": "동마종합건설주식회사",
+    "entrance": "복도식",
+    "useArea": "3550.04",
+    "bjdCode": "5011013700",
+    "aptType": "주상복합",
+    "mgrType": "자치관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 120,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022499",
@@ -1010,7 +2283,21 @@
     "emd": "연동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 연동 2325-6 타워프로빌이파트",
+    "builder": "덕영종합건설",
+    "entrance": "계단식",
+    "useArea": "13481.7",
+    "bjdCode": "5011013700",
+    "aptType": "주상복합",
+    "mgrType": "자치관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 60,
+      "u135": 0,
+      "o135": 60
+    }
   },
   {
     "code": "A10023680",
@@ -1022,7 +2309,21 @@
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
     "sigungu": "제주시",
-    "hhldCnt": 151
+    "hhldCnt": 151,
+    "jibunAddr": "제주특별자치도 제주시 연동 306 제주연동중흥S클래스",
+    "builder": "중흥건설",
+    "entrance": "복도식",
+    "useArea": "13106.8018",
+    "bjdCode": "5011013700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023691",
@@ -1033,7 +2334,21 @@
     "emd": "연동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 연동 276-3 청목더웰도시형생활주택",
+    "builder": "청목이엔씨",
+    "entrance": "복도식",
+    "useArea": "4150.2054",
+    "bjdCode": "5011013700",
+    "aptType": "주상복합",
+    "mgrType": "자치관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 220,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024191",
@@ -1044,7 +2359,21 @@
     "emd": "연동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 연동 273-43 연동리슈빌디에스",
+    "builder": "동성건설(주)",
+    "entrance": "복도식",
+    "useArea": "4304.976",
+    "bjdCode": "5011013700",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 158,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025065",
@@ -1055,7 +2384,21 @@
     "emd": "연동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 연동 300-3 제주연동남해오네뜨",
+    "builder": "남해종합건설 주식회사",
+    "entrance": "복도식",
+    "useArea": "6066.27",
+    "bjdCode": "5011013700",
+    "aptType": "주상복합",
+    "mgrType": "자치관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 216,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10028085",
@@ -1066,7 +2409,21 @@
     "emd": "연동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 연동 2325-7 연동한일시티파크",
+    "builder": "한일종합건설",
+    "entrance": "계단식",
+    "useArea": "13581.7536",
+    "bjdCode": "5011013700",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 1,
+      "u85": 166,
+      "u135": 6,
+      "o135": 6
+    }
   },
   {
     "code": "A69017002",
@@ -1077,7 +2434,21 @@
     "emd": "연동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 연동 1399 연동대림1차",
+    "builder": "대림산업(주)",
+    "entrance": "계단식",
+    "useArea": "32837.478",
+    "bjdCode": "5011013700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 147,
+      "u85": 293,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A69017003",
@@ -1088,7 +2459,21 @@
     "emd": "연동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 연동 251-16 제원",
+    "builder": "서원주택",
+    "entrance": "계단식",
+    "useArea": "44643.81",
+    "bjdCode": "5011013700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 150,
+      "u85": 328,
+      "u135": 150,
+      "o135": 0
+    }
   },
   {
     "code": "A69081701",
@@ -1099,7 +2484,21 @@
     "emd": "연동",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 연동 1399-1 연동대림2차",
+    "builder": "대림산업(주)",
+    "entrance": "계단식",
+    "useArea": "38034.346",
+    "bjdCode": "5011013700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 197,
+      "u135": 113,
+      "o135": 56
+    }
   },
   {
     "code": "A69592101",
@@ -1110,7 +2509,21 @@
     "emd": "한림읍",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 한림읍 대림리 1885 한림주공아파트",
+    "builder": "한양종합건설",
+    "entrance": "복도식",
+    "useArea": "9417.74",
+    "bjdCode": "5011025023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 7,
+    "areaBreak": {
+      "u60": 212,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026671",
@@ -1121,7 +2534,21 @@
     "emd": "애월읍",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 애월읍 광령리 3907-1 슈테른더테라스",
+    "builder": "(주)건영",
+    "entrance": "계단식",
+    "useArea": "8068.0016",
+    "bjdCode": "5011025321",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 3,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 96,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A69590101",
@@ -1132,7 +2559,21 @@
     "emd": "애월읍",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 애월읍 고성리 1488-1 제주고성휴먼시아",
+    "builder": "한일종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "9432.97",
+    "bjdCode": "5011025329",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 4,
+    "areaBreak": {
+      "u60": 207,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A69590102",
@@ -1143,7 +2584,21 @@
     "emd": "애월읍",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 애월읍 하귀1리 167 제주하귀휴먼시아1단지",
+    "builder": "삼환기업",
+    "entrance": "계단식",
+    "useArea": "37736.45",
+    "bjdCode": "5011025340",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 445,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A69590103",
@@ -1154,7 +2609,21 @@
     "emd": "애월읍",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 애월읍 하귀1리 166-1 하귀휴먼시아2단지",
+    "builder": "남해종합건설",
+    "entrance": "계단식",
+    "useArea": "20861.24",
+    "bjdCode": "5011025340",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 246,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021325",
@@ -1165,7 +2634,21 @@
     "emd": "애월읍",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 애월읍 하귀2리 1437- 하귀코아루오션뷰 ",
+    "builder": "덕영건설",
+    "entrance": "계단식",
+    "useArea": "11023.2323",
+    "bjdCode": "5011025341",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 7,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 132,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021021",
@@ -1176,7 +2659,21 @@
     "emd": "조천읍",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 조천읍 함덕리 4181- 함덕해밀타운아파트2차",
+    "builder": "대창건설",
+    "entrance": "복도식",
+    "useArea": "4684.1446",
+    "bjdCode": "5011025924",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 7,
+    "areaBreak": {
+      "u60": 116,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A69596102",
@@ -1187,7 +2684,21 @@
     "emd": "조천읍",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 조천읍 함덕리 4168 함덕광명샤인빌",
+    "builder": "광명주택",
+    "entrance": "계단식",
+    "useArea": "11593.621",
+    "bjdCode": "5011025924",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 110,
+      "u85": 60,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025146",
@@ -1198,6 +2709,20 @@
     "emd": "조천읍",
     "sigunguCode": "50110",
     "sido": "제주특별자치도",
-    "sigungu": "제주시"
+    "sigungu": "제주시",
+    "jibunAddr": "제주특별자치도 제주시 조천읍 대흘리 1124 제주 더오름카운티원",
+    "builder": "(주)일호종합건설",
+    "entrance": "계단식",
+    "useArea": "15879.71",
+    "bjdCode": "5011025926",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 4,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 187,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

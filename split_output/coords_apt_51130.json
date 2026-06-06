@@ -8,7 +8,20 @@
     "emd": "원동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 원동 129-1 두산위브더제니스센트럴원주아파트",
+    "builder": "두산건설",
+    "entrance": "계단식",
+    "useArea": "118009.1928",
+    "bjdCode": "5113010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "areaBreak": {
+      "u60": 100,
+      "u85": 127,
+      "u135": 940,
+      "o135": 0
+    }
   },
   {
     "code": "A22006001",
@@ -19,7 +32,21 @@
     "emd": "원동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 원동 274-4 원동현진아파트",
+    "builder": "현진종합건설(주)",
+    "entrance": "혼합식",
+    "useArea": "15244.71",
+    "bjdCode": "5113010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 96,
+      "u85": 117,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22006002",
@@ -30,7 +57,21 @@
     "emd": "원동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 원동 273-1 한주아파트",
+    "builder": "20230614",
+    "entrance": "혼합식",
+    "useArea": "16182.99",
+    "bjdCode": "5113010300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 169,
+      "u85": 79,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22006003",
@@ -41,7 +82,21 @@
     "emd": "원동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 원동 113-1 원동진로아파트",
+    "builder": "진로건설(주)",
+    "entrance": "혼합식",
+    "useArea": "17288.91",
+    "bjdCode": "5113010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 161,
+      "u85": 129,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22006005",
@@ -52,7 +107,21 @@
     "emd": "원동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 원동 295 원동주공아파트",
+    "builder": "대한주택공사",
+    "entrance": "계단식",
+    "useArea": "47990",
+    "bjdCode": "5113010300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 980,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022045",
@@ -63,7 +132,20 @@
     "emd": "개운동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 개운동 203-70 세경2차아파트",
+    "builder": "세경건설",
+    "entrance": "계단식",
+    "useArea": "9414",
+    "bjdCode": "5113010500",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 200,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22011002",
@@ -74,7 +156,21 @@
     "emd": "개운동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 개운동 546-3 개운 서초아파트",
+    "builder": "(주)서초건설",
+    "entrance": "복도식",
+    "useArea": "10818.92",
+    "bjdCode": "5113010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 218,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22072101",
@@ -85,7 +181,21 @@
     "emd": "개운동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 개운동 118-26 덕산아파트",
+    "builder": "덕산토건(주)",
+    "entrance": "혼합식",
+    "useArea": "9672.108",
+    "bjdCode": "5113010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 52,
+      "u85": 84,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22072102",
@@ -96,7 +206,21 @@
     "emd": "개운동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 개운동 581-2 개운2단지3단지LH아파트",
+    "builder": "2단지(남양건설)/3단지(삼환까뮤)",
+    "entrance": "혼합식",
+    "useArea": "26110.51",
+    "bjdCode": "5113010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 539,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22072103",
@@ -107,7 +231,21 @@
     "emd": "개운동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 개운동 581-1 개운휴먼시아1단지",
+    "builder": "(주)신일",
+    "entrance": "계단식",
+    "useArea": "41364.29",
+    "bjdCode": "5113010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 51,
+      "u85": 377,
+      "u135": 64,
+      "o135": 0
+    }
   },
   {
     "code": "A22093003",
@@ -118,7 +256,21 @@
     "emd": "개운동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 개운동 28-1 원주힐스테이트",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "36313.6442",
+    "bjdCode": "5113010500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 40,
+      "o135": 206
+    }
   },
   {
     "code": "A22093006",
@@ -129,7 +281,21 @@
     "emd": "개운동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 개운동 441 개운1차한신휴플러스",
+    "builder": "한신공영(주)",
+    "entrance": "계단식",
+    "useArea": "63561.411",
+    "bjdCode": "5113010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 145,
+      "u85": 547,
+      "u135": 70,
+      "o135": 0
+    }
   },
   {
     "code": "A22093104",
@@ -140,7 +306,21 @@
     "emd": "개운동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 개운동 328-1 원흥3차아파트",
+    "builder": "원흥종합건설(주)",
+    "entrance": "혼합식",
+    "useArea": "21145.242",
+    "bjdCode": "5113010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 117,
+      "u85": 112,
+      "u135": 43,
+      "o135": 0
+    }
   },
   {
     "code": "A22093105",
@@ -151,7 +331,21 @@
     "emd": "개운동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 개운동 322 개운현대아파트",
+    "builder": "(주)고려산업개발",
+    "entrance": "혼합식",
+    "useArea": "24974.242",
+    "bjdCode": "5113010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 191,
+      "u85": 215,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023756",
@@ -162,7 +356,21 @@
     "emd": "명륜동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 명륜동 857 더샵원주센트럴파크3단지",
+    "builder": "포스코건설",
+    "entrance": "계단식",
+    "useArea": "46393.8876",
+    "bjdCode": "5113010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 28,
+    "areaBreak": {
+      "u60": 479,
+      "u85": 208,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023976",
@@ -173,7 +381,21 @@
     "emd": "명륜동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 명륜동 856 더샵원주센트럴파크2단지",
+    "builder": "포스코건설",
+    "entrance": "계단식",
+    "useArea": "73497.5393",
+    "bjdCode": "5113010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 28,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 703,
+      "u135": 135,
+      "o135": 0
+    }
   },
   {
     "code": "A22004106",
@@ -184,7 +406,21 @@
     "emd": "명륜동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 명륜동 205-37 명륜현대1차아파트",
+    "builder": "현대산업개발",
+    "entrance": "계단식",
+    "useArea": "35570.31",
+    "bjdCode": "5113010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 366,
+      "u135": 43,
+      "o135": 0
+    }
   },
   {
     "code": "A22004206",
@@ -195,7 +431,21 @@
     "emd": "명륜동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 명륜동 765 명륜한솔솔파크",
+    "builder": "한솔건설",
+    "entrance": "계단식",
+    "useArea": "35955.256",
+    "bjdCode": "5113010600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 341,
+      "u135": 56,
+      "o135": 0
+    }
   },
   {
     "code": "A22004209",
@@ -206,7 +456,21 @@
     "emd": "명륜동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 명륜동 705 명륜주공2단지",
+    "builder": "동신주택, 한주건설",
+    "entrance": "복도식",
+    "useArea": "31797.81",
+    "bjdCode": "5113010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1134,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22072710",
@@ -217,7 +481,21 @@
     "emd": "명륜동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 명륜동 847-2 현진에버빌3차",
+    "builder": "(주)현진종합건설",
+    "entrance": "계단식",
+    "useArea": "20217.831",
+    "bjdCode": "5113010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 225,
+      "o135": 0
+    }
   },
   {
     "code": "A22072711",
@@ -228,7 +506,21 @@
     "emd": "명륜동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 명륜동 774 명륜영진3차",
+    "builder": "영진건설",
+    "entrance": "혼합식",
+    "useArea": "12184.44",
+    "bjdCode": "5113010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 68,
+      "u85": 80,
+      "u135": 10,
+      "o135": 0
+    }
   },
   {
     "code": "A22072712",
@@ -239,7 +531,21 @@
     "emd": "명륜동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 명륜동 376 명륜단구1차",
+    "builder": "동양건설",
+    "entrance": "계단식",
+    "useArea": "26536.8",
+    "bjdCode": "5113010600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 700,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22072713",
@@ -250,7 +556,21 @@
     "emd": "명륜동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 명륜동 847-5 명륜동보노빌리티1차",
+    "builder": "(주)동보주택건설",
+    "entrance": "계단식",
+    "useArea": "26198.256",
+    "bjdCode": "5113010600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 309,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22072714",
@@ -261,7 +581,21 @@
     "emd": "명륜동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 명륜동 848-1 명륜동보렉스9차",
+    "builder": "(주)동보주택건설",
+    "entrance": "계단식",
+    "useArea": "26827.668",
+    "bjdCode": "5113010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 168,
+      "o135": 60
+    }
   },
   {
     "code": "A22072715",
@@ -272,7 +606,21 @@
     "emd": "명륜동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 명륜동 847-4 명륜동보노빌리티2차",
+    "builder": "(주)동보주택건설",
+    "entrance": "계단식",
+    "useArea": "35022.04",
+    "bjdCode": "5113010600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 220,
+      "o135": 60
+    }
   },
   {
     "code": "A22072716",
@@ -283,7 +631,21 @@
     "emd": "명륜동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 명륜동 547 삼성아파트",
+    "builder": "삼성종합건설(주)",
+    "entrance": "혼합식",
+    "useArea": "24331.4",
+    "bjdCode": "5113010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 312,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22075603",
@@ -294,7 +656,21 @@
     "emd": "명륜동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 명륜동 847-1 명륜청구1단지",
+    "builder": "주)청구",
+    "entrance": "계단식",
+    "useArea": "28601.104",
+    "bjdCode": "5113010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 210,
+      "o135": 30
+    }
   },
   {
     "code": "A22075607",
@@ -305,7 +681,21 @@
     "emd": "명륜동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 명륜동 847-3 청구2단지",
+    "builder": "(주)청구주택",
+    "entrance": "계단식",
+    "useArea": "34003.5",
+    "bjdCode": "5113010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 410,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22077601",
@@ -316,7 +706,21 @@
     "emd": "명륜동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 명륜동 205-151 동현맨션",
+    "builder": "동현건설(주)",
+    "entrance": "계단식",
+    "useArea": "13733.28",
+    "bjdCode": "5113010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 48,
+      "u85": 140,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22094502",
@@ -327,7 +731,21 @@
     "emd": "명륜동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 명륜동 26 치악맨션",
+    "builder": "대진주택건설외",
+    "entrance": "복도식",
+    "useArea": "13953.505",
+    "bjdCode": "5113010600",
+    "aptType": "주상복합",
+    "mgrType": "자치관리",
+    "topFloor": 7,
+    "areaBreak": {
+      "u60": 5,
+      "u85": 105,
+      "u135": 75,
+      "o135": 0
+    }
   },
   {
     "code": "A22094503",
@@ -338,7 +756,21 @@
     "emd": "명륜동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 명륜동 147-1 동성아파트",
+    "builder": "(주)동성개발",
+    "entrance": "혼합식",
+    "useArea": "23455.68",
+    "bjdCode": "5113010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 75,
+      "u85": 224,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22094505",
@@ -349,7 +781,21 @@
     "emd": "명륜동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 명륜동 90-1 세경1차아파트",
+    "builder": "세경",
+    "entrance": "계단식",
+    "useArea": "18008",
+    "bjdCode": "5113010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 320,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22094507",
@@ -360,7 +806,21 @@
     "emd": "명륜동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 명륜동 124 대성현대아파트",
+    "builder": "현대건설",
+    "entrance": "혼합식",
+    "useArea": "40954.38",
+    "bjdCode": "5113010600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 60,
+      "u85": 385,
+      "u135": 54,
+      "o135": 0
+    }
   },
   {
     "code": "A22094709",
@@ -371,7 +831,21 @@
     "emd": "명륜동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 명륜동 802 명륜성원아파트",
+    "builder": "성원건설(주)",
+    "entrance": "계단식",
+    "useArea": "66474.19",
+    "bjdCode": "5113010600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 179,
+      "u85": 529,
+      "u135": 110,
+      "o135": 0
+    }
   },
   {
     "code": "A22094804",
@@ -382,7 +856,21 @@
     "emd": "명륜동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 명륜동 764 명륜현대2차",
+    "builder": "현대산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "30284.24",
+    "bjdCode": "5113010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 369,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22094805",
@@ -393,7 +881,21 @@
     "emd": "명륜동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 명륜동 480 명륜단구2차",
+    "builder": "대한주택공사",
+    "entrance": "계단식",
+    "useArea": "17314.5",
+    "bjdCode": "5113010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 370,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22094808",
@@ -404,7 +906,21 @@
     "emd": "명륜동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 명륜동 710 행운명륜3주공",
+    "builder": "대한주택공사",
+    "entrance": "복도식",
+    "useArea": "35634.6",
+    "bjdCode": "5113010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022286",
@@ -415,7 +931,21 @@
     "emd": "단구동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단구동 186-11 선아아파트",
+    "builder": "확인안됨",
+    "entrance": "계단식",
+    "useArea": "8223.92",
+    "bjdCode": "5113010700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 110,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024803",
@@ -426,7 +956,21 @@
     "emd": "단구동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단구동 1721 원주 단구 내안애 카운티 에듀파크1단지",
+    "builder": "에이스건설",
+    "entrance": "계단식",
+    "useArea": "48489.8057",
+    "bjdCode": "5113010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 571,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024809",
@@ -437,7 +981,21 @@
     "emd": "단구동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단구동 1711 원주단구 내안애카운티 에듀파크 2단지",
+    "builder": "한국자산신탁",
+    "entrance": "계단식",
+    "useArea": "29550.7371",
+    "bjdCode": "5113010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 348,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025114",
@@ -448,7 +1006,21 @@
     "emd": "단구동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단구동 186-13 동주아파트",
+    "builder": ".",
+    "entrance": "계단식",
+    "useArea": "9771.20205",
+    "bjdCode": "5113010700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 80,
+      "u85": 76,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026675",
@@ -459,7 +1031,21 @@
     "emd": "단구동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단구동 1451 단구동 한신더휴아파트",
+    "builder": "(주)한신공영",
+    "entrance": "계단식",
+    "useArea": "55807.8982",
+    "bjdCode": "5113010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 152,
+      "u85": 572,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22009009",
@@ -470,7 +1056,21 @@
     "emd": "단구동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단구동 1682-1 현진에버빌5차6차",
+    "builder": "현진건설",
+    "entrance": "계단식",
+    "useArea": "69431.783",
+    "bjdCode": "5113010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 306,
+      "u135": 361,
+      "o135": 30
+    }
   },
   {
     "code": "A22009012",
@@ -481,7 +1081,21 @@
     "emd": "단구동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단구동 1679 청솔3차",
+    "builder": "광토건설",
+    "entrance": "복도식",
+    "useArea": "21348.6",
+    "bjdCode": "5113010700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 364,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22009013",
@@ -492,7 +1106,21 @@
     "emd": "단구동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단구동 1604-1 단구신성미소지움",
+    "builder": "신성건설 주식회사",
+    "entrance": "계단식",
+    "useArea": "26815.653",
+    "bjdCode": "5113010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 54,
+      "u85": 221,
+      "u135": 40,
+      "o135": 0
+    }
   },
   {
     "code": "A22009015",
@@ -503,7 +1131,21 @@
     "emd": "단구동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단구동 1612 현진에버빌1",
+    "builder": "현진건설",
+    "entrance": "계단식",
+    "useArea": "37629.92",
+    "bjdCode": "5113010700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 460,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22009016",
@@ -514,7 +1156,21 @@
     "emd": "단구동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단구동 1461 한신휴플러스2차아파트",
+    "builder": "한신공영주식회사",
+    "entrance": "혼합식",
+    "useArea": "38887.813",
+    "bjdCode": "5113010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 142,
+      "u85": 293,
+      "u135": 43,
+      "o135": 0
+    }
   },
   {
     "code": "A22075325",
@@ -525,7 +1181,21 @@
     "emd": "단구동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단구동 1517-1 구곡대림",
+    "builder": "대림산업(주)",
+    "entrance": "계단식",
+    "useArea": "44747.067",
+    "bjdCode": "5113010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 747,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22075406",
@@ -536,7 +1206,21 @@
     "emd": "단구동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단구동 1589-1 구곡현대2차",
+    "builder": "현대산업개발",
+    "entrance": "계단식",
+    "useArea": "21165.3",
+    "bjdCode": "5113010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 260,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22075422",
@@ -547,7 +1231,21 @@
     "emd": "단구동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단구동 1517-4 구곡1차현대",
+    "builder": "고려산업개발",
+    "entrance": "계단식",
+    "useArea": "37100.8",
+    "bjdCode": "5113010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 620,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22094011",
@@ -558,7 +1256,21 @@
     "emd": "단구동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단구동 186-2 원흥4차",
+    "builder": "원흥종합건설(주)",
+    "entrance": "혼합식",
+    "useArea": "23152.17",
+    "bjdCode": "5113010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 221,
+      "u85": 127,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22094014",
@@ -569,7 +1281,21 @@
     "emd": "단구동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단구동 1467 대흥1차아파트",
+    "builder": "대흥건설",
+    "entrance": "혼합식",
+    "useArea": "25827.38",
+    "bjdCode": "5113010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 160,
+      "u85": 196,
+      "u135": 14,
+      "o135": 0
+    }
   },
   {
     "code": "A22094118",
@@ -580,7 +1306,21 @@
     "emd": "단구동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단구동 1517-3 청솔7차",
+    "builder": "주식회사새롬성원",
+    "entrance": "복도식",
+    "useArea": "30224.25",
+    "bjdCode": "5113010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 505,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22094204",
@@ -591,7 +1331,21 @@
     "emd": "단구동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단구동 587-1 해청",
+    "builder": "서도건설",
+    "entrance": "계단식",
+    "useArea": "14955.723",
+    "bjdCode": "5113010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 196,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22094305",
@@ -602,7 +1356,21 @@
     "emd": "단구동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단구동 1026-18 동보렉스5차아파트",
+    "builder": "(주)동보건설",
+    "entrance": "복도식",
+    "useArea": "11124",
+    "bjdCode": "5113010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 140,
+      "u85": 60,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22094407",
@@ -613,7 +1381,21 @@
     "emd": "단구동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단구동 1589-2 청솔1차",
+    "builder": "(주)광토건설",
+    "entrance": "복도식",
+    "useArea": "15249",
+    "bjdCode": "5113010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 260,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22094408",
@@ -624,7 +1406,21 @@
     "emd": "단구동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단구동 1520 구곡두산아파트",
+    "builder": "두산건설",
+    "entrance": "계단식",
+    "useArea": "35001.45",
+    "bjdCode": "5113010700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 285,
+      "o135": 0
+    }
   },
   {
     "code": "A22094410",
@@ -635,7 +1431,21 @@
     "emd": "단구동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단구동 1588-1 현진에버빌2차",
+    "builder": "(주)현진에버빌",
+    "entrance": "계단식",
+    "useArea": "20311.672",
+    "bjdCode": "5113010700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 340,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22094419",
@@ -646,7 +1456,21 @@
     "emd": "단구동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단구동 1517-2 한일아파트",
+    "builder": "한일건설",
+    "entrance": "계단식",
+    "useArea": "32351.4",
+    "bjdCode": "5113010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 540,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22094420",
@@ -657,7 +1481,21 @@
     "emd": "단구동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단구동 1684-1 청솔4차",
+    "builder": "광토건설",
+    "entrance": "복도식",
+    "useArea": "34017",
+    "bjdCode": "5113010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 580,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22094421",
@@ -668,7 +1506,21 @@
     "emd": "단구동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단구동 1589-4 구곡성일",
+    "builder": "(주)성일종합건설",
+    "entrance": "계단식",
+    "useArea": "33495.3",
+    "bjdCode": "5113010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 600,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22094423",
@@ -679,7 +1531,21 @@
     "emd": "단구동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단구동 1478-4 유승",
+    "builder": "(주)유승종합건설",
+    "entrance": "계단식",
+    "useArea": "53456.1957",
+    "bjdCode": "5113010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 639,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22094424",
@@ -690,7 +1556,21 @@
     "emd": "단구동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단구동 1588-4 청솔2차",
+    "builder": "광토건설(주)",
+    "entrance": "복도식",
+    "useArea": "38122.5",
+    "bjdCode": "5113010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 650,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22096526",
@@ -701,7 +1581,21 @@
     "emd": "단구동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단구동 1702 중앙하이츠",
+    "builder": "중앙건설",
+    "entrance": "계단식",
+    "useArea": "73015.2312",
+    "bjdCode": "5113010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 512,
+      "u135": 254,
+      "o135": 0
+    }
   },
   {
     "code": "A22097627",
@@ -712,7 +1606,21 @@
     "emd": "단구동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단구동 1026-26 노빌리티타워골드",
+    "builder": "동보주택건설",
+    "entrance": "복도식",
+    "useArea": "14064.58",
+    "bjdCode": "5113010700",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리(직영+위탁)",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 102,
+      "o135": 24
+    }
   },
   {
     "code": "A22097628",
@@ -723,7 +1631,21 @@
     "emd": "단구동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단구동 1588-3 세경5차",
+    "builder": "세경건설(주)",
+    "entrance": "복도식",
+    "useArea": "35670.25",
+    "bjdCode": "5113010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 595,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22097629",
@@ -734,7 +1656,21 @@
     "emd": "단구동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단구동 1589-3 세경웰러스아파트",
+    "builder": "세경산업(주)",
+    "entrance": "계단식",
+    "useArea": "30506.256",
+    "bjdCode": "5113010700",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 360,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025515",
@@ -745,7 +1681,21 @@
     "emd": "일산동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 일산동 185-1 두진하트리움시티아파트",
+    "builder": "(주)두진건설",
+    "entrance": "계단식",
+    "useArea": "37900.1865",
+    "bjdCode": "5113010800",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 38,
+    "areaBreak": {
+      "u60": 213,
+      "u85": 296,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22095701",
@@ -756,7 +1706,21 @@
     "emd": "일산동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 일산동 272-3 신진빌리지",
+    "builder": "신진건설(주)",
+    "entrance": "계단식",
+    "useArea": "13711.7",
+    "bjdCode": "5113010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 8,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 120,
+      "u135": 32,
+      "o135": 0
+    }
   },
   {
     "code": "A22095704",
@@ -767,7 +1731,21 @@
     "emd": "일산동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 일산동 247-162 국제아파트",
+    "builder": "국제건설",
+    "entrance": "혼합식",
+    "useArea": "33411.72",
+    "bjdCode": "5113010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 202,
+      "u85": 251,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22095802",
@@ -778,7 +1756,21 @@
     "emd": "일산동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 일산동 355-1 원흥2차아파트",
+    "builder": "(주)원흥종합건설",
+    "entrance": "계단식",
+    "useArea": "14430.96",
+    "bjdCode": "5113010800",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 192,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22095803",
@@ -789,7 +1781,21 @@
     "emd": "일산동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 일산동 333-3 우보삼성아파트",
+    "builder": "삼성종합건설(주)",
+    "entrance": "혼합식",
+    "useArea": "29515.011",
+    "bjdCode": "5113010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 16,
+    "areaBreak": {
+      "u60": 135,
+      "u85": 157,
+      "u135": 61,
+      "o135": 32
+    }
   },
   {
     "code": "A10020217",
@@ -800,7 +1806,20 @@
     "emd": "학성동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 학성동 997-53 롯데캐슬시그니처아파트",
+    "builder": "롯데건설",
+    "entrance": "계단식",
+    "useArea": "106974.5503",
+    "bjdCode": "5113010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 793,
+      "o135": 129
+    }
   },
   {
     "code": "A10022140",
@@ -811,7 +1830,21 @@
     "emd": "학성동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 학성동 1056-1 영진로얄맨션아파트",
+    "builder": "영진건설",
+    "entrance": "계단식",
+    "useArea": "11492.94",
+    "bjdCode": "5113010900",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 141,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22089801",
@@ -822,7 +1855,21 @@
     "emd": "학성동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 학성동 1050 영진로얄타운",
+    "builder": "(주)영진건설, (주)동궁건설",
+    "entrance": "혼합식",
+    "useArea": "18003.24",
+    "bjdCode": "5113010900",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 107,
+      "u85": 96,
+      "u135": 36,
+      "o135": 0
+    }
   },
   {
     "code": "A22096301",
@@ -833,7 +1880,21 @@
     "emd": "학성동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 학성동 1032-9 삼천리2차아파트",
+    "builder": "(주)삼천리주택",
+    "entrance": "혼합식",
+    "useArea": "14147.4275",
+    "bjdCode": "5113010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 70,
+      "u85": 128,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22096302",
@@ -844,7 +1905,21 @@
     "emd": "학성동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 학성동 1031 삼천리3차아파트",
+    "builder": "삼천리건설(주)",
+    "entrance": "계단식",
+    "useArea": "17090",
+    "bjdCode": "5113010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 124,
+      "u85": 114,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22096303",
@@ -855,7 +1930,21 @@
     "emd": "학성동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 학성동 1032-6 삼천리1차아파트",
+    "builder": "삼천리 건설",
+    "entrance": "계단식",
+    "useArea": "24551.93",
+    "bjdCode": "5113010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 261,
+      "u135": 30,
+      "o135": 0
+    }
   },
   {
     "code": "A10020917",
@@ -866,7 +1955,21 @@
     "emd": "단계동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단계동 111-4 동보렉스3차아파트",
+    "builder": "동보건설",
+    "entrance": "계단식",
+    "useArea": "13580.09",
+    "bjdCode": "5113011000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 158,
+      "u85": 70,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021959",
@@ -877,7 +1980,21 @@
     "emd": "단계동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단계동 1084-1 백간성일아파트",
+    "builder": "성일건설(주)",
+    "entrance": "계단식",
+    "useArea": "11984.4",
+    "bjdCode": "5113011000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 60,
+      "u135": 60,
+      "o135": 0
+    }
   },
   {
     "code": "A10024558",
@@ -888,7 +2005,21 @@
     "emd": "단계동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단계동 1221 벨라시티3차아파트",
+    "builder": "SG건설",
+    "entrance": "계단식",
+    "useArea": "36591.3229",
+    "bjdCode": "5113011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 232,
+      "u85": 267,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025290",
@@ -899,7 +2030,21 @@
     "emd": "단계동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단계동 1168-1 메이플 밸리 사랑으로 부영",
+    "builder": "주)부영주택",
+    "entrance": "계단식",
+    "useArea": "47882.0428",
+    "bjdCode": "5113011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 634,
+      "u85": 164,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025741",
@@ -910,7 +2055,21 @@
     "emd": "단계동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단계동 1218 벨라시티2차아파트",
+    "builder": "SG건설",
+    "entrance": "계단식",
+    "useArea": "63292.5478",
+    "bjdCode": "5113011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 273,
+      "u85": 562,
+      "u135": 0,
+      "o135": 4
+    }
   },
   {
     "code": "A10026622",
@@ -921,7 +2080,21 @@
     "emd": "단계동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단계동 1184 원주 봉화산 푸르지오",
+    "builder": "대우건설",
+    "entrance": "계단식",
+    "useArea": "70194.5131",
+    "bjdCode": "5113011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 996,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027317",
@@ -932,7 +2105,21 @@
     "emd": "단계동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단계동 1215 벨라시티아파트",
+    "builder": "sg건설",
+    "entrance": "혼합식",
+    "useArea": "38676.2314",
+    "bjdCode": "5113011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 308,
+      "u85": 258,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22000315",
@@ -943,7 +2130,21 @@
     "emd": "단계동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단계동 1165 단계이안",
+    "builder": "대우자동차판매(주)",
+    "entrance": "계단식",
+    "useArea": "72765.17",
+    "bjdCode": "5113011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 477,
+      "u135": 283,
+      "o135": 0
+    }
   },
   {
     "code": "A22010012",
@@ -954,7 +2155,21 @@
     "emd": "단계동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단계동 1096 봉화산LH",
+    "builder": "양우건설",
+    "entrance": "복도식",
+    "useArea": "23092.02",
+    "bjdCode": "5113011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 522,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22010014",
@@ -965,7 +2180,21 @@
     "emd": "단계동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단계동 1095-1 봉화산e-편한세상",
+    "builder": "ST",
+    "entrance": "계단식",
+    "useArea": "70001.26",
+    "bjdCode": "5113011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 330,
+      "u135": 360,
+      "o135": 0
+    }
   },
   {
     "code": "A22075117",
@@ -976,7 +2205,21 @@
     "emd": "단계동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단계동 792 단계주공",
+    "builder": "대한주택공사",
+    "entrance": "계단식",
+    "useArea": "45341.7",
+    "bjdCode": "5113011000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 380,
+      "u85": 380,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22093505",
@@ -987,7 +2230,21 @@
     "emd": "단계동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단계동 111-47 동보렉스4차아파트",
+    "builder": "동보주택건설(주)",
+    "entrance": "혼합식",
+    "useArea": "16374.15",
+    "bjdCode": "5113011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 180,
+      "u85": 90,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22093603",
@@ -998,7 +2255,21 @@
     "emd": "단계동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단계동 806-1 단계현진",
+    "builder": "현진종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "18353.56",
+    "bjdCode": "5113011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 238,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22093608",
@@ -1009,7 +2280,21 @@
     "emd": "단계동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단계동 806 단계은행",
+    "builder": "흥화공업",
+    "entrance": "혼합식",
+    "useArea": "15000",
+    "bjdCode": "5113011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 350,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22093609",
@@ -1020,7 +2305,21 @@
     "emd": "단계동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단계동 507 단계현대아파트",
+    "builder": "현대산업개발",
+    "entrance": "계단식",
+    "useArea": "35479.94",
+    "bjdCode": "5113011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 338,
+      "u135": 56,
+      "o135": 0
+    }
   },
   {
     "code": "A22093804",
@@ -1031,7 +2330,21 @@
     "emd": "단계동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단계동 808-1 라이프",
+    "builder": "라이프건설",
+    "entrance": "계단식",
+    "useArea": "30828.48",
+    "bjdCode": "5113011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 214,
+      "o135": 30
+    }
   },
   {
     "code": "A22093806",
@@ -1042,7 +2355,21 @@
     "emd": "단계동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단계동 807 롯데아파트",
+    "builder": "롯데건설",
+    "entrance": "계단식",
+    "useArea": "26764.8",
+    "bjdCode": "5113011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1,
+      "u85": 329,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22093807",
@@ -1053,7 +2380,21 @@
     "emd": "단계동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단계동 808 단계삼익아파트",
+    "builder": "(주) 삼익건설",
+    "entrance": "계단식",
+    "useArea": "27967.5",
+    "bjdCode": "5113011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 330,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22093810",
@@ -1064,7 +2405,21 @@
     "emd": "단계동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단계동 809 벽산아파트",
+    "builder": "벽산건설",
+    "entrance": "계단식",
+    "useArea": "43467",
+    "bjdCode": "5113011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 420,
+      "o135": 0
+    }
   },
   {
     "code": "A22093811",
@@ -1075,7 +2430,21 @@
     "emd": "단계동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단계동 807-1 세경3차",
+    "builder": "세경산업(주)",
+    "entrance": "복도식",
+    "useArea": "25099.2",
+    "bjdCode": "5113011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 420,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22093901",
@@ -1086,7 +2455,21 @@
     "emd": "단계동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단계동 1084-2 단계장미",
+    "builder": "(주)장풍건설",
+    "entrance": "계단식",
+    "useArea": "11580.14",
+    "bjdCode": "5113011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 194,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22093913",
@@ -1097,7 +2480,21 @@
     "emd": "단계동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 단계동 880 코오롱",
+    "builder": "코오롱건설",
+    "entrance": "혼합식",
+    "useArea": "38219.94",
+    "bjdCode": "5113011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 266,
+      "u85": 264,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023564",
@@ -1108,7 +2505,21 @@
     "emd": "우산동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 우산동 333-9 동보렉스1차아파트",
+    "builder": "동보건설",
+    "entrance": "계단식",
+    "useArea": "10837.025",
+    "bjdCode": "5113011100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 125,
+      "u85": 65,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025601",
@@ -1119,7 +2530,21 @@
     "emd": "우산동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 우산동 333-48 동보렉스2차아파트",
+    "builder": "(주)동보건설",
+    "entrance": "계단식",
+    "useArea": "13686.275",
+    "bjdCode": "5113011100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 95,
+      "u85": 115,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22073601",
@@ -1130,7 +2555,21 @@
     "emd": "우산동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 우산동 818 한라비발디",
+    "builder": "한라건설",
+    "entrance": "계단식",
+    "useArea": "67183.161",
+    "bjdCode": "5113011100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 365,
+      "u135": 176,
+      "o135": 93
+    }
   },
   {
     "code": "A22073602",
@@ -1141,7 +2580,21 @@
     "emd": "우산동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 우산동 821 우산동신일유토빌아파트",
+    "builder": "신일건업",
+    "entrance": "계단식",
+    "useArea": "68477.18",
+    "bjdCode": "5113011100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 306,
+      "u85": 540,
+      "u135": 38,
+      "o135": 0
+    }
   },
   {
     "code": "A22073603",
@@ -1152,7 +2605,21 @@
     "emd": "우산동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 우산동 823 한라비발디2차",
+    "builder": "(주)한라",
+    "entrance": "계단식",
+    "useArea": "57351.68",
+    "bjdCode": "5113011100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 70,
+      "u85": 647,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22095303",
@@ -1163,7 +2630,21 @@
     "emd": "우산동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 우산동 130-1 우산삼호아파트",
+    "builder": "(주)삼호건설",
+    "entrance": "계단식",
+    "useArea": "15849.72",
+    "bjdCode": "5113011100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 211,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22095304",
@@ -1174,7 +2655,21 @@
     "emd": "우산동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 우산동 157 우산덕원아파트",
+    "builder": "덕원공영",
+    "entrance": "혼합식",
+    "useArea": "17184.72",
+    "bjdCode": "5113011100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 167,
+      "u85": 104,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020811",
@@ -1185,7 +2680,21 @@
     "emd": "태장동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 태장동 2864- 동광뷰웰레이크포레",
+    "builder": "동광건설",
+    "entrance": "계단식",
+    "useArea": "51339.3078",
+    "bjdCode": "5113011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 28,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 604,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023001",
@@ -1196,7 +2705,21 @@
     "emd": "태장동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 태장동 2785 원주태장8단지행복주택아파트",
+    "builder": "동문건설",
+    "entrance": "복도식",
+    "useArea": "19811.31",
+    "bjdCode": "5113011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 690,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023106",
@@ -1207,7 +2730,21 @@
     "emd": "태장동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 태장동 2737 원주대원칸타빌더포레스트",
+    "builder": "DW대원",
+    "entrance": "계단식",
+    "useArea": "75395.6098",
+    "bjdCode": "5113011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 907,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024009",
@@ -1218,7 +2755,21 @@
     "emd": "태장동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 태장동 145-16 원주 태장LH행복주택7단지",
+    "builder": "서해종합건설",
+    "entrance": "복도식",
+    "useArea": "8297.12",
+    "bjdCode": "5113011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 259,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024862",
@@ -1229,7 +2780,21 @@
     "emd": "태장동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 태장동 700-40 원주태장LH천년나무6단지아파트",
+    "builder": "선진종합건설",
+    "entrance": "복도식",
+    "useArea": "16338.7",
+    "bjdCode": "5113011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 464,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025344",
@@ -1240,7 +2805,21 @@
     "emd": "태장동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 태장동 2793 이안원주어반파크",
+    "builder": "대우산업개발주식회사",
+    "entrance": "계단식",
+    "useArea": "64143.68",
+    "bjdCode": "5113011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 460,
+      "u85": 460,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025847",
@@ -1251,7 +2830,21 @@
     "emd": "태장동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 태장동 2731 태장 e편한세상아파트",
+    "builder": "대림산업 (주)",
+    "entrance": "계단식",
+    "useArea": "46792.9936",
+    "bjdCode": "5113011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 395,
+      "u85": 308,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025931",
@@ -1262,7 +2855,21 @@
     "emd": "태장동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 태장동 1720-48 뉴스테이아파트",
+    "builder": "(주)앤디앤",
+    "entrance": "복도식",
+    "useArea": "12000",
+    "bjdCode": "5113011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 200,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026593",
@@ -1273,7 +2880,21 @@
     "emd": "태장동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 태장동 2724 태장LH5단지아파트",
+    "builder": "국제산업(주)",
+    "entrance": "복도식",
+    "useArea": "14844.84",
+    "bjdCode": "5113011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 514,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22012001",
@@ -1284,7 +2905,21 @@
     "emd": "태장동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 태장동 546 두진백로아파트",
+    "builder": "(주)두진공영",
+    "entrance": "복도식",
+    "useArea": "19270.02",
+    "bjdCode": "5113011200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 563,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22012002",
@@ -1295,7 +2930,21 @@
     "emd": "태장동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 태장동 2719-1 태장주공4단지",
+    "builder": "한국토지주택공사",
+    "entrance": "혼합식",
+    "useArea": "32346.42",
+    "bjdCode": "5113011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 584,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22012003",
@@ -1306,7 +2955,21 @@
     "emd": "태장동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 태장동 580 금광포란재아파트1단지",
+    "builder": "(주)금광건업",
+    "entrance": "계단식",
+    "useArea": "83556.919",
+    "bjdCode": "5113011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 478,
+      "u85": 646,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22012101",
@@ -1317,7 +2980,21 @@
     "emd": "태장동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 태장동 2716 흥화브라운빌아파트",
+    "builder": "흥화공업(주)",
+    "entrance": "계단식",
+    "useArea": "37303.0592",
+    "bjdCode": "5113011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 439,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22012201",
@@ -1328,7 +3005,21 @@
     "emd": "태장동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 태장동 2210 우성1차",
+    "builder": "우성건설",
+    "entrance": "계단식",
+    "useArea": "19239.48",
+    "bjdCode": "5113011200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 156,
+      "u135": 52,
+      "o135": 0
+    }
   },
   {
     "code": "A22012208",
@@ -1339,7 +3030,21 @@
     "emd": "태장동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 태장동 971 상록프라자아파트",
+    "builder": "상록건설",
+    "entrance": "계단식",
+    "useArea": "21708.02",
+    "bjdCode": "5113011200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 380,
+      "u85": 10,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22012209",
@@ -1350,7 +3055,21 @@
     "emd": "태장동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 태장동 2717 요진보네르카운티2차",
+    "builder": "요진산업주식회사",
+    "entrance": "계단식",
+    "useArea": "35970.74",
+    "bjdCode": "5113011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 370,
+      "u135": 45,
+      "o135": 0
+    }
   },
   {
     "code": "A22012213",
@@ -1361,7 +3080,21 @@
     "emd": "태장동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 태장동 1836 백운3차아파트",
+    "builder": "(주)백운주택",
+    "entrance": "복도식",
+    "useArea": "26368.71",
+    "bjdCode": "5113011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 559,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22073501",
@@ -1372,7 +3105,21 @@
     "emd": "태장동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 태장동 548 정암아파트",
+    "builder": "정암건설",
+    "entrance": "계단식",
+    "useArea": "12317.7",
+    "bjdCode": "5113011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 280,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22073502",
@@ -1383,7 +3130,21 @@
     "emd": "태장동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 태장동 1379-23 북원상가아파트",
+    "builder": "신동아종합건설(주)",
+    "entrance": "복도식",
+    "useArea": "4797.55",
+    "bjdCode": "5113011200",
+    "aptType": "주상복합",
+    "mgrType": "자치관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 35,
+      "u85": 37,
+      "u135": 4,
+      "o135": 0
+    }
   },
   {
     "code": "A22075702",
@@ -1394,7 +3155,21 @@
     "emd": "태장동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 태장동 129 성호1차아파트",
+    "builder": "성호건설(주)",
+    "entrance": "복도식",
+    "useArea": "32852.535",
+    "bjdCode": "5113011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 593,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22075703",
@@ -1405,7 +3180,21 @@
     "emd": "태장동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 태장동 682 태장현대아파트",
+    "builder": "현대산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "44091.736",
+    "bjdCode": "5113011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 307,
+      "u85": 305,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22075704",
@@ -1416,7 +3205,21 @@
     "emd": "태장동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 태장동 128-9 성호2차샤인힐즈아파트",
+    "builder": "성호건설",
+    "entrance": "계단식",
+    "useArea": "41764.182",
+    "bjdCode": "5113011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 352,
+      "u85": 264,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22075804",
@@ -1427,7 +3230,21 @@
     "emd": "태장동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 태장동 2705 태장1주공아파트",
+    "builder": "우성건설",
+    "entrance": "계단식",
+    "useArea": "20335.2",
+    "bjdCode": "5113011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 240,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22075810",
@@ -1438,7 +3255,21 @@
     "emd": "태장동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 태장동 2708 태장3주공아파트",
+    "builder": "대한주택공사",
+    "entrance": "복도식",
+    "useArea": "22000.8",
+    "bjdCode": "5113011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 465,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22075812",
@@ -1449,7 +3280,21 @@
     "emd": "태장동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 태장동 2708 태장2주공아파트",
+    "builder": "우성건설",
+    "entrance": "혼합식",
+    "useArea": "29202.6",
+    "bjdCode": "5113011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 525,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22095916",
@@ -1460,7 +3305,21 @@
     "emd": "태장동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 태장동 128-1 동보78차아파트",
+    "builder": "(주)동보주택건설",
+    "entrance": "혼합식",
+    "useArea": "44496.93",
+    "bjdCode": "5113011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 253,
+      "u85": 373,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22096002",
@@ -1471,7 +3330,21 @@
     "emd": "태장동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 태장동 1037-2 진우아파트",
+    "builder": "진우건설",
+    "entrance": "계단식",
+    "useArea": "15310.8",
+    "bjdCode": "5113011200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 230,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22096007",
@@ -1482,7 +3355,21 @@
     "emd": "태장동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 태장동 1266 태봉우성2차아파트",
+    "builder": "(주)세룡주택",
+    "entrance": "계단식",
+    "useArea": "28969.23",
+    "bjdCode": "5113011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 367,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22096011",
@@ -1493,7 +3380,21 @@
     "emd": "태장동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 태장동 551 삼정백조아파트",
+    "builder": "삼정주택건설",
+    "entrance": "복도식",
+    "useArea": "26141.4",
+    "bjdCode": "5113011200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 479,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22096106",
@@ -1504,7 +3405,21 @@
     "emd": "태장동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 태장동 891-1 영진2차아파트관리사무소",
+    "builder": "(주)영진건설",
+    "entrance": "혼합식",
+    "useArea": "19279.22",
+    "bjdCode": "5113011200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 217,
+      "u85": 74,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22096117",
@@ -1515,7 +3430,21 @@
     "emd": "태장동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 태장동 1040-8 대흥2차아파트",
+    "builder": "대흥건설",
+    "entrance": "혼합식",
+    "useArea": "43768.02",
+    "bjdCode": "5113011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 614,
+      "u85": 82,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022643",
@@ -1526,7 +3455,21 @@
     "emd": "봉산동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 봉산동 1182 봉산현대아파트",
+    "builder": "현대산업개발(주)",
+    "entrance": "복도식",
+    "useArea": "8155.133",
+    "bjdCode": "5113011300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 120,
+      "u85": 19,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22095001",
@@ -1537,7 +3480,21 @@
     "emd": "봉산동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 봉산동 1201-2 동신아파트",
+    "builder": "동신건설",
+    "entrance": "계단식",
+    "useArea": "31131.36",
+    "bjdCode": "5113011300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 226,
+      "u135": 108,
+      "o135": 0
+    }
   },
   {
     "code": "A22095002",
@@ -1548,7 +3505,21 @@
     "emd": "봉산동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 봉산동 1203-1 배말타운아파트",
+    "builder": "아포리종합건설",
+    "entrance": "계단식",
+    "useArea": "49838.3718",
+    "bjdCode": "5113011300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 156,
+      "u85": 293,
+      "u135": 138,
+      "o135": 0
+    }
   },
   {
     "code": "A22095003",
@@ -1559,7 +3530,21 @@
     "emd": "봉산동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 봉산동 1201 삼익세라믹아파트",
+    "builder": "(주)삼익",
+    "entrance": "계단식",
+    "useArea": "44752.54",
+    "bjdCode": "5113011300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 746,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023804",
@@ -1570,7 +3555,21 @@
     "emd": "행구동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 행구동 1863 원주 행구동 골드클래스아파트",
+    "builder": "보광건설",
+    "entrance": "계단식",
+    "useArea": "34141.43",
+    "bjdCode": "5113011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 402,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22016001",
@@ -1581,7 +3580,21 @@
     "emd": "행구동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 행구동 1815-1 금강아미움",
+    "builder": "금강종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "39748.18",
+    "bjdCode": "5113011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 393,
+      "u135": 52,
+      "o135": 0
+    }
   },
   {
     "code": "A22016002",
@@ -1592,7 +3605,21 @@
     "emd": "행구동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 행구동 1658-4 행구현대아파트",
+    "builder": "(주)현대건설",
+    "entrance": "계단식",
+    "useArea": "35445.3",
+    "bjdCode": "5113011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 210,
+      "u85": 270,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22016003",
@@ -1603,7 +3630,21 @@
     "emd": "행구동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 행구동 1850 건영아파트",
+    "builder": "선아건설(주)",
+    "entrance": "혼합식",
+    "useArea": "58949.53",
+    "bjdCode": "5113011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 280,
+      "u85": 240,
+      "u135": 78,
+      "o135": 76
+    }
   },
   {
     "code": "A22079701",
@@ -1614,7 +3655,21 @@
     "emd": "행구동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 행구동 1851 효성백년가약",
+    "builder": "(주)효성",
+    "entrance": "계단식",
+    "useArea": "72917.1",
+    "bjdCode": "5113011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 182,
+      "u135": 421,
+      "o135": 49
+    }
   },
   {
     "code": "A10020626",
@@ -1625,7 +3680,21 @@
     "emd": "무실동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 무실동 2025- 제일풍경채 원주무실아파트 ",
+    "builder": "제일건설",
+    "entrance": "계단식",
+    "useArea": "101671.3069",
+    "bjdCode": "5113011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 32,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022538",
@@ -1636,7 +3705,21 @@
     "emd": "무실동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 무실동 1923- 호반써밋원주역아파트",
+    "builder": "호반산업",
+    "entrance": "계단식",
+    "useArea": "38342.8264",
+    "bjdCode": "5113011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 465,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023048",
@@ -1647,7 +3730,21 @@
     "emd": "무실동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 무실동  남원주역세권6단지 행복주택",
+    "builder": "이테크건설",
+    "entrance": "복도식",
+    "useArea": "14492.69",
+    "bjdCode": "5113011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 28,
+    "areaBreak": {
+      "u60": 435,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023766",
@@ -1658,7 +3755,21 @@
     "emd": "무실동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 무실동 1922 더샵원주센트럴파크4단지아파트",
+    "builder": "포스코건설",
+    "entrance": "계단식",
+    "useArea": "17841.0219",
+    "bjdCode": "5113011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 117,
+      "u135": 78,
+      "o135": 0
+    }
   },
   {
     "code": "A10024084",
@@ -1669,7 +3780,21 @@
     "emd": "무실동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 무실동 1921 더샵원주센트럴파크1단지아파트",
+    "builder": "포스코건설",
+    "entrance": "계단식",
+    "useArea": "66952.0506",
+    "bjdCode": "5113011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 28,
+    "areaBreak": {
+      "u60": 503,
+      "u85": 433,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10028066",
@@ -1680,7 +3805,21 @@
     "emd": "무실동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 무실동 1868-1 무실 세영리첼2차아파트",
+    "builder": "세영종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "44685.2795",
+    "bjdCode": "5113011500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 526,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22015001",
@@ -1691,7 +3830,21 @@
     "emd": "무실동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 무실동 1713 무실주공5단지",
+    "builder": "(주)삼능,우일건설",
+    "entrance": "복도식",
+    "useArea": "24154.68",
+    "bjdCode": "5113011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 496,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22015002",
@@ -1702,7 +3855,21 @@
     "emd": "무실동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 무실동 1651 무실뜨란채",
+    "builder": "요진건설",
+    "entrance": "계단식",
+    "useArea": "47566.4",
+    "bjdCode": "5113011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 562,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22015003",
@@ -1713,7 +3880,21 @@
     "emd": "무실동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 무실동 1714 무실이편한세상",
+    "builder": "대림산업",
+    "entrance": "계단식",
+    "useArea": "74680.6014",
+    "bjdCode": "5113011500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 437,
+      "o135": 155
+    }
   },
   {
     "code": "A22015004",
@@ -1724,7 +3905,21 @@
     "emd": "무실동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 무실동 1644 무실주공4단지",
+    "builder": "성일건설,신일건설",
+    "entrance": "계단식",
+    "useArea": "59286.02",
+    "bjdCode": "5113011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 730,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22015005",
@@ -1735,7 +3930,21 @@
     "emd": "무실동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 무실동 1640 무실요진보네르카운티",
+    "builder": "요진건설(주)",
+    "entrance": "계단식",
+    "useArea": "86990.79",
+    "bjdCode": "5113011500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 849,
+      "o135": 0
+    }
   },
   {
     "code": "A22015006",
@@ -1746,7 +3955,21 @@
     "emd": "무실동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 무실동 1645 무실주공3단지",
+    "builder": "(주)국제종합토건",
+    "entrance": "혼합식",
+    "useArea": "55109.72",
+    "bjdCode": "5113011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 959,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22073801",
@@ -1757,7 +3980,21 @@
     "emd": "무실동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 무실동 1716-1 무실7주공",
+    "builder": "요진건설산업(주)",
+    "entrance": "복도식",
+    "useArea": "27785.78",
+    "bjdCode": "5113011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 602,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22073802",
@@ -1768,7 +4005,21 @@
     "emd": "무실동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 무실동 1649 무실주공1단지",
+    "builder": "요진산업",
+    "entrance": "계단식",
+    "useArea": "36795.43",
+    "bjdCode": "5113011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 709,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22073803",
@@ -1779,7 +4030,21 @@
     "emd": "무실동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 무실동 1715-1 무실6단지휴먼시아파트",
+    "builder": "요진건설",
+    "entrance": "계단식",
+    "useArea": "57528.78",
+    "bjdCode": "5113011500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 678,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22073804",
@@ -1790,7 +4055,21 @@
     "emd": "무실동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 무실동 1790 무실8단지LH",
+    "builder": "요진산업건설",
+    "entrance": "복도식",
+    "useArea": "35115.08",
+    "bjdCode": "5113011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 870,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22073805",
@@ -1801,7 +4080,21 @@
     "emd": "무실동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 무실동 1846-5 원주무실부영",
+    "builder": "(주)동광주택",
+    "entrance": "계단식",
+    "useArea": "45865.4251",
+    "bjdCode": "5113011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 337,
+      "u85": 302,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22073806",
@@ -1812,7 +4105,21 @@
     "emd": "무실동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 무실동 1861-1 무실세영리첼1차",
+    "builder": "세영종합건설",
+    "entrance": "계단식",
+    "useArea": "43108.1977",
+    "bjdCode": "5113011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 411,
+      "u135": 71,
+      "o135": 0
+    }
   },
   {
     "code": "A22073807",
@@ -1823,7 +4130,21 @@
     "emd": "무실동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 무실동 1868-6 원주무실우미린",
+    "builder": "우미건설,서령개발",
+    "entrance": "계단식",
+    "useArea": "52836.3095",
+    "bjdCode": "5113011500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 653,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020368",
@@ -1834,7 +4155,21 @@
     "emd": "관설동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 관설동 1820- 원주 동문 디 이스트",
+    "builder": "동문건설(주)",
+    "entrance": "계단식",
+    "useArea": "76298.048",
+    "bjdCode": "5113011600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020819",
@@ -1845,7 +4180,21 @@
     "emd": "관설동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 관설동 1819- 힐스테이트 원주 레스티지",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "97163.3297",
+    "bjdCode": "5113011600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 600,
+      "u135": 248,
+      "o135": 127
+    }
   },
   {
     "code": "A10020962",
@@ -1856,7 +4205,21 @@
     "emd": "관설동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 관설동 1805- 반도유보라마크브릿지",
+    "builder": "반도건설",
+    "entrance": "계단식",
+    "useArea": "39569.5551",
+    "bjdCode": "5113011600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 431,
+      "u135": 45,
+      "o135": 0
+    }
   },
   {
     "code": "A22077101",
@@ -1867,7 +4230,21 @@
     "emd": "관설동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 관설동 1713-2 청솔8차",
+    "builder": "광토건설",
+    "entrance": "복도식",
+    "useArea": "58593.15",
+    "bjdCode": "5113011600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 979,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22093401",
@@ -1878,7 +4255,21 @@
     "emd": "관설동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 관설동 1774-2 현진에버빌4차",
+    "builder": "현진에버빌",
+    "entrance": "계단식",
+    "useArea": "28489.972",
+    "bjdCode": "5113011600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 352,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22093402",
@@ -1889,7 +4280,21 @@
     "emd": "관설동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 관설동 1774-4 코아루",
+    "builder": "(주)이테크 건설",
+    "entrance": "계단식",
+    "useArea": "30585.6",
+    "bjdCode": "5113011600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 360,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22093403",
@@ -1900,7 +4305,21 @@
     "emd": "관설동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 관설동 1713-1 청솔6차",
+    "builder": "광토건설",
+    "entrance": "복도식",
+    "useArea": "24299.1",
+    "bjdCode": "5113011600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 406,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22093404",
@@ -1911,7 +4330,21 @@
     "emd": "관설동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 관설동 1774-3 청솔5차아파트",
+    "builder": "광토건설",
+    "entrance": "복도식",
+    "useArea": "25915.05",
+    "bjdCode": "5113011600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 433,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020431",
@@ -1922,7 +4355,21 @@
     "emd": "반곡동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 반곡동 1833- 유승한내들 더 스카이 아파트",
+    "builder": "주식회사유승종합건설",
+    "entrance": "계단식",
+    "useArea": "43229.3834",
+    "bjdCode": "5113011700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 39,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023327",
@@ -1933,7 +4380,21 @@
     "emd": "반곡동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 반곡동 1822-11 원주혁신도시 제일풍경채센텀포레",
+    "builder": "제일건설(주)",
+    "entrance": "계단식",
+    "useArea": "120750.8477",
+    "bjdCode": "5113011700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 1215,
+      "o135": 0
+    }
   },
   {
     "code": "A10025220",
@@ -1944,7 +4405,21 @@
     "emd": "반곡동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 반곡동 1812-1 중흥S클래스",
+    "builder": "중흥토건(주)",
+    "entrance": "계단식",
+    "useArea": "62535.3441",
+    "bjdCode": "5113011700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 551,
+      "o135": 0
+    }
   },
   {
     "code": "A10025722",
@@ -1955,7 +4430,21 @@
     "emd": "반곡동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 반곡동 1993-3 LH센트럴파크",
+    "builder": "(주)에이스건설",
+    "entrance": "계단식",
+    "useArea": "71579.08",
+    "bjdCode": "5113011700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 855,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025840",
@@ -1966,7 +4455,21 @@
     "emd": "반곡동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 반곡동 2069 반곡 이편한세상",
+    "builder": "DL건설 주식회사",
+    "entrance": "계단식",
+    "useArea": "38845.1187",
+    "bjdCode": "5113011700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 16,
+    "areaBreak": {
+      "u60": 172,
+      "u85": 336,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027046",
@@ -1977,7 +4480,21 @@
     "emd": "반곡동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 반곡동 1964-7 원주모아엘가에듀퍼스트",
+    "builder": "헤림건설",
+    "entrance": "계단식",
+    "useArea": "37424.3302",
+    "bjdCode": "5113011700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 310,
+      "u135": 108,
+      "o135": 0
+    }
   },
   {
     "code": "A10027165",
@@ -1988,7 +4505,21 @@
     "emd": "반곡동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 반곡동 1818-10 푸른숨LH9단지",
+    "builder": "보미건설",
+    "entrance": "계단식",
+    "useArea": "43655.91",
+    "bjdCode": "5113011700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 756,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027324",
@@ -1999,7 +4530,21 @@
     "emd": "반곡동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 반곡동 2047-5 중흥에스클래스프라디움 아파트",
+    "builder": "프라디움",
+    "entrance": "계단식",
+    "useArea": "76745.5209",
+    "bjdCode": "5113011700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 630,
+      "u135": 220,
+      "o135": 0
+    }
   },
   {
     "code": "A10027745",
@@ -2010,7 +4555,21 @@
     "emd": "반곡동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 반곡동 1818-5 푸른숨 LH10단지아파트",
+    "builder": "주)효성",
+    "entrance": "복도식",
+    "useArea": "37636.81",
+    "bjdCode": "5113011700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 935,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027759",
@@ -2021,7 +4580,21 @@
     "emd": "반곡동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 반곡동 2049-8 원주혁신1단지부영아파트",
+    "builder": "(주)부영주택",
+    "entrance": "계단식",
+    "useArea": "53205.8058",
+    "bjdCode": "5113011700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 626,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027895",
@@ -2032,7 +4605,21 @@
     "emd": "반곡동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 반곡동 1964-3 원주혁신8단지 부영아파트",
+    "builder": "(주)동광주택",
+    "entrance": "계단식",
+    "useArea": "78174.288",
+    "bjdCode": "5113011700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리(직영+위탁)",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 920,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027980",
@@ -2043,7 +4630,21 @@
     "emd": "반곡동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 반곡동 2047-4 현대프라힐스원주혁신",
+    "builder": "현대아산",
+    "entrance": "계단식",
+    "useArea": "61159.52",
+    "bjdCode": "5113011700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 728,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027983",
@@ -2054,7 +4655,21 @@
     "emd": "반곡동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 반곡동 1894-2 힐데스하임 5단지",
+    "builder": "원건설",
+    "entrance": "계단식",
+    "useArea": "57943.6232",
+    "bjdCode": "5113011700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 682,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22017001",
@@ -2065,7 +4680,21 @@
     "emd": "반곡동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 반곡동 1800 반곡동 벽산블루밍아파트",
+    "builder": "벽산건설",
+    "entrance": "계단식",
+    "useArea": "70715.125",
+    "bjdCode": "5113011700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 486,
+      "u135": 217,
+      "o135": 28
+    }
   },
   {
     "code": "A22017002",
@@ -2076,7 +4705,21 @@
     "emd": "반곡동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 반곡동 1805 반곡아이파크",
+    "builder": "(주)현대산업개발",
+    "entrance": "계단식",
+    "useArea": "134622.7448",
+    "bjdCode": "5113011700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 739,
+      "u135": 386,
+      "o135": 210
+    }
   },
   {
     "code": "A22078801",
@@ -2087,7 +4730,21 @@
     "emd": "반곡동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 반곡동 2042-4 푸른숨휴브레스",
+    "builder": "한라건설",
+    "entrance": "계단식",
+    "useArea": "93465.06",
+    "bjdCode": "5113011700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1110,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22078802",
@@ -2098,7 +4755,21 @@
     "emd": "반곡동",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 반곡동 1438-2 반곡퍼스트힐",
+    "builder": "대명건설",
+    "entrance": "계단식",
+    "useArea": "35122.98",
+    "bjdCode": "5113011700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 424,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22080002",
@@ -2109,7 +4780,21 @@
     "emd": "문막읍",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 문막읍 동화리 1530-2 문막이화",
+    "builder": "이화건업(주)",
+    "entrance": "복도식",
+    "useArea": "6822.06",
+    "bjdCode": "5113025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 170,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22080004",
@@ -2120,7 +4805,21 @@
     "emd": "문막읍",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 문막읍 동화리 1264-3 동보렉스6차",
+    "builder": "(주)동보주택건설",
+    "entrance": "혼합식",
+    "useArea": "18426.9",
+    "bjdCode": "5113025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 177,
+      "u85": 97,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22080105",
@@ -2131,7 +4830,21 @@
     "emd": "문막읍",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 문막읍 동화리 1690 신원아침도시",
+    "builder": "신원종합개발",
+    "entrance": "계단식",
+    "useArea": "28479.235",
+    "bjdCode": "5113025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 215,
+      "u135": 86,
+      "o135": 0
+    }
   },
   {
     "code": "A22080110",
@@ -2142,7 +4855,21 @@
     "emd": "문막읍",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 문막읍 동화리 1543 문막현진",
+    "builder": "현진건설",
+    "entrance": "복도식",
+    "useArea": "27979.96",
+    "bjdCode": "5113025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 499,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22080111",
@@ -2153,7 +4880,21 @@
     "emd": "문막읍",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 문막읍 동화리 1536-1 문막부영아파트",
+    "builder": "(주)부영주택",
+    "entrance": "복도식",
+    "useArea": "80300.755",
+    "bjdCode": "5113025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1538,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22080308",
@@ -2164,7 +4905,21 @@
     "emd": "문막읍",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 문막읍 동화리 1532-1 문막만도사원",
+    "builder": "한라건설",
+    "entrance": "계단식",
+    "useArea": "23659.1",
+    "bjdCode": "5113025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리(직영+위탁)",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 470,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020925",
@@ -2175,7 +4930,21 @@
     "emd": "문막읍",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 문막읍 건등리 194-1 문막대보아파트",
+    "builder": "대보건설",
+    "entrance": "계단식",
+    "useArea": "9254.82",
+    "bjdCode": "5113025026",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 162,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021947",
@@ -2186,7 +4955,21 @@
     "emd": "문막읍",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 문막읍 건등리 1697-1 문막삼익아파트",
+    "builder": "삼익(주)",
+    "entrance": "복도식",
+    "useArea": "7616",
+    "bjdCode": "5113025026",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 128,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026278",
@@ -2197,7 +4980,21 @@
     "emd": "문막읍",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 문막읍 건등리 1743 서원주 코아루 아너스",
+    "builder": "(주)태왕",
+    "entrance": "계단식",
+    "useArea": "81320.187",
+    "bjdCode": "5113025026",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 612,
+      "u135": 230,
+      "o135": 0
+    }
   },
   {
     "code": "A22080006",
@@ -2208,7 +5005,21 @@
     "emd": "문막읍",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 문막읍 건등리 1697-2 문막신한아파트",
+    "builder": "(주)신한",
+    "entrance": "계단식",
+    "useArea": "24577.86",
+    "bjdCode": "5113025026",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 410,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22080107",
@@ -2219,7 +5030,21 @@
     "emd": "문막읍",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 문막읍 건등리 1741-1 문막극동스타클래스",
+    "builder": "극동건설",
+    "entrance": "계단식",
+    "useArea": "39229.589",
+    "bjdCode": "5113025026",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 321,
+      "u135": 118,
+      "o135": 0
+    }
   },
   {
     "code": "A22080109",
@@ -2230,7 +5055,21 @@
     "emd": "문막읍",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 문막읍 건등리 1742-1 문막주공1단지",
+    "builder": "일신진흥",
+    "entrance": "복도식",
+    "useArea": "23413.1",
+    "bjdCode": "5113025026",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 498,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22080203",
@@ -2241,7 +5080,21 @@
     "emd": "문막읍",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 문막읍 건등리 193-2 문막덕원아파트",
+    "builder": "덕원공영(주)",
+    "entrance": "복도식",
+    "useArea": "14773.564",
+    "bjdCode": "5113025026",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 247,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021172",
@@ -2252,7 +5105,21 @@
     "emd": "소초면",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 소초면 장양리 1293-37 백운임대아파트",
+    "builder": "주식회사한희건설",
+    "entrance": "계단식",
+    "useArea": "7617.3",
+    "bjdCode": "5113031023",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 134,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22083001",
@@ -2263,7 +5130,21 @@
     "emd": "소초면",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 소초면 장양리 816-2 영진4차아파트",
+    "builder": "(주)영진건설",
+    "entrance": "복도식",
+    "useArea": "17171.48",
+    "bjdCode": "5113031023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 351,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22083302",
@@ -2274,7 +5155,21 @@
     "emd": "소초면",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 소초면 장양리 816 영진1차아파트",
+    "builder": "영진건설",
+    "entrance": "혼합식",
+    "useArea": "22679.2",
+    "bjdCode": "5113031023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 281,
+      "u85": 82,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022585",
@@ -2285,7 +5180,21 @@
     "emd": "지정면",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 지정면 가곡리 1473 이지더원어반포레",
+    "builder": "(주)동양건설산업",
+    "entrance": "계단식",
+    "useArea": "111625.3062",
+    "bjdCode": "5113033023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 680,
+      "u85": 836,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024773",
@@ -2296,7 +5205,21 @@
     "emd": "지정면",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 지정면 가곡리 1468 이지더원 더그레이스아파트",
+    "builder": "(주)라인건설",
+    "entrance": "계단식",
+    "useArea": "57226.6316",
+    "bjdCode": "5113033023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 348,
+      "u85": 428,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025048",
@@ -2307,7 +5230,21 @@
     "emd": "지정면",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 지정면 가곡리 1470-1 반도유보라아이비파크2단지",
+    "builder": "반도건설",
+    "entrance": "계단식",
+    "useArea": "58526.4473",
+    "bjdCode": "5113033023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 30,
+    "areaBreak": {
+      "u60": 358,
+      "u85": 436,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025107",
@@ -2318,7 +5255,21 @@
     "emd": "지정면",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 지정면 가곡리 1476 반도유보라아이비파크1단지아파트",
+    "builder": "주식회사 반도건설",
+    "entrance": "계단식",
+    "useArea": "40370.7884",
+    "bjdCode": "5113033023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 30,
+    "areaBreak": {
+      "u60": 248,
+      "u85": 300,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025117",
@@ -2329,7 +5280,21 @@
     "emd": "지정면",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 지정면 가곡리 1512 롯데캐슬골드파크1차아파트",
+    "builder": "(주)롯데건설",
+    "entrance": "계단식",
+    "useArea": "50522.7136",
+    "bjdCode": "5113033023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 172,
+      "u85": 384,
+      "u135": 68,
+      "o135": 0
+    }
   },
   {
     "code": "A10025119",
@@ -2340,7 +5305,21 @@
     "emd": "지정면",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 지정면 가곡리 1501 롯데캐슬골드파크2차아파트",
+    "builder": "롯데건설",
+    "entrance": "계단식",
+    "useArea": "43169.9513",
+    "bjdCode": "5113033023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 148,
+      "u85": 338,
+      "u135": 50,
+      "o135": 0
+    }
   },
   {
     "code": "A10025528",
@@ -2351,7 +5330,21 @@
     "emd": "지정면",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 지정면 가곡리 1461 원주기업도시 2차 호반베르디움",
+    "builder": "호반건설",
+    "entrance": "계단식",
+    "useArea": "69982.193",
+    "bjdCode": "5113033023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 270,
+      "u85": 532,
+      "u135": 90,
+      "o135": 0
+    }
   },
   {
     "code": "A10025548",
@@ -2362,7 +5355,21 @@
     "emd": "지정면",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 지정면 가곡리 1464 호반베르디움 더 리버아파트",
+    "builder": "(주)호반건설",
+    "entrance": "계단식",
+    "useArea": "64813.049",
+    "bjdCode": "5113033023",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 244,
+      "u85": 494,
+      "u135": 86,
+      "o135": 0
+    }
   },
   {
     "code": "A10025725",
@@ -2373,7 +5380,21 @@
     "emd": "지정면",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 지정면 가곡리 1453 원주기업도시 이지더원1차",
+    "builder": "라인건설",
+    "entrance": "계단식",
+    "useArea": "112079.487",
+    "bjdCode": "5113033023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 470,
+      "u85": 880,
+      "u135": 80,
+      "o135": 0
+    }
   },
   {
     "code": "A10025843",
@@ -2384,7 +5405,21 @@
     "emd": "지정면",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 지정면 가곡리 1493 원주기업도시 라온프라이빗아파트",
+    "builder": "라온건설(주)",
+    "entrance": "계단식",
+    "useArea": "53419.0306",
+    "bjdCode": "5113033023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 30,
+    "areaBreak": {
+      "u60": 280,
+      "u85": 433,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026064",
@@ -2395,7 +5430,21 @@
     "emd": "지정면",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 지정면 가곡리 1525 원주기업도시 8단지 호반베르디움",
+    "builder": "(주)호반건설",
+    "entrance": "계단식",
+    "useArea": "66510.3545",
+    "bjdCode": "5113033023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 337,
+      "u85": 545,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026089",
@@ -2406,7 +5455,21 @@
     "emd": "지정면",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 지정면 가곡리 1534 롯데캐슬 더퍼스트 2차 아파트",
+    "builder": "롯데건설",
+    "entrance": "계단식",
+    "useArea": "79490.8029",
+    "bjdCode": "5113033023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 30,
+    "areaBreak": {
+      "u60": 614,
+      "u85": 502,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026200",
@@ -2417,7 +5480,21 @@
     "emd": "지정면",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 지정면 가곡리 1537 롯데캐슬더퍼스트1차아파트",
+    "builder": "롯데건설(주)",
+    "entrance": "계단식",
+    "useArea": "88528.1809",
+    "bjdCode": "5113033023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 30,
+    "areaBreak": {
+      "u60": 684,
+      "u85": 559,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024116",
@@ -2428,7 +5505,21 @@
     "emd": "흥업면",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 흥업면 흥업리 1838 스타클래스NHF",
+    "builder": "(주)NHF제16호 공공임대위탁관리 부동산투자회사",
+    "entrance": "혼합식",
+    "useArea": "22199.66",
+    "bjdCode": "5113037021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 287,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027353",
@@ -2439,7 +5530,21 @@
     "emd": "흥업면",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 흥업면 흥업리 1841 원주흥업LH천년나무2단지아파트",
+    "builder": "(주)효성건설",
+    "entrance": "복도식",
+    "useArea": "33540.6",
+    "bjdCode": "5113037021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 990,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22084101",
@@ -2450,7 +5555,21 @@
     "emd": "흥업면",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 흥업면 흥업리 1827 남원주두산위브",
+    "builder": "두산중공업 건설부문",
+    "entrance": "계단식",
+    "useArea": "56937.8085",
+    "bjdCode": "5113037021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 539,
+      "u135": 58,
+      "o135": 30
+    }
   },
   {
     "code": "A22084402",
@@ -2461,7 +5580,21 @@
     "emd": "흥업면",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 흥업면 흥업리 86 경동아파트",
+    "builder": "경동건설",
+    "entrance": "복도식",
+    "useArea": "11402.278",
+    "bjdCode": "5113037021",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 285,
+      "u85": 13,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22084003",
@@ -2472,7 +5605,21 @@
     "emd": "흥업면",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 흥업면 매지리 1928 매지현대",
+    "builder": "현대건설",
+    "entrance": "복도식",
+    "useArea": "23043.72",
+    "bjdCode": "5113037022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 478,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22084204",
@@ -2483,7 +5630,21 @@
     "emd": "흥업면",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 흥업면 매지리 1934 매지청솔",
+    "builder": "(주)동신건설",
+    "entrance": "복도식",
+    "useArea": "20581.2",
+    "bjdCode": "5113037022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 616,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22084001",
@@ -2494,7 +5655,21 @@
     "emd": "흥업면",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 흥업면 사제리 337 거장아파트",
+    "builder": "거장주택건설(주)",
+    "entrance": "복도식",
+    "useArea": "6337.98",
+    "bjdCode": "5113037023",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 9,
+    "areaBreak": {
+      "u60": 194,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020387",
@@ -2505,7 +5680,21 @@
     "emd": "판부면",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 판부면 서곡리 48- e편한세상 원주 프리모원아파트",
+    "builder": "DL이앤씨",
+    "entrance": "계단식",
+    "useArea": "43743.9954",
+    "bjdCode": "5113038022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026395",
@@ -2516,7 +5705,21 @@
     "emd": "판부면",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 판부면 서곡리 2048 남원주코아루미소지움",
+    "builder": "sg신성건설",
+    "entrance": "계단식",
+    "useArea": "24660.8103",
+    "bjdCode": "5113038022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 202,
+      "u85": 157,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22075001",
@@ -2527,7 +5730,21 @@
     "emd": "판부면",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 판부면 서곡리 592 거장2차아파트",
+    "builder": "거장주택건설 (주)",
+    "entrance": "복도식",
+    "useArea": "25049.88",
+    "bjdCode": "5113038022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 718,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A22091201",
@@ -2538,6 +5755,20 @@
     "emd": "판부면",
     "sigunguCode": "51130",
     "sido": "강원특별자치도",
-    "sigungu": "원주시"
+    "sigungu": "원주시",
+    "jibunAddr": "강원특별자치도 원주시 판부면 서곡리 446 원주더샵아파트",
+    "builder": "포스코건설",
+    "entrance": "계단식",
+    "useArea": "48675.53",
+    "bjdCode": "5113038022",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 11,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 98,
+      "o135": 244
+    }
   }
 ]

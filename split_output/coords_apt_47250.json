@@ -8,7 +8,21 @@
     "emd": "성동동",
     "sigunguCode": "47250",
     "sido": "경상북도",
-    "sigungu": "상주시"
+    "sigungu": "상주시",
+    "jibunAddr": "경상북도 상주시 성동동 63 성동경희아파트",
+    "builder": "(합)경희주택",
+    "entrance": "혼합식",
+    "useArea": "9076.8",
+    "bjdCode": "4725010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 202,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024786",
@@ -19,7 +33,21 @@
     "emd": "복룡동",
     "sigunguCode": "47250",
     "sido": "경상북도",
-    "sigungu": "상주시"
+    "sigungu": "상주시",
+    "jibunAddr": "경상북도 상주시 복룡동 511 상주한라하우젠트",
+    "builder": "(주)한라공영",
+    "entrance": "계단식",
+    "useArea": "12147.4826",
+    "bjdCode": "4725010400",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 34,
+      "u85": 119,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A74275501",
@@ -30,7 +58,21 @@
     "emd": "복룡동",
     "sigunguCode": "47250",
     "sido": "경상북도",
-    "sigungu": "상주시"
+    "sigungu": "상주시",
+    "jibunAddr": "경상북도 상주시 복룡동 206-6 상주우방1.2차아파트",
+    "builder": "(주)우방",
+    "entrance": "계단식",
+    "useArea": "56898.075",
+    "bjdCode": "4725010400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 383,
+      "u85": 309,
+      "u135": 58,
+      "o135": 0
+    }
   },
   {
     "code": "A74275503",
@@ -41,7 +83,21 @@
     "emd": "복룡동",
     "sigunguCode": "47250",
     "sido": "경상북도",
-    "sigungu": "상주시"
+    "sigungu": "상주시",
+    "jibunAddr": "경상북도 상주시 복룡동 245 복룡6주공아파트",
+    "builder": "구산건설(주)",
+    "entrance": "혼합식",
+    "useArea": "19539.12",
+    "bjdCode": "4725010400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 387,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021143",
@@ -52,7 +108,21 @@
     "emd": "냉림동",
     "sigunguCode": "47250",
     "sido": "경상북도",
-    "sigungu": "상주시"
+    "sigungu": "상주시",
+    "jibunAddr": "경상북도 상주시 냉림동 119- 냉림2주공아파트",
+    "builder": "한국토지주택공사",
+    "entrance": "계단식",
+    "useArea": "11904.3",
+    "bjdCode": "4725010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 290,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021322",
@@ -63,7 +133,21 @@
     "emd": "냉림동",
     "sigunguCode": "47250",
     "sido": "경상북도",
-    "sigungu": "상주시"
+    "sigungu": "상주시",
+    "jibunAddr": "경상북도 상주시 냉림동 111- 지엘리더스파크골드",
+    "builder": "안준한 지엘건설주식회사",
+    "entrance": "혼합식",
+    "useArea": "9146.9082",
+    "bjdCode": "4725010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 109,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024032",
@@ -74,7 +158,21 @@
     "emd": "냉림동",
     "sigunguCode": "47250",
     "sido": "경상북도",
-    "sigungu": "상주시"
+    "sigungu": "상주시",
+    "jibunAddr": "경상북도 상주시 냉림동 408 상주미소지움더퍼스트",
+    "builder": "신성건설(주)",
+    "entrance": "계단식",
+    "useArea": "25408.8582",
+    "bjdCode": "4725010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 299,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024538",
@@ -85,7 +183,21 @@
     "emd": "냉림동",
     "sigunguCode": "47250",
     "sido": "경상북도",
-    "sigungu": "상주시"
+    "sigungu": "상주시",
+    "jibunAddr": "경상북도 상주시 냉림동 407 북천 코아루 하트리움",
+    "builder": "두진건설",
+    "entrance": "계단식",
+    "useArea": "13223.14",
+    "bjdCode": "4725010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 36,
+      "u85": 175,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024962",
@@ -96,7 +208,21 @@
     "emd": "냉림동",
     "sigunguCode": "47250",
     "sido": "경상북도",
-    "sigungu": "상주시"
+    "sigungu": "상주시",
+    "jibunAddr": "경상북도 상주시 냉림동 406 상주 북천대림다미아 아파트",
+    "builder": "(주)대림종합건설",
+    "entrance": "계단식",
+    "useArea": "15640.9397",
+    "bjdCode": "4725010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 187,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A74275301",
@@ -107,7 +233,21 @@
     "emd": "냉림동",
     "sigunguCode": "47250",
     "sido": "경상북도",
-    "sigungu": "상주시"
+    "sigungu": "상주시",
+    "jibunAddr": "경상북도 상주시 냉림동 78 냉림4주공아파트",
+    "builder": "신림종합건설",
+    "entrance": "복도식",
+    "useArea": "13066.8",
+    "bjdCode": "4725010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 300,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A74275302",
@@ -118,7 +258,21 @@
     "emd": "냉림동",
     "sigunguCode": "47250",
     "sido": "경상북도",
-    "sigungu": "상주시"
+    "sigungu": "상주시",
+    "jibunAddr": "경상북도 상주시 냉림동 78 상주냉림3",
+    "builder": "신림종합건설",
+    "entrance": "복도식",
+    "useArea": "13787.91",
+    "bjdCode": "4725010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 478,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A74275303",
@@ -129,7 +283,21 @@
     "emd": "냉림동",
     "sigunguCode": "47250",
     "sido": "경상북도",
-    "sigungu": "상주시"
+    "sigungu": "상주시",
+    "jibunAddr": "경상북도 상주시 냉림동 42-1 냉림부민강변",
+    "builder": "부민건설",
+    "entrance": "복도식",
+    "useArea": "5964.03",
+    "bjdCode": "4725010500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 11,
+    "areaBreak": {
+      "u60": 150,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024100",
@@ -140,7 +308,21 @@
     "emd": "무양동",
     "sigunguCode": "47250",
     "sido": "경상북도",
-    "sigungu": "상주시"
+    "sigungu": "상주시",
+    "jibunAddr": "경상북도 상주시 무양동 318 상주무양태왕아너스아파트",
+    "builder": "(주)태왕",
+    "entrance": "계단식",
+    "useArea": "22316.7158",
+    "bjdCode": "4725010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 33,
+      "u85": 235,
+      "u135": 3,
+      "o135": 0
+    }
   },
   {
     "code": "A10027733",
@@ -151,7 +333,21 @@
     "emd": "무양동",
     "sigunguCode": "47250",
     "sido": "경상북도",
-    "sigungu": "상주시"
+    "sigungu": "상주시",
+    "jibunAddr": "경상북도 상주시 무양동 1-5 무양지엘리베라움",
+    "builder": "(주)지엘건설",
+    "entrance": "혼합식",
+    "useArea": "26383.5234",
+    "bjdCode": "4725010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 343,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A74275401",
@@ -162,7 +358,21 @@
     "emd": "무양동",
     "sigunguCode": "47250",
     "sido": "경상북도",
-    "sigungu": "상주시"
+    "sigungu": "상주시",
+    "jibunAddr": "경상북도 상주시 무양동 175 동보고층아파트",
+    "builder": "동보아파트공사",
+    "entrance": "복도식",
+    "useArea": "10659.54",
+    "bjdCode": "4725010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 9,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 168,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A74275402",
@@ -173,7 +383,21 @@
     "emd": "무양동",
     "sigunguCode": "47250",
     "sido": "경상북도",
-    "sigungu": "상주시"
+    "sigungu": "상주시",
+    "jibunAddr": "경상북도 상주시 무양동 300 상주무양LH7단지",
+    "builder": "(주)삼환까뮤",
+    "entrance": "혼합식",
+    "useArea": "32114.9",
+    "bjdCode": "4725010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 737,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A74275403",
@@ -184,7 +408,21 @@
     "emd": "무양동",
     "sigunguCode": "47250",
     "sido": "경상북도",
-    "sigungu": "상주시"
+    "sigungu": "상주시",
+    "jibunAddr": "경상북도 상주시 무양동 299 LH천년나무",
+    "builder": "한일건설",
+    "entrance": "계단식",
+    "useArea": "36064.64",
+    "bjdCode": "4725010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 451,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022290",
@@ -195,7 +433,21 @@
     "emd": "낙양동",
     "sigunguCode": "47250",
     "sido": "경상북도",
-    "sigungu": "상주시"
+    "sigungu": "상주시",
+    "jibunAddr": "경상북도 상주시 낙양동 199-39 낙양동 명지아파트2차",
+    "builder": "명지개발주식회사",
+    "entrance": "계단식",
+    "useArea": "10733.16",
+    "bjdCode": "4725011000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 60,
+      "u85": 84,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026106",
@@ -206,7 +458,21 @@
     "emd": "낙양동",
     "sigunguCode": "47250",
     "sido": "경상북도",
-    "sigungu": "상주시"
+    "sigungu": "상주시",
+    "jibunAddr": "경상북도 상주시 낙양동 447 낙양대림다미아",
+    "builder": "(주)대림종합건설",
+    "entrance": "계단식",
+    "useArea": "12151.3416",
+    "bjdCode": "4725011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 34,
+      "u85": 119,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026809",
@@ -217,7 +483,21 @@
     "emd": "낙양동",
     "sigunguCode": "47250",
     "sido": "경상북도",
-    "sigungu": "상주시"
+    "sigungu": "상주시",
+    "jibunAddr": "경상북도 상주시 낙양동 444 상주낙양지엘리베라움",
+    "builder": "지엘건설(주)",
+    "entrance": "계단식",
+    "useArea": "19911.1143",
+    "bjdCode": "4725011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 277,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A74290101",
@@ -228,7 +508,21 @@
     "emd": "낙양동",
     "sigunguCode": "47250",
     "sido": "경상북도",
-    "sigungu": "상주시"
+    "sigungu": "상주시",
+    "jibunAddr": "경상북도 상주시 낙양동 145-1 경희삼백아파트",
+    "builder": "경희주택",
+    "entrance": "계단식",
+    "useArea": "15699.12",
+    "bjdCode": "4725011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 178,
+      "u85": 60,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A74290102",
@@ -239,7 +533,21 @@
     "emd": "낙양동",
     "sigunguCode": "47250",
     "sido": "경상북도",
-    "sigungu": "상주시"
+    "sigungu": "상주시",
+    "jibunAddr": "경상북도 상주시 낙양동 199-1 명지1차아파트",
+    "builder": "명지건설(주)",
+    "entrance": "계단식",
+    "useArea": "31398.9",
+    "bjdCode": "4725011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 336,
+      "u85": 120,
+      "u135": 12,
+      "o135": 0
+    }
   },
   {
     "code": "A74290103",
@@ -250,7 +558,21 @@
     "emd": "낙양동",
     "sigunguCode": "47250",
     "sido": "경상북도",
-    "sigungu": "상주시"
+    "sigungu": "상주시",
+    "jibunAddr": "경상북도 상주시 낙양동 132 상주낙양주공아파트",
+    "builder": "대한주택공사",
+    "entrance": "복도식",
+    "useArea": "23108.62",
+    "bjdCode": "4725011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 498,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A74213003",
@@ -261,7 +583,21 @@
     "emd": "신봉동",
     "sigunguCode": "47250",
     "sido": "경상북도",
-    "sigungu": "상주시"
+    "sigungu": "상주시",
+    "jibunAddr": "경상북도 상주시 신봉동 603-1 명지3차아파트",
+    "builder": "명지건설",
+    "entrance": "계단식",
+    "useArea": "27158.82",
+    "bjdCode": "4725011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 390,
+      "u85": 60,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A74213004",
@@ -272,7 +608,21 @@
     "emd": "신봉동",
     "sigunguCode": "47250",
     "sido": "경상북도",
-    "sigungu": "상주시"
+    "sigungu": "상주시",
+    "jibunAddr": "경상북도 상주시 신봉동 537-1 상주청구타운",
+    "builder": "(주) 청구",
+    "entrance": "계단식",
+    "useArea": "36828.85",
+    "bjdCode": "4725011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 226,
+      "u85": 244,
+      "u135": 26,
+      "o135": 0
+    }
   },
   {
     "code": "A74275801",
@@ -283,7 +633,21 @@
     "emd": "신봉동",
     "sigunguCode": "47250",
     "sido": "경상북도",
-    "sigungu": "상주시"
+    "sigungu": "상주시",
+    "jibunAddr": "경상북도 상주시 신봉동 165-2 신봉현대아파트",
+    "builder": "현대건설(주)",
+    "entrance": "계단식",
+    "useArea": "18189",
+    "bjdCode": "4725011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 240,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A74275805",
@@ -294,7 +658,21 @@
     "emd": "신봉동",
     "sigunguCode": "47250",
     "sido": "경상북도",
-    "sigungu": "상주시"
+    "sigungu": "상주시",
+    "jibunAddr": "경상북도 상주시 신봉동 179-4 동아아파트",
+    "builder": "동아건설",
+    "entrance": "계단식",
+    "useArea": "54132.9",
+    "bjdCode": "4725011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 510,
+      "u135": 90,
+      "o135": 0
+    }
   },
   {
     "code": "A74275902",
@@ -305,7 +683,21 @@
     "emd": "신봉동",
     "sigunguCode": "47250",
     "sido": "경상북도",
-    "sigungu": "상주시"
+    "sigungu": "상주시",
+    "jibunAddr": "경상북도 상주시 신봉동 542-3 세영첼시빌아파트",
+    "builder": "세영종합건설",
+    "entrance": "계단식",
+    "useArea": "31582.2332",
+    "bjdCode": "4725011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 286,
+      "u135": 60,
+      "o135": 0
+    }
   },
   {
     "code": "A10027434",
@@ -316,7 +708,21 @@
     "emd": "함창읍",
     "sigunguCode": "47250",
     "sido": "경상북도",
-    "sigungu": "상주시"
+    "sigungu": "상주시",
+    "jibunAddr": "경상북도 상주시 함창읍 구향리 609 상주함창LH천년나무2단지",
+    "builder": "한일건설주식회사",
+    "entrance": "계단식",
+    "useArea": "15227.64",
+    "bjdCode": "4725025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 210,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027467",
@@ -327,6 +733,20 @@
     "emd": "함창읍",
     "sigunguCode": "47250",
     "sido": "경상북도",
-    "sigungu": "상주시"
+    "sigungu": "상주시",
+    "jibunAddr": "경상북도 상주시 함창읍 구향리 608 상주함창LH천년나무1단지",
+    "builder": "한국토지주택공사",
+    "entrance": "복도식",
+    "useArea": "11501.72",
+    "bjdCode": "4725025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 316,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

@@ -8,7 +8,19 @@
     "emd": "황지동",
     "sigunguCode": "51190",
     "sido": "강원특별자치도",
-    "sigungu": "태백시"
+    "sigungu": "태백시",
+    "jibunAddr": "강원특별자치도 태백시 황지동 49-82 궁전아파트",
+    "builder": " ",
+    "useArea": "6752.4",
+    "bjdCode": "5119010100",
+    "aptType": "아파트",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020444",
@@ -19,7 +31,21 @@
     "emd": "황지동",
     "sigunguCode": "51190",
     "sido": "강원특별자치도",
-    "sigungu": "태백시"
+    "sigungu": "태백시",
+    "jibunAddr": "강원특별자치도 태백시 황지동 49-87 대윤아파트",
+    "builder": "확인안됨",
+    "entrance": "계단식",
+    "useArea": "6289.2",
+    "bjdCode": "5119010100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020502",
@@ -30,7 +56,21 @@
     "emd": "황지동",
     "sigunguCode": "51190",
     "sido": "강원특별자치도",
-    "sigungu": "태백시"
+    "sigungu": "태백시",
+    "jibunAddr": "강원특별자치도 태백시 황지동 621-277 선명5차아파트",
+    "builder": "선명주택",
+    "entrance": "복도식",
+    "useArea": "7736.807",
+    "bjdCode": "5119010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021042",
@@ -41,7 +81,21 @@
     "emd": "황지동",
     "sigunguCode": "51190",
     "sido": "강원특별자치도",
-    "sigungu": "태백시"
+    "sigungu": "태백시",
+    "jibunAddr": "강원특별자치도 태백시 황지동 676- 유진3차아트빌아파트",
+    "builder": "유진건설",
+    "entrance": "계단식",
+    "useArea": "9360.3592",
+    "bjdCode": "5119010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 66,
+      "u85": 43,
+      "u135": 15,
+      "o135": 0
+    }
   },
   {
     "code": "A10021314",
@@ -52,7 +106,21 @@
     "emd": "황지동",
     "sigunguCode": "51190",
     "sido": "강원특별자치도",
-    "sigungu": "태백시"
+    "sigungu": "태백시",
+    "jibunAddr": "강원특별자치도 태백시 황지동 136-1 태백상장청록아파트",
+    "builder": "함태탄광",
+    "entrance": "계단식",
+    "useArea": "4491",
+    "bjdCode": "5119010100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 100,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021506",
@@ -63,7 +131,21 @@
     "emd": "황지동",
     "sigunguCode": "51190",
     "sido": "강원특별자치도",
-    "sigungu": "태백시"
+    "sigungu": "태백시",
+    "jibunAddr": "강원특별자치도 태백시 황지동 74-3 태백남청아파트",
+    "builder": "남청주택",
+    "entrance": "복도식",
+    "useArea": "7662.64",
+    "bjdCode": "5119010100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 86,
+      "u85": 30,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021768",
@@ -74,7 +156,21 @@
     "emd": "황지동",
     "sigunguCode": "51190",
     "sido": "강원특별자치도",
-    "sigungu": "태백시"
+    "sigungu": "태백시",
+    "jibunAddr": "강원특별자치도 태백시 황지동 847- 태백에코빌아파트",
+    "builder": "해밀씨앤디",
+    "entrance": "계단식",
+    "useArea": "11811.908",
+    "bjdCode": "5119010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 139,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023047",
@@ -85,7 +181,21 @@
     "emd": "황지동",
     "sigunguCode": "51190",
     "sido": "강원특별자치도",
-    "sigungu": "태백시"
+    "sigungu": "태백시",
+    "jibunAddr": "강원특별자치도 태백시 황지동 848 태백 포레스트 애시앙 1단지",
+    "builder": "부영건설",
+    "entrance": "계단식",
+    "useArea": "46850.8738",
+    "bjdCode": "5119010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 28,
+    "areaBreak": {
+      "u60": 334,
+      "u85": 316,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023052",
@@ -96,7 +206,21 @@
     "emd": "황지동",
     "sigunguCode": "51190",
     "sido": "강원특별자치도",
-    "sigungu": "태백시"
+    "sigungu": "태백시",
+    "jibunAddr": "강원특별자치도 태백시 황지동 849 태백 포레스트 애시앙 2단지 사랑으로 부영아파트",
+    "builder": "(주)부영주택",
+    "entrance": "계단식",
+    "useArea": "34532.064",
+    "bjdCode": "5119010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 28,
+    "areaBreak": {
+      "u60": 576,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10028121",
@@ -107,7 +231,21 @@
     "emd": "황지동",
     "sigunguCode": "51190",
     "sido": "강원특별자치도",
-    "sigungu": "태백시"
+    "sigungu": "태백시",
+    "jibunAddr": "강원특별자치도 태백시 황지동 846 대산2차하이츠빌아파트",
+    "builder": "대산종합건설",
+    "entrance": "계단식",
+    "useArea": "29064.2838",
+    "bjdCode": "5119010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 186,
+      "u85": 211,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A23501002",
@@ -118,7 +256,21 @@
     "emd": "황지동",
     "sigunguCode": "51190",
     "sido": "강원특별자치도",
-    "sigungu": "태백시"
+    "sigungu": "태백시",
+    "jibunAddr": "강원특별자치도 태백시 황지동 200-13 유진2차아트빌",
+    "builder": "(주)유진주택",
+    "entrance": "계단식",
+    "useArea": "20629.178",
+    "bjdCode": "5119010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 178,
+      "u85": 118,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A23501004",
@@ -129,7 +281,21 @@
     "emd": "황지동",
     "sigunguCode": "51190",
     "sido": "강원특별자치도",
-    "sigungu": "태백시"
+    "sigungu": "태백시",
+    "jibunAddr": "강원특별자치도 태백시 황지동 677 영조아름다운나날",
+    "builder": "(주)영조주택",
+    "entrance": "계단식",
+    "useArea": "33140.757",
+    "bjdCode": "5119010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 390,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A23501005",
@@ -140,7 +306,21 @@
     "emd": "황지동",
     "sigunguCode": "51190",
     "sido": "강원특별자치도",
-    "sigungu": "태백시"
+    "sigungu": "태백시",
+    "jibunAddr": "강원특별자치도 태백시 황지동 674 태백황지주공3단지아파트",
+    "builder": "(주)우석종합건설",
+    "entrance": "계단식",
+    "useArea": "21725.97",
+    "bjdCode": "5119010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 399,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A23580003",
@@ -151,7 +331,21 @@
     "emd": "황지동",
     "sigunguCode": "51190",
     "sido": "강원특별자치도",
-    "sigungu": "태백시"
+    "sigungu": "태백시",
+    "jibunAddr": "강원특별자치도 태백시 황지동 229-16 황지1주공아파트",
+    "builder": "대한주택공사",
+    "entrance": "계단식",
+    "useArea": "12349",
+    "bjdCode": "5119010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 300,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A23580007",
@@ -162,7 +356,21 @@
     "emd": "황지동",
     "sigunguCode": "51190",
     "sido": "강원특별자치도",
-    "sigungu": "태백시"
+    "sigungu": "태백시",
+    "jibunAddr": "강원특별자치도 태백시 황지동 87-8 태백2주공아파트",
+    "builder": "대한주택공사",
+    "entrance": "계단식",
+    "useArea": "23497.8",
+    "bjdCode": "5119010100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 560,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A23580008",
@@ -173,7 +381,21 @@
     "emd": "황지동",
     "sigunguCode": "51190",
     "sido": "강원특별자치도",
-    "sigungu": "태백시"
+    "sigungu": "태백시",
+    "jibunAddr": "강원특별자치도 태백시 황지동 24 대산하이츠빌",
+    "builder": "(주)대산종합건설",
+    "entrance": "혼합식",
+    "useArea": "16853.0499",
+    "bjdCode": "5119010100",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 161,
+      "u85": 85,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A23580009",
@@ -184,7 +406,21 @@
     "emd": "황지동",
     "sigunguCode": "51190",
     "sido": "강원특별자치도",
-    "sigungu": "태백시"
+    "sigungu": "태백시",
+    "jibunAddr": "강원특별자치도 태백시 황지동 220 유진1차아트빌",
+    "builder": "유진주택",
+    "entrance": "복도식",
+    "useArea": "16393.068",
+    "bjdCode": "5119010100",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 210,
+      "u85": 45,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A23580010",
@@ -195,7 +431,21 @@
     "emd": "황지동",
     "sigunguCode": "51190",
     "sido": "강원특별자치도",
-    "sigungu": "태백시"
+    "sigungu": "태백시",
+    "jibunAddr": "강원특별자치도 태백시 황지동 662 태백청솔아파트",
+    "builder": "성원건설",
+    "entrance": "복도식",
+    "useArea": "50910.355",
+    "bjdCode": "5119010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1327,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A23580011",
@@ -206,7 +456,21 @@
     "emd": "황지동",
     "sigunguCode": "51190",
     "sido": "강원특별자치도",
-    "sigungu": "태백시"
+    "sigungu": "태백시",
+    "jibunAddr": "강원특별자치도 태백시 황지동 678 예채1차아파트",
+    "builder": "(주)이원건설",
+    "entrance": "계단식",
+    "useArea": "24404.04",
+    "bjdCode": "5119010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 138,
+      "u135": 111,
+      "o135": 0
+    }
   },
   {
     "code": "A23580012",
@@ -217,7 +481,21 @@
     "emd": "황지동",
     "sigunguCode": "51190",
     "sido": "강원특별자치도",
-    "sigungu": "태백시"
+    "sigungu": "태백시",
+    "jibunAddr": "강원특별자치도 태백시 황지동 844 태백중앙하이츠아파트",
+    "builder": "(주)중앙건설",
+    "entrance": "계단식",
+    "useArea": "26166.186",
+    "bjdCode": "5119010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 98,
+      "u85": 288,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A23580201",
@@ -228,7 +506,21 @@
     "emd": "황지동",
     "sigunguCode": "51190",
     "sido": "강원특별자치도",
-    "sigungu": "태백시"
+    "sigungu": "태백시",
+    "jibunAddr": "강원특별자치도 태백시 황지동 403-5 선명3차아파트",
+    "builder": "선명건설",
+    "entrance": "복도식",
+    "useArea": "9873.897",
+    "bjdCode": "5119010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 165,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A23580306",
@@ -239,7 +531,21 @@
     "emd": "황지동",
     "sigunguCode": "51190",
     "sido": "강원특별자치도",
-    "sigungu": "태백시"
+    "sigungu": "태백시",
+    "jibunAddr": "강원특별자치도 태백시 황지동 665 상장현대아파트",
+    "builder": "현대산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "27186.6",
+    "bjdCode": "5119010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 330,
+      "u85": 90,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021443",
@@ -250,7 +556,21 @@
     "emd": "장성동",
     "sigunguCode": "51190",
     "sido": "강원특별자치도",
-    "sigungu": "태백시"
+    "sigungu": "태백시",
+    "jibunAddr": "강원특별자치도 태백시 장성동 133-1 홍익베스트빌",
+    "builder": "평강건설",
+    "entrance": "혼합식",
+    "useArea": "8588.9481",
+    "bjdCode": "5119010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 64,
+      "u85": 56,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022821",
@@ -261,7 +581,21 @@
     "emd": "장성동",
     "sigunguCode": "51190",
     "sido": "강원특별자치도",
-    "sigungu": "태백시"
+    "sigungu": "태백시",
+    "jibunAddr": "강원특별자치도 태백시 장성동 159-1 태백장성국민임대주택(탄탄마을)",
+    "builder": "효림종합건설(주)",
+    "entrance": "복도식",
+    "useArea": "6972.9",
+    "bjdCode": "5119010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 189,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025546",
@@ -272,7 +606,21 @@
     "emd": "장성동",
     "sigunguCode": "51190",
     "sido": "강원특별자치도",
-    "sigungu": "태백시"
+    "sigungu": "태백시",
+    "jibunAddr": "강원특별자치도 태백시 장성동 167-15 태백장성동아라이크텐",
+    "builder": "동아건설산업(주)",
+    "entrance": "계단식",
+    "useArea": "18814.5512",
+    "bjdCode": "5119010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 144,
+      "u135": 58,
+      "o135": 0
+    }
   },
   {
     "code": "A23570401",
@@ -283,7 +631,21 @@
     "emd": "장성동",
     "sigunguCode": "51190",
     "sido": "강원특별자치도",
-    "sigungu": "태백시"
+    "sigungu": "태백시",
+    "jibunAddr": "강원특별자치도 태백시 장성동 285 타워빌",
+    "builder": "신동아건설(주)",
+    "entrance": "혼합식",
+    "useArea": "19650.88",
+    "bjdCode": "5119010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 360,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A23571801",
@@ -294,7 +656,21 @@
     "emd": "철암동",
     "sigunguCode": "51190",
     "sido": "강원특별자치도",
-    "sigungu": "태백시"
+    "sigungu": "태백시",
+    "jibunAddr": "강원특별자치도 태백시 철암동 467 태백철암1아파트",
+    "builder": "(주)중도건설",
+    "entrance": "혼합식",
+    "useArea": "10094.12",
+    "bjdCode": "5119010400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 213,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A23512001",
@@ -305,7 +681,21 @@
     "emd": "문곡동",
     "sigunguCode": "51190",
     "sido": "강원특별자치도",
-    "sigungu": "태백시"
+    "sigungu": "태백시",
+    "jibunAddr": "강원특별자치도 태백시 문곡동 119 유브리안",
+    "builder": "주식회사 우영종합건설",
+    "entrance": "계단식",
+    "useArea": "13254.4912",
+    "bjdCode": "5119010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 156,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027655",
@@ -316,7 +706,21 @@
     "emd": "동점동",
     "sigunguCode": "51190",
     "sido": "강원특별자치도",
-    "sigungu": "태백시"
+    "sigungu": "태백시",
+    "jibunAddr": "강원특별자치도 태백시 동점동 74 동점아파트",
+    "builder": "대한주택공사",
+    "entrance": "계단식",
+    "useArea": "11916",
+    "bjdCode": "5119010600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 300,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020513",
@@ -327,7 +731,21 @@
     "emd": "소도동",
     "sigunguCode": "51190",
     "sido": "강원특별자치도",
-    "sigungu": "태백시"
+    "sigungu": "태백시",
+    "jibunAddr": "강원특별자치도 태백시 소도동 5-1 목련2차아파트",
+    "builder": "알수없음",
+    "entrance": "계단식",
+    "useArea": "6000",
+    "bjdCode": "5119010700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027521",
@@ -338,7 +756,21 @@
     "emd": "소도동",
     "sigunguCode": "51190",
     "sido": "강원특별자치도",
-    "sigungu": "태백시"
+    "sigungu": "태백시",
+    "jibunAddr": "강원특별자치도 태백시 소도동 340 태백소도LH천년나무1단지",
+    "builder": "SKT",
+    "entrance": "복도식",
+    "useArea": "13274.24",
+    "bjdCode": "5119010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 326,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A23502001",
@@ -349,7 +781,21 @@
     "emd": "화전동",
     "sigunguCode": "51190",
     "sido": "강원특별자치도",
-    "sigungu": "태백시"
+    "sigungu": "태백시",
+    "jibunAddr": "강원특별자치도 태백시 화전동 48-1 팔마",
+    "builder": "팔마종합건설(주)",
+    "entrance": "혼합식",
+    "useArea": "12954.6",
+    "bjdCode": "5119010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 132,
+      "u85": 60,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A23570501",
@@ -360,7 +806,21 @@
     "emd": "화전동",
     "sigunguCode": "51190",
     "sido": "강원특별자치도",
-    "sigungu": "태백시"
+    "sigungu": "태백시",
+    "jibunAddr": "강원특별자치도 태백시 화전동 328 브라이튼1차아파트",
+    "builder": "선명종합건설",
+    "entrance": "계단식",
+    "useArea": "7634.151",
+    "bjdCode": "5119010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 90,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A23570502",
@@ -371,6 +831,20 @@
     "emd": "화전동",
     "sigunguCode": "51190",
     "sido": "강원특별자치도",
-    "sigungu": "태백시"
+    "sigungu": "태백시",
+    "jibunAddr": "강원특별자치도 태백시 화전동 328 브라이튼2차아파트",
+    "builder": "선명종합건설",
+    "entrance": "계단식",
+    "useArea": "5391.648",
+    "bjdCode": "5119010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 90,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

@@ -8,7 +8,20 @@
     "emd": "괴산읍",
     "sigunguCode": "43760",
     "sido": "충청북도",
-    "sigungu": "괴산군"
+    "sigungu": "괴산군",
+    "jibunAddr": "충청북도 괴산군 괴산읍 동부리 523-1 더팰리스",
+    "builder": "(주)새늘토건",
+    "entrance": "복도식",
+    "useArea": "2632.6395",
+    "bjdCode": "4376025021",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 11,
+    "areaBreak": {
+      "u60": 108,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025094",
@@ -19,7 +32,21 @@
     "emd": "괴산읍",
     "sigunguCode": "43760",
     "sido": "충청북도",
-    "sigungu": "괴산군"
+    "sigungu": "괴산군",
+    "jibunAddr": "충청북도 괴산군 괴산읍 동부리 149 괴산동부LH행복마을아파트",
+    "builder": "한국토지주택공사",
+    "entrance": "복도식",
+    "useArea": "4819.76",
+    "bjdCode": "4376025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 8,
+    "areaBreak": {
+      "u60": 150,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027113",
@@ -30,7 +57,21 @@
     "emd": "괴산읍",
     "sigunguCode": "43760",
     "sido": "충청북도",
-    "sigungu": "괴산군"
+    "sigungu": "괴산군",
+    "jibunAddr": "충청북도 괴산군 괴산읍 동부리 812 괴산지안스로가아파트",
+    "builder": "지안스건설(주)",
+    "entrance": "계단식",
+    "useArea": "11207.9514",
+    "bjdCode": "4376025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 82,
+      "u85": 74,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36780002",
@@ -41,7 +82,21 @@
     "emd": "괴산읍",
     "sigunguCode": "43760",
     "sido": "충청북도",
-    "sigungu": "괴산군"
+    "sigungu": "괴산군",
+    "jibunAddr": "충청북도 괴산군 괴산읍 동부리 811 신성미소지움",
+    "builder": "신성건설",
+    "entrance": "계단식",
+    "useArea": "13067.8922",
+    "bjdCode": "4376025021",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 55,
+      "u85": 115,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36780502",
@@ -52,7 +107,21 @@
     "emd": "괴산읍",
     "sigunguCode": "43760",
     "sido": "충청북도",
-    "sigungu": "괴산군"
+    "sigungu": "괴산군",
+    "jibunAddr": "충청북도 괴산군 괴산읍 동부리 795 괴산동부",
+    "builder": "(합)성화종합건설",
+    "entrance": "혼합식",
+    "useArea": "15524.02",
+    "bjdCode": "4376025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 310,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36780001",
@@ -63,7 +132,21 @@
     "emd": "괴산읍",
     "sigunguCode": "43760",
     "sido": "충청북도",
-    "sigungu": "괴산군"
+    "sigungu": "괴산군",
+    "jibunAddr": "충청북도 괴산군 괴산읍 서부리 277-5 괴산 태광아파트",
+    "builder": "태광건설",
+    "entrance": "계단식",
+    "useArea": "7588.2",
+    "bjdCode": "4376025022",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 101,
+      "u85": 18,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020172",
@@ -74,6 +157,19 @@
     "emd": "괴산읍",
     "sigunguCode": "43760",
     "sido": "충청북도",
-    "sigungu": "괴산군"
+    "sigungu": "괴산군",
+    "jibunAddr": "충청북도 괴산군 괴산읍 대사리 177-1 괴산두진백로아파트",
+    "builder": "(주)두진공영",
+    "entrance": "복도식",
+    "useArea": "4895.4",
+    "bjdCode": "4376025030",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "areaBreak": {
+      "u60": 123,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

@@ -8,6 +8,20 @@
     "emd": "진도읍",
     "sigunguCode": "46900",
     "sido": "전라남도",
-    "sigungu": "진도군"
+    "sigungu": "진도군",
+    "jibunAddr": "전라남도 진도군 진도읍 동외리 1338 진도동외 LH 아파트",
+    "builder": "한국토지주택공사",
+    "entrance": "복도식",
+    "useArea": "4986.44",
+    "bjdCode": "4690025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 8,
+    "areaBreak": {
+      "u60": 150,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

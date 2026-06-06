@@ -8,7 +8,21 @@
     "emd": "백석동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 백석동 132-5 검암역 로열파크씨티푸르지오2단지",
+    "builder": "대우건설",
+    "entrance": "계단식",
+    "useArea": "188897.0674",
+    "bjdCode": "2826010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 40,
+    "areaBreak": {
+      "u60": 514,
+      "u85": 1668,
+      "u135": 233,
+      "o135": 11
+    }
   },
   {
     "code": "A10023138",
@@ -19,7 +33,21 @@
     "emd": "백석동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 백석동 173-3 검암역 로열파크씨티푸르지오1단지",
+    "builder": "대우건설",
+    "entrance": "계단식",
+    "useArea": "181071.6857",
+    "bjdCode": "2826010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 40,
+    "areaBreak": {
+      "u60": 684,
+      "u85": 1493,
+      "u135": 191,
+      "o135": 11
+    }
   },
   {
     "code": "A40470703",
@@ -30,7 +58,21 @@
     "emd": "검암동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 검암동 629-1 검암1차신명스카이뷰",
+    "builder": "신명종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "22018.338",
+    "bjdCode": "2826010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 30,
+      "u85": 238,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40479811",
@@ -41,7 +83,21 @@
     "emd": "검암동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 검암동 511 은빛마을풍림1차",
+    "builder": "풍림건설",
+    "entrance": "계단식",
+    "useArea": "24043.7052",
+    "bjdCode": "2826010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 210,
+      "u135": 70,
+      "o135": 0
+    }
   },
   {
     "code": "A40484701",
@@ -52,7 +108,21 @@
     "emd": "검암동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 검암동 595-5 검암마젤란21",
+    "builder": "(주)유진기업",
+    "entrance": "계단식",
+    "useArea": "16209.84",
+    "bjdCode": "2826010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 138,
+      "u135": 38,
+      "o135": 0
+    }
   },
   {
     "code": "A40484702",
@@ -63,7 +133,21 @@
     "emd": "검암동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 검암동 628 검암1차삼보해피하임",
+    "builder": "삼보공영개발(주)",
+    "entrance": "계단식",
+    "useArea": "19737.3128",
+    "bjdCode": "2826010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 16,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 252,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40484704",
@@ -74,7 +158,21 @@
     "emd": "검암동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 검암동 605-1 검암해들마을신명3차",
+    "builder": "신명종합건설",
+    "entrance": "계단식",
+    "useArea": "22405.1358",
+    "bjdCode": "2826010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 62,
+      "u85": 220,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40484705",
@@ -85,7 +183,21 @@
     "emd": "검암동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 검암동 512-1 검암2차삼보해피하임",
+    "builder": "삼보공영개발(주)",
+    "entrance": "계단식",
+    "useArea": "22975.1896",
+    "bjdCode": "2826010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 288,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40484706",
@@ -96,7 +208,21 @@
     "emd": "검암동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 검암동 535-2 검암신명4차",
+    "builder": "신명종합건설",
+    "entrance": "계단식",
+    "useArea": "26307.1168",
+    "bjdCode": "2826010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 311,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40484707",
@@ -107,7 +233,21 @@
     "emd": "검암동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 검암동 535-1 검암신명2차",
+    "builder": "신명종합건설",
+    "entrance": "계단식",
+    "useArea": "27613.95",
+    "bjdCode": "2826010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 325,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40484708",
@@ -118,7 +258,21 @@
     "emd": "검암동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 검암동 512-2 검암풍림3차",
+    "builder": "풍림산업(주)",
+    "entrance": "계단식",
+    "useArea": "25092.9668",
+    "bjdCode": "2826010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 154,
+      "u85": 187,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40484709",
@@ -129,7 +283,21 @@
     "emd": "검암동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 검암동 501-1 검암2차풍림아이원",
+    "builder": "풍림산업(주)",
+    "entrance": "계단식",
+    "useArea": "55632.63",
+    "bjdCode": "2826010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 128,
+      "u85": 590,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40484710",
@@ -140,7 +308,21 @@
     "emd": "검암동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 검암동 595-3 검암서해그랑블",
+    "builder": "서해종합건설",
+    "entrance": "계단식",
+    "useArea": "73247.9516",
+    "bjdCode": "2826010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 950,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023917",
@@ -151,7 +333,21 @@
     "emd": "경서동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 경서동 1032 북청라하우스토리",
+    "builder": "남광토건(주)",
+    "entrance": "계단식",
+    "useArea": "25769.2642",
+    "bjdCode": "2826010400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 430,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026618",
@@ -162,7 +358,21 @@
     "emd": "경서동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 경서동 994 아시아드 대광로제비앙",
+    "builder": "(주)대광건영",
+    "entrance": "계단식",
+    "useArea": "62941.0566",
+    "bjdCode": "2826010400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 587,
+      "u135": 133,
+      "o135": 0
+    }
   },
   {
     "code": "A40417001",
@@ -173,7 +383,21 @@
     "emd": "경서동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 경서동 719-3 경서우정에쉐르",
+    "builder": "우정건설주식회사",
+    "entrance": "계단식",
+    "useArea": "22918.1536",
+    "bjdCode": "2826010400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 72,
+      "u85": 220,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40470903",
@@ -184,7 +408,21 @@
     "emd": "경서동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 경서동 722-1 태평샹베르1차아파트",
+    "builder": "(주)태평주택",
+    "entrance": "계단식",
+    "useArea": "47001.334",
+    "bjdCode": "2826010400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 132,
+      "u85": 376,
+      "u135": 64,
+      "o135": 0
+    }
   },
   {
     "code": "A40471902",
@@ -195,7 +433,21 @@
     "emd": "경서동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 경서동 727-1 가이아샹베르2차아파트",
+    "builder": "가이아 건설(주),세계건설(주)",
+    "entrance": "계단식",
+    "useArea": "44149.1968",
+    "bjdCode": "2826010400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 128,
+      "u85": 432,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40420001",
@@ -206,7 +458,21 @@
     "emd": "공촌동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 공촌동 314 공촌 경남 아파트",
+    "builder": "경남기업",
+    "entrance": "계단식",
+    "useArea": "17899.52",
+    "bjdCode": "2826010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 72,
+      "u85": 160,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40420002",
@@ -217,7 +483,21 @@
     "emd": "공촌동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 공촌동 318-1 연희18차광명아파트",
+    "builder": "광명주택",
+    "entrance": "계단식",
+    "useArea": "24747.06",
+    "bjdCode": "2826010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 65,
+      "u85": 212,
+      "u135": 22,
+      "o135": 0
+    }
   },
   {
     "code": "A10020987",
@@ -228,7 +508,21 @@
     "emd": "연희동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 연희동 682-14 연희2차한국아파트",
+    "builder": "한국종합건설(주)",
+    "entrance": "혼합식",
+    "useArea": "8172.19",
+    "bjdCode": "2826010600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 80,
+      "u85": 40,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40483603",
@@ -239,7 +533,21 @@
     "emd": "연희동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 연희동 682 연희중앙",
+    "builder": "중앙공영(주)",
+    "entrance": "혼합식",
+    "useArea": "9752.995",
+    "bjdCode": "2826010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 294,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40483604",
@@ -250,7 +558,21 @@
     "emd": "연희동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 연희동 682-12 연희한국1차",
+    "builder": "한국종합건설(주)",
+    "entrance": "혼합식",
+    "useArea": "28256.52",
+    "bjdCode": "2826010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 148,
+      "u85": 164,
+      "u135": 44,
+      "o135": 0
+    }
   },
   {
     "code": "A40483605",
@@ -261,7 +583,21 @@
     "emd": "연희동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 연희동 690 연희태영데시앙",
+    "builder": "태영",
+    "entrance": "혼합식",
+    "useArea": "27476",
+    "bjdCode": "2826010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 220,
+      "u85": 170,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40483701",
@@ -272,7 +608,21 @@
     "emd": "연희동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 연희동 701-1 연희해드림",
+    "builder": "영동건설",
+    "entrance": "복도식",
+    "useArea": "10199.1",
+    "bjdCode": "2826010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 250,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40483806",
@@ -283,7 +633,21 @@
     "emd": "연희동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 연희동 729-1 연희우성",
+    "builder": "(주)우성건설",
+    "entrance": "복도식",
+    "useArea": "30563.536",
+    "bjdCode": "2826010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 168,
+      "u85": 242,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022955",
@@ -295,7 +659,21 @@
     "sigunguCode": "28260",
     "sido": "인천광역시",
     "sigungu": "서구",
-    "hhldCnt": 510
+    "hhldCnt": 510,
+    "jibunAddr": "인천광역시 서구 심곡동 0 가정2지구1단지행복주택",
+    "builder": "태평양개발",
+    "entrance": "복도식",
+    "useArea": "16614.3",
+    "bjdCode": "2826010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40479104",
@@ -306,7 +684,21 @@
     "emd": "심곡동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 심곡동 259-2 연희극동늘푸른 아파트",
+    "builder": "극동건설",
+    "entrance": "계단식",
+    "useArea": "72659.08",
+    "bjdCode": "2826010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 480,
+      "u85": 518,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40479205",
@@ -317,7 +709,21 @@
     "emd": "심곡동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 심곡동 285 연희 대동주택 아파트",
+    "builder": "대동주택",
+    "entrance": "혼합식",
+    "useArea": "73757.44",
+    "bjdCode": "2826010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 576,
+      "u85": 472,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40483401",
@@ -328,7 +734,21 @@
     "emd": "심곡동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 심곡동 302 심곡 한국 아파트",
+    "builder": "한국종합건설",
+    "entrance": "혼합식",
+    "useArea": "32630.34",
+    "bjdCode": "2826010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 152,
+      "u85": 164,
+      "u135": 76,
+      "o135": 0
+    }
   },
   {
     "code": "A40483502",
@@ -339,7 +759,21 @@
     "emd": "심곡동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 심곡동 330-1 연희삼성아파트",
+    "builder": "삼성물산",
+    "entrance": "계단식",
+    "useArea": "31439.586",
+    "bjdCode": "2826010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 172,
+      "u85": 249,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40483503",
@@ -350,7 +784,21 @@
     "emd": "심곡동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 심곡동 336-1 연희광명17차아파트",
+    "builder": "광명주택",
+    "entrance": "계단식",
+    "useArea": "44583.72",
+    "bjdCode": "2826010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 266,
+      "u85": 338,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40483602",
@@ -361,7 +809,21 @@
     "emd": "심곡동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 심곡동 287 연희동남아파트",
+    "builder": "동남기업",
+    "entrance": "혼합식",
+    "useArea": "19737.6",
+    "bjdCode": "2826010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 160,
+      "u85": 120,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020922",
@@ -372,7 +834,21 @@
     "emd": "가정동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 가정동 341-13 가정동 하나1차아파트",
+    "builder": "(주)한국공영",
+    "entrance": "계단식",
+    "useArea": "17336.52",
+    "bjdCode": "2826010800",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 156,
+      "u85": 96,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020966",
@@ -383,7 +859,21 @@
     "emd": "가정동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 가정동 17-9 현광아파트",
+    "builder": "현광",
+    "entrance": "계단식",
+    "useArea": "6374.16",
+    "bjdCode": "2826010800",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 144,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022850",
@@ -394,7 +884,21 @@
     "emd": "가정동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 가정동  가정2지구3단지",
+    "builder": "(주)만훈",
+    "entrance": "복도식",
+    "useArea": "7042.26",
+    "bjdCode": "2826010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 246,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023140",
@@ -405,7 +909,21 @@
     "emd": "가정동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 가정동  루원 린스트라우스 더 린시티",
+    "builder": "(주)우미건설",
+    "entrance": "계단식",
+    "useArea": "119667.5953",
+    "bjdCode": "2826010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 47,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1412,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023254",
@@ -416,7 +934,21 @@
     "emd": "가정동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 가정동 539 루원대성베르힐더센트로",
+    "builder": "디에스종합건설",
+    "entrance": "계단식",
+    "useArea": "94454.4552",
+    "bjdCode": "2826010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 48,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 869,
+      "u135": 164,
+      "o135": 26
+    }
   },
   {
     "code": "A10023403",
@@ -427,7 +959,21 @@
     "emd": "가정동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 가정동  루원시티2차SK리더스뷰아파트",
+    "builder": "SK에코플랜트",
+    "entrance": "계단식",
+    "useArea": "151273.0993",
+    "bjdCode": "2826010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 46,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1789,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023430",
@@ -438,7 +984,21 @@
     "emd": "가정동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 가정동  포레나루원시티아파트",
+    "builder": "한화건설",
+    "entrance": "계단식",
+    "useArea": "85899.9846",
+    "bjdCode": "2826010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 348,
+      "u85": 780,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023497",
@@ -449,7 +1009,21 @@
     "emd": "가정동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 가정동 577-2 루원지웰시티푸르지오 아파트",
+    "builder": "대우건설",
+    "entrance": "계단식",
+    "useArea": "65780.4324",
+    "bjdCode": "2826010800",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 49,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 778,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023964",
@@ -460,7 +1034,21 @@
     "emd": "가정동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 가정동  루원시티 SK리더스뷰",
+    "builder": "SK에코플랜트",
+    "entrance": "계단식",
+    "useArea": "202685.562",
+    "bjdCode": "2826010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 45,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 2214,
+      "u135": 164,
+      "o135": 0
+    }
   },
   {
     "code": "A10025224",
@@ -471,7 +1059,21 @@
     "emd": "가정동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 가정동 597-1 루원더퍼스트아파트",
+    "builder": "제일건설(주),남양건설(주),",
+    "entrance": "계단식",
+    "useArea": "42983.41",
+    "bjdCode": "2826010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 300,
+      "u85": 316,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026254",
@@ -482,7 +1084,21 @@
     "emd": "가정동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 가정동 603-1 루원제일풍경채아파트",
+    "builder": "제일건설(주)",
+    "entrance": "계단식",
+    "useArea": "71917.4766",
+    "bjdCode": "2826010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 900,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026367",
@@ -493,7 +1109,21 @@
     "emd": "가정동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 가정동 610-1 루원시티프라디움아파트",
+    "builder": "시티건설",
+    "entrance": "계단식",
+    "useArea": "137857.8262",
+    "bjdCode": "2826010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1470,
+      "u135": 128,
+      "o135": 0
+    }
   },
   {
     "code": "A10026574",
@@ -504,7 +1134,21 @@
     "emd": "가정동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 가정동 609-1 루원 호반베르디움 더센트럴아파트",
+    "builder": "(주)호반건설산업",
+    "entrance": "계단식",
+    "useArea": "76142.783",
+    "bjdCode": "2826010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 980,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027589",
@@ -515,7 +1159,21 @@
     "emd": "가정동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 가정동 21-21 한국지엠(주)사원임대아파트",
+    "builder": "대우건설",
+    "entrance": "계단식",
+    "useArea": "11430.6",
+    "bjdCode": "2826010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 320,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027936",
@@ -526,7 +1184,21 @@
     "emd": "가정동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 가정동 58-22 루원시티 어울림",
+    "builder": "금호건설 등",
+    "entrance": "계단식",
+    "useArea": "90862.53",
+    "bjdCode": "2826010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 443,
+      "u85": 800,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40423001",
@@ -537,7 +1209,21 @@
     "emd": "가정동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 가정동 604-1 가정LH3단지",
+    "builder": "한진중공업",
+    "entrance": "혼합식",
+    "useArea": "61264.57",
+    "bjdCode": "2826010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 1525,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40423002",
@@ -548,7 +1234,21 @@
     "emd": "가정동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 가정동 523-2 예뜰채",
+    "builder": "태훈",
+    "entrance": "계단식",
+    "useArea": "8213.4604",
+    "bjdCode": "2826010800",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 1,
+      "u85": 72,
+      "u135": 20,
+      "o135": 0
+    }
   },
   {
     "code": "A40423201",
@@ -559,7 +1259,21 @@
     "emd": "가정동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 가정동 341-15 가정하나3차아파트",
+    "builder": "한국공영",
+    "entrance": "혼합식",
+    "useArea": "22041.78",
+    "bjdCode": "2826010800",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 108,
+      "u85": 106,
+      "u135": 60,
+      "o135": 0
+    }
   },
   {
     "code": "A40423205",
@@ -570,7 +1284,21 @@
     "emd": "가정동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 가정동 341-14 가정 하나2차 아파트",
+    "builder": "한국공영",
+    "entrance": "혼합식",
+    "useArea": "34433.7",
+    "bjdCode": "2826010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 240,
+      "u85": 255,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40470401",
@@ -581,7 +1309,21 @@
     "emd": "가정동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 가정동 567 가정 한국 아파트",
+    "builder": "한국종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "59831.08",
+    "bjdCode": "2826010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 464,
+      "u135": 116,
+      "o135": 40
+    }
   },
   {
     "code": "A40471206",
@@ -592,7 +1334,21 @@
     "emd": "가정동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 가정동 284-401 가정 뉴서울 아파트",
+    "builder": "뉴서울건설",
+    "entrance": "복도식",
+    "useArea": "34706.7",
+    "bjdCode": "2826010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 345,
+      "u85": 210,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026262",
@@ -603,7 +1359,21 @@
     "emd": "신현동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 신현동 304-2 루원시티 루에블리",
+    "builder": "삼환기업",
+    "entrance": "계단식",
+    "useArea": "39178.44",
+    "bjdCode": "2826010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 686,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026479",
@@ -614,7 +1384,21 @@
     "emd": "신현동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 신현동 306-1 루원시티센트럴타운아파트",
+    "builder": "남양건설(주)",
+    "entrance": "계단식",
+    "useArea": "55000.66",
+    "bjdCode": "2826010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 196,
+      "u85": 547,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026702",
@@ -625,7 +1409,21 @@
     "emd": "신현동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 신현동 304-1 루원시티대성베르힐",
+    "builder": "대성베르힐건설(주) 디에스종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "99269.8901",
+    "bjdCode": "2826010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 867,
+      "u135": 280,
+      "o135": 0
+    }
   },
   {
     "code": "A40478504",
@@ -636,7 +1434,21 @@
     "emd": "신현동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 신현동 302-1 루원e편한세상하늘채",
+    "builder": "대림, 코오롱",
+    "entrance": "계단식",
+    "useArea": "326048.027",
+    "bjdCode": "2826010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 33,
+    "areaBreak": {
+      "u60": 699,
+      "u85": 1346,
+      "u135": 776,
+      "o135": 510
+    }
   },
   {
     "code": "A40483002",
@@ -647,7 +1459,21 @@
     "emd": "신현동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 신현동 151-3 신현효성아파트",
+    "builder": "효성중공업(주)",
+    "entrance": "계단식",
+    "useArea": "33494.46",
+    "bjdCode": "2826010900",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 452,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40483101",
@@ -658,7 +1484,21 @@
     "emd": "신현동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 신현동 200-4 신현 원흥 아파트",
+    "builder": "원흥건설",
+    "entrance": "복도식",
+    "useArea": "11644.46",
+    "bjdCode": "2826010900",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 65,
+      "u85": 118,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020167",
@@ -669,7 +1509,20 @@
     "emd": "석남동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 석남동 522-3 보광네오센스아파트",
+    "builder": "(주)보광종합건설",
+    "entrance": "계단식",
+    "useArea": "8814.96",
+    "bjdCode": "2826011000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "areaBreak": {
+      "u60": 0,
+      "u85": 92,
+      "u135": 0,
+      "o135": 8
+    }
   },
   {
     "code": "A10020772",
@@ -680,7 +1533,21 @@
     "emd": "석남동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 석남동 491-3 석남브라운스톤더프라임",
+    "builder": "이수건설",
+    "entrance": "계단식",
+    "useArea": "34356.5115",
+    "bjdCode": "2826011000",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020825",
@@ -691,7 +1558,21 @@
     "emd": "석남동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 석남동 485- 석남신광1차아파트",
+    "builder": "신광",
+    "entrance": "복도식",
+    "useArea": "7938.71",
+    "bjdCode": "2826011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 134,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40422001",
@@ -702,7 +1583,21 @@
     "emd": "석남동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 석남동 206 석남 신광2차 아파트",
+    "builder": "신광산업종합개발",
+    "entrance": "복도식",
+    "useArea": "11199.27",
+    "bjdCode": "2826011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 191,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40422003",
@@ -713,7 +1608,21 @@
     "emd": "석남동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 석남동 208-1 석남 동남 아파트",
+    "builder": "LG U+",
+    "entrance": "계단식",
+    "useArea": "17243.28",
+    "bjdCode": "2826011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 360,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40482201",
@@ -724,7 +1633,21 @@
     "emd": "석남동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 석남동 209 석남 대명 아파트",
+    "builder": "(주)대명건설",
+    "entrance": "혼합식",
+    "useArea": "8698.72",
+    "bjdCode": "2826011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 184,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40482301",
@@ -735,7 +1658,21 @@
     "emd": "석남동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 석남동 486-1 석남 신동아 아파트",
+    "builder": "태창주택",
+    "entrance": "복도식",
+    "useArea": "11396.2",
+    "bjdCode": "2826011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 190,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40482302",
@@ -746,7 +1683,21 @@
     "emd": "석남동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 석남동 109-55 석남태화아파트",
+    "builder": "태화건설(주)",
+    "entrance": "혼합식",
+    "useArea": "20309.77",
+    "bjdCode": "2826011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 299,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40482402",
@@ -757,7 +1708,21 @@
     "emd": "석남동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 석남동 446 서인천 월드메르디앙아파트",
+    "builder": "재건축조합",
+    "entrance": "계단식",
+    "useArea": "64341.3567",
+    "bjdCode": "2826011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 172,
+      "u85": 511,
+      "u135": 95,
+      "o135": 0
+    }
   },
   {
     "code": "A40482703",
@@ -768,7 +1733,21 @@
     "emd": "석남동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 석남동 532 석남 금호어울림",
+    "builder": "금호건설(주)",
+    "entrance": "계단식",
+    "useArea": "62665.1803",
+    "bjdCode": "2826011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 28,
+    "areaBreak": {
+      "u60": 206,
+      "u85": 461,
+      "u135": 102,
+      "o135": 0
+    }
   },
   {
     "code": "A40482901",
@@ -779,7 +1758,21 @@
     "emd": "석남동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 석남동 588 석남 우림필유",
+    "builder": "우림건설(주)",
+    "entrance": "계단식",
+    "useArea": "22128.1152",
+    "bjdCode": "2826011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 27,
+    "areaBreak": {
+      "u60": 63,
+      "u85": 225,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40482902",
@@ -790,7 +1783,21 @@
     "emd": "석남동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 석남동 593 석남 경남아너스빌",
+    "builder": "경남건설",
+    "entrance": "혼합식",
+    "useArea": "35670.09",
+    "bjdCode": "2826011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 149,
+      "u85": 322,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023028",
@@ -801,7 +1808,21 @@
     "emd": "가좌동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 가좌동 627 가재울역트루엘에코시티아파트",
+    "builder": "일성건설(주)",
+    "entrance": "계단식",
+    "useArea": "79239.46",
+    "bjdCode": "2826011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 725,
+      "u85": 493,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026638",
@@ -812,7 +1833,21 @@
     "emd": "가좌동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 가좌동 611 가좌두산위브트레지움1,2단지아파트",
+    "builder": "두산건설",
+    "entrance": "계단식",
+    "useArea": "115341.76",
+    "bjdCode": "2826011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 27,
+    "areaBreak": {
+      "u60": 992,
+      "u85": 765,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40425302",
@@ -823,7 +1858,21 @@
     "emd": "가좌동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 가좌동 217 가좌신현대아파트",
+    "builder": "신현대주택",
+    "entrance": "계단식",
+    "useArea": "25019.215",
+    "bjdCode": "2826011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 164,
+      "u85": 179,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40476201",
@@ -834,7 +1883,21 @@
     "emd": "가좌동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 가좌동 30-102 가좌 진주5단지 아파트",
+    "builder": "라이프주택(주)",
+    "entrance": "계단식",
+    "useArea": "29001.1",
+    "bjdCode": "2826011200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 175,
+      "u135": 3,
+      "o135": 90
+    }
   },
   {
     "code": "A40476203",
@@ -845,7 +1908,21 @@
     "emd": "가좌동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 가좌동 30-100 가좌 진주4단지 아파트",
+    "builder": "라이프주택건설",
+    "entrance": "계단식",
+    "useArea": "32467.76",
+    "bjdCode": "2826011200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 163,
+      "u135": 15,
+      "o135": 124
+    }
   },
   {
     "code": "A40476206",
@@ -856,7 +1933,21 @@
     "emd": "가좌동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 가좌동 30-4 가좌 진주2단지 아파트",
+    "builder": "라이프건설",
+    "entrance": "혼합식",
+    "useArea": "54147.24",
+    "bjdCode": "2826011200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 224,
+      "u85": 252,
+      "u135": 168,
+      "o135": 0
+    }
   },
   {
     "code": "A40476207",
@@ -867,7 +1958,21 @@
     "emd": "가좌동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 가좌동 30-2 가좌 진주1단지 아파트",
+    "builder": "라이프주택",
+    "entrance": "복도식",
+    "useArea": "36029.44",
+    "bjdCode": "2826011200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 686,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40476209",
@@ -878,7 +1983,21 @@
     "emd": "가좌동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 가좌동 30-86 가좌 진주3단지 아파트",
+    "builder": "라이프 주택개발(주)",
+    "entrance": "혼합식",
+    "useArea": "48019.1",
+    "bjdCode": "2826011200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 592,
+      "u85": 206,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40480704",
@@ -889,7 +2008,21 @@
     "emd": "가좌동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 가좌동 81-22 가좌현대아파트",
+    "builder": "현대산업개발",
+    "entrance": "계단식",
+    "useArea": "39090.8",
+    "bjdCode": "2826011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 460,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40480705",
@@ -900,7 +2033,21 @@
     "emd": "가좌동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 가좌동 81-59 가좌 범양파크 아파트",
+    "builder": "범양건설(주)",
+    "entrance": "계단식",
+    "useArea": "51378.9",
+    "bjdCode": "2826011200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 300,
+      "u135": 90,
+      "o135": 120
+    }
   },
   {
     "code": "A40480710",
@@ -911,7 +2058,21 @@
     "emd": "가좌동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 가좌동 7 가좌 한신휴플러스아파트",
+    "builder": "한신공영(주)",
+    "entrance": "계단식",
+    "useArea": "193044.4",
+    "bjdCode": "2826011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 542,
+      "u85": 1279,
+      "u135": 311,
+      "o135": 144
+    }
   },
   {
     "code": "A40480901",
@@ -922,7 +2083,21 @@
     "emd": "가좌동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 가좌동 122-2 가좌 현대3차 아파트",
+    "builder": "현대건설",
+    "entrance": "혼합식",
+    "useArea": "19039.5",
+    "bjdCode": "2826011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 131,
+      "u85": 132,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40481303",
@@ -933,7 +2108,21 @@
     "emd": "가좌동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 가좌동 214 가좌 풍림 아파트",
+    "builder": "(주)창보종합건설",
+    "entrance": "계단식",
+    "useArea": "25930.58",
+    "bjdCode": "2826011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 178,
+      "u85": 180,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40481601",
@@ -944,7 +2133,21 @@
     "emd": "가좌동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 가좌동 407 가좌 유영그랑빌아파트",
+    "builder": "유영건설",
+    "entrance": "계단식",
+    "useArea": "10662.168",
+    "bjdCode": "2826011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 200,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020943",
@@ -955,7 +2158,21 @@
     "emd": "마전동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 마전동 916- 목화아파트 ",
+    "builder": "주식회사 동문주택",
+    "entrance": "계단식",
+    "useArea": "16595.7",
+    "bjdCode": "2826011300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 260,
+      "u85": 40,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020953",
@@ -966,7 +2183,21 @@
     "emd": "마전동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 마전동 920- 장미아파트",
+    "builder": "선우공영",
+    "entrance": "계단식",
+    "useArea": "11601.45",
+    "bjdCode": "2826011300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 260,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022482",
@@ -977,7 +2208,21 @@
     "emd": "마전동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 마전동 1151- 마전풍림아이원2차아파트",
+    "builder": "풍림아이원",
+    "entrance": "계단식",
+    "useArea": "9155.523",
+    "bjdCode": "2826011300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1,
+      "u85": 108,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023072",
@@ -988,7 +2233,21 @@
     "emd": "마전동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 마전동 928-17 미래지향아파트",
+    "builder": "이지종합건설 주식회사",
+    "entrance": "계단식",
+    "useArea": "10845.4166",
+    "bjdCode": "2826011300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 128,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023074",
@@ -999,7 +2258,21 @@
     "emd": "마전동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 마전동 922-2 동남아파트",
+    "builder": "동남기업(주)",
+    "entrance": "계단식",
+    "useArea": "8899.7314",
+    "bjdCode": "2826011300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 56,
+      "u85": 28,
+      "u135": 27,
+      "o135": 0
+    }
   },
   {
     "code": "A10023902",
@@ -1010,7 +2283,21 @@
     "emd": "마전동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 마전동 1131-1 검단양우내안애퍼스트힐",
+    "builder": "양우건설",
+    "entrance": "계단식",
+    "useArea": "39020.8689",
+    "bjdCode": "2826011300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 273,
+      "u85": 272,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026092",
@@ -1021,7 +2308,21 @@
     "emd": "마전동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 마전동 996-1 검단2차 우방아이유쉘아파트",
+    "builder": "에스엠상선(주) 건설부문",
+    "entrance": "계단식",
+    "useArea": "26479.2607",
+    "bjdCode": "2826011300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 231,
+      "u85": 149,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40426001",
@@ -1032,7 +2333,21 @@
     "emd": "마전동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 마전동 49-1 마전 금호어울림",
+    "builder": "금호산업(주)",
+    "entrance": "계단식",
+    "useArea": "13466.0304",
+    "bjdCode": "2826011300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 163,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40426004",
@@ -1043,7 +2358,21 @@
     "emd": "마전동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 마전동 50-1 마전풍림아이원1차",
+    "builder": "풍림산업",
+    "entrance": "계단식",
+    "useArea": "24191.7504",
+    "bjdCode": "2826011300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 286,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40426006",
@@ -1054,7 +2383,21 @@
     "emd": "마전동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 마전동 43-2 마전대원레스피아2차",
+    "builder": "대원산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "24493.743",
+    "bjdCode": "2826011300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 76,
+      "u85": 235,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40426007",
@@ -1065,7 +2408,21 @@
     "emd": "마전동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 마전동 344-2 마전대주파크빌",
+    "builder": "(주)대주건설",
+    "entrance": "계단식",
+    "useArea": "28248.194",
+    "bjdCode": "2826011300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 346,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40426010",
@@ -1076,7 +2433,21 @@
     "emd": "마전동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 마전동 49-4 마전대원레스피아1차",
+    "builder": "대원산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "34213.394",
+    "bjdCode": "2826011300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 68,
+      "u85": 355,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40426011",
@@ -1087,7 +2458,21 @@
     "emd": "마전동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 마전동 999-11 검단우림필유",
+    "builder": "(주)우림건설",
+    "entrance": "계단식",
+    "useArea": "35582.3637",
+    "bjdCode": "2826011300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 90,
+      "u85": 285,
+      "u135": 54,
+      "o135": 0
+    }
   },
   {
     "code": "A40426012",
@@ -1098,7 +2483,21 @@
     "emd": "마전동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 마전동 686-118 검단서해아파트",
+    "builder": "서해건설",
+    "entrance": "계단식",
+    "useArea": "26557.88",
+    "bjdCode": "2826011300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리(직영+위탁)",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 464,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40426013",
@@ -1109,7 +2508,21 @@
     "emd": "마전동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 마전동 997-3 검단힐스테이트",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "39510.3942",
+    "bjdCode": "2826011300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 407,
+      "u135": 58,
+      "o135": 0
+    }
   },
   {
     "code": "A40426015",
@@ -1120,7 +2533,21 @@
     "emd": "마전동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 마전동 998-1 검단아이파크",
+    "builder": "현대산업개발",
+    "entrance": "계단식",
+    "useArea": "49539.5427",
+    "bjdCode": "2826011300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 522,
+      "u135": 51,
+      "o135": 0
+    }
   },
   {
     "code": "A40426016",
@@ -1131,7 +2558,21 @@
     "emd": "마전동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 마전동 1055-1 당하3차풍림아이원",
+    "builder": "풍림산업",
+    "entrance": "계단식",
+    "useArea": "43262.6262",
+    "bjdCode": "2826011300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 237,
+      "u85": 342,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40426017",
@@ -1142,7 +2583,21 @@
     "emd": "마전동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 마전동 1029-2 검단1차피오레",
+    "builder": "대주건설",
+    "entrance": "계단식",
+    "useArea": "84221.6238",
+    "bjdCode": "2826011300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 741,
+      "u135": 176,
+      "o135": 0
+    }
   },
   {
     "code": "A40472719",
@@ -1153,7 +2608,21 @@
     "emd": "마전동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 마전동 1003-1 마전동아",
+    "builder": "동아건설(주)",
+    "entrance": "계단식",
+    "useArea": "114806.38",
+    "bjdCode": "2826011300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 478,
+      "u85": 633,
+      "u135": 240,
+      "o135": 0
+    }
   },
   {
     "code": "A40472809",
@@ -1164,7 +2633,21 @@
     "emd": "마전동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 마전동 1004 마전현대",
+    "builder": "현대산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "31969.44",
+    "bjdCode": "2826011300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 135,
+      "u85": 282,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40473018",
@@ -1175,7 +2658,21 @@
     "emd": "마전동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 마전동 639 마전영남탑스빌",
+    "builder": "영남건설",
+    "entrance": "계단식",
+    "useArea": "136171.16",
+    "bjdCode": "2826011300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 394,
+      "u135": 124,
+      "o135": 524
+    }
   },
   {
     "code": "A40473108",
@@ -1186,7 +2683,21 @@
     "emd": "마전동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 마전동 1053 당하2차풍림아이원",
+    "builder": "풍림산업(주)",
+    "entrance": "계단식",
+    "useArea": "31987.712",
+    "bjdCode": "2826011300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 80,
+      "u85": 320,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40473120",
@@ -1197,7 +2708,21 @@
     "emd": "마전동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 마전동 48-1 마전풍림아이원3차",
+    "builder": "풍림산업개발",
+    "entrance": "계단식",
+    "useArea": "26162.6901",
+    "bjdCode": "2826011300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 309,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40473121",
@@ -1208,7 +2733,21 @@
     "emd": "마전동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 마전동 999-18 검단2차풍림아이원",
+    "builder": "풍림산업",
+    "entrance": "계단식",
+    "useArea": "14763.813",
+    "bjdCode": "2826011300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 174,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40473122",
@@ -1219,7 +2758,21 @@
     "emd": "마전동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 마전동 928-33 미래지향2차아파트",
+    "builder": "이지종합건설",
+    "entrance": "계단식",
+    "useArea": "6713.3327",
+    "bjdCode": "2826011300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 79,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40473123",
@@ -1230,7 +2783,21 @@
     "emd": "마전동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 마전동 24-1 검단2차아이파크",
+    "builder": "현대산업개발",
+    "entrance": "계단식",
+    "useArea": "54776.5472",
+    "bjdCode": "2826011300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 293,
+      "o135": 118
+    }
   },
   {
     "code": "A40473124",
@@ -1241,7 +2808,21 @@
     "emd": "마전동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 마전동 997-1 검단현대힐스테이트2차",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "40011.544",
+    "bjdCode": "2826011300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 206,
+      "o135": 103
+    }
   },
   {
     "code": "A40473314",
@@ -1252,7 +2833,21 @@
     "emd": "마전동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 마전동 892 마전하나",
+    "builder": "(주)한국공영",
+    "entrance": "계단식",
+    "useArea": "39049.656",
+    "bjdCode": "2826011300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 156,
+      "u85": 231,
+      "u135": 90,
+      "o135": 0
+    }
   },
   {
     "code": "A40482002",
@@ -1263,7 +2858,21 @@
     "emd": "마전동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 마전동 1-1 마전4차풍림아이원",
+    "builder": "풍림산업(주)",
+    "entrance": "계단식",
+    "useArea": "19837.728",
+    "bjdCode": "2826011300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 144,
+      "u135": 72,
+      "o135": 0
+    }
   },
   {
     "code": "A40482003",
@@ -1274,7 +2883,21 @@
     "emd": "마전동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 마전동 1030-1 검단금호어울림",
+    "builder": "금호건설",
+    "entrance": "계단식",
+    "useArea": "20058.0648",
+    "bjdCode": "2826011300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 236,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40482105",
@@ -1285,7 +2908,21 @@
     "emd": "마전동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 마전동 927-5 마전영진",
+    "builder": "영진산업개발",
+    "entrance": "계단식",
+    "useArea": "24574.436",
+    "bjdCode": "2826011300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 113,
+      "u85": 114,
+      "u135": 72,
+      "o135": 0
+    }
   },
   {
     "code": "A10020453",
@@ -1297,7 +2934,21 @@
     "sigunguCode": "28260",
     "sido": "인천광역시",
     "sigungu": "서구",
-    "hhldCnt": 855
+    "hhldCnt": 855,
+    "jibunAddr": "인천광역시 서구 당하동 1335-3 인천검단 LH37단지",
+    "builder": "(주)대광건영",
+    "entrance": "복도식",
+    "useArea": "29533.23",
+    "bjdCode": "2826011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020474",
@@ -1309,7 +2960,21 @@
     "sigunguCode": "28260",
     "sido": "인천광역시",
     "sigungu": "서구",
-    "hhldCnt": 1083
+    "hhldCnt": 1083,
+    "jibunAddr": "인천광역시 서구 당하동 1335-2 인천검단lh38단지",
+    "builder": "(주)대광건영",
+    "entrance": "복도식",
+    "useArea": "35830.76",
+    "bjdCode": "2826011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 28,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020529",
@@ -1321,7 +2986,21 @@
     "sigunguCode": "28260",
     "sido": "인천광역시",
     "sigungu": "서구",
-    "hhldCnt": 483
+    "hhldCnt": 483,
+    "jibunAddr": "인천광역시 서구 당하동 1233-1 아라역금강펜테리움더시글로2차",
+    "builder": " 금강 주택",
+    "entrance": "계단식",
+    "useArea": "41035.4589",
+    "bjdCode": "2826011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 35,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022739",
@@ -1332,7 +3011,21 @@
     "emd": "당하동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 당하동 223-1 e편한세상 검단어반센트로",
+    "builder": "디엘이엔씨",
+    "entrance": "계단식",
+    "useArea": "49266.75",
+    "bjdCode": "2826011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 822,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022792",
@@ -1343,7 +3036,21 @@
     "emd": "당하동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 당하동 1235 금강펜테리움 더 시글로 1차 아파트",
+    "builder": "금강주택",
+    "entrance": "복도식",
+    "useArea": "37977.1253",
+    "bjdCode": "2826011400",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 35,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 447,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022965",
@@ -1354,7 +3061,21 @@
     "emd": "당하동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 당하동 1316-1 검단신도시 예미지 더 시그너스",
+    "builder": "(주)제이에스글로벌",
+    "entrance": "계단식",
+    "useArea": "104482.4837",
+    "bjdCode": "2826011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 799,
+      "u135": 373,
+      "o135": 0
+    }
   },
   {
     "code": "A10023082",
@@ -1365,7 +3086,21 @@
     "emd": "당하동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 당하동 1311-1 검단우미린파크뷰2단지아파트",
+    "builder": "우미개발",
+    "entrance": "계단식",
+    "useArea": "55138.6005",
+    "bjdCode": "2826011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 545,
+      "u85": 265,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023092",
@@ -1376,7 +3111,21 @@
     "emd": "당하동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 당하동 1305-1 인천검단 우미린파크뷰1단지",
+    "builder": "우미개발",
+    "entrance": "계단식",
+    "useArea": "24984.3265",
+    "bjdCode": "2826011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 257,
+      "u85": 113,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023142",
@@ -1387,7 +3136,21 @@
     "emd": "당하동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 당하동 1327-1 인천검단lh36단지",
+    "builder": "LH공사",
+    "entrance": "복도식",
+    "useArea": "67251.28",
+    "bjdCode": "2826011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 1746,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023315",
@@ -1398,7 +3161,21 @@
     "emd": "당하동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 당하동 1274 검단한신더휴어반파크 아파트",
+    "builder": "한신공영(주)",
+    "entrance": "계단식",
+    "useArea": "95157.4178",
+    "bjdCode": "2826011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 910,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023529",
@@ -1409,7 +3186,21 @@
     "emd": "당하동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 당하동 1272-4 검단LH 13단지",
+    "builder": "한진중공업",
+    "entrance": "복도식",
+    "useArea": "35284.78",
+    "bjdCode": "2826011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 1000,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023534",
@@ -1420,7 +3211,21 @@
     "emd": "당하동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 당하동 1316-2 검단신도시 대성베르힐 라 프리미어 아파트",
+    "builder": "디에스종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "68609.8096",
+    "bjdCode": "2826011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 533,
+      "u135": 212,
+      "o135": 0
+    }
   },
   {
     "code": "A10023645",
@@ -1431,7 +3236,21 @@
     "emd": "당하동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 당하동 1318-8 검단신도시 모아미래도엘리트파크아파트",
+    "builder": "미래도이엔씨(주)",
+    "entrance": "계단식",
+    "useArea": "55741.6894",
+    "bjdCode": "2826011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 658,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023690",
@@ -1442,7 +3261,21 @@
     "emd": "당하동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 당하동 1314 검단 신안인스빌어반퍼스트",
+    "builder": "(주)관악",
+    "entrance": "계단식",
+    "useArea": "94240.0606",
+    "bjdCode": "2826011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 748,
+      "u135": 325,
+      "o135": 0
+    }
   },
   {
     "code": "A10023724",
@@ -1453,7 +3286,21 @@
     "emd": "당하동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 당하동  검단 호반써밋프라임뷰",
+    "builder": "호반건설",
+    "entrance": "계단식",
+    "useArea": "61413.5496",
+    "bjdCode": "2826011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 506,
+      "u135": 213,
+      "o135": 0
+    }
   },
   {
     "code": "A10023751",
@@ -1464,7 +3311,21 @@
     "emd": "당하동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 당하동 1276-2 파라곤 센트럴파크",
+    "builder": "(주)라인산업",
+    "entrance": "계단식",
+    "useArea": "95339.982",
+    "bjdCode": "2826011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1122,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023931",
@@ -1475,7 +3336,21 @@
     "emd": "당하동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 당하동 1318-6 검단신도시디에트르더펠리체아파트",
+    "builder": "대방건설(주)",
+    "entrance": "계단식",
+    "useArea": "112267.3616",
+    "bjdCode": "2826011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1007,
+      "u135": 272,
+      "o135": 0
+    }
   },
   {
     "code": "A10024140",
@@ -1486,7 +3361,21 @@
     "emd": "당하동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 당하동 1254-1 한신더휴캐널파크아파트",
+    "builder": "한신공영(주)",
+    "entrance": "계단식",
+    "useArea": "75623.0022",
+    "bjdCode": "2826011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 28,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 936,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024146",
@@ -1497,7 +3386,21 @@
     "emd": "당하동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 당하동 1272-2 검단신도시 유승한내들에듀파크아파트",
+    "builder": "(주)유승종합건설",
+    "entrance": "계단식",
+    "useArea": "80976.4918",
+    "bjdCode": "2826011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 728,
+      "u135": 210,
+      "o135": 0
+    }
   },
   {
     "code": "A10026787",
@@ -1508,7 +3411,21 @@
     "emd": "당하동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 당하동 1067-1 검단 SK VIEW 아파트",
+    "builder": "SK건설",
+    "entrance": "계단식",
+    "useArea": "43450.1194",
+    "bjdCode": "2826011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 530,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40431001",
@@ -1519,7 +3436,21 @@
     "emd": "당하동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 당하동 1098-1 당하 대주파크빌아파트",
+    "builder": "대주건설",
+    "entrance": "계단식",
+    "useArea": "23393.1676",
+    "bjdCode": "2826011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 276,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40431002",
@@ -1530,7 +3461,21 @@
     "emd": "당하동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 당하동 1037-3 금호어울림1차(원당지구 108BL 3L)",
+    "builder": "금호산업(주)",
+    "entrance": "계단식",
+    "useArea": "28982.1697",
+    "bjdCode": "2826011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 341,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40431003",
@@ -1541,7 +3486,21 @@
     "emd": "당하동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 당하동 1027-3 원당 동문아파트",
+    "builder": "동문건설",
+    "entrance": "계단식",
+    "useArea": "36550.868",
+    "bjdCode": "2826011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 434,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40431004",
@@ -1552,7 +3511,21 @@
     "emd": "당하동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 당하동 1099-3 당하1차 풍림아이원 아파트",
+    "builder": "풍림산업(주)",
+    "entrance": "계단식",
+    "useArea": "32827.4122",
+    "bjdCode": "2826011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 188,
+      "u85": 254,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40431007",
@@ -1563,7 +3536,21 @@
     "emd": "당하동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 당하동 1027-15 원당신안실크벨리아파트",
+    "builder": "신안건설(주)",
+    "entrance": "계단식",
+    "useArea": "63809.8985",
+    "bjdCode": "2826011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 629,
+      "u85": 307,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40431010",
@@ -1574,7 +3561,21 @@
     "emd": "당하동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 당하동 1031 원당풍림아이원아파트",
+    "builder": "풍림산업",
+    "entrance": "계단식",
+    "useArea": "135404.0786",
+    "bjdCode": "2826011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 415,
+      "u85": 1197,
+      "u135": 127,
+      "o135": 0
+    }
   },
   {
     "code": "A40471005",
@@ -1585,7 +3586,21 @@
     "emd": "당하동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 당하동 820-1 당하동태평",
+    "builder": "태평건설",
+    "entrance": "계단식",
+    "useArea": "31667.04",
+    "bjdCode": "2826011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 528,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40472208",
@@ -1596,7 +3611,21 @@
     "emd": "당하동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 당하동 1113-1 당하 KCC스위첸 아파트",
+    "builder": "kcc건설",
+    "entrance": "계단식",
+    "useArea": "85531.954",
+    "bjdCode": "2826011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 937,
+      "u135": 78,
+      "o135": 0
+    }
   },
   {
     "code": "A40472601",
@@ -1607,7 +3636,21 @@
     "emd": "당하동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 당하동 1090-1 검단힐스테이트4단지",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "66711.1134",
+    "bjdCode": "2826011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 588,
+      "o135": 0
+    }
   },
   {
     "code": "A40472602",
@@ -1618,7 +3661,21 @@
     "emd": "당하동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 당하동 1075-9 검단힐스테이트5차",
+    "builder": "(주)현대건설",
+    "entrance": "계단식",
+    "useArea": "36752.344",
+    "bjdCode": "2826011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 292,
+      "u135": 120,
+      "o135": 0
+    }
   },
   {
     "code": "A40472603",
@@ -1629,7 +3686,21 @@
     "emd": "당하동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 당하동 1080-1 인천검단힐스테이트6차",
+    "builder": "현대건설(주)",
+    "entrance": "계단식",
+    "useArea": "38585.2928",
+    "bjdCode": "2826011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 454,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40473206",
@@ -1640,7 +3711,21 @@
     "emd": "당하동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 당하동 1099-2 당하 푸르지오아파트",
+    "builder": "(주)대우건설",
+    "entrance": "계단식",
+    "useArea": "61012.267",
+    "bjdCode": "2826011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 566,
+      "u135": 153,
+      "o135": 0
+    }
   },
   {
     "code": "A40477109",
@@ -1651,7 +3736,21 @@
     "emd": "당하동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 당하동 895-1 당하 탑스빌 아파트",
+    "builder": "영남,신대진,성웅",
+    "entrance": "계단식",
+    "useArea": "117269.14",
+    "bjdCode": "2826011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 452,
+      "u85": 638,
+      "u135": 102,
+      "o135": 176
+    }
   },
   {
     "code": "A10020098",
@@ -1662,7 +3761,20 @@
     "emd": "원당동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 원당동 1061-1 원당동 롯데캐슬 넥스티엘아파트",
+    "builder": "롯데건설",
+    "entrance": "계단식",
+    "useArea": "43805.8768",
+    "bjdCode": "2826011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 316,
+      "o135": 56
+    }
   },
   {
     "code": "A10022740",
@@ -1673,7 +3785,21 @@
     "emd": "원당동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 원당동 1026 인천검단 26단지",
+    "builder": "(주)에스지씨이테크건설",
+    "entrance": "복도식",
+    "useArea": "39980.69",
+    "bjdCode": "2826011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 1152,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023033",
@@ -1684,7 +3810,21 @@
     "emd": "원당동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 원당동 1082-3 검단신도시 우미린 리버포레",
+    "builder": "우미건설(주)",
+    "entrance": "계단식",
+    "useArea": "49226.2175",
+    "bjdCode": "2826011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 513,
+      "u85": 252,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023422",
@@ -1695,7 +3835,21 @@
     "emd": "원당동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 원당동 1063 검단신도시 모아엘가 그랑데 아파트",
+    "builder": "혜림건설(주)",
+    "entrance": "계단식",
+    "useArea": "34452.964",
+    "bjdCode": "2826011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 342,
+      "u85": 168,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023550",
@@ -1706,7 +3860,21 @@
     "emd": "원당동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 원당동 1084-1 검단신도시 디에트르 리버파크",
+    "builder": "대방건설",
+    "entrance": "계단식",
+    "useArea": "49058.007",
+    "bjdCode": "2826011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 492,
+      "u85": 230,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023580",
@@ -1717,7 +3885,21 @@
     "emd": "원당동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 원당동 1065-2 우미린 더 헤리티지",
+    "builder": "(주)우미건설, (주)우미토건",
+    "entrance": "계단식",
+    "useArea": "29748.8852",
+    "bjdCode": "2826011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 293,
+      "u85": 144,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023624",
@@ -1728,7 +3910,21 @@
     "emd": "원당동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 원당동 987-1 검단신도시디에트르더힐아파트",
+    "builder": "대방건설(주)",
+    "entrance": "계단식",
+    "useArea": "124957.8395",
+    "bjdCode": "2826011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1047,
+      "u135": 370,
+      "o135": 0
+    }
   },
   {
     "code": "A10023746",
@@ -1739,7 +3935,21 @@
     "emd": "원당동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 원당동 1014 검단신도시 예미지 트리플에듀 아파트",
+    "builder": "(주)제이에스글로벌",
+    "entrance": "계단식",
+    "useArea": "109988.5655",
+    "bjdCode": "2826011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 868,
+      "u135": 381,
+      "o135": 0
+    }
   },
   {
     "code": "A10023780",
@@ -1750,7 +3960,21 @@
     "emd": "원당동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 원당동 114 검단신도시 파라곤보타닉파크아파트",
+    "builder": "(주)라인건설",
+    "entrance": "계단식",
+    "useArea": "150333.1517",
+    "bjdCode": "2826011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023785",
@@ -1761,7 +3985,21 @@
     "emd": "원당동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 원당동 112-1 검단신도시로제비앙라포레",
+    "builder": "대광건영",
+    "entrance": "계단식",
+    "useArea": "121718.6001",
+    "bjdCode": "2826011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023947",
@@ -1772,7 +4010,21 @@
     "emd": "원당동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 원당동 1022-1 검단신도시 우미린 더 시그니처",
+    "builder": "우미건설(주)",
+    "entrance": "계단식",
+    "useArea": "101318.8724",
+    "bjdCode": "2826011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1268,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024161",
@@ -1783,7 +4035,21 @@
     "emd": "원당동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 원당동 1094 인천 검단 LH20단지아파트",
+    "builder": "동부건설",
+    "entrance": "복도식",
+    "useArea": "56193.76",
+    "bjdCode": "2826011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 1942,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024163",
@@ -1794,7 +4060,21 @@
     "emd": "원당동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 원당동 1018 검단푸르지오더베뉴",
+    "builder": "(주)대우건설",
+    "entrance": "계단식",
+    "useArea": "135951.1",
+    "bjdCode": "2826011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1214,
+      "u135": 326,
+      "o135": 0
+    }
   },
   {
     "code": "A10024234",
@@ -1805,7 +4085,21 @@
     "emd": "원당동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 원당동 1024 검단 금호어울림 센트럴",
+    "builder": "금호건설(주)",
+    "entrance": "계단식",
+    "useArea": "116172.44",
+    "bjdCode": "2826011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1452,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024268",
@@ -1816,7 +4110,21 @@
     "emd": "원당동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 원당동 1022 검단호반써밋1차",
+    "builder": "주식회사 호반산업",
+    "entrance": "계단식",
+    "useArea": "94023.3627",
+    "bjdCode": "2826011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 27,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1168,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40432001",
@@ -1827,7 +4135,21 @@
     "emd": "원당동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 원당동 852-1 원당 e-편한세상 아파트",
+    "builder": "대림산업",
+    "entrance": "계단식",
+    "useArea": "35180.993",
+    "bjdCode": "2826011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 119,
+      "u85": 330,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40432002",
@@ -1838,7 +4160,21 @@
     "emd": "원당동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 원당동 567 대한항공 검단 사원 아파트",
+    "builder": "한진건설",
+    "entrance": "복도식",
+    "useArea": "37953.26",
+    "bjdCode": "2826011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 687,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40432003",
@@ -1849,7 +4185,21 @@
     "emd": "원당동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 원당동 823-1 LG원당자이",
+    "builder": "(주)정광종합건설",
+    "entrance": "계단식",
+    "useArea": "78739.4907",
+    "bjdCode": "2826011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 125,
+      "u85": 719,
+      "u135": 94,
+      "o135": 0
+    }
   },
   {
     "code": "A40473701",
@@ -1860,7 +4210,21 @@
     "emd": "원당동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 원당동 854-3 원당2차금호어울림아파트",
+    "builder": "금호건설",
+    "entrance": "계단식",
+    "useArea": "24218.5781",
+    "bjdCode": "2826011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 209,
+      "u135": 60,
+      "o135": 0
+    }
   },
   {
     "code": "A10026685",
@@ -1871,7 +4235,21 @@
     "emd": "금곡동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 금곡동 728-6 검단우방아이유쉘아파트",
+    "builder": "우방",
+    "entrance": "계단식",
+    "useArea": "44109.5138",
+    "bjdCode": "2826011800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 117,
+      "u85": 438,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40433001",
@@ -1882,7 +4260,21 @@
     "emd": "금곡동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 금곡동 725-7 금곡 하나 아파트",
+    "builder": "한국공영(주)",
+    "entrance": "계단식",
+    "useArea": "23958.7563",
+    "bjdCode": "2826011800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 107,
+      "u85": 138,
+      "u135": 54,
+      "o135": 0
+    }
   },
   {
     "code": "A40433002",
@@ -1893,7 +4285,21 @@
     "emd": "금곡동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 금곡동 722-2 금곡 동남 아파트",
+    "builder": "동남기업",
+    "entrance": "계단식",
+    "useArea": "27695.72",
+    "bjdCode": "2826011800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 146,
+      "u85": 224,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020872",
@@ -1904,7 +4310,21 @@
     "emd": "오류동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 오류동 1719-5 왕길역 아테라 아파트",
+    "builder": " 금호건설 주식회사",
+    "entrance": "계단식",
+    "useArea": "17297.685",
+    "bjdCode": "2826011900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 134,
+      "u85": 109,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022450",
@@ -1915,7 +4335,21 @@
     "emd": "오류동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 오류동 1719-2 검단힐스테이트3차",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "67842.9018",
+    "bjdCode": "2826011900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 270,
+      "u135": 227,
+      "o135": 154
+    }
   },
   {
     "code": "A10024329",
@@ -1926,7 +4360,21 @@
     "emd": "오류동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 오류동 1722-1 검단오류역우방아이유쉘",
+    "builder": "SM우방산업",
+    "entrance": "계단식",
+    "useArea": "27894.07",
+    "bjdCode": "2826011900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 420,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40430003",
@@ -1937,7 +4385,21 @@
     "emd": "오류동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 오류동 74-1 검단오류풍림아이원",
+    "builder": "풍림산업",
+    "entrance": "계단식",
+    "useArea": "17540.54",
+    "bjdCode": "2826011900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 207,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40473608",
@@ -1948,7 +4410,21 @@
     "emd": "오류동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 오류동 79 검단자이1단지",
+    "builder": "GS건설(주)",
+    "entrance": "계단식",
+    "useArea": "39870.534",
+    "bjdCode": "2826011900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 302,
+      "u135": 116,
+      "o135": 0
+    }
   },
   {
     "code": "A10022296",
@@ -1959,7 +4435,21 @@
     "emd": "왕길동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 왕길동 - 왕길역로열파크씨티푸르지오",
+    "builder": "대우건설",
+    "entrance": "계단식",
+    "useArea": "114662.7184",
+    "bjdCode": "2826012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 363,
+      "u85": 1067,
+      "u135": 70,
+      "o135": 0
+    }
   },
   {
     "code": "A40429001",
@@ -1970,7 +4460,21 @@
     "emd": "왕길동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 왕길동 633-2 왕길 동남디아망아파트",
+    "builder": "동남주택(주)",
+    "entrance": "계단식",
+    "useArea": "26169.2508",
+    "bjdCode": "2826012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 308,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40429002",
@@ -1981,7 +4485,21 @@
     "emd": "왕길동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 왕길동 273-5 왕길 원흥 아파트",
+    "builder": "원흥종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "25539.48",
+    "bjdCode": "2826012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 168,
+      "u85": 174,
+      "u135": 12,
+      "o135": 0
+    }
   },
   {
     "code": "A40429003",
@@ -1992,7 +4510,21 @@
     "emd": "왕길동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 왕길동 634-1 신명스카이뷰드림",
+    "builder": "신명종합건설",
+    "entrance": "계단식",
+    "useArea": "33125.742",
+    "bjdCode": "2826012000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 390,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40429004",
@@ -2003,7 +4535,21 @@
     "emd": "왕길동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 왕길동 295-1 왕길 유승 아파트",
+    "builder": "유승건설",
+    "entrance": "계단식",
+    "useArea": "45201.92",
+    "bjdCode": "2826012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 16,
+    "areaBreak": {
+      "u60": 256,
+      "u85": 352,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40429005",
@@ -2014,7 +4560,21 @@
     "emd": "왕길동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 왕길동 661-1 검단대림e-편한세상",
+    "builder": "대림산업(주)",
+    "entrance": "계단식",
+    "useArea": "98250.75",
+    "bjdCode": "2826012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 716,
+      "u135": 229,
+      "o135": 58
+    }
   },
   {
     "code": "A40473606",
@@ -2025,7 +4585,21 @@
     "emd": "왕길동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 왕길동 649-1 검단1차풍림아파트",
+    "builder": "프리마건설",
+    "entrance": "계단식",
+    "useArea": "25798.1652",
+    "bjdCode": "2826012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 48,
+      "u85": 270,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40473607",
@@ -2036,7 +4610,21 @@
     "emd": "왕길동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 왕길동 633-1 인천마전(공단)",
+    "builder": "한국토지주택공사",
+    "entrance": "복도식",
+    "useArea": "26132.5",
+    "bjdCode": "2826012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 621,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40473609",
@@ -2047,7 +4635,21 @@
     "emd": "왕길동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 왕길동 81-1 검단자이2단지",
+    "builder": "GS건설(주)",
+    "entrance": "계단식",
+    "useArea": "39322.377",
+    "bjdCode": "2826012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 301,
+      "u135": 112,
+      "o135": 0
+    }
   },
   {
     "code": "A40473610",
@@ -2058,7 +4660,21 @@
     "emd": "왕길동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 왕길동 80 드림파크어울림1단지",
+    "builder": "금호건설",
+    "entrance": "계단식",
+    "useArea": "74513.2212",
+    "bjdCode": "2826012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 311,
+      "u135": 420,
+      "o135": 0
+    }
   },
   {
     "code": "A40473611",
@@ -2069,7 +4685,21 @@
     "emd": "왕길동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 왕길동 473-5 드림파크어울림2단지",
+    "builder": "금호건설",
+    "entrance": "계단식",
+    "useArea": "17659.4371",
+    "bjdCode": "2826012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 178,
+      "u135": 25,
+      "o135": 0
+    }
   },
   {
     "code": "A10020110",
@@ -2080,7 +4710,20 @@
     "emd": "불로동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 불로동 965-2 신검단중앙역 디에트르 더 에듀",
+    "builder": "대방건설",
+    "entrance": "계단식",
+    "useArea": "73440.4023",
+    "bjdCode": "2826012100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 781,
+      "o135": 0
+    }
   },
   {
     "code": "A10020223",
@@ -2091,7 +4734,20 @@
     "emd": "불로동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 불로동 0 검단호수공원역 호반써밋",
+    "builder": "(주)호반건설",
+    "entrance": "계단식",
+    "useArea": "95656.8343",
+    "bjdCode": "2826012100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리(직영+위탁)",
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 856,
+      "o135": 0
+    }
   },
   {
     "code": "A10020384",
@@ -2103,7 +4759,21 @@
     "sigunguCode": "28260",
     "sido": "인천광역시",
     "sigungu": "서구",
-    "hhldCnt": 1049
+    "hhldCnt": 1049,
+    "jibunAddr": "인천광역시 서구 불로동 971- 신검단중앙역 금강펜테리움 센트럴파크",
+    "builder": "(주)금강주택",
+    "entrance": "계단식",
+    "useArea": "89490.6402",
+    "bjdCode": "2826012100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020440",
@@ -2115,7 +4785,21 @@
     "sigunguCode": "28260",
     "sido": "인천광역시",
     "sigungu": "서구",
-    "hhldCnt": 875
+    "hhldCnt": 875,
+    "jibunAddr": "인천광역시 서구 불로동 1002-6 신검단중앙역우미린클래스원 아파트",
+    "builder": "우미건설",
+    "entrance": "계단식",
+    "useArea": "74341.7292",
+    "bjdCode": "2826012100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020676",
@@ -2126,7 +4810,21 @@
     "emd": "불로동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 불로동 - 신검단중앙역 풍경채 어바니티2차아파트",
+    "builder": "제일건설(주)",
+    "entrance": "계단식",
+    "useArea": "155713.2658",
+    "bjdCode": "2826012100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020875",
@@ -2137,7 +4835,21 @@
     "emd": "불로동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 불로동 1001 힐스테이트 신검단센트럴",
+    "builder": "현대건설(주)",
+    "entrance": "계단식",
+    "useArea": "135464.2635",
+    "bjdCode": "2826012100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1073,
+      "u135": 462,
+      "o135": 0
+    }
   },
   {
     "code": "A10020931",
@@ -2148,7 +4860,21 @@
     "emd": "불로동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 불로동 864- 힐스테이트검단포레스트",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "62487.66",
+    "bjdCode": "2826012100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 736,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021094",
@@ -2159,7 +4885,21 @@
     "emd": "불로동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 불로동 - 신검단중앙역풍경채어바니티아파트",
+    "builder": "제일건설(주)",
+    "entrance": "계단식",
+    "useArea": "131094.2883",
+    "bjdCode": "2826012100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1043,
+      "u135": 382,
+      "o135": 0
+    }
   },
   {
     "code": "A10022371",
@@ -2170,7 +4910,21 @@
     "emd": "불로동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 불로동 178- 불로동한일타운아파트",
+    "builder": "한일종합건설",
+    "entrance": "계단식",
+    "useArea": "9996.48",
+    "bjdCode": "2826012100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 67,
+      "u85": 71,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023913",
@@ -2181,7 +4935,21 @@
     "emd": "불로동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 불로동 803-1 검단 대광로제비앙센트럴포레아파트",
+    "builder": "(주)대광건영",
+    "entrance": "계단식",
+    "useArea": "39516.3988",
+    "bjdCode": "2826012100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 27,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 556,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40427001",
@@ -2192,7 +4960,21 @@
     "emd": "불로동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 불로동 324-9 불로백두",
+    "builder": "백두건설",
+    "entrance": "혼합식",
+    "useArea": "12959.25",
+    "bjdCode": "2826012100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 90,
+      "u85": 70,
+      "u135": 15,
+      "o135": 0
+    }
   },
   {
     "code": "A40427002",
@@ -2203,7 +4985,21 @@
     "emd": "불로동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 불로동 792-1 불로 삼보해피하임1단지아파트",
+    "builder": "(주)삼보건영",
+    "entrance": "계단식",
+    "useArea": "34791.5438",
+    "bjdCode": "2826012100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 310,
+      "u135": 74,
+      "o135": 0
+    }
   },
   {
     "code": "A40427003",
@@ -2214,7 +5010,21 @@
     "emd": "불로동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 불로동 39 불로금호어울림",
+    "builder": "(주)금호건설",
+    "entrance": "계단식",
+    "useArea": "35017.8988",
+    "bjdCode": "2826012100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 412,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40427004",
@@ -2225,7 +5035,21 @@
     "emd": "불로동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 불로동 51-1 불로삼보해피하임2단지아파트",
+    "builder": "(주)삼보건영",
+    "entrance": "계단식",
+    "useArea": "43178.9138",
+    "bjdCode": "2826012100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 406,
+      "u135": 76,
+      "o135": 0
+    }
   },
   {
     "code": "A40427005",
@@ -2236,7 +5060,21 @@
     "emd": "불로동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 불로동 179 불로동부아파트",
+    "builder": "동부건설",
+    "entrance": "계단식",
+    "useArea": "48969.33",
+    "bjdCode": "2826012100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 144,
+      "u85": 246,
+      "u135": 144,
+      "o135": 0
+    }
   },
   {
     "code": "A40427006",
@@ -2247,7 +5085,21 @@
     "emd": "불로동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 불로동 806 불로e편한세상",
+    "builder": "(주)대림건설",
+    "entrance": "계단식",
+    "useArea": "38795.832",
+    "bjdCode": "2826012100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 250,
+      "u85": 295,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40427007",
@@ -2258,7 +5110,21 @@
     "emd": "불로동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 불로동 312-2 불로퀸스타운신명",
+    "builder": "신명종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "48367.56",
+    "bjdCode": "2826012100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 310,
+      "u85": 224,
+      "u135": 80,
+      "o135": 0
+    }
   },
   {
     "code": "A40427008",
@@ -2269,7 +5135,21 @@
     "emd": "불로동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 불로동 372 퀸스타운길훈아파트",
+    "builder": "주식회사 길훈종합건설",
+    "entrance": "계단식",
+    "useArea": "47612.16",
+    "bjdCode": "2826012100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 228,
+      "u85": 400,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40427009",
@@ -2280,7 +5160,21 @@
     "emd": "불로동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 불로동 316-1 퀸스타운 동성아파트",
+    "builder": "(주)동성종합건설",
+    "entrance": "계단식",
+    "useArea": "51962.25",
+    "bjdCode": "2826012100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 240,
+      "u85": 315,
+      "u135": 80,
+      "o135": 0
+    }
   },
   {
     "code": "A40477510",
@@ -2291,7 +5185,21 @@
     "emd": "불로동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 불로동 308 불로월드",
+    "builder": "월드건설",
+    "entrance": "계단식",
+    "useArea": "129068.49",
+    "bjdCode": "2826012100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 807,
+      "u85": 736,
+      "u135": 156,
+      "o135": 0
+    }
   },
   {
     "code": "A40477511",
@@ -2302,7 +5210,21 @@
     "emd": "불로동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 불로동 185-40 불로신명스카이뷰",
+    "builder": "신명건설",
+    "entrance": "계단식",
+    "useArea": "8674.005",
+    "bjdCode": "2826012100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 60,
+      "u85": 60,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023584",
@@ -2313,7 +5235,20 @@
     "emd": "청라동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 청라동 105-145 청라푸르지오라피아노1단지",
+    "builder": "대우건설",
+    "entrance": "계단식",
+    "useArea": "19285.15",
+    "bjdCode": "2826012200",
+    "mgrType": "위탁관리",
+    "topFloor": 2,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 227,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023941",
@@ -2324,7 +5259,21 @@
     "emd": "청라동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 청라동 84-7 청라시티프라디움",
+    "builder": "(주)시티종합건설",
+    "entrance": "계단식",
+    "useArea": "22948.8145",
+    "bjdCode": "2826012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 270,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023957",
@@ -2335,7 +5284,21 @@
     "emd": "청라동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 청라동 84-6 청라호반써밋",
+    "builder": "티에스자산개발(주)",
+    "entrance": "계단식",
+    "useArea": "17845.3471",
+    "bjdCode": "2826012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 210,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024874",
@@ -2346,7 +5309,21 @@
     "emd": "청라동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 청라동 103-15 청라호수공원 한신더휴아파트",
+    "builder": "한신공영(주)",
+    "entrance": "계단식",
+    "useArea": "74956.4634",
+    "bjdCode": "2826012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 30,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 898,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025726",
@@ -2357,7 +5334,21 @@
     "emd": "청라동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 청라동 85-1 한양수자인레이크블루 아파트",
+    "builder": "(주)한양,보성산업(주)",
+    "entrance": "계단식",
+    "useArea": "125995.5811",
+    "bjdCode": "2826012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 36,
+    "areaBreak": {
+      "u60": 151,
+      "u85": 1379,
+      "u135": 4,
+      "o135": 0
+    }
   },
   {
     "code": "A10025862",
@@ -2368,7 +5359,21 @@
     "emd": "청라동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 청라동 83-1 센텀로제비앙아파트",
+    "builder": "대광건설",
+    "entrance": "계단식",
+    "useArea": "55837.6778",
+    "bjdCode": "2826012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 674,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025972",
@@ -2379,7 +5384,21 @@
     "emd": "청라동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 청라동 156-1 청라센트럴에일린의뜰",
+    "builder": "아이에스동서(주)",
+    "entrance": "계단식",
+    "useArea": "101659.3745",
+    "bjdCode": "2826012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 37,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 888,
+      "u135": 275,
+      "o135": 0
+    }
   },
   {
     "code": "A10026408",
@@ -2390,7 +5409,21 @@
     "emd": "청라동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 청라동 149-2 청라제일풍경채2차에듀앤파크",
+    "builder": "제일건설(주)",
+    "entrance": "계단식",
+    "useArea": "134650.423",
+    "bjdCode": "2826012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 30,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1412,
+      "u135": 169,
+      "o135": 0
+    }
   },
   {
     "code": "A10026453",
@@ -2401,7 +5434,21 @@
     "emd": "청라동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 청라동 82-1 청라모아미래도아파트",
+    "builder": "(주)모아미래도건설",
+    "entrance": "계단식",
+    "useArea": "29809.1048",
+    "bjdCode": "2826012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 418,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027235",
@@ -2412,7 +5459,21 @@
     "emd": "청라동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 청라동 165-7 청라 골드클래스 커낼웨이",
+    "builder": "보광건설",
+    "entrance": "계단식",
+    "useArea": "22305.8566",
+    "bjdCode": "2826012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 269,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40470301",
@@ -2423,7 +5484,21 @@
     "emd": "청라동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 청라동 193-1 청라자이아파트",
+    "builder": "GS건설(주)",
+    "entrance": "계단식",
+    "useArea": "103902.107",
+    "bjdCode": "2826012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 736,
+      "o135": 148
+    }
   },
   {
     "code": "A40470302",
@@ -2434,7 +5509,21 @@
     "emd": "청라동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 청라동 130-2 청라웰카운티1차아파트",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "58638.5428",
+    "bjdCode": "2826012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 692,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40470303",
@@ -2445,7 +5534,21 @@
     "emd": "청라동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 청라동 165-13 청라중흥S클래스2단지",
+    "builder": "중흥건설(주)",
+    "entrance": "계단식",
+    "useArea": "24545.5308",
+    "bjdCode": "2826012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 174
+    }
   },
   {
     "code": "A40470304",
@@ -2456,7 +5559,21 @@
     "emd": "청라동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 청라동 165-2 청라메이루즈 커낼파크뷰",
+    "builder": "광명건설",
+    "entrance": "계단식",
+    "useArea": "21785.4429",
+    "bjdCode": "2826012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 263,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40470305",
@@ -2467,7 +5584,21 @@
     "emd": "청라동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 청라동 116-4 청라중흥S클래스1단지",
+    "builder": "(합)중흥주택",
+    "entrance": "계단식",
+    "useArea": "61758.8076",
+    "bjdCode": "2826012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 238,
+      "o135": 238
+    }
   },
   {
     "code": "A40470306",
@@ -2478,7 +5609,21 @@
     "emd": "청라동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 청라동 116-6 청라14단지호반베르디움",
+    "builder": "(주)호반건설",
+    "entrance": "계단식",
+    "useArea": "63302.9485",
+    "bjdCode": "2826012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 30,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 745,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40470307",
@@ -2489,7 +5634,21 @@
     "emd": "청라동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 청라동 165-10 청라서해그랑블",
+    "builder": "(주)서해종합건설",
+    "entrance": "계단식",
+    "useArea": "20155.2624",
+    "bjdCode": "2826012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 336,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40470308",
@@ -2500,7 +5659,21 @@
     "emd": "청라동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 청라동 130-4 청라호반베르디움2차아파트",
+    "builder": "호반건설",
+    "entrance": "계단식",
+    "useArea": "62919.678",
+    "bjdCode": "2826012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 30,
+    "areaBreak": {
+      "u60": 1051,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40470309",
@@ -2511,7 +5684,21 @@
     "emd": "청라동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 청라동 185-1 청라힐데스하임",
+    "builder": "원건설(주)",
+    "entrance": "계단식",
+    "useArea": "76937.5548",
+    "bjdCode": "2826012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 1284,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40470310",
@@ -2522,7 +5709,21 @@
     "emd": "청라동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 청라동 168-1 청라호반베르디움3차20BL",
+    "builder": "호반건설",
+    "entrance": "계단식",
+    "useArea": "52606.6638",
+    "bjdCode": "2826012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 30,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 620,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40470311",
@@ -2533,7 +5734,21 @@
     "emd": "청라동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 청라동 164-1 청라엑슬루타워",
+    "builder": "주식회사풍림산업",
+    "entrance": "혼합식",
+    "useArea": "71436.56",
+    "bjdCode": "2826012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 55,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 520,
+      "o135": 96
+    }
   },
   {
     "code": "A40470312",
@@ -2544,7 +5759,21 @@
     "emd": "청라동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 청라동 166-1 청라웰카운티 2차아파트",
+    "builder": "신동아건설",
+    "entrance": "계단식",
+    "useArea": "54342.13",
+    "bjdCode": "2826012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 30,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 381,
+      "o135": 83
+    }
   },
   {
     "code": "A40470313",
@@ -2555,7 +5784,21 @@
     "emd": "청라동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 청라동 160-1 청라린스트라우스",
+    "builder": "(주)우미건설",
+    "entrance": "계단식",
+    "useArea": "68144.2457",
+    "bjdCode": "2826012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 41,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 512,
+      "o135": 78
+    }
   },
   {
     "code": "A40471903",
@@ -2566,7 +5809,21 @@
     "emd": "청라동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 청라동 155-2 청라하우스토리커낼뷰",
+    "builder": "남광토건",
+    "entrance": "계단식",
+    "useArea": "30203.352",
+    "bjdCode": "2826012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 260,
+      "o135": 0
+    }
   },
   {
     "code": "A40471904",
@@ -2577,7 +5834,21 @@
     "emd": "청라동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 청라동 155-12 청라26동양엔파트",
+    "builder": "동양메이저건설",
+    "entrance": "계단식",
+    "useArea": "30191.8854",
+    "bjdCode": "2826012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 256,
+      "o135": 0
+    }
   },
   {
     "code": "A40471905",
@@ -2588,7 +5859,21 @@
     "emd": "청라동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 청라동 155-9 청라한일베라체",
+    "builder": "한일건설(주)",
+    "entrance": "계단식",
+    "useArea": "29904.34",
+    "bjdCode": "2826012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 191,
+      "o135": 66
+    }
   },
   {
     "code": "A40471906",
@@ -2599,7 +5884,21 @@
     "emd": "청라동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 청라동 184-1 청라LH",
+    "builder": "tec건설",
+    "entrance": "혼합식",
+    "useArea": "97110.88",
+    "bjdCode": "2826012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 1255,
+      "u85": 512,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40471907",
@@ -2610,7 +5909,21 @@
     "emd": "청라동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 청라동 103-6 청라우미린",
+    "builder": "서령개발",
+    "entrance": "계단식",
+    "useArea": "16986.9936",
+    "bjdCode": "2826012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 200,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40471908",
@@ -2621,7 +5934,21 @@
     "emd": "청라동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 청라동 107-1 청라한라비발디",
+    "builder": "한라건설(주)",
+    "entrance": "계단식",
+    "useArea": "113135.8546",
+    "bjdCode": "2826012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 992,
+      "o135": 0
+    }
   },
   {
     "code": "A40471909",
@@ -2632,7 +5959,21 @@
     "emd": "청라동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 청라동 103-26 청라반도유보라",
+    "builder": "(주)반도건설",
+    "entrance": "계단식",
+    "useArea": "19815.0548",
+    "bjdCode": "2826012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 174,
+      "o135": 0
+    }
   },
   {
     "code": "A40471910",
@@ -2643,7 +5984,21 @@
     "emd": "청라동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 청라동 102-2 청라한양수자인아파트",
+    "builder": "(주)한양",
+    "entrance": "계단식",
+    "useArea": "68063.356",
+    "bjdCode": "2826012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 30,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 465,
+      "o135": 101
+    }
   },
   {
     "code": "A40471911",
@@ -2654,7 +6009,21 @@
     "emd": "청라동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 청라동 103-16 청라SKVIEW",
+    "builder": "sk건설",
+    "entrance": "계단식",
+    "useArea": "100771.172",
+    "bjdCode": "2826012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 30,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 876,
+      "o135": 3
+    }
   },
   {
     "code": "A40471912",
@@ -2665,7 +6034,21 @@
     "emd": "청라동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 청라동 103-2 골드클래스",
+    "builder": "보광건설",
+    "entrance": "계단식",
+    "useArea": "22407.0063",
+    "bjdCode": "2826012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 192,
+      "o135": 0
+    }
   },
   {
     "code": "A40471913",
@@ -2676,7 +6059,21 @@
     "emd": "청라동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 청라동 155-17 청라힐스테이트커낼뷰",
+    "builder": "(주)현대건설",
+    "entrance": "계단식",
+    "useArea": "29597.424",
+    "bjdCode": "2826012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 244,
+      "o135": 0
+    }
   },
   {
     "code": "A40471914",
@@ -2687,7 +6084,21 @@
     "emd": "청라동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 청라동 139-1 한화꿈에그린",
+    "builder": "한화건설",
+    "entrance": "계단식",
+    "useArea": "131283.8898",
+    "bjdCode": "2826012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 30,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 1056,
+      "o135": 116
+    }
   },
   {
     "code": "A40471915",
@@ -2698,7 +6109,21 @@
     "emd": "청라동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 청라동 103-27 청라힐스테이트",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "19035.388",
+    "bjdCode": "2826012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 224,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40471916",
@@ -2709,7 +6134,21 @@
     "emd": "청라동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 청라동 115-1 청라제일풍경채",
+    "builder": "제일건설(주)",
+    "entrance": "계단식",
+    "useArea": "119419.6456",
+    "bjdCode": "2826012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 1071,
+      "o135": 0
+    }
   },
   {
     "code": "A40471917",
@@ -2720,7 +6159,21 @@
     "emd": "청라동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 청라동 102-10 청라 디 이스트",
+    "builder": "동문건설(주)",
+    "entrance": "계단식",
+    "useArea": "87749.334",
+    "bjdCode": "2826012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 30,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 734,
+      "o135": 0
+    }
   },
   {
     "code": "A40471918",
@@ -2731,7 +6184,21 @@
     "emd": "청라동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 청라동 102-16 청라반도유보라2",
+    "builder": "반도건설",
+    "entrance": "계단식",
+    "useArea": "84876.103",
+    "bjdCode": "2826012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 30,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 754,
+      "o135": 0
+    }
   },
   {
     "code": "A40471919",
@@ -2742,7 +6209,21 @@
     "emd": "청라동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 청라동 102-3 청라동양엔파트",
+    "builder": "(주)동양",
+    "entrance": "계단식",
+    "useArea": "66944.4864",
+    "bjdCode": "2826012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 30,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 564,
+      "o135": 0
+    }
   },
   {
     "code": "A40471920",
@@ -2753,7 +6234,21 @@
     "emd": "청라동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 청라동 173-1 청라29블럭 호반베르디움",
+    "builder": "호반건설(주)",
+    "entrance": "계단식",
+    "useArea": "181280.5488",
+    "bjdCode": "2826012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 30,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 2134,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40471921",
@@ -2764,7 +6259,21 @@
     "emd": "청라동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 청라동 159-1 청라롯데캐슬",
+    "builder": "롯데건설",
+    "entrance": "계단식",
+    "useArea": "105830.0064",
+    "bjdCode": "2826012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 42,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 588,
+      "o135": 240
+    }
   },
   {
     "code": "A40471923",
@@ -2775,7 +6284,21 @@
     "emd": "청라동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 청라동 154-1 청라더샵레이크파크",
+    "builder": "포스코건설",
+    "entrance": "기타",
+    "useArea": "83644.52",
+    "bjdCode": "2826012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 57,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 657,
+      "o135": 109
+    }
   },
   {
     "code": "A40471924",
@@ -2786,6 +6309,20 @@
     "emd": "청라동",
     "sigunguCode": "28260",
     "sido": "인천광역시",
-    "sigungu": "서구"
+    "sigungu": "서구",
+    "jibunAddr": "인천광역시 서구 청라동 150-1 청라푸르지오",
+    "builder": "대우건설(주)",
+    "entrance": "계단식",
+    "useArea": "84299.757",
+    "bjdCode": "2826012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 57,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 642,
+      "o135": 109
+    }
   }
 ]

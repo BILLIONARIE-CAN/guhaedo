@@ -8,7 +8,21 @@
     "emd": "성내동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 성내동 62 항도아파트",
+    "builder": "대영건설주식회사",
+    "entrance": "계단식",
+    "useArea": "19343.94",
+    "bjdCode": "4715010400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 192,
+      "u135": 30,
+      "o135": 0
+    }
   },
   {
     "code": "A74076101",
@@ -19,7 +33,21 @@
     "emd": "평화동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 평화동 72-9 한일장미타운",
+    "builder": "(주)한일주택건설",
+    "entrance": "복도식",
+    "useArea": "18812.28",
+    "bjdCode": "4715010500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 176,
+      "u85": 108,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A74076201",
@@ -30,7 +58,21 @@
     "emd": "황금동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 황금동 129-3 동보수정맨션",
+    "builder": "동보주택건설(주)",
+    "entrance": "혼합식",
+    "useArea": "22709.1",
+    "bjdCode": "4715010700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 105,
+      "u85": 105,
+      "u135": 60,
+      "o135": 0
+    }
   },
   {
     "code": "A74076302",
@@ -41,7 +83,21 @@
     "emd": "황금동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 황금동 27-4 한신아파트",
+    "builder": "한신공영",
+    "entrance": "계단식",
+    "useArea": "24594.58",
+    "bjdCode": "4715010700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 214,
+      "u135": 60,
+      "o135": 0
+    }
   },
   {
     "code": "A10025304",
@@ -52,7 +108,21 @@
     "emd": "신음동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 신음동 1319 김천삼도뷰엔빌W아파트 2단지",
+    "builder": "삼도주택(주)",
+    "entrance": "계단식",
+    "useArea": "29871.9416",
+    "bjdCode": "4715010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 97,
+      "u85": 320,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025314",
@@ -63,7 +133,21 @@
     "emd": "신음동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 신음동 1318 김천삼도뷰엔빌W1단지",
+    "builder": "삼도주택건설주식회사",
+    "entrance": "계단식",
+    "useArea": "42623.711",
+    "bjdCode": "4715010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 118,
+      "u85": 340,
+      "u135": 76,
+      "o135": 0
+    }
   },
   {
     "code": "A10025403",
@@ -74,7 +158,21 @@
     "emd": "신음동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 신음동 1276 목련아파트",
+    "builder": "(주)미도파",
+    "entrance": "계단식",
+    "useArea": "4968",
+    "bjdCode": "4715010800",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 100,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A74075705",
@@ -85,7 +183,21 @@
     "emd": "신음동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 신음동 847-2 신음금류1차아파트",
+    "builder": "금류건설(주)",
+    "entrance": "혼합식",
+    "useArea": "21358.3",
+    "bjdCode": "4715010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 245,
+      "u85": 80,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A74075706",
@@ -96,7 +208,21 @@
     "emd": "신음동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 신음동 1313 대신휴먼시아",
+    "builder": "세운건설",
+    "entrance": "복도식",
+    "useArea": "16906.8",
+    "bjdCode": "4715010800",
+    "aptType": "아파트",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 422,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A74075802",
@@ -107,7 +233,21 @@
     "emd": "신음동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 신음동 1272 김천우방1차아파트",
+    "builder": "(주) 우방",
+    "entrance": "계단식",
+    "useArea": "17685.6",
+    "bjdCode": "4715010800",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 90,
+      "u135": 90,
+      "o135": 0
+    }
   },
   {
     "code": "A74075807",
@@ -118,7 +258,21 @@
     "emd": "신음동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 신음동 470-6 김천2차우방타운",
+    "builder": "(주)우방",
+    "entrance": "혼합식",
+    "useArea": "26757.77",
+    "bjdCode": "4715010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 197,
+      "u85": 177,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A74075909",
@@ -129,7 +283,21 @@
     "emd": "신음동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 신음동 394-9 신음2차현대아파트",
+    "builder": "현대산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "31971.16",
+    "bjdCode": "4715010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 240,
+      "u85": 120,
+      "u135": 80,
+      "o135": 0
+    }
   },
   {
     "code": "A74076510",
@@ -140,7 +308,21 @@
     "emd": "신음동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 신음동 1307 김천주공해돋이타운",
+    "builder": "현대산업개발",
+    "entrance": "혼합식",
+    "useArea": "39770.1",
+    "bjdCode": "4715010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 714,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A74076608",
@@ -151,7 +333,21 @@
     "emd": "신음동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 신음동 1309 신음그린빌아파트",
+    "builder": "대림",
+    "entrance": "계단식",
+    "useArea": "31680.9",
+    "bjdCode": "4715010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 390,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A74097801",
@@ -162,7 +358,21 @@
     "emd": "신음동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 신음동 1030 이원베르빌",
+    "builder": "(주)이원종합건설",
+    "entrance": "계단식",
+    "useArea": "14588.19",
+    "bjdCode": "4715010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 179,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A74097811",
@@ -173,7 +383,21 @@
     "emd": "신음동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 신음동 394-3 신음현대1차아파트",
+    "builder": "현대산업개발",
+    "entrance": "계단식",
+    "useArea": "73187.759",
+    "bjdCode": "4715010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 411,
+      "u85": 504,
+      "u135": 44,
+      "o135": 0
+    }
   },
   {
     "code": "A74097903",
@@ -184,7 +408,21 @@
     "emd": "신음동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 신음동 1273 신음덕일아파트",
+    "builder": "덕일건설",
+    "entrance": "혼합식",
+    "useArea": "13394.34",
+    "bjdCode": "4715010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 96,
+      "u85": 90,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A74097904",
@@ -195,7 +433,21 @@
     "emd": "신음동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 신음동 1275 신음삼보타운",
+    "builder": "(주)삼보주택",
+    "entrance": "계단식",
+    "useArea": "15485.5",
+    "bjdCode": "4715010800",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 120,
+      "u85": 98,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A74016001",
@@ -206,7 +458,21 @@
     "emd": "교동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 교동 899 건화호반맨션",
+    "builder": "주) 건화주택건설",
+    "entrance": "계단식",
+    "useArea": "10485.835",
+    "bjdCode": "4715010900",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 140,
+      "u85": 24,
+      "u135": 1,
+      "o135": 0
+    }
   },
   {
     "code": "A74016002",
@@ -217,7 +483,21 @@
     "emd": "교동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 교동 950 코아루1차아파트",
+    "builder": "투어스건설",
+    "entrance": "계단식",
+    "useArea": "52589.139",
+    "bjdCode": "4715010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 240,
+      "u85": 450,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025774",
@@ -228,7 +508,21 @@
     "emd": "삼락동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 삼락동 1296 김천삼락LH아파트",
+    "builder": "(주)라인건설",
+    "entrance": "복도식",
+    "useArea": "11090.3",
+    "bjdCode": "4715011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 410,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A74020001",
@@ -239,7 +533,21 @@
     "emd": "삼락동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 삼락동 1299 코아루2차아파트",
+    "builder": "투어스건설(주)",
+    "entrance": "계단식",
+    "useArea": "26768.012",
+    "bjdCode": "4715011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 196,
+      "u135": 80,
+      "o135": 0
+    }
   },
   {
     "code": "A10021779",
@@ -250,7 +558,21 @@
     "emd": "다수동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 다수동 134- 실라2차아파트",
+    "builder": "(주)실라주택건설",
+    "entrance": "계단식",
+    "useArea": "8028.57",
+    "bjdCode": "4715011200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 44,
+      "u85": 67,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A74013001",
@@ -261,7 +583,21 @@
     "emd": "다수동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 다수동 123 실라1차아파트",
+    "builder": "주)실라주택",
+    "entrance": "복도식",
+    "useArea": "9204",
+    "bjdCode": "4715011200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 156,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A74012001",
@@ -272,7 +608,21 @@
     "emd": "백옥동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 백옥동 66 백옥한보아파트",
+    "builder": "(주)한보종합건설",
+    "entrance": "혼합식",
+    "useArea": "10752.405",
+    "bjdCode": "4715011300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 120,
+      "u85": 45,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021721",
@@ -283,7 +633,21 @@
     "emd": "부곡동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 부곡동 416-7 한성사랑채",
+    "builder": "에이치에스종합건설유한회사",
+    "entrance": "계단식",
+    "useArea": "11112.395",
+    "bjdCode": "4715011400",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 112,
+      "u135": 14,
+      "o135": 0
+    }
   },
   {
     "code": "A10022502",
@@ -295,7 +659,21 @@
     "sigunguCode": "47150",
     "sido": "경상북도",
     "sigungu": "김천시",
-    "hhldCnt": 703
+    "hhldCnt": 703,
+    "jibunAddr": "경상북도 김천시 부곡동 1559- 김천푸르지오더퍼스트",
+    "builder": "대우건설",
+    "entrance": "계단식",
+    "useArea": "59564.9651",
+    "bjdCode": "4715011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 28,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025599",
@@ -306,7 +684,21 @@
     "emd": "부곡동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 부곡동 515 김천센트럴자이",
+    "builder": "GS건설",
+    "entrance": "계단식",
+    "useArea": "71052.0327",
+    "bjdCode": "4715011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 28,
+    "areaBreak": {
+      "u60": 221,
+      "u85": 658,
+      "u135": 51,
+      "o135": 0
+    }
   },
   {
     "code": "A74011010",
@@ -317,7 +709,21 @@
     "emd": "부곡동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 부곡동 1328 김천부곡2주공",
+    "builder": "미도파(주)외",
+    "entrance": "복도식",
+    "useArea": "10969.11",
+    "bjdCode": "4715011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 388,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A74075209",
@@ -328,7 +734,21 @@
     "emd": "부곡동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 부곡동 1530 김천부곡우방타운",
+    "builder": "우방주택(주)",
+    "entrance": "계단식",
+    "useArea": "75339.94",
+    "bjdCode": "4715011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 206,
+      "u85": 510,
+      "u135": 120,
+      "o135": 60
+    }
   },
   {
     "code": "A74075406",
@@ -339,7 +759,21 @@
     "emd": "부곡동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 부곡동 960-8 한일부곡타운",
+    "builder": "한일주택건설(주)",
+    "entrance": "계단식",
+    "useArea": "29838.45",
+    "bjdCode": "4715011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 499,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A74075502",
@@ -350,7 +784,21 @@
     "emd": "부곡동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 부곡동 1050 부곡현대아파트",
+    "builder": "현대산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "24241.875",
+    "bjdCode": "4715011400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 299,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A74075608",
@@ -361,7 +809,21 @@
     "emd": "부곡동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 부곡동 1529 부곡화성타운",
+    "builder": "화성산업",
+    "entrance": "계단식",
+    "useArea": "75762.4",
+    "bjdCode": "4715011400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 224,
+      "u85": 504,
+      "u135": 168,
+      "o135": 0
+    }
   },
   {
     "code": "A74076405",
@@ -372,7 +834,21 @@
     "emd": "부곡동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 부곡동 765 아주아트빌아파트",
+    "builder": "아주산업개발",
+    "entrance": "계단식",
+    "useArea": "31640.04",
+    "bjdCode": "4715011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 196,
+      "u85": 234,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A74076406",
@@ -383,7 +859,21 @@
     "emd": "부곡동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 부곡동 257 삼보전원아파트",
+    "builder": "삼보건설주식회사",
+    "entrance": "계단식",
+    "useArea": "9175.45",
+    "bjdCode": "4715011400",
+    "aptType": "아파트",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 109,
+      "u85": 40,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A74097701",
@@ -394,7 +884,21 @@
     "emd": "부곡동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 부곡동 584-1 부곡금류아파트",
+    "builder": "금류건설",
+    "entrance": "계단식",
+    "useArea": "15243.74",
+    "bjdCode": "4715011400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 186,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A74097703",
@@ -405,7 +909,21 @@
     "emd": "부곡동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 부곡동 1040-1 부곡1주공아파트",
+    "builder": "대한주택공사",
+    "entrance": "계단식",
+    "useArea": "12820.72",
+    "bjdCode": "4715011400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 360,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A74097707",
@@ -416,7 +934,21 @@
     "emd": "부곡동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 부곡동 1328 김천부곡3주공",
+    "builder": "대한주택공사",
+    "entrance": "복도식",
+    "useArea": "24085.8",
+    "bjdCode": "4715011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 534,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021553",
@@ -427,7 +959,21 @@
     "emd": "지좌동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 지좌동 700-1 건화동부타운",
+    "builder": "(주)건화주택",
+    "entrance": "계단식",
+    "useArea": "6796.2",
+    "bjdCode": "4715011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 81,
+      "u85": 26,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021722",
@@ -438,7 +984,21 @@
     "emd": "지좌동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 지좌동 759-22 동양강변2차",
+    "builder": "동양주택개발(주)",
+    "entrance": "혼합식",
+    "useArea": "7810.56",
+    "bjdCode": "4715011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리(직영+위탁)",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 54,
+      "u85": 54,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A74076703",
@@ -449,7 +1009,21 @@
     "emd": "지좌동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 지좌동 740 아주아트빌2차아파트",
+    "builder": "아주종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "20104.9564",
+    "bjdCode": "4715011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 72,
+      "u85": 187,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025956",
@@ -460,7 +1034,21 @@
     "emd": "덕곡동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 덕곡동 1467 남혁신코아루푸르나임",
+    "builder": "주)유성건설",
+    "entrance": "계단식",
+    "useArea": "48173.9293",
+    "bjdCode": "4715011600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 300,
+      "u85": 400,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A74019001",
@@ -471,7 +1059,21 @@
     "emd": "덕곡동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 덕곡동 767 LH김천덕곡아파트",
+    "builder": "삼능건설(주)/갑을건설(주)",
+    "entrance": "혼합식",
+    "useArea": "30445.02",
+    "bjdCode": "4715011600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 594,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A74075102",
@@ -482,7 +1084,21 @@
     "emd": "덕곡동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 덕곡동 1196-1 덕곡한마음타운",
+    "builder": "(주)덕일건설",
+    "entrance": "혼합식",
+    "useArea": "40628.88",
+    "bjdCode": "4715011600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 793,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A74076901",
@@ -493,7 +1109,21 @@
     "emd": "덕곡동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 덕곡동 1466 덕곡월드메르디앙",
+    "builder": "(주)진흥",
+    "entrance": "계단식",
+    "useArea": "31588.0835",
+    "bjdCode": "4715011600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 300,
+      "u135": 60,
+      "o135": 0
+    }
   },
   {
     "code": "A74017001",
@@ -504,7 +1134,21 @@
     "emd": "대광동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 대광동 1318-2 대홍맨션",
+    "builder": "대홍건설",
+    "entrance": "계단식",
+    "useArea": "15539.24",
+    "bjdCode": "4715011700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 196,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A74018001",
@@ -515,7 +1159,21 @@
     "emd": "응명동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 응명동 1028 김천대신코아루",
+    "builder": "(주)이테크건설",
+    "entrance": "계단식",
+    "useArea": "32934.3018",
+    "bjdCode": "4715011800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 99,
+      "u85": 318,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027077",
@@ -526,7 +1184,21 @@
     "emd": "율곡동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 율곡동 11 김천혁신LH천년나무4단지",
+    "builder": "한국토지주택공사",
+    "entrance": "복도식",
+    "useArea": "34776.76",
+    "bjdCode": "4715012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 938,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027078",
@@ -537,7 +1209,21 @@
     "emd": "율곡동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 율곡동 771 사랑으로부영1단지",
+    "builder": "(주)부영주택",
+    "entrance": "계단식",
+    "useArea": "74387.0568",
+    "bjdCode": "4715012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 916,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027208",
@@ -548,7 +1234,21 @@
     "emd": "율곡동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 율곡동 8 김천혁신 이지더원",
+    "builder": "라인산업",
+    "entrance": "계단식",
+    "useArea": "43646.5036",
+    "bjdCode": "4715012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 389,
+      "u135": 97,
+      "o135": 0
+    }
   },
   {
     "code": "A10027416",
@@ -559,7 +1259,21 @@
     "emd": "율곡동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 율곡동 409 김천혁신 골드클래스아파트",
+    "builder": "보광건설",
+    "entrance": "계단식",
+    "useArea": "43964.2382",
+    "bjdCode": "4715012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 374,
+      "u135": 138,
+      "o135": 0
+    }
   },
   {
     "code": "A10027466",
@@ -570,7 +1284,21 @@
     "emd": "율곡동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 율곡동 411 센트럴파크 한신휴플러스",
+    "builder": "한신공영",
+    "entrance": "계단식",
+    "useArea": "36696.0033",
+    "bjdCode": "4715012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 297,
+      "u135": 113,
+      "o135": 0
+    }
   },
   {
     "code": "A10027584",
@@ -581,7 +1309,21 @@
     "emd": "율곡동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 율곡동 416 중흥S클래스 프라디움 아파트",
+    "builder": "(주)그린시티건설",
+    "entrance": "계단식",
+    "useArea": "43969.3366",
+    "bjdCode": "4715012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 452,
+      "o135": 0
+    }
   },
   {
     "code": "A10027616",
@@ -592,7 +1334,21 @@
     "emd": "율곡동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 율곡동 772 한신더휴 퍼스트리움",
+    "builder": "한신공영",
+    "entrance": "계단식",
+    "useArea": "65615.4422",
+    "bjdCode": "4715012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 811,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027880",
@@ -603,7 +1359,21 @@
     "emd": "율곡동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 율곡동 768 천년나무3단지아파트",
+    "builder": "동부건설",
+    "entrance": "계단식",
+    "useArea": "33955.42",
+    "bjdCode": "4715012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 174,
+      "u85": 314,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027933",
@@ -614,7 +1384,21 @@
     "emd": "율곡동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 율곡동 770 경북혁신LH천년나무2단지",
+    "builder": "삼부토건(주)",
+    "entrance": "계단식",
+    "useArea": "53901.73",
+    "bjdCode": "4715012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 431,
+      "u85": 352,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027949",
@@ -625,7 +1409,21 @@
     "emd": "율곡동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 율곡동 773 힐스테이트 율곡",
+    "builder": "현대엔지니어링",
+    "entrance": "기타",
+    "useArea": "92276.6235",
+    "bjdCode": "4715012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1119,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10028032",
@@ -636,7 +1434,21 @@
     "emd": "율곡동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 율곡동 769 김천혁신 영무예다음2차",
+    "builder": "영무토건",
+    "entrance": "계단식",
+    "useArea": "25041.2322",
+    "bjdCode": "4715012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 296,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10028130",
@@ -647,7 +1459,21 @@
     "emd": "율곡동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 율곡동 415 김천혁신도시 영무예다음1차",
+    "builder": "영무토건",
+    "entrance": "계단식",
+    "useArea": "54316.9425",
+    "bjdCode": "4715012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 642,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A74087101",
@@ -658,7 +1484,21 @@
     "emd": "율곡동",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 율곡동 408 경북혁신KCC스위첸",
+    "builder": "알뜰폰",
+    "entrance": "계단식",
+    "useArea": "54767.67",
+    "bjdCode": "4715012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 660,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A74086101",
@@ -669,7 +1509,21 @@
     "emd": "아포읍",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 아포읍 국사리 1119 아포덕일한마음",
+    "builder": "(주)덕일건설",
+    "entrance": "혼합식",
+    "useArea": "51184.34",
+    "bjdCode": "4715025028",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1084,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020812",
@@ -680,7 +1534,21 @@
     "emd": "아포읍",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 아포읍 송천리 1439- 아포스마트시티2단지 아파트",
+    "builder": "(주)서현종합건설",
+    "entrance": "계단식",
+    "useArea": "37229.6383",
+    "bjdCode": "4715025029",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 117,
+      "u85": 378,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024139",
@@ -691,6 +1559,20 @@
     "emd": "아포읍",
     "sigunguCode": "47150",
     "sido": "경상북도",
-    "sigungu": "김천시"
+    "sigungu": "김천시",
+    "jibunAddr": "경상북도 김천시 아포읍 송천리 110-5 아포스마트시티",
+    "builder": "(주)신태양건설",
+    "entrance": "계단식",
+    "useArea": "34677.3263",
+    "bjdCode": "4715025029",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 118,
+      "u85": 347,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

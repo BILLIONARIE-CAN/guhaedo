@@ -8,7 +8,21 @@
     "emd": "장성읍",
     "sigunguCode": "46880",
     "sido": "전라남도",
-    "sigungu": "장성군"
+    "sigungu": "장성군",
+    "jibunAddr": "전라남도 장성군 장성읍 수산리 504 장성수산LH1단지",
+    "builder": "우탑",
+    "entrance": "복도식",
+    "useArea": "4936.84",
+    "bjdCode": "4688025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 8,
+    "areaBreak": {
+      "u60": 150,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10028015",
@@ -19,7 +33,21 @@
     "emd": "장성읍",
     "sigunguCode": "46880",
     "sido": "전라남도",
-    "sigungu": "장성군"
+    "sigungu": "장성군",
+    "jibunAddr": "전라남도 장성군 장성읍 유탕리 1422 부강2차아트빌",
+    "builder": "부강건설",
+    "entrance": "계단식",
+    "useArea": "10052.0295",
+    "bjdCode": "4688025023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 45,
+      "u85": 87,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020798",
@@ -30,7 +58,21 @@
     "emd": "장성읍",
     "sigunguCode": "46880",
     "sido": "전라남도",
-    "sigungu": "장성군"
+    "sigungu": "장성군",
+    "jibunAddr": "전라남도 장성군 장성읍 영천리 1671- 대광로제비앙 장성 센텀 스카이",
+    "builder": "(주)유니텍솔루션",
+    "entrance": "계단식",
+    "useArea": "67315.3504",
+    "bjdCode": "4688025024",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 36,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 793,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021634",
@@ -41,7 +83,21 @@
     "emd": "장성읍",
     "sigunguCode": "46880",
     "sido": "전라남도",
-    "sigungu": "장성군"
+    "sigungu": "장성군",
+    "jibunAddr": "전라남도 장성군 장성읍 영천리 1664- 장성 엘리젠아파트",
+    "builder": "(주)한주토건",
+    "entrance": "계단식",
+    "useArea": "9857.4712",
+    "bjdCode": "4688025024",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 16,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 116,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022026",
@@ -52,7 +108,21 @@
     "emd": "장성읍",
     "sigunguCode": "46880",
     "sido": "전라남도",
-    "sigungu": "장성군"
+    "sigungu": "장성군",
+    "jibunAddr": "전라남도 장성군 장성읍 영천리 429- 해주그린아파트",
+    "builder": "(주)마룡종합건설",
+    "entrance": "계단식",
+    "useArea": "7433.18",
+    "bjdCode": "4688025024",
+    "aptType": "아파트",
+    "mgrType": "위탁관리(직영+위탁)",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 124,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022048",
@@ -63,7 +133,21 @@
     "emd": "장성읍",
     "sigunguCode": "46880",
     "sido": "전라남도",
-    "sigungu": "장성군"
+    "sigungu": "장성군",
+    "jibunAddr": "전라남도 장성군 장성읍 영천리 845-1 부강아트빌",
+    "builder": "부강종합건설",
+    "entrance": "복도식",
+    "useArea": "6729.15",
+    "bjdCode": "4688025024",
+    "aptType": "아파트",
+    "mgrType": "위탁관리(직영+위탁)",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 113,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022250",
@@ -74,7 +158,20 @@
     "emd": "장성읍",
     "sigunguCode": "46880",
     "sido": "전라남도",
-    "sigungu": "장성군"
+    "sigungu": "장성군",
+    "jibunAddr": "전라남도 장성군 장성읍 영천리 1662- 장성청담웰피아아파트",
+    "builder": "해오름종합건설(주)",
+    "entrance": "혼합식",
+    "useArea": "8196.1971",
+    "bjdCode": "4688025024",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 39,
+      "u85": 104,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025234",
@@ -85,7 +182,21 @@
     "emd": "장성읍",
     "sigunguCode": "46880",
     "sido": "전라남도",
-    "sigungu": "장성군"
+    "sigungu": "장성군",
+    "jibunAddr": "전라남도 장성군 장성읍 영천리 1663 장성해광샹그릴라아파트",
+    "builder": "해광건설",
+    "entrance": "계단식",
+    "useArea": "18674.865",
+    "bjdCode": "4688025024",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 16,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 225,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025777",
@@ -96,7 +207,21 @@
     "emd": "장성읍",
     "sigunguCode": "46880",
     "sido": "전라남도",
-    "sigungu": "장성군"
+    "sigungu": "장성군",
+    "jibunAddr": "전라남도 장성군 장성읍 영천리 1475-5 장성영천지구 공공실버주택",
+    "builder": "군장건설(주)",
+    "entrance": "복도식",
+    "useArea": "3847.6002",
+    "bjdCode": "4688025024",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 150,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A51580001",
@@ -107,7 +232,21 @@
     "emd": "장성읍",
     "sigunguCode": "46880",
     "sido": "전라남도",
-    "sigungu": "장성군"
+    "sigungu": "장성군",
+    "jibunAddr": "전라남도 장성군 장성읍 영천리 1654 영천주공아파트",
+    "builder": "새천년종합건설",
+    "entrance": "혼합식",
+    "useArea": "18567.9",
+    "bjdCode": "4688025024",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 330,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A51580002",
@@ -118,7 +257,21 @@
     "emd": "장성읍",
     "sigunguCode": "46880",
     "sido": "전라남도",
-    "sigungu": "장성군"
+    "sigungu": "장성군",
+    "jibunAddr": "전라남도 장성군 장성읍 영천리 1660 영천휴먼시아2단지",
+    "builder": "KR산업",
+    "entrance": "복도식",
+    "useArea": "17972.86",
+    "bjdCode": "4688025024",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 456,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A51580003",
@@ -129,7 +282,21 @@
     "emd": "장성읍",
     "sigunguCode": "46880",
     "sido": "전라남도",
-    "sigungu": "장성군"
+    "sigungu": "장성군",
+    "jibunAddr": "전라남도 장성군 장성읍 영천리 1661 지아이장성나빌래",
+    "builder": "(주)지아이enc",
+    "entrance": "계단식",
+    "useArea": "17799.6",
+    "bjdCode": "4688025024",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 210,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024459",
@@ -140,7 +307,21 @@
     "emd": "삼계면",
     "sigunguCode": "46880",
     "sido": "전라남도",
-    "sigungu": "장성군"
+    "sigungu": "장성군",
+    "jibunAddr": "전라남도 장성군 삼계면 사창리 428-12 장성삼계LH1단지",
+    "builder": "한국토지주택공사",
+    "entrance": "복도식",
+    "useArea": "4927.3",
+    "bjdCode": "4688035021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 8,
+    "areaBreak": {
+      "u60": 150,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A51575101",
@@ -151,6 +332,20 @@
     "emd": "삼계면",
     "sigunguCode": "46880",
     "sido": "전라남도",
-    "sigungu": "장성군"
+    "sigungu": "장성군",
+    "jibunAddr": "전라남도 장성군 삼계면 사창리 165-2 금광아파트",
+    "builder": "(주)금광주택",
+    "entrance": "복도식",
+    "useArea": "21652.2",
+    "bjdCode": "4688035021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 420,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

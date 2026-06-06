@@ -8,7 +8,20 @@
     "emd": "옥련동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 옥련동 194-12 윤성아파트",
+    "builder": "윤성",
+    "entrance": "계단식",
+    "useArea": "7251.78",
+    "bjdCode": "2818510100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "areaBreak": {
+      "u60": 132,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020572",
@@ -19,7 +32,20 @@
     "emd": "옥련동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 옥련동 271-17 송도역 경남아너스빌",
+    "builder": "SM우방, SM에스엠하이플러스",
+    "entrance": "계단식",
+    "useArea": "18924.6862",
+    "bjdCode": "2818510100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "areaBreak": {
+      "u60": 0,
+      "u85": 159,
+      "u135": 59,
+      "o135": 0
+    }
   },
   {
     "code": "A10020691",
@@ -30,7 +56,21 @@
     "emd": "옥련동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 옥련동 118-1 송도역 서해그랑블더파크",
+    "builder": "(주)서해종합건설",
+    "entrance": "계단식",
+    "useArea": "28104.213",
+    "bjdCode": "2818510100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022704",
@@ -41,7 +81,21 @@
     "emd": "옥련동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 옥련동 118-1 송도역 서해그랑블 아파트",
+    "builder": "서해종합건설",
+    "entrance": "계단식",
+    "useArea": "25432.78",
+    "bjdCode": "2818510100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40671302",
@@ -52,7 +106,21 @@
     "emd": "옥련동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 옥련동 638-1 옥련백산2차",
+    "builder": "백산건설",
+    "entrance": "계단식",
+    "useArea": "24642.42",
+    "bjdCode": "2818510100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 137,
+      "u85": 124,
+      "u135": 0,
+      "o135": 40
+    }
   },
   {
     "code": "A40671303",
@@ -63,7 +131,21 @@
     "emd": "옥련동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 옥련동 630 옥련백산1차",
+    "builder": "백산종합건설",
+    "entrance": "복도식",
+    "useArea": "19935.81",
+    "bjdCode": "2818510100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 244,
+      "u85": 63,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40671411",
@@ -74,7 +156,21 @@
     "emd": "옥련동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 옥련동 634-1 옥련삼성",
+    "builder": "삼성물산(주)",
+    "entrance": "계단식",
+    "useArea": "41955.66",
+    "bjdCode": "2818510100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 402,
+      "u85": 210,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40671510",
@@ -85,7 +181,21 @@
     "emd": "옥련동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 옥련동 632 옥련서해",
+    "builder": "서해건설",
+    "entrance": "계단식",
+    "useArea": "41198.16",
+    "bjdCode": "2818510100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 324,
+      "u85": 276,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40671609",
@@ -96,7 +206,21 @@
     "emd": "옥련동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 옥련동 644-1 옥련쌍용",
+    "builder": "(주)남광토건",
+    "entrance": "계단식",
+    "useArea": "45926.37",
+    "bjdCode": "2818510100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 256,
+      "u85": 227,
+      "u135": 91,
+      "o135": 0
+    }
   },
   {
     "code": "A40671705",
@@ -107,7 +231,21 @@
     "emd": "옥련동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 옥련동 640-1 옥련아주",
+    "builder": "(주)아주종합건설",
+    "entrance": "혼합식",
+    "useArea": "23329.86",
+    "bjdCode": "2818510100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 224,
+      "u85": 72,
+      "u135": 84,
+      "o135": 4
+    }
   },
   {
     "code": "A40671801",
@@ -118,7 +256,21 @@
     "emd": "옥련동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 옥련동 645-1 옥련2차우성",
+    "builder": "(주)다원종합건설",
+    "entrance": "계단식",
+    "useArea": "21088.972",
+    "bjdCode": "2818510100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 255,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40671808",
@@ -129,7 +281,21 @@
     "emd": "옥련동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 옥련동 636-1 옥련우성아파트",
+    "builder": "우성건설",
+    "entrance": "계단식",
+    "useArea": "39809.718",
+    "bjdCode": "2818510100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 206,
+      "u85": 224,
+      "u135": 68,
+      "o135": 0
+    }
   },
   {
     "code": "A40671906",
@@ -140,7 +306,21 @@
     "emd": "옥련동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 옥련동 643-2 옥련풍림아파트",
+    "builder": "풍림산업",
+    "entrance": "혼합식",
+    "useArea": "26503.14",
+    "bjdCode": "2818510100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 168,
+      "u85": 218,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40672007",
@@ -151,7 +331,21 @@
     "emd": "옥련동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 옥련동 642-1 옥련한국아파트",
+    "builder": "한국종합건설",
+    "entrance": "계단식",
+    "useArea": "35145.746",
+    "bjdCode": "2818510100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 225,
+      "u85": 256,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40672112",
@@ -162,7 +356,21 @@
     "emd": "옥련동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 옥련동 639-1 옥련동현대5차아파트",
+    "builder": "현대산업개발",
+    "entrance": "계단식",
+    "useArea": "45939.78",
+    "bjdCode": "2818510100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 268,
+      "u85": 353,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40677113",
@@ -173,7 +381,21 @@
     "emd": "옥련동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 옥련동 626 옥련럭키송도",
+    "builder": "LG",
+    "entrance": "계단식",
+    "useArea": "122657.64",
+    "bjdCode": "2818510100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 872,
+      "u135": 432,
+      "o135": 0
+    }
   },
   {
     "code": "A40678901",
@@ -184,7 +406,21 @@
     "emd": "옥련동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 옥련동 635-1 옥련현대3차",
+    "builder": "현대산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "26997.48",
+    "bjdCode": "2818510100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 168,
+      "u85": 200,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40678902",
@@ -195,7 +431,21 @@
     "emd": "옥련동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 옥련동 637-1 옥련현대4차",
+    "builder": "현대산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "74281.545",
+    "bjdCode": "2818510100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 457,
+      "u85": 554,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40678903",
@@ -206,7 +456,21 @@
     "emd": "옥련동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 옥련동 633 옥련현대2차",
+    "builder": "현대산업개발",
+    "entrance": "계단식",
+    "useArea": "87066.85",
+    "bjdCode": "2818510100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 518,
+      "u85": 662,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40678904",
@@ -217,7 +481,21 @@
     "emd": "옥련동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 옥련동 628 옥련1차현대",
+    "builder": "현대산업개발(주)",
+    "entrance": "혼합식",
+    "useArea": "46839.525",
+    "bjdCode": "2818510100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 289,
+      "u85": 385,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40678905",
@@ -228,7 +506,21 @@
     "emd": "옥련동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 옥련동 641-1 옥련태평아파트",
+    "builder": "(주)태평주택",
+    "entrance": "계단식",
+    "useArea": "22562.533",
+    "bjdCode": "2818510100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 98,
+      "u85": 120,
+      "u135": 55,
+      "o135": 0
+    }
   },
   {
     "code": "A40682504",
@@ -239,7 +531,21 @@
     "emd": "옥련동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 옥련동 631 옥련원흥",
+    "builder": "원흥종합건설",
+    "entrance": "혼합식",
+    "useArea": "26047.42",
+    "bjdCode": "2818510100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 175,
+      "u85": 184,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40682804",
@@ -250,7 +556,21 @@
     "emd": "옥련동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 옥련동 319-9 청학 송도 영남 아파트",
+    "builder": "영남건설",
+    "entrance": "계단식",
+    "useArea": "18666",
+    "bjdCode": "2818510100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 329,
+      "u85": 5,
+      "u135": 1,
+      "o135": 0
+    }
   },
   {
     "code": "A10020956",
@@ -261,7 +581,21 @@
     "emd": "선학동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 선학동 395- 선학희영무지개아파트1차",
+    "builder": "대도건설(주)",
+    "entrance": "계단식",
+    "useArea": "8921.25",
+    "bjdCode": "2818510200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 60,
+      "u85": 45,
+      "u135": 15,
+      "o135": 0
+    }
   },
   {
     "code": "A10022966",
@@ -272,7 +606,21 @@
     "emd": "선학동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 선학동 442 포레나 인천연수아파트",
+    "builder": "한화건설",
+    "entrance": "계단식",
+    "useArea": "65104.5125",
+    "bjdCode": "2818510200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 767,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40609002",
@@ -283,7 +631,21 @@
     "emd": "선학동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 선학동 340 선학대진",
+    "builder": "대진건설",
+    "entrance": "계단식",
+    "useArea": "21751.4",
+    "bjdCode": "2818510200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 300,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40670408",
@@ -294,7 +656,21 @@
     "emd": "선학동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 선학동 350 선학금호",
+    "builder": "금호건설",
+    "entrance": "계단식",
+    "useArea": "52332.48",
+    "bjdCode": "2818510200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 252,
+      "u135": 288,
+      "o135": 0
+    }
   },
   {
     "code": "A40670509",
@@ -305,7 +681,21 @@
     "emd": "선학동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 선학동 352 선학 뉴서울",
+    "builder": "뉴서울주택",
+    "entrance": "계단식",
+    "useArea": "68486.4",
+    "bjdCode": "2818510200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 540,
+      "u135": 180,
+      "o135": 0
+    }
   },
   {
     "code": "A40670603",
@@ -316,7 +706,21 @@
     "emd": "선학동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 선학동 340 선학정광",
+    "builder": "(주)정광건설",
+    "entrance": "계단식",
+    "useArea": "21751.2",
+    "bjdCode": "2818510200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 300,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40670604",
@@ -327,7 +731,21 @@
     "emd": "선학동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 선학동 340 선학태산",
+    "builder": "(주)태산건설",
+    "entrance": "계단식",
+    "useArea": "21751.2",
+    "bjdCode": "2818510200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 300,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40675710",
@@ -338,7 +756,21 @@
     "emd": "선학동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 선학동 347 선학시영",
+    "builder": "인천직할시",
+    "entrance": "복도식",
+    "useArea": "37471.92",
+    "bjdCode": "2818510200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 1300,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40680605",
@@ -349,7 +781,21 @@
     "emd": "선학동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 선학동 353 선학대동",
+    "builder": "대동건설",
+    "entrance": "계단식",
+    "useArea": "32202.6",
+    "bjdCode": "2818510200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 390,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40680606",
@@ -360,7 +806,21 @@
     "emd": "선학동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 선학동 353 선학아주",
+    "builder": "(주)아주건설",
+    "entrance": "계단식",
+    "useArea": "32814",
+    "bjdCode": "2818510200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 390,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40680801",
@@ -371,7 +831,21 @@
     "emd": "선학동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 선학동 389 희영무지개2차아파트",
+    "builder": "(주)희영공영",
+    "entrance": "혼합식",
+    "useArea": "11658.15",
+    "bjdCode": "2818510200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 67,
+      "u85": 90,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40680807",
@@ -382,7 +856,21 @@
     "emd": "선학동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 선학동 387 선학윤성",
+    "builder": "윤성건설",
+    "entrance": "혼합식",
+    "useArea": "29708.03",
+    "bjdCode": "2818510200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 248,
+      "u85": 175,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020733",
@@ -393,7 +881,21 @@
     "emd": "연수동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 연수동 535-2 태경아파트",
+    "builder": "태경건설",
+    "entrance": "복도식",
+    "useArea": "18687.9",
+    "bjdCode": "2818510300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 220,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021078",
@@ -404,7 +906,21 @@
     "emd": "연수동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 연수동 535-2 우주아파트",
+    "builder": "우주건설(주)",
+    "entrance": "계단식",
+    "useArea": "19544.25",
+    "bjdCode": "2818510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 230,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022238",
@@ -415,7 +931,20 @@
     "emd": "연수동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 연수동 593-3 연수푸르지오1단지",
+    "builder": "(주)대우건설",
+    "entrance": "계단식",
+    "useArea": "14012.61",
+    "bjdCode": "2818510300",
+    "mgrType": "위탁관리",
+    "topFloor": 43,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 116,
+      "o135": 1
+    }
   },
   {
     "code": "A10022239",
@@ -426,7 +955,20 @@
     "emd": "연수동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 연수동 593- 연수푸르지오2단지",
+    "builder": "(주)대우건설",
+    "entrance": "계단식",
+    "useArea": "13311.56",
+    "bjdCode": "2818510300",
+    "mgrType": "위탁관리",
+    "topFloor": 39,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 108,
+      "o135": 2
+    }
   },
   {
     "code": "A10024204",
@@ -437,7 +979,21 @@
     "emd": "연수동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 연수동 541 연수대명아파트",
+    "builder": "대명주택",
+    "entrance": "계단식",
+    "useArea": "10675.26",
+    "bjdCode": "2818510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 9,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 108,
+      "o135": 0
+    }
   },
   {
     "code": "A40611304",
@@ -448,7 +1004,21 @@
     "emd": "연수동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 연수동 577 연수영남",
+    "builder": "영남건설",
+    "entrance": "계단식",
+    "useArea": "52785.64",
+    "bjdCode": "2818510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 622,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40670705",
@@ -459,7 +1029,21 @@
     "emd": "연수동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 연수동 536 연수동남",
+    "builder": "동남기업(주)",
+    "entrance": "계단식",
+    "useArea": "42445.8",
+    "bjdCode": "2818510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 420,
+      "o135": 0
+    }
   },
   {
     "code": "A40670706",
@@ -470,7 +1054,21 @@
     "emd": "연수동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 연수동 576 연수태산",
+    "builder": "태산도시산업(주)",
+    "entrance": "계단식",
+    "useArea": "35515.2",
+    "bjdCode": "2818510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 420,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40670804",
@@ -481,7 +1079,21 @@
     "emd": "연수동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 연수동 538 연수성일",
+    "builder": "성일건설",
+    "entrance": "복도식",
+    "useArea": "20894.58",
+    "bjdCode": "2818510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 414,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40671003",
@@ -492,7 +1104,21 @@
     "emd": "연수동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 연수동 532 연수경남",
+    "builder": "경남기업",
+    "entrance": "계단식",
+    "useArea": "49054.57",
+    "bjdCode": "2818510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 620,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40671105",
@@ -503,7 +1129,21 @@
     "emd": "연수동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 연수동 532 연수1차대림",
+    "builder": "대림산업(주)",
+    "entrance": "계단식",
+    "useArea": "48913.68",
+    "bjdCode": "2818510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 640,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40671201",
@@ -514,7 +1154,21 @@
     "emd": "연수동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 연수동 579 연수대우1차",
+    "builder": "(주)대우",
+    "entrance": "계단식",
+    "useArea": "42822",
+    "bjdCode": "2818510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 390,
+      "o135": 0
+    }
   },
   {
     "code": "A40676006",
@@ -525,7 +1179,21 @@
     "emd": "연수동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 연수동 534 연수유천",
+    "builder": "유천건설",
+    "entrance": "계단식",
+    "useArea": "61074.36",
+    "bjdCode": "2818510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 788,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40676101",
@@ -536,7 +1204,21 @@
     "emd": "연수동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 연수동 582-2 연수시영1차(분양)",
+    "builder": "시종합건설본부",
+    "entrance": "복도식",
+    "useArea": "17780.4",
+    "bjdCode": "2818510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 370,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40676206",
@@ -547,7 +1229,21 @@
     "emd": "연수동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 연수동 582-2 연수솔밭마을",
+    "builder": "한보철강주식회사",
+    "entrance": "복도식",
+    "useArea": "59472",
+    "bjdCode": "2818510300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1200,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40676305",
@@ -558,7 +1254,21 @@
     "emd": "연수동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 연수동 635 연수우성1차",
+    "builder": "우성건설",
+    "entrance": "계단식",
+    "useArea": "125934.154",
+    "bjdCode": "2818510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 964,
+      "o135": 124
+    }
   },
   {
     "code": "A40676307",
@@ -569,7 +1279,21 @@
     "emd": "연수동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 연수동 634 연수2차우성아파트",
+    "builder": "우성건설",
+    "entrance": "혼합식",
+    "useArea": "127541.76",
+    "bjdCode": "2818510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 1416,
+      "u85": 628,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40676607",
@@ -580,7 +1304,21 @@
     "emd": "연수동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 연수동 533 연수주공2차",
+    "builder": "대한주택공사",
+    "entrance": "복도식",
+    "useArea": "45868.8",
+    "bjdCode": "2818510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 960,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40676609",
@@ -591,7 +1329,21 @@
     "emd": "연수동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 연수동 315 인천연수1(공단)",
+    "builder": "한보주택(주)",
+    "entrance": "복도식",
+    "useArea": "45982.08",
+    "bjdCode": "2818510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1654,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40676708",
@@ -602,7 +1354,21 @@
     "emd": "연수동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 연수동 578-2 연수주공3단지",
+    "builder": "대한주택공사",
+    "entrance": "복도식",
+    "useArea": "52252.2",
+    "bjdCode": "2818510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1170,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40676806",
@@ -613,7 +1379,21 @@
     "emd": "연수동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 연수동 582 연수풍림1차",
+    "builder": "풍림산업",
+    "entrance": "계단식",
+    "useArea": "62797.66",
+    "bjdCode": "2818510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 769,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40681302",
@@ -624,7 +1404,21 @@
     "emd": "연수동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 연수동 537 연수효정",
+    "builder": "화인주택",
+    "entrance": "계단식",
+    "useArea": "26504.4",
+    "bjdCode": "2818510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 312,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40681303",
@@ -635,7 +1429,21 @@
     "emd": "연수동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 연수동 540 연수문남마을",
+    "builder": "(주)풍창건설",
+    "entrance": "계단식",
+    "useArea": "19696",
+    "bjdCode": "2818510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 400,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40681502",
@@ -646,7 +1454,21 @@
     "emd": "연수동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 연수동 578-1 연수세경",
+    "builder": "세경건설",
+    "entrance": "복도식",
+    "useArea": "28227.69",
+    "bjdCode": "2818510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 567,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40681703",
@@ -657,7 +1479,21 @@
     "emd": "연수동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 연수동 582-2 연수승기마을",
+    "builder": "코오롱건설",
+    "entrance": "복도식",
+    "useArea": "26820",
+    "bjdCode": "2818510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1000,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40681704",
@@ -668,7 +1504,21 @@
     "emd": "연수동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 연수동 582-2 연수1차시영임",
+    "builder": "인천시 종합건설본부",
+    "entrance": "복도식",
+    "useArea": "29186.1",
+    "bjdCode": "2818510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1000,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40681802",
@@ -679,7 +1529,21 @@
     "emd": "연수동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 연수동 633 연수대동",
+    "builder": "대동주택종합건설",
+    "entrance": "혼합식",
+    "useArea": "48867.84",
+    "bjdCode": "2818510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 16,
+    "areaBreak": {
+      "u60": 384,
+      "u85": 384,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40612003",
@@ -690,7 +1554,21 @@
     "emd": "청학동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 청학동 568-1 청학임대",
+    "builder": "현대건설",
+    "entrance": "복도식",
+    "useArea": "13532.4",
+    "bjdCode": "2818510400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 330,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40679306",
@@ -701,7 +1579,21 @@
     "emd": "청학동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 청학동 449 연수 성호 아파트",
+    "builder": "성호주택",
+    "entrance": "계단식",
+    "useArea": "41001.76",
+    "bjdCode": "2818510400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 488,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40679307",
@@ -712,7 +1604,21 @@
     "emd": "청학동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 청학동 559-1 청학동보",
+    "builder": "동보건설(주)",
+    "entrance": "계단식",
+    "useArea": "9579.9",
+    "bjdCode": "2818510400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 75,
+      "u85": 60,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40682805",
@@ -723,7 +1629,21 @@
     "emd": "청학동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 청학동 545-1 청학 현대 아파트",
+    "builder": "현대산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "62207.74",
+    "bjdCode": "2818510400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 16,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 420
+    }
   },
   {
     "code": "A40683001",
@@ -734,7 +1654,21 @@
     "emd": "청학동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 청학동 450 청학 서해 아파트",
+    "builder": "서해건설",
+    "entrance": "계단식",
+    "useArea": "24957.66",
+    "bjdCode": "2818510400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 294,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40683002",
@@ -745,7 +1679,21 @@
     "emd": "청학동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 청학동 448-1 청학 삼용 아파트",
+    "builder": "삼용종합건설사업(주)",
+    "entrance": "계단식",
+    "useArea": "25488",
+    "bjdCode": "2818510400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 300,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40683007",
@@ -756,7 +1704,21 @@
     "emd": "청학동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 청학동 454 용담마을아파트",
+    "builder": "인천 직할시 종합건설본부",
+    "entrance": "계단식",
+    "useArea": "24894",
+    "bjdCode": "2818510400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 500,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40683008",
@@ -767,7 +1729,21 @@
     "emd": "청학동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 청학동 455 연수1차 하나아파트",
+    "builder": "주)한국공영",
+    "entrance": "계단식",
+    "useArea": "48534.29",
+    "bjdCode": "2818510400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 454,
+      "u85": 270,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40683010",
@@ -778,7 +1754,21 @@
     "emd": "청학동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 청학동 451 청학 시대 아파트",
+    "builder": "시대종합건설",
+    "entrance": "계단식",
+    "useArea": "39080.224",
+    "bjdCode": "2818510400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 916,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022685",
@@ -789,7 +1779,21 @@
     "emd": "동춘동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 동춘동 1131 연수서해그랑블에듀파크",
+    "builder": "서해종합건설",
+    "entrance": "계단식",
+    "useArea": "51964.68",
+    "bjdCode": "2818510500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 637,
+      "u135": 4,
+      "o135": 0
+    }
   },
   {
     "code": "A10024921",
@@ -800,7 +1804,21 @@
     "emd": "동춘동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 동춘동 56-13 연수 서해그랑블 3단지",
+    "builder": "서해종합건설 주식회사",
+    "entrance": "계단식",
+    "useArea": "15029.9928",
+    "bjdCode": "2818510500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 251,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025503",
@@ -811,7 +1829,21 @@
     "emd": "동춘동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 동춘동  서해그랑블 포레스트 아파트",
+    "builder": "서해종합건설",
+    "entrance": "계단식",
+    "useArea": "20335.9098",
+    "bjdCode": "2818510500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 315,
+      "u85": 19,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025531",
@@ -822,7 +1854,21 @@
     "emd": "동춘동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 동춘동  송도파크자이",
+    "builder": "GS건설",
+    "entrance": "계단식",
+    "useArea": "86353.2343",
+    "bjdCode": "2818510500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 30,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 933,
+      "u135": 90,
+      "o135": 0
+    }
   },
   {
     "code": "A10025586",
@@ -833,7 +1879,21 @@
     "emd": "동춘동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 동춘동  송도동일하이빌파크포레아파트",
+    "builder": "동일토건",
+    "entrance": "계단식",
+    "useArea": "19348.6766",
+    "bjdCode": "2818510500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 181,
+      "u85": 100,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025594",
@@ -844,7 +1904,21 @@
     "emd": "동춘동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 동춘동  송도 파크레인 동일하이빌아파트",
+    "builder": "동일토건",
+    "entrance": "계단식",
+    "useArea": "97125.8008",
+    "bjdCode": "2818510500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 30,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1030,
+      "u135": 150,
+      "o135": 0
+    }
   },
   {
     "code": "A10026613",
@@ -855,7 +1929,21 @@
     "emd": "동춘동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 동춘동  연수서해그랑블1단지아파트",
+    "builder": "서해건설",
+    "entrance": "혼합식",
+    "useArea": "82583.52",
+    "bjdCode": "2818510500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1018,
+      "u135": 25,
+      "o135": 0
+    }
   },
   {
     "code": "A40613001",
@@ -866,7 +1954,21 @@
     "emd": "동춘동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 동춘동 924 연수2차현대대림아파트",
+    "builder": "현대산업개발(주), 대림산업(주)",
+    "entrance": "계단식",
+    "useArea": "72445.62",
+    "bjdCode": "2818510500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 700,
+      "o135": 0
+    }
   },
   {
     "code": "A40613002",
@@ -877,7 +1979,21 @@
     "emd": "동춘동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 동춘동 925 연수한양1차아파트",
+    "builder": "한양(주)",
+    "entrance": "계단식",
+    "useArea": "103398.525",
+    "bjdCode": "2818510500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 1020,
+      "o135": 0
+    }
   },
   {
     "code": "A40613003",
@@ -888,7 +2004,21 @@
     "emd": "동춘동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 동춘동 924-3 연수삼성럭키",
+    "builder": "삼성,럭키건설",
+    "entrance": "계단식",
+    "useArea": "106156.8",
+    "bjdCode": "2818510500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1,
+      "u85": 0,
+      "u135": 1079,
+      "o135": 0
+    }
   },
   {
     "code": "A40613207",
@@ -899,7 +2029,21 @@
     "emd": "동춘동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 동춘동 925-7 연수 대우삼환 아파트",
+    "builder": "대우삼환",
+    "entrance": "계단식",
+    "useArea": "173367.84",
+    "bjdCode": "2818510500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 1776,
+      "o135": 0
+    }
   },
   {
     "code": "A40670106",
@@ -910,7 +2054,21 @@
     "emd": "동춘동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 동춘동 940 대림3차아파트",
+    "builder": "대림산업(주)",
+    "entrance": "계단식",
+    "useArea": "21628.08",
+    "bjdCode": "2818510500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 408,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40670202",
@@ -921,7 +2079,21 @@
     "emd": "동춘동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 동춘동 961 동춘태평2차 아파트",
+    "builder": "태평주택",
+    "entrance": "계단식",
+    "useArea": "13783.85",
+    "bjdCode": "2818510500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 112,
+      "u85": 86,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40670304",
@@ -932,7 +2104,21 @@
     "emd": "동춘동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 동춘동 931 동춘 무지개마을아파트",
+    "builder": "태화,동보,영남,동남",
+    "entrance": "계단식",
+    "useArea": "77283.15",
+    "bjdCode": "2818510500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 534,
+      "u85": 534,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40675109",
@@ -943,7 +2129,21 @@
     "emd": "동춘동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 동춘동 938 연수건영",
+    "builder": "건영",
+    "entrance": "계단식",
+    "useArea": "81832.4",
+    "bjdCode": "2818510500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 970,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40675208",
@@ -954,7 +2154,21 @@
     "emd": "동춘동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 동춘동 921 동춘마을아파트",
+    "builder": "한보철강공업주",
+    "entrance": "계단식",
+    "useArea": "55179.6",
+    "bjdCode": "2818510500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 930,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40675305",
@@ -965,7 +2179,21 @@
     "emd": "동춘동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 동춘동 929 동춘풍림2차아파트",
+    "builder": "풍림건설",
+    "entrance": "혼합식",
+    "useArea": "77748",
+    "bjdCode": "2818510500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 600,
+      "u85": 600,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40675406",
@@ -976,7 +2204,21 @@
     "emd": "동춘동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 동춘동 932 연수2차 한양 아파트",
+    "builder": "(주)한양",
+    "entrance": "계단식",
+    "useArea": "111062",
+    "bjdCode": "2818510500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1440,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40675503",
@@ -987,7 +2229,21 @@
     "emd": "동춘동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 동춘동 928 연수1차 현대 아파트",
+    "builder": "현대산업개발,현대건설",
+    "entrance": "계단식",
+    "useArea": "88368.8",
+    "bjdCode": "2818510500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 8,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1040,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40675601",
@@ -998,7 +2254,21 @@
     "emd": "동춘동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 동춘동 943 해송마을동남아파트",
+    "builder": "동남주택산업(주)",
+    "entrance": "복도식",
+    "useArea": "70389",
+    "bjdCode": "2818510500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1350,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40677501",
@@ -1009,7 +2279,21 @@
     "emd": "동춘동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 동춘동 923 동아금호연수타운",
+    "builder": "동아건설산업(주), (주)광주고속건설",
+    "entrance": "계단식",
+    "useArea": "117267.52",
+    "bjdCode": "2818510500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 16,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 1056,
+      "o135": 0
+    }
   },
   {
     "code": "A40680103",
@@ -1020,7 +2304,21 @@
     "emd": "동춘동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 동춘동 919 연수하나2차아파트",
+    "builder": "(주)한국공영",
+    "entrance": "계단식",
+    "useArea": "29296.8",
+    "bjdCode": "2818510500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 264,
+      "o135": 0
+    }
   },
   {
     "code": "A40680104",
@@ -1031,7 +2329,21 @@
     "emd": "동춘동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 동춘동 917 롯데아파트",
+    "builder": "롯데건설",
+    "entrance": "계단식",
+    "useArea": "35802.5",
+    "bjdCode": "2818510500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 320,
+      "o135": 0
+    }
   },
   {
     "code": "A40680105",
@@ -1042,7 +2354,21 @@
     "emd": "동춘동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 동춘동 920-1 연수대우3차아파트",
+    "builder": "(주)대우",
+    "entrance": "계단식",
+    "useArea": "39247.52",
+    "bjdCode": "2818510500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 344,
+      "o135": 0
+    }
   },
   {
     "code": "A40680107",
@@ -1053,7 +2379,21 @@
     "emd": "동춘동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 동춘동 922 풍림연수3차아파트",
+    "builder": "풍림산업(주)",
+    "entrance": "계단식",
+    "useArea": "37092",
+    "bjdCode": "2818510500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 440,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40680301",
@@ -1064,7 +2404,21 @@
     "emd": "동춘동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 동춘동 939 동춘 태평1차아파트",
+    "builder": "태평건설",
+    "entrance": "혼합식",
+    "useArea": "19394.88",
+    "bjdCode": "2818510500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 192,
+      "o135": 0
+    }
   },
   {
     "code": "A40680401",
@@ -1075,7 +2429,21 @@
     "emd": "동춘동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 동춘동 941 대동",
+    "builder": "대동건설",
+    "entrance": "복도식",
+    "useArea": "26853.12",
+    "bjdCode": "2818510500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 336,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40680402",
@@ -1086,7 +2454,21 @@
     "emd": "동춘동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 동춘동 942 연수 아주아파트",
+    "builder": "(주)아주건설",
+    "entrance": "계단식",
+    "useArea": "29503.44",
+    "bjdCode": "2818510500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 348,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020270",
@@ -1097,7 +2479,20 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 20-22 송도푸르지오월드마크1단지",
+    "builder": "대우건설",
+    "entrance": "계단식",
+    "useArea": "25559.654",
+    "bjdCode": "2818510600",
+    "aptType": "주상복합",
+    "mgrType": "자치관리",
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 100
+    }
   },
   {
     "code": "A10020272",
@@ -1108,7 +2503,20 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 22-22 송도푸르지오월드마크8단지",
+    "builder": "대우건설",
+    "entrance": "계단식",
+    "useArea": "28586.88",
+    "bjdCode": "2818510600",
+    "aptType": "주상복합",
+    "mgrType": "자치관리",
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 116
+    }
   },
   {
     "code": "A10020527",
@@ -1120,7 +2528,21 @@
     "sigunguCode": "28185",
     "sido": "인천광역시",
     "sigungu": "연수구",
-    "hhldCnt": 1319
+    "hhldCnt": 1319,
+    "jibunAddr": "인천광역시 연수구 송도동 397-2 힐스테이트레이크 송도4차",
+    "builder": "현대건설(주)",
+    "entrance": "계단식",
+    "useArea": "124346.16",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 36,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020539",
@@ -1132,7 +2554,21 @@
     "sigunguCode": "28185",
     "sido": "인천광역시",
     "sigungu": "연수구",
-    "hhldCnt": 498
+    "hhldCnt": 498,
+    "jibunAddr": "인천광역시 연수구 송도동 155-1 송도아메리칸타운 더샵",
+    "builder": "포스코건설",
+    "entrance": "혼합식",
+    "useArea": "46073.9666",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 69,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020712",
@@ -1144,7 +2580,21 @@
     "sigunguCode": "28185",
     "sido": "인천광역시",
     "sigungu": "연수구",
-    "hhldCnt": 775
+    "hhldCnt": 775,
+    "jibunAddr": "인천광역시 연수구 송도동 30-5 더샵송도아크베이아파트",
+    "builder": "포스코건설",
+    "entrance": "기타",
+    "useArea": "80880.02",
+    "bjdCode": "2818510600",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 49,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020744",
@@ -1155,7 +2605,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 396-1 송도럭스오션SK뷰",
+    "builder": "SK에코플랜트",
+    "entrance": "계단식",
+    "useArea": "99297.0696",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 49,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1002,
+      "u135": 104,
+      "o135": 8
+    }
   },
   {
     "code": "A10021000",
@@ -1166,7 +2630,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 396-11 송도자이 더 스타",
+    "builder": "GS건설",
+    "entrance": "계단식",
+    "useArea": "136574.3418",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 44,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1138,
+      "u135": 392,
+      "o135": 3
+    }
   },
   {
     "code": "A10022353",
@@ -1177,7 +2655,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 20-4 송도 하늘채아이비원",
+    "builder": "코오롱글로벌(주)",
+    "entrance": "계단식",
+    "useArea": "17360.064",
+    "bjdCode": "2818510600",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 336,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022395",
@@ -1188,7 +2680,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 2-3 송도이안아파트",
+    "builder": "(주)대우자동차판매건설(현 : 대우산업개발)",
+    "entrance": "계단식",
+    "useArea": "14230.08",
+    "bjdCode": "2818510600",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 108,
+      "o135": 0
+    }
   },
   {
     "code": "A10022494",
@@ -1199,7 +2705,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 30-2 힐스테이트 송도 더스카이",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "122829.3015",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 59,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 504,
+      "u135": 684,
+      "o135": 17
+    }
   },
   {
     "code": "A10022498",
@@ -1210,7 +2730,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 396-7 송도자이크리스탈오션",
+    "builder": "GS건설",
+    "entrance": "계단식",
+    "useArea": "145961.3755",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 42,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 698,
+      "u135": 761,
+      "o135": 44
+    }
   },
   {
     "code": "A10022954",
@@ -1221,7 +2755,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 397-5 힐스테이트 레이크 송도3차",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "97676.71",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 49,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 804,
+      "u135": 292,
+      "o135": 4
+    }
   },
   {
     "code": "A10022964",
@@ -1232,7 +2780,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 30-1 디에트르송도시그니처뷰",
+    "builder": "대방건설(주)",
+    "entrance": "기타",
+    "useArea": "61348.4058",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 48,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 188,
+      "u135": 381,
+      "o135": 9
+    }
   },
   {
     "code": "A10023207",
@@ -1243,7 +2805,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 105-2 더샵송도센터니얼",
+    "builder": "포스코건설",
+    "entrance": "계단식",
+    "useArea": "29533.3",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 39,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 284,
+      "u135": 58,
+      "o135": 0
+    }
   },
   {
     "code": "A10023361",
@@ -1254,7 +2830,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 312-1 호반써밋송도아파트",
+    "builder": "(주) 호반건설",
+    "entrance": "계단식",
+    "useArea": "164432.3808",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 49,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1230,
+      "u135": 590,
+      "o135": 0
+    }
   },
   {
     "code": "A10023434",
@@ -1265,7 +2855,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 92 더샵 송도센트럴파크 3차",
+    "builder": "포스코 E&C",
+    "entrance": "기타",
+    "useArea": "37945.65",
+    "bjdCode": "2818510600",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 39,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 70,
+      "u135": 273,
+      "o135": 8
+    }
   },
   {
     "code": "A10023693",
@@ -1276,7 +2880,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 109 더샵송도프라임뷰20BL",
+    "builder": "포스코건설",
+    "entrance": "계단식",
+    "useArea": "61480.25",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 37,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 407,
+      "u135": 255,
+      "o135": 0
+    }
   },
   {
     "code": "A10024083",
@@ -1287,7 +2905,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 114 더샵송도프라임뷰25BL아파트",
+    "builder": "포스코건설",
+    "entrance": "계단식",
+    "useArea": "20401",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 106,
+      "o135": 58
+    }
   },
   {
     "code": "A10024573",
@@ -1298,7 +2930,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 10-30 송도sk뷰 센트럴",
+    "builder": "sk건설",
+    "entrance": "계단식",
+    "useArea": "25324.9458",
+    "bjdCode": "2818510600",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 36,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 299,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024710",
@@ -1309,7 +2955,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 311 송도랜드마크시티센트럴더샵아파트",
+    "builder": "포스코건설",
+    "entrance": "계단식",
+    "useArea": "195433.1402",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 49,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1678,
+      "u135": 552,
+      "o135": 0
+    }
   },
   {
     "code": "A10024779",
@@ -1320,7 +2980,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 308-1 더샵송도마리나베이",
+    "builder": "포스코건설",
+    "entrance": "계단식",
+    "useArea": "259438.2328",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 38,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 3068,
+      "u135": 32,
+      "o135": 0
+    }
   },
   {
     "code": "A10025031",
@@ -1331,7 +3005,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 310-1 송도 오션파크 베르디움",
+    "builder": "(주)호반건설",
+    "entrance": "계단식",
+    "useArea": "126434.444",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 49,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1530,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025071",
@@ -1342,7 +3030,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 397-8 힐스테이트레이크송도2차",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "77930.09",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 43,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 745,
+      "u135": 144,
+      "o135": 0
+    }
   },
   {
     "code": "A10025399",
@@ -1353,7 +3055,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 315-1 송도 SK VIEW 아파트",
+    "builder": "sk 건설",
+    "entrance": "계단식",
+    "useArea": "178559.2435",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 43,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 2019,
+      "u135": 81,
+      "o135": 0
+    }
   },
   {
     "code": "A10025443",
@@ -1364,7 +3080,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 397-11 힐스테이트 레이크송도",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "79100.44",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 36,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 644,
+      "u135": 242,
+      "o135": 0
+    }
   },
   {
     "code": "A10025745",
@@ -1375,7 +3105,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 155 송도 아메리칸타운아이파크아파트",
+    "builder": "현대산업개발",
+    "entrance": "계단식",
+    "useArea": "67927.586",
+    "bjdCode": "2818510600",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 49,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 725,
+      "u135": 99,
+      "o135": 6
+    }
   },
   {
     "code": "A10025853",
@@ -1386,7 +3130,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 103 송도더샵파크애비뉴아파트",
+    "builder": "포스코 건설",
+    "entrance": "계단식",
+    "useArea": "52655.44",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 46,
+    "areaBreak": {
+      "u60": 172,
+      "u85": 365,
+      "u135": 131,
+      "o135": 0
+    }
   },
   {
     "code": "A10025886",
@@ -1397,7 +3155,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 319-1 e편한세상송도아파트",
+    "builder": "대림산업(주)",
+    "entrance": "계단식",
+    "useArea": "205676.4791",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 39,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 2708,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026038",
@@ -1408,7 +3180,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 190-4 송도더샵센트럴시티아파트",
+    "builder": "포스코건설(주)",
+    "entrance": "계단식",
+    "useArea": "184076.88",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 47,
+    "areaBreak": {
+      "u60": 1331,
+      "u85": 1187,
+      "u135": 88,
+      "o135": 4
+    }
   },
   {
     "code": "A10026547",
@@ -1419,7 +3205,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 191-2 송도글로벌파크베르디움",
+    "builder": "호반건설",
+    "entrance": "계단식",
+    "useArea": "86414.7798",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 33,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1153,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026678",
@@ -1430,7 +3230,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 100 송도더샵퍼스트파크13단지",
+    "builder": "송도국제도시개발유한회사",
+    "entrance": "계단식",
+    "useArea": "72028.42",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 44,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 634,
+      "u135": 222,
+      "o135": 0
+    }
   },
   {
     "code": "A10026679",
@@ -1441,7 +3255,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 102 송도더샵퍼스트파크15단지",
+    "builder": "(주)포스코건설",
+    "entrance": "계단식",
+    "useArea": "70685.27",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 43,
+    "areaBreak": {
+      "u60": 160,
+      "u85": 497,
+      "u135": 215,
+      "o135": 0
+    }
   },
   {
     "code": "A10026681",
@@ -1452,7 +3280,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 101 송도더샵퍼스트파크14단지",
+    "builder": "포스코건설",
+    "entrance": "계단식",
+    "useArea": "70540.37",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 42,
+    "areaBreak": {
+      "u60": 160,
+      "u85": 491,
+      "u135": 218,
+      "o135": 0
+    }
   },
   {
     "code": "A10027171",
@@ -1463,7 +3305,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 192-8 베르디움더퍼스트아파트",
+    "builder": "호반건설",
+    "entrance": "계단식",
+    "useArea": "143387.4306",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 33,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1677,
+      "u135": 157,
+      "o135": 0
+    }
   },
   {
     "code": "A10027367",
@@ -1474,7 +3330,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 191-4 송도에듀포레 푸르지오아파트",
+    "builder": "대우건설",
+    "entrance": "계단식",
+    "useArea": "109409.422",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 41,
+    "areaBreak": {
+      "u60": 299,
+      "u85": 985,
+      "u135": 122,
+      "o135": 0
+    }
   },
   {
     "code": "A10027653",
@@ -1485,7 +3355,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 149 롯데캐슬캠퍼스타운아파트",
+    "builder": "롯데건설 외",
+    "entrance": "계단식",
+    "useArea": "103797.8928",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 55,
+    "areaBreak": {
+      "u60": 318,
+      "u85": 456,
+      "u135": 456,
+      "o135": 0
+    }
   },
   {
     "code": "A10027884",
@@ -1496,7 +3380,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 18-5 송도더샵그린워크3차 D17-1BL",
+    "builder": "포스코건설",
+    "entrance": "혼합식",
+    "useArea": "30685.02",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 258,
+      "u135": 100,
+      "o135": 0
+    }
   },
   {
     "code": "A10027887",
@@ -1507,7 +3405,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 23-5 송도센트럴파크 푸르지오",
+    "builder": "대우건설",
+    "entrance": "계단식",
+    "useArea": "55140.5927",
+    "bjdCode": "2818510600",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 46,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 260,
+      "u135": 197,
+      "o135": 94
+    }
   },
   {
     "code": "A10027888",
@@ -1518,7 +3430,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 19-3 송도 더샵 그린워크3차 18-1BL",
+    "builder": "포스코건설",
+    "entrance": "계단식",
+    "useArea": "73953.05",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 34,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 465,
+      "u135": 315,
+      "o135": 0
+    }
   },
   {
     "code": "A10027898",
@@ -1529,7 +3455,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 33-1 송도아트윈푸르지오아파트",
+    "builder": "대우건설(주)",
+    "entrance": "기타",
+    "useArea": "97892.93",
+    "bjdCode": "2818510600",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 60,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 564,
+      "u135": 405,
+      "o135": 30
+    }
   },
   {
     "code": "A10027925",
@@ -1540,7 +3480,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 110 송도더샵마스터뷰 1단지",
+    "builder": "포스코건설",
+    "entrance": "혼합식",
+    "useArea": "66178.35",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 32,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 520,
+      "u135": 113,
+      "o135": 59
+    }
   },
   {
     "code": "A10027929",
@@ -1551,7 +3505,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 111 송도더샵마스터뷰2단지",
+    "builder": "포스코건설",
+    "entrance": "계단식",
+    "useArea": "66029.63",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 32,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 520,
+      "u135": 113,
+      "o135": 58
+    }
   },
   {
     "code": "A10027930",
@@ -1562,7 +3530,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 112 송도더샵마스터뷰 3단지",
+    "builder": "포스코건설",
+    "entrance": "계단식",
+    "useArea": "45845.77",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 34,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 362,
+      "u135": 59,
+      "o135": 57
+    }
   },
   {
     "code": "A40673002",
@@ -1573,7 +3555,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 2-9 송도풍림아이원4단지",
+    "builder": "풍림",
+    "entrance": "계단식",
+    "useArea": "45713.8436",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 404,
+      "u135": 100,
+      "o135": 0
+    }
   },
   {
     "code": "A40673101",
@@ -1584,7 +3580,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 3-40 송도 풍림6단지",
+    "builder": "풍림산업 주식회사",
+    "entrance": "계단식",
+    "useArea": "55821.5162",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 100,
+      "o135": 244
+    }
   },
   {
     "code": "A40673412",
@@ -1595,7 +3605,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 2-7 송도 풍림아이원1단지아파트",
+    "builder": "풍림산업",
+    "entrance": "계단식",
+    "useArea": "95758.1922",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 724,
+      "u135": 300,
+      "o135": 0
+    }
   },
   {
     "code": "A40673510",
@@ -1606,7 +3630,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 3-10 송도 풍림아이원2단지아파트",
+    "builder": "풍림산업",
+    "entrance": "계단식",
+    "useArea": "81373.96",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 958,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40673603",
@@ -1617,7 +3655,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 3-13 송도풍림아이원3단지아파트",
+    "builder": "풍림산업(주)",
+    "entrance": "계단식",
+    "useArea": "42810.06",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 504,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40673901",
@@ -1628,7 +3680,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 15-2 송도더샵엑스포아파트",
+    "builder": "포스코 건설",
+    "entrance": "계단식",
+    "useArea": "153881.1584",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 27,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 147,
+      "u135": 1084,
+      "o135": 106
+    }
   },
   {
     "code": "A40673902",
@@ -1639,7 +3705,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 9-5 송도웰카운티4단지",
+    "builder": "(주)풍림건설",
+    "entrance": "계단식",
+    "useArea": "59455.42",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 30,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 84,
+      "u135": 210,
+      "o135": 171
+    }
   },
   {
     "code": "A40673903",
@@ -1650,7 +3730,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 9-6 송도웰카운티3단지",
+    "builder": "현진",
+    "entrance": "계단식",
+    "useArea": "48429.8",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 30,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 271,
+      "u135": 244,
+      "o135": 0
+    }
   },
   {
     "code": "A40673904",
@@ -1661,7 +3755,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 23-3 더샵센트럴파크1",
+    "builder": "(주)포스코건설",
+    "entrance": "계단식",
+    "useArea": "86690.1192",
+    "bjdCode": "2818510600",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 46,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 43,
+      "u135": 552,
+      "o135": 134
+    }
   },
   {
     "code": "A40673905",
@@ -1672,7 +3780,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 21-59 송도힐스테이트3456단지",
+    "builder": "현대건설",
+    "entrance": "혼합식",
+    "useArea": "70841.6273",
+    "bjdCode": "2818510600",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 45,
+      "o135": 431
+    }
   },
   {
     "code": "A40673906",
@@ -1683,7 +3805,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 19-5 송도푸르지오하버뷰",
+    "builder": "대우",
+    "entrance": "계단식",
+    "useArea": "75506.3437",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 40,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 385,
+      "o135": 208
+    }
   },
   {
     "code": "A40673907",
@@ -1694,7 +3830,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 19-7 송도자이하버뷰2단지",
+    "builder": "GS건설",
+    "entrance": "계단식",
+    "useArea": "63684.401",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 31,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 46,
+      "u135": 281,
+      "o135": 196
+    }
   },
   {
     "code": "A40673908",
@@ -1705,7 +3855,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 19-6 송도자이하버뷰1단지",
+    "builder": "지에스건설",
+    "entrance": "계단식",
+    "useArea": "70679.838",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 39,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 258,
+      "o135": 288
+    }
   },
   {
     "code": "A40673910",
@@ -1716,7 +3880,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 23-4 더샵센트럴파크2단지",
+    "builder": "포스코건설",
+    "entrance": "계단식",
+    "useArea": "76965.4771",
+    "bjdCode": "2818510600",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 48,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 74,
+      "u135": 316,
+      "o135": 242
+    }
   },
   {
     "code": "A40673911",
@@ -1727,7 +3905,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 18-10 송도더샵하버뷰14단지",
+    "builder": "(주)포스코건설",
+    "entrance": "계단식",
+    "useArea": "30711.961",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 66,
+      "u135": 224,
+      "o135": 2
+    }
   },
   {
     "code": "A40673912",
@@ -1738,7 +3930,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 17-5 송도더샵하버뷰13단지",
+    "builder": "포스코건설",
+    "entrance": "계단식",
+    "useArea": "61835.964",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 33,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 84,
+      "u135": 397,
+      "o135": 72
+    }
   },
   {
     "code": "A40673913",
@@ -1749,7 +3955,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 18-7 송도더샵하버뷰2",
+    "builder": "(주)포스코건설",
+    "entrance": "계단식",
+    "useArea": "61109.5188",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 38,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 144,
+      "u135": 334,
+      "o135": 70
+    }
   },
   {
     "code": "A40673914",
@@ -1760,7 +3980,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 16-7 송도더샵그린애비뉴8단지",
+    "builder": "포스코건설(주)",
+    "entrance": "계단식",
+    "useArea": "57475.7445",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 28,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 90,
+      "u135": 450,
+      "o135": 0
+    }
   },
   {
     "code": "A40673915",
@@ -1771,7 +4005,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 16-8 송도더샵그린애비뉴7단지",
+    "builder": "포스코건설(주)",
+    "entrance": "계단식",
+    "useArea": "50277.6235",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 27,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 104,
+      "u135": 370,
+      "o135": 0
+    }
   },
   {
     "code": "A40673916",
@@ -1782,7 +4030,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 157 송도해모로월드뷰",
+    "builder": "(주)한진중공업",
+    "entrance": "혼합식",
+    "useArea": "59961.2194",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 38,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 446,
+      "u135": 188,
+      "o135": 4
+    }
   },
   {
     "code": "A40673917",
@@ -1793,7 +4055,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 150 송도롯데캐슬",
+    "builder": "롯데건설(주)",
+    "entrance": "계단식",
+    "useArea": "70032.8113",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 32,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 86,
+      "u135": 557,
+      "o135": 0
+    }
   },
   {
     "code": "A40673918",
@@ -1804,7 +4080,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 15-10 송도더프라우3단지",
+    "builder": "코오롱글로벌(주)",
+    "entrance": "계단식",
+    "useArea": "25142.168",
+    "bjdCode": "2818510600",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 88,
+      "o135": 92
+    }
   },
   {
     "code": "A40673920",
@@ -1815,7 +4105,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 161-3 송도캐슬&해모로",
+    "builder": "롯데건설,한진중공업",
+    "entrance": "계단식",
+    "useArea": "139030.9535",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 40,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1008,
+      "u135": 312,
+      "o135": 119
+    }
   },
   {
     "code": "A40673921",
@@ -1826,7 +4130,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 190-2 송도글로벌캠퍼스푸르지오",
+    "builder": "주)대우건설",
+    "entrance": "계단식",
+    "useArea": "188355.35",
+    "bjdCode": "2818510600",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 45,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 125,
+      "u135": 1573,
+      "o135": 5
+    }
   },
   {
     "code": "A40673922",
@@ -1837,7 +4155,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 192-1 송도더샵그린스퀘어",
+    "builder": "포스코건설(주)",
+    "entrance": "기타",
+    "useArea": "143653.9337",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 42,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 799,
+      "u135": 717,
+      "o135": 0
+    }
   },
   {
     "code": "A40673923",
@@ -1848,7 +4180,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 18-6 송도더샵그린워크1차",
+    "builder": "포스코",
+    "entrance": "계단식",
+    "useArea": "60333.0988",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 33,
+    "areaBreak": {
+      "u60": 102,
+      "u85": 530,
+      "u135": 104,
+      "o135": 0
+    }
   },
   {
     "code": "A40673924",
@@ -1859,7 +4205,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 17-3 더샵그린워크2차",
+    "builder": "포스코건설",
+    "entrance": "계단식",
+    "useArea": "61094.146",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 32,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 436,
+      "u135": 229,
+      "o135": 0
+    }
   },
   {
     "code": "A40684004",
@@ -1870,7 +4230,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 3-38 송도 금호어울림 아파트",
+    "builder": "금호산업(주)",
+    "entrance": "계단식",
+    "useArea": "53101.5",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 330,
+      "u135": 120,
+      "o135": 60
+    }
   },
   {
     "code": "A40684005",
@@ -1881,7 +4255,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 3-46 아이파크송도",
+    "builder": "현대산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "66827.1628",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 170,
+      "u135": 402,
+      "o135": 44
+    }
   },
   {
     "code": "A40684007",
@@ -1892,7 +4280,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 2-12 송도 성지리벨루스아파트",
+    "builder": "성지건설(주)",
+    "entrance": "계단식",
+    "useArea": "59381.16",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 498,
+      "u135": 128,
+      "o135": 0
+    }
   },
   {
     "code": "A40684008",
@@ -1903,7 +4305,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 3-44 송도해모로아파트",
+    "builder": "한진중공업",
+    "entrance": "계단식",
+    "useArea": "72796.7219",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 310,
+      "u135": 231,
+      "o135": 120
+    }
   },
   {
     "code": "A40684009",
@@ -1914,7 +4330,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 9-29 송도웰카운티2단지 아파트",
+    "builder": "대우건설(주)",
+    "entrance": "계단식",
+    "useArea": "96044.75",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 144,
+      "u135": 501,
+      "o135": 153
+    }
   },
   {
     "code": "A40684011",
@@ -1925,7 +4355,21 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 9-31 송도 웰카운티1단지아파트",
+    "builder": "인천도시공사",
+    "entrance": "계단식",
+    "useArea": "121025.38",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 147,
+      "u135": 620,
+      "o135": 213
+    }
   },
   {
     "code": "A40684013",
@@ -1936,6 +4380,20 @@
     "emd": "송도동",
     "sigunguCode": "28185",
     "sido": "인천광역시",
-    "sigungu": "연수구"
+    "sigungu": "연수구",
+    "jibunAddr": "인천광역시 연수구 송도동 4-1 송도더샵퍼스트월드",
+    "builder": "포스코",
+    "entrance": "계단식",
+    "useArea": "203177.372",
+    "bjdCode": "2818510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 63,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 126,
+      "u135": 876,
+      "o135": 594
+    }
   }
 ]

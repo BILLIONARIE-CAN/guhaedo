@@ -8,7 +8,21 @@
     "emd": "영암읍",
     "sigunguCode": "46830",
     "sido": "전라남도",
-    "sigungu": "영암군"
+    "sigungu": "영암군",
+    "jibunAddr": "전라남도 영암군 영암읍 교동리 45 영암무등파크맨션",
+    "builder": "무등건설",
+    "entrance": "계단식",
+    "useArea": "18370.88",
+    "bjdCode": "4683025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 104,
+      "u85": 120,
+      "u135": 18,
+      "o135": 0
+    }
   },
   {
     "code": "A10021624",
@@ -19,7 +33,21 @@
     "emd": "영암읍",
     "sigunguCode": "46830",
     "sido": "전라남도",
-    "sigungu": "영암군"
+    "sigungu": "영암군",
+    "jibunAddr": "전라남도 영암군 영암읍 남풍리 2-3 영암남풍LH2단지",
+    "builder": "경일건설(주)",
+    "entrance": "복도식",
+    "useArea": "3088.2",
+    "bjdCode": "4683025025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 100,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023335",
@@ -30,7 +58,21 @@
     "emd": "영암읍",
     "sigunguCode": "46830",
     "sido": "전라남도",
-    "sigungu": "영암군"
+    "sigungu": "영암군",
+    "jibunAddr": "전라남도 영암군 영암읍 남풍리 268 영암남풍LH1단지",
+    "builder": "경일건설(주)",
+    "entrance": "복도식",
+    "useArea": "4770.6",
+    "bjdCode": "4683025025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 150,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021625",
@@ -41,7 +83,21 @@
     "emd": "영암읍",
     "sigunguCode": "46830",
     "sido": "전라남도",
-    "sigungu": "영암군"
+    "sigungu": "영암군",
+    "jibunAddr": "전라남도 영암군 영암읍 역리 500- 영암청송2차드림빌",
+    "builder": "청송건설",
+    "entrance": "계단식",
+    "useArea": "10200.931",
+    "bjdCode": "4683025026",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 130,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022305",
@@ -52,7 +108,21 @@
     "emd": "영암읍",
     "sigunguCode": "46830",
     "sido": "전라남도",
-    "sigungu": "영암군"
+    "sigungu": "영암군",
+    "jibunAddr": "전라남도 영암군 영암읍 역리 304- 영암영신아파트",
+    "builder": "영신건설",
+    "entrance": "계단식",
+    "useArea": "7292.64",
+    "bjdCode": "4683025026",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 54,
+      "u85": 48,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023139",
@@ -63,7 +133,21 @@
     "emd": "삼호읍",
     "sigunguCode": "46830",
     "sido": "전라남도",
-    "sigungu": "영암군"
+    "sigungu": "영암군",
+    "jibunAddr": "전라남도 영암군 삼호읍 용앙리 1665-2 대불렉시안파크타운",
+    "builder": "NS종합건설",
+    "entrance": "계단식",
+    "useArea": "41558.0866",
+    "bjdCode": "4683025326",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 626,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025080",
@@ -74,7 +158,21 @@
     "emd": "삼호읍",
     "sigunguCode": "46830",
     "sido": "전라남도",
-    "sigungu": "영암군"
+    "sigungu": "영암군",
+    "jibunAddr": "전라남도 영암군 삼호읍 용앙리 1668-1 영암용앙3LH",
+    "builder": "이엔에스건설,동광건설,덕흥건설",
+    "entrance": "복도식",
+    "useArea": "6728.74",
+    "bjdCode": "4683025326",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 250,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025338",
@@ -85,7 +183,21 @@
     "emd": "삼호읍",
     "sigunguCode": "46830",
     "sido": "전라남도",
-    "sigungu": "영암군"
+    "sigungu": "영암군",
+    "jibunAddr": "전라남도 영암군 삼호읍 용앙리 1669-1 영암삼호대불산단 중흥S-클래스 리버티아파트",
+    "builder": "중흥에스클래스",
+    "entrance": "계단식",
+    "useArea": "93808.1012",
+    "bjdCode": "4683025326",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 768,
+      "u85": 592,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027550",
@@ -96,7 +208,21 @@
     "emd": "삼호읍",
     "sigunguCode": "46830",
     "sido": "전라남도",
-    "sigungu": "영암군"
+    "sigungu": "영암군",
+    "jibunAddr": "전라남도 영암군 삼호읍 용앙리 1666 영암 대불렉시안파크뷰",
+    "builder": "(주)보배건설",
+    "entrance": "계단식",
+    "useArea": "13276.82",
+    "bjdCode": "4683025326",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 190,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A52670301",
@@ -107,7 +233,21 @@
     "emd": "삼호읍",
     "sigunguCode": "46830",
     "sido": "전라남도",
-    "sigungu": "영암군"
+    "sigungu": "영암군",
+    "jibunAddr": "전라남도 영암군 삼호읍 용앙리 166-4 삼호빌라트",
+    "builder": "태안건설",
+    "entrance": "복도식",
+    "useArea": "5537.76",
+    "bjdCode": "4683025326",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 139,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A52670302",
@@ -118,7 +258,21 @@
     "emd": "삼호읍",
     "sigunguCode": "46830",
     "sido": "전라남도",
-    "sigungu": "영암군"
+    "sigungu": "영암군",
+    "jibunAddr": "전라남도 영암군 삼호읍 용앙리 313-1 삼호퀸스빌1차",
+    "builder": "(주)보배건설",
+    "entrance": "복도식",
+    "useArea": "17060.043",
+    "bjdCode": "4683025326",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 285,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A52670303",
@@ -129,7 +283,21 @@
     "emd": "삼호읍",
     "sigunguCode": "46830",
     "sido": "전라남도",
-    "sigungu": "영암군"
+    "sigungu": "영암군",
+    "jibunAddr": "전라남도 영암군 삼호읍 용앙리 390-1 삼호퀸스빌2차",
+    "builder": "보배건설(주)",
+    "entrance": "복도식",
+    "useArea": "29782.5912",
+    "bjdCode": "4683025326",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 498,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A52670304",
@@ -140,7 +308,21 @@
     "emd": "삼호읍",
     "sigunguCode": "46830",
     "sido": "전라남도",
-    "sigungu": "영암군"
+    "sigungu": "영암군",
+    "jibunAddr": "전라남도 영암군 삼호읍 용앙리 1736 용앙휴먼시아",
+    "builder": "남광토건",
+    "entrance": "복도식",
+    "useArea": "22939.81",
+    "bjdCode": "4683025326",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 554,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A52670308",
@@ -151,7 +333,21 @@
     "emd": "삼호읍",
     "sigunguCode": "46830",
     "sido": "전라남도",
-    "sigungu": "영암군"
+    "sigungu": "영암군",
+    "jibunAddr": "전라남도 영암군 삼호읍 용앙리 1739 용앙2휴먼시아",
+    "builder": "(주)새한종합건설",
+    "entrance": "복도식",
+    "useArea": "18997.08",
+    "bjdCode": "4683025326",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 462,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A52670310",
@@ -162,7 +358,21 @@
     "emd": "삼호읍",
     "sigunguCode": "46830",
     "sido": "전라남도",
-    "sigungu": "영암군"
+    "sigungu": "영암군",
+    "jibunAddr": "전라남도 영암군 삼호읍 용앙리 1742 영암삼호렉시안",
+    "builder": "NS건설",
+    "entrance": "계단식",
+    "useArea": "21996.4325",
+    "bjdCode": "4683025326",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 335,
+      "u85": 30,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A52689701",
@@ -173,7 +383,21 @@
     "emd": "삼호읍",
     "sigunguCode": "46830",
     "sido": "전라남도",
-    "sigungu": "영암군"
+    "sigungu": "영암군",
+    "jibunAddr": "전라남도 영암군 삼호읍 용앙리 405-4 한양파크빌1차",
+    "builder": "(주)한양",
+    "entrance": "계단식",
+    "useArea": "13587.2",
+    "bjdCode": "4683025326",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 160,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A52689702",
@@ -184,7 +408,21 @@
     "emd": "삼호읍",
     "sigunguCode": "46830",
     "sido": "전라남도",
-    "sigungu": "영암군"
+    "sigungu": "영암군",
+    "jibunAddr": "전라남도 영암군 삼호읍 용앙리 222-9 삼호종원",
+    "builder": "종원건설",
+    "entrance": "혼합식",
+    "useArea": "16390.44",
+    "bjdCode": "4683025326",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 293,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A52689703",
@@ -195,7 +433,21 @@
     "emd": "삼호읍",
     "sigunguCode": "46830",
     "sido": "전라남도",
-    "sigungu": "영암군"
+    "sigungu": "영암군",
+    "jibunAddr": "전라남도 영암군 삼호읍 용앙리 1679-1 대불금호아파트",
+    "builder": "(주)아시아나항공건설",
+    "entrance": "혼합식",
+    "useArea": "38228.28",
+    "bjdCode": "4683025326",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 682,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023418",
@@ -206,7 +458,21 @@
     "emd": "삼호읍",
     "sigunguCode": "46830",
     "sido": "전라남도",
-    "sigungu": "영암군"
+    "sigungu": "영암군",
+    "jibunAddr": "전라남도 영암군 삼호읍 용당리 2186 삼호 고운라피네더퍼스트",
+    "builder": "고운시티아이(주)",
+    "entrance": "계단식",
+    "useArea": "24021.5914",
+    "bjdCode": "4683025329",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 294,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A52670104",
@@ -217,7 +483,21 @@
     "emd": "삼호읍",
     "sigunguCode": "46830",
     "sido": "전라남도",
-    "sigungu": "영암군"
+    "sigungu": "영암군",
+    "jibunAddr": "전라남도 영암군 삼호읍 용당리 2179-1 현대삼호2차아파트",
+    "builder": "한라건설",
+    "entrance": "복도식",
+    "useArea": "70751.79",
+    "bjdCode": "4683025329",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 1251,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A52670305",
@@ -228,7 +508,21 @@
     "emd": "삼호읍",
     "sigunguCode": "46830",
     "sido": "전라남도",
-    "sigungu": "영암군"
+    "sigungu": "영암군",
+    "jibunAddr": "전라남도 영암군 삼호읍 용당리 2177-1 현대삼호3차아파트",
+    "builder": "한라건설주식회사",
+    "entrance": "혼합식",
+    "useArea": "48162.6",
+    "bjdCode": "4683025329",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 804,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A52670306",
@@ -239,7 +533,21 @@
     "emd": "삼호읍",
     "sigunguCode": "46830",
     "sido": "전라남도",
-    "sigungu": "영암군"
+    "sigungu": "영암군",
+    "jibunAddr": "전라남도 영암군 삼호읍 용당리 2174-1 현대삼호1차아파트",
+    "builder": "한라건설주식회사",
+    "entrance": "복도식",
+    "useArea": "8537.4",
+    "bjdCode": "4683025329",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 170,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A52670307",
@@ -250,7 +558,21 @@
     "emd": "삼호읍",
     "sigunguCode": "46830",
     "sido": "전라남도",
-    "sigungu": "영암군"
+    "sigungu": "영암군",
+    "jibunAddr": "전라남도 영암군 삼호읍 용당리 2176-1 현대삼호4차아파트",
+    "builder": "한라건설주식회사",
+    "entrance": "복도식",
+    "useArea": "47653.2",
+    "bjdCode": "4683025329",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 1268,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A52670309",
@@ -261,7 +583,21 @@
     "emd": "삼호읍",
     "sigunguCode": "46830",
     "sido": "전라남도",
-    "sigungu": "영암군"
+    "sigungu": "영암군",
+    "jibunAddr": "전라남도 영암군 삼호읍 용당리 2183 삼호희망가",
+    "builder": "JS건설",
+    "entrance": "복도식",
+    "useArea": "23982.1475",
+    "bjdCode": "4683025329",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 400,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021981",
@@ -272,6 +608,20 @@
     "emd": "학산면",
     "sigunguCode": "46830",
     "sido": "전라남도",
-    "sigungu": "영암군"
+    "sigungu": "영암군",
+    "jibunAddr": "전라남도 영암군 학산면 독천리 1323- 영암학산임대아파트",
+    "builder": "(주)대산종합건설",
+    "entrance": "복도식",
+    "useArea": "3984.54",
+    "bjdCode": "4683038027",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 8,
+    "areaBreak": {
+      "u60": 120,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

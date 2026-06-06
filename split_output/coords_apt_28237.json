@@ -9,7 +9,21 @@
     "sigunguCode": "28237",
     "sido": "인천광역시",
     "sigungu": "부평구",
-    "hhldCnt": 160
+    "hhldCnt": 160,
+    "jibunAddr": "인천광역시 부평구 부평동 1026- 부평하우스토리어반그린",
+    "builder": "남광토건(주)",
+    "entrance": "계단식",
+    "useArea": "9583.952",
+    "bjdCode": "2823710100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020841",
@@ -20,7 +34,21 @@
     "emd": "부평동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 부평동 799-5 미도 4차 아파트",
+    "builder": "가나안 건설",
+    "entrance": "계단식",
+    "useArea": "8337.6",
+    "bjdCode": "2823710100",
+    "aptType": "아파트",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 130,
+      "u85": 10,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021106",
@@ -31,7 +59,21 @@
     "emd": "부평동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 부평동 665-2 부평역 해링턴플레이스",
+    "builder": "진흥기업(주)",
+    "entrance": "혼합식",
+    "useArea": "133323.058",
+    "bjdCode": "2823710100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 45,
+    "areaBreak": {
+      "u60": 663,
+      "u85": 1246,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021147",
@@ -42,7 +84,21 @@
     "emd": "부평동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 부평동 760-700 e편한세상부평역센트럴파크",
+    "builder": "DL건설",
+    "entrance": "계단식",
+    "useArea": "96559.6511",
+    "bjdCode": "2823710100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 30,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021910",
@@ -53,7 +109,21 @@
     "emd": "부평동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 부평동 252-29 건영캐스빌",
+    "builder": "건영건설",
+    "entrance": "복도식",
+    "useArea": "9918.28",
+    "bjdCode": "2823710100",
+    "aptType": "주상복합",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 78,
+      "u85": 64,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022301",
@@ -64,7 +134,21 @@
     "emd": "부평동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 부평동 126-9 유진마젤란주상복합",
+    "builder": "유진기업(주)",
+    "entrance": "계단식",
+    "useArea": "7712.86",
+    "bjdCode": "2823710100",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 110,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023081",
@@ -75,7 +159,21 @@
     "emd": "부평동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 부평동 1002 인천부평우미린 더센트럴",
+    "builder": "우미건설",
+    "entrance": "계단식",
+    "useArea": "29773.9796",
+    "bjdCode": "2823710100",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 273,
+      "u85": 165,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023419",
@@ -86,7 +184,21 @@
     "emd": "부평동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 부평동 758-31 중앙하이츠프리미어부평아파트",
+    "builder": "중앙하이츠",
+    "entrance": "계단식",
+    "useArea": "29561.5399",
+    "bjdCode": "2823710100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 158,
+      "u85": 255,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023431",
@@ -97,7 +209,21 @@
     "emd": "부평동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 부평동 608-3 부평역 한라비발디 트레비앙 아파트",
+    "builder": "한라건설",
+    "entrance": "혼합식",
+    "useArea": "24277.367",
+    "bjdCode": "2823710100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 249,
+      "u85": 136,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023452",
@@ -108,7 +234,21 @@
     "emd": "부평동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 부평동 955-172 부평 SK 뷰 해모로",
+    "builder": "SK, 한진중공업",
+    "entrance": "계단식",
+    "useArea": "101576.1381",
+    "bjdCode": "2823710100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 870,
+      "u85": 689,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024519",
@@ -119,7 +259,21 @@
     "emd": "부평동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 부평동 663-31 부평역 화성파크드림",
+    "builder": "(주)화성개발",
+    "entrance": "계단식",
+    "useArea": "40038.1009",
+    "bjdCode": "2823710100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리(직영+위탁)",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 176,
+      "u85": 365,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025446",
@@ -130,7 +284,21 @@
     "emd": "부평동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 부평동 738-45 에코파인",
+    "builder": "우리종합건설",
+    "entrance": "혼합식",
+    "useArea": "8895.33",
+    "bjdCode": "2823710100",
+    "aptType": "주상복합",
+    "mgrType": "자치관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 68,
+      "u85": 106,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027238",
@@ -141,7 +309,21 @@
     "emd": "부평동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 부평동 947 래미안부평아파트",
+    "builder": "삼성물산",
+    "entrance": "계단식",
+    "useArea": "99492.044",
+    "bjdCode": "2823710100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 33,
+    "areaBreak": {
+      "u60": 184,
+      "u85": 734,
+      "u135": 227,
+      "o135": 0
+    }
   },
   {
     "code": "A10027255",
@@ -152,7 +334,21 @@
     "emd": "부평동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 부평동 946 래미안부평2단지",
+    "builder": "삼성물산",
+    "entrance": "복도식",
+    "useArea": "9216.508",
+    "bjdCode": "2823710100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 16,
+    "areaBreak": {
+      "u60": 236,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40301001",
@@ -163,7 +359,21 @@
     "emd": "부평동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 부평동 534-96 부평두산위브아파트",
+    "builder": "두산건설",
+    "entrance": "계단식",
+    "useArea": "21121.8",
+    "bjdCode": "2823710100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 105,
+      "u85": 175,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40301002",
@@ -174,7 +384,21 @@
     "emd": "부평동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 부평동 937 부평LH1단지",
+    "builder": "(주)효성",
+    "entrance": "복도식",
+    "useArea": "13226.57",
+    "bjdCode": "2823710100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 297,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40301003",
@@ -185,7 +409,21 @@
     "emd": "부평동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 부평동 507-2 엠씨티",
+    "builder": "대양종합건설(주)",
+    "entrance": "복도식",
+    "useArea": "4763.6",
+    "bjdCode": "2823710100",
+    "aptType": "주상복합",
+    "mgrType": "자치관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 210,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40370501",
@@ -196,7 +434,21 @@
     "emd": "부평동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 부평동 938 부평센트럴포레스트아파트",
+    "builder": "효성",
+    "entrance": "계단식",
+    "useArea": "52519.76",
+    "bjdCode": "2823710100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 347,
+      "u85": 298,
+      "u135": 59,
+      "o135": 0
+    }
   },
   {
     "code": "A40373403",
@@ -207,7 +459,21 @@
     "emd": "부평동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 부평동 65-115 부평1동 대우 아파트",
+    "builder": "대우건설",
+    "entrance": "계단식",
+    "useArea": "23247.136",
+    "bjdCode": "2823710100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 110,
+      "u85": 198,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40373904",
@@ -218,7 +484,21 @@
     "emd": "부평동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 부평동 65-7 부평 욱일 아파트",
+    "builder": "욱일주택",
+    "entrance": "계단식",
+    "useArea": "65434.2",
+    "bjdCode": "2823710100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 780,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40376107",
@@ -229,7 +509,21 @@
     "emd": "부평동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 부평동 70-5 부평 동아1단지 아파트",
+    "builder": "동아건설",
+    "entrance": "혼합식",
+    "useArea": "186419.55",
+    "bjdCode": "2823710100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 825,
+      "u85": 1380,
+      "u135": 270,
+      "o135": 0
+    }
   },
   {
     "code": "A40376206",
@@ -240,7 +534,21 @@
     "emd": "부평동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 부평동 70-123 부평 동아아파트2단지",
+    "builder": "동아건설산업",
+    "entrance": "혼합식",
+    "useArea": "198031.32",
+    "bjdCode": "2823710100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 794,
+      "u85": 758,
+      "u135": 288,
+      "o135": 288
+    }
   },
   {
     "code": "A40376305",
@@ -251,7 +559,21 @@
     "emd": "부평동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 부평동 64-20 부평 대림 아파트",
+    "builder": "대림건설",
+    "entrance": "혼합식",
+    "useArea": "105405.295",
+    "bjdCode": "2823710100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 420,
+      "u85": 1050,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40381801",
@@ -262,7 +584,21 @@
     "emd": "부평동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 부평동 65-124 부평1동 한국 아파트",
+    "builder": "청방건설(주)",
+    "entrance": "혼합식",
+    "useArea": "14646.436",
+    "bjdCode": "2823710100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 76,
+      "u85": 70,
+      "u135": 34,
+      "o135": 0
+    }
   },
   {
     "code": "A40381802",
@@ -273,7 +609,21 @@
     "emd": "부평동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 부평동 70-78 부평창보아파트",
+    "builder": "창보종합건설(주)",
+    "entrance": "혼합식",
+    "useArea": "14655.16",
+    "bjdCode": "2823710100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 100,
+      "u85": 102,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40383101",
@@ -284,7 +634,21 @@
     "emd": "부평동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 부평동 756-421 부평 신성미소지움아파트",
+    "builder": "신성건설(주)",
+    "entrance": "계단식",
+    "useArea": "24905.988",
+    "bjdCode": "2823710100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 61,
+      "u85": 175,
+      "u135": 62,
+      "o135": 0
+    }
   },
   {
     "code": "A10021815",
@@ -295,7 +659,21 @@
     "emd": "십정동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 십정동 406-3 비버리씨티관리",
+    "builder": "(주)온누리종합건설",
+    "entrance": "복도식",
+    "useArea": "1544.397",
+    "bjdCode": "2823710200",
+    "aptType": "도시형 생활주택(아파트)",
+    "mgrType": "위탁관리",
+    "topFloor": 11,
+    "areaBreak": {
+      "u60": 139,
+      "u85": 4,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023192",
@@ -306,7 +684,21 @@
     "emd": "십정동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 십정동 642 힐스테이트 부평아파트",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "96998.53",
+    "bjdCode": "2823710200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 39,
+    "areaBreak": {
+      "u60": 719,
+      "u85": 690,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023810",
@@ -317,7 +709,21 @@
     "emd": "십정동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 십정동 630 더샵부평센트럴시티",
+    "builder": "포스코",
+    "entrance": "혼합식",
+    "useArea": "346129.6917",
+    "bjdCode": "2823710200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 48,
+    "areaBreak": {
+      "u60": 3224,
+      "u85": 2454,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024310",
@@ -328,7 +734,21 @@
     "emd": "십정동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 십정동 206 서희스타힐스 부평센트럴 아파트",
+    "builder": "서희건설",
+    "entrance": "계단식",
+    "useArea": "36115.9968",
+    "bjdCode": "2823710200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 273,
+      "u85": 298,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40313001",
@@ -339,7 +759,21 @@
     "emd": "십정동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 십정동 609 부평금호어울림",
+    "builder": "금호건설(주)",
+    "entrance": "계단식",
+    "useArea": "26957.06",
+    "bjdCode": "2823710200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 206,
+      "u135": 84,
+      "o135": 0
+    }
   },
   {
     "code": "A40313002",
@@ -350,7 +784,21 @@
     "emd": "십정동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 십정동 182-95 십정 대주파크빌 아파트",
+    "builder": "대주건설(주)",
+    "entrance": "혼합식",
+    "useArea": "22177.623",
+    "bjdCode": "2823710200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 169,
+      "u85": 143,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40313003",
@@ -361,7 +809,21 @@
     "emd": "십정동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 십정동 182-166 브라운스톤백운",
+    "builder": "이수건설(주)",
+    "entrance": "계단식",
+    "useArea": "21527.3622",
+    "bjdCode": "2823710200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 26,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 261,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40313104",
@@ -372,7 +834,21 @@
     "emd": "십정동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 십정동 608-4 십정주공뜨란채",
+    "builder": "대한토지주택공사",
+    "entrance": "혼합식",
+    "useArea": "60620.09",
+    "bjdCode": "2823710200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 574,
+      "u85": 346,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40375901",
@@ -383,7 +859,21 @@
     "emd": "십정동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 십정동 607 동암 신동아 아파트",
+    "builder": "신동아건설(주), (주)창보종합건설, 백영건설(주)",
+    "entrance": "계단식",
+    "useArea": "142948.08",
+    "bjdCode": "2823710200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 666,
+      "u85": 672,
+      "u135": 352,
+      "o135": 0
+    }
   },
   {
     "code": "A40384301",
@@ -394,7 +884,21 @@
     "emd": "십정동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 십정동 186-7 십정한국",
+    "builder": "한국건설",
+    "entrance": "혼합식",
+    "useArea": "11615.52",
+    "bjdCode": "2823710200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 194,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40384303",
@@ -405,7 +909,21 @@
     "emd": "십정동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 십정동 187-22 십정동보아파트",
+    "builder": "동보산업개발",
+    "entrance": "혼합식",
+    "useArea": "15223.494",
+    "bjdCode": "2823710200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 78,
+      "u85": 87,
+      "u135": 0,
+      "o135": 42
+    }
   },
   {
     "code": "A40384402",
@@ -416,7 +934,21 @@
     "emd": "십정동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 십정동 216 십정백영2차",
+    "builder": "백영건설",
+    "entrance": "복도식",
+    "useArea": "12360",
+    "bjdCode": "2823710200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 206,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022904",
@@ -428,7 +960,20 @@
     "sigunguCode": "28237",
     "sido": "인천광역시",
     "sigungu": "부평구",
-    "hhldCnt": 1623
+    "hhldCnt": 1623,
+    "jibunAddr": "인천광역시 부평구 산곡동 550- 부평캐슬&더샵퍼스트",
+    "builder": "롯데캐슬, 포스코enc",
+    "entrance": "계단식",
+    "useArea": "216132.5814",
+    "bjdCode": "2823710300",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023517",
@@ -439,7 +984,21 @@
     "emd": "산곡동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 산곡동 52-11 부평두산위브더파크",
+    "builder": "두산건설",
+    "entrance": "혼합식",
+    "useArea": "115458.8082",
+    "bjdCode": "2823710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 26,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023710",
@@ -450,7 +1009,21 @@
     "emd": "산곡동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 산곡동 180-78 부평신일해피트리더루츠아파트",
+    "builder": "신일건설(주)",
+    "entrance": "혼합식",
+    "useArea": "71784.609",
+    "bjdCode": "2823710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 710,
+      "u85": 406,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023987",
@@ -461,7 +1034,21 @@
     "emd": "산곡동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 산곡동 180-183 쌍용더플래티넘부평아파트",
+    "builder": "쌍용건설(주)",
+    "entrance": "혼합식",
+    "useArea": "55640.19",
+    "bjdCode": "2823710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 376,
+      "u85": 431,
+      "u135": 4,
+      "o135": 0
+    }
   },
   {
     "code": "A10024583",
@@ -472,7 +1059,21 @@
     "emd": "산곡동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 산곡동 91-2 부평아이파크",
+    "builder": "현대산업개발",
+    "entrance": "계단식",
+    "useArea": "18876.91",
+    "bjdCode": "2823710300",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 40,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 256,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025523",
@@ -483,7 +1084,21 @@
     "emd": "산곡동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 산곡동 180-469 부평샬레아넬리스아파트",
+    "builder": "화산건설(주)",
+    "entrance": "계단식",
+    "useArea": "18395.3693",
+    "bjdCode": "2823710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 168,
+      "u85": 98,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40302001",
@@ -494,7 +1109,21 @@
     "emd": "산곡동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 산곡동 506 산곡 신명스카이뷰아파트",
+    "builder": "신명주택건설",
+    "entrance": "계단식",
+    "useArea": "15769.8617",
+    "bjdCode": "2823710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 191,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40302002",
@@ -505,7 +1134,21 @@
     "emd": "산곡동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 산곡동 233-26 부평 프리상뜨아파트",
+    "builder": "위드종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "25437.1177",
+    "bjdCode": "2823710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 116,
+      "u85": 219,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40302003",
@@ -516,7 +1159,21 @@
     "emd": "산곡동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 산곡동 507 금호이수마운트밸리",
+    "builder": "금호,이수건설",
+    "entrance": "계단식",
+    "useArea": "123593.9901",
+    "bjdCode": "2823710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 287,
+      "u85": 640,
+      "u135": 440,
+      "o135": 0
+    }
   },
   {
     "code": "A40302004",
@@ -527,7 +1184,21 @@
     "emd": "산곡동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 산곡동 510 산곡푸르지오",
+    "builder": "대우건설",
+    "entrance": "계단식",
+    "useArea": "58293.616",
+    "bjdCode": "2823710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 216,
+      "u85": 384,
+      "u135": 117,
+      "o135": 0
+    }
   },
   {
     "code": "A40302005",
@@ -538,7 +1209,21 @@
     "emd": "산곡동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 산곡동 180-116 삼보",
+    "builder": "삼보건설",
+    "entrance": "계단식",
+    "useArea": "17517.765",
+    "bjdCode": "2823710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 145,
+      "u85": 150,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40374809",
@@ -549,7 +1234,21 @@
     "emd": "산곡동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 산곡동 182 산곡 한양2단지 아파트",
+    "builder": "(주)한양건설",
+    "entrance": "계단식",
+    "useArea": "54435.096",
+    "bjdCode": "2823710300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 520,
+      "u135": 200,
+      "o135": 0
+    }
   },
   {
     "code": "A40374901",
@@ -560,7 +1259,21 @@
     "emd": "산곡동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 산곡동 306-3 산곡 우성4차 아파트",
+    "builder": "우성",
+    "entrance": "계단식",
+    "useArea": "49632.35",
+    "bjdCode": "2823710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 270,
+      "u135": 140,
+      "o135": 84
+    }
   },
   {
     "code": "A40377103",
@@ -571,7 +1284,21 @@
     "emd": "산곡동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 산곡동 261-8 산곡 경남5차 아파트",
+    "builder": "경남기업",
+    "entrance": "계단식",
+    "useArea": "25129.16",
+    "bjdCode": "2823710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 308,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40377111",
@@ -582,7 +1309,21 @@
     "emd": "산곡동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 산곡동 145 부평경남3차 아파트",
+    "builder": "경남기업(주)",
+    "entrance": "계단식",
+    "useArea": "84605.7288",
+    "bjdCode": "2823710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 120,
+      "u85": 540,
+      "u135": 220,
+      "o135": 36
+    }
   },
   {
     "code": "A40377206",
@@ -593,7 +1334,21 @@
     "emd": "산곡동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 산곡동 264-1 산곡 뉴서울2차아파트",
+    "builder": "뉴서울주택건설",
+    "entrance": "계단식",
+    "useArea": "45115.82",
+    "bjdCode": "2823710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 1,
+      "u85": 407,
+      "u135": 90,
+      "o135": 0
+    }
   },
   {
     "code": "A40377207",
@@ -604,7 +1359,21 @@
     "emd": "산곡동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 산곡동 255-1 뉴서울산곡1차아파트",
+    "builder": "뉴서울건설",
+    "entrance": "혼합식",
+    "useArea": "46374.49",
+    "bjdCode": "2823710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 13,
+      "u85": 521,
+      "u135": 31,
+      "o135": 0
+    }
   },
   {
     "code": "A40377310",
@@ -615,7 +1384,21 @@
     "emd": "산곡동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 산곡동 124-23 산곡 한화1차 아파트",
+    "builder": "(주)한화건설",
+    "entrance": "계단식",
+    "useArea": "56716",
+    "bjdCode": "2823710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 304,
+      "u85": 360,
+      "u135": 80,
+      "o135": 0
+    }
   },
   {
     "code": "A40377312",
@@ -626,7 +1409,21 @@
     "emd": "산곡동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 산곡동 124-23 산곡 한화2차 아파트",
+    "builder": "(주)한화건설",
+    "entrance": "계단식",
+    "useArea": "100608.22",
+    "bjdCode": "2823710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 526,
+      "u85": 598,
+      "u135": 156,
+      "o135": 0
+    }
   },
   {
     "code": "A40377504",
@@ -637,7 +1434,21 @@
     "emd": "산곡동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 산곡동 307 부평현대1단지",
+    "builder": "현대산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "198134.51",
+    "bjdCode": "2823710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1749,
+      "u135": 399,
+      "o135": 56
+    }
   },
   {
     "code": "A40377603",
@@ -648,7 +1459,21 @@
     "emd": "산곡동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 산곡동 311-126 부평2주구 현대아파트",
+    "builder": "현대산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "108063.84",
+    "bjdCode": "2823710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 390,
+      "u85": 1106,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40377702",
@@ -659,7 +1484,21 @@
     "emd": "산곡동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 산곡동 37-4 부평3주구 현대아파트",
+    "builder": "현대건설(주)",
+    "entrance": "계단식",
+    "useArea": "122042.7",
+    "bjdCode": "2823710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 750,
+      "u135": 300,
+      "o135": 150
+    }
   },
   {
     "code": "A40378104",
@@ -670,7 +1509,21 @@
     "emd": "산곡동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 산곡동 142-3 부평 경남1차 아파트",
+    "builder": "경남기업",
+    "entrance": "혼합식",
+    "useArea": "69134.7",
+    "bjdCode": "2823710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 120,
+      "u85": 570,
+      "u135": 120,
+      "o135": 0
+    }
   },
   {
     "code": "A40378202",
@@ -681,7 +1534,21 @@
     "emd": "산곡동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 산곡동 274 부평 경남2차 아파트",
+    "builder": "경남기업(주)",
+    "entrance": "혼합식",
+    "useArea": "62193.6",
+    "bjdCode": "2823710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 30,
+      "u85": 540,
+      "u135": 120,
+      "o135": 0
+    }
   },
   {
     "code": "A40378303",
@@ -692,7 +1559,21 @@
     "emd": "산곡동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 산곡동 274-5 산곡 경남4차 아파트",
+    "builder": "경남건설",
+    "entrance": "혼합식",
+    "useArea": "67236.27",
+    "bjdCode": "2823710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 286,
+      "u85": 312,
+      "u135": 138,
+      "o135": 40
+    }
   },
   {
     "code": "A40378406",
@@ -703,7 +1584,21 @@
     "emd": "산곡동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 산곡동 294-35 우성1.2.3차아파트",
+    "builder": "(주)우성건설",
+    "entrance": "혼합식",
+    "useArea": "144256.5",
+    "bjdCode": "2823710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 660,
+      "u85": 1140,
+      "u135": 90,
+      "o135": 90
+    }
   },
   {
     "code": "A40378505",
@@ -714,7 +1609,21 @@
     "emd": "산곡동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 산곡동 124-1 산곡5차현대아파트",
+    "builder": "현대산업개발(주)",
+    "entrance": "혼합식",
+    "useArea": "96861.356",
+    "bjdCode": "2823710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 425,
+      "u85": 549,
+      "u135": 187,
+      "o135": 0
+    }
   },
   {
     "code": "A40383301",
@@ -725,7 +1634,21 @@
     "emd": "산곡동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 산곡동 179-69 산곡2차현대",
+    "builder": "고려산업개발(두산산업개발)",
+    "entrance": "혼합식",
+    "useArea": "15452.506",
+    "bjdCode": "2823710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 99,
+      "u85": 50,
+      "u135": 50,
+      "o135": 0
+    }
   },
   {
     "code": "A40383303",
@@ -736,7 +1659,21 @@
     "emd": "산곡동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 산곡동 82-36 동원6차",
+    "builder": "동원건설주식회사",
+    "entrance": "복도식",
+    "useArea": "16286.4",
+    "bjdCode": "2823710300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 348,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40383304",
@@ -747,7 +1684,21 @@
     "emd": "산곡동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 산곡동 179-92 산곡1차현대",
+    "builder": "현대",
+    "entrance": "혼합식",
+    "useArea": "31096.56",
+    "bjdCode": "2823710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 160,
+      "u85": 174,
+      "u135": 50,
+      "o135": 0
+    }
   },
   {
     "code": "A40383501",
@@ -758,7 +1709,21 @@
     "emd": "산곡동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 산곡동 137-3 한신(137-8)",
+    "builder": "한신공영",
+    "entrance": "혼합식",
+    "useArea": "27407.88",
+    "bjdCode": "2823710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 412,
+      "u85": 130,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40383601",
@@ -769,7 +1734,21 @@
     "emd": "산곡동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 산곡동 185-17 산곡8차 한양 아파트",
+    "builder": "(주)한양",
+    "entrance": "계단식",
+    "useArea": "20929.08",
+    "bjdCode": "2823710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 136,
+      "u135": 72,
+      "o135": 0
+    }
   },
   {
     "code": "A40383604",
@@ -780,7 +1759,21 @@
     "emd": "산곡동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 산곡동 155-1 산곡7차 한양아파트",
+    "builder": "(주)한양",
+    "entrance": "계단식",
+    "useArea": "27049.6",
+    "bjdCode": "2823710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 320,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40383702",
@@ -791,7 +1784,21 @@
     "emd": "산곡동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 산곡동 251-2 산곡 우성5차 아파트",
+    "builder": "우성건설(주)",
+    "entrance": "혼합식",
+    "useArea": "20547.93",
+    "bjdCode": "2823710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 124,
+      "u85": 175,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40383705",
@@ -802,7 +1809,21 @@
     "emd": "산곡동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 산곡동 191-3 산곡 무지개 아파트",
+    "builder": "(주)서만건설",
+    "entrance": "계단식",
+    "useArea": "26149.5",
+    "bjdCode": "2823710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 330,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40383708",
@@ -813,7 +1834,21 @@
     "emd": "산곡동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 산곡동 222 산곡 한신휴 아파트",
+    "builder": "한신공영(주)",
+    "entrance": "계단식",
+    "useArea": "61031.047",
+    "bjdCode": "2823710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 112,
+      "u85": 494,
+      "u135": 97,
+      "o135": 0
+    }
   },
   {
     "code": "A10021979",
@@ -824,7 +1859,21 @@
     "emd": "청천동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 청천동 397- 동양아파트",
+    "builder": "알수없음 ",
+    "entrance": "계단식",
+    "useArea": "8698.3",
+    "bjdCode": "2823710400",
+    "aptType": "아파트",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 200,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022453",
@@ -835,7 +1884,21 @@
     "emd": "청천동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 청천동 236-5 미도6차아파트",
+    "builder": "미도",
+    "entrance": "계단식",
+    "useArea": "11356.56",
+    "bjdCode": "2823710400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 222,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022927",
@@ -847,7 +1910,21 @@
     "sigunguCode": "28237",
     "sido": "인천광역시",
     "sigungu": "부평구",
-    "hhldCnt": 5050
+    "hhldCnt": 5050,
+    "jibunAddr": "인천광역시 부평구 청천동 456- e편한세상 부평 그랑힐스",
+    "builder": "DL E&C",
+    "entrance": "혼합식",
+    "useArea": "327532.7255",
+    "bjdCode": "2823710400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 43,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024609",
@@ -858,7 +1935,21 @@
     "emd": "청천동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 청천동 392-1 청천우민늘푸른아파트",
+    "builder": "우민산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "20296.2188",
+    "bjdCode": "2823710400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 341,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40303001",
@@ -869,7 +1960,21 @@
     "emd": "청천동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 청천동 199-24 청천미가로",
+    "builder": "(주)지구종합건설",
+    "entrance": "계단식",
+    "useArea": "12246.4221",
+    "bjdCode": "2823710400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 88,
+      "u85": 82,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40303101",
@@ -880,7 +1985,21 @@
     "emd": "청천동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 청천동 377-9 청천인향",
+    "builder": "인향건설",
+    "entrance": "계단식",
+    "useArea": "20213.815",
+    "bjdCode": "2823710400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 95,
+      "u85": 171,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40376510",
@@ -891,7 +2010,21 @@
     "emd": "청천동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 청천동 200 부평금호타운",
+    "builder": "금호건설",
+    "entrance": "계단식",
+    "useArea": "202569.495",
+    "bjdCode": "2823710400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 1105,
+      "u85": 884,
+      "u135": 550,
+      "o135": 0
+    }
   },
   {
     "code": "A40376609",
@@ -902,7 +2035,21 @@
     "emd": "청천동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 청천동 176 청천푸르지오아파트",
+    "builder": "(주)대우건설",
+    "entrance": "계단식",
+    "useArea": "190372.76",
+    "bjdCode": "2823710400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 727,
+      "u85": 978,
+      "u135": 552,
+      "o135": 0
+    }
   },
   {
     "code": "A40385301",
@@ -913,7 +2060,21 @@
     "emd": "청천동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 청천동 5-5 청천영진아파트",
+    "builder": "(주) 영진주택",
+    "entrance": "복도식",
+    "useArea": "11481.64",
+    "bjdCode": "2823710400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 16,
+    "areaBreak": {
+      "u60": 196,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40385702",
@@ -924,7 +2085,21 @@
     "emd": "청천동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 청천동 192 청천 우림필유",
+    "builder": "우림산업개발",
+    "entrance": "계단식",
+    "useArea": "16386.0195",
+    "bjdCode": "2823710400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 209,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40385803",
@@ -935,7 +2110,21 @@
     "emd": "청천동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 청천동 390-5 청천 무지개",
+    "builder": "서만건설",
+    "entrance": "계단식",
+    "useArea": "15661.4",
+    "bjdCode": "2823710400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 120,
+      "u85": 100,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40385804",
@@ -946,7 +2135,21 @@
     "emd": "청천동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 청천동 236 청천대진",
+    "builder": "(주)대진건설",
+    "entrance": "계단식",
+    "useArea": "21053.7",
+    "bjdCode": "2823710400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 120,
+      "u85": 220,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40385805",
@@ -957,7 +2160,21 @@
     "emd": "청천동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 청천동 300 부평삼익",
+    "builder": "삼익주택",
+    "entrance": "복도식",
+    "useArea": "18893.25",
+    "bjdCode": "2823710400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 285,
+      "u85": 90,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40385806",
@@ -968,7 +2185,21 @@
     "emd": "청천동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 청천동 259-5 미도7",
+    "builder": "(주)가나안 진흥 건설",
+    "entrance": "계단식",
+    "useArea": "21564",
+    "bjdCode": "2823710400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 384,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40385807",
@@ -979,7 +2210,21 @@
     "emd": "청천동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 청천동 399-6 청천광명",
+    "builder": "(주)광명주택",
+    "entrance": "혼합식",
+    "useArea": "28979.85",
+    "bjdCode": "2823710400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 228,
+      "u85": 190,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40385808",
@@ -990,7 +2235,21 @@
     "emd": "청천동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 청천동 259 청천쌍용",
+    "builder": "쌍용건설",
+    "entrance": "혼합식",
+    "useArea": "38342.1",
+    "bjdCode": "2823710400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 120,
+      "u85": 390,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021735",
@@ -1001,7 +2260,21 @@
     "emd": "삼산동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 삼산동 206-2 동남아파트",
+    "builder": "동남건설",
+    "entrance": "계단식",
+    "useArea": "8203.26",
+    "bjdCode": "2823710500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리(직영+위탁)",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 132,
+      "u85": 6,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023424",
@@ -1012,7 +2285,21 @@
     "emd": "삼산동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 삼산동 221-7 브라운스톤 부평",
+    "builder": "이수건설",
+    "entrance": "혼합식",
+    "useArea": "45647.1601",
+    "bjdCode": "2823710500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 503,
+      "u85": 223,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023502",
@@ -1023,7 +2310,21 @@
     "emd": "삼산동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 삼산동 74-7 부평삼산신원아침도시",
+    "builder": "신원종합개발",
+    "entrance": "계단식",
+    "useArea": "22238.8431",
+    "bjdCode": "2823710500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 28,
+    "areaBreak": {
+      "u60": 227,
+      "u85": 119,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40309002",
@@ -1034,7 +2335,21 @@
     "emd": "삼산동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 삼산동 500 삼산임광그대가",
+    "builder": "임광토건",
+    "entrance": "계단식",
+    "useArea": "33369.63",
+    "bjdCode": "2823710500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 393,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40309003",
@@ -1045,7 +2360,21 @@
     "emd": "삼산동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 삼산동 170-1 삼산벽산블루밍",
+    "builder": "(주)벽산",
+    "entrance": "계단식",
+    "useArea": "30231.8815",
+    "bjdCode": "2823710500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 180,
+      "u85": 232,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40309004",
@@ -1056,7 +2385,21 @@
     "emd": "삼산동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 삼산동 359 광명12차",
+    "builder": "광명주택",
+    "entrance": "계단식",
+    "useArea": "25490.76",
+    "bjdCode": "2823710500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 360,
+      "u85": 96,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40309005",
@@ -1067,7 +2410,21 @@
     "emd": "삼산동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 삼산동 387-2 삼산미래타운1단지",
+    "builder": "대한주택공사",
+    "entrance": "계단식",
+    "useArea": "35835.84",
+    "bjdCode": "2823710500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 608,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40309006",
@@ -1078,7 +2435,21 @@
     "emd": "삼산동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 삼산동 393-4 삼산주공미래타운5단지",
+    "builder": "(주)한양",
+    "entrance": "계단식",
+    "useArea": "52256",
+    "bjdCode": "2823710500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 620,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40309007",
@@ -1089,7 +2460,21 @@
     "emd": "삼산동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 삼산동 388-7 삼산주공미래타운2단지 아파트",
+    "builder": "동성종합건설 외",
+    "entrance": "복도식",
+    "useArea": "32911.4",
+    "bjdCode": "2823710500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 684,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40309008",
@@ -1100,7 +2485,21 @@
     "emd": "삼산동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 삼산동 454-13 삼산타운6단지",
+    "builder": "LH공사",
+    "entrance": "계단식",
+    "useArea": "66259.76",
+    "bjdCode": "2823710500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 784,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40309009",
@@ -1111,7 +2510,21 @@
     "emd": "삼산동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 삼산동 454-4 행복한마을삼산서해그랑블",
+    "builder": "(주)서해종합건설",
+    "entrance": "계단식",
+    "useArea": "101391.7884",
+    "bjdCode": "2823710500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 822,
+      "o135": 0
+    }
   },
   {
     "code": "A40309010",
@@ -1122,7 +2535,21 @@
     "emd": "삼산동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 삼산동 390-6 삼산미래타운3단지",
+    "builder": "(주)한양",
+    "entrance": "계단식",
+    "useArea": "56081.44",
+    "bjdCode": "2823710500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 946,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40309011",
@@ -1133,7 +2560,21 @@
     "emd": "삼산동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 삼산동 389-8 삼산주공미래타운4단지",
+    "builder": "KT",
+    "entrance": "혼합식",
+    "useArea": "55996.88",
+    "bjdCode": "2823710500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 968,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40309012",
@@ -1144,7 +2585,21 @@
     "emd": "삼산동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 삼산동 448-1 삼산신성미소지움",
+    "builder": "신성건설",
+    "entrance": "계단식",
+    "useArea": "123257.54",
+    "bjdCode": "2823710500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 816,
+      "o135": 214
+    }
   },
   {
     "code": "A40309013",
@@ -1155,7 +2610,21 @@
     "emd": "삼산동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 삼산동 453-1 삼산타운7단지",
+    "builder": "대한주택공사",
+    "entrance": "계단식",
+    "useArea": "111064.28",
+    "bjdCode": "2823710500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1314,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40309014",
@@ -1166,7 +2635,21 @@
     "emd": "삼산동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 삼산동 445-5 삼산타운2단지주공",
+    "builder": "두산건설",
+    "entrance": "계단식",
+    "useArea": "137835.38",
+    "bjdCode": "2823710500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1622,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40309015",
@@ -1177,7 +2660,21 @@
     "emd": "삼산동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 삼산동 440-1 삼산타운1단지아파트",
+    "builder": "송촌, 남양, 신일건설",
+    "entrance": "계단식",
+    "useArea": "105570.17",
+    "bjdCode": "2823710500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 1873,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40309016",
@@ -1188,7 +2685,21 @@
     "emd": "삼산동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 삼산동 56-3 삼산삼보아파트",
+    "builder": "삼보주택개발(주)",
+    "entrance": "혼합식",
+    "useArea": "41762.7",
+    "bjdCode": "2823710500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 195,
+      "u85": 435,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40309017",
@@ -1199,7 +2710,21 @@
     "emd": "삼산동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 삼산동 40-1 삼산현대",
+    "builder": "현대산업개발",
+    "entrance": "계단식",
+    "useArea": "24358.08",
+    "bjdCode": "2823710500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 144,
+      "u85": 186,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40309018",
@@ -1210,7 +2735,21 @@
     "emd": "삼산동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 삼산동 513 서해그랑블",
+    "builder": "서해건설",
+    "entrance": "계단식",
+    "useArea": "38578.8",
+    "bjdCode": "2823710500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 31,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 454,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40309101",
@@ -1221,7 +2760,21 @@
     "emd": "삼산동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 삼산동 494 부평삼산엠코타운",
+    "builder": "(주)엠코",
+    "entrance": "계단식",
+    "useArea": "68564.892",
+    "bjdCode": "2823710500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 144,
+      "u85": 240,
+      "u135": 324,
+      "o135": 0
+    }
   },
   {
     "code": "A40375202",
@@ -1232,7 +2785,21 @@
     "emd": "삼산동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 삼산동 157 인천삼산(공단)",
+    "builder": "대우건설",
+    "entrance": "복도식",
+    "useArea": "52113.96",
+    "bjdCode": "2823710500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1972,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40375703",
@@ -1243,7 +2810,21 @@
     "emd": "삼산동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 삼산동 456-8 인천삼산4(공단)",
+    "builder": "한라건설(주)",
+    "entrance": "복도식",
+    "useArea": "72973.28",
+    "bjdCode": "2823710500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1696,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40391301",
@@ -1254,7 +2835,21 @@
     "emd": "삼산동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 삼산동 512 삼산3휴먼시아(임대)",
+    "builder": "신일건업",
+    "entrance": "혼합식",
+    "useArea": "38736.68",
+    "bjdCode": "2823710500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 870,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024261",
@@ -1265,7 +2860,21 @@
     "emd": "갈산동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 갈산동 171 부평지웰에스테이트",
+    "builder": "신영건설(주)",
+    "entrance": "계단식",
+    "useArea": "10482.18",
+    "bjdCode": "2823710600",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 56,
+      "u85": 95,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40308001",
@@ -1276,7 +2885,21 @@
     "emd": "갈산동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 갈산동 454 갈산대성유니드",
+    "builder": "대성산업",
+    "entrance": "계단식",
+    "useArea": "17800.632",
+    "bjdCode": "2823710600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 127,
+      "u85": 120,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40308002",
@@ -1287,7 +2910,21 @@
     "emd": "갈산동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 갈산동 360 인천갈산2(공단)",
+    "builder": "한국토지주택공사",
+    "entrance": "복도식",
+    "useArea": "30501.9",
+    "bjdCode": "2823710600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1170,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40370302",
@@ -1298,7 +2935,21 @@
     "emd": "갈산동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 갈산동 416 갈산1동 태화 아파트",
+    "builder": "태화건설",
+    "entrance": "계단식",
+    "useArea": "26568.9",
+    "bjdCode": "2823710600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 330,
+      "u85": 80,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40370404",
@@ -1309,7 +2960,21 @@
     "emd": "갈산동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 갈산동 179-1 갈산1동 한국 아파트",
+    "builder": "한국종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "38293.95",
+    "bjdCode": "2823710600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 235,
+      "u85": 285,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40370607",
@@ -1320,7 +2985,21 @@
     "emd": "갈산동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 갈산동 361-4 갈산대동1차아파트",
+    "builder": "대동건설주식회사",
+    "entrance": "계단식",
+    "useArea": "48531.6",
+    "bjdCode": "2823710600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 390,
+      "o135": 30
+    }
   },
   {
     "code": "A40370610",
@@ -1331,7 +3010,21 @@
     "emd": "갈산동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 갈산동 361-3 갈산 대동2차 아파트",
+    "builder": "대동건설(주)",
+    "entrance": "혼합식",
+    "useArea": "33523.92",
+    "bjdCode": "2823710600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 515,
+      "u85": 108,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40370702",
@@ -1342,7 +3035,21 @@
     "emd": "갈산동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 갈산동 369 갈산 동아 아파트",
+    "builder": "동아주택",
+    "entrance": "계단식",
+    "useArea": "22052.16",
+    "bjdCode": "2823710600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 64,
+      "u85": 216,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40370906",
@@ -1353,7 +3060,21 @@
     "emd": "갈산동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 갈산동 363 갈산2동 태화아파트",
+    "builder": "태화건설(주)",
+    "entrance": "계단식",
+    "useArea": "50791",
+    "bjdCode": "2823710600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 286,
+      "o135": 104
+    }
   },
   {
     "code": "A40371003",
@@ -1364,7 +3085,21 @@
     "emd": "갈산동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 갈산동 369 갈산 팬더 아파트",
+    "builder": "(주)중부종합건설",
+    "entrance": "계단식",
+    "useArea": "22052.16",
+    "bjdCode": "2823710600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 64,
+      "u85": 216,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40375111",
@@ -1375,7 +3110,21 @@
     "emd": "갈산동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 갈산동 359 갈산 주공1단지 아파트",
+    "builder": "대한주택공사",
+    "entrance": "복도식",
+    "useArea": "71579.4",
+    "bjdCode": "2823710600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1650,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40376904",
@@ -1386,7 +3135,21 @@
     "emd": "갈산동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 갈산동 369 갈산 한국 아파트",
+    "builder": "한국주택건설",
+    "entrance": "계단식",
+    "useArea": "22094.28",
+    "bjdCode": "2823710600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 64,
+      "u85": 216,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40378608",
@@ -1397,7 +3160,21 @@
     "emd": "갈산동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 갈산동 362 갈산 하나 아파트",
+    "builder": "한국공영",
+    "entrance": "계단식",
+    "useArea": "44578.5",
+    "bjdCode": "2823710600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 526,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40378701",
@@ -1408,7 +3185,21 @@
     "emd": "갈산동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 갈산동 362 갈산 동남 아파트",
+    "builder": "동남기업",
+    "entrance": "계단식",
+    "useArea": "23516.82",
+    "bjdCode": "2823710600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 278,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40378805",
@@ -1419,7 +3210,21 @@
     "emd": "갈산동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 갈산동 374 갈산 아주 아파트",
+    "builder": "아주건설",
+    "entrance": "계단식",
+    "useArea": "28815",
+    "bjdCode": "2823710600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 340,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40378909",
@@ -1430,7 +3235,21 @@
     "emd": "갈산동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 갈산동 368 갈산두산",
+    "builder": "(주)동산토건",
+    "entrance": "계단식",
+    "useArea": "64759.38",
+    "bjdCode": "2823710600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 574,
+      "o135": 0
+    }
   },
   {
     "code": "A40380101",
@@ -1441,7 +3260,21 @@
     "emd": "갈산동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 갈산동 171-5 갈산동정광아파트",
+    "builder": "정광주택(주)",
+    "entrance": "계단식",
+    "useArea": "16809.46",
+    "bjdCode": "2823710600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 311,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40380103",
@@ -1452,7 +3285,21 @@
     "emd": "갈산동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 갈산동 159 갈산이안아파트",
+    "builder": "대우자동차판매(주)건설부문",
+    "entrance": "계단식",
+    "useArea": "31126.14",
+    "bjdCode": "2823710600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 162,
+      "u85": 252,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021405",
@@ -1463,7 +3310,21 @@
     "emd": "부개동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 부개동 477-2 부개대진 아파트",
+    "builder": "대진주택건설(주)",
+    "entrance": "계단식",
+    "useArea": "11011.68",
+    "bjdCode": "2823710700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 258,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022918",
@@ -1474,7 +3335,21 @@
     "emd": "부개동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 부개동 120-46 부개백영아파트",
+    "builder": "백영건설",
+    "entrance": "계단식",
+    "useArea": "8716.88",
+    "bjdCode": "2823710700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 84,
+      "u85": 44,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023792",
@@ -1485,7 +3360,21 @@
     "emd": "부개동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 부개동 531 이편한세상 부평역 어반루체",
+    "builder": "DL건설",
+    "entrance": "계단식",
+    "useArea": "22497.5587",
+    "bjdCode": "2823710700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 26,
+    "areaBreak": {
+      "u60": 375,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024168",
@@ -1496,7 +3385,21 @@
     "emd": "부개동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 부개동 120-80 부개역코오롱하늘채아파트",
+    "builder": "코오롱글로벌(주)",
+    "entrance": "계단식",
+    "useArea": "33592.2002",
+    "bjdCode": "2823710700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 288,
+      "u85": 238,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024507",
@@ -1507,7 +3410,21 @@
     "emd": "부개동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 부개동 88-2 부평코오롱하늘채아파트",
+    "builder": "코오롱글로벌",
+    "entrance": "계단식",
+    "useArea": "58340.3553",
+    "bjdCode": "2823710700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 32,
+    "areaBreak": {
+      "u60": 473,
+      "u85": 449,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40372102",
@@ -1518,7 +3435,21 @@
     "emd": "부개동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 부개동 442-3 부평 한국 아파트",
+    "builder": "한국종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "48804.54",
+    "bjdCode": "2823710700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 546,
+      "u135": 34,
+      "o135": 0
+    }
   },
   {
     "code": "A40372301",
@@ -1529,7 +3460,21 @@
     "emd": "부개동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 부개동 512 부개역푸르지오",
+    "builder": "(주)대우건설",
+    "entrance": "계단식",
+    "useArea": "111317.676",
+    "bjdCode": "2823710700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 26,
+    "areaBreak": {
+      "u60": 230,
+      "u85": 289,
+      "u135": 451,
+      "o135": 84
+    }
   },
   {
     "code": "A40372401",
@@ -1540,7 +3485,21 @@
     "emd": "부개동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 부개동 494 부개 성일 아파트",
+    "builder": "성일건설",
+    "entrance": "복도식",
+    "useArea": "21738.9",
+    "bjdCode": "2823710700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 415,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40372503",
@@ -1551,7 +3510,21 @@
     "emd": "부개동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 부개동 502-8 부개 주공7단지 아파트",
+    "builder": "대한주택공사",
+    "entrance": "계단식",
+    "useArea": "56857.96",
+    "bjdCode": "2823710700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 957,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40372608",
@@ -1562,7 +3535,21 @@
     "emd": "부개동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 부개동 477-3 부개 뉴서울 아파트",
+    "builder": "뉴서울 주택건설",
+    "entrance": "복도식",
+    "useArea": "45511.2",
+    "bjdCode": "2823710700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1140,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40372706",
@@ -1573,7 +3560,21 @@
     "emd": "부개동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 부개동 499-2 부개 푸른마을삼부한신 아파트",
+    "builder": "삼부토건(주),한신공영(주)",
+    "entrance": "계단식",
+    "useArea": "119551.26",
+    "bjdCode": "2823710700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 1020,
+      "o135": 0
+    }
   },
   {
     "code": "A40372803",
@@ -1584,7 +3585,21 @@
     "emd": "부개동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 부개동 497-1 부개지구보람아파트",
+    "builder": "신명주택건설, 상우종합건설",
+    "entrance": "계단식",
+    "useArea": "64172.16",
+    "bjdCode": "2823710700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 576,
+      "o135": 0
+    }
   },
   {
     "code": "A40372911",
@@ -1595,7 +3610,21 @@
     "emd": "부개동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 부개동 496-2 인천부개2(공단)",
+    "builder": "풍창건설",
+    "entrance": "복도식",
+    "useArea": "17835.54",
+    "bjdCode": "2823710700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 446,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40373010",
@@ -1606,7 +3635,21 @@
     "emd": "부개동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 부개동 498-5 부개주공3단지아파트",
+    "builder": "(주)한양,서광(주), 삼양건설(주)",
+    "entrance": "복도식",
+    "useArea": "95603.88",
+    "bjdCode": "2823710700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 1724,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40373105",
@@ -1617,7 +3660,21 @@
     "emd": "부개동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 부개동 500-1 부개 주공5단지 아파트",
+    "builder": "풍창. 삼협. 기산",
+    "entrance": "계단식",
+    "useArea": "57587.95",
+    "bjdCode": "2823710700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 960,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40373112",
@@ -1628,7 +3685,21 @@
     "emd": "부개동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 부개동 500-1 인천부개5임대(공단)",
+    "builder": "풍창건설",
+    "entrance": "복도식",
+    "useArea": "17832.15",
+    "bjdCode": "2823710700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 357,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40373209",
@@ -1639,7 +3710,21 @@
     "emd": "부개동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 부개동 501-1 부개 주공6단지 아파트",
+    "builder": "LH공사",
+    "entrance": "계단식",
+    "useArea": "105139.6",
+    "bjdCode": "2823710700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1240,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40375607",
@@ -1650,7 +3735,21 @@
     "emd": "부개동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 부개동 496-2 부개 주공1단지 아파트",
+    "builder": "화신종합건설,한진건설,풍창건설,경우전기,한진건설,세원종합조경",
+    "entrance": "복도식",
+    "useArea": "61348.97",
+    "bjdCode": "2823710700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 1044,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40379801",
@@ -1661,7 +3760,21 @@
     "emd": "부개동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 부개동 308-3 부개동도센트리움",
+    "builder": "동도건설",
+    "entrance": "혼합식",
+    "useArea": "10064.622",
+    "bjdCode": "2823710700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 217,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40381001",
@@ -1672,7 +3785,21 @@
     "emd": "부개동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 부개동 308-5 부개 현대 직장조합 아파트",
+    "builder": "현대건설",
+    "entrance": "혼합식",
+    "useArea": "12761.28",
+    "bjdCode": "2823710700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 112,
+      "u85": 72,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40381301",
@@ -1683,7 +3810,21 @@
     "emd": "부개동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 부개동 477-5 부개 동아 아파트",
+    "builder": "동아주택",
+    "entrance": "계단식",
+    "useArea": "17411.76",
+    "bjdCode": "2823710700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 384,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40381302",
@@ -1694,7 +3835,21 @@
     "emd": "부개동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 부개동 477 부개 욱일 아파트",
+    "builder": "욱일주택",
+    "entrance": "계단식",
+    "useArea": "23872.68",
+    "bjdCode": "2823710700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 468,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40381304",
@@ -1705,7 +3860,21 @@
     "emd": "부개동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 부개동 477-1 부개대동아파트",
+    "builder": "대동건설",
+    "entrance": "계단식",
+    "useArea": "32942.28",
+    "bjdCode": "2823710700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 708,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40381402",
@@ -1716,7 +3885,21 @@
     "emd": "부개동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 부개동 494-1 대동(494-1)",
+    "builder": "(주)대동건설",
+    "entrance": "계단식",
+    "useArea": "58268.84",
+    "bjdCode": "2823710700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 686,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40376001",
@@ -1727,7 +3910,21 @@
     "emd": "일신동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 일신동 409 일신풍림아파트",
+    "builder": "풍림산업(주)",
+    "entrance": "계단식",
+    "useArea": "62272.95",
+    "bjdCode": "2823710800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 750,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40376402",
@@ -1738,7 +3935,21 @@
     "emd": "일신동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 일신동 410 일신 주공 아파트",
+    "builder": "두진,동신",
+    "entrance": "복도식",
+    "useArea": "55317.81",
+    "bjdCode": "2823710800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 967,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40312001",
@@ -1749,6 +3960,20 @@
     "emd": "구산동",
     "sigunguCode": "28237",
     "sido": "인천광역시",
-    "sigungu": "부평구"
+    "sigungu": "부평구",
+    "jibunAddr": "인천광역시 부평구 구산동 360 부평 자이아파트",
+    "builder": "GS자이",
+    "entrance": "계단식",
+    "useArea": "57288.9186",
+    "bjdCode": "2823710900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 147,
+      "u85": 572,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

@@ -8,7 +8,21 @@
     "emd": "요선동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 요선동 200 한신휴플러스",
+    "builder": "한신공영(주)",
+    "entrance": "계단식",
+    "useArea": "32975.5947",
+    "bjdCode": "5111010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 18,
+      "u85": 290,
+      "u135": 58,
+      "o135": 0
+    }
   },
   {
     "code": "A10027103",
@@ -19,7 +33,21 @@
     "emd": "조양동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 조양동 34 미도파파크타워",
+    "builder": "미도파건설",
+    "entrance": "복도식",
+    "useArea": "8135.55",
+    "bjdCode": "5111010800",
+    "aptType": "주상복합",
+    "mgrType": "자치관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 9,
+      "u85": 90,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023808",
@@ -30,7 +58,21 @@
     "emd": "죽림동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 죽림동 188 호수마을아파트",
+    "builder": "경남기업",
+    "entrance": "복도식",
+    "useArea": "11093.28",
+    "bjdCode": "5111010900",
+    "aptType": "주상복합",
+    "mgrType": "자치관리",
+    "topFloor": 16,
+    "areaBreak": {
+      "u60": 38,
+      "u85": 78,
+      "u135": 19,
+      "o135": 0
+    }
   },
   {
     "code": "A10023722",
@@ -41,7 +83,21 @@
     "emd": "약사동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 약사동 156-1 롯데캐슬위너클래스",
+    "builder": "롯데건설",
+    "entrance": "계단식",
+    "useArea": "64679.3496",
+    "bjdCode": "5111011100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 27,
+    "areaBreak": {
+      "u60": 255,
+      "u85": 618,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024074",
@@ -52,7 +108,21 @@
     "emd": "약사동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 약사동 77 모아엘가센텀뷰아파트",
+    "builder": "혜림건설",
+    "entrance": "계단식",
+    "useArea": "39835.5019",
+    "bjdCode": "5111011100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 34,
+    "areaBreak": {
+      "u60": 276,
+      "u85": 291,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025340",
@@ -63,7 +133,21 @@
     "emd": "효자동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 효자동 823 코아루웰라움아파트",
+    "builder": "동서건설",
+    "entrance": "계단식",
+    "useArea": "11196.3325",
+    "bjdCode": "5111011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 155,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20009203",
@@ -74,7 +158,21 @@
     "emd": "효자동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 효자동 821 동보아파트",
+    "builder": "동보건설",
+    "entrance": "복도식",
+    "useArea": "21164.04",
+    "bjdCode": "5111011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 687,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20009301",
@@ -85,7 +183,21 @@
     "emd": "효자동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 효자동 819 일성1차아파트",
+    "builder": "일성건설",
+    "entrance": "계단식",
+    "useArea": "15175.68",
+    "bjdCode": "5111011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 93,
+      "u85": 91,
+      "u135": 15,
+      "o135": 0
+    }
   },
   {
     "code": "A20082901",
@@ -96,7 +208,21 @@
     "emd": "효자동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 효자동 462-3 현진에버빌3차아파트",
+    "builder": "현진건설",
+    "entrance": "계단식",
+    "useArea": "57215.018",
+    "bjdCode": "5111011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 523,
+      "u135": 118,
+      "o135": 0
+    }
   },
   {
     "code": "A20094802",
@@ -107,7 +233,21 @@
     "emd": "효자동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 효자동 333 춘천효자주공8차",
+    "builder": "한국토지주택공사",
+    "entrance": "계단식",
+    "useArea": "22850.7",
+    "bjdCode": "5111011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 610,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20095301",
@@ -118,7 +258,21 @@
     "emd": "효자동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 효자동 701 내안애 양우아파트",
+    "builder": "양우건설(주)",
+    "entrance": "계단식",
+    "useArea": "25070.28",
+    "bjdCode": "5111011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 295,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020396",
@@ -129,7 +283,20 @@
     "emd": "소양로2가",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 소양로2가 7-2 더샵 소양스타리버아파트",
+    "builder": "포스코이앤씨",
+    "entrance": "혼합식",
+    "useArea": "100162.69",
+    "bjdCode": "5111011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "areaBreak": {
+      "u60": 0,
+      "u85": 405,
+      "u135": 592,
+      "o135": 42
+    }
   },
   {
     "code": "A20011201",
@@ -140,7 +307,21 @@
     "emd": "소양로2가",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 소양로2가 1 소양현대아파트",
+    "builder": "현대개발",
+    "entrance": "계단식",
+    "useArea": "46916.68",
+    "bjdCode": "5111011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 293,
+      "u85": 312,
+      "u135": 30,
+      "o135": 0
+    }
   },
   {
     "code": "A20011202",
@@ -151,7 +332,21 @@
     "emd": "소양로2가",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 소양로2가 183 e편한세상춘천",
+    "builder": "(주)삼호건설",
+    "entrance": "계단식",
+    "useArea": "128073.662",
+    "bjdCode": "5111011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1123,
+      "u135": 308,
+      "o135": 0
+    }
   },
   {
     "code": "A10022782",
@@ -162,7 +357,21 @@
     "emd": "근화동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 근화동 815 파밀리에리버파크",
+    "builder": "신동아",
+    "entrance": "계단식",
+    "useArea": "24495.7742",
+    "bjdCode": "5111011700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 42,
+    "areaBreak": {
+      "u60": 107,
+      "u85": 213,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20093101",
@@ -173,7 +382,21 @@
     "emd": "근화동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 근화동 742-1 청와아파트",
+    "builder": "(주)삼원",
+    "entrance": "혼합식",
+    "useArea": "14770.4",
+    "bjdCode": "5111011700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 140,
+      "u85": 120,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20093103",
@@ -184,7 +407,21 @@
     "emd": "근화동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 근화동 279-8 신성근화미소지움",
+    "builder": "신성건설(주)",
+    "entrance": "계단식",
+    "useArea": "89042.99",
+    "bjdCode": "5111011700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 520,
+      "u85": 320,
+      "u135": 252,
+      "o135": 0
+    }
   },
   {
     "code": "A10023269",
@@ -195,7 +432,21 @@
     "emd": "우두동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 우두동 1087 우두 이지더원 2차 아파트",
+    "builder": "라인건설",
+    "entrance": "계단식",
+    "useArea": "30638.3898",
+    "bjdCode": "5111011800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 402,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023965",
@@ -206,7 +457,21 @@
     "emd": "우두동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 우두동 1089 춘천우두이지더원시그니처",
+    "builder": "(주)라인건설",
+    "entrance": "계단식",
+    "useArea": "76051.2948",
+    "bjdCode": "5111011800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 26,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 916,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024323",
@@ -217,7 +482,21 @@
     "emd": "우두동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 우두동 1088 춘천우두LH천년나무3단지아파트",
+    "builder": "주)KR산업",
+    "entrance": "복도식",
+    "useArea": "18873.12",
+    "bjdCode": "5111011800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 492,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024596",
@@ -228,7 +507,21 @@
     "emd": "우두동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 우두동 1085 춘천파크에뷰아파트",
+    "builder": "(주)한진중공업",
+    "entrance": "계단식",
+    "useArea": "80656.63",
+    "bjdCode": "5111011800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 979,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026590",
@@ -239,7 +532,21 @@
     "emd": "우두동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 우두동 927 우두LH 천년나무1단지",
+    "builder": "풍림산업(주) 외2",
+    "entrance": "복도식",
+    "useArea": "16187.04",
+    "bjdCode": "5111011800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 482,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20015004",
@@ -250,7 +557,21 @@
     "emd": "우두동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 우두동 1082 강변코아루",
+    "builder": "이테크건설",
+    "entrance": "계단식",
+    "useArea": "81958.316",
+    "bjdCode": "5111011800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 521,
+      "u135": 130,
+      "o135": 152
+    }
   },
   {
     "code": "A20015005",
@@ -261,7 +582,21 @@
     "emd": "우두동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 우두동 1068-1 동부아파트",
+    "builder": "동부건설주식회사",
+    "entrance": "계단식",
+    "useArea": "60958.086",
+    "bjdCode": "5111011800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 464,
+      "u85": 390,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20077901",
@@ -272,7 +607,21 @@
     "emd": "우두동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 우두동 742-1 두미르",
+    "builder": "두산건설",
+    "entrance": "계단식",
+    "useArea": "35428.93",
+    "bjdCode": "5111011800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 428,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20093903",
@@ -283,7 +632,21 @@
     "emd": "우두동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 우두동 1080 롯데인벤스우두파크아파트",
+    "builder": "롯데기공",
+    "entrance": "계단식",
+    "useArea": "74369.42",
+    "bjdCode": "5111011800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 356,
+      "u135": 278,
+      "o135": 70
+    }
   },
   {
     "code": "A20094001",
@@ -294,7 +657,21 @@
     "emd": "우두동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 우두동 1068 삼성아파트",
+    "builder": "삼성건설",
+    "entrance": "계단식",
+    "useArea": "23235.48",
+    "bjdCode": "5111011800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 228,
+      "o135": 0
+    }
   },
   {
     "code": "A20014001",
@@ -305,7 +682,21 @@
     "emd": "사농동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 사농동 158 사농현대아파트",
+    "builder": "고려산업개발",
+    "entrance": "계단식",
+    "useArea": "60578.7",
+    "bjdCode": "5111011900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 180,
+      "u85": 510,
+      "u135": 120,
+      "o135": 0
+    }
   },
   {
     "code": "A20071303",
@@ -316,7 +707,21 @@
     "emd": "사농동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 사농동 809 춘천롯데캐슬더퍼스트아파트1단지",
+    "builder": "롯데건설(주)",
+    "entrance": "계단식",
+    "useArea": "28964.92",
+    "bjdCode": "5111011900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 221,
+      "u135": 85,
+      "o135": 0
+    }
   },
   {
     "code": "A20071304",
@@ -327,7 +732,21 @@
     "emd": "사농동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 사농동 810 춘천롯데캐슬더퍼스트아파트2단지",
+    "builder": "롯데건설",
+    "entrance": "계단식",
+    "useArea": "30849.07",
+    "bjdCode": "5111011900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 363,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20071305",
@@ -338,7 +757,21 @@
     "emd": "사농동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 사농동 820 뉴시티코아루",
+    "builder": "금강종합건설",
+    "entrance": "계단식",
+    "useArea": "38978.2342",
+    "bjdCode": "5111011900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 463,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020130",
@@ -349,7 +782,20 @@
     "emd": "후평동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 후평동 511-5 크로바아파트",
+    "builder": "태림",
+    "entrance": "계단식",
+    "useArea": "4788.15",
+    "bjdCode": "5111012000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "areaBreak": {
+      "u60": 85,
+      "u85": 15,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020558",
@@ -360,7 +806,21 @@
     "emd": "후평동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 후평동 67-12 세경1차아파트",
+    "builder": "세경건설",
+    "entrance": "계단식",
+    "useArea": "9807.8",
+    "bjdCode": "5111012000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021862",
@@ -371,7 +831,21 @@
     "emd": "후평동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 후평동 542-3 봉의아파트",
+    "builder": "주택공사",
+    "entrance": "계단식",
+    "useArea": "8310.21",
+    "bjdCode": "5111012000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 200,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022016",
@@ -382,7 +856,21 @@
     "emd": "후평동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 후평동 867- 후평 대우아파트",
+    "builder": "대우건설",
+    "entrance": "계단식",
+    "useArea": "21167.62",
+    "bjdCode": "5111012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 260,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022214",
@@ -393,7 +881,21 @@
     "emd": "후평동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 후평동 81-1 세경2차 아파트",
+    "builder": "세경건설",
+    "entrance": "계단식",
+    "useArea": "11052.74",
+    "bjdCode": "5111012000",
+    "aptType": "아파트",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 198,
+      "u85": 2,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022275",
@@ -404,7 +906,21 @@
     "emd": "후평동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 후평동 885- 청실아파트",
+    "builder": "배원건설",
+    "entrance": "계단식",
+    "useArea": "10068.42",
+    "bjdCode": "5111012000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 140,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022818",
@@ -415,7 +931,21 @@
     "emd": "후평동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 후평동 333-13 춘천후평행복주택",
+    "builder": "(주)개성건설",
+    "entrance": "복도식",
+    "useArea": "6029.36",
+    "bjdCode": "5111012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 212,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025356",
@@ -426,7 +956,21 @@
     "emd": "후평동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 후평동 43 춘천후평우미린뉴시티",
+    "builder": "우미건설(주)",
+    "entrance": "계단식",
+    "useArea": "179948.46",
+    "bjdCode": "5111012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 31,
+    "areaBreak": {
+      "u60": 215,
+      "u85": 1530,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025964",
@@ -437,7 +981,21 @@
     "emd": "후평동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 후평동 910 춘천일성트루엘더퍼스트 아파트",
+    "builder": "일성건설(주)",
+    "entrance": "계단식",
+    "useArea": "84415.132",
+    "bjdCode": "5111012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 199,
+      "u85": 919,
+      "u135": 0,
+      "o135": 5
+    }
   },
   {
     "code": "A20016002",
@@ -448,7 +1006,21 @@
     "emd": "후평동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 후평동 904 춘천 포스코 더샵",
+    "builder": "포스코건설(주)",
+    "entrance": "계단식",
+    "useArea": "173573.6138",
+    "bjdCode": "5111012000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 292,
+      "u85": 957,
+      "u135": 181,
+      "o135": 362
+    }
   },
   {
     "code": "A20016003",
@@ -459,7 +1031,21 @@
     "emd": "후평동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 후평동 908 초록지붕 8차 아파트",
+    "builder": "세경건설(주)",
+    "entrance": "계단식",
+    "useArea": "23561.8743",
+    "bjdCode": "5111012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 278,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20016101",
@@ -470,7 +1056,21 @@
     "emd": "후평동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 후평동 575-4 동산아파트",
+    "builder": "동산토건",
+    "entrance": "혼합식",
+    "useArea": "11969.65",
+    "bjdCode": "5111012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리(직영+위탁)",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 67,
+      "u85": 127,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20016103",
@@ -481,7 +1081,21 @@
     "emd": "후평동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 후평동 595 극동아파트",
+    "builder": "(주)극동",
+    "entrance": "계단식",
+    "useArea": "32049.96",
+    "bjdCode": "5111012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 280,
+      "u85": 180,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20016304",
@@ -492,7 +1106,21 @@
     "emd": "후평동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 후평동 903 초록지붕6차",
+    "builder": "세경건설(주)",
+    "entrance": "혼합식",
+    "useArea": "25148.393",
+    "bjdCode": "5111012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 299,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20070701",
@@ -503,7 +1131,21 @@
     "emd": "후평동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 후평동 529-4 에리트",
+    "builder": "에리트",
+    "entrance": "계단식",
+    "useArea": "17061.1",
+    "bjdCode": "5111012000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 40,
+      "u85": 220,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20075405",
@@ -514,7 +1156,21 @@
     "emd": "후평동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 후평동 864 한신아파트",
+    "builder": "(주)한신공영",
+    "entrance": "계단식",
+    "useArea": "49734.5",
+    "bjdCode": "5111012000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 470,
+      "u135": 90,
+      "o135": 0
+    }
   },
   {
     "code": "A20075503",
@@ -525,7 +1181,21 @@
     "emd": "후평동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 후평동 481 후평주공6단지",
+    "builder": "LH공사",
+    "entrance": "계단식",
+    "useArea": "19679.4",
+    "bjdCode": "5111012000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 359,
+      "u85": 1,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20075504",
@@ -536,7 +1206,21 @@
     "emd": "후평동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 후평동 477 후평주공7단지",
+    "builder": "LH주택공사",
+    "entrance": "계단식",
+    "useArea": "19117.5",
+    "bjdCode": "5111012000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 460,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20075806",
@@ -547,7 +1231,21 @@
     "emd": "후평동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 후평동 427 후평현대2차",
+    "builder": "현대산업개발",
+    "entrance": "계단식",
+    "useArea": "35243.846",
+    "bjdCode": "5111012000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 433,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20075807",
@@ -558,7 +1256,21 @@
     "emd": "후평동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 후평동 87 후평현대3차아파트",
+    "builder": "(주)현대산업개발",
+    "entrance": "계단식",
+    "useArea": "36283.76",
+    "bjdCode": "5111012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 440,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20075909",
@@ -569,7 +1281,21 @@
     "emd": "후평동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 후평동 899 주공석사3지구아파트",
+    "builder": "한국중공업",
+    "entrance": "복도식",
+    "useArea": "20010.42",
+    "bjdCode": "5111012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 686,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20095802",
@@ -580,7 +1306,21 @@
     "emd": "후평동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 후평동 902 후평현대5차아파트",
+    "builder": "현대건설",
+    "entrance": "혼합식",
+    "useArea": "20420.75",
+    "bjdCode": "5111012000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 219,
+      "u85": 86,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20095806",
@@ -591,7 +1331,21 @@
     "emd": "후평동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 후평동 481 후평주공5단지",
+    "builder": "한국토지주택공사",
+    "entrance": "계단식",
+    "useArea": "24632.4",
+    "bjdCode": "5111012000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 590,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20095904",
@@ -602,7 +1356,21 @@
     "emd": "후평동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 후평동 845 후평현대1차",
+    "builder": "현대산업개발",
+    "entrance": "계단식",
+    "useArea": "30261.15",
+    "bjdCode": "5111012000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 287,
+      "u135": 56,
+      "o135": 0
+    }
   },
   {
     "code": "A20095905",
@@ -613,7 +1381,21 @@
     "emd": "후평동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 후평동 845-1 세경3차",
+    "builder": "세경건설 주식회사",
+    "entrance": "복도식",
+    "useArea": "26827.2",
+    "bjdCode": "5111012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 540,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20096210",
@@ -624,7 +1406,21 @@
     "emd": "후평동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 후평동 808-1 후평주공4단지",
+    "builder": "대한주택공사",
+    "entrance": "계단식",
+    "useArea": "37038.24",
+    "bjdCode": "5111012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 706,
+      "u85": 2,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20096305",
@@ -635,7 +1431,21 @@
     "emd": "후평동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 후평동 893 동아아파트",
+    "builder": "동아건설",
+    "entrance": "계단식",
+    "useArea": "45720",
+    "bjdCode": "5111012000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 390,
+      "o135": 0
+    }
   },
   {
     "code": "A20096308",
@@ -646,7 +1456,21 @@
     "emd": "후평동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 후평동 885-1 세경4차아파트",
+    "builder": "세경산업(주)",
+    "entrance": "계단식",
+    "useArea": "28702.8",
+    "bjdCode": "5111012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 560,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20096312",
@@ -657,7 +1481,21 @@
     "emd": "후평동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 후평동 899 석사2지구아파트",
+    "builder": "주택공사",
+    "entrance": "복도식",
+    "useArea": "70823.11",
+    "bjdCode": "5111012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1309,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023861",
@@ -668,7 +1506,21 @@
     "emd": "온의동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 온의동 601 센트럴타워푸르지오아파트",
+    "builder": "(주)대우건설",
+    "entrance": "계단식",
+    "useArea": "101267.6638",
+    "bjdCode": "5111012100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 49,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1083,
+      "u135": 92,
+      "o135": 0
+    }
   },
   {
     "code": "A10024151",
@@ -679,7 +1531,21 @@
     "emd": "온의동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 온의동 44-1 춘천센트럴파크푸르지오",
+    "builder": "대우건설",
+    "entrance": "계단식",
+    "useArea": "129101.8274",
+    "bjdCode": "5111012100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 32,
+    "areaBreak": {
+      "u60": 108,
+      "u85": 1390,
+      "u135": 58,
+      "o135": 0
+    }
   },
   {
     "code": "A10027820",
@@ -690,7 +1556,21 @@
     "emd": "온의동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 온의동 590 롯데캐슬 스카이클래스",
+    "builder": "롯데건설(주)",
+    "entrance": "계단식",
+    "useArea": "96384.323",
+    "bjdCode": "5111012100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 39,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 496,
+      "u135": 459,
+      "o135": 38
+    }
   },
   {
     "code": "A20093702",
@@ -701,7 +1581,21 @@
     "emd": "온의동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 온의동 571 금호3차아파트",
+    "builder": "춘천제2연합주택조합",
+    "entrance": "계단식",
+    "useArea": "18602.85",
+    "bjdCode": "5111012100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 125,
+      "u85": 115,
+      "u135": 10,
+      "o135": 0
+    }
   },
   {
     "code": "A20093704",
@@ -712,7 +1606,21 @@
     "emd": "온의동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 온의동 572 한주2차아파트",
+    "builder": "한주개발",
+    "entrance": "계단식",
+    "useArea": "21807.195",
+    "bjdCode": "5111012100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 120,
+      "u85": 177,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20093705",
@@ -723,7 +1631,21 @@
     "emd": "온의동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 온의동 65-10 금호1차아파트",
+    "builder": "금호건설",
+    "entrance": "계단식",
+    "useArea": "38374.2",
+    "bjdCode": "5111012100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 480,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20093706",
@@ -734,7 +1656,21 @@
     "emd": "온의동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 온의동 510 럭키아파트",
+    "builder": "LG건설",
+    "entrance": "계단식",
+    "useArea": "45486.41",
+    "bjdCode": "5111012100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 22,
+      "u85": 522,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20093801",
@@ -745,7 +1681,21 @@
     "emd": "온의동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 온의동 573 온의마젤란21",
+    "builder": "유진기업",
+    "entrance": "계단식",
+    "useArea": "19701.769",
+    "bjdCode": "5111012100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 233,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20093803",
@@ -756,7 +1706,21 @@
     "emd": "온의동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 온의동 509 보배아파트",
+    "builder": "벽산건설(주)",
+    "entrance": "계단식",
+    "useArea": "25548.28",
+    "bjdCode": "5111012100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 182,
+      "u135": 80,
+      "o135": 0
+    }
   },
   {
     "code": "A10025205",
@@ -767,7 +1731,21 @@
     "emd": "퇴계동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 퇴계동 1240 e편한세상 춘천 한숲시티아파트",
+    "builder": "대림산업",
+    "entrance": "계단식",
+    "useArea": "234457.6486",
+    "bjdCode": "5111012300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 35,
+    "areaBreak": {
+      "u60": 292,
+      "u85": 2117,
+      "u135": 426,
+      "o135": 0
+    }
   },
   {
     "code": "A10026173",
@@ -778,7 +1756,21 @@
     "emd": "퇴계동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 퇴계동 1235 퇴계세영리첼아파트",
+    "builder": "세영종합건설주식회사",
+    "entrance": "계단식",
+    "useArea": "24458.784",
+    "bjdCode": "5111012300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20017001",
@@ -789,7 +1781,21 @@
     "emd": "퇴계동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 퇴계동 916-1 퇴계현진아파트",
+    "builder": "현진종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "11690.055",
+    "bjdCode": "5111012300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 195,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20017003",
@@ -800,7 +1806,21 @@
     "emd": "퇴계동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 퇴계동 1041 유승한내들아파트",
+    "builder": "(주)유승종합건설",
+    "entrance": "계단식",
+    "useArea": "27598.0748",
+    "bjdCode": "5111012300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 204,
+      "u135": 88,
+      "o135": 0
+    }
   },
   {
     "code": "A20017004",
@@ -811,7 +1831,21 @@
     "emd": "퇴계동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 퇴계동 1139 일성2차아파트",
+    "builder": "일성종합건설주식회사",
+    "entrance": "계단식",
+    "useArea": "21073.837",
+    "bjdCode": "5111012300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 145,
+      "u85": 151,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20017005",
@@ -822,7 +1856,21 @@
     "emd": "퇴계동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 퇴계동 1048 퇴계동중앙하이츠빌2단지",
+    "builder": "(주)중앙건설",
+    "entrance": "계단식",
+    "useArea": "26352.974",
+    "bjdCode": "5111012300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 208,
+      "u135": 89,
+      "o135": 0
+    }
   },
   {
     "code": "A20017006",
@@ -833,7 +1881,21 @@
     "emd": "퇴계동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 퇴계동 1036 퇴계주공8차아파트",
+    "builder": "중원건설",
+    "entrance": "계단식",
+    "useArea": "19939.56",
+    "bjdCode": "5111012300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 372,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20017008",
@@ -844,7 +1906,21 @@
     "emd": "퇴계동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 퇴계동 1043 중앙하이츠빌1단지아파트 입주자대표회의",
+    "builder": "중앙건설",
+    "entrance": "계단식",
+    "useArea": "40251.681",
+    "bjdCode": "5111012300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 290,
+      "u135": 130,
+      "o135": 0
+    }
   },
   {
     "code": "A20017009",
@@ -855,7 +1931,21 @@
     "emd": "퇴계동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 퇴계동 1024 퇴계주공9차아파트",
+    "builder": "(주)서광건설",
+    "entrance": "계단식",
+    "useArea": "23370.76",
+    "bjdCode": "5111012300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 434,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20017012",
@@ -866,7 +1956,21 @@
     "emd": "퇴계동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 퇴계동 967 퇴계(1)주공아파트",
+    "builder": "대한주택공사",
+    "entrance": "복도식",
+    "useArea": "28434.12",
+    "bjdCode": "5111012300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 572,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20017019",
@@ -877,7 +1981,21 @@
     "emd": "퇴계동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 퇴계동 1031 춘천뜨란채아파트",
+    "builder": "한울건설, 금호건설",
+    "entrance": "계단식",
+    "useArea": "60645.06",
+    "bjdCode": "5111012300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 714,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20017023",
@@ -888,7 +2006,21 @@
     "emd": "퇴계동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 퇴계동 1025 퇴계주공7단지아파트",
+    "builder": "(주)효성",
+    "entrance": "복도식",
+    "useArea": "48890.83",
+    "bjdCode": "5111012300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1175,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20075121",
@@ -899,7 +2031,21 @@
     "emd": "퇴계동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 퇴계동 945 퇴계금호2차아파트",
+    "builder": "광주고속",
+    "entrance": "계단식",
+    "useArea": "74254.05",
+    "bjdCode": "5111012300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 330,
+      "u85": 294,
+      "u135": 240,
+      "o135": 0
+    }
   },
   {
     "code": "A20075322",
@@ -910,7 +2056,21 @@
     "emd": "퇴계동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 퇴계동 916 퇴계현대2차아파트",
+    "builder": "현대산업개발(주)",
+    "entrance": "혼합식",
+    "useArea": "58961.34",
+    "bjdCode": "5111012300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1049,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20076024",
@@ -921,7 +2081,21 @@
     "emd": "퇴계동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 퇴계동 983 퇴계주공2차아파트",
+    "builder": "대한주택공사",
+    "entrance": "혼합식",
+    "useArea": "73383.85",
+    "bjdCode": "5111012300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 1303,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20094302",
@@ -932,7 +2106,21 @@
     "emd": "퇴계동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 퇴계동 1040 쌍용스윗닷홈아파트",
+    "builder": "쌍용건설",
+    "entrance": "계단식",
+    "useArea": "29168.339",
+    "bjdCode": "5111012300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 90,
+      "u135": 136,
+      "o135": 29
+    }
   },
   {
     "code": "A20094307",
@@ -943,7 +2131,21 @@
     "emd": "퇴계동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 퇴계동 430 퇴계우성아파트",
+    "builder": "우성건설",
+    "entrance": "계단식",
+    "useArea": "36953.781",
+    "bjdCode": "5111012300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 249,
+      "u135": 64,
+      "o135": 68
+    }
   },
   {
     "code": "A20094318",
@@ -954,7 +2156,21 @@
     "emd": "퇴계동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 퇴계동 1052 퇴계이안",
+    "builder": "대우자판",
+    "entrance": "계단식",
+    "useArea": "68427.4194",
+    "bjdCode": "5111012300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 42,
+      "u85": 437,
+      "u135": 179,
+      "o135": 45
+    }
   },
   {
     "code": "A20094319",
@@ -965,7 +2181,21 @@
     "emd": "퇴계동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 퇴계동 1133 중앙하이츠빌3단지",
+    "builder": "(주)중앙건설",
+    "entrance": "계단식",
+    "useArea": "32332.7973",
+    "bjdCode": "5111012300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 120,
+      "u135": 207,
+      "o135": 0
+    }
   },
   {
     "code": "A20094320",
@@ -976,7 +2206,21 @@
     "emd": "퇴계동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 퇴계동 1131 휴먼시아남춘천2단지",
+    "builder": "(주)서희건설",
+    "entrance": "계단식",
+    "useArea": "30245.2",
+    "bjdCode": "5111012300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 356,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20094321",
@@ -987,7 +2231,21 @@
     "emd": "퇴계동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 퇴계동 1097 휴먼시아남춘천1단지",
+    "builder": "성지건설",
+    "entrance": "계단식",
+    "useArea": "55453.48",
+    "bjdCode": "5111012300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 470,
+      "o135": 0
+    }
   },
   {
     "code": "A20094511",
@@ -998,7 +2256,21 @@
     "emd": "퇴계동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 퇴계동 944 한주1차아파트",
+    "builder": "낙원개발(주)",
+    "entrance": "계단식",
+    "useArea": "47297.28",
+    "bjdCode": "5111012300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 224,
+      "u85": 210,
+      "u135": 120,
+      "o135": 0
+    }
   },
   {
     "code": "A20094520",
@@ -1009,7 +2281,21 @@
     "emd": "퇴계동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 퇴계동 1015 퇴계주공6차아파트",
+    "builder": "중흥건설(주)",
+    "entrance": "계단식",
+    "useArea": "50186.05",
+    "bjdCode": "5111012300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 838,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20094615",
@@ -1020,7 +2306,21 @@
     "emd": "퇴계동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 퇴계동 916-2 퇴계현대1차",
+    "builder": "(주)고려산업개발",
+    "entrance": "계단식",
+    "useArea": "45733.5",
+    "bjdCode": "5111012300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 210,
+      "u85": 390,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20094616",
@@ -1031,7 +2331,21 @@
     "emd": "퇴계동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 퇴계동 917 한성한진아파트",
+    "builder": "한성한진종합건설",
+    "entrance": "계단식",
+    "useArea": "47888.4",
+    "bjdCode": "5111012300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 120,
+      "u85": 480,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20094617",
@@ -1042,7 +2356,21 @@
     "emd": "퇴계동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 퇴계동 916-3 그린타운아파트",
+    "builder": "삼익건설. 코오롱건설",
+    "entrance": "계단식",
+    "useArea": "69748.2",
+    "bjdCode": "5111012300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 620,
+      "o135": 0
+    }
   },
   {
     "code": "A10022302",
@@ -1053,7 +2381,21 @@
     "emd": "석사동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 석사동 694- 세경5차아파트",
+    "builder": "세경건설",
+    "entrance": "계단식",
+    "useArea": "13211.1",
+    "bjdCode": "5111012400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 270,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20018014",
@@ -1064,7 +2406,21 @@
     "emd": "석사동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 석사동 873 현진에버빌2차아파트",
+    "builder": "(주)현진",
+    "entrance": "계단식",
+    "useArea": "65501.64",
+    "bjdCode": "5111012400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 160,
+      "u135": 358,
+      "o135": 88
+    }
   },
   {
     "code": "A20018016",
@@ -1075,7 +2431,21 @@
     "emd": "석사동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 석사동 893 현진에버빌1차아파트",
+    "builder": "(주)현진종합건설",
+    "entrance": "계단식",
+    "useArea": "65748.84",
+    "bjdCode": "5111012400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 600,
+      "u135": 90,
+      "o135": 30
+    }
   },
   {
     "code": "A20093301",
@@ -1086,7 +2456,21 @@
     "emd": "석사동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 석사동 682-1 신우아파트",
+    "builder": "신우건설",
+    "entrance": "계단식",
+    "useArea": "17362.2",
+    "bjdCode": "5111012400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 148,
+      "u135": 48,
+      "o135": 0
+    }
   },
   {
     "code": "A20093302",
@@ -1097,7 +2481,21 @@
     "emd": "석사동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 석사동 283-15 삼익1차아파트",
+    "builder": "(주)삼익세라믹",
+    "entrance": "계단식",
+    "useArea": "17667.15",
+    "bjdCode": "5111012400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 210,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20093304",
@@ -1108,7 +2506,21 @@
     "emd": "석사동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 석사동 114-5 삼익2차아파트",
+    "builder": "(주)삼익세라믹",
+    "entrance": "계단식",
+    "useArea": "20602.19",
+    "bjdCode": "5111012400",
+    "aptType": "아파트",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 256,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20093307",
@@ -1119,7 +2531,21 @@
     "emd": "석사동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 석사동 115-10 석사극동아파트",
+    "builder": "극동건설(주)",
+    "entrance": "계단식",
+    "useArea": "31689.06",
+    "bjdCode": "5111012400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 288,
+      "u135": 0,
+      "o135": 60
+    }
   },
   {
     "code": "A20093606",
@@ -1130,7 +2556,21 @@
     "emd": "석사동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 석사동 694-1 석사아파트",
+    "builder": "대한주택공사",
+    "entrance": "계단식",
+    "useArea": "16019.5",
+    "bjdCode": "5111012400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 340,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20093608",
@@ -1141,7 +2581,21 @@
     "emd": "석사동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 석사동 727-6 청구아파트",
+    "builder": "청구",
+    "entrance": "계단식",
+    "useArea": "26203.65",
+    "bjdCode": "5111012400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 438,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20093609",
@@ -1152,7 +2606,21 @@
     "emd": "석사동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 석사동 820 퇴계주공3차아파트",
+    "builder": "대한주택공사",
+    "entrance": "계단식",
+    "useArea": "38690.28",
+    "bjdCode": "5111012400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 456,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20093610",
@@ -1163,7 +2631,21 @@
     "emd": "석사동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 석사동 727-4 석사두산아파트",
+    "builder": "(주)두산건설",
+    "entrance": "계단식",
+    "useArea": "29865.06",
+    "bjdCode": "5111012400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 16,
+    "areaBreak": {
+      "u60": 498,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20093611",
@@ -1174,7 +2656,21 @@
     "emd": "석사동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 석사동 727-2 석사3지구 부영아파트",
+    "builder": "(주)동광주택",
+    "entrance": "복도식",
+    "useArea": "30245.04",
+    "bjdCode": "5111012400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 515,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20093612",
@@ -1185,7 +2681,21 @@
     "emd": "석사동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 석사동 727-5 진흥",
+    "builder": "진흥기업(주)",
+    "entrance": "계단식",
+    "useArea": "33301.45",
+    "bjdCode": "5111012400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 563,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20093613",
@@ -1196,7 +2706,21 @@
     "emd": "석사동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 석사동 722-2 그랜드아파트",
+    "builder": "그랜드종합건설",
+    "entrance": "계단식",
+    "useArea": "45484.51",
+    "bjdCode": "5111012400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 565,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20093615",
@@ -1207,7 +2731,21 @@
     "emd": "석사동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 석사동 721-2 석사대우아파트",
+    "builder": "대우",
+    "entrance": "계단식",
+    "useArea": "78587.52",
+    "bjdCode": "5111012400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 553,
+      "o135": 90
+    }
   },
   {
     "code": "A20093617",
@@ -1218,7 +2756,21 @@
     "emd": "석사동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 석사동 813 석사현대아파트",
+    "builder": "현대건설/현대산업개발",
+    "entrance": "계단식",
+    "useArea": "64477.518",
+    "bjdCode": "5111012400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 530,
+      "o135": 30
+    }
   },
   {
     "code": "A20093618",
@@ -1229,7 +2781,21 @@
     "emd": "석사동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 석사동 822 퇴계주공4차아파트",
+    "builder": "대한주택공사",
+    "entrance": "혼합식",
+    "useArea": "59862.3",
+    "bjdCode": "5111012400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 1010,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20093619",
@@ -1240,7 +2806,21 @@
     "emd": "석사동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 석사동 866 휴먼타운",
+    "builder": "대한주택관리공사",
+    "entrance": "계단식",
+    "useArea": "93547.58",
+    "bjdCode": "5111012400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1110,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20097203",
@@ -1251,7 +2831,21 @@
     "emd": "석사동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 석사동 971 신도브래뉴아파트",
+    "builder": "신도종합건설",
+    "entrance": "계단식",
+    "useArea": "23249.7174",
+    "bjdCode": "5111012400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 156,
+      "u135": 78,
+      "o135": 0
+    }
   },
   {
     "code": "A10024650",
@@ -1262,7 +2856,21 @@
     "emd": "삼천동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 삼천동 44-10 춘천파크자이 아파트",
+    "builder": "GS건설",
+    "entrance": "계단식",
+    "useArea": "77321.3044",
+    "bjdCode": "5111012500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 30,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 886,
+      "u135": 76,
+      "o135": 3
+    }
   },
   {
     "code": "A20022001",
@@ -1273,7 +2881,21 @@
     "emd": "칠전동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 칠전동 529-1 칠전대우1차아파트",
+    "builder": "(주) 대우",
+    "entrance": "계단식",
+    "useArea": "29599.62",
+    "bjdCode": "5111012600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 494,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20022002",
@@ -1284,7 +2906,21 @@
     "emd": "칠전동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 칠전동 585-1 칠전대우2차아파트",
+    "builder": "대우건설",
+    "entrance": "계단식",
+    "useArea": "50185.7762",
+    "bjdCode": "5111012600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 614,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20076301",
@@ -1295,7 +2931,21 @@
     "emd": "칠전동",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 칠전동 529-2 춘천칠전부영",
+    "builder": "부영주택",
+    "entrance": "계단식",
+    "useArea": "22117.1589",
+    "bjdCode": "5111012600",
+    "aptType": "아파트",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 369,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20082101",
@@ -1306,7 +2956,21 @@
     "emd": "신북읍",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 신북읍 천전리 1352 소양강양우내안애아파트",
+    "builder": "양우건설(주)",
+    "entrance": "복도식",
+    "useArea": "21298.5841",
+    "bjdCode": "5111025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 235,
+      "u85": 174,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20082401",
@@ -1317,7 +2981,21 @@
     "emd": "신북읍",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 신북읍 천전리 1351 해강아파트",
+    "builder": "(주)해강",
+    "entrance": "혼합식",
+    "useArea": "21805.44",
+    "bjdCode": "5111025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 424,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20078201",
@@ -1328,7 +3006,21 @@
     "emd": "동면",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 동면 만천리 971 한일유앤아이",
+    "builder": "한일건설",
+    "entrance": "계단식",
+    "useArea": "58341.8715",
+    "bjdCode": "5111031022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 348,
+      "u135": 165,
+      "o135": 60
+    }
   },
   {
     "code": "A20078202",
@@ -1339,7 +3031,21 @@
     "emd": "동면",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 동면 만천리 976 만천LH아파트",
+    "builder": "남양건설",
+    "entrance": "복도식",
+    "useArea": "33204.12",
+    "bjdCode": "5111031022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 747,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20078203",
@@ -1350,7 +3056,21 @@
     "emd": "동면",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 동면 만천리 984 kcc스위첸아파트",
+    "builder": "kcc건설",
+    "entrance": "계단식",
+    "useArea": "37885.014",
+    "bjdCode": "5111031022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 242,
+      "u135": 142,
+      "o135": 0
+    }
   },
   {
     "code": "A20085201",
@@ -1361,7 +3081,21 @@
     "emd": "동면",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 동면 만천리 973 대동다숲",
+    "builder": "(주)대동종합건설",
+    "entrance": "계단식",
+    "useArea": "27253.9839",
+    "bjdCode": "5111031022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 228,
+      "u135": 59,
+      "o135": 0
+    }
   },
   {
     "code": "A10027896",
@@ -1372,7 +3106,21 @@
     "emd": "동면",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 동면 장학리 993 춘천 장학 부영 사랑으로 아파트",
+    "builder": "(주)부영주택",
+    "entrance": "계단식",
+    "useArea": "33772.925",
+    "bjdCode": "5111031023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 16,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 330,
+      "u135": 0,
+      "o135": 40
+    }
   },
   {
     "code": "A20078204",
@@ -1383,7 +3131,21 @@
     "emd": "동면",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 동면 장학리 985 춘천아이파크",
+    "builder": "현대산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "45011.8788",
+    "bjdCode": "5111031023",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 403,
+      "u135": 90,
+      "o135": 0
+    }
   },
   {
     "code": "A20078205",
@@ -1394,7 +3156,21 @@
     "emd": "동면",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 동면 장학리 989 장학LH1단지",
+    "builder": "(주)효성",
+    "entrance": "복도식",
+    "useArea": "42064.36",
+    "bjdCode": "5111031023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1037,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20078206",
@@ -1405,7 +3181,21 @@
     "emd": "동면",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 동면 장학리 988 장학LH해온채",
+    "builder": "삼환기업",
+    "entrance": "계단식",
+    "useArea": "47545.8",
+    "bjdCode": "5111031023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 560,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20085202",
@@ -1416,7 +3206,21 @@
     "emd": "동면",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 동면 장학리 981 춘천두산위브아파트",
+    "builder": "두산건설",
+    "entrance": "계단식",
+    "useArea": "60236.31",
+    "bjdCode": "5111031023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 594,
+      "u135": 82,
+      "o135": 1
+    }
   },
   {
     "code": "A10026459",
@@ -1427,7 +3231,21 @@
     "emd": "동내면",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 동내면 거두리 1135 춘천 거두2 행복주택",
+    "builder": "남양건설(주)",
+    "entrance": "복도식",
+    "useArea": "12274.48",
+    "bjdCode": "5111039021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 480,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027702",
@@ -1438,7 +3256,21 @@
     "emd": "동내면",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 동내면 거두리 1138 춘천거두 호반베르디움 에코아파트",
+    "builder": "(주)포부스건설",
+    "entrance": "계단식",
+    "useArea": "24989.7774",
+    "bjdCode": "5111039021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 171,
+      "u85": 174,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20077101",
@@ -1449,7 +3281,21 @@
     "emd": "동내면",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 동내면 거두리 1065 호반베르디움아파트",
+    "builder": "호반건설,호반베르디움",
+    "entrance": "계단식",
+    "useArea": "41153.6168",
+    "bjdCode": "5111039021",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 310,
+      "u135": 110,
+      "o135": 0
+    }
   },
   {
     "code": "A20077102",
@@ -1460,7 +3306,21 @@
     "emd": "동내면",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 동내면 거두리 1038 현대성우오스타아파트",
+    "builder": "성우종합건설",
+    "entrance": "계단식",
+    "useArea": "26170.16",
+    "bjdCode": "5111039021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 308,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20077103",
@@ -1471,7 +3331,21 @@
     "emd": "동내면",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 동내면 거두리 939-1 거두부영1,2단지",
+    "builder": "부영주택",
+    "entrance": "계단식",
+    "useArea": "47076.8702",
+    "bjdCode": "5111039021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 554,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20088103",
@@ -1482,7 +3356,21 @@
     "emd": "동내면",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 동내면 거두리 936 초록지붕아파트",
+    "builder": "세경건설",
+    "entrance": "계단식",
+    "useArea": "25074.3735",
+    "bjdCode": "5111039021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 297,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20088104",
@@ -1493,7 +3381,21 @@
     "emd": "동내면",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 동내면 거두리 1137 거두주공임대",
+    "builder": "섬강종합건설",
+    "entrance": "복도식",
+    "useArea": "16894.59",
+    "bjdCode": "5111039021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 375,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20088105",
@@ -1504,7 +3406,21 @@
     "emd": "동내면",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 동내면 거두리 939-2 거두부영3차",
+    "builder": "주)부영주택",
+    "entrance": "계단식",
+    "useArea": "18789.8856",
+    "bjdCode": "5111039021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 314,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20088102",
@@ -1515,7 +3431,21 @@
     "emd": "동내면",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 동내면 신촌리 401 신촌산수빌아파트",
+    "builder": "(주)대양",
+    "entrance": "혼합식",
+    "useArea": "14488.2102",
+    "bjdCode": "5111039022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 265,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020408",
@@ -1526,7 +3456,21 @@
     "emd": "동내면",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 동내면 학곡리 858- 마루힐포레스트",
+    "builder": "중해건설",
+    "entrance": "계단식",
+    "useArea": "94422.5108",
+    "bjdCode": "5111039025",
+    "aptType": "아파트",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 35,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020697",
@@ -1537,7 +3481,21 @@
     "emd": "동내면",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 동내면 학곡리 859- 춘천모아엘가비스타",
+    "builder": "혜림건설",
+    "entrance": "계단식",
+    "useArea": "66584.6976",
+    "bjdCode": "5111039025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021792",
@@ -1548,7 +3506,21 @@
     "emd": "동내면",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 동내면 학곡리 860- 학곡지구 모아엘가 그랑데",
+    "builder": "혜림건설주식회사, 모아건설산업(주)",
+    "entrance": "계단식",
+    "useArea": "64967.3388",
+    "bjdCode": "5111039025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 742,
+      "u135": 20,
+      "o135": 0
+    }
   },
   {
     "code": "A20088201",
@@ -1559,6 +3531,20 @@
     "emd": "동내면",
     "sigunguCode": "51110",
     "sido": "강원특별자치도",
-    "sigungu": "춘천시"
+    "sigungu": "춘천시",
+    "jibunAddr": "강원특별자치도 춘천시 동내면 학곡리 255-34 신아3차아파트",
+    "builder": "신아건설",
+    "entrance": "복도식",
+    "useArea": "8267.74",
+    "bjdCode": "5111039025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 11,
+    "areaBreak": {
+      "u60": 184,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

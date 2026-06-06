@@ -9,7 +9,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 498
+    "hhldCnt": 498,
+    "jibunAddr": "경기도 양주시 산북동 1 양주한승",
+    "builder": "한승건설",
+    "entrance": "계단식",
+    "useArea": "42129.306",
+    "bjdCode": "4163010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 498,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023262",
@@ -21,7 +35,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 372
+    "hhldCnt": 372,
+    "jibunAddr": "경기도 양주시 광사동 716 양주고읍LH14",
+    "builder": "남양건설등",
+    "entrance": "복도식",
+    "useArea": "12228.12",
+    "bjdCode": "4163010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 372,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024838",
@@ -33,7 +61,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 508
+    "hhldCnt": 508,
+    "jibunAddr": "경기도 양주시 광사동 717 양주고읍 LH 13단지 아파트",
+    "builder": "코원건설",
+    "entrance": "복도식",
+    "useArea": "13967.28",
+    "bjdCode": "4163010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 508,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48203002",
@@ -45,7 +87,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 499
+    "hhldCnt": 499,
+    "jibunAddr": "경기도 양주시 광사동 131-4 대방노블랜드",
+    "builder": "대방건설",
+    "entrance": "계단식",
+    "useArea": "41521.79",
+    "bjdCode": "4163010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 499,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48272201",
@@ -57,7 +113,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 400
+    "hhldCnt": 400,
+    "jibunAddr": "경기도 양주시 광사동 313-4 신도브래뉴8차",
+    "builder": "(주)신도종합건설",
+    "entrance": "계단식",
+    "useArea": "32378.1",
+    "bjdCode": "4163010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 160,
+      "u85": 180,
+      "u135": 60,
+      "o135": 0
+    }
   },
   {
     "code": "A48272301",
@@ -69,7 +139,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 470
+    "hhldCnt": 470,
+    "jibunAddr": "경기도 양주시 광사동 658 유승한내들9단지",
+    "builder": "(주)유승건설",
+    "entrance": "계단식",
+    "useArea": "39935.0785",
+    "bjdCode": "4163010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 470,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48272302",
@@ -81,7 +165,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 744
+    "hhldCnt": 744,
+    "jibunAddr": "경기도 양주시 광사동 713 해동마을신도브래뉴",
+    "builder": "신도종합건설",
+    "entrance": "계단식",
+    "useArea": "78897.3106",
+    "bjdCode": "4163010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 459,
+      "u135": 222,
+      "o135": 63
+    }
   },
   {
     "code": "A48272303",
@@ -93,7 +191,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 764
+    "hhldCnt": 764,
+    "jibunAddr": "경기도 양주시 광사동 712 해동마을한양수자인3차",
+    "builder": "(주)한양",
+    "entrance": "계단식",
+    "useArea": "53268.907",
+    "bjdCode": "4163010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 465,
+      "u85": 299,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48208001",
@@ -105,7 +217,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 434
+    "hhldCnt": 434,
+    "jibunAddr": "경기도 양주시 만송동 696 은빛마을한양수자인2단지",
+    "builder": "(주)한양",
+    "entrance": "계단식",
+    "useArea": "46547.7209",
+    "bjdCode": "4163010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 429,
+      "o135": 5
+    }
   },
   {
     "code": "A48208002",
@@ -117,7 +243,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 412
+    "hhldCnt": 412,
+    "jibunAddr": "경기도 양주시 만송동 697 은빛마을유승한내들",
+    "builder": "(주)유승건설",
+    "entrance": "계단식",
+    "useArea": "24712.0838",
+    "bjdCode": "4163010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 412,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48208003",
@@ -129,7 +269,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 1124
+    "hhldCnt": 1124,
+    "jibunAddr": "경기도 양주시 만송동 700 양주고읍휴먼시아8단지",
+    "builder": "신일건업",
+    "entrance": "복도식",
+    "useArea": "52514.38",
+    "bjdCode": "4163010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1124,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48208004",
@@ -141,7 +295,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 503
+    "hhldCnt": 503,
+    "jibunAddr": "경기도 양주시 만송동 698 고읍주공6단지",
+    "builder": "대지건설(주)",
+    "entrance": "복도식",
+    "useArea": "22913.28",
+    "bjdCode": "4163010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 503,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48208005",
@@ -153,7 +321,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 773
+    "hhldCnt": 773,
+    "jibunAddr": "경기도 양주시 만송동 701 고읍휴먼시아7단지",
+    "builder": "국제건설(주)",
+    "entrance": "복도식",
+    "useArea": "34371.06",
+    "bjdCode": "4163010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 773,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48208006",
@@ -165,7 +347,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 531
+    "hhldCnt": 531,
+    "jibunAddr": "경기도 양주시 만송동 694 양주고읍휴먼시아5단지",
+    "builder": "태평양개발",
+    "entrance": "복도식",
+    "useArea": "26443.08",
+    "bjdCode": "4163010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 531,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023674",
@@ -177,7 +373,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 297
+    "hhldCnt": 297,
+    "jibunAddr": "경기도 양주시 삼숭동 693 옥정역 로제비앙 메트로파크 2단지",
+    "builder": "대광건영",
+    "entrance": "계단식",
+    "useArea": "25895.1496",
+    "bjdCode": "4163010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 263,
+      "u135": 34,
+      "o135": 0
+    }
   },
   {
     "code": "A10023675",
@@ -189,7 +399,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 946
+    "hhldCnt": 946,
+    "jibunAddr": "경기도 양주시 삼숭동 690 옥정역 로제비앙 메트로파크 1단지",
+    "builder": "(주)대광건영",
+    "entrance": "계단식",
+    "useArea": "80492.0351",
+    "bjdCode": "4163010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 28,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 937,
+      "u135": 9,
+      "o135": 0
+    }
   },
   {
     "code": "A48211001",
@@ -201,7 +425,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 387
+    "hhldCnt": 387,
+    "jibunAddr": "경기도 양주시 삼숭동 632-2 양주TS푸른솔3차",
+    "builder": "TS건설",
+    "entrance": "계단식",
+    "useArea": "29891.91",
+    "bjdCode": "4163010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 387,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48211006",
@@ -213,7 +451,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 735
+    "hhldCnt": 735,
+    "jibunAddr": "경기도 양주시 삼숭동 688 양주자이6단지",
+    "builder": "LG건설",
+    "entrance": "계단식",
+    "useArea": "61524.1944",
+    "bjdCode": "4163010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 735,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48272508",
@@ -225,7 +477,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 786
+    "hhldCnt": 786,
+    "jibunAddr": "경기도 양주시 삼숭동 686-1 양주자이1단지",
+    "builder": "(주)GS건설",
+    "entrance": "계단식",
+    "useArea": "58730.7115",
+    "bjdCode": "4163010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 407,
+      "u85": 291,
+      "u135": 88,
+      "o135": 0
+    }
   },
   {
     "code": "A48272604",
@@ -237,7 +503,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 574
+    "hhldCnt": 574,
+    "jibunAddr": "경기도 양주시 삼숭동 684-1 양주자이2단지",
+    "builder": "GS자이(주)",
+    "entrance": "계단식",
+    "useArea": "42286.9862",
+    "bjdCode": "4163010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 258,
+      "u85": 316,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48272707",
@@ -249,7 +529,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 742
+    "hhldCnt": 742,
+    "jibunAddr": "경기도 양주시 삼숭동 683-1 양주자이3단지",
+    "builder": "GS건설(주)",
+    "entrance": "계단식",
+    "useArea": "63011.9756",
+    "bjdCode": "4163010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 742,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48272809",
@@ -261,7 +555,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 89
+    "hhldCnt": 89,
+    "jibunAddr": "경기도 양주시 삼숭동 682-1 양주자이4단지",
+    "builder": "GS건설주식회사",
+    "entrance": "계단식",
+    "useArea": "62939.9143",
+    "bjdCode": "4163010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 269,
+      "u85": 583,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48272905",
@@ -273,7 +581,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 652
+    "hhldCnt": 652,
+    "jibunAddr": "경기도 양주시 삼숭동 681-1 양주자이5단지",
+    "builder": "(주)건남개발",
+    "entrance": "계단식",
+    "useArea": "53175.4731",
+    "bjdCode": "4163010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 179,
+      "u85": 413,
+      "u135": 60,
+      "o135": 0
+    }
   },
   {
     "code": "A48273103",
@@ -285,7 +607,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 561
+    "hhldCnt": 561,
+    "jibunAddr": "경기도 양주시 삼숭동 689 양주자이7단지",
+    "builder": "(주)GS건설",
+    "entrance": "계단식",
+    "useArea": "52465.5462",
+    "bjdCode": "4163010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 411,
+      "u135": 150,
+      "o135": 0
+    }
   },
   {
     "code": "A48273302",
@@ -297,7 +633,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 492
+    "hhldCnt": 492,
+    "jibunAddr": "경기도 양주시 삼숭동 564 양주나래",
+    "builder": "나래종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "37868.64",
+    "bjdCode": "4163010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 204,
+      "u85": 240,
+      "u135": 48,
+      "o135": 0
+    }
   },
   {
     "code": "A48273410",
@@ -309,7 +659,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 919
+    "hhldCnt": 919,
+    "jibunAddr": "경기도 양주시 삼숭동 569 성우아파트아침의미소",
+    "builder": "성우건설",
+    "entrance": "계단식",
+    "useArea": "57824.92",
+    "bjdCode": "4163010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 705,
+      "u85": 212,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48202002",
@@ -321,7 +685,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 293
+    "hhldCnt": 293,
+    "jibunAddr": "경기도 양주시 고읍동 94 양주 고읍 현대",
+    "builder": "현대산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "29612.685",
+    "bjdCode": "4163010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 128,
+      "u135": 165,
+      "o135": 0
+    }
   },
   {
     "code": "A48272101",
@@ -333,7 +711,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 204
+    "hhldCnt": 204,
+    "jibunAddr": "경기도 양주시 고읍동 74 TS 푸른솔2차아파트",
+    "builder": "(주)TS건설",
+    "entrance": "계단식",
+    "useArea": "15419.56",
+    "bjdCode": "4163010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 76,
+      "u85": 128,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48272103",
@@ -344,7 +736,21 @@
     "emd": "고읍동",
     "sigunguCode": "41630",
     "sido": "경기도",
-    "sigungu": "여주시"
+    "sigungu": "여주시",
+    "jibunAddr": "경기도 양주시 고읍동 77 양주TS푸른솔1차",
+    "builder": "TS건설",
+    "entrance": "계단식",
+    "useArea": "32800.86",
+    "bjdCode": "4163010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 366,
+      "u85": 128,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48272104",
@@ -356,7 +762,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 513
+    "hhldCnt": 513,
+    "jibunAddr": "경기도 양주시 고읍동 451 산내들마을우미린아파트",
+    "builder": "우미건설",
+    "entrance": "계단식",
+    "useArea": "43575.4779",
+    "bjdCode": "4163010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 513,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48272105",
@@ -368,7 +788,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 376
+    "hhldCnt": 376,
+    "jibunAddr": "경기도 양주시 고읍동 455 양주우남퍼스트빌",
+    "builder": "우남건설",
+    "entrance": "계단식",
+    "useArea": "31912.124",
+    "bjdCode": "4163010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 376,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48272107",
@@ -380,7 +814,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 330
+    "hhldCnt": 330,
+    "jibunAddr": "경기도 양주시 고읍동 452 산내들마을휴먼시아(4단지)",
+    "builder": "(주)한국종합기술/(주)서한",
+    "entrance": "복도식",
+    "useArea": "16518.21",
+    "bjdCode": "4163010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 330,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020564",
@@ -392,7 +840,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 931
+    "hhldCnt": 931,
+    "jibunAddr": "경기도 양주시 덕정동 543- 덕정역서희스타힐스에듀포레뷰",
+    "builder": "서희건설",
+    "entrance": "계단식",
+    "useArea": "59469.7016",
+    "bjdCode": "4163011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021987",
@@ -404,7 +866,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 60
+    "hhldCnt": 60,
+    "jibunAddr": "경기도 양주시 덕정동 286-9 한국아파트",
+    "builder": "한국건설",
+    "entrance": "계단식",
+    "useArea": "11277.84",
+    "bjdCode": "4163011000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 216,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026389",
@@ -416,7 +892,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 88
+    "hhldCnt": 88,
+    "jibunAddr": "경기도 양주시 덕정동 146-5 덕정 명지아파트",
+    "builder": "(주)명지건설",
+    "entrance": "계단식",
+    "useArea": "6278.98",
+    "bjdCode": "4163011000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 43,
+      "u85": 45,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48079901",
@@ -428,7 +918,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 272
+    "hhldCnt": 272,
+    "jibunAddr": "경기도 양주시 덕정동 536 덕정일성트루엘",
+    "builder": "일성건설",
+    "entrance": "계단식",
+    "useArea": "24605.74",
+    "bjdCode": "4163011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 220,
+      "u135": 52,
+      "o135": 0
+    }
   },
   {
     "code": "A48079902",
@@ -440,7 +944,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 207
+    "hhldCnt": 207,
+    "jibunAddr": "경기도 양주시 덕정동 538 양주서희스타힐스1단지",
+    "builder": "(주)서희건설",
+    "entrance": "계단식",
+    "useArea": "16933.45",
+    "bjdCode": "4163011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 207,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48079903",
@@ -452,7 +970,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 821
+    "hhldCnt": 821,
+    "jibunAddr": "경기도 양주시 덕정동 540 양주서희스타힐스2단지",
+    "builder": "(주)서희건설",
+    "entrance": "계단식",
+    "useArea": "63829.06",
+    "bjdCode": "4163011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 83,
+      "u85": 738,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48206002",
@@ -464,7 +996,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 195
+    "hhldCnt": 195,
+    "jibunAddr": "경기도 양주시 덕정동 280-5 덕정융보",
+    "builder": "융보건설",
+    "entrance": "복도식",
+    "useArea": "15853.5",
+    "bjdCode": "4163011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 195,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48270703",
@@ -476,7 +1022,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 792
+    "hhldCnt": 792,
+    "jibunAddr": "경기도 양주시 덕정동 164 은동마을아파트(덕정주공1단지)",
+    "builder": "LH공사",
+    "entrance": "계단식",
+    "useArea": "66813.18",
+    "bjdCode": "4163011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 792,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48271005",
@@ -488,7 +1048,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 960
+    "hhldCnt": 960,
+    "jibunAddr": "경기도 양주시 덕정동 210-2 덕정주공4단지(청담마을)",
+    "builder": "LH",
+    "entrance": "계단식",
+    "useArea": "95708.18",
+    "bjdCode": "4163011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 960,
+      "o135": 0
+    }
   },
   {
     "code": "A48271106",
@@ -500,7 +1074,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 1732
+    "hhldCnt": 1732,
+    "jibunAddr": "경기도 양주시 덕정동 235 덕정주공5단지",
+    "builder": "대한주택관리사협회",
+    "entrance": "혼합식",
+    "useArea": "99776.32",
+    "bjdCode": "4163011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 1732,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020747",
@@ -512,7 +1100,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 921
+    "hhldCnt": 921,
+    "jibunAddr": "경기도 양주시 옥정동 1022- 엘리프옥정시그니처",
+    "builder": "계룡건설",
+    "entrance": "계단식",
+    "useArea": "62978.4147",
+    "bjdCode": "4163011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 534,
+      "u85": 387,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022517",
@@ -524,7 +1126,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 200
+    "hhldCnt": 200,
+    "jibunAddr": "경기도 양주시 옥정동 890-3 라피아노 스위첸 2단지",
+    "builder": "케이씨씨",
+    "entrance": "혼합식",
+    "useArea": "16890.493",
+    "bjdCode": "4163011400",
+    "aptType": "연립주택",
+    "mgrType": "위탁관리",
+    "topFloor": 3,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 200,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022534",
@@ -536,7 +1152,20 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 186
+    "hhldCnt": 186,
+    "jibunAddr": "경기도 양주시 옥정동 905-1 양주옥정 파티오포레 2단지",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "15803.9216",
+    "bjdCode": "4163011400",
+    "mgrType": "위탁관리",
+    "topFloor": 1,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 186,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022544",
@@ -547,7 +1176,21 @@
     "emd": "옥정동",
     "sigunguCode": "41630",
     "sido": "경기도",
-    "sigungu": "여주시"
+    "sigungu": "여주시",
+    "jibunAddr": "경기도 양주시 옥정동 906-2 양주옥정 파티오포레3단지",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "13594.902",
+    "bjdCode": "4163011400",
+    "aptType": "연립주택",
+    "mgrType": "위탁관리",
+    "topFloor": 1,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 160,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022545",
@@ -559,7 +1202,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 156
+    "hhldCnt": 156,
+    "jibunAddr": "경기도 양주시 옥정동 910-1 힐스테이트양주옥정파티오포레5단지",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "13255.1538",
+    "bjdCode": "4163011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 1,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 156,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022629",
@@ -571,7 +1228,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 938
+    "hhldCnt": 938,
+    "jibunAddr": "경기도 양주시 옥정동 885 e편한세상 옥정 리더스가든",
+    "builder": "디엘이앤씨(주)",
+    "entrance": "계단식",
+    "useArea": "83847.4569",
+    "bjdCode": "4163011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 27,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 663,
+      "u135": 275,
+      "o135": 0
+    }
   },
   {
     "code": "A10022741",
@@ -583,7 +1254,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 2049
+    "hhldCnt": 2049,
+    "jibunAddr": "경기도 양주시 옥정동 868 양주옥정린파밀리에아파트",
+    "builder": "우미건설(주) , 신동아건설(주)",
+    "entrance": "계단식",
+    "useArea": "163696.92",
+    "bjdCode": "4163011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 2049,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022817",
@@ -595,7 +1280,20 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 1304
+    "hhldCnt": 1304,
+    "jibunAddr": "경기도 양주시 옥정동 1096 제일풍경채 옥정",
+    "builder": "(주)제일건설",
+    "entrance": "계단식",
+    "useArea": "101599.7069",
+    "bjdCode": "4163011400",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1304,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023160",
@@ -607,7 +1305,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 1409
+    "hhldCnt": 1409,
+    "jibunAddr": "경기도 양주시 옥정동 945 양주옥정 엘리프아파트",
+    "builder": "계룡건설",
+    "entrance": "계단식",
+    "useArea": "80277.19",
+    "bjdCode": "4163011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 1409,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023212",
@@ -619,7 +1331,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 1086
+    "hhldCnt": 1086,
+    "jibunAddr": "경기도 양주시 옥정동 869 옥정 디에트르 에듀포레 아파트",
+    "builder": "대방건설",
+    "entrance": "계단식",
+    "useArea": "87314.8502",
+    "bjdCode": "4163011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 37,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1086,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023236",
@@ -631,7 +1357,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 1246
+    "hhldCnt": 1246,
+    "jibunAddr": "경기도 양주시 옥정동 1043 제일풍경채레이크시티1단지",
+    "builder": "제일건설",
+    "entrance": "계단식",
+    "useArea": "109602.8193",
+    "bjdCode": "4163011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 28,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 918,
+      "u135": 328,
+      "o135": 0
+    }
   },
   {
     "code": "A10023265",
@@ -643,7 +1383,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 767
+    "hhldCnt": 767,
+    "jibunAddr": "경기도 양주시 옥정동 938 양주옥정신도시 한신 더휴",
+    "builder": "한신공영",
+    "entrance": "계단식",
+    "useArea": "66382.0768",
+    "bjdCode": "4163011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 567,
+      "u135": 200,
+      "o135": 0
+    }
   },
   {
     "code": "A10023290",
@@ -655,7 +1409,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 1228
+    "hhldCnt": 1228,
+    "jibunAddr": "경기도 양주시 옥정동 1043-1 제일풍경채레이크시티2단지",
+    "builder": "제일건설(주)",
+    "entrance": "계단식",
+    "useArea": "108020.3126",
+    "bjdCode": "4163011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 905,
+      "u135": 323,
+      "o135": 0
+    }
   },
   {
     "code": "A10023378",
@@ -667,7 +1435,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 930
+    "hhldCnt": 930,
+    "jibunAddr": "경기도 양주시 옥정동 893 양주옥정더원파크빌리지",
+    "builder": "주식회사 라인산업",
+    "entrance": "계단식",
+    "useArea": "79034.424",
+    "bjdCode": "4163011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 930,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023408",
@@ -679,7 +1461,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 1140
+    "hhldCnt": 1140,
+    "jibunAddr": "경기도 양주시 옥정동 1097 옥정유림노르웨이숲아파트",
+    "builder": "(주)유림E&C",
+    "entrance": "계단식",
+    "useArea": "94022.0404",
+    "bjdCode": "4163011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 35,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1140,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023519",
@@ -691,7 +1487,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 1859
+    "hhldCnt": 1859,
+    "jibunAddr": "경기도 양주시 옥정동 946 디에트르 프레스티지 아파트",
+    "builder": "대방건설",
+    "entrance": "계단식",
+    "useArea": "164316.639",
+    "bjdCode": "4163011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 37,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1442,
+      "u135": 402,
+      "o135": 15
+    }
   },
   {
     "code": "A10023541",
@@ -703,7 +1513,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 804
+    "hhldCnt": 804,
+    "jibunAddr": "경기도 양주시 옥정동 937 대성베르힐옥정더센트로",
+    "builder": "디에스종합건설, 대성건설",
+    "entrance": "계단식",
+    "useArea": "71194.6677",
+    "bjdCode": "4163011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 593,
+      "u135": 211,
+      "o135": 0
+    }
   },
   {
     "code": "A10023789",
@@ -715,7 +1539,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 666
+    "hhldCnt": 666,
+    "jibunAddr": "경기도 양주시 옥정동 959 옥정중앙역S-클래스센텀시티3블럭",
+    "builder": "중흥건설(주)",
+    "entrance": "계단식",
+    "useArea": "54824.118",
+    "bjdCode": "4163011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 666,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024385",
@@ -727,7 +1565,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 608
+    "hhldCnt": 608,
+    "jibunAddr": "경기도 양주시 옥정동 1026-1 양주옥정 모아미래도파크뷰",
+    "builder": "(주)미래도건설, (주)모아종합건설",
+    "entrance": "계단식",
+    "useArea": "35883.4406",
+    "bjdCode": "4163011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 26,
+    "areaBreak": {
+      "u60": 608,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024462",
@@ -739,7 +1591,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 1483
+    "hhldCnt": 1483,
+    "jibunAddr": "경기도 양주시 옥정동 968 양주옥정신도시1차대방노블랜드더시그니처",
+    "builder": "주)대방건설",
+    "entrance": "계단식",
+    "useArea": "134007.6743",
+    "bjdCode": "4163011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 34,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1129,
+      "u135": 354,
+      "o135": 0
+    }
   },
   {
     "code": "A10024848",
@@ -751,7 +1617,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 2038
+    "hhldCnt": 2038,
+    "jibunAddr": "경기도 양주시 옥정동 1095 e편한세상 옥정 메트로포레",
+    "builder": "대림산업(주)",
+    "entrance": "계단식",
+    "useArea": "162051.7902",
+    "bjdCode": "4163011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 2038,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024948",
@@ -763,7 +1643,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 619
+    "hhldCnt": 619,
+    "jibunAddr": "경기도 양주시 옥정동 1098 양주옥정태영더파크포레아파트",
+    "builder": "태영건설",
+    "entrance": "계단식",
+    "useArea": "51506.38",
+    "bjdCode": "4163011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 619,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024956",
@@ -775,7 +1669,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 901
+    "hhldCnt": 901,
+    "jibunAddr": "경기도 양주시 옥정동 1099 양주옥정계룡더파크포레아파트",
+    "builder": "계룡건설",
+    "entrance": "계단식",
+    "useArea": "60831.27",
+    "bjdCode": "4163011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 522,
+      "u85": 379,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025028",
@@ -787,7 +1695,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 811
+    "hhldCnt": 811,
+    "jibunAddr": "경기도 양주시 옥정동 970 양주 옥정 세영리첼레이크파크",
+    "builder": "세영종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "65020.8517",
+    "bjdCode": "4163011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 28,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 811,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025608",
@@ -799,7 +1721,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 1566
+    "hhldCnt": 1566,
+    "jibunAddr": "경기도 양주시 옥정동 936 e편한세상 옥정 더퍼스트 아파트",
+    "builder": "대림산업주식회사",
+    "entrance": "계단식",
+    "useArea": "124609.8936",
+    "bjdCode": "4163011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1566,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025844",
@@ -811,7 +1747,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 947
+    "hhldCnt": 947,
+    "jibunAddr": "경기도 양주시 옥정동 1085 GS건설제이드웰NHF",
+    "builder": "GS건설",
+    "entrance": "계단식",
+    "useArea": "76225.11",
+    "bjdCode": "4163011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 947,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026014",
@@ -822,7 +1772,21 @@
     "emd": "옥정동",
     "sigunguCode": "41630",
     "sido": "경기도",
-    "sigungu": "여주시"
+    "sigungu": "여주시",
+    "jibunAddr": "경기도 양주시 옥정동 145-4 LH양주옥정3",
+    "builder": "남양건설(주)",
+    "entrance": "복도식",
+    "useArea": "41935.9",
+    "bjdCode": "4163011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 27,
+    "areaBreak": {
+      "u60": 1500,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026075",
@@ -834,7 +1798,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 514
+    "hhldCnt": 514,
+    "jibunAddr": "경기도 양주시 옥정동 1026 양주옥정 리젠시빌란트",
+    "builder": "(주)리젠시빌건설",
+    "entrance": "계단식",
+    "useArea": "28812.2988",
+    "bjdCode": "4163011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 27,
+    "areaBreak": {
+      "u60": 514,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026259",
@@ -846,7 +1824,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 1160
+    "hhldCnt": 1160,
+    "jibunAddr": "경기도 양주시 옥정동 1051 e편한세상 옥정 에듀써밋",
+    "builder": "대림산업",
+    "entrance": "계단식",
+    "useArea": "92352.7197",
+    "bjdCode": "4163011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1160,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026829",
@@ -858,7 +1850,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 761
+    "hhldCnt": 761,
+    "jibunAddr": "경기도 양주시 옥정동 958 e편한세상 옥정어반센트럴",
+    "builder": "대림건설",
+    "entrance": "계단식",
+    "useArea": "61727.2197",
+    "bjdCode": "4163011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 761,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026963",
@@ -870,7 +1876,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 1618
+    "hhldCnt": 1618,
+    "jibunAddr": "경기도 양주시 옥정동 1047 LH양주옥정16단지",
+    "builder": "대방건설(주)",
+    "entrance": "복도식",
+    "useArea": "52503.84",
+    "bjdCode": "4163011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 1618,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027239",
@@ -882,7 +1902,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 1862
+    "hhldCnt": 1862,
+    "jibunAddr": "경기도 양주시 옥정동 955 옥정 센트럴파크 푸르지오 아파트",
+    "builder": "대우건설(주)",
+    "entrance": "계단식",
+    "useArea": "109825.5148",
+    "bjdCode": "4163011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 1862,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48213001",
@@ -894,7 +1928,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 998
+    "hhldCnt": 998,
+    "jibunAddr": "경기도 양주시 옥정동 176 세창리베하우스",
+    "builder": "(주)세창",
+    "entrance": "계단식",
+    "useArea": "84816.2276",
+    "bjdCode": "4163011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 998,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48283901",
@@ -906,7 +1954,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 962
+    "hhldCnt": 962,
+    "jibunAddr": "경기도 양주시 옥정동 1046 양주 율정마을 13단지",
+    "builder": "KR산업",
+    "entrance": "계단식",
+    "useArea": "78760.68",
+    "bjdCode": "4163011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 27,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 962,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48283902",
@@ -918,7 +1980,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 1256
+    "hhldCnt": 1256,
+    "jibunAddr": "경기도 양주시 옥정동 1027 율정마을7단지",
+    "builder": "대보건설",
+    "entrance": "혼합식",
+    "useArea": "55693.06",
+    "bjdCode": "4163011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 1256,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024647",
@@ -930,7 +2006,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 280
+    "hhldCnt": 280,
+    "jibunAddr": "경기도 양주시 고암동 583-1 양주덕정행복아파트",
+    "builder": "(주)대창건설",
+    "entrance": "복도식",
+    "useArea": "8023.28",
+    "bjdCode": "4163011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 280,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48270804",
@@ -942,7 +2032,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 1935
+    "hhldCnt": 1935,
+    "jibunAddr": "경기도 양주시 고암동 121-2 양주덕정주공2단지",
+    "builder": "대한주택공사",
+    "entrance": "혼합식",
+    "useArea": "109447.77",
+    "bjdCode": "4163011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 1935,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48270805",
@@ -954,7 +2058,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 977
+    "hhldCnt": 977,
+    "jibunAddr": "경기도 양주시 고암동 580 양주덕정6단지",
+    "builder": "신도건설, 서광건설",
+    "entrance": "혼합식",
+    "useArea": "40609.09",
+    "bjdCode": "4163011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 977,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48270807",
@@ -966,7 +2084,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 550
+    "hhldCnt": 550,
+    "jibunAddr": "경기도 양주시 고암동 584 덕정주공8단지",
+    "builder": "신일",
+    "entrance": "계단식",
+    "useArea": "31070.6",
+    "bjdCode": "4163011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 550,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48270808",
@@ -977,7 +2109,21 @@
     "emd": "고암동",
     "sigunguCode": "41630",
     "sido": "경기도",
-    "sigungu": "여주시"
+    "sigungu": "여주시",
+    "jibunAddr": "경기도 양주시 고암동 582 덕정중흥S-클래스",
+    "builder": "중흥건설산업(주).중흥종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "38406.3344",
+    "bjdCode": "4163011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 264,
+      "o135": 50
+    }
   },
   {
     "code": "A48271203",
@@ -989,7 +2135,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 1305
+    "hhldCnt": 1305,
+    "jibunAddr": "경기도 양주시 고암동 122 덕정주공3단지",
+    "builder": "대동건설",
+    "entrance": "계단식",
+    "useArea": "95539.81",
+    "bjdCode": "4163011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 500,
+      "u85": 790,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48273901",
@@ -1001,7 +2161,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 608
+    "hhldCnt": 608,
+    "jibunAddr": "경기도 양주시 고암동 583 휴먼시아하늘빛마을",
+    "builder": "계룡건설",
+    "entrance": "계단식",
+    "useArea": "50345.42",
+    "bjdCode": "4163011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 608,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022547",
@@ -1012,7 +2186,21 @@
     "emd": "덕계동",
     "sigunguCode": "41630",
     "sido": "경기도",
-    "sigungu": "여주시"
+    "sigungu": "여주시",
+    "jibunAddr": "경기도 양주시 덕계동 0 회천트루엘시그니처",
+    "builder": "(주)일성건설",
+    "entrance": "계단식",
+    "useArea": "52058.89",
+    "bjdCode": "4163011600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 869,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022798",
@@ -1024,7 +2212,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 1304
+    "hhldCnt": 1304,
+    "jibunAddr": "경기도 양주시 덕계동 962 회천파밀리에더퍼스트",
+    "builder": "한국토지주택공사",
+    "entrance": "계단식",
+    "useArea": "107066.9",
+    "bjdCode": "4163011600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 28,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1304,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022911",
@@ -1036,7 +2238,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 995
+    "hhldCnt": 995,
+    "jibunAddr": "경기도 양주시 덕계동 905 회천베네스트하우스아파트",
+    "builder": "주식회사 동원건설",
+    "entrance": "계단식",
+    "useArea": "81282.43",
+    "bjdCode": "4163011600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 995,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023008",
@@ -1048,7 +2264,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 526
+    "hhldCnt": 526,
+    "jibunAddr": "경기도 양주시 덕계동 903 회천 대광로제비앙 더 센트럴",
+    "builder": "대광건설",
+    "entrance": "계단식",
+    "useArea": "43548.745",
+    "bjdCode": "4163011600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 526,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023240",
@@ -1060,7 +2290,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 424
+    "hhldCnt": 424,
+    "jibunAddr": "경기도 양주시 덕계동 937 대광로제비앙 더메트로팰리스",
+    "builder": "(주)대광이엔씨",
+    "entrance": "계단식",
+    "useArea": "38988.2108",
+    "bjdCode": "4163011600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 234,
+      "u135": 190,
+      "o135": 0
+    }
   },
   {
     "code": "A10023380",
@@ -1072,7 +2316,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 935
+    "hhldCnt": 935,
+    "jibunAddr": "경기도 양주시 덕계동 915 덕계역 금강펜테리움센트럴파크 아파트",
+    "builder": "(주)금강주택",
+    "entrance": "계단식",
+    "useArea": "55426.102",
+    "bjdCode": "4163011600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리(직영+위탁)",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 935,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023483",
@@ -1084,7 +2342,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 860
+    "hhldCnt": 860,
+    "jibunAddr": "경기도 양주시 덕계동 865 디에트르센트럴시티",
+    "builder": "(주)대방건설",
+    "entrance": "기타",
+    "useArea": "69552.5934",
+    "bjdCode": "4163011600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 37,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 860,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48205005",
@@ -1096,7 +2368,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 320
+    "hhldCnt": 320,
+    "jibunAddr": "경기도 양주시 덕계동 201 윤중",
+    "builder": "윤중",
+    "entrance": "계단식",
+    "useArea": "18865.2",
+    "bjdCode": "4163011600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 240,
+      "u85": 80,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48205007",
@@ -1108,7 +2394,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 408
+    "hhldCnt": 408,
+    "jibunAddr": "경기도 양주시 덕계동 424-1 양주금광2차포란재아파트",
+    "builder": "(주)금광건업",
+    "entrance": "계단식",
+    "useArea": "34639.404",
+    "bjdCode": "4163011600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 408,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48205008",
@@ -1120,7 +2420,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 415
+    "hhldCnt": 415,
+    "jibunAddr": "경기도 양주시 덕계동 856 현진에버빌2단지",
+    "builder": "현진건설(주)",
+    "entrance": "계단식",
+    "useArea": "37061.844",
+    "bjdCode": "4163011600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 361,
+      "u135": 54,
+      "o135": 0
+    }
   },
   {
     "code": "A48205009",
@@ -1132,7 +2446,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 418
+    "hhldCnt": 418,
+    "jibunAddr": "경기도 양주시 덕계동 855 양주현진에버빌1단지",
+    "builder": "(주)현진",
+    "entrance": "계단식",
+    "useArea": "37708.966",
+    "bjdCode": "4163011600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 363,
+      "u135": 55,
+      "o135": 0
+    }
   },
   {
     "code": "A48205011",
@@ -1144,7 +2472,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 501
+    "hhldCnt": 501,
+    "jibunAddr": "경기도 양주시 덕계동 646-1 양주금광1차아파트",
+    "builder": "(주)금광건업",
+    "entrance": "혼합식",
+    "useArea": "30208.6116",
+    "bjdCode": "4163011600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 348,
+      "u85": 150,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48270102",
@@ -1155,7 +2497,21 @@
     "emd": "덕계동",
     "sigunguCode": "41630",
     "sido": "경기도",
-    "sigungu": "여주시"
+    "sigungu": "여주시",
+    "jibunAddr": "경기도 양주시 덕계동 670 덕계금용1차",
+    "builder": "금용건설",
+    "entrance": "복도식",
+    "useArea": "11714.4",
+    "bjdCode": "4163011600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 131,
+      "u85": 57,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48270103",
@@ -1167,7 +2523,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 249
+    "hhldCnt": 249,
+    "jibunAddr": "경기도 양주시 덕계동 857 덕계신도브래뉴아파트",
+    "builder": "(주)신도종합건설",
+    "entrance": "계단식",
+    "useArea": "21216.588",
+    "bjdCode": "4163011600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 248,
+      "u135": 0,
+      "o135": 1
+    }
   },
   {
     "code": "A48270303",
@@ -1178,7 +2548,21 @@
     "emd": "덕계동",
     "sigunguCode": "41630",
     "sido": "경기도",
-    "sigungu": "여주시"
+    "sigungu": "여주시",
+    "jibunAddr": "경기도 양주시 덕계동 271-44 덕계삼희",
+    "builder": "(주)삼희산업",
+    "entrance": "복도식",
+    "useArea": "8436.4",
+    "bjdCode": "4163011600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 210,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48270410",
@@ -1190,7 +2574,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 491
+    "hhldCnt": 491,
+    "jibunAddr": "경기도 양주시 덕계동 417-1 양주덕계신우",
+    "builder": "신우종합건설주식회사",
+    "entrance": "혼합식",
+    "useArea": "35244.705",
+    "bjdCode": "4163011600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 197,
+      "u85": 294,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48270504",
@@ -1202,7 +2600,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 320
+    "hhldCnt": 320,
+    "jibunAddr": "경기도 양주시 덕계동 669 한주아파트",
+    "builder": "(주)한주종합건설",
+    "entrance": "혼합식",
+    "useArea": "22258.58",
+    "bjdCode": "4163011600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 198,
+      "u85": 102,
+      "u135": 20,
+      "o135": 0
+    }
   },
   {
     "code": "A48270606",
@@ -1214,7 +2626,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 118
+    "hhldCnt": 118,
+    "jibunAddr": "경기도 양주시 덕계동 203-6 양주현대아파트",
+    "builder": "고려산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "23944.156",
+    "bjdCode": "4163011600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 232,
+      "u85": 117,
+      "u135": 0,
+      "o135": 1
+    }
   },
   {
     "code": "A48271912",
@@ -1226,7 +2652,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 498
+    "hhldCnt": 498,
+    "jibunAddr": "경기도 양주시 덕계동 852 양주푸르지오",
+    "builder": "KS건설",
+    "entrance": "계단식",
+    "useArea": "44622.6846",
+    "bjdCode": "4163011600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 438,
+      "u135": 60,
+      "o135": 0
+    }
   },
   {
     "code": "A48273713",
@@ -1238,7 +2678,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 356
+    "hhldCnt": 356,
+    "jibunAddr": "경기도 양주시 덕계동 853 범양마더빌",
+    "builder": "범양",
+    "entrance": "계단식",
+    "useArea": "43181.5684",
+    "bjdCode": "4163011600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 495,
+      "u135": 13,
+      "o135": 0
+    }
   },
   {
     "code": "A10022665",
@@ -1249,7 +2703,21 @@
     "emd": "회정동",
     "sigunguCode": "41630",
     "sido": "경기도",
-    "sigungu": "여주시"
+    "sigungu": "여주시",
+    "jibunAddr": "경기도 양주시 회정동  양주회천 10단지",
+    "builder": "한일건설주식회사",
+    "entrance": "복도식",
+    "useArea": "19353.96",
+    "bjdCode": "4163011700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 28,
+    "areaBreak": {
+      "u60": 680,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022901",
@@ -1261,7 +2729,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 629
+    "hhldCnt": 629,
+    "jibunAddr": "경기도 양주시 회정동 911 이편한세상덕정역더스카이",
+    "builder": "DL건설(주)",
+    "entrance": "계단식",
+    "useArea": "45066.153",
+    "bjdCode": "4163011700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 41,
+    "areaBreak": {
+      "u60": 238,
+      "u85": 391,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48217001",
@@ -1272,7 +2754,21 @@
     "emd": "회정동",
     "sigunguCode": "41630",
     "sido": "경기도",
-    "sigungu": "여주시"
+    "sigungu": "여주시",
+    "jibunAddr": "경기도 양주시 회정동 866 회정금용",
+    "builder": "금용건설",
+    "entrance": "혼합식",
+    "useArea": "14005.01",
+    "bjdCode": "4163011700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 184,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48217002",
@@ -1284,7 +2780,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 884
+    "hhldCnt": 884,
+    "jibunAddr": "경기도 양주시 회정동 369 회정범양",
+    "builder": "범양건영(주)",
+    "entrance": "혼합식",
+    "useArea": "72929.11",
+    "bjdCode": "4163011700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 884,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48283301",
@@ -1296,7 +2806,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 156
+    "hhldCnt": 156,
+    "jibunAddr": "경기도 양주시 백석읍 방성리 162-4 백석세아2차",
+    "builder": "세아건설",
+    "entrance": "복도식",
+    "useArea": "9144.72",
+    "bjdCode": "4163025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 156,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48283309",
@@ -1308,7 +2832,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 76
+    "hhldCnt": 76,
+    "jibunAddr": "경기도 양주시 백석읍 방성리 511-2 대교산과내",
+    "builder": "대교건설",
+    "entrance": "계단식",
+    "useArea": "26683.92",
+    "bjdCode": "4163025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 152,
+      "u85": 207,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48293902",
@@ -1320,7 +2858,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 324
+    "hhldCnt": 324,
+    "jibunAddr": "경기도 양주시 백석읍 방성리 888 양주백석1단지",
+    "builder": "인본건설(주)",
+    "entrance": "복도식",
+    "useArea": "13104.6",
+    "bjdCode": "4163025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 324,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48283506",
@@ -1332,7 +2884,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 282
+    "hhldCnt": 282,
+    "jibunAddr": "경기도 양주시 백석읍 오산리 107-1 백석세아1차",
+    "builder": "(주)세아",
+    "entrance": "복도식",
+    "useArea": "20470.69",
+    "bjdCode": "4163025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 118,
+      "u85": 164,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48283514",
@@ -1344,7 +2910,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 95
+    "hhldCnt": 95,
+    "jibunAddr": "경기도 양주시 백석읍 오산리 296 백석한승아파트",
+    "builder": "한승",
+    "entrance": "계단식",
+    "useArea": "42345.14",
+    "bjdCode": "4163025022",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 499,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021211",
@@ -1356,7 +2936,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 210
+    "hhldCnt": 210,
+    "jibunAddr": "경기도 양주시 백석읍 복지리 94- 백석가야1차아파트",
+    "builder": "대호종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "12288.6",
+    "bjdCode": "4163025023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 210,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48283103",
@@ -1368,7 +2962,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 203
+    "hhldCnt": 203,
+    "jibunAddr": "경기도 양주시 백석읍 복지리 41-1 백석가야3차",
+    "builder": "(주)가야종합건설",
+    "entrance": "계단식",
+    "useArea": "13673.31",
+    "bjdCode": "4163025023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 144,
+      "u85": 59,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48283105",
@@ -1380,7 +2988,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 227
+    "hhldCnt": 227,
+    "jibunAddr": "경기도 양주시 백석읍 복지리 292 동화3차옥시죤아파트",
+    "builder": "동화종합건설",
+    "entrance": "계단식",
+    "useArea": "17389.974",
+    "bjdCode": "4163025023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 90,
+      "u85": 118,
+      "u135": 15,
+      "o135": 0
+    }
   },
   {
     "code": "A48283107",
@@ -1392,7 +3014,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 289
+    "hhldCnt": 289,
+    "jibunAddr": "경기도 양주시 백석읍 복지리 93-3 양주가야2차아파트",
+    "builder": "가야종합건설(주)",
+    "entrance": "복도식",
+    "useArea": "17331.33",
+    "bjdCode": "4163025023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 289,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48283108",
@@ -1404,7 +3040,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 308
+    "hhldCnt": 308,
+    "jibunAddr": "경기도 양주시 백석읍 복지리 99-2 샘터마을태영",
+    "builder": "태영건설",
+    "entrance": "계단식",
+    "useArea": "23072.24",
+    "bjdCode": "4163025023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 90,
+      "u85": 208,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48283111",
@@ -1416,7 +3066,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 443
+    "hhldCnt": 443,
+    "jibunAddr": "경기도 양주시 백석읍 복지리 290 동화1차장미",
+    "builder": "동화종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "37367.33",
+    "bjdCode": "4163025023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 144,
+      "u85": 210,
+      "u135": 89,
+      "o135": 0
+    }
   },
   {
     "code": "A48283113",
@@ -1428,7 +3092,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 497
+    "hhldCnt": 497,
+    "jibunAddr": "경기도 양주시 백석읍 복지리 80 백석가야5차",
+    "builder": "가야건설",
+    "entrance": "계단식",
+    "useArea": "43911.6748",
+    "bjdCode": "4163025023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 437,
+      "u135": 60,
+      "o135": 0
+    }
   },
   {
     "code": "A48283115",
@@ -1440,7 +3118,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 572
+    "hhldCnt": 572,
+    "jibunAddr": "경기도 양주시 백석읍 복지리 322-4 양주동화2차초록",
+    "builder": "동화건설(주)",
+    "entrance": "계단식",
+    "useArea": "52975.81",
+    "bjdCode": "4163025023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 160,
+      "u85": 189,
+      "u135": 223,
+      "o135": 0
+    }
   },
   {
     "code": "A48283112",
@@ -1452,7 +3144,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 492
+    "hhldCnt": 492,
+    "jibunAddr": "경기도 양주시 백석읍 가업리 605 서광아침의빛아파트",
+    "builder": "서광건설",
+    "entrance": "계단식",
+    "useArea": "38227.0944",
+    "bjdCode": "4163025024",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 492,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48283116",
@@ -1464,7 +3170,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 644
+    "hhldCnt": 644,
+    "jibunAddr": "경기도 양주시 백석읍 가업리 99-1 세아청솔",
+    "builder": "(주)세아",
+    "entrance": "혼합식",
+    "useArea": "37859.61",
+    "bjdCode": "4163025024",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 499,
+      "u85": 120,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48293810",
@@ -1476,7 +3196,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 439
+    "hhldCnt": 439,
+    "jibunAddr": "경기도 양주시 백석읍 가업리 103-1 동화5차",
+    "builder": "동화건설(주)",
+    "entrance": "계단식",
+    "useArea": "31432.51227",
+    "bjdCode": "4163025024",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 231,
+      "u85": 208,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022420",
@@ -1488,7 +3222,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 570
+    "hhldCnt": 570,
+    "jibunAddr": "경기도 양주시 백석읍 홍죽리 964- 신양주모아엘가니케 아파트",
+    "builder": "혜림건설(주), 거성토건(주)",
+    "entrance": "계단식",
+    "useArea": "43288.546",
+    "bjdCode": "4163025025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 168,
+      "u85": 402,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026955",
@@ -1500,7 +3248,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 499
+    "hhldCnt": 499,
+    "jibunAddr": "경기도 양주시 광적면 가납리 905 양주 벨라시티아파트",
+    "builder": "SG건설",
+    "entrance": "계단식",
+    "useArea": "31971.5043",
+    "bjdCode": "4163033021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 363,
+      "u85": 136,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48294203",
@@ -1512,7 +3274,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 444
+    "hhldCnt": 444,
+    "jibunAddr": "경기도 양주시 광적면 가납리 840 양주성우헤스티아",
+    "builder": "(주)성우산업개발",
+    "entrance": "계단식",
+    "useArea": "27547.506",
+    "bjdCode": "4163033021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 350,
+      "u85": 94,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48284102",
@@ -1524,7 +3300,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 436
+    "hhldCnt": 436,
+    "jibunAddr": "경기도 양주시 광적면 광석리 1-1 희망아파트",
+    "builder": "보성개발",
+    "entrance": "혼합식",
+    "useArea": "27654.96",
+    "bjdCode": "4163033022",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 320,
+      "u85": 116,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48284401",
@@ -1536,7 +3326,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 390
+    "hhldCnt": 390,
+    "jibunAddr": "경기도 양주시 광적면 석우리 708-1 양주가납주공아파트",
+    "builder": "양우건설",
+    "entrance": "복도식",
+    "useArea": "16305.21",
+    "bjdCode": "4163033027",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 8,
+    "areaBreak": {
+      "u60": 390,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022167",
@@ -1548,7 +3352,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 140
+    "hhldCnt": 140,
+    "jibunAddr": "경기도 양주시 장흥면 부곡리 632-6 송추우리마을아파트",
+    "builder": "우리건설",
+    "entrance": "계단식",
+    "useArea": "7743.3",
+    "bjdCode": "4163034023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 140,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023381",
@@ -1560,7 +3378,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 604
+    "hhldCnt": 604,
+    "jibunAddr": "경기도 양주시 장흥면 부곡리 647 송추역북한산경남아너스빌",
+    "builder": "(주)티케이케미칼",
+    "entrance": "계단식",
+    "useArea": "40193.6744",
+    "bjdCode": "4163034023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 604,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48281201",
@@ -1572,7 +3404,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 241
+    "hhldCnt": 241,
+    "jibunAddr": "경기도 양주시 장흥면 부곡리 579 양주송추푸른마을",
+    "builder": "푸른건설",
+    "entrance": "계단식",
+    "useArea": "25121.9468",
+    "bjdCode": "4163034023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 136,
+      "u135": 105,
+      "o135": 0
+    }
   },
   {
     "code": "A48291203",
@@ -1584,7 +3430,21 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 395
+    "hhldCnt": 395,
+    "jibunAddr": "경기도 양주시 장흥면 부곡리 491 우남송추마을아파트",
+    "builder": "(주)우남건설",
+    "entrance": "계단식",
+    "useArea": "33565.362",
+    "bjdCode": "4163034023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 395,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48281202",
@@ -1596,6 +3456,20 @@
     "sigunguCode": "41630",
     "sido": "경기도",
     "sigungu": "여주시",
-    "hhldCnt": 262
+    "hhldCnt": 262,
+    "jibunAddr": "경기도 양주시 장흥면 일영리 27-1 양주푸른옥마을",
+    "builder": "푸른건설",
+    "entrance": "계단식",
+    "useArea": "27463.48",
+    "bjdCode": "4163034025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 142,
+      "u135": 120,
+      "o135": 0
+    }
   }
 ]

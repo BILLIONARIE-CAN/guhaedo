@@ -8,6 +8,20 @@
     "emd": "영덕읍",
     "sigunguCode": "47770",
     "sido": "경상북도",
-    "sigungu": "고령군"
+    "sigungu": "고령군",
+    "jibunAddr": "경상북도 영덕군 영덕읍 우곡리 522 영덕우진센트럴하임",
+    "builder": "우진건설(주)",
+    "entrance": "계단식",
+    "useArea": "20750.9638",
+    "bjdCode": "4777025027",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 242,
+      "u135": 8,
+      "o135": 0
+    }
   }
 ]

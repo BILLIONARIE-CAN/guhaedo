@@ -8,7 +8,21 @@
     "emd": "평창읍",
     "sigunguCode": "51760",
     "sido": "강원특별자치도",
-    "sigungu": "평창군"
+    "sigungu": "평창군",
+    "jibunAddr": "강원특별자치도 평창군 평창읍 하리 445- 평창스위트엠웰라움아파트",
+    "builder": "대상건설",
+    "entrance": "계단식",
+    "useArea": "16097.9792",
+    "bjdCode": "5176025023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021699",
@@ -19,7 +33,21 @@
     "emd": "평창읍",
     "sigunguCode": "51760",
     "sido": "강원특별자치도",
-    "sigungu": "평창군"
+    "sigungu": "평창군",
+    "jibunAddr": "강원특별자치도 평창군 평창읍 종부리 576-1 녹주한아름아파트",
+    "builder": "해람종합건설(주)",
+    "entrance": "복도식",
+    "useArea": "5225.4",
+    "bjdCode": "5176025025",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 100,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022879",
@@ -30,7 +58,21 @@
     "emd": "평창읍",
     "sigunguCode": "51760",
     "sido": "강원특별자치도",
-    "sigungu": "평창군"
+    "sigungu": "평창군",
+    "jibunAddr": "강원특별자치도 평창군 평창읍 종부리 1153 평창종부 고령자복지주택(햇살마을)",
+    "builder": "서원건설주식회사",
+    "entrance": "복도식",
+    "useArea": "3595.12",
+    "bjdCode": "5176025025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 116,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020381",
@@ -41,7 +83,21 @@
     "emd": "봉평면",
     "sigunguCode": "51760",
     "sido": "강원특별자치도",
-    "sigungu": "평창군"
+    "sigungu": "평창군",
+    "jibunAddr": "강원특별자치도 평창군 봉평면 무이리 1182- 평창엘리엇아파트",
+    "builder": "에이치아이건설(주)",
+    "entrance": "계단식",
+    "useArea": "8934",
+    "bjdCode": "5176034026",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 8,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022024",
@@ -52,7 +108,21 @@
     "emd": "봉평면",
     "sigunguCode": "51760",
     "sido": "강원특별자치도",
-    "sigungu": "평창군"
+    "sigungu": "평창군",
+    "jibunAddr": "강원특별자치도 평창군 봉평면 무이리 709- 해피밸리",
+    "builder": "(주) 조강종합건설",
+    "entrance": "복도식",
+    "useArea": "4755.344",
+    "bjdCode": "5176034026",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 120,
+      "u85": 5,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A23292301",
@@ -63,7 +133,21 @@
     "emd": "봉평면",
     "sigunguCode": "51760",
     "sido": "강원특별자치도",
-    "sigungu": "평창군"
+    "sigungu": "평창군",
+    "jibunAddr": "강원특별자치도 평창군 봉평면 무이리 829 평창코업스위트하우스",
+    "builder": "대성산업주식회사",
+    "entrance": "복도식",
+    "useArea": "5174.05",
+    "bjdCode": "5176034026",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 8,
+    "areaBreak": {
+      "u60": 160,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A23292302",
@@ -74,7 +158,21 @@
     "emd": "봉평면",
     "sigunguCode": "51760",
     "sido": "강원특별자치도",
-    "sigungu": "평창군"
+    "sigungu": "평창군",
+    "jibunAddr": "강원특별자치도 평창군 봉평면 무이리 691-45 장웅파인힐아파트",
+    "builder": "장웅종합건설(주)",
+    "entrance": "복도식",
+    "useArea": "9262.4",
+    "bjdCode": "5176034026",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 225,
+      "u85": 0,
+      "u135": 0,
+      "o135": 2
+    }
   },
   {
     "code": "A10023022",
@@ -85,7 +183,21 @@
     "emd": "진부면",
     "sigunguCode": "51760",
     "sido": "강원특별자치도",
-    "sigungu": "평창군"
+    "sigungu": "평창군",
+    "jibunAddr": "강원특별자치도 평창군 진부면 하진부리 1312 평창진부웰라움더퍼스트",
+    "builder": "대상건설",
+    "entrance": "계단식",
+    "useArea": "24308.7266",
+    "bjdCode": "5176036021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 217,
+      "u135": 48,
+      "o135": 0
+    }
   },
   {
     "code": "A23294101",
@@ -96,7 +208,21 @@
     "emd": "진부면",
     "sigunguCode": "51760",
     "sido": "강원특별자치도",
-    "sigungu": "평창군"
+    "sigungu": "평창군",
+    "jibunAddr": "강원특별자치도 평창군 진부면 하진부리 115 평창하진부주공",
+    "builder": "국제건설",
+    "entrance": "복도식",
+    "useArea": "12283.42",
+    "bjdCode": "5176036021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 239,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A23294901",
@@ -107,7 +233,21 @@
     "emd": "진부면",
     "sigunguCode": "51760",
     "sido": "강원특별자치도",
-    "sigungu": "평창군"
+    "sigungu": "평창군",
+    "jibunAddr": "강원특별자치도 평창군 진부면 하진부리 166-3 시대진부아파트",
+    "builder": "이랜드",
+    "entrance": "복도식",
+    "useArea": "11311.3935",
+    "bjdCode": "5176036021",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 81,
+      "u85": 109,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A23294602",
@@ -118,7 +258,21 @@
     "emd": "진부면",
     "sigunguCode": "51760",
     "sido": "강원특별자치도",
-    "sigungu": "평창군"
+    "sigungu": "평창군",
+    "jibunAddr": "강원특별자치도 평창군 진부면 송정리 2537 진부석미산내들아파트",
+    "builder": "석미건설(주)",
+    "entrance": "복도식",
+    "useArea": "12096.9",
+    "bjdCode": "5176036023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 220,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A23294604",
@@ -129,7 +283,21 @@
     "emd": "진부면",
     "sigunguCode": "51760",
     "sido": "강원특별자치도",
-    "sigungu": "평창군"
+    "sigungu": "평창군",
+    "jibunAddr": "강원특별자치도 평창군 진부면 송정리 2538 평창성원아파트",
+    "builder": "(주)성원",
+    "entrance": "복도식",
+    "useArea": "24169.95",
+    "bjdCode": "5176036023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 630,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A23295204",
@@ -140,7 +308,21 @@
     "emd": "대관령면",
     "sigunguCode": "51760",
     "sido": "강원특별자치도",
-    "sigungu": "평창군"
+    "sigungu": "평창군",
+    "jibunAddr": "강원특별자치도 평창군 대관령면 차항리 6-2 유덕휴먼빌리지",
+    "builder": "유덕건설",
+    "entrance": "복도식",
+    "useArea": "16341.0545",
+    "bjdCode": "5176038023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 298,
+      "u85": 1,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022678",
@@ -151,7 +333,21 @@
     "emd": "대관령면",
     "sigunguCode": "51760",
     "sido": "강원특별자치도",
-    "sigungu": "평창군"
+    "sigungu": "평창군",
+    "jibunAddr": "강원특별자치도 평창군 대관령면 횡계리 730 더 리치먼드 평창",
+    "builder": "태원건설산업(주)",
+    "entrance": "계단식",
+    "useArea": "22115.34",
+    "bjdCode": "5176038024",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 270,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024866",
@@ -162,7 +358,21 @@
     "emd": "대관령면",
     "sigunguCode": "51760",
     "sido": "강원특별자치도",
-    "sigungu": "평창군"
+    "sigungu": "평창군",
+    "jibunAddr": "강원특별자치도 평창군 대관령면 횡계리 366-8 강산타운아파트",
+    "builder": "강산건설주식회사",
+    "entrance": "복도식",
+    "useArea": "6668.26",
+    "bjdCode": "5176038024",
+    "aptType": "아파트",
+    "mgrType": "위탁관리(직영+위탁)",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 34,
+      "u85": 44,
+      "u135": 4,
+      "o135": 4
+    }
   },
   {
     "code": "A23295003",
@@ -173,7 +383,21 @@
     "emd": "대관령면",
     "sigunguCode": "51760",
     "sido": "강원특별자치도",
-    "sigungu": "평창군"
+    "sigungu": "평창군",
+    "jibunAddr": "강원특별자치도 평창군 대관령면 횡계리 283 알펜로제",
+    "builder": "SR건설",
+    "entrance": "계단식",
+    "useArea": "16699.015",
+    "bjdCode": "5176038024",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 264,
+      "u85": 22,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A23295401",
@@ -184,7 +408,21 @@
     "emd": "대관령면",
     "sigunguCode": "51760",
     "sido": "강원특별자치도",
-    "sigungu": "평창군"
+    "sigungu": "평창군",
+    "jibunAddr": "강원특별자치도 평창군 대관령면 횡계리 304-6 횡계힐탑",
+    "builder": "(주)황성주택",
+    "entrance": "복도식",
+    "useArea": "10132.62",
+    "bjdCode": "5176038024",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 170,
+      "u85": 15,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A23295505",
@@ -195,7 +433,21 @@
     "emd": "대관령면",
     "sigunguCode": "51760",
     "sido": "강원특별자치도",
-    "sigungu": "평창군"
+    "sigungu": "평창군",
+    "jibunAddr": "강원특별자치도 평창군 대관령면 횡계리 286-4 횡계동보",
+    "builder": "동보건설",
+    "entrance": "복도식",
+    "useArea": "27120.06",
+    "bjdCode": "5176038024",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 900,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026063",
@@ -206,6 +458,20 @@
     "emd": "대관령면",
     "sigunguCode": "51760",
     "sido": "강원특별자치도",
-    "sigungu": "평창군"
+    "sigungu": "평창군",
+    "jibunAddr": "강원특별자치도 평창군 대관령면 수하리 500 평창올림픽선수촌아파트",
+    "builder": "대림산업 주식회사",
+    "entrance": "계단식",
+    "useArea": "45395.79",
+    "bjdCode": "5176038025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 90,
+      "u85": 510,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

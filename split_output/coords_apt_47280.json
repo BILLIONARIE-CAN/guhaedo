@@ -8,7 +8,21 @@
     "emd": "흥덕동",
     "sigunguCode": "47280",
     "sido": "경상북도",
-    "sigungu": "문경시"
+    "sigungu": "문경시",
+    "jibunAddr": "경상북도 문경시 흥덕동 330- 흥덕주공아파트",
+    "builder": "LH",
+    "entrance": "계단식",
+    "useArea": "8079.6",
+    "bjdCode": "4728010300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 200,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022119",
@@ -19,7 +33,21 @@
     "emd": "흥덕동",
     "sigunguCode": "47280",
     "sido": "경상북도",
-    "sigungu": "문경시"
+    "sigungu": "문경시",
+    "jibunAddr": "경상북도 문경시 흥덕동 577- 시영아파트",
+    "builder": "(주)갑을",
+    "entrance": "계단식",
+    "useArea": "10100.5",
+    "bjdCode": "4728010300",
+    "aptType": "아파트",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 180,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022169",
@@ -30,7 +58,20 @@
     "emd": "흥덕동",
     "sigunguCode": "47280",
     "sido": "경상북도",
-    "sigungu": "문경시"
+    "sigungu": "문경시",
+    "jibunAddr": "경상북도 문경시 흥덕동 796- 창신그린연립주택",
+    "builder": "주식회사  창신",
+    "entrance": "계단식",
+    "useArea": "6669.54",
+    "bjdCode": "4728010300",
+    "mgrType": "자치관리",
+    "topFloor": 3,
+    "areaBreak": {
+      "u60": 135,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022211",
@@ -41,7 +82,21 @@
     "emd": "흥덕동",
     "sigunguCode": "47280",
     "sido": "경상북도",
-    "sigungu": "문경시"
+    "sigungu": "문경시",
+    "jibunAddr": "경상북도 문경시 흥덕동 776- 황제맨션",
+    "builder": "(주)에덴주택",
+    "entrance": "계단식",
+    "useArea": "16611.75",
+    "bjdCode": "4728010300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 198,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022737",
@@ -52,7 +107,19 @@
     "emd": "흥덕동",
     "sigunguCode": "47280",
     "sido": "경상북도",
-    "sigungu": "문경시"
+    "sigungu": "문경시",
+    "jibunAddr": "경상북도 문경시 흥덕동 0 e편한세상상무아파트",
+    "builder": "대림산업,한화건설,삼성엔지니어링",
+    "entrance": "계단식",
+    "useArea": "6756",
+    "bjdCode": "4728010300",
+    "mgrType": "위탁관리",
+    "areaBreak": {
+      "u60": 0,
+      "u85": 83,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023848",
@@ -63,7 +130,21 @@
     "emd": "흥덕동",
     "sigunguCode": "47280",
     "sido": "경상북도",
-    "sigungu": "문경시"
+    "sigungu": "문경시",
+    "jibunAddr": "경상북도 문경시 흥덕동 828 흥덕천년나무아파트",
+    "builder": "대영종합건설",
+    "entrance": "복도식",
+    "useArea": "6360.58",
+    "bjdCode": "4728010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 200,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A74588901",
@@ -74,7 +155,21 @@
     "emd": "흥덕동",
     "sigunguCode": "47280",
     "sido": "경상북도",
-    "sigungu": "문경시"
+    "sigungu": "문경시",
+    "jibunAddr": "경상북도 문경시 흥덕동 337-21 주은우방",
+    "builder": "주은건설 우방(주)",
+    "entrance": "계단식",
+    "useArea": "19176.9",
+    "bjdCode": "4728010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 210,
+      "u135": 30,
+      "o135": 0
+    }
   },
   {
     "code": "A74588902",
@@ -85,7 +180,21 @@
     "emd": "흥덕동",
     "sigunguCode": "47280",
     "sido": "경상북도",
-    "sigungu": "문경시"
+    "sigungu": "문경시",
+    "jibunAddr": "경상북도 문경시 흥덕동 631-1 푸른숲",
+    "builder": "(주)에이블",
+    "entrance": "복도식",
+    "useArea": "21994.23",
+    "bjdCode": "4728010300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 421,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020493",
@@ -97,7 +206,21 @@
     "sigunguCode": "47280",
     "sido": "경상북도",
     "sigungu": "문경시",
-    "hhldCnt": 48
+    "hhldCnt": 48,
+    "jibunAddr": "경상북도 문경시 모전동 577-1 성덕하이빌2차(모전동)",
+    "builder": "성덕주택",
+    "entrance": "계단식",
+    "useArea": "4077.8448",
+    "bjdCode": "4728011000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022187",
@@ -108,7 +231,21 @@
     "emd": "모전동",
     "sigunguCode": "47280",
     "sido": "경상북도",
-    "sigungu": "문경시"
+    "sigungu": "문경시",
+    "jibunAddr": "경상북도 문경시 모전동 870- 모전주공아파트 101,102.",
+    "builder": "신태진건설",
+    "entrance": "복도식",
+    "useArea": "6999.9",
+    "bjdCode": "4728011000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 118,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023394",
@@ -119,7 +256,21 @@
     "emd": "모전동",
     "sigunguCode": "47280",
     "sido": "경상북도",
-    "sigungu": "문경시"
+    "sigungu": "문경시",
+    "jibunAddr": "경상북도 문경시 모전동 862-2 문경코아루노블36",
+    "builder": "새천년건설",
+    "entrance": "계단식",
+    "useArea": "13933.06",
+    "bjdCode": "4728011000",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 35,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 150,
+      "u135": 14,
+      "o135": 2
+    }
   },
   {
     "code": "A10025202",
@@ -130,7 +281,21 @@
     "emd": "모전동",
     "sigunguCode": "47280",
     "sido": "경상북도",
-    "sigungu": "문경시"
+    "sigungu": "문경시",
+    "jibunAddr": "경상북도 문경시 모전동 948 문경점촌코아루아파트",
+    "builder": "파인건설",
+    "entrance": "계단식",
+    "useArea": "12828.8006",
+    "bjdCode": "4728011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 154,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A74570301",
@@ -141,7 +306,21 @@
     "emd": "모전동",
     "sigunguCode": "47280",
     "sido": "경상북도",
-    "sigungu": "문경시"
+    "sigungu": "문경시",
+    "jibunAddr": "경상북도 문경시 모전동 793 문경코아루아파트",
+    "builder": "(주)인터불고건설",
+    "entrance": "계단식",
+    "useArea": "36873.808",
+    "bjdCode": "4728011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 450,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A74588201",
@@ -152,7 +331,21 @@
     "emd": "모전동",
     "sigunguCode": "47280",
     "sido": "경상북도",
-    "sigungu": "문경시"
+    "sigungu": "문경시",
+    "jibunAddr": "경상북도 문경시 모전동 264-1 모전현대아파트",
+    "builder": "현대산업개발",
+    "entrance": "혼합식",
+    "useArea": "17319.75",
+    "bjdCode": "4728011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 120,
+      "u85": 120,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A74588302",
@@ -163,7 +356,21 @@
     "emd": "모전동",
     "sigunguCode": "47280",
     "sido": "경상북도",
-    "sigungu": "문경시"
+    "sigungu": "문경시",
+    "jibunAddr": "경상북도 문경시 모전동 660 대원양지마을",
+    "builder": "대원주택건설",
+    "entrance": "계단식",
+    "useArea": "18673.1635",
+    "bjdCode": "4728011000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 119,
+      "u85": 136,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A74588303",
@@ -174,7 +381,21 @@
     "emd": "모전동",
     "sigunguCode": "47280",
     "sido": "경상북도",
-    "sigungu": "문경시"
+    "sigungu": "문경시",
+    "jibunAddr": "경상북도 문경시 모전동 868 영풍마드레빌",
+    "builder": "(주)화송건설",
+    "entrance": "계단식",
+    "useArea": "23565.4164",
+    "bjdCode": "4728011000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 119,
+      "u85": 150,
+      "u135": 30,
+      "o135": 0
+    }
   },
   {
     "code": "A74588304",
@@ -185,7 +406,21 @@
     "emd": "모전동",
     "sigunguCode": "47280",
     "sido": "경상북도",
-    "sigungu": "문경시"
+    "sigungu": "문경시",
+    "jibunAddr": "경상북도 문경시 모전동 949 신원아침도시아파트",
+    "builder": "신원종합개발",
+    "entrance": "계단식",
+    "useArea": "32367.5656",
+    "bjdCode": "4728011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 265,
+      "u135": 74,
+      "o135": 4
+    }
   },
   {
     "code": "A74588305",
@@ -196,7 +431,21 @@
     "emd": "모전동",
     "sigunguCode": "47280",
     "sido": "경상북도",
-    "sigungu": "문경시"
+    "sigungu": "문경시",
+    "jibunAddr": "경상북도 문경시 모전동 869 문경대동타운",
+    "builder": "대동건설(주)",
+    "entrance": "계단식",
+    "useArea": "34006.28",
+    "bjdCode": "4728011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 224,
+      "u85": 252,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A74588306",
@@ -207,7 +456,21 @@
     "emd": "모전동",
     "sigunguCode": "47280",
     "sido": "경상북도",
-    "sigungu": "문경시"
+    "sigungu": "문경시",
+    "jibunAddr": "경상북도 문경시 모전동 908 매봉마을1단지",
+    "builder": "현대산업개발",
+    "entrance": "혼합식",
+    "useArea": "29072.92",
+    "bjdCode": "4728011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 500,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A74588307",
@@ -218,7 +481,21 @@
     "emd": "모전동",
     "sigunguCode": "47280",
     "sido": "경상북도",
-    "sigungu": "문경시"
+    "sigungu": "문경시",
+    "jibunAddr": "경상북도 문경시 모전동 870 문경모전2",
+    "builder": "신태진건설",
+    "entrance": "복도식",
+    "useArea": "11414.61",
+    "bjdCode": "4728011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 388,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A74588308",
@@ -229,7 +506,21 @@
     "emd": "모전동",
     "sigunguCode": "47280",
     "sido": "경상북도",
-    "sigungu": "문경시"
+    "sigungu": "문경시",
+    "jibunAddr": "경상북도 문경시 모전동 908 문경매봉2",
+    "builder": "(주)흥산건설",
+    "entrance": "복도식",
+    "useArea": "21378.6",
+    "bjdCode": "4728011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 428,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022925",
@@ -240,6 +531,20 @@
     "emd": "문경읍",
     "sigunguCode": "47280",
     "sido": "경상북도",
-    "sigungu": "문경시"
+    "sigungu": "문경시",
+    "jibunAddr": "경상북도 문경시 문경읍 하리 346 지엘리베라움더퍼스트",
+    "builder": "지엘건설(주)",
+    "entrance": "계단식",
+    "useArea": "9856.9608",
+    "bjdCode": "4728025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 116,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

@@ -8,7 +8,21 @@
     "emd": "홍천읍",
     "sigunguCode": "51720",
     "sido": "강원특별자치도",
-    "sigungu": "홍천군"
+    "sigungu": "홍천군",
+    "jibunAddr": "강원특별자치도 홍천군 홍천읍 희망리 61-6 홍천금호어울림더퍼스트",
+    "builder": "금호건설",
+    "entrance": "계단식",
+    "useArea": "48666.7026",
+    "bjdCode": "5172025023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 43,
+      "u85": 460,
+      "u135": 77,
+      "o135": 0
+    }
   },
   {
     "code": "A25080001",
@@ -19,7 +33,21 @@
     "emd": "홍천읍",
     "sigunguCode": "51720",
     "sido": "강원특별자치도",
-    "sigungu": "홍천군"
+    "sigungu": "홍천군",
+    "jibunAddr": "강원특별자치도 홍천군 홍천읍 희망리 43-1 홍천 미진1차",
+    "builder": "미진건설",
+    "entrance": "복도식",
+    "useArea": "12615.09",
+    "bjdCode": "5172025023",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 158,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A25080903",
@@ -30,7 +58,21 @@
     "emd": "홍천읍",
     "sigunguCode": "51720",
     "sido": "강원특별자치도",
-    "sigungu": "홍천군"
+    "sigungu": "홍천군",
+    "jibunAddr": "강원특별자치도 홍천군 홍천읍 희망리 261-3 미진동백",
+    "builder": "주식회사 미진건설",
+    "entrance": "복도식",
+    "useArea": "16962.08",
+    "bjdCode": "5172025023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 184,
+      "u85": 57,
+      "u135": 11,
+      "o135": 0
+    }
   },
   {
     "code": "A25092102",
@@ -41,7 +83,21 @@
     "emd": "홍천읍",
     "sigunguCode": "51720",
     "sido": "강원특별자치도",
-    "sigungu": "홍천군"
+    "sigungu": "홍천군",
+    "jibunAddr": "강원특별자치도 홍천군 홍천읍 희망리 424 홍천신아1차",
+    "builder": "신아건설",
+    "entrance": "복도식",
+    "useArea": "11172.63",
+    "bjdCode": "5172025023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 287,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A25092103",
@@ -52,7 +108,21 @@
     "emd": "홍천읍",
     "sigunguCode": "51720",
     "sido": "강원특별자치도",
-    "sigungu": "홍천군"
+    "sigungu": "홍천군",
+    "jibunAddr": "강원특별자치도 홍천군 홍천읍 희망리 425 홍천신아2차아파트",
+    "builder": "(주)신아",
+    "entrance": "복도식",
+    "useArea": "9877.1",
+    "bjdCode": "5172025023",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 190,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A25092104",
@@ -63,7 +133,21 @@
     "emd": "홍천읍",
     "sigunguCode": "51720",
     "sido": "강원특별자치도",
-    "sigungu": "홍천군"
+    "sigungu": "홍천군",
+    "jibunAddr": "강원특별자치도 홍천군 홍천읍 희망리 369 안정스위트타워",
+    "builder": "스페이스대건종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "6340.785",
+    "bjdCode": "5172025023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 1,
+      "u85": 88,
+      "u135": 8,
+      "o135": 2
+    }
   },
   {
     "code": "A10020490",
@@ -74,7 +158,21 @@
     "emd": "홍천읍",
     "sigunguCode": "51720",
     "sido": "강원특별자치도",
-    "sigungu": "홍천군"
+    "sigungu": "홍천군",
+    "jibunAddr": "강원특별자치도 홍천군 홍천읍 갈마곡리 376-12 LH행복샘마을",
+    "builder": "신풍건설",
+    "entrance": "복도식",
+    "useArea": "3212.51",
+    "bjdCode": "5172025024",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 9,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021717",
@@ -85,7 +183,21 @@
     "emd": "홍천읍",
     "sigunguCode": "51720",
     "sido": "강원특별자치도",
-    "sigungu": "홍천군"
+    "sigungu": "홍천군",
+    "jibunAddr": "강원특별자치도 홍천군 홍천읍 갈마곡리 449- 태림아파트",
+    "builder": "서울 우진토건(주)",
+    "entrance": "복도식",
+    "useArea": "9437.04",
+    "bjdCode": "5172025024",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 56,
+      "u85": 72,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022592",
@@ -96,7 +208,21 @@
     "emd": "홍천읍",
     "sigunguCode": "51720",
     "sido": "강원특별자치도",
-    "sigungu": "홍천군"
+    "sigungu": "홍천군",
+    "jibunAddr": "강원특별자치도 홍천군 홍천읍 갈마곡리 559 극동스타클래스1차",
+    "builder": "극동건설",
+    "entrance": "혼합식",
+    "useArea": "16548.322",
+    "bjdCode": "5172025024",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 210,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027279",
@@ -107,7 +233,21 @@
     "emd": "홍천읍",
     "sigunguCode": "51720",
     "sido": "강원특별자치도",
-    "sigungu": "홍천군"
+    "sigungu": "홍천군",
+    "jibunAddr": "강원특별자치도 홍천군 홍천읍 갈마곡리 549 홍천오드카운티아파트",
+    "builder": "동광종합토건(주)",
+    "entrance": "계단식",
+    "useArea": "40526.4381",
+    "bjdCode": "5172025024",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 432,
+      "u85": 172,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A25080106",
@@ -118,7 +258,21 @@
     "emd": "홍천읍",
     "sigunguCode": "51720",
     "sido": "강원특별자치도",
-    "sigungu": "홍천군"
+    "sigungu": "홍천군",
+    "jibunAddr": "강원특별자치도 홍천군 홍천읍 갈마곡리 222 홍천갈마곡주공2차",
+    "builder": "남양",
+    "entrance": "계단식",
+    "useArea": "25440.48",
+    "bjdCode": "5172025024",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 464,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A25080109",
@@ -129,7 +283,21 @@
     "emd": "홍천읍",
     "sigunguCode": "51720",
     "sido": "강원특별자치도",
-    "sigungu": "홍천군"
+    "sigungu": "홍천군",
+    "jibunAddr": "강원특별자치도 홍천군 홍천읍 갈마곡리 73 홍천신성미소지움아파트",
+    "builder": "신성건설(주)",
+    "entrance": "계단식",
+    "useArea": "44425.08",
+    "bjdCode": "5172025024",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 360,
+      "u135": 120,
+      "o135": 0
+    }
   },
   {
     "code": "A25080113",
@@ -140,7 +308,21 @@
     "emd": "홍천읍",
     "sigunguCode": "51720",
     "sido": "강원특별자치도",
-    "sigungu": "홍천군"
+    "sigungu": "홍천군",
+    "jibunAddr": "강원특별자치도 홍천군 홍천읍 갈마곡리 200 홍천주공1단지아파트",
+    "builder": "금호건설",
+    "entrance": "혼합식",
+    "useArea": "39817.08",
+    "bjdCode": "5172025024",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 802,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A25080710",
@@ -151,7 +333,21 @@
     "emd": "홍천읍",
     "sigunguCode": "51720",
     "sido": "강원특별자치도",
-    "sigungu": "홍천군"
+    "sigungu": "홍천군",
+    "jibunAddr": "강원특별자치도 홍천군 홍천읍 연봉리 468 홍천연봉현대아파트",
+    "builder": "현대산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "37197.345",
+    "bjdCode": "5172025029",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 285,
+      "u85": 240,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A25080712",
@@ -162,7 +358,21 @@
     "emd": "홍천읍",
     "sigunguCode": "51720",
     "sido": "강원특별자치도",
-    "sigungu": "홍천군"
+    "sigungu": "홍천군",
+    "jibunAddr": "강원특별자치도 홍천군 홍천읍 연봉리 468-1 홍천청솔아파트",
+    "builder": "한국토지신탁",
+    "entrance": "복도식",
+    "useArea": "37500.87",
+    "bjdCode": "5172025029",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 627,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A25093004",
@@ -173,7 +383,21 @@
     "emd": "홍천읍",
     "sigunguCode": "51720",
     "sido": "강원특별자치도",
-    "sigungu": "홍천군"
+    "sigungu": "홍천군",
+    "jibunAddr": "강원특별자치도 홍천군 홍천읍 연봉리 496 세영the-조은",
+    "builder": "세영",
+    "entrance": "계단식",
+    "useArea": "19192.992",
+    "bjdCode": "5172025029",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 320,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A25093011",
@@ -184,7 +408,21 @@
     "emd": "홍천읍",
     "sigunguCode": "51720",
     "sido": "강원특별자치도",
-    "sigungu": "홍천군"
+    "sigungu": "홍천군",
+    "jibunAddr": "강원특별자치도 홍천군 홍천읍 연봉리 497 연봉아이파크",
+    "builder": "현대산업개발",
+    "entrance": "계단식",
+    "useArea": "34009.4917",
+    "bjdCode": "5172025029",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 401,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A25092101",
@@ -195,7 +433,21 @@
     "emd": "홍천읍",
     "sigunguCode": "51720",
     "sido": "강원특별자치도",
-    "sigungu": "홍천군"
+    "sigungu": "홍천군",
+    "jibunAddr": "강원특별자치도 홍천군 홍천읍 하오안리 155 홍천삼호아파트",
+    "builder": "삼호건설",
+    "entrance": "복도식",
+    "useArea": "22719.21",
+    "bjdCode": "5172025030",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 465,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A25087101",
@@ -206,7 +458,20 @@
     "emd": "남면",
     "sigunguCode": "51720",
     "sido": "강원특별자치도",
-    "sigungu": "홍천군"
+    "sigungu": "홍천군",
+    "jibunAddr": "강원특별자치도 홍천군 남면 월천리 393 화랑마을",
+    "builder": "고려개발",
+    "entrance": "복도식",
+    "useArea": "23140.53",
+    "bjdCode": "5172036026",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "areaBreak": {
+      "u60": 30,
+      "u85": 220,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021989",
@@ -217,6 +482,20 @@
     "emd": "북방면",
     "sigunguCode": "51720",
     "sido": "강원특별자치도",
-    "sigungu": "홍천군"
+    "sigungu": "홍천군",
+    "jibunAddr": "강원특별자치도 홍천군 북방면 하화계리 938- 홍천북방 고령자복지주택",
+    "builder": "개성건설",
+    "entrance": "계단식",
+    "useArea": "3909.92",
+    "bjdCode": "5172038037",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 128,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

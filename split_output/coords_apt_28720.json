@@ -8,6 +8,20 @@
     "emd": "영흥면",
     "sigunguCode": "28720",
     "sido": "인천광역시",
-    "sigungu": "옹진군"
+    "sigungu": "옹진군",
+    "jibunAddr": "인천광역시 옹진군 영흥면 외리 680 영흥화력사택(301동~304동)",
+    "builder": "한국건설(주)",
+    "entrance": "혼합식",
+    "useArea": "17170.6309",
+    "bjdCode": "2872036021",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 8,
+    "areaBreak": {
+      "u60": 147,
+      "u85": 64,
+      "u135": 70,
+      "o135": 0
+    }
   }
 ]

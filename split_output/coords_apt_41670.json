@@ -9,7 +9,21 @@
     "sigunguCode": "41670",
     "sido": "경기도",
     "sigungu": "가평군",
-    "hhldCnt": 12
+    "hhldCnt": 12,
+    "jibunAddr": "경기도 여주시 홍문동 8-1 삼한아파트",
+    "builder": "삼한건설",
+    "entrance": "계단식",
+    "useArea": "12482.52",
+    "bjdCode": "4167010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 4,
+      "u85": 140,
+      "u135": 12,
+      "o135": 0
+    }
   },
   {
     "code": "A46970717",
@@ -21,7 +35,21 @@
     "sigunguCode": "41670",
     "sido": "경기도",
     "sigungu": "가평군",
-    "hhldCnt": 673
+    "hhldCnt": 673,
+    "jibunAddr": "경기도 여주시 홍문동 181 홍문현대",
+    "builder": "(주)아주종합건설",
+    "entrance": "계단식",
+    "useArea": "48398.18",
+    "bjdCode": "4167010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 383,
+      "u85": 254,
+      "u135": 36,
+      "o135": 0
+    }
   },
   {
     "code": "A46971915",
@@ -33,7 +61,21 @@
     "sigunguCode": "41670",
     "sido": "경기도",
     "sigungu": "가평군",
-    "hhldCnt": 504
+    "hhldCnt": 504,
+    "jibunAddr": "경기도 여주시 홍문동 353 여주동원아파트",
+    "builder": "동원개발주식회사",
+    "entrance": "계단식",
+    "useArea": "26919.006",
+    "bjdCode": "4167010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 504,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46972008",
@@ -45,7 +87,21 @@
     "sigunguCode": "41670",
     "sido": "경기도",
     "sigungu": "가평군",
-    "hhldCnt": 160
+    "hhldCnt": 160,
+    "jibunAddr": "경기도 여주시 홍문동 377-1 상우1차",
+    "builder": "상우종합건설",
+    "entrance": "혼합식",
+    "useArea": "27114.96",
+    "bjdCode": "4167010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 16,
+    "areaBreak": {
+      "u60": 128,
+      "u85": 160,
+      "u135": 48,
+      "o135": 0
+    }
   },
   {
     "code": "A46970606",
@@ -57,7 +113,21 @@
     "sigunguCode": "41670",
     "sido": "경기도",
     "sigungu": "가평군",
-    "hhldCnt": 52
+    "hhldCnt": 52,
+    "jibunAddr": "경기도 여주시 하동 123 하리현대아파트",
+    "builder": "현대산업개발 주식회사",
+    "entrance": "계단식",
+    "useArea": "20892.825",
+    "bjdCode": "4167010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 201,
+      "u85": 104,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022724",
@@ -69,7 +139,21 @@
     "sigunguCode": "41670",
     "sido": "경기도",
     "sigungu": "가평군",
-    "hhldCnt": 404
+    "hhldCnt": 404,
+    "jibunAddr": "경기도 여주시 교동 673 여주역센트레빌트리니체아파트",
+    "builder": "(주)동부건설",
+    "entrance": "계단식",
+    "useArea": "39360.6677",
+    "bjdCode": "4167010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리(직영+위탁)",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 404,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023246",
@@ -81,7 +165,21 @@
     "sigunguCode": "41670",
     "sido": "경기도",
     "sigungu": "가평군",
-    "hhldCnt": 705
+    "hhldCnt": 705,
+    "jibunAddr": "경기도 여주시 교동 194 여주역 LH 3단지",
+    "builder": "GS건설",
+    "entrance": "혼합식",
+    "useArea": "27008.06",
+    "bjdCode": "4167010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 705,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023274",
@@ -92,7 +190,21 @@
     "emd": "교동",
     "sigunguCode": "41670",
     "sido": "경기도",
-    "sigungu": "가평군"
+    "sigungu": "가평군",
+    "jibunAddr": "경기도 여주시 교동  여주역 우남퍼스트빌",
+    "builder": "(주)우남건설",
+    "entrance": "계단식",
+    "useArea": "44724.3778",
+    "bjdCode": "4167010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 320,
+      "u85": 176,
+      "u135": 106,
+      "o135": 0
+    }
   },
   {
     "code": "A10023660",
@@ -104,7 +216,21 @@
     "sigunguCode": "41670",
     "sido": "경기도",
     "sigungu": "가평군",
-    "hhldCnt": 605
+    "hhldCnt": 605,
+    "jibunAddr": "경기도 여주시 교동 572 여주역 금호어울림 베르티스",
+    "builder": "(주)금호건설",
+    "entrance": "계단식",
+    "useArea": "51951.0976",
+    "bjdCode": "4167010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 27,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 578,
+      "u135": 22,
+      "o135": 5
+    }
   },
   {
     "code": "A10023945",
@@ -116,7 +242,21 @@
     "sigunguCode": "41670",
     "sido": "경기도",
     "sigungu": "가평군",
-    "hhldCnt": 551
+    "hhldCnt": 551,
+    "jibunAddr": "경기도 여주시 교동 531 여주역 푸르지오클라테르 아파트",
+    "builder": "(주)대우건설",
+    "entrance": "계단식",
+    "useArea": "46816.4725",
+    "bjdCode": "4167010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 551,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46971407",
@@ -128,7 +268,21 @@
     "sigunguCode": "41670",
     "sido": "경기도",
     "sigungu": "가평군",
-    "hhldCnt": 316
+    "hhldCnt": 316,
+    "jibunAddr": "경기도 여주시 교동 28 삼성명가타운",
+    "builder": "삼성중공업",
+    "entrance": "계단식",
+    "useArea": "27733.796",
+    "bjdCode": "4167010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 286,
+      "u135": 30,
+      "o135": 0
+    }
   },
   {
     "code": "A46980109",
@@ -140,7 +294,21 @@
     "sigunguCode": "41670",
     "sido": "경기도",
     "sigungu": "가평군",
-    "hhldCnt": 378
+    "hhldCnt": 378,
+    "jibunAddr": "경기도 여주시 교동 81 여주교리강남아파트",
+    "builder": "(주)강남건영",
+    "entrance": "계단식",
+    "useArea": "27158.76",
+    "bjdCode": "4167010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 198,
+      "u85": 180,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46980112",
@@ -152,7 +320,21 @@
     "sigunguCode": "41670",
     "sido": "경기도",
     "sigungu": "가평군",
-    "hhldCnt": 472
+    "hhldCnt": 472,
+    "jibunAddr": "경기도 여주시 교동 127 예일세띠앙",
+    "builder": "예일건설(주)",
+    "entrance": "계단식",
+    "useArea": "42148.883",
+    "bjdCode": "4167010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 367,
+      "u135": 105,
+      "o135": 0
+    }
   },
   {
     "code": "A46980116",
@@ -164,7 +346,21 @@
     "sigunguCode": "41670",
     "sido": "경기도",
     "sigungu": "가평군",
-    "hhldCnt": 549
+    "hhldCnt": 549,
+    "jibunAddr": "경기도 여주시 교동 81-2 여주호반리젠시빌",
+    "builder": "리젠시빌",
+    "entrance": "계단식",
+    "useArea": "42823.4858",
+    "bjdCode": "4167010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 549,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46971605",
@@ -176,7 +372,21 @@
     "sigunguCode": "41670",
     "sido": "경기도",
     "sigungu": "가평군",
-    "hhldCnt": 280
+    "hhldCnt": 280,
+    "jibunAddr": "경기도 여주시 월송동 380-5 두풍리치빌",
+    "builder": "두풍종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "23733.836",
+    "bjdCode": "4167010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 280,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46971711",
@@ -188,7 +398,21 @@
     "sigunguCode": "41670",
     "sido": "경기도",
     "sigungu": "가평군",
-    "hhldCnt": 420
+    "hhldCnt": 420,
+    "jibunAddr": "경기도 여주시 월송동 127-9 한성",
+    "builder": "주식회사한성",
+    "entrance": "계단식",
+    "useArea": "25197.9",
+    "bjdCode": "4167010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 420,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46972210",
@@ -200,7 +424,21 @@
     "sigunguCode": "41670",
     "sido": "경기도",
     "sigungu": "가평군",
-    "hhldCnt": 384
+    "hhldCnt": 384,
+    "jibunAddr": "경기도 여주시 월송동 388-29 보광그랑베르아파트",
+    "builder": "(주)보광종합건설",
+    "entrance": "계단식",
+    "useArea": "26553.984",
+    "bjdCode": "4167010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 384,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021130",
@@ -212,7 +450,19 @@
     "sigunguCode": "41670",
     "sido": "경기도",
     "sigungu": "가평군",
-    "hhldCnt": 118
+    "hhldCnt": 118,
+    "jibunAddr": "경기도 여주시 점봉동 114- 인창아파트",
+    "builder": " ",
+    "useArea": "9940.32",
+    "bjdCode": "4167011500",
+    "aptType": "아파트",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 118,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46971819",
@@ -224,7 +474,21 @@
     "sigunguCode": "41670",
     "sido": "경기도",
     "sigungu": "가평군",
-    "hhldCnt": 810
+    "hhldCnt": 810,
+    "jibunAddr": "경기도 여주시 점봉동 430-6 여주부영",
+    "builder": "(주)부영",
+    "entrance": "복도식",
+    "useArea": "34845.285",
+    "bjdCode": "4167011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 810,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46980117",
@@ -236,7 +500,21 @@
     "sigunguCode": "41670",
     "sido": "경기도",
     "sigungu": "가평군",
-    "hhldCnt": 244
+    "hhldCnt": 244,
+    "jibunAddr": "경기도 여주시 점봉동 291-1 세종그랑시아",
+    "builder": "성문산업개발",
+    "entrance": "계단식",
+    "useArea": "18222.7984",
+    "bjdCode": "4167011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 244,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46980202",
@@ -248,7 +526,21 @@
     "sigunguCode": "41670",
     "sido": "경기도",
     "sigungu": "가평군",
-    "hhldCnt": 225
+    "hhldCnt": 225,
+    "jibunAddr": "경기도 여주시 멱곡동 376-8 정광휴레나",
+    "builder": "정광건설",
+    "entrance": "계단식",
+    "useArea": "17060.127",
+    "bjdCode": "4167011700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 82,
+      "u85": 143,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46972114",
@@ -260,7 +552,21 @@
     "sigunguCode": "41670",
     "sido": "경기도",
     "sigungu": "가평군",
-    "hhldCnt": 498
+    "hhldCnt": 498,
+    "jibunAddr": "경기도 여주시 연양동 348-4 영진리버빌아파트",
+    "builder": "영진씨엔아이(주)",
+    "entrance": "계단식",
+    "useArea": "42225.4254",
+    "bjdCode": "4167011800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 498,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021475",
@@ -272,7 +578,21 @@
     "sigunguCode": "41670",
     "sido": "경기도",
     "sigungu": "가평군",
-    "hhldCnt": 119
+    "hhldCnt": 119,
+    "jibunAddr": "경기도 여주시 천송동 515-1 여주월드타워",
+    "builder": "신한종합건설",
+    "entrance": "복도식",
+    "useArea": "2290.4308",
+    "bjdCode": "4167012000",
+    "aptType": "주상복합",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 118,
+      "u85": 1,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022533",
@@ -284,7 +604,21 @@
     "sigunguCode": "41670",
     "sido": "경기도",
     "sigungu": "가평군",
-    "hhldCnt": 174
+    "hhldCnt": 174,
+    "jibunAddr": "경기도 여주시 천송동 591-7 서해스카이팰리스",
+    "builder": "(주)서해종합건설",
+    "entrance": "계단식",
+    "useArea": "15375.4549",
+    "bjdCode": "4167012000",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 38,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 136,
+      "u135": 38,
+      "o135": 0
+    }
   },
   {
     "code": "A10025265",
@@ -296,7 +630,21 @@
     "sigunguCode": "41670",
     "sido": "경기도",
     "sigungu": "가평군",
-    "hhldCnt": 388
+    "hhldCnt": 388,
+    "jibunAddr": "경기도 여주시 천송동 599 여주kcc스위첸",
+    "builder": "주)케이씨씨건설",
+    "entrance": "계단식",
+    "useArea": "33076.9984",
+    "bjdCode": "4167012000",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 49,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 386,
+      "u135": 0,
+      "o135": 2
+    }
   },
   {
     "code": "A46980119",
@@ -308,7 +656,21 @@
     "sigunguCode": "41670",
     "sido": "경기도",
     "sigungu": "가평군",
-    "hhldCnt": 200
+    "hhldCnt": 200,
+    "jibunAddr": "경기도 여주시 오학동 401 여주성일우리미",
+    "builder": "성일건설(주)",
+    "entrance": "기타",
+    "useArea": "27959.74",
+    "bjdCode": "4167012100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 109,
+      "o135": 91
+    }
   },
   {
     "code": "A46980120",
@@ -320,7 +682,21 @@
     "sigunguCode": "41670",
     "sido": "경기도",
     "sigungu": "가평군",
-    "hhldCnt": 321
+    "hhldCnt": 321,
+    "jibunAddr": "경기도 여주시 오학동 361 여주신도브래뉴",
+    "builder": "(주)신도종합건설",
+    "entrance": "복도식",
+    "useArea": "38902.108",
+    "bjdCode": "4167012100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 56,
+      "u135": 209,
+      "o135": 56
+    }
   },
   {
     "code": "A46980122",
@@ -332,7 +708,21 @@
     "sigunguCode": "41670",
     "sido": "경기도",
     "sigungu": "가평군",
-    "hhldCnt": 600
+    "hhldCnt": 600,
+    "jibunAddr": "경기도 여주시 오학동 408 오드카운티",
+    "builder": "동광종합토건(주)",
+    "entrance": "계단식",
+    "useArea": "41842.0878",
+    "bjdCode": "4167012100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 284,
+      "u85": 316,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46985513",
@@ -343,7 +733,21 @@
     "emd": "오학동",
     "sigunguCode": "41670",
     "sido": "경기도",
-    "sigungu": "가평군"
+    "sigungu": "가평군",
+    "jibunAddr": "경기도 여주시 오학동 100-5 여주현진에버빌",
+    "builder": "현진에버빌(주)",
+    "entrance": "복도식",
+    "useArea": "26115.255",
+    "bjdCode": "4167012100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 495,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024518",
@@ -355,7 +759,21 @@
     "sigunguCode": "41670",
     "sido": "경기도",
     "sigungu": "가평군",
-    "hhldCnt": 526
+    "hhldCnt": 526,
+    "jibunAddr": "경기도 여주시 현암동 695 여주 아이파크",
+    "builder": "현대산업개발",
+    "entrance": "계단식",
+    "useArea": "44700.7624",
+    "bjdCode": "4167012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 526,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46980118",
@@ -367,7 +785,21 @@
     "sigunguCode": "41670",
     "sido": "경기도",
     "sigungu": "가평군",
-    "hhldCnt": 586
+    "hhldCnt": 586,
+    "jibunAddr": "경기도 여주시 현암동 195 이안여주강변",
+    "builder": "대우산업개발",
+    "entrance": "계단식",
+    "useArea": "54679.23",
+    "bjdCode": "4167012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 486,
+      "u135": 100,
+      "o135": 0
+    }
   },
   {
     "code": "A46980123",
@@ -379,7 +811,21 @@
     "sigunguCode": "41670",
     "sido": "경기도",
     "sigungu": "가평군",
-    "hhldCnt": 299
+    "hhldCnt": 299,
+    "jibunAddr": "경기도 여주시 현암동 684 e편한세상여주",
+    "builder": "(주)삼호",
+    "entrance": "계단식",
+    "useArea": "25278.3408",
+    "bjdCode": "4167012200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 299,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46985618",
@@ -391,7 +837,21 @@
     "sigunguCode": "41670",
     "sido": "경기도",
     "sigungu": "가평군",
-    "hhldCnt": 682
+    "hhldCnt": 682,
+    "jibunAddr": "경기도 여주시 현암동 188-1 여주벽산",
+    "builder": "벽산건설",
+    "entrance": "복도식",
+    "useArea": "25588.64",
+    "bjdCode": "4167012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 682,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46988101",
@@ -402,7 +862,21 @@
     "emd": "가남읍",
     "sigunguCode": "41670",
     "sido": "경기도",
-    "sigungu": "가평군"
+    "sigungu": "가평군",
+    "jibunAddr": "경기도 여주시 가남읍 태평리 268-3 굿모닝타워아파트",
+    "builder": "굿모닝건설",
+    "entrance": "복도식",
+    "useArea": "10432.3165",
+    "bjdCode": "4167025021",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 185,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46988502",
@@ -414,7 +888,21 @@
     "sigunguCode": "41670",
     "sido": "경기도",
     "sigungu": "가평군",
-    "hhldCnt": 480
+    "hhldCnt": 480,
+    "jibunAddr": "경기도 여주시 가남읍 신해리 620-17 동남아파트",
+    "builder": "동남주택개발주식회사",
+    "entrance": "복도식",
+    "useArea": "28689.6",
+    "bjdCode": "4167025023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 480,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46988203",
@@ -426,6 +914,20 @@
     "sigunguCode": "41670",
     "sido": "경기도",
     "sigungu": "가평군",
-    "hhldCnt": 678
+    "hhldCnt": 678,
+    "jibunAddr": "경기도 여주시 가남읍 심석리 118 세광리치타운",
+    "builder": "동명건설",
+    "entrance": "복도식",
+    "useArea": "39825.72",
+    "bjdCode": "4167025027",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 678,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

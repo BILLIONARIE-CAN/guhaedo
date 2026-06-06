@@ -8,7 +8,21 @@
     "emd": "고흥읍",
     "sigunguCode": "46770",
     "sido": "전라남도",
-    "sigungu": "고흥군"
+    "sigungu": "고흥군",
+    "jibunAddr": "전라남도 고흥군 고흥읍 등암리 1680 고흥남계 LH1단지 아파트",
+    "builder": "경일건설(주)",
+    "entrance": "복도식",
+    "useArea": "13629.94",
+    "bjdCode": "4677025024",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 362,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021154",
@@ -19,7 +33,21 @@
     "emd": "고흥읍",
     "sigunguCode": "46770",
     "sido": "전라남도",
-    "sigungu": "고흥군"
+    "sigungu": "고흥군",
+    "jibunAddr": "전라남도 고흥군 고흥읍 남계리 1043- 고흥승원팰리체 하이엔드 아파트 ",
+    "builder": "승원건설",
+    "entrance": "계단식",
+    "useArea": "16732.7169",
+    "bjdCode": "4677025026",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 154,
+      "u135": 29,
+      "o135": 0
+    }
   },
   {
     "code": "A10023900",
@@ -30,7 +58,21 @@
     "emd": "고흥읍",
     "sigunguCode": "46770",
     "sido": "전라남도",
-    "sigungu": "고흥군"
+    "sigungu": "고흥군",
+    "jibunAddr": "전라남도 고흥군 고흥읍 남계리 1044 고흥 승원팰리체 더퍼스트",
+    "builder": "승원종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "18698.6036",
+    "bjdCode": "4677025026",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 220,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54880201",
@@ -41,7 +83,21 @@
     "emd": "고흥읍",
     "sigunguCode": "46770",
     "sido": "전라남도",
-    "sigungu": "고흥군"
+    "sigungu": "고흥군",
+    "jibunAddr": "전라남도 고흥군 고흥읍 남계리 647-4 고흥남계주공아파트자치회",
+    "builder": "흥인건설",
+    "entrance": "복도식",
+    "useArea": "17023.84",
+    "bjdCode": "4677025026",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 362,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025759",
@@ -52,7 +108,21 @@
     "emd": "고흥읍",
     "sigunguCode": "46770",
     "sido": "전라남도",
-    "sigungu": "고흥군"
+    "sigungu": "고흥군",
+    "jibunAddr": "전라남도 고흥군 고흥읍 행정리 237 고흥중해마루힐아파트",
+    "builder": "주)중해건설",
+    "entrance": "계단식",
+    "useArea": "11660.8914",
+    "bjdCode": "4677025029",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 154,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022184",
@@ -63,7 +133,21 @@
     "emd": "도양읍",
     "sigunguCode": "46770",
     "sido": "전라남도",
-    "sigungu": "고흥군"
+    "sigungu": "고흥군",
+    "jibunAddr": "전라남도 고흥군 도양읍 봉암리 3212- 고흥녹동오션뷰아파트",
+    "builder": "뉴월드종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "6309.978",
+    "bjdCode": "4677025324",
+    "aptType": "주상복합",
+    "mgrType": "자치관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 90,
+      "u85": 15,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022861",
@@ -74,7 +158,21 @@
     "emd": "도양읍",
     "sigunguCode": "46770",
     "sido": "전라남도",
-    "sigungu": "고흥군"
+    "sigungu": "고흥군",
+    "jibunAddr": "전라남도 고흥군 도양읍 봉암리 3955 녹동승원팰리체시그니처",
+    "builder": "승원종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "16309.248",
+    "bjdCode": "4677025324",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 192,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54870101",
@@ -85,7 +183,21 @@
     "emd": "도양읍",
     "sigunguCode": "46770",
     "sido": "전라남도",
-    "sigungu": "고흥군"
+    "sigungu": "고흥군",
+    "jibunAddr": "전라남도 고흥군 도양읍 봉암리 3948 이-그린",
+    "builder": "삼보건설(주)",
+    "entrance": "계단식",
+    "useArea": "12730.5",
+    "bjdCode": "4677025324",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 150,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54890402",
@@ -96,7 +208,21 @@
     "emd": "도양읍",
     "sigunguCode": "46770",
     "sido": "전라남도",
-    "sigungu": "고흥군"
+    "sigungu": "고흥군",
+    "jibunAddr": "전라남도 고흥군 도양읍 봉암리 1514 녹동주공아파트",
+    "builder": "대한주택공사",
+    "entrance": "복도식",
+    "useArea": "16787.38",
+    "bjdCode": "4677025324",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 365,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54890501",
@@ -107,6 +233,20 @@
     "emd": "도양읍",
     "sigunguCode": "46770",
     "sido": "전라남도",
-    "sigungu": "고흥군"
+    "sigungu": "고흥군",
+    "jibunAddr": "전라남도 고흥군 도양읍 봉암리 3380 녹동 프라자 아파트",
+    "builder": "신흥토건 주식회사",
+    "entrance": "복도식",
+    "useArea": "13903.94",
+    "bjdCode": "4677025324",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 11,
+    "areaBreak": {
+      "u60": 266,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

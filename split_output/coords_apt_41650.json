@@ -9,7 +9,21 @@
     "sigunguCode": "41650",
     "sido": "경기도",
     "sigungu": "연천군",
-    "hhldCnt": 120
+    "hhldCnt": 120,
+    "jibunAddr": "경기도 포천시 신읍동 167-4 은하아파트",
+    "builder": "알수없음",
+    "entrance": "계단식",
+    "useArea": "6109.2",
+    "bjdCode": "4165010100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 120,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021897",
@@ -21,7 +35,21 @@
     "sigunguCode": "41650",
     "sido": "경기도",
     "sigungu": "연천군",
-    "hhldCnt": 139
+    "hhldCnt": 139,
+    "jibunAddr": "경기도 포천시 신읍동 9-4 포천골든아파트",
+    "builder": "주식회사 골든주택",
+    "entrance": "계단식",
+    "useArea": "10186.98",
+    "bjdCode": "4165010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 43,
+      "u85": 91,
+      "u135": 5,
+      "o135": 0
+    }
   },
   {
     "code": "A48770307",
@@ -33,7 +61,21 @@
     "sigunguCode": "41650",
     "sido": "경기도",
     "sigungu": "연천군",
-    "hhldCnt": 355
+    "hhldCnt": 355,
+    "jibunAddr": "경기도 포천시 신읍동 143-4 유한",
+    "builder": "유한주택",
+    "entrance": "계단식",
+    "useArea": "26313.09",
+    "bjdCode": "4165010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 150,
+      "u85": 204,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48770408",
@@ -45,7 +87,21 @@
     "sigunguCode": "41650",
     "sido": "경기도",
     "sigungu": "연천군",
-    "hhldCnt": 483
+    "hhldCnt": 483,
+    "jibunAddr": "경기도 포천시 신읍동 307 포천일신",
+    "builder": "(주)일신",
+    "entrance": "복도식",
+    "useArea": "21658.74",
+    "bjdCode": "4165010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 483,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48770603",
@@ -57,7 +113,21 @@
     "sigunguCode": "41650",
     "sido": "경기도",
     "sigungu": "연천군",
-    "hhldCnt": 264
+    "hhldCnt": 264,
+    "jibunAddr": "경기도 포천시 신읍동 295-23 한국",
+    "builder": "한국건설(주)",
+    "entrance": "복도식",
+    "useArea": "18346.62",
+    "bjdCode": "4165010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 99,
+      "u85": 150,
+      "u135": 15,
+      "o135": 0
+    }
   },
   {
     "code": "A48770704",
@@ -69,7 +139,21 @@
     "sigunguCode": "41650",
     "sido": "경기도",
     "sigungu": "연천군",
-    "hhldCnt": 144
+    "hhldCnt": 144,
+    "jibunAddr": "경기도 포천시 신읍동 227-8 포천한신아파트",
+    "builder": "세한주택",
+    "entrance": "계단식",
+    "useArea": "19231.54",
+    "bjdCode": "4165010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 140,
+      "u85": 129,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48770801",
@@ -81,7 +165,21 @@
     "sigunguCode": "41650",
     "sido": "경기도",
     "sigungu": "연천군",
-    "hhldCnt": 170
+    "hhldCnt": 170,
+    "jibunAddr": "경기도 포천시 신읍동 235-11 현대",
+    "builder": "고려산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "12442.1",
+    "bjdCode": "4165010100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 80,
+      "u85": 90,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48771901",
@@ -93,7 +191,21 @@
     "sigunguCode": "41650",
     "sido": "경기도",
     "sigungu": "연천군",
-    "hhldCnt": 360
+    "hhldCnt": 360,
+    "jibunAddr": "경기도 포천시 신읍동 700 포천신읍휴먼시아1단지",
+    "builder": "일광실업(주)",
+    "entrance": "복도식",
+    "useArea": "15667.56",
+    "bjdCode": "4165010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 360,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48772202",
@@ -105,7 +217,21 @@
     "sigunguCode": "41650",
     "sido": "경기도",
     "sigungu": "연천군",
-    "hhldCnt": 179
+    "hhldCnt": 179,
+    "jibunAddr": "경기도 포천시 신읍동 315-4 백자",
+    "builder": "창현건설",
+    "entrance": "계단식",
+    "useArea": "13694.09",
+    "bjdCode": "4165010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 75,
+      "u85": 90,
+      "u135": 14,
+      "o135": 0
+    }
   },
   {
     "code": "A48780505",
@@ -117,7 +243,21 @@
     "sigunguCode": "41650",
     "sido": "경기도",
     "sigungu": "연천군",
-    "hhldCnt": 124
+    "hhldCnt": 124,
+    "jibunAddr": "경기도 포천시 신읍동 697-1 포천극동1차스타클래스",
+    "builder": "극동건설(주)",
+    "entrance": "계단식",
+    "useArea": "25279.7746",
+    "bjdCode": "4165010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 232,
+      "u135": 48,
+      "o135": 0
+    }
   },
   {
     "code": "A48780506",
@@ -129,7 +269,21 @@
     "sigunguCode": "41650",
     "sido": "경기도",
     "sigungu": "연천군",
-    "hhldCnt": 291
+    "hhldCnt": 291,
+    "jibunAddr": "경기도 포천시 신읍동 698 포천극동2차스타클래스",
+    "builder": "극동건설(주)",
+    "entrance": "계단식",
+    "useArea": "25763.2604",
+    "bjdCode": "4165010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 232,
+      "u135": 55,
+      "o135": 4
+    }
   },
   {
     "code": "A10022750",
@@ -140,7 +294,21 @@
     "emd": "어룡동",
     "sigunguCode": "41650",
     "sido": "경기도",
-    "sigungu": "연천군"
+    "sigungu": "연천군",
+    "jibunAddr": "경기도 포천시 어룡동 21-3 포천리버포레세영리첼",
+    "builder": "(주)세영종합건설",
+    "entrance": "계단식",
+    "useArea": "31946.1132",
+    "bjdCode": "4165010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 454,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023600",
@@ -151,7 +319,21 @@
     "emd": "어룡동",
     "sigunguCode": "41650",
     "sido": "경기도",
-    "sigungu": "연천군"
+    "sigungu": "연천군",
+    "jibunAddr": "경기도 포천시 어룡동 21-4 포천 모아엘가 리더스파크",
+    "builder": "혜림건설",
+    "entrance": "계단식",
+    "useArea": "47425.1048",
+    "bjdCode": "4165010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 295,
+      "u85": 222,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48772001",
@@ -163,7 +345,21 @@
     "sigunguCode": "41650",
     "sido": "경기도",
     "sigungu": "연천군",
-    "hhldCnt": 398
+    "hhldCnt": 398,
+    "jibunAddr": "경기도 포천시 선단동 28 세창선단마을",
+    "builder": "세창건설",
+    "entrance": "계단식",
+    "useArea": "32409.14",
+    "bjdCode": "4165010400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 7,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 398,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021006",
@@ -174,7 +370,21 @@
     "emd": "소흘읍",
     "sigunguCode": "41650",
     "sido": "경기도",
-    "sigungu": "연천군"
+    "sigungu": "연천군",
+    "jibunAddr": "경기도 포천시 소흘읍 송우리 225-1 태봉공원푸르지오파크몬트",
+    "builder": "㈜대우건설",
+    "entrance": "계단식",
+    "useArea": "54302.3349",
+    "bjdCode": "4165025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 540,
+      "u135": 83,
+      "o135": 0
+    }
   },
   {
     "code": "A10024452",
@@ -185,7 +395,21 @@
     "emd": "소흘읍",
     "sigunguCode": "41650",
     "sido": "경기도",
-    "sigungu": "연천군"
+    "sigungu": "연천군",
+    "jibunAddr": "경기도 포천시 소흘읍 송우리 257-5 포천송우서희스타힐스",
+    "builder": "서희건설(주)",
+    "entrance": "계단식",
+    "useArea": "59699.772",
+    "bjdCode": "4165025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 158,
+      "u85": 671,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026393",
@@ -197,7 +421,21 @@
     "sigunguCode": "41650",
     "sido": "경기도",
     "sigungu": "연천군",
-    "hhldCnt": 109
+    "hhldCnt": 109,
+    "jibunAddr": "경기도 포천시 소흘읍 송우리 430-13 원일산호3차아파트",
+    "builder": "(주)원일종합건설",
+    "entrance": "계단식",
+    "useArea": "7732.97",
+    "bjdCode": "4165025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 16,
+    "areaBreak": {
+      "u60": 44,
+      "u85": 65,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48771402",
@@ -209,7 +447,21 @@
     "sigunguCode": "41650",
     "sido": "경기도",
     "sigungu": "연천군",
-    "hhldCnt": 176
+    "hhldCnt": 176,
+    "jibunAddr": "경기도 포천시 소흘읍 송우리 505-8 송우리일신건영",
+    "builder": "(주)일신건영",
+    "entrance": "복도식",
+    "useArea": "13434.2",
+    "bjdCode": "4165025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 68,
+      "u85": 98,
+      "u135": 10,
+      "o135": 0
+    }
   },
   {
     "code": "A48782101",
@@ -221,7 +473,21 @@
     "sigunguCode": "41650",
     "sido": "경기도",
     "sigungu": "연천군",
-    "hhldCnt": 466
+    "hhldCnt": 466,
+    "jibunAddr": "경기도 포천시 소흘읍 송우리 728-10 추산마을주공5단지",
+    "builder": "금광건업",
+    "entrance": "계단식",
+    "useArea": "27297.02",
+    "bjdCode": "4165025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 466,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48782301",
@@ -233,7 +499,21 @@
     "sigunguCode": "41650",
     "sido": "경기도",
     "sigungu": "연천군",
-    "hhldCnt": 160
+    "hhldCnt": 160,
+    "jibunAddr": "경기도 포천시 소흘읍 송우리 430-8 원일산호2차아파트",
+    "builder": "원일종합건설",
+    "entrance": "계단식",
+    "useArea": "9767.52",
+    "bjdCode": "4165025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 144,
+      "u85": 16,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48782304",
@@ -245,7 +525,21 @@
     "sigunguCode": "41650",
     "sido": "경기도",
     "sigungu": "연천군",
-    "hhldCnt": 310
+    "hhldCnt": 310,
+    "jibunAddr": "경기도 포천시 소흘읍 송우리 730-1 포천영화아이닉스아파트",
+    "builder": "영화건설",
+    "entrance": "계단식",
+    "useArea": "37869.6",
+    "bjdCode": "4165025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 310,
+      "o135": 0
+    }
   },
   {
     "code": "A48782305",
@@ -257,7 +551,21 @@
     "sigunguCode": "41650",
     "sido": "경기도",
     "sigungu": "연천군",
-    "hhldCnt": 489
+    "hhldCnt": 489,
+    "jibunAddr": "경기도 포천시 소흘읍 송우리 150 원일산호1차",
+    "builder": "원일건설",
+    "entrance": "혼합식",
+    "useArea": "41667.3",
+    "bjdCode": "4165025021",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 187,
+      "u85": 182,
+      "u135": 120,
+      "o135": 0
+    }
   },
   {
     "code": "A48782306",
@@ -269,7 +577,21 @@
     "sigunguCode": "41650",
     "sido": "경기도",
     "sigungu": "연천군",
-    "hhldCnt": 632
+    "hhldCnt": 632,
+    "jibunAddr": "경기도 포천시 소흘읍 송우리 725-7 포천2차 대방노블랜드",
+    "builder": "대방건설(주)",
+    "entrance": "계단식",
+    "useArea": "68269.56",
+    "bjdCode": "4165025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 276,
+      "u135": 316,
+      "o135": 40
+    }
   },
   {
     "code": "A48782308",
@@ -280,7 +602,21 @@
     "emd": "소흘읍",
     "sigunguCode": "41650",
     "sido": "경기도",
-    "sigungu": "연천군"
+    "sigungu": "연천군",
+    "jibunAddr": "경기도 포천시 소흘읍 송우리 392-12 전원우정",
+    "builder": "우정건설(주)",
+    "entrance": "계단식",
+    "useArea": "66791.328",
+    "bjdCode": "4165025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 414,
+      "u85": 494,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48782310",
@@ -292,7 +628,21 @@
     "sigunguCode": "41650",
     "sido": "경기도",
     "sigungu": "연천군",
-    "hhldCnt": 1184
+    "hhldCnt": 1184,
+    "jibunAddr": "경기도 포천시 소흘읍 송우리 725-6 송천마을뜨란채2단지",
+    "builder": "신성건설,경남건설",
+    "entrance": "계단식",
+    "useArea": "97010.26",
+    "bjdCode": "4165025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1184,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48782311",
@@ -304,7 +654,21 @@
     "sigunguCode": "41650",
     "sido": "경기도",
     "sigungu": "연천군",
-    "hhldCnt": 1803
+    "hhldCnt": 1803,
+    "jibunAddr": "경기도 포천시 소흘읍 송우리 727-2 태봉마을주공아파트",
+    "builder": "대한주택공사",
+    "entrance": "계단식",
+    "useArea": "120938.69",
+    "bjdCode": "4165025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 1143,
+      "u85": 660,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48782312",
@@ -316,7 +680,21 @@
     "sigunguCode": "41650",
     "sido": "경기도",
     "sigungu": "연천군",
-    "hhldCnt": 1531
+    "hhldCnt": 1531,
+    "jibunAddr": "경기도 포천시 소흘읍 송우리 729-11 포천송우4",
+    "builder": "마스터건설",
+    "entrance": "복도식",
+    "useArea": "60676.57",
+    "bjdCode": "4165025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 1531,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48782403",
@@ -328,7 +706,21 @@
     "sigunguCode": "41650",
     "sido": "경기도",
     "sigungu": "연천군",
-    "hhldCnt": 292
+    "hhldCnt": 292,
+    "jibunAddr": "경기도 포천시 소흘읍 송우리 222-51 한국개나리",
+    "builder": "한국종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "18602.52",
+    "bjdCode": "4165025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 240,
+      "u85": 52,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48782607",
@@ -340,7 +732,21 @@
     "sigunguCode": "41650",
     "sido": "경기도",
     "sigungu": "연천군",
-    "hhldCnt": 672
+    "hhldCnt": 672,
+    "jibunAddr": "경기도 포천시 소흘읍 이동교리 256 대방노블랜드1차",
+    "builder": "대방건설(주)",
+    "entrance": "계단식",
+    "useArea": "44386.1216",
+    "bjdCode": "4165025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 292,
+      "u85": 380,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48782709",
@@ -352,7 +758,21 @@
     "sigunguCode": "41650",
     "sido": "경기도",
     "sigungu": "연천군",
-    "hhldCnt": 998
+    "hhldCnt": 998,
+    "jibunAddr": "경기도 포천시 소흘읍 초가팔리 336 상운아파트",
+    "builder": "상운종합건설(주)",
+    "entrance": "복도식",
+    "useArea": "55677.78",
+    "bjdCode": "4165025028",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 998,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022875",
@@ -363,7 +783,21 @@
     "emd": "군내면",
     "sigunguCode": "41650",
     "sido": "경기도",
-    "sigungu": "연천군"
+    "sigungu": "연천군",
+    "jibunAddr": "경기도 포천시 군내면 구읍리 655 포천금호어울림센트럴",
+    "builder": "금호건설",
+    "entrance": "계단식",
+    "useArea": "49136.5752",
+    "bjdCode": "4165031021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 579,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026582",
@@ -375,7 +809,21 @@
     "sigunguCode": "41650",
     "sido": "경기도",
     "sigungu": "연천군",
-    "hhldCnt": 461
+    "hhldCnt": 461,
+    "jibunAddr": "경기도 포천시 군내면 구읍리 743 포천 아이파크2차",
+    "builder": "현대산업개발",
+    "entrance": "계단식",
+    "useArea": "34278.1588",
+    "bjdCode": "4165031021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 180,
+      "u85": 237,
+      "u135": 44,
+      "o135": 0
+    }
   },
   {
     "code": "A10026844",
@@ -387,7 +835,21 @@
     "sigunguCode": "41650",
     "sido": "경기도",
     "sigungu": "연천군",
-    "hhldCnt": 498
+    "hhldCnt": 498,
+    "jibunAddr": "경기도 포천시 군내면 구읍리 740 포천아이파크아파트",
+    "builder": "현대산업개발",
+    "entrance": "계단식",
+    "useArea": "34765.0411",
+    "bjdCode": "4165031021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 237,
+      "u85": 261,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022972",
@@ -399,7 +861,21 @@
     "sigunguCode": "41650",
     "sido": "경기도",
     "sigungu": "연천군",
-    "hhldCnt": 437
+    "hhldCnt": 437,
+    "jibunAddr": "경기도 포천시 군내면 용정리 475-1 포천용정대광로제비앙아파트",
+    "builder": "(주)대광건영",
+    "entrance": "계단식",
+    "useArea": "29001.3289",
+    "bjdCode": "4165031022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 318,
+      "u85": 119,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026181",
@@ -411,7 +887,21 @@
     "sigunguCode": "41650",
     "sido": "경기도",
     "sigungu": "연천군",
-    "hhldCnt": 342
+    "hhldCnt": 342,
+    "jibunAddr": "경기도 포천시 군내면 용정리 475 포천행복주택 포애뜰아파트",
+    "builder": "한일건설주식회사",
+    "entrance": "복도식",
+    "useArea": "12117.22",
+    "bjdCode": "4165031022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 342,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020393",
@@ -423,7 +913,21 @@
     "sigunguCode": "41650",
     "sido": "경기도",
     "sigungu": "연천군",
-    "hhldCnt": 406
+    "hhldCnt": 406,
+    "jibunAddr": "경기도 포천시 가산면 감암리 568- 포천삼일파라뷰아파트",
+    "builder": "(주)삼일건설",
+    "entrance": "계단식",
+    "useArea": "34062.88",
+    "bjdCode": "4165033022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 11,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022114",
@@ -435,7 +939,21 @@
     "sigunguCode": "41650",
     "sido": "경기도",
     "sigungu": "연천군",
-    "hhldCnt": 156
+    "hhldCnt": 156,
+    "jibunAddr": "경기도 포천시 신북면 가채리 30-2 거산아파트",
+    "builder": "거산건설",
+    "entrance": "계단식",
+    "useArea": "7854.84",
+    "bjdCode": "4165034021",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 156,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48791101",
@@ -447,7 +965,21 @@
     "sigunguCode": "41650",
     "sido": "경기도",
     "sigungu": "연천군",
-    "hhldCnt": 226
+    "hhldCnt": 226,
+    "jibunAddr": "경기도 포천시 신북면 가채리 929 포미재",
+    "builder": "(주)신아",
+    "entrance": "계단식",
+    "useArea": "15931.9358",
+    "bjdCode": "4165034021",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 226,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48791102",
@@ -459,7 +991,21 @@
     "sigunguCode": "41650",
     "sido": "경기도",
     "sigungu": "연천군",
-    "hhldCnt": 299
+    "hhldCnt": 299,
+    "jibunAddr": "경기도 포천시 신북면 기지리 101-6 신포천",
+    "builder": "화원건설",
+    "entrance": "복도식",
+    "useArea": "14189.28",
+    "bjdCode": "4165034022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 299,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48791103",
@@ -471,7 +1017,21 @@
     "sigunguCode": "41650",
     "sido": "경기도",
     "sigungu": "연천군",
-    "hhldCnt": 479
+    "hhldCnt": 479,
+    "jibunAddr": "경기도 포천시 신북면 기지리 740 산호기지그린빌아파트",
+    "builder": "(주)산호",
+    "entrance": "혼합식",
+    "useArea": "26849.652",
+    "bjdCode": "4165034022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 406,
+      "u85": 73,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48791104",
@@ -483,7 +1043,21 @@
     "sigunguCode": "41650",
     "sido": "경기도",
     "sigungu": "연천군",
-    "hhldCnt": 578
+    "hhldCnt": 578,
+    "jibunAddr": "경기도 포천시 신북면 기지리 101-3 윤중후레쉬빌",
+    "builder": "(주)윤중종합건설",
+    "entrance": "계단식",
+    "useArea": "29769.184",
+    "bjdCode": "4165034022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 578,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A48785101",
@@ -495,6 +1069,20 @@
     "sigunguCode": "41650",
     "sido": "경기도",
     "sigungu": "연천군",
-    "hhldCnt": 212
+    "hhldCnt": 212,
+    "jibunAddr": "경기도 포천시 일동면 기산리 797 기산베스트빌",
+    "builder": "기산종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "16917.982",
+    "bjdCode": "4165037023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 212,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

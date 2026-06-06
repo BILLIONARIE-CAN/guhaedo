@@ -8,7 +8,20 @@
     "emd": "숭의동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 숭의동 129-96 숭의현대아파트",
+    "builder": "현대산업개발",
+    "entrance": "복도식",
+    "useArea": "11423.82",
+    "bjdCode": "2817710100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "areaBreak": {
+      "u60": 0,
+      "u85": 54,
+      "u135": 80,
+      "o135": 0
+    }
   },
   {
     "code": "A10020565",
@@ -19,7 +32,20 @@
     "emd": "숭의동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 숭의동 0 두산위브더제니스센트럴여의",
+    "builder": "두산건설",
+    "entrance": "계단식",
+    "useArea": "107031.6312",
+    "bjdCode": "2817710100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "areaBreak": {
+      "u60": 54,
+      "u85": 315,
+      "u135": 688,
+      "o135": 58
+    }
   },
   {
     "code": "A10020903",
@@ -30,7 +56,21 @@
     "emd": "숭의동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 숭의동 362-19 힐스테이트 숭의역",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "47322.4722",
+    "bjdCode": "2817710100",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 47,
+    "areaBreak": {
+      "u60": 584,
+      "u85": 164,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022349",
@@ -41,7 +81,20 @@
     "emd": "숭의동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 숭의동 159-1 광해리드빌",
+    "builder": "(주)광해건설",
+    "entrance": "계단식",
+    "useArea": "8736.871",
+    "bjdCode": "2817710100",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 117,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023098",
@@ -52,7 +105,21 @@
     "emd": "숭의동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 숭의동 85-16 인천 석정 한신 더 휴",
+    "builder": "조합",
+    "entrance": "계단식",
+    "useArea": "12942.16",
+    "bjdCode": "2817710100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023846",
@@ -63,7 +130,21 @@
     "emd": "숭의동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 숭의동 462 스타디움센트럴시티 아파트",
+    "builder": "서희건설",
+    "entrance": "계단식",
+    "useArea": "74775.0684",
+    "bjdCode": "2817710100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 47,
+    "areaBreak": {
+      "u60": 257,
+      "u85": 735,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40281301",
@@ -74,7 +155,21 @@
     "emd": "숭의동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 숭의동 86-1 숭의 한화꿈에그린아파트",
+    "builder": "한화",
+    "entrance": "계단식",
+    "useArea": "30121.323",
+    "bjdCode": "2817710100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 156,
+      "u85": 249,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022254",
@@ -85,7 +180,21 @@
     "emd": "용현동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 용현동 646- 용현삼화아파트 ",
+    "builder": "서해건설",
+    "entrance": "복도식",
+    "useArea": "6648.48",
+    "bjdCode": "2817710200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 8,
+    "areaBreak": {
+      "u60": 114,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022902",
@@ -96,7 +205,21 @@
     "emd": "용현동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 용현동  용현자이크레스트아파트",
+    "builder": "GS건설(주),금호건설(주),(주)태영건설, (주신성건설",
+    "entrance": "계단식",
+    "useArea": "167451.78",
+    "bjdCode": "2817710200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 34,
+    "areaBreak": {
+      "u60": 757,
+      "u85": 1520,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023168",
@@ -107,7 +230,21 @@
     "emd": "용현동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 용현동 627-108 용현오션뷰경남아너스빌아파트",
+    "builder": "경남기업(주)",
+    "entrance": "계단식",
+    "useArea": "19202.104",
+    "bjdCode": "2817710200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 37,
+    "areaBreak": {
+      "u60": 232,
+      "u85": 71,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025803",
@@ -118,7 +255,21 @@
     "emd": "용현동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 용현동  용현엘크루윈드포레 ",
+    "builder": "대우조선해양",
+    "entrance": "혼합식",
+    "useArea": "59004.17",
+    "bjdCode": "2817710200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 312,
+      "u85": 558,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025857",
@@ -129,7 +280,21 @@
     "emd": "용현동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 용현동  인천LH미추홀3단지아파트",
+    "builder": "(주)동양,동일건설(주)",
+    "entrance": "복도식",
+    "useArea": "37613.23",
+    "bjdCode": "2817710200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 1500,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027496",
@@ -140,7 +305,21 @@
     "emd": "용현동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 용현동 664 인천에스케이스카이뷰",
+    "builder": "(주)SK건설",
+    "entrance": "계단식",
+    "useArea": "334818.0013",
+    "bjdCode": "2817710200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 40,
+    "areaBreak": {
+      "u60": 800,
+      "u85": 2282,
+      "u135": 889,
+      "o135": 0
+    }
   },
   {
     "code": "A40202001",
@@ -151,7 +330,21 @@
     "emd": "용현동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 용현동 627-534 용현신창미션힐아파트",
+    "builder": "주식회사 신창건설",
+    "entrance": "계단식",
+    "useArea": "58759.2174",
+    "bjdCode": "2817710200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 433,
+      "u85": 388,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40202203",
@@ -162,7 +355,21 @@
     "emd": "용현동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 용현동 649 용현성원상떼빌",
+    "builder": "성원건설",
+    "entrance": "계단식",
+    "useArea": "46711.335",
+    "bjdCode": "2817710200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 550,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40202205",
@@ -173,7 +380,21 @@
     "emd": "용현동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 용현동 557-1 용현유원아파트",
+    "builder": "유원건설(주)",
+    "entrance": "혼합식",
+    "useArea": "76585.4",
+    "bjdCode": "2817710200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 145,
+      "u85": 710,
+      "u135": 86,
+      "o135": 0
+    }
   },
   {
     "code": "A40273202",
@@ -184,7 +405,21 @@
     "emd": "용현동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 용현동 572-3 용현동아고층",
+    "builder": "동아산업개발",
+    "entrance": "계단식",
+    "useArea": "33823.25",
+    "bjdCode": "2817710200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 400,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40273506",
@@ -195,7 +430,21 @@
     "emd": "용현동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 용현동 610-113 용현 동아(저층) 아파트",
+    "builder": "00",
+    "entrance": "계단식",
+    "useArea": "26181",
+    "bjdCode": "2817710200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 492,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40273702",
@@ -206,7 +455,21 @@
     "emd": "용현동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 용현동 611-4 용현 서해 아파트",
+    "builder": "(주)서해종합건설",
+    "entrance": "혼합식",
+    "useArea": "22397.39",
+    "bjdCode": "2817710200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 120,
+      "u85": 179,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40273805",
@@ -217,7 +480,21 @@
     "emd": "용현동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 용현동 615-7 용현 우성 아파트",
+    "builder": "우성건설",
+    "entrance": "혼합식",
+    "useArea": "29874.27",
+    "bjdCode": "2817710200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 187,
+      "u85": 221,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40273904",
@@ -228,7 +505,21 @@
     "emd": "용현동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 용현동 627-457 용현 윤성 아파트",
+    "builder": "대도윤성건설",
+    "entrance": "혼합식",
+    "useArea": "26124.24",
+    "bjdCode": "2817710200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 180,
+      "u85": 80,
+      "u135": 108,
+      "o135": 0
+    }
   },
   {
     "code": "A40274001",
@@ -239,7 +530,21 @@
     "emd": "용현동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 용현동 627-47 용현 한국 아파트",
+    "builder": "한국종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "21746.112",
+    "bjdCode": "2817710200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 154,
+      "u85": 120,
+      "u135": 24,
+      "o135": 0
+    }
   },
   {
     "code": "A40274103",
@@ -250,7 +555,21 @@
     "emd": "용현동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 용현동 627-105 용현 한양2차 아파트",
+    "builder": "금아산업(주)",
+    "entrance": "혼합식",
+    "useArea": "29282.43",
+    "bjdCode": "2817710200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 16,
+    "areaBreak": {
+      "u60": 1,
+      "u85": 287,
+      "u135": 64,
+      "o135": 0
+    }
   },
   {
     "code": "A40274208",
@@ -261,7 +580,21 @@
     "emd": "용현동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 용현동 627-78 용현 한양1차 아파트",
+    "builder": "(주)한양",
+    "entrance": "혼합식",
+    "useArea": "48743.2",
+    "bjdCode": "2817710200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 100,
+      "u85": 454,
+      "u135": 52,
+      "o135": 0
+    }
   },
   {
     "code": "A40276109",
@@ -272,7 +605,21 @@
     "emd": "용현동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 용현동 627-40 용현금호타운",
+    "builder": "광주고속",
+    "entrance": "계단식",
+    "useArea": "113415.3",
+    "bjdCode": "2817710200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 810,
+      "u135": 180,
+      "o135": 180
+    }
   },
   {
     "code": "A40276110",
@@ -283,7 +630,21 @@
     "emd": "용현동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 용현동 647 용현 금호2차 아파트",
+    "builder": "(주)금호건설",
+    "entrance": "계단식",
+    "useArea": "111679.76",
+    "bjdCode": "2817710200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 194,
+      "u85": 796,
+      "u135": 316,
+      "o135": 0
+    }
   },
   {
     "code": "A40276207",
@@ -294,7 +655,21 @@
     "emd": "용현동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 용현동 627-79 용현대림아파트",
+    "builder": "대림산업주식회사",
+    "entrance": "계단식",
+    "useArea": "57536.18",
+    "bjdCode": "2817710200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 442,
+      "u135": 156,
+      "o135": 0
+    }
   },
   {
     "code": "A40279101",
@@ -305,7 +680,21 @@
     "emd": "용현동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 용현동 652 용현금호어울림3단지",
+    "builder": "금호산업",
+    "entrance": "계단식",
+    "useArea": "14011.184",
+    "bjdCode": "2817710200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 28,
+      "u85": 152,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40279102",
@@ -316,7 +705,21 @@
     "emd": "용현동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 용현동 653 금호어울림4단지",
+    "builder": "금호건설",
+    "entrance": "계단식",
+    "useArea": "15600.2418",
+    "bjdCode": "2817710200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 67,
+      "u85": 142,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40279103",
@@ -327,7 +730,21 @@
     "emd": "용현동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 용현동 656 용현엠코타운",
+    "builder": "(주)현대엠코",
+    "entrance": "계단식",
+    "useArea": "13548.5152",
+    "bjdCode": "2817710200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 25,
+      "u85": 146,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40279301",
@@ -338,7 +755,21 @@
     "emd": "용현동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 용현동 659 용현엑슬루타워",
+    "builder": "풍림산업(주)",
+    "entrance": "계단식",
+    "useArea": "63360.9319",
+    "bjdCode": "2817710200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 51,
+    "areaBreak": {
+      "u60": 115,
+      "u85": 74,
+      "u135": 441,
+      "o135": 0
+    }
   },
   {
     "code": "A40283301",
@@ -349,7 +780,21 @@
     "emd": "용현동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 용현동 565-95 용현 삼익 아파트",
+    "builder": "삼익상사(주)",
+    "entrance": "복도식",
+    "useArea": "14810.34",
+    "bjdCode": "2817710200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 108,
+      "u135": 60,
+      "o135": 0
+    }
   },
   {
     "code": "A40283304",
@@ -360,7 +805,21 @@
     "emd": "용현동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 용현동 573-2 용현 대우 아파트",
+    "builder": "대우건설",
+    "entrance": "계단식",
+    "useArea": "51084.352",
+    "bjdCode": "2817710200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 616,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020173",
@@ -371,7 +830,20 @@
     "emd": "학익동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 학익동 0 포레나인천학익",
+    "builder": "(주)한화건설",
+    "entrance": "계단식",
+    "useArea": "47855.6359",
+    "bjdCode": "2817710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "areaBreak": {
+      "u60": 59,
+      "u85": 318,
+      "u135": 185,
+      "o135": 0
+    }
   },
   {
     "code": "A10020871",
@@ -382,7 +854,21 @@
     "emd": "학익동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 학익동 - 시티오씨엘4단지",
+    "builder": "포스코건설",
+    "entrance": "계단식",
+    "useArea": "36336.08",
+    "bjdCode": "2817710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 40,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 362,
+      "u135": 66,
+      "o135": 0
+    }
   },
   {
     "code": "A10020955",
@@ -393,7 +879,21 @@
     "emd": "학익동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 학익동 - 시티오씨엘3단지아파트",
+    "builder": "HDC현대산업개발",
+    "entrance": "계단식",
+    "useArea": "84004.7662",
+    "bjdCode": "2817710300",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 46,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 805,
+      "u135": 170,
+      "o135": 2
+    }
   },
   {
     "code": "A10022122",
@@ -404,7 +904,20 @@
     "emd": "학익동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 학익동 683-2 학익대동6차아파트",
+    "builder": "대동건설",
+    "entrance": "계단식",
+    "useArea": "5577.36",
+    "bjdCode": "2817710300",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 120,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022123",
@@ -415,7 +928,21 @@
     "emd": "학익동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 학익동 684-4 학익대동5차아파트",
+    "builder": "대동건설",
+    "entrance": "계단식",
+    "useArea": "13309.02",
+    "bjdCode": "2817710300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 282,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022292",
@@ -426,7 +953,21 @@
     "emd": "학익동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 학익동 220- 학익 SK뷰 ",
+    "builder": "SK 에코플랜트 ",
+    "entrance": "계단식",
+    "useArea": "104544.2612",
+    "bjdCode": "2817710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022705",
@@ -437,7 +978,21 @@
     "emd": "학익동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 학익동  시티오씨엘 1단지",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "92908.4355",
+    "bjdCode": "2817710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 42,
+    "areaBreak": {
+      "u60": 155,
+      "u85": 839,
+      "u135": 137,
+      "o135": 0
+    }
   },
   {
     "code": "A10023491",
@@ -448,7 +1003,21 @@
     "emd": "학익동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 학익동 745 미추홀트루엘파크아파트",
+    "builder": "일성건설",
+    "entrance": "계단식",
+    "useArea": "21209.846",
+    "bjdCode": "2817710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 27,
+    "areaBreak": {
+      "u60": 250,
+      "u85": 86,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024217",
@@ -459,7 +1028,21 @@
     "emd": "학익동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 학익동  힐스테이트학익아파트",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "47916.4496",
+    "bjdCode": "2817710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 40,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 616,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025355",
@@ -470,7 +1053,21 @@
     "emd": "학익동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 학익동 682-1 학익하나2차아파트",
+    "builder": "(주)한국공영",
+    "entrance": "계단식",
+    "useArea": "9974.311",
+    "bjdCode": "2817710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 40,
+      "u85": 42,
+      "u135": 32,
+      "o135": 0
+    }
   },
   {
     "code": "A40204001",
@@ -481,7 +1078,21 @@
     "emd": "학익동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 학익동 739 학익두산위브",
+    "builder": "두산건설주식회사",
+    "entrance": "계단식",
+    "useArea": "44656.069",
+    "bjdCode": "2817710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 34,
+    "areaBreak": {
+      "u60": 80,
+      "u85": 100,
+      "u135": 130,
+      "o135": 122
+    }
   },
   {
     "code": "A40204101",
@@ -492,7 +1103,21 @@
     "emd": "학익동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 학익동 686-12 학익현광2차",
+    "builder": "현광건설",
+    "entrance": "혼합식",
+    "useArea": "12709.48",
+    "bjdCode": "2817710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 57,
+      "u85": 114,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40204104",
@@ -503,7 +1128,21 @@
     "emd": "학익동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 학익동 681-6 학익1차하나",
+    "builder": "(주) 한국공영",
+    "entrance": "혼합식",
+    "useArea": "20288.38",
+    "bjdCode": "2817710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리(직영+위탁)",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 136,
+      "u85": 176,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40204106",
@@ -514,7 +1153,21 @@
     "emd": "학익동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 학익동 702-2 학익원흥",
+    "builder": "원흥종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "28097.08",
+    "bjdCode": "2817710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 220,
+      "u85": 176,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40204107",
@@ -525,7 +1178,21 @@
     "emd": "학익동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 학익동 671-2 영남들국화아파트",
+    "builder": "영남주택",
+    "entrance": "계단식",
+    "useArea": "22987.92",
+    "bjdCode": "2817710300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 420,
+      "u85": 24,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40204109",
@@ -536,7 +1203,21 @@
     "emd": "학익동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 학익동 719 학익동아풍림",
+    "builder": "동아건설산업(주),풍림산업(주)",
+    "entrance": "계단식",
+    "useArea": "159208",
+    "bjdCode": "2817710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 240,
+      "u85": 520,
+      "u135": 320,
+      "o135": 400
+    }
   },
   {
     "code": "A40204110",
@@ -547,7 +1228,21 @@
     "emd": "학익동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 학익동 721 학익풍림아이원",
+    "builder": "풍림산업",
+    "entrance": "계단식",
+    "useArea": "181425.8815",
+    "bjdCode": "2817710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 446,
+      "u85": 1327,
+      "u135": 221,
+      "o135": 96
+    }
   },
   {
     "code": "A40276901",
@@ -558,7 +1253,21 @@
     "emd": "학익동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 학익동 732-3 학익엑슬루타워",
+    "builder": "풍림산업(주)",
+    "entrance": "혼합식",
+    "useArea": "72564.876",
+    "bjdCode": "2817710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 52,
+    "areaBreak": {
+      "u60": 109,
+      "u85": 0,
+      "u135": 556,
+      "o135": 42
+    }
   },
   {
     "code": "A40277408",
@@ -569,7 +1278,21 @@
     "emd": "학익동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 학익동 413-1 학익장미1차",
+    "builder": "신환종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "48252.25",
+    "bjdCode": "2817710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 239,
+      "u135": 341,
+      "o135": 0
+    }
   },
   {
     "code": "A40277503",
@@ -580,7 +1303,21 @@
     "emd": "학익동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 학익동 707-5 학익정광산호",
+    "builder": "정광종합건설",
+    "entrance": "계단식",
+    "useArea": "21244.28",
+    "bjdCode": "2817710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 156,
+      "u85": 84,
+      "u135": 40,
+      "o135": 0
+    }
   },
   {
     "code": "A40277602",
@@ -591,7 +1328,21 @@
     "emd": "학익동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 학익동 703-2 학익태산",
+    "builder": "(주)태산",
+    "entrance": "계단식",
+    "useArea": "17018.7948",
+    "bjdCode": "2817710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 168,
+      "u85": 84,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40277705",
@@ -602,7 +1353,21 @@
     "emd": "학익동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 학익동 711-3 학익현광1차",
+    "builder": "현광종합건설",
+    "entrance": "계단식",
+    "useArea": "27118.92",
+    "bjdCode": "2817710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 145,
+      "u85": 165,
+      "u135": 38,
+      "o135": 0
+    }
   },
   {
     "code": "A40277802",
@@ -613,7 +1378,21 @@
     "emd": "학익동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 학익동 36-10 학익 서원 아파트",
+    "builder": "서원건설",
+    "entrance": "계단식",
+    "useArea": "18110.7",
+    "bjdCode": "2817710300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 342,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40277901",
@@ -624,7 +1403,21 @@
     "emd": "학익동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 학익동 41-3 학익신동아6차 아파트",
+    "builder": "신동아건설",
+    "entrance": "계단식",
+    "useArea": "23395.94",
+    "bjdCode": "2817710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 194,
+      "u135": 60,
+      "o135": 0
+    }
   },
   {
     "code": "A40277903",
@@ -635,7 +1428,21 @@
     "emd": "학익동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 학익동 645 학익 신동아7차 아파트",
+    "builder": "(주)신동아패밀리",
+    "entrance": "혼합식",
+    "useArea": "44735.4",
+    "bjdCode": "2817710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 192,
+      "u85": 168,
+      "u135": 150,
+      "o135": 0
+    }
   },
   {
     "code": "A40277904",
@@ -646,7 +1453,21 @@
     "emd": "학익동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 학익동 50 학익 신동아8차 아파트",
+    "builder": "신동아건설",
+    "entrance": "혼합식",
+    "useArea": "40136.4",
+    "bjdCode": "2817710300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 218,
+      "u85": 320,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40277905",
@@ -657,7 +1478,21 @@
     "emd": "학익동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 학익동 48-1 학익신동아5차아파트",
+    "builder": "신동아 건설",
+    "entrance": "혼합식",
+    "useArea": "57655.68",
+    "bjdCode": "2817710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 72,
+      "u85": 252,
+      "u135": 210,
+      "o135": 60
+    }
   },
   {
     "code": "A40277906",
@@ -668,7 +1503,21 @@
     "emd": "학익동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 학익동 48-2 주안신동아4차아파트",
+    "builder": "신동아건설",
+    "entrance": "혼합식",
+    "useArea": "47905.5",
+    "bjdCode": "2817710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 300,
+      "u85": 180,
+      "u135": 150,
+      "o135": 0
+    }
   },
   {
     "code": "A40277907",
@@ -679,7 +1528,21 @@
     "emd": "학익동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 학익동 48-14 학익 신동아3차 아파트",
+    "builder": "신동아건설(주)",
+    "entrance": "혼합식",
+    "useArea": "76194.06",
+    "bjdCode": "2817710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 204,
+      "u85": 438,
+      "u135": 192,
+      "o135": 60
+    }
   },
   {
     "code": "A40277908",
@@ -690,7 +1553,21 @@
     "emd": "학익동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 학익동 125-1 학익 신동아 1,2차 아파트",
+    "builder": "신동아건설",
+    "entrance": "혼합식",
+    "useArea": "54905.8",
+    "bjdCode": "2817710300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 534,
+      "u85": 404,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022204",
@@ -701,7 +1578,20 @@
     "emd": "도화동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 도화동 108-1 TS굿모닝아파트",
+    "builder": "(주)티에스건설",
+    "entrance": "혼합식",
+    "useArea": "11218.54",
+    "bjdCode": "2817710400",
+    "mgrType": "자치관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 46,
+      "u85": 101,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022886",
@@ -712,7 +1602,21 @@
     "emd": "도화동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 도화동 377-1 주안역 미추홀 더 리브 아파트",
+    "builder": "SGC이테크건설(주)",
+    "entrance": "계단식",
+    "useArea": "27652.1972",
+    "bjdCode": "2817710400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 27,
+    "areaBreak": {
+      "u60": 26,
+      "u85": 313,
+      "u135": 6,
+      "o135": 0
+    }
   },
   {
     "code": "A10024481",
@@ -723,7 +1627,21 @@
     "emd": "도화동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 도화동 987 도화역 금강펜테리움 센트럴파크",
+    "builder": "(주)금강주택",
+    "entrance": "계단식",
+    "useArea": "31348.72",
+    "bjdCode": "2817710400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 327,
+      "u85": 152,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024527",
@@ -734,7 +1652,21 @@
     "emd": "도화동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 도화동 1002 더샵인천스카이타워2단지",
+    "builder": "포스코",
+    "entrance": "기타",
+    "useArea": "47661.6054",
+    "bjdCode": "2817710400",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 49,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 588,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024528",
@@ -745,7 +1677,21 @@
     "emd": "도화동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 도화동 1011 더샵인천스카이타워1단지아파트",
+    "builder": "포스코건설",
+    "entrance": "계단식",
+    "useArea": "104736.2987",
+    "bjdCode": "2817710400",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 49,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1309,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025394",
@@ -756,7 +1702,21 @@
     "emd": "도화동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 도화동 431-3 한승미메이드주상복합아파트",
+    "builder": "한승종합건설",
+    "entrance": "복도식",
+    "useArea": "6332.913",
+    "bjdCode": "2817710400",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 93,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026406",
@@ -767,7 +1727,21 @@
     "emd": "도화동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 도화동  e편한세상도화6-1단지아파트",
+    "builder": "대림산업",
+    "entrance": "계단식",
+    "useArea": "84042.02",
+    "bjdCode": "2817710400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 319,
+      "u85": 854,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026412",
@@ -778,7 +1752,21 @@
     "emd": "도화동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 도화동  이(e)편한세상 도화5단지아파트",
+    "builder": "대림산업(주)",
+    "entrance": "계단식",
+    "useArea": "73366.64",
+    "bjdCode": "2817710400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 230,
+      "u85": 702,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026449",
@@ -789,7 +1777,21 @@
     "emd": "도화동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 도화동  도화6-2단지 e편한세상",
+    "builder": "(주)대림산업",
+    "entrance": "계단식",
+    "useArea": "32452.56",
+    "bjdCode": "2817710400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 548,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027342",
@@ -800,7 +1802,21 @@
     "emd": "도화동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 도화동 1007 도화서희스타힐스",
+    "builder": "서희건설",
+    "entrance": "계단식",
+    "useArea": "34694.99",
+    "bjdCode": "2817710400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 28,
+    "areaBreak": {
+      "u60": 286,
+      "u85": 234,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40206001",
@@ -811,7 +1827,21 @@
     "emd": "도화동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 도화동 984 도화역대성유니드아파트",
+    "builder": "대성산업(주)",
+    "entrance": "혼합식",
+    "useArea": "19517.831",
+    "bjdCode": "2817710400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 129,
+      "u85": 98,
+      "u135": 38,
+      "o135": 0
+    }
   },
   {
     "code": "A40271801",
@@ -822,7 +1852,21 @@
     "emd": "도화동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 도화동 601-2 도화 나산 아파트",
+    "builder": "나산종합건설(주)",
+    "entrance": "혼합식",
+    "useArea": "15487.47",
+    "bjdCode": "2817710400",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 97,
+      "u85": 114,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40271903",
@@ -833,7 +1877,21 @@
     "emd": "도화동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 도화동 601-1 동아",
+    "builder": "동아건설",
+    "entrance": "계단식",
+    "useArea": "42135.2",
+    "bjdCode": "2817710400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 496,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40272002",
@@ -844,7 +1902,21 @@
     "emd": "도화동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 도화동 557-1 도화 동원 아파트",
+    "builder": "동원건설",
+    "entrance": "계단식",
+    "useArea": "17651.25",
+    "bjdCode": "2817710400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 375,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40274901",
@@ -855,7 +1927,21 @@
     "emd": "도화동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 도화동 982 도화신동아파밀리에",
+    "builder": "신동아건설",
+    "entrance": "계단식",
+    "useArea": "33611.722",
+    "bjdCode": "2817710400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 33,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 394,
+      "u135": 2,
+      "o135": 0
+    }
   },
   {
     "code": "A10020588",
@@ -867,7 +1953,19 @@
     "sigunguCode": "28177",
     "sido": "인천광역시",
     "sigungu": "미추홀구",
-    "hhldCnt": 80
+    "hhldCnt": 80,
+    "jibunAddr": "인천광역시 미추홀구 주안동 929-16 보미리즌빌",
+    "builder": " ",
+    "useArea": "6798.4",
+    "bjdCode": "2817710500",
+    "aptType": "주상복합",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020652",
@@ -878,7 +1976,21 @@
     "emd": "주안동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 주안동 882-1 주안극동스타클래스더로얄",
+    "builder": "극동건설(주)",
+    "entrance": "계단식",
+    "useArea": "17230.3703",
+    "bjdCode": "2817710500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 33,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021055",
@@ -889,7 +2001,21 @@
     "emd": "주안동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 주안동 26-8 주안태화아파트",
+    "builder": "주식회사 태화주택",
+    "entrance": "복도식",
+    "useArea": "11453.36",
+    "bjdCode": "2817710500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 63,
+      "u85": 40,
+      "u135": 40,
+      "o135": 0
+    }
   },
   {
     "code": "A10021589",
@@ -900,7 +2026,21 @@
     "emd": "주안동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 주안동 15-38 대산고운누리아파트",
+    "builder": "대산종합건설",
+    "entrance": "계단식",
+    "useArea": "7783.7517",
+    "bjdCode": "2817710500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 42,
+      "u85": 72,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022529",
@@ -912,7 +2052,21 @@
     "sigunguCode": "28177",
     "sido": "인천광역시",
     "sigungu": "미추홀구",
-    "hhldCnt": 1146
+    "hhldCnt": 1146,
+    "jibunAddr": "인천광역시 미추홀구 주안동 1691- 더샵아르테",
+    "builder": "(주)포스코이앤씨",
+    "entrance": "계단식",
+    "useArea": "73773.7012",
+    "bjdCode": "2817710500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022773",
@@ -923,7 +2077,21 @@
     "emd": "주안동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 주안동 1344-1 e편한세상 주안에듀서밋아파트",
+    "builder": "디엘건설",
+    "entrance": "계단식",
+    "useArea": "28092.736",
+    "bjdCode": "2817710500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리(직영+위탁)",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 386,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023151",
@@ -934,7 +2102,21 @@
     "emd": "주안동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 주안동 1425-2 힐스테이트푸르지오주안",
+    "builder": "대우푸르지오,현대힐스테이트",
+    "entrance": "계단식",
+    "useArea": "402147.88",
+    "bjdCode": "2817710500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 40,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023342",
@@ -945,7 +2127,21 @@
     "emd": "주안동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 주안동 830 주안파크자이더플래티넘",
+    "builder": "GS건설",
+    "entrance": "혼합식",
+    "useArea": "133230.9679",
+    "bjdCode": "2817710500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 1238,
+      "u85": 816,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023658",
@@ -956,7 +2152,21 @@
     "emd": "주안동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 주안동  포레나 미추홀아파트",
+    "builder": "한화건설",
+    "entrance": "기타",
+    "useArea": "67374.8499",
+    "bjdCode": "2817710500",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 44,
+    "areaBreak": {
+      "u60": 70,
+      "u85": 718,
+      "u135": 72,
+      "o135": 4
+    }
   },
   {
     "code": "A10023702",
@@ -967,7 +2177,21 @@
     "emd": "주안동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 주안동 1556-59 주안캐슬앤더샵에듀포레아파트",
+    "builder": "롯데건설, 포스코건설",
+    "entrance": "계단식",
+    "useArea": "126443.2788",
+    "bjdCode": "2817710500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 35,
+    "areaBreak": {
+      "u60": 1036,
+      "u85": 820,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024133",
@@ -978,7 +2202,21 @@
     "emd": "주안동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 주안동 1638 주안역 신일해피트리아파트",
+    "builder": "신일",
+    "entrance": "계단식",
+    "useArea": "17108.292",
+    "bjdCode": "2817710500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 244,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024136",
@@ -989,7 +2227,21 @@
     "emd": "주안동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 주안동 1628 주안역센트레빌아파트",
+    "builder": "동부건설(주)",
+    "entrance": "혼합식",
+    "useArea": "95747.3527",
+    "bjdCode": "2817710500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 971,
+      "u85": 487,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025225",
@@ -1000,7 +2252,21 @@
     "emd": "주안동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 주안동 77-3 주안지웰에스테이트",
+    "builder": "신영건설(주)",
+    "entrance": "계단식",
+    "useArea": "11099.3268",
+    "bjdCode": "2817710500",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 35,
+    "areaBreak": {
+      "u60": 186,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026745",
@@ -1011,7 +2277,21 @@
     "emd": "주안동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 주안동 124-1 인천 주안역LH1단지",
+    "builder": "동일건설(주), (주)보광종합건설",
+    "entrance": "복도식",
+    "useArea": "3063.92",
+    "bjdCode": "2817710500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 140,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027516",
@@ -1022,7 +2302,21 @@
     "emd": "주안동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 주안동 29-1 주안드림시티",
+    "builder": "(주)한일종합건설",
+    "entrance": "복도식",
+    "useArea": "5829.56",
+    "bjdCode": "2817710500",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 264,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40220001",
@@ -1033,7 +2327,21 @@
     "emd": "주안동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 주안동 204-2 롯데하이텔아파트",
+    "builder": "(주)롯데기공",
+    "entrance": "복도식",
+    "useArea": "5850",
+    "bjdCode": "2817710500",
+    "aptType": "주상복합",
+    "mgrType": "자치관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 165,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40220002",
@@ -1044,7 +2352,21 @@
     "emd": "주안동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 주안동 115-1 주안웰가도시형생활주택",
+    "builder": "흥한건설",
+    "entrance": "복도식",
+    "useArea": "4211.2",
+    "bjdCode": "2817710500",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 312,
+      "u85": 8,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40220603",
@@ -1055,7 +2377,21 @@
     "emd": "주안동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 주안동 1614 주안더월드스테이트단지",
+    "builder": "벽산,풍림",
+    "entrance": "계단식",
+    "useArea": "256676.49",
+    "bjdCode": "2817710500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 35,
+    "areaBreak": {
+      "u60": 1373,
+      "u85": 1251,
+      "u135": 536,
+      "o135": 0
+    }
   },
   {
     "code": "A40220802",
@@ -1066,7 +2402,21 @@
     "emd": "주안동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 주안동 1607 주안 휴플러스아파트",
+    "builder": "한신공영(주)",
+    "entrance": "혼합식",
+    "useArea": "37449.92",
+    "bjdCode": "2817710500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 136,
+      "u85": 358,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40270206",
@@ -1077,7 +2427,21 @@
     "emd": "주안동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 주안동 1621 관교한신휴플러스",
+    "builder": "한신공영(주)",
+    "entrance": "계단식",
+    "useArea": "116854.7336",
+    "bjdCode": "2817710500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 564,
+      "u85": 826,
+      "u135": 119,
+      "o135": 0
+    }
   },
   {
     "code": "A40274301",
@@ -1088,7 +2452,21 @@
     "emd": "주안동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 주안동 80 주안 현대 아파트",
+    "builder": "현대건설",
+    "entrance": "복도식",
+    "useArea": "27392.43",
+    "bjdCode": "2817710500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 286,
+      "u135": 52,
+      "o135": 0
+    }
   },
   {
     "code": "A40275503",
@@ -1099,7 +2477,21 @@
     "emd": "주안동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 주안동 1443 주안 남광로얄 아파트",
+    "builder": "남광토건,로얄주택",
+    "entrance": "계단식",
+    "useArea": "35591.98",
+    "bjdCode": "2817710500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 91,
+      "u85": 253,
+      "u135": 130,
+      "o135": 0
+    }
   },
   {
     "code": "A40275801",
@@ -1110,7 +2502,21 @@
     "emd": "주안동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 주안동 1487-7 주안 광명8차 아파트",
+    "builder": "(주)광명주택",
+    "entrance": "계단식",
+    "useArea": "21697.92",
+    "bjdCode": "2817710500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 462,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40275904",
@@ -1121,7 +2527,21 @@
     "emd": "주안동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 주안동 1250 주안 쌍용 아파트",
+    "builder": "쌍용종합건설",
+    "entrance": "혼합식",
+    "useArea": "71651.32",
+    "bjdCode": "2817710500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 384,
+      "u135": 384,
+      "o135": 0
+    }
   },
   {
     "code": "A40276005",
@@ -1132,7 +2552,21 @@
     "emd": "주안동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 주안동 1600 신비마을 아파트",
+    "builder": "인천시 종합건설본부",
+    "entrance": "복도식",
+    "useArea": "50452.9",
+    "bjdCode": "2817710500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 960,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40279703",
@@ -1143,7 +2577,21 @@
     "emd": "주안동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 주안동 1606 주안 진흥 아파트",
+    "builder": "진흥기업(주)",
+    "entrance": "계단식",
+    "useArea": "66686.01",
+    "bjdCode": "2817710500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 358,
+      "u85": 278,
+      "u135": 192,
+      "o135": 0
+    }
   },
   {
     "code": "A40283601",
@@ -1154,7 +2602,21 @@
     "emd": "주안동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 주안동 32-1 주안 현광 아파트",
+    "builder": "(주)현광종합건설",
+    "entrance": "복도식",
+    "useArea": "16858.665",
+    "bjdCode": "2817710500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 180,
+      "u85": 93,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40283602",
@@ -1165,7 +2627,21 @@
     "emd": "주안동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 주안동 13-1 주안 현대홈타운 아파트",
+    "builder": "현대건설(주)",
+    "entrance": "계단식",
+    "useArea": "35284.572",
+    "bjdCode": "2817710500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 329,
+      "u135": 114,
+      "o135": 0
+    }
   },
   {
     "code": "A40284801",
@@ -1176,7 +2652,21 @@
     "emd": "주안동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 주안동 966-3 주안 광해리드빌2차",
+    "builder": "광해건설",
+    "entrance": "계단식",
+    "useArea": "5821.728",
+    "bjdCode": "2817710500",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 56,
+      "u85": 29,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40285201",
@@ -1187,7 +2677,21 @@
     "emd": "주안동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 주안동 1298 주안 금양 아파트",
+    "builder": "금양건설",
+    "entrance": "복도식",
+    "useArea": "11211.585",
+    "bjdCode": "2817710500",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 187,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40270205",
@@ -1198,7 +2702,21 @@
     "emd": "관교동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 관교동 13-11 관교동부",
+    "builder": "동부건설(주)",
+    "entrance": "계단식",
+    "useArea": "35648.13",
+    "bjdCode": "2817710600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 420,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40270503",
@@ -1209,7 +2727,21 @@
     "emd": "관교동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 관교동 13-3 관교동아",
+    "builder": "동아건설",
+    "entrance": "계단식",
+    "useArea": "50344.8",
+    "bjdCode": "2817710600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 330,
+      "o135": 60
+    }
   },
   {
     "code": "A40270602",
@@ -1220,7 +2752,21 @@
     "emd": "관교동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 관교동 13-6 관교삼환1단지",
+    "builder": "삼환기업",
+    "entrance": "계단식",
+    "useArea": "51281.12",
+    "bjdCode": "2817710600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 16,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 160,
+      "o135": 192
+    }
   },
   {
     "code": "A40270704",
@@ -1231,7 +2777,21 @@
     "emd": "관교동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 관교동 13-10 관교삼환2차",
+    "builder": "삼환까뮤",
+    "entrance": "계단식",
+    "useArea": "34809",
+    "bjdCode": "2817710600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 410,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40270806",
@@ -1242,7 +2802,21 @@
     "emd": "관교동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 관교동 13-9 관교성지아파트",
+    "builder": "성지건설(주)",
+    "entrance": "계단식",
+    "useArea": "35676.9",
+    "bjdCode": "2817710600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 420,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40271507",
@@ -1253,7 +2827,21 @@
     "emd": "관교동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 관교동 13-7 관교 쌍용 아파트",
+    "builder": "쌍용건설",
+    "entrance": "계단식",
+    "useArea": "39416.8",
+    "bjdCode": "2817710600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 464,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40271701",
@@ -1264,6 +2852,20 @@
     "emd": "관교동",
     "sigunguCode": "28177",
     "sido": "인천광역시",
-    "sigungu": "미추홀구"
+    "sigungu": "미추홀구",
+    "jibunAddr": "인천광역시 미추홀구 관교동 13-8 관교풍림",
+    "builder": "풍림",
+    "entrance": "계단식",
+    "useArea": "41109",
+    "bjdCode": "2817710600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 60,
+      "o135": 240
+    }
   }
 ]

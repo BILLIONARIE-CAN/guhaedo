@@ -8,7 +8,21 @@
     "emd": "상도동",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 상도동 466-4 상도코아루센트럴하임",
+    "builder": "우진건설(주)",
+    "entrance": "계단식",
+    "useArea": "35510.0136",
+    "bjdCode": "4711110100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 28,
+    "areaBreak": {
+      "u60": 44,
+      "u85": 404,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020457",
@@ -19,7 +33,21 @@
     "emd": "송도동",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 송도동 411- 세잔베르체아파트",
+    "builder": "세잔건설",
+    "entrance": "계단식",
+    "useArea": "8824.1322",
+    "bjdCode": "4711110400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021120",
@@ -30,7 +58,19 @@
     "emd": "송도동",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 송도동 411- 세잔베르체",
+    "builder": " ",
+    "useArea": "8824.1322",
+    "bjdCode": "4711110400",
+    "aptType": "아파트",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 104,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A79082901",
@@ -41,7 +81,21 @@
     "emd": "송도동",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 송도동 254-70 태왕아너스오션",
+    "builder": "태왕",
+    "entrance": "계단식",
+    "useArea": "50757.5311",
+    "bjdCode": "4711110400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 239,
+      "u135": 165,
+      "o135": 61
+    }
   },
   {
     "code": "A10021464",
@@ -52,7 +106,21 @@
     "emd": "청림동",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 청림동 1180- 동해진달래아파트 1차",
+    "builder": "동해건설",
+    "entrance": "계단식",
+    "useArea": "16296.61",
+    "bjdCode": "4711110500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 272,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023457",
@@ -63,7 +131,21 @@
     "emd": "일월동",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 일월동 679-458 일월LH행복주택",
+    "builder": "양우종합건설",
+    "entrance": "복도식",
+    "useArea": "15044.64",
+    "bjdCode": "4711110600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 460,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A79072402",
@@ -74,7 +156,21 @@
     "emd": "인덕동",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 인덕동 7 우방신세계1차아파트",
+    "builder": "우방",
+    "entrance": "혼합식",
+    "useArea": "25450.74",
+    "bjdCode": "4711111200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 11,
+    "areaBreak": {
+      "u60": 229,
+      "u85": 138,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A79072403",
@@ -85,7 +181,21 @@
     "emd": "인덕동",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 인덕동 161-24 소망아파트",
+    "builder": "대능건설",
+    "entrance": "혼합식",
+    "useArea": "10657.23",
+    "bjdCode": "4711111200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 299,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A79083201",
@@ -96,7 +206,21 @@
     "emd": "인덕동",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 인덕동 161-106 인덕빌라",
+    "builder": "포스코",
+    "entrance": "혼합식",
+    "useArea": "20352.32",
+    "bjdCode": "4711111200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 22,
+      "u85": 253,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A79033002",
@@ -107,7 +231,21 @@
     "emd": "효자동",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 효자동 579 효자웰빙 SK VIEW 2차",
+    "builder": "SK건설",
+    "entrance": "계단식",
+    "useArea": "43024.908",
+    "bjdCode": "4711111400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 31,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 280,
+      "o135": 84
+    }
   },
   {
     "code": "A79033003",
@@ -118,7 +256,21 @@
     "emd": "효자동",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 효자동 566 효자웰빙타운 SK VIEW",
+    "builder": "sk건설",
+    "entrance": "계단식",
+    "useArea": "119924.072",
+    "bjdCode": "4711111400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 684,
+      "u135": 441,
+      "o135": 56
+    }
   },
   {
     "code": "A79076001",
@@ -129,7 +281,21 @@
     "emd": "효자동",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 효자동 609 효자웰빙SKVIEW3차",
+    "builder": "sk건설",
+    "entrance": "기타",
+    "useArea": "59510.21",
+    "bjdCode": "4711111400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 34,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 303,
+      "u135": 126,
+      "o135": 132
+    }
   },
   {
     "code": "A79076002",
@@ -140,7 +306,21 @@
     "emd": "효자동",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 효자동 579-1 효자풍림아이원",
+    "builder": "풍림건설(주)",
+    "entrance": "계단식",
+    "useArea": "52859.09",
+    "bjdCode": "4711111400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 32,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 468,
+      "u135": 115,
+      "o135": 0
+    }
   },
   {
     "code": "A79083401",
@@ -151,7 +331,21 @@
     "emd": "효자동",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 효자동 253-6 승리행복화목마을회",
+    "builder": "대능건설",
+    "entrance": "계단식",
+    "useArea": "47190.48",
+    "bjdCode": "4711111400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 116,
+      "u85": 495,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020776",
@@ -162,7 +356,21 @@
     "emd": "지곡동",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 지곡동 230-8 승리빌라",
+    "builder": "포스코 건설",
+    "entrance": "계단식",
+    "useArea": "9352.8",
+    "bjdCode": "4711111500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021344",
@@ -173,7 +381,21 @@
     "emd": "지곡동",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 지곡동 110- 낙원아파트",
+    "builder": "자료없음",
+    "entrance": "복도식",
+    "useArea": "14986.35",
+    "bjdCode": "4711111500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 30,
+      "u135": 60,
+      "o135": 45
+    }
   },
   {
     "code": "A79075102",
@@ -184,7 +406,21 @@
     "emd": "지곡동",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 지곡동 543-1 지곡삼성그린빌라",
+    "builder": "(주)삼성물산",
+    "entrance": "계단식",
+    "useArea": "63577.008",
+    "bjdCode": "4711111500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 748,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A79075103",
@@ -195,7 +431,21 @@
     "emd": "지곡동",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 지곡동 450-1 엘지그린빌라",
+    "builder": "엘지",
+    "entrance": "계단식",
+    "useArea": "67818.828",
+    "bjdCode": "4711111500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 798,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A79075204",
@@ -206,7 +456,21 @@
     "emd": "지곡동",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 지곡동 472 효자그린1차아파트",
+    "builder": "포스코건설",
+    "entrance": "계단식",
+    "useArea": "93946",
+    "bjdCode": "4711111500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 516,
+      "u85": 772,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A79075205",
@@ -217,7 +481,21 @@
     "emd": "지곡동",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 지곡동 946 효자그린2차아파트",
+    "builder": "POSCO",
+    "entrance": "혼합식",
+    "useArea": "198466.59",
+    "bjdCode": "4711111500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 94,
+      "u85": 2270,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024902",
@@ -228,7 +506,21 @@
     "emd": "대잠동",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 대잠동 957 라온프라이빗스카이파크",
+    "builder": "(주)라온건설",
+    "entrance": "계단식",
+    "useArea": "27486.7699",
+    "bjdCode": "4711111600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 34,
+    "areaBreak": {
+      "u60": 159,
+      "u85": 212,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026048",
@@ -239,7 +531,21 @@
     "emd": "대잠동",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 대잠동 98-46 포항자이",
+    "builder": "GS건설",
+    "entrance": "계단식",
+    "useArea": "133297.983",
+    "bjdCode": "4711111600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 34,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1307,
+      "u135": 256,
+      "o135": 4
+    }
   },
   {
     "code": "A79073003",
@@ -250,7 +556,21 @@
     "emd": "대잠동",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 대잠동 469-13 이동대우아파트",
+    "builder": "(주)대우",
+    "entrance": "계단식",
+    "useArea": "33984.292",
+    "bjdCode": "4711111600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 400,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A79073004",
@@ -261,7 +581,21 @@
     "emd": "대잠동",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 대잠동 470-6 이동우방파크빌",
+    "builder": "우방건설",
+    "entrance": "계단식",
+    "useArea": "35602.6758",
+    "bjdCode": "4711111600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 272,
+      "u85": 227,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A79073105",
@@ -272,7 +606,21 @@
     "emd": "대잠동",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 대잠동 990 대잠그린파크",
+    "builder": "삼구건설(주)",
+    "entrance": "계단식",
+    "useArea": "48262.9108",
+    "bjdCode": "4711111600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 504,
+      "u135": 44,
+      "o135": 0
+    }
   },
   {
     "code": "A79073106",
@@ -283,7 +631,21 @@
     "emd": "대잠동",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 대잠동 1009 대잠센트럴하이츠",
+    "builder": "중앙건설",
+    "entrance": "계단식",
+    "useArea": "72396.2817",
+    "bjdCode": "4711111600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 432,
+      "o135": 118
+    }
   },
   {
     "code": "A79075806",
@@ -294,7 +656,21 @@
     "emd": "대잠동",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 대잠동 469-14 이동현대홈타운",
+    "builder": "현대건설(주)",
+    "entrance": "계단식",
+    "useArea": "134521.8676",
+    "bjdCode": "4711111600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 772,
+      "u135": 432,
+      "o135": 102
+    }
   },
   {
     "code": "A79082601",
@@ -305,7 +681,21 @@
     "emd": "대잠동",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 대잠동 971 대잠트리니엔",
+    "builder": "삼구건설(주)",
+    "entrance": "계단식",
+    "useArea": "21045.8621",
+    "bjdCode": "4711111600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 214,
+      "u135": 23,
+      "o135": 0
+    }
   },
   {
     "code": "A79082602",
@@ -316,7 +706,21 @@
     "emd": "대잠동",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 대잠동 970 대잠아델리아",
+    "builder": "준양준택(주)",
+    "entrance": "계단식",
+    "useArea": "29826.786",
+    "bjdCode": "4711111600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 284,
+      "u135": 50,
+      "o135": 0
+    }
   },
   {
     "code": "A79032001",
@@ -327,7 +731,21 @@
     "emd": "이동",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 이동 664-1 이동경성골드",
+    "builder": "(주)경성주택",
+    "entrance": "계단식",
+    "useArea": "19127.91095",
+    "bjdCode": "4711111700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 227,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A79072302",
@@ -338,7 +756,21 @@
     "emd": "이동",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 이동 664-5 이동그린빌명품아파트",
+    "builder": "삼구건설(주)",
+    "entrance": "계단식",
+    "useArea": "50318.0368",
+    "bjdCode": "4711111700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 160,
+      "u85": 432,
+      "u135": 40,
+      "o135": 0
+    }
   },
   {
     "code": "A10020369",
@@ -349,7 +781,21 @@
     "emd": "구룡포읍",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 구룡포읍 하정리 828- 포항푸르지오마린시티",
+    "builder": "대우건설",
+    "entrance": "계단식",
+    "useArea": "60571.6872",
+    "bjdCode": "4711125027",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 38,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A79080401",
@@ -360,7 +806,21 @@
     "emd": "구룡포읍",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 구룡포읍 병포리 122 해뜨는마을",
+    "builder": "(주)태산종합건설",
+    "entrance": "복도식",
+    "useArea": "23344.47",
+    "bjdCode": "4711125028",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 477,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020362",
@@ -371,7 +831,21 @@
     "emd": "연일읍",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 연일읍 생지리 144- 영남비취타운3차",
+    "builder": "영남주택",
+    "entrance": "계단식",
+    "useArea": "18265.41",
+    "bjdCode": "4711125321",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021839",
@@ -382,7 +856,21 @@
     "emd": "연일읍",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 연일읍 생지리 376-1 미래마을아파트",
+    "builder": "(주)대우주택",
+    "entrance": "복도식",
+    "useArea": "6372.3634",
+    "bjdCode": "4711125321",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 144,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A79075602",
@@ -393,7 +881,21 @@
     "emd": "연일읍",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 연일읍 생지리 390-3 삼도한솔2차아파트",
+    "builder": "삼도주택",
+    "entrance": "혼합식",
+    "useArea": "11184.84",
+    "bjdCode": "4711125321",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 62,
+      "u85": 88,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A79075611",
@@ -404,7 +906,21 @@
     "emd": "연일읍",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 연일읍 생지리 333-3 삼도한솔1차아파트",
+    "builder": "삼도종합건설(주)",
+    "entrance": "혼합식",
+    "useArea": "27275.7",
+    "bjdCode": "4711125321",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 285,
+      "u85": 120,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A79075614",
@@ -415,7 +931,21 @@
     "emd": "연일읍",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 연일읍 생지리 57-7 명성강변1차",
+    "builder": "해동건축사",
+    "entrance": "계단식",
+    "useArea": "12155.64",
+    "bjdCode": "4711125321",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 84,
+      "u85": 84,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A79075713",
@@ -426,7 +956,21 @@
     "emd": "연일읍",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 연일읍 생지리 399 형산강변타운",
+    "builder": "산호주택",
+    "entrance": "혼합식",
+    "useArea": "52121.64",
+    "bjdCode": "4711125321",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 402,
+      "u85": 330,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A79088301",
@@ -437,7 +981,21 @@
     "emd": "연일읍",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 연일읍 생지리 57-5 명성강변맨션2차",
+    "builder": "(주)명성주택",
+    "entrance": "계단식",
+    "useArea": "8961",
+    "bjdCode": "4711125321",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 150,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A79088304",
@@ -448,7 +1006,21 @@
     "emd": "연일읍",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 연일읍 생지리 83 대우네오빌3차아파트",
+    "builder": "대우주택(주)",
+    "entrance": "계단식",
+    "useArea": "14543.5832",
+    "bjdCode": "4711125321",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 94,
+      "u85": 105,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021694",
@@ -459,7 +1031,21 @@
     "emd": "연일읍",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 연일읍 괴정리 15- 우성한빛타운",
+    "builder": "우성하우징",
+    "entrance": "혼합식",
+    "useArea": "8489.65",
+    "bjdCode": "4711125322",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 57,
+      "u85": 62,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A79088209",
@@ -470,7 +1056,21 @@
     "emd": "연일읍",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 연일읍 동문리 141-1 삼도3차한솔타운",
+    "builder": "삼도주택",
+    "entrance": "계단식",
+    "useArea": "28070.08",
+    "bjdCode": "4711125323",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 120,
+      "u85": 226,
+      "u135": 13,
+      "o135": 0
+    }
   },
   {
     "code": "A10021639",
@@ -481,7 +1081,21 @@
     "emd": "연일읍",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 연일읍 오천리 178-1 영남비취타운1.2차",
+    "builder": "삼도주택",
+    "entrance": "계단식",
+    "useArea": "12973.55",
+    "bjdCode": "4711125324",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 165,
+      "u85": 60,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A79075612",
@@ -492,7 +1106,21 @@
     "emd": "연일읍",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 연일읍 오천리 170 대우네오빌프리미엄",
+    "builder": "대우주택",
+    "entrance": "계단식",
+    "useArea": "17632.6372",
+    "bjdCode": "4711125324",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 176,
+      "u135": 29,
+      "o135": 0
+    }
   },
   {
     "code": "A79075613",
@@ -503,7 +1131,21 @@
     "emd": "연일읍",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 연일읍 오천리 1013 연일에코코아루아파트",
+    "builder": "한국토지신탁",
+    "entrance": "계단식",
+    "useArea": "40449.1057",
+    "bjdCode": "4711125324",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 476,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021816",
@@ -514,7 +1156,21 @@
     "emd": "연일읍",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 연일읍 유강리 581-4 유강늘푸른마을",
+    "builder": "(주)대한주택보증",
+    "entrance": "계단식",
+    "useArea": "11069.17",
+    "bjdCode": "4711125325",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 98,
+      "u135": 22,
+      "o135": 0
+    }
   },
   {
     "code": "A10027068",
@@ -525,7 +1181,21 @@
     "emd": "연일읍",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 연일읍 유강리 594-2 유강경성홈타운",
+    "builder": "(주)경성주택",
+    "entrance": "계단식",
+    "useArea": "6734.7362",
+    "bjdCode": "4711125325",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 11,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 83,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A79075407",
@@ -536,7 +1206,21 @@
     "emd": "연일읍",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 연일읍 유강리 581 대림한숲2차아파트",
+    "builder": "대림산업주식회사",
+    "entrance": "계단식",
+    "useArea": "26222.35",
+    "bjdCode": "4711125325",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 163,
+      "u135": 102,
+      "o135": 0
+    }
   },
   {
     "code": "A79075505",
@@ -547,7 +1231,21 @@
     "emd": "연일읍",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 연일읍 유강리 593 유강우방타운",
+    "builder": "삼구건설(주)",
+    "entrance": "계단식",
+    "useArea": "18746.86",
+    "bjdCode": "4711125325",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 170,
+      "u135": 32,
+      "o135": 0
+    }
   },
   {
     "code": "A79088503",
@@ -558,7 +1256,21 @@
     "emd": "연일읍",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 연일읍 유강리 584 유강코아루4단지아파트",
+    "builder": "(주)이테크건설",
+    "entrance": "계단식",
+    "useArea": "27253.388",
+    "bjdCode": "4711125325",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 158
+    }
   },
   {
     "code": "A79088506",
@@ -569,7 +1281,21 @@
     "emd": "연일읍",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 연일읍 유강리 594-3 대림한숲3차아파트",
+    "builder": "대림",
+    "entrance": "계단식",
+    "useArea": "22472.69",
+    "bjdCode": "4711125325",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 179,
+      "u135": 60,
+      "o135": 0
+    }
   },
   {
     "code": "A79088508",
@@ -580,7 +1306,21 @@
     "emd": "연일읍",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 연일읍 유강리 593-2 유강코아루1단지아파트",
+    "builder": "이테크건설",
+    "entrance": "계단식",
+    "useArea": "25752.879",
+    "bjdCode": "4711125325",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 303,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A79088510",
@@ -591,7 +1331,21 @@
     "emd": "연일읍",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 연일읍 유강리 594 유강청구아파트",
+    "builder": "(주)청구",
+    "entrance": "계단식",
+    "useArea": "33113.32",
+    "bjdCode": "4711125325",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 102,
+      "u85": 236,
+      "u135": 56,
+      "o135": 0
+    }
   },
   {
     "code": "A79088512",
@@ -602,7 +1356,21 @@
     "emd": "연일읍",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 연일읍 유강리 593-5 유강코아루2단지아파트",
+    "builder": "한국토지공사",
+    "entrance": "계단식",
+    "useArea": "44369.505",
+    "bjdCode": "4711125325",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 265,
+      "u135": 170,
+      "o135": 0
+    }
   },
   {
     "code": "A79088514",
@@ -613,7 +1381,21 @@
     "emd": "연일읍",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 연일읍 유강리 581-1 대림한숲1차아파트",
+    "builder": "대림산업",
+    "entrance": "계단식",
+    "useArea": "99055.875",
+    "bjdCode": "4711125325",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 720,
+      "u135": 90,
+      "o135": 150
+    }
   },
   {
     "code": "A10023257",
@@ -624,7 +1406,21 @@
     "emd": "오천읍",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 오천읍 원리 1566 힐스테이트포항",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "128204.7952",
+    "bjdCode": "4711125621",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 402,
+      "u85": 1315,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027394",
@@ -635,7 +1431,21 @@
     "emd": "오천읍",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 오천읍 원리 1078 대우네오빌퍼스트",
+    "builder": "(주)대우주택",
+    "entrance": "계단식",
+    "useArea": "15008.01",
+    "bjdCode": "4711125621",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 50,
+      "u85": 151,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027757",
@@ -646,7 +1456,21 @@
     "emd": "오천읍",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 오천읍 원리 997 포항원동5차 부영아파트",
+    "builder": "(주)부영주택",
+    "entrance": "계단식",
+    "useArea": "65855.5177",
+    "bjdCode": "4711125621",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 230,
+      "u85": 613,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A79090104",
@@ -657,7 +1481,21 @@
     "emd": "오천읍",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 오천읍 원리 1000 포항원동3차부영",
+    "builder": "(주)부영주택",
+    "entrance": "계단식",
+    "useArea": "79525.3192",
+    "bjdCode": "4711125621",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 778,
+      "u85": 390,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A79090310",
@@ -668,7 +1506,21 @@
     "emd": "오천읍",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 오천읍 원리 893-15 포항원동1차 부영아파트",
+    "builder": "(주) 부영",
+    "entrance": "계단식",
+    "useArea": "50497.7008",
+    "bjdCode": "4711125621",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 72,
+      "u85": 544,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A79090311",
@@ -679,7 +1531,21 @@
     "emd": "오천읍",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 오천읍 원리 892 원동2차부영아파트",
+    "builder": "(주)부영주택",
+    "entrance": "계단식",
+    "useArea": "148242.4732",
+    "bjdCode": "4711125621",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 968,
+      "u85": 1062,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020424",
@@ -690,7 +1556,21 @@
     "emd": "오천읍",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 오천읍 문덕리 219-3 국민드림빌 5차",
+    "builder": "국민주택건설",
+    "entrance": "계단식",
+    "useArea": "3368.2804",
+    "bjdCode": "4711125622",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021594",
@@ -701,7 +1581,21 @@
     "emd": "오천읍",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 오천읍 문덕리 267-1 성우천마타운2차아파트",
+    "builder": "(주)성우주택",
+    "entrance": "혼합식",
+    "useArea": "13501.93",
+    "bjdCode": "4711125622",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 257,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022427",
@@ -712,7 +1606,21 @@
     "emd": "오천읍",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 오천읍 문덕리 1365- 남포항태왕아너스",
+    "builder": "(주)태왕",
+    "entrance": "계단식",
+    "useArea": "24782.8724",
+    "bjdCode": "4711125622",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 68,
+      "u85": 275,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025766",
@@ -723,7 +1631,21 @@
     "emd": "오천읍",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 오천읍 문덕리 1188-694 신문덕코아루아파트",
+    "builder": "대우조선해양건설",
+    "entrance": "계단식",
+    "useArea": "60588.0551",
+    "bjdCode": "4711125622",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 30,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 633,
+      "u135": 112,
+      "o135": 0
+    }
   },
   {
     "code": "A10026764",
@@ -734,7 +1656,21 @@
     "emd": "오천읍",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 오천읍 문덕리 161-178 오천웰메이드홈",
+    "builder": "(주)세정건설",
+    "entrance": "계단식",
+    "useArea": "12826.5869",
+    "bjdCode": "4711125622",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 93,
+      "u85": 98,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027107",
@@ -745,7 +1681,21 @@
     "emd": "오천읍",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 오천읍 문덕리 307-1 정림다채움아파트",
+    "builder": "(주)정림건설",
+    "entrance": "계단식",
+    "useArea": "28444.7996",
+    "bjdCode": "4711125622",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 382,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A79073308",
@@ -756,7 +1706,21 @@
     "emd": "오천읍",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 오천읍 문덕리 1188-242 오천 천마타운1차아파트",
+    "builder": "(주)성우주택",
+    "entrance": "복도식",
+    "useArea": "32048.84",
+    "bjdCode": "4711125622",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 541,
+      "u85": 0,
+      "u135": 0,
+      "o135": 1
+    }
   },
   {
     "code": "A79073405",
@@ -767,7 +1731,21 @@
     "emd": "오천읍",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 오천읍 문덕리 203-3 청호하이츠아파트",
+    "builder": "대창기업(주)",
+    "entrance": "혼합식",
+    "useArea": "20602.575",
+    "bjdCode": "4711125622",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 392,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A79091009",
@@ -778,7 +1756,21 @@
     "emd": "오천읍",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 오천읍 문덕리 176-2 준양참마을",
+    "builder": "(주)준양주택건설",
+    "entrance": "혼합식",
+    "useArea": "36429.44",
+    "bjdCode": "4711125622",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 382,
+      "u85": 180,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025479",
@@ -789,7 +1781,21 @@
     "emd": "오천읍",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 오천읍 문충리 255 그린파크",
+    "builder": "(주)보광주택건설",
+    "entrance": "혼합식",
+    "useArea": "15688.8792",
+    "bjdCode": "4711125626",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 298,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022358",
@@ -800,7 +1806,21 @@
     "emd": "오천읍",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 오천읍 용산리 373- 포항아이파크아파트",
+    "builder": "현대산업개발",
+    "entrance": "계단식",
+    "useArea": "96167.155",
+    "bjdCode": "4711125627",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1094,
+      "u135": 50,
+      "o135": 0
+    }
   },
   {
     "code": "A79090103",
@@ -811,7 +1831,21 @@
     "emd": "오천읍",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 오천읍 용산리 313-5 삼주용산타운",
+    "builder": "삼주건설",
+    "entrance": "복도식",
+    "useArea": "16611.596",
+    "bjdCode": "4711125627",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 281,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A79090801",
@@ -822,7 +1856,21 @@
     "emd": "오천읍",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 오천읍 용덕리 455 주은리버타운",
+    "builder": "동신건설",
+    "entrance": "계단식",
+    "useArea": "14713.83",
+    "bjdCode": "4711125630",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 104,
+      "u85": 115,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A79090804",
@@ -833,7 +1881,21 @@
     "emd": "오천읍",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 오천읍 용덕리 435 제일신천지아파트",
+    "builder": "(주)제일건설",
+    "entrance": "계단식",
+    "useArea": "20953.435",
+    "bjdCode": "4711125630",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 272,
+      "u85": 68,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022711",
@@ -844,7 +1906,21 @@
     "emd": "오천읍",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 오천읍 구정리 581 더 트루엘 포항",
+    "builder": "일성건설",
+    "entrance": "계단식",
+    "useArea": "20791.729",
+    "bjdCode": "4711125631",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 34,
+      "u85": 221,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025650",
@@ -855,7 +1931,21 @@
     "emd": "오천읍",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 오천읍 구정리 570 오천서희스타힐스",
+    "builder": "서희건설",
+    "entrance": "계단식",
+    "useArea": "46047.16",
+    "bjdCode": "4711125631",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 67,
+      "u85": 561,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A79090407",
@@ -866,7 +1956,21 @@
     "emd": "오천읍",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 오천읍 구정리 463 우방2차신세계타운",
+    "builder": "우방",
+    "entrance": "혼합식",
+    "useArea": "36267.24",
+    "bjdCode": "4711125631",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 195,
+      "u85": 254,
+      "u135": 30,
+      "o135": 0
+    }
   },
   {
     "code": "A10021280",
@@ -877,7 +1981,21 @@
     "emd": "동해면",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 동해면 도구리 635- 도구별장맨션 ",
+    "builder": "대정산업",
+    "entrance": "계단식",
+    "useArea": "15078.025",
+    "bjdCode": "4711132021",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 195,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020379",
@@ -888,7 +2006,21 @@
     "emd": "동해면",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 동해면 약전리 397-1 영남동해타운",
+    "builder": "삼도주택",
+    "entrance": "계단식",
+    "useArea": "14560.52",
+    "bjdCode": "4711132022",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021079",
@@ -899,7 +2031,21 @@
     "emd": "동해면",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 동해면 약전리 366-3 미광하야로비타운",
+    "builder": "유진건축",
+    "entrance": "계단식",
+    "useArea": "11971.61",
+    "bjdCode": "4711132022",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 144,
+      "u85": 42,
+      "u135": 6,
+      "o135": 0
+    }
   },
   {
     "code": "A10026456",
@@ -910,7 +2056,21 @@
     "emd": "동해면",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 동해면 신정리 418 포항코아루블루인시티",
+    "builder": "신영건설",
+    "entrance": "계단식",
+    "useArea": "50062.2742",
+    "bjdCode": "4711132024",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 247,
+      "u85": 441,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021889",
@@ -921,7 +2081,21 @@
     "emd": "동해면",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 동해면 석리 18-11 삼양전원타운",
+    "builder": "(주)삼양",
+    "entrance": "계단식",
+    "useArea": "14882.5",
+    "bjdCode": "4711132025",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 250,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023840",
@@ -932,7 +2106,21 @@
     "emd": "동해면",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 동해면 석리 18-2 신형아파트",
+    "builder": "신형주택건설",
+    "entrance": "계단식",
+    "useArea": "18671.2",
+    "bjdCode": "4711132025",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 335,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023910",
@@ -943,6 +2131,20 @@
     "emd": "동해면",
     "sigunguCode": "47111",
     "sido": "경상북도",
-    "sigungu": "포항시 남구"
+    "sigungu": "포항시 남구",
+    "jibunAddr": "경상북도 포항남구 동해면 공당리 16-1 포항블루밸리A-3BL행복주택",
+    "builder": "해유건설(주) (주)삼건사",
+    "entrance": "복도식",
+    "useArea": "11124.8",
+    "bjdCode": "4711132034",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 420,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

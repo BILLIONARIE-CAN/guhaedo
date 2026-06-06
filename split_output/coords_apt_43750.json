@@ -9,7 +9,21 @@
     "sigunguCode": "43750",
     "sido": "충청북도",
     "sigungu": "진천군",
-    "hhldCnt": 2450
+    "hhldCnt": 2450,
+    "jibunAddr": "충청북도 진천군 진천읍 교성리 466- 진천풍림아이원트리니움",
+    "builder": "풍림",
+    "entrance": "계단식",
+    "useArea": "170648.83",
+    "bjdCode": "4375025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027363",
@@ -20,7 +34,21 @@
     "emd": "진천읍",
     "sigunguCode": "43750",
     "sido": "충청북도",
-    "sigungu": "진천군"
+    "sigungu": "진천군",
+    "jibunAddr": "충청북도 진천군 진천읍 교성리 616 진천대명루첸",
+    "builder": "대명건설(주)",
+    "entrance": "계단식",
+    "useArea": "38239.4837",
+    "bjdCode": "4375025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 499,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36570001",
@@ -31,7 +59,21 @@
     "emd": "진천읍",
     "sigunguCode": "43750",
     "sido": "충청북도",
-    "sigungu": "진천군"
+    "sigungu": "진천군",
+    "jibunAddr": "충청북도 진천군 진천읍 교성리 144 진천교성주공아파트",
+    "builder": "LH공사",
+    "entrance": "복도식",
+    "useArea": "34446.35",
+    "bjdCode": "4375025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 691,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020293",
@@ -43,7 +85,21 @@
     "sigunguCode": "43750",
     "sido": "충청북도",
     "sigungu": "진천군",
-    "hhldCnt": 108
+    "hhldCnt": 108,
+    "jibunAddr": "충청북도 진천군 진천읍 신정리 651-1 장산아파트",
+    "builder": "(주)장산개발",
+    "entrance": "복도식",
+    "useArea": "8253.36",
+    "bjdCode": "4375025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025252",
@@ -54,7 +110,21 @@
     "emd": "진천읍",
     "sigunguCode": "43750",
     "sido": "충청북도",
-    "sigungu": "진천군"
+    "sigungu": "진천군",
+    "jibunAddr": "충청북도 진천군 진천읍 신정리 827 진천양우내안애해오르미아파트",
+    "builder": "양우건설(주)",
+    "entrance": "복도식",
+    "useArea": "14021.1",
+    "bjdCode": "4375025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 270,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36570003",
@@ -65,7 +135,21 @@
     "emd": "진천읍",
     "sigunguCode": "43750",
     "sido": "충청북도",
-    "sigungu": "진천군"
+    "sigungu": "진천군",
+    "jibunAddr": "충청북도 진천군 진천읍 신정리 390 삼진동산아파트",
+    "builder": "(주)삼진건설",
+    "entrance": "복도식",
+    "useArea": "18743.79",
+    "bjdCode": "4375025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 381,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36580502",
@@ -76,7 +160,21 @@
     "emd": "진천읍",
     "sigunguCode": "43750",
     "sido": "충청북도",
-    "sigungu": "진천군"
+    "sigungu": "진천군",
+    "jibunAddr": "충청북도 진천군 진천읍 신정리 377-2 영화블렌하임아파트",
+    "builder": "영화건설",
+    "entrance": "계단식",
+    "useArea": "19130.46",
+    "bjdCode": "4375025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 120,
+      "u85": 148,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36580506",
@@ -87,7 +185,21 @@
     "emd": "진천읍",
     "sigunguCode": "43750",
     "sido": "충청북도",
-    "sigungu": "진천군"
+    "sigungu": "진천군",
+    "jibunAddr": "충청북도 진천군 진천읍 신정리 824 진천신정주공아파트",
+    "builder": "LH",
+    "entrance": "혼합식",
+    "useArea": "23996.2",
+    "bjdCode": "4375025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 511,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023103",
@@ -98,7 +210,21 @@
     "emd": "진천읍",
     "sigunguCode": "43750",
     "sido": "충청북도",
-    "sigungu": "진천군"
+    "sigungu": "진천군",
+    "jibunAddr": "충청북도 진천군 진천읍 성석리 969-6 e편한세상 진천로얄하임아파트",
+    "builder": "디엘건설(주)",
+    "entrance": "계단식",
+    "useArea": "36965.632",
+    "bjdCode": "4375025025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 26,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 304,
+      "u135": 96,
+      "o135": 0
+    }
   },
   {
     "code": "A10024513",
@@ -109,7 +235,21 @@
     "emd": "진천읍",
     "sigunguCode": "43750",
     "sido": "충청북도",
-    "sigungu": "진천군"
+    "sigungu": "진천군",
+    "jibunAddr": "충청북도 진천군 진천읍 성석리 969-1 진천성석 LH 행복주택",
+    "builder": "동문건설",
+    "entrance": "복도식",
+    "useArea": "13689.76",
+    "bjdCode": "4375025025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 450,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026769",
@@ -120,7 +260,21 @@
     "emd": "진천읍",
     "sigunguCode": "43750",
     "sido": "충청북도",
-    "sigungu": "진천군"
+    "sigungu": "진천군",
+    "jibunAddr": "충청북도 진천군 진천읍 성석리 556 지안스로가아파트",
+    "builder": "지안스건설(주)",
+    "entrance": "계단식",
+    "useArea": "24993.9639",
+    "bjdCode": "4375025025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 103,
+      "u85": 237,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027426",
@@ -131,7 +285,21 @@
     "emd": "진천읍",
     "sigunguCode": "43750",
     "sido": "충청북도",
-    "sigungu": "진천군"
+    "sigungu": "진천군",
+    "jibunAddr": "충청북도 진천군 진천읍 성석리 539 진천우림필유아파트",
+    "builder": "지안스건설(주)",
+    "entrance": "계단식",
+    "useArea": "22306.8658",
+    "bjdCode": "4375025025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 114,
+      "u85": 182,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36580601",
@@ -142,7 +310,21 @@
     "emd": "진천읍",
     "sigunguCode": "43750",
     "sido": "충청북도",
-    "sigungu": "진천군"
+    "sigungu": "진천군",
+    "jibunAddr": "충청북도 진천군 진천읍 성석리 480-13 우주동백1차 아파트",
+    "builder": "우주건설",
+    "entrance": "혼합식",
+    "useArea": "14653.4",
+    "bjdCode": "4375025025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 214,
+      "u85": 30,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36580603",
@@ -153,7 +335,21 @@
     "emd": "진천읍",
     "sigunguCode": "43750",
     "sido": "충청북도",
-    "sigungu": "진천군"
+    "sigungu": "진천군",
+    "jibunAddr": "충청북도 진천군 진천읍 성석리 327-1 동백3차아파트",
+    "builder": "동백건설",
+    "entrance": "혼합식",
+    "useArea": "14789.58",
+    "bjdCode": "4375025025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 184,
+      "u85": 90,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36580604",
@@ -164,7 +360,21 @@
     "emd": "진천읍",
     "sigunguCode": "43750",
     "sido": "충청북도",
-    "sigungu": "진천군"
+    "sigungu": "진천군",
+    "jibunAddr": "충청북도 진천군 진천읍 성석리 450 산호오크힐아파트",
+    "builder": "(주)산호",
+    "entrance": "계단식",
+    "useArea": "21448.8",
+    "bjdCode": "4375025025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 120,
+      "u85": 168,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36570005",
@@ -175,7 +385,21 @@
     "emd": "진천읍",
     "sigunguCode": "43750",
     "sido": "충청북도",
-    "sigungu": "진천군"
+    "sigungu": "진천군",
+    "jibunAddr": "충청북도 진천군 진천읍 벽암리 581 진천벽암휴먼시아",
+    "builder": "서희건설",
+    "entrance": "복도식",
+    "useArea": "25887.94",
+    "bjdCode": "4375025026",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 632,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36570002",
@@ -186,7 +410,21 @@
     "emd": "진천읍",
     "sigunguCode": "43750",
     "sido": "충청북도",
-    "sigungu": "진천군"
+    "sigungu": "진천군",
+    "jibunAddr": "충청북도 진천군 진천읍 장관리 2-1 진천남해오네뜨",
+    "builder": "남해건설",
+    "entrance": "계단식",
+    "useArea": "30648.5184",
+    "bjdCode": "4375025028",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 392,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36570006",
@@ -197,7 +435,21 @@
     "emd": "진천읍",
     "sigunguCode": "43750",
     "sido": "충청북도",
-    "sigungu": "진천군"
+    "sigungu": "진천군",
+    "jibunAddr": "충청북도 진천군 진천읍 장관리 880 진천장관2차부영",
+    "builder": "(주)부영주택",
+    "entrance": "계단식",
+    "useArea": "45616.939",
+    "bjdCode": "4375025028",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 534,
+      "u85": 160,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36570007",
@@ -208,7 +460,21 @@
     "emd": "진천읍",
     "sigunguCode": "43750",
     "sido": "충청북도",
-    "sigungu": "진천군"
+    "sigungu": "진천군",
+    "jibunAddr": "충청북도 진천군 진천읍 장관리 884 진천장관1차부영",
+    "builder": "(주)부영주택",
+    "entrance": "계단식",
+    "useArea": "38832.5442",
+    "bjdCode": "4375025028",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 384,
+      "u85": 186,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36580205",
@@ -219,7 +485,21 @@
     "emd": "진천읍",
     "sigunguCode": "43750",
     "sido": "충청북도",
-    "sigungu": "진천군"
+    "sigungu": "진천군",
+    "jibunAddr": "충청북도 진천군 진천읍 장관리 3-1 우주동백2차아파트",
+    "builder": "우주건설",
+    "entrance": "복도식",
+    "useArea": "20842.78",
+    "bjdCode": "4375025028",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 395,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10028196",
@@ -230,7 +510,21 @@
     "emd": "덕산읍",
     "sigunguCode": "43750",
     "sido": "충청북도",
-    "sigungu": "진천군"
+    "sigungu": "진천군",
+    "jibunAddr": "충청북도 진천군 덕산읍 옥동리 43 LH천년나무7단지",
+    "builder": "(주)한양건설",
+    "entrance": "계단식",
+    "useArea": "61473.22",
+    "bjdCode": "4375025321",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 749,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022735",
@@ -241,7 +535,21 @@
     "emd": "덕산읍",
     "sigunguCode": "43750",
     "sido": "충청북도",
-    "sigungu": "진천군"
+    "sigungu": "진천군",
+    "jibunAddr": "충청북도 진천군 덕산읍 두촌리 3145 동일하이빌파크테라스",
+    "builder": "동일토건",
+    "entrance": "계단식",
+    "useArea": "80929.6844",
+    "bjdCode": "4375025325",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 27,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 850,
+      "u135": 160,
+      "o135": 0
+    }
   },
   {
     "code": "A10024643",
@@ -252,7 +560,21 @@
     "emd": "덕산읍",
     "sigunguCode": "43750",
     "sido": "충청북도",
-    "sigungu": "진천군"
+    "sigungu": "진천군",
+    "jibunAddr": "충청북도 진천군 덕산읍 두촌리 3149 충북혁신 센텀클래스",
+    "builder": "대림건설",
+    "entrance": "계단식",
+    "useArea": "105745.04",
+    "bjdCode": "4375025325",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1326,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025794",
@@ -263,7 +585,21 @@
     "emd": "덕산읍",
     "sigunguCode": "43750",
     "sido": "충청북도",
-    "sigungu": "진천군"
+    "sigungu": "진천군",
+    "jibunAddr": "충청북도 진천군 덕산읍 두촌리 2487 충북혁신도시 리슈빌",
+    "builder": "KR산업",
+    "entrance": "계단식",
+    "useArea": "107596.56",
+    "bjdCode": "4375025325",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1315,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026169",
@@ -274,7 +610,21 @@
     "emd": "덕산읍",
     "sigunguCode": "43750",
     "sido": "충청북도",
-    "sigungu": "진천군"
+    "sigungu": "진천군",
+    "jibunAddr": "충청북도 진천군 덕산읍 두촌리 3147 충북혁신우미린스테이",
+    "builder": "우미건설(주)",
+    "entrance": "계단식",
+    "useArea": "102822.9143",
+    "bjdCode": "4375025325",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1345,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026372",
@@ -285,7 +635,21 @@
     "emd": "덕산읍",
     "sigunguCode": "43750",
     "sido": "충청북도",
-    "sigungu": "진천군"
+    "sigungu": "진천군",
+    "jibunAddr": "충청북도 진천군 덕산읍 두촌리 3146 모아엘가더테라스아파트",
+    "builder": "혜림건설(주)",
+    "entrance": "계단식",
+    "useArea": "49603.6788",
+    "bjdCode": "4375025325",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 512,
+      "u135": 62,
+      "o135": 0
+    }
   },
   {
     "code": "A10026375",
@@ -296,7 +660,21 @@
     "emd": "덕산읍",
     "sigunguCode": "43750",
     "sido": "충청북도",
-    "sigungu": "진천군"
+    "sigungu": "진천군",
+    "jibunAddr": "충청북도 진천군 덕산읍 두촌리 3148 건영아모리움양우내안애아파트",
+    "builder": "(주)건영,(주)양우",
+    "entrance": "계단식",
+    "useArea": "71541.4399",
+    "bjdCode": "4375025325",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 842,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027003",
@@ -307,7 +685,21 @@
     "emd": "덕산읍",
     "sigunguCode": "43750",
     "sido": "충청북도",
-    "sigungu": "진천군"
+    "sigungu": "진천군",
+    "jibunAddr": "충청북도 진천군 덕산읍 두촌리 2494 천년나무4단지아파트",
+    "builder": "동문건설(주)",
+    "entrance": "계단식",
+    "useArea": "55419.78",
+    "bjdCode": "4375025325",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 924,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027229",
@@ -318,7 +710,21 @@
     "emd": "덕산읍",
     "sigunguCode": "43750",
     "sido": "충청북도",
-    "sigungu": "진천군"
+    "sigungu": "진천군",
+    "jibunAddr": "충청북도 진천군 덕산읍 두촌리 2456 영무예다음2차아파트",
+    "builder": "(주)영무토건",
+    "entrance": "계단식",
+    "useArea": "41989.6716",
+    "bjdCode": "4375025325",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 520,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027765",
@@ -329,7 +735,21 @@
     "emd": "덕산읍",
     "sigunguCode": "43750",
     "sido": "충청북도",
-    "sigungu": "진천군"
+    "sigungu": "진천군",
+    "jibunAddr": "충청북도 진천군 덕산읍 두촌리 2718 영무예다음1차아파트",
+    "builder": "(주)영무토건",
+    "entrance": "계단식",
+    "useArea": "57083.2942",
+    "bjdCode": "4375025325",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 691,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022372",
@@ -340,7 +760,21 @@
     "emd": "덕산읍",
     "sigunguCode": "43750",
     "sido": "충청북도",
-    "sigungu": "진천군"
+    "sigungu": "진천군",
+    "jibunAddr": "충청북도 진천군 덕산읍 신척리 936- 진천힐데스하임레이크뷰 아파트",
+    "builder": "원건설",
+    "entrance": "복도식",
+    "useArea": "28876.9473",
+    "bjdCode": "4375025329",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 679,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026937",
@@ -351,7 +785,21 @@
     "emd": "덕산읍",
     "sigunguCode": "43750",
     "sido": "충청북도",
-    "sigungu": "진천군"
+    "sigungu": "진천군",
+    "jibunAddr": "충청북도 진천군 덕산읍 용몽리 1091 진천우방아이유쉘아파트",
+    "builder": "동아건설산업(주)",
+    "entrance": "계단식",
+    "useArea": "46230.144",
+    "bjdCode": "4375025330",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 406,
+      "u135": 92,
+      "o135": 0
+    }
   },
   {
     "code": "A36584101",
@@ -362,7 +810,21 @@
     "emd": "덕산읍",
     "sigunguCode": "43750",
     "sido": "충청북도",
-    "sigungu": "진천군"
+    "sigungu": "진천군",
+    "jibunAddr": "충청북도 진천군 덕산읍 용몽리 1052 진천덕산LH아파트",
+    "builder": "선광건설",
+    "entrance": "혼합식",
+    "useArea": "13636.56",
+    "bjdCode": "4375025330",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 284,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36584301",
@@ -373,7 +835,21 @@
     "emd": "덕산읍",
     "sigunguCode": "43750",
     "sido": "충청북도",
-    "sigungu": "진천군"
+    "sigungu": "진천군",
+    "jibunAddr": "충청북도 진천군 덕산읍 합목리 302 나우하이빌아파트",
+    "builder": "나우종합건설",
+    "entrance": "복도식",
+    "useArea": "7060.472",
+    "bjdCode": "4375025332",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 199,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020696",
@@ -385,7 +861,21 @@
     "sigunguCode": "43750",
     "sido": "충청북도",
     "sigungu": "진천군",
-    "hhldCnt": 154
+    "hhldCnt": 154,
+    "jibunAddr": "충청북도 진천군 문백면 봉죽리 750- 진천 문백1단지아파트",
+    "builder": "양우종합건설(주)",
+    "entrance": "복도식",
+    "useArea": "5409.28",
+    "bjdCode": "4375033027",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 8,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36586101",
@@ -396,7 +886,21 @@
     "emd": "문백면",
     "sigunguCode": "43750",
     "sido": "충청북도",
-    "sigungu": "진천군"
+    "sigungu": "진천군",
+    "jibunAddr": "충청북도 진천군 문백면 봉죽리 257 경향렉스빌아파트",
+    "builder": "경향건설",
+    "entrance": "복도식",
+    "useArea": "10272.96",
+    "bjdCode": "4375033027",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 299,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36582302",
@@ -407,7 +911,21 @@
     "emd": "이월면",
     "sigunguCode": "43750",
     "sido": "충청북도",
-    "sigungu": "진천군"
+    "sigungu": "진천군",
+    "jibunAddr": "충청북도 진천군 이월면 사곡리 600-1 진천이월부영아파트",
+    "builder": "부영주택",
+    "entrance": "혼합식",
+    "useArea": "26982.72",
+    "bjdCode": "4375035021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 498,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022744",
@@ -418,7 +936,21 @@
     "emd": "이월면",
     "sigunguCode": "43750",
     "sido": "충청북도",
-    "sigungu": "진천군"
+    "sigungu": "진천군",
+    "jibunAddr": "충청북도 진천군 이월면 송림리 1022 진천금호어울림센트럴파크",
+    "builder": "금호건설(주)",
+    "entrance": "계단식",
+    "useArea": "31200.6744",
+    "bjdCode": "4375035025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 378,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023980",
@@ -429,7 +961,21 @@
     "emd": "이월면",
     "sigunguCode": "43750",
     "sido": "충청북도",
-    "sigungu": "진천군"
+    "sigungu": "진천군",
+    "jibunAddr": "충청북도 진천군 이월면 송림리 1020 진천이월LH1단지 주거행복지원센터",
+    "builder": "정인건설(주)",
+    "entrance": "복도식",
+    "useArea": "5337.02",
+    "bjdCode": "4375035025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 8,
+    "areaBreak": {
+      "u60": 170,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36582101",
@@ -440,7 +986,21 @@
     "emd": "이월면",
     "sigunguCode": "43750",
     "sido": "충청북도",
-    "sigungu": "진천군"
+    "sigungu": "진천군",
+    "jibunAddr": "충청북도 진천군 이월면 송림리 512 산내들아파트",
+    "builder": "대승주택건설(주)",
+    "entrance": "복도식",
+    "useArea": "12764.16",
+    "bjdCode": "4375035025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 280,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36583407",
@@ -451,7 +1011,21 @@
     "emd": "광혜원면",
     "sigunguCode": "43750",
     "sido": "충청북도",
-    "sigungu": "진천군"
+    "sigungu": "진천군",
+    "jibunAddr": "충청북도 진천군 광혜원면 죽현리 202 갑을아파트",
+    "builder": "갑을공영",
+    "entrance": "혼합식",
+    "useArea": "18685.8",
+    "bjdCode": "4375037024",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 420,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023744",
@@ -462,7 +1036,21 @@
     "emd": "광혜원면",
     "sigunguCode": "43750",
     "sido": "충청북도",
-    "sigungu": "진천군"
+    "sigungu": "진천군",
+    "jibunAddr": "충청북도 진천군 광혜원면 실원리 650 포레가아파트",
+    "builder": "해성종합건설(주)",
+    "entrance": "혼합식",
+    "useArea": "21200.2725",
+    "bjdCode": "4375037026",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 199,
+      "u85": 116,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021176",
@@ -473,7 +1061,21 @@
     "emd": "광혜원면",
     "sigunguCode": "43750",
     "sido": "충청북도",
-    "sigungu": "진천군"
+    "sigungu": "진천군",
+    "jibunAddr": "충청북도 진천군 광혜원면 광혜원리 529- 광혜원석미모닝파크아파트",
+    "builder": "석미건설",
+    "entrance": "계단식",
+    "useArea": "9483.24",
+    "bjdCode": "4375037027",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 112,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024159",
@@ -484,7 +1086,20 @@
     "emd": "광혜원면",
     "sigunguCode": "43750",
     "sido": "충청북도",
-    "sigungu": "진천군"
+    "sigungu": "진천군",
+    "jibunAddr": "충청북도 진천군 광혜원면 광혜원리 73 진천광혜원 LH 2단지",
+    "builder": "에스티엑스건설(주}",
+    "entrance": "복도식",
+    "useArea": "31513.36",
+    "bjdCode": "4375037027",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 876,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027011",
@@ -495,7 +1110,21 @@
     "emd": "광혜원면",
     "sigunguCode": "43750",
     "sido": "충청북도",
-    "sigungu": "진천군"
+    "sigungu": "진천군",
+    "jibunAddr": "충청북도 진천군 광혜원면 광혜원리 1091 광혜원 석미모닝파크2차",
+    "builder": "석미건설(주)",
+    "entrance": "계단식",
+    "useArea": "19292.56",
+    "bjdCode": "4375037027",
+    "aptType": "아파트",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 45,
+      "u85": 206,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10028144",
@@ -506,7 +1135,21 @@
     "emd": "광혜원면",
     "sigunguCode": "43750",
     "sido": "충청북도",
-    "sigungu": "진천군"
+    "sigungu": "진천군",
+    "jibunAddr": "충청북도 진천군 광혜원면 광혜원리 1088 광혜원 양우내안애아파트",
+    "builder": "양우건설(주)",
+    "entrance": "혼합식",
+    "useArea": "15105.448",
+    "bjdCode": "4375037027",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 160,
+      "u85": 80,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36583106",
@@ -517,7 +1160,21 @@
     "emd": "광혜원면",
     "sigunguCode": "43750",
     "sido": "충청북도",
-    "sigungu": "진천군"
+    "sigungu": "진천군",
+    "jibunAddr": "충청북도 진천군 광혜원면 광혜원리 1078 광혜원주공아파트",
+    "builder": "리젠시빌 산업(주)",
+    "entrance": "계단식",
+    "useArea": "17680.32",
+    "bjdCode": "4375037027",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 318,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36583108",
@@ -528,7 +1185,21 @@
     "emd": "광혜원면",
     "sigunguCode": "43750",
     "sido": "충청북도",
-    "sigungu": "진천군"
+    "sigungu": "진천군",
+    "jibunAddr": "충청북도 진천군 광혜원면 광혜원리 1085 진천광혜원코아루",
+    "builder": "한국토지신탁",
+    "entrance": "계단식",
+    "useArea": "42301.8608",
+    "bjdCode": "4375037027",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 16,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 323,
+      "u135": 120,
+      "o135": 0
+    }
   },
   {
     "code": "A36583109",
@@ -539,7 +1210,21 @@
     "emd": "광혜원면",
     "sigunguCode": "43750",
     "sido": "충청북도",
-    "sigungu": "진천군"
+    "sigungu": "진천군",
+    "jibunAddr": "충청북도 진천군 광혜원면 광혜원리 73-3 산호2차",
+    "builder": "통일건축",
+    "entrance": "복도식",
+    "useArea": "7563.32",
+    "bjdCode": "4375037027",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 203,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36583201",
@@ -550,7 +1235,21 @@
     "emd": "광혜원면",
     "sigunguCode": "43750",
     "sido": "충청북도",
-    "sigungu": "진천군"
+    "sigungu": "진천군",
+    "jibunAddr": "충청북도 진천군 광혜원면 광혜원리 383-4 산일전원아파트",
+    "builder": "산일건설",
+    "entrance": "복도식",
+    "useArea": "7657.596",
+    "bjdCode": "4375037027",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 161,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36583203",
@@ -561,7 +1260,21 @@
     "emd": "광혜원면",
     "sigunguCode": "43750",
     "sido": "충청북도",
-    "sigungu": "진천군"
+    "sigungu": "진천군",
+    "jibunAddr": "충청북도 진천군 광혜원면 광혜원리 408-3 광혜원주연아파트",
+    "builder": "(합)주연주택",
+    "entrance": "복도식",
+    "useArea": "10791",
+    "bjdCode": "4375037027",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 180,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36583204",
@@ -572,7 +1285,21 @@
     "emd": "광혜원면",
     "sigunguCode": "43750",
     "sido": "충청북도",
-    "sigungu": "진천군"
+    "sigungu": "진천군",
+    "jibunAddr": "충청북도 진천군 광혜원면 광혜원리 418-2 원림아파트",
+    "builder": "원림개발",
+    "entrance": "복도식",
+    "useArea": "11392.8",
+    "bjdCode": "4375037027",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 197,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36583302",
@@ -583,6 +1310,20 @@
     "emd": "광혜원면",
     "sigunguCode": "43750",
     "sido": "충청북도",
-    "sigungu": "진천군"
+    "sigungu": "진천군",
+    "jibunAddr": "충청북도 진천군 광혜원면 광혜원리 529-1 목화2차아파트",
+    "builder": "대창건설",
+    "entrance": "복도식",
+    "useArea": "10775.52",
+    "bjdCode": "4375037027",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 180,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

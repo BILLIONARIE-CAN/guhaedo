@@ -8,7 +8,21 @@
     "emd": "천곡동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 천곡동 1060-1 천곡주공2차아파트",
+    "builder": "대한주택공사",
+    "entrance": "계단식",
+    "useArea": "8093.64",
+    "bjdCode": "5117010100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023962",
@@ -19,7 +33,21 @@
     "emd": "천곡동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 천곡동 788 이안동해센트럴아파트",
+    "builder": "대우산업개발",
+    "entrance": "계단식",
+    "useArea": "17805.9763",
+    "bjdCode": "5117010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 87,
+      "u85": 160,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024855",
@@ -30,7 +58,21 @@
     "emd": "천곡동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 천곡동 1111 동해천곡금호어울림라포레",
+    "builder": "금호건설",
+    "entrance": "계단식",
+    "useArea": "48496.4824",
+    "bjdCode": "5117010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 26,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 672,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025141",
@@ -41,7 +83,21 @@
     "emd": "천곡동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 천곡동 1105 동해 ES아뜨리움아파트",
+    "builder": "(주)이에스종합건설",
+    "entrance": "계단식",
+    "useArea": "29046.8624",
+    "bjdCode": "5117010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 196,
+      "u85": 216,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027258",
@@ -52,7 +108,21 @@
     "emd": "천곡동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 천곡동 1103 천곡한양수자인",
+    "builder": "한양건설",
+    "entrance": "계단식",
+    "useArea": "14482.149",
+    "bjdCode": "5117010100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 203,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A24070201",
@@ -63,7 +133,21 @@
     "emd": "천곡동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 천곡동 1077-2 천곡동아아파트",
+    "builder": "동아종합 환경(주)",
+    "entrance": "계단식",
+    "useArea": "21390",
+    "bjdCode": "5117010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 270,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A24070202",
@@ -74,7 +158,21 @@
     "emd": "천곡동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 천곡동 1098 천곡LH5차아파트",
+    "builder": "한국토지주택공사",
+    "entrance": "복도식",
+    "useArea": "32619.48",
+    "bjdCode": "5117010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 803,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A24080701",
@@ -85,7 +183,21 @@
     "emd": "천곡동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 천곡동 91-2 천곡롯데아파트",
+    "builder": "롯데건설주식회사",
+    "entrance": "계단식",
+    "useArea": "12084.06",
+    "bjdCode": "5117010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 80,
+      "u85": 86,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A24080810",
@@ -96,7 +208,21 @@
     "emd": "천곡동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 천곡동 380-2 천곡현대아파트",
+    "builder": "현대산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "52285.53",
+    "bjdCode": "5117010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 640,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A24080812",
@@ -107,7 +233,21 @@
     "emd": "천곡동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 천곡동 415 천곡주공4차아파트",
+    "builder": "LH공사",
+    "entrance": "계단식",
+    "useArea": "37350.3",
+    "bjdCode": "5117010100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 900,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A24080905",
@@ -118,7 +258,21 @@
     "emd": "천곡동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 천곡동 1060-2 센트로빌아파트",
+    "builder": "(주)한석종합건설",
+    "entrance": "계단식",
+    "useArea": "25456.4517",
+    "bjdCode": "5117010100",
+    "aptType": "주상복합",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 59,
+      "u85": 248,
+      "u135": 14,
+      "o135": 0
+    }
   },
   {
     "code": "A24081002",
@@ -129,7 +283,21 @@
     "emd": "천곡동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 천곡동 1102 동해금호어울림",
+    "builder": "금호산업(주)",
+    "entrance": "혼합식",
+    "useArea": "16047.424",
+    "bjdCode": "5117010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 27,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 189,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A24081006",
@@ -140,7 +308,21 @@
     "emd": "천곡동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 천곡동 1080 천곡주공1차아파트",
+    "builder": "대한주택공사",
+    "entrance": "계단식",
+    "useArea": "15359.3",
+    "bjdCode": "5117010100",
+    "aptType": "주상복합",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 330,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A24081007",
@@ -151,7 +333,21 @@
     "emd": "천곡동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 천곡동 1077 천곡삼성아파트",
+    "builder": "삼성건설",
+    "entrance": "혼합식",
+    "useArea": "24946.82",
+    "bjdCode": "5117010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 75,
+      "u85": 258,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A24081009",
@@ -162,7 +358,21 @@
     "emd": "천곡동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 천곡동 1101 천곡6LH아파트",
+    "builder": "동신건설",
+    "entrance": "계단식",
+    "useArea": "23187.16",
+    "bjdCode": "5117010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 416,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A24081103",
@@ -173,7 +383,21 @@
     "emd": "천곡동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 천곡동 791 한양1차아파트",
+    "builder": "한양건설",
+    "entrance": "계단식",
+    "useArea": "16941.12",
+    "bjdCode": "5117010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 185,
+      "u135": 28,
+      "o135": 0
+    }
   },
   {
     "code": "A24081111",
@@ -184,7 +408,21 @@
     "emd": "천곡동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 천곡동 794 한양2.3차아파트",
+    "builder": "한양공영",
+    "entrance": "혼합식",
+    "useArea": "57093.61",
+    "bjdCode": "5117010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 352,
+      "u85": 510,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A24081204",
@@ -195,7 +433,21 @@
     "emd": "천곡동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 천곡동 942 쌍용아파트",
+    "builder": "쌍용건설",
+    "entrance": "복도식",
+    "useArea": "19806.12",
+    "bjdCode": "5117010100",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 164,
+      "u135": 58,
+      "o135": 0
+    }
   },
   {
     "code": "A24002001",
@@ -206,7 +458,21 @@
     "emd": "평릉동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 평릉동 293 동해푸르지오아파트",
+    "builder": "조인건설(주)",
+    "entrance": "계단식",
+    "useArea": "23140.732",
+    "bjdCode": "5117010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 245,
+      "u135": 29,
+      "o135": 0
+    }
   },
   {
     "code": "A24071101",
@@ -217,7 +483,21 @@
     "emd": "평릉동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 평릉동 450 동해엘리시아아파트",
+    "builder": "kd건설",
+    "entrance": "계단식",
+    "useArea": "22761.4692",
+    "bjdCode": "5117010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 268,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A24071102",
@@ -228,7 +508,21 @@
     "emd": "평릉동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 평릉동 449 하나리움아파트",
+    "builder": "(주)문장건설",
+    "entrance": "계단식",
+    "useArea": "26057.0068",
+    "bjdCode": "5117010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 435,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A24071103",
@@ -239,7 +533,21 @@
     "emd": "평릉동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 평릉동 448 동해해안부영",
+    "builder": "(주)동광주택",
+    "entrance": "계단식",
+    "useArea": "37478.9592",
+    "bjdCode": "5117010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 484,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A24071104",
@@ -250,7 +558,21 @@
     "emd": "평릉동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 평릉동 456 동해코아루디오션",
+    "builder": "금강종합건설",
+    "entrance": "계단식",
+    "useArea": "44364.8978",
+    "bjdCode": "5117010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 477,
+      "u135": 45,
+      "o135": 0
+    }
   },
   {
     "code": "A24071601",
@@ -261,7 +583,21 @@
     "emd": "송정동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 송정동 1683 동해송정LH아파트",
+    "builder": "(주)만훈",
+    "entrance": "혼합식",
+    "useArea": "11019.39",
+    "bjdCode": "5117010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 203,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022141",
@@ -272,7 +608,21 @@
     "emd": "효가동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 효가동 492- 동해자이",
+    "builder": "GS건설",
+    "entrance": "계단식",
+    "useArea": "59160.2872",
+    "bjdCode": "5117010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 600,
+      "u135": 66,
+      "o135": 4
+    }
   },
   {
     "code": "A10023015",
@@ -283,7 +633,21 @@
     "emd": "효가동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 효가동 248 명보2차아파트주민자치회",
+    "builder": "명보주택",
+    "entrance": "복도식",
+    "useArea": "6321.84",
+    "bjdCode": "5117010600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 11,
+    "areaBreak": {
+      "u60": 106,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024319",
@@ -294,7 +658,21 @@
     "emd": "효가동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 효가동 488 아델리움 희담재",
+    "builder": "한국건설",
+    "entrance": "계단식",
+    "useArea": "39852.2154",
+    "bjdCode": "5117010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 159,
+      "u85": 367,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A24016001",
@@ -305,7 +683,21 @@
     "emd": "효가동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 효가동 481 동아더프라임2단지",
+    "builder": "동아건설",
+    "entrance": "계단식",
+    "useArea": "14848.1136",
+    "bjdCode": "5117010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 62,
+      "u85": 131,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A24016002",
@@ -316,7 +708,21 @@
     "emd": "효가동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 효가동 480 동아더프라임 1단지",
+    "builder": "동아건설",
+    "entrance": "계단식",
+    "useArea": "24406.6938",
+    "bjdCode": "5117010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 33,
+      "u85": 264,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022862",
@@ -327,7 +733,21 @@
     "emd": "동회동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 동회동 459 동해프라우드스위첸 아파트",
+    "builder": "(주)케이씨씨건설",
+    "entrance": "혼합식",
+    "useArea": "33912.6607",
+    "bjdCode": "5117010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 96,
+      "u85": 296,
+      "u135": 38,
+      "o135": 1
+    }
   },
   {
     "code": "A10025565",
@@ -338,7 +758,21 @@
     "emd": "동회동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 동회동 457 북삼2차웰메이드타운",
+    "builder": "(주)세정건설",
+    "entrance": "계단식",
+    "useArea": "21102.4345",
+    "bjdCode": "5117010700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 241,
+      "u135": 19,
+      "o135": 0
+    }
   },
   {
     "code": "A10026210",
@@ -349,7 +783,21 @@
     "emd": "동회동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 동회동 451 북삼하우스디아파트",
+    "builder": "대보건설",
+    "entrance": "계단식",
+    "useArea": "19886.7937",
+    "bjdCode": "5117010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 35,
+      "u85": 223,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A24018003",
@@ -360,7 +808,21 @@
     "emd": "동회동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 동회동 442 동회동현대코아루아파트",
+    "builder": "현대산업개발(주)",
+    "entrance": "혼합식",
+    "useArea": "93705.504",
+    "bjdCode": "5117010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 210,
+      "u85": 709,
+      "u135": 200,
+      "o135": 0
+    }
   },
   {
     "code": "A24018004",
@@ -371,7 +833,21 @@
     "emd": "동회동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 동회동 442 대동아파트",
+    "builder": "(주)대동건설",
+    "entrance": "혼합식",
+    "useArea": "77546.065",
+    "bjdCode": "5117010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 608,
+      "u85": 578,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A24019001",
@@ -382,7 +858,21 @@
     "emd": "쇄운동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 쇄운동 8 동해쇄운부영아파트",
+    "builder": "(주)동광주택",
+    "entrance": "복도식",
+    "useArea": "115769.069",
+    "bjdCode": "5117010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 2180,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A24071801",
@@ -393,7 +883,21 @@
     "emd": "쇄운동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 쇄운동 1100 아름다운아침",
+    "builder": "하일종합건설주식회사",
+    "entrance": "혼합식",
+    "useArea": "28216.5",
+    "bjdCode": "5117010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 600,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A24071802",
@@ -404,7 +908,21 @@
     "emd": "쇄운동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 쇄운동 1099 동해석미모닝파크",
+    "builder": "석미건설(주)",
+    "entrance": "계단식",
+    "useArea": "14724.57",
+    "bjdCode": "5117010900",
+    "aptType": "아파트",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 184,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A24003001",
@@ -415,7 +933,21 @@
     "emd": "부곡동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 부곡동 111-1 유존아파트",
+    "builder": "유존주택건설주식회사",
+    "entrance": "혼합식",
+    "useArea": "7755.175",
+    "bjdCode": "5117011000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 131,
+      "u85": 28,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A24003003",
@@ -426,7 +958,21 @@
     "emd": "부곡동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 부곡동 5-82 일정골든타워",
+    "builder": "한신종합건설(주)",
+    "entrance": "혼합식",
+    "useArea": "11851.554",
+    "bjdCode": "5117011000",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 136,
+      "u85": 39,
+      "u135": 13,
+      "o135": 0
+    }
   },
   {
     "code": "A24081402",
@@ -437,7 +983,21 @@
     "emd": "부곡동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 부곡동 80 썬샤인파크아파트",
+    "builder": "(주)부곡개발",
+    "entrance": "계단식",
+    "useArea": "14813.29",
+    "bjdCode": "5117011000",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 136,
+      "u135": 34,
+      "o135": 0
+    }
   },
   {
     "code": "A24081501",
@@ -448,7 +1008,21 @@
     "emd": "부곡동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 부곡동 31-2 삼화미성",
+    "builder": "삼화건설",
+    "entrance": "계단식",
+    "useArea": "11329.2",
+    "bjdCode": "5117011000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 205,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021546",
@@ -459,7 +1033,21 @@
     "emd": "발한동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 발한동 599-31 유성아파트",
+    "builder": "(주)유성건설",
+    "entrance": "계단식",
+    "useArea": "3753.36",
+    "bjdCode": "5117011100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 114,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025751",
@@ -470,7 +1058,21 @@
     "emd": "발한동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 발한동 802 동해 KD아람채아파트",
+    "builder": "케이디건설(주)",
+    "entrance": "계단식",
+    "useArea": "19564.2131",
+    "bjdCode": "5117011100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 243,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025810",
@@ -481,7 +1083,21 @@
     "emd": "발한동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 발한동 801 현대썬앤빌 동해파크힐",
+    "builder": "현대BS&C",
+    "entrance": "계단식",
+    "useArea": "51191.0248",
+    "bjdCode": "5117011100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027958",
@@ -492,7 +1108,21 @@
     "emd": "발한동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 발한동 778 동해발한석미모닝파크",
+    "builder": "석미건설(주)",
+    "entrance": "계단식",
+    "useArea": "22351.25",
+    "bjdCode": "5117011100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 29,
+      "u85": 269,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A24080401",
@@ -503,7 +1133,21 @@
     "emd": "발한동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 발한동 334-1 발한삼성",
+    "builder": "삼성물산",
+    "entrance": "계단식",
+    "useArea": "14248.86",
+    "bjdCode": "5117011100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 76,
+      "u85": 114,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024988",
@@ -514,7 +1158,21 @@
     "emd": "북평동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 북평동 327 e편한세상동해아파트",
+    "builder": "대림건설,대림산업",
+    "entrance": "계단식",
+    "useArea": "52238.3",
+    "bjdCode": "5117011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 644,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026612",
@@ -525,7 +1183,21 @@
     "emd": "북평동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 북평동 324 동해북평석미모닝파크",
+    "builder": "석미건설",
+    "entrance": "계단식",
+    "useArea": "21605.13",
+    "bjdCode": "5117011200",
+    "aptType": "아파트",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 126,
+      "u85": 173,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A24021001",
@@ -536,7 +1208,21 @@
     "emd": "구미동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 구미동 521 현진",
+    "builder": "현진종합건설(주)",
+    "entrance": "복도식",
+    "useArea": "8873.9064",
+    "bjdCode": "5117011300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 170,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023736",
@@ -547,7 +1233,21 @@
     "emd": "이도동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 이도동 757 동해석미아데나더퍼스트",
+    "builder": "석미건설(주)",
+    "entrance": "혼합식",
+    "useArea": "29512.51",
+    "bjdCode": "5117011800",
+    "aptType": "아파트",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 259,
+      "u85": 166,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025030",
@@ -558,7 +1258,21 @@
     "emd": "이도동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 이도동 753 동해 이도 코아루 더 스카이",
+    "builder": "영동건설",
+    "entrance": "계단식",
+    "useArea": "41220.9404",
+    "bjdCode": "5117011800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 502,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025928",
@@ -569,7 +1283,21 @@
     "emd": "이도동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 이도동 751 동해 아이파크아파트",
+    "builder": "현대산업개발(주)",
+    "entrance": "혼합식",
+    "useArea": "35919.7",
+    "bjdCode": "5117011800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 102,
+      "u85": 367,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A24029001",
@@ -580,7 +1308,21 @@
     "emd": "이도동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 이도동 302-6 동해강변",
+    "builder": "하나",
+    "entrance": "복도식",
+    "useArea": "8243.25",
+    "bjdCode": "5117011800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 170,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A24029002",
@@ -591,7 +1333,21 @@
     "emd": "이도동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 이도동 172 이도현대",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "20614.5",
+    "bjdCode": "5117011800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 150,
+      "u85": 90,
+      "u135": 30,
+      "o135": 0
+    }
   },
   {
     "code": "A24029003",
@@ -602,7 +1358,21 @@
     "emd": "이도동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 이도동 154 이도2주공",
+    "builder": "대한주택공사",
+    "entrance": "계단식",
+    "useArea": "23162.1",
+    "bjdCode": "5117011800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 390,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A24029004",
@@ -613,7 +1383,21 @@
     "emd": "이도동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 이도동 155 이도1주공아파트",
+    "builder": "대한주택공사",
+    "entrance": "복도식",
+    "useArea": "22080.9",
+    "bjdCode": "5117011800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 445,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A24005001",
@@ -624,7 +1408,21 @@
     "emd": "묵호진동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 묵호진동 110 묵호LH아파트",
+    "builder": "(주)한울종합건설",
+    "entrance": "계단식",
+    "useArea": "18550.42",
+    "bjdCode": "5117012300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 341,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A24081601",
@@ -635,6 +1433,20 @@
     "emd": "묵호진동",
     "sigunguCode": "51170",
     "sido": "강원특별자치도",
-    "sigungu": "동해시"
+    "sigungu": "동해시",
+    "jibunAddr": "강원특별자치도 동해시 묵호진동 1-83 삼본아파트",
+    "builder": "삼본종합건설주식회사",
+    "entrance": "계단식",
+    "useArea": "8136.38",
+    "bjdCode": "5117012300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 202,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

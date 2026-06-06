@@ -8,7 +8,21 @@
     "emd": "장흥읍",
     "sigunguCode": "46800",
     "sido": "전라남도",
-    "sigungu": "장흥군"
+    "sigungu": "장흥군",
+    "jibunAddr": "전라남도 장흥군 장흥읍 건산리 823- 장흥 정하에코하임아파트",
+    "builder": "정하종합건설",
+    "entrance": "계단식",
+    "useArea": "25061.2204",
+    "bjdCode": "4680025037",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 295,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021871",
@@ -19,7 +33,21 @@
     "emd": "장흥읍",
     "sigunguCode": "46800",
     "sido": "전라남도",
-    "sigungu": "장흥군"
+    "sigungu": "장흥군",
+    "jibunAddr": "전라남도 장흥군 장흥읍 건산리 811- 장흥정하리버하임주상복합아파트",
+    "builder": "정하종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "9396.1555",
+    "bjdCode": "4680025037",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 111,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021972",
@@ -30,7 +58,21 @@
     "emd": "장흥읍",
     "sigunguCode": "46800",
     "sido": "전라남도",
-    "sigungu": "장흥군"
+    "sigungu": "장흥군",
+    "jibunAddr": "전라남도 장흥군 장흥읍 건산리 500-15 줌파크더센트로",
+    "builder": "대창기업",
+    "entrance": "계단식",
+    "useArea": "21130.9365",
+    "bjdCode": "4680025037",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 16,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 209,
+      "u135": 30,
+      "o135": 0
+    }
   },
   {
     "code": "A10023109",
@@ -41,7 +83,21 @@
     "emd": "장흥읍",
     "sigunguCode": "46800",
     "sido": "전라남도",
-    "sigungu": "장흥군"
+    "sigungu": "장흥군",
+    "jibunAddr": "전라남도 장흥군 장흥읍 건산리 767 장흥계명아파트",
+    "builder": "계명건설(주)",
+    "entrance": "복도식",
+    "useArea": "7408.53",
+    "bjdCode": "4680025037",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 145,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026392",
@@ -52,7 +108,21 @@
     "emd": "장흥읍",
     "sigunguCode": "46800",
     "sido": "전라남도",
-    "sigungu": "장흥군"
+    "sigungu": "장흥군",
+    "jibunAddr": "전라남도 장흥군 장흥읍 건산리 497 장흥토광미르채아파트",
+    "builder": "토광건설(주)",
+    "entrance": "계단식",
+    "useArea": "13713.8055",
+    "bjdCode": "4680025037",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 165,
+      "u85": 45,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A52980001",
@@ -63,7 +133,21 @@
     "emd": "장흥읍",
     "sigunguCode": "46800",
     "sido": "전라남도",
-    "sigungu": "장흥군"
+    "sigungu": "장흥군",
+    "jibunAddr": "전라남도 장흥군 장흥읍 건산리 413 장흥솔뫼타운",
+    "builder": "솔뫼종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "13846.3421",
+    "bjdCode": "4680025037",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 10,
+      "u85": 105,
+      "u135": 40,
+      "o135": 0
+    }
   },
   {
     "code": "A52980002",
@@ -74,7 +158,21 @@
     "emd": "장흥읍",
     "sigunguCode": "46800",
     "sido": "전라남도",
-    "sigungu": "장흥군"
+    "sigungu": "장흥군",
+    "jibunAddr": "전라남도 장흥군 장흥읍 건산리 810 장흥건산2휴먼시아",
+    "builder": "해동건설(주)",
+    "entrance": "복도식",
+    "useArea": "12881.6",
+    "bjdCode": "4680025037",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 318,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A52980201",
@@ -85,7 +183,21 @@
     "emd": "장흥읍",
     "sigunguCode": "46800",
     "sido": "전라남도",
-    "sigungu": "장흥군"
+    "sigungu": "장흥군",
+    "jibunAddr": "전라남도 장흥군 장흥읍 건산리 529-1 장흥 건산 주공아파트",
+    "builder": "(주)모아종합건설",
+    "entrance": "계단식",
+    "useArea": "16251.92",
+    "bjdCode": "4680025037",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 292,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025717",
@@ -96,6 +208,20 @@
     "emd": "장흥읍",
     "sigunguCode": "46800",
     "sido": "전라남도",
-    "sigungu": "장흥군"
+    "sigungu": "장흥군",
+    "jibunAddr": "전라남도 장흥군 장흥읍 원도리 329 장흥코아루해피트리아파트",
+    "builder": "(주)신일",
+    "entrance": "계단식",
+    "useArea": "28211.74",
+    "bjdCode": "4680025045",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 342,
+      "u135": 32,
+      "o135": 0
+    }
   }
 ]

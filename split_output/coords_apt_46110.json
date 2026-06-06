@@ -8,7 +8,21 @@
     "emd": "용당동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 용당동 1214 에드가채움아파트",
+    "builder": "(주)하늘종합건설",
+    "entrance": "계단식",
+    "useArea": "19519.5912",
+    "bjdCode": "4611010100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 256,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53036003",
@@ -19,7 +33,21 @@
     "emd": "용당동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 용당동 982-25 용당아파트",
+    "builder": "주택공사",
+    "entrance": "계단식",
+    "useArea": "14358.81",
+    "bjdCode": "4611010100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 350,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020206",
@@ -30,7 +58,20 @@
     "emd": "산정동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 산정동 1365 삼학하이츠",
+    "builder": "중앙건설",
+    "entrance": "계단식",
+    "useArea": "23439.05",
+    "bjdCode": "4611010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "areaBreak": {
+      "u60": 90,
+      "u85": 245,
+      "u135": 20,
+      "o135": 0
+    }
   },
   {
     "code": "A10024337",
@@ -41,7 +82,21 @@
     "emd": "산정동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 산정동 1840 산정대광로제비앙아파트",
+    "builder": "대광건영",
+    "entrance": "계단식",
+    "useArea": "33604.1333",
+    "bjdCode": "4611010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 416,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026528",
@@ -52,7 +107,21 @@
     "emd": "산정동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 산정동 1837 목포 라송센트럴카운티2차 아파트",
+    "builder": "(주)한토건설",
+    "entrance": "혼합식",
+    "useArea": "32890.0559",
+    "bjdCode": "4611010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 400,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027718",
@@ -63,7 +132,21 @@
     "emd": "산정동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 산정동 1836 목포라송센트럴카운티1차 아파트",
+    "builder": "한토건설(주)",
+    "entrance": "계단식",
+    "useArea": "20736.7223",
+    "bjdCode": "4611010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 265,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53035001",
@@ -74,7 +157,21 @@
     "emd": "산정동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 산정동 326-10 근화그린",
+    "builder": "근화건설",
+    "entrance": "계단식",
+    "useArea": "12745.45",
+    "bjdCode": "4611010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 150,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53035004",
@@ -85,7 +182,21 @@
     "emd": "산정동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 산정동 322 근화2차아파트",
+    "builder": "(주)근화건설",
+    "entrance": "계단식",
+    "useArea": "16096.8",
+    "bjdCode": "4611010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 120,
+      "u135": 0,
+      "o135": 40
+    }
   },
   {
     "code": "A53035005",
@@ -96,7 +207,21 @@
     "emd": "산정동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 산정동 1392 동백",
+    "builder": "(유)만리주택",
+    "entrance": "계단식",
+    "useArea": "14581.71",
+    "bjdCode": "4611010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 180,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53035006",
@@ -107,7 +232,21 @@
     "emd": "산정동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 산정동 1398- 근화황제",
+    "builder": "근화건설",
+    "entrance": "계단식",
+    "useArea": "12730.5",
+    "bjdCode": "4611010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 150,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53035007",
@@ -118,7 +257,21 @@
     "emd": "산정동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 산정동 1285 삼학타운",
+    "builder": "LG U+",
+    "entrance": "계단식",
+    "useArea": "21940.8",
+    "bjdCode": "4611010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 150,
+      "u85": 60,
+      "u135": 60,
+      "o135": 0
+    }
   },
   {
     "code": "A53035010",
@@ -129,7 +282,21 @@
     "emd": "산정동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 산정동 1080-56 삼성아파트",
+    "builder": "동도건설",
+    "entrance": "계단식",
+    "useArea": "17627.4",
+    "bjdCode": "4611010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리(직영+위탁)",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 299,
+      "u85": 1,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53035011",
@@ -140,7 +307,21 @@
     "emd": "산정동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 산정동 1202 신안비치1-1",
+    "builder": "신안건설",
+    "entrance": "혼합식",
+    "useArea": "36161.1",
+    "bjdCode": "4611010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 180,
+      "u85": 210,
+      "u135": 60,
+      "o135": 0
+    }
   },
   {
     "code": "A53035013",
@@ -151,7 +332,21 @@
     "emd": "산정동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 산정동 1751 라인아파트",
+    "builder": "라인건설",
+    "entrance": "계단식",
+    "useArea": "23317.92",
+    "bjdCode": "4611010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 288,
+      "u85": 72,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53035014",
@@ -162,7 +357,21 @@
     "emd": "산정동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 산정동 1202 신안비치1-2",
+    "builder": "신안건설",
+    "entrance": "복도식",
+    "useArea": "28468.8",
+    "bjdCode": "4611010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 480,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53035015",
@@ -173,7 +382,21 @@
     "emd": "산정동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 산정동 1259-3 신안비치3차아파트",
+    "builder": "신안건설산업(주)",
+    "entrance": "계단식",
+    "useArea": "29669.42",
+    "bjdCode": "4611010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 495,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53035016",
@@ -184,7 +407,21 @@
     "emd": "산정동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 산정동 1710 산정동현대산업아파트",
+    "builder": "현대산업",
+    "entrance": "계단식",
+    "useArea": "42129.15",
+    "bjdCode": "4611010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 530,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53035017",
@@ -195,7 +432,21 @@
     "emd": "산정동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 산정동 994-4 목포중앙하이츠",
+    "builder": "(주)중앙건설",
+    "entrance": "혼합식",
+    "useArea": "66729.44",
+    "bjdCode": "4611010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 330,
+      "u85": 508,
+      "u135": 55,
+      "o135": 0
+    }
   },
   {
     "code": "A53035018",
@@ -206,7 +457,21 @@
     "emd": "산정동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 산정동 1152 신안비치팔레스1차아파트입주자대표회의",
+    "builder": "신안건설산업(주)",
+    "entrance": "계단식",
+    "useArea": "63512.945",
+    "bjdCode": "4611010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 180,
+      "u85": 622,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53035019",
@@ -217,7 +482,21 @@
     "emd": "산정동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 산정동 1112-11 신안비치팔레스2차",
+    "builder": "신안건설산업(주)",
+    "entrance": "계단식",
+    "useArea": "12565.269",
+    "bjdCode": "4611010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 210,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53035020",
@@ -228,7 +507,21 @@
     "emd": "산정동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 산정동 1747 소암",
+    "builder": "소암건설",
+    "entrance": "혼합식",
+    "useArea": "7187.52",
+    "bjdCode": "4611010200",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 88,
+      "u85": 24,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53035301",
@@ -239,7 +532,21 @@
     "emd": "산정동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 산정동 292 종원나이스빌아파트",
+    "builder": "(주)종원",
+    "entrance": "계단식",
+    "useArea": "38718.57",
+    "bjdCode": "4611010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 150,
+      "u135": 115,
+      "o135": 86
+    }
   },
   {
     "code": "A53035302",
@@ -250,7 +557,21 @@
     "emd": "산정동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 산정동 187 산정동 일신아파트",
+    "builder": "(주)일신주택",
+    "entrance": "계단식",
+    "useArea": "33602.73",
+    "bjdCode": "4611010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 264,
+      "u85": 210,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53035303",
@@ -261,7 +582,21 @@
     "emd": "산정동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 산정동 1259 신안비치2차",
+    "builder": "(주)신안건설산업",
+    "entrance": "혼합식",
+    "useArea": "45350.55",
+    "bjdCode": "4611010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 375,
+      "u85": 270,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53046001",
@@ -272,7 +607,21 @@
     "emd": "산정동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 산정동 1769 한성타워",
+    "builder": "한성건설",
+    "entrance": "계단식",
+    "useArea": "14240.4",
+    "bjdCode": "4611010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 70,
+      "u85": 72,
+      "u135": 36,
+      "o135": 0
+    }
   },
   {
     "code": "A53076601",
@@ -283,7 +632,21 @@
     "emd": "산정동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 산정동 1112-10 대송에이스빌",
+    "builder": "(주) 대송종합건설",
+    "entrance": "계단식",
+    "useArea": "11866.5674",
+    "bjdCode": "4611010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 29,
+      "u85": 30,
+      "u135": 60,
+      "o135": 0
+    }
   },
   {
     "code": "A10024255",
@@ -294,7 +657,21 @@
     "emd": "연산동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 연산동 2022 백련지구 골드클래스9차",
+    "builder": "보광종합건설주식회사",
+    "entrance": "계단식",
+    "useArea": "27168.74",
+    "bjdCode": "4611010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 356,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025560",
@@ -305,7 +682,21 @@
     "emd": "연산동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 연산동 1944 목포 용해2지구 모아엘가 에듀파크 아파트",
+    "builder": "혜림건설",
+    "entrance": "계단식",
+    "useArea": "15536.1521",
+    "bjdCode": "4611010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 9,
+    "areaBreak": {
+      "u60": 259,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026011",
@@ -316,7 +707,21 @@
     "emd": "연산동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 연산동 2044 목포연산골드클래스8차아파트",
+    "builder": "골드종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "20316.291",
+    "bjdCode": "4611010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 315,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026628",
@@ -327,7 +732,21 @@
     "emd": "연산동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 연산동 2023 백련지구 천년가",
+    "builder": "새천년종합건설",
+    "entrance": "계단식",
+    "useArea": "37627.6941",
+    "bjdCode": "4611010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 383,
+      "u135": 50,
+      "o135": 0
+    }
   },
   {
     "code": "A10026684",
@@ -338,7 +757,21 @@
     "emd": "연산동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 연산동 1944-1 포미타운LH6단지",
+    "builder": "송학건설",
+    "entrance": "복도식",
+    "useArea": "11935.7",
+    "bjdCode": "4611010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 450,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027804",
@@ -349,7 +782,21 @@
     "emd": "연산동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 연산동 1925 골드클래스7차아파트",
+    "builder": "수범건설(주)",
+    "entrance": "계단식",
+    "useArea": "26263.7963",
+    "bjdCode": "4611010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 319,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53037001",
@@ -360,7 +807,21 @@
     "emd": "연산동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 연산동 1260 연산주공4단지",
+    "builder": "대한주택공사",
+    "entrance": "복도식",
+    "useArea": "18573.7",
+    "bjdCode": "4611010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 401,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53037002",
@@ -371,7 +832,21 @@
     "emd": "연산동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 연산동 1261 연산주공5차",
+    "builder": "대한주택공사(LH)",
+    "entrance": "계단식",
+    "useArea": "35657.1",
+    "bjdCode": "4611010300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 420,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53037004",
@@ -382,7 +857,21 @@
     "emd": "연산동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 연산동 331 연산현대아파트",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "38897.61",
+    "bjdCode": "4611010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 474,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53037005",
@@ -393,7 +882,21 @@
     "emd": "연산동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 연산동 1262 연산주공2단지",
+    "builder": "공영토건(주)",
+    "entrance": "복도식",
+    "useArea": "29457.49",
+    "bjdCode": "4611010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 538,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53037006",
@@ -404,7 +907,21 @@
     "emd": "연산동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 연산동 1260 연산주공3단지아파트",
+    "builder": "대한주택공사",
+    "entrance": "계단식",
+    "useArea": "62974.2",
+    "bjdCode": "4611010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1050,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53037007",
@@ -415,7 +932,21 @@
     "emd": "연산동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 연산동 1262 연산주공1단지",
+    "builder": "공영토건",
+    "entrance": "복도식",
+    "useArea": "17930.92",
+    "bjdCode": "4611010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 476,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027700",
@@ -426,7 +957,21 @@
     "emd": "대성동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 대성동 222 목포 대성 LH천년나무 아파트",
+    "builder": "대보건설",
+    "entrance": "혼합식",
+    "useArea": "98366.03",
+    "bjdCode": "4611010400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 540,
+      "u85": 851,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53033001",
@@ -437,7 +982,21 @@
     "emd": "양동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 양동 120 유달파크",
+    "builder": "(주)대신주택",
+    "entrance": "복도식",
+    "useArea": "12883.55",
+    "bjdCode": "4611010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 158,
+      "u135": 0,
+      "o135": 1
+    }
   },
   {
     "code": "A53031001",
@@ -448,7 +1007,21 @@
     "emd": "남교동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 남교동 111-9 남교트윈스타",
+    "builder": "(주)서한",
+    "entrance": "계단식",
+    "useArea": "16034.91",
+    "bjdCode": "4611010700",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 31,
+    "areaBreak": {
+      "u60": 67,
+      "u85": 165,
+      "u135": 12,
+      "o135": 7
+    }
   },
   {
     "code": "A53008001",
@@ -459,7 +1032,21 @@
     "emd": "해안동4가",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 해안동4가 1 송광비치타운",
+    "builder": "송광건설(주)",
+    "entrance": "계단식",
+    "useArea": "18890.94",
+    "bjdCode": "4611014500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 227,
+      "u85": 63,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027707",
@@ -470,7 +1057,21 @@
     "emd": "죽교동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 죽교동 704 신안실크밸리7차아파트",
+    "builder": "신안건설",
+    "entrance": "계단식",
+    "useArea": "56396.873",
+    "bjdCode": "4611015700",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 582,
+      "u135": 75,
+      "o135": 0
+    }
   },
   {
     "code": "A10020634",
@@ -482,7 +1083,21 @@
     "sigunguCode": "46110",
     "sido": "전라남도",
     "sigungu": "목포시",
-    "hhldCnt": 193
+    "hhldCnt": 193,
+    "jibunAddr": "전라남도 목포시 상동 1129-1 평화광장 미래엔스위트",
+    "builder": "(주)엘로이종합건설",
+    "entrance": "복도식",
+    "useArea": "9595.9104",
+    "bjdCode": "4611015800",
+    "aptType": "도시형 생활주택(주상복합)",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021849",
@@ -493,7 +1108,21 @@
     "emd": "상동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 상동 1137-21 양우비치팰리스",
+    "builder": "양우건설(주)",
+    "entrance": "계단식",
+    "useArea": "20391.761",
+    "bjdCode": "4611015800",
+    "aptType": "주상복합",
+    "mgrType": "자치관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 16,
+      "o135": 106
+    }
   },
   {
     "code": "A10022288",
@@ -504,7 +1133,21 @@
     "emd": "상동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 상동 783-3 목포 하당 센트럴 팰리체",
+    "builder": "승원건설",
+    "entrance": "복도식",
+    "useArea": "6617.8284",
+    "bjdCode": "4611015800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 134,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022309",
@@ -515,7 +1158,21 @@
     "emd": "상동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 상동 1022- 주하우제 스카이",
+    "builder": "자이종합건설",
+    "entrance": "복도식",
+    "useArea": "8497.525",
+    "bjdCode": "4611015800",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 27,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 100,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022515",
@@ -526,7 +1183,21 @@
     "emd": "상동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 상동 1115-6 평화광장 모아엘가비스타",
+    "builder": "혜림건설(주)",
+    "entrance": "계단식",
+    "useArea": "12543.4958",
+    "bjdCode": "4611015800",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 28,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 154,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023622",
@@ -537,7 +1208,21 @@
     "emd": "상동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 상동 860 하당지구 중흥S-클래스 센텀뷰",
+    "builder": "중흥토건(주)",
+    "entrance": "계단식",
+    "useArea": "59810.6628",
+    "bjdCode": "4611015800",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 48,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 472,
+      "u135": 156,
+      "o135": 12
+    }
   },
   {
     "code": "A10024439",
@@ -548,7 +1233,21 @@
     "emd": "상동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 상동 1002 목포 하당 프라임아너팰리스 주상복합",
+    "builder": "미래종합건설",
+    "entrance": "계단식",
+    "useArea": "10247.9163",
+    "bjdCode": "4611015800",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 171,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025143",
@@ -559,7 +1258,21 @@
     "emd": "상동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 상동 1139-7 에메랄드퀸주상복합아파트",
+    "builder": "(주)큰빛종합건설",
+    "entrance": "계단식",
+    "useArea": "24156",
+    "bjdCode": "4611015800",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 42,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 262,
+      "u135": 33,
+      "o135": 3
+    }
   },
   {
     "code": "A10027867",
@@ -570,7 +1283,21 @@
     "emd": "상동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 상동 1187 목포상동 광신프로그레스 아파트",
+    "builder": "(주)광신종합건설",
+    "entrance": "계단식",
+    "useArea": "46052.7803",
+    "bjdCode": "4611015800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 623,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53039002",
@@ -581,7 +1308,21 @@
     "emd": "상동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 상동 764 상동현대",
+    "builder": "현대산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "37857.958",
+    "bjdCode": "4611015800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 217,
+      "u85": 293,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53039003",
@@ -592,7 +1333,21 @@
     "emd": "상동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 상동 740 주공4차",
+    "builder": "주택공사",
+    "entrance": "복도식",
+    "useArea": "27144.08",
+    "bjdCode": "4611015800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 628,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53039005",
@@ -603,7 +1358,21 @@
     "emd": "상동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 상동 766 목포주공2차",
+    "builder": "LH주택공사",
+    "entrance": "복도식",
+    "useArea": "32999.4",
+    "bjdCode": "4611015800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 810,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53039006",
@@ -614,7 +1383,21 @@
     "emd": "상동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 상동 883 하당동아",
+    "builder": "동아건설산업(주)",
+    "entrance": "계단식",
+    "useArea": "63364.4",
+    "bjdCode": "4611015800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 320,
+      "u85": 520,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53039008",
@@ -625,7 +1408,21 @@
     "emd": "상동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 상동 739 목포상동1",
+    "builder": "롯데기공",
+    "entrance": "복도식",
+    "useArea": "12643.2",
+    "bjdCode": "4611015800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 480,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53049001",
@@ -636,7 +1433,21 @@
     "emd": "상동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 상동 845 비파1차",
+    "builder": "금호건설",
+    "entrance": "복도식",
+    "useArea": "20136",
+    "bjdCode": "4611015800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 500,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53049002",
@@ -647,7 +1458,21 @@
     "emd": "상동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 상동 845-1 비파2차",
+    "builder": "(주)중앙건설",
+    "entrance": "복도식",
+    "useArea": "24170",
+    "bjdCode": "4611015800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 500,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53049003",
@@ -658,7 +1483,21 @@
     "emd": "상동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 상동 846 비파3차",
+    "builder": "0",
+    "entrance": "혼합식",
+    "useArea": "25387.38",
+    "bjdCode": "4611015800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 510,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53050001",
@@ -669,7 +1508,21 @@
     "emd": "상동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 상동 1016 꿈동산1차",
+    "builder": "신안건설",
+    "entrance": "계단식",
+    "useArea": "23077.8",
+    "bjdCode": "4611015800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 130,
+      "u85": 180,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53050002",
@@ -680,7 +1533,21 @@
     "emd": "상동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 상동 1014 초원1차아파트",
+    "builder": "초원건설",
+    "entrance": "계단식",
+    "useArea": "22503.84",
+    "bjdCode": "4611015800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 296,
+      "u85": 56,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53050003",
@@ -691,7 +1558,21 @@
     "emd": "상동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 상동 1014-1 하당현대아파트",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "49078.86",
+    "bjdCode": "4611015800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 267,
+      "u85": 390,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53050004",
@@ -702,7 +1583,21 @@
     "emd": "상동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 상동 1019 꿈동산신안2차아파트",
+    "builder": "신안(주)",
+    "entrance": "계단식",
+    "useArea": "56178.3",
+    "bjdCode": "4611015800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 260,
+      "u85": 270,
+      "u135": 150,
+      "o135": 0
+    }
   },
   {
     "code": "A53050005",
@@ -713,7 +1608,21 @@
     "emd": "상동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 상동 886 목포하당우성아파트",
+    "builder": "우성건설",
+    "entrance": "계단식",
+    "useArea": "73772.2",
+    "bjdCode": "4611015800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 360,
+      "u85": 520,
+      "u135": 60,
+      "o135": 0
+    }
   },
   {
     "code": "A53073001",
@@ -724,7 +1633,21 @@
     "emd": "상동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 상동 713 광명샤인빌2차",
+    "builder": "광명주택",
+    "entrance": "계단식",
+    "useArea": "23564.3432",
+    "bjdCode": "4611015800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 294,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53073002",
@@ -735,7 +1658,21 @@
     "emd": "상동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 상동 251-16 상동호반리젠시빌",
+    "builder": "리젠시빌(주)",
+    "entrance": "계단식",
+    "useArea": "60267.782",
+    "bjdCode": "4611015800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 710,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53075609",
@@ -746,7 +1683,21 @@
     "emd": "상동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 상동 740 목포상동3",
+    "builder": "명지건설",
+    "entrance": "복도식",
+    "useArea": "29796.48",
+    "bjdCode": "4611015800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1074,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53082601",
@@ -757,7 +1708,21 @@
     "emd": "상동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 상동 1120 우미파크빌",
+    "builder": "(주)우미건설",
+    "entrance": "계단식",
+    "useArea": "41086.5351",
+    "bjdCode": "4611015800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 237,
+      "u135": 180,
+      "o135": 0
+    }
   },
   {
     "code": "A53082704",
@@ -768,7 +1733,21 @@
     "emd": "상동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 상동 1018 하당삼성",
+    "builder": "삼성종합건설주식회사",
+    "entrance": "계단식",
+    "useArea": "53944.8",
+    "bjdCode": "4611015800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 260,
+      "u85": 330,
+      "u135": 90,
+      "o135": 0
+    }
   },
   {
     "code": "A10020860",
@@ -779,7 +1758,21 @@
     "emd": "용해동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 용해동 374- 청산푸른아파트",
+    "builder": "서부건설(주)",
+    "entrance": "복도식",
+    "useArea": "8654.52",
+    "bjdCode": "4611015900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 116,
+      "u85": 20,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024062",
@@ -790,7 +1783,21 @@
     "emd": "용해동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 용해동 824 목포용해포미타운5단지",
+    "builder": "(주)케이알산업",
+    "entrance": "복도식",
+    "useArea": "11384",
+    "bjdCode": "4611015900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 400,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025032",
@@ -801,7 +1808,21 @@
     "emd": "용해동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 용해동 1061 용해동광신프로그레스아파트",
+    "builder": "주식회사 광신종합건설",
+    "entrance": "계단식",
+    "useArea": "37105.4454",
+    "bjdCode": "4611015900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 335,
+      "u135": 76,
+      "o135": 0
+    }
   },
   {
     "code": "A10025322",
@@ -812,7 +1833,21 @@
     "emd": "용해동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 용해동 1040 천년가맘스카운티",
+    "builder": "새천년종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "18413.1",
+    "bjdCode": "4611015900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 308,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53038001",
@@ -823,7 +1858,21 @@
     "emd": "용해동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 용해동 400-1 라이프1차",
+    "builder": "라이프건설",
+    "entrance": "계단식",
+    "useArea": "24088.8",
+    "bjdCode": "4611015900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 300,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53038002",
@@ -834,7 +1883,21 @@
     "emd": "용해동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 용해동 713 용해2차",
+    "builder": "대한주택공사",
+    "entrance": "계단식",
+    "useArea": "19714.62",
+    "bjdCode": "4611015900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 390,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53038003",
@@ -845,7 +1908,21 @@
     "emd": "용해동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 용해동 143-7 금호타운",
+    "builder": "금호건설",
+    "entrance": "계단식",
+    "useArea": "37258.82",
+    "bjdCode": "4611015900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 372,
+      "u135": 54,
+      "o135": 0
+    }
   },
   {
     "code": "A53038004",
@@ -856,7 +1933,21 @@
     "emd": "용해동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 용해동 255 라이프2차",
+    "builder": "라이프주택(주)",
+    "entrance": "혼합식",
+    "useArea": "34652.12",
+    "bjdCode": "4611015900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 181,
+      "u85": 284,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53038006",
@@ -867,7 +1958,21 @@
     "emd": "용해동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 용해동 152-80 용해동아아파트",
+    "builder": "동아건설",
+    "entrance": "계단식",
+    "useArea": "71774.4",
+    "bjdCode": "4611015900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 480,
+      "u135": 120,
+      "o135": 90
+    }
   },
   {
     "code": "A53038009",
@@ -878,7 +1983,21 @@
     "emd": "용해동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 용해동 126 신안인스빌",
+    "builder": "주식회사 신안",
+    "entrance": "혼합식",
+    "useArea": "118264.2698",
+    "bjdCode": "4611015900",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 354,
+      "u85": 960,
+      "u135": 78,
+      "o135": 80
+    }
   },
   {
     "code": "A53070901",
@@ -889,7 +2008,21 @@
     "emd": "용해동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 용해동 1025 용해 호반리젠시빌스위트",
+    "builder": "리젠시빌/건설",
+    "entrance": "계단식",
+    "useArea": "62179.176",
+    "bjdCode": "4611015900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 732,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53070902",
@@ -900,7 +2033,21 @@
     "emd": "용해동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 용해동 1054 목포포미타운LH4단지",
+    "builder": "태평양개발(주)",
+    "entrance": "복도식",
+    "useArea": "32674.38",
+    "bjdCode": "4611015900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 790,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53070903",
@@ -911,7 +2058,21 @@
     "emd": "용해동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 용해동 1052 골드디움6차",
+    "builder": "보광건설(주)",
+    "entrance": "계단식",
+    "useArea": "27601.0583",
+    "bjdCode": "4611015900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 325,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53070904",
@@ -922,7 +2083,21 @@
     "emd": "용해동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 용해동 1042 용해골드디움5차",
+    "builder": "보광건설",
+    "entrance": "계단식",
+    "useArea": "36419.5693",
+    "bjdCode": "4611015900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 16,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 493,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53084005",
@@ -933,7 +2108,21 @@
     "emd": "용해동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 용해동 1032 포미타운 LH3단지",
+    "builder": "남양건설주식회사",
+    "entrance": "복도식",
+    "useArea": "19624.13",
+    "bjdCode": "4611015900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 475,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53084207",
@@ -944,7 +2133,21 @@
     "emd": "용해동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 용해동 973 포미타운주공1단지",
+    "builder": "보성건설(주)",
+    "entrance": "계단식",
+    "useArea": "40204.66",
+    "bjdCode": "4611015900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 734,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53084211",
@@ -955,7 +2158,21 @@
     "emd": "용해동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 용해동 975 목포포미2",
+    "builder": "새한건설,거림건설",
+    "entrance": "계단식",
+    "useArea": "52708.96",
+    "bjdCode": "4611015900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 980,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020115",
@@ -966,7 +2183,20 @@
     "emd": "석현동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 석현동 771-1 금장아파트",
+    "builder": "없음",
+    "entrance": "복도식",
+    "useArea": "4159.26",
+    "bjdCode": "4611016000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "areaBreak": {
+      "u60": 210,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020142",
@@ -977,7 +2207,20 @@
     "emd": "석현동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 석현동 1187 하당중해마루힐",
+    "builder": "주식회사마루힐",
+    "entrance": "계단식",
+    "useArea": "29336.7126",
+    "bjdCode": "4611016000",
+    "aptType": "아파트",
+    "mgrType": "자치관리(직영)",
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 264,
+      "o135": 0
+    }
   },
   {
     "code": "A10020885",
@@ -988,7 +2231,21 @@
     "emd": "석현동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 석현동 1177- 수창해뜨레아파트",
+    "builder": "수창건설",
+    "entrance": "계단식",
+    "useArea": "7974.139",
+    "bjdCode": "4611016000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 134,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021881",
@@ -999,7 +2256,21 @@
     "emd": "석현동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 석현동 493-1 한광프라임빌",
+    "builder": "한광건설",
+    "entrance": "계단식",
+    "useArea": "10511.4909",
+    "bjdCode": "4611016000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 27,
+      "u85": 111,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022311",
@@ -1010,7 +2281,21 @@
     "emd": "석현동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 석현동 1178- 에드가안채 도시형생활주택",
+    "builder": "하늘건설",
+    "entrance": "복도식",
+    "useArea": "3837.9014",
+    "bjdCode": "4611016000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 114,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022722",
@@ -1021,7 +2306,21 @@
     "emd": "석현동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 석현동 1186 한양립스더포레아파트",
+    "builder": "한양건설",
+    "entrance": "계단식",
+    "useArea": "49751.7612",
+    "bjdCode": "4611016000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 168,
+      "u85": 480,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023201",
@@ -1032,7 +2331,21 @@
     "emd": "석현동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 석현동 1185 하당풍경채어바니티",
+    "builder": "제일건설(주)",
+    "entrance": "계단식",
+    "useArea": "42804.5676",
+    "bjdCode": "4611016000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 27,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 404,
+      "o135": 0
+    }
   },
   {
     "code": "A10023942",
@@ -1043,7 +2356,21 @@
     "emd": "석현동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 석현동 1182 석현5차한국아델리움더숲",
+    "builder": "한국건설",
+    "entrance": "계단식",
+    "useArea": "18010.6395",
+    "bjdCode": "4611016000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 212,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024557",
@@ -1055,7 +2382,21 @@
     "sigunguCode": "46110",
     "sido": "전라남도",
     "sigungu": "목포시",
-    "hhldCnt": 1186
+    "hhldCnt": 1186,
+    "jibunAddr": "전라남도 목포시 석현동 1181 목포석현 서희스타힐스아파트",
+    "builder": "목포석현지역주택조합",
+    "entrance": "계단식",
+    "useArea": "176929.962",
+    "bjdCode": "4611016000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024781",
@@ -1066,7 +2407,21 @@
     "emd": "석현동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 석현동 1180 라송센트럴카운티5차아파트",
+    "builder": "라송산업",
+    "entrance": "계단식",
+    "useArea": "62725.0002",
+    "bjdCode": "4611016000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 756,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025099",
@@ -1077,7 +2432,21 @@
     "emd": "석현동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 석현동 1172-1 대송베스트빌아파트",
+    "builder": "대송산업",
+    "entrance": "계단식",
+    "useArea": "7159.884",
+    "bjdCode": "4611016000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 120,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025491",
@@ -1088,7 +2457,21 @@
     "emd": "석현동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 석현동 1179 라송센트럴카운티3차아파트",
+    "builder": "한토건설",
+    "entrance": "계단식",
+    "useArea": "29086.872",
+    "bjdCode": "4611016000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 361,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53040001",
@@ -1099,7 +2482,21 @@
     "emd": "석현동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 석현동 532-2 석현현대아파트",
+    "builder": "현대산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "20638.62",
+    "bjdCode": "4611016000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 252,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53040002",
@@ -1110,7 +2507,21 @@
     "emd": "석현동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 석현동 1074 대성사랑으로아파트",
+    "builder": "대성에이스건설(주)",
+    "entrance": "계단식",
+    "useArea": "30949.81",
+    "bjdCode": "4611016000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 365,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53074203",
@@ -1121,7 +2532,21 @@
     "emd": "석현동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 석현동 1173 KD빌리앙뜨",
+    "builder": "KD건설",
+    "entrance": "계단식",
+    "useArea": "37894.797",
+    "bjdCode": "4611016000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 266,
+      "u135": 60,
+      "o135": 60
+    }
   },
   {
     "code": "A53077801",
@@ -1132,7 +2557,21 @@
     "emd": "석현동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 석현동 1171-1 광명샤인빌1차",
+    "builder": "(합)광명주택",
+    "entrance": "계단식",
+    "useArea": "30572.676",
+    "bjdCode": "4611016000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 360,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53077804",
@@ -1143,7 +2582,21 @@
     "emd": "석현동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 석현동 815-17 근화네오빌2차",
+    "builder": "근화종합건설",
+    "entrance": "계단식",
+    "useArea": "35586.8768",
+    "bjdCode": "4611016000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 201,
+      "u85": 295,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53077805",
@@ -1154,7 +2607,21 @@
     "emd": "석현동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 석현동 816-15 근화네오빌1차",
+    "builder": "근화건설(주)",
+    "entrance": "계단식",
+    "useArea": "21517.1524",
+    "bjdCode": "4611016000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 258,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53077806",
@@ -1165,7 +2632,21 @@
     "emd": "석현동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 석현동 816-17 우진아트빌",
+    "builder": "우진산업",
+    "entrance": "계단식",
+    "useArea": "40355.544",
+    "bjdCode": "4611016000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 168,
+      "u85": 358,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53083004",
@@ -1176,7 +2657,21 @@
     "emd": "석현동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 석현동 816-12 근화블루빌",
+    "builder": "(유)근화종합건설",
+    "entrance": "계단식",
+    "useArea": "33224.7428",
+    "bjdCode": "4611016000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 137,
+      "u85": 310,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53083005",
@@ -1187,7 +2682,21 @@
     "emd": "석현동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 석현동 816-27 금호어울림",
+    "builder": "금호건설(주)",
+    "entrance": "계단식",
+    "useArea": "42667.3614",
+    "bjdCode": "4611016000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 416,
+      "u135": 60,
+      "o135": 0
+    }
   },
   {
     "code": "A10024031",
@@ -1198,7 +2707,21 @@
     "emd": "달동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 달동 1331-8 신항만 뉴캐슬오션시티2차 아파트",
+    "builder": "(주)미래종합건설",
+    "entrance": "계단식",
+    "useArea": "26130.402",
+    "bjdCode": "4611016100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 348,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020792",
@@ -1209,7 +2732,21 @@
     "emd": "대양동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 대양동 555-1 대양동영신그린빌",
+    "builder": "(유)영신토건",
+    "entrance": "복도식",
+    "useArea": "7147.7082",
+    "bjdCode": "4611016300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 128,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53028001",
@@ -1220,7 +2757,21 @@
     "emd": "대양동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 대양동 75-18 근화희망타운3차",
+    "builder": "(유)근화시티개발",
+    "entrance": "복도식",
+    "useArea": "21834.51",
+    "bjdCode": "4611016300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 464,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53074101",
@@ -1231,7 +2782,21 @@
     "emd": "대양동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 대양동 527 아이엠로즈빌아파트",
+    "builder": "(주)아이엠종합건설",
+    "entrance": "계단식",
+    "useArea": "18399.221",
+    "bjdCode": "4611016300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 265,
+      "u85": 30,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53074103",
@@ -1242,7 +2807,21 @@
     "emd": "대양동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 대양동 75-12 근화희망타운2차",
+    "builder": "근화건설",
+    "entrance": "복도식",
+    "useArea": "9963",
+    "bjdCode": "4611016300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 200,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53074104",
@@ -1253,7 +2832,21 @@
     "emd": "대양동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 대양동 75-1 근화희망타운1차",
+    "builder": "근화건설",
+    "entrance": "복도식",
+    "useArea": "17575.14",
+    "bjdCode": "4611016300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 294,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024660",
@@ -1264,7 +2857,21 @@
     "emd": "옥암동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 옥암동 1399 옥암3차 한국아델리움센트럴",
+    "builder": "한국건설",
+    "entrance": "계단식",
+    "useArea": "21987.3337",
+    "bjdCode": "4611016400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 188,
+      "u85": 126,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024964",
@@ -1275,7 +2882,21 @@
     "emd": "옥암동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 옥암동 1398 옥암2차 한국아델리움",
+    "builder": "한국건설",
+    "entrance": "계단식",
+    "useArea": "16831.65",
+    "bjdCode": "4611016400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 70,
+      "u85": 144,
+      "u135": 0,
+      "o135": 3
+    }
   },
   {
     "code": "A10027372",
@@ -1286,7 +2907,21 @@
     "emd": "옥암동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 옥암동 994 영신그린빌1차아파트",
+    "builder": "영신종합건설",
+    "entrance": "계단식",
+    "useArea": "9768.3876",
+    "bjdCode": "4611016400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 48,
+      "u85": 82,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53042002",
@@ -1297,7 +2932,21 @@
     "emd": "옥암동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 옥암동 994-1 초원2차",
+    "builder": "(유)초원건설",
+    "entrance": "계단식",
+    "useArea": "13833.12",
+    "bjdCode": "4611016400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 112,
+      "u85": 84,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53042003",
@@ -1308,7 +2957,21 @@
     "emd": "옥암동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 옥암동 961 하당금호1차",
+    "builder": "(주)금호건설",
+    "entrance": "계단식",
+    "useArea": "17296.2",
+    "bjdCode": "4611016400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 162,
+      "u85": 90,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53042004",
@@ -1319,7 +2982,21 @@
     "emd": "옥암동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 옥암동 965 하당 금호2차",
+    "builder": "(주)금호건설",
+    "entrance": "계단식",
+    "useArea": "33409.62",
+    "bjdCode": "4611016400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 150,
+      "u85": 288,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53042005",
@@ -1330,7 +3007,21 @@
     "emd": "옥암동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 옥암동 962 우미1차",
+    "builder": "(주)우미산업개발",
+    "entrance": "복도식",
+    "useArea": "15561.36",
+    "bjdCode": "4611016400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 288,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53042007",
@@ -1341,7 +3032,21 @@
     "emd": "옥암동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 옥암동 1149 옥암코아루",
+    "builder": "(주)한국토지신탁",
+    "entrance": "계단식",
+    "useArea": "26323.2252",
+    "bjdCode": "4611016400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 311,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53042013",
@@ -1352,7 +3057,21 @@
     "emd": "옥암동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 옥암동 1174 옥암 푸르지오",
+    "builder": "대우건설",
+    "entrance": "계단식",
+    "useArea": "46316.3665",
+    "bjdCode": "4611016400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 550,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53042014",
@@ -1363,7 +3082,21 @@
     "emd": "옥암동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 옥암동 1178 한국아델리움",
+    "builder": "한국종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "69634.5296",
+    "bjdCode": "4611016400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 424,
+      "o135": 152
+    }
   },
   {
     "code": "A53042015",
@@ -1374,7 +3107,21 @@
     "emd": "옥암동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 옥암동 1150 옥암주공",
+    "builder": "혜림건설",
+    "entrance": "복도식",
+    "useArea": "31988.94",
+    "bjdCode": "4611016400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 708,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53042025",
@@ -1385,7 +3132,21 @@
     "emd": "옥암동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 옥암동 1244 목포옥암2",
+    "builder": "송촌건설(주)",
+    "entrance": "복도식",
+    "useArea": "50256.59",
+    "bjdCode": "4611016400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 1294,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53073516",
@@ -1396,7 +3157,21 @@
     "emd": "옥암동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 옥암동 1096 우미블루빌",
+    "builder": "우미건설(주)",
+    "entrance": "계단식",
+    "useArea": "41307.2476",
+    "bjdCode": "4611016400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리(직영+위탁)",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 442,
+      "u85": 178,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53073518",
@@ -1407,7 +3182,21 @@
     "emd": "옥암동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 옥암동 1028 목포부영2차",
+    "builder": "부영주택",
+    "entrance": "복도식",
+    "useArea": "63641.6",
+    "bjdCode": "4611016400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1280,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53073519",
@@ -1418,7 +3207,21 @@
     "emd": "옥암동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 옥암동 1148 옥암 애시앙 1차 아파트",
+    "builder": "(주)부영",
+    "entrance": "계단식",
+    "useArea": "24793.8952",
+    "bjdCode": "4611016400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 292,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53073520",
@@ -1429,7 +3232,21 @@
     "emd": "옥암동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 옥암동 1144 부영애시앙2차",
+    "builder": "동광주택관리(주)",
+    "entrance": "계단식",
+    "useArea": "57542.7954",
+    "bjdCode": "4611016400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 678,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53073521",
@@ -1440,7 +3257,21 @@
     "emd": "옥암동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 옥암동 1103 하당제일1차",
+    "builder": "제일종합건설",
+    "entrance": "계단식",
+    "useArea": "40597.3072",
+    "bjdCode": "4611016400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 478,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53073522",
@@ -1451,7 +3282,21 @@
     "emd": "옥암동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 옥암동 1027 목포부영3차아파트",
+    "builder": "동광주택",
+    "entrance": "복도식",
+    "useArea": "65355.6",
+    "bjdCode": "4611016400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리(직영+위탁)",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1300,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53073523",
@@ -1462,7 +3307,21 @@
     "emd": "옥암동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 옥암동 1338 옥암골드클래스",
+    "builder": "보광건설(주)",
+    "entrance": "계단식",
+    "useArea": "39168.5034",
+    "bjdCode": "4611016400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 462,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53073524",
@@ -1473,7 +3332,21 @@
     "emd": "옥암동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 옥암동 1321 한라비발디",
+    "builder": "한라건설",
+    "entrance": "계단식",
+    "useArea": "68133.3",
+    "bjdCode": "4611016400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 546,
+      "o135": 30
+    }
   },
   {
     "code": "A53073525",
@@ -1484,7 +3357,21 @@
     "emd": "옥암동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 옥암동 1329 모아엘가아파트",
+    "builder": "혜림건설(주)",
+    "entrance": "계단식",
+    "useArea": "43996.1524",
+    "bjdCode": "4611016400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 518,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53073526",
@@ -1495,7 +3382,21 @@
     "emd": "옥암동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 옥암동 1026 목포부영5차아파트",
+    "builder": "광영토건",
+    "entrance": "복도식",
+    "useArea": "28800",
+    "bjdCode": "4611016400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 480,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53073527",
@@ -1506,7 +3407,21 @@
     "emd": "옥암동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 옥암동 1058-13 옥암펠리시아",
+    "builder": "영신종합건설",
+    "entrance": "계단식",
+    "useArea": "14788.26",
+    "bjdCode": "4611016400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 174,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53073528",
@@ -1517,7 +3432,21 @@
     "emd": "옥암동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 옥암동 1272 옥암3차골드디움",
+    "builder": "골드디움(주) 보광건설",
+    "entrance": "계단식",
+    "useArea": "18163.0788",
+    "bjdCode": "4611016400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 8,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 214,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53073529",
@@ -1528,7 +3457,21 @@
     "emd": "옥암동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 옥암동 1098-4 에메랄드골드도시형생활주택",
+    "builder": "큰빛 종합건설(주)",
+    "entrance": "복도식",
+    "useArea": "6455.277",
+    "bjdCode": "4611016400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 171,
+      "u85": 0,
+      "u135": 0,
+      "o135": 1
+    }
   },
   {
     "code": "A53073530",
@@ -1539,7 +3482,21 @@
     "emd": "옥암동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 옥암동 1315 우미파렌하이트",
+    "builder": "우미토건외1",
+    "entrance": "계단식",
+    "useArea": "58219.6202",
+    "bjdCode": "4611016400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 96,
+      "u135": 446,
+      "o135": 6
+    }
   },
   {
     "code": "A53073531",
@@ -1550,7 +3507,21 @@
     "emd": "옥암동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 옥암동 1312 코아루천년가",
+    "builder": "새천년종합건설",
+    "entrance": "계단식",
+    "useArea": "26850.268",
+    "bjdCode": "4611016400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 8,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 316,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53073532",
@@ -1561,7 +3532,21 @@
     "emd": "옥암동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 옥암동 1397 우방아이유쉘",
+    "builder": "SM우방(주)",
+    "entrance": "계단식",
+    "useArea": "13671.5742",
+    "bjdCode": "4611016400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 168,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53073533",
@@ -1572,7 +3557,21 @@
     "emd": "옥암동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 옥암동 1246 옥암베아채",
+    "builder": "근화건설(주)",
+    "entrance": "계단식",
+    "useArea": "70553.1855",
+    "bjdCode": "4611016400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 831,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53076101",
@@ -1583,7 +3582,21 @@
     "emd": "옥암동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 옥암동 1023 목포부영1차",
+    "builder": "부영주택",
+    "entrance": "복도식",
+    "useArea": "33600",
+    "bjdCode": "4611016400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 560,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53083101",
@@ -1594,7 +3607,21 @@
     "emd": "옥암동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 옥암동 915-26 제일6단지풍경채",
+    "builder": "(주)제일종합건설",
+    "entrance": "계단식",
+    "useArea": "12845.3928",
+    "bjdCode": "4611016400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 136,
+      "u85": 58,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53083106",
@@ -1605,7 +3632,21 @@
     "emd": "옥암동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 옥암동 915 제일5차풍경채",
+    "builder": "제일건설(주)",
+    "entrance": "계단식",
+    "useArea": "20739.042",
+    "bjdCode": "4611016400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 164,
+      "u85": 135,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53083108",
@@ -1616,7 +3657,21 @@
     "emd": "옥암동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 옥암동 964 우미2차",
+    "builder": "우미건설",
+    "entrance": "혼합식",
+    "useArea": "18534.6",
+    "bjdCode": "4611016400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 330,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53083109",
@@ -1627,7 +3682,21 @@
     "emd": "옥암동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 옥암동 992 하당현대2차",
+    "builder": "현대산업개발",
+    "entrance": "계단식",
+    "useArea": "29422.6788",
+    "bjdCode": "4611016400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 89,
+      "u85": 210,
+      "u135": 52,
+      "o135": 0
+    }
   },
   {
     "code": "A53083110",
@@ -1638,7 +3707,21 @@
     "emd": "옥암동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 옥암동 916-3 제일3차",
+    "builder": "(주)제일종합건설",
+    "entrance": "계단식",
+    "useArea": "26656.384",
+    "bjdCode": "4611016400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 130,
+      "u85": 224,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53083111",
@@ -1649,7 +3732,21 @@
     "emd": "옥암동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 옥암동 984 제일2차하이빌",
+    "builder": "(주)제일건설",
+    "entrance": "계단식",
+    "useArea": "35683.074",
+    "bjdCode": "4611016400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 420,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53083112",
@@ -1660,6 +3757,20 @@
     "emd": "옥암동",
     "sigunguCode": "46110",
     "sido": "전라남도",
-    "sigungu": "목포시"
+    "sigungu": "목포시",
+    "jibunAddr": "전라남도 목포시 옥암동 1097 우미오션빌",
+    "builder": "우미건설(주)",
+    "entrance": "계단식",
+    "useArea": "42835.6755",
+    "bjdCode": "4611016400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 267,
+      "u135": 180,
+      "o135": 0
+    }
   }
 ]

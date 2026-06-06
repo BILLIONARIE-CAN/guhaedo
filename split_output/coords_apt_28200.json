@@ -8,7 +8,21 @@
     "emd": "구월동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 구월동 1610- 구월 뷰그리안 아파트",
+    "builder": "기성건설",
+    "entrance": "계단식",
+    "useArea": "6757.296",
+    "bjdCode": "2820010100",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 28,
+    "areaBreak": {
+      "u60": 120,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021357",
@@ -19,7 +33,21 @@
     "emd": "구월동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 구월동 1291-7 구월성문아파트",
+    "builder": "(주) 성문건설",
+    "entrance": "복도식",
+    "useArea": "6165.58",
+    "bjdCode": "2820010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 103,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021432",
@@ -30,7 +58,21 @@
     "emd": "구월동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 구월동 1142-21 나이스뷰",
+    "builder": "우평코리아(주)",
+    "entrance": "복도식",
+    "useArea": "2363.22",
+    "bjdCode": "2820010100",
+    "aptType": "도시형 생활주택(아파트)",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 144,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021852",
@@ -41,7 +83,21 @@
     "emd": "구월동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 구월동 1476- 대우재한신휴플러스",
+    "builder": "한신공영",
+    "entrance": "계단식",
+    "useArea": "10170.3",
+    "bjdCode": "2820010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 120,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022888",
@@ -52,7 +108,21 @@
     "emd": "구월동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 구월동 70-16 한화포레나 인천구월",
+    "builder": "한화건설",
+    "entrance": "계단식",
+    "useArea": "72990.7994",
+    "bjdCode": "2820010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 35,
+    "areaBreak": {
+      "u60": 769,
+      "u85": 346,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023325",
@@ -63,7 +133,21 @@
     "emd": "구월동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 구월동 287 동남아파트",
+    "builder": "동남건설",
+    "entrance": "계단식",
+    "useArea": "11022.12",
+    "bjdCode": "2820010100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 48,
+      "u85": 120,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023364",
@@ -74,7 +158,21 @@
     "emd": "구월동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 구월동 1551 구월아시아드선수촌7지",
+    "builder": "디엘건설 주식회사",
+    "entrance": "복도식",
+    "useArea": "37818.2862",
+    "bjdCode": "2820010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 1109,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024475",
@@ -86,7 +184,21 @@
     "sigunguCode": "28200",
     "sido": "인천광역시",
     "sigungu": "남동구",
-    "hhldCnt": 376
+    "hhldCnt": 376,
+    "jibunAddr": "인천광역시 남동구 구월동 1608 구월지웰시티푸르지오",
+    "builder": "대우건설",
+    "entrance": "계단식",
+    "useArea": "64519.2954",
+    "bjdCode": "2820010100",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 43,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026348",
@@ -97,7 +209,21 @@
     "emd": "구월동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 구월동 1131-18 구월프라움아트",
+    "builder": "(주)태남건설",
+    "entrance": "복도식",
+    "useArea": "4047.24",
+    "bjdCode": "2820010100",
+    "aptType": "도시형 생활주택(주상복합)",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 244,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026349",
@@ -108,7 +234,21 @@
     "emd": "구월동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 구월동 1135-15 구월프라움시티",
+    "builder": "(주)태남건설",
+    "entrance": "복도식",
+    "useArea": "4010.04",
+    "bjdCode": "2820010100",
+    "aptType": "도시형 생활주택(주상복합)",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 240,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026789",
@@ -119,7 +259,21 @@
     "emd": "구월동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 구월동 1530 두플라스 도시형생활주택",
+    "builder": "휴가건설",
+    "entrance": "복도식",
+    "useArea": "5493.182",
+    "bjdCode": "2820010100",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 168,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027197",
@@ -130,7 +284,21 @@
     "emd": "구월동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 구월동 1508 구월유승한내들퍼스티지아파트",
+    "builder": "(주)유승종합건설",
+    "entrance": "계단식",
+    "useArea": "74507.9524",
+    "bjdCode": "2820010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 602,
+      "u135": 258,
+      "o135": 0
+    }
   },
   {
     "code": "A10027528",
@@ -142,7 +310,21 @@
     "sigunguCode": "28200",
     "sido": "인천광역시",
     "sigungu": "남동구",
-    "hhldCnt": 80
+    "hhldCnt": 80,
+    "jibunAddr": "인천광역시 남동구 구월동 1144-10 룩소르주상복합아파트",
+    "builder": "(주)룩소르건설",
+    "entrance": "복도식",
+    "useArea": "3899.9136",
+    "bjdCode": "2820010100",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리(총액관리제)",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10028024",
@@ -153,7 +335,21 @@
     "emd": "구월동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 구월동 3-3 구월아시아드선수촌8단지아파트",
+    "builder": "일성건설",
+    "entrance": "계단식",
+    "useArea": "59824.84",
+    "bjdCode": "2820010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 768,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10028026",
@@ -164,7 +360,21 @@
     "emd": "구월동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 구월동 1510 구월아시아드선수촌 센트럴자이",
+    "builder": "GS건설",
+    "entrance": "계단식",
+    "useArea": "81891.78",
+    "bjdCode": "2820010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 279,
+      "u135": 571,
+      "o135": 0
+    }
   },
   {
     "code": "A10028027",
@@ -175,7 +385,21 @@
     "emd": "구월동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 구월동 1513 구월아시아드 선수촌5단지아파트",
+    "builder": "신일건업",
+    "entrance": "혼합식",
+    "useArea": "61152.74",
+    "bjdCode": "2820010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 782,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10028029",
@@ -186,7 +410,21 @@
     "emd": "구월동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 구월동 85 구월아시아드선수촌 1단지 아파트",
+    "builder": "인천도시공사",
+    "entrance": "계단식",
+    "useArea": "28825.13",
+    "bjdCode": "2820010100",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 511,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10028030",
@@ -197,7 +435,21 @@
     "emd": "구월동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 구월동 1485 구월아시아드 선수촌2단지 아파트",
+    "builder": "울트라건설",
+    "entrance": "계단식",
+    "useArea": "35860.86",
+    "bjdCode": "2820010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 636,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10028031",
@@ -208,7 +460,21 @@
     "emd": "구월동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 구월동 1524 구월아시아드선수촌 6단지",
+    "builder": "남양건설(주)",
+    "entrance": "계단식",
+    "useArea": "47633.14",
+    "bjdCode": "2820010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 602,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40522001",
@@ -219,7 +485,21 @@
     "emd": "구월동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 구월동 1476 대우재엘에이치",
+    "builder": "한신공영",
+    "entrance": "계단식",
+    "useArea": "10170.3",
+    "bjdCode": "2820010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 120,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40573101",
@@ -230,7 +510,21 @@
     "emd": "구월동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 구월동 260-5 구월동아아파트",
+    "builder": "(주)동아산업개발",
+    "entrance": "계단식",
+    "useArea": "50322.645",
+    "bjdCode": "2820010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 308,
+      "u135": 73,
+      "o135": 105
+    }
   },
   {
     "code": "A40573202",
@@ -241,7 +535,21 @@
     "emd": "구월동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 구월동 258 구월 팬더 아파트",
+    "builder": "천금주택",
+    "entrance": "계단식",
+    "useArea": "78591.92",
+    "bjdCode": "2820010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 946,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40576101",
@@ -252,7 +560,21 @@
     "emd": "구월동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 구월동 23 구월 힐스테이트&롯데캐슬골드",
+    "builder": "구월주공아파트재건축조합",
+    "entrance": "계단식",
+    "useArea": "458730.4037",
+    "bjdCode": "2820010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 37,
+    "areaBreak": {
+      "u60": 557,
+      "u85": 3070,
+      "u135": 1449,
+      "o135": 0
+    }
   },
   {
     "code": "A40582301",
@@ -263,7 +585,21 @@
     "emd": "구월동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 구월동 20 구월힐스테이트3단지아파트",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "39980.3529",
+    "bjdCode": "2820010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 474,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40582303",
@@ -274,7 +610,21 @@
     "emd": "구월동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 구월동 24 구월롯데캐슬골드아파트",
+    "builder": "롯데건설주식회사",
+    "entrance": "계단식",
+    "useArea": "302203.7297",
+    "bjdCode": "2820010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 37,
+    "areaBreak": {
+      "u60": 272,
+      "u85": 2294,
+      "u135": 818,
+      "o135": 0
+    }
   },
   {
     "code": "A40582802",
@@ -285,7 +635,21 @@
     "emd": "구월동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 구월동 342-1 구월신세계아파트",
+    "builder": "영동개발진흥(주)",
+    "entrance": "복도식",
+    "useArea": "58721.46",
+    "bjdCode": "2820010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 220,
+      "u135": 480,
+      "o135": 0
+    }
   },
   {
     "code": "A10020331",
@@ -296,7 +660,20 @@
     "emd": "간석동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 간석동 514 인천시청역 한신더휴",
+    "builder": "한신공영",
+    "entrance": "혼합식",
+    "useArea": "41028.7498",
+    "bjdCode": "2820010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "areaBreak": {
+      "u60": 24,
+      "u85": 272,
+      "u135": 173,
+      "o135": 0
+    }
   },
   {
     "code": "A10020467",
@@ -308,7 +685,21 @@
     "sigunguCode": "28200",
     "sido": "인천광역시",
     "sigungu": "남동구",
-    "hhldCnt": 108
+    "hhldCnt": 108,
+    "jibunAddr": "인천광역시 남동구 간석동 609- 간석2차우성아파트",
+    "builder": "(주)우성건설",
+    "entrance": "혼합식",
+    "useArea": "7705.26",
+    "bjdCode": "2820010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 9,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021033",
@@ -319,7 +710,21 @@
     "emd": "간석동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 간석동 387- 신한국아파트",
+    "builder": "확인불가",
+    "entrance": "계단식",
+    "useArea": "6255.84",
+    "bjdCode": "2820010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 132,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021369",
@@ -330,7 +735,21 @@
     "emd": "간석동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 간석동 193-2 희망아파트",
+    "builder": "희망주택",
+    "entrance": "계단식",
+    "useArea": "10181.6",
+    "bjdCode": "2820010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 160,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021517",
@@ -341,7 +760,21 @@
     "emd": "간석동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 간석동 775-1 간석동 팬더아파트",
+    "builder": "천금주택",
+    "entrance": "계단식",
+    "useArea": "10989.84",
+    "bjdCode": "2820010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 246,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021726",
@@ -352,7 +785,21 @@
     "emd": "간석동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 간석동 617-31 영남아파트",
+    "builder": "영남건설",
+    "entrance": "계단식",
+    "useArea": "13093.56",
+    "bjdCode": "2820010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 282,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021930",
@@ -363,7 +810,21 @@
     "emd": "간석동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 간석동 45-8 간석동원아파트",
+    "builder": "(주)동원건설",
+    "entrance": "복도식",
+    "useArea": "7645.12",
+    "bjdCode": "2820010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 16,
+    "areaBreak": {
+      "u60": 48,
+      "u85": 70,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022514",
@@ -375,7 +836,21 @@
     "sigunguCode": "28200",
     "sido": "인천광역시",
     "sigungu": "남동구",
-    "hhldCnt": 746
+    "hhldCnt": 746,
+    "jibunAddr": "인천광역시 남동구 간석동 944- 힐스테이트인천시청역",
+    "builder": "현대건설(주)",
+    "entrance": "계단식",
+    "useArea": "45971.79",
+    "bjdCode": "2820010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 28,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025737",
@@ -386,7 +861,21 @@
     "emd": "간석동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 간석동 616-6 간석 한신더휴",
+    "builder": "한신공영(주)",
+    "entrance": "계단식",
+    "useArea": "48049.1435",
+    "bjdCode": "2820010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 26,
+    "areaBreak": {
+      "u60": 203,
+      "u85": 440,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026927",
@@ -397,7 +886,21 @@
     "emd": "간석동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 간석동 214-15 웰스하임",
+    "builder": "웰스건설(주)",
+    "entrance": "복도식",
+    "useArea": "3716.86",
+    "bjdCode": "2820010200",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 182,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40523001",
@@ -408,7 +911,21 @@
     "emd": "간석동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 간석동 224-2 간석엘에이치2단지",
+    "builder": "대명건설",
+    "entrance": "계단식",
+    "useArea": "63978.95",
+    "bjdCode": "2820010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 28,
+    "areaBreak": {
+      "u60": 88,
+      "u85": 704,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40523002",
@@ -419,7 +936,21 @@
     "emd": "간석동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 간석동 940 간석LH1단지",
+    "builder": "우미건설(주)",
+    "entrance": "혼합식",
+    "useArea": "36927.85",
+    "bjdCode": "2820010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 26,
+    "areaBreak": {
+      "u60": 402,
+      "u85": 185,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40523202",
@@ -430,7 +961,21 @@
     "emd": "간석동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 간석동 939-1 간석 래미안자이아파트",
+    "builder": "삼성물산, GS건설",
+    "entrance": "계단식",
+    "useArea": "233360.95",
+    "bjdCode": "2820010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 26,
+    "areaBreak": {
+      "u60": 487,
+      "u85": 1019,
+      "u135": 632,
+      "o135": 294
+    }
   },
   {
     "code": "A40523301",
@@ -441,7 +986,21 @@
     "emd": "간석동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 간석동 934 간석 이삭 아파트",
+    "builder": "(주)이삭종합건설",
+    "entrance": "계단식",
+    "useArea": "14616.32",
+    "bjdCode": "2820010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 63,
+      "u85": 78,
+      "u135": 39,
+      "o135": 0
+    }
   },
   {
     "code": "A40570505",
@@ -452,7 +1011,21 @@
     "emd": "간석동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 간석동 501 간석극동",
+    "builder": "극동건설",
+    "entrance": "혼합식",
+    "useArea": "44546.48",
+    "bjdCode": "2820010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 488,
+      "u85": 272,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40570603",
@@ -463,7 +1036,21 @@
     "emd": "간석동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 간석동 495-5 간석금호",
+    "builder": "금호건설",
+    "entrance": "혼합식",
+    "useArea": "43583.95",
+    "bjdCode": "2820010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 270,
+      "u85": 300,
+      "u135": 60,
+      "o135": 0
+    }
   },
   {
     "code": "A40570904",
@@ -474,7 +1061,21 @@
     "emd": "간석동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 간석동 900-153 간석현대홈타운",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "67281.8228",
+    "bjdCode": "2820010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 1,
+      "u85": 293,
+      "u135": 269,
+      "o135": 86
+    }
   },
   {
     "code": "A40571402",
@@ -485,7 +1086,21 @@
     "emd": "간석동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 간석동 519-4 간석한진",
+    "builder": "한일개발",
+    "entrance": "복도식",
+    "useArea": "38027.78",
+    "bjdCode": "2820010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 96,
+      "u85": 456,
+      "u135": 48,
+      "o135": 0
+    }
   },
   {
     "code": "A40571602",
@@ -496,7 +1111,21 @@
     "emd": "간석동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 간석동 893 간석 현대 아파트",
+    "builder": "고려산업개발주식회사",
+    "entrance": "계단식",
+    "useArea": "38190.9",
+    "bjdCode": "2820010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 269,
+      "u135": 121,
+      "o135": 0
+    }
   },
   {
     "code": "A40571701",
@@ -507,7 +1136,21 @@
     "emd": "간석동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 간석동 938-1 간석 금호어울림 아파트",
+    "builder": "간석주공맨션재건축정비사업조합",
+    "entrance": "계단식",
+    "useArea": "158126.57",
+    "bjdCode": "2820010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 160,
+      "u85": 1060,
+      "u135": 513,
+      "o135": 0
+    }
   },
   {
     "code": "A40571902",
@@ -518,7 +1161,21 @@
     "emd": "간석동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 간석동 917-2 간석두진아파트",
+    "builder": "(주) 두진건설",
+    "entrance": "혼합식",
+    "useArea": "25908.24",
+    "bjdCode": "2820010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 138,
+      "u85": 216,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40572403",
@@ -529,7 +1186,21 @@
     "emd": "간석동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 간석동 918-5 간석 태화 아파트",
+    "builder": "태화건설",
+    "entrance": "계단식",
+    "useArea": "36251.86",
+    "bjdCode": "2820010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 186,
+      "u85": 238,
+      "u135": 40,
+      "o135": 0
+    }
   },
   {
     "code": "A40575206",
@@ -540,7 +1211,21 @@
     "emd": "간석동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 간석동 893-1 간석 우성1차 아파트",
+    "builder": "(주)우성건설",
+    "entrance": "혼합식",
+    "useArea": "80322.9",
+    "bjdCode": "2820010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 210,
+      "u85": 750,
+      "u135": 90,
+      "o135": 0
+    }
   },
   {
     "code": "A40580901",
@@ -551,7 +1236,21 @@
     "emd": "간석동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 간석동 407 다정한마을간석서해",
+    "builder": "서해종합건설",
+    "entrance": "계단식",
+    "useArea": "21084.21",
+    "bjdCode": "2820010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 73,
+      "u85": 197,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40581004",
@@ -562,7 +1261,21 @@
     "emd": "간석동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 간석동 616-7 간석신동아파밀리에명품아파트",
+    "builder": "신동아건설",
+    "entrance": "계단식",
+    "useArea": "57822.8677",
+    "bjdCode": "2820010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 143,
+      "u85": 530,
+      "u135": 42,
+      "o135": 0
+    }
   },
   {
     "code": "A40581005",
@@ -573,7 +1286,21 @@
     "emd": "간석동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 간석동 935 간석풍림아이원아파트",
+    "builder": "(주)풍림산업",
+    "entrance": "계단식",
+    "useArea": "73125.236",
+    "bjdCode": "2820010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 334,
+      "u85": 488,
+      "u135": 100,
+      "o135": 0
+    }
   },
   {
     "code": "A10020177",
@@ -584,7 +1311,20 @@
     "emd": "만수동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 만수동 2-21 신한2차아파트",
+    "builder": "확인안됨",
+    "entrance": "계단식",
+    "useArea": "12711.6",
+    "bjdCode": "2820010300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "areaBreak": {
+      "u60": 228,
+      "u85": 0,
+      "u135": 12,
+      "o135": 0
+    }
   },
   {
     "code": "A10020995",
@@ -595,7 +1335,21 @@
     "emd": "만수동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 만수동 5-6 성신아파트2차",
+    "builder": "성신건설",
+    "entrance": "계단식",
+    "useArea": "7640.1",
+    "bjdCode": "2820010300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 150,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021002",
@@ -606,7 +1360,21 @@
     "emd": "만수동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 만수동 5-326 대동아파트",
+    "builder": "대동건설",
+    "entrance": "계단식",
+    "useArea": "10877.76",
+    "bjdCode": "2820010300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 276,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021010",
@@ -617,7 +1385,21 @@
     "emd": "만수동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 만수동 904-18 만수동동남아파트",
+    "builder": "동남건설",
+    "entrance": "계단식",
+    "useArea": "8572.5",
+    "bjdCode": "2820010300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 110,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021026",
@@ -628,7 +1410,21 @@
     "emd": "만수동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 만수동 5-287 한국공영아파트",
+    "builder": "한국공영",
+    "entrance": "계단식",
+    "useArea": "7238.4",
+    "bjdCode": "2820010300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 160,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021105",
@@ -639,7 +1435,21 @@
     "emd": "만수동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 만수동 6-21 만수신한5차아파트",
+    "builder": "신한건설",
+    "entrance": "계단식",
+    "useArea": "10723.2",
+    "bjdCode": "2820010300",
+    "aptType": "아파트",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 6,
+      "u85": 126,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021279",
@@ -650,7 +1460,21 @@
     "emd": "만수동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 만수동 5-320 아주1차아파트",
+    "builder": "아주건설",
+    "entrance": "계단식",
+    "useArea": "7013.05",
+    "bjdCode": "2820010300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 165,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021576",
@@ -661,7 +1485,21 @@
     "emd": "만수동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 만수동 844-125 산호마을 아파트",
+    "builder": " 포스트 건설",
+    "entrance": "계단식",
+    "useArea": "8847.309",
+    "bjdCode": "2820010300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 82,
+      "u85": 53,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021619",
@@ -672,7 +1510,21 @@
     "emd": "만수동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 만수동 900-17 고운웰리움아파트",
+    "builder": "고운주택건설(주)",
+    "entrance": "계단식",
+    "useArea": "7069.4684",
+    "bjdCode": "2820010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 60,
+      "u85": 41,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021829",
@@ -683,7 +1535,21 @@
     "emd": "만수동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 만수동 5-305 삼부아파트",
+    "builder": "삼부",
+    "entrance": "계단식",
+    "useArea": "11705.4",
+    "bjdCode": "2820010300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 55,
+      "u85": 130,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022418",
@@ -694,7 +1560,21 @@
     "emd": "만수동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 만수동 848- 영풍아파트B단지",
+    "builder": "영풍건설",
+    "entrance": "계단식",
+    "useArea": "10673.76",
+    "bjdCode": "2820010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 66,
+      "u85": 36,
+      "u135": 30,
+      "o135": 0
+    }
   },
   {
     "code": "A10024729",
@@ -705,7 +1585,21 @@
     "emd": "만수동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 만수동 1123 하우스토리 만수",
+    "builder": "(주)남광건설",
+    "entrance": "계단식",
+    "useArea": "47678.558",
+    "bjdCode": "2820010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 795,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40574002",
@@ -716,7 +1610,21 @@
     "emd": "만수동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 만수동 983-1 만수 삼환1차 아파트",
+    "builder": "삼환기업",
+    "entrance": "복도식",
+    "useArea": "36460.3",
+    "bjdCode": "2820010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 510,
+      "u85": 150,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40574101",
@@ -727,7 +1635,21 @@
     "emd": "만수동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 만수동 966 만수삼환2단지아파트",
+    "builder": "삼환까뮤",
+    "entrance": "복도식",
+    "useArea": "36465.3",
+    "bjdCode": "2820010300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 510,
+      "u85": 150,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40574201",
@@ -738,7 +1660,21 @@
     "emd": "만수동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 만수동 1115-1 포레시안 아파트",
+    "builder": "LH공사",
+    "entrance": "혼합식",
+    "useArea": "240093.69",
+    "bjdCode": "2820010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 1253,
+      "u85": 1713,
+      "u135": 242,
+      "o135": 0
+    }
   },
   {
     "code": "A40574202",
@@ -749,7 +1685,21 @@
     "emd": "만수동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 만수동 1116-1 향촌휴먼시아2단지아파트",
+    "builder": "이수건설",
+    "entrance": "혼합식",
+    "useArea": "33596.48",
+    "bjdCode": "2820010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 110,
+      "u85": 328,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40574403",
@@ -760,7 +1710,21 @@
     "emd": "만수동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 만수동 1113 만수 주공11단지 아파트",
+    "builder": "대한주택공사",
+    "entrance": "혼합식",
+    "useArea": "54117.94",
+    "bjdCode": "2820010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 701,
+      "u85": 200,
+      "u135": 1,
+      "o135": 0
+    }
   },
   {
     "code": "A40574701",
@@ -771,7 +1735,21 @@
     "emd": "만수동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 만수동 5-397 만수 신대동 아파트",
+    "builder": "대동주택종합건설주식회사",
+    "entrance": "계단식",
+    "useArea": "24745.32",
+    "bjdCode": "2820010300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 372,
+      "u85": 60,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40574904",
@@ -782,7 +1760,21 @@
     "emd": "만수동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 만수동 1114 햇빛마을벽산아파트",
+    "builder": "벽산건설",
+    "entrance": "계단식",
+    "useArea": "160030.14",
+    "bjdCode": "2820010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 638,
+      "u85": 1435,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40575301",
@@ -793,7 +1785,21 @@
     "emd": "만수동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 만수동 849 만수영풍2차아파트",
+    "builder": "영풍산업",
+    "entrance": "계단식",
+    "useArea": "13727.28",
+    "bjdCode": "2820010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 84,
+      "u85": 42,
+      "u135": 42,
+      "o135": 0
+    }
   },
   {
     "code": "A40575501",
@@ -804,7 +1810,21 @@
     "emd": "만수동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 만수동 905 만수 효성 상아 아파트",
+    "builder": "동성건설",
+    "entrance": "혼합식",
+    "useArea": "59641.285",
+    "bjdCode": "2820010300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 660,
+      "u135": 60,
+      "o135": 0
+    }
   },
   {
     "code": "A40575610",
@@ -815,7 +1835,21 @@
     "emd": "만수동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 만수동 1042 만수 광명14차 아파트",
+    "builder": "주식회사 광명주택",
+    "entrance": "계단식",
+    "useArea": "72246.6",
+    "bjdCode": "2820010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 870,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40575704",
@@ -826,7 +1860,21 @@
     "emd": "만수동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 만수동 1048 만수 금호타운 아파트",
+    "builder": "금호건설",
+    "entrance": "계단식",
+    "useArea": "49423.02",
+    "bjdCode": "2820010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 338,
+      "o135": 76
+    }
   },
   {
     "code": "A40575812",
@@ -837,7 +1885,21 @@
     "emd": "만수동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 만수동 1044 만수 뉴서울 아파트",
+    "builder": "뉴서울건설",
+    "entrance": "복도식",
+    "useArea": "42758.1",
+    "bjdCode": "2820010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1234,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40575911",
@@ -848,7 +1910,21 @@
     "emd": "만수동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 만수동 1049 만수 담방마을 아파트",
+    "builder": "고려개발주식회사",
+    "entrance": "복도식",
+    "useArea": "52557.2",
+    "bjdCode": "2820010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 1100,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40576206",
@@ -859,7 +1935,21 @@
     "emd": "만수동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 만수동 1018 만수 대동 아파트",
+    "builder": "대동주택 종합관리",
+    "entrance": "혼합식",
+    "useArea": "45300.32",
+    "bjdCode": "2820010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 560,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40576301",
@@ -870,7 +1960,21 @@
     "emd": "만수동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 만수동 1038 만수 삼익세라믹 아파트",
+    "builder": "(주)삼익세라믹",
+    "entrance": "계단식",
+    "useArea": "36000",
+    "bjdCode": "2820010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 16,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 192,
+      "o135": 64
+    }
   },
   {
     "code": "A40576409",
@@ -881,7 +1985,21 @@
     "emd": "만수동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 만수동 1014 만수 남동 아파트",
+    "builder": "강산건설",
+    "entrance": "복도식",
+    "useArea": "43426.2",
+    "bjdCode": "2820010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 770,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40576502",
@@ -892,7 +2010,21 @@
     "emd": "만수동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 만수동 1086-1 만수 이삭1차 아파트",
+    "builder": "이삭건설(주)",
+    "entrance": "계단식",
+    "useArea": "26018.916",
+    "bjdCode": "2820010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 232,
+      "u135": 67,
+      "o135": 0
+    }
   },
   {
     "code": "A40576603",
@@ -903,7 +2035,21 @@
     "emd": "만수동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 만수동 1036 만수 진흥 아파트",
+    "builder": "진흥 주택",
+    "entrance": "계단식",
+    "useArea": "20547",
+    "bjdCode": "2820010300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 180,
+      "u85": 120,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40576708",
@@ -914,7 +2060,21 @@
     "emd": "만수동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 만수동 1045 만수 한국 아파트",
+    "builder": "(주) 한국주택",
+    "entrance": "계단식",
+    "useArea": "51344.32",
+    "bjdCode": "2820010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 16,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 608,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40576807",
@@ -925,7 +2085,21 @@
     "emd": "만수동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 만수동 1037 만수 현대 아파트",
+    "builder": "고려산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "69688.8",
+    "bjdCode": "2820010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 480,
+      "o135": 80
+    }
   },
   {
     "code": "A40577003",
@@ -936,7 +2110,21 @@
     "emd": "만수동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 만수동 1005 만수주공8단지아파트",
+    "builder": "대한주택공사",
+    "entrance": "복도식",
+    "useArea": "58664.73",
+    "bjdCode": "2820010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1440,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40577101",
@@ -947,7 +2135,21 @@
     "emd": "만수동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 만수동 46 만수주공3단지 아파트",
+    "builder": "LH 공사",
+    "entrance": "혼합식",
+    "useArea": "29891.17",
+    "bjdCode": "2820010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 267,
+      "u85": 243,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40577102",
@@ -958,7 +2160,21 @@
     "emd": "만수동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 만수동 29 만수주공1단지",
+    "builder": "대한주택공사",
+    "entrance": "계단식",
+    "useArea": "22406.13",
+    "bjdCode": "2820010300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 516,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40577103",
@@ -969,7 +2185,21 @@
     "emd": "만수동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 만수동 20 만수 주공6단지 아파트",
+    "builder": "대한주택공사",
+    "entrance": "계단식",
+    "useArea": "33958.8",
+    "bjdCode": "2820010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 800,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40577104",
@@ -980,7 +2210,21 @@
     "emd": "만수동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 만수동 17 만수주공5단지",
+    "builder": "주택공사",
+    "entrance": "복도식",
+    "useArea": "36319.5",
+    "bjdCode": "2820010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 900,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40577105",
@@ -991,7 +2235,21 @@
     "emd": "만수동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 만수동 29 만수주공2단지아파트",
+    "builder": "대한주택공사",
+    "entrance": "혼합식",
+    "useArea": "123675.9",
+    "bjdCode": "2820010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 480,
+      "u85": 1440,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40577106",
@@ -1002,7 +2260,21 @@
     "emd": "만수동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 만수동 13 만수 주공4단지 아파트",
+    "builder": "대한주택공사",
+    "entrance": "혼합식",
+    "useArea": "140667",
+    "bjdCode": "2820010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 660,
+      "u85": 1560,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40577204",
@@ -1013,7 +2285,21 @@
     "emd": "만수동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 만수동 1005 인천만수7(공단)",
+    "builder": "삼부토건, 중앙건설",
+    "entrance": "복도식",
+    "useArea": "47043.2",
+    "bjdCode": "2820010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1466,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40577305",
@@ -1024,7 +2310,21 @@
     "emd": "만수동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 만수동 1043 만수주공10단지아파트",
+    "builder": "대한주택공사",
+    "entrance": "복도식",
+    "useArea": "20903.4",
+    "bjdCode": "2820010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 420,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40577313",
@@ -1035,7 +2335,21 @@
     "emd": "만수동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 만수동 1043 인천만수9(공단)",
+    "builder": "(주)한성",
+    "entrance": "복도식",
+    "useArea": "25137",
+    "bjdCode": "2820010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리(직영+위탁)",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 630,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40577402",
@@ -1046,7 +2360,21 @@
     "emd": "만수동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 만수동 5-426 만수 신동아 아파트",
+    "builder": "신동아건설",
+    "entrance": "계단식",
+    "useArea": "60612.932",
+    "bjdCode": "2820010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 690,
+      "u135": 60,
+      "o135": 0
+    }
   },
   {
     "code": "A40586002",
@@ -1057,7 +2385,21 @@
     "emd": "만수동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 만수동 844-1 만수 대성유니드아파트",
+    "builder": "대성건설",
+    "entrance": "계단식",
+    "useArea": "28551.3112",
+    "bjdCode": "2820010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 88,
+      "u85": 276,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40525001",
@@ -1068,7 +2410,21 @@
     "emd": "장수동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 장수동 806-3 장수 주공아파트",
+    "builder": "한국토지주택공사",
+    "entrance": "복도식",
+    "useArea": "33896.67",
+    "bjdCode": "2820010400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 795,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40679308",
@@ -1079,7 +2435,21 @@
     "emd": "장수동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 장수동 774 한별렉스힐아파트",
+    "builder": "한별종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "9945.6",
+    "bjdCode": "2820010400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 60
+    }
   },
   {
     "code": "A10025083",
@@ -1090,7 +2460,21 @@
     "emd": "서창동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 서창동 744 서창LH14단지아파트",
+    "builder": "금호건설",
+    "entrance": "복도식",
+    "useArea": "27623.72",
+    "bjdCode": "2820010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 950,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025690",
@@ -1101,7 +2485,21 @@
     "emd": "서창동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 서창동 745 서창꿈에그린아파트",
+    "builder": "한화건설",
+    "entrance": "계단식",
+    "useArea": "99511.72",
+    "bjdCode": "2820010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1212,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026474",
@@ -1112,7 +2510,21 @@
     "emd": "서창동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 서창동 682 서창센트럴푸르지오아파트",
+    "builder": "(주)대우건설, 대림산업(주)",
+    "entrance": "계단식",
+    "useArea": "91389.21",
+    "bjdCode": "2820010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1160,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026616",
@@ -1123,7 +2535,21 @@
     "emd": "서창동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 서창동 676 더 포레스트 아파트",
+    "builder": "(주)케이알산업",
+    "entrance": "계단식",
+    "useArea": "73647.19",
+    "bjdCode": "2820010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 1228,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026647",
@@ -1134,7 +2560,21 @@
     "emd": "서창동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 서창동 679 인천서창lh15단지아파트",
+    "builder": "(주)kr산업",
+    "entrance": "복도식",
+    "useArea": "17287.12",
+    "bjdCode": "2820010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 678,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026721",
@@ -1145,7 +2585,21 @@
     "emd": "서창동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 서창동 640 서창청광플러스원아파트",
+    "builder": "청광종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "49464.3923",
+    "bjdCode": "2820010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 582,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026786",
@@ -1156,7 +2610,21 @@
     "emd": "서창동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 서창동 685 e편한세상서창아파트",
+    "builder": "대림산업",
+    "entrance": "계단식",
+    "useArea": "70913.78",
+    "bjdCode": "2820010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 835,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026923",
@@ -1167,7 +2635,21 @@
     "emd": "서창동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 서창동 702 서창2지구 호반베르디움아파트",
+    "builder": "호반건설산업,호반건설",
+    "entrance": "계단식",
+    "useArea": "50850.6144",
+    "bjdCode": "2820010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 600,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027649",
@@ -1178,7 +2660,21 @@
     "emd": "서창동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 서창동 639 서창 베니엔",
+    "builder": "두산건설(주)",
+    "entrance": "계단식",
+    "useArea": "54418.57",
+    "bjdCode": "2820010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 742,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10028173",
@@ -1189,7 +2685,21 @@
     "emd": "서창동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 서창동 636 서창LH1단지아파트",
+    "builder": "신동아건설",
+    "entrance": "복도식",
+    "useArea": "76910.66",
+    "bjdCode": "2820010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 2186,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40526003",
@@ -1200,7 +2710,21 @@
     "emd": "서창동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 서창동 540 서창서해그랑블",
+    "builder": "(주)서해종합건설",
+    "entrance": "계단식",
+    "useArea": "42108.3981",
+    "bjdCode": "2820010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 202,
+      "u85": 197,
+      "u135": 124,
+      "o135": 0
+    }
   },
   {
     "code": "A40526004",
@@ -1211,7 +2735,21 @@
     "emd": "서창동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 서창동 545 서창 현대모닝사이드 아파트",
+    "builder": "(주)태평주택",
+    "entrance": "계단식",
+    "useArea": "60715.915",
+    "bjdCode": "2820010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 478,
+      "u135": 76,
+      "o135": 76
+    }
   },
   {
     "code": "A40526006",
@@ -1222,7 +2760,21 @@
     "emd": "서창동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 서창동 560-2 서창 임광그대가아파트",
+    "builder": "임관토건",
+    "entrance": "계단식",
+    "useArea": "69486.34",
+    "bjdCode": "2820010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 406,
+      "u135": 260,
+      "o135": 0
+    }
   },
   {
     "code": "A40576901",
@@ -1233,7 +2785,21 @@
     "emd": "서창동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 서창동 537 서창 태평1차 아파트",
+    "builder": "영남건설",
+    "entrance": "계단식",
+    "useArea": "29012.865",
+    "bjdCode": "2820010500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 306,
+      "u85": 129,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40576902",
@@ -1244,7 +2810,21 @@
     "emd": "서창동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 서창동 715 서창베라체",
+    "builder": "한일건설",
+    "entrance": "계단식",
+    "useArea": "70958.46",
+    "bjdCode": "2820010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 342,
+      "u85": 596,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40576903",
@@ -1255,7 +2835,21 @@
     "emd": "서창동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 서창동 633 서창퍼스트뷰(구,서창LH7단지)",
+    "builder": "1공구:롯데건설, 2공구:대보건설",
+    "entrance": "계단식",
+    "useArea": "104695.54",
+    "bjdCode": "2820010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 240,
+      "u85": 547,
+      "u135": 409,
+      "o135": 0
+    }
   },
   {
     "code": "A40576904",
@@ -1266,7 +2860,21 @@
     "emd": "서창동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 서창동 692 서창센트라스아파트",
+    "builder": "(주)대명건설",
+    "entrance": "계단식",
+    "useArea": "45691.47",
+    "bjdCode": "2820010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 566,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40576905",
@@ -1277,7 +2885,21 @@
     "emd": "서창동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 서창동 717 인천서창LH12단지",
+    "builder": "일성건설",
+    "entrance": "혼합식",
+    "useArea": "60149.27",
+    "bjdCode": "2820010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 1534,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40576906",
@@ -1288,7 +2910,21 @@
     "emd": "서창동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 서창동 695 인천서창에코에비뉴아파트",
+    "builder": "울트라건설",
+    "entrance": "계단식",
+    "useArea": "69867.3",
+    "bjdCode": "2820010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 855,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40577505",
@@ -1299,7 +2935,21 @@
     "emd": "서창동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 서창동 538 서창 태평2차 아파트",
+    "builder": "(주)태평주택",
+    "entrance": "계단식",
+    "useArea": "45797.2",
+    "bjdCode": "2820010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 236,
+      "u85": 259,
+      "u135": 44,
+      "o135": 38
+    }
   },
   {
     "code": "A40587002",
@@ -1310,7 +2960,21 @@
     "emd": "서창동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 서창동 561-1 서창 자이아파트",
+    "builder": "GS건설(주)",
+    "entrance": "계단식",
+    "useArea": "55978.4",
+    "bjdCode": "2820010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 200,
+      "u135": 158,
+      "o135": 142
+    }
   },
   {
     "code": "A10021953",
@@ -1321,7 +2985,21 @@
     "emd": "남촌동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 남촌동 571-1 청호아파트",
+    "builder": "청호건설",
+    "entrance": "계단식",
+    "useArea": "7395.42",
+    "bjdCode": "2820010700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 114,
+      "u85": 18,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40510003",
@@ -1332,7 +3010,21 @@
     "emd": "남촌동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 남촌동 649 남촌3차풍림아파트",
+    "builder": "풍림산업",
+    "entrance": "계단식",
+    "useArea": "60524.75",
+    "bjdCode": "2820010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 255,
+      "u85": 346,
+      "u135": 134,
+      "o135": 0
+    }
   },
   {
     "code": "A40573502",
@@ -1343,7 +3035,21 @@
     "emd": "남촌동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 남촌동 320-2 남촌풍림1차",
+    "builder": "풍림산업(주)",
+    "entrance": "계단식",
+    "useArea": "30207.685",
+    "bjdCode": "2820010700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 219,
+      "u85": 202,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40584401",
@@ -1354,7 +3060,21 @@
     "emd": "남촌동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 남촌동 391-3 남촌풍림2차",
+    "builder": "풍림",
+    "entrance": "계단식",
+    "useArea": "25637.177",
+    "bjdCode": "2820010700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 135,
+      "u85": 107,
+      "u135": 77,
+      "o135": 0
+    }
   },
   {
     "code": "A40528001",
@@ -1365,7 +3085,21 @@
     "emd": "도림동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 도림동 654-2 도림벽산블루밍아파트",
+    "builder": "벽산건설",
+    "entrance": "계단식",
+    "useArea": "29322.5",
+    "bjdCode": "2820010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 338,
+      "u135": 0,
+      "o135": 4
+    }
   },
   {
     "code": "A40528002",
@@ -1376,7 +3110,21 @@
     "emd": "도림동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 도림동 651-1 도림 아이파크아파트",
+    "builder": "현대산업개발",
+    "entrance": "계단식",
+    "useArea": "34927.0609",
+    "bjdCode": "2820010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 145,
+      "u135": 204,
+      "o135": 0
+    }
   },
   {
     "code": "A40528004",
@@ -1387,7 +3135,21 @@
     "emd": "도림동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 도림동 629-1 인천도림1그린빌(공단)",
+    "builder": "(주)대우ENG",
+    "entrance": "계단식",
+    "useArea": "38517.4823",
+    "bjdCode": "2820010900",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 714,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40578503",
@@ -1398,7 +3160,21 @@
     "emd": "도림동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 도림동 630-1 도림주공그린빌2단지",
+    "builder": "대한주택공사",
+    "entrance": "계단식",
+    "useArea": "52822.8",
+    "bjdCode": "2820010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 642,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022332",
@@ -1409,7 +3185,21 @@
     "emd": "논현동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 논현동 111-7 이안논현오션파크아파트",
+    "builder": "대우산업개발",
+    "entrance": "기타",
+    "useArea": "19192.3324",
+    "bjdCode": "2820011000",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 39,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 294,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023662",
@@ -1420,7 +3210,21 @@
     "emd": "논현동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 논현동 588-2 논현LH16단지",
+    "builder": "우석신도시",
+    "entrance": "복도식",
+    "useArea": "6583.02",
+    "bjdCode": "2820011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 238,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024416",
@@ -1431,7 +3235,21 @@
     "emd": "논현동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 논현동 581-1 인천 논현 LH15 단지",
+    "builder": "대영건설주식회사",
+    "entrance": "복도식",
+    "useArea": "6636.56",
+    "bjdCode": "2820011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 260,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025222",
@@ -1442,7 +3260,21 @@
     "emd": "논현동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 논현동 66-18 논현푸르지오 더퍼스트",
+    "builder": "(주)대우건설",
+    "entrance": "계단식",
+    "useArea": "48476.095",
+    "bjdCode": "2820011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 754,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025792",
@@ -1453,7 +3285,21 @@
     "emd": "논현동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 논현동 635-3 인천논현하늘마을LH4단지",
+    "builder": "우신건설",
+    "entrance": "복도식",
+    "useArea": "10939.64",
+    "bjdCode": "2820011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 412,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026000",
@@ -1464,7 +3310,21 @@
     "emd": "논현동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 논현동 764-4 논현유승한내들와이드오션아파트",
+    "builder": "(주)유승종합건설",
+    "entrance": "계단식",
+    "useArea": "21197.6259",
+    "bjdCode": "2820011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 40,
+    "areaBreak": {
+      "u60": 376,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40530004",
@@ -1475,7 +3335,21 @@
     "emd": "논현동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 논현동 600-9 논현주공13단지",
+    "builder": "풍창건설(주)",
+    "entrance": "계단식",
+    "useArea": "44520.21",
+    "bjdCode": "2820011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 785,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40530005",
@@ -1486,7 +3360,21 @@
     "emd": "논현동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 논현동 600-1 논현주공12단지",
+    "builder": "신일건업",
+    "entrance": "복도식",
+    "useArea": "34213.98",
+    "bjdCode": "2820011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 801,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40530006",
@@ -1497,7 +3385,21 @@
     "emd": "논현동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 논현동 618-1 논현신일해피트리",
+    "builder": "신일건설",
+    "entrance": "계단식",
+    "useArea": "105243.856",
+    "bjdCode": "2820011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 736,
+      "o135": 92
+    }
   },
   {
     "code": "A40530009",
@@ -1508,7 +3410,21 @@
     "emd": "논현동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 논현동 601-1 논현별빛마을웰카운티",
+    "builder": "도시개발공사",
+    "entrance": "계단식",
+    "useArea": "105043.02",
+    "bjdCode": "2820011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 728,
+      "o135": 160
+    }
   },
   {
     "code": "A40530010",
@@ -1519,7 +3435,21 @@
     "emd": "논현동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 논현동 602-1 논현단풍마을트리플에듀",
+    "builder": "서희건설,신일",
+    "entrance": "계단식",
+    "useArea": "76134.1",
+    "bjdCode": "2820011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 898,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40530011",
@@ -1530,7 +3460,21 @@
     "emd": "논현동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 논현동 634-1 논현꿈에그린",
+    "builder": "한화건설",
+    "entrance": "계단식",
+    "useArea": "117564.102",
+    "bjdCode": "2820011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 882,
+      "o135": 100
+    }
   },
   {
     "code": "A40530012",
@@ -1541,7 +3485,21 @@
     "emd": "논현동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 논현동 604-1 논현냇마을신영지웰",
+    "builder": "SK건설",
+    "entrance": "계단식",
+    "useArea": "118020.9109",
+    "bjdCode": "2820011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 27,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 838,
+      "o135": 147
+    }
   },
   {
     "code": "A40530016",
@@ -1552,7 +3510,21 @@
     "emd": "논현동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 논현동 633-1 논현휴먼시아5단지",
+    "builder": "한국토지주택공사",
+    "entrance": "복도식",
+    "useArea": "66239.26",
+    "bjdCode": "2820011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1522,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40530017",
@@ -1563,7 +3535,21 @@
     "emd": "논현동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 논현동 599-1 논현주공14단지",
+    "builder": "한국토지주택공사",
+    "entrance": "복도식",
+    "useArea": "78466.5",
+    "bjdCode": "2820011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 1800,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40530018",
@@ -1574,7 +3560,21 @@
     "emd": "논현동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 논현동 635-1 논현휴먼시아하늘마을3단지",
+    "builder": "계룡건설, KCC건설",
+    "entrance": "혼합식",
+    "useArea": "101916.66",
+    "bjdCode": "2820011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 2148,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40530021",
@@ -1585,7 +3585,21 @@
     "emd": "논현동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 논현동 643-1 인천논현2범마을(공단)",
+    "builder": "신일",
+    "entrance": "복도식",
+    "useArea": "60027.27",
+    "bjdCode": "2820011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1284,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40572701",
@@ -1596,7 +3610,21 @@
     "emd": "논현동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 논현동 740-2 인천소래휴먼시아3단지",
+    "builder": "유진기업(주), 이수건설(주)",
+    "entrance": "혼합식",
+    "useArea": "82661.4",
+    "bjdCode": "2820011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 2026,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40573603",
@@ -1607,7 +3635,21 @@
     "emd": "논현동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 논현동 563-3 논현주공2-2단지",
+    "builder": "주택공사",
+    "entrance": "복도식",
+    "useArea": "16750.4",
+    "bjdCode": "2820011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 372,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40573613",
@@ -1618,7 +3660,21 @@
     "emd": "논현동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 논현동 564-1 논현주공1단지",
+    "builder": "(주)한양",
+    "entrance": "혼합식",
+    "useArea": "68743.62",
+    "bjdCode": "2820011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 1190,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40577815",
@@ -1629,7 +3685,21 @@
     "emd": "논현동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 논현동 577 논현소래마을풍림",
+    "builder": "풍림산업",
+    "entrance": "계단식",
+    "useArea": "117619.875",
+    "bjdCode": "2820011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 616,
+      "u85": 752,
+      "u135": 149,
+      "o135": 0
+    }
   },
   {
     "code": "A40579607",
@@ -1640,7 +3710,21 @@
     "emd": "논현동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 논현동 603-1 논현휴먼시아동산마을",
+    "builder": "한국주택공사",
+    "entrance": "계단식",
+    "useArea": "70479.36",
+    "bjdCode": "2820011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 833,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40579701",
@@ -1651,7 +3735,21 @@
     "emd": "논현동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 논현동 774-1 한화에코메트로11단지",
+    "builder": "(주)한화건설",
+    "entrance": "계단식",
+    "useArea": "155346.446",
+    "bjdCode": "2820011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 31,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1084,
+      "u135": 486,
+      "o135": 52
+    }
   },
   {
     "code": "A40579702",
@@ -1662,7 +3760,21 @@
     "emd": "논현동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 논현동 755-4 에코메트로한화12단지",
+    "builder": "한화건설",
+    "entrance": "계단식",
+    "useArea": "126460.952",
+    "bjdCode": "2820011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 31,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 804,
+      "u135": 448,
+      "o135": 46
+    }
   },
   {
     "code": "A40579703",
@@ -1673,7 +3785,21 @@
     "emd": "논현동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 논현동 580-1 논현파크포레",
+    "builder": "서희건설",
+    "entrance": "계단식",
+    "useArea": "74041.36",
+    "bjdCode": "2820011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 874,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40579704",
@@ -1684,7 +3810,21 @@
     "emd": "논현동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 논현동 732-1 논현힐스테이트",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "70957.0302",
+    "bjdCode": "2820011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 32,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 120,
+      "u135": 352,
+      "o135": 122
+    }
   },
   {
     "code": "A40579705",
@@ -1695,7 +3835,21 @@
     "emd": "논현동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 논현동 756-1 논현한화에코메트로6단지",
+    "builder": "(주)한화",
+    "entrance": "계단식",
+    "useArea": "81573.12",
+    "bjdCode": "2820011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 37,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 960,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40579706",
@@ -1706,7 +3860,21 @@
     "emd": "논현동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 논현동 755-1 논현한화에코메트로5단지",
+    "builder": "한화건설",
+    "entrance": "계단식",
+    "useArea": "99790.342",
+    "bjdCode": "2820011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 40,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 696,
+      "u135": 280,
+      "o135": 76
+    }
   },
   {
     "code": "A40579707",
@@ -1717,7 +3885,21 @@
     "emd": "논현동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 논현동 773-1 논현한화에코메트로10단지",
+    "builder": "한화건설",
+    "entrance": "기타",
+    "useArea": "79383.782",
+    "bjdCode": "2820011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 40,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 208,
+      "o135": 348
+    }
   },
   {
     "code": "A40579708",
@@ -1728,7 +3910,21 @@
     "emd": "논현동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 논현동 766-1 논현한화에코메트로9단지",
+    "builder": "(주)한화건설",
+    "entrance": "기타",
+    "useArea": "117545.862",
+    "bjdCode": "2820011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 50,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 338,
+      "o135": 472
+    }
   },
   {
     "code": "A40579709",
@@ -1739,7 +3935,21 @@
     "emd": "논현동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 논현동 757-1 에코메트로7단지",
+    "builder": "(주)한화",
+    "entrance": "계단식",
+    "useArea": "72062.002",
+    "bjdCode": "2820011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 37,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 848,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40579710",
@@ -1750,7 +3960,21 @@
     "emd": "논현동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 논현동 740-1 소래휴먼시아1단지",
+    "builder": "(주)효성",
+    "entrance": "복도식",
+    "useArea": "35720.2",
+    "bjdCode": "2820011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 882,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40579711",
@@ -1761,7 +3985,21 @@
     "emd": "논현동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 논현동 66-24 유호엔시티1단지아파트",
+    "builder": "유호건설(주)",
+    "entrance": "계단식",
+    "useArea": "34470.2829",
+    "bjdCode": "2820011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 39,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 240,
+      "u135": 143,
+      "o135": 0
+    }
   },
   {
     "code": "A40579712",
@@ -1772,7 +4010,21 @@
     "emd": "논현동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 논현동 751-1 에코메트로더타워",
+    "builder": "한화건설",
+    "entrance": "기타",
+    "useArea": "70400.672",
+    "bjdCode": "2820011000",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 51,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 606,
+      "o135": 38
+    }
   },
   {
     "code": "A40579713",
@@ -1783,7 +4035,21 @@
     "emd": "논현동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 논현동 749-1 논현센트럴뷰",
+    "builder": "삼환기업(주)",
+    "entrance": "계단식",
+    "useArea": "48982.48",
+    "bjdCode": "2820011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 820,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40585001",
@@ -1794,7 +4060,21 @@
     "emd": "논현동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 논현동 563-2 논현동보",
+    "builder": "동보건설",
+    "entrance": "계단식",
+    "useArea": "31908.36",
+    "bjdCode": "2820011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 278,
+      "o135": 0
+    }
   },
   {
     "code": "A40585002",
@@ -1805,7 +4085,21 @@
     "emd": "논현동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 논현동 549 논현한라",
+    "builder": "한라중공업",
+    "entrance": "복도식",
+    "useArea": "17193.6",
+    "bjdCode": "2820011000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 288,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40585008",
@@ -1816,6 +4110,20 @@
     "emd": "논현동",
     "sigunguCode": "28200",
     "sido": "인천광역시",
-    "sigungu": "남동구"
+    "sigungu": "남동구",
+    "jibunAddr": "인천광역시 남동구 논현동 563-3 논현주공2-1단지",
+    "builder": "대한주택공사",
+    "entrance": "계단식",
+    "useArea": "68849.2",
+    "bjdCode": "2820011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 200,
+      "u85": 680,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

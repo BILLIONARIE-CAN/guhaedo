@@ -8,7 +8,21 @@
     "emd": "음성읍",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 음성읍 읍내리 951 음성지평더웰2차아파트",
+    "builder": "지평건설",
+    "entrance": "계단식",
+    "useArea": "10924.5832",
+    "bjdCode": "4377025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 136,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36970101",
@@ -19,7 +33,21 @@
     "emd": "음성읍",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 음성읍 읍내리 950 음성지평더웰",
+    "builder": "지평건설(주)",
+    "entrance": "계단식",
+    "useArea": "21865.2243",
+    "bjdCode": "4377025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 241,
+      "u135": 28,
+      "o135": 0
+    }
   },
   {
     "code": "A36970102",
@@ -30,7 +58,21 @@
     "emd": "음성읍",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 음성읍 읍내리 193-7 음성세륭",
+    "builder": "청담건설",
+    "entrance": "계단식",
+    "useArea": "4079.88",
+    "bjdCode": "4377025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 96,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36980701",
@@ -41,7 +83,21 @@
     "emd": "음성읍",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 음성읍 읍내리 350-1 음성삼보아파트",
+    "builder": "(합)삼보주택",
+    "entrance": "혼합식",
+    "useArea": "24590.4",
+    "bjdCode": "4377025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 240,
+      "u85": 120,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36980703",
@@ -52,7 +108,21 @@
     "emd": "음성읍",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 음성읍 읍내리 805 한성진주아파트",
+    "builder": "(주)한성주택",
+    "entrance": "혼합식",
+    "useArea": "40251.9",
+    "bjdCode": "4377025021",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 735,
+      "u85": 60,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023776",
@@ -63,7 +133,21 @@
     "emd": "음성읍",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 음성읍 평곡리 1117 음성코아루아파트",
+    "builder": "유호산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "29232.5502",
+    "bjdCode": "4377025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 221,
+      "u85": 188,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36980102",
@@ -74,7 +158,21 @@
     "emd": "음성읍",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 음성읍 신천리 149 금광포란재",
+    "builder": "금광건업",
+    "entrance": "계단식",
+    "useArea": "40126.831",
+    "bjdCode": "4377025029",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 329,
+      "u85": 240,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36980104",
@@ -85,7 +183,21 @@
     "emd": "음성읍",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 음성읍 신천리 1058 음성신천 휴먼시아",
+    "builder": "삼환까뮤",
+    "entrance": "복도식",
+    "useArea": "20815.44",
+    "bjdCode": "4377025029",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 516,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020350",
@@ -97,7 +209,21 @@
     "sigunguCode": "43770",
     "sido": "충청북도",
     "sigungu": "음성군",
-    "hhldCnt": 1505
+    "hhldCnt": 1505,
+    "jibunAddr": "충청북도 음성군 금왕읍 무극리 776- 음성자이센트럴시티",
+    "builder": "GS건설",
+    "entrance": "계단식",
+    "useArea": "124044.3672",
+    "bjdCode": "4377025321",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 27,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020699",
@@ -108,7 +234,21 @@
     "emd": "금왕읍",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 금왕읍 무극리 504-16 풍산장미아파트",
+    "builder": "주식회사 풍산주택",
+    "entrance": "복도식",
+    "useArea": "8502.96",
+    "bjdCode": "4377025321",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 142,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021350",
@@ -119,7 +259,21 @@
     "emd": "금왕읍",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 금왕읍 무극리 661- 두진백로2차아파트",
+    "builder": "두진",
+    "entrance": "계단식",
+    "useArea": "8322.5",
+    "bjdCode": "4377025321",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 60,
+      "u85": 56,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36975208",
@@ -130,7 +284,21 @@
     "emd": "금왕읍",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 금왕읍 무극리 34-1 음성금왕1",
+    "builder": "상지건영(주)",
+    "entrance": "복도식",
+    "useArea": "22905.25",
+    "bjdCode": "4377025321",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 495,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36975302",
@@ -141,7 +309,21 @@
     "emd": "금왕읍",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 금왕읍 무극리 662 금왕두진백로1차아파트",
+    "builder": "(주)두진공영",
+    "entrance": "계단식",
+    "useArea": "18946.44",
+    "bjdCode": "4377025321",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 318,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36990401",
@@ -152,7 +334,21 @@
     "emd": "금왕읍",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 금왕읍 무극리 34-3 음성금왕휴먼시아아파트",
+    "builder": "금성백조주택",
+    "entrance": "계단식",
+    "useArea": "15683.5",
+    "bjdCode": "4377025321",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 280,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36990403",
@@ -163,7 +359,21 @@
     "emd": "금왕읍",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 금왕읍 무극리 585-11 금왕명운네스트빌아파트",
+    "builder": "명운산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "26753.549",
+    "bjdCode": "4377025321",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 182,
+      "u85": 114,
+      "u135": 52,
+      "o135": 0
+    }
   },
   {
     "code": "A36990405",
@@ -174,7 +384,21 @@
     "emd": "금왕읍",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 금왕읍 무극리 503 유수장미아파트",
+    "builder": "풍산건설",
+    "entrance": "복도식",
+    "useArea": "19859.76",
+    "bjdCode": "4377025321",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 374,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36990407",
@@ -185,7 +409,21 @@
     "emd": "금왕읍",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 금왕읍 무극리 93 금왕주공3단지아파트",
+    "builder": "1공구 : 유진건설 2공구:동광건설",
+    "entrance": "혼합식",
+    "useArea": "36534.98",
+    "bjdCode": "4377025321",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 737,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023472",
@@ -196,7 +434,21 @@
     "emd": "금왕읍",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 금왕읍 금석리 555 음성금석LH2단지",
+    "builder": "이수건설",
+    "entrance": "복도식",
+    "useArea": "19178.12",
+    "bjdCode": "4377025322",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 500,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027032",
@@ -207,7 +459,21 @@
     "emd": "금왕읍",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 금왕읍 금석리 482 음성금왕시티프라디움",
+    "builder": "시티건설",
+    "entrance": "계단식",
+    "useArea": "36043.2404",
+    "bjdCode": "4377025322",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 428,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36975304",
@@ -218,7 +484,21 @@
     "emd": "금왕읍",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 금왕읍 금석리 467 음성금석LH아파트",
+    "builder": "엘아이지건설",
+    "entrance": "복도식",
+    "useArea": "27597.6",
+    "bjdCode": "4377025322",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 690,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36990304",
@@ -229,7 +509,21 @@
     "emd": "금왕읍",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 금왕읍 금석리 340-7 금왕두진하트리움3차",
+    "builder": "(주)두진",
+    "entrance": "계단식",
+    "useArea": "28838.511",
+    "bjdCode": "4377025322",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 360,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36975303",
@@ -240,7 +534,21 @@
     "emd": "금왕읍",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 금왕읍 내송리 216-1 우원",
+    "builder": "우원건설(주)",
+    "entrance": "복도식",
+    "useArea": "9338.28",
+    "bjdCode": "4377025339",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 7,
+    "areaBreak": {
+      "u60": 252,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36982408",
@@ -251,7 +559,21 @@
     "emd": "대소읍",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 대소읍 오산리 155 대소주공",
+    "builder": "선광토건",
+    "entrance": "계단식",
+    "useArea": "19913.02",
+    "bjdCode": "4377025621",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 359,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026313",
@@ -262,7 +584,21 @@
     "emd": "대소읍",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 대소읍 태생리 765 대소 웰메이드타운",
+    "builder": "(주)세정건설",
+    "entrance": "계단식",
+    "useArea": "33405.21",
+    "bjdCode": "4377025622",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 409,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36570004",
@@ -273,7 +609,21 @@
     "emd": "대소읍",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 대소읍 태생리 423-20 대소개나리아파트",
+    "builder": "(주) 풍산",
+    "entrance": "복도식",
+    "useArea": "19466.87",
+    "bjdCode": "4377025622",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 431,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36970204",
@@ -284,7 +634,21 @@
     "emd": "대소읍",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 대소읍 태생리 756 음성대소두진하트리움",
+    "builder": "두진",
+    "entrance": "계단식",
+    "useArea": "31470.0979",
+    "bjdCode": "4377025622",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 402,
+      "u135": 0,
+      "o135": 5
+    }
   },
   {
     "code": "A36982403",
@@ -295,7 +659,21 @@
     "emd": "대소읍",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 대소읍 태생리 308 대소한진신세대아파트",
+    "builder": "한진건설주식회사",
+    "entrance": "복도식",
+    "useArea": "10392.3",
+    "bjdCode": "4377025622",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 234,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36982405",
@@ -306,7 +684,21 @@
     "emd": "대소읍",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 대소읍 태생리 79-12 한양밀알2차아파트",
+    "builder": "한양종합건설(주)",
+    "entrance": "혼합식",
+    "useArea": "13171.56",
+    "bjdCode": "4377025622",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 9,
+    "areaBreak": {
+      "u60": 274,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36982406",
@@ -317,7 +709,21 @@
     "emd": "대소읍",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 대소읍 태생리 79-5 한양1차아파트",
+    "builder": "한양종합건설(주)",
+    "entrance": "혼합식",
+    "useArea": "15058.32",
+    "bjdCode": "4377025622",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 9,
+    "areaBreak": {
+      "u60": 298,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025736",
@@ -328,7 +734,21 @@
     "emd": "대소읍",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 대소읍 소석리 626 이안음성대소아파트",
+    "builder": "대우산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "45449.8616",
+    "bjdCode": "4377025623",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 317,
+      "u85": 334,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36982307",
@@ -339,7 +759,21 @@
     "emd": "대소읍",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 대소읍 소석리 11-7 음성SK뷰아파트",
+    "builder": "SK건설",
+    "entrance": "계단식",
+    "useArea": "29855.8324",
+    "bjdCode": "4377025623",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 266,
+      "u135": 60,
+      "o135": 0
+    }
   },
   {
     "code": "A10020382",
@@ -351,7 +785,21 @@
     "sigunguCode": "43770",
     "sido": "충청북도",
     "sigungu": "음성군",
-    "hhldCnt": 1019
+    "hhldCnt": 1019,
+    "jibunAddr": "충청북도 음성군 대소읍 성본리 807- 음성우미린풀하우스",
+    "builder": "우미건설(주)",
+    "entrance": "계단식",
+    "useArea": "88784.0594",
+    "bjdCode": "4377025624",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020617",
@@ -363,7 +811,21 @@
     "sigunguCode": "43770",
     "sido": "충청북도",
     "sigungu": "음성군",
-    "hhldCnt": 644
+    "hhldCnt": 644,
+    "jibunAddr": "충청북도 음성군 대소읍 성본리 822- 음성 푸르지오마크베르아파트",
+    "builder": "(주)대우건설",
+    "entrance": "계단식",
+    "useArea": "57691.0889",
+    "bjdCode": "4377025624",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020627",
@@ -375,7 +837,21 @@
     "sigunguCode": "43770",
     "sido": "충청북도",
     "sigungu": "음성군",
-    "hhldCnt": 875
+    "hhldCnt": 875,
+    "jibunAddr": "충청북도 음성군 대소읍 성본리 819- 음성푸르지오센터피크",
+    "builder": "(주)대우건설",
+    "entrance": "계단식",
+    "useArea": "78859.2631",
+    "bjdCode": "4377025624",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 35,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021374",
@@ -386,7 +862,21 @@
     "emd": "대소읍",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 대소읍 성본리 818- 음성푸르지오더퍼스트",
+    "builder": "대우건설",
+    "entrance": "계단식",
+    "useArea": "90934.3726",
+    "bjdCode": "4377025624",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 890,
+      "u135": 158,
+      "o135": 0
+    }
   },
   {
     "code": "A10022460",
@@ -397,7 +887,21 @@
     "emd": "대소읍",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 대소읍 성본리 803- 음성동문디이스트아파트",
+    "builder": "동문건설",
+    "entrance": "계단식",
+    "useArea": "58368.5505",
+    "bjdCode": "4377025624",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 687,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36970202",
@@ -408,7 +912,21 @@
     "emd": "대소읍",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 대소읍 부윤리 130-17 조원무궁화아파트",
+    "builder": "조원기업(주)",
+    "entrance": "복도식",
+    "useArea": "11476.44",
+    "bjdCode": "4377025625",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 388,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36982304",
@@ -419,7 +937,21 @@
     "emd": "대소읍",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 대소읍 부윤리 121-1 한미금강아파트",
+    "builder": "한미건설(주)",
+    "entrance": "복도식",
+    "useArea": "11781.36",
+    "bjdCode": "4377025625",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 270,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36982202",
@@ -430,7 +962,21 @@
     "emd": "대소읍",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 대소읍 삼정리 610-5 기흥윗마을아파트",
+    "builder": "기흥종합건설",
+    "entrance": "계단식",
+    "useArea": "15615.4386",
+    "bjdCode": "4377025627",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 91,
+      "u85": 120,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36970203",
@@ -441,7 +987,21 @@
     "emd": "대소읍",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 대소읍 오류리 66-5 기흥아랫마을",
+    "builder": "기흥종합건설 주식회사",
+    "entrance": "계단식",
+    "useArea": "7956.2",
+    "bjdCode": "4377025631",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 140,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36982401",
@@ -452,7 +1012,21 @@
     "emd": "대소읍",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 대소읍 오류리 218-27 융보목련아파트",
+    "builder": "융보건설(합)",
+    "entrance": "복도식",
+    "useArea": "9581.805",
+    "bjdCode": "4377025631",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 171,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36970201",
@@ -463,7 +1037,21 @@
     "emd": "대소읍",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 대소읍 대풍리 621 음성대소사랑으로부영",
+    "builder": "(주)부영",
+    "entrance": "계단식",
+    "useArea": "33242.7368",
+    "bjdCode": "4377025632",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 392,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36982109",
@@ -474,7 +1062,21 @@
     "emd": "대소읍",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 대소읍 대풍리 582-7 산수화아파트",
+    "builder": "마스타건설",
+    "entrance": "혼합식",
+    "useArea": "25249.664",
+    "bjdCode": "4377025632",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 491,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022865",
@@ -485,7 +1087,21 @@
     "emd": "맹동면",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 맹동면 쌍정리 244-3 음성맹동행복주택",
+    "builder": "대창건설",
+    "entrance": "복도식",
+    "useArea": "10843.46",
+    "bjdCode": "4377033021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 294,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36971101",
@@ -496,7 +1112,21 @@
     "emd": "맹동면",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 맹동면 쌍정리 131-1 음성맹동휴먼시아",
+    "builder": "동양건설",
+    "entrance": "복도식",
+    "useArea": "10916.1",
+    "bjdCode": "4377033021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 261,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020375",
@@ -508,7 +1138,21 @@
     "sigunguCode": "43770",
     "sido": "충청북도",
     "sigungu": "음성군",
-    "hhldCnt": 773
+    "hhldCnt": 773,
+    "jibunAddr": "충청북도 음성군 맹동면 본성리 459- 음성아이파크",
+    "builder": "(주)현대산업개발",
+    "entrance": "계단식",
+    "useArea": "70548.004",
+    "bjdCode": "4377033027",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026976",
@@ -519,7 +1163,21 @@
     "emd": "맹동면",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 맹동면 동성리 523 충북혁신영무예다음3차아파트",
+    "builder": "(주)하가건설",
+    "entrance": "계단식",
+    "useArea": "58953.6548",
+    "bjdCode": "4377033031",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 694,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027791",
@@ -530,7 +1188,21 @@
     "emd": "맹동면",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 맹동면 동성리 228 충북혁신 천년나무1단지아파트",
+    "builder": "풍림산업(주)외",
+    "entrance": "복도식",
+    "useArea": "50694.28",
+    "bjdCode": "4377033031",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 1278,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36971102",
@@ -541,7 +1213,21 @@
     "emd": "맹동면",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 맹동면 동성리 246 충북혁신도시센트레빌",
+    "builder": "(주)동부건설",
+    "entrance": "계단식",
+    "useArea": "88238.22",
+    "bjdCode": "4377033031",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1074,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36971103",
@@ -552,7 +1238,21 @@
     "emd": "맹동면",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 맹동면 동성리 3-65 쌍용예가아파트",
+    "builder": "쌍용건설",
+    "entrance": "계단식",
+    "useArea": "53675.7",
+    "bjdCode": "4377033031",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 896,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36983101",
@@ -563,7 +1263,21 @@
     "emd": "삼성면",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 삼성면 덕정리 1507 음성삼성휴먼시아",
+    "builder": "한국토지주택공사",
+    "entrance": "복도식",
+    "useArea": "17356.82",
+    "bjdCode": "4377035021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 419,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021349",
@@ -574,7 +1288,21 @@
     "emd": "생극면",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 생극면 신양리 388-11 홍은모드니아파트",
+    "builder": "확인불가",
+    "entrance": "복도식",
+    "useArea": "6844.8",
+    "bjdCode": "4377036021",
+    "aptType": "아파트",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 130,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021854",
@@ -585,7 +1313,21 @@
     "emd": "생극면",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 생극면 신양리 465-5 태경에코그린아파트",
+    "builder": "(주)태경건설",
+    "entrance": "계단식",
+    "useArea": "7280.5863",
+    "bjdCode": "4377036021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 13,
+      "u85": 91,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021539",
@@ -596,7 +1338,21 @@
     "emd": "감곡면",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 감곡면 오향리 409-1 삼성푸른아파트",
+    "builder": "삼성건설(주)",
+    "entrance": "혼합식",
+    "useArea": "7914.52",
+    "bjdCode": "4377037021",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 50,
+      "u85": 58,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023520",
@@ -607,7 +1363,21 @@
     "emd": "감곡면",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 감곡면 오향리 1186 대신리치빌아파트",
+    "builder": "연준종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "8251.538",
+    "bjdCode": "4377037021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 98,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024265",
@@ -618,7 +1388,21 @@
     "emd": "감곡면",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 감곡면 오향리 1187 감곡 포그니아파트",
+    "builder": "(주)연준종합건설",
+    "entrance": "계단식",
+    "useArea": "26754.2868",
+    "bjdCode": "4377037021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026321",
@@ -629,7 +1413,21 @@
     "emd": "감곡면",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 감곡면 오향리 405-16 감곡드림타워아파트",
+    "builder": "(주)한일건영",
+    "entrance": "복도식",
+    "useArea": "7611.0493",
+    "bjdCode": "4377037021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 149,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36970301",
@@ -640,7 +1438,21 @@
     "emd": "감곡면",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 감곡면 오향리 568 감곡덕일한마음",
+    "builder": "덕일건설",
+    "entrance": "혼합식",
+    "useArea": "29709.06",
+    "bjdCode": "4377037021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 563,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36970302",
@@ -651,7 +1463,21 @@
     "emd": "감곡면",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 감곡면 오향리 1181 감곡휴먼시아아파트",
+    "builder": "계룡건설산업(주)",
+    "entrance": "복도식",
+    "useArea": "23871.18",
+    "bjdCode": "4377037021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 566,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36985401",
@@ -662,6 +1488,20 @@
     "emd": "감곡면",
     "sigunguCode": "43770",
     "sido": "충청북도",
-    "sigungu": "음성군"
+    "sigungu": "음성군",
+    "jibunAddr": "충청북도 음성군 감곡면 오향리 557-4 음성감곡부강아파트",
+    "builder": "부강건설",
+    "entrance": "혼합식",
+    "useArea": "13924.65",
+    "bjdCode": "4377037021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 105,
+      "u85": 90,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

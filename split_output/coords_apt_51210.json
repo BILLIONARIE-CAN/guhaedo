@@ -8,7 +8,20 @@
     "emd": "영랑동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 영랑동 180-1 대명드림빌",
+    "builder": "대명주택건설",
+    "entrance": "계단식",
+    "useArea": "8609.9352",
+    "bjdCode": "5121010100",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 26,
+      "u85": 84,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A21701001",
@@ -19,7 +32,21 @@
     "emd": "영랑동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 영랑동 157 양우비치타워맨션",
+    "builder": "양우종합건설",
+    "entrance": "복도식",
+    "useArea": "15435.15",
+    "bjdCode": "5121010100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 138,
+      "u85": 61,
+      "u135": 19,
+      "o135": 0
+    }
   },
   {
     "code": "A10023004",
@@ -30,7 +57,21 @@
     "emd": "동명동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 동명동 600 속초디오션자이",
+    "builder": "GS건설",
+    "entrance": "계단식",
+    "useArea": "38864.6739",
+    "bjdCode": "5121010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 43,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 448,
+      "u135": 6,
+      "o135": 0
+    }
   },
   {
     "code": "A10023369",
@@ -41,7 +82,21 @@
     "emd": "동명동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 동명동 599 롯데캐슬인더스카이아파트",
+    "builder": "롯데건설",
+    "entrance": "계단식",
+    "useArea": "46659.12",
+    "bjdCode": "5121010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 37,
+      "u85": 525,
+      "u135": 6,
+      "o135": 0
+    }
   },
   {
     "code": "A10026409",
@@ -52,7 +107,21 @@
     "emd": "동명동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 동명동 596 이편한세상영랑호아파트",
+    "builder": "대림산업",
+    "entrance": "계단식",
+    "useArea": "43681.7746",
+    "bjdCode": "5121010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 437,
+      "u135": 53,
+      "o135": 7
+    }
   },
   {
     "code": "A21781001",
@@ -63,7 +132,21 @@
     "emd": "동명동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 동명동 512 속초대명타워영랑호아파트",
+    "builder": "(주)대명건설",
+    "entrance": "혼합식",
+    "useArea": "12765.04",
+    "bjdCode": "5121010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 128,
+      "u85": 60,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024112",
@@ -74,7 +157,21 @@
     "emd": "중앙동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 중앙동 468-19 힐스테이트 속초 센트럴",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "21737.7553",
+    "bjdCode": "5121010300",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 36,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 238,
+      "u135": 18,
+      "o135": 0
+    }
   },
   {
     "code": "A10024840",
@@ -85,7 +182,21 @@
     "emd": "금호동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 금호동 629 보람레이크더하임아파트",
+    "builder": "보람건설(주)",
+    "entrance": "계단식",
+    "useArea": "17243.6",
+    "bjdCode": "5121010400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 110
+    }
   },
   {
     "code": "A21776101",
@@ -96,7 +207,21 @@
     "emd": "금호동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 금호동 630 생모리츠",
+    "builder": "제이에스건설산업주식회사",
+    "entrance": "계단식",
+    "useArea": "21313.9192",
+    "bjdCode": "5121010400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 18,
+      "u85": 178,
+      "u135": 55,
+      "o135": 0
+    }
   },
   {
     "code": "A21780801",
@@ -107,7 +232,21 @@
     "emd": "금호동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 금호동 622-66 금호대명",
+    "builder": "대명건설",
+    "entrance": "혼합식",
+    "useArea": "14781.45",
+    "bjdCode": "5121010400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 85,
+      "u85": 115,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A21780802",
@@ -118,7 +257,21 @@
     "emd": "금호동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 금호동 627 e편한세상 아파트",
+    "builder": "대림산업(주)",
+    "entrance": "계단식",
+    "useArea": "42407.906",
+    "bjdCode": "5121010400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 330,
+      "u135": 119,
+      "o135": 0
+    }
   },
   {
     "code": "A10021125",
@@ -129,7 +282,21 @@
     "emd": "교동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 교동 800-14 럭키교동 아파트",
+    "builder": "럭키개발주식회사",
+    "entrance": "복도식",
+    "useArea": "14822.88",
+    "bjdCode": "5121010600",
+    "aptType": "아파트",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 210,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022283",
@@ -140,7 +307,21 @@
     "emd": "교동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 교동 800-68 로얄2차아파트",
+    "builder": "폐업",
+    "entrance": "계단식",
+    "useArea": "6406.2",
+    "bjdCode": "5121010600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 155,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024326",
@@ -151,7 +332,21 @@
     "emd": "교동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 교동 1033 미소지움더뷰아파트",
+    "builder": "SG신성건설",
+    "entrance": "계단식",
+    "useArea": "39277.7905",
+    "bjdCode": "5121010600",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 35,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 363,
+      "u135": 0,
+      "o135": 5
+    }
   },
   {
     "code": "A10025277",
@@ -162,7 +357,21 @@
     "emd": "교동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 교동 658-42 속초교동블루핀아파트",
+    "builder": "주식회사 홍성건설",
+    "entrance": "복도식",
+    "useArea": "8691.74",
+    "bjdCode": "5121010600",
+    "aptType": "아파트",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026073",
@@ -173,7 +382,21 @@
     "emd": "교동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 교동 1030 시티프라디움아파트",
+    "builder": "(주)시티건설, (주)시티종합건설",
+    "entrance": "계단식",
+    "useArea": "23112.3579",
+    "bjdCode": "5121010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 274,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A21706008",
@@ -184,7 +407,21 @@
     "emd": "교동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 교동 1027 속초명지미래힐아파트",
+    "builder": "명지건설",
+    "entrance": "계단식",
+    "useArea": "33939.5903",
+    "bjdCode": "5121010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 319,
+      "u135": 58,
+      "o135": 0
+    }
   },
   {
     "code": "A21706011",
@@ -195,7 +432,21 @@
     "emd": "교동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 교동 618-10 속초현대1차아파트",
+    "builder": "현대",
+    "entrance": "계단식",
+    "useArea": "37175.25",
+    "bjdCode": "5121010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 415,
+      "u135": 30,
+      "o135": 0
+    }
   },
   {
     "code": "A21706016",
@@ -206,7 +457,21 @@
     "emd": "교동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 교동 961-1 청초1주공",
+    "builder": "한국토지주택공사",
+    "entrance": "복도식",
+    "useArea": "13787.91",
+    "bjdCode": "5121010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 478,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A21775517",
@@ -217,7 +482,21 @@
     "emd": "교동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 교동 783 대명늘푸른아파트",
+    "builder": "(주)대명",
+    "entrance": "혼합식",
+    "useArea": "50489.8506",
+    "bjdCode": "5121010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 637,
+      "u85": 180,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A21775518",
@@ -228,7 +507,21 @@
     "emd": "교동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 교동 984 석미모닝파크",
+    "builder": "석미건설",
+    "entrance": "계단식",
+    "useArea": "15351",
+    "bjdCode": "5121010600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 210,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A21775519",
@@ -239,7 +532,21 @@
     "emd": "교동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 교동 924 삼호아파트",
+    "builder": "삼호건설(주)",
+    "entrance": "혼합식",
+    "useArea": "14010.768",
+    "bjdCode": "5121010600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 340,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A21775520",
@@ -250,7 +557,21 @@
     "emd": "교동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 교동 1029 하우스토리",
+    "builder": "(주)남광토건",
+    "entrance": "계단식",
+    "useArea": "48732.603",
+    "bjdCode": "5121010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 279,
+      "u85": 324,
+      "u135": 58,
+      "o135": 0
+    }
   },
   {
     "code": "A21775521",
@@ -261,7 +582,21 @@
     "emd": "교동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 교동 620 협성아파트",
+    "builder": "(주)협성주택",
+    "entrance": "복도식",
+    "useArea": "4378.92",
+    "bjdCode": "5121010600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 156,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A21775522",
@@ -272,7 +607,21 @@
     "emd": "교동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 교동 961-1 속초청초주공3차",
+    "builder": "LH공사",
+    "entrance": "복도식",
+    "useArea": "12056.85",
+    "bjdCode": "5121010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 267,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A21780010",
@@ -283,7 +632,21 @@
     "emd": "교동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 교동 619-33 설악현대아파트",
+    "builder": "현대산업개발",
+    "entrance": "계단식",
+    "useArea": "31785.097",
+    "bjdCode": "5121010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 423,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A21780102",
@@ -294,7 +657,21 @@
     "emd": "교동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 교동 627-306 속초대명3차아파트",
+    "builder": "대명건설",
+    "entrance": "복도식",
+    "useArea": "9888.45",
+    "bjdCode": "5121010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 165,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A21780104",
@@ -305,7 +682,21 @@
     "emd": "교동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 교동 628-1 서울대명1차아파트",
+    "builder": "대명건설",
+    "entrance": "복도식",
+    "useArea": "14928.18",
+    "bjdCode": "5121010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 181,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A21780106",
@@ -316,7 +707,21 @@
     "emd": "교동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 교동 620-13 럭키설악타운2차아파트",
+    "builder": "(주)럭키개발",
+    "entrance": "계단식",
+    "useArea": "25772.7",
+    "bjdCode": "5121010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 180,
+      "u135": 90,
+      "o135": 0
+    }
   },
   {
     "code": "A21780413",
@@ -327,7 +732,21 @@
     "emd": "교동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 교동 898 주공2차아파트 입주자 대표회의",
+    "builder": "LH주택공사",
+    "entrance": "계단식",
+    "useArea": "24843.29",
+    "bjdCode": "5121010600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 590,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A21780505",
@@ -338,7 +757,21 @@
     "emd": "교동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 교동 781-6 속초현대2차아파트",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "22255.38",
+    "bjdCode": "5121010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 225,
+      "u135": 30,
+      "o135": 0
+    }
   },
   {
     "code": "A21780507",
@@ -349,7 +782,21 @@
     "emd": "교동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 교동 782 속초현대3차아파트",
+    "builder": "중선개발",
+    "entrance": "계단식",
+    "useArea": "21999.48",
+    "bjdCode": "5121010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 120,
+      "u85": 156,
+      "u135": 12,
+      "o135": 0
+    }
   },
   {
     "code": "A21780509",
@@ -360,7 +807,21 @@
     "emd": "교동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 교동 767-224 럭키설악타운1차아파트",
+    "builder": "럭키개발",
+    "entrance": "혼합식",
+    "useArea": "30311.65",
+    "bjdCode": "5121010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 36,
+      "u85": 347,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A21780515",
@@ -371,7 +832,21 @@
     "emd": "교동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 교동 781-1 동부아파트",
+    "builder": "동부건설",
+    "entrance": "계단식",
+    "useArea": "51476.336",
+    "bjdCode": "5121010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 325,
+      "u85": 275,
+      "u135": 68,
+      "o135": 0
+    }
   },
   {
     "code": "A21780601",
@@ -382,7 +857,21 @@
     "emd": "교동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 교동 904-5 로얄나하나2차아파트",
+    "builder": "삼진종합건설(주)",
+    "entrance": "복도식",
+    "useArea": "9964.41",
+    "bjdCode": "5121010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 135,
+      "u85": 22,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A21780603",
@@ -393,7 +882,21 @@
     "emd": "교동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 교동 904-6 로얄나하나1차아파트",
+    "builder": "삼진건설",
+    "entrance": "복도식",
+    "useArea": "10188.27",
+    "bjdCode": "5121010600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 171,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A21780612",
@@ -404,7 +907,21 @@
     "emd": "교동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 교동 961 청초대우",
+    "builder": "대우건설",
+    "entrance": "계단식",
+    "useArea": "39634.152",
+    "bjdCode": "5121010600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 180,
+      "u85": 355,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A21780614",
@@ -415,7 +932,21 @@
     "emd": "교동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 교동 923 삼환아파트",
+    "builder": "삼환건설",
+    "entrance": "혼합식",
+    "useArea": "46135.14",
+    "bjdCode": "5121010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 432,
+      "u85": 0,
+      "u135": 212,
+      "o135": 0
+    }
   },
   {
     "code": "A10021696",
@@ -426,7 +957,21 @@
     "emd": "조양동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 조양동 1463-4 설악한신아파트",
+    "builder": "한신공영주식회사",
+    "entrance": "복도식",
+    "useArea": "7734.3",
+    "bjdCode": "5121010800",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 79,
+      "u85": 56,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021888",
@@ -437,7 +982,21 @@
     "emd": "조양동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 조양동 579- 대명4차아파트",
+    "builder": "(주)대명종합건설",
+    "entrance": "복도식",
+    "useArea": "7071.74",
+    "bjdCode": "5121010800",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 118,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022173",
@@ -448,7 +1007,21 @@
     "emd": "조양동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 조양동 1377-10 설악진덕맨션",
+    "builder": "진덕산업",
+    "entrance": "복도식",
+    "useArea": "5671.2",
+    "bjdCode": "5121010800",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 105,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023782",
@@ -459,7 +1032,21 @@
     "emd": "조양동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 조양동 415 속초2차아이파크아파트",
+    "builder": "현대산업개발",
+    "entrance": "계단식",
+    "useArea": "48408.79",
+    "bjdCode": "5121010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 569,
+      "u135": 7,
+      "o135": 2
+    }
   },
   {
     "code": "A10024073",
@@ -470,7 +1057,21 @@
     "emd": "조양동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 조양동 1390-2 속초서희스타힐스 더베이 2차 주상복합 아파트",
+    "builder": "주식회사 서희건설",
+    "entrance": "계단식",
+    "useArea": "14958.94",
+    "bjdCode": "5121010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 34,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 184,
+      "u135": 2,
+      "o135": 0
+    }
   },
   {
     "code": "A10024135",
@@ -481,7 +1082,21 @@
     "emd": "조양동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 조양동 1411-146 속초조양 코아루 아리스타",
+    "builder": "대양건설",
+    "entrance": "복도식",
+    "useArea": "7010.1208",
+    "bjdCode": "5121010800",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 28,
+    "areaBreak": {
+      "u60": 296,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024352",
@@ -492,7 +1107,21 @@
     "emd": "조양동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 조양동 1587 양우내안애오션스카이",
+    "builder": "(주)양우건설",
+    "entrance": "혼합식",
+    "useArea": "28046.4128",
+    "bjdCode": "5121010800",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 37,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 288,
+      "u135": 32,
+      "o135": 0
+    }
   },
   {
     "code": "A10024876",
@@ -503,7 +1132,21 @@
     "emd": "조양동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 조양동 1586 속초자이아파트",
+    "builder": "GS건설",
+    "entrance": "계단식",
+    "useArea": "69439.2944",
+    "bjdCode": "5121010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 79,
+      "u85": 789,
+      "u135": 3,
+      "o135": 3
+    }
   },
   {
     "code": "A10024907",
@@ -514,7 +1157,21 @@
     "emd": "조양동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 조양동 1585 조양동휴먼빌아파트",
+    "builder": "일신건영",
+    "entrance": "계단식",
+    "useArea": "31405.6596",
+    "bjdCode": "5121010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 379,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024997",
@@ -525,7 +1182,21 @@
     "emd": "조양동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 조양동 1459 속초서희스타힐스더베이",
+    "builder": "(주)서희건설",
+    "entrance": "계단식",
+    "useArea": "21056.9",
+    "bjdCode": "5121010800",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 31,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 116,
+      "u135": 116,
+      "o135": 0
+    }
   },
   {
     "code": "A10025348",
@@ -536,7 +1207,21 @@
     "emd": "조양동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 조양동 1582 속초효성해링턴플레이스",
+    "builder": "효성중공업",
+    "entrance": "계단식",
+    "useArea": "50496.33",
+    "bjdCode": "5121010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 217,
+      "u85": 387,
+      "u135": 42,
+      "o135": 5
+    }
   },
   {
     "code": "A10025696",
@@ -547,7 +1232,21 @@
     "emd": "조양동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 조양동 1315 속초 kcc스위첸 아파트",
+    "builder": "kcc 건설",
+    "entrance": "계단식",
+    "useArea": "63383.625",
+    "bjdCode": "5121010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 263,
+      "u85": 584,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026545",
@@ -558,7 +1257,21 @@
     "emd": "조양동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 조양동 1571 속초ES아뜨리움아파트",
+    "builder": "(주)이에스종합건설",
+    "entrance": "계단식",
+    "useArea": "16633.7227",
+    "bjdCode": "5121010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 89,
+      "u85": 143,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027624",
@@ -569,7 +1282,21 @@
     "emd": "조양동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 조양동 1093 속초조양LH천년나무3단지아파트",
+    "builder": "(주)무진건설",
+    "entrance": "복도식",
+    "useArea": "16418.36",
+    "bjdCode": "5121010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 432,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027676",
@@ -580,7 +1307,21 @@
     "emd": "조양동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 조양동 1569 속초 조양 양우내안애아파트",
+    "builder": "양우건설(주)",
+    "entrance": "혼합식",
+    "useArea": "27563.7458",
+    "bjdCode": "5121010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 326,
+      "u85": 115,
+      "u135": 2,
+      "o135": 0
+    }
   },
   {
     "code": "A21775206",
@@ -591,7 +1332,21 @@
     "emd": "조양동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 조양동 1294-23 성호아파트",
+    "builder": "성호건설",
+    "entrance": "복도식",
+    "useArea": "99019.08",
+    "bjdCode": "5121010800",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 1728,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A21775207",
@@ -602,7 +1357,21 @@
     "emd": "조양동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 조양동 1215-1 속초조양2주공아파트",
+    "builder": "삼익",
+    "entrance": "복도식",
+    "useArea": "28247.62",
+    "bjdCode": "5121010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 587,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A21775208",
@@ -613,7 +1382,21 @@
     "emd": "조양동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 조양동 1502 부영6단지",
+    "builder": "동광주택(주)",
+    "entrance": "복도식",
+    "useArea": "22120",
+    "bjdCode": "5121010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 440,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A21775209",
@@ -624,7 +1407,21 @@
     "emd": "조양동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 조양동 1505 부영9단지",
+    "builder": "동광주택(주)",
+    "entrance": "복도식",
+    "useArea": "22000",
+    "bjdCode": "5121010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 440,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A21775210",
@@ -635,7 +1432,21 @@
     "emd": "조양동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 조양동 1567 속초청대주공",
+    "builder": "삼능건설",
+    "entrance": "복도식",
+    "useArea": "16722.35",
+    "bjdCode": "5121010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 371,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A21775211",
@@ -646,7 +1457,21 @@
     "emd": "조양동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 조양동 1568 대광로제비앙",
+    "builder": "(주)대광건영",
+    "entrance": "계단식",
+    "useArea": "30720.8792",
+    "bjdCode": "5121010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 362,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A21775212",
@@ -657,7 +1482,21 @@
     "emd": "조양동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 조양동 1501 속초부영5단지",
+    "builder": "부영주택",
+    "entrance": "복도식",
+    "useArea": "50910",
+    "bjdCode": "5121010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1030,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A21775213",
@@ -668,7 +1507,21 @@
     "emd": "조양동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 조양동 1540-1 속초부영2단지",
+    "builder": "(주)부영주택",
+    "entrance": "복도식",
+    "useArea": "10982.4",
+    "bjdCode": "5121010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 220,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A21775214",
@@ -679,7 +1532,21 @@
     "emd": "조양동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 조양동 1292-1 동명",
+    "builder": "동명건설",
+    "entrance": "계단식",
+    "useArea": "11071.8",
+    "bjdCode": "5121010800",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 240,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A21781101",
@@ -690,7 +1557,21 @@
     "emd": "조양동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 조양동 1563 속초조양코아루아파트",
+    "builder": "새롬성원산업(주)",
+    "entrance": "계단식",
+    "useArea": "21836.82",
+    "bjdCode": "5121010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 144,
+      "u135": 80,
+      "o135": 0
+    }
   },
   {
     "code": "A21781104",
@@ -701,7 +1582,21 @@
     "emd": "조양동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 조양동 1217-1 조양1주공아파트",
+    "builder": "삼익건설",
+    "entrance": "계단식",
+    "useArea": "42472.92",
+    "bjdCode": "5121010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 708,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A21781205",
@@ -712,7 +1607,21 @@
     "emd": "조양동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 조양동 1499 부영3단지아파트",
+    "builder": "(주)부영",
+    "entrance": "혼합식",
+    "useArea": "112384.35",
+    "bjdCode": "5121010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 810,
+      "u85": 210,
+      "u135": 120,
+      "o135": 180
+    }
   },
   {
     "code": "A21781302",
@@ -723,7 +1632,21 @@
     "emd": "조양동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 조양동 1560 조양산수빌",
+    "builder": "한신공영",
+    "entrance": "복도식",
+    "useArea": "13495.5",
+    "bjdCode": "5121010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 225,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A21781303",
@@ -734,7 +1657,21 @@
     "emd": "조양동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 조양동 1561 삼성쉐르빌아파트",
+    "builder": "삼성중공업",
+    "entrance": "계단식",
+    "useArea": "21744.5778",
+    "bjdCode": "5121010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 172,
+      "u135": 54,
+      "o135": 0
+    }
   },
   {
     "code": "A10026441",
@@ -745,6 +1682,20 @@
     "emd": "청호동",
     "sigunguCode": "51210",
     "sido": "강원특별자치도",
-    "sigungu": "속초시"
+    "sigungu": "속초시",
+    "jibunAddr": "강원특별자치도 속초시 청호동 1356 속초청호아이파크",
+    "builder": "현대산업개발",
+    "entrance": "계단식",
+    "useArea": "53755.08",
+    "bjdCode": "5121010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 177,
+      "u85": 478,
+      "u135": 32,
+      "o135": 0
+    }
   }
 ]

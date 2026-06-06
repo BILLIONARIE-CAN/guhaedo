@@ -8,7 +8,21 @@
     "emd": "송월동",
     "sigunguCode": "46170",
     "sido": "전라남도",
-    "sigungu": "나주시"
+    "sigungu": "나주시",
+    "jibunAddr": "전라남도 나주시 송월동 1543- 나주역자이리버파크",
+    "builder": "GS건설",
+    "entrance": "계단식",
+    "useArea": "139596.5886",
+    "bjdCode": "4617010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 32,
+    "areaBreak": {
+      "u60": 154,
+      "u85": 1054,
+      "u135": 341,
+      "o135": 5
+    }
   },
   {
     "code": "A10021997",
@@ -19,7 +33,21 @@
     "emd": "송월동",
     "sigunguCode": "46170",
     "sido": "전라남도",
-    "sigungu": "나주시"
+    "sigungu": "나주시",
+    "jibunAddr": "전라남도 나주시 송월동 1538- 남양휴튼 더퍼스트 아파트",
+    "builder": "(주)남양건설",
+    "entrance": "계단식",
+    "useArea": "7922.8233",
+    "bjdCode": "4617010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 133,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025863",
@@ -30,7 +58,21 @@
     "emd": "송월동",
     "sigunguCode": "46170",
     "sido": "전라남도",
-    "sigungu": "나주시"
+    "sigungu": "나주시",
+    "jibunAddr": "전라남도 나주시 송월동 1143 나주달빛마을세움트리",
+    "builder": "세움건설주식회사",
+    "entrance": "계단식",
+    "useArea": "21226.9862",
+    "bjdCode": "4617010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 266,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026466",
@@ -41,7 +83,21 @@
     "emd": "송월동",
     "sigunguCode": "46170",
     "sido": "전라남도",
-    "sigungu": "나주시"
+    "sigungu": "나주시",
+    "jibunAddr": "전라남도 나주시 송월동 1142 양우내안애센텀시티아파트",
+    "builder": "(주)양우건설",
+    "entrance": "계단식",
+    "useArea": "24982.8798",
+    "bjdCode": "4617010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 120,
+      "u85": 238,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026802",
@@ -52,7 +108,21 @@
     "emd": "송월동",
     "sigunguCode": "46170",
     "sido": "전라남도",
-    "sigungu": "나주시"
+    "sigungu": "나주시",
+    "jibunAddr": "전라남도 나주시 송월동 1141 나주 힐데스하임",
+    "builder": "원건설",
+    "entrance": "계단식",
+    "useArea": "22495.424",
+    "bjdCode": "4617010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 320,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A52013002",
@@ -63,7 +133,21 @@
     "emd": "송월동",
     "sigunguCode": "46170",
     "sido": "전라남도",
-    "sigungu": "나주시"
+    "sigungu": "나주시",
+    "jibunAddr": "전라남도 나주시 송월동 660 송월주공아파트",
+    "builder": "대한주택공사",
+    "entrance": "복도식",
+    "useArea": "47129.13",
+    "bjdCode": "4617010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 970,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A52070101",
@@ -74,7 +158,21 @@
     "emd": "송월동",
     "sigunguCode": "46170",
     "sido": "전라남도",
-    "sigungu": "나주시"
+    "sigungu": "나주시",
+    "jibunAddr": "전라남도 나주시 송월동 1122 나주송월부영2차",
+    "builder": "부영",
+    "entrance": "복도식",
+    "useArea": "67793.237",
+    "bjdCode": "4617010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 1204,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A52075101",
@@ -85,7 +183,21 @@
     "emd": "삼영동",
     "sigunguCode": "46170",
     "sido": "전라남도",
-    "sigungu": "나주시"
+    "sigungu": "나주시",
+    "jibunAddr": "전라남도 나주시 삼영동 355 나주1차부영아파트",
+    "builder": "부영",
+    "entrance": "복도식",
+    "useArea": "53502.09",
+    "bjdCode": "4617010400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 994,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A52002001",
@@ -96,7 +208,21 @@
     "emd": "금계동",
     "sigunguCode": "46170",
     "sido": "전라남도",
-    "sigungu": "나주시"
+    "sigungu": "나주시",
+    "jibunAddr": "전라남도 나주시 금계동 104-22 금계 우영타워",
+    "builder": "유한종합건설",
+    "entrance": "복도식",
+    "useArea": "9153.99",
+    "bjdCode": "4617011000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 153,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022255",
@@ -107,7 +233,21 @@
     "emd": "남내동",
     "sigunguCode": "46170",
     "sido": "전라남도",
-    "sigungu": "나주시"
+    "sigungu": "나주시",
+    "jibunAddr": "전라남도 나주시 남내동 5-1 세왕아파트",
+    "builder": "(주)세왕건설",
+    "entrance": "계단식",
+    "useArea": "9414.28",
+    "bjdCode": "4617011200",
+    "aptType": "아파트",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 106,
+      "u85": 36,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A52075502",
@@ -118,7 +258,21 @@
     "emd": "성북동",
     "sigunguCode": "46170",
     "sido": "전라남도",
-    "sigungu": "나주시"
+    "sigungu": "나주시",
+    "jibunAddr": "전라남도 나주시 성북동 11 성북주공아파트",
+    "builder": "주공",
+    "entrance": "계단식",
+    "useArea": "25573.5",
+    "bjdCode": "4617011400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 610,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027519",
@@ -129,7 +283,21 @@
     "emd": "대호동",
     "sigunguCode": "46170",
     "sido": "전라남도",
-    "sigungu": "나주시"
+    "sigungu": "나주시",
+    "jibunAddr": "전라남도 나주시 대호동 1035 나주대호2차대방노블랜드",
+    "builder": "대방산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "22198.742",
+    "bjdCode": "4617011600",
+    "aptType": "아파트",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 370,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A52018001",
@@ -140,7 +308,21 @@
     "emd": "대호동",
     "sigunguCode": "46170",
     "sido": "전라남도",
-    "sigungu": "나주시"
+    "sigungu": "나주시",
+    "jibunAddr": "전라남도 나주시 대호동 75 나주성북현대아파트",
+    "builder": "현대산업개발",
+    "entrance": "혼합식",
+    "useArea": "30471.705",
+    "bjdCode": "4617011600",
+    "aptType": "아파트",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 183,
+      "u85": 231,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A52018002",
@@ -151,7 +333,21 @@
     "emd": "대호동",
     "sigunguCode": "46170",
     "sido": "전라남도",
-    "sigungu": "나주시"
+    "sigungu": "나주시",
+    "jibunAddr": "전라남도 나주시 대호동 1020 나주대방노블랜드",
+    "builder": "대방건설(주)",
+    "entrance": "계단식",
+    "useArea": "82191.6",
+    "bjdCode": "4617011600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 526,
+      "u85": 596,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A52075601",
@@ -162,7 +358,21 @@
     "emd": "대호동",
     "sigunguCode": "46170",
     "sido": "전라남도",
-    "sigungu": "나주시"
+    "sigungu": "나주시",
+    "jibunAddr": "전라남도 나주시 대호동 307-5 나주호반1차",
+    "builder": "호반건설",
+    "entrance": "복도식",
+    "useArea": "13620.6",
+    "bjdCode": "4617011600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 470,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A52075602",
@@ -173,7 +383,21 @@
     "emd": "대호동",
     "sigunguCode": "46170",
     "sido": "전라남도",
-    "sigungu": "나주시"
+    "sigungu": "나주시",
+    "jibunAddr": "전라남도 나주시 대호동 1036 호반2차리젠시빌",
+    "builder": "(주)호반건설",
+    "entrance": "계단식",
+    "useArea": "22324.229",
+    "bjdCode": "4617011600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 263,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A52009001",
@@ -184,7 +408,21 @@
     "emd": "죽림동",
     "sigunguCode": "46170",
     "sido": "전라남도",
-    "sigungu": "나주시"
+    "sigungu": "나주시",
+    "jibunAddr": "전라남도 나주시 죽림동 39 나주 삼성아파트",
+    "builder": "삼성건설",
+    "entrance": "계단식",
+    "useArea": "22081.368",
+    "bjdCode": "4617012100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 272,
+      "u85": 68,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A52025003",
@@ -195,7 +433,21 @@
     "emd": "용산동",
     "sigunguCode": "46170",
     "sido": "전라남도",
-    "sigungu": "나주시"
+    "sigungu": "나주시",
+    "jibunAddr": "전라남도 나주시 용산동 64-1 나주용산주공1",
+    "builder": "한국토지주택공사",
+    "entrance": "복도식",
+    "useArea": "7884",
+    "bjdCode": "4617012400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 288,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A52075402",
@@ -206,7 +458,21 @@
     "emd": "용산동",
     "sigunguCode": "46170",
     "sido": "전라남도",
-    "sigungu": "나주시"
+    "sigungu": "나주시",
+    "jibunAddr": "전라남도 나주시 용산동 344 나주용산주공2차",
+    "builder": "남아건설",
+    "entrance": "복도식",
+    "useArea": "23831.44",
+    "bjdCode": "4617012400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 498,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023511",
@@ -217,7 +483,21 @@
     "emd": "이창동",
     "sigunguCode": "46170",
     "sido": "전라남도",
-    "sigungu": "나주시"
+    "sigungu": "나주시",
+    "jibunAddr": "전라남도 나주시 이창동 714-1 나주이창 LH1단지",
+    "builder": "한국토지주택공사",
+    "entrance": "복도식",
+    "useArea": "5005.52",
+    "bjdCode": "4617012800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 150,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10028054",
@@ -228,7 +508,21 @@
     "emd": "이창동",
     "sigunguCode": "46170",
     "sido": "전라남도",
-    "sigungu": "나주시"
+    "sigungu": "나주시",
+    "jibunAddr": "전라남도 나주시 이창동 193-17 나주사랑가아파트",
+    "builder": "성동건설",
+    "entrance": "복도식",
+    "useArea": "8175.0419",
+    "bjdCode": "4617012800",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 202,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024610",
@@ -239,7 +533,21 @@
     "emd": "빛가람동",
     "sigunguCode": "46170",
     "sido": "전라남도",
-    "sigungu": "나주시"
+    "sigungu": "나주시",
+    "jibunAddr": "전라남도 나주시 빛가람동 1 광주전남혁신이노시티애시앙1단지",
+    "builder": "(주)부영주택",
+    "entrance": "계단식",
+    "useArea": "124924.2",
+    "bjdCode": "4617013400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1478,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026166",
@@ -250,7 +558,21 @@
     "emd": "빛가람동",
     "sigunguCode": "46170",
     "sido": "전라남도",
-    "sigungu": "나주시"
+    "sigungu": "나주시",
+    "jibunAddr": "전라남도 나주시 빛가람동 374 대방엘리움 로얄카운티 2차",
+    "builder": "대방산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "29817.2098",
+    "bjdCode": "4617013400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 351,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026246",
@@ -261,7 +583,21 @@
     "emd": "빛가람동",
     "sigunguCode": "46170",
     "sido": "전라남도",
-    "sigungu": "나주시"
+    "sigungu": "나주시",
+    "jibunAddr": "전라남도 나주시 빛가람동 378 대방엘리움 로얄카운티 1차",
+    "builder": "대방산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "48175.4392",
+    "bjdCode": "4617013400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 414,
+      "o135": 0
+    }
   },
   {
     "code": "A10026536",
@@ -272,7 +608,21 @@
     "emd": "빛가람동",
     "sigunguCode": "46170",
     "sido": "전라남도",
-    "sigungu": "나주시"
+    "sigungu": "나주시",
+    "jibunAddr": "전라남도 나주시 빛가람동 303 광주전남혁신3단지 부영아파트",
+    "builder": "(주)부영주택",
+    "entrance": "계단식",
+    "useArea": "132374.978",
+    "bjdCode": "4617013400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1558,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027060",
@@ -283,7 +633,21 @@
     "emd": "빛가람동",
     "sigunguCode": "46170",
     "sido": "전라남도",
-    "sigungu": "나주시"
+    "sigungu": "나주시",
+    "jibunAddr": "전라남도 나주시 빛가람동 550 빛가람 이지더원아파트",
+    "builder": "라인건설",
+    "entrance": "계단식",
+    "useArea": "24085.4942",
+    "bjdCode": "4617013400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 293,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027219",
@@ -294,7 +658,21 @@
     "emd": "빛가람동",
     "sigunguCode": "46170",
     "sido": "전라남도",
-    "sigungu": "나주시"
+    "sigungu": "나주시",
+    "jibunAddr": "전라남도 나주시 빛가람동 3 혁신도시 빛가람중흥S-CLASS리버티",
+    "builder": "중흥건설(주)",
+    "entrance": "계단식",
+    "useArea": "59326.859",
+    "bjdCode": "4617013400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 698,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027302",
@@ -305,7 +683,21 @@
     "emd": "빛가람동",
     "sigunguCode": "46170",
     "sido": "전라남도",
-    "sigungu": "나주시"
+    "sigungu": "나주시",
+    "jibunAddr": "전라남도 나주시 빛가람동 114 나주 빛가람 중흥S클래스 센트럴 2차 아파트",
+    "builder": "중흥건설",
+    "entrance": "계단식",
+    "useArea": "58488.6153",
+    "bjdCode": "4617013400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 721,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027377",
@@ -316,7 +708,21 @@
     "emd": "빛가람동",
     "sigunguCode": "46170",
     "sido": "전라남도",
-    "sigungu": "나주시"
+    "sigungu": "나주시",
+    "jibunAddr": "전라남도 나주시 빛가람동 118 빛가람 중흥S클래스센트럴1차아파트",
+    "builder": "중봉산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "80991.7839",
+    "bjdCode": "4617013400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 993,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027384",
@@ -327,7 +733,21 @@
     "emd": "빛가람동",
     "sigunguCode": "46170",
     "sido": "전라남도",
-    "sigungu": "나주시"
+    "sigungu": "나주시",
+    "jibunAddr": "전라남도 나주시 빛가람동 600 나주혁신 빛가람로제비앙",
+    "builder": "대광건영(주)",
+    "entrance": "계단식",
+    "useArea": "78182.612",
+    "bjdCode": "4617013400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 920,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027397",
@@ -338,7 +758,21 @@
     "emd": "빛가람동",
     "sigunguCode": "46170",
     "sido": "전라남도",
-    "sigungu": "나주시"
+    "sigungu": "나주시",
+    "jibunAddr": "전라남도 나주시 빛가람동 824 빛가람LH6단지",
+    "builder": "동광건설",
+    "entrance": "복도식",
+    "useArea": "30671.62",
+    "bjdCode": "4617013400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 814,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027485",
@@ -349,7 +783,21 @@
     "emd": "빛가람동",
     "sigunguCode": "46170",
     "sido": "전라남도",
-    "sigungu": "나주시"
+    "sigungu": "나주시",
+    "jibunAddr": "전라남도 나주시 빛가람동 558 나주 혁신도시 영무 예다음아파트",
+    "builder": "(주)영무건설",
+    "entrance": "계단식",
+    "useArea": "49792.7992",
+    "bjdCode": "4617013400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 614,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027719",
@@ -360,7 +808,21 @@
     "emd": "빛가람동",
     "sigunguCode": "46170",
     "sido": "전라남도",
-    "sigungu": "나주시"
+    "sigungu": "나주시",
+    "jibunAddr": "전라남도 나주시 빛가람동 551 나주혁신부영2차",
+    "builder": "(주)부영주택",
+    "entrance": "계단식",
+    "useArea": "58394.7404",
+    "bjdCode": "4617013400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 708,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027809",
@@ -371,7 +833,21 @@
     "emd": "빛가람동",
     "sigunguCode": "46170",
     "sido": "전라남도",
-    "sigungu": "나주시"
+    "sigungu": "나주시",
+    "jibunAddr": "전라남도 나주시 빛가람동 821 나주빛가람LH5단지",
+    "builder": "제일건설",
+    "entrance": "혼합식",
+    "useArea": "39441.28",
+    "bjdCode": "4617013400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 874,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027874",
@@ -382,7 +858,21 @@
     "emd": "빛가람동",
     "sigunguCode": "46170",
     "sido": "전라남도",
-    "sigungu": "나주시"
+    "sigungu": "나주시",
+    "jibunAddr": "전라남도 나주시 빛가람동 325 루멘하임아파트",
+    "builder": "(주)부영주택",
+    "entrance": "계단식",
+    "useArea": "80372.605",
+    "bjdCode": "4617013400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 946,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10028045",
@@ -393,7 +883,21 @@
     "emd": "빛가람동",
     "sigunguCode": "46170",
     "sido": "전라남도",
-    "sigungu": "나주시"
+    "sigungu": "나주시",
+    "jibunAddr": "전라남도 나주시 빛가람동 135 빛가람우미린",
+    "builder": "우선건설",
+    "entrance": "계단식",
+    "useArea": "87380.91",
+    "bjdCode": "4617013400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1078,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10028060",
@@ -404,7 +908,21 @@
     "emd": "빛가람동",
     "sigunguCode": "46170",
     "sido": "전라남도",
-    "sigungu": "나주시"
+    "sigungu": "나주시",
+    "jibunAddr": "전라남도 나주시 빛가람동 394 빛가람엘에이치1단지",
+    "builder": "경남기업(주)",
+    "entrance": "계단식",
+    "useArea": "76146.78",
+    "bjdCode": "4617013400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 919,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A52071501",
@@ -415,7 +933,21 @@
     "emd": "빛가람동",
     "sigunguCode": "46170",
     "sido": "전라남도",
-    "sigungu": "나주시"
+    "sigungu": "나주시",
+    "jibunAddr": "전라남도 나주시 빛가람동 850 에듀캐슬아파트",
+    "builder": "(주)서한",
+    "entrance": "계단식",
+    "useArea": "48695.66",
+    "bjdCode": "4617013400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 602,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A52071503",
@@ -426,7 +958,21 @@
     "emd": "빛가람동",
     "sigunguCode": "46170",
     "sido": "전라남도",
-    "sigungu": "나주시"
+    "sigungu": "나주시",
+    "jibunAddr": "전라남도 나주시 빛가람동 381 센트럴레이크",
+    "builder": "티이씨건설",
+    "entrance": "계단식",
+    "useArea": "50621.64",
+    "bjdCode": "4617013400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 624,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A52082101",
@@ -437,7 +983,21 @@
     "emd": "빛가람동",
     "sigunguCode": "46170",
     "sido": "전라남도",
-    "sigungu": "나주시"
+    "sigungu": "나주시",
+    "jibunAddr": "전라남도 나주시 빛가람동 624 빛가람엘에이치3단지",
+    "builder": "대림건설",
+    "entrance": "계단식",
+    "useArea": "77016.82",
+    "bjdCode": "4617013400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 287,
+      "u85": 742,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025995",
@@ -448,7 +1008,21 @@
     "emd": "남평읍",
     "sigunguCode": "46170",
     "sido": "전라남도",
-    "sigungu": "나주시"
+    "sigungu": "나주시",
+    "jibunAddr": "전라남도 나주시 남평읍 동사리 421 양우내안애리버시티2차아파트",
+    "builder": "양우건설(주)",
+    "entrance": "계단식",
+    "useArea": "67589.8534",
+    "bjdCode": "4617025023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 262,
+      "u85": 634,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026137",
@@ -459,7 +1033,21 @@
     "emd": "남평읍",
     "sigunguCode": "46170",
     "sido": "전라남도",
-    "sigungu": "나주시"
+    "sigungu": "나주시",
+    "jibunAddr": "전라남도 나주시 남평읍 동사리 409 양우내안애리버시티1차아파트",
+    "builder": "양우건설(주)",
+    "entrance": "계단식",
+    "useArea": "62197.741",
+    "bjdCode": "4617025023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 264,
+      "u85": 571,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027155",
@@ -470,7 +1058,21 @@
     "emd": "남평읍",
     "sigunguCode": "46170",
     "sido": "전라남도",
-    "sigungu": "나주시"
+    "sigungu": "나주시",
+    "jibunAddr": "전라남도 나주시 남평읍 동사리 414 STX KAN 중우하나린 아파트",
+    "builder": "중우건설",
+    "entrance": "계단식",
+    "useArea": "48668.4736",
+    "bjdCode": "4617025023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 27,
+    "areaBreak": {
+      "u60": 344,
+      "u85": 356,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A52071002",
@@ -481,7 +1083,21 @@
     "emd": "남평읍",
     "sigunguCode": "46170",
     "sido": "전라남도",
-    "sigungu": "나주시"
+    "sigungu": "나주시",
+    "jibunAddr": "전라남도 나주시 남평읍 동사리 327 남평유성그린",
+    "builder": "일군토건(주)",
+    "entrance": "계단식",
+    "useArea": "9379.104",
+    "bjdCode": "4617025023",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 11,
+    "areaBreak": {
+      "u60": 184,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A52071001",
@@ -492,7 +1108,21 @@
     "emd": "남평읍",
     "sigunguCode": "46170",
     "sido": "전라남도",
-    "sigungu": "나주시"
+    "sigungu": "나주시",
+    "jibunAddr": "전라남도 나주시 남평읍 교원리 377-1 팔마코이스",
+    "builder": "팔마종합건설",
+    "entrance": "계단식",
+    "useArea": "14733.708",
+    "bjdCode": "4617025025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 120,
+      "u85": 90,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023574",
@@ -503,6 +1133,20 @@
     "emd": "금천면",
     "sigunguCode": "46170",
     "sido": "전라남도",
-    "sigungu": "나주시"
+    "sigungu": "나주시",
+    "jibunAddr": "전라남도 나주시 금천면 석전리 619 빛가람코오롱하늘채아파트",
+    "builder": "코오롱건설",
+    "entrance": "계단식",
+    "useArea": "123881.9725",
+    "bjdCode": "4617039028",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 425,
+      "u85": 800,
+      "u135": 242,
+      "o135": 13
+    }
   }
 ]

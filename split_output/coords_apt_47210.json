@@ -8,7 +8,21 @@
     "emd": "영주동",
     "sigunguCode": "47210",
     "sido": "경상북도",
-    "sigungu": "영주시"
+    "sigungu": "영주시",
+    "jibunAddr": "경상북도 영주시 영주동 513-3 동진타워아파트",
+    "builder": "이공종합건설(주)",
+    "entrance": "혼합식",
+    "useArea": "10323.075",
+    "bjdCode": "4721010100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 76,
+      "u85": 71,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A75075401",
@@ -19,7 +33,21 @@
     "emd": "영주동",
     "sigunguCode": "47210",
     "sido": "경상북도",
-    "sigungu": "영주시"
+    "sigungu": "영주시",
+    "jibunAddr": "경상북도 영주시 영주동 513-1 강변타운",
+    "builder": "현대주택",
+    "entrance": "계단식",
+    "useArea": "30018",
+    "bjdCode": "4721010100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 376,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A75075501",
@@ -30,7 +58,21 @@
     "emd": "영주동",
     "sigunguCode": "47210",
     "sido": "경상북도",
-    "sigungu": "영주시"
+    "sigungu": "영주시",
+    "jibunAddr": "경상북도 영주시 영주동 470-220 영주동주공아파트",
+    "builder": "LH 공사",
+    "entrance": "계단식",
+    "useArea": "16167.84",
+    "bjdCode": "4721010100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 300,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021943",
@@ -41,7 +83,21 @@
     "emd": "상망동",
     "sigunguCode": "47210",
     "sido": "경상북도",
-    "sigungu": "영주시"
+    "sigungu": "영주시",
+    "jibunAddr": "경상북도 영주시 상망동 645-4 영주장미마을아파트",
+    "builder": "덕흥주택 손만식",
+    "entrance": "계단식",
+    "useArea": "7387.56",
+    "bjdCode": "4721010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 108,
+      "u85": 12,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A75090401",
@@ -52,7 +108,21 @@
     "emd": "상망동",
     "sigunguCode": "47210",
     "sido": "경상북도",
-    "sigungu": "영주시"
+    "sigungu": "영주시",
+    "jibunAddr": "경상북도 영주시 상망동 562-2 경일미래타운",
+    "builder": "경일건설(주)",
+    "entrance": "계단식",
+    "useArea": "22206.492",
+    "bjdCode": "4721010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 330,
+      "u85": 30,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A75090502",
@@ -63,7 +133,21 @@
     "emd": "상망동",
     "sigunguCode": "47210",
     "sido": "경상북도",
-    "sigungu": "영주시"
+    "sigungu": "영주시",
+    "jibunAddr": "경상북도 영주시 상망동 834 코아루아파트",
+    "builder": "우정건설(주)",
+    "entrance": "계단식",
+    "useArea": "62309.592",
+    "bjdCode": "4721010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 360,
+      "u135": 180,
+      "o135": 60
+    }
   },
   {
     "code": "A10021569",
@@ -74,7 +158,21 @@
     "emd": "하망동",
     "sigunguCode": "47210",
     "sido": "경상북도",
-    "sigungu": "영주시"
+    "sigungu": "영주시",
+    "jibunAddr": "경상북도 영주시 하망동 83- 명성방산아파트",
+    "builder": "명성주택건설",
+    "entrance": "계단식",
+    "useArea": "8113.455",
+    "bjdCode": "4721010300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 150,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021845",
@@ -85,7 +183,21 @@
     "emd": "하망동",
     "sigunguCode": "47210",
     "sido": "경상북도",
-    "sigungu": "영주시"
+    "sigungu": "영주시",
+    "jibunAddr": "경상북도 영주시 하망동 75- 화성2차아파트",
+    "builder": "화성건설(주)",
+    "entrance": "계단식",
+    "useArea": "8138.64",
+    "bjdCode": "4721010300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 102,
+      "u85": 24,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A75091201",
@@ -96,7 +208,21 @@
     "emd": "하망동",
     "sigunguCode": "47210",
     "sido": "경상북도",
-    "sigungu": "영주시"
+    "sigungu": "영주시",
+    "jibunAddr": "경상북도 영주시 하망동 276-23 코오롱2차아파트",
+    "builder": "주)코오롱",
+    "entrance": "계단식",
+    "useArea": "16573.18",
+    "bjdCode": "4721010300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 205,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A75091302",
@@ -107,7 +233,21 @@
     "emd": "하망동",
     "sigunguCode": "47210",
     "sido": "경상북도",
-    "sigungu": "영주시"
+    "sigungu": "영주시",
+    "jibunAddr": "경상북도 영주시 하망동 524-1 영주청구하이츠아파트",
+    "builder": "청구",
+    "entrance": "계단식",
+    "useArea": "39477.456",
+    "bjdCode": "4721010300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 144,
+      "u85": 324,
+      "u135": 36,
+      "o135": 0
+    }
   },
   {
     "code": "A10020300",
@@ -119,7 +259,21 @@
     "sigunguCode": "47210",
     "sido": "경상북도",
     "sigungu": "영주시",
-    "hhldCnt": 428
+    "hhldCnt": 428,
+    "jibunAddr": "경상북도 영주시 휴천동 2057- 영주아이파크아파트",
+    "builder": "HDC아이앤콘스(주)",
+    "entrance": "계단식",
+    "useArea": "36950.4849",
+    "bjdCode": "4721010400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021481",
@@ -130,7 +284,21 @@
     "emd": "휴천동",
     "sigunguCode": "47210",
     "sido": "경상북도",
-    "sigungu": "영주시"
+    "sigungu": "영주시",
+    "jibunAddr": "경상북도 영주시 휴천동 662- 현대궁전맨션아파트",
+    "builder": "현대주택",
+    "entrance": "계단식",
+    "useArea": "11020.5",
+    "bjdCode": "4721010400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 20,
+      "u85": 120,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021777",
@@ -141,7 +309,21 @@
     "emd": "휴천동",
     "sigunguCode": "47210",
     "sido": "경상북도",
-    "sigungu": "영주시"
+    "sigungu": "영주시",
+    "jibunAddr": "경상북도 영주시 휴천동 392- 휴천주공아파트",
+    "builder": "알수없음",
+    "entrance": "계단식",
+    "useArea": "10905.1",
+    "bjdCode": "4721010400",
+    "aptType": "아파트",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 260,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022242",
@@ -152,7 +334,21 @@
     "emd": "휴천동",
     "sigunguCode": "47210",
     "sido": "경상북도",
-    "sigungu": "영주시"
+    "sigungu": "영주시",
+    "jibunAddr": "경상북도 영주시 휴천동 706-3 영주석미모닝파크",
+    "builder": "석미건설주식회사",
+    "entrance": "계단식",
+    "useArea": "12863.11",
+    "bjdCode": "4721010400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 97,
+      "u135": 40,
+      "o135": 0
+    }
   },
   {
     "code": "A75005002",
@@ -163,7 +359,21 @@
     "emd": "휴천동",
     "sigunguCode": "47210",
     "sido": "경상북도",
-    "sigungu": "영주시"
+    "sigungu": "영주시",
+    "jibunAddr": "경상북도 영주시 휴천동 456 휴천현대아파트1차",
+    "builder": "현대산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "72806.179",
+    "bjdCode": "4721010400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 907,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A75075701",
@@ -174,7 +384,21 @@
     "emd": "휴천동",
     "sigunguCode": "47210",
     "sido": "경상북도",
-    "sigungu": "영주시"
+    "sigungu": "영주시",
+    "jibunAddr": "경상북도 영주시 휴천동 168 동산타운",
+    "builder": "현대주택",
+    "entrance": "계단식",
+    "useArea": "29312.961",
+    "bjdCode": "4721010400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 383,
+      "u85": 84,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A75075801",
@@ -185,7 +409,21 @@
     "emd": "휴천동",
     "sigunguCode": "47210",
     "sido": "경상북도",
-    "sigungu": "영주시"
+    "sigungu": "영주시",
+    "jibunAddr": "경상북도 영주시 휴천동 452 휴천현대2차아파트",
+    "builder": "현대산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "26094.423",
+    "bjdCode": "4721010400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 162,
+      "u85": 202,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A75076102",
@@ -196,7 +434,21 @@
     "emd": "휴천동",
     "sigunguCode": "47210",
     "sido": "경상북도",
-    "sigungu": "영주시"
+    "sigungu": "영주시",
+    "jibunAddr": "경상북도 영주시 휴천동 1777 남산현대",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "65421.84",
+    "bjdCode": "4721010400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 451,
+      "u85": 480,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A75076201",
@@ -207,7 +459,21 @@
     "emd": "휴천동",
     "sigunguCode": "47210",
     "sido": "경상북도",
-    "sigungu": "영주시"
+    "sigungu": "영주시",
+    "jibunAddr": "경상북도 영주시 휴천동 419 현대대영",
+    "builder": "현대건설(주)",
+    "entrance": "혼합식",
+    "useArea": "31681.35",
+    "bjdCode": "4721010400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 178,
+      "u85": 188,
+      "u135": 40,
+      "o135": 0
+    }
   },
   {
     "code": "A75076602",
@@ -218,7 +484,21 @@
     "emd": "휴천동",
     "sigunguCode": "47210",
     "sido": "경상북도",
-    "sigungu": "영주시"
+    "sigungu": "영주시",
+    "jibunAddr": "경상북도 영주시 휴천동 1213 세영첼시빌아파트",
+    "builder": "(주)세영종합건설",
+    "entrance": "계단식",
+    "useArea": "37081.5784",
+    "bjdCode": "4721010400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 90,
+      "u85": 386,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A75076603",
@@ -229,7 +509,21 @@
     "emd": "휴천동",
     "sigunguCode": "47210",
     "sido": "경상북도",
-    "sigungu": "영주시"
+    "sigungu": "영주시",
+    "jibunAddr": "경상북도 영주시 휴천동 1980 화성라온빌아파트",
+    "builder": "화성건설주식회사",
+    "entrance": "계단식",
+    "useArea": "19030.017",
+    "bjdCode": "4721010400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 180,
+      "u135": 30,
+      "o135": 0
+    }
   },
   {
     "code": "A10024078",
@@ -240,7 +534,21 @@
     "emd": "가흥동",
     "sigunguCode": "47210",
     "sido": "경상북도",
-    "sigungu": "영주시"
+    "sigungu": "영주시",
+    "jibunAddr": "경상북도 영주시 가흥동 2057 영주가흥 더리브스위트엠",
+    "builder": "이테크건설",
+    "entrance": "기타",
+    "useArea": "72178.1199",
+    "bjdCode": "4721010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 709,
+      "u135": 122,
+      "o135": 0
+    }
   },
   {
     "code": "A10027373",
@@ -251,7 +559,21 @@
     "emd": "가흥동",
     "sigunguCode": "47210",
     "sido": "경상북도",
-    "sigungu": "영주시"
+    "sigungu": "영주시",
+    "jibunAddr": "경상북도 영주시 가흥동 1620 영주가흥사랑으로 부영아파트",
+    "builder": "(주)부영주택",
+    "entrance": "계단식",
+    "useArea": "121608.8003",
+    "bjdCode": "4721010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 28,
+    "areaBreak": {
+      "u60": 450,
+      "u85": 1114,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027654",
@@ -262,7 +584,21 @@
     "emd": "가흥동",
     "sigunguCode": "47210",
     "sido": "경상북도",
-    "sigungu": "영주시"
+    "sigungu": "영주시",
+    "jibunAddr": "경상북도 영주시 가흥동 1619 코아루노블 아파트",
+    "builder": "(주)이테크건설",
+    "entrance": "계단식",
+    "useArea": "22119.564",
+    "bjdCode": "4721010500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 277,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A75002001",
@@ -273,7 +609,21 @@
     "emd": "가흥동",
     "sigunguCode": "47210",
     "sido": "경상북도",
-    "sigungu": "영주시"
+    "sigungu": "영주시",
+    "jibunAddr": "경상북도 영주시 가흥동 254 화성리버빌2차",
+    "builder": "영주화성건설",
+    "entrance": "혼합식",
+    "useArea": "20278.761",
+    "bjdCode": "4721010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 324,
+      "u85": 30,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A75002002",
@@ -284,7 +634,21 @@
     "emd": "가흥동",
     "sigunguCode": "47210",
     "sido": "경상북도",
-    "sigungu": "영주시"
+    "sigungu": "영주시",
+    "jibunAddr": "경상북도 영주시 가흥동 1488 가흥3단지주공",
+    "builder": "계룡건설산업(주),유진건설(주)",
+    "entrance": "혼합식",
+    "useArea": "33339.84",
+    "bjdCode": "4721010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 659,
+      "u85": 0,
+      "u135": 1,
+      "o135": 0
+    }
   },
   {
     "code": "A75002003",
@@ -295,7 +659,21 @@
     "emd": "가흥동",
     "sigunguCode": "47210",
     "sido": "경상북도",
-    "sigungu": "영주시"
+    "sigungu": "영주시",
+    "jibunAddr": "경상북도 영주시 가흥동 2046 영주가흥LH4단지",
+    "builder": "(주)유성건설",
+    "entrance": "복도식",
+    "useArea": "15131.58",
+    "bjdCode": "4721010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 374,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A75075103",
@@ -306,7 +684,21 @@
     "emd": "가흥동",
     "sigunguCode": "47210",
     "sido": "경상북도",
-    "sigungu": "영주시"
+    "sigungu": "영주시",
+    "jibunAddr": "경상북도 영주시 가흥동 1385 영주가흥1",
+    "builder": "인산종합건설",
+    "entrance": "복도식",
+    "useArea": "33982.72",
+    "bjdCode": "4721010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1041,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A75075201",
@@ -317,7 +709,21 @@
     "emd": "가흥동",
     "sigunguCode": "47210",
     "sido": "경상북도",
-    "sigungu": "영주시"
+    "sigungu": "영주시",
+    "jibunAddr": "경상북도 영주시 가흥동 319 영주현대강변2차",
+    "builder": "문화건설",
+    "entrance": "혼합식",
+    "useArea": "40187.48",
+    "bjdCode": "4721010500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 182,
+      "u85": 260,
+      "u135": 19,
+      "o135": 38
+    }
   },
   {
     "code": "A75075202",
@@ -328,7 +734,21 @@
     "emd": "가흥동",
     "sigunguCode": "47210",
     "sido": "경상북도",
-    "sigungu": "영주시"
+    "sigungu": "영주시",
+    "jibunAddr": "경상북도 영주시 가흥동 1796 영주세영리첼",
+    "builder": "세영건설주식회사(주)",
+    "entrance": "계단식",
+    "useArea": "57543.2948",
+    "bjdCode": "4721010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 176,
+      "u85": 410,
+      "u135": 120,
+      "o135": 0
+    }
   },
   {
     "code": "A75075301",
@@ -339,7 +759,21 @@
     "emd": "가흥동",
     "sigunguCode": "47210",
     "sido": "경상북도",
-    "sigungu": "영주시"
+    "sigungu": "영주시",
+    "jibunAddr": "경상북도 영주시 가흥동 520-3 가흥현대아파트",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "20040",
+    "bjdCode": "4721010500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 270,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A75076802",
@@ -350,7 +784,21 @@
     "emd": "가흥동",
     "sigunguCode": "47210",
     "sido": "경상북도",
-    "sigungu": "영주시"
+    "sigungu": "영주시",
+    "jibunAddr": "경상북도 영주시 가흥동 522-7 화성리버빌1차",
+    "builder": "화성건설",
+    "entrance": "혼합식",
+    "useArea": "14172.45",
+    "bjdCode": "4721010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 270,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021844",
@@ -361,7 +809,21 @@
     "emd": "풍기읍",
     "sigunguCode": "47210",
     "sido": "경상북도",
-    "sigungu": "영주시"
+    "sigungu": "영주시",
+    "jibunAddr": "경상북도 영주시 풍기읍 동부리 593- 풍기코아루주상복합아파트",
+    "builder": "지엘건설(주)",
+    "entrance": "계단식",
+    "useArea": "9118.1844",
+    "bjdCode": "4721025022",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 111,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A75080301",
@@ -372,6 +834,20 @@
     "emd": "풍기읍",
     "sigunguCode": "47210",
     "sido": "경상북도",
-    "sigungu": "영주시"
+    "sigungu": "영주시",
+    "jibunAddr": "경상북도 영주시 풍기읍 동부리 305-1 풍기한양아파트",
+    "builder": "(주) 한양종합건설",
+    "entrance": "복도식",
+    "useArea": "13301.46",
+    "bjdCode": "4721025022",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 8,
+    "areaBreak": {
+      "u60": 294,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

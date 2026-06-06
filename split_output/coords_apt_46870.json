@@ -8,7 +8,21 @@
     "emd": "영광읍",
     "sigunguCode": "46870",
     "sido": "전라남도",
-    "sigungu": "영광군"
+    "sigungu": "영광군",
+    "jibunAddr": "전라남도 영광군 영광읍 백학리 393- 영광힐스테이트아파트",
+    "builder": "현대엔지니어링",
+    "entrance": "계단식",
+    "useArea": "44186.8473",
+    "bjdCode": "4687025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 414,
+      "u135": 79,
+      "o135": 0
+    }
   },
   {
     "code": "A10021133",
@@ -19,7 +33,21 @@
     "emd": "영광읍",
     "sigunguCode": "46870",
     "sido": "전라남도",
-    "sigungu": "영광군"
+    "sigungu": "영광군",
+    "jibunAddr": "전라남도 영광군 영광읍 남천리 624- 영광숲안애2차아파트",
+    "builder": "온누리종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "9070.9514",
+    "bjdCode": "4687025023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 99,
+      "u135": 12,
+      "o135": 0
+    }
   },
   {
     "code": "A51380301",
@@ -30,7 +58,21 @@
     "emd": "영광읍",
     "sigunguCode": "46870",
     "sido": "전라남도",
-    "sigungu": "영광군"
+    "sigungu": "영광군",
+    "jibunAddr": "전라남도 영광군 영광읍 남천리 182 영광장산",
+    "builder": "장산개발",
+    "entrance": "복도식",
+    "useArea": "12962.37",
+    "bjdCode": "4687025023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 65,
+      "u85": 101,
+      "u135": 8,
+      "o135": 0
+    }
   },
   {
     "code": "A10024308",
@@ -41,7 +83,19 @@
     "emd": "영광읍",
     "sigunguCode": "46870",
     "sido": "전라남도",
-    "sigungu": "영광군"
+    "sigungu": "영광군",
+    "jibunAddr": "전라남도 영광군 영광읍 도동리 370 동우아스트로아파트",
+    "builder": "동우건설",
+    "entrance": "복도식",
+    "useArea": "5178.9221",
+    "bjdCode": "4687025024",
+    "mgrType": "위탁관리",
+    "areaBreak": {
+      "u60": 0,
+      "u85": 61,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A51380007",
@@ -52,7 +106,21 @@
     "emd": "영광읍",
     "sigunguCode": "46870",
     "sido": "전라남도",
-    "sigungu": "영광군"
+    "sigungu": "영광군",
+    "jibunAddr": "전라남도 영광군 영광읍 도동리 360 영광도동휴먼시아",
+    "builder": "(주)제일건설",
+    "entrance": "복도식",
+    "useArea": "24702.79",
+    "bjdCode": "4687025024",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 531,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020546",
@@ -64,7 +132,21 @@
     "sigunguCode": "46870",
     "sido": "전라남도",
     "sigungu": "영광군",
-    "hhldCnt": 153
+    "hhldCnt": 153,
+    "jibunAddr": "전라남도 영광군 영광읍 단주리 583-5 영광미르채센텀시티",
+    "builder": "(주)미르채센텀시티",
+    "entrance": "계단식",
+    "useArea": "12984.6407",
+    "bjdCode": "4687025028",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 26,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021938",
@@ -75,7 +157,21 @@
     "emd": "영광읍",
     "sigunguCode": "46870",
     "sido": "전라남도",
-    "sigungu": "영광군"
+    "sigungu": "영광군",
+    "jibunAddr": "전라남도 영광군 영광읍 단주리 370-13 사직스카이102동",
+    "builder": "대성건설주식회사",
+    "entrance": "복도식",
+    "useArea": "4795.2",
+    "bjdCode": "4687025028",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 120,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022443",
@@ -86,7 +182,21 @@
     "emd": "영광읍",
     "sigunguCode": "46870",
     "sido": "전라남도",
-    "sigungu": "영광군"
+    "sigungu": "영광군",
+    "jibunAddr": "전라남도 영광군 영광읍 단주리 687- 영광단주행복주택",
+    "builder": "남진건설(주), 남양건설(주), (주)예진종합건설  공동도급",
+    "entrance": "복도식",
+    "useArea": "9730.2",
+    "bjdCode": "4687025028",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 300,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023178",
@@ -97,7 +207,21 @@
     "emd": "영광읍",
     "sigunguCode": "46870",
     "sido": "전라남도",
-    "sigungu": "영광군"
+    "sigungu": "영광군",
+    "jibunAddr": "전라남도 영광군 영광읍 단주리 686 영광성화누리안아파트",
+    "builder": "(합자)성화종합건설",
+    "entrance": "계단식",
+    "useArea": "15279.6654",
+    "bjdCode": "4687025028",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 61,
+      "u85": 137,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026081",
@@ -108,7 +232,21 @@
     "emd": "영광읍",
     "sigunguCode": "46870",
     "sido": "전라남도",
-    "sigungu": "영광군"
+    "sigungu": "영광군",
+    "jibunAddr": "전라남도 영광군 영광읍 단주리 683 지엘리베라움아파트",
+    "builder": "지엘건설",
+    "entrance": "계단식",
+    "useArea": "14036.5002",
+    "bjdCode": "4687025028",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 16,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 170,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A51380004",
@@ -119,7 +257,21 @@
     "emd": "영광읍",
     "sigunguCode": "46870",
     "sido": "전라남도",
-    "sigungu": "영광군"
+    "sigungu": "영광군",
+    "jibunAddr": "전라남도 영광군 영광읍 단주리 336 옥당마을",
+    "builder": "(주)수복건설",
+    "entrance": "계단식",
+    "useArea": "13493.1852",
+    "bjdCode": "4687025028",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 159,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A51380506",
@@ -130,7 +282,21 @@
     "emd": "영광읍",
     "sigunguCode": "46870",
     "sido": "전라남도",
-    "sigungu": "영광군"
+    "sigungu": "영광군",
+    "jibunAddr": "전라남도 영광군 영광읍 단주리 370-12 사직스카이 아파트",
+    "builder": "대성건설",
+    "entrance": "복도식",
+    "useArea": "15628.44",
+    "bjdCode": "4687025028",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 289,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A51380005",
@@ -141,7 +307,21 @@
     "emd": "영광읍",
     "sigunguCode": "46870",
     "sido": "전라남도",
-    "sigungu": "영광군"
+    "sigungu": "영광군",
+    "jibunAddr": "전라남도 영광군 영광읍 녹사리 259-1 근형퍼스트빌",
+    "builder": "청미래건설",
+    "entrance": "계단식",
+    "useArea": "10846.44",
+    "bjdCode": "4687025036",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 99,
+      "u85": 58,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A51380006",
@@ -152,7 +332,21 @@
     "emd": "영광읍",
     "sigunguCode": "46870",
     "sido": "전라남도",
-    "sigungu": "영광군"
+    "sigungu": "영광군",
+    "jibunAddr": "전라남도 영광군 영광읍 녹사리 26-4 영광영진행복아파트",
+    "builder": "2023-12-13",
+    "entrance": "복도식",
+    "useArea": "7584.8",
+    "bjdCode": "4687025036",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 152,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A51380008",
@@ -163,7 +357,21 @@
     "emd": "영광읍",
     "sigunguCode": "46870",
     "sido": "전라남도",
-    "sigungu": "영광군"
+    "sigungu": "영광군",
+    "jibunAddr": "전라남도 영광군 영광읍 녹사리 47 모두원웰리스",
+    "builder": "모두원웰리스",
+    "entrance": "계단식",
+    "useArea": "12744.054",
+    "bjdCode": "4687025036",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 16,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 150,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A51380402",
@@ -174,7 +382,21 @@
     "emd": "영광읍",
     "sigunguCode": "46870",
     "sido": "전라남도",
-    "sigungu": "영광군"
+    "sigungu": "영광군",
+    "jibunAddr": "전라남도 영광군 영광읍 녹사리 19-2 영광국제",
+    "builder": "국제종합건설",
+    "entrance": "혼합식",
+    "useArea": "13066.92",
+    "bjdCode": "4687025036",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 198,
+      "u85": 36,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A51380404",
@@ -185,7 +407,21 @@
     "emd": "영광읍",
     "sigunguCode": "46870",
     "sido": "전라남도",
-    "sigungu": "영광군"
+    "sigungu": "영광군",
+    "jibunAddr": "전라남도 영광군 영광읍 녹사리 38 녹사주공",
+    "builder": "대한주택공사",
+    "entrance": "계단식",
+    "useArea": "15123.44",
+    "bjdCode": "4687025036",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 274,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A51380505",
@@ -196,7 +432,21 @@
     "emd": "영광읍",
     "sigunguCode": "46870",
     "sido": "전라남도",
-    "sigungu": "영광군"
+    "sigungu": "영광군",
+    "jibunAddr": "전라남도 영광군 영광읍 녹사리 131 영광대성스카이3차",
+    "builder": "대성건설",
+    "entrance": "계단식",
+    "useArea": "10882.176",
+    "bjdCode": "4687025036",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 136,
+      "u85": 34,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024014",
@@ -207,7 +457,21 @@
     "emd": "영광읍",
     "sigunguCode": "46870",
     "sido": "전라남도",
-    "sigungu": "영광군"
+    "sigungu": "영광군",
+    "jibunAddr": "전라남도 영광군 영광읍 학정리 974 영광 금호어울림리더스",
+    "builder": "금호건설",
+    "entrance": "계단식",
+    "useArea": "23600.1706",
+    "bjdCode": "4687025037",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 278,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A51388101",
@@ -218,7 +482,21 @@
     "emd": "홍농읍",
     "sigunguCode": "46870",
     "sido": "전라남도",
-    "sigungu": "영광군"
+    "sigungu": "영광군",
+    "jibunAddr": "전라남도 영광군 홍농읍 상하리 154 영광한전기공사택",
+    "builder": "유신건설주식회사",
+    "entrance": "계단식",
+    "useArea": "10557.36",
+    "bjdCode": "4687025621",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 11,
+    "areaBreak": {
+      "u60": 176,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A51388401",
@@ -229,7 +507,21 @@
     "emd": "홍농읍",
     "sigunguCode": "46870",
     "sido": "전라남도",
-    "sigungu": "영광군"
+    "sigungu": "영광군",
+    "jibunAddr": "전라남도 영광군 홍농읍 상하리 55 홍농해주아파트",
+    "builder": "해주산업개발",
+    "entrance": "복도식",
+    "useArea": "17852.28",
+    "bjdCode": "4687025621",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 16,
+    "areaBreak": {
+      "u60": 299,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A51387301",
@@ -240,6 +532,20 @@
     "emd": "법성면",
     "sigunguCode": "46870",
     "sido": "전라남도",
-    "sigungu": "영광군"
+    "sigungu": "영광군",
+    "jibunAddr": "전라남도 영광군 법성면 법성리 598-2 영광법성성산아파트",
+    "builder": "553086",
+    "entrance": "복도식",
+    "useArea": "8016.32",
+    "bjdCode": "4687037022",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 156,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

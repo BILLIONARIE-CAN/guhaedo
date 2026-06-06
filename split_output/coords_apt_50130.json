@@ -8,7 +8,21 @@
     "emd": "서호동",
     "sigunguCode": "50130",
     "sido": "제주특별자치도",
-    "sigungu": "서귀포시"
+    "sigungu": "서귀포시",
+    "jibunAddr": "제주특별자치도 서귀포시 서호동 1615-3 제주 서귀포 혁신도시 LH3단지",
+    "builder": "양우종합건설(주)",
+    "entrance": "복도식",
+    "useArea": "5358.18",
+    "bjdCode": "5013010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 200,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027562",
@@ -19,7 +33,21 @@
     "emd": "서호동",
     "sigunguCode": "50130",
     "sido": "제주특별자치도",
-    "sigungu": "서귀포시"
+    "sigungu": "서귀포시",
+    "jibunAddr": "제주특별자치도 서귀포시 서호동 1545 서귀포 HausD 블루오션",
+    "builder": "대보실업(주)",
+    "entrance": "계단식",
+    "useArea": "45304.52",
+    "bjdCode": "5013010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 548,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027600",
@@ -30,7 +58,21 @@
     "emd": "서호동",
     "sigunguCode": "50130",
     "sido": "제주특별자치도",
-    "sigungu": "서귀포시"
+    "sigungu": "서귀포시",
+    "jibunAddr": "제주특별자치도 서귀포시 서호동 1534 서귀포혁신사랑으로부영아파트",
+    "builder": "(주)부영주택",
+    "entrance": "계단식",
+    "useArea": "66936.8336",
+    "bjdCode": "5013010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 608,
+      "u135": 0,
+      "o135": 108
+    }
   },
   {
     "code": "A69781301",
@@ -41,7 +83,21 @@
     "emd": "서호동",
     "sigunguCode": "50130",
     "sido": "제주특별자치도",
-    "sigungu": "서귀포시"
+    "sigungu": "서귀포시",
+    "jibunAddr": "제주특별자치도 서귀포시 서호동 1540 제주서귀포혁신도시LH1단지",
+    "builder": "LH",
+    "entrance": "계단식",
+    "useArea": "31810.88",
+    "bjdCode": "5013010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 236,
+      "u85": 214,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021362",
@@ -52,7 +108,21 @@
     "emd": "동홍동",
     "sigunguCode": "50130",
     "sido": "제주특별자치도",
-    "sigungu": "서귀포시"
+    "sigungu": "서귀포시",
+    "jibunAddr": "제주특별자치도 서귀포시 동홍동 139-1 동홍세기아파트",
+    "builder": "세기건설주식회사",
+    "entrance": "계단식",
+    "useArea": "15274.02",
+    "bjdCode": "5013010500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 130,
+      "u135": 40,
+      "o135": 0
+    }
   },
   {
     "code": "A10022389",
@@ -63,7 +133,21 @@
     "emd": "동홍동",
     "sigunguCode": "50130",
     "sido": "제주특별자치도",
-    "sigungu": "서귀포시"
+    "sigungu": "서귀포시",
+    "jibunAddr": "제주특별자치도 서귀포시 동홍동 179- 제이원타워 ",
+    "builder": "동인종합건설",
+    "entrance": "복도식",
+    "useArea": "4167.42",
+    "bjdCode": "5013010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 9,
+    "areaBreak": {
+      "u60": 264,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024013",
@@ -74,7 +158,21 @@
     "emd": "동홍동",
     "sigunguCode": "50130",
     "sido": "제주특별자치도",
-    "sigungu": "서귀포시"
+    "sigungu": "서귀포시",
+    "jibunAddr": "제주특별자치도 서귀포시 동홍동 1368 동홍동 센트레빌",
+    "builder": "동부건설(주)",
+    "entrance": "계단식",
+    "useArea": "16515.967",
+    "bjdCode": "5013010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 8,
+    "areaBreak": {
+      "u60": 54,
+      "u85": 158,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025218",
@@ -85,7 +183,21 @@
     "emd": "동홍동",
     "sigunguCode": "50130",
     "sido": "제주특별자치도",
-    "sigungu": "서귀포시"
+    "sigungu": "서귀포시",
+    "jibunAddr": "제주특별자치도 서귀포시 동홍동 2196 동호아트리움",
+    "builder": "동호건설",
+    "entrance": "계단식",
+    "useArea": "12261.1638",
+    "bjdCode": "5013010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 153,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025795",
@@ -96,7 +208,21 @@
     "emd": "동홍동",
     "sigunguCode": "50130",
     "sido": "제주특별자치도",
-    "sigungu": "서귀포시"
+    "sigungu": "서귀포시",
+    "jibunAddr": "제주특별자치도 서귀포시 동홍동 1557-1 센트럴팰리스",
+    "builder": "(주)대명건설",
+    "entrance": "계단식",
+    "useArea": "8142.26",
+    "bjdCode": "5013010500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 299,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A69770008",
@@ -107,7 +233,21 @@
     "emd": "동홍동",
     "sigunguCode": "50130",
     "sido": "제주특별자치도",
-    "sigungu": "서귀포시"
+    "sigungu": "서귀포시",
+    "jibunAddr": "제주특별자치도 서귀포시 동홍동 1674 동홍주공5단지",
+    "builder": "대한주택공사",
+    "entrance": "계단식",
+    "useArea": "39853.08",
+    "bjdCode": "5013010500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 830,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A69770401",
@@ -118,7 +258,21 @@
     "emd": "동홍동",
     "sigunguCode": "50130",
     "sido": "제주특별자치도",
-    "sigungu": "서귀포시"
+    "sigungu": "서귀포시",
+    "jibunAddr": "제주특별자치도 서귀포시 동홍동 157 동홍인터불고코아루",
+    "builder": "인터불고",
+    "entrance": "계단식",
+    "useArea": "18124.3211",
+    "bjdCode": "5013010500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 263,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A69780202",
@@ -129,7 +283,21 @@
     "emd": "동홍동",
     "sigunguCode": "50130",
     "sido": "제주특별자치도",
-    "sigungu": "서귀포시"
+    "sigungu": "서귀포시",
+    "jibunAddr": "제주특별자치도 서귀포시 동홍동 114-7 동홍동대림",
+    "builder": "대림산업(주)",
+    "entrance": "계단식",
+    "useArea": "17633.468",
+    "bjdCode": "5013010500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 9,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 158,
+      "u135": 34,
+      "o135": 0
+    }
   },
   {
     "code": "A69780303",
@@ -140,7 +308,21 @@
     "emd": "동홍동",
     "sigunguCode": "50130",
     "sido": "제주특별자치도",
-    "sigungu": "서귀포시"
+    "sigungu": "서귀포시",
+    "jibunAddr": "제주특별자치도 서귀포시 동홍동 201 삼아",
+    "builder": "동부건설",
+    "entrance": "복도식",
+    "useArea": "21624.45",
+    "bjdCode": "5013010500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 5,
+      "u85": 120,
+      "u135": 115,
+      "o135": 0
+    }
   },
   {
     "code": "A69780304",
@@ -151,7 +333,21 @@
     "emd": "동홍동",
     "sigunguCode": "50130",
     "sido": "제주특별자치도",
-    "sigungu": "서귀포시"
+    "sigungu": "서귀포시",
+    "jibunAddr": "제주특별자치도 서귀포시 동홍동 119 서귀포 동홍2아파트",
+    "builder": "대한주택공사",
+    "entrance": "계단식",
+    "useArea": "12363.3",
+    "bjdCode": "5013010500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 300,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A69780305",
@@ -162,7 +358,21 @@
     "emd": "동홍동",
     "sigunguCode": "50130",
     "sido": "제주특별자치도",
-    "sigungu": "서귀포시"
+    "sigungu": "서귀포시",
+    "jibunAddr": "제주특별자치도 서귀포시 동홍동 147 동홍주공1단지",
+    "builder": "대한주택공사",
+    "entrance": "계단식",
+    "useArea": "12765.9",
+    "bjdCode": "5013010500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 310,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A69780306",
@@ -173,7 +383,21 @@
     "emd": "동홍동",
     "sigunguCode": "50130",
     "sido": "제주특별자치도",
-    "sigungu": "서귀포시"
+    "sigungu": "서귀포시",
+    "jibunAddr": "제주특별자치도 서귀포시 동홍동 355-1 동홍주공4단지",
+    "builder": "청우개발",
+    "entrance": "계단식",
+    "useArea": "16627.2",
+    "bjdCode": "5013010500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 320,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A69780309",
@@ -184,7 +408,21 @@
     "emd": "동홍동",
     "sigunguCode": "50130",
     "sido": "제주특별자치도",
-    "sigungu": "서귀포시"
+    "sigungu": "서귀포시",
+    "jibunAddr": "제주특별자치도 서귀포시 동홍동 353-1 서귀포동홍3",
+    "builder": "세기건설",
+    "entrance": "복도식",
+    "useArea": "11364",
+    "bjdCode": "5013010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 400,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A69780401",
@@ -195,7 +433,21 @@
     "emd": "동홍동",
     "sigunguCode": "50130",
     "sido": "제주특별자치도",
-    "sigungu": "서귀포시"
+    "sigungu": "서귀포시",
+    "jibunAddr": "제주특별자치도 서귀포시 동홍동 1230-1 동홍반석아르미아파트",
+    "builder": "(주)반석주택",
+    "entrance": "계단식",
+    "useArea": "11572.0225",
+    "bjdCode": "5013010500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 7,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 155,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A69780410",
@@ -206,7 +458,21 @@
     "emd": "동홍동",
     "sigunguCode": "50130",
     "sido": "제주특별자치도",
-    "sigungu": "서귀포시"
+    "sigungu": "서귀포시",
+    "jibunAddr": "제주특별자치도 서귀포시 동홍동 1312 서귀포동홍6",
+    "builder": "유성건설, 한일건설",
+    "entrance": "복도식",
+    "useArea": "26462.8",
+    "bjdCode": "5013010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 7,
+    "areaBreak": {
+      "u60": 602,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021380",
@@ -217,7 +483,21 @@
     "emd": "서홍동",
     "sigunguCode": "50130",
     "sido": "제주특별자치도",
-    "sigungu": "서귀포시"
+    "sigungu": "서귀포시",
+    "jibunAddr": "제주특별자치도 서귀포시 서홍동 2598- 서강파인힐6차아파트",
+    "builder": "서강건설",
+    "entrance": "계단식",
+    "useArea": "11702.2216",
+    "bjdCode": "5013010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 9,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 107,
+      "u135": 23,
+      "o135": 0
+    }
   },
   {
     "code": "A10021635",
@@ -228,7 +508,21 @@
     "emd": "서홍동",
     "sigunguCode": "50130",
     "sido": "제주특별자치도",
-    "sigungu": "서귀포시"
+    "sigungu": "서귀포시",
+    "jibunAddr": "제주특별자치도 서귀포시 서홍동 305- 지오빌2",
+    "builder": "일호종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "10327.3",
+    "bjdCode": "5013010600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 7,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 122,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022131",
@@ -239,7 +533,21 @@
     "emd": "서홍동",
     "sigunguCode": "50130",
     "sido": "제주특별자치도",
-    "sigungu": "서귀포시"
+    "sigungu": "서귀포시",
+    "jibunAddr": "제주특별자치도 서귀포시 서홍동 299-1 태봉그린피아",
+    "builder": "(주)장천종합건설",
+    "entrance": "복도식",
+    "useArea": "6373.7478",
+    "bjdCode": "5013010600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 7,
+    "areaBreak": {
+      "u60": 126,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023159",
@@ -250,7 +558,21 @@
     "emd": "서홍동",
     "sigunguCode": "50130",
     "sido": "제주특별자치도",
-    "sigungu": "서귀포시"
+    "sigungu": "서귀포시",
+    "jibunAddr": "제주특별자치도 서귀포시 서홍동 355-1 서귀포서홍 행복주택",
+    "builder": "계룡건설",
+    "entrance": "복도식",
+    "useArea": "2638.32",
+    "bjdCode": "5013010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 7,
+    "areaBreak": {
+      "u60": 90,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025999",
@@ -261,7 +583,21 @@
     "emd": "토평동",
     "sigunguCode": "50130",
     "sido": "제주특별자치도",
-    "sigungu": "서귀포시"
+    "sigungu": "서귀포시",
+    "jibunAddr": "제주특별자치도 서귀포시 토평동 3084 파우제인제주",
+    "builder": "종효C&D외1, (주)케이앤씨개발",
+    "entrance": "계단식",
+    "useArea": "9725.16",
+    "bjdCode": "5013011100",
+    "aptType": "아파트",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 4,
+    "areaBreak": {
+      "u60": 376,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020435",
@@ -273,7 +609,21 @@
     "sigunguCode": "50130",
     "sido": "제주특별자치도",
     "sigungu": "서귀포시",
-    "hhldCnt": 109
+    "hhldCnt": 109,
+    "jibunAddr": "제주특별자치도 서귀포시 중문동 2059-7 중문스마트빌",
+    "builder": "(주)대건",
+    "entrance": "복도식",
+    "useArea": "3060.9611",
+    "bjdCode": "5013011200",
+    "aptType": "도시형 생활주택(아파트)",
+    "mgrType": "위탁관리",
+    "topFloor": 9,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022863",
@@ -284,7 +634,21 @@
     "emd": "중문동",
     "sigunguCode": "50130",
     "sido": "제주특별자치도",
-    "sigungu": "서귀포시"
+    "sigungu": "서귀포시",
+    "jibunAddr": "제주특별자치도 서귀포시 중문동 1802 포레나제주중문아파트",
+    "builder": "(주)한화건설",
+    "entrance": "혼합식",
+    "useArea": "15214.935",
+    "bjdCode": "5013011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 7,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 124,
+      "u135": 45,
+      "o135": 0
+    }
   },
   {
     "code": "A10024215",
@@ -295,7 +659,21 @@
     "emd": "중문동",
     "sigunguCode": "50130",
     "sido": "제주특별자치도",
-    "sigungu": "서귀포시"
+    "sigungu": "서귀포시",
+    "jibunAddr": "제주특별자치도 서귀포시 중문동 1726 e편한세상중문아파트",
+    "builder": "DL건성주식회자, 대림코퍼레이션(주)",
+    "entrance": "계단식",
+    "useArea": "23037.26",
+    "bjdCode": "5013011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 7,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 280,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026817",
@@ -306,7 +684,21 @@
     "emd": "중문동",
     "sigunguCode": "50130",
     "sido": "제주특별자치도",
-    "sigungu": "서귀포시"
+    "sigungu": "서귀포시",
+    "jibunAddr": "제주특별자치도 서귀포시 중문동 1725 중문남해오네뜨오션힐",
+    "builder": "남해종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "23341.3",
+    "bjdCode": "5013011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 290,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A69712001",
@@ -317,7 +709,21 @@
     "emd": "중문동",
     "sigunguCode": "50130",
     "sido": "제주특별자치도",
-    "sigungu": "서귀포시"
+    "sigungu": "서귀포시",
+    "jibunAddr": "제주특별자치도 서귀포시 중문동 1789 중문푸른마을",
+    "builder": "태평양건설",
+    "entrance": "계단식",
+    "useArea": "25776.44",
+    "bjdCode": "5013011200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 460,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027021",
@@ -328,7 +734,21 @@
     "emd": "강정동",
     "sigunguCode": "50130",
     "sido": "제주특별자치도",
-    "sigungu": "서귀포시"
+    "sigungu": "서귀포시",
+    "jibunAddr": "제주특별자치도 서귀포시 강정동 200 강정유승한내들퍼스트오션",
+    "builder": "유승건설",
+    "entrance": "계단식",
+    "useArea": "45190.5253",
+    "bjdCode": "5013011600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 364,
+      "u135": 135,
+      "o135": 0
+    }
   },
   {
     "code": "A10027174",
@@ -339,7 +759,21 @@
     "emd": "강정동",
     "sigunguCode": "50130",
     "sido": "제주특별자치도",
-    "sigungu": "서귀포시"
+    "sigungu": "서귀포시",
+    "jibunAddr": "제주특별자치도 서귀포시 강정동 192 서귀포 강정 LH아파트",
+    "builder": "신동아건설",
+    "entrance": "복도식",
+    "useArea": "19133.32",
+    "bjdCode": "5013011600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 556,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027183",
@@ -350,7 +784,21 @@
     "emd": "강정동",
     "sigunguCode": "50130",
     "sido": "제주특별자치도",
-    "sigungu": "서귀포시"
+    "sigungu": "서귀포시",
+    "jibunAddr": "제주특별자치도 서귀포시 강정동 195 강정중흥S클래스",
+    "builder": "중흥건설",
+    "entrance": "계단식",
+    "useArea": "44588.0925",
+    "bjdCode": "5013011600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 525,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027185",
@@ -361,7 +809,21 @@
     "emd": "강정동",
     "sigunguCode": "50130",
     "sido": "제주특별자치도",
-    "sigungu": "서귀포시"
+    "sigungu": "서귀포시",
+    "jibunAddr": "제주특별자치도 서귀포시 강정동 193 강정골드클래스아파트",
+    "builder": "골드클래스(주)",
+    "entrance": "계단식",
+    "useArea": "18015.5268",
+    "bjdCode": "5013011600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 212,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027736",
@@ -372,7 +834,21 @@
     "emd": "강정동",
     "sigunguCode": "50130",
     "sido": "제주특별자치도",
-    "sigungu": "서귀포시"
+    "sigungu": "서귀포시",
+    "jibunAddr": "제주특별자치도 서귀포시 강정동 189 강정상록아파트",
+    "builder": "국제산업주식회사",
+    "entrance": "혼합식",
+    "useArea": "20215.36",
+    "bjdCode": "5013011600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 298,
+      "u85": 60,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021543",
@@ -383,7 +859,21 @@
     "emd": "하원동",
     "sigunguCode": "50130",
     "sido": "제주특별자치도",
-    "sigungu": "서귀포시"
+    "sigungu": "서귀포시",
+    "jibunAddr": "제주특별자치도 서귀포시 하원동 367-1 서진아파트",
+    "builder": "서진주택건설주식회사",
+    "entrance": "계단식",
+    "useArea": "5370.8639",
+    "bjdCode": "5013011800",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 101,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A69993601",
@@ -394,7 +884,21 @@
     "emd": "대정읍",
     "sigunguCode": "50130",
     "sido": "제주특별자치도",
-    "sigungu": "서귀포시"
+    "sigungu": "서귀포시",
+    "jibunAddr": "제주특별자치도 서귀포시 대정읍 하모리 1450 서귀포대정휴먼시아",
+    "builder": "유성건설(주)",
+    "entrance": "복도식",
+    "useArea": "14287.2",
+    "bjdCode": "5013025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 7,
+    "areaBreak": {
+      "u60": 327,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021819",
@@ -405,7 +909,20 @@
     "emd": "대정읍",
     "sigunguCode": "50130",
     "sido": "제주특별자치도",
-    "sigungu": "서귀포시"
+    "sigungu": "서귀포시",
+    "jibunAddr": "제주특별자치도 서귀포시 대정읍 구억리 1062- 캐논스빌리지1단지",
+    "builder": "한화 건설",
+    "entrance": "혼합식",
+    "useArea": "7729.68",
+    "bjdCode": "5013025030",
+    "mgrType": "자치관리",
+    "topFloor": 3,
+    "areaBreak": {
+      "u60": 48,
+      "u85": 60,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022246",
@@ -416,7 +933,21 @@
     "emd": "남원읍",
     "sigunguCode": "50130",
     "sido": "제주특별자치도",
-    "sigungu": "서귀포시"
+    "sigungu": "서귀포시",
+    "jibunAddr": "제주특별자치도 서귀포시 남원읍 남원리 1323-2 남원에덴아파트",
+    "builder": "(주)에덴",
+    "entrance": "계단식",
+    "useArea": "6600",
+    "bjdCode": "5013025321",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 140,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027590",
@@ -427,7 +958,21 @@
     "emd": "남원읍",
     "sigunguCode": "50130",
     "sido": "제주특별자치도",
-    "sigungu": "서귀포시"
+    "sigungu": "서귀포시",
+    "jibunAddr": "제주특별자치도 서귀포시 남원읍 남원리 2494 남원LH아파트",
+    "builder": "성지종합건설(주)",
+    "entrance": "복도식",
+    "useArea": "12730.24",
+    "bjdCode": "5013025321",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 7,
+    "areaBreak": {
+      "u60": 354,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025785",
@@ -438,7 +983,21 @@
     "emd": "성산읍",
     "sigunguCode": "50130",
     "sido": "제주특별자치도",
-    "sigungu": "서귀포시"
+    "sigungu": "서귀포시",
+    "jibunAddr": "제주특별자치도 서귀포시 성산읍 성산리 392 성산 리치유클래시아",
+    "builder": "창성건설(주)",
+    "entrance": "복도식",
+    "useArea": "10011.48",
+    "bjdCode": "5013025921",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 296,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021728",
@@ -449,7 +1008,21 @@
     "emd": "성산읍",
     "sigunguCode": "50130",
     "sido": "제주특별자치도",
-    "sigungu": "서귀포시"
+    "sigungu": "서귀포시",
+    "jibunAddr": "제주특별자치도 서귀포시 성산읍 고성리 1618-1 진우파크빌",
+    "builder": "진우주택건설",
+    "entrance": "계단식",
+    "useArea": "5618.878",
+    "bjdCode": "5013025924",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 110,
+      "u85": 0,
+      "u135": 1,
+      "o135": 0
+    }
   },
   {
     "code": "A10024522",
@@ -460,6 +1033,20 @@
     "emd": "성산읍",
     "sigunguCode": "50130",
     "sido": "제주특별자치도",
-    "sigungu": "서귀포시"
+    "sigungu": "서귀포시",
+    "jibunAddr": "제주특별자치도 서귀포시 성산읍 고성리 1141-1 서귀포성산LH아파트",
+    "builder": "계룡건설",
+    "entrance": "복도식",
+    "useArea": "12654.7",
+    "bjdCode": "5013025924",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 7,
+    "areaBreak": {
+      "u60": 346,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

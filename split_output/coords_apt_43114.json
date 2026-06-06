@@ -8,7 +8,21 @@
     "emd": "우암동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 우암동 1213- 청주우암행복주택",
+    "builder": "LH공사",
+    "entrance": "복도식",
+    "useArea": "3534.2",
+    "bjdCode": "4311410100",
+    "aptType": "도시형 생활주택(주상복합)",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026664",
@@ -19,7 +33,21 @@
     "emd": "우암동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 우암동 372-6 우암 라임미소가",
+    "builder": "(주)라임종합건설",
+    "entrance": "복도식",
+    "useArea": "13738.068",
+    "bjdCode": "4311410100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 284,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027331",
@@ -30,7 +58,21 @@
     "emd": "우암동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 우암동 1210 우암 삼일 브리제하임 아파트",
+    "builder": "(주)삼일건설",
+    "entrance": "계단식",
+    "useArea": "11628.7299",
+    "bjdCode": "4311410100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 133,
+      "u85": 48,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027900",
@@ -41,7 +83,21 @@
     "emd": "우암동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 우암동 237-13 캠퍼스타워",
+    "builder": "일진건설",
+    "entrance": "복도식",
+    "useArea": "5262.82",
+    "bjdCode": "4311410100",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 299,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36081401",
@@ -52,7 +108,21 @@
     "emd": "우암동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 우암동 328-12 우암세원아파트",
+    "builder": "(주)세원건설",
+    "entrance": "복도식",
+    "useArea": "9511.307",
+    "bjdCode": "4311410100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 236,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36081402",
@@ -63,7 +133,21 @@
     "emd": "우암동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 우암동 353-2 우암덕일한마음아파트",
+    "builder": "덕일건설",
+    "entrance": "혼합식",
+    "useArea": "18988.96",
+    "bjdCode": "4311410100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 179,
+      "u85": 163,
+      "u135": 0,
+      "o135": 3
+    }
   },
   {
     "code": "A10020495",
@@ -74,7 +158,21 @@
     "emd": "내덕동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 내덕동 106-10 롯데삼성아파트",
+    "builder": "삼성",
+    "entrance": "계단식",
+    "useArea": "12173.76",
+    "bjdCode": "4311410200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021244",
@@ -85,7 +183,21 @@
     "emd": "내덕동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 내덕동 422- 내덕신라아파트",
+    "builder": "신라건설",
+    "entrance": "계단식",
+    "useArea": "11852.4",
+    "bjdCode": "4311410200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 100,
+      "u135": 0,
+      "o135": 20
+    }
   },
   {
     "code": "A10021392",
@@ -96,7 +208,21 @@
     "emd": "내덕동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 내덕동 697-1 삼일맨션아파트",
+    "builder": "삼일건설",
+    "entrance": "계단식",
+    "useArea": "16996",
+    "bjdCode": "4311410200",
+    "aptType": "아파트",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 200,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024561",
@@ -107,7 +233,21 @@
     "emd": "내덕동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 내덕동 857 청주 힐즈파크 푸르지오",
+    "builder": "대우건설",
+    "entrance": "계단식",
+    "useArea": "65248.127",
+    "bjdCode": "4311410200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 727,
+      "u135": 50,
+      "o135": 0
+    }
   },
   {
     "code": "A10027477",
@@ -118,7 +258,21 @@
     "emd": "내덕동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 내덕동 445-1 율량서희스타힐스아파트",
+    "builder": "(주)서희건설",
+    "entrance": "계단식",
+    "useArea": "40090.759",
+    "bjdCode": "4311410200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 28,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 508,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36017001",
@@ -129,7 +283,21 @@
     "emd": "내덕동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 내덕동 520 내덕신화아파트",
+    "builder": "신화건설(주)",
+    "entrance": "계단식",
+    "useArea": "39826.46",
+    "bjdCode": "4311410200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 352,
+      "u135": 80,
+      "o135": 0
+    }
   },
   {
     "code": "A36076801",
@@ -140,7 +308,21 @@
     "emd": "내덕동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 내덕동 516-2 이랜드해가든",
+    "builder": "(주)이랜드건설",
+    "entrance": "계단식",
+    "useArea": "20046.072",
+    "bjdCode": "4311410200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 236,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36080401",
@@ -151,7 +333,21 @@
     "emd": "내덕동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 내덕동 141-1 영우예인아파트",
+    "builder": "영우주택(주)",
+    "entrance": "복도식",
+    "useArea": "8876.2",
+    "bjdCode": "4311410200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 280,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020202",
@@ -162,7 +358,20 @@
     "emd": "율량동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 율량동 1871 덕성맨션",
+    "builder": "덕성건설",
+    "entrance": "계단식",
+    "useArea": "11120.4",
+    "bjdCode": "4311410300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 108,
+      "o135": 0
+    }
   },
   {
     "code": "A10021069",
@@ -173,7 +382,21 @@
     "emd": "율량동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 율량동 1362- 대창5차아파트",
+    "builder": "대창주택",
+    "entrance": "복도식",
+    "useArea": "4505.004",
+    "bjdCode": "4311410300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 110,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021190",
@@ -184,7 +407,21 @@
     "emd": "율량동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 율량동 747- 두진아파트",
+    "builder": "두진공영",
+    "entrance": "계단식",
+    "useArea": "7768.8",
+    "bjdCode": "4311410300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 72,
+      "u85": 48,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022409",
@@ -195,7 +432,21 @@
     "emd": "율량동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 율량동 1393- 통일신세대아파트",
+    "builder": "통일건설",
+    "entrance": "계단식",
+    "useArea": "8319.58",
+    "bjdCode": "4311410300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 99,
+      "u85": 28,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023882",
@@ -206,7 +457,21 @@
     "emd": "율량동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 율량동 1502 청주 율량금호어울림센트로",
+    "builder": "금호건설(주)",
+    "entrance": "계단식",
+    "useArea": "110064.2448",
+    "bjdCode": "4311410300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025213",
@@ -217,7 +482,21 @@
     "emd": "율량동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 율량동 710 율량대창1,2차아파트",
+    "builder": "다원종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "8910.95",
+    "bjdCode": "4311410300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027412",
@@ -228,7 +507,21 @@
     "emd": "율량동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 율량동 2456 율량제일풍경채아파트",
+    "builder": "제일건설",
+    "entrance": "계단식",
+    "useArea": "34463.5988",
+    "bjdCode": "4311410300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 422,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027780",
@@ -239,7 +532,21 @@
     "emd": "율량동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 율량동 2246 율량대원칸타빌4차아파트",
+    "builder": "(주)대원,(주)성지건설",
+    "entrance": "계단식",
+    "useArea": "56645.943",
+    "bjdCode": "4311410300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 407,
+      "u135": 207,
+      "o135": 0
+    }
   },
   {
     "code": "A36071601",
@@ -250,7 +557,21 @@
     "emd": "율량동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 율량동 1292 신라임대",
+    "builder": "(주)신라개발",
+    "entrance": "복도식",
+    "useArea": "7685.4",
+    "bjdCode": "4311410300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 252,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36071602",
@@ -261,7 +582,21 @@
     "emd": "율량동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 율량동 1144 한울(1144)",
+    "builder": "(주)한울건설",
+    "entrance": "복도식",
+    "useArea": "9068.67",
+    "bjdCode": "4311410300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 299,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36071603",
@@ -272,7 +607,21 @@
     "emd": "율량동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 율량동 1135 한울A.P.T",
+    "builder": "(주)한울건설",
+    "entrance": "복도식",
+    "useArea": "10160.64",
+    "bjdCode": "4311410300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 224,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36071606",
@@ -283,7 +632,21 @@
     "emd": "율량동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 율량동 2080 율량7단지선광로즈웰1차",
+    "builder": "선광토건 주식회사",
+    "entrance": "계단식",
+    "useArea": "33300.5079",
+    "bjdCode": "4311410300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 321,
+      "o135": 0
+    }
   },
   {
     "code": "A36071607",
@@ -294,7 +657,20 @@
     "emd": "율량동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 율량동 724-1 한울2차",
+    "builder": " ",
+    "useArea": "6289.65",
+    "bjdCode": "4311410300",
+    "aptType": "아파트",
+    "mgrType": "기타",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36071608",
@@ -305,7 +681,21 @@
     "emd": "율량동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 율량동 867 진화하이츠아파트",
+    "builder": "진화건설",
+    "entrance": "계단식",
+    "useArea": "9126.84",
+    "bjdCode": "4311410300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 103,
+      "u85": 26,
+      "u135": 7,
+      "o135": 0
+    }
   },
   {
     "code": "A36071609",
@@ -316,7 +706,21 @@
     "emd": "율량동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 율량동 2455 청주율량2LH9단지",
+    "builder": "고려개발(주)",
+    "entrance": "복도식",
+    "useArea": "43078.34",
+    "bjdCode": "4311410300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 1122,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36077514",
@@ -327,7 +731,21 @@
     "emd": "율량동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 율량동 863 럭키1,2차아파트",
+    "builder": "LG개발",
+    "entrance": "계단식",
+    "useArea": "56857.05",
+    "bjdCode": "4311410300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 690,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36078116",
@@ -338,7 +756,21 @@
     "emd": "율량동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 율량동 1182 율량삼성아파트",
+    "builder": "삼성물산",
+    "entrance": "계단식",
+    "useArea": "57237.3",
+    "bjdCode": "4311410300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 412,
+      "u85": 386,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36078213",
@@ -349,7 +781,21 @@
     "emd": "율량동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 율량동 861 율량두진백로아파트",
+    "builder": "두진고영(주)",
+    "entrance": "혼합식",
+    "useArea": "37422.05",
+    "bjdCode": "4311410300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 390,
+      "u85": 168,
+      "u135": 50,
+      "o135": 0
+    }
   },
   {
     "code": "A36081802",
@@ -360,7 +806,21 @@
     "emd": "율량동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 율량동 862 율량삼정1차 아파트",
+    "builder": "(주)삼정주택건설",
+    "entrance": "계단식",
+    "useArea": "15664.36",
+    "bjdCode": "4311410300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 218,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36081803",
@@ -371,7 +831,21 @@
     "emd": "율량동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 율량동 746 율량목화1,2차아파트",
+    "builder": "대창건설(주)",
+    "entrance": "혼합식",
+    "useArea": "12593.06",
+    "bjdCode": "4311410300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 11,
+    "areaBreak": {
+      "u60": 230,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36081804",
@@ -382,7 +856,21 @@
     "emd": "율량동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 율량동 744 율량부강아파트",
+    "builder": "부강건설산업",
+    "entrance": "복도식",
+    "useArea": "6922.36",
+    "bjdCode": "4311410300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 244,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36081807",
@@ -393,7 +881,21 @@
     "emd": "율량동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 율량동 742 율량삼정2차아파트",
+    "builder": "삼정주택건설",
+    "entrance": "계단식",
+    "useArea": "25790.28",
+    "bjdCode": "4311410300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 196,
+      "u135": 79,
+      "o135": 0
+    }
   },
   {
     "code": "A36081915",
@@ -404,7 +906,21 @@
     "emd": "율량동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 율량동 890 율량현대건설",
+    "builder": "현대건설주식회사",
+    "entrance": "계단식",
+    "useArea": "66938.58",
+    "bjdCode": "4311410300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 650,
+      "u135": 114,
+      "o135": 0
+    }
   },
   {
     "code": "A36082005",
@@ -415,7 +931,21 @@
     "emd": "율량동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 율량동 1379 율량대창4차아파트",
+    "builder": "(주)대창주택",
+    "entrance": "복도식",
+    "useArea": "12919.5",
+    "bjdCode": "4311410300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 261,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36082006",
@@ -426,7 +956,21 @@
     "emd": "율량동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 율량동 1302 율량대창3차아파트",
+    "builder": "(주)대창주택",
+    "entrance": "복도식",
+    "useArea": "9393.3",
+    "bjdCode": "4311410300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 270,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36082010",
@@ -437,7 +981,21 @@
     "emd": "율량동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 율량동 1204 율량성원아파트",
+    "builder": "성원건설",
+    "entrance": "계단식",
+    "useArea": "27470.625",
+    "bjdCode": "4311410300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 140,
+      "u85": 225,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36082011",
@@ -448,7 +1006,21 @@
     "emd": "율량동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 율량동 1263 율량효성2차아파트",
+    "builder": "0",
+    "entrance": "복도식",
+    "useArea": "23743.16",
+    "bjdCode": "4311410300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 440,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36082012",
@@ -459,7 +1031,21 @@
     "emd": "율량동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 율량동 1260 율량현대산업개발아파트",
+    "builder": "(주)현대산업개발",
+    "entrance": "계단식",
+    "useArea": "41142.24",
+    "bjdCode": "4311410300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 176,
+      "u85": 228,
+      "u135": 85,
+      "o135": 0
+    }
   },
   {
     "code": "A36082109",
@@ -470,7 +1056,21 @@
     "emd": "율량동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 율량동 1569 율량동아아파트",
+    "builder": "동아건설",
+    "entrance": "계단식",
+    "useArea": "29528.1",
+    "bjdCode": "4311410300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 270,
+      "u135": 60,
+      "o135": 0
+    }
   },
   {
     "code": "A10023357",
@@ -481,7 +1081,21 @@
     "emd": "사천동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 사천동 444-1 사천대창2차아파트",
+    "builder": "(주)대창주택",
+    "entrance": "복도식",
+    "useArea": "7551.2944",
+    "bjdCode": "4311410400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 142,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026090",
@@ -492,7 +1106,21 @@
     "emd": "사천동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 사천동 697 청주사천푸르지오아파트",
+    "builder": "(주)대우건설",
+    "entrance": "계단식",
+    "useArea": "55588.6411",
+    "bjdCode": "4311410400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 28,
+    "areaBreak": {
+      "u60": 204,
+      "u85": 525,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36022001",
@@ -503,7 +1131,21 @@
     "emd": "사천동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 사천동 229-2 사천대창1차아파트",
+    "builder": "(주) 대창주택",
+    "entrance": "복도식",
+    "useArea": "19742.172",
+    "bjdCode": "4311410400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 356,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36022003",
@@ -514,7 +1156,21 @@
     "emd": "사천동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 사천동 449-3 사천덕성그린아파트",
+    "builder": "덕성건설(주)",
+    "entrance": "복도식",
+    "useArea": "13839.75",
+    "bjdCode": "4311410400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 411,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36022005",
@@ -525,7 +1181,21 @@
     "emd": "사천동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 사천동 25-2 정도드림빌아파트",
+    "builder": "(주)우정건설",
+    "entrance": "복도식",
+    "useArea": "14930.08",
+    "bjdCode": "4311410400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 499,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36077406",
@@ -536,7 +1206,21 @@
     "emd": "사천동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 사천동 229-1 신동아아파트",
+    "builder": "신동아건설",
+    "entrance": "계단식",
+    "useArea": "85330.65",
+    "bjdCode": "4311410400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 780,
+      "u135": 178,
+      "o135": 0
+    }
   },
   {
     "code": "A36078402",
@@ -547,7 +1231,21 @@
     "emd": "사천동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 사천동 228 사천2차동아아파트",
+    "builder": "동아건설산업(주)",
+    "entrance": "계단식",
+    "useArea": "29536.42",
+    "bjdCode": "4311410400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 159,
+      "u85": 239,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36078404",
@@ -558,7 +1256,21 @@
     "emd": "사천동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 사천동 437 사천동아1차아파트",
+    "builder": "동아건설",
+    "entrance": "계단식",
+    "useArea": "48681.59",
+    "bjdCode": "4311410400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 319,
+      "u135": 57,
+      "o135": 85
+    }
   },
   {
     "code": "A36078405",
@@ -569,7 +1281,21 @@
     "emd": "사천동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 사천동 683 사천남광하우스토리 A, B단지",
+    "builder": "남광토건(주)",
+    "entrance": "계단식",
+    "useArea": "90103.9131",
+    "bjdCode": "4311410400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 291,
+      "u135": 368,
+      "o135": 152
+    }
   },
   {
     "code": "A36078406",
@@ -580,7 +1306,21 @@
     "emd": "사천동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 사천동 25 카운티스",
+    "builder": "(주)광덕건설",
+    "entrance": "계단식",
+    "useArea": "7303.0684",
+    "bjdCode": "4311410400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 86,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10028084",
@@ -591,7 +1331,21 @@
     "emd": "주성동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 주성동 337 율량대원3차아파트",
+    "builder": "(주)자영. 성지개발(주)",
+    "entrance": "계단식",
+    "useArea": "75915.326",
+    "bjdCode": "4311410500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 380,
+      "u135": 409,
+      "o135": 0
+    }
   },
   {
     "code": "A36070301",
@@ -602,7 +1356,21 @@
     "emd": "주성동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 주성동 335 주성동 대원칸타빌1단지아파트",
+    "builder": "(주)대원",
+    "entrance": "계단식",
+    "useArea": "76419.84",
+    "bjdCode": "4311410500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 903,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36070302",
@@ -613,7 +1381,21 @@
     "emd": "주성동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 주성동 336 율량5단지 선광로즈웰2차",
+    "builder": "선광토건(주)",
+    "entrance": "계단식",
+    "useArea": "35435.187",
+    "bjdCode": "4311410500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 417,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36071604",
@@ -624,7 +1406,21 @@
     "emd": "주중동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 주중동 852 청주율량2LH1단지",
+    "builder": "한양건설(주)",
+    "entrance": "복도식",
+    "useArea": "22458.71",
+    "bjdCode": "4311410600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 553,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36071605",
@@ -635,7 +1431,21 @@
     "emd": "주중동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 주중동 950 청주율량2LH2단지",
+    "builder": "일성건설(주)",
+    "entrance": "복도식",
+    "useArea": "43869.93",
+    "bjdCode": "4311410600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 1099,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36784101",
@@ -646,7 +1456,21 @@
     "emd": "주중동",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 주중동 1023 대원칸타빌2차",
+    "builder": "(주)대원",
+    "entrance": "계단식",
+    "useArea": "66011.727",
+    "bjdCode": "4311410600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 780,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36393201",
@@ -657,7 +1481,21 @@
     "emd": "내수읍",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 내수읍 내수리 37 내수수정로얄아파트",
+    "builder": "수정건설",
+    "entrance": "복도식",
+    "useArea": "9144.68",
+    "bjdCode": "4311425021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 11,
+    "areaBreak": {
+      "u60": 154,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36393211",
@@ -668,7 +1506,21 @@
     "emd": "내수읍",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 내수읍 내수리 200-3 내수삼일아파트",
+    "builder": "삼일주택공사",
+    "entrance": "복도식",
+    "useArea": "48337.48",
+    "bjdCode": "4311425021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 11,
+    "areaBreak": {
+      "u60": 883,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022520",
@@ -679,7 +1531,21 @@
     "emd": "내수읍",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 내수읍 마산리 213- 청주시온숲속의아침뷰아파트",
+    "builder": "(주)시온건설개발",
+    "entrance": "계단식",
+    "useArea": "37756.2643",
+    "bjdCode": "4311425022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 476,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36393407",
@@ -690,7 +1556,21 @@
     "emd": "내수읍",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 내수읍 마산리 210 청원내수주공아파트",
+    "builder": "대자개발",
+    "entrance": "복도식",
+    "useArea": "19056.71",
+    "bjdCode": "4311425022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 409,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36393408",
@@ -701,7 +1581,21 @@
     "emd": "내수읍",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 내수읍 마산리 123 진흥1차아파트",
+    "builder": "진흥주택",
+    "entrance": "혼합식",
+    "useArea": "23342.25",
+    "bjdCode": "4311425022",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 425,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36393303",
@@ -712,7 +1606,21 @@
     "emd": "내수읍",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 내수읍 도원리 56 우창진주1차아파트",
+    "builder": "우창종합건설",
+    "entrance": "복도식",
+    "useArea": "14482.38",
+    "bjdCode": "4311425025",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 11,
+    "areaBreak": {
+      "u60": 264,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36393304",
@@ -723,7 +1631,21 @@
     "emd": "내수읍",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 내수읍 도원리 85 우창진주3차아파트",
+    "builder": "(주)우창종합건설",
+    "entrance": "복도식",
+    "useArea": "17670.5",
+    "bjdCode": "4311425025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 11,
+    "areaBreak": {
+      "u60": 295,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36393305",
@@ -734,7 +1656,21 @@
     "emd": "내수읍",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 내수읍 도원리 51-3 우창진주2차아파트",
+    "builder": "우창건설",
+    "entrance": "복도식",
+    "useArea": "17799.54",
+    "bjdCode": "4311425025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 298,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36393502",
@@ -745,7 +1681,21 @@
     "emd": "내수읍",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 내수읍 우산리 504-8 강우스파빌아파트",
+    "builder": "강우건설",
+    "entrance": "혼합식",
+    "useArea": "9589.35",
+    "bjdCode": "4311425030",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 7,
+    "areaBreak": {
+      "u60": 160,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36379512",
@@ -756,7 +1706,21 @@
     "emd": "내수읍",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 내수읍 은곡리 301 은곡덕일한마음아파트",
+    "builder": "(주)덕일건설",
+    "entrance": "복도식",
+    "useArea": "37532.7",
+    "bjdCode": "4311425036",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 910,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36379609",
@@ -767,7 +1731,21 @@
     "emd": "내수읍",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 내수읍 은곡리 302 은곡천일아파트",
+    "builder": "천일건설(주)",
+    "entrance": "계단식",
+    "useArea": "29511.066",
+    "bjdCode": "4311425036",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 494,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36393110",
@@ -778,7 +1756,21 @@
     "emd": "내수읍",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 내수읍 은곡리 246-3 은곡무지개아파트",
+    "builder": "(주)무지개종합건설",
+    "entrance": "복도식",
+    "useArea": "26355.6",
+    "bjdCode": "4311425036",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 700,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027124",
@@ -789,7 +1781,21 @@
     "emd": "오창읍",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 오창읍 창리 160 오창2지구 대원칸타빌아파트",
+    "builder": "(주)대원",
+    "entrance": "계단식",
+    "useArea": "49083.7216",
+    "bjdCode": "4311425331",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 592,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027725",
@@ -800,7 +1806,21 @@
     "emd": "오창읍",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 오창읍 창리 161 오창 모아미래도 와이드파크",
+    "builder": "(주)미래도건설 외1",
+    "entrance": "계단식",
+    "useArea": "37790.6522",
+    "bjdCode": "4311425331",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 630,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027743",
@@ -811,7 +1831,21 @@
     "emd": "오창읍",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 오창읍 주성리 562 오창 모아미래도 와이드 시티4단지",
+    "builder": "씨에치이아이건설",
+    "entrance": "계단식",
+    "useArea": "39389.4104",
+    "bjdCode": "4311425332",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 472,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027801",
@@ -822,7 +1856,21 @@
     "emd": "오창읍",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 오창읍 주성리 556 오창대성베르힐아파트",
+    "builder": "대성건설(주)",
+    "entrance": "계단식",
+    "useArea": "48230.3808",
+    "bjdCode": "4311425332",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 587,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027863",
@@ -833,7 +1881,21 @@
     "emd": "오창읍",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 오창읍 주성리 561 충북오창8단지부영아파트",
+    "builder": "(주) 부영",
+    "entrance": "계단식",
+    "useArea": "44229.0428",
+    "bjdCode": "4311425332",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 534,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027864",
@@ -844,7 +1906,21 @@
     "emd": "오창읍",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 오창읍 주성리 567 오창5단지부영아파트",
+    "builder": "부영주택",
+    "entrance": "계단식",
+    "useArea": "54498.086",
+    "bjdCode": "4311425332",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 658,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36388110",
@@ -855,7 +1931,21 @@
     "emd": "오창읍",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 오창읍 주성리 569 오창6단지부영",
+    "builder": "(주)부영주택",
+    "entrance": "계단식",
+    "useArea": "58679.4864",
+    "bjdCode": "4311425332",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 1016,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36388111",
@@ -866,7 +1956,21 @@
     "emd": "오창읍",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 오창읍 주성리 564 오창7단지부영",
+    "builder": "부영주택",
+    "entrance": "계단식",
+    "useArea": "51517.46",
+    "bjdCode": "4311425332",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 892,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36388301",
@@ -877,7 +1981,21 @@
     "emd": "오창읍",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 오창읍 괴정리 507-1 오창덕성그린아파트",
+    "builder": "덕성건설",
+    "entrance": "계단식",
+    "useArea": "12598.95",
+    "bjdCode": "4311425335",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 210,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022578",
@@ -888,7 +2006,21 @@
     "emd": "오창읍",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 오창읍 각리 639-4 오창 반도 유보라퍼스티지",
+    "builder": "반도건설",
+    "entrance": "계단식",
+    "useArea": "41566.9364",
+    "bjdCode": "4311425344",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 250,
+      "u85": 322,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026339",
@@ -899,7 +2031,21 @@
     "emd": "오창읍",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 오창읍 각리 636-2 한신 더휴 센트럴파크",
+    "builder": "한신공영(주)",
+    "entrance": "기타",
+    "useArea": "104894.0639",
+    "bjdCode": "4311425344",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 49,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1168,
+      "u135": 28,
+      "o135": 14
+    }
   },
   {
     "code": "A36378106",
@@ -910,7 +2056,21 @@
     "emd": "오창읍",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 오창읍 각리 637-6 오창중앙하이츠빌아파트",
+    "builder": "(주)중앙건설",
+    "entrance": "계단식",
+    "useArea": "116954.9188",
+    "bjdCode": "4311425344",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 396,
+      "u85": 584,
+      "u135": 286,
+      "o135": 72
+    }
   },
   {
     "code": "A36378107",
@@ -921,7 +2081,21 @@
     "emd": "오창읍",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 오창읍 각리 637-1 오창한라비발디아파트",
+    "builder": "(주)한라",
+    "entrance": "계단식",
+    "useArea": "133416.065",
+    "bjdCode": "4311425344",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 406,
+      "u85": 776,
+      "u135": 309,
+      "o135": 38
+    }
   },
   {
     "code": "A36378202",
@@ -932,7 +2106,21 @@
     "emd": "오창읍",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 오창읍 각리 637-9 오창대원칸타빌",
+    "builder": "대원건설",
+    "entrance": "계단식",
+    "useArea": "35183.5568",
+    "bjdCode": "4311425344",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 170,
+      "u85": 294,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36378203",
@@ -943,7 +2131,21 @@
     "emd": "오창읍",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 오창읍 각리 647-1 오창쌍용스윗닷홈",
+    "builder": "쌍용건설주식회사",
+    "entrance": "계단식",
+    "useArea": "55123.07",
+    "bjdCode": "4311425344",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 172,
+      "u85": 270,
+      "u135": 180,
+      "o135": 0
+    }
   },
   {
     "code": "A36378204",
@@ -954,7 +2156,21 @@
     "emd": "오창읍",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 오창읍 각리 646-6 이안오창아파트",
+    "builder": "대우자동차판매",
+    "entrance": "계단식",
+    "useArea": "69834.1155",
+    "bjdCode": "4311425344",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 227,
+      "u85": 411,
+      "u135": 180,
+      "o135": 0
+    }
   },
   {
     "code": "A36378205",
@@ -965,7 +2181,21 @@
     "emd": "오창읍",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 오창읍 각리 638-1 오창우림필유1차아파트",
+    "builder": "우림건설(주)",
+    "entrance": "계단식",
+    "useArea": "95821.96",
+    "bjdCode": "4311425344",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 320,
+      "u85": 552,
+      "u135": 248,
+      "o135": 0
+    }
   },
   {
     "code": "A36378308",
@@ -976,7 +2206,21 @@
     "emd": "오창읍",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 오창읍 각리 646-1 오창우림필유2차아파트",
+    "builder": "우림건설",
+    "entrance": "계단식",
+    "useArea": "141431.1901",
+    "bjdCode": "4311425344",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 444,
+      "u85": 806,
+      "u135": 280,
+      "o135": 72
+    }
   },
   {
     "code": "A36388109",
@@ -987,7 +2231,21 @@
     "emd": "오창읍",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 오창읍 각리 645-1 오창코아루아파트",
+    "builder": "(주)원건설",
+    "entrance": "계단식",
+    "useArea": "78783.6679",
+    "bjdCode": "4311425344",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 315,
+      "u85": 491,
+      "u135": 142,
+      "o135": 0
+    }
   },
   {
     "code": "A10025993",
@@ -998,6 +2256,20 @@
     "emd": "오창읍",
     "sigunguCode": "43114",
     "sido": "충청북도",
-    "sigungu": "청주시 청원구"
+    "sigungu": "청주시 청원구",
+    "jibunAddr": "충청북도 청주청원구 오창읍 양청리 810-2 오창롯데캐슬더하이스트",
+    "builder": "롯데건설",
+    "entrance": "계단식",
+    "useArea": "192134.1881",
+    "bjdCode": "4311425345",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 39,
+    "areaBreak": {
+      "u60": 633,
+      "u85": 1792,
+      "u135": 75,
+      "o135": 0
+    }
   }
 ]

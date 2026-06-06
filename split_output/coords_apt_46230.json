@@ -8,7 +8,21 @@
     "emd": "황금동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 황금동 1129- 더샵 광양베이센트",
+    "builder": "포스코이엔씨",
+    "entrance": "혼합식",
+    "useArea": "71181.3588",
+    "bjdCode": "4623010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 33,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 434,
+      "u135": 285,
+      "o135": 8
+    }
   },
   {
     "code": "A10022614",
@@ -19,7 +33,20 @@
     "emd": "황금동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 황금동 1370 광양 한라비발디 센트럴마크",
+    "builder": "에이치엘디앤아이한라",
+    "entrance": "계단식",
+    "useArea": "63878.4618",
+    "bjdCode": "4623010100",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 772,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022910",
@@ -30,7 +57,21 @@
     "emd": "황금동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 황금동  황금 푸르지오 더센트럴",
+    "builder": "(주)대우건설",
+    "entrance": "계단식",
+    "useArea": "60902.4223",
+    "bjdCode": "4623010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 166,
+      "u135": 399,
+      "o135": 0
+    }
   },
   {
     "code": "A10022610",
@@ -41,7 +82,21 @@
     "emd": "성황동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 성황동 1862 광양더샵프리모성황아파트",
+    "builder": "포스코이앤씨",
+    "entrance": "계단식",
+    "useArea": "41265.3278",
+    "bjdCode": "4623010400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 486,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023671",
@@ -52,7 +107,21 @@
     "emd": "성황동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 성황동 1860 광양센트럴자이",
+    "builder": "GS건설",
+    "entrance": "계단식",
+    "useArea": "58553.8668",
+    "bjdCode": "4623010400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 704,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024081",
@@ -63,7 +132,21 @@
     "emd": "성황동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 성황동  광양 푸르지오 더 퍼스트",
+    "builder": "대우건설",
+    "entrance": "계단식",
+    "useArea": "90213.9514",
+    "bjdCode": "4623010400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 171,
+      "u85": 969,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022160",
@@ -74,7 +157,20 @@
     "emd": "중동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 중동 1696-2 중마동진아리채1차아파트",
+    "builder": "진아건설(주)",
+    "entrance": "계단식",
+    "useArea": "11001.5869",
+    "bjdCode": "4623010600",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 140,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022168",
@@ -85,7 +181,21 @@
     "emd": "중동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 중동 1324-5 광양수하임1차아파트",
+    "builder": "(주)ES종합건설",
+    "entrance": "계단식",
+    "useArea": "6162.9419",
+    "bjdCode": "4623010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 105,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022361",
@@ -96,7 +206,21 @@
     "emd": "중동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 중동 1815-1 광양산이고운 마린파크",
+    "builder": "산이건설주식회사",
+    "entrance": "계단식",
+    "useArea": "42614.058",
+    "bjdCode": "4623010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 526,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023399",
@@ -107,7 +231,20 @@
     "emd": "중동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 중동 1324-1 광양수하임2차아파트",
+    "builder": "중해건설(주)",
+    "entrance": "계단식",
+    "useArea": "14618.0712",
+    "bjdCode": "4623010600",
+    "mgrType": "위탁관리",
+    "topFloor": 28,
+    "areaBreak": {
+      "u60": 9,
+      "u85": 167,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027080",
@@ -118,7 +255,21 @@
     "emd": "중동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 중동 1912 중마2차 진아리채 아파트",
+    "builder": "아이리스건설(주)",
+    "entrance": "계단식",
+    "useArea": "52333.4512",
+    "bjdCode": "4623010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 616,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027459",
@@ -129,7 +280,21 @@
     "emd": "중동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 중동 1309-1 e편한세상 광양",
+    "builder": "대림",
+    "entrance": "계단식",
+    "useArea": "37384.952",
+    "bjdCode": "4623010600",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 48,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 440,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54570101",
@@ -140,7 +305,21 @@
     "emd": "중동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 중동 1691 성호3차",
+    "builder": "성호건설",
+    "entrance": "계단식",
+    "useArea": "33644.16",
+    "bjdCode": "4623010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 396,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54570102",
@@ -151,7 +330,21 @@
     "emd": "중동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 중동 1686 성호1차",
+    "builder": "성호건설",
+    "entrance": "복도식",
+    "useArea": "76962.96",
+    "bjdCode": "4623010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 1362,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54570104",
@@ -162,7 +355,21 @@
     "emd": "중동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 중동 1682 태영2차",
+    "builder": "태영",
+    "entrance": "계단식",
+    "useArea": "30390.24",
+    "bjdCode": "4623010600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 380,
+      "u85": 104,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54570105",
@@ -173,7 +380,21 @@
     "emd": "중동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 중동 1301-1 중마1차부영아파트",
+    "builder": "동광주택",
+    "entrance": "복도식",
+    "useArea": "26940.56",
+    "bjdCode": "4623010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 282,
+      "u85": 118,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54570106",
@@ -184,7 +405,21 @@
     "emd": "중동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 중동 1590 중동써니밸리",
+    "builder": "이테크건설",
+    "entrance": "계단식",
+    "useArea": "38116.3284",
+    "bjdCode": "4623010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 449,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54570107",
@@ -195,7 +430,21 @@
     "emd": "중동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 중동 1354 중마2차부영아파트",
+    "builder": "(주)동광주택",
+    "entrance": "복도식",
+    "useArea": "78829.64",
+    "bjdCode": "4623010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1466,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54570108",
@@ -206,7 +455,21 @@
     "emd": "중동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 중동 1666 성호2-2차",
+    "builder": "성호건설주",
+    "entrance": "복도식",
+    "useArea": "140626.08",
+    "bjdCode": "4623010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 2352,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54570109",
@@ -217,7 +480,21 @@
     "emd": "중동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 중동 1665 성호2다시1차아파트",
+    "builder": "(주)성호건설",
+    "entrance": "복도식",
+    "useArea": "85559.49",
+    "bjdCode": "4623010600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 1773,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54570110",
@@ -228,7 +505,21 @@
     "emd": "중동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 중동 1734 태완노블리안",
+    "builder": "2023-05-17",
+    "entrance": "계단식",
+    "useArea": "21151.5573",
+    "bjdCode": "4623010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 26,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 249,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54570111",
@@ -239,7 +530,21 @@
     "emd": "중동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 중동 1592 대광로제비앙2차",
+    "builder": "(주)대광이앤씨",
+    "entrance": "계단식",
+    "useArea": "30313.5674",
+    "bjdCode": "4623010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 30,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 392,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54570112",
@@ -250,7 +555,21 @@
     "emd": "중동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 중동 1594 대광로제비앙3차",
+    "builder": "(주)대광건영",
+    "entrance": "계단식",
+    "useArea": "24445.3205",
+    "bjdCode": "4623010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 28,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 317,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54587901",
@@ -261,7 +580,21 @@
     "emd": "중동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 중동 1356-2 선우",
+    "builder": " ",
+    "entrance": "복도식",
+    "useArea": "7414",
+    "bjdCode": "4623010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 11,
+    "areaBreak": {
+      "u60": 150,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54587905",
@@ -272,7 +605,21 @@
     "emd": "중동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 중동 1294 중마1주공아파트",
+    "builder": "냠양건설",
+    "entrance": "계단식",
+    "useArea": "18936.9",
+    "bjdCode": "4623010600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 450,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54587907",
@@ -283,7 +630,21 @@
     "emd": "중동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 중동 1681 태영1차",
+    "builder": "(주)태영",
+    "entrance": "혼합식",
+    "useArea": "32425.41",
+    "bjdCode": "4623010600",
+    "aptType": "아파트",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 16,
+    "areaBreak": {
+      "u60": 380,
+      "u85": 128,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54588003",
@@ -294,7 +655,21 @@
     "emd": "중동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 중동 1376 중마시영아파트",
+    "builder": "금광기업",
+    "entrance": "복도식",
+    "useArea": "12294.45",
+    "bjdCode": "4623010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 225,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54588004",
@@ -305,7 +680,21 @@
     "emd": "중동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 중동 1597 대광로제비앙",
+    "builder": "대광건영",
+    "entrance": "계단식",
+    "useArea": "29915.072",
+    "bjdCode": "4623010600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 352,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54588006",
@@ -316,7 +705,21 @@
     "emd": "중동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 중동 1416 남양파크",
+    "builder": "남양건설",
+    "entrance": "혼합식",
+    "useArea": "26465.85",
+    "bjdCode": "4623010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 405,
+      "u85": 60,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54588008",
@@ -327,7 +730,21 @@
     "emd": "중동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 중동 1418 무등파크맨션",
+    "builder": "무등건설",
+    "entrance": "계단식",
+    "useArea": "47704",
+    "bjdCode": "4623010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 360,
+      "u85": 240,
+      "u135": 0,
+      "o135": 40
+    }
   },
   {
     "code": "A54588009",
@@ -338,7 +755,21 @@
     "emd": "중동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 중동 1434 중마2주공아파트",
+    "builder": "대한주택공사",
+    "entrance": "복도식",
+    "useArea": "31698",
+    "bjdCode": "4623010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 712,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54588110",
@@ -349,7 +780,21 @@
     "emd": "중동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 중동 1655 광양중마 호반리젠시빌",
+    "builder": "호반건설(주)",
+    "entrance": "계단식",
+    "useArea": "68177.476",
+    "bjdCode": "4623010600",
+    "aptType": "아파트",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 844,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54588111",
@@ -360,7 +805,21 @@
     "emd": "중동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 중동 1663 광양금광1차",
+    "builder": "금광기업(주)",
+    "entrance": "계단식",
+    "useArea": "64933.21",
+    "bjdCode": "4623010600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 1110,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54588202",
@@ -371,7 +830,21 @@
     "emd": "중동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 중동 1696-4 우봉카이스트빌",
+    "builder": "(주)우봉건설",
+    "entrance": "계단식",
+    "useArea": "18857.0982",
+    "bjdCode": "4623010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 222,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020739",
@@ -382,7 +855,21 @@
     "emd": "마동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 마동 1149-7 스마트시티2차아파트",
+    "builder": "신태양건설",
+    "entrance": "복도식",
+    "useArea": "2171.1256",
+    "bjdCode": "4623010700",
+    "aptType": "도시형 생활주택(아파트)",
+    "mgrType": "위탁관리",
+    "topFloor": 8,
+    "areaBreak": {
+      "u60": 134,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020740",
@@ -393,7 +880,21 @@
     "emd": "마동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 마동 1171-1 스마트시티1차아파트",
+    "builder": "신태양건설",
+    "entrance": "복도식",
+    "useArea": "3266.346",
+    "bjdCode": "4623010700",
+    "aptType": "도시형 생활주택(아파트)",
+    "mgrType": "위탁관리",
+    "topFloor": 8,
+    "areaBreak": {
+      "u60": 216,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022272",
@@ -404,7 +905,21 @@
     "emd": "마동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 마동 1360- 광양 와우지구 중흥S-클래스",
+    "builder": "중흥건설(주)",
+    "entrance": "계단식",
+    "useArea": "76639.5208",
+    "bjdCode": "4623010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 902,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023397",
@@ -415,7 +930,21 @@
     "emd": "마동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 마동 1309 광양 동문디이스트",
+    "builder": "동문건설(주)",
+    "entrance": "계단식",
+    "useArea": "94642.2674",
+    "bjdCode": "4623010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 27,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1114,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023879",
@@ -426,7 +955,21 @@
     "emd": "마동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 마동 2062 광양마동 영무예다음 아파트",
+    "builder": "영무산업개발",
+    "entrance": "계단식",
+    "useArea": "46993.4423",
+    "bjdCode": "4623010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 553,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024164",
@@ -437,7 +980,21 @@
     "emd": "마동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 마동 1311 광양와우LH1단지아파트",
+    "builder": "경남기업(주)",
+    "entrance": "복도식",
+    "useArea": "25857.96",
+    "bjdCode": "4623010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 830,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024305",
@@ -449,7 +1006,21 @@
     "sigunguCode": "46230",
     "sido": "전라남도",
     "sigungu": "광양시",
-    "hhldCnt": 339
+    "hhldCnt": 339,
+    "jibunAddr": "전라남도 광양시 마동 1159 스위트엠르네상스아파트",
+    "builder": "삼부토건(주)",
+    "entrance": "계단식",
+    "useArea": "24048.8252",
+    "bjdCode": "4623010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026237",
@@ -460,7 +1031,21 @@
     "emd": "마동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 마동 1165-10 콤팩트시티",
+    "builder": "엑스포건설",
+    "entrance": "복도식",
+    "useArea": "3014.9112",
+    "bjdCode": "4623010700",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 8,
+    "areaBreak": {
+      "u60": 156,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027370",
@@ -471,7 +1056,21 @@
     "emd": "마동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 마동 1026 마동 자연애아파트",
+    "builder": "성찬종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "10822.0466",
+    "bjdCode": "4623010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 132,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027404",
@@ -482,7 +1081,21 @@
     "emd": "마동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 마동 1298 덕진광양의봄프리미엄아파트(2단지)",
+    "builder": "덕진종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "46244.0554",
+    "bjdCode": "4623010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 132,
+      "u85": 487,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027405",
@@ -493,7 +1106,21 @@
     "emd": "마동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 마동 1295 마동 덕진프리미엄1단지",
+    "builder": "덕진건설",
+    "entrance": "계단식",
+    "useArea": "19889.9452",
+    "bjdCode": "4623010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 116,
+      "u85": 191,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54507001",
@@ -504,7 +1131,21 @@
     "emd": "마동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 마동 1030 광양 마동주공아파트",
+    "builder": "중흥종합건설",
+    "entrance": "복도식",
+    "useArea": "11800.08",
+    "bjdCode": "4623010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 270,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54507002",
@@ -515,7 +1156,21 @@
     "emd": "마동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 마동 1046 송보파인빌뷰1.3단지",
+    "builder": "송보건설",
+    "entrance": "계단식",
+    "useArea": "27765.8888",
+    "bjdCode": "4623010700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 332,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54507003",
@@ -526,7 +1181,21 @@
     "emd": "마동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 마동 1055 송보파인빌5차",
+    "builder": "한빛건설(주)",
+    "entrance": "계단식",
+    "useArea": "44243.5966",
+    "bjdCode": "4623010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 521,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54507004",
@@ -537,7 +1206,21 @@
     "emd": "마동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 마동 1031 송보파인빌6차",
+    "builder": "한빛건설(주)",
+    "entrance": "계단식",
+    "useArea": "44309.9226",
+    "bjdCode": "4623010700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 524,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54507005",
@@ -548,7 +1231,21 @@
     "emd": "마동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 마동 1019 금광블루빌아파트",
+    "builder": "금광기업",
+    "entrance": "계단식",
+    "useArea": "41791.8",
+    "bjdCode": "4623010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 180,
+      "u85": 390,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54577001",
@@ -559,7 +1256,21 @@
     "emd": "마동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 마동 1161 광양중마우림필유아파트",
+    "builder": "대우산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "70916.621",
+    "bjdCode": "4623010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 723,
+      "u135": 80,
+      "o135": 0
+    }
   },
   {
     "code": "A54577002",
@@ -570,7 +1281,21 @@
     "emd": "마동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 마동 1033 신원아르시스",
+    "builder": "신원s/w건설",
+    "entrance": "계단식",
+    "useArea": "16817.8979",
+    "bjdCode": "4623010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 198,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54577003",
@@ -581,7 +1306,21 @@
     "emd": "마동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 마동 1105 중마노르웨이숲",
+    "builder": "(주)유림",
+    "entrance": "계단식",
+    "useArea": "40501.8088",
+    "bjdCode": "4623010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 16,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 477,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020212",
@@ -592,7 +1331,20 @@
     "emd": "광영동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 광영동 313 로데오아파트",
+    "builder": "미래건설",
+    "entrance": "계단식",
+    "useArea": "98",
+    "bjdCode": "4623010800",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "areaBreak": {
+      "u60": 140,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021806",
@@ -603,7 +1355,21 @@
     "emd": "광영동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 광영동 775-1 광영주공아파트",
+    "builder": "대주건설",
+    "entrance": "계단식",
+    "useArea": "9999.3",
+    "bjdCode": "4623010800",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 240,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022113",
@@ -614,7 +1380,21 @@
     "emd": "광영동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 광영동 775-2 광영 목우아파트",
+    "builder": "삼릉건설",
+    "entrance": "계단식",
+    "useArea": "10948.88",
+    "bjdCode": "4623010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 218,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023058",
@@ -625,7 +1405,21 @@
     "emd": "광영동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 광영동 1090 가야산한라비발디프리미어",
+    "builder": "에이치엘디앤아이 한라(주)",
+    "entrance": "계단식",
+    "useArea": "28213.446",
+    "bjdCode": "4623010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 332,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54508001",
@@ -636,7 +1430,21 @@
     "emd": "광영동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 광영동 757-2 현대1차",
+    "builder": "현대건설주식회사",
+    "entrance": "계단식",
+    "useArea": "16618.502",
+    "bjdCode": "4623010800",
+    "aptType": "아파트",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 270,
+      "u85": 30,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54508002",
@@ -647,7 +1455,21 @@
     "emd": "광영동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 광영동 757-1 광영상아휴랜드아파트",
+    "builder": "(주)상아주택",
+    "entrance": "복도식",
+    "useArea": "33467.55",
+    "bjdCode": "4623010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리(직영+위탁)",
+    "topFloor": 16,
+    "areaBreak": {
+      "u60": 655,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54508003",
@@ -658,7 +1480,21 @@
     "emd": "광영동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 광영동 755-1 가야아파트",
+    "builder": "거양개발",
+    "entrance": "복도식",
+    "useArea": "33976.2",
+    "bjdCode": "4623010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 680,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54508004",
@@ -669,7 +1505,21 @@
     "emd": "광영동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 광영동 755-2 광영현대2차아파트",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "59212.8",
+    "bjdCode": "4623010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 728,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54575101",
@@ -680,7 +1530,21 @@
     "emd": "광영동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 광영동 846 브라운스톤가야",
+    "builder": "이수건설",
+    "entrance": "혼합식",
+    "useArea": "54120.2564",
+    "bjdCode": "4623010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 261,
+      "u135": 142,
+      "o135": 85
+    }
   },
   {
     "code": "A54575102",
@@ -691,7 +1555,21 @@
     "emd": "광영동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 광영동 732 광영부영2차",
+    "builder": "(주)동광주택",
+    "entrance": "계단식",
+    "useArea": "38043.311",
+    "bjdCode": "4623010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 64,
+      "u85": 434,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54575103",
@@ -702,7 +1580,21 @@
     "emd": "광영동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 광영동 733-3 광영부영1차",
+    "builder": "(주)동광주택",
+    "entrance": "계단식",
+    "useArea": "18180.6054",
+    "bjdCode": "4623010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 246,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54578101",
@@ -713,7 +1605,21 @@
     "emd": "태인동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 태인동 1320-41 태인부영아파트",
+    "builder": "동광주택",
+    "entrance": "계단식",
+    "useArea": "15440.4",
+    "bjdCode": "4623010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 270,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54578201",
@@ -724,7 +1630,21 @@
     "emd": "태인동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 태인동 397-1 선미태인하이츠",
+    "builder": "선미종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "13775.16",
+    "bjdCode": "4623010900",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 230,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54509001",
@@ -735,7 +1655,21 @@
     "emd": "금호동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 금호동 720 장미아파트",
+    "builder": "한일개발",
+    "entrance": "계단식",
+    "useArea": "37091.04",
+    "bjdCode": "4623011000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 566,
+      "u85": 80,
+      "u135": 15,
+      "o135": 0
+    }
   },
   {
     "code": "A54509002",
@@ -746,7 +1680,21 @@
     "emd": "금호동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 금호동 826 송죽아파트",
+    "builder": "한일개발",
+    "entrance": "복도식",
+    "useArea": "6292.8",
+    "bjdCode": "4623011000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 92,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54509003",
@@ -757,7 +1705,21 @@
     "emd": "금호동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 금호동 825 초원 APT",
+    "builder": "한일개발",
+    "entrance": "계단식",
+    "useArea": "28467.72",
+    "bjdCode": "4623011000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 336,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54509004",
@@ -768,7 +1730,21 @@
     "emd": "금호동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 금호동 694 동백아파트",
+    "builder": "한일개발",
+    "entrance": "계단식",
+    "useArea": "23666",
+    "bjdCode": "4623011000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 150,
+      "u85": 170,
+      "u135": 30,
+      "o135": 0
+    }
   },
   {
     "code": "A54509006",
@@ -779,7 +1755,21 @@
     "emd": "금호동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 금호동 624-7 매화 아파트",
+    "builder": "한일개발",
+    "entrance": "계단식",
+    "useArea": "42517.17",
+    "bjdCode": "4623011000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 45,
+      "u85": 527,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54509010",
@@ -790,7 +1780,21 @@
     "emd": "금호동",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 금호동 624-13 사랑",
+    "builder": "한일개발",
+    "entrance": "복도식",
+    "useArea": "72430.99",
+    "bjdCode": "4623011000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 902,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023167",
@@ -801,7 +1805,21 @@
     "emd": "광양읍",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 광양읍  484-28 광양목성파크뷰 부영2단지",
+    "builder": "부영주택",
+    "entrance": "계단식",
+    "useArea": "29597.7136",
+    "bjdCode": "4623025000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 27,
+    "areaBreak": {
+      "u60": 494,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54570317",
@@ -812,7 +1830,21 @@
     "emd": "광양읍",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 광양읍 구산리 832-1 덕진광양의봄",
+    "builder": "덕진종합건설",
+    "entrance": "계단식",
+    "useArea": "50252.3185",
+    "bjdCode": "4623025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 339,
+      "u85": 369,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54580101",
@@ -823,7 +1855,21 @@
     "emd": "광양읍",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 광양읍 구산리 137-2 광양삼익아파트",
+    "builder": "한진주택",
+    "entrance": "계단식",
+    "useArea": "17501.76",
+    "bjdCode": "4623025022",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 206,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54580104",
@@ -834,7 +1880,21 @@
     "emd": "광양읍",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 광양읍 구산리 850-1 광양e-편한세상",
+    "builder": "(주)삼호",
+    "entrance": "계단식",
+    "useArea": "41286.3",
+    "bjdCode": "4623025022",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 267,
+      "u135": 156,
+      "o135": 0
+    }
   },
   {
     "code": "A54580109",
@@ -845,7 +1905,21 @@
     "emd": "광양읍",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 광양읍 구산리 762-2 매화주공아파트",
+    "builder": "대경건설",
+    "entrance": "혼합식",
+    "useArea": "38015.96",
+    "bjdCode": "4623025022",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 704,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024314",
@@ -856,7 +1930,21 @@
     "emd": "광양읍",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 광양읍 칠성리 19 광양공공실버주택",
+    "builder": "동일건설(주)외 1(선양건설)",
+    "entrance": "복도식",
+    "useArea": "3146.438",
+    "bjdCode": "4623025023",
+    "aptType": "아파트",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 150,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54570308",
@@ -867,7 +1955,21 @@
     "emd": "광양읍",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 광양읍 칠성리 89-5 칠성주공3단지",
+    "builder": "한국 토지주택공사",
+    "entrance": "계단식",
+    "useArea": "29699.28",
+    "bjdCode": "4623025023",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 590,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54570311",
@@ -878,7 +1980,21 @@
     "emd": "광양읍",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 광양읍 칠성리 89-5 칠성주공1,2단지",
+    "builder": "대한주택공사",
+    "entrance": "계단식",
+    "useArea": "40684.65",
+    "bjdCode": "4623025023",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 1040,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54580903",
@@ -889,7 +2005,21 @@
     "emd": "광양읍",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 광양읍 칠성리 952 광양읍 상아아파트",
+    "builder": "상아주택",
+    "entrance": "계단식",
+    "useArea": "15943.55",
+    "bjdCode": "4623025023",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 120,
+      "u85": 92,
+      "u135": 18,
+      "o135": 0
+    }
   },
   {
     "code": "A10023243",
@@ -900,7 +2030,21 @@
     "emd": "광양읍",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 광양읍 목성리  광양목성 파크뷰 부영1단지",
+    "builder": "(주)부영주택",
+    "entrance": "계단식",
+    "useArea": "48412.9872",
+    "bjdCode": "4623025025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 26,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 570,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54570305",
@@ -911,7 +2055,21 @@
     "emd": "광양읍",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 광양읍 목성리 1008-1 목성아파트",
+    "builder": "대한주택공사",
+    "entrance": "계단식",
+    "useArea": "22012.5",
+    "bjdCode": "4623025025",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 520,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020312",
@@ -923,7 +2081,21 @@
     "sigunguCode": "46230",
     "sido": "전라남도",
     "sigungu": "광양시",
-    "hhldCnt": 992
+    "hhldCnt": 992,
+    "jibunAddr": "전라남도 광양시 광양읍 용강리 945- 광양푸르지오센터파크",
+    "builder": "대우건설(주)",
+    "entrance": "계단식",
+    "useArea": "83667.061",
+    "bjdCode": "4623025030",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020906",
@@ -934,7 +2106,21 @@
     "emd": "광양읍",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 광양읍 용강리 936- 덕진광양의봄선샤인아파트",
+    "builder": "덕진종합건설 주식회사",
+    "entrance": "계단식",
+    "useArea": "104228.1285",
+    "bjdCode": "4623025030",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 26,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1227,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54570313",
@@ -945,7 +2131,21 @@
     "emd": "광양읍",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 광양읍 용강리 892 창덕에버빌1차",
+    "builder": "창덕E&C",
+    "entrance": "계단식",
+    "useArea": "45130.52",
+    "bjdCode": "4623025030",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 258,
+      "u85": 350,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54570315",
@@ -956,7 +2156,21 @@
     "emd": "광양읍",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 광양읍 용강리 907 송보파인빌7차",
+    "builder": "한빛건설",
+    "entrance": "계단식",
+    "useArea": "71542.6451",
+    "bjdCode": "4623025030",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 27,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 867,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54570318",
@@ -967,7 +2181,21 @@
     "emd": "광양읍",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 광양읍 용강리 919 광양남해오네뜨",
+    "builder": "남해종합개발",
+    "entrance": "계단식",
+    "useArea": "72273.092",
+    "bjdCode": "4623025030",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 28,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 851,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54580112",
@@ -978,7 +2206,21 @@
     "emd": "광양읍",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 광양읍 용강리 893 창덕에버빌2차아파트",
+    "builder": "창덕E&C",
+    "entrance": "계단식",
+    "useArea": "112872",
+    "bjdCode": "4623025030",
+    "aptType": "아파트",
+    "mgrType": "위탁관리(직영+위탁)",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 288,
+      "u85": 1128,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54570307",
@@ -989,7 +2231,21 @@
     "emd": "광양읍",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 광양읍 인서리 480 광양인서부영아파트",
+    "builder": "부영주택흥산(주)",
+    "entrance": "계단식",
+    "useArea": "33546.61",
+    "bjdCode": "4623025032",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 590,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023039",
@@ -1000,7 +2256,21 @@
     "emd": "광양읍",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 광양읍 덕례리 1849 세미존 서희스타힐스 아파트",
+    "builder": "서희건설",
+    "entrance": "계단식",
+    "useArea": "64305.9978",
+    "bjdCode": "4623025035",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 262,
+      "u85": 619,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024027",
@@ -1011,7 +2281,21 @@
     "emd": "광양읍",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 광양읍 덕례리 1847 덕진광양의봄플러스아파트",
+    "builder": "덕진토건주식회사",
+    "entrance": "계단식",
+    "useArea": "34085.448",
+    "bjdCode": "4623025035",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 208,
+      "u85": 288,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025526",
@@ -1022,7 +2306,21 @@
     "emd": "광양읍",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 광양읍 덕례리 41 광양덕례흥한에르가아파트",
+    "builder": "흥한건설(주)",
+    "entrance": "계단식",
+    "useArea": "28634.63",
+    "bjdCode": "4623025035",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 130,
+      "u85": 290,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54570302",
@@ -1033,7 +2331,21 @@
     "emd": "광양읍",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 광양읍 덕례리 1687-1 계원아파트",
+    "builder": "(주)계원주택건설",
+    "entrance": "복도식",
+    "useArea": "7863.6",
+    "bjdCode": "4623025035",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 215,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54570314",
@@ -1044,7 +2356,21 @@
     "emd": "광양읍",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 광양읍 덕례리 1695-1 영신그린빌아파트",
+    "builder": "영신종합건설",
+    "entrance": "계단식",
+    "useArea": "20735.76",
+    "bjdCode": "4623025035",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 112,
+      "u85": 165,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54570316",
@@ -1055,7 +2381,21 @@
     "emd": "광양읍",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 광양읍 덕례리 1822 수시아",
+    "builder": "거동건설",
+    "entrance": "계단식",
+    "useArea": "39716.3651",
+    "bjdCode": "4623025035",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 497,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54570319",
@@ -1066,7 +2406,19 @@
     "emd": "광양읍",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 광양읍 덕례리 1662-1 부성",
+    "builder": " ",
+    "useArea": "3148.74",
+    "bjdCode": "4623025035",
+    "aptType": "아파트",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 91,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A54570706",
@@ -1077,7 +2429,21 @@
     "emd": "광양읍",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 광양읍 덕례리 1725 오성타워맨션",
+    "builder": "오성산업(주)",
+    "entrance": "계단식",
+    "useArea": "45491.8",
+    "bjdCode": "4623025035",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 450,
+      "u135": 60,
+      "o135": 30
+    }
   },
   {
     "code": "A54580210",
@@ -1088,7 +2454,21 @@
     "emd": "광양읍",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 광양읍 덕례리 1755-1 덕례대림아파트",
+    "builder": "대림산업(주)",
+    "entrance": "혼합식",
+    "useArea": "49629.3",
+    "bjdCode": "4623025035",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 917,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023275",
@@ -1099,7 +2479,21 @@
     "emd": "옥곡면",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 옥곡면 신금리 1995 광양펠리시아아파트",
+    "builder": "(주)남흥건설",
+    "entrance": "계단식",
+    "useArea": "22479.1338",
+    "bjdCode": "4623033024",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 497,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024406",
@@ -1110,6 +2504,20 @@
     "emd": "옥곡면",
     "sigunguCode": "46230",
     "sido": "전라남도",
-    "sigungu": "광양시"
+    "sigungu": "광양시",
+    "jibunAddr": "전라남도 광양시 옥곡면 신금리 1876 덕진광양의봄프리미엄2차",
+    "builder": "덕진종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "71556.1244",
+    "bjdCode": "4623033024",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 164,
+      "u85": 760,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

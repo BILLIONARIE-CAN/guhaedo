@@ -8,7 +8,21 @@
     "emd": "양양읍",
     "sigunguCode": "51830",
     "sido": "강원특별자치도",
-    "sigungu": "양양군"
+    "sigungu": "양양군",
+    "jibunAddr": "강원특별자치도 양양군 양양읍 구교리 226- 양양아테라아파트",
+    "builder": "금호건설(주)",
+    "entrance": "계단식",
+    "useArea": "22603.6677",
+    "bjdCode": "5183025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 26,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A21580301",
@@ -19,7 +33,21 @@
     "emd": "양양읍",
     "sigunguCode": "51830",
     "sido": "강원특별자치도",
-    "sigungu": "양양군"
+    "sigungu": "양양군",
+    "jibunAddr": "강원특별자치도 양양군 양양읍 구교리 105-1 로얄타워아파트",
+    "builder": "명정건설",
+    "entrance": "복도식",
+    "useArea": "11714.076",
+    "bjdCode": "5183025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 57,
+      "u85": 105,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026244",
@@ -30,7 +58,21 @@
     "emd": "양양읍",
     "sigunguCode": "51830",
     "sido": "강원특별자치도",
-    "sigungu": "양양군"
+    "sigungu": "양양군",
+    "jibunAddr": "강원특별자치도 양양군 양양읍 연창리 358 양우내안애",
+    "builder": "양우건설",
+    "entrance": "계단식",
+    "useArea": "17523.0247",
+    "bjdCode": "5183025025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 209,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020432",
@@ -41,7 +83,21 @@
     "emd": "양양읍",
     "sigunguCode": "51830",
     "sido": "강원특별자치도",
-    "sigungu": "양양군"
+    "sigungu": "양양군",
+    "jibunAddr": "강원특별자치도 양양군 양양읍 청곡리 87-7 양양스위트엠디오션아파트",
+    "builder": "(주)해유건설",
+    "entrance": "계단식",
+    "useArea": "32320.6164",
+    "bjdCode": "5183025026",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A21580103",
@@ -52,7 +108,21 @@
     "emd": "양양읍",
     "sigunguCode": "51830",
     "sido": "강원특별자치도",
-    "sigungu": "양양군"
+    "sigungu": "양양군",
+    "jibunAddr": "강원특별자치도 양양군 양양읍 청곡리 61-1 유화",
+    "builder": "유화종합건설",
+    "entrance": "복도식",
+    "useArea": "6814.96",
+    "bjdCode": "5183025026",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 151,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A21580102",
@@ -63,7 +133,21 @@
     "emd": "양양읍",
     "sigunguCode": "51830",
     "sido": "강원특별자치도",
-    "sigungu": "양양군"
+    "sigungu": "양양군",
+    "jibunAddr": "강원특별자치도 양양군 양양읍 월리 449-1 명지푸르미아파트",
+    "builder": "주식회사명지건설",
+    "entrance": "계단식",
+    "useArea": "25506.2016",
+    "bjdCode": "5183025028",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 327,
+      "u85": 104,
+      "u135": 0,
+      "o135": 16
+    }
   },
   {
     "code": "A10027130",
@@ -74,7 +158,21 @@
     "emd": "양양읍",
     "sigunguCode": "51830",
     "sido": "강원특별자치도",
-    "sigungu": "양양군"
+    "sigungu": "양양군",
+    "jibunAddr": "강원특별자치도 양양군 양양읍 서문리 419 양양코아루아파트",
+    "builder": "동서건설",
+    "entrance": "계단식",
+    "useArea": "12546.493",
+    "bjdCode": "5183025035",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 170,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A21580502",
@@ -85,7 +183,21 @@
     "emd": "양양읍",
     "sigunguCode": "51830",
     "sido": "강원특별자치도",
-    "sigungu": "양양군"
+    "sigungu": "양양군",
+    "jibunAddr": "강원특별자치도 양양군 양양읍 서문리 414 양양서문",
+    "builder": "고려산업개발",
+    "entrance": "계단식",
+    "useArea": "17933.2",
+    "bjdCode": "5183025035",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 328,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024912",
@@ -96,7 +208,21 @@
     "emd": "양양읍",
     "sigunguCode": "51830",
     "sido": "강원특별자치도",
-    "sigungu": "양양군"
+    "sigungu": "양양군",
+    "jibunAddr": "강원특별자치도 양양군 양양읍 내곡리 263 양양 한양수자인",
+    "builder": "(주)한양",
+    "entrance": "계단식",
+    "useArea": "57874.7805",
+    "bjdCode": "5183025036",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 28,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 716,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025817",
@@ -107,7 +233,21 @@
     "emd": "양양읍",
     "sigunguCode": "51830",
     "sido": "강원특별자치도",
-    "sigungu": "양양군"
+    "sigungu": "양양군",
+    "jibunAddr": "강원특별자치도 양양군 양양읍 내곡리 262 양양이편한세상아파트",
+    "builder": "고려개발(주)",
+    "entrance": "계단식",
+    "useArea": "21595.1675",
+    "bjdCode": "5183025036",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 315,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A21580101",
@@ -118,7 +258,21 @@
     "emd": "양양읍",
     "sigunguCode": "51830",
     "sido": "강원특별자치도",
-    "sigungu": "양양군"
+    "sigungu": "양양군",
+    "jibunAddr": "강원특별자치도 양양군 양양읍 내곡리 61 양양하이팰리스",
+    "builder": "팔마건설",
+    "entrance": "계단식",
+    "useArea": "12690",
+    "bjdCode": "5183025036",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 150,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A21582102",
@@ -129,7 +283,21 @@
     "emd": "손양면",
     "sigunguCode": "51830",
     "sido": "강원특별자치도",
-    "sigungu": "양양군"
+    "sigungu": "양양군",
+    "jibunAddr": "강원특별자치도 양양군 손양면 하왕도리 303 양양삼호아파트",
+    "builder": "삼호건설",
+    "entrance": "복도식",
+    "useArea": "8653.68",
+    "bjdCode": "5183032037",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 206,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A21583301",
@@ -140,7 +308,21 @@
     "emd": "현북면",
     "sigunguCode": "51830",
     "sido": "강원특별자치도",
-    "sigungu": "양양군"
+    "sigungu": "양양군",
+    "jibunAddr": "강원특별자치도 양양군 현북면 중광정리 176-1 심미아파트",
+    "builder": "(주)에셈빌",
+    "entrance": "복도식",
+    "useArea": "24036.927",
+    "bjdCode": "5183033029",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 495,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A21584101",
@@ -151,7 +333,21 @@
     "emd": "현남면",
     "sigunguCode": "51830",
     "sido": "강원특별자치도",
-    "sigungu": "양양군"
+    "sigungu": "양양군",
+    "jibunAddr": "강원특별자치도 양양군 현남면 광진리 141 바다마을아파트",
+    "builder": "대목건설회사",
+    "entrance": "복도식",
+    "useArea": "12441.6",
+    "bjdCode": "5183034026",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 9,
+    "areaBreak": {
+      "u60": 296,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025588",
@@ -162,7 +358,21 @@
     "emd": "강현면",
     "sigunguCode": "51830",
     "sido": "강원특별자치도",
-    "sigungu": "양양군"
+    "sigungu": "양양군",
+    "jibunAddr": "강원특별자치도 양양군 강현면 강선리 987 양양우미린디오션",
+    "builder": "우미건설(주)",
+    "entrance": "계단식",
+    "useArea": "15444.2",
+    "bjdCode": "5183035024",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 190,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025920",
@@ -173,7 +383,21 @@
     "emd": "강현면",
     "sigunguCode": "51830",
     "sido": "강원특별자치도",
-    "sigungu": "양양군"
+    "sigungu": "양양군",
+    "jibunAddr": "강원특별자치도 양양군 강현면 강선리 977 강선LH아파트",
+    "builder": "한솔공영",
+    "entrance": "복도식",
+    "useArea": "6110.42",
+    "bjdCode": "5183035024",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 178,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A21585201",
@@ -184,6 +408,20 @@
     "emd": "강현면",
     "sigunguCode": "51830",
     "sido": "강원특별자치도",
-    "sigungu": "양양군"
+    "sigungu": "양양군",
+    "jibunAddr": "강원특별자치도 양양군 강현면 정암리 162-6 썬라이즈빌아파트",
+    "builder": "(주)썬라이즈",
+    "entrance": "복도식",
+    "useArea": "11554.086",
+    "bjdCode": "5183035036",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 180,
+      "u85": 60,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

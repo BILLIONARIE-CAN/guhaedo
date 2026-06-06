@@ -8,7 +8,21 @@
     "emd": "무안읍",
     "sigunguCode": "46840",
     "sido": "전라남도",
-    "sigungu": "무안군"
+    "sigungu": "무안군",
+    "jibunAddr": "전라남도 무안군 무안읍 성내리 392- 무안 한아름골드아파트",
+    "builder": "한아름건설(주)",
+    "entrance": "계단식",
+    "useArea": "9676.2782",
+    "bjdCode": "4684025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 114,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53480003",
@@ -19,7 +33,21 @@
     "emd": "무안읍",
     "sigunguCode": "46840",
     "sido": "전라남도",
-    "sigungu": "무안군"
+    "sigungu": "무안군",
+    "jibunAddr": "전라남도 무안군 무안읍 성내리 387 무안성내휴먼시아",
+    "builder": "풍림건설",
+    "entrance": "복도식",
+    "useArea": "21289.38",
+    "bjdCode": "4684025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 493,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020769",
@@ -30,7 +58,21 @@
     "emd": "무안읍",
     "sigunguCode": "46840",
     "sido": "전라남도",
-    "sigungu": "무안군"
+    "sigungu": "무안군",
+    "jibunAddr": "전라남도 무안군 무안읍 성동리 625-1 무안센텀플로라",
+    "builder": "일신건설(주), (주)계원토건",
+    "entrance": "계단식",
+    "useArea": "11638.7498",
+    "bjdCode": "4684025022",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 137,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020508",
@@ -42,7 +84,19 @@
     "sigunguCode": "46840",
     "sido": "전라남도",
     "sigungu": "무안군",
-    "hhldCnt": 83
+    "hhldCnt": 83,
+    "jibunAddr": "전라남도 무안군 무안읍 성남리 1003- 무안승원팰리체더클래스",
+    "builder": " ",
+    "useArea": "8476.8886",
+    "bjdCode": "4684025023",
+    "aptType": "아파트",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024236",
@@ -53,7 +107,21 @@
     "emd": "무안읍",
     "sigunguCode": "46840",
     "sido": "전라남도",
-    "sigungu": "무안군"
+    "sigungu": "무안군",
+    "jibunAddr": "전라남도 무안군 무안읍 성남리 1002 무안 승원팰리체에코파크",
+    "builder": "에스원건설",
+    "entrance": "계단식",
+    "useArea": "17677.6634",
+    "bjdCode": "4684025023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 208,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026755",
@@ -64,7 +132,21 @@
     "emd": "무안읍",
     "sigunguCode": "46840",
     "sido": "전라남도",
-    "sigungu": "무안군"
+    "sigungu": "무안군",
+    "jibunAddr": "전라남도 무안군 무안읍 성남리 1001 대선해시앙아파트",
+    "builder": "수양건설",
+    "entrance": "계단식",
+    "useArea": "12695.7959",
+    "bjdCode": "4684025023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 175,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53480004",
@@ -75,7 +157,21 @@
     "emd": "무안읍",
     "sigunguCode": "46840",
     "sido": "전라남도",
-    "sigungu": "무안군"
+    "sigungu": "무안군",
+    "jibunAddr": "전라남도 무안군 무안읍 성남리 999 ES아뜨리움",
+    "builder": "es건설",
+    "entrance": "계단식",
+    "useArea": "14258.5128",
+    "bjdCode": "4684025023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 168,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53480301",
@@ -86,7 +182,21 @@
     "emd": "무안읍",
     "sigunguCode": "46840",
     "sido": "전라남도",
-    "sigungu": "무안군"
+    "sigungu": "무안군",
+    "jibunAddr": "전라남도 무안군 무안읍 성남리 811-6 서라아파트",
+    "builder": "서라건설(주)",
+    "entrance": "계단식",
+    "useArea": "26033.49",
+    "bjdCode": "4684025023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 434,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022373",
@@ -97,7 +207,20 @@
     "emd": "무안읍",
     "sigunguCode": "46840",
     "sido": "전라남도",
-    "sigungu": "무안군"
+    "sigungu": "무안군",
+    "jibunAddr": "전라남도 무안군 무안읍 교촌리 1059- 무안신화휴리브아파트",
+    "builder": "신화종합건설",
+    "entrance": "계단식",
+    "useArea": "12189.024",
+    "bjdCode": "4684025024",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 148,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024760",
@@ -108,7 +231,21 @@
     "emd": "무안읍",
     "sigunguCode": "46840",
     "sido": "전라남도",
-    "sigungu": "무안군"
+    "sigungu": "무안군",
+    "jibunAddr": "전라남도 무안군 무안읍 교촌리 1040 삼신파크빌",
+    "builder": "삼신건설",
+    "entrance": "계단식",
+    "useArea": "12228.6096",
+    "bjdCode": "4684025024",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 144,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026343",
@@ -119,7 +256,21 @@
     "emd": "무안읍",
     "sigunguCode": "46840",
     "sido": "전라남도",
-    "sigungu": "무안군"
+    "sigungu": "무안군",
+    "jibunAddr": "전라남도 무안군 무안읍 교촌리 1043 무안석호가람휘아파트",
+    "builder": "(주)석호공사",
+    "entrance": "계단식",
+    "useArea": "11330.2326",
+    "bjdCode": "4684025024",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 54,
+      "u135": 60,
+      "o135": 0
+    }
   },
   {
     "code": "A53480001",
@@ -130,7 +281,21 @@
     "emd": "무안읍",
     "sigunguCode": "46840",
     "sido": "전라남도",
-    "sigungu": "무안군"
+    "sigungu": "무안군",
+    "jibunAddr": "전라남도 무안군 무안읍 교촌리 1039 무안광명샤인빌",
+    "builder": "(합)광명주택",
+    "entrance": "계단식",
+    "useArea": "12736.08",
+    "bjdCode": "4684025024",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 150,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53480002",
@@ -141,7 +306,21 @@
     "emd": "무안읍",
     "sigunguCode": "46840",
     "sido": "전라남도",
-    "sigungu": "무안군"
+    "sigungu": "무안군",
+    "jibunAddr": "전라남도 무안군 무안읍 교촌리 66 금광브니엘아파트",
+    "builder": "동인",
+    "entrance": "혼합식",
+    "useArea": "8813.3",
+    "bjdCode": "4684025024",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 200,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022264",
@@ -152,7 +331,21 @@
     "emd": "일로읍",
     "sigunguCode": "46840",
     "sido": "전라남도",
-    "sigungu": "무안군"
+    "sigungu": "무안군",
+    "jibunAddr": "전라남도 무안군 일로읍 망월리 - 오룡푸르지오파르세나1단지",
+    "builder": "(주)대우건설",
+    "entrance": "계단식",
+    "useArea": "32295.5436",
+    "bjdCode": "4684025322",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 380,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024158",
@@ -163,7 +356,21 @@
     "emd": "일로읍",
     "sigunguCode": "46840",
     "sido": "전라남도",
-    "sigungu": "무안군"
+    "sigungu": "무안군",
+    "jibunAddr": "전라남도 무안군 일로읍 월암리 1165 신화휴리브더테라스아파트",
+    "builder": "신화종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "13477.0828",
+    "bjdCode": "4684025326",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 160,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020469",
@@ -175,7 +382,21 @@
     "sigunguCode": "46840",
     "sido": "전라남도",
     "sigungu": "무안군",
-    "hhldCnt": 372
+    "hhldCnt": 372,
+    "jibunAddr": "전라남도 무안군 일로읍 오룡리 318- 무안오룡 우미린 1차",
+    "builder": "우미건설(주)",
+    "entrance": "계단식",
+    "useArea": "31548.9778",
+    "bjdCode": "4684025335",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020534",
@@ -187,7 +408,21 @@
     "sigunguCode": "46840",
     "sido": "전라남도",
     "sigungu": "무안군",
-    "hhldCnt": 685
+    "hhldCnt": 685,
+    "jibunAddr": "전라남도 무안군 일로읍 오룡리 316- 오룡우미린2차아파트",
+    "builder": "우미건설(주)",
+    "entrance": "계단식",
+    "useArea": "58082.3296",
+    "bjdCode": "4684025335",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020835",
@@ -198,7 +433,21 @@
     "emd": "일로읍",
     "sigunguCode": "46840",
     "sido": "전라남도",
-    "sigungu": "무안군"
+    "sigungu": "무안군",
+    "jibunAddr": "전라남도 무안군 일로읍 오룡리 284- 오룡 시티프라디움아파트",
+    "builder": "주식회사 시티건설",
+    "entrance": "계단식",
+    "useArea": "45387.9744",
+    "bjdCode": "4684025335",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 534,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022421",
@@ -209,7 +458,21 @@
     "emd": "일로읍",
     "sigunguCode": "46840",
     "sido": "전라남도",
-    "sigungu": "무안군"
+    "sigungu": "무안군",
+    "jibunAddr": "전라남도 무안군 일로읍 오룡리 328 오룡푸르지오파르세나2단지",
+    "builder": "대우건설(주)",
+    "entrance": "계단식",
+    "useArea": "29916.0163",
+    "bjdCode": "4684025335",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 352,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022475",
@@ -220,7 +483,21 @@
     "emd": "일로읍",
     "sigunguCode": "46840",
     "sido": "전라남도",
-    "sigungu": "무안군"
+    "sigungu": "무안군",
+    "jibunAddr": "전라남도 무안군 일로읍 오룡리 319- 남악오룡지구 중흥S 클래스 에듀파크",
+    "builder": "중흥토건(주)",
+    "entrance": "계단식",
+    "useArea": "46152.3534",
+    "bjdCode": "4684025335",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 543,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022567",
@@ -231,7 +508,21 @@
     "emd": "일로읍",
     "sigunguCode": "46840",
     "sido": "전라남도",
-    "sigungu": "무안군"
+    "sigungu": "무안군",
+    "jibunAddr": "전라남도 무안군 일로읍 오룡리 314 힐스테이트오룡1단지",
+    "builder": "현대엔지니어링",
+    "entrance": "계단식",
+    "useArea": "40943.8756",
+    "bjdCode": "4684025335",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 482,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022573",
@@ -242,7 +533,21 @@
     "emd": "일로읍",
     "sigunguCode": "46840",
     "sido": "전라남도",
-    "sigungu": "무안군"
+    "sigungu": "무안군",
+    "jibunAddr": "전라남도 무안군 일로읍 오룡리 315 힐스테이트 오룡2단지",
+    "builder": "현대엔지니어링",
+    "entrance": "계단식",
+    "useArea": "29557.8952",
+    "bjdCode": "4684025335",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 348,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024335",
@@ -253,7 +558,21 @@
     "emd": "일로읍",
     "sigunguCode": "46840",
     "sido": "전라남도",
-    "sigungu": "무안군"
+    "sigungu": "무안군",
+    "jibunAddr": "전라남도 무안군 일로읍 오룡리 21 한국아델리움 위너스",
+    "builder": "한국건설",
+    "entrance": "계단식",
+    "useArea": "26341.5305",
+    "bjdCode": "4684025335",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 310,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024676",
@@ -264,7 +583,21 @@
     "emd": "일로읍",
     "sigunguCode": "46840",
     "sido": "전라남도",
-    "sigungu": "무안군"
+    "sigungu": "무안군",
+    "jibunAddr": "전라남도 무안군 일로읍 오룡리 1 호반써밋 남악오룡1차 아파트",
+    "builder": "주식회사 호반산업",
+    "entrance": "계단식",
+    "useArea": "38734.1136",
+    "bjdCode": "4684025335",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 364,
+      "o135": 0
+    }
   },
   {
     "code": "A10024680",
@@ -275,7 +608,21 @@
     "emd": "일로읍",
     "sigunguCode": "46840",
     "sido": "전라남도",
-    "sigungu": "무안군"
+    "sigungu": "무안군",
+    "jibunAddr": "전라남도 무안군 일로읍 오룡리 6 호반써밋 남악오룡3차",
+    "builder": "(주)호반산업",
+    "entrance": "계단식",
+    "useArea": "56475.6874",
+    "bjdCode": "4684025335",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 665,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024688",
@@ -286,7 +633,21 @@
     "emd": "일로읍",
     "sigunguCode": "46840",
     "sido": "전라남도",
-    "sigungu": "무안군"
+    "sigungu": "무안군",
+    "jibunAddr": "전라남도 무안군 일로읍 오룡리 5 호반써밋 남악오룡 2차 아파트",
+    "builder": "주식회사호반산업",
+    "entrance": "계단식",
+    "useArea": "40847.7126",
+    "bjdCode": "4684025335",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 359,
+      "o135": 0
+    }
   },
   {
     "code": "A10024707",
@@ -297,7 +658,21 @@
     "emd": "일로읍",
     "sigunguCode": "46840",
     "sido": "전라남도",
-    "sigungu": "무안군"
+    "sigungu": "무안군",
+    "jibunAddr": "전라남도 무안군 일로읍 오룡리 17 오룡에듀포레푸르지오1차아파트",
+    "builder": "(주)대우건설",
+    "entrance": "계단식",
+    "useArea": "66869.5633",
+    "bjdCode": "4684025335",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 787,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024709",
@@ -308,7 +683,21 @@
     "emd": "일로읍",
     "sigunguCode": "46840",
     "sido": "전라남도",
-    "sigungu": "무안군"
+    "sigungu": "무안군",
+    "jibunAddr": "전라남도 무안군 일로읍 오룡리 111 오룡에듀포레푸르지오2차",
+    "builder": "(주)대우건설",
+    "entrance": "계단식",
+    "useArea": "63215.8509",
+    "bjdCode": "4684025335",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 744,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020685",
@@ -320,7 +709,21 @@
     "sigunguCode": "46840",
     "sido": "전라남도",
     "sigungu": "무안군",
-    "hhldCnt": 137
+    "hhldCnt": 137,
+    "jibunAddr": "전라남도 무안군 삼향읍 남악리 2276- 남악중흥S클래스퍼스트뷰",
+    "builder": "중흥토건(주)",
+    "entrance": "계단식",
+    "useArea": "18910.0874",
+    "bjdCode": "4684025622",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020705",
@@ -331,7 +734,21 @@
     "emd": "삼향읍",
     "sigunguCode": "46840",
     "sido": "전라남도",
-    "sigungu": "무안군"
+    "sigungu": "무안군",
+    "jibunAddr": "전라남도 무안군 삼향읍 남악리 2317- 남악에드가채움아파트",
+    "builder": "도휘 주식회사",
+    "entrance": "계단식",
+    "useArea": "8716.05",
+    "bjdCode": "4684025622",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 116,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021788",
@@ -342,7 +759,21 @@
     "emd": "삼향읍",
     "sigunguCode": "46840",
     "sido": "전라남도",
-    "sigungu": "무안군"
+    "sigungu": "무안군",
+    "jibunAddr": "전라남도 무안군 삼향읍 남악리 2105- 펠리시티3차주상복합아파트",
+    "builder": "영신건설",
+    "entrance": "계단식",
+    "useArea": "7905.7324",
+    "bjdCode": "4684025622",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 132,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022067",
@@ -353,7 +784,21 @@
     "emd": "삼향읍",
     "sigunguCode": "46840",
     "sido": "전라남도",
-    "sigungu": "무안군"
+    "sigungu": "무안군",
+    "jibunAddr": "전라남도 무안군 삼향읍 남악리 2273- 남악뉴캐슬주상복합아파트",
+    "builder": "(주)미래종합건설",
+    "entrance": "계단식",
+    "useArea": "7926.74",
+    "bjdCode": "4684025622",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 102,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022282",
@@ -364,7 +809,21 @@
     "emd": "삼향읍",
     "sigunguCode": "46840",
     "sido": "전라남도",
-    "sigungu": "무안군"
+    "sigungu": "무안군",
+    "jibunAddr": "전라남도 무안군 삼향읍 남악리 1577- 골든스위트",
+    "builder": "경희건설",
+    "entrance": "계단식",
+    "useArea": "7190.4",
+    "bjdCode": "4684025622",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 130,
+      "u85": 21,
+      "u135": 10,
+      "o135": 7
+    }
   },
   {
     "code": "A53470001",
@@ -375,7 +834,21 @@
     "emd": "삼향읍",
     "sigunguCode": "46840",
     "sido": "전라남도",
-    "sigungu": "무안군"
+    "sigungu": "무안군",
+    "jibunAddr": "전라남도 무안군 삼향읍 남악리 1584 남악부영애시앙",
+    "builder": "동광주택",
+    "entrance": "계단식",
+    "useArea": "67213.009",
+    "bjdCode": "4684025622",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 610,
+      "o135": 0
+    }
   },
   {
     "code": "A53470002",
@@ -386,7 +859,21 @@
     "emd": "삼향읍",
     "sigunguCode": "46840",
     "sido": "전라남도",
-    "sigungu": "무안군"
+    "sigungu": "무안군",
+    "jibunAddr": "전라남도 무안군 삼향읍 남악리 1578 남악리젠시빌",
+    "builder": "(주)하나건설",
+    "entrance": "계단식",
+    "useArea": "23111.0156",
+    "bjdCode": "4684025622",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 394,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53470003",
@@ -397,7 +884,21 @@
     "emd": "삼향읍",
     "sigunguCode": "46840",
     "sido": "전라남도",
-    "sigungu": "무안군"
+    "sigungu": "무안군",
+    "jibunAddr": "전라남도 무안군 삼향읍 남악리 2270 남악상록",
+    "builder": "롯데건설",
+    "entrance": "계단식",
+    "useArea": "22796.2",
+    "bjdCode": "4684025622",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 380,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53470004",
@@ -408,7 +909,21 @@
     "emd": "삼향읍",
     "sigunguCode": "46840",
     "sido": "전라남도",
-    "sigungu": "무안군"
+    "sigungu": "무안군",
+    "jibunAddr": "전라남도 무안군 삼향읍 남악리 1863 경남아너스빌",
+    "builder": "경남기업",
+    "entrance": "계단식",
+    "useArea": "41352.7582",
+    "bjdCode": "4684025622",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 488,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53470006",
@@ -419,7 +934,21 @@
     "emd": "삼향읍",
     "sigunguCode": "46840",
     "sido": "전라남도",
-    "sigungu": "무안군"
+    "sigungu": "무안군",
+    "jibunAddr": "전라남도 무안군 삼향읍 남악리 2311 무안남악3휴먼시아",
+    "builder": "한신공영(주)",
+    "entrance": "복도식",
+    "useArea": "16914.75",
+    "bjdCode": "4684025622",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 385,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53470007",
@@ -430,7 +959,21 @@
     "emd": "삼향읍",
     "sigunguCode": "46840",
     "sido": "전라남도",
-    "sigungu": "무안군"
+    "sigungu": "무안군",
+    "jibunAddr": "전라남도 무안군 삼향읍 남악리 1480 근화베아채",
+    "builder": "유)근화종합건설",
+    "entrance": "혼합식",
+    "useArea": "51680.5012",
+    "bjdCode": "4684025622",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 862,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53470008",
@@ -441,7 +984,21 @@
     "emd": "삼향읍",
     "sigunguCode": "46840",
     "sido": "전라남도",
-    "sigungu": "무안군"
+    "sigungu": "무안군",
+    "jibunAddr": "전라남도 무안군 삼향읍 남악리 2072 남악오룡마을휴먼시아2단지",
+    "builder": "lh",
+    "entrance": "계단식",
+    "useArea": "54555.64",
+    "bjdCode": "4684025622",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 660,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53470009",
@@ -452,7 +1009,21 @@
     "emd": "삼향읍",
     "sigunguCode": "46840",
     "sido": "전라남도",
-    "sigungu": "무안군"
+    "sigungu": "무안군",
+    "jibunAddr": "전라남도 무안군 삼향읍 남악리 2532 근화베아채스위트",
+    "builder": "우남건설(주)",
+    "entrance": "계단식",
+    "useArea": "43758.5328",
+    "bjdCode": "4684025622",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 516,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53470010",
@@ -463,7 +1034,21 @@
     "emd": "삼향읍",
     "sigunguCode": "46840",
     "sido": "전라남도",
-    "sigungu": "무안군"
+    "sigungu": "무안군",
+    "jibunAddr": "전라남도 무안군 삼향읍 남악리 2314 세영리첼",
+    "builder": "(주)세영건설",
+    "entrance": "계단식",
+    "useArea": "33533.1805",
+    "bjdCode": "4684025622",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 395,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53470011",
@@ -474,7 +1059,21 @@
     "emd": "삼향읍",
     "sigunguCode": "46840",
     "sido": "전라남도",
-    "sigungu": "무안군"
+    "sigungu": "무안군",
+    "jibunAddr": "전라남도 무안군 삼향읍 남악리 2321 남악신도시모아엘가",
+    "builder": "혜림건설(주)",
+    "entrance": "계단식",
+    "useArea": "40779.9012",
+    "bjdCode": "4684025622",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 498,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53470012",
@@ -485,7 +1084,21 @@
     "emd": "삼향읍",
     "sigunguCode": "46840",
     "sido": "전라남도",
-    "sigungu": "무안군"
+    "sigungu": "무안군",
+    "jibunAddr": "전라남도 무안군 삼향읍 남악리 2609 남악골드디움2차",
+    "builder": "보광건설(주)",
+    "entrance": "계단식",
+    "useArea": "26819.996",
+    "bjdCode": "4684025622",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 340,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53470013",
@@ -496,7 +1109,21 @@
     "emd": "삼향읍",
     "sigunguCode": "46840",
     "sido": "전라남도",
-    "sigungu": "무안군"
+    "sigungu": "무안군",
+    "jibunAddr": "전라남도 무안군 삼향읍 남악리 2104 더트리폴리앙아파트",
+    "builder": "남화토건(주)",
+    "entrance": "계단식",
+    "useArea": "10304.52",
+    "bjdCode": "4684025622",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 172,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53470014",
@@ -507,7 +1134,21 @@
     "emd": "삼향읍",
     "sigunguCode": "46840",
     "sido": "전라남도",
-    "sigungu": "무안군"
+    "sigungu": "무안군",
+    "jibunAddr": "전라남도 무안군 삼향읍 남악리 2531 근화베아채비올레",
+    "builder": "(주)근화건설",
+    "entrance": "계단식",
+    "useArea": "40336.9407",
+    "bjdCode": "4684025622",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 181,
+      "u135": 216,
+      "o135": 0
+    }
   },
   {
     "code": "A53470015",
@@ -518,7 +1159,21 @@
     "emd": "삼향읍",
     "sigunguCode": "46840",
     "sido": "전라남도",
-    "sigungu": "무안군"
+    "sigungu": "무안군",
+    "jibunAddr": "전라남도 무안군 삼향읍 남악리 2601 남악제일풍경채리버파크",
+    "builder": "제일건설(주)",
+    "entrance": "계단식",
+    "useArea": "45582.6",
+    "bjdCode": "4684025622",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 538,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53482101",
@@ -529,7 +1184,21 @@
     "emd": "삼향읍",
     "sigunguCode": "46840",
     "sido": "전라남도",
-    "sigungu": "무안군"
+    "sigungu": "무안군",
+    "jibunAddr": "전라남도 무안군 삼향읍 남악리 2100 남악신도시아이파크",
+    "builder": "현대산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "49342.67",
+    "bjdCode": "4684025622",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 581,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53482102",
@@ -540,7 +1209,21 @@
     "emd": "삼향읍",
     "sigunguCode": "46840",
     "sido": "전라남도",
-    "sigungu": "무안군"
+    "sigungu": "무안군",
+    "jibunAddr": "전라남도 무안군 삼향읍 남악리 1592 남악신동아파밀리에",
+    "builder": "신동아건설",
+    "entrance": "계단식",
+    "useArea": "63731.7",
+    "bjdCode": "4684025622",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 750,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53482106",
@@ -551,7 +1234,21 @@
     "emd": "삼향읍",
     "sigunguCode": "46840",
     "sido": "전라남도",
-    "sigungu": "무안군"
+    "sigungu": "무안군",
+    "jibunAddr": "전라남도 무안군 삼향읍 남악리 2101 무안회룡마을",
+    "builder": "삼능,제일건설",
+    "entrance": "복도식",
+    "useArea": "51594.26",
+    "bjdCode": "4684025622",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 1117,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022295",
@@ -562,6 +1259,19 @@
     "emd": "청계면",
     "sigunguCode": "46840",
     "sido": "전라남도",
-    "sigungu": "무안군"
+    "sigungu": "무안군",
+    "jibunAddr": "전라남도 무안군 청계면 남성리 6- 청계대호아파트",
+    "builder": "대호건설",
+    "entrance": "계단식",
+    "useArea": "4718.96",
+    "bjdCode": "4684033024",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 122,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

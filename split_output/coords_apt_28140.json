@@ -8,7 +8,21 @@
     "emd": "만석동",
     "sigunguCode": "28140",
     "sido": "인천광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "인천광역시 동구 만석동 122 만석 비치타운주공 아파트",
+    "builder": "대한주택공사",
+    "entrance": "계단식",
+    "useArea": "78110.17",
+    "bjdCode": "2814010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 1121,
+      "u85": 152,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40170201",
@@ -19,7 +33,21 @@
     "emd": "만석동",
     "sigunguCode": "28140",
     "sido": "인천광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "인천광역시 동구 만석동 127 만석 웰카운티",
+    "builder": "인천도시공사",
+    "entrance": "계단식",
+    "useArea": "13664.7491",
+    "bjdCode": "2814010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 26,
+    "areaBreak": {
+      "u60": 28,
+      "u85": 150,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40102001",
@@ -30,7 +58,21 @@
     "emd": "화수동",
     "sigunguCode": "28140",
     "sido": "인천광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "인천광역시 동구 화수동 79-4 화수 영풍 아파트",
+    "builder": "영풍산업주식회사",
+    "entrance": "계단식",
+    "useArea": "26980.0457",
+    "bjdCode": "2814010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 141,
+      "u85": 218,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40102002",
@@ -41,7 +83,21 @@
     "emd": "화수동",
     "sigunguCode": "28140",
     "sido": "인천광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "인천광역시 동구 화수동 321 인천화도진그린빌",
+    "builder": "대한주택공사",
+    "entrance": "혼합식",
+    "useArea": "24400.09",
+    "bjdCode": "2814010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 235,
+      "u85": 130,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40180401",
@@ -52,7 +108,21 @@
     "emd": "화수동",
     "sigunguCode": "28140",
     "sido": "인천광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "인천광역시 동구 화수동 2-7 미륭",
+    "builder": "동부건설",
+    "entrance": "계단식",
+    "useArea": "23645.1",
+    "bjdCode": "2814010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 560,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40104001",
@@ -63,7 +133,21 @@
     "emd": "송현동",
     "sigunguCode": "28140",
     "sido": "인천광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "인천광역시 동구 송현동 66-51 송현 삼두1차아파트",
+    "builder": "삼두건설",
+    "entrance": "복도식",
+    "useArea": "15029.28",
+    "bjdCode": "2814010300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 168,
+      "u85": 96,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40104002",
@@ -74,7 +158,21 @@
     "emd": "송현동",
     "sigunguCode": "28140",
     "sido": "인천광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "인천광역시 동구 송현동 165 솔빛주공2차1단지아파트",
+    "builder": "요진산업(주)",
+    "entrance": "계단식",
+    "useArea": "25391.4",
+    "bjdCode": "2814010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 294,
+      "u85": 92,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40104003",
@@ -85,7 +183,21 @@
     "emd": "송현동",
     "sigunguCode": "28140",
     "sido": "인천광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "인천광역시 동구 송현동 1-9 송현2차 아파트",
+    "builder": "라이프주택",
+    "entrance": "계단식",
+    "useArea": "20822.4",
+    "bjdCode": "2814010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 270,
+      "u85": 130,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40104004",
@@ -96,7 +208,21 @@
     "emd": "송현동",
     "sigunguCode": "28140",
     "sido": "인천광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "인천광역시 동구 송현동 1-57 송현1차 아파트",
+    "builder": "재개발조합",
+    "entrance": "계단식",
+    "useArea": "20594.7",
+    "bjdCode": "2814010300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 500,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40104005",
@@ -107,7 +233,21 @@
     "emd": "송현동",
     "sigunguCode": "28140",
     "sido": "인천광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "인천광역시 동구 송현동 6-26 송현주공아파트",
+    "builder": "주택공사",
+    "entrance": "혼합식",
+    "useArea": "30368.37",
+    "bjdCode": "2814010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 397,
+      "u85": 178,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40104006",
@@ -118,7 +258,21 @@
     "emd": "송현동",
     "sigunguCode": "28140",
     "sido": "인천광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "인천광역시 동구 송현동 66-26 동부아파트",
+    "builder": "동부건설(주)",
+    "entrance": "혼합식",
+    "useArea": "76176.39",
+    "bjdCode": "2814010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 390,
+      "u85": 750,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40104007",
@@ -129,7 +283,21 @@
     "emd": "송현동",
     "sigunguCode": "28140",
     "sido": "인천광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "인천광역시 동구 송현동 154 송현솔빛마을주공1차아파트",
+    "builder": "한신공영",
+    "entrance": "혼합식",
+    "useArea": "175244.94",
+    "bjdCode": "2814010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 26,
+    "areaBreak": {
+      "u60": 1562,
+      "u85": 1149,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40104008",
@@ -140,7 +308,21 @@
     "emd": "송현동",
     "sigunguCode": "28140",
     "sido": "인천광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "인천광역시 동구 송현동 166 솔빛마을주공2차2단지",
+    "builder": "요진건설산업",
+    "entrance": "혼합식",
+    "useArea": "19136.13",
+    "bjdCode": "2814010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 354,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40170601",
@@ -151,7 +333,21 @@
     "emd": "송현동",
     "sigunguCode": "28140",
     "sido": "인천광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "인천광역시 동구 송현동 66-24 송현 삼두2차아파트",
+    "builder": "삼두실업",
+    "entrance": "복도식",
+    "useArea": "18605.16",
+    "bjdCode": "2814010300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 432,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020180",
@@ -162,7 +358,20 @@
     "emd": "송림동",
     "sigunguCode": "28140",
     "sido": "인천광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "인천광역시 동구 송림동 230-6 바흐카운티",
+    "builder": "예공건설",
+    "entrance": "계단식",
+    "useArea": "21108.2657",
+    "bjdCode": "2814010700",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 39,
+      "o135": 108
+    }
   },
   {
     "code": "A10020257",
@@ -173,7 +382,20 @@
     "emd": "송림동",
     "sigunguCode": "28140",
     "sido": "인천광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "인천광역시 동구 송림동 49-60 인천두산위브더센트럴",
+    "builder": "두산건설",
+    "entrance": "혼합식",
+    "useArea": "109281.4404",
+    "bjdCode": "2814010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "areaBreak": {
+      "u60": 93,
+      "u85": 956,
+      "u135": 277,
+      "o135": 0
+    }
   },
   {
     "code": "A10023677",
@@ -184,7 +406,21 @@
     "emd": "송림동",
     "sigunguCode": "28140",
     "sido": "인천광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "인천광역시 동구 송림동 348 동인천역파크푸르지오",
+    "builder": "대우건설",
+    "entrance": "혼합식",
+    "useArea": "153631.1077",
+    "bjdCode": "2814010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 48,
+    "areaBreak": {
+      "u60": 2076,
+      "u85": 486,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023920",
@@ -195,7 +431,21 @@
     "emd": "송림동",
     "sigunguCode": "28140",
     "sido": "인천광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "인천광역시 동구 송림동 8-661 송림누리아파트",
+    "builder": "(주) 월드",
+    "entrance": "복도식",
+    "useArea": "5246.14",
+    "bjdCode": "2814010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 11,
+    "areaBreak": {
+      "u60": 94,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024248",
@@ -206,7 +456,21 @@
     "emd": "송림동",
     "sigunguCode": "28140",
     "sido": "인천광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "인천광역시 동구 송림동 347 인천브리즈힐",
+    "builder": "(주)한진중공업",
+    "entrance": "계단식",
+    "useArea": "61198.56",
+    "bjdCode": "2814010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 518,
+      "u85": 402,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024497",
@@ -217,7 +481,21 @@
     "emd": "송림동",
     "sigunguCode": "28140",
     "sido": "인천광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "인천광역시 동구 송림동 346 송림파인앤유",
+    "builder": "파인건설",
+    "entrance": "계단식",
+    "useArea": "13778.248",
+    "bjdCode": "2814010700",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 232,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40107001",
@@ -228,7 +506,21 @@
     "emd": "송림동",
     "sigunguCode": "28140",
     "sido": "인천광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "인천광역시 동구 송림동 228-1 송림삼익아파트",
+    "builder": "삼익건설(주)",
+    "entrance": "복도식",
+    "useArea": "23434.2",
+    "bjdCode": "2814010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 132,
+      "u135": 132,
+      "o135": 0
+    }
   },
   {
     "code": "A40107002",
@@ -239,7 +531,21 @@
     "emd": "송림동",
     "sigunguCode": "28140",
     "sido": "인천광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "인천광역시 동구 송림동 339 송림 풍림아이원아파트",
+    "builder": "풍림건설",
+    "entrance": "혼합식",
+    "useArea": "103714.398",
+    "bjdCode": "2814010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 584,
+      "u85": 603,
+      "u135": 168,
+      "o135": 0
+    }
   },
   {
     "code": "A40107003",
@@ -250,7 +556,21 @@
     "emd": "송림동",
     "sigunguCode": "28140",
     "sido": "인천광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "인천광역시 동구 송림동 342 동산휴먼시아1단지",
+    "builder": "남양건설(주)",
+    "entrance": "복도식",
+    "useArea": "15526.3",
+    "bjdCode": "2814010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 310,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40107004",
@@ -261,7 +581,21 @@
     "emd": "송림동",
     "sigunguCode": "28140",
     "sido": "인천광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "인천광역시 동구 송림동 343 동산휴먼시아2단지",
+    "builder": "LH",
+    "entrance": "혼합식",
+    "useArea": "63968.12",
+    "bjdCode": "2814010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 459,
+      "u85": 315,
+      "u135": 89,
+      "o135": 0
+    }
   },
   {
     "code": "A40107301",
@@ -272,7 +606,21 @@
     "emd": "송림동",
     "sigunguCode": "28140",
     "sido": "인천광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "인천광역시 동구 송림동 94-11 송림 진로 아파트",
+    "builder": "진로건설",
+    "entrance": "계단식",
+    "useArea": "17076.55",
+    "bjdCode": "2814010700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 115,
+      "u85": 120,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40172201",
@@ -283,6 +631,20 @@
     "emd": "송림동",
     "sigunguCode": "28140",
     "sido": "인천광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "인천광역시 동구 송림동 341 송림휴먼시아1단지",
+    "builder": "풍림건설",
+    "entrance": "계단식",
+    "useArea": "76271.72",
+    "bjdCode": "2814010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 497,
+      "u85": 417,
+      "u135": 97,
+      "o135": 0
+    }
   }
 ]

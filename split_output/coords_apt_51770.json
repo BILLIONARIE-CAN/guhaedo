@@ -8,7 +8,20 @@
     "emd": "정선읍",
     "sigunguCode": "51770",
     "sido": "강원특별자치도",
-    "sigungu": "정선군"
+    "sigungu": "정선군",
+    "jibunAddr": "강원특별자치도 정선군 정선읍  65-65 정선아리세움아파트",
+    "builder": "SG건설",
+    "entrance": "혼합식",
+    "useArea": "5776.6202",
+    "bjdCode": "5177025000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "areaBreak": {
+      "u60": 56,
+      "u85": 44,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A23380101",
@@ -19,7 +32,21 @@
     "emd": "정선읍",
     "sigunguCode": "51770",
     "sido": "강원특별자치도",
-    "sigungu": "정선군"
+    "sigungu": "정선군",
+    "jibunAddr": "강원특별자치도 정선군 정선읍 봉양리 89-1 봉양주공아파트",
+    "builder": "42130",
+    "entrance": "혼합식",
+    "useArea": "13070.76",
+    "bjdCode": "5177025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 256,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021709",
@@ -30,7 +57,21 @@
     "emd": "정선읍",
     "sigunguCode": "51770",
     "sido": "강원특별자치도",
-    "sigungu": "정선군"
+    "sigungu": "정선군",
+    "jibunAddr": "강원특별자치도 정선군 정선읍 북실리 830- 북실마루아파트",
+    "builder": "인환건설(주)",
+    "entrance": "계단식",
+    "useArea": "11184.97",
+    "bjdCode": "5177025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 139,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021736",
@@ -41,7 +82,21 @@
     "emd": "정선읍",
     "sigunguCode": "51770",
     "sido": "강원특별자치도",
-    "sigungu": "정선군"
+    "sigungu": "정선군",
+    "jibunAddr": "강원특별자치도 정선군 정선읍 북실리 772-2 정선북실주공아파트",
+    "builder": "대한주택공사",
+    "entrance": "계단식",
+    "useArea": "10650",
+    "bjdCode": "5177025022",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 270,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A23380001",
@@ -52,7 +107,21 @@
     "emd": "정선읍",
     "sigunguCode": "51770",
     "sido": "강원특별자치도",
-    "sigungu": "정선군"
+    "sigungu": "정선군",
+    "jibunAddr": "강원특별자치도 정선군 정선읍 북실리 745-1 정선현대아파트",
+    "builder": "고려산업개발",
+    "entrance": "계단식",
+    "useArea": "12460.12",
+    "bjdCode": "5177025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 106,
+      "u85": 72,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A23380703",
@@ -63,7 +132,21 @@
     "emd": "정선읍",
     "sigunguCode": "51770",
     "sido": "강원특별자치도",
-    "sigungu": "정선군"
+    "sigungu": "정선군",
+    "jibunAddr": "강원특별자치도 정선군 정선읍 북실리 746-6 미소빌",
+    "builder": "환민종합건설(주)",
+    "entrance": "복도식",
+    "useArea": "11742.15",
+    "bjdCode": "5177025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 248,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022663",
@@ -74,7 +157,21 @@
     "emd": "정선읍",
     "sigunguCode": "51770",
     "sido": "강원특별자치도",
-    "sigungu": "정선군"
+    "sigungu": "정선군",
+    "jibunAddr": "강원특별자치도 정선군 정선읍 애산리 551 정선벨라시티아파트",
+    "builder": "SG건설",
+    "entrance": "계단식",
+    "useArea": "10908.1734",
+    "bjdCode": "5177025024",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 102,
+      "u85": 57,
+      "u135": 2,
+      "o135": 0
+    }
   },
   {
     "code": "A10021911",
@@ -85,7 +182,21 @@
     "emd": "고한읍",
     "sigunguCode": "51770",
     "sido": "강원특별자치도",
-    "sigungu": "정선군"
+    "sigungu": "정선군",
+    "jibunAddr": "강원특별자치도 정선군 고한읍 고한리 63- 해피아리아파트",
+    "builder": "창경종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "7200.82",
+    "bjdCode": "5177025321",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 140,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025074",
@@ -96,7 +207,21 @@
     "emd": "고한읍",
     "sigunguCode": "51770",
     "sido": "강원특별자치도",
-    "sigungu": "정선군"
+    "sigungu": "정선군",
+    "jibunAddr": "강원특별자치도 정선군 고한읍 고한리 441 고한행복주택아파트",
+    "builder": "강원도시개발공사",
+    "entrance": "복도식",
+    "useArea": "6475.62",
+    "bjdCode": "5177025321",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 150,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025797",
@@ -107,7 +232,21 @@
     "emd": "고한읍",
     "sigunguCode": "51770",
     "sido": "강원특별자치도",
-    "sigungu": "정선군"
+    "sigungu": "정선군",
+    "jibunAddr": "강원특별자치도 정선군 고한읍 고한리 440 정선고한파인앤유아파트",
+    "builder": "파인건설(주)",
+    "entrance": "계단식",
+    "useArea": "21963.4101",
+    "bjdCode": "5177025321",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 100,
+      "u85": 192,
+      "u135": 7,
+      "o135": 0
+    }
   },
   {
     "code": "A23381101",
@@ -118,7 +257,21 @@
     "emd": "고한읍",
     "sigunguCode": "51770",
     "sido": "강원특별자치도",
-    "sigungu": "정선군"
+    "sigungu": "정선군",
+    "jibunAddr": "강원특별자치도 정선군 고한읍 고한리 65-10 고한주공아파트",
+    "builder": "덕흥종합건설",
+    "entrance": "혼합식",
+    "useArea": "16087.86",
+    "bjdCode": "5177025321",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 285,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A23390001",
@@ -129,7 +282,21 @@
     "emd": "사북읍",
     "sigunguCode": "51770",
     "sido": "강원특별자치도",
-    "sigungu": "정선군"
+    "sigungu": "정선군",
+    "jibunAddr": "강원특별자치도 정선군 사북읍 사북리 294-3 소라파크",
+    "builder": "선명종합건설",
+    "entrance": "계단식",
+    "useArea": "15009.67",
+    "bjdCode": "5177025622",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 103,
+      "u85": 104,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A23390302",
@@ -140,7 +307,21 @@
     "emd": "사북읍",
     "sigunguCode": "51770",
     "sido": "강원특별자치도",
-    "sigungu": "정선군"
+    "sigungu": "정선군",
+    "jibunAddr": "강원특별자치도 정선군 사북읍 사북리 435-1 정선사북주공",
+    "builder": "한보건설(주)",
+    "entrance": "계단식",
+    "useArea": "20973.1",
+    "bjdCode": "5177025622",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 490,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A23390401",
@@ -151,7 +332,21 @@
     "emd": "사북읍",
     "sigunguCode": "51770",
     "sido": "강원특별자치도",
-    "sigungu": "정선군"
+    "sigungu": "정선군",
+    "jibunAddr": "강원특별자치도 정선군 사북읍 사북리 302 사북선명1차",
+    "builder": "선명주택(주)",
+    "entrance": "계단식",
+    "useArea": "23021.28",
+    "bjdCode": "5177025622",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 384,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A23390403",
@@ -162,7 +357,21 @@
     "emd": "사북읍",
     "sigunguCode": "51770",
     "sido": "강원특별자치도",
-    "sigungu": "정선군"
+    "sigungu": "정선군",
+    "jibunAddr": "강원특별자치도 정선군 사북읍 사북리 470 정선산수빌",
+    "builder": "(주)신한",
+    "entrance": "혼합식",
+    "useArea": "14589.4085",
+    "bjdCode": "5177025622",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 265,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021927",
@@ -173,7 +382,21 @@
     "emd": "신동읍",
     "sigunguCode": "51770",
     "sido": "강원특별자치도",
-    "sigungu": "정선군"
+    "sigungu": "정선군",
+    "jibunAddr": "강원특별자치도 정선군 신동읍 예미리 910- 여미솔아파트",
+    "builder": "강원도 개발공사",
+    "entrance": "복도식",
+    "useArea": "6601.01",
+    "bjdCode": "5177025921",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 120,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021417",
@@ -184,7 +407,21 @@
     "emd": "신동읍",
     "sigunguCode": "51770",
     "sido": "강원특별자치도",
-    "sigungu": "정선군"
+    "sigungu": "정선군",
+    "jibunAddr": "강원특별자치도 정선군 신동읍 조동리 520- 정선신동LH1단지아파트",
+    "builder": "효산종합건설",
+    "entrance": "복도식",
+    "useArea": "4141.58",
+    "bjdCode": "5177025923",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 9,
+    "areaBreak": {
+      "u60": 120,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A23383101",
@@ -195,7 +432,21 @@
     "emd": "남면",
     "sigunguCode": "51770",
     "sido": "강원특별자치도",
-    "sigungu": "정선군"
+    "sigungu": "정선군",
+    "jibunAddr": "강원특별자치도 정선군 남면 문곡리 593 정선수려안",
+    "builder": "명성 씨앤아이",
+    "entrance": "계단식",
+    "useArea": "16958.887",
+    "bjdCode": "5177032021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 25,
+      "u85": 182,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A23383001",
@@ -206,6 +457,20 @@
     "emd": "남면",
     "sigunguCode": "51770",
     "sido": "강원특별자치도",
-    "sigungu": "정선군"
+    "sigungu": "정선군",
+    "jibunAddr": "강원특별자치도 정선군 남면 무릉리 530 정선무릉주공아파트",
+    "builder": "광문건설(주)",
+    "entrance": "계단식",
+    "useArea": "11938.5",
+    "bjdCode": "5177032022",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 300,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

@@ -8,7 +8,21 @@
     "emd": "기장읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 기장읍 동부리 133-8 대진로얄아파트",
+    "builder": "일양주택",
+    "entrance": "계단식",
+    "useArea": "8779.32",
+    "bjdCode": "2671025021",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 116,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023411",
@@ -19,7 +33,21 @@
     "emd": "기장읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 기장읍 동부리 364-2 기장포스코더샵아파트",
+    "builder": "아정건설",
+    "entrance": "계단식",
+    "useArea": "12564.4328",
+    "bjdCode": "2671025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 148,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61990503",
@@ -30,7 +58,21 @@
     "emd": "기장읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 기장읍 동부리 333 이진스카이빌아파트",
+    "builder": "0",
+    "entrance": "계단식",
+    "useArea": "15322.5",
+    "bjdCode": "2671025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 162,
+      "u85": 66,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61990514",
@@ -41,7 +83,21 @@
     "emd": "기장읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 기장읍 동부리 151-5 기장한신그린코아아파트",
+    "builder": "한신공영(주)",
+    "entrance": "혼합식",
+    "useArea": "84308.425",
+    "bjdCode": "2671025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 528,
+      "u85": 505,
+      "u135": 98,
+      "o135": 0
+    }
   },
   {
     "code": "A10021257",
@@ -52,7 +108,21 @@
     "emd": "기장읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 기장읍 교리 343-1 가화만사성아파트",
+    "builder": "가화건설(주)",
+    "entrance": "계단식",
+    "useArea": "8357.7143",
+    "bjdCode": "2671025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 147,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024065",
@@ -63,7 +133,21 @@
     "emd": "기장읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 기장읍 교리 371 기장유림노르웨이숲아파트",
+    "builder": "(주)유림E&c",
+    "entrance": "혼합식",
+    "useArea": "10216.2771",
+    "bjdCode": "2671025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 70,
+      "u85": 95,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61970415",
@@ -74,7 +158,21 @@
     "emd": "기장읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 기장읍 교리 170 부산기장교리",
+    "builder": "영남건설",
+    "entrance": "복도식",
+    "useArea": "34704.24",
+    "bjdCode": "2671025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 875,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61990105",
@@ -85,7 +183,21 @@
     "emd": "기장읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 기장읍 교리 65 기장문화그린맨션",
+    "builder": "(주)문화주택",
+    "entrance": "혼합식",
+    "useArea": "22418.94",
+    "bjdCode": "2671025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 113,
+      "u85": 186,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61990106",
@@ -96,7 +208,21 @@
     "emd": "기장읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 기장읍 교리 14-5 기장태영아파트",
+    "builder": "태영건설",
+    "entrance": "혼합식",
+    "useArea": "30607.55",
+    "bjdCode": "2671025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 316,
+      "u85": 138,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61990108",
@@ -107,7 +233,21 @@
     "emd": "기장읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 기장읍 교리 2 이진캐스빌블루1차",
+    "builder": "이진종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "55601.7801",
+    "bjdCode": "2671025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 521,
+      "u135": 97,
+      "o135": 2
+    }
   },
   {
     "code": "A61990109",
@@ -118,7 +258,21 @@
     "emd": "기장읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 기장읍 교리 367-1 이진캐스빌블루2차",
+    "builder": "이진종합건설",
+    "entrance": "계단식",
+    "useArea": "13961.9684",
+    "bjdCode": "2671025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 193,
+      "u135": 1,
+      "o135": 0
+    }
   },
   {
     "code": "A61970311",
@@ -129,7 +283,21 @@
     "emd": "기장읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 기장읍 서부리 101 기장서부주공아파트",
+    "builder": "화성산업(주)",
+    "entrance": "혼합식",
+    "useArea": "40005.38",
+    "bjdCode": "2671025025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 702,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61990508",
@@ -140,7 +308,21 @@
     "emd": "기장읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 기장읍 서부리 402 이진테마빌",
+    "builder": "이진종합건설",
+    "entrance": "혼합식",
+    "useArea": "24631.2025",
+    "bjdCode": "2671025025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 476,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61990301",
@@ -151,7 +333,21 @@
     "emd": "기장읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 기장읍 대라리 925 기장씨엘늘채움아파트",
+    "builder": "(주)씨엘종합건설",
+    "entrance": "계단식",
+    "useArea": "12952.895",
+    "bjdCode": "2671025026",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 155,
+      "u135": 3,
+      "o135": 0
+    }
   },
   {
     "code": "A61990302",
@@ -162,7 +358,21 @@
     "emd": "기장읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 기장읍 대라리 971 기장금강궁전아파트",
+    "builder": "창우건설(주)",
+    "entrance": "계단식",
+    "useArea": "8386.02",
+    "bjdCode": "2671025026",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 147,
+      "u85": 12,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61990304",
@@ -173,7 +383,21 @@
     "emd": "기장읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 기장읍 대라리 251 이진캐스빌골드",
+    "builder": "이진건설",
+    "entrance": "계단식",
+    "useArea": "21362.3871",
+    "bjdCode": "2671025026",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 199,
+      "u135": 40,
+      "o135": 0
+    }
   },
   {
     "code": "A61990307",
@@ -184,7 +408,21 @@
     "emd": "기장읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 기장읍 대라리 240 이진캐스빌",
+    "builder": "이진건설",
+    "entrance": "계단식",
+    "useArea": "28991.22",
+    "bjdCode": "2671025026",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 338,
+      "u85": 120,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020510",
@@ -195,7 +433,21 @@
     "emd": "기장읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 기장읍 청강리 35-1 기장역 유림 노르웨이숲 센트럴 아파트",
+    "builder": "대신건설",
+    "entrance": "계단식",
+    "useArea": "16359.4544",
+    "bjdCode": "2671025027",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 26,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020641",
@@ -207,7 +459,21 @@
     "sigunguCode": "26710",
     "sido": "부산광역시",
     "sigungu": "기장군",
-    "hhldCnt": 130
+    "hhldCnt": 130,
+    "jibunAddr": "부산광역시 기장군 기장읍 청강리 869- 부산청강행복주택",
+    "builder": " (주)동양종합건설",
+    "entrance": "복도식",
+    "useArea": "3799.76",
+    "bjdCode": "2671025027",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023692",
@@ -218,7 +484,21 @@
     "emd": "기장읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 기장읍 청강리 797-8 웨이브리즈아파트",
+    "builder": "금호건설(주)",
+    "entrance": "계단식",
+    "useArea": "42412.72",
+    "bjdCode": "2671025027",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 728,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10028090",
@@ -229,7 +509,21 @@
     "emd": "기장읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 기장읍 청강리 258 씨앤스타빌",
+    "builder": "(주)무지개건설",
+    "entrance": "복도식",
+    "useArea": "8693.1",
+    "bjdCode": "2671025027",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 201,
+      "u85": 0,
+      "u135": 5,
+      "o135": 1
+    }
   },
   {
     "code": "A61970112",
@@ -240,7 +534,21 @@
     "emd": "기장읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 기장읍 청강리 18-2 기장현대아파트",
+    "builder": "영진주택(주)",
+    "entrance": "계단식",
+    "useArea": "69802.2",
+    "bjdCode": "2671025027",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 360,
+      "u85": 570,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61970210",
@@ -251,7 +559,21 @@
     "emd": "기장읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 기장읍 청강리 144 우신네오빌아파트",
+    "builder": "우신종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "41151.0458",
+    "bjdCode": "2671025027",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 225,
+      "u85": 249,
+      "u135": 50,
+      "o135": 0
+    }
   },
   {
     "code": "A61990609",
@@ -262,7 +584,21 @@
     "emd": "기장읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 기장읍 청강리 333 기장2주공아파트",
+    "builder": "주택공사",
+    "entrance": "계단식",
+    "useArea": "20360.52",
+    "bjdCode": "2671025027",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 520,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024590",
@@ -273,7 +609,21 @@
     "emd": "기장읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 기장읍 대변리 647 경보그랜드비치아파트",
+    "builder": "(주)경보",
+    "entrance": "계단식",
+    "useArea": "8082.0536",
+    "bjdCode": "2671025028",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 53,
+      "u85": 59,
+      "u135": 5,
+      "o135": 0
+    }
   },
   {
     "code": "A10021016",
@@ -284,7 +634,21 @@
     "emd": "기장읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 기장읍 연화리 294- 쌍용 더 플래티넘 오시리아",
+    "builder": "(주) 쌍용건설",
+    "entrance": "계단식",
+    "useArea": "16317.8346",
+    "bjdCode": "2671025029",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 189,
+      "u135": 0,
+      "o135": 2
+    }
   },
   {
     "code": "A10026865",
@@ -295,7 +659,21 @@
     "emd": "기장읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 기장읍 내리 792 동부산 삼정그린코아 더베스트",
+    "builder": "(주)삼정코아건설",
+    "entrance": "계단식",
+    "useArea": "45697.1614",
+    "bjdCode": "2671025034",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 549,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61990107",
@@ -306,7 +684,21 @@
     "emd": "기장읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 기장읍 내리 776 동부산동원로얄듀크",
+    "builder": "동원개발",
+    "entrance": "계단식",
+    "useArea": "24041.65",
+    "bjdCode": "2671025034",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 284,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61990213",
@@ -317,7 +709,21 @@
     "emd": "기장읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 기장읍 내리 768 내리 휴먼시아1단지",
+    "builder": "송촌종합건설(주)",
+    "entrance": "복도식",
+    "useArea": "44777.46",
+    "bjdCode": "2671025034",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1002,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023538",
@@ -328,7 +734,21 @@
     "emd": "장안읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 장안읍 좌천리 475 부산장안 LH 1단지  아파트",
+    "builder": "남양건설(주)",
+    "entrance": "복도식",
+    "useArea": "16191.68",
+    "bjdCode": "2671025321",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 428,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026158",
@@ -339,7 +759,21 @@
     "emd": "정관읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 정관읍 방곡리 405 가화만사성더테라스2차아파트",
+    "builder": "가화건설",
+    "entrance": "계단식",
+    "useArea": "28186.2558",
+    "bjdCode": "2671025621",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 360,
+      "u135": 23,
+      "o135": 13
+    }
   },
   {
     "code": "A10026735",
@@ -350,7 +784,21 @@
     "emd": "정관읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 정관읍 방곡리 407 가화만사성더테라스아파트",
+    "builder": "가화건설",
+    "entrance": "계단식",
+    "useArea": "31853.1946",
+    "bjdCode": "2671025621",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 379,
+      "u135": 34,
+      "o135": 18
+    }
   },
   {
     "code": "A10027769",
@@ -361,7 +809,21 @@
     "emd": "정관읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 정관읍 방곡리 378 정관이지더원5차아파트",
+    "builder": "라인건설",
+    "entrance": "혼합식",
+    "useArea": "29246.8444",
+    "bjdCode": "2671025621",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 426,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10028142",
@@ -372,7 +834,21 @@
     "emd": "정관읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 정관읍 방곡리 380 가화만사성정관타운아파트",
+    "builder": "(주)가화건설",
+    "entrance": "혼합식",
+    "useArea": "35060.1966",
+    "bjdCode": "2671025621",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 500,
+      "u85": 60,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61996104",
@@ -383,7 +859,21 @@
     "emd": "정관읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 정관읍 방곡리 385 서희스타힐스",
+    "builder": "한국토지주택공사",
+    "entrance": "계단식",
+    "useArea": "33263.94",
+    "bjdCode": "2671025621",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 174,
+      "u85": 270,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61996111",
@@ -394,7 +884,21 @@
     "emd": "정관읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 정관읍 매학리 723 정관동원로얄듀크2차",
+    "builder": "(주)동원종합건설",
+    "entrance": "기타",
+    "useArea": "94162.9059",
+    "bjdCode": "2671025622",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 480,
+      "u85": 769,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026255",
@@ -405,7 +909,21 @@
     "emd": "정관읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 정관읍 달산리 1244 정관두산위브더테라스",
+    "builder": "두산건설",
+    "entrance": "계단식",
+    "useArea": "23092.202",
+    "bjdCode": "2671025625",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 272,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61996102",
@@ -416,7 +934,21 @@
     "emd": "정관읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 정관읍 달산리 1199 정관센트럴파크",
+    "builder": "계룡건설산업(주)",
+    "entrance": "계단식",
+    "useArea": "44813.76",
+    "bjdCode": "2671025625",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 200,
+      "u85": 388,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61996105",
@@ -427,7 +959,21 @@
     "emd": "정관읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 정관읍 달산리 1231 정관LH4단지",
+    "builder": "(주)동양건설",
+    "entrance": "혼합식",
+    "useArea": "50762.56",
+    "bjdCode": "2671025625",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 964,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61996108",
@@ -438,7 +984,21 @@
     "emd": "정관읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 정관읍 달산리 1207 정관1차동원로얄듀크",
+    "builder": "동원개발",
+    "entrance": "계단식",
+    "useArea": "72043.973",
+    "bjdCode": "2671025625",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 500,
+      "u85": 528,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61996112",
@@ -449,7 +1009,21 @@
     "emd": "정관읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 정관읍 달산리 1202 정관신도시LH5단지",
+    "builder": "(주)대보건설",
+    "entrance": "혼합식",
+    "useArea": "58102.68",
+    "bjdCode": "2671025625",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1128,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025749",
@@ -460,7 +1034,21 @@
     "emd": "정관읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 정관읍 모전리 717 부산정관 행복주택",
+    "builder": "두산건설(주), (주)협성종합건설",
+    "entrance": "복도식",
+    "useArea": "26067.96",
+    "bjdCode": "2671025627",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 856,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026813",
@@ -471,7 +1059,21 @@
     "emd": "정관읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 정관읍 모전리 681 정관 엘에이치 7단지",
+    "builder": "에이스건설",
+    "entrance": "복도식",
+    "useArea": "61838.26",
+    "bjdCode": "2671025627",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1934,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10028081",
@@ -482,7 +1084,21 @@
     "emd": "정관읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 정관읍 모전리 730 정관이지더원3차아파트",
+    "builder": "(주)라인",
+    "entrance": "계단식",
+    "useArea": "82399.0625",
+    "bjdCode": "2671025627",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1035,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61990110",
@@ -493,7 +1109,21 @@
     "emd": "정관읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 정관읍 모전리 723 정관신도시이지더원1차",
+    "builder": "(주)남흥건설",
+    "entrance": "계단식",
+    "useArea": "73171.7688",
+    "bjdCode": "2671025627",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 392,
+      "u85": 586,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61996103",
@@ -504,7 +1134,21 @@
     "emd": "정관읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 정관읍 모전리 768 정관신도시휴먼시아2단지",
+    "builder": "LIG",
+    "entrance": "혼합식",
+    "useArea": "71542.25",
+    "bjdCode": "2671025627",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1301,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61996106",
@@ -515,7 +1159,21 @@
     "emd": "정관읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 정관읍 모전리 735 EGthe12차",
+    "builder": "라인건설",
+    "entrance": "계단식",
+    "useArea": "55320.434",
+    "bjdCode": "2671025627",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 356,
+      "u85": 400,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61996109",
@@ -526,7 +1184,21 @@
     "emd": "정관읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 정관읍 모전리 759 정관롯데캐슬2차",
+    "builder": "롯데건설(주)",
+    "entrance": "계단식",
+    "useArea": "101644.5782",
+    "bjdCode": "2671025627",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 871,
+      "o135": 40
+    }
   },
   {
     "code": "A61996110",
@@ -537,7 +1209,21 @@
     "emd": "정관읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 정관읍 모전리 776 정관동일스위트2차",
+    "builder": "(주)동일건설",
+    "entrance": "계단식",
+    "useArea": "122192.5196",
+    "bjdCode": "2671025627",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 620,
+      "u85": 1018,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61996114",
@@ -548,7 +1234,21 @@
     "emd": "정관읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 정관읍 모전리 728 정관동일스위트3차",
+    "builder": "(주)동일",
+    "entrance": "계단식",
+    "useArea": "124378.33",
+    "bjdCode": "2671025627",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1140,
+      "u135": 360,
+      "o135": 0
+    }
   },
   {
     "code": "A61996204",
@@ -559,7 +1259,21 @@
     "emd": "정관읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 정관읍 모전리 755 정관신도시현진아파트",
+    "builder": "(주)현진",
+    "entrance": "계단식",
+    "useArea": "80397.338",
+    "bjdCode": "2671025627",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 236,
+      "u135": 311,
+      "o135": 143
+    }
   },
   {
     "code": "A10026858",
@@ -570,7 +1284,21 @@
     "emd": "정관읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 정관읍 용수리 1279 정관이진캐스빌2차아파트",
+    "builder": "동수토건(주)",
+    "entrance": "계단식",
+    "useArea": "20146.6032",
+    "bjdCode": "2671025628",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 70,
+      "u85": 188,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027503",
@@ -581,7 +1309,21 @@
     "emd": "정관읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 정관읍 용수리 1275 정관양우내안애",
+    "builder": "부산도시공사",
+    "entrance": "계단식",
+    "useArea": "49732.4468",
+    "bjdCode": "2671025628",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 830,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61996005",
@@ -592,7 +1334,21 @@
     "emd": "정관읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 정관읍 용수리 1364 정관신도시롯데캐슬",
+    "builder": "롯데건설(주)",
+    "entrance": "기타",
+    "useArea": "80957.39",
+    "bjdCode": "2671025628",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 289,
+      "u135": 385,
+      "o135": 87
+    }
   },
   {
     "code": "A61996107",
@@ -603,7 +1359,21 @@
     "emd": "정관읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 정관읍 용수리 1387 정관동일스위트1차",
+    "builder": "(주)동일",
+    "entrance": "계단식",
+    "useArea": "131118.7601",
+    "bjdCode": "2671025628",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 664,
+      "u85": 1094,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61996113",
@@ -614,7 +1384,21 @@
     "emd": "정관읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 정관읍 용수리 1318 정관협성르네상스",
+    "builder": "협성건업(주)",
+    "entrance": "계단식",
+    "useArea": "51752.1555",
+    "bjdCode": "2671025628",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 464,
+      "o135": 0
+    }
   },
   {
     "code": "A61996115",
@@ -625,7 +1409,21 @@
     "emd": "정관읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 정관읍 용수리 1336 정관이진캐스빌",
+    "builder": "이진주택",
+    "entrance": "계단식",
+    "useArea": "41104.9979",
+    "bjdCode": "2671025628",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 187,
+      "u85": 352,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61996302",
@@ -636,7 +1434,21 @@
     "emd": "정관읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 정관읍 용수리 1330 정관계룡리슈빌",
+    "builder": "계룡건설산업(주)",
+    "entrance": "계단식",
+    "useArea": "46625.1114",
+    "bjdCode": "2671025628",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 180,
+      "u135": 275,
+      "o135": 0
+    }
   },
   {
     "code": "A61996303",
@@ -647,7 +1459,21 @@
     "emd": "정관읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 정관읍 용수리 1322 정관신도시 신동아파밀리에",
+    "builder": "신동아건설(주)",
+    "entrance": "계단식",
+    "useArea": "80607.02",
+    "bjdCode": "2671025628",
+    "aptType": "아파트",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 400,
+      "o135": 255
+    }
   },
   {
     "code": "A61996306",
@@ -658,7 +1484,21 @@
     "emd": "정관읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 정관읍 용수리 1403 정관한진해모로",
+    "builder": "(주)한진중공업",
+    "entrance": "계단식",
+    "useArea": "94010.2679",
+    "bjdCode": "2671025628",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 565,
+      "o135": 198
+    }
   },
   {
     "code": "A61996308",
@@ -669,7 +1509,21 @@
     "emd": "정관읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 정관읍 용수리 1359 정관신도시휴먼시아1단지",
+    "builder": "남양건설,혜림건설",
+    "entrance": "혼합식",
+    "useArea": "87846.75",
+    "bjdCode": "2671025628",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1533,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020313",
@@ -681,7 +1535,21 @@
     "sigunguCode": "26710",
     "sido": "부산광역시",
     "sigungu": "기장군",
-    "hhldCnt": 1134
+    "hhldCnt": 1134,
+    "jibunAddr": "부산광역시 기장군 일광읍 삼성리 771- 일광동원로얄듀크",
+    "builder": "(주)동원개발",
+    "entrance": "계단식",
+    "useArea": "60160.0632",
+    "bjdCode": "2671025921",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023283",
@@ -692,7 +1560,21 @@
     "emd": "일광읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 일광읍 삼성리 853 금호센트럴베이 행복주택 일광",
+    "builder": "금호건설",
+    "entrance": "복도식",
+    "useArea": "38975.3181",
+    "bjdCode": "2671025921",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 999,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023777",
@@ -703,7 +1585,21 @@
     "emd": "일광읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 일광읍 삼성리 757 이지더원3차메르센포레",
+    "builder": "(주)라인건설 (주)라인산업",
+    "entrance": "계단식",
+    "useArea": "34929.2642",
+    "bjdCode": "2671025921",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 412,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023778",
@@ -714,7 +1610,21 @@
     "emd": "일광읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 일광읍 삼성리 812 이지더원2차포레온아파트",
+    "builder": "(주)동양건설산업,(주)라인건설",
+    "entrance": "계단식",
+    "useArea": "46863.1916",
+    "bjdCode": "2671025921",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 786,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023912",
@@ -725,7 +1635,21 @@
     "emd": "일광읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 일광읍 삼성리 792 일광한신더휴센트럴포레",
+    "builder": "한신공영",
+    "entrance": "계단식",
+    "useArea": "99094.6796",
+    "bjdCode": "2671025921",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 26,
+    "areaBreak": {
+      "u60": 328,
+      "u85": 970,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024606",
@@ -736,7 +1660,21 @@
     "emd": "일광읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 일광읍 삼성리 589 일광 대성베르힐",
+    "builder": "디에스종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "43777.829",
+    "bjdCode": "2671025921",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 518,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024906",
@@ -747,7 +1685,21 @@
     "emd": "일광읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 일광읍 삼성리 783 일광자이푸르지오1단지",
+    "builder": "부산도시공사",
+    "entrance": "계단식",
+    "useArea": "40425.1056",
+    "bjdCode": "2671025921",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 488,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024909",
@@ -758,7 +1710,21 @@
     "emd": "일광읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 일광읍 삼성리 785 일광자이푸르지오 2단지",
+    "builder": "GS건설컨소시엄",
+    "entrance": "계단식",
+    "useArea": "88131.7402",
+    "bjdCode": "2671025921",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1059,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024919",
@@ -769,7 +1735,21 @@
     "emd": "일광읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 일광읍 삼성리 820 일광신도시비스타동원1차아파트",
+    "builder": "(주)동원개발",
+    "entrance": "계단식",
+    "useArea": "71432.5029",
+    "bjdCode": "2671025921",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 31,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 697,
+      "o135": 4
+    }
   },
   {
     "code": "A10024933",
@@ -780,7 +1760,21 @@
     "emd": "일광읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 일광읍 삼성리 746 일광 이지더원1차오션포레",
+    "builder": "EG건설",
+    "entrance": "계단식",
+    "useArea": "38933.5193",
+    "bjdCode": "2671025921",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 26,
+    "areaBreak": {
+      "u60": 653,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025042",
@@ -791,7 +1785,21 @@
     "emd": "일광읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 일광읍 삼성리 773 e편한세상일광아파트",
+    "builder": "대림산업(주)",
+    "entrance": "계단식",
+    "useArea": "73028.8308",
+    "bjdCode": "2671025921",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 913,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021487",
@@ -802,7 +1810,21 @@
     "emd": "일광읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 일광읍 이천리 472- 동부산쏠마레아파트",
+    "builder": "(주)중아건설",
+    "entrance": "계단식",
+    "useArea": "7072.781",
+    "bjdCode": "2671025922",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 144,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024476",
@@ -813,7 +1835,21 @@
     "emd": "일광읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 일광읍 이천리 944 일광신도시 비스타동원2차아파트",
+    "builder": "(주)동원개발",
+    "entrance": "계단식",
+    "useArea": "92559.3725",
+    "bjdCode": "2671025922",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 31,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 912,
+      "o135": 5
+    }
   },
   {
     "code": "A61991101",
@@ -824,7 +1860,21 @@
     "emd": "일광읍",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 일광읍 이천리 921-1 가화일광타워",
+    "builder": "가화건설",
+    "entrance": "복도식",
+    "useArea": "26885.2372",
+    "bjdCode": "2671025922",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 33,
+    "areaBreak": {
+      "u60": 449,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027639",
@@ -835,7 +1885,21 @@
     "emd": "철마면",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 철마면 고촌리 668 현대프라힐스동부산",
+    "builder": "현대아산 외",
+    "entrance": "계단식",
+    "useArea": "34694.61",
+    "bjdCode": "2671033029",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 468,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61987101",
@@ -846,7 +1910,21 @@
     "emd": "철마면",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 철마면 고촌리 615 고촌휴먼시아",
+    "builder": "한국토지주택공사",
+    "entrance": "혼합식",
+    "useArea": "47445.2",
+    "bjdCode": "2671033029",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1084,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61987102",
@@ -857,6 +1935,20 @@
     "emd": "철마면",
     "sigunguCode": "26710",
     "sido": "부산광역시",
-    "sigungu": "기장군"
+    "sigungu": "기장군",
+    "jibunAddr": "부산광역시 기장군 철마면 고촌리 684 고촌센트럴아파트",
+    "builder": "대보건설(주)",
+    "entrance": "계단식",
+    "useArea": "40248.74",
+    "bjdCode": "2671033029",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 474,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

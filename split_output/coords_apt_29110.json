@@ -8,7 +8,19 @@
     "emd": "대인동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 대인동 148-1 영무파라드도시형생활주택",
+    "builder": " ",
+    "useArea": "3196.022",
+    "bjdCode": "2911010100",
+    "aptType": "도시형 생활주택(주상복합)",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 140,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A50171301",
@@ -19,7 +31,21 @@
     "emd": "금남로5가",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 금남로5가 154-1 금남로AM-CITY하이클래스",
+    "builder": "대성베르힐",
+    "entrance": "복도식",
+    "useArea": "3564.66",
+    "bjdCode": "2911010200",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 257,
+      "u85": 0,
+      "u135": 1,
+      "o135": 0
+    }
   },
   {
     "code": "A10022977",
@@ -30,7 +56,21 @@
     "emd": "충장로5가",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 충장로5가 96-4 로머스파크 헤리티지",
+    "builder": "(주)천마종합건설",
+    "entrance": "계단식",
+    "useArea": "11606.1565",
+    "bjdCode": "2911010300",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 27,
+    "areaBreak": {
+      "u60": 161,
+      "u85": 23,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020483",
@@ -42,7 +82,21 @@
     "sigunguCode": "29110",
     "sido": "광주광역시",
     "sigungu": "동구",
-    "hhldCnt": 175
+    "hhldCnt": 175,
+    "jibunAddr": "광주광역시 동구 수기동 33- 아르티엠더퍼플아파트",
+    "builder": "세영건설주식회사",
+    "entrance": "계단식",
+    "useArea": "14784.14",
+    "bjdCode": "2911010400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 27,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023646",
@@ -53,7 +107,21 @@
     "emd": "계림동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 계림동 1869 계림아이파크SK뷰",
+    "builder": "현대산업개발,SK",
+    "entrance": "계단식",
+    "useArea": "129798.9332",
+    "bjdCode": "2911010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 26,
+    "areaBreak": {
+      "u60": 200,
+      "u85": 1385,
+      "u135": 130,
+      "o135": 0
+    }
   },
   {
     "code": "A10024284",
@@ -64,7 +132,21 @@
     "emd": "계림동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 계림동 1845 두산위브더파크",
+    "builder": "두산건설",
+    "entrance": "혼합식",
+    "useArea": "65509.6404",
+    "bjdCode": "2911010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 402,
+      "u85": 506,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024623",
@@ -75,7 +157,21 @@
     "emd": "계림동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 계림동 591-9 그랜드센트럴",
+    "builder": "중흥,호반 건설",
+    "entrance": "혼합식",
+    "useArea": "172308.6379",
+    "bjdCode": "2911010900",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 34,
+    "areaBreak": {
+      "u60": 752,
+      "u85": 1454,
+      "u135": 130,
+      "o135": 0
+    }
   },
   {
     "code": "A10026283",
@@ -87,7 +183,21 @@
     "sigunguCode": "29110",
     "sido": "광주광역시",
     "sigungu": "동구",
-    "hhldCnt": 648
+    "hhldCnt": 648,
+    "jibunAddr": "광주광역시 동구 계림동 1815 푸른길 두산위브",
+    "builder": "두산건설",
+    "entrance": "혼합식",
+    "useArea": "94021.111",
+    "bjdCode": "2911010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A50108001",
@@ -98,7 +208,21 @@
     "emd": "계림동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 계림동 100-11 금호주상복합아파트",
+    "builder": "금호건설",
+    "entrance": "복도식",
+    "useArea": "16405.38",
+    "bjdCode": "2911010900",
+    "aptType": "주상복합",
+    "mgrType": "자치관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 120,
+      "u85": 109,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A50175101",
@@ -109,7 +233,21 @@
     "emd": "계림동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 계림동 100-1 계림금호1차",
+    "builder": "금호건설",
+    "entrance": "계단식",
+    "useArea": "83607.82",
+    "bjdCode": "2911010900",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 404,
+      "u85": 354,
+      "u135": 120,
+      "o135": 80
+    }
   },
   {
     "code": "A50180001",
@@ -120,7 +258,21 @@
     "emd": "계림동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 계림동 52 두산위브",
+    "builder": "전체",
+    "entrance": "계단식",
+    "useArea": "65868.7036",
+    "bjdCode": "2911010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 38,
+      "u85": 331,
+      "u135": 216,
+      "o135": 73
+    }
   },
   {
     "code": "A10021088",
@@ -131,7 +283,21 @@
     "emd": "산수동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 산수동 79-3 산수무등파크맨션",
+    "builder": "무등건설",
+    "entrance": "계단식",
+    "useArea": "9507.72",
+    "bjdCode": "2911011000",
+    "aptType": "아파트",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 120,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024241",
@@ -142,7 +308,21 @@
     "emd": "산수동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 산수동 730 무등산 명지로드힐포레",
+    "builder": "(유)명지건설",
+    "entrance": "계단식",
+    "useArea": "20015.343",
+    "bjdCode": "2911011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 270,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025576",
@@ -153,7 +333,21 @@
     "emd": "산수동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 산수동 431-3 무등산 그린웰 로제비앙",
+    "builder": "대광로제비앙,GA건설",
+    "entrance": "혼합식",
+    "useArea": "86100.8742",
+    "bjdCode": "2911011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 100,
+      "u85": 841,
+      "u135": 133,
+      "o135": 0
+    }
   },
   {
     "code": "A10026438",
@@ -164,7 +358,21 @@
     "emd": "산수동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 산수동 716 무등산 광신프로그레스",
+    "builder": "광신건설",
+    "entrance": "계단식",
+    "useArea": "28463.1287",
+    "bjdCode": "2911011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 335,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A50010009",
@@ -175,7 +383,21 @@
     "emd": "산수동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 산수동 689 두암그린파크",
+    "builder": "(주)대주건설",
+    "entrance": "복도식",
+    "useArea": "40181.37",
+    "bjdCode": "2911011000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 473,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A50109001",
@@ -186,7 +408,21 @@
     "emd": "산수동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 산수동 84 광명아파트",
+    "builder": "(합)광명주택",
+    "entrance": "계단식",
+    "useArea": "17269.08",
+    "bjdCode": "2911011000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 81,
+      "u85": 60,
+      "u135": 1,
+      "o135": 50
+    }
   },
   {
     "code": "A50109002",
@@ -197,7 +433,21 @@
     "emd": "산수동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 산수동 568-1 두암타운",
+    "builder": "대주건설, 광주고속",
+    "entrance": "계단식",
+    "useArea": "103463.22",
+    "bjdCode": "2911011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 896,
+      "o135": 56
+    }
   },
   {
     "code": "A50115001",
@@ -208,7 +458,21 @@
     "emd": "지산동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 지산동 315-1 삼성아파트",
+    "builder": "삼성건설",
+    "entrance": "계단식",
+    "useArea": "34415.03",
+    "bjdCode": "2911011100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 166,
+      "u135": 88,
+      "o135": 60
+    }
   },
   {
     "code": "A50183801",
@@ -219,7 +483,21 @@
     "emd": "지산동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 지산동 671 지산휴먼시아",
+    "builder": "남양건설",
+    "entrance": "계단식",
+    "useArea": "31298.66",
+    "bjdCode": "2911011100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 375,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023619",
@@ -230,7 +508,21 @@
     "emd": "소태동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 소태동 469-1 e편한세상무등산아파트",
+    "builder": "DL건설",
+    "entrance": "계단식",
+    "useArea": "26035.2778",
+    "bjdCode": "2911011900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 16,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 226,
+      "u135": 60,
+      "o135": 0
+    }
   },
   {
     "code": "A10025942",
@@ -241,7 +533,21 @@
     "emd": "소태동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 소태동 1103 무등산골드클래스",
+    "builder": "골드클래스(주)",
+    "entrance": "계단식",
+    "useArea": "47922.5924",
+    "bjdCode": "2911011900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 240,
+      "u85": 450,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026884",
@@ -252,7 +558,21 @@
     "emd": "소태동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 소태동 761-3 소태한국아델리움아파트",
+    "builder": "한국건설(주)",
+    "entrance": "계단식",
+    "useArea": "12407.9424",
+    "bjdCode": "2911011900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 86
+    }
   },
   {
     "code": "A50182601",
@@ -263,7 +583,21 @@
     "emd": "소태동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 소태동 443 소태진아2차하이빌",
+    "builder": "(주) 진아아건설",
+    "entrance": "계단식",
+    "useArea": "12847.6363",
+    "bjdCode": "2911011900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 10,
+      "u85": 147,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A50182602",
@@ -274,7 +608,21 @@
     "emd": "소태동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 소태동 691 온세계아이조움",
+    "builder": "온세계건설(주)",
+    "entrance": "계단식",
+    "useArea": "12571.9044",
+    "bjdCode": "2911011900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 148,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A50182801",
@@ -285,7 +633,21 @@
     "emd": "소태동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 소태동 480-2 대아아파트",
+    "builder": "대아건설",
+    "entrance": "계단식",
+    "useArea": "17166.66",
+    "bjdCode": "2911011900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 102,
+      "u135": 63,
+      "o135": 0
+    }
   },
   {
     "code": "A50182802",
@@ -296,7 +658,21 @@
     "emd": "소태동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 소태동 501 지원동 모아미래도",
+    "builder": "모아건설산업(주)",
+    "entrance": "계단식",
+    "useArea": "47247.14",
+    "bjdCode": "2911011900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 580,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A50183301",
@@ -307,7 +683,21 @@
     "emd": "운림동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 운림동 597 무등파크2차",
+    "builder": "무등건설",
+    "entrance": "계단식",
+    "useArea": "16064.74",
+    "bjdCode": "2911012100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 98,
+      "u135": 0,
+      "o135": 56
+    }
   },
   {
     "code": "A50183302",
@@ -318,7 +708,21 @@
     "emd": "운림동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 운림동 583 운림동라인1차아파트",
+    "builder": "라인건설",
+    "entrance": "계단식",
+    "useArea": "23243.07",
+    "bjdCode": "2911012100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 11,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 129,
+      "u135": 66,
+      "o135": 22
+    }
   },
   {
     "code": "A50183303",
@@ -329,7 +733,21 @@
     "emd": "운림동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 운림동 603 무등1차",
+    "builder": "무등건설",
+    "entrance": "계단식",
+    "useArea": "33471.82",
+    "bjdCode": "2911012100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 126,
+      "u135": 90,
+      "o135": 80
+    }
   },
   {
     "code": "A50183304",
@@ -340,7 +758,21 @@
     "emd": "운림동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 운림동 567-1 운림라인광명",
+    "builder": "광명주택. 라인건설",
+    "entrance": "계단식",
+    "useArea": "25813.45",
+    "bjdCode": "2911012100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 130,
+      "u85": 160,
+      "u135": 18,
+      "o135": 13
+    }
   },
   {
     "code": "A50183305",
@@ -351,7 +783,21 @@
     "emd": "운림동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 운림동 588 무등스위트맨션",
+    "builder": "무등주택건설",
+    "entrance": "혼합식",
+    "useArea": "10176.2",
+    "bjdCode": "2911012100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 62,
+      "u85": 76,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A50183405",
@@ -362,7 +808,21 @@
     "emd": "운림동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 운림동 654 라인2차",
+    "builder": "라인건설",
+    "entrance": "계단식",
+    "useArea": "38024.57",
+    "bjdCode": "2911012100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 219,
+      "u135": 80,
+      "o135": 55
+    }
   },
   {
     "code": "A10020833",
@@ -373,7 +833,21 @@
     "emd": "학동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 학동 719-1 학동 무등파크맨션",
+    "builder": "무등건설",
+    "entrance": "혼합식",
+    "useArea": "14699.52",
+    "bjdCode": "2911012200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 11,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 92,
+      "u135": 56,
+      "o135": 0
+    }
   },
   {
     "code": "A10025352",
@@ -384,7 +858,21 @@
     "emd": "학동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 학동 1020 학동남해오네뜨 아파트",
+    "builder": "남해종합개발(주)",
+    "entrance": "계단식",
+    "useArea": "9526.9781",
+    "bjdCode": "2911012200",
+    "aptType": "도시형 생활주택(주상복합)",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 117,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027191",
@@ -396,7 +884,21 @@
     "sigunguCode": "29110",
     "sido": "광주광역시",
     "sigungu": "동구",
-    "hhldCnt": 1410
+    "hhldCnt": 1410,
+    "jibunAddr": "광주광역시 동구 학동 1022 무등산 아이파크",
+    "builder": "현대산업개발",
+    "entrance": "계단식",
+    "useArea": "233036.803",
+    "bjdCode": "2911012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 35,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A50119007",
@@ -407,7 +909,21 @@
     "emd": "학동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 학동 750-1 삼익세라믹",
+    "builder": "(주)삼익주택",
+    "entrance": "계단식",
+    "useArea": "50475.9",
+    "bjdCode": "2911012200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 300,
+      "u135": 90,
+      "o135": 90
+    }
   },
   {
     "code": "A50174501",
@@ -418,7 +934,21 @@
     "emd": "학동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 학동 1012 무등산리버파크",
+    "builder": "LH",
+    "entrance": "계단식",
+    "useArea": "67305.54",
+    "bjdCode": "2911012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리(직영+위탁)",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 736,
+      "u135": 58,
+      "o135": 0
+    }
   },
   {
     "code": "A50184004",
@@ -429,7 +959,21 @@
     "emd": "학동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 학동 623 학1마을",
+    "builder": "한국토지주택공사",
+    "entrance": "계단식",
+    "useArea": "19127.27",
+    "bjdCode": "2911012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 227,
+      "u85": 70,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A50184203",
@@ -440,7 +984,21 @@
     "emd": "학동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 학동 262-1 학동금호베스트빌",
+    "builder": "금호산업(주)",
+    "entrance": "계단식",
+    "useArea": "37213.4657",
+    "bjdCode": "2911012200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 115,
+      "o135": 147
+    }
   },
   {
     "code": "A50184302",
@@ -451,7 +1009,21 @@
     "emd": "학동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 학동 270 현대아파트",
+    "builder": "현대산업개발",
+    "entrance": "계단식",
+    "useArea": "28224.51",
+    "bjdCode": "2911012200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 56,
+      "u85": 107,
+      "u135": 0,
+      "o135": 87
+    }
   },
   {
     "code": "A50184605",
@@ -462,7 +1034,21 @@
     "emd": "학동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 학동 676-1 아남",
+    "builder": "아남건설",
+    "entrance": "혼합식",
+    "useArea": "28742.66",
+    "bjdCode": "2911012200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 105,
+      "u85": 114,
+      "u135": 32,
+      "o135": 48
+    }
   },
   {
     "code": "A50184706",
@@ -473,7 +1059,21 @@
     "emd": "학동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 학동 768 평화맨션",
+    "builder": "평화건설(합)",
+    "entrance": "복도식",
+    "useArea": "34489.8",
+    "bjdCode": "2911012200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 270,
+      "u135": 90,
+      "o135": 0
+    }
   },
   {
     "code": "A50184901",
@@ -484,7 +1084,21 @@
     "emd": "학동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 학동 898-4 학동백화아파트",
+    "builder": "대주건설",
+    "entrance": "복도식",
+    "useArea": "8116.2",
+    "bjdCode": "2911012200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 165,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027559",
@@ -495,7 +1109,21 @@
     "emd": "월남동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 월남동 638 월남2차 호반베르디움",
+    "builder": "(주)리젠시빌건설",
+    "entrance": "계단식",
+    "useArea": "53610.4226",
+    "bjdCode": "2911012300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 424,
+      "u85": 360,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10028017",
@@ -506,7 +1134,21 @@
     "emd": "월남동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 월남동 620 월남호반베르디움1차",
+    "builder": "(주)리젠시빌주택/호반건설",
+    "entrance": "계단식",
+    "useArea": "43024.0824",
+    "bjdCode": "2911012300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 446,
+      "u85": 208,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022930",
@@ -517,7 +1159,21 @@
     "emd": "선교동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 선교동 488 선교2차 우방아이유쉘리포레",
+    "builder": "에스엠상선",
+    "entrance": "복도식",
+    "useArea": "70269.4216",
+    "bjdCode": "2911012400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 267,
+      "u85": 639,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023337",
@@ -528,7 +1184,21 @@
     "emd": "선교동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 선교동  선교1지구 우방아이유쉘아파트",
+    "builder": "sm하이플러스",
+    "entrance": "계단식",
+    "useArea": "24828.3456",
+    "bjdCode": "2911012400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 490,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024893",
@@ -539,7 +1209,21 @@
     "emd": "내남동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 내남동 904 내남지구2차진아리채",
+    "builder": "주식회사진아건설",
+    "entrance": "계단식",
+    "useArea": "41373.0264",
+    "bjdCode": "2911012500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 194,
+      "u85": 350,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025477",
@@ -550,7 +1234,21 @@
     "emd": "내남동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 내남동 902 내남지구 진아리채",
+    "builder": "진아건설",
+    "entrance": "계단식",
+    "useArea": "41049.2703",
+    "bjdCode": "2911012500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 483,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023775",
@@ -561,7 +1259,21 @@
     "emd": "용산동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 용산동 747 무등산골드클래스2차",
+    "builder": "보광건설",
+    "entrance": "계단식",
+    "useArea": "60566.2344",
+    "bjdCode": "2911012600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 26,
+    "areaBreak": {
+      "u60": 272,
+      "u85": 400,
+      "u135": 100,
+      "o135": 0
+    }
   },
   {
     "code": "A10025385",
@@ -572,7 +1284,21 @@
     "emd": "용산동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 용산동 662 용산 리슈빌아파트",
+    "builder": "계룡건설산업(주)",
+    "entrance": "계단식",
+    "useArea": "73940.3936",
+    "bjdCode": "2911012600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 26,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 558,
+      "u135": 262,
+      "o135": 0
+    }
   },
   {
     "code": "A10025417",
@@ -583,7 +1309,21 @@
     "emd": "용산동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 용산동 669 광주 용산LH 1단지",
+    "builder": "고운건설, 한진중공업",
+    "entrance": "복도식",
+    "useArea": "16748.84",
+    "bjdCode": "2911012600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 528,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025453",
@@ -594,7 +1334,21 @@
     "emd": "용산동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 용산동 663 용산모아엘가에듀파크",
+    "builder": "한아건설",
+    "entrance": "계단식",
+    "useArea": "48395.5832",
+    "bjdCode": "2911012600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 570,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025470",
@@ -605,7 +1359,21 @@
     "emd": "용산동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 용산동 668 용산대성베르힐",
+    "builder": "대성베르힐건설(주), 디에스종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "16630.074",
+    "bjdCode": "2911012600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 279,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A50183101",
@@ -616,7 +1384,21 @@
     "emd": "용산동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 용산동 636-31 한국아파트",
+    "builder": "한국건설",
+    "entrance": "혼합식",
+    "useArea": "9344.76",
+    "bjdCode": "2911012600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 156,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A50183102",
@@ -627,7 +1409,21 @@
     "emd": "용산동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 용산동 177 동산타워",
+    "builder": "동산타워",
+    "entrance": "계단식",
+    "useArea": "14958.24",
+    "bjdCode": "2911012600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 176,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A50183103",
@@ -638,7 +1434,21 @@
     "emd": "용산동",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 용산동 147-1 호반3차아파트",
+    "builder": "호반 건설",
+    "entrance": "복도식",
+    "useArea": "11327.08",
+    "bjdCode": "2911012600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 190,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021682",
@@ -649,7 +1459,21 @@
     "emd": "충장로4가",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 충장로4가 34- 광주충장고운라피네",
+    "builder": "고운시티아이(주)",
+    "entrance": "계단식",
+    "useArea": "7374.988",
+    "bjdCode": "2911013000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 148,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A50172501",
@@ -660,6 +1484,20 @@
     "emd": "충장로4가",
     "sigunguCode": "29110",
     "sido": "광주광역시",
-    "sigungu": "동구"
+    "sigungu": "동구",
+    "jibunAddr": "광주광역시 동구 충장로4가 14 충장아트원",
+    "builder": "군장건설",
+    "entrance": "복도식",
+    "useArea": "4029.36",
+    "bjdCode": "2911013000",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 103,
+    "areaBreak": {
+      "u60": 263,
+      "u85": 2,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

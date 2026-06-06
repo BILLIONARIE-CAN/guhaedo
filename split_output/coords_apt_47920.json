@@ -8,7 +8,21 @@
     "emd": "봉화읍",
     "sigunguCode": "47920",
     "sido": "경상북도",
-    "sigungu": "울진군"
+    "sigungu": "울진군",
+    "jibunAddr": "경상북도 봉화군 봉화읍 해저리 1243 봉화해저LH아파트",
+    "builder": "MGL",
+    "entrance": "복도식",
+    "useArea": "2419.34",
+    "bjdCode": "4792025026",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 8,
+    "areaBreak": {
+      "u60": 90,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024015",
@@ -19,6 +33,20 @@
     "emd": "춘양면",
     "sigunguCode": "47920",
     "sido": "경상북도",
-    "sigungu": "울진군"
+    "sigungu": "울진군",
+    "jibunAddr": "경상북도 봉화군 춘양면 소로리 886-52 봉화춘양LH아파트",
+    "builder": "MGL",
+    "entrance": "복도식",
+    "useArea": "3381",
+    "bjdCode": "4792034029",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 100,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

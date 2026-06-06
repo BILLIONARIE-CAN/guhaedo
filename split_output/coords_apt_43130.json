@@ -8,7 +8,21 @@
     "emd": "성서동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 성서동 161 성서현대타운",
+    "builder": "현대종합건설",
+    "entrance": "혼합식",
+    "useArea": "16305.6",
+    "bjdCode": "4313010300",
+    "aptType": "주상복합",
+    "mgrType": "자치관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 72,
+      "u85": 180,
+      "u135": 24,
+      "o135": 0
+    }
   },
   {
     "code": "A10021437",
@@ -19,7 +33,21 @@
     "emd": "교현동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 교현동 1061- 남산아파트1단지",
+    "builder": "lh 주택공사",
+    "entrance": "계단식",
+    "useArea": "12559.36",
+    "bjdCode": "4313010500",
+    "aptType": "아파트",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 250,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A38006001",
@@ -30,7 +58,21 @@
     "emd": "교현동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 교현동 1358 중흥S클래스아파트",
+    "builder": "중흥종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "47188.591",
+    "bjdCode": "4313010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 439,
+      "u135": 77,
+      "o135": 0
+    }
   },
   {
     "code": "A38095001",
@@ -41,7 +83,21 @@
     "emd": "교현동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 교현동 155 교현충일아파트",
+    "builder": "충일건설",
+    "entrance": "계단식",
+    "useArea": "16135.2",
+    "bjdCode": "4313010500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 360,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A38095002",
@@ -52,7 +108,21 @@
     "emd": "교현동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 교현동 397 교현동아아파트",
+    "builder": "동아건설(주)",
+    "entrance": "계단식",
+    "useArea": "31257.52",
+    "bjdCode": "4313010500",
+    "aptType": "아파트",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 392,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A38095003",
@@ -63,7 +133,21 @@
     "emd": "교현동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 교현동 1060 남산주공2.3차 아파트",
+    "builder": "LH 공사",
+    "entrance": "계단식",
+    "useArea": "28994.94",
+    "bjdCode": "4313010500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 720,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A38095103",
@@ -74,7 +158,21 @@
     "emd": "교현동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 교현동 518 교현주공아파트",
+    "builder": "대한주택공사",
+    "entrance": "계단식",
+    "useArea": "26299.81",
+    "bjdCode": "4313010500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 720,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A38095401",
@@ -85,7 +183,21 @@
     "emd": "교현동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 교현동 1309 교현성원아파트",
+    "builder": "(주)성원",
+    "entrance": "복도식",
+    "useArea": "20124.9",
+    "bjdCode": "4313010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 360,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A38095402",
@@ -96,7 +208,21 @@
     "emd": "교현동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 교현동 1087 교현부강아파트",
+    "builder": "부강건설",
+    "entrance": "복도식",
+    "useArea": "27992.61",
+    "bjdCode": "4313010500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 400,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020144",
@@ -107,7 +233,20 @@
     "emd": "용산동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 용산동 475 신원10차아파트",
+    "builder": "(주)신원주택 김선두",
+    "entrance": "계단식",
+    "useArea": "9751.88",
+    "bjdCode": "4313010600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "areaBreak": {
+      "u60": 40,
+      "u85": 100,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020168",
@@ -118,7 +257,20 @@
     "emd": "용산동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 용산동 339 충주용산세중참사랑아파트",
+    "builder": "(주)세중",
+    "entrance": "계단식",
+    "useArea": "11640.7861",
+    "bjdCode": "4313010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 133,
+      "o135": 0
+    }
   },
   {
     "code": "A10026280",
@@ -129,7 +281,21 @@
     "emd": "용산동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 용산동 2628 충주3차푸르지오아파트",
+    "builder": "대우건설",
+    "entrance": "계단식",
+    "useArea": "40273.0656",
+    "bjdCode": "4313010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 474,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A38009002",
@@ -140,7 +306,21 @@
     "emd": "용산동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 용산동 2627 남산동일하이빌아파트",
+    "builder": "동일토건",
+    "entrance": "계단식",
+    "useArea": "69459.234",
+    "bjdCode": "4313010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 351,
+      "u135": 288,
+      "o135": 30
+    }
   },
   {
     "code": "A38076104",
@@ -151,7 +331,21 @@
     "emd": "용산동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 용산동 1678 용산주공2단지아파트",
+    "builder": "LH",
+    "entrance": "혼합식",
+    "useArea": "41669.88",
+    "bjdCode": "4313010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 780,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A38077306",
@@ -162,7 +356,21 @@
     "emd": "용산동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 용산동 1680 충주용산3주공아파트",
+    "builder": "계룡건설",
+    "entrance": "혼합식",
+    "useArea": "52185.32",
+    "bjdCode": "4313010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 980,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A38077401",
@@ -173,7 +381,21 @@
     "emd": "용산동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 용산동 335 영진보람아파트",
+    "builder": "영진건설주식회사",
+    "entrance": "계단식",
+    "useArea": "41562.6",
+    "bjdCode": "4313010600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 450,
+      "u85": 180,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023383",
@@ -184,7 +406,21 @@
     "emd": "호암동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 호암동 1068 충주호암제일풍경채아파트",
+    "builder": "제일건설 주식회사",
+    "entrance": "계단식",
+    "useArea": "71190.7596",
+    "bjdCode": "4313010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 874,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024137",
@@ -195,7 +431,21 @@
     "emd": "호암동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 호암동 1050 충주힐스테이트호암아파트",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "38315.52",
+    "bjdCode": "4313010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 639,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024600",
@@ -206,7 +456,21 @@
     "emd": "호암동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 호암동 1066 충주호암1단지",
+    "builder": "동부건설",
+    "entrance": "복도식",
+    "useArea": "21191.31",
+    "bjdCode": "4313010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 591,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024757",
@@ -217,7 +481,21 @@
     "emd": "호암동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 호암동 1067 충주호암 LH행복주택",
+    "builder": "동양",
+    "entrance": "복도식",
+    "useArea": "15610.7",
+    "bjdCode": "4313010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 550,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025229",
@@ -228,7 +506,21 @@
     "emd": "호암동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 호암동 1063 호암두진하트리움아파트",
+    "builder": "주식회사두진건설",
+    "entrance": "계단식",
+    "useArea": "66299.499",
+    "bjdCode": "4313010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 851,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025240",
@@ -239,7 +531,21 @@
     "emd": "호암동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 호암동 1220 충주호암더휴NHF7단지",
+    "builder": "한신공영",
+    "entrance": "계단식",
+    "useArea": "37599.14",
+    "bjdCode": "4313010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 455,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025269",
@@ -250,7 +556,21 @@
     "emd": "호암동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 호암동 1191 충주호암힐데스하임아파트",
+    "builder": "원건설",
+    "entrance": "계단식",
+    "useArea": "81873.98",
+    "bjdCode": "4313010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 493,
+      "u135": 377,
+      "o135": 0
+    }
   },
   {
     "code": "A10025335",
@@ -261,7 +581,21 @@
     "emd": "호암동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 호암동 1052 호암우미린에듀시티아파트",
+    "builder": "우미건설",
+    "entrance": "계단식",
+    "useArea": "81253.2919",
+    "bjdCode": "4313010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 529,
+      "u135": 363,
+      "o135": 0
+    }
   },
   {
     "code": "A38076301",
@@ -272,7 +606,21 @@
     "emd": "호암동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 호암동 152 호암부강아파트",
+    "builder": "부강건설(주)",
+    "entrance": "복도식",
+    "useArea": "8297.64",
+    "bjdCode": "4313010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 312,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A38076302",
@@ -283,7 +631,21 @@
     "emd": "호암동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 호암동 542-1 충주세경1차",
+    "builder": "세경건설주식회사",
+    "entrance": "계단식",
+    "useArea": "37768.32",
+    "bjdCode": "4313010700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 664,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A38076303",
@@ -294,7 +656,21 @@
     "emd": "호암동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 호암동 542-1 충주세경2차",
+    "builder": "세경건설주식회사",
+    "entrance": "복도식",
+    "useArea": "9225.34",
+    "bjdCode": "4313010700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 339,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A38076304",
@@ -305,7 +681,21 @@
     "emd": "호암동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 호암동 542-18 충주세경3차",
+    "builder": "세경건설(주)",
+    "entrance": "복도식",
+    "useArea": "27004.53",
+    "bjdCode": "4313010700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 616,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A38096601",
@@ -316,7 +706,21 @@
     "emd": "호암동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 호암동 135 호암진도",
+    "builder": "진도종합건설",
+    "entrance": "혼합식",
+    "useArea": "11141.34",
+    "bjdCode": "4313010700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 79,
+      "u85": 84,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A38096702",
@@ -327,7 +731,21 @@
     "emd": "호암동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 호암동 905 호암수채",
+    "builder": "대선건설",
+    "entrance": "계단식",
+    "useArea": "19649.7557",
+    "bjdCode": "4313010700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 208,
+      "u135": 5,
+      "o135": 9
+    }
   },
   {
     "code": "A38096703",
@@ -338,7 +756,21 @@
     "emd": "호암동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 호암동 547-6 현대호반아파트",
+    "builder": "현대건설",
+    "entrance": "혼합식",
+    "useArea": "28420.29",
+    "bjdCode": "4313010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 133,
+      "u85": 241,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A38096704",
@@ -349,7 +781,21 @@
     "emd": "호암동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 호암동 221-1 호암리버빌아파트",
+    "builder": "호라건설(주)",
+    "entrance": "계단식",
+    "useArea": "33956.68",
+    "bjdCode": "4313010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 401,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A38096705",
@@ -360,7 +806,21 @@
     "emd": "호암동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 호암동 906 세영더조은",
+    "builder": "세영종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "43442.4896",
+    "bjdCode": "4313010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 317,
+      "u135": 87,
+      "o135": 33
+    }
   },
   {
     "code": "A38016001",
@@ -371,7 +831,21 @@
     "emd": "풍동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 풍동 408-12 달빛마을아파트",
+    "builder": "만화건설(주)",
+    "entrance": "복도식",
+    "useArea": "5941.92",
+    "bjdCode": "4313011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 156,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A38016002",
@@ -382,7 +856,21 @@
     "emd": "풍동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 풍동 408-7 충주신한강변",
+    "builder": "신한건설",
+    "entrance": "계단식",
+    "useArea": "5308.44",
+    "bjdCode": "4313011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 138,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A38020001",
@@ -393,7 +881,21 @@
     "emd": "용관동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 용관동 172-5 더푸른리버뷰아파트",
+    "builder": "동보건설",
+    "entrance": "복도식",
+    "useArea": "15292.42",
+    "bjdCode": "4313011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 498,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020724",
@@ -404,7 +906,21 @@
     "emd": "봉방동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 봉방동 7-1 더휴인3차아파트",
+    "builder": "(주)나성",
+    "entrance": "계단식",
+    "useArea": "3263.256",
+    "bjdCode": "4313011500",
+    "aptType": "주상복합",
+    "mgrType": "자치관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 30,
+      "u85": 18,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022876",
@@ -415,7 +931,21 @@
     "emd": "봉방동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 봉방동 180-10 충주주상복합모아미래도",
+    "builder": "(주)썬씨앤디",
+    "entrance": "계단식",
+    "useArea": "23903.1308",
+    "bjdCode": "4313011500",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 30,
+    "areaBreak": {
+      "u60": 164,
+      "u85": 166,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A38095901",
@@ -426,7 +956,21 @@
     "emd": "봉방동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 봉방동 143-3 상지씨티빌아파트",
+    "builder": "(주)대건",
+    "entrance": "복도식",
+    "useArea": "4458.63",
+    "bjdCode": "4313011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 11,
+    "areaBreak": {
+      "u60": 177,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A38095902",
@@ -437,7 +981,21 @@
     "emd": "봉방동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 봉방동 24-1 봉방세중참사랑",
+    "builder": "세중엔지니어링(주)",
+    "entrance": "계단식",
+    "useArea": "9600.48",
+    "bjdCode": "4313011500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 113,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A38095904",
@@ -448,7 +1006,21 @@
     "emd": "봉방동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 봉방동 1046 충주푸르지오",
+    "builder": "(주)대우건설",
+    "entrance": "계단식",
+    "useArea": "54109.583",
+    "bjdCode": "4313011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 637,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A38076204",
@@ -459,7 +1031,21 @@
     "emd": "칠금동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 칠금동 821 충주부영1차아파트",
+    "builder": "부영(주)",
+    "entrance": "복도식",
+    "useArea": "41488.2",
+    "bjdCode": "4313011600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 720,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A38076206",
@@ -470,7 +1056,21 @@
     "emd": "칠금동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 칠금동 1015 칠금2차부영아파트",
+    "builder": "주식회사부영",
+    "entrance": "복도식",
+    "useArea": "69749.61",
+    "bjdCode": "4313011600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1240,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A38096501",
@@ -481,7 +1081,21 @@
     "emd": "칠금동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 칠금동 628 세영첼시빌아파트",
+    "builder": "세영종합개발(주)",
+    "entrance": "계단식",
+    "useArea": "28280.46",
+    "bjdCode": "4313011600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 270,
+      "u135": 42,
+      "o135": 0
+    }
   },
   {
     "code": "A38096502",
@@ -492,7 +1106,21 @@
     "emd": "칠금동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 칠금동 626 충주삼일아파트",
+    "builder": "삼일주택공사",
+    "entrance": "계단식",
+    "useArea": "51411.51",
+    "bjdCode": "4313011600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 120,
+      "u135": 120,
+      "o135": 193
+    }
   },
   {
     "code": "A38096503",
@@ -503,7 +1131,21 @@
     "emd": "칠금동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 칠금동 629 금릉현대아파트",
+    "builder": "현대산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "31192.2",
+    "bjdCode": "4313011600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 520,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A38096505",
@@ -514,7 +1156,21 @@
     "emd": "칠금동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 칠금동 825 코오롱동신아파트",
+    "builder": "코오롱건설(주), (주)동신",
+    "entrance": "계단식",
+    "useArea": "71794.48",
+    "bjdCode": "4313011600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 920,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026026",
@@ -525,7 +1181,21 @@
     "emd": "연수동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 연수동 1767 충주센트럴푸르지오아파트",
+    "builder": "(주)대우건설",
+    "entrance": "계단식",
+    "useArea": "51655.1328",
+    "bjdCode": "4313011800",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 39,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 608,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027510",
@@ -536,7 +1206,21 @@
     "emd": "연수동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 연수동 1763 계룡리슈빌2차아파트",
+    "builder": "계룡건설",
+    "entrance": "계단식",
+    "useArea": "30549.5373",
+    "bjdCode": "4313011800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 189,
+      "u85": 250,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A38010011",
@@ -547,7 +1231,21 @@
     "emd": "연수동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 연수동 1755 연수주공6단지",
+    "builder": "삼능건설",
+    "entrance": "혼합식",
+    "useArea": "26755.82",
+    "bjdCode": "4313011800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 538,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A38010013",
@@ -558,7 +1256,21 @@
     "emd": "연수동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 연수동 1629 연수리슈빌아파트",
+    "builder": "계룡건설(주)",
+    "entrance": "계단식",
+    "useArea": "60135.9582",
+    "bjdCode": "4313011800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 270,
+      "u135": 290,
+      "o135": 34
+    }
   },
   {
     "code": "A38075402",
@@ -569,7 +1281,21 @@
     "emd": "연수동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 연수동 700-4 두진3차아파트",
+    "builder": "두진종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "14864.24",
+    "bjdCode": "4313011800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 298,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A38075415",
@@ -580,7 +1306,21 @@
     "emd": "연수동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 연수동 700 연수두진1,2차아파트",
+    "builder": "두진종합건설",
+    "entrance": "혼합식",
+    "useArea": "43209.06",
+    "bjdCode": "4313011800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 588,
+      "u85": 87,
+      "u135": 0,
+      "o135": 60
+    }
   },
   {
     "code": "A38075516",
@@ -591,7 +1331,21 @@
     "emd": "연수동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 연수동 930 연수세원아파트",
+    "builder": "(주)세원건설",
+    "entrance": "복도식",
+    "useArea": "43664.26",
+    "bjdCode": "4313011800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 753,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A38075717",
@@ -602,7 +1356,21 @@
     "emd": "연수동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 연수동 1227 연수주공1단지아파트",
+    "builder": "한국토지공사",
+    "entrance": "계단식",
+    "useArea": "36183.5",
+    "bjdCode": "4313011800",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 860,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A38075904",
@@ -613,7 +1381,21 @@
     "emd": "연수동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 연수동 421-7 유원2차아파트",
+    "builder": "유원건설(주)",
+    "entrance": "계단식",
+    "useArea": "30889.41",
+    "bjdCode": "4313011800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 168,
+      "u85": 245,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A38075906",
@@ -624,7 +1406,21 @@
     "emd": "연수동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 연수동 418 유원하나아파트",
+    "builder": "유원건설(주)",
+    "entrance": "계단식",
+    "useArea": "38222.93",
+    "bjdCode": "4313011800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 165,
+      "u85": 242,
+      "u135": 60,
+      "o135": 0
+    }
   },
   {
     "code": "A38076521",
@@ -635,7 +1431,21 @@
     "emd": "연수동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 연수동 1228 충주연수2",
+    "builder": "학산,임광",
+    "entrance": "복도식",
+    "useArea": "43637.94",
+    "bjdCode": "4313011800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1582,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A38076614",
@@ -646,7 +1456,21 @@
     "emd": "연수동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 연수동 1231 연수주공3단지아파트",
+    "builder": "대한주택관리공사",
+    "entrance": "복도식",
+    "useArea": "27027",
+    "bjdCode": "4313011800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 630,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A38076912",
@@ -657,7 +1481,21 @@
     "emd": "연수동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 연수동 1220 연수세원한아름아파트",
+    "builder": "세원건설",
+    "entrance": "혼합식",
+    "useArea": "33229.5",
+    "bjdCode": "4313011800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 416,
+      "u85": 144,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A38077009",
@@ -668,7 +1506,21 @@
     "emd": "연수동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 연수동 701-9 연수부강아파트",
+    "builder": "부강건설",
+    "entrance": "복도식",
+    "useArea": "24584.97",
+    "bjdCode": "4313011800",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 495,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A38077107",
@@ -679,7 +1531,21 @@
     "emd": "연수동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 연수동 1219 삼성2차아파트",
+    "builder": "삼성건설(주)",
+    "entrance": "계단식",
+    "useArea": "35182.8",
+    "bjdCode": "4313011800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 120,
+      "u85": 360,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A38077208",
@@ -690,7 +1556,21 @@
     "emd": "연수동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 연수동 931 연수임광아파트",
+    "builder": "임광토건",
+    "entrance": "계단식",
+    "useArea": "44246.62",
+    "bjdCode": "4313011800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 11,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 374,
+      "u135": 110,
+      "o135": 0
+    }
   },
   {
     "code": "A38077810",
@@ -701,7 +1581,21 @@
     "emd": "연수동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 연수동 605 연수아이파크아파트",
+    "builder": "현대산업개발",
+    "entrance": "계단식",
+    "useArea": "56799.5144",
+    "bjdCode": "4313011800",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 224,
+      "u135": 239,
+      "o135": 74
+    }
   },
   {
     "code": "A38078101",
@@ -712,7 +1606,21 @@
     "emd": "연수동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 연수동 1627 연수힐스테이트",
+    "builder": "현대건설(주)",
+    "entrance": "계단식",
+    "useArea": "90687.412",
+    "bjdCode": "4313011800",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 441,
+      "u135": 310,
+      "o135": 120
+    }
   },
   {
     "code": "A38078102",
@@ -723,7 +1631,21 @@
     "emd": "연수동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 연수동 1759 연수휴먼시아7단지임대",
+    "builder": "동원시스템즈(주)",
+    "entrance": "혼합식",
+    "useArea": "22066.08",
+    "bjdCode": "4313011800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 498,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A38078103",
@@ -734,7 +1656,21 @@
     "emd": "연수동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 연수동 686 연수주공5단지",
+    "builder": "한국토지주택공사",
+    "entrance": "복도식",
+    "useArea": "19693.8",
+    "bjdCode": "4313011800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 420,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A38078104",
@@ -745,7 +1681,21 @@
     "emd": "연수동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 연수동 686 연수주공4단지아파트",
+    "builder": "한양건설",
+    "entrance": "계단식",
+    "useArea": "59112.9",
+    "bjdCode": "4313011800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 990,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A38078105",
@@ -756,7 +1706,21 @@
     "emd": "연수동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 연수동 1626 연수리첼2단지",
+    "builder": "(주)세영개발",
+    "entrance": "계단식",
+    "useArea": "20397.0306",
+    "bjdCode": "4313011800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리(직영+위탁)",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 240,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A38078106",
@@ -767,7 +1731,21 @@
     "emd": "연수동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 연수동 1625 연수세영리첼1단지",
+    "builder": "세영종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "25412.2207",
+    "bjdCode": "4313011800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 299,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A38096103",
@@ -778,7 +1756,21 @@
     "emd": "연수동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 연수동 464-3 연수낙원아파트",
+    "builder": "(주) 부강건설",
+    "entrance": "복도식",
+    "useArea": "14827.68",
+    "bjdCode": "4313011800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 336,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A38096301",
@@ -789,7 +1781,21 @@
     "emd": "연수동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 연수동 926 연수우림아파트",
+    "builder": "우림",
+    "entrance": "계단식",
+    "useArea": "17623.84",
+    "bjdCode": "4313011800",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 208,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025815",
@@ -800,7 +1806,21 @@
     "emd": "목행동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 목행동 896 영무예다음아파트",
+    "builder": "(주)영무토건",
+    "entrance": "계단식",
+    "useArea": "30379.3963",
+    "bjdCode": "4313011900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 240,
+      "u85": 200,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A38024001",
@@ -811,7 +1831,21 @@
     "emd": "목행동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 목행동 508-39 목행세중참사랑",
+    "builder": "(주)세중건설",
+    "entrance": "계단식",
+    "useArea": "24902.07",
+    "bjdCode": "4313011900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 293,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A38024002",
@@ -822,7 +1856,21 @@
     "emd": "목행동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 목행동 593-8 충주삼진동산",
+    "builder": "삼진건설",
+    "entrance": "혼합식",
+    "useArea": "14328",
+    "bjdCode": "4313011900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 328,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A38024003",
@@ -833,7 +1881,21 @@
     "emd": "목행동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 목행동 508-35 새한목행아파트",
+    "builder": "새한건설",
+    "entrance": "계단식",
+    "useArea": "27363.66",
+    "bjdCode": "4313011900",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 414,
+      "u85": 30,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A38070301",
@@ -844,7 +1906,21 @@
     "emd": "목행동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 목행동 886 목행한라비발디",
+    "builder": "(주)한라",
+    "entrance": "계단식",
+    "useArea": "47949.156",
+    "bjdCode": "4313011900",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 510,
+      "u135": 40,
+      "o135": 0
+    }
   },
   {
     "code": "A10027025",
@@ -855,7 +1931,21 @@
     "emd": "안림동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 안림동 1172 충주안림LH천년나무2단지",
+    "builder": "한성개발(주)",
+    "entrance": "계단식",
+    "useArea": "16329.06",
+    "bjdCode": "4313012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 198,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027362",
@@ -866,7 +1956,21 @@
     "emd": "안림동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 안림동 1171 충주2차푸르지오",
+    "builder": "대우건설",
+    "entrance": "계단식",
+    "useArea": "60979.8717",
+    "bjdCode": "4313012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 274,
+      "u85": 551,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027839",
@@ -877,7 +1981,21 @@
     "emd": "안림동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 안림동 1167 충주안림천년나무1단지",
+    "builder": "우미건설",
+    "entrance": "계단식",
+    "useArea": "25803.05",
+    "bjdCode": "4313012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 90,
+      "u85": 254,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A38011001",
@@ -888,7 +2006,21 @@
     "emd": "안림동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 안림동 1083-3 아침도시",
+    "builder": "신원종합개발",
+    "entrance": "계단식",
+    "useArea": "24227.53",
+    "bjdCode": "4313012200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 136,
+      "u135": 99,
+      "o135": 8
+    }
   },
   {
     "code": "A38077902",
@@ -899,7 +2031,21 @@
     "emd": "안림동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 안림동 1119 안림LG아파트",
+    "builder": "LG건설",
+    "entrance": "계단식",
+    "useArea": "41752.3248",
+    "bjdCode": "4313012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 234,
+      "u85": 240,
+      "u135": 72,
+      "o135": 0
+    }
   },
   {
     "code": "A38077903",
@@ -910,7 +2056,21 @@
     "emd": "안림동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 안림동 1166 충주엘리시아",
+    "builder": "케이디건설",
+    "entrance": "계단식",
+    "useArea": "33737.5761",
+    "bjdCode": "4313012200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 367,
+      "u135": 0,
+      "o135": 30
+    }
   },
   {
     "code": "A38007001",
@@ -921,7 +2081,21 @@
     "emd": "지현동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 지현동 1088 지현현대아파트",
+    "builder": "주)현대산업개발",
+    "entrance": "계단식",
+    "useArea": "21966.6",
+    "bjdCode": "4313012500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 268,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A38095801",
@@ -932,7 +2106,21 @@
     "emd": "문화동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 문화동 2305 호수마을아파트",
+    "builder": "(주)동양도시개발",
+    "entrance": "계단식",
+    "useArea": "32305.58",
+    "bjdCode": "4313012700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 162,
+      "u85": 152,
+      "u135": 76,
+      "o135": 0
+    }
   },
   {
     "code": "A38095802",
@@ -943,7 +2131,21 @@
     "emd": "문화동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 문화동 2260 럭키문화아파트",
+    "builder": "럭키개발(주)",
+    "entrance": "계단식",
+    "useArea": "76932.34",
+    "bjdCode": "4313012700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 628,
+      "u135": 126,
+      "o135": 58
+    }
   },
   {
     "code": "A38023001",
@@ -954,7 +2156,21 @@
     "emd": "금릉동",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 금릉동 771 삼성1차아파트",
+    "builder": "삼성종합건설(주)",
+    "entrance": "혼합식",
+    "useArea": "28827",
+    "bjdCode": "4313012800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 310,
+      "u85": 160,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A38088101",
@@ -965,7 +2181,21 @@
     "emd": "주덕읍",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 주덕읍 신중리 69-1 주덕주한아파트",
+    "builder": "(주)주한주택건설",
+    "entrance": "복도식",
+    "useArea": "10160.64",
+    "bjdCode": "4313025025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 164,
+      "u85": 65,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020578",
@@ -977,7 +2207,21 @@
     "sigunguCode": "43130",
     "sido": "충청북도",
     "sigungu": "충주시",
-    "hhldCnt": 1029
+    "hhldCnt": 1029,
+    "jibunAddr": "충청북도 충주시 주덕읍 화곡리 1111- 서충주푸르지오더퍼스트 아파트",
+    "builder": "(주)대우건설",
+    "entrance": "계단식",
+    "useArea": "87033.8817",
+    "bjdCode": "4313025026",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 37,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021025",
@@ -988,7 +2232,21 @@
     "emd": "주덕읍",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 주덕읍 화곡리 1250- 서충주삼일파라뷰2차그랜드시티",
+    "builder": "삼일건설",
+    "entrance": "계단식",
+    "useArea": "79039.096",
+    "bjdCode": "4313025026",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 930,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022375",
@@ -999,7 +2257,21 @@
     "emd": "주덕읍",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 주덕읍 화곡리 1246- 서충주삼일파라뷰그랜드센트럴",
+    "builder": "삼일건설",
+    "entrance": "계단식",
+    "useArea": "78104.3546",
+    "bjdCode": "4313025026",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 919,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022988",
@@ -1010,7 +2282,21 @@
     "emd": "대소원면",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 대소원면 본리 649 중앙하이츠프리미어충주아파트",
+    "builder": "중앙건설(주)",
+    "entrance": "계단식",
+    "useArea": "23279.04",
+    "bjdCode": "4313033531",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 274,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025937",
@@ -1021,7 +2307,21 @@
     "emd": "대소원면",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 대소원면 본리 651 서충주 오드카운티 아파트",
+    "builder": "동광종합토건(주)",
+    "entrance": "계단식",
+    "useArea": "40951.7402",
+    "bjdCode": "4313033531",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 176,
+      "u85": 358,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027223",
@@ -1032,7 +2332,21 @@
     "emd": "대소원면",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 대소원면 본리 645 충주코아루퍼스트아파트",
+    "builder": "금강종합건설",
+    "entrance": "계단식",
+    "useArea": "35807.5284",
+    "bjdCode": "4313033531",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 603,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027254",
@@ -1043,7 +2357,21 @@
     "emd": "대소원면",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 대소원면 본리 668 충주첨단행복주택아파트",
+    "builder": "선광토건",
+    "entrance": "복도식",
+    "useArea": "8363.31",
+    "bjdCode": "4313033531",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 8,
+    "areaBreak": {
+      "u60": 295,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027583",
@@ -1054,7 +2382,21 @@
     "emd": "대소원면",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 대소원면 본리 642 충주지웰아파트",
+    "builder": "신영건설(주)",
+    "entrance": "계단식",
+    "useArea": "35596.398",
+    "bjdCode": "4313033531",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 602,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020120",
@@ -1065,7 +2407,20 @@
     "emd": "앙성면",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 앙성면 용포리 65-1 한도푸른아파트",
+    "builder": "한도주택",
+    "entrance": "복도식",
+    "useArea": "5028.03",
+    "bjdCode": "4313037021",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "areaBreak": {
+      "u60": 122,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022913",
@@ -1076,7 +2431,21 @@
     "emd": "중앙탑면",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 중앙탑면 용전리 654 포레나서충주아파트",
+    "builder": "한화건설",
+    "entrance": "계단식",
+    "useArea": "39474.1913",
+    "bjdCode": "4313038526",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 478,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025341",
@@ -1087,7 +2456,21 @@
     "emd": "중앙탑면",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 중앙탑면 용전리 686 서충주신도시 코아루더테라스",
+    "builder": "계성건설",
+    "entrance": "계단식",
+    "useArea": "14352.2378",
+    "bjdCode": "4313038526",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 170,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026516",
@@ -1098,7 +2481,21 @@
     "emd": "중앙탑면",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 중앙탑면 용전리 696 충주신우희가로 아파트",
+    "builder": "신우종합토건",
+    "entrance": "계단식",
+    "useArea": "51965.3349",
+    "bjdCode": "4313038526",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 438,
+      "u85": 303,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026543",
@@ -1109,7 +2506,21 @@
     "emd": "중앙탑면",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 중앙탑면 용전리 656 충주 미진이지비아아파트",
+    "builder": "미진건설주식회사",
+    "entrance": "계단식",
+    "useArea": "52509.1582",
+    "bjdCode": "4313038526",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 502,
+      "u85": 280,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026599",
@@ -1120,7 +2531,21 @@
     "emd": "중앙탑면",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 중앙탑면 용전리 661 충주e편한세상아파트",
+    "builder": "대림산업(주)",
+    "entrance": "계단식",
+    "useArea": "100012.1724",
+    "bjdCode": "4313038526",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 941,
+      "u85": 514,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026653",
@@ -1131,6 +2556,20 @@
     "emd": "중앙탑면",
     "sigunguCode": "43130",
     "sido": "충청북도",
-    "sigungu": "충주시"
+    "sigungu": "충주시",
+    "jibunAddr": "충청북도 충주시 중앙탑면 용전리 721 충주시티자이",
+    "builder": "(주)GS건설",
+    "entrance": "계단식",
+    "useArea": "107802.212",
+    "bjdCode": "4313038526",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 976,
+      "u85": 620,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

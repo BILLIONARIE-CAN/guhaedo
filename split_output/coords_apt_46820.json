@@ -9,7 +9,21 @@
     "sigunguCode": "46820",
     "sido": "전라남도",
     "sigungu": "해남군",
-    "hhldCnt": 400
+    "hhldCnt": 400,
+    "jibunAddr": "전라남도 해남군 해남읍 해리 696- 해남해리2단지",
+    "builder": "이테크건설(주)",
+    "entrance": "복도식",
+    "useArea": "15533.68",
+    "bjdCode": "4682025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021549",
@@ -20,7 +34,21 @@
     "emd": "해남읍",
     "sigunguCode": "46820",
     "sido": "전라남도",
-    "sigungu": "해남군"
+    "sigungu": "해남군",
+    "jibunAddr": "전라남도 해남군 해남읍 해리 690- 해남성화누리안아파트",
+    "builder": "(합)성화종합건설",
+    "entrance": "계단식",
+    "useArea": "7482.0878",
+    "bjdCode": "4682025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 102,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021597",
@@ -31,7 +59,21 @@
     "emd": "해남읍",
     "sigunguCode": "46820",
     "sido": "전라남도",
-    "sigungu": "해남군"
+    "sigungu": "해남군",
+    "jibunAddr": "전라남도 해남군 해남읍 해리 176- 해남백두4차아파트",
+    "builder": "부건종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "11106.9483",
+    "bjdCode": "4682025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 16,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 135,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021783",
@@ -42,7 +84,21 @@
     "emd": "해남읍",
     "sigunguCode": "46820",
     "sido": "전라남도",
-    "sigungu": "해남군"
+    "sigungu": "해남군",
+    "jibunAddr": "전라남도 해남군 해남읍 해리 214- 백두3차아파트 ",
+    "builder": "대연건축",
+    "entrance": "계단식",
+    "useArea": "10013.6087",
+    "bjdCode": "4682025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 112,
+      "u135": 5,
+      "o135": 0
+    }
   },
   {
     "code": "A10023184",
@@ -53,7 +109,21 @@
     "emd": "해남읍",
     "sigunguCode": "46820",
     "sido": "전라남도",
-    "sigungu": "해남군"
+    "sigungu": "해남군",
+    "jibunAddr": "전라남도 해남군 해남읍 해리 705 해남코아루더베스트1단지아파트",
+    "builder": "파인건설",
+    "entrance": "계단식",
+    "useArea": "30179.4302",
+    "bjdCode": "4682025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 200,
+      "u135": 113,
+      "o135": 0
+    }
   },
   {
     "code": "A10025247",
@@ -64,7 +134,21 @@
     "emd": "해남읍",
     "sigunguCode": "46820",
     "sido": "전라남도",
-    "sigungu": "해남군"
+    "sigungu": "해남군",
+    "jibunAddr": "전라남도 해남군 해남읍 해리 706 해남코아루더베스트아파트",
+    "builder": "파인건설(주)",
+    "entrance": "계단식",
+    "useArea": "35870.0706",
+    "bjdCode": "4682025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 267,
+      "u135": 113,
+      "o135": 0
+    }
   },
   {
     "code": "A10025567",
@@ -75,7 +159,21 @@
     "emd": "해남읍",
     "sigunguCode": "46820",
     "sido": "전라남도",
-    "sigungu": "해남군"
+    "sigungu": "해남군",
+    "jibunAddr": "전라남도 해남군 해남읍 해리 704 해남 정하에코하임",
+    "builder": "(주)정하종합건설",
+    "entrance": "계단식",
+    "useArea": "24896.2686",
+    "bjdCode": "4682025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 293,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53680004",
@@ -86,7 +184,21 @@
     "emd": "해남읍",
     "sigunguCode": "46820",
     "sido": "전라남도",
-    "sigungu": "해남군"
+    "sigungu": "해남군",
+    "jibunAddr": "전라남도 해남군 해남읍 해리 695 해남해리LH1단지",
+    "builder": "진명종합건설주식회사",
+    "entrance": "복도식",
+    "useArea": "11551.52",
+    "bjdCode": "4682025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 304,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53680902",
@@ -97,7 +209,21 @@
     "emd": "해남읍",
     "sigunguCode": "46820",
     "sido": "전라남도",
-    "sigungu": "해남군"
+    "sigungu": "해남군",
+    "jibunAddr": "전라남도 해남군 해남읍 해리 684 해남명지",
+    "builder": "명지건설",
+    "entrance": "계단식",
+    "useArea": "16931.16",
+    "bjdCode": "4682025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 111,
+      "u85": 111,
+      "u135": 8,
+      "o135": 0
+    }
   },
   {
     "code": "A10025191",
@@ -108,7 +234,21 @@
     "emd": "해남읍",
     "sigunguCode": "46820",
     "sido": "전라남도",
-    "sigungu": "해남군"
+    "sigungu": "해남군",
+    "jibunAddr": "전라남도 해남군 해남읍 구교리 1006 해남파크사이드2차아파트",
+    "builder": "일레븐건설",
+    "entrance": "계단식",
+    "useArea": "29183.3231",
+    "bjdCode": "4682025036",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 219,
+      "u135": 104,
+      "o135": 0
+    }
   },
   {
     "code": "A10027829",
@@ -119,7 +259,21 @@
     "emd": "해남읍",
     "sigunguCode": "46820",
     "sido": "전라남도",
-    "sigungu": "해남군"
+    "sigungu": "해남군",
+    "jibunAddr": "전라남도 해남군 해남읍 구교리 1005 해남파크사이드아파트",
+    "builder": "(주)일레븐건설",
+    "entrance": "복도식",
+    "useArea": "18044.5256",
+    "bjdCode": "4682025036",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 119,
+      "u85": 144,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53680001",
@@ -130,7 +284,21 @@
     "emd": "해남읍",
     "sigunguCode": "46820",
     "sido": "전라남도",
-    "sigungu": "해남군"
+    "sigungu": "해남군",
+    "jibunAddr": "전라남도 해남군 해남읍 구교리 567 해남우진아트빌",
+    "builder": "우진건설",
+    "entrance": "계단식",
+    "useArea": "15773.3497",
+    "bjdCode": "4682025036",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 119,
+      "u85": 102,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53680002",
@@ -141,7 +309,21 @@
     "emd": "해남읍",
     "sigunguCode": "46820",
     "sido": "전라남도",
-    "sigungu": "해남군"
+    "sigungu": "해남군",
+    "jibunAddr": "전라남도 해남군 해남읍 구교리 81-2 공간아파트",
+    "builder": "연화산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "28791.976",
+    "bjdCode": "4682025036",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 480,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53680003",
@@ -152,7 +334,21 @@
     "emd": "해남읍",
     "sigunguCode": "46820",
     "sido": "전라남도",
-    "sigungu": "해남군"
+    "sigungu": "해남군",
+    "jibunAddr": "전라남도 해남군 해남읍 구교리 918 해남구교주공2차",
+    "builder": "토지주택공사",
+    "entrance": "복도식",
+    "useArea": "12961",
+    "bjdCode": "4682025036",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 260,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53680301",
@@ -163,7 +359,21 @@
     "emd": "해남읍",
     "sigunguCode": "46820",
     "sido": "전라남도",
-    "sigungu": "해남군"
+    "sigungu": "해남군",
+    "jibunAddr": "전라남도 해남군 해남읍 구교리 552 해남하늘연가",
+    "builder": "(주)동광 H.T.S",
+    "entrance": "계단식",
+    "useArea": "16923.1819",
+    "bjdCode": "4682025036",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 119,
+      "u135": 60,
+      "o135": 0
+    }
   },
   {
     "code": "A53680303",
@@ -174,6 +384,20 @@
     "emd": "해남읍",
     "sigunguCode": "46820",
     "sido": "전라남도",
-    "sigungu": "해남군"
+    "sigungu": "해남군",
+    "jibunAddr": "전라남도 해남군 해남읍 구교리 310-1 해남구교주공1차",
+    "builder": "건화건설(주)",
+    "entrance": "복도식",
+    "useArea": "13256.55",
+    "bjdCode": "4682025036",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 267,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

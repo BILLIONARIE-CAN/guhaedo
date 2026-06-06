@@ -8,7 +8,21 @@
     "emd": "화천읍",
     "sigunguCode": "51790",
     "sido": "강원특별자치도",
-    "sigungu": "화천군"
+    "sigungu": "화천군",
+    "jibunAddr": "강원특별자치도 화천군 화천읍 중리 172 화천 신아아파트",
+    "builder": "주 신아",
+    "entrance": "복도식",
+    "useArea": "7529.36",
+    "bjdCode": "5179025023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 160,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021525",
@@ -19,7 +33,21 @@
     "emd": "화천읍",
     "sigunguCode": "51790",
     "sido": "강원특별자치도",
-    "sigungu": "화천군"
+    "sigungu": "화천군",
+    "jibunAddr": "강원특별자치도 화천군 화천읍 신읍리 1819 화천용신마을",
+    "builder": "에스에치건설",
+    "entrance": "복도식",
+    "useArea": "4073.58",
+    "bjdCode": "5179025025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 9,
+    "areaBreak": {
+      "u60": 120,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022015",
@@ -30,7 +58,21 @@
     "emd": "화천읍",
     "sigunguCode": "51790",
     "sido": "강원특별자치도",
-    "sigungu": "화천군"
+    "sigungu": "화천군",
+    "jibunAddr": "강원특별자치도 화천군 화천읍 신읍리 1818- 화천신읍공공실버주택",
+    "builder": "한국토지주택공사",
+    "entrance": "복도식",
+    "useArea": "3466.14",
+    "bjdCode": "5179025025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 120,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022081",
@@ -41,7 +83,21 @@
     "emd": "화천읍",
     "sigunguCode": "51790",
     "sido": "강원특별자치도",
-    "sigungu": "화천군"
+    "sigungu": "화천군",
+    "jibunAddr": "강원특별자치도 화천군 화천읍 신읍리 1788- 화천건영아모리움",
+    "builder": "주식회사건영",
+    "entrance": "계단식",
+    "useArea": "7989.883",
+    "bjdCode": "5179025025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 145,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A20980801",
@@ -52,6 +108,20 @@
     "emd": "하남면",
     "sigunguCode": "51790",
     "sido": "강원특별자치도",
-    "sigungu": "화천군"
+    "sigungu": "화천군",
+    "jibunAddr": "강원특별자치도 화천군 하남면 용암리 1142-11 대양고운채",
+    "builder": "(주)대양",
+    "entrance": "계단식",
+    "useArea": "11240.364",
+    "bjdCode": "5179032026",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 60,
+      "u85": 90,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

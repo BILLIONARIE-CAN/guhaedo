@@ -9,7 +9,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 90
+    "hhldCnt": 90,
+    "jibunAddr": "경기도 이천시 창전동 417-2 청자아파트",
+    "builder": "동산토건",
+    "entrance": "계단식",
+    "useArea": "5933.125",
+    "bjdCode": "4150010100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 45,
+      "u85": 55,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46772601",
@@ -21,7 +35,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 158
+    "hhldCnt": 158,
+    "jibunAddr": "경기도 이천시 창전동 44-1 산호2차",
+    "builder": "(주)산호건설",
+    "entrance": "복도식",
+    "useArea": "12826.695",
+    "bjdCode": "4150010100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 151,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46780702",
@@ -33,7 +61,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 150
+    "hhldCnt": 150,
+    "jibunAddr": "경기도 이천시 창전동 456 대호2차",
+    "builder": "대호건영(주)",
+    "entrance": "계단식",
+    "useArea": "12779.9",
+    "bjdCode": "4150010100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 108,
+      "u135": 42,
+      "o135": 0
+    }
   },
   {
     "code": "A10021029",
@@ -44,7 +86,21 @@
     "emd": "관고동",
     "sigunguCode": "41500",
     "sido": "경기도",
-    "sigungu": "이천시"
+    "sigungu": "이천시",
+    "jibunAddr": "경기도 이천시 관고동 13-1 이천자이더파크",
+    "builder": "GS건설",
+    "entrance": "계단식",
+    "useArea": "57113.4483",
+    "bjdCode": "4150010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 205,
+      "u85": 400,
+      "u135": 101,
+      "o135": 0
+    }
   },
   {
     "code": "A46770301",
@@ -56,7 +112,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 227
+    "hhldCnt": 227,
+    "jibunAddr": "경기도 이천시 관고동 514 관고동벽산블루밍",
+    "builder": "벽산",
+    "entrance": "계단식",
+    "useArea": "22768.14",
+    "bjdCode": "4150010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 111,
+      "u135": 116,
+      "o135": 0
+    }
   },
   {
     "code": "A46770403",
@@ -68,7 +138,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 518
+    "hhldCnt": 518,
+    "jibunAddr": "경기도 이천시 관고동 185-12 두산",
+    "builder": "두산건설(주)",
+    "entrance": "계단식",
+    "useArea": "38971.11",
+    "bjdCode": "4150010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 211,
+      "u85": 258,
+      "u135": 48,
+      "o135": 0
+    }
   },
   {
     "code": "A46770502",
@@ -80,7 +164,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 82
+    "hhldCnt": 82,
+    "jibunAddr": "경기도 이천시 관고동 226-8 산호1차",
+    "builder": "산호건설",
+    "entrance": "복도식",
+    "useArea": "16182.88",
+    "bjdCode": "4150010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 236,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020231",
@@ -92,7 +190,20 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 849
+    "hhldCnt": 849,
+    "jibunAddr": "경기도 이천시 중리동 498 이천중리 우미린 트리쉐이드아파트",
+    "builder": "우미건설(주)",
+    "entrance": "계단식",
+    "useArea": "94709.2505",
+    "bjdCode": "4150010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 849,
+      "o135": 0
+    }
   },
   {
     "code": "A46771401",
@@ -103,7 +214,21 @@
     "emd": "중리동",
     "sigunguCode": "41500",
     "sido": "경기도",
-    "sigungu": "이천시"
+    "sigungu": "이천시",
+    "jibunAddr": "경기도 이천시 중리동 213 라온팰리스",
+    "builder": "라온건설(주)",
+    "entrance": "계단식",
+    "useArea": "18277.358",
+    "bjdCode": "4150010300",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 28,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 121,
+      "u135": 73,
+      "o135": 0
+    }
   },
   {
     "code": "A10023128",
@@ -114,7 +239,21 @@
     "emd": "증일동",
     "sigunguCode": "41500",
     "sido": "경기도",
-    "sigungu": "이천시"
+    "sigungu": "이천시",
+    "jibunAddr": "경기도 이천시 증일동 115 이천중리LH아파트",
+    "builder": "성지건설",
+    "entrance": "복도식",
+    "useArea": "23568.42",
+    "bjdCode": "4150010400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 658,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46775501",
@@ -126,7 +265,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 523
+    "hhldCnt": 523,
+    "jibunAddr": "경기도 이천시 증일동 82-7 이천역현대홈타운",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "47114.45",
+    "bjdCode": "4150010400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 433,
+      "u135": 90,
+      "o135": 0
+    }
   },
   {
     "code": "A10020166",
@@ -138,7 +291,20 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 264
+    "hhldCnt": 264,
+    "jibunAddr": "경기도 이천시 안흥동 270 이천빌리브어바인시티1bl",
+    "builder": "신세계건설(주)",
+    "entrance": "혼합식",
+    "useArea": "31187.7309",
+    "bjdCode": "4150010700",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 258,
+      "o135": 6
+    }
   },
   {
     "code": "A10020443",
@@ -150,7 +316,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 180
+    "hhldCnt": 180,
+    "jibunAddr": "경기도 이천시 안흥동 320-1 이천센트레빌레이크뷰",
+    "builder": "동부건설(주)",
+    "entrance": "계단식",
+    "useArea": "15283.3185",
+    "bjdCode": "4150010700",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 49,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023654",
@@ -162,7 +342,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 144
+    "hhldCnt": 144,
+    "jibunAddr": "경기도 이천시 안흥동 313-1 이천코아루휴티스2단지아파트",
+    "builder": "금강건설",
+    "entrance": "계단식",
+    "useArea": "24476.2632",
+    "bjdCode": "4150010700",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 40,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024239",
@@ -174,7 +368,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 288
+    "hhldCnt": 288,
+    "jibunAddr": "경기도 이천시 안흥동 267-5 이천코아루휴티스1단지",
+    "builder": "금강종합",
+    "entrance": "계단식",
+    "useArea": "48950.9856",
+    "bjdCode": "4150010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 42,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025804",
@@ -185,7 +393,21 @@
     "emd": "안흥동",
     "sigunguCode": "41500",
     "sido": "경기도",
-    "sigungu": "이천시"
+    "sigungu": "이천시",
+    "jibunAddr": "경기도 이천시 안흥동 274-17 이천롯데캐슬골드스카이",
+    "builder": "롯데건설",
+    "entrance": "기타",
+    "useArea": "62549.4",
+    "bjdCode": "4150010700",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 49,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 736,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46705001",
@@ -197,7 +419,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 252
+    "hhldCnt": 252,
+    "jibunAddr": "경기도 이천시 안흥동 300-1 일성아파트",
+    "builder": "일성건설",
+    "entrance": "혼합식",
+    "useArea": "15852.93",
+    "bjdCode": "4150010700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 181,
+      "u85": 59,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46771202",
@@ -209,7 +445,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 1200
+    "hhldCnt": 1200,
+    "jibunAddr": "경기도 이천시 안흥동 469 주공",
+    "builder": "대한주택공사(현: 대한토지주택공사)",
+    "entrance": "혼합식",
+    "useArea": "68061",
+    "bjdCode": "4150010700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1200,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46771203",
@@ -221,7 +471,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 214
+    "hhldCnt": 214,
+    "jibunAddr": "경기도 이천시 안흥동 307-7 브라운스톤",
+    "builder": "이수건설",
+    "entrance": "계단식",
+    "useArea": "18053.1802",
+    "bjdCode": "4150010700",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 214,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021379",
@@ -233,7 +497,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 100
+    "hhldCnt": 100,
+    "jibunAddr": "경기도 이천시 갈산동 222- 큰산아파트",
+    "builder": "큰산종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "8483.8",
+    "bjdCode": "4150010800",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 100,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46707001",
@@ -245,7 +523,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 230
+    "hhldCnt": 230,
+    "jibunAddr": "경기도 이천시 갈산동 783 설봉1차푸르지오",
+    "builder": "대우건설",
+    "entrance": "계단식",
+    "useArea": "26788.6631",
+    "bjdCode": "4150010800",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 83,
+      "u135": 97,
+      "o135": 50
+    }
   },
   {
     "code": "A46707002",
@@ -257,7 +549,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 264
+    "hhldCnt": 264,
+    "jibunAddr": "경기도 이천시 갈산동 777 신일해피트리",
+    "builder": "(주)신일",
+    "entrance": "계단식",
+    "useArea": "19891.824",
+    "bjdCode": "4150010800",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 100,
+      "u85": 164,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46707005",
@@ -269,7 +575,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 325
+    "hhldCnt": 325,
+    "jibunAddr": "경기도 이천시 갈산동 781 갈산힐스테이트",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "33580.67",
+    "bjdCode": "4150010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 207,
+      "u135": 74,
+      "o135": 44
+    }
   },
   {
     "code": "A46707006",
@@ -281,7 +601,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 405
+    "hhldCnt": 405,
+    "jibunAddr": "경기도 이천시 갈산동 782 갈산현진에버빌",
+    "builder": "현진종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "40154.85",
+    "bjdCode": "4150010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 202,
+      "u135": 179,
+      "o135": 24
+    }
   },
   {
     "code": "A46707007",
@@ -293,7 +627,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 525
+    "hhldCnt": 525,
+    "jibunAddr": "경기도 이천시 갈산동 778 이천갈산주공",
+    "builder": "동우이엔씨",
+    "entrance": "복도식",
+    "useArea": "21676.2",
+    "bjdCode": "4150010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 525,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46770203",
@@ -305,7 +653,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 88
+    "hhldCnt": 88,
+    "jibunAddr": "경기도 이천시 갈산동 468-1 우성아파트",
+    "builder": "대야건설",
+    "entrance": "계단식",
+    "useArea": "22313.54",
+    "bjdCode": "4150010800",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 120,
+      "u85": 178,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46770204",
@@ -317,7 +679,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 445
+    "hhldCnt": 445,
+    "jibunAddr": "경기도 이천시 갈산동 785 갈산휴먼시아3단지",
+    "builder": "벽산건설(주),대림건설(주)",
+    "entrance": "복도식",
+    "useArea": "21901.65",
+    "bjdCode": "4150010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 445,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46770205",
@@ -329,7 +705,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 168
+    "hhldCnt": 168,
+    "jibunAddr": "경기도 이천시 갈산동 789 갈산화성파크드림",
+    "builder": "(주) 화성개발",
+    "entrance": "계단식",
+    "useArea": "16666.002",
+    "bjdCode": "4150010800",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 90,
+      "u135": 78,
+      "o135": 0
+    }
   },
   {
     "code": "A10024842",
@@ -341,7 +731,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 69
+    "hhldCnt": 69,
+    "jibunAddr": "경기도 이천시 증포동 478 한솔솔파크2차",
+    "builder": "한솔",
+    "entrance": "계단식",
+    "useArea": "5853.27",
+    "bjdCode": "4150010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 69,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025379",
@@ -353,7 +757,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 346
+    "hhldCnt": 346,
+    "jibunAddr": "경기도 이천시 증포동 498 이천증포 대원칸타빌아파트",
+    "builder": "(주)대원",
+    "entrance": "계단식",
+    "useArea": "29404.0176",
+    "bjdCode": "4150010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 346,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026830",
@@ -364,7 +782,21 @@
     "emd": "증포동",
     "sigunguCode": "41500",
     "sido": "경기도",
-    "sigungu": "이천시"
+    "sigungu": "이천시",
+    "jibunAddr": "경기도 이천시 증포동 347-2 이천증포 한양수자인 5단지",
+    "builder": "한양건설",
+    "entrance": "계단식",
+    "useArea": "48876.4944",
+    "bjdCode": "4150010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 620,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027156",
@@ -376,7 +808,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 554
+    "hhldCnt": 554,
+    "jibunAddr": "경기도 이천시 증포동 486 이천센트럴푸르지오",
+    "builder": "대우건설",
+    "entrance": "계단식",
+    "useArea": "39552.8771",
+    "bjdCode": "4150010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 229,
+      "u85": 325,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027400",
@@ -388,7 +834,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 562
+    "hhldCnt": 562,
+    "jibunAddr": "경기도 이천시 증포동 485 설봉 kcc스위첸 아파트",
+    "builder": "(주)KCC건설",
+    "entrance": "계단식",
+    "useArea": "40880.5783",
+    "bjdCode": "4150010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 271,
+      "u85": 291,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46771803",
@@ -400,7 +860,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 229
+    "hhldCnt": 229,
+    "jibunAddr": "경기도 이천시 증포동 213-5 대우1차",
+    "builder": "대우건설",
+    "entrance": "계단식",
+    "useArea": "18898.717",
+    "bjdCode": "4150010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 95,
+      "u85": 96,
+      "u135": 37,
+      "o135": 1
+    }
   },
   {
     "code": "A46771809",
@@ -412,7 +886,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 418
+    "hhldCnt": 418,
+    "jibunAddr": "경기도 이천시 증포동 475 증포한솔1차아파트",
+    "builder": "한솔건설",
+    "entrance": "계단식",
+    "useArea": "37325.1",
+    "bjdCode": "4150010900",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 360,
+      "u135": 58,
+      "o135": 0
+    }
   },
   {
     "code": "A46771810",
@@ -424,7 +912,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 234
+    "hhldCnt": 234,
+    "jibunAddr": "경기도 이천시 증포동 479 한솔솔파크3차",
+    "builder": "한솔건설",
+    "entrance": "계단식",
+    "useArea": "22400.2848",
+    "bjdCode": "4150010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 174,
+      "u135": 60,
+      "o135": 0
+    }
   },
   {
     "code": "A46771811",
@@ -436,7 +938,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 347
+    "hhldCnt": 347,
+    "jibunAddr": "경기도 이천시 증포동 480 설봉2차푸르지오",
+    "builder": "대우건설",
+    "entrance": "계단식",
+    "useArea": "35526.2212",
+    "bjdCode": "4150010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 229,
+      "u135": 66,
+      "o135": 52
+    }
   },
   {
     "code": "A46771906",
@@ -448,7 +964,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 539
+    "hhldCnt": 539,
+    "jibunAddr": "경기도 이천시 증포동 244-3 대우2차",
+    "builder": "대우건설",
+    "entrance": "계단식",
+    "useArea": "46202.48",
+    "bjdCode": "4150010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 188,
+      "u85": 222,
+      "u135": 93,
+      "o135": 36
+    }
   },
   {
     "code": "A46772004",
@@ -460,7 +990,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 250
+    "hhldCnt": 250,
+    "jibunAddr": "경기도 이천시 증포동 218-7 대원그린",
+    "builder": "20,221,215",
+    "entrance": "복도식",
+    "useArea": "11616.75",
+    "bjdCode": "4150010900",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 255,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46772105",
@@ -472,7 +1016,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 260
+    "hhldCnt": 260,
+    "jibunAddr": "경기도 이천시 증포동 351-5 대호3차",
+    "builder": "주)대호건영",
+    "entrance": "복도식",
+    "useArea": "16787.04",
+    "bjdCode": "4150010900",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 165,
+      "u85": 95,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46772307",
@@ -484,7 +1042,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 466
+    "hhldCnt": 466,
+    "jibunAddr": "경기도 이천시 증포동 190-2 선경1차2차",
+    "builder": "선경건설(주)",
+    "entrance": "계단식",
+    "useArea": "53122.6",
+    "bjdCode": "4150010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 334,
+      "u85": 280,
+      "u135": 80,
+      "o135": 0
+    }
   },
   {
     "code": "A46772508",
@@ -496,7 +1068,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 729
+    "hhldCnt": 729,
+    "jibunAddr": "경기도 이천시 증포동 94-3 신한1차",
+    "builder": "(주)신한건설",
+    "entrance": "계단식",
+    "useArea": "56014.19",
+    "bjdCode": "4150010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 306,
+      "u85": 370,
+      "u135": 52,
+      "o135": 0
+    }
   },
   {
     "code": "A46780202",
@@ -508,7 +1094,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 208
+    "hhldCnt": 208,
+    "jibunAddr": "경기도 이천시 증포동 200-9 대우3차",
+    "builder": "대우건설(주)",
+    "entrance": "계단식",
+    "useArea": "19365.9608",
+    "bjdCode": "4150010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 132,
+      "u135": 76,
+      "o135": 0
+    }
   },
   {
     "code": "A46780301",
@@ -520,7 +1120,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 172
+    "hhldCnt": 172,
+    "jibunAddr": "경기도 이천시 증포동 474 대림휴먼빌",
+    "builder": "(주)대림주택건설",
+    "entrance": "계단식",
+    "useArea": "10775.56",
+    "bjdCode": "4150010900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 172,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024149",
@@ -532,7 +1146,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 303
+    "hhldCnt": 303,
+    "jibunAddr": "경기도 이천시 송정동 454 증포지구대원칸타빌2차더테라스",
+    "builder": "대원건설(주)",
+    "entrance": "계단식",
+    "useArea": "25751.1519",
+    "bjdCode": "4150011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 303,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024230",
@@ -544,7 +1172,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 790
+    "hhldCnt": 790,
+    "jibunAddr": "경기도 이천시 송정동 450 이천 라온프라이빗아파트",
+    "builder": "(주)라온건설",
+    "entrance": "계단식",
+    "useArea": "64544.5452",
+    "bjdCode": "4150011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 790,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46704002",
@@ -556,7 +1198,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 324
+    "hhldCnt": 324,
+    "jibunAddr": "경기도 이천시 송정동 446 동양파라곤",
+    "builder": "동양건설산업",
+    "entrance": "계단식",
+    "useArea": "36925.23",
+    "bjdCode": "4150011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 144,
+      "u135": 142,
+      "o135": 38
+    }
   },
   {
     "code": "A46704003",
@@ -568,7 +1224,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 326
+    "hhldCnt": 326,
+    "jibunAddr": "경기도 이천시 송정동 445 현진에버빌1차",
+    "builder": "현진건설",
+    "entrance": "계단식",
+    "useArea": "24084.002",
+    "bjdCode": "4150011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 124,
+      "u85": 202,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46771101",
@@ -580,7 +1250,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 298
+    "hhldCnt": 298,
+    "jibunAddr": "경기도 이천시 송정동 107-48 이천풍산",
+    "builder": "풍산종합건설",
+    "entrance": "혼합식",
+    "useArea": "18101.8",
+    "bjdCode": "4150011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 232,
+      "u85": 66,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46774005",
@@ -591,7 +1275,21 @@
     "emd": "송정동",
     "sigunguCode": "41500",
     "sido": "경기도",
-    "sigungu": "이천시"
+    "sigungu": "이천시",
+    "jibunAddr": "경기도 이천시 송정동 322 송정동양아파트",
+    "builder": "동양메이져",
+    "entrance": "계단식",
+    "useArea": "49416.51",
+    "bjdCode": "4150011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 198,
+      "u85": 236,
+      "u135": 152,
+      "o135": 0
+    }
   },
   {
     "code": "A46774107",
@@ -603,7 +1301,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 504
+    "hhldCnt": 504,
+    "jibunAddr": "경기도 이천시 송정동 306 송정신일아파트",
+    "builder": "신일건설",
+    "entrance": "혼합식",
+    "useArea": "73436.282",
+    "bjdCode": "4150011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 590,
+      "u85": 490,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46774704",
@@ -615,7 +1327,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 498
+    "hhldCnt": 498,
+    "jibunAddr": "경기도 이천시 송정동 428 수림1차",
+    "builder": "수림종합건설",
+    "entrance": "계단식",
+    "useArea": "37268.04",
+    "bjdCode": "4150011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 84,
+      "u85": 414,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46774806",
@@ -627,7 +1353,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 310
+    "hhldCnt": 310,
+    "jibunAddr": "경기도 이천시 송정동 429 수림2차아파트",
+    "builder": "수림종합개발",
+    "entrance": "계단식",
+    "useArea": "22406.992",
+    "bjdCode": "4150011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 154,
+      "u85": 156,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46708001",
@@ -639,7 +1379,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 137
+    "hhldCnt": 137,
+    "jibunAddr": "경기도 이천시 사음동 748 이천2차현진에버빌",
+    "builder": "(주)현진에버빌",
+    "entrance": "계단식",
+    "useArea": "11219.461",
+    "bjdCode": "4150011100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 137,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46714001",
@@ -651,7 +1405,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 276
+    "hhldCnt": 276,
+    "jibunAddr": "경기도 이천시 고담동 579 지엠하이빌",
+    "builder": "(주)광신엔지니어링",
+    "entrance": "계단식",
+    "useArea": "23412.3624",
+    "bjdCode": "4150011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 276,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022833",
@@ -663,7 +1431,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 413
+    "hhldCnt": 413,
+    "jibunAddr": "경기도 이천시 장호원읍 진암리 814 이천진암지구우방아이유쉘메가하이브",
+    "builder": "에스엠스틸",
+    "entrance": "계단식",
+    "useArea": "28056.5739",
+    "bjdCode": "4150025023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 210,
+      "u85": 203,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46790101",
@@ -675,7 +1457,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 342
+    "hhldCnt": 342,
+    "jibunAddr": "경기도 이천시 장호원읍 진암리 780 장호원코아루",
+    "builder": "신진건설",
+    "entrance": "계단식",
+    "useArea": "32207.96",
+    "bjdCode": "4150025023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 342,
+      "u135": 27,
+      "o135": 0
+    }
   },
   {
     "code": "A46790404",
@@ -687,7 +1483,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 220
+    "hhldCnt": 220,
+    "jibunAddr": "경기도 이천시 장호원읍 진암리 778 송전더존빌",
+    "builder": "송전종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "10145.696",
+    "bjdCode": "4150025023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 11,
+    "areaBreak": {
+      "u60": 220,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46790501",
@@ -699,7 +1509,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 154
+    "hhldCnt": 154,
+    "jibunAddr": "경기도 이천시 장호원읍 진암리 28-10 동양",
+    "builder": "동양건설주식회사",
+    "entrance": "복도식",
+    "useArea": "10212.86",
+    "bjdCode": "4150025023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 98,
+      "u85": 56,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46790502",
@@ -710,7 +1534,21 @@
     "emd": "장호원읍",
     "sigunguCode": "41500",
     "sido": "경기도",
-    "sigungu": "이천시"
+    "sigungu": "이천시",
+    "jibunAddr": "경기도 이천시 장호원읍 진암리 301-3 삼진동산",
+    "builder": "삼진건설",
+    "entrance": "계단식",
+    "useArea": "10309.68",
+    "bjdCode": "4150025023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 172,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46790505",
@@ -722,7 +1560,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 362
+    "hhldCnt": 362,
+    "jibunAddr": "경기도 이천시 장호원읍 진암리 17-18 현대",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "28857.18",
+    "bjdCode": "4150025023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 150,
+      "u85": 168,
+      "u135": 44,
+      "o135": 0
+    }
   },
   {
     "code": "A46790203",
@@ -734,7 +1586,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 174
+    "hhldCnt": 174,
+    "jibunAddr": "경기도 이천시 장호원읍 노탑리 193-1 장호원기산",
+    "builder": "기산",
+    "entrance": "계단식",
+    "useArea": "12541.044",
+    "bjdCode": "4150025033",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 94,
+      "u85": 83,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46773301",
@@ -746,7 +1612,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 784
+    "hhldCnt": 784,
+    "jibunAddr": "경기도 이천시 부발읍 무촌리 544 부발휴먼시아1단지",
+    "builder": "신성건설(주)",
+    "entrance": "복도식",
+    "useArea": "33935.1",
+    "bjdCode": "4150025321",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 784,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46777205",
@@ -757,7 +1637,21 @@
     "emd": "부발읍",
     "sigunguCode": "41500",
     "sido": "경기도",
-    "sigungu": "이천시"
+    "sigungu": "이천시",
+    "jibunAddr": "경기도 이천시 부발읍 무촌리 128-6 효양",
+    "builder": "효양건설(주)",
+    "entrance": "계단식",
+    "useArea": "23434.8144",
+    "bjdCode": "4150025321",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 108,
+      "u85": 200,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020461",
@@ -769,7 +1663,20 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 200
+    "hhldCnt": 200,
+    "jibunAddr": "경기도 이천시 부발읍 죽당리 1549 이천미라지움아파트",
+    "builder": "홍성개발",
+    "entrance": "계단식",
+    "useArea": "14816.98",
+    "bjdCode": "4150025322",
+    "aptType": "다세대",
+    "mgrType": "자치관리",
+    "areaBreak": {
+      "u60": 40,
+      "u85": 158,
+      "u135": 2,
+      "o135": 0
+    }
   },
   {
     "code": "A10022709",
@@ -781,7 +1688,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 419
+    "hhldCnt": 419,
+    "jibunAddr": "경기도 이천시 부발읍 신원리 941 이안퍼스티엄이천부발아파트",
+    "builder": "해우이엔씨(주)",
+    "entrance": "계단식",
+    "useArea": "33242.6765",
+    "bjdCode": "4150025323",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 419,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46774210",
@@ -793,7 +1714,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 493
+    "hhldCnt": 493,
+    "jibunAddr": "경기도 이천시 부발읍 신하리 481-1 이천삼익아파트",
+    "builder": "(주)삼익",
+    "entrance": "계단식",
+    "useArea": "35419.81",
+    "bjdCode": "4150025328",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 250,
+      "u85": 243,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46777309",
@@ -805,7 +1740,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 438
+    "hhldCnt": 438,
+    "jibunAddr": "경기도 이천시 부발읍 신하리 365 진우",
+    "builder": "진우건설",
+    "entrance": "계단식",
+    "useArea": "26262.48",
+    "bjdCode": "4150025328",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 438,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46786302",
@@ -817,7 +1766,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 153
+    "hhldCnt": 153,
+    "jibunAddr": "경기도 이천시 부발읍 신하리 487-9 유승",
+    "builder": "유승종합건설",
+    "entrance": "계단식",
+    "useArea": "11022.45",
+    "bjdCode": "4150025328",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 79,
+      "u85": 74,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46786704",
@@ -829,7 +1792,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 304
+    "hhldCnt": 304,
+    "jibunAddr": "경기도 이천시 부발읍 신하리 559-3 청구",
+    "builder": "청구주택",
+    "entrance": "계단식",
+    "useArea": "24099.2",
+    "bjdCode": "4150025328",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 136,
+      "u85": 128,
+      "u135": 40,
+      "o135": 0
+    }
   },
   {
     "code": "A46786806",
@@ -841,7 +1818,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 349
+    "hhldCnt": 349,
+    "jibunAddr": "경기도 이천시 부발읍 신하리 362-3 신한2차",
+    "builder": "(주)신한건설",
+    "entrance": "계단식",
+    "useArea": "25767.885",
+    "bjdCode": "4150025328",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 155,
+      "u85": 194,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46787803",
@@ -852,7 +1843,21 @@
     "emd": "부발읍",
     "sigunguCode": "41500",
     "sido": "경기도",
-    "sigungu": "이천시"
+    "sigungu": "이천시",
+    "jibunAddr": "경기도 이천시 부발읍 신하리 487-7 거평",
+    "builder": "거평건설(주)",
+    "entrance": "복도식",
+    "useArea": "19380.57",
+    "bjdCode": "4150025328",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 203,
+      "u85": 96,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020119",
@@ -864,7 +1869,20 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 210
+    "hhldCnt": 210,
+    "jibunAddr": "경기도 이천시 부발읍 아미리 728-1 해피트리앤",
+    "builder": "(주)신일건설",
+    "entrance": "계단식",
+    "useArea": "4499.496",
+    "bjdCode": "4150025330",
+    "aptType": "도시형 생활주택(주상복합)",
+    "mgrType": "위탁관리",
+    "areaBreak": {
+      "u60": 120,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022764",
@@ -875,7 +1893,21 @@
     "emd": "부발읍",
     "sigunguCode": "41500",
     "sido": "경기도",
-    "sigungu": "이천시"
+    "sigungu": "이천시",
+    "jibunAddr": "경기도 이천시 부발읍 아미리 696-2 엘리프 이천 하이시티 아파트",
+    "builder": "KR산업",
+    "entrance": "계단식",
+    "useArea": "32883.24",
+    "bjdCode": "4150025330",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 110,
+      "u85": 325,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46773302",
@@ -887,7 +1919,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 355
+    "hhldCnt": 355,
+    "jibunAddr": "경기도 이천시 부발읍 아미리 1246 현대성우3,4단지",
+    "builder": "성우종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "66255.6388",
+    "bjdCode": "4150025330",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 551,
+      "u135": 158,
+      "o135": 0
+    }
   },
   {
     "code": "A46773304",
@@ -899,7 +1945,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 503
+    "hhldCnt": 503,
+    "jibunAddr": "경기도 이천시 부발읍 아미리 1245 현대성우2단지",
+    "builder": "성우종합건설",
+    "entrance": "혼합식",
+    "useArea": "52047.9653",
+    "bjdCode": "4150025330",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 304,
+      "u135": 125,
+      "o135": 74
+    }
   },
   {
     "code": "A46773305",
@@ -911,7 +1971,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 237
+    "hhldCnt": 237,
+    "jibunAddr": "경기도 이천시 부발읍 아미리 1244 현대성우1단지",
+    "builder": "성우종합건설(주)",
+    "entrance": "기타",
+    "useArea": "20136.6774",
+    "bjdCode": "4150025330",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 237,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46774307",
@@ -923,7 +1997,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 401
+    "hhldCnt": 401,
+    "jibunAddr": "경기도 이천시 부발읍 아미리 699-7 아미현대3차",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "28943.45",
+    "bjdCode": "4150025330",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 200,
+      "u85": 200,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46777308",
@@ -935,7 +2023,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 419
+    "hhldCnt": 419,
+    "jibunAddr": "경기도 이천시 부발읍 아미리 147-3 SK하이닉스사원",
+    "builder": "현대건설",
+    "entrance": "복도식",
+    "useArea": "21091.2",
+    "bjdCode": "4150025330",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 420,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46773306",
@@ -947,7 +2049,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 150
+    "hhldCnt": 150,
+    "jibunAddr": "경기도 이천시 부발읍 가산리 770 기영아파트",
+    "builder": "(주)기영건설",
+    "entrance": "계단식",
+    "useArea": "8718",
+    "bjdCode": "4150025333",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 7,
+    "areaBreak": {
+      "u60": 150,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46779111",
@@ -959,7 +2075,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 600
+    "hhldCnt": 600,
+    "jibunAddr": "경기도 이천시 부발읍 응암리 109 다솜",
+    "builder": "kb신탁",
+    "entrance": "복도식",
+    "useArea": "23526.3",
+    "bjdCode": "4150025334",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 600,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46774501",
@@ -971,7 +2101,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 252
+    "hhldCnt": 252,
+    "jibunAddr": "경기도 이천시 신둔면 수광리 757 수광엘리시움",
+    "builder": "(주)수광종합건설",
+    "entrance": "혼합식",
+    "useArea": "11663.08",
+    "bjdCode": "4150031021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 16,
+    "areaBreak": {
+      "u60": 252,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46784501",
@@ -983,7 +2127,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 260
+    "hhldCnt": 260,
+    "jibunAddr": "경기도 이천시 신둔면 도봉리 1271 대신푸른마을",
+    "builder": "(주)대신산업개발",
+    "entrance": "계단식",
+    "useArea": "21949.2",
+    "bjdCode": "4150031025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 260,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026982",
@@ -995,7 +2153,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 197
+    "hhldCnt": 197,
+    "jibunAddr": "경기도 이천시 신둔면 수하리 826 신둔코아루아파트",
+    "builder": "범양건영(주)",
+    "entrance": "계단식",
+    "useArea": "15594.741",
+    "bjdCode": "4150031027",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 30,
+      "u85": 167,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46784702",
@@ -1007,7 +2179,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 72
+    "hhldCnt": 72,
+    "jibunAddr": "경기도 이천시 신둔면 수하리 825 신둔반석아르미",
+    "builder": "(주)반석주택",
+    "entrance": "계단식",
+    "useArea": "19352.2272",
+    "bjdCode": "4150031027",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 268,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021140",
@@ -1019,7 +2205,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 880
+    "hhldCnt": 880,
+    "jibunAddr": "경기도 이천시 백사면 모전리 1-11 신안실크밸리더포레아파트",
+    "builder": "(주)신안건설",
+    "entrance": "계단식",
+    "useArea": "69413.1642",
+    "bjdCode": "4150032026",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46783201",
@@ -1030,7 +2230,21 @@
     "emd": "백사면",
     "sigunguCode": "41500",
     "sido": "경기도",
-    "sigungu": "이천시"
+    "sigungu": "이천시",
+    "jibunAddr": "경기도 이천시 백사면 모전리 780 모전현대",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "37170.7",
+    "bjdCode": "4150032026",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 230,
+      "u85": 235,
+      "u135": 30,
+      "o135": 0
+    }
   },
   {
     "code": "A46783302",
@@ -1042,7 +2256,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 160
+    "hhldCnt": 160,
+    "jibunAddr": "경기도 이천시 백사면 조읍리 627 이천한솔아파트",
+    "builder": "큰산종합건설(주)",
+    "entrance": "복도식",
+    "useArea": "25225.5",
+    "bjdCode": "4150032028",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 476,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46782101",
@@ -1054,7 +2282,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 276
+    "hhldCnt": 276,
+    "jibunAddr": "경기도 이천시 호법면 유산리 894 이천유산양우내안애",
+    "builder": "양우건설(주)",
+    "entrance": "계단식",
+    "useArea": "16551.72",
+    "bjdCode": "4150033021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 276,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022431",
@@ -1065,7 +2307,21 @@
     "emd": "마장면",
     "sigunguCode": "41500",
     "sido": "경기도",
-    "sigungu": "이천시"
+    "sigungu": "이천시",
+    "jibunAddr": "경기도 이천시 마장면  354 마장휴먼빌까사포레아파트",
+    "builder": "일신건영(주)",
+    "entrance": "계단식",
+    "useArea": "26626.748",
+    "bjdCode": "4150034000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 338,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024540",
@@ -1076,7 +2332,21 @@
     "emd": "마장면",
     "sigunguCode": "41500",
     "sido": "경기도",
-    "sigungu": "이천시"
+    "sigungu": "이천시",
+    "jibunAddr": "경기도 이천시 마장면 오천리 55-14 이천마장 리젠시빌란트 더웰 아파트",
+    "builder": "(주)리젠시빌주택",
+    "entrance": "계단식",
+    "useArea": "17444.674",
+    "bjdCode": "4150034021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 305,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024739",
@@ -1087,7 +2357,21 @@
     "emd": "마장면",
     "sigunguCode": "41500",
     "sido": "경기도",
-    "sigungu": "이천시"
+    "sigungu": "이천시",
+    "jibunAddr": "경기도 이천시 마장면 오천리 4-6 이천 마장 리젠시빌란트",
+    "builder": "(주)리젠시빌건설",
+    "entrance": "계단식",
+    "useArea": "17036.0488",
+    "bjdCode": "4150034021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 298,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025281",
@@ -1098,7 +2382,21 @@
     "emd": "마장면",
     "sigunguCode": "41500",
     "sido": "경기도",
-    "sigungu": "이천시"
+    "sigungu": "이천시",
+    "jibunAddr": "경기도 이천시 마장면 오천리 14-2 이천 마장 호반베르디움2차",
+    "builder": "(주)호반건설",
+    "entrance": "계단식",
+    "useArea": "44204.5099",
+    "bjdCode": "4150034021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 533,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025353",
@@ -1110,7 +2408,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 442
+    "hhldCnt": 442,
+    "jibunAddr": "경기도 이천시 마장면 오천리 422 호반 베르디움 1차 아파트",
+    "builder": "(주)호반산업",
+    "entrance": "계단식",
+    "useArea": "36656.9606",
+    "bjdCode": "4150034021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 442,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025177",
@@ -1121,7 +2433,21 @@
     "emd": "마장면",
     "sigunguCode": "41500",
     "sido": "경기도",
-    "sigungu": "이천시"
+    "sigungu": "이천시",
+    "jibunAddr": "경기도 이천시 마장면 양촌리 10 이천마장 행복주택 3단지",
+    "builder": "신성건설(주)",
+    "entrance": "복도식",
+    "useArea": "8476.52",
+    "bjdCode": "4150034022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 290,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46785603",
@@ -1133,7 +2459,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 300
+    "hhldCnt": 300,
+    "jibunAddr": "경기도 이천시 대월면 초지리 732 삼원엑스포",
+    "builder": "삼원건설",
+    "entrance": "계단식",
+    "useArea": "25336.65",
+    "bjdCode": "4150035025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 300,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021438",
@@ -1144,7 +2484,21 @@
     "emd": "대월면",
     "sigunguCode": "41500",
     "sido": "경기도",
-    "sigungu": "이천시"
+    "sigungu": "이천시",
+    "jibunAddr": "경기도 이천시 대월면 사동리 445- 이천 휴먼빌 에듀파크 시티 아파트",
+    "builder": "일신건영(주)",
+    "entrance": "계단식",
+    "useArea": "49465.7585",
+    "bjdCode": "4150035026",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 78,
+      "u85": 527,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026264",
@@ -1155,7 +2509,21 @@
     "emd": "대월면",
     "sigunguCode": "41500",
     "sido": "경기도",
-    "sigungu": "이천시"
+    "sigungu": "이천시",
+    "jibunAddr": "경기도 이천시 대월면 사동리 402-1 이천신원아침도시",
+    "builder": "주식회사 신원종합개발",
+    "entrance": "계단식",
+    "useArea": "32730.4906",
+    "bjdCode": "4150035026",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 148,
+      "u85": 302,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46785502",
@@ -1167,7 +2535,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 296
+    "hhldCnt": 296,
+    "jibunAddr": "경기도 이천시 대월면 사동리 386-72 현대5차",
+    "builder": "(주)현대산업개발",
+    "entrance": "계단식",
+    "useArea": "21535.96",
+    "bjdCode": "4150035026",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 144,
+      "u85": 152,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46785504",
@@ -1179,7 +2561,21 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 346
+    "hhldCnt": 346,
+    "jibunAddr": "경기도 이천시 대월면 사동리 465 사동6차현대",
+    "builder": "현대산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "25799.04",
+    "bjdCode": "4150035026",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 144,
+      "u85": 202,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46785505",
@@ -1191,6 +2587,20 @@
     "sigunguCode": "41500",
     "sido": "경기도",
     "sigungu": "이천시",
-    "hhldCnt": 1110
+    "hhldCnt": 1110,
+    "jibunAddr": "경기도 이천시 대월면 사동리 441-1 현대전자아파트",
+    "builder": "현대산업개발(주)",
+    "entrance": "복도식",
+    "useArea": "65964",
+    "bjdCode": "4150035026",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1111,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

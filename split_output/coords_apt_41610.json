@@ -9,7 +9,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 447
+    "hhldCnt": 447,
+    "jibunAddr": "경기도 광주시 경안동 447 경기광주역 금호리첸시아아파트",
+    "builder": "금호건설",
+    "entrance": "계단식",
+    "useArea": "58976.36",
+    "bjdCode": "4161010100",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46480202",
@@ -20,7 +34,21 @@
     "emd": "경안동",
     "sigunguCode": "41610",
     "sido": "경기도",
-    "sigungu": "포천시"
+    "sigungu": "포천시",
+    "jibunAddr": "경기도 광주시 경안동 127 경안두진",
+    "builder": "두진종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "16138.392",
+    "bjdCode": "4161010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 120,
+      "u85": 116,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46480204",
@@ -32,7 +60,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 338
+    "hhldCnt": 338,
+    "jibunAddr": "경기도 광주시 경안동 157-2 경안대우",
+    "builder": "대우건설",
+    "entrance": "계단식",
+    "useArea": "24285.8644",
+    "bjdCode": "4161010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 139,
+      "u85": 199,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46480303",
@@ -44,7 +86,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 317
+    "hhldCnt": 317,
+    "jibunAddr": "경기도 광주시 경안동 185-1 경안해태그린",
+    "builder": "(주)해태건설",
+    "entrance": "계단식",
+    "useArea": "24009.444",
+    "bjdCode": "4161010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 124,
+      "u85": 185,
+      "u135": 8,
+      "o135": 0
+    }
   },
   {
     "code": "A46480601",
@@ -55,7 +111,21 @@
     "emd": "경안동",
     "sigunguCode": "41610",
     "sido": "경기도",
-    "sigungu": "포천시"
+    "sigungu": "포천시",
+    "jibunAddr": "경기도 광주시 경안동 108-46 나산아파트",
+    "builder": "나산종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "16502.4",
+    "bjdCode": "4161010100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 140,
+      "u85": 96,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026301",
@@ -67,7 +137,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 1425
+    "hhldCnt": 1425,
+    "jibunAddr": "경기도 광주시 쌍령동 503 광주센트럴푸르지오",
+    "builder": "대우건설",
+    "entrance": "계단식",
+    "useArea": "108314.2533",
+    "bjdCode": "4161010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1425,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026652",
@@ -79,7 +163,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 265
+    "hhldCnt": 265,
+    "jibunAddr": "경기도 광주시 쌍령동 502 광주역 대광로제비앙아파트",
+    "builder": "(주)대광건영",
+    "entrance": "계단식",
+    "useArea": "17997.8286",
+    "bjdCode": "4161010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 265,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46413004",
@@ -91,7 +189,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 513
+    "hhldCnt": 513,
+    "jibunAddr": "경기도 광주시 쌍령동 360-1 쌍령현대2차",
+    "builder": "고려산업개발주식회사",
+    "entrance": "계단식",
+    "useArea": "45818.0194",
+    "bjdCode": "4161010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 445,
+      "u135": 68,
+      "o135": 0
+    }
   },
   {
     "code": "A46470203",
@@ -103,7 +215,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 495
+    "hhldCnt": 495,
+    "jibunAddr": "경기도 광주시 쌍령동 337 쌍령동성1차",
+    "builder": "(주)동성종합건설",
+    "entrance": "계단식",
+    "useArea": "50572.36",
+    "bjdCode": "4161010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 32,
+      "u85": 276,
+      "u135": 187,
+      "o135": 0
+    }
   },
   {
     "code": "A46471301",
@@ -115,7 +241,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 440
+    "hhldCnt": 440,
+    "jibunAddr": "경기도 광주시 쌍령동 349 쌍령동성2차",
+    "builder": "마스타건설",
+    "entrance": "계단식",
+    "useArea": "33771.274",
+    "bjdCode": "4161010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 138,
+      "u85": 302,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46471302",
@@ -127,7 +267,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 198
+    "hhldCnt": 198,
+    "jibunAddr": "경기도 광주시 쌍령동 501 쌍령서희스타힐스",
+    "builder": "서희건설",
+    "entrance": "계단식",
+    "useArea": "18365.35",
+    "bjdCode": "4161010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 160,
+      "u135": 38,
+      "o135": 0
+    }
   },
   {
     "code": "A46472602",
@@ -139,7 +293,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 470
+    "hhldCnt": 470,
+    "jibunAddr": "경기도 광주시 쌍령동 353-9 쌍령현대1차",
+    "builder": "고려산업개발",
+    "entrance": "계단식",
+    "useArea": "51042.914",
+    "bjdCode": "4161010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 72,
+      "u135": 326,
+      "o135": 72
+    }
   },
   {
     "code": "A10022549",
@@ -151,7 +319,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 828
+    "hhldCnt": 828,
+    "jibunAddr": "경기도 광주시 송정동 662- 광주행정타운아이파크",
+    "builder": "현대산업개발",
+    "entrance": "계단식",
+    "useArea": "71586.5448",
+    "bjdCode": "4161010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 744,
+      "u135": 84,
+      "o135": 0
+    }
   },
   {
     "code": "A46471702",
@@ -163,7 +345,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 279
+    "hhldCnt": 279,
+    "jibunAddr": "경기도 광주시 송정동 123-1 송정동파라다이스2단지",
+    "builder": "파라다이스건설",
+    "entrance": "계단식",
+    "useArea": "22851.348",
+    "bjdCode": "4161010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 83,
+      "u85": 166,
+      "u135": 30,
+      "o135": 0
+    }
   },
   {
     "code": "A46472001",
@@ -175,7 +371,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 350
+    "hhldCnt": 350,
+    "jibunAddr": "경기도 광주시 송정동 573 금강펜테리움",
+    "builder": "금강주택,한국토지신탁",
+    "entrance": "계단식",
+    "useArea": "70737.8509",
+    "bjdCode": "4161010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 443,
+      "u135": 251,
+      "o135": 0
+    }
   },
   {
     "code": "A46472002",
@@ -187,7 +397,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 368
+    "hhldCnt": 368,
+    "jibunAddr": "경기도 광주시 송정동 575 송정동우림필유",
+    "builder": "우림건설",
+    "entrance": "계단식",
+    "useArea": "36071.351",
+    "bjdCode": "4161010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 250,
+      "u135": 118,
+      "o135": 0
+    }
   },
   {
     "code": "A46490104",
@@ -199,7 +423,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 326
+    "hhldCnt": 326,
+    "jibunAddr": "경기도 광주시 송정동 55 송정현대",
+    "builder": "현대산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "30404.384",
+    "bjdCode": "4161010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 250,
+      "u135": 76,
+      "o135": 0
+    }
   },
   {
     "code": "A46490301",
@@ -211,7 +449,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 168
+    "hhldCnt": 168,
+    "jibunAddr": "경기도 광주시 송정동 560 브라운스톤광주아파트",
+    "builder": "이수건설",
+    "entrance": "계단식",
+    "useArea": "21735.6",
+    "bjdCode": "4161010300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 96,
+      "o135": 72
+    }
   },
   {
     "code": "A46490303",
@@ -223,7 +475,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 299
+    "hhldCnt": 299,
+    "jibunAddr": "경기도 광주시 송정동 367-7 송정동 대주파크빌",
+    "builder": "대주건설(주)",
+    "entrance": "계단식",
+    "useArea": "25412.01",
+    "bjdCode": "4161010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 299,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46412001",
@@ -235,7 +501,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 282
+    "hhldCnt": 282,
+    "jibunAddr": "경기도 광주시 회덕동 295-3 회덕벽산블루밍",
+    "builder": "(주)벽산건설",
+    "entrance": "계단식",
+    "useArea": "20967.778",
+    "bjdCode": "4161010400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 118,
+      "u85": 164,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46412002",
@@ -247,7 +527,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 296
+    "hhldCnt": 296,
+    "jibunAddr": "경기도 광주시 회덕동 441 회덕대주파크빌",
+    "builder": "대주건설(주)",
+    "entrance": "계단식",
+    "useArea": "18506.368",
+    "bjdCode": "4161010400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 248,
+      "u85": 48,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022327",
@@ -258,7 +552,21 @@
     "emd": "탄벌동",
     "sigunguCode": "41610",
     "sido": "경기도",
-    "sigungu": "포천시"
+    "sigungu": "포천시",
+    "jibunAddr": "경기도 광주시 탄벌동 532-2 광주탄벌 서희스타힐스2단지",
+    "builder": "(주)서희건설",
+    "entrance": "혼합식",
+    "useArea": "21049.3651",
+    "bjdCode": "4161010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 351,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022336",
@@ -269,7 +577,21 @@
     "emd": "탄벌동",
     "sigunguCode": "41610",
     "sido": "경기도",
-    "sigungu": "포천시"
+    "sigungu": "포천시",
+    "jibunAddr": "경기도 광주시 탄벌동 509- 탄벌 서희스타힐스1단지",
+    "builder": "서희건설(주)",
+    "entrance": "계단식",
+    "useArea": "27261.8979",
+    "bjdCode": "4161010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 236,
+      "u85": 180,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022380",
@@ -280,7 +602,21 @@
     "emd": "탄벌동",
     "sigunguCode": "41610",
     "sido": "경기도",
-    "sigungu": "포천시"
+    "sigungu": "포천시",
+    "jibunAddr": "경기도 광주시 탄벌동 437-1 두산위브광주센트럴파크",
+    "builder": "두산건설",
+    "entrance": "계단식",
+    "useArea": "51782.4046",
+    "bjdCode": "4161010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 271,
+      "u85": 422,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46410003",
@@ -292,7 +628,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 267
+    "hhldCnt": 267,
+    "jibunAddr": "경기도 광주시 탄벌동 762 탄벌우림루미아트",
+    "builder": "우림건설주식회사",
+    "entrance": "계단식",
+    "useArea": "23179.0126",
+    "bjdCode": "4161010500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 76,
+      "u85": 127,
+      "u135": 64,
+      "o135": 0
+    }
   },
   {
     "code": "A46470102",
@@ -303,7 +653,21 @@
     "emd": "탄벌동",
     "sigunguCode": "41610",
     "sido": "경기도",
-    "sigungu": "포천시"
+    "sigungu": "포천시",
+    "jibunAddr": "경기도 광주시 탄벌동 1-3 탄벌파라다이스1단지",
+    "builder": "(주)파라다이스건설산업",
+    "entrance": "계단식",
+    "useArea": "24016.175",
+    "bjdCode": "4161010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 217,
+      "u135": 44,
+      "o135": 0
+    }
   },
   {
     "code": "A46470105",
@@ -314,7 +678,21 @@
     "emd": "탄벌동",
     "sigunguCode": "41610",
     "sido": "경기도",
-    "sigungu": "포천시"
+    "sigungu": "포천시",
+    "jibunAddr": "경기도 광주시 탄벌동 45 광주동보허브빌",
+    "builder": "동보건설",
+    "entrance": "계단식",
+    "useArea": "60803.26",
+    "bjdCode": "4161010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 335,
+      "u85": 480,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46470702",
@@ -326,7 +704,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 359
+    "hhldCnt": 359,
+    "jibunAddr": "경기도 광주시 탄벌동 769 벽산블루밍1, 2단지",
+    "builder": "벽산건설(주)",
+    "entrance": "계단식",
+    "useArea": "77080.84",
+    "bjdCode": "4161010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 273,
+      "u135": 369,
+      "o135": 74
+    }
   },
   {
     "code": "A46470804",
@@ -338,7 +730,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 545
+    "hhldCnt": 545,
+    "jibunAddr": "경기도 광주시 탄벌동 40 탄벌동현대",
+    "builder": "현대산업개발 주식회사",
+    "entrance": "계단식",
+    "useArea": "67059.6",
+    "bjdCode": "4161010500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 91,
+      "u135": 374,
+      "o135": 80
+    }
   },
   {
     "code": "A46472101",
@@ -350,7 +756,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 450
+    "hhldCnt": 450,
+    "jibunAddr": "경기도 광주시 탄벌동 766 경남아너스빌2단지",
+    "builder": "경남기업",
+    "entrance": "계단식",
+    "useArea": "54773.509",
+    "bjdCode": "4161010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 86,
+      "u135": 281,
+      "o135": 83
+    }
   },
   {
     "code": "A46472102",
@@ -362,7 +782,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 435
+    "hhldCnt": 435,
+    "jibunAddr": "경기도 광주시 탄벌동 765 경남아너스빌1단지",
+    "builder": "경남기업",
+    "entrance": "계단식",
+    "useArea": "43671.077",
+    "bjdCode": "4161010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 273,
+      "u135": 157,
+      "o135": 5
+    }
   },
   {
     "code": "A46403001",
@@ -374,7 +808,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 294
+    "hhldCnt": 294,
+    "jibunAddr": "경기도 광주시 목현동 21 목현신일해피트리",
+    "builder": "신일건설",
+    "entrance": "계단식",
+    "useArea": "24931.494",
+    "bjdCode": "4161010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 294,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023166",
@@ -386,7 +834,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 565
+    "hhldCnt": 565,
+    "jibunAddr": "경기도 광주시 삼동 505 힐스테이트 삼동역",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "41060.748",
+    "bjdCode": "4161010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 565,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46404001",
@@ -398,7 +860,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 343
+    "hhldCnt": 343,
+    "jibunAddr": "경기도 광주시 삼동 504 삼동우남퍼스트빌",
+    "builder": "주)우남건설",
+    "entrance": "계단식",
+    "useArea": "29121.386",
+    "bjdCode": "4161010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 343,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024659",
@@ -410,7 +886,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 328
+    "hhldCnt": 328,
+    "jibunAddr": "경기도 광주시 태전동 726 태전파크자이",
+    "builder": "GS건설",
+    "entrance": "계단식",
+    "useArea": "44222.8463",
+    "bjdCode": "4161011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 351,
+      "u85": 317,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024830",
@@ -422,7 +912,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 322
+    "hhldCnt": 322,
+    "jibunAddr": "경기도 광주시 태전동 695 e편한세상 태전2차",
+    "builder": "(주)삼호",
+    "entrance": "혼합식",
+    "useArea": "72873.8524",
+    "bjdCode": "4161011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 109,
+      "u85": 802,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025309",
@@ -433,7 +937,21 @@
     "emd": "태전동",
     "sigunguCode": "41610",
     "sido": "경기도",
-    "sigungu": "포천시"
+    "sigungu": "포천시",
+    "jibunAddr": "경기도 광주시 태전동 13-7 힐스테이트 태전2차 에듀포레 11블럭 아파트",
+    "builder": "현대건설(주)",
+    "entrance": "계단식",
+    "useArea": "50899.04",
+    "bjdCode": "4161011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 706,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025332",
@@ -444,7 +962,21 @@
     "emd": "태전동",
     "sigunguCode": "41610",
     "sido": "경기도",
-    "sigungu": "포천시"
+    "sigungu": "포천시",
+    "jibunAddr": "경기도 광주시 태전동 13-3 힐스테이트 태전2차 에듀포레 10블럭",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "29566.46",
+    "bjdCode": "4161011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 394,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025854",
@@ -456,7 +988,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 556
+    "hhldCnt": 556,
+    "jibunAddr": "경기도 광주시 태전동 702 힐스테이트태전 한아람마을",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "81417.4937",
+    "bjdCode": "4161011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 399,
+      "u85": 777,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026088",
@@ -468,7 +1014,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 405
+    "hhldCnt": 405,
+    "jibunAddr": "경기도 광주시 태전동 698 힐스테이트 태전 5지구 아파트",
+    "builder": "현대건건설(주)",
+    "entrance": "계단식",
+    "useArea": "105153.4181",
+    "bjdCode": "4161011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 382,
+      "u85": 1079,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026211",
@@ -479,7 +1039,21 @@
     "emd": "태전동",
     "sigunguCode": "41610",
     "sido": "경기도",
-    "sigungu": "포천시"
+    "sigungu": "포천시",
+    "jibunAddr": "경기도 광주시 태전동 272-20 태전 효성해링턴플레이스 아파트",
+    "builder": "대천주택건설(주)",
+    "entrance": "계단식",
+    "useArea": "57100.9865",
+    "bjdCode": "4161011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 702,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026552",
@@ -491,7 +1065,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 509
+    "hhldCnt": 509,
+    "jibunAddr": "경기도 광주시 태전동 704 힐스테이트태전 9단지아파트",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "36049.9343",
+    "bjdCode": "4161011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 220,
+      "u85": 289,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026750",
@@ -502,7 +1090,21 @@
     "emd": "태전동",
     "sigunguCode": "41610",
     "sido": "경기도",
-    "sigungu": "포천시"
+    "sigungu": "포천시",
+    "jibunAddr": "경기도 광주시 태전동 87 태전아이파크아파트",
+    "builder": "현대산업개발",
+    "entrance": "계단식",
+    "useArea": "52635.108",
+    "bjdCode": "4161011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 70,
+      "u85": 570,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026798",
@@ -514,7 +1116,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 181
+    "hhldCnt": 181,
+    "jibunAddr": "경기도 광주시 태전동 694 태전지웰아파트",
+    "builder": "신영건설주식회사",
+    "entrance": "계단식",
+    "useArea": "15338.8398",
+    "bjdCode": "4161011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 181,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46470301",
@@ -526,7 +1142,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 243
+    "hhldCnt": 243,
+    "jibunAddr": "경기도 광주시 태전동 667 태전미진",
+    "builder": "(주)미진건설",
+    "entrance": "계단식",
+    "useArea": "17178.84",
+    "bjdCode": "4161011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 151,
+      "u85": 76,
+      "u135": 16,
+      "o135": 0
+    }
   },
   {
     "code": "A46470302",
@@ -538,7 +1168,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 475
+    "hhldCnt": 475,
+    "jibunAddr": "경기도 광주시 태전동 692 태전우림필유",
+    "builder": "(주)우림건설",
+    "entrance": "계단식",
+    "useArea": "49424.116",
+    "bjdCode": "4161011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 63,
+      "u135": 404,
+      "o135": 8
+    }
   },
   {
     "code": "A46470408",
@@ -550,7 +1194,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 654
+    "hhldCnt": 654,
+    "jibunAddr": "경기도 광주시 태전동 228 태전성원1차",
+    "builder": "(주)성원건설",
+    "entrance": "계단식",
+    "useArea": "55169.72",
+    "bjdCode": "4161011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 201,
+      "u85": 304,
+      "u135": 149,
+      "o135": 0
+    }
   },
   {
     "code": "A46470506",
@@ -562,7 +1220,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 438
+    "hhldCnt": 438,
+    "jibunAddr": "경기도 광주시 태전동 222 태전성원2차",
+    "builder": "성원건설(주)",
+    "entrance": "계단식",
+    "useArea": "46333.62",
+    "bjdCode": "4161011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 186,
+      "u135": 249,
+      "o135": 0
+    }
   },
   {
     "code": "A46471205",
@@ -574,7 +1246,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 427
+    "hhldCnt": 427,
+    "jibunAddr": "경기도 광주시 태전동 193 태전성원3차",
+    "builder": "성원산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "46491.72",
+    "bjdCode": "4161011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 146,
+      "u135": 281,
+      "o135": 0
+    }
   },
   {
     "code": "A46472307",
@@ -586,7 +1272,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 550
+    "hhldCnt": 550,
+    "jibunAddr": "경기도 광주시 태전동 228-1 태전성원상떼빌5단지",
+    "builder": "성원건설",
+    "entrance": "계단식",
+    "useArea": "53750.17",
+    "bjdCode": "4161011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 338,
+      "u135": 212,
+      "o135": 0
+    }
   },
   {
     "code": "A46472703",
@@ -598,7 +1298,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 398
+    "hhldCnt": 398,
+    "jibunAddr": "경기도 광주시 태전동 688 태전쌍용2단지",
+    "builder": "(주)쌍용건설",
+    "entrance": "계단식",
+    "useArea": "32814.202",
+    "bjdCode": "4161011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 398,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46472704",
@@ -610,7 +1324,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 409
+    "hhldCnt": 409,
+    "jibunAddr": "경기도 광주시 태전동 687 태전쌍용3단지",
+    "builder": "쌍용건설",
+    "entrance": "계단식",
+    "useArea": "32265.626",
+    "bjdCode": "4161011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 96,
+      "u85": 313,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46472709",
@@ -622,7 +1350,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 390
+    "hhldCnt": 390,
+    "jibunAddr": "경기도 광주시 태전동 690 태전쌍용1단지",
+    "builder": "쌍용건설",
+    "entrance": "계단식",
+    "useArea": "31553.76",
+    "bjdCode": "4161011000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 60,
+      "u85": 330,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46480502",
@@ -634,7 +1376,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 278
+    "hhldCnt": 278,
+    "jibunAddr": "경기도 광주시 태전동 691 e-편한세상",
+    "builder": "고려개발(주)",
+    "entrance": "계단식",
+    "useArea": "24957.4368",
+    "bjdCode": "4161011000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 250,
+      "u135": 28,
+      "o135": 0
+    }
   },
   {
     "code": "A10021673",
@@ -645,7 +1401,21 @@
     "emd": "장지동",
     "sigunguCode": "41610",
     "sido": "경기도",
-    "sigungu": "포천시"
+    "sigungu": "포천시",
+    "jibunAddr": "경기도 광주시 장지동 755- 장지동금광포란재아파트",
+    "builder": "(주)금광건업",
+    "entrance": "계단식",
+    "useArea": "12289.5144",
+    "bjdCode": "4161011100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 147,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023851",
@@ -656,7 +1426,21 @@
     "emd": "장지동",
     "sigunguCode": "41610",
     "sido": "경기도",
-    "sigungu": "포천시"
+    "sigungu": "포천시",
+    "jibunAddr": "경기도 광주시 장지동 692-63 태전경남아너스빌시그니처",
+    "builder": "경남기업(주)",
+    "entrance": "계단식",
+    "useArea": "42540.2667",
+    "bjdCode": "4161011100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 624,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46470701",
@@ -668,7 +1452,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 477
+    "hhldCnt": 477,
+    "jibunAddr": "경기도 광주시 장지동 692-61 장지현대아파트",
+    "builder": "유익건설",
+    "entrance": "계단식",
+    "useArea": "45391.172",
+    "bjdCode": "4161011100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 240,
+      "u135": 237,
+      "o135": 0
+    }
   },
   {
     "code": "A10020154",
@@ -679,7 +1477,20 @@
     "emd": "역동",
     "sigunguCode": "41610",
     "sido": "경기도",
-    "sigungu": "포천시"
+    "sigungu": "포천시",
+    "jibunAddr": "경기도 광주시 역동 1-39 더파크비스타데시앙",
+    "builder": "동원개발, 태영건설",
+    "entrance": "계단식",
+    "useArea": "198295.5296",
+    "bjdCode": "4161011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "areaBreak": {
+      "u60": 0,
+      "u85": 264,
+      "u135": 888,
+      "o135": 538
+    }
   },
   {
     "code": "A10023363",
@@ -691,7 +1502,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 441
+    "hhldCnt": 441,
+    "jibunAddr": "경기도 광주시 역동 243 광주역e편한세상센트럴아파트",
+    "builder": "대림산업",
+    "entrance": "계단식",
+    "useArea": "82139.8028",
+    "bjdCode": "4161011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 209,
+      "u85": 852,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023983",
@@ -702,7 +1527,21 @@
     "emd": "역동",
     "sigunguCode": "41610",
     "sido": "경기도",
-    "sigungu": "포천시"
+    "sigungu": "포천시",
+    "jibunAddr": "경기도 광주시 역동 169-11 경기광주역경기행복주택",
+    "builder": "지에스건설",
+    "entrance": "복도식",
+    "useArea": "18601.4976",
+    "bjdCode": "4161011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 26,
+    "areaBreak": {
+      "u60": 500,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024040",
@@ -713,7 +1552,21 @@
     "emd": "역동",
     "sigunguCode": "41610",
     "sido": "경기도",
-    "sigungu": "포천시"
+    "sigungu": "포천시",
+    "jibunAddr": "경기도 광주시 역동 169-15 광주역 자연앤자이 아파트",
+    "builder": "GS건설",
+    "entrance": "계단식",
+    "useArea": "85505.653",
+    "bjdCode": "4161011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1031,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027310",
@@ -725,7 +1578,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 423
+    "hhldCnt": 423,
+    "jibunAddr": "경기도 광주시 역동 245 e편한세상 광주역 3단지아파트",
+    "builder": "대림산업(주)",
+    "entrance": "계단식",
+    "useArea": "32799.1022",
+    "bjdCode": "4161011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 80,
+      "u85": 343,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027323",
@@ -737,7 +1604,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 314
+    "hhldCnt": 314,
+    "jibunAddr": "경기도 광주시 역동 247 e편한세상 광주역 5단지 아파트",
+    "builder": "대림산업",
+    "entrance": "계단식",
+    "useArea": "25828.6416",
+    "bjdCode": "4161011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 314,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027326",
@@ -749,7 +1630,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 324
+    "hhldCnt": 324,
+    "jibunAddr": "경기도 광주시 역동 248 e편한세상 광주역 6단지아파트",
+    "builder": "대림산업(주)",
+    "entrance": "계단식",
+    "useArea": "25501.1215",
+    "bjdCode": "4161011200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 80,
+      "u85": 244,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020492",
@@ -761,7 +1656,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 447
+    "hhldCnt": 447,
+    "jibunAddr": "경기도 광주시 고산동 704- 오포자이디오브",
+    "builder": "GS건설",
+    "entrance": "계단식",
+    "useArea": "71866.8075",
+    "bjdCode": "4161011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022388",
@@ -773,7 +1682,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 927
+    "hhldCnt": 927,
+    "jibunAddr": "경기도 광주시 고산동 707- 오포자이오브제 아파트",
+    "builder": "GS건설",
+    "entrance": "계단식",
+    "useArea": "71810.2021",
+    "bjdCode": "4161011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 925,
+      "u135": 2,
+      "o135": 0
+    }
   },
   {
     "code": "A10022856",
@@ -785,7 +1708,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 1475
+    "hhldCnt": 1475,
+    "jibunAddr": "경기도 광주시 고산동 695 더샵오포센트리체",
+    "builder": "(주)포스코건설",
+    "entrance": "계단식",
+    "useArea": "112139.01",
+    "bjdCode": "4161011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 424,
+      "u85": 1051,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023699",
@@ -796,7 +1733,21 @@
     "emd": "고산동",
     "sigunguCode": "41610",
     "sido": "경기도",
-    "sigungu": "포천시"
+    "sigungu": "포천시",
+    "jibunAddr": "경기도 광주시 고산동 656 더샵오포센트럴포레 아파트",
+    "builder": "포스코건설",
+    "entrance": "계단식",
+    "useArea": "113587",
+    "bjdCode": "4161011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 48,
+      "u85": 1348,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46471002",
@@ -808,7 +1759,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 238
+    "hhldCnt": 238,
+    "jibunAddr": "경기도 광주시 고산동 182-4 오포우림",
+    "builder": "(주)우림건설",
+    "entrance": "계단식",
+    "useArea": "17087.76",
+    "bjdCode": "4161011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 120,
+      "u85": 118,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46474717",
@@ -820,7 +1785,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 476
+    "hhldCnt": 476,
+    "jibunAddr": "경기도 광주시 고산동 396 오포금호베스트빌",
+    "builder": "금호건설",
+    "entrance": "계단식",
+    "useArea": "50015.556",
+    "bjdCode": "4161011400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 236,
+      "u135": 240,
+      "o135": 0
+    }
   },
   {
     "code": "A10021275",
@@ -832,7 +1811,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 144
+    "hhldCnt": 144,
+    "jibunAddr": "경기도 광주시 신현동 1237- 이편한세상태재2단지아파트",
+    "builder": "대림",
+    "entrance": "계단식",
+    "useArea": "10798.7904",
+    "bjdCode": "4161011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 144,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026153",
@@ -844,7 +1837,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 480
+    "hhldCnt": 480,
+    "jibunAddr": "경기도 광주시 신현동 1236 e편한세상태재1단지아파트",
+    "builder": "대림산업(주)",
+    "entrance": "계단식",
+    "useArea": "41597.2186",
+    "bjdCode": "4161011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 443,
+      "u135": 36,
+      "o135": 1
+    }
   },
   {
     "code": "A10026168",
@@ -855,7 +1862,21 @@
     "emd": "신현동",
     "sigunguCode": "41610",
     "sido": "경기도",
-    "sigungu": "포천시"
+    "sigungu": "포천시",
+    "jibunAddr": "경기도 광주시 신현동 139-4 e편한세상 테라스오포 3단지",
+    "builder": "대림산업(주)",
+    "entrance": "계단식",
+    "useArea": "17895.05",
+    "bjdCode": "4161011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 9,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 211,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026172",
@@ -866,7 +1887,21 @@
     "emd": "신현동",
     "sigunguCode": "41610",
     "sido": "경기도",
-    "sigungu": "포천시"
+    "sigungu": "포천시",
+    "jibunAddr": "경기도 광주시 신현동 163-1 e편한세상 테라스오포 4단지",
+    "builder": "대림산업주식회사",
+    "entrance": "계단식",
+    "useArea": "16438.454",
+    "bjdCode": "4161011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 9,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 121,
+      "u135": 52,
+      "o135": 0
+    }
   },
   {
     "code": "A10026174",
@@ -877,7 +1912,21 @@
     "emd": "신현동",
     "sigunguCode": "41610",
     "sido": "경기도",
-    "sigungu": "포천시"
+    "sigungu": "포천시",
+    "jibunAddr": "경기도 광주시 신현동 149 e편한세상 테라스오포 2단지",
+    "builder": "대림산업",
+    "entrance": "계단식",
+    "useArea": "18852.08",
+    "bjdCode": "4161011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 98,
+      "u135": 91,
+      "o135": 0
+    }
   },
   {
     "code": "A10027251",
@@ -889,7 +1938,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 336
+    "hhldCnt": 336,
+    "jibunAddr": "경기도 광주시 신현동 1232 이편한세상오포3차아파트",
+    "builder": "대림산업",
+    "entrance": "계단식",
+    "useArea": "24929.82",
+    "bjdCode": "4161011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 86,
+      "u85": 250,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027321",
@@ -901,7 +1964,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 223
+    "hhldCnt": 223,
+    "jibunAddr": "경기도 광주시 신현동 1233 신현라온프라이빗아파트",
+    "builder": "라온건설(주)",
+    "entrance": "계단식",
+    "useArea": "16161.36",
+    "bjdCode": "4161011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 52,
+      "u85": 171,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46474718",
@@ -913,7 +1990,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 248
+    "hhldCnt": 248,
+    "jibunAddr": "경기도 광주시 신현동 1229 오포e편한세상1차아파트",
+    "builder": "대림산업(주)",
+    "entrance": "계단식",
+    "useArea": "36147.5189",
+    "bjdCode": "4161011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 118,
+      "o135": 130
+    }
   },
   {
     "code": "A46474719",
@@ -925,7 +2016,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 135
+    "hhldCnt": 135,
+    "jibunAddr": "경기도 광주시 신현동 1230 오포2차 e-편한세상",
+    "builder": "대림산업",
+    "entrance": "계단식",
+    "useArea": "11469.6",
+    "bjdCode": "4161011500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 135,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021270",
@@ -937,7 +2042,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 135
+    "hhldCnt": 135,
+    "jibunAddr": "경기도 광주시 능평동 916- 우림필유골드135",
+    "builder": "우림건설주식회사",
+    "entrance": "계단식",
+    "useArea": "21067.8",
+    "bjdCode": "4161011600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 135
+    }
   },
   {
     "code": "A10021923",
@@ -949,7 +2068,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 116
+    "hhldCnt": 116,
+    "jibunAddr": "경기도 광주시 능평동 914- 오포금강kcc",
+    "builder": "kcc",
+    "entrance": "계단식",
+    "useArea": "9858.84",
+    "bjdCode": "4161011600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 116,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46471911",
@@ -961,7 +2094,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 436
+    "hhldCnt": 436,
+    "jibunAddr": "경기도 광주시 능평동 141-2 오포베르빌",
+    "builder": "건설알포메",
+    "entrance": "계단식",
+    "useArea": "44419.705",
+    "bjdCode": "4161011600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 240,
+      "u135": 166,
+      "o135": 30
+    }
   },
   {
     "code": "A46474905",
@@ -973,7 +2120,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 300
+    "hhldCnt": 300,
+    "jibunAddr": "경기도 광주시 능평동 463-1 오포현대",
+    "builder": "현대산업개발",
+    "entrance": "계단식",
+    "useArea": "26369.158",
+    "bjdCode": "4161011600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 270,
+      "u135": 30,
+      "o135": 0
+    }
   },
   {
     "code": "A46492201",
@@ -985,7 +2146,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 204
+    "hhldCnt": 204,
+    "jibunAddr": "경기도 광주시 능평동 917 오포롯데캐슬포레스트",
+    "builder": "롯데건설",
+    "entrance": "계단식",
+    "useArea": "25014.4323",
+    "bjdCode": "4161011600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 185,
+      "o135": 19
+    }
   },
   {
     "code": "A10025974",
@@ -997,7 +2172,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 1028
+    "hhldCnt": 1028,
+    "jibunAddr": "경기도 광주시 문형동 600 오포문형 양우내안애 아파트",
+    "builder": "양우건설(주)",
+    "entrance": "계단식",
+    "useArea": "87357.4984",
+    "bjdCode": "4161011700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1028,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46474816",
@@ -1009,7 +2198,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 498
+    "hhldCnt": 498,
+    "jibunAddr": "경기도 광주시 문형동 140-1 오포우림퓨전빌",
+    "builder": "우림개발(주)",
+    "entrance": "계단식",
+    "useArea": "41940.066",
+    "bjdCode": "4161011700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 498,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46489403",
@@ -1021,7 +2224,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 290
+    "hhldCnt": 290,
+    "jibunAddr": "경기도 광주시 문형동 898 신영프로방스",
+    "builder": "신영",
+    "entrance": "계단식",
+    "useArea": "24644.026",
+    "bjdCode": "4161011700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 290,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025169",
@@ -1033,7 +2250,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 605
+    "hhldCnt": 605,
+    "jibunAddr": "경기도 광주시 추자동 586 오포추자서희스타힐스아파트",
+    "builder": "서희건설",
+    "entrance": "계단식",
+    "useArea": "48770.6883",
+    "bjdCode": "4161011800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 104,
+      "u85": 501,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46470913",
@@ -1045,7 +2276,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 466
+    "hhldCnt": 466,
+    "jibunAddr": "경기도 광주시 매산동 586-11 오포대성",
+    "builder": "대성산업",
+    "entrance": "계단식",
+    "useArea": "42721.02",
+    "bjdCode": "4161011900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 382,
+      "u135": 84,
+      "o135": 0
+    }
   },
   {
     "code": "A10025136",
@@ -1056,7 +2301,21 @@
     "emd": "양벌동",
     "sigunguCode": "41610",
     "sido": "경기도",
-    "sigungu": "포천시"
+    "sigungu": "포천시",
+    "jibunAddr": "경기도 광주시 양벌동 48 광주역우방아이유쉘아파트",
+    "builder": "SM상선(주)건설부문",
+    "entrance": "계단식",
+    "useArea": "61478.9563",
+    "bjdCode": "4161012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 166,
+      "u85": 632,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026329",
@@ -1068,7 +2327,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 388
+    "hhldCnt": 388,
+    "jibunAddr": "경기도 광주시 양벌동 1106 이편한세상 광주 양벌 아파트",
+    "builder": "고려개발(주)",
+    "entrance": "계단식",
+    "useArea": "32974.32",
+    "bjdCode": "4161012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 388,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46471412",
@@ -1080,7 +2353,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 448
+    "hhldCnt": 448,
+    "jibunAddr": "경기도 광주시 양벌동 359 양벌우림",
+    "builder": "우림건설",
+    "entrance": "계단식",
+    "useArea": "43564.64",
+    "bjdCode": "4161012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 88,
+      "u85": 240,
+      "u135": 90,
+      "o135": 30
+    }
   },
   {
     "code": "A46472509",
@@ -1092,7 +2379,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 390
+    "hhldCnt": 390,
+    "jibunAddr": "경기도 광주시 양벌동 616 양촌현대",
+    "builder": "현대산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "33989.472",
+    "bjdCode": "4161012000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 330,
+      "u135": 60,
+      "o135": 0
+    }
   },
   {
     "code": "A46474006",
@@ -1104,7 +2405,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 313
+    "hhldCnt": 313,
+    "jibunAddr": "경기도 광주시 양벌동 285 양벌쌍용1차",
+    "builder": "쌍용건설",
+    "entrance": "계단식",
+    "useArea": "27025.1",
+    "bjdCode": "4161012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 101,
+      "u85": 152,
+      "u135": 60,
+      "o135": 0
+    }
   },
   {
     "code": "A46474015",
@@ -1116,7 +2431,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 492
+    "hhldCnt": 492,
+    "jibunAddr": "경기도 광주시 양벌동 362 양벌2차쌍용",
+    "builder": "쌍용건설",
+    "entrance": "계단식",
+    "useArea": "42918.88",
+    "bjdCode": "4161012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 424,
+      "u135": 68,
+      "o135": 0
+    }
   },
   {
     "code": "A46474418",
@@ -1128,7 +2457,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 270
+    "hhldCnt": 270,
+    "jibunAddr": "경기도 광주시 양벌동 343-1 대주파크빌1차",
+    "builder": "대주주택(주)",
+    "entrance": "계단식",
+    "useArea": "70711.68",
+    "bjdCode": "4161012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 832,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46474614",
@@ -1140,7 +2483,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 477
+    "hhldCnt": 477,
+    "jibunAddr": "경기도 광주시 양벌동 940-5 대주파크빌2차",
+    "builder": "대주건설",
+    "entrance": "계단식",
+    "useArea": "40544.4753",
+    "bjdCode": "4161012000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 477,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023890",
@@ -1151,7 +2508,21 @@
     "emd": "초월읍",
     "sigunguCode": "41610",
     "sido": "경기도",
-    "sigungu": "포천시"
+    "sigungu": "포천시",
+    "jibunAddr": "경기도 광주시 초월읍 대쌍령리 7-2 쌍용더플래티넘광주",
+    "builder": "쌍용건설",
+    "entrance": "계단식",
+    "useArea": "66168.8817",
+    "bjdCode": "4161025321",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 180,
+      "u85": 688,
+      "u135": 5,
+      "o135": 0
+    }
   },
   {
     "code": "A46486114",
@@ -1163,7 +2534,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 360
+    "hhldCnt": 360,
+    "jibunAddr": "경기도 광주시 초월읍 대쌍령리 124-4 초월대쌍령리신일드림빌",
+    "builder": "(주)오대종합건설",
+    "entrance": "계단식",
+    "useArea": "30528.36",
+    "bjdCode": "4161025321",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 360,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46486210",
@@ -1175,7 +2560,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 486
+    "hhldCnt": 486,
+    "jibunAddr": "경기도 광주시 초월읍 대쌍령리 61-1 우림푸른마을",
+    "builder": "우림",
+    "entrance": "계단식",
+    "useArea": "47134.79",
+    "bjdCode": "4161025321",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 120,
+      "u85": 224,
+      "u135": 0,
+      "o135": 142
+    }
   },
   {
     "code": "A10020544",
@@ -1187,7 +2586,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 591
+    "hhldCnt": 591,
+    "jibunAddr": "경기도 광주시 초월읍 쌍동리 401- 힐스테이트초월역",
+    "builder": "현대엔지니어링",
+    "entrance": "계단식",
+    "useArea": "87204.4073",
+    "bjdCode": "4161025322",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023260",
@@ -1198,7 +2611,21 @@
     "emd": "초월읍",
     "sigunguCode": "41610",
     "sido": "경기도",
-    "sigungu": "포천시"
+    "sigungu": "포천시",
+    "jibunAddr": "경기도 광주시 초월읍 쌍동리 300-5 초월역 한라비발디아파트",
+    "builder": "에이치엘디앤아이한라(주)",
+    "entrance": "계단식",
+    "useArea": "86768.4534",
+    "bjdCode": "4161025322",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1108,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024731",
@@ -1209,7 +2636,21 @@
     "emd": "초월읍",
     "sigunguCode": "41610",
     "sido": "경기도",
-    "sigungu": "포천시"
+    "sigungu": "포천시",
+    "jibunAddr": "경기도 광주시 초월읍 쌍동리 252-7 초월역 모아 미래도 파크힐스 아파트",
+    "builder": "모아미래도",
+    "entrance": "계단식",
+    "useArea": "48188.8003",
+    "bjdCode": "4161025322",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 587,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46476307",
@@ -1221,7 +2662,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 398
+    "hhldCnt": 398,
+    "jibunAddr": "경기도 광주시 초월읍 쌍동리 390 초월롯데캐슬아파트",
+    "builder": "롯데건설(주)",
+    "entrance": "계단식",
+    "useArea": "32800.58",
+    "bjdCode": "4161025322",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 398,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46476308",
@@ -1233,7 +2688,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 418
+    "hhldCnt": 418,
+    "jibunAddr": "경기도 광주시 초월읍 쌍동리 389 초월롯데낙천대2단지",
+    "builder": "롯데건설(주)",
+    "entrance": "계단식",
+    "useArea": "34560.5",
+    "bjdCode": "4161025322",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 418,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46478806",
@@ -1245,7 +2714,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 378
+    "hhldCnt": 378,
+    "jibunAddr": "경기도 광주시 초월읍 쌍동리 392 초월역동광뷰엘",
+    "builder": "동광건설(주)",
+    "entrance": "계단식",
+    "useArea": "33354.657",
+    "bjdCode": "4161025322",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 318,
+      "u135": 60,
+      "o135": 0
+    }
   },
   {
     "code": "A46486113",
@@ -1257,7 +2740,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 266
+    "hhldCnt": 266,
+    "jibunAddr": "경기도 광주시 초월읍 쌍동리 393 초월e편한세상",
+    "builder": "(주)삼호",
+    "entrance": "계단식",
+    "useArea": "50417.223",
+    "bjdCode": "4161025322",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 500,
+      "u135": 54,
+      "o135": 8
+    }
   },
   {
     "code": "A46471505",
@@ -1269,7 +2766,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 363
+    "hhldCnt": 363,
+    "jibunAddr": "경기도 광주시 초월읍 산이리 18-1 햇빛마을코아루아파트",
+    "builder": "풍산종합건설주식회사",
+    "entrance": "계단식",
+    "useArea": "42060.37",
+    "bjdCode": "4161025323",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 195,
+      "u135": 0,
+      "o135": 168
+    }
   },
   {
     "code": "A46472212",
@@ -1281,7 +2792,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 516
+    "hhldCnt": 516,
+    "jibunAddr": "경기도 광주시 초월읍 산이리 433 초월벽산블루밍",
+    "builder": "벽산건설",
+    "entrance": "계단식",
+    "useArea": "43831.104",
+    "bjdCode": "4161025323",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 516,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46472911",
@@ -1293,7 +2818,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 505
+    "hhldCnt": 505,
+    "jibunAddr": "경기도 광주시 초월읍 산이리 432 초월산이리대주파크빌",
+    "builder": "대주건설",
+    "entrance": "계단식",
+    "useArea": "39235.6554",
+    "bjdCode": "4161025323",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 142,
+      "u85": 363,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46486302",
@@ -1305,7 +2844,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 296
+    "hhldCnt": 296,
+    "jibunAddr": "경기도 광주시 초월읍 지월리 885 초월금강아미움",
+    "builder": "(주)택산개발",
+    "entrance": "계단식",
+    "useArea": "25151.12",
+    "bjdCode": "4161025329",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 296,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46486303",
@@ -1317,7 +2870,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 338
+    "hhldCnt": 338,
+    "jibunAddr": "경기도 광주시 초월읍 지월리 546 초월세광엔리치빌",
+    "builder": "세광종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "28706.069",
+    "bjdCode": "4161025329",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 338,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46474304",
@@ -1329,7 +2896,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 358
+    "hhldCnt": 358,
+    "jibunAddr": "경기도 광주시 초월읍 도평리 154 도평신일",
+    "builder": "오대종합건설",
+    "entrance": "계단식",
+    "useArea": "38952.46",
+    "bjdCode": "4161025332",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 182,
+      "u135": 146,
+      "o135": 30
+    }
   },
   {
     "code": "A46476001",
@@ -1341,7 +2922,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 261
+    "hhldCnt": 261,
+    "jibunAddr": "경기도 광주시 초월읍 도평리 200 도평우림2단지",
+    "builder": "우림건설주식회사",
+    "entrance": "계단식",
+    "useArea": "22073.553",
+    "bjdCode": "4161025332",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 261,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46476014",
@@ -1353,7 +2948,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 477
+    "hhldCnt": 477,
+    "jibunAddr": "경기도 광주시 초월읍 도평리 205 도평우림1단지",
+    "builder": "우림건설(주)",
+    "entrance": "계단식",
+    "useArea": "40341.321",
+    "bjdCode": "4161025332",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 477,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46486309",
@@ -1365,7 +2974,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 434
+    "hhldCnt": 434,
+    "jibunAddr": "경기도 광주시 초월읍 도평리 259 도평리대주피오레",
+    "builder": "대주건설",
+    "entrance": "계단식",
+    "useArea": "41504.3178",
+    "bjdCode": "4161025332",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 284,
+      "u135": 150,
+      "o135": 0
+    }
   },
   {
     "code": "A46475602",
@@ -1377,7 +3000,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 415
+    "hhldCnt": 415,
+    "jibunAddr": "경기도 광주시 곤지암읍 곤지암리 457 곤지암쌍용2차",
+    "builder": "쌍용건설",
+    "entrance": "계단식",
+    "useArea": "40161.162",
+    "bjdCode": "4161025921",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 58,
+      "u85": 173,
+      "u135": 178,
+      "o135": 0
+    }
   },
   {
     "code": "A46475603",
@@ -1389,7 +3026,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 440
+    "hhldCnt": 440,
+    "jibunAddr": "경기도 광주시 곤지암읍 곤지암리 459 곤지암쌍용1차",
+    "builder": "쌍용건설",
+    "entrance": "계단식",
+    "useArea": "38473.6",
+    "bjdCode": "4161025921",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 132,
+      "u85": 213,
+      "u135": 95,
+      "o135": 0
+    }
   },
   {
     "code": "A46487201",
@@ -1401,7 +3052,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 221
+    "hhldCnt": 221,
+    "jibunAddr": "경기도 광주시 곤지암읍 곤지암리 337-12 곤지암LG아파트",
+    "builder": "LG건설",
+    "entrance": "복도식",
+    "useArea": "15409.44",
+    "bjdCode": "4161025921",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 114,
+      "u85": 108,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46487204",
@@ -1413,7 +3078,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 448
+    "hhldCnt": 448,
+    "jibunAddr": "경기도 광주시 곤지암읍 곤지암리 593 삼주노블리제",
+    "builder": "삼주종합건설",
+    "entrance": "계단식",
+    "useArea": "31762.5801",
+    "bjdCode": "4161025921",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 247,
+      "u85": 201,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46404002",
@@ -1425,7 +3104,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 504
+    "hhldCnt": 504,
+    "jibunAddr": "경기도 광주시 곤지암읍 삼리 679 곤지암현진에버빌",
+    "builder": "(주)현진에버빌",
+    "entrance": "계단식",
+    "useArea": "41642.364",
+    "bjdCode": "4161025936",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 504,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46404003",
@@ -1437,7 +3130,21 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 1152
+    "hhldCnt": 1152,
+    "jibunAddr": "경기도 광주시 곤지암읍 삼리 125-1 곤지암킴스빌리지",
+    "builder": "(주)뉴코아",
+    "entrance": "계단식",
+    "useArea": "49639.68",
+    "bjdCode": "4161025936",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 1153,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A46488301",
@@ -1449,6 +3156,20 @@
     "sigunguCode": "41610",
     "sido": "경기도",
     "sigungu": "포천시",
-    "hhldCnt": 384
+    "hhldCnt": 384,
+    "jibunAddr": "경기도 광주시 도척면 진우리 1002 도척근형심포니",
+    "builder": "근형기업",
+    "entrance": "계단식",
+    "useArea": "32636.16",
+    "bjdCode": "4161033028",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 384,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

@@ -8,7 +8,21 @@
     "emd": "완도읍",
     "sigunguCode": "46890",
     "sido": "전라남도",
-    "sigungu": "완도군"
+    "sigungu": "완도군",
+    "jibunAddr": "전라남도 완도군 완도읍 군내리 441 완도군내LH1단지",
+    "builder": "에스티엑스건설(주)외1",
+    "entrance": "복도식",
+    "useArea": "12692.36",
+    "bjdCode": "4689025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 410,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027627",
@@ -19,7 +33,21 @@
     "emd": "완도읍",
     "sigunguCode": "46890",
     "sido": "전라남도",
-    "sigungu": "완도군"
+    "sigungu": "완도군",
+    "jibunAddr": "전라남도 완도군 완도읍 군내리 1152-1 완도진아리채 아파트",
+    "builder": "아이리스 건설",
+    "entrance": "계단식",
+    "useArea": "9950.4202",
+    "bjdCode": "4689025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 110,
+      "u85": 48,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53780001",
@@ -30,7 +58,21 @@
     "emd": "완도읍",
     "sigunguCode": "46890",
     "sido": "전라남도",
-    "sigungu": "완도군"
+    "sigungu": "완도군",
+    "jibunAddr": "전라남도 완도군 완도읍 군내리 1154 완도 현대아파트",
+    "builder": "현대산업개발",
+    "entrance": "계단식",
+    "useArea": "26646.6",
+    "bjdCode": "4689025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 390,
+      "u85": 60,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022812",
@@ -41,7 +83,21 @@
     "emd": "완도읍",
     "sigunguCode": "46890",
     "sido": "전라남도",
-    "sigungu": "완도군"
+    "sigungu": "완도군",
+    "jibunAddr": "전라남도 완도군 완도읍 가용리 3-22 쌍용더플래티넘완도",
+    "builder": "쌍용건설",
+    "entrance": "계단식",
+    "useArea": "17137.0109",
+    "bjdCode": "4689025022",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 37,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 215,
+      "u135": 26,
+      "o135": 2
+    }
   },
   {
     "code": "A10027447",
@@ -52,7 +108,21 @@
     "emd": "완도읍",
     "sigunguCode": "46890",
     "sido": "전라남도",
-    "sigungu": "완도군"
+    "sigungu": "완도군",
+    "jibunAddr": "전라남도 완도군 완도읍 가용리 1013 완도우성팰리스힐",
+    "builder": "우성디앤씨",
+    "entrance": "계단식",
+    "useArea": "13155.2812",
+    "bjdCode": "4689025022",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 159,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53780002",
@@ -63,7 +133,21 @@
     "emd": "완도읍",
     "sigunguCode": "46890",
     "sido": "전라남도",
-    "sigungu": "완도군"
+    "sigungu": "완도군",
+    "jibunAddr": "전라남도 완도군 완도읍 가용리 1052 무등파크맨션",
+    "builder": "주식회사 무등건설",
+    "entrance": "계단식",
+    "useArea": "18378",
+    "bjdCode": "4689025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 240,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A53780003",
@@ -74,6 +158,20 @@
     "emd": "완도읍",
     "sigunguCode": "46890",
     "sido": "전라남도",
-    "sigungu": "완도군"
+    "sigungu": "완도군",
+    "jibunAddr": "전라남도 완도군 완도읍 가용리 3-103 오션타워",
+    "builder": "(주)현산",
+    "entrance": "계단식",
+    "useArea": "5588.3906",
+    "bjdCode": "4689025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 26,
+      "u135": 26,
+      "o135": 0
+    }
   }
 ]

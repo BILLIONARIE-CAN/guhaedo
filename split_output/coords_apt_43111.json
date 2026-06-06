@@ -8,7 +8,21 @@
     "emd": "북문로2가",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 북문로2가 78-10 아트에비뉴198",
+    "builder": "동서건설",
+    "entrance": "혼합식",
+    "useArea": "4442.876",
+    "bjdCode": "4311110300",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 198,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024536",
@@ -19,7 +33,21 @@
     "emd": "북문로3가",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 북문로3가 21-1 청주행정타운 코아루휴티스",
+    "builder": "(주)금강건설",
+    "entrance": "계단식",
+    "useArea": "44965.0526",
+    "bjdCode": "4311110400",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 49,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 530,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36071401",
@@ -30,7 +58,21 @@
     "emd": "북문로3가",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 북문로3가 49-1 청주북문로한신휴플러스",
+    "builder": "한신공영(주)",
+    "entrance": "계단식",
+    "useArea": "24051.3036",
+    "bjdCode": "4311110400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 276,
+      "u135": 6,
+      "o135": 4
+    }
   },
   {
     "code": "A10021707",
@@ -41,7 +83,21 @@
     "emd": "남문로1가",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 남문로1가 53- 트레비앙",
+    "builder": "금강건설",
+    "entrance": "복도식",
+    "useArea": "3834.92",
+    "bjdCode": "4311110500",
+    "aptType": "도시형 생활주택(아파트)",
+    "mgrType": "자치관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 127,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025801",
@@ -52,7 +108,21 @@
     "emd": "문화동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 문화동 118 센트럴칸타빌아파트",
+    "builder": "대원",
+    "entrance": "계단식",
+    "useArea": "55440.266",
+    "bjdCode": "4311110700",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 33,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 508,
+      "u135": 120,
+      "o135": 2
+    }
   },
   {
     "code": "A10021045",
@@ -63,7 +133,21 @@
     "emd": "탑동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 탑동 83- 탑동삼일맨션",
+    "builder": "삼일주택",
+    "entrance": "계단식",
+    "useArea": "15519.3",
+    "bjdCode": "4311111700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 140,
+      "u135": 30,
+      "o135": 0
+    }
   },
   {
     "code": "A10021283",
@@ -74,7 +158,21 @@
     "emd": "탑동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 탑동 297-75 탑동석탑아파트",
+    "builder": "자료 없음",
+    "entrance": "계단식",
+    "useArea": "7564.05",
+    "bjdCode": "4311111700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 130,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023239",
@@ -85,7 +183,21 @@
     "emd": "탑동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 탑동 233-25 청주 센트럴힐데스하임",
+    "builder": "원건설",
+    "entrance": "계단식",
+    "useArea": "224548.698",
+    "bjdCode": "4311111700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 35,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36008102",
@@ -96,7 +208,21 @@
     "emd": "탑동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 탑동 42 보성트윈힐스아파트",
+    "builder": "보성건설주식회사",
+    "entrance": "복도식",
+    "useArea": "17284.92",
+    "bjdCode": "4311111700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 444,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36077703",
@@ -107,7 +233,21 @@
     "emd": "탑동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 탑동 44 탑동현대아파트",
+    "builder": "현대산업개발",
+    "entrance": "계단식",
+    "useArea": "40124.265",
+    "bjdCode": "4311111700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 485,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36077704",
@@ -118,7 +258,21 @@
     "emd": "탑동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 탑동 344 탑클래스아파트",
+    "builder": "(주)삼호건설",
+    "entrance": "혼합식",
+    "useArea": "30794.22",
+    "bjdCode": "4311111700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 86,
+      "u85": 314,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36076902",
@@ -129,7 +283,21 @@
     "emd": "대성동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 대성동 5 대성우성3차아파트",
+    "builder": "우성건설",
+    "entrance": "계단식",
+    "useArea": "55519.74",
+    "bjdCode": "4311111800",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 390,
+      "u135": 112,
+      "o135": 52
+    }
   },
   {
     "code": "A10021324",
@@ -140,7 +308,21 @@
     "emd": "영운동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 영운동 179-11 영운미림아파트",
+    "builder": "영운미림아파트",
+    "entrance": "계단식",
+    "useArea": "12497.5",
+    "bjdCode": "4311111900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리(직영+위탁)",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 250,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026017",
@@ -151,7 +333,21 @@
     "emd": "영운동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 영운동 72 파모스라움아파트",
+    "builder": "금장건설(주)",
+    "entrance": "계단식",
+    "useArea": "14631.0789",
+    "bjdCode": "4311111900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 246,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36009001",
@@ -162,7 +358,21 @@
     "emd": "영운동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 영운동 204 영운삼일아파트",
+    "builder": "삼일주택",
+    "entrance": "계단식",
+    "useArea": "16790.72",
+    "bjdCode": "4311111900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 92,
+      "u85": 136,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36009002",
@@ -173,7 +383,21 @@
     "emd": "영운동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 영운동 33-1 영운한진신세대아파트",
+    "builder": "한진건설",
+    "entrance": "복도식",
+    "useArea": "11761.28",
+    "bjdCode": "4311111900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 272,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36009003",
@@ -184,7 +408,21 @@
     "emd": "영운동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 영운동 135-19 두산하이츠타운아파트",
+    "builder": "두산개발",
+    "entrance": "복도식",
+    "useArea": "6787.28",
+    "bjdCode": "4311111900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 296,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36009004",
@@ -195,7 +433,21 @@
     "emd": "영운동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 영운동 145-11 신라송림아파트",
+    "builder": "신라개발",
+    "entrance": "혼합식",
+    "useArea": "28910.94",
+    "bjdCode": "4311111900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 163,
+      "u85": 230,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36009005",
@@ -206,7 +458,21 @@
     "emd": "영운동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 영운동 73-5 영운수정아파트",
+    "builder": "태암주택(주)",
+    "entrance": "복도식",
+    "useArea": "21201.84",
+    "bjdCode": "4311111900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 486,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36009007",
@@ -217,7 +483,21 @@
     "emd": "영운동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 영운동 112-14 성화누리안아파트",
+    "builder": "성화종합건설",
+    "entrance": "계단식",
+    "useArea": "14768.1288",
+    "bjdCode": "4311111900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 174,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021284",
@@ -228,7 +508,21 @@
     "emd": "금천동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 금천동 122-1 금천삼일아파트",
+    "builder": "삼일건설주식회사",
+    "entrance": "계단식",
+    "useArea": "17866",
+    "bjdCode": "4311112000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리(직영+위탁)",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 299,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024466",
@@ -239,7 +533,21 @@
     "emd": "금천동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 금천동 477 금천센트럴파크스타힐스아파트",
+    "builder": "(주)서희건설",
+    "entrance": "계단식",
+    "useArea": "56593.8859",
+    "bjdCode": "4311112000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 749,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027626",
@@ -250,7 +558,21 @@
     "emd": "금천동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 금천동 81 금천덕성아파트",
+    "builder": "덕성건설",
+    "entrance": "복도식",
+    "useArea": "6161.4",
+    "bjdCode": "4311112000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 105,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36076611",
@@ -261,7 +583,21 @@
     "emd": "금천동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 금천동 270 장자마을현대아파트",
+    "builder": "현대산업개발",
+    "entrance": "계단식",
+    "useArea": "52075.0882",
+    "bjdCode": "4311112000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 636,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36078007",
@@ -272,7 +608,21 @@
     "emd": "금천동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 금천동 318 장자마을10단지부영아파트",
+    "builder": "(주)부영",
+    "entrance": "계단식",
+    "useArea": "28042.311",
+    "bjdCode": "4311112000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 330,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36078013",
@@ -283,7 +633,21 @@
     "emd": "금천동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 금천동 275 장자마을7단지부영아파트",
+    "builder": "부영",
+    "entrance": "혼합식",
+    "useArea": "39172.4",
+    "bjdCode": "4311112000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 725,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36079014",
@@ -294,7 +658,21 @@
     "emd": "금천동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 금천동 77-7 뉴타운아파트",
+    "builder": "두진종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "69445.1",
+    "bjdCode": "4311112000",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 286,
+      "u85": 325,
+      "u135": 120,
+      "o135": 52
+    }
   },
   {
     "code": "A36079015",
@@ -305,7 +683,21 @@
     "emd": "금천동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 금천동 324 장자마을3단지부영아파트",
+    "builder": "(주)부영",
+    "entrance": "계단식",
+    "useArea": "32126.8248",
+    "bjdCode": "4311112000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 378,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36079016",
@@ -316,7 +708,21 @@
     "emd": "금천동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 금천동 476 금천우미린",
+    "builder": "우미건설",
+    "entrance": "계단식",
+    "useArea": "24894.7495",
+    "bjdCode": "4311112000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 319,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36079103",
@@ -327,7 +733,21 @@
     "emd": "금천동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 금천동 325 장자마을1단지부영",
+    "builder": "부영(주)",
+    "entrance": "계단식",
+    "useArea": "24137.6144",
+    "bjdCode": "4311112000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 284,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36079105",
@@ -338,7 +758,21 @@
     "emd": "금천동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 금천동 311 장자마을e-그린타운2차",
+    "builder": "(주)부영",
+    "entrance": "계단식",
+    "useArea": "27155.584",
+    "bjdCode": "4311112000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 320,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36079108",
@@ -349,7 +783,21 @@
     "emd": "금천동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 금천동 312 장자마을5단지(부영8차)아파트",
+    "builder": "(주)부영",
+    "entrance": "계단식",
+    "useArea": "32206.1693",
+    "bjdCode": "4311112000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 379,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36079302",
@@ -360,7 +808,21 @@
     "emd": "금천동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 금천동 137 금천효성2차아파트",
+    "builder": "효성건설",
+    "entrance": "복도식",
+    "useArea": "6899.31",
+    "bjdCode": "4311112000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 253,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36079310",
@@ -371,7 +833,21 @@
     "emd": "금천동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 금천동 124 금천효성1차아파트",
+    "builder": "효성건설",
+    "entrance": "혼합식",
+    "useArea": "23631",
+    "bjdCode": "4311112000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 345,
+      "u85": 150,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36080001",
@@ -382,7 +858,21 @@
     "emd": "금천동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 금천동 115-1 금천수정아파트",
+    "builder": "(주)태암수정",
+    "entrance": "계단식",
+    "useArea": "14117.05",
+    "bjdCode": "4311112000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 84,
+      "u85": 107,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36080006",
@@ -393,7 +883,21 @@
     "emd": "금천동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 금천동 106-1 금천풍림아파트",
+    "builder": "풍림산업(주)",
+    "entrance": "계단식",
+    "useArea": "29828.06",
+    "bjdCode": "4311112000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 38,
+      "u85": 229,
+      "u135": 0,
+      "o135": 60
+    }
   },
   {
     "code": "A36080009",
@@ -404,7 +908,21 @@
     "emd": "금천동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 금천동 50-3 금천경희",
+    "builder": "경희주택",
+    "entrance": "혼합식",
+    "useArea": "17218.3",
+    "bjdCode": "4311112000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 470,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36080312",
@@ -415,7 +933,21 @@
     "emd": "금천동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 금천동 320 장자마을8단지부영(7차)아파트",
+    "builder": "부영",
+    "entrance": "계단식",
+    "useArea": "56339.5521",
+    "bjdCode": "4311112000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 663,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36080315",
@@ -426,7 +958,21 @@
     "emd": "금천동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 금천동 317 장자마을9단지(부영6차)아파트",
+    "builder": "부영",
+    "entrance": "혼합식",
+    "useArea": "26253.7848",
+    "bjdCode": "4311112000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 456,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36080316",
@@ -437,7 +983,21 @@
     "emd": "금천동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 금천동 199-1 금천현대아파트",
+    "builder": "나드리건설",
+    "entrance": "혼합식",
+    "useArea": "85628.88",
+    "bjdCode": "4311112000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 890,
+      "u135": 142,
+      "o135": 0
+    }
   },
   {
     "code": "A10021713",
@@ -448,7 +1008,21 @@
     "emd": "용담동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 용담동 190-1 모드니아파트",
+    "builder": "홍은건설",
+    "entrance": "복도식",
+    "useArea": "5595.055",
+    "bjdCode": "4311112100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 113,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026242",
@@ -459,7 +1033,21 @@
     "emd": "용담동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 용담동 467 청주 호미지구 우미린 에듀파크 2단지",
+    "builder": "우미건설",
+    "entrance": "계단식",
+    "useArea": "78054.1278",
+    "bjdCode": "4311112100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 811,
+      "u135": 90,
+      "o135": 0
+    }
   },
   {
     "code": "A36078504",
@@ -470,7 +1058,21 @@
     "emd": "용담동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 용담동 425 가좌마을2단지부영아파트",
+    "builder": "(주)부영주택",
+    "entrance": "계단식",
+    "useArea": "34132.603",
+    "bjdCode": "4311112100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 569,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36078505",
@@ -481,7 +1083,21 @@
     "emd": "용담동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 용담동 423 용담e그린타운1차",
+    "builder": "(주)부영",
+    "entrance": "계단식",
+    "useArea": "32296.808",
+    "bjdCode": "4311112100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 380,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36078702",
@@ -492,7 +1108,21 @@
     "emd": "용담동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 용담동 418 가좌마을5단지부영아파트(부영12차)",
+    "builder": "부영",
+    "entrance": "계단식",
+    "useArea": "37141.3292",
+    "bjdCode": "4311112100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 437,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36078803",
@@ -503,7 +1133,21 @@
     "emd": "용담동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 용담동 421 세영첼시빌아파트",
+    "builder": "세영종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "58160.424",
+    "bjdCode": "4311112100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 388,
+      "u135": 120,
+      "o135": 60
+    }
   },
   {
     "code": "A36078901",
@@ -514,7 +1158,21 @@
     "emd": "용담동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 용담동 436 용담e편한세상아파트",
+    "builder": "대림산업(주)",
+    "entrance": "계단식",
+    "useArea": "54299.0773",
+    "bjdCode": "4311112100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 187,
+      "o135": 234
+    }
   },
   {
     "code": "A36984101",
@@ -525,7 +1183,20 @@
     "emd": "용담동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 용담동 190-1 홍은모드니",
+    "builder": " ",
+    "useArea": "5595.055",
+    "bjdCode": "4311112100",
+    "aptType": "아파트",
+    "mgrType": "기타",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 113,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023575",
@@ -536,7 +1207,21 @@
     "emd": "용암동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 용암동 3156 청주동남LH3단지",
+    "builder": "(주)한일건설",
+    "entrance": "복도식",
+    "useArea": "49845.34",
+    "bjdCode": "4311112400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 1299,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023613",
@@ -547,7 +1232,21 @@
     "emd": "용암동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 용암동 3163 동남파라곤",
+    "builder": "(주)동양건설산업, (주)라인건설",
+    "entrance": "계단식",
+    "useArea": "46386.7864",
+    "bjdCode": "4311112400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 562,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023978",
@@ -558,7 +1257,21 @@
     "emd": "용암동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 용암동 3150 동남우미린에듀포레아파트",
+    "builder": "(주)우미개발,심우종합건설",
+    "entrance": "계단식",
+    "useArea": "45614.4685",
+    "bjdCode": "4311112400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 274,
+      "u135": 215,
+      "o135": 0
+    }
   },
   {
     "code": "A10024444",
@@ -569,7 +1282,21 @@
     "emd": "용암동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 용암동  청주동남파밀리에NHF4단지",
+    "builder": "신동아건설",
+    "entrance": "계단식",
+    "useArea": "62219.72",
+    "bjdCode": "4311112400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 1077,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024618",
@@ -580,7 +1307,21 @@
     "emd": "용암동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 용암동 3604- 동남지구 힐데스하임아파트",
+    "builder": "원건설(주)",
+    "entrance": "계단식",
+    "useArea": "77215.0348",
+    "bjdCode": "4311112400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024685",
@@ -591,7 +1332,21 @@
     "emd": "용암동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 용암동 2942-73 청주동남1단지아파트",
+    "builder": "코오롱글로벌주식회사",
+    "entrance": "복도식",
+    "useArea": "57722.48",
+    "bjdCode": "4311112400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 1486,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024771",
@@ -602,7 +1357,21 @@
     "emd": "용암동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 용암동 169 동남지구 대성베르힐1차아파트",
+    "builder": "디에스종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "65338.5246",
+    "bjdCode": "4311112400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 792,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024802",
@@ -613,7 +1382,21 @@
     "emd": "용암동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 용암동 163 동남지구대성베르힐2차",
+    "builder": "대성건설",
+    "entrance": "계단식",
+    "useArea": "58894.6786",
+    "bjdCode": "4311112400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 715,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024924",
@@ -624,7 +1407,21 @@
     "emd": "용암동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 용암동 2944-41 동남LH행복주택",
+    "builder": "(주)서한",
+    "entrance": "복도식",
+    "useArea": "26306.08",
+    "bjdCode": "4311112400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 998,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024963",
@@ -635,7 +1432,21 @@
     "emd": "용암동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 용암동 2942-160 시티프라디움2단지",
+    "builder": "시티건설,시티종합건설",
+    "entrance": "계단식",
+    "useArea": "51840.1698",
+    "bjdCode": "4311112400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 610,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025023",
@@ -646,7 +1457,21 @@
     "emd": "용암동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 용암동 2942-111 청주동남시티프라디움1단지",
+    "builder": "(주)시티건설,(주)시티종합건설",
+    "entrance": "계단식",
+    "useArea": "67727.7788",
+    "bjdCode": "4311112400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 797,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025134",
@@ -657,7 +1482,21 @@
     "emd": "용암동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 용암동 149-10 동남칸타빌더테라스2단지",
+    "builder": "(주)대원/(주)대원건설",
+    "entrance": "계단식",
+    "useArea": "58446.6607",
+    "bjdCode": "4311112400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 706,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025139",
@@ -668,7 +1507,21 @@
     "emd": "용암동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 용암동 206-1 칸타빌더테라스1단지",
+    "builder": "(주)대원건설",
+    "entrance": "계단식",
+    "useArea": "64632.8403",
+    "bjdCode": "4311112400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 380,
+      "u135": 296,
+      "o135": 0
+    }
   },
   {
     "code": "A10025791",
@@ -679,7 +1532,21 @@
     "emd": "용암동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 용암동 2953 용암서희스타힐스아파트",
+    "builder": "서희건설",
+    "entrance": "계단식",
+    "useArea": "19077.5552",
+    "bjdCode": "4311112400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 318,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36010001",
@@ -690,7 +1557,21 @@
     "emd": "용암동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 용암동 2063 용암대원칸타빌아파트",
+    "builder": "(주)대원",
+    "entrance": "계단식",
+    "useArea": "19800.806",
+    "bjdCode": "4311112400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 233,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36010002",
@@ -701,7 +1582,21 @@
     "emd": "용암동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 용암동 2095 용암현대1차아파트",
+    "builder": "현대산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "32555.4",
+    "bjdCode": "4311112400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 240,
+      "o135": 24
+    }
   },
   {
     "code": "A36010003",
@@ -712,7 +1607,21 @@
     "emd": "용암동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 용암동 2094 용암임광아파트",
+    "builder": "임광토건(주)",
+    "entrance": "계단식",
+    "useArea": "32437.6",
+    "bjdCode": "4311112400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 280,
+      "o135": 0
+    }
   },
   {
     "code": "A36010004",
@@ -723,7 +1632,21 @@
     "emd": "용암동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 용암동 2104 용암현대2차아파트",
+    "builder": "현대산업개발",
+    "entrance": "계단식",
+    "useArea": "26532.45",
+    "bjdCode": "4311112400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 315,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36010005",
@@ -734,7 +1657,21 @@
     "emd": "용암동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 용암동 2540 중흥마을e-그린3차아파트",
+    "builder": "(주)부영",
+    "entrance": "계단식",
+    "useArea": "27664.7512",
+    "bjdCode": "4311112400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 326,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36010006",
@@ -745,7 +1682,21 @@
     "emd": "용암동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 용암동 2105 용암한우리타운아파트",
+    "builder": "(주)진흥주택",
+    "entrance": "계단식",
+    "useArea": "26009.7",
+    "bjdCode": "4311112400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 330,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36010007",
@@ -756,7 +1707,21 @@
     "emd": "용암동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 용암동 2088 용암형석아파트",
+    "builder": "새한주택",
+    "entrance": "계단식",
+    "useArea": "36455.4",
+    "bjdCode": "4311112400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리(직영+위탁)",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 430,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36010008",
@@ -767,7 +1732,21 @@
     "emd": "용암동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 용암동 2089 용암현대홈타운아파트",
+    "builder": "삼정주택건설",
+    "entrance": "계단식",
+    "useArea": "40398.12",
+    "bjdCode": "4311112400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 476,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36010009",
@@ -778,7 +1757,21 @@
     "emd": "용암동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 용암동 2086 용암효성아파트",
+    "builder": "효성건설",
+    "entrance": "계단식",
+    "useArea": "28806.12",
+    "bjdCode": "4311112400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 486,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36010010",
@@ -789,7 +1782,21 @@
     "emd": "용암동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 용암동 2085 용암덕성그린아파트",
+    "builder": "덕성건설",
+    "entrance": "계단식",
+    "useArea": "27288.525",
+    "bjdCode": "4311112400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 495,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36010011",
@@ -800,7 +1807,21 @@
     "emd": "용암동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 용암동 2915 강변뜨란채아파트",
+    "builder": "신영건설",
+    "entrance": "계단식",
+    "useArea": "38838.45",
+    "bjdCode": "4311112400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 228,
+      "u85": 238,
+      "u135": 51,
+      "o135": 0
+    }
   },
   {
     "code": "A36010012",
@@ -811,7 +1832,21 @@
     "emd": "용암동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 용암동 2096 용암현대3차아파트",
+    "builder": "현대산업개발",
+    "entrance": "계단식",
+    "useArea": "49494",
+    "bjdCode": "4311112400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 280,
+      "u135": 240,
+      "o135": 0
+    }
   },
   {
     "code": "A36010013",
@@ -822,7 +1857,21 @@
     "emd": "용암동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 용암동 2433 중흥마을6단지(부영5차)아파트",
+    "builder": "부영",
+    "entrance": "계단식",
+    "useArea": "47319.2666",
+    "bjdCode": "4311112400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 557,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36010014",
@@ -833,7 +1882,21 @@
     "emd": "용암동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 용암동 2542 중흥마을1단지(부영10차)아파트",
+    "builder": "(주)부영주택",
+    "entrance": "계단식",
+    "useArea": "45110.224",
+    "bjdCode": "4311112400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 752,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36010015",
@@ -844,7 +1907,21 @@
     "emd": "용암동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 용암동 2076 용암태산그린아파트",
+    "builder": "(주)태산도시산업",
+    "entrance": "계단식",
+    "useArea": "35258.4",
+    "bjdCode": "4311112400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 590,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36010016",
@@ -855,7 +1932,21 @@
     "emd": "용암동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 용암동 2108 청주용암주공1단지",
+    "builder": "주택공사",
+    "entrance": "복도식",
+    "useArea": "29880",
+    "bjdCode": "4311112400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 600,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36010018",
@@ -866,7 +1957,21 @@
     "emd": "용암동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 용암동 2083 용암삼일아파트",
+    "builder": "삼일주택(주)",
+    "entrance": "계단식",
+    "useArea": "38361.6",
+    "bjdCode": "4311112400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 640,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36010019",
@@ -877,7 +1982,21 @@
     "emd": "용암동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 용암동 2082 용암소라아파트",
+    "builder": "덕성건설, 태암주택",
+    "entrance": "계단식",
+    "useArea": "40244.85",
+    "bjdCode": "4311112400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 675,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36010020",
@@ -888,7 +2007,21 @@
     "emd": "용암동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 용암동 2537 용암덕일마이빌아파트",
+    "builder": "(주)덕일엔지니어링",
+    "entrance": "계단식",
+    "useArea": "51141.4908",
+    "bjdCode": "4311112400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 856,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36010022",
@@ -899,7 +2032,21 @@
     "emd": "용암동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 용암동 2099 건영아파트",
+    "builder": "건영",
+    "entrance": "계단식",
+    "useArea": "108700.68",
+    "bjdCode": "4311112400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 416,
+      "u135": 630,
+      "o135": 0
+    }
   },
   {
     "code": "A36010024",
@@ -910,7 +2057,21 @@
     "emd": "용암동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 용암동 2064 용암세원한아름아파트",
+    "builder": "(주)세원건설",
+    "entrance": "혼합식",
+    "useArea": "82836",
+    "bjdCode": "4311112400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1530,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36010025",
@@ -921,7 +2082,21 @@
     "emd": "용암동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 용암동 2108 청주용암2",
+    "builder": "삼환기업",
+    "entrance": "복도식",
+    "useArea": "32310",
+    "bjdCode": "4311112400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1140,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36073501",
@@ -932,7 +2107,21 @@
     "emd": "용암동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 용암동 2444 중흥마을부영2단지",
+    "builder": "(주)부영",
+    "entrance": "계단식",
+    "useArea": "52669.496",
+    "bjdCode": "4311112400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 620,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A36077101",
@@ -943,7 +2132,21 @@
     "emd": "용암동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 용암동 2060 용암부영1차아파트",
+    "builder": "부영주택",
+    "entrance": "복도식",
+    "useArea": "53614.11",
+    "bjdCode": "4311112400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 979,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026670",
@@ -954,7 +2157,21 @@
     "emd": "용정동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 용정동 1286 우미린에듀파크1단지아파트",
+    "builder": "우미건설(주)",
+    "entrance": "계단식",
+    "useArea": "40154.5905",
+    "bjdCode": "4311112500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 179,
+      "u135": 171,
+      "o135": 40
+    }
   },
   {
     "code": "A36018201",
@@ -965,7 +2182,21 @@
     "emd": "용정동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 용정동 1116 용정한라비발디",
+    "builder": "한라건설",
+    "entrance": "계단식",
+    "useArea": "129873.47",
+    "bjdCode": "4311112500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 835,
+      "u135": 565,
+      "o135": 0
+    }
   },
   {
     "code": "A10023089",
@@ -976,7 +2207,21 @@
     "emd": "방서동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 방서동 825 청주 동남 호반써밋 브룩사이드아파트",
+    "builder": "호반건설",
+    "entrance": "계단식",
+    "useArea": "99228.4095",
+    "bjdCode": "4311112600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1215,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024616",
@@ -987,7 +2232,21 @@
     "emd": "방서동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 방서동 1 동남우미린풀하우스",
+    "builder": "우미종합건설",
+    "entrance": "계단식",
+    "useArea": "79811.4391",
+    "bjdCode": "4311112600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1016,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025775",
@@ -998,7 +2257,21 @@
     "emd": "방서동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 방서동 655 청주하트리움리버파크",
+    "builder": "(주)두진건설",
+    "entrance": "계단식",
+    "useArea": "50914.24",
+    "bjdCode": "4311112600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 26,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 600,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026020",
@@ -1009,7 +2282,21 @@
     "emd": "방서동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 방서동 654 청주 센트럴자이아파트",
+    "builder": "GS건설",
+    "entrance": "계단식",
+    "useArea": "122573.7669",
+    "bjdCode": "4311112600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 194,
+      "u85": 1153,
+      "u135": 153,
+      "o135": 0
+    }
   },
   {
     "code": "A10026027",
@@ -1020,7 +2307,21 @@
     "emd": "방서동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 방서동 653 방서동 중흥S클래스 아파트",
+    "builder": "중흥토건(주)",
+    "entrance": "계단식",
+    "useArea": "141531.3942",
+    "bjdCode": "4311112600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1338,
+      "u135": 257,
+      "o135": 0
+    }
   },
   {
     "code": "A10020280",
@@ -1031,7 +2332,20 @@
     "emd": "지북동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 지북동 584 청주지북4단지",
+    "builder": "LH토지주택공사",
+    "entrance": "복도식",
+    "useArea": "19216.3207",
+    "bjdCode": "4311112800",
+    "aptType": "도시형 생활주택(아파트)",
+    "mgrType": "위탁관리",
+    "areaBreak": {
+      "u60": 40,
+      "u85": 112,
+      "u135": 102,
+      "o135": 0
+    }
   },
   {
     "code": "A10020283",
@@ -1042,6 +2356,19 @@
     "emd": "지북동",
     "sigunguCode": "43111",
     "sido": "충청북도",
-    "sigungu": "청주시 상당구"
+    "sigungu": "청주시 상당구",
+    "jibunAddr": "충청북도 청주상당구 지북동 402 청주지북5단지",
+    "builder": "양우건설",
+    "entrance": "복도식",
+    "useArea": "35051.9084",
+    "bjdCode": "4311112800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "areaBreak": {
+      "u60": 140,
+      "u85": 232,
+      "u135": 120,
+      "o135": 0
+    }
   }
 ]

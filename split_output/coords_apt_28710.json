@@ -8,7 +8,21 @@
     "emd": "강화읍",
     "sigunguCode": "28710",
     "sido": "인천광역시",
-    "sigungu": "강화군"
+    "sigungu": "강화군",
+    "jibunAddr": "인천광역시 강화군 강화읍 남산리 599- 강화미래지향 아파트",
+    "builder": "나만애건설",
+    "entrance": "계단식",
+    "useArea": "10987.941",
+    "bjdCode": "2871025024",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 70,
+      "u135": 50,
+      "o135": 0
+    }
   },
   {
     "code": "A41780101",
@@ -19,7 +33,21 @@
     "emd": "강화읍",
     "sigunguCode": "28710",
     "sido": "인천광역시",
-    "sigungu": "강화군"
+    "sigungu": "강화군",
+    "jibunAddr": "인천광역시 강화군 강화읍 갑곳리 1100 강화 베이힐 아파트",
+    "builder": "대한주택보증(주)",
+    "entrance": "계단식",
+    "useArea": "12349.2",
+    "bjdCode": "2871025025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 179,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A41780102",
@@ -30,7 +58,21 @@
     "emd": "강화읍",
     "sigunguCode": "28710",
     "sido": "인천광역시",
-    "sigungu": "강화군"
+    "sigungu": "강화군",
+    "jibunAddr": "인천광역시 강화군 강화읍 갑곳리 667 강화현대아파트",
+    "builder": "현대건설",
+    "entrance": "계단식",
+    "useArea": "16549.11",
+    "bjdCode": "2871025025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 82,
+      "u85": 137,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022378",
@@ -41,7 +83,21 @@
     "emd": "선원면",
     "sigunguCode": "28710",
     "sido": "인천광역시",
-    "sigungu": "강화군"
+    "sigungu": "강화군",
+    "jibunAddr": "인천광역시 강화군 선원면 창리 456- 강화 서희스타힐스 1,2단지",
+    "builder": "(주)서희건설",
+    "entrance": "계단식",
+    "useArea": "88355.3337",
+    "bjdCode": "2871031025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 741,
+      "u85": 583,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A41782301",
@@ -52,7 +108,21 @@
     "emd": "선원면",
     "sigunguCode": "28710",
     "sido": "인천광역시",
-    "sigungu": "강화군"
+    "sigungu": "강화군",
+    "jibunAddr": "인천광역시 강화군 선원면 창리 619 강화2차 세광 엔리치빌 아파트",
+    "builder": "세광종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "40036.2842",
+    "bjdCode": "2871031025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 382,
+      "u135": 115,
+      "o135": 0
+    }
   },
   {
     "code": "A41782302",
@@ -63,6 +133,20 @@
     "emd": "선원면",
     "sigunguCode": "28710",
     "sido": "인천광역시",
-    "sigungu": "강화군"
+    "sigungu": "강화군",
+    "jibunAddr": "인천광역시 강화군 선원면 창리 663 강화1차 세광엔리치빌아파트",
+    "builder": "세광종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "48956.6592",
+    "bjdCode": "2871031025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 576,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

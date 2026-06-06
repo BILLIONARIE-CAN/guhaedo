@@ -8,7 +8,21 @@
     "emd": "양구읍",
     "sigunguCode": "51800",
     "sido": "강원특별자치도",
-    "sigungu": "양구군"
+    "sigungu": "양구군",
+    "jibunAddr": "강원특별자치도 양구군 양구읍 상리 124-8 양구행복마을",
+    "builder": "승전종합건설(주)",
+    "entrance": "복도식",
+    "useArea": "3438.68",
+    "bjdCode": "5180025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 8,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026214",
@@ -19,7 +33,21 @@
     "emd": "양구읍",
     "sigunguCode": "51800",
     "sido": "강원특별자치도",
-    "sigungu": "양구군"
+    "sigungu": "양구군",
+    "jibunAddr": "강원특별자치도 양구군 양구읍 상리 573 양구석미모닝파크2차",
+    "builder": "석미건설",
+    "entrance": "혼합식",
+    "useArea": "9332.84",
+    "bjdCode": "5180025021",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 180,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A25580501",
@@ -30,7 +58,21 @@
     "emd": "양구읍",
     "sigunguCode": "51800",
     "sido": "강원특별자치도",
-    "sigungu": "양구군"
+    "sigungu": "양구군",
+    "jibunAddr": "강원특별자치도 양구군 양구읍 상리 510 양구경림아파트",
+    "builder": "석미건설(주)",
+    "entrance": "혼합식",
+    "useArea": "17004.6",
+    "bjdCode": "5180025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 330,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A25580503",
@@ -41,7 +83,21 @@
     "emd": "양구읍",
     "sigunguCode": "51800",
     "sido": "강원특별자치도",
-    "sigungu": "양구군"
+    "sigungu": "양구군",
+    "jibunAddr": "강원특별자치도 양구군 양구읍 상리 655 서희스타힐스",
+    "builder": "(주)서희건설",
+    "entrance": "계단식",
+    "useArea": "19981.072",
+    "bjdCode": "5180025021",
+    "aptType": "아파트",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 223,
+      "u135": 13,
+      "o135": 0
+    }
   },
   {
     "code": "A10021564",
@@ -52,7 +108,21 @@
     "emd": "양구읍",
     "sigunguCode": "51800",
     "sido": "강원특별자치도",
-    "sigungu": "양구군"
+    "sigungu": "양구군",
+    "jibunAddr": "강원특별자치도 양구군 양구읍 정림리 177- 보배아파트",
+    "builder": "221 - 80 - 12046",
+    "entrance": "계단식",
+    "useArea": "10642",
+    "bjdCode": "5180025032",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 80,
+      "u85": 80,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A25580502",
@@ -63,6 +133,20 @@
     "emd": "양구읍",
     "sigunguCode": "51800",
     "sido": "강원특별자치도",
-    "sigungu": "양구군"
+    "sigungu": "양구군",
+    "jibunAddr": "강원특별자치도 양구군 양구읍 정림리 436 양구석미모닝파크1차아파트",
+    "builder": "석미건설(주)",
+    "entrance": "계단식",
+    "useArea": "18338.16",
+    "bjdCode": "5180025032",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 226,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

@@ -9,7 +9,21 @@
     "sigunguCode": "28245",
     "sido": "인천광역시",
     "sigungu": "계양구",
-    "hhldCnt": 777
+    "hhldCnt": 777,
+    "jibunAddr": "인천광역시 계양구 효성동 690- 제일풍경채계양위너스카이A블럭",
+    "builder": "제일건설",
+    "entrance": "계단식",
+    "useArea": "58163.3436",
+    "bjdCode": "2824510100",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 35,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020473",
@@ -21,7 +35,21 @@
     "sigunguCode": "28245",
     "sido": "인천광역시",
     "sigungu": "계양구",
-    "hhldCnt": 566
+    "hhldCnt": 566,
+    "jibunAddr": "인천광역시 계양구 효성동 691- 제일풍경채계양위너스카이2단지 ",
+    "builder": "제일건설(주)",
+    "entrance": "계단식",
+    "useArea": "46155.2999",
+    "bjdCode": "2824510100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 35,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021385",
@@ -32,7 +60,21 @@
     "emd": "효성동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 효성동 293-1 중앙아파트",
+    "builder": "중앙건설",
+    "entrance": "계단식",
+    "useArea": "8865.48",
+    "bjdCode": "2824510100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 168,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021530",
@@ -43,7 +85,21 @@
     "emd": "효성동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 효성동 228-1 미도아파트",
+    "builder": "가나안미도",
+    "entrance": "계단식",
+    "useArea": "14529.15",
+    "bjdCode": "2824510100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 10,
+      "u85": 190,
+      "u135": 5,
+      "o135": 0
+    }
   },
   {
     "code": "A10021655",
@@ -54,7 +110,21 @@
     "emd": "효성동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 효성동 151- 계양동도 센트리움 골든베이",
+    "builder": "동도건설",
+    "entrance": "계단식",
+    "useArea": "8389.477",
+    "bjdCode": "2824510100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 86,
+      "u85": 45,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021803",
@@ -65,7 +135,21 @@
     "emd": "효성동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 효성동 623-16 새사미2차아파트",
+    "builder": "우창건설",
+    "entrance": "계단식",
+    "useArea": "14947.8",
+    "bjdCode": "2824510100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 280,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023133",
@@ -76,7 +160,21 @@
     "emd": "효성동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 효성동 24-15 계양서해그랑블더테라스",
+    "builder": "서해종합건설",
+    "entrance": "계단식",
+    "useArea": "10498.1956",
+    "bjdCode": "2824510100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 124,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024114",
@@ -87,7 +185,21 @@
     "emd": "효성동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 효성동 677 e편한세상 계양 더프리미어아파트",
+    "builder": "DL건설,DL이앤씨",
+    "entrance": "혼합식",
+    "useArea": "107176.933",
+    "bjdCode": "2824510100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 33,
+    "areaBreak": {
+      "u60": 1088,
+      "u85": 558,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40704001",
@@ -98,7 +210,21 @@
     "emd": "효성동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 효성동 675 효성 금호어울림 아파트",
+    "builder": "금호건설",
+    "entrance": "계단식",
+    "useArea": "33451.79",
+    "bjdCode": "2824510100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 11,
+    "areaBreak": {
+      "u60": 147,
+      "u85": 197,
+      "u135": 66,
+      "o135": 0
+    }
   },
   {
     "code": "A40704002",
@@ -109,7 +235,21 @@
     "emd": "효성동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 효성동 33-2 효성 두산아파트",
+    "builder": "두산건설(주)",
+    "entrance": "계단식",
+    "useArea": "73933.26",
+    "bjdCode": "2824510100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 405,
+      "u85": 456,
+      "u135": 96,
+      "o135": 0
+    }
   },
   {
     "code": "A40704205",
@@ -120,7 +260,21 @@
     "emd": "효성동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 효성동 225-1 효성 풍림 아파트",
+    "builder": "풍림산업",
+    "entrance": "계단식",
+    "useArea": "28062.15",
+    "bjdCode": "2824510100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 130,
+      "u85": 156,
+      "u135": 46,
+      "o135": 10
+    }
   },
   {
     "code": "A40771807",
@@ -131,7 +285,21 @@
     "emd": "효성동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 효성동 301-1 효성 뉴서울6차 아파트",
+    "builder": "뉴서울주택건설",
+    "entrance": "계단식",
+    "useArea": "25613.84",
+    "bjdCode": "2824510100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 224,
+      "u85": 146,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40771808",
@@ -142,7 +310,21 @@
     "emd": "효성동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 효성동 207-1 효성3차뉴서울",
+    "builder": "뉴서울주택건설",
+    "entrance": "혼합식",
+    "useArea": "45802.76",
+    "bjdCode": "2824510100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 542,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40771809",
@@ -153,7 +335,21 @@
     "emd": "효성동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 효성동 238-1 효성 5차 뉴서울",
+    "builder": "뉴서울건설(주)",
+    "entrance": "계단식",
+    "useArea": "48276.96",
+    "bjdCode": "2824510100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 260,
+      "u85": 388,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40771810",
@@ -164,7 +360,21 @@
     "emd": "효성동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 효성동 623-3 효성하나아파트",
+    "builder": "한국공영",
+    "entrance": "계단식",
+    "useArea": "37405.02",
+    "bjdCode": "2824510100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 250,
+      "u85": 176,
+      "u135": 72,
+      "o135": 0
+    }
   },
   {
     "code": "A40771911",
@@ -175,7 +385,21 @@
     "emd": "효성동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 효성동 123-57 효성태산아파트",
+    "builder": "(주)태산",
+    "entrance": "계단식",
+    "useArea": "86855.34",
+    "bjdCode": "2824510100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 524,
+      "u85": 654,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40772110",
@@ -186,7 +410,21 @@
     "emd": "효성동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 효성동 200-1 효성4차현대아파트",
+    "builder": "현대산업개발",
+    "entrance": "혼합식",
+    "useArea": "72491.15",
+    "bjdCode": "2824510100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 400,
+      "u85": 419,
+      "u135": 100,
+      "o135": 0
+    }
   },
   {
     "code": "A40778107",
@@ -197,7 +435,21 @@
     "emd": "효성동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 효성동 99-11 효성 뉴서울1차 아파트",
+    "builder": "뉴서울주택건설",
+    "entrance": "계단식",
+    "useArea": "20733.3",
+    "bjdCode": "2824510100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리(직영+위탁)",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 460,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40778109",
@@ -208,7 +460,21 @@
     "emd": "효성동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 효성동 24 효성뉴서울2차아파트",
+    "builder": "뉴서울주택",
+    "entrance": "계단식",
+    "useArea": "28177.2",
+    "bjdCode": "2824510100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 775,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40778305",
@@ -219,7 +485,21 @@
     "emd": "효성동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 효성동 24-49 효성 2차 현대아파트",
+    "builder": "현대산업개발",
+    "entrance": "계단식",
+    "useArea": "33282.8",
+    "bjdCode": "2824510100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 240,
+      "u135": 100,
+      "o135": 0
+    }
   },
   {
     "code": "A40778306",
@@ -230,7 +510,21 @@
     "emd": "효성동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 효성동 280-5 효성 현대3차 아파트",
+    "builder": "현대산업개발",
+    "entrance": "계단식",
+    "useArea": "29733.534",
+    "bjdCode": "2824510100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 36,
+      "u85": 338,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40778310",
@@ -241,7 +535,21 @@
     "emd": "효성동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 효성동 21-11 효성1차 현대 아파트",
+    "builder": "현대산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "76380.678",
+    "bjdCode": "2824510100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 754,
+      "u135": 120,
+      "o135": 0
+    }
   },
   {
     "code": "A40782603",
@@ -252,7 +560,21 @@
     "emd": "효성동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 효성동 24-3 효성 중앙하이츠 아파트",
+    "builder": "중앙건설(주)",
+    "entrance": "혼합식",
+    "useArea": "27080.08",
+    "bjdCode": "2824510100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 194,
+      "u85": 164,
+      "u135": 17,
+      "o135": 0
+    }
   },
   {
     "code": "A40782701",
@@ -263,7 +585,21 @@
     "emd": "효성동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 효성동 101-5 효성 백영 아파트",
+    "builder": "백영건설(주)",
+    "entrance": "복도식",
+    "useArea": "12480",
+    "bjdCode": "2824510100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 208,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40782704",
@@ -274,7 +610,21 @@
     "emd": "효성동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 효성동 78-1 효성 신한 아파트",
+    "builder": "(주)신한",
+    "entrance": "계단식",
+    "useArea": "23535.9",
+    "bjdCode": "2824510100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 160,
+      "u85": 164,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40782902",
@@ -285,7 +635,21 @@
     "emd": "효성동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 효성동 28 효성 대림 아파트",
+    "builder": "대림산업",
+    "entrance": "계단식",
+    "useArea": "21922.003",
+    "bjdCode": "2824510100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 125,
+      "u85": 173,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40783001",
@@ -296,7 +660,21 @@
     "emd": "효성동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 효성동 196-6 대산주상복합아파트",
+    "builder": "동신",
+    "entrance": "혼합식",
+    "useArea": "8722.9994",
+    "bjdCode": "2824510100",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 47,
+      "u85": 83,
+      "u135": 0,
+      "o135": 1
+    }
   },
   {
     "code": "A40783102",
@@ -307,7 +685,21 @@
     "emd": "효성동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 효성동 273 유승그린아파트",
+    "builder": "유승종합건설",
+    "entrance": "복도식",
+    "useArea": "16698.15",
+    "bjdCode": "2824510100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 279,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40783206",
@@ -318,7 +710,21 @@
     "emd": "효성동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 효성동 556 효성동2차유승아파트",
+    "builder": "(주)유승종합건설",
+    "entrance": "계단식",
+    "useArea": "20689.41",
+    "bjdCode": "2824510100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 350,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40783404",
@@ -329,7 +735,21 @@
     "emd": "효성동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 효성동 73-3 효성경남1차아파트",
+    "builder": "경남기업",
+    "entrance": "계단식",
+    "useArea": "15669.15",
+    "bjdCode": "2824510100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 310,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021085",
@@ -340,7 +760,21 @@
     "emd": "계산동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 계산동 857-3 팬더아파트",
+    "builder": "팬더 건설",
+    "entrance": "복도식",
+    "useArea": "4876.2",
+    "bjdCode": "2824510200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 126,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021370",
@@ -351,7 +785,21 @@
     "emd": "계산동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 계산동 18-4 팬더2차아파트",
+    "builder": "팬더건설",
+    "entrance": "계단식",
+    "useArea": "12951.84",
+    "bjdCode": "2824510200",
+    "aptType": "아파트",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 270,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021627",
@@ -362,7 +810,21 @@
     "emd": "계산동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 계산동 18-13 팬더1차아파트",
+    "builder": "알수없음",
+    "entrance": "계단식",
+    "useArea": "11217.36",
+    "bjdCode": "2824510200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 234,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021642",
@@ -373,7 +835,21 @@
     "emd": "계산동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 계산동 337-11 원흥아파트",
+    "builder": "원흥건설",
+    "entrance": "계단식",
+    "useArea": "9034.2",
+    "bjdCode": "2824510200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 164,
+      "u85": 6,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021868",
@@ -384,7 +860,21 @@
     "emd": "계산동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 계산동 949-4 기산아파트",
+    "builder": "(주) 기산",
+    "entrance": "복도식",
+    "useArea": "9049.32",
+    "bjdCode": "2824510200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 76,
+      "u85": 66,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022102",
@@ -395,7 +885,21 @@
     "emd": "계산동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 계산동 898-4 삼환2차아파트",
+    "builder": "삼환건설",
+    "entrance": "계단식",
+    "useArea": "9602.54",
+    "bjdCode": "2824510200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 42,
+      "u85": 102,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022356",
@@ -406,7 +910,20 @@
     "emd": "계산동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 계산동 931-28 지산 그라띠아 아파트",
+    "builder": "서울연립재건축조합",
+    "entrance": "혼합식",
+    "useArea": "10160.8451",
+    "bjdCode": "2824510200",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 10,
+      "u85": 117,
+      "u135": 10,
+      "o135": 0
+    }
   },
   {
     "code": "A10022370",
@@ -417,7 +934,20 @@
     "emd": "계산동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 계산동 930- 삼환아파트1단지",
+    "builder": "삼환기업",
+    "entrance": "계단식",
+    "useArea": "18323.28",
+    "bjdCode": "2824510200",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 84,
+      "u85": 192,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024960",
@@ -428,7 +958,21 @@
     "emd": "계산동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 계산동 1110 계양산파크트루엘아파트",
+    "builder": "일성건설",
+    "entrance": "계단식",
+    "useArea": "22136.31",
+    "bjdCode": "2824510200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 369,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40705001",
@@ -439,7 +983,21 @@
     "emd": "계산동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 계산동 941 계산 신도브래뉴아파트",
+    "builder": "신도건설",
+    "entrance": "혼합식",
+    "useArea": "34466.5994",
+    "bjdCode": "2824510200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 234,
+      "u85": 247,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40773701",
@@ -450,7 +1008,21 @@
     "emd": "계산동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 계산동 1084-3 은행마을태산",
+    "builder": "(주) 태산",
+    "entrance": "계단식",
+    "useArea": "54720.96",
+    "bjdCode": "2824510200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 544,
+      "o135": 0
+    }
   },
   {
     "code": "A40776103",
@@ -461,7 +1033,21 @@
     "emd": "계산동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 계산동 963-5 삼천리열망1차2차아파트",
+    "builder": "삼천리주택",
+    "entrance": "계단식",
+    "useArea": "20276.5",
+    "bjdCode": "2824510200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 460,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40776202",
@@ -472,7 +1058,21 @@
     "emd": "계산동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 계산동 899 계산극동아파트",
+    "builder": "극동건설",
+    "entrance": "계단식",
+    "useArea": "36990.65",
+    "bjdCode": "2824510200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 440,
+      "u85": 190,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40776316",
@@ -483,7 +1083,21 @@
     "emd": "계산동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 계산동 20 계산 주공 아파트",
+    "builder": "대한주택공사",
+    "entrance": "복도식",
+    "useArea": "49130.4",
+    "bjdCode": "2824510200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1140,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40776415",
@@ -494,7 +1108,21 @@
     "emd": "계산동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 계산동 348-12 계산 하나 아파트",
+    "builder": "한국공영(주)",
+    "entrance": "계단식",
+    "useArea": "40255.92",
+    "bjdCode": "2824510200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 994,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40780003",
@@ -505,7 +1133,21 @@
     "emd": "계산동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 계산동 57-2 계산 인정프린스 아파트",
+    "builder": "인정건설(주)",
+    "entrance": "혼합식",
+    "useArea": "24963.591",
+    "bjdCode": "2824510200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 236,
+      "u135": 63,
+      "o135": 0
+    }
   },
   {
     "code": "A40780004",
@@ -516,7 +1158,21 @@
     "emd": "계산동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 계산동 55-1 계산 동남 아파트",
+    "builder": "동남기업",
+    "entrance": "계단식",
+    "useArea": "18302.4",
+    "bjdCode": "2824510200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 276,
+      "u85": 60,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40780006",
@@ -527,7 +1183,21 @@
     "emd": "계산동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 계산동 12-4 계산 삼보3차 아파트",
+    "builder": "삼보건설",
+    "entrance": "계단식",
+    "useArea": "18715.86",
+    "bjdCode": "2824510200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 366,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40780007",
@@ -538,7 +1208,21 @@
     "emd": "계산동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 계산동 36 태산 아파트",
+    "builder": "태산건설(주)",
+    "entrance": "계단식",
+    "useArea": "18816.09",
+    "bjdCode": "2824510200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 408,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40780009",
@@ -549,7 +1233,21 @@
     "emd": "계산동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 계산동 49-4 계산 태평 아파트",
+    "builder": "태평건설",
+    "entrance": "계단식",
+    "useArea": "23036.16",
+    "bjdCode": "2824510200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 384,
+      "u85": 48,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40780017",
@@ -560,7 +1258,21 @@
     "emd": "계산동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 계산동 62-1 계산 현대 아파트",
+    "builder": "현대산업개발주식회사",
+    "entrance": "계단식",
+    "useArea": "107888.5",
+    "bjdCode": "2824510200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 1112,
+      "u135": 136,
+      "o135": 0
+    }
   },
   {
     "code": "A40780208",
@@ -571,7 +1283,21 @@
     "emd": "계산동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 계산동 355-1 계산 한국 아파트",
+    "builder": "한국종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "34503.28",
+    "bjdCode": "2824510200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 416,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40780211",
@@ -582,7 +1308,21 @@
     "emd": "계산동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 계산동 342-1 계산 삼보 1,2차 아파트",
+    "builder": "삼보건설",
+    "entrance": "계단식",
+    "useArea": "20674.98",
+    "bjdCode": "2824510200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 468,
+      "u85": 6,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40780701",
@@ -593,7 +1333,21 @@
     "emd": "계산동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 계산동 953-5 계산한미삼오아파트",
+    "builder": "한미건설",
+    "entrance": "복도식",
+    "useArea": "9663.78",
+    "bjdCode": "2824510200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 91,
+      "u85": 60,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40780702",
@@ -604,7 +1358,21 @@
     "emd": "계산동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 계산동 954-30 계산 서해그린3차 아파트",
+    "builder": "(주)서해종합건설",
+    "entrance": "계단식",
+    "useArea": "30269.82",
+    "bjdCode": "2824510200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 462,
+      "u85": 36,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40780901",
@@ -615,7 +1383,21 @@
     "emd": "계산동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 계산동 1084-2 은행마을강북",
+    "builder": "강북건설",
+    "entrance": "계단식",
+    "useArea": "22135.68",
+    "bjdCode": "2824510200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 216,
+      "o135": 0
+    }
   },
   {
     "code": "A40780910",
@@ -626,7 +1408,21 @@
     "emd": "계산동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 계산동 1084-2 계산은행마을삼보",
+    "builder": "주)삼보종합건설",
+    "entrance": "계단식",
+    "useArea": "42499.68",
+    "bjdCode": "2824510200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 436,
+      "o135": 0
+    }
   },
   {
     "code": "A40780913",
@@ -637,7 +1433,21 @@
     "emd": "계산동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 계산동 1085-3 계산은행마을태평아파트",
+    "builder": "태평건설",
+    "entrance": "계단식",
+    "useArea": "40897.24",
+    "bjdCode": "2824510200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 574,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40780914",
@@ -648,7 +1458,21 @@
     "emd": "계산동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 계산동 1085-2 계산은행마을아주아파트",
+    "builder": "(주)아주종합건설",
+    "entrance": "계단식",
+    "useArea": "42697.56",
+    "bjdCode": "2824510200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 1,
+      "u85": 611,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40781205",
@@ -659,7 +1483,21 @@
     "emd": "계산동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 계산동 76 계산 영남 아파트",
+    "builder": "영남주택",
+    "entrance": "계단식",
+    "useArea": "20180.4",
+    "bjdCode": "2824510200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 360,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020391",
@@ -671,7 +1509,21 @@
     "sigunguCode": "28245",
     "sido": "인천광역시",
     "sigungu": "계양구",
-    "hhldCnt": 340
+    "hhldCnt": 340,
+    "jibunAddr": "인천광역시 계양구 작전동 956- 작전에피트 아파트",
+    "builder": "한라건설",
+    "entrance": "계단식",
+    "useArea": "29199.6067",
+    "bjdCode": "2824510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021091",
@@ -682,7 +1534,21 @@
     "emd": "작전동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 작전동 857-5 우암쎈스뷰아파트",
+    "builder": "우암종합건설주식회사",
+    "entrance": "복도식",
+    "useArea": "7126.3396",
+    "bjdCode": "2824510300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 104,
+      "u85": 15,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021643",
@@ -693,7 +1559,21 @@
     "emd": "작전동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 작전동 863-17 우남푸르미아아파트",
+    "builder": "우남건설(주)",
+    "entrance": "혼합식",
+    "useArea": "9248.61",
+    "bjdCode": "2824510300",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 27,
+      "u85": 90,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021685",
@@ -704,7 +1584,21 @@
     "emd": "작전동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 작전동 131-1 광명아파트",
+    "builder": "(주)광명주택",
+    "entrance": "계단식",
+    "useArea": "15982.92",
+    "bjdCode": "2824510300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 192,
+      "u85": 96,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021821",
@@ -715,7 +1609,21 @@
     "emd": "작전동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 작전동 30-1 선우아파트",
+    "builder": "선우건설",
+    "entrance": "계단식",
+    "useArea": "11726.1",
+    "bjdCode": "2824510300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 210,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022706",
@@ -726,7 +1634,21 @@
     "emd": "작전동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 작전동 765 힐스테이트자이계양",
+    "builder": "(주)현대건설,(주)GS건설",
+    "entrance": "계단식",
+    "useArea": "158536.58",
+    "bjdCode": "2824510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 34,
+    "areaBreak": {
+      "u60": 1484,
+      "u85": 887,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022776",
@@ -737,7 +1659,21 @@
     "emd": "작전동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 작전동 415 작전 베네하임 더윈",
+    "builder": "광성종합건설",
+    "entrance": "계단식",
+    "useArea": "11969.5416",
+    "bjdCode": "2824510300",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 27,
+    "areaBreak": {
+      "u60": 84,
+      "u85": 82,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024508",
@@ -748,7 +1684,21 @@
     "emd": "작전동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 작전동 425-6 브라운스톤계양스카이",
+    "builder": "이수건설",
+    "entrance": "계단식",
+    "useArea": "20239.233",
+    "bjdCode": "2824510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 33,
+    "areaBreak": {
+      "u60": 107,
+      "u85": 175,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024613",
@@ -759,7 +1709,21 @@
     "emd": "작전동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 작전동 443-2 작전역 서해그랑블아파트",
+    "builder": "(주)서해종합건설",
+    "entrance": "계단식",
+    "useArea": "17027.801",
+    "bjdCode": "2824510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 245,
+      "u85": 35,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40706001",
@@ -770,7 +1734,21 @@
     "emd": "작전동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 작전동 381-3 작전 유호 아파트",
+    "builder": "유호건설",
+    "entrance": "혼합식",
+    "useArea": "22231.68",
+    "bjdCode": "2824510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 125,
+      "u85": 174,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40706002",
@@ -781,7 +1759,21 @@
     "emd": "작전동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 작전동 580 작전 현대2-1차 아파트",
+    "builder": "성호주택(주)",
+    "entrance": "계단식",
+    "useArea": "69716.4",
+    "bjdCode": "2824510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 840,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40706003",
@@ -792,7 +1784,21 @@
     "emd": "작전동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 작전동 915-1 태화한진아파트",
+    "builder": "태화건설(주)",
+    "entrance": "혼합식",
+    "useArea": "84203.72",
+    "bjdCode": "2824510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 1674,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40706107",
@@ -803,7 +1809,21 @@
     "emd": "작전동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 작전동 140-2 작전 신진 아파트",
+    "builder": "신진주택개발공사",
+    "entrance": "계단식",
+    "useArea": "17167.6",
+    "bjdCode": "2824510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 410,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40771305",
@@ -814,7 +1834,21 @@
     "emd": "작전동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 작전동 912-5 도두리마을 대동아파트",
+    "builder": "대동주택종합건설",
+    "entrance": "혼합식",
+    "useArea": "65917.53",
+    "bjdCode": "2824510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 1299,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40771404",
@@ -825,7 +1859,21 @@
     "emd": "작전동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 작전동 912-4 도두리마을 동남롯데아파트",
+    "builder": "동남기업, 롯데건설",
+    "entrance": "혼합식",
+    "useArea": "63671.04",
+    "bjdCode": "2824510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 1282,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40771502",
@@ -836,7 +1884,21 @@
     "emd": "작전동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 작전동 580 작전현대2-2차아파트",
+    "builder": "성호주택",
+    "entrance": "계단식",
+    "useArea": "91614.48",
+    "bjdCode": "2824510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 648,
+      "u135": 0,
+      "o135": 256
+    }
   },
   {
     "code": "A40777114",
@@ -847,7 +1909,21 @@
     "emd": "작전동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 작전동 388-2 작전동보아파트",
+    "builder": "동보건설",
+    "entrance": "혼합식",
+    "useArea": "91424.96",
+    "bjdCode": "2824510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 475,
+      "u85": 632,
+      "u135": 80,
+      "o135": 0
+    }
   },
   {
     "code": "A40777203",
@@ -858,7 +1934,21 @@
     "emd": "작전동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 작전동 912-3 도두리동보아파트",
+    "builder": "동보건설",
+    "entrance": "혼합식",
+    "useArea": "68912.64",
+    "bjdCode": "2824510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 1276,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40781605",
@@ -869,7 +1959,21 @@
     "emd": "작전동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 작전동 420 작전 미도 아파트",
+    "builder": "가나안진흥건설",
+    "entrance": "혼합식",
+    "useArea": "37389.6",
+    "bjdCode": "2824510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 90,
+      "u85": 390,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40781701",
@@ -880,7 +1984,21 @@
     "emd": "작전동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 작전동 72-2 작전 한아름 아파트",
+    "builder": "(주)한일건설",
+    "entrance": "복도식",
+    "useArea": "8510.4",
+    "bjdCode": "2824510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 9,
+    "areaBreak": {
+      "u60": 150,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40781702",
@@ -891,7 +2009,21 @@
     "emd": "작전동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 작전동 99-5 작전중앙하이츠아파트(부평하이츠A입주자대표회의)",
+    "builder": "중앙건설",
+    "entrance": "복도식",
+    "useArea": "9679.44",
+    "bjdCode": "2824510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 186,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40781703",
@@ -902,7 +2034,21 @@
     "emd": "작전동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 작전동 103-2 작전 무지개 아파트",
+    "builder": "서만건설(주)",
+    "entrance": "복도식",
+    "useArea": "10859.7",
+    "bjdCode": "2824510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 240,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40781704",
@@ -913,7 +2059,21 @@
     "emd": "작전동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 작전동 79 작전 한국 아파트",
+    "builder": "한국종합건설",
+    "entrance": "혼합식",
+    "useArea": "17440.05",
+    "bjdCode": "2824510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 152,
+      "u85": 98,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40781706",
@@ -924,7 +2084,21 @@
     "emd": "작전동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 작전동 26-1 작전 뉴서울2차 아파트",
+    "builder": "뉴서울주택",
+    "entrance": "계단식",
+    "useArea": "32907.2",
+    "bjdCode": "2824510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 400,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40781708",
@@ -935,7 +2109,21 @@
     "emd": "작전동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 작전동 64-1 작전 삼보 아파트",
+    "builder": "삼보종합건설",
+    "entrance": "혼합식",
+    "useArea": "33122.76",
+    "bjdCode": "2824510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 216,
+      "u85": 238,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40781711",
@@ -946,7 +2134,21 @@
     "emd": "작전동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 작전동 34-5 작전삼천리3차",
+    "builder": "삼천리건설",
+    "entrance": "계단식",
+    "useArea": "22786.74",
+    "bjdCode": "2824510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 540,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40781712",
@@ -957,7 +2159,21 @@
     "emd": "작전동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 작전동 111 작전 현대1차 아파트",
+    "builder": "현대산업개발",
+    "entrance": "계단식",
+    "useArea": "46353.15",
+    "bjdCode": "2824510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 570,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40781713",
@@ -968,7 +2184,21 @@
     "emd": "작전동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 작전동 102-3 뉴서울1차아파트",
+    "builder": "뉴서울건설",
+    "entrance": "혼합식",
+    "useArea": "31142.52",
+    "bjdCode": "2824510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 791,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40781809",
@@ -979,7 +2209,21 @@
     "emd": "작전동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 작전동 169 작전 풍림아이원 아파트",
+    "builder": "풍림산업(주)",
+    "entrance": "계단식",
+    "useArea": "37025.8116",
+    "bjdCode": "2824510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 468,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40781810",
@@ -990,7 +2234,21 @@
     "emd": "작전동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 작전동 286-1 작전 동보2차 아파트",
+    "builder": "동보건설",
+    "entrance": "계단식",
+    "useArea": "47710.4376",
+    "bjdCode": "2824510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 468,
+      "u135": 0,
+      "o135": 34
+    }
   },
   {
     "code": "A40782005",
@@ -1001,7 +2259,21 @@
     "emd": "작전동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 작전동 382-1 작전 한신 아파트",
+    "builder": "(주)한신공영",
+    "entrance": "혼합식",
+    "useArea": "19852.11",
+    "bjdCode": "2824510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 11,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 259,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40782101",
@@ -1012,7 +2284,21 @@
     "emd": "작전동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 작전동 707-5 작전 현광 아파트",
+    "builder": "주)현광건설",
+    "entrance": "복도식",
+    "useArea": "23289.14",
+    "bjdCode": "2824510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 343,
+      "u85": 49,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40782201",
@@ -1023,7 +2309,21 @@
     "emd": "작전동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 작전동 855-2 작전 한일 아파트",
+    "builder": "한일건축",
+    "entrance": "혼합식",
+    "useArea": "11506.32",
+    "bjdCode": "2824510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 168,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40782203",
@@ -1034,7 +2334,21 @@
     "emd": "작전동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 작전동 854-4 작전 한양 아파트",
+    "builder": "한양건설",
+    "entrance": "복도식",
+    "useArea": "17907.12",
+    "bjdCode": "2824510300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 196,
+      "u85": 84,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40782302",
@@ -1045,7 +2359,21 @@
     "emd": "작전동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 작전동 858 작전 한화 아파트",
+    "builder": "한화건설(주)",
+    "entrance": "복도식",
+    "useArea": "10621.86",
+    "bjdCode": "2824510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 16,
+    "areaBreak": {
+      "u60": 179,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40782304",
@@ -1056,7 +2384,21 @@
     "emd": "작전동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 작전동 859-14 작전 현대3차 아파트",
+    "builder": "현대산업개발",
+    "entrance": "혼합식",
+    "useArea": "28586.14",
+    "bjdCode": "2824510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 153,
+      "u85": 237,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40782306",
@@ -1067,7 +2409,21 @@
     "emd": "작전동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 작전동 861-1 작전 코오롱 아파트",
+    "builder": "코오롱건설",
+    "entrance": "복도식",
+    "useArea": "29784.3",
+    "bjdCode": "2824510300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 180,
+      "u85": 300,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024363",
@@ -1078,7 +2434,21 @@
     "emd": "서운동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 서운동 9-13 계양효성해링턴플레이스",
+    "builder": "효성중공업(주)",
+    "entrance": "계단식",
+    "useArea": "120457.337",
+    "bjdCode": "2824510400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 31,
+    "areaBreak": {
+      "u60": 604,
+      "u85": 1006,
+      "u135": 59,
+      "o135": 0
+    }
   },
   {
     "code": "A40707001",
@@ -1089,7 +2459,21 @@
     "emd": "서운동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 서운동 178 서운 경남아너스빌아파트",
+    "builder": "경남",
+    "entrance": "계단식",
+    "useArea": "28325.6235",
+    "bjdCode": "2824510400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 255,
+      "o135": 0
+    }
   },
   {
     "code": "A40707002",
@@ -1100,7 +2484,21 @@
     "emd": "서운동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 서운동 203 계양그대가",
+    "builder": "임광토건",
+    "entrance": "계단식",
+    "useArea": "37738.5173",
+    "bjdCode": "2824510400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 28,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 181,
+      "u135": 192,
+      "o135": 0
+    }
   },
   {
     "code": "A10026908",
@@ -1111,7 +2509,21 @@
     "emd": "용종동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 용종동 207-1 계양 코아루 센트럴파크아파트",
+    "builder": "금강건설(주)",
+    "entrance": "계단식",
+    "useArea": "56823.42",
+    "bjdCode": "2824510600",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 150,
+      "u85": 574,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40770901",
@@ -1122,7 +2534,21 @@
     "emd": "용종동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 용종동 214-2 용종마을 중앙아파트",
+    "builder": "주식회사 중앙공영",
+    "entrance": "혼합식",
+    "useArea": "30537",
+    "bjdCode": "2824510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 128,
+      "u85": 300,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40770902",
@@ -1133,7 +2559,21 @@
     "emd": "용종동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 용종동 214-1 용종 신대진 아파트",
+    "builder": "(주)신대진",
+    "entrance": "혼합식",
+    "useArea": "40101.924",
+    "bjdCode": "2824510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 160,
+      "u85": 402,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40770903",
@@ -1144,7 +2584,21 @@
     "emd": "용종동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 용종동 213-3 용종 초정마을동아 아파트",
+    "builder": "동아건설",
+    "entrance": "계단식",
+    "useArea": "64367.16",
+    "bjdCode": "2824510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 616,
+      "o135": 0
+    }
   },
   {
     "code": "A40770904",
@@ -1155,7 +2609,21 @@
     "emd": "용종동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 용종동 213-2 초정마을 두산쌍용 아파트",
+    "builder": "두산건설,쌍용건설",
+    "entrance": "계단식",
+    "useArea": "84028.68",
+    "bjdCode": "2824510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 798,
+      "o135": 0
+    }
   },
   {
     "code": "A40770905",
@@ -1166,7 +2634,21 @@
     "emd": "용종동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 용종동 228-1 용종 초정마을하나아파트",
+    "builder": "한국공영",
+    "entrance": "혼합식",
+    "useArea": "72766.32",
+    "bjdCode": "2824510600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 168,
+      "u85": 804,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020560",
@@ -1178,7 +2660,21 @@
     "sigunguCode": "28245",
     "sido": "인천광역시",
     "sigungu": "계양구",
-    "hhldCnt": 208
+    "hhldCnt": 208,
+    "jibunAddr": "인천광역시 계양구 병방동 380- 진달래2차아파트",
+    "builder": "신명건설",
+    "entrance": "계단식",
+    "useArea": "8709",
+    "bjdCode": "2824510700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021346",
@@ -1189,7 +2685,21 @@
     "emd": "병방동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 병방동 383- 신명진달래1차아파트",
+    "builder": "신명건설",
+    "entrance": "계단식",
+    "useArea": "11893.32",
+    "bjdCode": "2824510700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 252,
+      "u85": 6,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40732001",
@@ -1200,7 +2710,21 @@
     "emd": "병방동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 병방동 381 병방아주아파트",
+    "builder": "주)아주건설",
+    "entrance": "계단식",
+    "useArea": "21885.48",
+    "bjdCode": "2824510700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 468,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40770604",
@@ -1211,7 +2735,21 @@
     "emd": "병방동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 병방동 432-5 학마을 서해아파트",
+    "builder": "(주)서해종합건설",
+    "entrance": "혼합식",
+    "useArea": "57863.37",
+    "bjdCode": "2824510700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 1261,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40770703",
@@ -1222,7 +2760,21 @@
     "emd": "병방동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 병방동 432-5 학마을영남아파트",
+    "builder": "(주)영남건설",
+    "entrance": "혼합식",
+    "useArea": "50983.47",
+    "bjdCode": "2824510700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 16,
+    "areaBreak": {
+      "u60": 1047,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40770805",
@@ -1233,7 +2785,21 @@
     "emd": "병방동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 병방동 433-1 병방 학마을 한진 아파트",
+    "builder": "한진건설",
+    "entrance": "복도식",
+    "useArea": "76653",
+    "bjdCode": "2824510700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1500,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40776802",
@@ -1244,7 +2810,21 @@
     "emd": "병방동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 병방동 432-3 병방 학마을 서원 아파트",
+    "builder": "서원건설(주)",
+    "entrance": "혼합식",
+    "useArea": "35118.72",
+    "bjdCode": "2824510700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 16,
+    "areaBreak": {
+      "u60": 688,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021274",
@@ -1255,7 +2835,21 @@
     "emd": "방축동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 방축동 212- 한성아파트",
+    "builder": "한성아파트 건설",
+    "entrance": "계단식",
+    "useArea": "9578.4",
+    "bjdCode": "2824510800",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 200,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023242",
@@ -1266,7 +2860,21 @@
     "emd": "방축동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 방축동 235 계양하늘채파크포레아파트",
+    "builder": "코오롱글로벌(주)",
+    "entrance": "계단식",
+    "useArea": "37342.8484",
+    "bjdCode": "2824510800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 361,
+      "u85": 185,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40748001",
@@ -1277,7 +2885,21 @@
     "emd": "방축동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 방축동 120 방축 대창센시티아파트",
+    "builder": "대창기업",
+    "entrance": "계단식",
+    "useArea": "13582.764",
+    "bjdCode": "2824510800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 84,
+      "u85": 103,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40733001",
@@ -1288,7 +2910,21 @@
     "emd": "박촌동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 박촌동 309 계양박촌풍림아이원아파트",
+    "builder": "풍림산업",
+    "entrance": "계단식",
+    "useArea": "17191.541",
+    "bjdCode": "2824510900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 16,
+      "u85": 191,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40733002",
@@ -1299,7 +2935,21 @@
     "emd": "박촌동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 박촌동 72-2 박촌아주아파트",
+    "builder": "아주건설",
+    "entrance": "계단식",
+    "useArea": "29839.2",
+    "bjdCode": "2824510900",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 204,
+      "u85": 276,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40733003",
@@ -1310,7 +2960,21 @@
     "emd": "박촌동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 박촌동 310 계양한화꿈에그린아파트",
+    "builder": "(주)한화건설",
+    "entrance": "계단식",
+    "useArea": "53427.1",
+    "bjdCode": "2824510900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 140,
+      "u85": 530,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40772301",
@@ -1321,7 +2985,21 @@
     "emd": "박촌동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 박촌동 311 계양1차하우스토리",
+    "builder": "남광토건(주)",
+    "entrance": "계단식",
+    "useArea": "24381.065",
+    "bjdCode": "2824510900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 161,
+      "u135": 70,
+      "o135": 26
+    }
   },
   {
     "code": "A40772302",
@@ -1332,7 +3010,21 @@
     "emd": "박촌동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 박촌동 313 박촌휴먼시아1단지",
+    "builder": "남양건설",
+    "entrance": "복도식",
+    "useArea": "9278.4",
+    "bjdCode": "2824510900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 230,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40772303",
@@ -1343,7 +3035,21 @@
     "emd": "박촌동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 박촌동 317 계양2차하우스토리",
+    "builder": "남광토건(주)",
+    "entrance": "계단식",
+    "useArea": "19063.705",
+    "bjdCode": "2824510900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 111,
+      "u135": 13,
+      "o135": 58
+    }
   },
   {
     "code": "A40772304",
@@ -1354,7 +3060,21 @@
     "emd": "박촌동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 박촌동 319 계양한양수자인아파트",
+    "builder": "(주)한양",
+    "entrance": "계단식",
+    "useArea": "31807.39",
+    "bjdCode": "2824510900",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 85,
+      "u85": 236,
+      "u135": 55,
+      "o135": 0
+    }
   },
   {
     "code": "A40734002",
@@ -1365,7 +3085,21 @@
     "emd": "동양동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 동양동 613 동양 휴먼빌 아파트",
+    "builder": "(주)일신건영",
+    "entrance": "계단식",
+    "useArea": "43982.9632",
+    "bjdCode": "2824511000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 317,
+      "u135": 149,
+      "o135": 0
+    }
   },
   {
     "code": "A40772404",
@@ -1376,7 +3110,21 @@
     "emd": "동양동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 동양동 575 동양 주공1단지",
+    "builder": "(주)신일",
+    "entrance": "복도식",
+    "useArea": "28815.03",
+    "bjdCode": "2824511000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 630,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40772505",
@@ -1387,7 +3135,21 @@
     "emd": "동양동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 동양동 581 동양 주공2단지",
+    "builder": "진흥기업(주)",
+    "entrance": "복도식",
+    "useArea": "30127.55",
+    "bjdCode": "2824511000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 668,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40772603",
@@ -1398,7 +3160,21 @@
     "emd": "동양동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 동양동 582 한진해모로아파트",
+    "builder": "주택공사",
+    "entrance": "계단식",
+    "useArea": "28493.58",
+    "bjdCode": "2824511000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 478,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40772604",
@@ -1409,7 +3185,21 @@
     "emd": "동양동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 동양동 615 우남푸르미아",
+    "builder": "(주)우남건설",
+    "entrance": "계단식",
+    "useArea": "13419.924",
+    "bjdCode": "2824511000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 158,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40772701",
@@ -1420,7 +3210,21 @@
     "emd": "동양동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 동양동 586 동양주공4단지",
+    "builder": "한국토지주택공사",
+    "entrance": "혼합식",
+    "useArea": "17654.76",
+    "bjdCode": "2824511000",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 324,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40772201",
@@ -1431,7 +3235,21 @@
     "emd": "귤현동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 귤현동 489 귤현 현대아이파크 아파트",
+    "builder": "현대산업개발",
+    "entrance": "계단식",
+    "useArea": "33484.9174",
+    "bjdCode": "2824511100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 394,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A40772202",
@@ -1442,7 +3260,21 @@
     "emd": "귤현동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 귤현동 531 계양센트레빌1단지",
+    "builder": "동부건설",
+    "entrance": "계단식",
+    "useArea": "65428.842",
+    "bjdCode": "2824511100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 540,
+      "u135": 175,
+      "o135": 0
+    }
   },
   {
     "code": "A40772203",
@@ -1453,7 +3285,21 @@
     "emd": "귤현동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 귤현동 533 계양센트레빌3단지",
+    "builder": "동부건설(주)",
+    "entrance": "계단식",
+    "useArea": "47752.8514",
+    "bjdCode": "2824511100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 195,
+      "u135": 183,
+      "o135": 76
+    }
   },
   {
     "code": "A40772204",
@@ -1464,7 +3310,21 @@
     "emd": "귤현동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 귤현동 532 계양센트레빌2단지",
+    "builder": "동부건설",
+    "entrance": "계단식",
+    "useArea": "24271.0098",
+    "bjdCode": "2824511100",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 158,
+      "u135": 98,
+      "o135": 0
+    }
   },
   {
     "code": "A40738001",
@@ -1475,7 +3335,21 @@
     "emd": "이화동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 이화동 407 이화 신동아파밀리에아파트",
+    "builder": "신동아건설(주)",
+    "entrance": "계단식",
+    "useArea": "35404.0138",
+    "bjdCode": "2824511700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 334,
+      "u135": 65,
+      "o135": 0
+    }
   },
   {
     "code": "A40776901",
@@ -1486,7 +3360,21 @@
     "emd": "오류동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 오류동 180 오류신동아아파트",
+    "builder": "신동아건설(주)",
+    "entrance": "계단식",
+    "useArea": "90746",
+    "bjdCode": "2824511800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 536,
+      "u85": 560,
+      "u135": 96,
+      "o135": 0
+    }
   },
   {
     "code": "A40747001",
@@ -1497,6 +3385,20 @@
     "emd": "장기동",
     "sigunguCode": "28245",
     "sido": "인천광역시",
-    "sigungu": "계양구"
+    "sigungu": "계양구",
+    "jibunAddr": "인천광역시 계양구 장기동 131-10 벽산블루밍",
+    "builder": "벽산건설",
+    "entrance": "계단식",
+    "useArea": "12754.045",
+    "bjdCode": "2824512300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 98,
+      "u135": 40,
+      "o135": 0
+    }
   }
 ]

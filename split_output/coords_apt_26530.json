@@ -8,7 +8,21 @@
     "emd": "삼락동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 삼락동 418-8 동양한신아파트",
+    "builder": "(주)동양건업",
+    "entrance": "혼합식",
+    "useArea": "31099.86",
+    "bjdCode": "2653010100",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 207,
+      "u85": 179,
+      "u135": 45,
+      "o135": 0
+    }
   },
   {
     "code": "A10020530",
@@ -20,7 +34,21 @@
     "sigunguCode": "26530",
     "sido": "부산광역시",
     "sigungu": "사상구",
-    "hhldCnt": 117
+    "hhldCnt": 117,
+    "jibunAddr": "부산광역시 사상구 모라동 991-2 모라동골든파크",
+    "builder": "김이룡건축사사무소",
+    "entrance": "계단식",
+    "useArea": "10360.17",
+    "bjdCode": "2653010200",
+    "aptType": "주상복합",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024307",
@@ -31,7 +59,21 @@
     "emd": "모라동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 모라동 1366-2 부산모라 행복주택",
+    "builder": "한진중공업",
+    "entrance": "복도식",
+    "useArea": "9155.14",
+    "bjdCode": "2653010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 390,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024394",
@@ -42,7 +84,21 @@
     "emd": "모라동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 모라동 1375-1 모라역 베스티움 더 시티",
+    "builder": "동부토건(주)",
+    "entrance": "복도식",
+    "useArea": "10521.33",
+    "bjdCode": "2653010200",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 213,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025647",
@@ -53,7 +109,21 @@
     "emd": "모라동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 모라동 164 구남역동원로얄듀크",
+    "builder": "(주)동원개발",
+    "entrance": "계단식",
+    "useArea": "40259.2844",
+    "bjdCode": "2653010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 28,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 498,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61708002",
@@ -64,7 +134,21 @@
     "emd": "모라동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 모라동 409-13 모라창신그린힐아파트",
+    "builder": "(주)창 신 주 택",
+    "entrance": "계단식",
+    "useArea": "12310.74",
+    "bjdCode": "2653010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 150,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61772809",
@@ -75,7 +159,21 @@
     "emd": "모라동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 모라동 421 학산그린타운",
+    "builder": "(주)학산주택",
+    "entrance": "계단식",
+    "useArea": "12491.78",
+    "bjdCode": "2653010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 163,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61772810",
@@ -86,7 +184,21 @@
     "emd": "모라동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 모라동 991 모라리버빌아파트",
+    "builder": "(주)모라하이빌주택",
+    "entrance": "계단식",
+    "useArea": "12042.54",
+    "bjdCode": "2653010200",
+    "aptType": "주상복합",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 160,
+      "u135": 1,
+      "o135": 0
+    }
   },
   {
     "code": "A61775202",
@@ -97,7 +209,21 @@
     "emd": "모라동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 모라동 552 모라백양그린아파트",
+    "builder": "대한주택공사",
+    "entrance": "복도식",
+    "useArea": "50047.2",
+    "bjdCode": "2653010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1080,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61775307",
@@ -108,7 +234,21 @@
     "emd": "모라동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 모라동 75 부산모라주공3",
+    "builder": "한국토지주택공사",
+    "entrance": "복도식",
+    "useArea": "67025.7",
+    "bjdCode": "2653010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 2385,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61775401",
@@ -119,7 +259,21 @@
     "emd": "모라동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 모라동 75 백양푸른숲입주자대표회의",
+    "builder": "대한주택공사",
+    "entrance": "복도식",
+    "useArea": "41798.16",
+    "bjdCode": "2653010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 900,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61775706",
@@ -130,7 +284,21 @@
     "emd": "모라동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 모라동 1357 우성아파트",
+    "builder": "우성",
+    "entrance": "계단식",
+    "useArea": "70669.2",
+    "bjdCode": "2653010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 646,
+      "u135": 90,
+      "o135": 60
+    }
   },
   {
     "code": "A61781706",
@@ -141,7 +309,21 @@
     "emd": "모라동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 모라동 552 모라주공1단지",
+    "builder": "한국토지주택공사",
+    "entrance": "복도식",
+    "useArea": "71115.03",
+    "bjdCode": "2653010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 2529,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61781801",
@@ -152,7 +334,21 @@
     "emd": "모라동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 모라동 1366-1 모라무학아파트",
+    "builder": "무학건설",
+    "entrance": "계단식",
+    "useArea": "17344.69",
+    "bjdCode": "2653010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 205,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61781802",
@@ -163,7 +359,21 @@
     "emd": "모라동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 모라동 313 모라우성2차아파트",
+    "builder": "(주)우성건설 (주)우성종합건설",
+    "entrance": "계단식",
+    "useArea": "17570.3",
+    "bjdCode": "2653010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 88,
+      "u85": 110,
+      "u135": 22,
+      "o135": 0
+    }
   },
   {
     "code": "A61781803",
@@ -174,7 +384,21 @@
     "emd": "모라동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 모라동 314 화인타워아파트",
+    "builder": "화인건설",
+    "entrance": "계단식",
+    "useArea": "16892.28",
+    "bjdCode": "2653010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 122,
+      "u85": 123,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61781804",
@@ -185,7 +409,21 @@
     "emd": "모라동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 모라동 334 모라삼정그린코아아파트",
+    "builder": "삼정주택",
+    "entrance": "계단식",
+    "useArea": "41596.195",
+    "bjdCode": "2653010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 313,
+      "u135": 125,
+      "o135": 0
+    }
   },
   {
     "code": "A61781805",
@@ -196,7 +434,21 @@
     "emd": "모라동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 모라동 203 모라벽산아파트",
+    "builder": "벽산건설",
+    "entrance": "계단식",
+    "useArea": "62568.72",
+    "bjdCode": "2653010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 270,
+      "u85": 426,
+      "u135": 84,
+      "o135": 0
+    }
   },
   {
     "code": "A61781807",
@@ -207,7 +459,21 @@
     "emd": "모라동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 모라동 1361 모라동원타운",
+    "builder": "(주)동원개발",
+    "entrance": "계단식",
+    "useArea": "79221.9",
+    "bjdCode": "2653010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 300,
+      "u85": 810,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61781808",
@@ -218,7 +484,21 @@
     "emd": "모라동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 모라동 1362 우신모라아파트",
+    "builder": "우신종합건설(주)",
+    "entrance": "복도식",
+    "useArea": "104327.25",
+    "bjdCode": "2653010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 945,
+      "u85": 675,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020827",
@@ -229,7 +509,21 @@
     "emd": "덕포동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 덕포동 416-7 사상덕포비룡벨로스텔라",
+    "builder": "이광희비룡건설(주)",
+    "entrance": "계단식",
+    "useArea": "6576.38",
+    "bjdCode": "2653010300",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 143,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021442",
@@ -240,7 +534,21 @@
     "emd": "덕포동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 덕포동 198- 덕포유원아파트",
+    "builder": "(주)유원건설",
+    "entrance": "계단식",
+    "useArea": "16447.15",
+    "bjdCode": "2653010300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 190,
+      "u85": 90,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023104",
@@ -251,7 +559,21 @@
     "emd": "덕포동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 덕포동 795 사상 중흥S-클래스 그랜드센트럴",
+    "builder": "중흥토건",
+    "entrance": "혼합식",
+    "useArea": "117626.3685",
+    "bjdCode": "2653010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 38,
+    "areaBreak": {
+      "u60": 438,
+      "u85": 1076,
+      "u135": 58,
+      "o135": 0
+    }
   },
   {
     "code": "A61704001",
@@ -262,7 +584,21 @@
     "emd": "덕포동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 덕포동 38 벽산하나로타운",
+    "builder": "벽산",
+    "entrance": "계단식",
+    "useArea": "23185.89",
+    "bjdCode": "2653010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 273,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61704002",
@@ -273,7 +609,21 @@
     "emd": "덕포동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 덕포동 386-3 덕포벽산블루밍",
+    "builder": "벽산건설(주)",
+    "entrance": "계단식",
+    "useArea": "28966.3842",
+    "bjdCode": "2653010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 28,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 350,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61777902",
@@ -284,7 +634,21 @@
     "emd": "덕포동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 덕포동 58 덕포청구아파트",
+    "builder": "(주)청구",
+    "entrance": "계단식",
+    "useArea": "32541.435",
+    "bjdCode": "2653010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 185,
+      "u85": 199,
+      "u135": 48,
+      "o135": 0
+    }
   },
   {
     "code": "A61777903",
@@ -295,7 +659,21 @@
     "emd": "덕포동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 덕포동 793 덕포경동메르빌",
+    "builder": "부산서부지원",
+    "entrance": "계단식",
+    "useArea": "39298.3262",
+    "bjdCode": "2653010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 27,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 517,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61778004",
@@ -306,7 +684,21 @@
     "emd": "덕포동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 덕포동 386-1 벽산늘푸른아파트",
+    "builder": "벽산건설",
+    "entrance": "계단식",
+    "useArea": "33492.84",
+    "bjdCode": "2653010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 211,
+      "u85": 275,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61778005",
@@ -317,7 +709,21 @@
     "emd": "덕포동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 덕포동 49 덕포신익타운",
+    "builder": "벽산건설",
+    "entrance": "계단식",
+    "useArea": "35348.55",
+    "bjdCode": "2653010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 420,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61781003",
@@ -328,7 +734,21 @@
     "emd": "덕포동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 덕포동 762 부원파크타운",
+    "builder": "부원주택",
+    "entrance": "계단식",
+    "useArea": "28749.06",
+    "bjdCode": "2653010300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 54,
+      "u85": 366,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61781005",
@@ -339,7 +759,21 @@
     "emd": "덕포동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 덕포동 761-1 덕포자유아파트",
+    "builder": "자유건설",
+    "entrance": "복도식",
+    "useArea": "49836",
+    "bjdCode": "2653010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 330,
+      "u85": 420,
+      "u135": 30,
+      "o135": 0
+    }
   },
   {
     "code": "A61781102",
@@ -350,7 +784,21 @@
     "emd": "덕포동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 덕포동 51 오양힐타운아파트",
+    "builder": "고려산업개발(주)",
+    "entrance": "계단식",
+    "useArea": "32197.35",
+    "bjdCode": "2653010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 284,
+      "u135": 68,
+      "o135": 0
+    }
   },
   {
     "code": "A61781201",
@@ -361,7 +809,21 @@
     "emd": "덕포동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 덕포동 789 덕포남영아파트",
+    "builder": "(유)남영건설",
+    "entrance": "복도식",
+    "useArea": "16384.95",
+    "bjdCode": "2653010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 400,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021604",
@@ -372,7 +834,21 @@
     "emd": "괘법동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 괘법동 545-4 부산 사상 네오리더스",
+    "builder": "네오건설",
+    "entrance": "복도식",
+    "useArea": "4001",
+    "bjdCode": "2653010400",
+    "aptType": "도시형 생활주택(아파트)",
+    "mgrType": "위탁관리",
+    "topFloor": 26,
+    "areaBreak": {
+      "u60": 125,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022174",
@@ -383,7 +859,21 @@
     "emd": "괘법동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 괘법동 527-2 보해썬시티리버파크",
+    "builder": "(주)보해토건,(주)도아종합건설",
+    "entrance": "계단식",
+    "useArea": "14998.1222",
+    "bjdCode": "2653010400",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 38,
+      "u85": 176,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022312",
@@ -394,7 +884,21 @@
     "emd": "괘법동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 괘법동 510-5 사상더베스트아파트",
+    "builder": "(주)대정종합건설 ",
+    "entrance": "복도식",
+    "useArea": "6537.4295",
+    "bjdCode": "2653010400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리(직영+위탁)",
+    "topFloor": 9,
+    "areaBreak": {
+      "u60": 181,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023295",
@@ -405,7 +909,21 @@
     "emd": "괘법동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 괘법동 550-2 사상역봄여름가을겨울",
+    "builder": "주원건설",
+    "entrance": "계단식",
+    "useArea": "10293.222",
+    "bjdCode": "2653010400",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 31,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 150,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023544",
@@ -416,7 +934,21 @@
     "emd": "괘법동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 괘법동 526-2 센트럴 스타힐스",
+    "builder": "서희건설",
+    "entrance": "혼합식",
+    "useArea": "60903.1738",
+    "bjdCode": "2653010400",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 39,
+    "areaBreak": {
+      "u60": 532,
+      "u85": 342,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024370",
@@ -427,7 +959,21 @@
     "emd": "괘법동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 괘법동 564-8 사상역 포르투나 더테라스",
+    "builder": "기해건설주식회사",
+    "entrance": "복도식",
+    "useArea": "4640.0598",
+    "bjdCode": "2653010400",
+    "aptType": "도시형 생활주택(주상복합)",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 234,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027329",
@@ -438,7 +984,21 @@
     "emd": "괘법동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 괘법동 509-6 사상샬레",
+    "builder": "화산건설(주)",
+    "entrance": "계단식",
+    "useArea": "7592.55",
+    "bjdCode": "2653010400",
+    "aptType": "도시형 생활주택(주상복합)",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 172,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61775801",
@@ -449,7 +1009,21 @@
     "emd": "괘법동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 괘법동 522-3 괘법LH",
+    "builder": "일신 이앤시",
+    "entrance": "복도식",
+    "useArea": "13997.05",
+    "bjdCode": "2653010400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 291,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61775901",
@@ -460,7 +1034,21 @@
     "emd": "괘법동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 괘법동 516-1 괘법한신아파트",
+    "builder": "한신건설",
+    "entrance": "혼합식",
+    "useArea": "36453.05",
+    "bjdCode": "2653010400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 180,
+      "u85": 172,
+      "u135": 82,
+      "o135": 0
+    }
   },
   {
     "code": "A61776003",
@@ -471,7 +1059,21 @@
     "emd": "괘법동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 괘법동 516-3 괘법2차한신아파트",
+    "builder": "한신공영(주)",
+    "entrance": "계단식",
+    "useArea": "82983.6",
+    "bjdCode": "2653010400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 450,
+      "u85": 544,
+      "u135": 100,
+      "o135": 0
+    }
   },
   {
     "code": "A61780802",
@@ -482,7 +1084,21 @@
     "emd": "괘법동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 괘법동 519-1 사상강변동원아파트",
+    "builder": "동진건설",
+    "entrance": "계단식",
+    "useArea": "43787",
+    "bjdCode": "2653010400",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 200,
+      "u85": 400,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026009",
@@ -493,7 +1109,21 @@
     "emd": "감전동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 감전동 118-6 예서두레라움아파트",
+    "builder": "예서종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "8962.9422",
+    "bjdCode": "2653010500",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 190,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10028191",
@@ -504,7 +1134,21 @@
     "emd": "감전동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 감전동 337 감전엘에이치",
+    "builder": "계룡건설",
+    "entrance": "복도식",
+    "useArea": "28144.78",
+    "bjdCode": "2653010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 622,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021467",
@@ -515,7 +1159,21 @@
     "emd": "주례동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 주례동 519-6 주례맨션",
+    "builder": "주례",
+    "entrance": "계단식",
+    "useArea": "12569.3",
+    "bjdCode": "2653010600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 120,
+      "u85": 90,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021758",
@@ -526,7 +1184,21 @@
     "emd": "주례동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 주례동 213-7 주례창우블루빌아파트",
+    "builder": "(주)창우",
+    "entrance": "계단식",
+    "useArea": "7630.7794",
+    "bjdCode": "2653010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 80,
+      "u85": 38,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022337",
@@ -537,7 +1209,21 @@
     "emd": "주례동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 주례동 122- 주례조양아파트",
+    "builder": "조양",
+    "entrance": "계단식",
+    "useArea": "17764.05",
+    "bjdCode": "2653010600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 245,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10023571",
@@ -548,7 +1234,21 @@
     "emd": "주례동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 주례동 1289 주례롯데캐슬골드스마트",
+    "builder": "롯데건설",
+    "entrance": "계단식",
+    "useArea": "79274.1426",
+    "bjdCode": "2653010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 37,
+    "areaBreak": {
+      "u60": 118,
+      "u85": 880,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10026975",
@@ -559,7 +1259,21 @@
     "emd": "주례동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 주례동 116-2 주례경동리인아파트",
+    "builder": "경동건설(주)",
+    "entrance": "계단식",
+    "useArea": "62728.8134",
+    "bjdCode": "2653010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 26,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 839,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61701002",
@@ -570,7 +1284,21 @@
     "emd": "주례동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 주례동 239 주례한일유앤아이아파트",
+    "builder": "한일건설(주)",
+    "entrance": "계단식",
+    "useArea": "93914.7",
+    "bjdCode": "2653010600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 264,
+      "u85": 382,
+      "u135": 216,
+      "o135": 126
+    }
   },
   {
     "code": "A61770101",
@@ -581,7 +1309,21 @@
     "emd": "주례동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 주례동 55-139 주례경동윈츠빌아파트",
+    "builder": "주식회사경동",
+    "entrance": "복도식",
+    "useArea": "10974.55",
+    "bjdCode": "2653010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 286,
+      "u85": 26,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61776104",
@@ -592,7 +1334,21 @@
     "emd": "주례동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 주례동 10-21 주례반도보라매머드아파트",
+    "builder": "(주)반도종합관리",
+    "entrance": "계단식",
+    "useArea": "94777.53",
+    "bjdCode": "2653010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 515,
+      "u85": 547,
+      "u135": 144,
+      "o135": 0
+    }
   },
   {
     "code": "A61776303",
@@ -603,7 +1359,21 @@
     "emd": "주례동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 주례동 595 주례럭키아파트",
+    "builder": "LG",
+    "entrance": "혼합식",
+    "useArea": "137685.74",
+    "bjdCode": "2653010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 735,
+      "u85": 1558,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61778608",
@@ -614,7 +1384,21 @@
     "emd": "주례동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 주례동 955-2 주례청구아파트",
+    "builder": "청구",
+    "entrance": "계단식",
+    "useArea": "65964.8",
+    "bjdCode": "2653010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 267,
+      "u85": 488,
+      "u135": 76,
+      "o135": 0
+    }
   },
   {
     "code": "A61783201",
@@ -625,7 +1409,21 @@
     "emd": "주례동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 주례동 3-32 주례한효아파트",
+    "builder": "한효건설(주)",
+    "entrance": "계단식",
+    "useArea": "26174.16",
+    "bjdCode": "2653010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 241,
+      "u85": 138,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61783202",
@@ -636,7 +1434,21 @@
     "emd": "주례동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 주례동 10-4 신주례2차LG아파트",
+    "builder": "LG건설(주)",
+    "entrance": "혼합식",
+    "useArea": "74220.658",
+    "bjdCode": "2653010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 470,
+      "u85": 226,
+      "u135": 84,
+      "o135": 94
+    }
   },
   {
     "code": "A61783203",
@@ -647,7 +1459,21 @@
     "emd": "주례동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 주례동 3-16 LG신주례1단지아파트",
+    "builder": "엘지건설",
+    "entrance": "혼합식",
+    "useArea": "83527.838",
+    "bjdCode": "2653010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 439,
+      "u85": 296,
+      "u135": 130,
+      "o135": 88
+    }
   },
   {
     "code": "A61783402",
@@ -658,7 +1484,21 @@
     "emd": "주례동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 주례동 530-5 주례현대무지개아파트",
+    "builder": "현대건설주식회사",
+    "entrance": "계단식",
+    "useArea": "92876.58",
+    "bjdCode": "2653010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 587,
+      "u135": 390,
+      "o135": 0
+    }
   },
   {
     "code": "A61783601",
@@ -669,7 +1509,21 @@
     "emd": "주례동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 주례동 286 주례동일2차아파트",
+    "builder": "(주)동일주택",
+    "entrance": "계단식",
+    "useArea": "16261.28",
+    "bjdCode": "2653010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 102,
+      "u85": 130,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61783603",
@@ -680,7 +1534,21 @@
     "emd": "주례동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 주례동 305 주례현대아파트",
+    "builder": "현대종합건설",
+    "entrance": "계단식",
+    "useArea": "20687",
+    "bjdCode": "2653010600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 10,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 259,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61783605",
@@ -691,7 +1559,21 @@
     "emd": "주례동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 주례동 1010-3 벽산신화",
+    "builder": "신화개발",
+    "entrance": "혼합식",
+    "useArea": "31717.44",
+    "bjdCode": "2653010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 15,
+      "u85": 308,
+      "u135": 60,
+      "o135": 0
+    }
   },
   {
     "code": "A61783606",
@@ -702,7 +1584,21 @@
     "emd": "주례동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 주례동 316 주례대성",
+    "builder": "대성건설",
+    "entrance": "계단식",
+    "useArea": "22639.6",
+    "bjdCode": "2653010600",
+    "aptType": "주상복합",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 420,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61783607",
@@ -713,7 +1609,21 @@
     "emd": "주례동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 주례동 939 주례동일1차아파트",
+    "builder": "동일종합건설",
+    "entrance": "계단식",
+    "useArea": "40569.02",
+    "bjdCode": "2653010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 192,
+      "u85": 224,
+      "u135": 40,
+      "o135": 42
+    }
   },
   {
     "code": "A61783801",
@@ -724,7 +1634,21 @@
     "emd": "주례동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 주례동 616-4 주례벽산아파트",
+    "builder": "벽산건설(주)",
+    "entrance": "계단식",
+    "useArea": "21310.84",
+    "bjdCode": "2653010600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 263,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61785102",
@@ -735,7 +1659,21 @@
     "emd": "주례동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 주례동 991 주례제일타워맨션",
+    "builder": "(주)벽산개발",
+    "entrance": "계단식",
+    "useArea": "20889.52",
+    "bjdCode": "2653010600",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 246,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021395",
@@ -746,7 +1684,21 @@
     "emd": "학장동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 학장동 437- 삼정송림아파트",
+    "builder": "삼정건설",
+    "entrance": "계단식",
+    "useArea": "10262.88",
+    "bjdCode": "2653010700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 230,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021421",
@@ -757,7 +1709,21 @@
     "emd": "학장동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 학장동 574-13 청파아파트",
+    "builder": "청파건설",
+    "entrance": "계단식",
+    "useArea": "9294.3",
+    "bjdCode": "2653010700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 190,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61776907",
@@ -768,7 +1734,21 @@
     "emd": "학장동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 학장동 819 학장금강",
+    "builder": "금강종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "60813.6",
+    "bjdCode": "2653010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 730,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61777010",
@@ -779,7 +1759,21 @@
     "emd": "학장동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 학장동 820-1 학장무학",
+    "builder": "(주)무학건설",
+    "entrance": "계단식",
+    "useArea": "58804.27",
+    "bjdCode": "2653010700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 684,
+      "u85": 209,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61777105",
@@ -790,7 +1784,21 @@
     "emd": "학장동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 학장동 168 학장벽산아파트",
+    "builder": "벽산개발(주)",
+    "entrance": "계단식",
+    "useArea": "57689.6",
+    "bjdCode": "2653010700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 526,
+      "o135": 0
+    }
   },
   {
     "code": "A61777312",
@@ -801,7 +1809,21 @@
     "emd": "학장동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 학장동 573-1 학장반도보라타운",
+    "builder": "(주)반도종합건설",
+    "entrance": "계단식",
+    "useArea": "82870.98",
+    "bjdCode": "2653010700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 384,
+      "u85": 458,
+      "u135": 82,
+      "o135": 74
+    }
   },
   {
     "code": "A61777409",
@@ -812,7 +1834,21 @@
     "emd": "학장동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 학장동 167-3 구덕대림",
+    "builder": "(주)대림산업",
+    "entrance": "혼합식",
+    "useArea": "61855.2",
+    "bjdCode": "2653010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 195,
+      "u85": 630,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61777410",
@@ -823,7 +1859,21 @@
     "emd": "학장동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 학장동 168-7 학장1지구도개공임대",
+    "builder": "국제종합토건(주)",
+    "entrance": "복도식",
+    "useArea": "20390.4",
+    "bjdCode": "2653010700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 720,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61777411",
@@ -834,7 +1884,21 @@
     "emd": "학장동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 학장동 858 학장삼정그린코아",
+    "builder": "주식회사 삼정기업",
+    "entrance": "계단식",
+    "useArea": "33118.5988",
+    "bjdCode": "2653010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 331,
+      "u85": 180,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61777502",
@@ -845,7 +1909,21 @@
     "emd": "학장동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 학장동 571-4 학장극동",
+    "builder": "극동건설",
+    "entrance": "혼합식",
+    "useArea": "27494.9",
+    "bjdCode": "2653010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 105,
+      "u85": 110,
+      "u135": 0,
+      "o135": 84
+    }
   },
   {
     "code": "A61777711",
@@ -856,7 +1934,21 @@
     "emd": "학장동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 학장동 574-82 학장목화",
+    "builder": "도시개발공사",
+    "entrance": "복도식",
+    "useArea": "48827.475",
+    "bjdCode": "2653010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 999,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61777803",
@@ -867,7 +1959,21 @@
     "emd": "학장동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 학장동 574-111 학장1차삼성",
+    "builder": "삼성물산(주)",
+    "entrance": "혼합식",
+    "useArea": "26256.24",
+    "bjdCode": "2653010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 300,
+      "u85": 116,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61777806",
@@ -878,7 +1984,21 @@
     "emd": "학장동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 학장동 574-57 학장동2차삼성",
+    "builder": "삼성물산",
+    "entrance": "계단식",
+    "useArea": "39663.006",
+    "bjdCode": "2653010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 187,
+      "u85": 362,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61784101",
@@ -889,7 +2009,21 @@
     "emd": "학장동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 학장동 173-16 구덕극동",
+    "builder": "(주)우성",
+    "entrance": "혼합식",
+    "useArea": "19532.21",
+    "bjdCode": "2653010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 125,
+      "u85": 149,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61784104",
@@ -900,7 +2034,21 @@
     "emd": "학장동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 학장동 210-1 학장동양",
+    "builder": "(주)동양종합기술건설",
+    "entrance": "계단식",
+    "useArea": "23476.89",
+    "bjdCode": "2653010700",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 357,
+      "u85": 85,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61784208",
@@ -911,7 +2059,21 @@
     "emd": "학장동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 학장동 571-3 신구덕우성",
+    "builder": "우성건설",
+    "entrance": "계단식",
+    "useArea": "61080.78",
+    "bjdCode": "2653010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 229,
+      "u85": 440,
+      "u135": 94,
+      "o135": 0
+    }
   },
   {
     "code": "A61784213",
@@ -922,7 +2084,21 @@
     "emd": "학장동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 학장동 168-8 구학마을아파트",
+    "builder": "도시개발공사",
+    "entrance": "복도식",
+    "useArea": "51415.2",
+    "bjdCode": "2653010700",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1110,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021303",
@@ -933,7 +2109,21 @@
     "emd": "엄궁동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 엄궁동 37-3 신흥동백아파트",
+    "builder": "동백건설",
+    "entrance": "계단식",
+    "useArea": "10341.72",
+    "bjdCode": "2653010800",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 6,
+    "areaBreak": {
+      "u60": 60,
+      "u85": 96,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61703003",
@@ -944,7 +2134,21 @@
     "emd": "엄궁동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 엄궁동 225-1 신엄궁대동아파트",
+    "builder": "대동주택",
+    "entrance": "계단식",
+    "useArea": "26143.22",
+    "bjdCode": "2653010800",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 24,
+    "areaBreak": {
+      "u60": 168,
+      "u85": 190,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61776508",
@@ -955,7 +2159,21 @@
     "emd": "엄궁동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 엄궁동 669-2 엄궁대림아파트",
+    "builder": "고려개발(주)",
+    "entrance": "계단식",
+    "useArea": "58921.35",
+    "bjdCode": "2653010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 441,
+      "u85": 150,
+      "u135": 150,
+      "o135": 0
+    }
   },
   {
     "code": "A61776509",
@@ -966,7 +2184,21 @@
     "emd": "엄궁동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 엄궁동 726 엄궁롯데캐슬리버아파트",
+    "builder": "롯데건설",
+    "entrance": "계단식",
+    "useArea": "182643.8706",
+    "bjdCode": "2653010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 29,
+    "areaBreak": {
+      "u60": 96,
+      "u85": 909,
+      "u135": 685,
+      "o135": 162
+    }
   },
   {
     "code": "A61776710",
@@ -977,7 +2209,21 @@
     "emd": "엄궁동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 엄궁동 683-3 엄궁한신2차아파트",
+    "builder": "(주)한신공영",
+    "entrance": "계단식",
+    "useArea": "74596.24",
+    "bjdCode": "2653010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 540,
+      "u85": 376,
+      "u135": 100,
+      "o135": 0
+    }
   },
   {
     "code": "A61776811",
@@ -988,7 +2234,21 @@
     "emd": "엄궁동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 엄궁동 680-1 엄궁코오롱아파트",
+    "builder": "코오롱건설",
+    "entrance": "계단식",
+    "useArea": "83875.26",
+    "bjdCode": "2653010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 748,
+      "u85": 254,
+      "u135": 156,
+      "o135": 0
+    }
   },
   {
     "code": "A61778306",
@@ -999,7 +2259,21 @@
     "emd": "엄궁동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 엄궁동 202 엄궁아파트",
+    "builder": "무건축",
+    "entrance": "계단식",
+    "useArea": "19458",
+    "bjdCode": "2653010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 460,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61778405",
@@ -1010,7 +2284,21 @@
     "emd": "엄궁동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 엄궁동 25-110 엄궁럭키아파트",
+    "builder": "럭키",
+    "entrance": "계단식",
+    "useArea": "34845.03",
+    "bjdCode": "2653010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 441,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61778507",
@@ -1021,7 +2309,21 @@
     "emd": "엄궁동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 엄궁동 680-2 엄궁쌍용스윗닷홈",
+    "builder": "쌍용건설",
+    "entrance": "계단식",
+    "useArea": "44218.1743",
+    "bjdCode": "2653010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 26,
+    "areaBreak": {
+      "u60": 345,
+      "u85": 222,
+      "u135": 40,
+      "o135": 0
+    }
   },
   {
     "code": "A61782802",
@@ -1032,7 +2334,21 @@
     "emd": "엄궁동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 엄궁동 1-10 엄궁삼성타워아파트",
+    "builder": "삼성건설(주)",
+    "entrance": "혼합식",
+    "useArea": "15361.5",
+    "bjdCode": "2653010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 90,
+      "u85": 118,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61782804",
@@ -1043,7 +2359,21 @@
     "emd": "엄궁동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 엄궁동 1 무학다솜타운",
+    "builder": "서안건설(주)",
+    "entrance": "복도식",
+    "useArea": "20351.68",
+    "bjdCode": "2653010800",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 387,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A61782901",
@@ -1054,6 +2384,20 @@
     "emd": "엄궁동",
     "sigunguCode": "26530",
     "sido": "부산광역시",
-    "sigungu": "사상구"
+    "sigungu": "사상구",
+    "jibunAddr": "부산광역시 사상구 엄궁동 183 엄궁한신1차아파트",
+    "builder": "한신공영주식회사",
+    "entrance": "계단식",
+    "useArea": "14978.2",
+    "bjdCode": "2653010800",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 80,
+      "u85": 120,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

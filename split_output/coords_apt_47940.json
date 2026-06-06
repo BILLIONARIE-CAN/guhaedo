@@ -8,7 +8,20 @@
     "emd": "울릉읍",
     "sigunguCode": "47940",
     "sido": "경상북도",
-    "sigungu": "울릉군"
+    "sigungu": "울릉군",
+    "jibunAddr": "경상북도 울릉군 울릉읍 도동리 240-1 LH천년나무 도동",
+    "builder": "(주)건양이엔지 외5",
+    "entrance": "복도식",
+    "useArea": "2311.68",
+    "bjdCode": "4794025024",
+    "mgrType": "위탁관리",
+    "topFloor": 8,
+    "areaBreak": {
+      "u60": 72,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022343",
@@ -19,7 +32,20 @@
     "emd": "울릉읍",
     "sigunguCode": "47940",
     "sido": "경상북도",
-    "sigungu": "울릉군"
+    "sigungu": "울릉군",
+    "jibunAddr": "경상북도 울릉군 울릉읍 저동리 463- 저동휴먼시아",
+    "builder": "진덕산업(주)외4",
+    "entrance": "복도식",
+    "useArea": "3014.89",
+    "bjdCode": "4794025025",
+    "mgrType": "위탁관리",
+    "topFloor": 4,
+    "areaBreak": {
+      "u60": 71,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022345",
@@ -30,7 +56,20 @@
     "emd": "서면",
     "sigunguCode": "47940",
     "sido": "경상북도",
-    "sigungu": "울릉군"
+    "sigungu": "울릉군",
+    "jibunAddr": "경상북도 울릉군 서면 남서리 55- LH천년나무 남서",
+    "builder": "(주)건양이엔지 외5",
+    "entrance": "복도식",
+    "useArea": "477.34",
+    "bjdCode": "4794031025",
+    "mgrType": "위탁관리",
+    "topFloor": 4,
+    "areaBreak": {
+      "u60": 22,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022342",
@@ -41,6 +80,19 @@
     "emd": "북면",
     "sigunguCode": "47940",
     "sido": "경상북도",
-    "sigungu": "울릉군"
+    "sigungu": "울릉군",
+    "jibunAddr": "경상북도 울릉군 북면 천부리 703-1 천부LH천년나무",
+    "builder": "(주)건양이엔지  외5",
+    "entrance": "복도식",
+    "useArea": "347.68",
+    "bjdCode": "4794032024",
+    "mgrType": "위탁관리",
+    "topFloor": 4,
+    "areaBreak": {
+      "u60": 16,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

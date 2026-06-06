@@ -8,7 +8,21 @@
     "emd": "망정동",
     "sigunguCode": "47230",
     "sido": "경상북도",
-    "sigungu": "영천시"
+    "sigungu": "영천시",
+    "jibunAddr": "경상북도 영천시 망정동 309-2 영천시 보성스타팰리스 아파트",
+    "builder": "피지디",
+    "entrance": "계단식",
+    "useArea": "10563.1",
+    "bjdCode": "4723010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 114,
+      "u85": 0,
+      "u135": 32,
+      "o135": 0
+    }
   },
   {
     "code": "A10027826",
@@ -19,7 +33,21 @@
     "emd": "망정동",
     "sigunguCode": "47230",
     "sido": "경상북도",
-    "sigungu": "영천시"
+    "sigungu": "영천시",
+    "jibunAddr": "경상북도 영천시 망정동 461 영천인터불고코아루",
+    "builder": "(주)인터불고건설",
+    "entrance": "계단식",
+    "useArea": "39106.806",
+    "bjdCode": "4723010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 27,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 471,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A77075101",
@@ -30,7 +58,21 @@
     "emd": "망정동",
     "sigunguCode": "47230",
     "sido": "경상북도",
-    "sigungu": "영천시"
+    "sigungu": "영천시",
+    "jibunAddr": "경상북도 영천시 망정동 129 망정1주공아파트",
+    "builder": "한국토지주택공사",
+    "entrance": "복도식",
+    "useArea": "15449.59",
+    "bjdCode": "4723010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 327,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A77075102",
@@ -41,7 +83,21 @@
     "emd": "망정동",
     "sigunguCode": "47230",
     "sido": "경상북도",
-    "sigungu": "영천시"
+    "sigungu": "영천시",
+    "jibunAddr": "경상북도 영천시 망정동 116 망정4주공아파트",
+    "builder": "(주) 태왕",
+    "entrance": "복도식",
+    "useArea": "17677.22",
+    "bjdCode": "4723010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 373,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A77075103",
@@ -52,7 +108,21 @@
     "emd": "망정동",
     "sigunguCode": "47230",
     "sido": "경상북도",
-    "sigungu": "영천시"
+    "sigungu": "영천시",
+    "jibunAddr": "경상북도 영천시 망정동 129 망정주공2단지아파트",
+    "builder": "경남(201동),고합(202동~206동)",
+    "entrance": "계단식",
+    "useArea": "26769.9",
+    "bjdCode": "4723010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 450,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A77075105",
@@ -63,7 +133,21 @@
     "emd": "망정동",
     "sigunguCode": "47230",
     "sido": "경상북도",
-    "sigungu": "영천시"
+    "sigungu": "영천시",
+    "jibunAddr": "경상북도 영천시 망정동 116 망정3주공아파트",
+    "builder": "(주)서한",
+    "entrance": "계단식",
+    "useArea": "28005.33",
+    "bjdCode": "4723010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 477,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A77075106",
@@ -74,7 +158,21 @@
     "emd": "망정동",
     "sigunguCode": "47230",
     "sido": "경상북도",
-    "sigungu": "영천시"
+    "sigungu": "영천시",
+    "jibunAddr": "경상북도 영천시 망정동 461-1 영천청솔아파트",
+    "builder": "(주)한국토지신탁",
+    "entrance": "복도식",
+    "useArea": "30439.743",
+    "bjdCode": "4723010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 645,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A77075107",
@@ -85,7 +183,21 @@
     "emd": "망정동",
     "sigunguCode": "47230",
     "sido": "경상북도",
-    "sigungu": "영천시"
+    "sigungu": "영천시",
+    "jibunAddr": "경상북도 영천시 망정동 378-1 영천망정5단지",
+    "builder": "서희건설",
+    "entrance": "복도식",
+    "useArea": "26839.95",
+    "bjdCode": "4723010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 603,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A77075108",
@@ -96,7 +208,21 @@
     "emd": "망정동",
     "sigunguCode": "47230",
     "sido": "경상북도",
-    "sigungu": "영천시"
+    "sigungu": "영천시",
+    "jibunAddr": "경상북도 영천시 망정동 468 영천아이존빌스타",
+    "builder": "DS종합건설",
+    "entrance": "계단식",
+    "useArea": "58952.6448",
+    "bjdCode": "4723010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 536,
+      "u85": 316,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A77075206",
@@ -107,7 +233,21 @@
     "emd": "망정동",
     "sigunguCode": "47230",
     "sido": "경상북도",
-    "sigungu": "영천시"
+    "sigungu": "영천시",
+    "jibunAddr": "경상북도 영천시 망정동 462-2 창신영천타운",
+    "builder": "(주)창신",
+    "entrance": "복도식",
+    "useArea": "78797.7",
+    "bjdCode": "4723010200",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1335,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A77075304",
@@ -118,7 +258,21 @@
     "emd": "망정동",
     "sigunguCode": "47230",
     "sido": "경상북도",
-    "sigungu": "영천시"
+    "sigungu": "영천시",
+    "jibunAddr": "경상북도 영천시 망정동 177-1 영천청호아파트",
+    "builder": "청호주택(주)",
+    "entrance": "복도식",
+    "useArea": "28575",
+    "bjdCode": "4723010200",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 345,
+      "u85": 120,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021065",
@@ -129,7 +283,21 @@
     "emd": "야사동",
     "sigunguCode": "47230",
     "sido": "경상북도",
-    "sigungu": "영천시"
+    "sigungu": "영천시",
+    "jibunAddr": "경상북도 영천시 야사동 92- 금성아파트",
+    "builder": "금성주택",
+    "entrance": "계단식",
+    "useArea": "5906.925",
+    "bjdCode": "4723010300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 120,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021223",
@@ -140,7 +308,21 @@
     "emd": "야사동",
     "sigunguCode": "47230",
     "sido": "경상북도",
-    "sigungu": "영천시"
+    "sigungu": "영천시",
+    "jibunAddr": "경상북도 영천시 야사동 301- 주공1차아파트",
+    "builder": "대한주택공사",
+    "entrance": "계단식",
+    "useArea": "7811.2",
+    "bjdCode": "4723010300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 200,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021870",
@@ -151,7 +333,21 @@
     "emd": "야사동",
     "sigunguCode": "47230",
     "sido": "경상북도",
-    "sigungu": "영천시"
+    "sigungu": "영천시",
+    "jibunAddr": "경상북도 영천시 야사동 311- 야사주공2차아파트",
+    "builder": "동신건설(주)",
+    "entrance": "계단식",
+    "useArea": "9968.9",
+    "bjdCode": "4723010300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 230,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022150",
@@ -162,7 +358,21 @@
     "emd": "야사동",
     "sigunguCode": "47230",
     "sido": "경상북도",
-    "sigungu": "영천시"
+    "sigungu": "영천시",
+    "jibunAddr": "경상북도 영천시 야사동 211-4 유성타워맨션",
+    "builder": "확인불가",
+    "entrance": "복도식",
+    "useArea": "6408.6",
+    "bjdCode": "4723010300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 110,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027138",
@@ -173,7 +383,21 @@
     "emd": "야사동",
     "sigunguCode": "47230",
     "sido": "경상북도",
-    "sigungu": "영천시"
+    "sigungu": "영천시",
+    "jibunAddr": "경상북도 영천시 야사동 671 한신더휴영천퍼스트",
+    "builder": "한신공영",
+    "entrance": "계단식",
+    "useArea": "95212.7344",
+    "bjdCode": "4723010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 48,
+      "u85": 1076,
+      "u135": 23,
+      "o135": 0
+    }
   },
   {
     "code": "A77075505",
@@ -184,7 +408,21 @@
     "emd": "야사동",
     "sigunguCode": "47230",
     "sido": "경상북도",
-    "sigungu": "영천시"
+    "sigungu": "영천시",
+    "jibunAddr": "경상북도 영천시 야사동 186 문화아파트",
+    "builder": "협화주택",
+    "entrance": "계단식",
+    "useArea": "25846.08",
+    "bjdCode": "4723010300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 342,
+      "u85": 128,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A77075506",
@@ -195,7 +433,21 @@
     "emd": "야사동",
     "sigunguCode": "47230",
     "sido": "경상북도",
-    "sigungu": "영천시"
+    "sigungu": "영천시",
+    "jibunAddr": "경상북도 영천시 야사동 120 야사주공4단지아파트",
+    "builder": "미림건설",
+    "entrance": "복도식",
+    "useArea": "13262.49",
+    "bjdCode": "4723010300",
+    "aptType": "아파트",
+    "mgrType": "자치관리(직영)",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 447,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A77075603",
@@ -206,7 +458,21 @@
     "emd": "야사동",
     "sigunguCode": "47230",
     "sido": "경상북도",
-    "sigungu": "영천시"
+    "sigungu": "영천시",
+    "jibunAddr": "경상북도 영천시 야사동 120 야사주공5단지아파트",
+    "builder": "한국주택공사",
+    "entrance": "복도식",
+    "useArea": "17293.17",
+    "bjdCode": "4723010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 326,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A77075606",
@@ -217,7 +483,21 @@
     "emd": "야사동",
     "sigunguCode": "47230",
     "sido": "경상북도",
-    "sigungu": "영천시"
+    "sigungu": "영천시",
+    "jibunAddr": "경상북도 영천시 야사동 120 영천주공3차",
+    "builder": "경일건설(주)",
+    "entrance": "계단식",
+    "useArea": "19952.88",
+    "bjdCode": "4723010300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 500,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A77075702",
@@ -228,7 +508,21 @@
     "emd": "야사동",
     "sigunguCode": "47230",
     "sido": "경상북도",
-    "sigungu": "영천시"
+    "sigungu": "영천시",
+    "jibunAddr": "경상북도 영천시 야사동 202 영천우방타운",
+    "builder": "(주)우방",
+    "entrance": "계단식",
+    "useArea": "22977.75",
+    "bjdCode": "4723010300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 19,
+    "areaBreak": {
+      "u60": 146,
+      "u85": 114,
+      "u135": 38,
+      "o135": 0
+    }
   },
   {
     "code": "A77075801",
@@ -239,7 +533,21 @@
     "emd": "야사동",
     "sigunguCode": "47230",
     "sido": "경상북도",
-    "sigungu": "영천시"
+    "sigungu": "영천시",
+    "jibunAddr": "경상북도 영천시 야사동 350-2 영천청구2차타운",
+    "builder": "(주)청구",
+    "entrance": "혼합식",
+    "useArea": "20868",
+    "bjdCode": "4723010300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 100,
+      "u85": 120,
+      "u135": 40,
+      "o135": 0
+    }
   },
   {
     "code": "A77075804",
@@ -250,7 +558,21 @@
     "emd": "야사동",
     "sigunguCode": "47230",
     "sido": "경상북도",
-    "sigungu": "영천시"
+    "sigungu": "영천시",
+    "jibunAddr": "경상북도 영천시 야사동 350-1 영천청구1차타운",
+    "builder": "(주)청구",
+    "entrance": "혼합식",
+    "useArea": "35157.2",
+    "bjdCode": "4723010300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 80,
+      "u85": 240,
+      "u135": 80,
+      "o135": 0
+    }
   },
   {
     "code": "A77002001",
@@ -261,7 +583,21 @@
     "emd": "문내동",
     "sigunguCode": "47230",
     "sido": "경상북도",
-    "sigungu": "영천시"
+    "sigungu": "영천시",
+    "jibunAddr": "경상북도 영천시 문내동 1-1 영천문내대동다숲아파트",
+    "builder": "(주)대동이엔씨",
+    "entrance": "계단식",
+    "useArea": "31362.7612",
+    "bjdCode": "4723010400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 224,
+      "u135": 105,
+      "o135": 0
+    }
   },
   {
     "code": "A77002003",
@@ -272,7 +608,21 @@
     "emd": "문내동",
     "sigunguCode": "47230",
     "sido": "경상북도",
-    "sigungu": "영천시"
+    "sigungu": "영천시",
+    "jibunAddr": "경상북도 영천시 문내동 207 영천문내",
+    "builder": "LH",
+    "entrance": "혼합식",
+    "useArea": "27515.66",
+    "bjdCode": "4723010400",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 506,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021472",
@@ -283,7 +633,21 @@
     "emd": "문외동",
     "sigunguCode": "47230",
     "sido": "경상북도",
-    "sigungu": "영천시"
+    "sigungu": "영천시",
+    "jibunAddr": "경상북도 영천시 문외동 49- 무궁화타운",
+    "builder": "영진건설",
+    "entrance": "계단식",
+    "useArea": "16822.08",
+    "bjdCode": "4723010500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 3,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 198,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025063",
@@ -294,7 +658,21 @@
     "emd": "문외동",
     "sigunguCode": "47230",
     "sido": "경상북도",
-    "sigungu": "영천시"
+    "sigungu": "영천시",
+    "jibunAddr": "경상북도 영천시 문외동 384 LH영천센트럴타운",
+    "builder": "한일건설(주)",
+    "entrance": "혼합식",
+    "useArea": "45030.77",
+    "bjdCode": "4723010500",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 204,
+      "u85": 402,
+      "u135": 4,
+      "o135": 0
+    }
   },
   {
     "code": "A77003001",
@@ -305,7 +683,21 @@
     "emd": "문외동",
     "sigunguCode": "47230",
     "sido": "경상북도",
-    "sigungu": "영천시"
+    "sigungu": "영천시",
+    "jibunAddr": "경상북도 영천시 문외동 200 삼산무지개타운",
+    "builder": "삼산주택",
+    "entrance": "계단식",
+    "useArea": "31304.64",
+    "bjdCode": "4723010500",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 21,
+    "areaBreak": {
+      "u60": 150,
+      "u85": 200,
+      "u135": 40,
+      "o135": 0
+    }
   },
   {
     "code": "A10024395",
@@ -316,7 +708,21 @@
     "emd": "완산동",
     "sigunguCode": "47230",
     "sido": "경상북도",
-    "sigungu": "영천시"
+    "sigungu": "영천시",
+    "jibunAddr": "경상북도 영천시 완산동 1437 이편한세상영천2단지",
+    "builder": "대림이엔시",
+    "entrance": "계단식",
+    "useArea": "54383.5178",
+    "bjdCode": "4723011300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 535,
+      "u135": 88,
+      "o135": 0
+    }
   },
   {
     "code": "A10024396",
@@ -327,7 +733,21 @@
     "emd": "완산동",
     "sigunguCode": "47230",
     "sido": "경상북도",
-    "sigungu": "영천시"
+    "sigungu": "영천시",
+    "jibunAddr": "경상북도 영천시 완산동 1436 이편한세상 영천1단지",
+    "builder": "DL이앤씨",
+    "entrance": "계단식",
+    "useArea": "51344.8468",
+    "bjdCode": "4723011300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 511,
+      "u135": 68,
+      "o135": 8
+    }
   },
   {
     "code": "A10025721",
@@ -338,7 +758,21 @@
     "emd": "완산동",
     "sigunguCode": "47230",
     "sido": "경상북도",
-    "sigungu": "영천시"
+    "sigungu": "영천시",
+    "jibunAddr": "경상북도 영천시 완산동 1470 영천미소지움프리미엄",
+    "builder": "(주)신성건설",
+    "entrance": "계단식",
+    "useArea": "62643.6022",
+    "bjdCode": "4723011300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 28,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 710,
+      "u135": 63,
+      "o135": 0
+    }
   },
   {
     "code": "A10026364",
@@ -349,7 +783,21 @@
     "emd": "완산동",
     "sigunguCode": "47230",
     "sido": "경상북도",
-    "sigungu": "영천시"
+    "sigungu": "영천시",
+    "jibunAddr": "경상북도 영천시 완산동 686-3 영천완산미소지움1차",
+    "builder": "신성건설",
+    "entrance": "계단식",
+    "useArea": "45914.6068",
+    "bjdCode": "4723011300",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 25,
+    "areaBreak": {
+      "u60": 188,
+      "u85": 408,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A77075901",
@@ -360,7 +808,21 @@
     "emd": "완산동",
     "sigunguCode": "47230",
     "sido": "경상북도",
-    "sigungu": "영천시"
+    "sigungu": "영천시",
+    "jibunAddr": "경상북도 영천시 완산동 988-4 완산청구하이츠",
+    "builder": "(주)청구",
+    "entrance": "계단식",
+    "useArea": "19538.9",
+    "bjdCode": "4723011300",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 100,
+      "u85": 160,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A77014001",
@@ -371,7 +833,21 @@
     "emd": "봉동",
     "sigunguCode": "47230",
     "sido": "경상북도",
-    "sigungu": "영천시"
+    "sigungu": "영천시",
+    "jibunAddr": "경상북도 영천시 봉동 304 가와인",
+    "builder": "선원건설",
+    "entrance": "계단식",
+    "useArea": "37030.5477",
+    "bjdCode": "4723011600",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 125,
+      "u85": 348,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A77076101",
@@ -382,7 +858,21 @@
     "emd": "금호읍",
     "sigunguCode": "47230",
     "sido": "경상북도",
-    "sigungu": "영천시"
+    "sigungu": "영천시",
+    "jibunAddr": "경상북도 영천시 금호읍 교대리 410 금호우방타운",
+    "builder": "(주)우방",
+    "entrance": "혼합식",
+    "useArea": "28877.72",
+    "bjdCode": "4723025021",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 494,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A77080101",
@@ -393,7 +883,21 @@
     "emd": "금호읍",
     "sigunguCode": "47230",
     "sido": "경상북도",
-    "sigungu": "영천시"
+    "sigungu": "영천시",
+    "jibunAddr": "경상북도 영천시 금호읍 원제리 18-2 금호윤성모닝타운",
+    "builder": "(주) 윤성",
+    "entrance": "복도식",
+    "useArea": "52275.24",
+    "bjdCode": "4723025026",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 1746,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A77084101",
@@ -404,7 +908,21 @@
     "emd": "고경면",
     "sigunguCode": "47230",
     "sido": "경상북도",
-    "sigungu": "영천시"
+    "sigungu": "영천시",
+    "jibunAddr": "경상북도 영천시 고경면 단포리 407-106 해피포유아파트",
+    "builder": "용성종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "15346.6716",
+    "bjdCode": "4723038021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 51,
+      "u85": 104,
+      "u135": 28,
+      "o135": 0
+    }
   },
   {
     "code": "A10022021",
@@ -415,6 +933,20 @@
     "emd": "북안면",
     "sigunguCode": "47230",
     "sido": "경상북도",
-    "sigungu": "영천시"
+    "sigungu": "영천시",
+    "jibunAddr": "경상북도 영천시 북안면 임포리 244- 범진아파트",
+    "builder": "주식회사 범진",
+    "entrance": "복도식",
+    "useArea": "7492.5",
+    "bjdCode": "4723039034",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 135,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

@@ -8,7 +8,21 @@
     "emd": "간성읍",
     "sigunguCode": "51820",
     "sido": "강원특별자치도",
-    "sigungu": "고성군"
+    "sigungu": "고성군",
+    "jibunAddr": "강원특별자치도 고성군 간성읍 신안리 620 간성 스위트 엠 센트럴 아파트",
+    "builder": "(주) 이랜드 건설",
+    "entrance": "계단식",
+    "useArea": "19553.3746",
+    "bjdCode": "5182025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 267,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A21980302",
@@ -19,7 +33,21 @@
     "emd": "간성읍",
     "sigunguCode": "51820",
     "sido": "강원특별자치도",
-    "sigungu": "고성군"
+    "sigungu": "고성군",
+    "jibunAddr": "강원특별자치도 고성군 간성읍 신안리 111 고성삼익아파트",
+    "builder": "삼익건설(주)",
+    "entrance": "혼합식",
+    "useArea": "40068.24",
+    "bjdCode": "5182025022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 524,
+      "u85": 150,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022047",
@@ -30,7 +58,21 @@
     "emd": "간성읍",
     "sigunguCode": "51820",
     "sido": "강원특별자치도",
-    "sigungu": "고성군"
+    "sigungu": "고성군",
+    "jibunAddr": "강원특별자치도 고성군 간성읍 상리 443-2 고성석미모닝파크",
+    "builder": "석미건설",
+    "entrance": "계단식",
+    "useArea": "9010.45",
+    "bjdCode": "5182025025",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 35,
+      "u85": 87,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A21980101",
@@ -41,7 +83,21 @@
     "emd": "간성읍",
     "sigunguCode": "51820",
     "sido": "강원특별자치도",
-    "sigungu": "고성군"
+    "sigungu": "고성군",
+    "jibunAddr": "강원특별자치도 고성군 간성읍 상리 483-1 간성대명아파트",
+    "builder": "(주)대명",
+    "entrance": "복도식",
+    "useArea": "8553.6",
+    "bjdCode": "5182025025",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 168,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020383",
@@ -52,7 +108,21 @@
     "emd": "거진읍",
     "sigunguCode": "51820",
     "sido": "강원특별자치도",
-    "sigungu": "고성군"
+    "sigungu": "고성군",
+    "jibunAddr": "강원특별자치도 고성군 거진읍 거진리 410- 거진해당화아파트",
+    "builder": "SG건설",
+    "entrance": "복도식",
+    "useArea": "3346.64",
+    "bjdCode": "5182025321",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 8,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10021995",
@@ -63,7 +133,21 @@
     "emd": "거진읍",
     "sigunguCode": "51820",
     "sido": "강원특별자치도",
-    "sigungu": "고성군"
+    "sigungu": "고성군",
+    "jibunAddr": "강원특별자치도 고성군 거진읍 거진리 428-5 거진동진아파트",
+    "builder": "동진건설",
+    "entrance": "계단식",
+    "useArea": "8199",
+    "bjdCode": "5182025321",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 5,
+    "areaBreak": {
+      "u60": 120,
+      "u85": 20,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A21990001",
@@ -74,7 +158,21 @@
     "emd": "거진읍",
     "sigunguCode": "51820",
     "sido": "강원특별자치도",
-    "sigungu": "고성군"
+    "sigungu": "고성군",
+    "jibunAddr": "강원특별자치도 고성군 거진읍 송포리 165 성원오션상떼빌아파트",
+    "builder": "성원 산업개발",
+    "entrance": "복도식",
+    "useArea": "15029",
+    "bjdCode": "5182025333",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 196,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024309",
@@ -85,7 +183,21 @@
     "emd": "토성면",
     "sigunguCode": "51820",
     "sido": "강원특별자치도",
-    "sigungu": "고성군"
+    "sigungu": "고성군",
+    "jibunAddr": "강원특별자치도 고성군 토성면 천진리 476 고성천진 한신더휴아파트",
+    "builder": "한신공영(주)",
+    "entrance": "계단식",
+    "useArea": "39427.6859",
+    "bjdCode": "5182033021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 26,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 479,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A21983301",
@@ -96,7 +208,21 @@
     "emd": "토성면",
     "sigunguCode": "51820",
     "sido": "강원특별자치도",
-    "sigungu": "고성군"
+    "sigungu": "고성군",
+    "jibunAddr": "강원특별자치도 고성군 토성면 청간리 217 유진클래시움아파트",
+    "builder": "유진종합건설",
+    "entrance": "복도식",
+    "useArea": "12117.15",
+    "bjdCode": "5182033022",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 17,
+    "areaBreak": {
+      "u60": 246,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020262",
@@ -107,7 +233,20 @@
     "emd": "토성면",
     "sigunguCode": "51820",
     "sido": "강원특별자치도",
-    "sigungu": "고성군"
+    "sigungu": "고성군",
+    "jibunAddr": "강원특별자치도 고성군 토성면 아야진리 115-1 아야진라메르데시앙아파트",
+    "builder": "태영건설",
+    "entrance": "계단식",
+    "useArea": "85089.0412",
+    "bjdCode": "5182033023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "areaBreak": {
+      "u60": 0,
+      "u85": 257,
+      "u135": 474,
+      "o135": 80
+    }
   },
   {
     "code": "A10024424",
@@ -118,7 +257,21 @@
     "emd": "토성면",
     "sigunguCode": "51820",
     "sido": "강원특별자치도",
-    "sigungu": "고성군"
+    "sigungu": "고성군",
+    "jibunAddr": "강원특별자치도 고성군 토성면 봉포리 384 고성봉포코아루 오션비치아파트",
+    "builder": "대양종합건설",
+    "entrance": "계단식",
+    "useArea": "27057.0838",
+    "bjdCode": "5182033035",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 370,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024766",
@@ -129,6 +282,20 @@
     "emd": "토성면",
     "sigunguCode": "51820",
     "sido": "강원특별자치도",
-    "sigungu": "고성군"
+    "sigungu": "고성군",
+    "jibunAddr": "강원특별자치도 고성군 토성면 봉포리 381 봉포스위트엠오션파크",
+    "builder": "(주)인토피앤디",
+    "entrance": "계단식",
+    "useArea": "14795.1362",
+    "bjdCode": "5182033035",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 184,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]

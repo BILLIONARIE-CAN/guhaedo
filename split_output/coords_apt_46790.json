@@ -8,7 +8,21 @@
     "emd": "화순읍",
     "sigunguCode": "46790",
     "sido": "전라남도",
-    "sigungu": "화순군"
+    "sigungu": "화순군",
+    "jibunAddr": "전라남도 화순군 화순읍 교리 409- 화순한국아델리움더숲",
+    "builder": "삼호산업개발",
+    "entrance": "계단식",
+    "useArea": "10220.0783",
+    "bjdCode": "4679025021",
+    "aptType": "도시형 생활주택(아파트)",
+    "mgrType": "위탁관리",
+    "topFloor": 23,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 134,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024232",
@@ -19,7 +33,21 @@
     "emd": "화순읍",
     "sigunguCode": "46790",
     "sido": "전라남도",
-    "sigungu": "화순군"
+    "sigungu": "화순군",
+    "jibunAddr": "전라남도 화순군 화순읍 교리 405 힐스테이트 화순",
+    "builder": "현대엔지니어링",
+    "entrance": "계단식",
+    "useArea": "53229.033",
+    "bjdCode": "4679025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 30,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 546,
+      "u135": 52,
+      "o135": 6
+    }
   },
   {
     "code": "A51975106",
@@ -30,7 +58,21 @@
     "emd": "화순읍",
     "sigunguCode": "46790",
     "sido": "전라남도",
-    "sigungu": "화순군"
+    "sigungu": "화순군",
+    "jibunAddr": "전라남도 화순군 화순읍 교리 70-1 공간아파트",
+    "builder": "(주)공간주택",
+    "entrance": "계단식",
+    "useArea": "24753.42",
+    "bjdCode": "4679025021",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 13,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 302,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A51975117",
@@ -41,7 +83,21 @@
     "emd": "화순읍",
     "sigunguCode": "46790",
     "sido": "전라남도",
-    "sigungu": "화순군"
+    "sigungu": "화순군",
+    "jibunAddr": "전라남도 화순군 화순읍 교리 70-5 서라2차",
+    "builder": "서라건설",
+    "entrance": "계단식",
+    "useArea": "11756.472",
+    "bjdCode": "4679025021",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 18,
+    "areaBreak": {
+      "u60": 196,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A51975109",
@@ -52,7 +108,21 @@
     "emd": "화순읍",
     "sigunguCode": "46790",
     "sido": "전라남도",
-    "sigungu": "화순군"
+    "sigungu": "화순군",
+    "jibunAddr": "전라남도 화순군 화순읍 만연리 237-1 금호아파트",
+    "builder": "금호건설",
+    "entrance": "계단식",
+    "useArea": "40889.27",
+    "bjdCode": "4679025023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 506,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A51975110",
@@ -63,7 +133,21 @@
     "emd": "화순읍",
     "sigunguCode": "46790",
     "sido": "전라남도",
-    "sigungu": "화순군"
+    "sigungu": "화순군",
+    "jibunAddr": "전라남도 화순군 화순읍 만연리 231 화순부영1차아파트",
+    "builder": "(주)부영",
+    "entrance": "복도식",
+    "useArea": "41764.8",
+    "bjdCode": "4679025023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 840,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A51975112",
@@ -74,7 +158,21 @@
     "emd": "화순읍",
     "sigunguCode": "46790",
     "sido": "전라남도",
-    "sigungu": "화순군"
+    "sigungu": "화순군",
+    "jibunAddr": "전라남도 화순군 화순읍 만연리 243 화순부영3차아파트",
+    "builder": "(주)부영",
+    "entrance": "복도식",
+    "useArea": "59237.76",
+    "bjdCode": "4679025023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1244,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A51975115",
@@ -85,7 +183,21 @@
     "emd": "화순읍",
     "sigunguCode": "46790",
     "sido": "전라남도",
-    "sigungu": "화순군"
+    "sigungu": "화순군",
+    "jibunAddr": "전라남도 화순군 화순읍 만연리 244 화순부영5차",
+    "builder": "(주)부영",
+    "entrance": "복도식",
+    "useArea": "51217.92",
+    "bjdCode": "4679025023",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 1026,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A51980602",
@@ -96,7 +208,21 @@
     "emd": "화순읍",
     "sigunguCode": "46790",
     "sido": "전라남도",
-    "sigungu": "화순군"
+    "sigungu": "화순군",
+    "jibunAddr": "전라남도 화순군 화순읍 만연리 230 유창2차",
+    "builder": "유창건설",
+    "entrance": "계단식",
+    "useArea": "10751.4",
+    "bjdCode": "4679025023",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 180,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A51975111",
@@ -107,7 +233,21 @@
     "emd": "화순읍",
     "sigunguCode": "46790",
     "sido": "전라남도",
-    "sigungu": "화순군"
+    "sigungu": "화순군",
+    "jibunAddr": "전라남도 화순군 화순읍 신기리 405-3 화순부영6차",
+    "builder": "(주)부영",
+    "entrance": "복도식",
+    "useArea": "77968.8",
+    "bjdCode": "4679025024",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 1485,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A51975113",
@@ -118,7 +258,21 @@
     "emd": "화순읍",
     "sigunguCode": "46790",
     "sido": "전라남도",
-    "sigungu": "화순군"
+    "sigungu": "화순군",
+    "jibunAddr": "전라남도 화순군 화순읍 일심리 670 화순청전아파트",
+    "builder": "청전건설",
+    "entrance": "계단식",
+    "useArea": "42794.88",
+    "bjdCode": "4679025028",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 640,
+      "u85": 52,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A51980910",
@@ -129,7 +283,21 @@
     "emd": "화순읍",
     "sigunguCode": "46790",
     "sido": "전라남도",
-    "sigungu": "화순군"
+    "sigungu": "화순군",
+    "jibunAddr": "전라남도 화순군 화순읍 일심리 861 서라4차",
+    "builder": "세종건설",
+    "entrance": "혼합식",
+    "useArea": "27231.56",
+    "bjdCode": "4679025028",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 562,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A51975101",
@@ -140,7 +308,21 @@
     "emd": "화순읍",
     "sigunguCode": "46790",
     "sido": "전라남도",
-    "sigungu": "화순군"
+    "sigungu": "화순군",
+    "jibunAddr": "전라남도 화순군 화순읍 광덕리 321 유창3차아파트관리소",
+    "builder": "주)유창건설",
+    "entrance": "계단식",
+    "useArea": "11496.96",
+    "bjdCode": "4679025030",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 192,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A51975108",
@@ -151,7 +333,21 @@
     "emd": "화순읍",
     "sigunguCode": "46790",
     "sido": "전라남도",
-    "sigungu": "화순군"
+    "sigungu": "화순군",
+    "jibunAddr": "전라남도 화순군 화순읍 광덕리 300 화순부영2차아파트",
+    "builder": "(주)부영",
+    "entrance": "혼합식",
+    "useArea": "34080.24",
+    "bjdCode": "4679025030",
+    "aptType": "아파트",
+    "mgrType": "위탁관리(직영+위탁)",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 285,
+      "u85": 96,
+      "u135": 72,
+      "o135": 0
+    }
   },
   {
     "code": "A51980304",
@@ -162,7 +358,21 @@
     "emd": "화순읍",
     "sigunguCode": "46790",
     "sido": "전라남도",
-    "sigungu": "화순군"
+    "sigungu": "화순군",
+    "jibunAddr": "전라남도 화순군 화순읍 광덕리 321 미륭타운",
+    "builder": "미륭건설",
+    "entrance": "계단식",
+    "useArea": "19065.12",
+    "bjdCode": "4679025030",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 12,
+    "areaBreak": {
+      "u60": 12,
+      "u85": 216,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10020286",
@@ -174,7 +384,21 @@
     "sigunguCode": "46790",
     "sido": "전라남도",
     "sigungu": "화순군",
-    "hhldCnt": 341
+    "hhldCnt": 341,
+    "jibunAddr": "전라남도 화순군 화순읍 삼천리 1077- 화순 센템 모아엘가 트레뷰 아파트",
+    "builder": "모아건설산업(주)",
+    "entrance": "계단식",
+    "useArea": "28794.7605",
+    "bjdCode": "4679025031",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 32,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10022697",
@@ -185,7 +409,21 @@
     "emd": "화순읍",
     "sigunguCode": "46790",
     "sido": "전라남도",
-    "sigungu": "화순군"
+    "sigungu": "화순군",
+    "jibunAddr": "전라남도 화순군 화순읍 삼천리 1072 힐스테이트 화순2차 아파트",
+    "builder": "현대엔지니어링(주)",
+    "entrance": "계단식",
+    "useArea": "32642.0243",
+    "bjdCode": "4679025031",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 37,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 299,
+      "u135": 64,
+      "o135": 0
+    }
   },
   {
     "code": "A10024936",
@@ -196,7 +434,21 @@
     "emd": "화순읍",
     "sigunguCode": "46790",
     "sido": "전라남도",
-    "sigungu": "화순군"
+    "sigungu": "화순군",
+    "jibunAddr": "전라남도 화순군 화순읍 삼천리 1070 화순 한양립스 아파트",
+    "builder": "한양건설",
+    "entrance": "계단식",
+    "useArea": "50497.079",
+    "bjdCode": "4679025031",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 115,
+      "u85": 437,
+      "u135": 60,
+      "o135": 0
+    }
   },
   {
     "code": "A10027201",
@@ -207,7 +459,21 @@
     "emd": "화순읍",
     "sigunguCode": "46790",
     "sido": "전라남도",
-    "sigungu": "화순군"
+    "sigungu": "화순군",
+    "jibunAddr": "전라남도 화순군 화순읍 삼천리 1048 화순산이고운아파트",
+    "builder": "산이건설(주)",
+    "entrance": "계단식",
+    "useArea": "33156.5838",
+    "bjdCode": "4679025031",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 406,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10025631",
@@ -218,7 +484,21 @@
     "emd": "화순읍",
     "sigunguCode": "46790",
     "sido": "전라남도",
-    "sigungu": "화순군"
+    "sigungu": "화순군",
+    "jibunAddr": "전라남도 화순군 화순읍 대리 361 화순청미래아파트",
+    "builder": "청미래건설(주)",
+    "entrance": "계단식",
+    "useArea": "11726.0206",
+    "bjdCode": "4679025033",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 14,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 138,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10027637",
@@ -229,7 +509,21 @@
     "emd": "화순읍",
     "sigunguCode": "46790",
     "sido": "전라남도",
-    "sigungu": "화순군"
+    "sigungu": "화순군",
+    "jibunAddr": "전라남도 화순군 화순읍 대리 935 화순 광신프로그레스아파트",
+    "builder": "(주)광신종합건설",
+    "entrance": "계단식",
+    "useArea": "40253.3364",
+    "bjdCode": "4679025033",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 570,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A51975114",
@@ -240,7 +534,21 @@
     "emd": "화순읍",
     "sigunguCode": "46790",
     "sido": "전라남도",
-    "sigungu": "화순군"
+    "sigungu": "화순군",
+    "jibunAddr": "전라남도 화순군 화순읍 대리 121 대광로제비앙2차",
+    "builder": "대광건설",
+    "entrance": "복도식",
+    "useArea": "21236.4",
+    "bjdCode": "4679025033",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 494,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A51975116",
@@ -251,7 +559,21 @@
     "emd": "화순읍",
     "sigunguCode": "46790",
     "sido": "전라남도",
-    "sigungu": "화순군"
+    "sigungu": "화순군",
+    "jibunAddr": "전라남도 화순군 화순읍 대리 97-3 대광로제비앙",
+    "builder": "(주)대광건설",
+    "entrance": "복도식",
+    "useArea": "25441.35",
+    "bjdCode": "4679025033",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 453,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A51975118",
@@ -262,7 +584,21 @@
     "emd": "화순읍",
     "sigunguCode": "46790",
     "sido": "전라남도",
-    "sigungu": "화순군"
+    "sigungu": "화순군",
+    "jibunAddr": "전라남도 화순군 화순읍 대리 102 대성베르힐",
+    "builder": "대성베르힐건설(주)",
+    "entrance": "계단식",
+    "useArea": "30055.428",
+    "bjdCode": "4679025033",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 22,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 354,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A51975119",
@@ -273,7 +609,21 @@
     "emd": "화순읍",
     "sigunguCode": "46790",
     "sido": "전라남도",
-    "sigungu": "화순군"
+    "sigungu": "화순군",
+    "jibunAddr": "전라남도 화순군 화순읍 대리 155 흥용한고을",
+    "builder": "흥용건설",
+    "entrance": "복도식",
+    "useArea": "6325.02",
+    "bjdCode": "4679025033",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 11,
+    "areaBreak": {
+      "u60": 159,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A51975120",
@@ -284,7 +634,21 @@
     "emd": "화순읍",
     "sigunguCode": "46790",
     "sido": "전라남도",
-    "sigungu": "화순군"
+    "sigungu": "화순군",
+    "jibunAddr": "전라남도 화순군 화순읍 대리 37-8 화순한국아델리움",
+    "builder": "한국종합건설(주)",
+    "entrance": "계단식",
+    "useArea": "30162.634",
+    "bjdCode": "4679025033",
+    "aptType": "아파트",
+    "mgrType": "위탁관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 356,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A10024148",
@@ -295,7 +659,21 @@
     "emd": "화순읍",
     "sigunguCode": "46790",
     "sido": "전라남도",
-    "sigungu": "화순군"
+    "sigungu": "화순군",
+    "jibunAddr": "전라남도 화순군 화순읍 벽라리 601 화순 삼일파라뷰 에듀시티",
+    "builder": "파라뷰스테이(주)",
+    "entrance": "계단식",
+    "useArea": "41967.6011",
+    "bjdCode": "4679025035",
+    "aptType": "주상복합",
+    "mgrType": "위탁관리",
+    "topFloor": 27,
+    "areaBreak": {
+      "u60": 0,
+      "u85": 513,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A51980107",
@@ -306,7 +684,21 @@
     "emd": "화순읍",
     "sigunguCode": "46790",
     "sido": "전라남도",
-    "sigungu": "화순군"
+    "sigungu": "화순군",
+    "jibunAddr": "전라남도 화순군 화순읍 벽라리 37 화순서라3차아파트",
+    "builder": "서라건설",
+    "entrance": "계단식",
+    "useArea": "25044.06",
+    "bjdCode": "4679025035",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 20,
+    "areaBreak": {
+      "u60": 420,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   },
   {
     "code": "A51980205",
@@ -317,6 +709,20 @@
     "emd": "화순읍",
     "sigunguCode": "46790",
     "sido": "전라남도",
-    "sigungu": "화순군"
+    "sigungu": "화순군",
+    "jibunAddr": "전라남도 화순군 화순읍 계소리 135-1 화순오성2차아파트",
+    "builder": "오성산업",
+    "entrance": "혼합식",
+    "useArea": "15855.75",
+    "bjdCode": "4679025037",
+    "aptType": "아파트",
+    "mgrType": "자치관리",
+    "topFloor": 15,
+    "areaBreak": {
+      "u60": 299,
+      "u85": 0,
+      "u135": 0,
+      "o135": 0
+    }
   }
 ]
