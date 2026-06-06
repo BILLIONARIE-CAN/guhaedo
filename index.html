@@ -2370,11 +2370,11 @@ function pickComplex(code){
     [['세대수','ci-units',d.units?d.units+'세대':''],
      ['준공','ci-built',d.built||''],
      ['동수','ci-dong',d.dongCnt||''],
-     ['주차대수','ci-park',d.totalPark||''],
-     ['세대당 주차','ci-parkper',d.units&&d.totalPark?(d.totalPark/d.units).toFixed(2)+'대':''],
-     ['난방','ci-heat',d.heating||d.heat||''],
-     ['분양형태','ci-sale',d.supplyType||d.sale||''],
-     ['최고층','ci-top',d.maxFloor||d.topFloor||'']
+     ['최고층','ci-top',d.topFloor||''],
+     ['난방','ci-heat',d.heat||''],
+     ['분양형태','ci-sale',d.sale||''],
+     ['시공사','ci-builder',d.builder||''],
+     ['현관구조','ci-entrance',d.entrance||'']
     ].map(function(r){return '<div style="background:var(--bg);border-radius:var(--radius-sm);padding:5px 8px"><div style="font-size:10px;color:var(--text3)">'+r[0]+'</div><input type="text" id="'+r[1]+'" value="'+r[2]+'" style="width:100%;border:none;background:transparent;font-size:13px;font-weight:600;color:var(--text);padding:2px 0;font-family:inherit;outline:none" placeholder="직접 입력"></div>';}).join('')+
     '</div>';
 }
