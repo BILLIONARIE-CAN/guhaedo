@@ -1229,7 +1229,7 @@ async function loadAptData(sigunguName){
       if(!d.lat||!d.lng)return;
       const fullAddr=[d.sido,d.sigungu,d.emd].filter(Boolean).join(' ');
       const unitsCnt=d.units>0?d.units:(d.hhldCnt>0?d.hhldCnt:0);
-      MAP_DATA.push({id:'apt_'+(aptIdCounter++),type:'apt',name:d.name||'',addr:d.addr||fullAddr,built:d.built||'',dongCnt:d.dongCnt||'',heat:d.heat||'',saleType:d.sale||'',topFloor:d.topFloor||'',units:unitsCnt>0?unitsCnt+'세대':'',emd:d.emd||'',code:d.code||'',sale:'',jeonse:'',monthly:'',lat:d.lat,lng:d.lng,sido:d.sido||'',sigungu:d.sigungu||'',jibunAddr:d.jibunAddr||'',builder:d.builder||'',entrance:d.entrance||'',aptType:d.aptType||'',mgrType:d.mgrType||''});
+      MAP_DATA.push({id:'apt_'+(aptIdCounter++),type:'apt',name:d.name||'',addr:d.addr||fullAddr,built:d.built||'',dongCnt:d.dongCnt||'',heat:d.heat||'',saleType:d.sale||'',topFloor:d.topFloor||'',units:unitsCnt>0?unitsCnt+'세대':'',emd:d.emd||'',code:d.code||'',sale:'',jeonse:'',monthly:'',lat:d.lat,lng:d.lng,sido:d.sido||'',sigungu:d.sigungu||'',jibunAddr:d.jibunAddr||'',builder:d.builder||'',entrance:d.entrance||'',aptType:d.aptType||'',mgrType:d.mgrType||'',totalPark:d.totalPark||0});
     });
     renderVisibleMarkers('apt');
   }catch(e){}
@@ -1656,7 +1656,7 @@ function openAptDetail(d){
     infoRow('현관구조',d.entrance)+
     infoRow('분양형태',d.saleType)+
     infoRow('시공사',d.builder)+
-    infoRow('세대당 주차',d.parking)+
+    infoRow('총 주차대수',d.totalPark?d.totalPark.toLocaleString()+'대':'')+
     infoRow('면적타입',d.privArea)+
     infoRow('용적률',d.far?d.far+'%':'')+
     infoRow('건폐율',d.bcr?d.bcr+'%':'');
@@ -2375,7 +2375,8 @@ function pickComplex(code){
      ['난방','ci-heat',d.heat||''],
      ['분양형태','ci-sale',d.sale||''],
      ['시공사','ci-builder',d.builder||''],
-     ['현관구조','ci-entrance',d.entrance||'']
+     ['현관구조','ci-entrance',d.entrance||''],
+     ['총주차','ci-park',d.totalPark?d.totalPark+'대':'']
     ].map(function(r){return '<div style="background:var(--bg);border-radius:var(--radius-sm);padding:5px 8px"><div style="font-size:10px;color:var(--text3)">'+r[0]+'</div><input type="text" id="'+r[1]+'" value="'+r[2]+'" style="width:100%;border:none;background:transparent;font-size:13px;font-weight:600;color:var(--text);padding:2px 0;font-family:inherit;outline:none" placeholder="직접 입력"></div>';}).join('')+
     '</div>';
 }
