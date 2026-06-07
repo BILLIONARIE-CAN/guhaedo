@@ -675,12 +675,17 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
           <div style="font-size:15px;font-weight:700;margin-bottom:16px">📋 공문서 한번에 조회</div>
 
           <!-- 주소 검색 -->
-          <div style="display:flex;gap:8px;margin-bottom:8px">
+          <div style="display:flex;gap:8px;margin-bottom:6px">
             <input id="doc-addr-input" readonly placeholder="주소를 검색하세요" onclick="docSearchAddr()"
               style="flex:1;padding:10px 12px;border:1.5px solid var(--border);border-radius:var(--radius-sm);font-size:13px;font-family:inherit;cursor:pointer;background:#fff">
             <button onclick="docSearchAddr()" style="padding:10px 16px;background:var(--green);color:#fff;border:none;border-radius:var(--radius-sm);font-size:13px;font-weight:700;cursor:pointer;font-family:inherit;white-space:nowrap">주소 찾기</button>
           </div>
-          <div id="doc-addr-detail" style="font-size:12px;color:var(--text3);margin-bottom:16px;min-height:16px"></div>
+          <!-- 동호수 입력 (주소 선택 후 표시) -->
+          <div id="doc-hosu-wrap" style="display:none;gap:8px;margin-bottom:6px">
+            <input id="doc-dong-input" placeholder="동 (예: 101동)" style="flex:1;padding:8px 10px;border:1.5px solid var(--border);border-radius:var(--radius-sm);font-size:13px;font-family:inherit">
+            <input id="doc-ho-input" placeholder="호 (예: 1201호)" style="flex:1;padding:8px 10px;border:1.5px solid var(--border);border-radius:var(--radius-sm);font-size:13px;font-family:inherit">
+          </div>
+          <div id="doc-addr-detail" style="font-size:12px;color:var(--text3);margin-bottom:14px;min-height:16px"></div>
 
           <!-- 문서 버튼 6개 -->
           <div id="doc-btns" style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin-bottom:20px;opacity:0.4;pointer-events:none">
@@ -2390,40 +2395,52 @@ function toggleMyInfoPanel(){
 // ===== 공문서 조회 =====
 let docInfo={};
 
-function docSearchAddr(){
-  _openDocPostcode();
-}
+function docSearchAddr(){ _openDocPostcode(); }
+
 function _openDocPostcode(){
   new daum.Postcode({
     oncomplete:async function(d){
       const road=d.roadAddress||d.jibunAddress;
       ge('doc-addr-input').value=road;
       ge('doc-addr-detail').textContent='주소 분석 중...';
-      // 카카오 REST API로 상세정보 추출
       try{
         const r=await fetch('https://dapi.kakao.com/v2/local/search/address.json?query='+encodeURIComponent(d.jibunAddress||road),{headers:{'Authorization':'KakaoAK be82d140cac4386ee76d82cc16c65c3e'}});
         const j=await r.json();
         const a=j.documents&&j.documents[0];
         if(!a){ge('doc-addr-detail').textContent='주소를 찾을 수 없어요.';return;}
-        const addr=a.address||a.road_address;
+        const addr=a.address||{};
         const bCode=addr.b_code||d.bcode||'';
-        const bun=addr.main_address_no||d.bname||'';
+        const bun=addr.main_address_no||'0';
         const ji=addr.sub_address_no||'0';
         docInfo={
-          roadAddr: d.roadAddress||road,
-          jibunAddr: d.jibunAddress||road,
+          roadAddr:d.roadAddress||road,
+          jibunAddr:d.jibunAddress||road,
           bCode, sigunguCd:bCode.slice(0,5), bjdongCd:bCode.slice(5,10),
           bun, ji,
           buildingName:d.buildingName||'',
-          pnu: bCode+'1'+String(bun).padStart(4,'0')+String(ji).padStart(4,'0'),
+          isApt:d.buildingName&&(d.buildingName.includes('아파트')||d.buildingName.includes('APT')),
+          pnu:bCode+'1'+String(bun).padStart(4,'0')+String(ji).padStart(4,'0'),
         };
         ge('doc-addr-detail').innerHTML='<span style="color:var(--green-dark);font-weight:600">✓</span> '+docInfo.jibunAddr+(docInfo.buildingName?' ('+docInfo.buildingName+')':'');
-        const btns=ge('doc-btns');
-        btns.style.opacity='1'; btns.style.pointerEvents='auto';
+        // 동호수 입력란 표시
+        const hw=ge('doc-hosu-wrap');
+        hw.style.display='flex';
+        ge('doc-btns').style.opacity='1';
+        ge('doc-btns').style.pointerEvents='auto';
         ge('doc-result').style.display='none';
       }catch(e){ge('doc-addr-detail').textContent='오류: '+e.message;}
     }
   }).open();
+}
+
+function docFullAddr(){
+  const d=docInfo;
+  const dong=(ge('doc-dong-input').value||'').trim();
+  const ho=(ge('doc-ho-input').value||'').trim();
+  let full=d.roadAddr||d.jibunAddr;
+  if(dong) full+=' '+dong;
+  if(ho) full+=' '+ho;
+  return full;
 }
 
 async function docOpen(type){
@@ -2431,31 +2448,47 @@ async function docOpen(type){
   if(!d.bCode){toast('먼저 주소를 검색해주세요.');return;}
   const res=ge('doc-result');
   res.style.display='block';
+  const fullAddr=docFullAddr();
+
+  function copyAndOpen(url, label, note=''){
+    navigator.clipboard.writeText(fullAddr).catch(()=>{});
+    window.open(url,'_blank');
+    res.innerHTML=`<div style="background:var(--green-bg);border-radius:var(--radius-sm);padding:12px 16px;font-size:13px;color:var(--green-deeper)">
+      <b>${label}</b>이 열렸습니다. 아래 주소가 클립보드에 복사됐어요 — 사이트 검색창에 붙여넣기(Ctrl+V) 하세요.
+      ${note?'<br><span style="font-size:11px;opacity:.8">'+note+'</span>':''}
+      <div style="margin-top:8px;padding:6px 10px;background:#fff;border-radius:4px;font-size:12px;color:var(--text);font-weight:600">${fullAddr}</div>
+    </div>`;
+  }
 
   if(type==='registry'){
-    navigator.clipboard.writeText(d.roadAddr||d.jibunAddr).catch(()=>{});
-    window.open('https://www.iros.go.kr/pos1/jsp/main.jsp','_blank');
-    res.innerHTML='<div style="background:var(--green-bg);border-radius:var(--radius-sm);padding:12px 16px;font-size:13px;color:var(--green-deeper)">📜 <b>인터넷등기소</b>가 열렸습니다.<br>주소가 클립보드에 복사됐어요 — 사이트에서 붙여넣기 하세요.<br><span style="font-size:12px;opacity:.8">'+d.roadAddr+'</span></div>';
+    copyAndOpen('https://www.iros.go.kr/index.jsp','📜 인터넷등기소');
     return;
   }
   if(type==='land'){
-    window.open('https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13100000015&HighCtgCD=&tp_seq=01','_blank');
-    res.innerHTML='<div style="background:var(--green-bg);border-radius:var(--radius-sm);padding:12px 16px;font-size:13px;color:var(--green-deeper)">📄 <b>정부24 토지대장</b>이 열렸습니다. 주소를 직접 입력해주세요.</div>';
+    copyAndOpen('https://kras.go.kr/home/contents/contentsView.do?cntntsId=CM0152','📄 부동산종합공부시스템(토지대장)','로그인 후 주소 검색');
     return;
   }
   if(type==='jijuk'){
-    window.open('https://map.ngii.go.kr/ms/map/NlipMap.do?beforejump=1','_blank');
-    res.innerHTML='<div style="background:var(--green-bg);border-radius:var(--radius-sm);padding:12px 16px;font-size:13px;color:var(--green-deeper)">🗺️ <b>국토정보플랫폼 지적도</b>가 열렸습니다.</div>';
+    copyAndOpen('https://kras.go.kr/home/contents/contentsView.do?cntntsId=CM0152','🗺️ 부동산종합공부시스템(지적도)','로그인 후 지도 탭에서 확인');
     return;
   }
   if(type==='imya'){
-    window.open('https://map.ngii.go.kr/ms/map/NlipMap.do?beforejump=1','_blank');
-    res.innerHTML='<div style="background:var(--green-bg);border-radius:var(--radius-sm);padding:12px 16px;font-size:13px;color:var(--green-deeper)">🌲 <b>국토정보플랫폼 임야도</b>가 열렸습니다.</div>';
+    copyAndOpen('https://kras.go.kr/home/contents/contentsView.do?cntntsId=CM0152','🌲 부동산종합공부시스템(임야도)','로그인 후 지도 탭에서 확인');
     return;
   }
   if(type==='landuse'){
-    window.open('https://www.eum.go.kr/web/lu/luLandUseGd.do','_blank');
-    res.innerHTML='<div style="background:var(--green-bg);border-radius:var(--radius-sm);padding:12px 16px;font-size:13px;color:var(--green-deeper)">📐 <b>토지이음</b>이 열렸습니다. 주소를 직접 입력해주세요.</div>';
+    // 토지이음은 PNU로 직접 조회 가능
+    if(d.pnu&&d.pnu.length>=10){
+      window.open('https://www.eum.go.kr/web/am/amMain.jsp','_blank');
+      res.innerHTML=`<div style="background:var(--green-bg);border-radius:var(--radius-sm);padding:12px 16px;font-size:13px;color:var(--green-deeper)">
+        📐 <b>토지이음</b>이 열렸습니다.<br>
+        검색창에 아래 주소를 붙여넣기 하세요.<br>
+        <div style="margin-top:8px;padding:6px 10px;background:#fff;border-radius:4px;font-size:12px;font-weight:600">${d.jibunAddr}</div>
+      </div>`;
+      navigator.clipboard.writeText(d.jibunAddr).catch(()=>{});
+    } else {
+      copyAndOpen('https://www.eum.go.kr/web/am/amMain.jsp','📐 토지이음');
+    }
     return;
   }
   if(type==='building'){
