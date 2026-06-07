@@ -638,26 +638,43 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
 
     <!-- 로그인 후: 마이페이지 -->
     <div id="pro-screen-mypage" style="display:none">
+      <!-- 상단 헤더 -->
       <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:18px">
         <div>
           <div id="mypage-welcome" style="font-size:18px;font-weight:700"></div>
           <div style="font-size:12px;color:var(--text3);margin-top:2px" id="mypage-plan"></div>
         </div>
-        <button onclick="doLogout()" style="background:var(--bg);border:1px solid var(--border);border-radius:var(--radius-sm);padding:6px 14px;font-size:12px;cursor:pointer;font-family:inherit;color:var(--text2)">로그아웃</button>
+        <div style="display:flex;align-items:center;gap:8px">
+          <button onclick="toggleMyInfoPanel()" style="background:var(--bg);border:1px solid var(--border);border-radius:var(--radius-sm);padding:6px 14px;font-size:12px;cursor:pointer;font-family:inherit;color:var(--text2)">👤 내 정보</button>
+          <button onclick="doLogout()" style="background:var(--bg);border:1px solid var(--border);border-radius:var(--radius-sm);padding:6px 14px;font-size:12px;cursor:pointer;font-family:inherit;color:var(--text2)">로그아웃</button>
+        </div>
       </div>
+
+      <!-- 내 정보 패널 (토글) -->
+      <div id="myinfo-panel" style="display:none;background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:18px 20px;margin-bottom:16px">
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px">
+          <div style="font-size:14px;font-weight:700">내 정보</div>
+          <button onclick="toggleMyInfoPanel()" style="background:none;border:none;cursor:pointer;color:var(--text3);font-size:18px;line-height:1">×</button>
+        </div>
+        <div id="mypage-info" style="font-size:13px;color:var(--text2);line-height:2.2"></div>
+        <div style="margin-top:14px">
+          <div style="font-size:13px;font-weight:700;margin-bottom:8px;color:var(--text2)">요금제</div>
+          <div id="mypage-plan-detail" style="background:var(--green-bg);border-radius:var(--radius-sm);padding:10px 14px;font-size:13px;color:var(--green-deeper);font-weight:500"></div>
+        </div>
+      </div>
+
+      <!-- 탭 -->
       <div class="pro-tabs">
-        <div class="pro-tab active" onclick="showProTab(0)">매물 안내서 인쇄</div>
-        <div class="pro-tab" onclick="showProTab(1)">내 정보</div>
+        <div class="pro-tab active" onclick="showProTab(0)">📄 매물 안내서 인쇄</div>
+        <div class="pro-tab" onclick="showProTab(1)">📋 공문서 조회</div>
       </div>
       <div class="pro-sub active" id="pro-sub-0"></div>
       <div class="pro-sub" id="pro-sub-1">
-        <div style="background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:20px">
-          <div style="font-size:15px;font-weight:700;margin-bottom:14px">내 정보</div>
-          <div id="mypage-info" style="font-size:13px;color:var(--text2);line-height:2.2"></div>
-          <div style="margin-top:16px">
-            <div style="font-size:13px;font-weight:700;margin-bottom:10px;color:var(--text2)">요금제</div>
-            <div id="mypage-plan-detail" style="background:var(--green-bg);border-radius:var(--radius-sm);padding:12px 16px;font-size:13px;color:var(--green-deeper);font-weight:500"></div>
-          </div>
+        <div style="background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:32px 24px;text-align:center">
+          <div style="font-size:40px;margin-bottom:14px">📋</div>
+          <div style="font-size:16px;font-weight:700;margin-bottom:8px">공문서 한번에 조회</div>
+          <div style="font-size:13px;color:var(--text3);line-height:1.8">등기부등본 · 건축물대장 · 토지대장<br>지적도 · 임야도 · 토지이용계획확인서</div>
+          <div style="margin-top:20px;padding:14px 18px;background:var(--green-bg);border-radius:var(--radius-sm);font-size:12px;color:var(--green-deeper);font-weight:500">🚧 준비 중입니다</div>
         </div>
       </div>
     </div>
@@ -2321,6 +2338,10 @@ function showProTab(n){
   document.querySelectorAll('.pro-tab').forEach((t,i)=>t.classList.toggle('active',i===n));
   document.querySelectorAll('.pro-sub').forEach((s,i)=>s.classList.toggle('active',i===n));
   if(n===0) renderFavApts();
+}
+function toggleMyInfoPanel(){
+  const p=ge('myinfo-panel');
+  p.style.display=p.style.display==='none'?'block':'none';
 }
 
 // ===== 즐겨찾기 =====
