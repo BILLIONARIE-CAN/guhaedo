@@ -2412,7 +2412,8 @@ function listingHTML(){
     <!-- 버튼 -->
     <div style="display:flex;gap:8px;margin-top:4px;margin-bottom:20px">
       <button class="btn-clear" onclick="clearListing()" style="flex:1;height:44px">초기화</button>
-      <button class="btn-print" onclick="doPrint()" style="flex:2;height:44px;font-size:15px">🖨 미리보기 / 인쇄</button>
+      <button class="btn-print" onclick="doPrint()" style="flex:2;height:44px;font-size:15px">🖨 인쇄</button>
+      <button onclick="doSave()" style="flex:1;height:44px;background:var(--green-bg);color:var(--green-deeper);border:1.5px solid var(--green-mid);border-radius:var(--radius-sm);font-size:14px;font-weight:700;cursor:pointer;font-family:inherit">💾 저장</button>
     </div>
   </div>`;
 }
@@ -2543,28 +2544,33 @@ function onFavEmdChange(){
   list.innerHTML=apts.map(d=>`<div onclick="favSelectedCode='${d.code}';const sn=ge('fav-selected-name');sn.style.display='block';sn.textContent='✓ ${d.name.replace(/'/g,"\\'")}'" style="padding:9px 12px;cursor:pointer;font-size:13px;border-bottom:1px solid var(--border)">${d.name}</div>`).join('');
 }
 
+function _collectListingData(){
+  const complex=(_listingApt&&_listingApt.name)||gv('manual-complex')||gv('sel-complex')||'';
+  return {
+    complex,
+    addr:(_listingApt&&(_listingApt.addr||_listingApt.sigungu))||gv('manual-addr')||'',
+    units:gv('manual-units')||(_listingApt&&_listingApt.units?_listingApt.units+'세대':'')||'',
+    built:gv('manual-built')||(_listingApt&&_listingApt.built)||'',
+    park:gv('manual-park')||(_listingApt&&_listingApt.totalPark?_listingApt.totalPark+'대':'')||'',
+    dong:gv('input-dong')||'', ho:gv('input-ho')||'',
+    type:gv('input-type')||'', floor:gv('input-floor')||'',
+    dir:gv('input-dir')||'', movein:gv('input-movein')||'',
+    chkSale:ge('chk-sale')?.checked, chkJeonse:ge('chk-jeonse')?.checked, chkMonthly:ge('chk-monthly')?.checked,
+    sale:gv('p-sale')||'', jeonse:gv('p-jeonse')||'',
+    deposit:gv('p-deposit')||'', monthly:gv('p-monthly')||'',
+    special:gv('f-special')||'', desc:gv('f-desc')||''
+  };
+}
+function doSave(){
+  const data=_collectListingData();
+  if(!data.complex){toast('단지명을 입력해주세요.');return;}
+  savePrintHistory(data);
+  toast('💾 저장됐어요! 인쇄 기록 탭에서 확인하세요.');
+}
 function doPrint(){
-  // 단지명: 검색 선택 > 직접입력
-  const complex=(_listingApt&&_listingApt.name)||gv('manual-complex')||gv('sel-complex')||'단지명 미입력';
-  const addr=(_listingApt&&(_listingApt.addr||_listingApt.sigungu))||gv('manual-addr')||'';
-  const units=gv('manual-units')||(_listingApt&&_listingApt.units?_listingApt.units+'세대':'')||'';
-  const built=gv('manual-built')||(_listingApt&&_listingApt.built)||'';
-  const park=gv('manual-park')||(_listingApt&&_listingApt.totalPark?_listingApt.totalPark+'대':'')||'';
-  const dong=gv('input-dong')||'';
-  const ho=gv('input-ho')||'';
-  const type=gv('input-type')||'';
-  const floor=gv('input-floor')||'';
-  const dir=gv('input-dir')||'';
-  const movein=gv('input-movein')||'';
-  const chkSale=ge('chk-sale')?.checked;
-  const chkJeonse=ge('chk-jeonse')?.checked;
-  const chkMonthly=ge('chk-monthly')?.checked;
-  const sale=gv('p-sale')||'';
-  const jeonse=gv('p-jeonse')||'';
-  const deposit=gv('p-deposit')||'';
-  const monthly=gv('p-monthly')||'';
-  const special=gv('f-special')||'';
-  const desc=gv('f-desc')||'';
+  const h=_collectListingData();
+  const complex=h.complex||'단지명 미입력';
+  const {addr,units,built,park,dong,ho,type,floor,dir,movein,chkSale,chkJeonse,chkMonthly,sale,jeonse,deposit,monthly,special,desc}=h;
   const hoFull=dong&&ho?`${dong} ${ho}`:dong||ho||'';
   const photoHtml=listingPhotos.map(s=>`<img src="${s}" style="width:120px;height:85px;object-fit:cover;border-radius:6px;border:1px solid #eee">`).join('');
   const now=new Date(),ds=`${now.getFullYear()}.${String(now.getMonth()+1).padStart(2,'0')}.${String(now.getDate()).padStart(2,'0')}`;
@@ -2572,7 +2578,7 @@ function doPrint(){
   const priceBlocks=[[chkSale,'매매',sale?sale+'만원':'협의'],[chkJeonse,'전세',jeonse?jeonse+'만원':'협의'],[chkMonthly,'월세',monthlyLabel]].filter(r=>r[0]);
 
   // 인쇄 기록 저장
-  savePrintHistory({complex,addr,dong,ho,type,floor,dir,built,units,park,sale,jeonse,deposit,monthly,special,desc,movein,chkSale,chkJeonse,chkMonthly});
+  savePrintHistory({...h,complex});
 
   const content=`<div style="display:flex;justify-content:space-between;align-items:flex-start;border-bottom:2.5px solid #1D9E75;padding-bottom:14px;margin-bottom:18px"><div><div style="font-size:20px;font-weight:700;color:#1D9E75">아구<span style="color:#1a1a1a">구</span></div><div style="font-size:11px;color:#888;margin-top:2px">매물 안내서 · guhaedo.kr</div></div><div style="text-align:right;font-size:11px;color:#888;line-height:1.6">${ds}</div></div>
     <div style="font-size:26px;font-weight:700;color:#1a1a1a;margin-bottom:4px">${complex}</div>
