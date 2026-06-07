@@ -2465,7 +2465,35 @@ async function docOpen(type){
     return;
   }
   if(type==='land'){
-    copyAndOpen('https://kras.go.kr/home/contents/contentsView.do?cntntsId=CM0152','📄 부동산종합공부시스템(토지대장)','로그인 후 주소 검색');
+    res.innerHTML='<div style="padding:16px;text-align:center;color:var(--text3);font-size:13px">토지대장 조회 중...</div>';
+    try{
+      if(!d.pnu||d.pnu.length<15){throw new Error('PNU 계산 실패 — 지번주소로 다시 검색해주세요');}
+      const r=await fetch(`/api/land?pnu=${d.pnu}`);
+      const j=await r.json();
+      const items=j?.landCharacterStis?.landCharacterSti;
+      const list=items?(Array.isArray(items)?items:[items]):[];
+      if(list.length===0){
+        res.innerHTML='<div style="padding:14px;background:#fff3cd;border-radius:var(--radius-sm);font-size:13px;color:#856404">⚠️ 토지대장 정보를 찾을 수 없어요.<br><small><a href="https://kras.go.kr/home/contents/contentsView.do?cntntsId=CM0152" target="_blank" style="color:var(--green)">부동산종합공부시스템</a>에서 직접 조회해주세요.</small></div>';
+        return;
+      }
+      const lnd=list[0];
+      const rows=`
+        <tr><td>소재지</td><td>${d.jibunAddr||'-'}</td></tr>
+        <tr><td>지목</td><td>${lnd.lndcgrCodeNm||'-'}</td></tr>
+        <tr><td>면적</td><td>${lnd.lndpclAr?Number(lnd.lndpclAr).toLocaleString()+'㎡':'-'}</td></tr>
+        <tr><td>용도지역(1)</td><td>${lnd.ladUseSittnNm||'-'}</td></tr>
+        <tr><td>용도지역(2)</td><td>${lnd.ladUseSittnNm2||'-'}</td></tr>
+        <tr><td>개별공시지가</td><td>${lnd.pblntfPclnd?Number(lnd.pblntfPclnd).toLocaleString()+'원/㎡':'-'}</td></tr>
+        <tr><td>공시기준일</td><td>${lnd.lastUpdtDt||'-'}</td></tr>
+      `;
+      const html=`<div style="font-size:13px;font-weight:700;margin-bottom:10px;color:var(--text)">📄 토지대장</div>
+        <table class="doc-tbl" style="width:100%;border-collapse:collapse;font-size:13px">
+          <colgroup><col style="width:110px"><col></colgroup>${rows}
+        </table>`;
+      res.innerHTML=html+`<button onclick="docPrint(this)" data-html="${encodeURIComponent(html)}" style="margin-top:12px;padding:7px 18px;background:var(--green);color:#fff;border:none;border-radius:var(--radius-sm);cursor:pointer;font-size:13px">🖨️ 인쇄</button>`;
+    }catch(e){
+      res.innerHTML='<div style="padding:14px;background:#fff3cd;border-radius:var(--radius-sm);font-size:13px;color:#856404">⚠️ 조회 실패: '+e.message+'</div>';
+    }
     return;
   }
   if(type==='jijuk'){
@@ -2515,19 +2543,34 @@ async function docOpen(type){
         <tr><td>사용승인일</td><td>${b.useAprDay||'-'}</td></tr>
         <tr><td>허가일</td><td>${b.pmsDay||'-'}</td></tr>
       `).join('<tr><td colspan="2" style="background:var(--border);height:1px;padding:0"></td></tr>');
-      res.innerHTML=`
-        <div style="font-size:13px;font-weight:700;margin-bottom:10px;color:var(--text)">🏢 건축물대장 표제부</div>
-        <table style="width:100%;border-collapse:collapse;font-size:13px">
-          <colgroup><col style="width:110px"><col></colgroup>
-          ${rows}
+      const html=`<div style="font-size:13px;font-weight:700;margin-bottom:10px;color:var(--text)">🏢 건축물대장 표제부</div>
+        <table class="doc-tbl" style="width:100%;border-collapse:collapse;font-size:13px">
+          <colgroup><col style="width:110px"><col></colgroup>${rows}
         </table>
-        <style>.doc-tbl td{padding:7px 10px;border-bottom:1px solid var(--border);vertical-align:top} .doc-tbl td:first-child{color:var(--text3);font-weight:500;background:var(--bg)}</style>
-      `;
-      res.querySelector('table').className='doc-tbl';
+        <style>.doc-tbl td{padding:7px 10px;border-bottom:1px solid var(--border);vertical-align:top} .doc-tbl td:first-child{color:var(--text3);font-weight:500;background:var(--bg)}</style>`;
+      res.innerHTML=html+`<button onclick="docPrint(this)" data-html="${encodeURIComponent(html)}" style="margin-top:12px;padding:7px 18px;background:var(--green);color:#fff;border:none;border-radius:var(--radius-sm);cursor:pointer;font-size:13px">🖨️ 인쇄</button>`;
     }catch(e){
       res.innerHTML='<div style="padding:14px;background:#fff3cd;border-radius:var(--radius-sm);font-size:13px;color:#856404">⚠️ 조회 실패: '+e.message+'<br><a href="https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13100000016" target="_blank" style="color:var(--green)">정부24에서 직접 조회</a></div>';
     }
   }
+}
+
+function docPrint(btn){
+  const html=decodeURIComponent(btn.getAttribute('data-html'));
+  const w=window.open('','_blank','width=700,height=900');
+  w.document.write(`<!DOCTYPE html><html><head><meta charset="utf-8"><title>공문서 인쇄</title><style>
+    body{font-family:'Malgun Gothic',sans-serif;padding:24px;color:#222}
+    table{width:100%;border-collapse:collapse;font-size:14px}
+    td{padding:8px 12px;border-bottom:1px solid #ddd;vertical-align:top}
+    td:first-child{color:#666;font-weight:500;background:#f9f9f9;width:120px}
+    @media print{button{display:none}}
+  </style></head><body>
+  ${html}
+  <div style="margin-top:20px;text-align:center">
+    <button onclick="window.print()" style="padding:10px 28px;background:#2d6a4f;color:#fff;border:none;border-radius:6px;font-size:15px;cursor:pointer">🖨️ 인쇄</button>
+  </div>
+  </body></html>`);
+  w.document.close();
 }
 
 // ===== 즐겨찾기 =====
