@@ -748,9 +748,9 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
       <!-- 인쇄 기록 탭 -->
       <div class="pro-sub" id="pro-sub-2">
         <div style="background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:20px 22px">
-          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px">
+          <div style="margin-bottom:16px">
             <div style="font-size:15px;font-weight:700">🕐 인쇄 기록</div>
-            <button onclick="clearHistory()" style="font-size:11px;color:var(--text3);background:none;border:1px solid var(--border);border-radius:4px;padding:3px 8px;cursor:pointer;font-family:inherit">전체 삭제</button>
+            <div style="font-size:12px;color:var(--text3);margin-top:4px">기록을 클릭하면 매물안내서 팝업에서 불러올 수 있어요</div>
           </div>
           <div id="hist-panel"><div style="text-align:center;padding:30px;color:var(--text3);font-size:13px">아직 인쇄 기록이 없어요</div></div>
         </div>
@@ -761,6 +761,17 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
 </div>
 
 
+</div>
+
+<!-- 인쇄기록 팝업 -->
+<div id="hist-modal" onclick="if(event.target===this)closeHistModal()" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:9999;align-items:center;justify-content:center">
+  <div style="background:#fff;border-radius:12px;width:min(480px,94vw);max-height:80vh;display:flex;flex-direction:column;overflow:hidden">
+    <div style="padding:16px 20px;border-bottom:1px solid #eee;display:flex;align-items:center;justify-content:space-between">
+      <div style="font-size:15px;font-weight:700">📂 인쇄 기록</div>
+      <button onclick="closeHistModal()" style="background:none;border:none;font-size:20px;cursor:pointer;color:#999;line-height:1">×</button>
+    </div>
+    <div id="hist-modal-body" style="overflow-y:auto;padding:16px;flex:1"></div>
+  </div>
 </div>
 
 <!-- 집내놓기 모달 -->
@@ -2410,10 +2421,11 @@ function listingHTML(){
     </div>
 
     <!-- 버튼 -->
-    <div style="display:flex;gap:8px;margin-top:4px;margin-bottom:20px">
+    <div style="display:flex;gap:8px;margin-top:4px;margin-bottom:8px">
       <button class="btn-clear" onclick="clearListing()" style="flex:1;height:44px">초기화</button>
       <button class="btn-print" onclick="doPrint()" style="flex:2;height:44px;font-size:15px">🖨 인쇄 / 💾 저장</button>
     </div>
+    <button onclick="openHistModal()" style="width:100%;height:38px;margin-bottom:20px;background:var(--bg);border:1px solid var(--border);border-radius:var(--radius-sm);font-size:13px;color:var(--text2);cursor:pointer;font-family:inherit">📂 인쇄 기록 불러오기</button>
   </div>`;
 }
 
@@ -2617,6 +2629,86 @@ function loadFeatSettings(){
     if(ge('feat-price')) ge('feat-price').checked=!!s.price;
     if(ge('feat-jeonse')) ge('feat-jeonse').checked=!!s.jeonse;
   }catch(e){}
+}
+
+// ===== 인쇄 기록 팝업 =====
+function openHistModal(){
+  const el=ge('hist-modal');
+  if(!el)return;
+  el.style.display='flex';
+  renderHistModal();
+}
+function closeHistModal(){
+  const el=ge('hist-modal');
+  if(el)el.style.display='none';
+}
+function renderHistModal(){
+  const el=ge('hist-modal-body');if(!el)return;
+  let hist=[];
+  try{hist=JSON.parse(localStorage.getItem('printHistory')||'[]');}catch(e){}
+  if(!hist.length){
+    el.innerHTML='<div style="text-align:center;padding:40px 0;color:#999;font-size:13px">저장된 기록이 없어요</div>';
+    return;
+  }
+  // 단지별 그룹
+  const groups={};
+  hist.forEach(h=>{
+    const k=h.complex||'(단지명 없음)';
+    if(!groups[k])groups[k]=[];
+    groups[k].push(h);
+  });
+  el.innerHTML=Object.entries(groups).map(([name,items])=>`
+    <div style="margin-bottom:12px">
+      <div style="font-size:12px;font-weight:700;color:#888;margin-bottom:6px;padding:0 2px">🏢 ${name}</div>
+      ${items.map(h=>{
+        const hoFull=h.dong&&h.ho?`${h.dong}동 ${h.ho}호`:h.dong||h.ho||'동호수 없음';
+        const date=new Date(h.ts).toLocaleDateString('ko-KR');
+        const price=[h.chkSale&&h.sale?`매매 ${h.sale}만`:'' , h.chkJeonse&&h.jeonse?`전세 ${h.jeonse}만`:'', h.chkMonthly&&h.monthly?`월세 ${h.monthly}만`:''].filter(Boolean).join(' · ');
+        return `<div style="display:flex;align-items:center;gap:8px;padding:10px 12px;border:1px solid #eee;border-radius:8px;margin-bottom:6px;background:#fafafa">
+          <div onclick="loadHistRecord(${h.id})" style="flex:1;cursor:pointer">
+            <div style="font-size:13px;font-weight:600;color:#222">${hoFull}</div>
+            <div style="font-size:11px;color:#999;margin-top:2px">${price||'가격 없음'} · ${date}</div>
+          </div>
+          <button onclick="loadHistRecord(${h.id})" style="padding:5px 12px;background:#1D9E75;color:#fff;border:none;border-radius:6px;font-size:12px;font-weight:700;cursor:pointer;font-family:inherit;white-space:nowrap">불러오기</button>
+          <button onclick="deleteHistRecord(${h.id})" style="padding:5px 8px;background:none;border:1px solid #ffcccc;border-radius:6px;font-size:13px;cursor:pointer;color:#c00" title="삭제">🗑</button>
+        </div>`;
+      }).join('')}
+    </div>`).join('');
+}
+function loadHistRecord(id){
+  let hist=[];
+  try{hist=JSON.parse(localStorage.getItem('printHistory')||'[]');}catch(e){}
+  const h=hist.find(x=>x.id===id);
+  if(!h)return;
+  closeHistModal();
+  // 직접입력 열기
+  const area=ge('manual-input-area');if(area)area.style.display='block';
+  const tog=ge('manual-toggle');if(tog)tog.textContent='직접입력 닫기 ↑';
+  setTimeout(()=>{
+    const fields={
+      'manual-complex':h.complex,'manual-addr':h.addr,'manual-built':h.built,
+      'manual-units':h.units,'manual-park':h.park,
+      'input-dong':h.dong,'input-ho':h.ho,'input-type':h.type,
+      'input-floor':h.floor,'input-dir':h.dir,'input-movein':h.movein||'',
+      'p-sale':h.sale,'p-jeonse':h.jeonse,'p-deposit':h.deposit,'p-monthly':h.monthly,
+      'f-special':h.special,'f-desc':h.desc
+    };
+    Object.entries(fields).forEach(([fid,val])=>{const el=ge(fid);if(el)el.value=val||'';});
+    const cs=ge('chk-sale'),cj=ge('chk-jeonse'),cm=ge('chk-monthly');
+    if(cs){cs.checked=!!h.chkSale;const bs=ge('box-sale');if(bs)bs.style.display=cs.checked?'block':'none';}
+    if(cj){cj.checked=!!h.chkJeonse;const bj=ge('box-jeonse');if(bj)bj.style.display=cj.checked?'block':'none';}
+    if(cm){cm.checked=!!h.chkMonthly;const bm=ge('box-monthly');if(bm)bm.style.display=cm.checked?'block':'none';}
+    window.scrollTo(0,0);
+    toast('기록을 불러왔어요. 수정 후 인쇄하세요 📝');
+  },100);
+}
+function deleteHistRecord(id){
+  let hist=[];
+  try{hist=JSON.parse(localStorage.getItem('printHistory')||'[]');}catch(e){}
+  hist=hist.filter(x=>x.id!==id);
+  localStorage.setItem('printHistory',JSON.stringify(hist));
+  renderHistModal();
+  renderHistory(); // 탭도 갱신
 }
 
 // ===== 인쇄 기록 =====
