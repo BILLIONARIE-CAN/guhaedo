@@ -662,12 +662,31 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
           <div style="font-size:13px;font-weight:700;margin-bottom:8px;color:var(--text2)">요금제</div>
           <div id="mypage-plan-detail" style="background:var(--green-bg);border-radius:var(--radius-sm);padding:10px 14px;font-size:13px;color:var(--green-deeper);font-weight:500"></div>
         </div>
+        <!-- 기능 설정 -->
+        <div style="margin-top:16px;border-top:1px solid var(--border);padding-top:14px">
+          <div style="font-size:13px;font-weight:700;margin-bottom:10px;color:var(--text2)">🔧 사이드바 추가 기능</div>
+          <div style="display:flex;flex-direction:column;gap:8px">
+            <label style="display:flex;align-items:center;gap:8px;font-size:13px;cursor:pointer">
+              <input type="checkbox" id="feat-trade" onchange="saveFeatSettings()" style="width:15px;height:15px;accent-color:var(--green)">
+              <span>실거래가 조회 <span style="font-size:11px;color:var(--text3)">(국토부 API)</span></span>
+            </label>
+            <label style="display:flex;align-items:center;gap:8px;font-size:13px;cursor:pointer">
+              <input type="checkbox" id="feat-price" onchange="saveFeatSettings()" style="width:15px;height:15px;accent-color:var(--green)">
+              <span>공동주택 공시가격 <span style="font-size:11px;color:var(--text3)">(국토부 API)</span></span>
+            </label>
+            <label style="display:flex;align-items:center;gap:8px;font-size:13px;cursor:pointer">
+              <input type="checkbox" id="feat-jeonse" onchange="saveFeatSettings()" style="width:15px;height:15px;accent-color:var(--green)">
+              <span>전세가율 자동계산 <span style="font-size:11px;color:var(--text3)">(실거래가 기반)</span></span>
+            </label>
+          </div>
+        </div>
       </div>
 
       <!-- 탭 -->
       <div class="pro-tabs">
-        <div class="pro-tab active" onclick="showProTab(0)">📄 매물 안내서 인쇄</div>
+        <div class="pro-tab active" onclick="showProTab(0)">📄 매물 안내서</div>
         <div class="pro-tab" onclick="showProTab(1)">📋 공문서 조회</div>
+        <div class="pro-tab" onclick="showProTab(2)">🕐 인쇄 기록</div>
       </div>
       <div class="pro-sub active" id="pro-sub-0"></div>
       <div class="pro-sub" id="pro-sub-1">
@@ -723,6 +742,17 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
 
           <!-- 결과 영역 -->
           <div id="doc-result" style="display:none"></div>
+        </div>
+      </div>
+
+      <!-- 인쇄 기록 탭 -->
+      <div class="pro-sub" id="pro-sub-2">
+        <div style="background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:20px 22px">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px">
+            <div style="font-size:15px;font-weight:700">🕐 인쇄 기록</div>
+            <button onclick="clearHistory()" style="font-size:11px;color:var(--text3);background:none;border:1px solid var(--border);border-radius:4px;padding:3px 8px;cursor:pointer;font-family:inherit">전체 삭제</button>
+          </div>
+          <div id="hist-panel"><div style="text-align:center;padding:30px;color:var(--text3);font-size:13px">아직 인쇄 기록이 없어요</div></div>
         </div>
       </div>
     </div>
@@ -2118,6 +2148,10 @@ function doPtPrint(){
   const now=new Date(),ds=`${now.getFullYear()}.${String(now.getMonth()+1).padStart(2,'0')}.${String(now.getDate()).padStart(2,'0')}`;
   const monthlyLabel=deposit&&monthly?`보증 ${deposit}/월 ${monthly}만원`:monthly?monthly+'만원':'협의';
   const content=`<div style="display:flex;justify-content:space-between;align-items:flex-start;border-bottom:2.5px solid #1D9E75;padding-bottom:14px;margin-bottom:18px"><div><div style="font-size:20px;font-weight:700;color:#1D9E75">아구<span style="color:#1a1a1a">구</span></div><div style="font-size:11px;color:#888;margin-top:2px">매물 안내서 · guhaedo.kr</div></div><div style="text-align:right;font-size:11px;color:#888;line-height:1.6">${ds}</div></div><div style="font-size:26px;font-weight:700;color:#1a1a1a;margin-bottom:4px">${complex}</div><div style="font-size:13px;color:#666;margin-bottom:16px">${hoFull?hoFull+' · ':''}${dir?dir+' · ':''}${addr}</div>${photoHtml?`<div style="display:flex;gap:8px;margin-bottom:16px">${photoHtml}</div>`:''}<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-bottom:14px">${[['타입',type||'-'],['층수',floor||'-'],['방향',dir||'-'],['준공년도',built||'-'],['총 세대수',units||'-'],['총 주차',park||'-','s2'],['동/호',hoFull||'-']].map(r=>`<div style="background:#f8f8f8;border-radius:6px;padding:9px 10px;${r[2]==='s2'?'grid-column:span 2':''}"><div style="font-size:10px;color:#999;margin-bottom:2px">${r[0]}</div><div style="font-size:13px;font-weight:700">${r[1]}</div></div>`).join('')}</div><div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-bottom:14px">${[[chkSale,'매매',sale?sale+'만원':'협의'],[chkJeonse,'전세',jeonse?jeonse+'만원':'협의'],[chkMonthly,'월세',monthlyLabel]].filter(r=>r[0]).map(r=>`<div style="border:1.5px solid #e8e8e8;border-radius:8px;padding:12px;text-align:center"><div style="font-size:12px;color:#888;margin-bottom:4px">${r[1]}</div><div style="font-size:16px;font-weight:700;color:#0F6E56">${r[2]}</div></div>`).join('')}</div>${special?`<div style="background:#fffbe6;border-radius:6px;padding:9px 12px;font-size:12px;color:#6b5a00;margin-bottom:12px;border:1px solid #f0de8a">⚡ ${special}</div>`:''}${desc?`<div style="background:#f8f8f8;border-radius:6px;padding:12px;font-size:13px;color:#444;line-height:1.8;margin-bottom:14px">${desc.replace(/\n/g,'<br>')}</div>`:''}<div style="border-top:1px solid #eee;padding-top:10px;text-align:center;font-size:10px;color:#bbb">guhaedo.kr 매물 안내서 · ${ds}</div>`;
+  // 인쇄 기록 저장 (사진 제외)
+  savePrintHistory({complex,addr,dong,ho,type,floor,dir,built,units,park,sale,jeonse,deposit,monthly,special,desc,
+    chkSale:ge('chk-sale')?.checked,chkJeonse:ge('chk-jeonse')?.checked,chkMonthly:ge('chk-monthly')?.checked});
+
   const w=window.open('','_blank','width=780,height=900');
   w.document.write(`<!DOCTYPE html><html><head><meta charset="utf-8"><title>매물안내서-${complex}</title><style>@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');*{box-sizing:border-box;margin:0;padding:0}body{font-family:'Noto Sans KR',sans-serif;background:#fff;padding:32px}.wrap{max-width:660px;margin:0 auto}@media print{button{display:none}body{padding:12px}}</style></head><body><div class="wrap">${content}</div><div style="text-align:center;margin-top:20px"><button onclick="window.print()" style="background:#1D9E75;color:#fff;border:none;padding:12px 32px;border-radius:8px;font-size:15px;font-weight:700;cursor:pointer;font-family:inherit">🖨 인쇄하기</button></div></body></html>`);
   w.document.close();
@@ -2237,6 +2271,7 @@ function loadMypage(){
   if(ge('mypage-plan')) ge('mypage-plan').textContent=proUser.plan==='plus'?'PRO 플러스 이용 중':'PRO 이용 중';
   if(ge('mypage-info')) ge('mypage-info').innerHTML=`사무소명: ${proUser.office}<br>연락처: ${proUser.tel}<br>이메일: ${proUser.email}<br>주소: ${proUser.addr||'-'}<br>가입일: ${proUser.joinDate||'-'}`;
   if(ge('mypage-plan-detail')) ge('mypage-plan-detail').textContent=proUser.plan==='plus'?'PRO 플러스 — 월 19,900원 (단지 무제한, 매물안내서 무제한)':'PRO — 월 7,700원 (단지 2개, 매물안내서 월 30장)';
+  setTimeout(loadFeatSettings,100);
   loadListingTab();
 }
 
@@ -2386,10 +2421,149 @@ function showProTab(n){
   document.querySelectorAll('.pro-tab').forEach((t,i)=>t.classList.toggle('active',i===n));
   document.querySelectorAll('.pro-sub').forEach((s,i)=>s.classList.toggle('active',i===n));
   if(n===0) renderFavApts();
+  if(n===2) renderHistory();
 }
 function toggleMyInfoPanel(){
   const p=ge('myinfo-panel');
   p.style.display=p.style.display==='none'?'block':'none';
+}
+
+// ===== 기능 설정 =====
+function saveFeatSettings(){
+  const s={trade:ge('feat-trade')?.checked,price:ge('feat-price')?.checked,jeonse:ge('feat-jeonse')?.checked};
+  localStorage.setItem('proFeatSettings',JSON.stringify(s));
+}
+function loadFeatSettings(){
+  try{
+    const s=JSON.parse(localStorage.getItem('proFeatSettings')||'{}');
+    if(ge('feat-trade')) ge('feat-trade').checked=!!s.trade;
+    if(ge('feat-price')) ge('feat-price').checked=!!s.price;
+    if(ge('feat-jeonse')) ge('feat-jeonse').checked=!!s.jeonse;
+  }catch(e){}
+}
+
+// ===== 인쇄 기록 =====
+function savePrintHistory(data){
+  try{
+    let hist=JSON.parse(localStorage.getItem('printHistory')||'[]');
+    hist.unshift({...data,id:Date.now(),ts:new Date().toISOString()});
+    if(hist.length>300) hist=hist.slice(0,300);
+    localStorage.setItem('printHistory',JSON.stringify(hist));
+  }catch(e){}
+}
+
+function renderHistory(){
+  const el=ge('hist-panel');
+  if(!el)return;
+  let hist=[];
+  try{hist=JSON.parse(localStorage.getItem('printHistory')||'[]');}catch(e){}
+  if(!hist.length){el.innerHTML='<div style="text-align:center;padding:30px;color:var(--text3);font-size:13px">아직 인쇄 기록이 없어요</div>';return;}
+  // 단지별 그룹
+  const groups={};
+  hist.forEach(h=>{
+    const k=h.complex||'(단지명 없음)';
+    if(!groups[k])groups[k]=[];
+    groups[k].push(h);
+  });
+  el.innerHTML=Object.entries(groups).map(([name,items])=>`
+    <div style="border:1px solid var(--border);border-radius:var(--radius-sm);margin-bottom:8px;overflow:hidden">
+      <div onclick="this.nextElementSibling.style.display=this.nextElementSibling.style.display==='none'?'block':'none'"
+        style="padding:11px 14px;cursor:pointer;font-size:13px;font-weight:700;display:flex;justify-content:space-between;align-items:center;background:var(--bg)">
+        <span>🏢 ${name}</span>
+        <span style="font-size:11px;color:var(--text3);font-weight:400">${items.length}건 ▾</span>
+      </div>
+      <div style="display:none">
+        ${items.map(h=>`
+          <div onclick="showHistDetail(${h.id})"
+            style="padding:10px 16px;cursor:pointer;font-size:12px;border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:center">
+            <span style="color:var(--text2)">${h.dong?h.dong+'동 ':''}${h.ho?h.ho+'호':'동호수 없음'}</span>
+            <span style="color:var(--text3)">${new Date(h.ts).toLocaleDateString('ko-KR')}</span>
+          </div>`).join('')}
+      </div>
+    </div>`).join('');
+}
+
+function showHistDetail(id){
+  let hist=[];
+  try{hist=JSON.parse(localStorage.getItem('printHistory')||'[]');}catch(e){}
+  const h=hist.find(x=>x.id===id);
+  if(!h)return;
+  const el=ge('hist-panel');
+  const hoFull=h.dong&&h.ho?`${h.dong}동 ${h.ho}호`:h.dong||h.ho||'동호수 없음';
+  const prices=[h.chkSale&&h.sale?`매매 ${h.sale}만원`:'',h.chkJeonse&&h.jeonse?`전세 ${h.jeonse}만원`:'',h.chkMonthly?`보증 ${h.deposit||0}/월 ${h.monthly||0}만원`:''].filter(Boolean).join(' · ');
+  el.innerHTML=`
+    <button onclick="renderHistory()" style="font-size:12px;color:var(--green);background:none;border:none;cursor:pointer;font-family:inherit;margin-bottom:14px;padding:0">← 목록으로</button>
+    <div style="background:var(--bg);border-radius:var(--radius-sm);padding:14px 16px;margin-bottom:14px">
+      <div style="font-size:15px;font-weight:700;margin-bottom:4px">${h.complex||'단지명 없음'}</div>
+      <div style="font-size:13px;color:var(--text3);margin-bottom:8px">${hoFull} · ${new Date(h.ts).toLocaleDateString('ko-KR')}</div>
+      ${[['타입',h.type],['층수',h.floor],['방향',h.dir],['준공',h.built],['세대수',h.units],['주차',h.park]].filter(r=>r[1]).map(r=>`<span style="font-size:12px;background:var(--white);border:1px solid var(--border);border-radius:4px;padding:3px 8px;margin-right:5px;margin-bottom:5px;display:inline-block">${r[0]}: ${r[1]}</span>`).join('')}
+      ${prices?`<div style="margin-top:8px;font-size:13px;font-weight:700;color:var(--green-deeper)">${prices}</div>`:''}
+      ${h.special?`<div style="margin-top:6px;font-size:12px;color:#856404">⚡ ${h.special}</div>`:''}
+    </div>
+    <div style="display:flex;gap:8px">
+      <button onclick="histReprint(${id})" style="flex:1;padding:11px;background:var(--green);color:#fff;border:none;border-radius:var(--radius-sm);font-size:13px;font-weight:700;cursor:pointer;font-family:inherit">🖨️ 바로 인쇄</button>
+      <button onclick="histEdit(${id})" style="flex:1;padding:11px;background:var(--bg);border:1px solid var(--border);border-radius:var(--radius-sm);font-size:13px;font-weight:600;cursor:pointer;font-family:inherit">✏️ 수정 후 인쇄</button>
+    </div>
+    <button onclick="histDelete(${id})" style="width:100%;margin-top:8px;padding:8px;background:none;border:1px solid #ffcccc;border-radius:var(--radius-sm);font-size:12px;color:#c00;cursor:pointer;font-family:inherit">이 기록 삭제</button>`;
+}
+
+function histReprint(id){
+  let hist=[];
+  try{hist=JSON.parse(localStorage.getItem('printHistory')||'[]');}catch(e){}
+  const h=hist.find(x=>x.id===id);
+  if(!h)return;
+  const hoFull=h.dong&&h.ho?`${h.dong} ${h.ho}`:h.dong||h.ho||'';
+  const monthlyLabel=h.deposit&&h.monthly?`보증 ${h.deposit}/월 ${h.monthly}만원`:h.monthly?h.monthly+'만원':'협의';
+  const now=new Date(),ds=`${now.getFullYear()}.${String(now.getMonth()+1).padStart(2,'0')}.${String(now.getDate()).padStart(2,'0')}`;
+  const priceBlocks=[[h.chkSale,'매매',h.sale?h.sale+'만원':'협의'],[h.chkJeonse,'전세',h.jeonse?h.jeonse+'만원':'협의'],[h.chkMonthly,'월세',monthlyLabel]].filter(r=>r[0]);
+  const content=`<div style="display:flex;justify-content:space-between;align-items:flex-start;border-bottom:2.5px solid #1D9E75;padding-bottom:14px;margin-bottom:18px"><div><div style="font-size:20px;font-weight:700;color:#1D9E75">아구<span style="color:#1a1a1a">구</span></div><div style="font-size:11px;color:#888;margin-top:2px">매물 안내서 · guhaedo.kr</div></div><div style="text-align:right;font-size:11px;color:#888;line-height:1.6">${ds}</div></div>
+    <div style="font-size:26px;font-weight:700;color:#1a1a1a;margin-bottom:4px">${h.complex||''}</div>
+    <div style="font-size:13px;color:#666;margin-bottom:16px">${hoFull?hoFull+' · ':''}${h.dir?h.dir+' · ':''}${h.addr||''}</div>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-bottom:14px">${[['타입',h.type||'-'],['층수',h.floor||'-'],['방향',h.dir||'-'],['준공년도',h.built||'-'],['총 세대수',h.units||'-'],['총 주차',h.park||'-','s2'],['동/호',hoFull||'-']].map(r=>`<div style="background:#f8f8f8;border-radius:6px;padding:9px 10px;${r[2]==='s2'?'grid-column:span 2':''}"><div style="font-size:10px;color:#999;margin-bottom:2px">${r[0]}</div><div style="font-size:13px;font-weight:700">${r[1]}</div></div>`).join('')}</div>
+    ${priceBlocks.length?`<div style="display:grid;grid-template-columns:${priceBlocks.length===1?'1fr':priceBlocks.length===2?'1fr 1fr':'1fr 1fr 1fr'};gap:8px;margin-bottom:14px">${priceBlocks.map(r=>`<div style="border:1.5px solid #e8e8e8;border-radius:8px;padding:12px;text-align:center"><div style="font-size:12px;color:#888;margin-bottom:4px">${r[1]}</div><div style="font-size:16px;font-weight:700;color:#0F6E56">${r[2]}</div></div>`).join('')}</div>`:''}
+    ${h.special?`<div style="background:#fffbe6;border-radius:6px;padding:9px 12px;font-size:12px;color:#6b5a00;margin-bottom:12px;border:1px solid #f0de8a">⚡ ${h.special}</div>`:''}
+    ${h.desc?`<div style="background:#f8f8f8;border-radius:6px;padding:12px;font-size:13px;color:#444;line-height:1.8;margin-bottom:14px">${h.desc.replace(/\n/g,'<br>')}</div>`:''}
+    <div style="border-top:1px solid #eee;padding-top:10px;text-align:center;font-size:10px;color:#bbb">guhaedo.kr 매물 안내서 · ${ds} (재인쇄)</div>`;
+  const w=window.open('','_blank','width=780,height=900');
+  w.document.write(`<!DOCTYPE html><html><head><meta charset="utf-8"><title>매물안내서-${h.complex||''}</title><style>@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');*{box-sizing:border-box;margin:0;padding:0}body{font-family:'Noto Sans KR',sans-serif;background:#fff;padding:32px}.wrap{max-width:660px;margin:0 auto}@media print{button{display:none}body{padding:12px}}</style></head><body><div class="wrap">${content}</div><div style="text-align:center;margin-top:20px"><button onclick="window.print()" style="background:#1D9E75;color:#fff;border:none;padding:12px 32px;border-radius:8px;font-size:15px;font-weight:700;cursor:pointer;font-family:inherit">🖨 인쇄하기</button></div></body></html>`);
+  w.document.close();
+}
+
+function histEdit(id){
+  let hist=[];
+  try{hist=JSON.parse(localStorage.getItem('printHistory')||'[]');}catch(e){}
+  const h=hist.find(x=>x.id===id);
+  if(!h)return;
+  showProTab(0);
+  setTimeout(()=>{
+    const fields={
+      'pt-complex':h.complex,'pt-addr':h.addr,'pt-dong':h.dong,'pt-ho':h.ho,
+      'pt-type':h.type,'pt-floor':h.floor,'pt-dir':h.dir,'pt-built':h.built,
+      'pt-units':h.units,'pt-park':h.park,'pt-sale':h.sale,'pt-jeonse':h.jeonse,
+      'pt-deposit':h.deposit,'pt-monthly':h.monthly,'pt-special':h.special,'pt-desc':h.desc
+    };
+    Object.entries(fields).forEach(([id,val])=>{const el=ge(id);if(el)el.value=val||'';});
+    const cs=ge('chk-sale'),cj=ge('chk-jeonse'),cm=ge('chk-monthly');
+    if(cs)cs.checked=!!h.chkSale;
+    if(cj)cj.checked=!!h.chkJeonse;
+    if(cm){cm.checked=!!h.chkMonthly;const bm=ge('box-monthly');if(bm)bm.style.display=cm.checked?'block':'none';}
+    toast('수정 후 인쇄 버튼을 눌러주세요 📝');
+  },150);
+}
+
+function histDelete(id){
+  if(!confirm('이 기록을 삭제할까요?'))return;
+  let hist=[];
+  try{hist=JSON.parse(localStorage.getItem('printHistory')||'[]');}catch(e){}
+  hist=hist.filter(x=>x.id!==id);
+  localStorage.setItem('printHistory',JSON.stringify(hist));
+  renderHistory();
+}
+
+function clearHistory(){
+  if(!confirm('인쇄 기록을 전부 삭제할까요?'))return;
+  localStorage.removeItem('printHistory');
+  renderHistory();
 }
 
 // ===== 공문서 조회 =====
