@@ -670,11 +670,53 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
       </div>
       <div class="pro-sub active" id="pro-sub-0"></div>
       <div class="pro-sub" id="pro-sub-1">
-        <div style="background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:32px 24px;text-align:center">
-          <div style="font-size:40px;margin-bottom:14px">📋</div>
-          <div style="font-size:16px;font-weight:700;margin-bottom:8px">공문서 한번에 조회</div>
-          <div style="font-size:13px;color:var(--text3);line-height:1.8">등기부등본 · 건축물대장 · 토지대장<br>지적도 · 임야도 · 토지이용계획확인서</div>
-          <div style="margin-top:20px;padding:14px 18px;background:var(--green-bg);border-radius:var(--radius-sm);font-size:12px;color:var(--green-deeper);font-weight:500">🚧 준비 중입니다</div>
+        <div style="background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:20px 22px">
+          <div style="font-size:15px;font-weight:700;margin-bottom:16px">📋 공문서 한번에 조회</div>
+
+          <!-- 주소 검색 -->
+          <div style="display:flex;gap:8px;margin-bottom:8px">
+            <input id="doc-addr-input" readonly placeholder="주소를 검색하세요" onclick="docSearchAddr()"
+              style="flex:1;padding:10px 12px;border:1.5px solid var(--border);border-radius:var(--radius-sm);font-size:13px;font-family:inherit;cursor:pointer;background:#fff">
+            <button onclick="docSearchAddr()" style="padding:10px 16px;background:var(--green);color:#fff;border:none;border-radius:var(--radius-sm);font-size:13px;font-weight:700;cursor:pointer;font-family:inherit;white-space:nowrap">주소 찾기</button>
+          </div>
+          <div id="doc-addr-detail" style="font-size:12px;color:var(--text3);margin-bottom:16px;min-height:16px"></div>
+
+          <!-- 문서 버튼 6개 -->
+          <div id="doc-btns" style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin-bottom:20px;opacity:0.4;pointer-events:none">
+            <button class="doc-btn" onclick="docOpen('registry')" style="padding:14px 8px;border:1.5px solid var(--border);border-radius:var(--radius-sm);background:#fff;cursor:pointer;font-family:inherit;text-align:center">
+              <div style="font-size:22px;margin-bottom:5px">📜</div>
+              <div style="font-size:12px;font-weight:700;color:var(--text)">등기부등본</div>
+              <div style="font-size:10px;color:var(--text3);margin-top:2px">인터넷등기소</div>
+            </button>
+            <button class="doc-btn" onclick="docOpen('building')" style="padding:14px 8px;border:1.5px solid var(--border);border-radius:var(--radius-sm);background:#fff;cursor:pointer;font-family:inherit;text-align:center">
+              <div style="font-size:22px;margin-bottom:5px">🏢</div>
+              <div style="font-size:12px;font-weight:700;color:var(--text)">건축물대장</div>
+              <div style="font-size:10px;color:var(--text3);margin-top:2px">공공데이터 API</div>
+            </button>
+            <button class="doc-btn" onclick="docOpen('land')" style="padding:14px 8px;border:1.5px solid var(--border);border-radius:var(--radius-sm);background:#fff;cursor:pointer;font-family:inherit;text-align:center">
+              <div style="font-size:22px;margin-bottom:5px">📄</div>
+              <div style="font-size:12px;font-weight:700;color:var(--text)">토지대장</div>
+              <div style="font-size:10px;color:var(--text3);margin-top:2px">정부24</div>
+            </button>
+            <button class="doc-btn" onclick="docOpen('jijuk')" style="padding:14px 8px;border:1.5px solid var(--border);border-radius:var(--radius-sm);background:#fff;cursor:pointer;font-family:inherit;text-align:center">
+              <div style="font-size:22px;margin-bottom:5px">🗺️</div>
+              <div style="font-size:12px;font-weight:700;color:var(--text)">지적도</div>
+              <div style="font-size:10px;color:var(--text3);margin-top:2px">국토정보플랫폼</div>
+            </button>
+            <button class="doc-btn" onclick="docOpen('imya')" style="padding:14px 8px;border:1.5px solid var(--border);border-radius:var(--radius-sm);background:#fff;cursor:pointer;font-family:inherit;text-align:center">
+              <div style="font-size:22px;margin-bottom:5px">🌲</div>
+              <div style="font-size:12px;font-weight:700;color:var(--text)">임야도</div>
+              <div style="font-size:10px;color:var(--text3);margin-top:2px">국토정보플랫폼</div>
+            </button>
+            <button class="doc-btn" onclick="docOpen('landuse')" style="padding:14px 8px;border:1.5px solid var(--border);border-radius:var(--radius-sm);background:#fff;cursor:pointer;font-family:inherit;text-align:center">
+              <div style="font-size:22px;margin-bottom:5px">📐</div>
+              <div style="font-size:12px;font-weight:700;color:var(--text)">토지이용계획</div>
+              <div style="font-size:10px;color:var(--text3);margin-top:2px">토지이음</div>
+            </button>
+          </div>
+
+          <!-- 결과 영역 -->
+          <div id="doc-result" style="display:none"></div>
         </div>
       </div>
     </div>
@@ -2342,6 +2384,121 @@ function showProTab(n){
 function toggleMyInfoPanel(){
   const p=ge('myinfo-panel');
   p.style.display=p.style.display==='none'?'block':'none';
+}
+
+// ===== 공문서 조회 =====
+let docInfo={};
+
+function docSearchAddr(){
+  if(typeof daum==='undefined'){
+    const s=document.createElement('script');
+    s.src='//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js';
+    s.onload=()=>_openDocPostcode();
+    document.head.appendChild(s);
+  } else { _openDocPostcode(); }
+}
+function _openDocPostcode(){
+  new daum.Postcode({
+    oncomplete:async function(d){
+      const road=d.roadAddress||d.jibunAddress;
+      ge('doc-addr-input').value=road;
+      ge('doc-addr-detail').textContent='주소 분석 중...';
+      // 카카오 REST API로 상세정보 추출
+      try{
+        const r=await fetch('https://dapi.kakao.com/v2/local/search/address.json?query='+encodeURIComponent(d.jibunAddress||road),{headers:{'Authorization':'KakaoAK be82d140cac4386ee76d82cc16c65c3e'}});
+        const j=await r.json();
+        const a=j.documents&&j.documents[0];
+        if(!a){ge('doc-addr-detail').textContent='주소를 찾을 수 없어요.';return;}
+        const addr=a.address||a.road_address;
+        const bCode=addr.b_code||d.bcode||'';
+        const bun=addr.main_address_no||d.bname||'';
+        const ji=addr.sub_address_no||'0';
+        docInfo={
+          roadAddr: d.roadAddress||road,
+          jibunAddr: d.jibunAddress||road,
+          bCode, sigunguCd:bCode.slice(0,5), bjdongCd:bCode.slice(5,10),
+          bun, ji,
+          buildingName:d.buildingName||'',
+          pnu: bCode+'1'+String(bun).padStart(4,'0')+String(ji).padStart(4,'0'),
+        };
+        ge('doc-addr-detail').innerHTML='<span style="color:var(--green-dark);font-weight:600">✓</span> '+docInfo.jibunAddr+(docInfo.buildingName?' ('+docInfo.buildingName+')':'');
+        const btns=ge('doc-btns');
+        btns.style.opacity='1'; btns.style.pointerEvents='auto';
+        ge('doc-result').style.display='none';
+      }catch(e){ge('doc-addr-detail').textContent='오류: '+e.message;}
+    }
+  }).open();
+}
+
+async function docOpen(type){
+  const d=docInfo;
+  if(!d.bCode){toast('먼저 주소를 검색해주세요.');return;}
+  const res=ge('doc-result');
+  res.style.display='block';
+
+  if(type==='registry'){
+    navigator.clipboard.writeText(d.roadAddr||d.jibunAddr).catch(()=>{});
+    window.open('https://www.iros.go.kr/pos1/jsp/main.jsp','_blank');
+    res.innerHTML='<div style="background:var(--green-bg);border-radius:var(--radius-sm);padding:12px 16px;font-size:13px;color:var(--green-deeper)">📜 <b>인터넷등기소</b>가 열렸습니다.<br>주소가 클립보드에 복사됐어요 — 사이트에서 붙여넣기 하세요.<br><span style="font-size:12px;opacity:.8">'+d.roadAddr+'</span></div>';
+    return;
+  }
+  if(type==='land'){
+    window.open('https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13100000015&HighCtgCD=&tp_seq=01','_blank');
+    res.innerHTML='<div style="background:var(--green-bg);border-radius:var(--radius-sm);padding:12px 16px;font-size:13px;color:var(--green-deeper)">📄 <b>정부24 토지대장</b>이 열렸습니다. 주소를 직접 입력해주세요.</div>';
+    return;
+  }
+  if(type==='jijuk'){
+    window.open('https://map.ngii.go.kr/ms/map/NlipMap.do?beforejump=1','_blank');
+    res.innerHTML='<div style="background:var(--green-bg);border-radius:var(--radius-sm);padding:12px 16px;font-size:13px;color:var(--green-deeper)">🗺️ <b>국토정보플랫폼 지적도</b>가 열렸습니다.</div>';
+    return;
+  }
+  if(type==='imya'){
+    window.open('https://map.ngii.go.kr/ms/map/NlipMap.do?beforejump=1','_blank');
+    res.innerHTML='<div style="background:var(--green-bg);border-radius:var(--radius-sm);padding:12px 16px;font-size:13px;color:var(--green-deeper)">🌲 <b>국토정보플랫폼 임야도</b>가 열렸습니다.</div>';
+    return;
+  }
+  if(type==='landuse'){
+    window.open('https://www.eum.go.kr/web/lu/luLandUseGd.do','_blank');
+    res.innerHTML='<div style="background:var(--green-bg);border-radius:var(--radius-sm);padding:12px 16px;font-size:13px;color:var(--green-deeper)">📐 <b>토지이음</b>이 열렸습니다. 주소를 직접 입력해주세요.</div>';
+    return;
+  }
+  if(type==='building'){
+    res.innerHTML='<div style="padding:16px;text-align:center;color:var(--text3);font-size:13px">건축물대장 조회 중...</div>';
+    try{
+      const url=`/api/building?sigunguCd=${d.sigunguCd}&bjdongCd=${d.bjdongCd}&bun=${d.bun}&ji=${d.ji||0}`;
+      const r=await fetch(url);
+      const j=await r.json();
+      const items=j?.response?.body?.items?.item;
+      const list=items?(Array.isArray(items)?items:[items]):[];
+      if(list.length===0){
+        res.innerHTML='<div style="padding:14px;background:#fff3cd;border-radius:var(--radius-sm);font-size:13px;color:#856404">⚠️ 건축물대장 정보를 찾을 수 없어요.<br><small>지번주소가 정확한지 확인하거나 <a href="https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13100000016" target="_blank" style="color:var(--green)">정부24 건축물대장</a>에서 직접 조회해주세요.</small></div>';
+        return;
+      }
+      const rows=list.map(b=>`
+        <tr><td>건물명</td><td>${b.bldNm||'-'}</td></tr>
+        <tr><td>용도</td><td>${b.mainPurpsCdNm||'-'} ${b.etcPurps||''}</td></tr>
+        <tr><td>구조</td><td>${b.strctCdNm||'-'}</td></tr>
+        <tr><td>지붕</td><td>${b.roofCdNm||'-'}</td></tr>
+        <tr><td>연면적</td><td>${b.totArea?Number(b.totArea).toLocaleString()+'㎡':'-'}</td></tr>
+        <tr><td>건축면적</td><td>${b.archArea?Number(b.archArea).toLocaleString()+'㎡':'-'}</td></tr>
+        <tr><td>대지면적</td><td>${b.platArea?Number(b.platArea).toLocaleString()+'㎡':'-'}</td></tr>
+        <tr><td>층수</td><td>${b.grndFlrCnt||'-'}층(지상) / ${b.ugrndFlrCnt||'0'}층(지하)</td></tr>
+        <tr><td>사용승인일</td><td>${b.useAprDay||'-'}</td></tr>
+        <tr><td>허가일</td><td>${b.pmsDay||'-'}</td></tr>
+      `).join('<tr><td colspan="2" style="background:var(--border);height:1px;padding:0"></td></tr>');
+      res.innerHTML=`
+        <div style="font-size:13px;font-weight:700;margin-bottom:10px;color:var(--text)">🏢 건축물대장 표제부</div>
+        <table style="width:100%;border-collapse:collapse;font-size:13px">
+          <colgroup><col style="width:110px"><col></colgroup>
+          ${rows}
+        </table>
+        <style>.doc-tbl td{padding:7px 10px;border-bottom:1px solid var(--border);vertical-align:top} .doc-tbl td:first-child{color:var(--text3);font-weight:500;background:var(--bg)}</style>
+      `;
+      res.querySelector('table').className='doc-tbl';
+    }catch(e){
+      res.innerHTML='<div style="padding:14px;background:#fff3cd;border-radius:var(--radius-sm);font-size:13px;color:#856404">⚠️ 조회 실패: '+e.message+'<br><a href="https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13100000016" target="_blank" style="color:var(--green)">정부24에서 직접 조회</a></div>';
+    }
+  }
 }
 
 // ===== 즐겨찾기 =====
