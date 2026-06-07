@@ -872,23 +872,27 @@ function renderSchoolPins(){
     s.lat>=sw.getLat()&&s.lat<=ne.getLat()&&
     s.lng>=sw.getLng()&&s.lng<=ne.getLng()
   );
-  const sz=level<=2?28:level<=3?24:20;
+  const sz=level<=2?44:level<=3?38:32;
   visible.forEach(s=>{
     const clr=SCHOOL_COLOR[s.type]||'#666';
     const label=SCHOOL_LABEL[s.type]||'?';
     const wrap=document.createElement('div');
-    wrap.style.cssText='cursor:pointer;display:flex;flex-direction:column;align-items:center';
+    wrap.style.cssText='cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:2px';
     wrap.title=s.name;
     const pin=document.createElement('div');
-    pin.style.cssText='width:'+sz+'px;height:'+sz+'px;border-radius:50% 50% 50% 0;background:'+clr+';transform:rotate(-45deg);display:flex;align-items:center;justify-content:center;box-shadow:0 2px 6px rgba(0,0,0,.35);border:2px solid #fff';
+    pin.style.cssText='width:'+sz+'px;height:'+sz+'px;border-radius:50% 50% 50% 0;background:'+clr+';transform:rotate(-45deg);display:flex;align-items:center;justify-content:center;box-shadow:0 3px 8px rgba(0,0,0,.4);border:2.5px solid #fff';
     const txt=document.createElement('span');
-    txt.style.cssText='transform:rotate(45deg);color:#fff;font-size:'+(sz-6)+'px;font-weight:800';
+    txt.style.cssText='transform:rotate(45deg);color:#fff;font-size:'+(sz-10)+'px;font-weight:900;letter-spacing:-1px';
     txt.textContent=label;
     pin.appendChild(txt);
     wrap.appendChild(pin);
     const tail=document.createElement('div');
     tail.style.cssText='width:0;height:0;border-left:'+(sz/3)+'px solid transparent;border-right:'+(sz/3)+'px solid transparent;border-top:'+(sz/3)+'px solid '+clr+';margin-top:-2px';
     wrap.appendChild(tail);
+    const nameTag=document.createElement('div');
+    nameTag.style.cssText='background:'+clr+';color:#fff;font-size:11px;font-weight:700;padding:2px 6px;border-radius:4px;white-space:nowrap;box-shadow:0 1px 4px rgba(0,0,0,.3);max-width:110px;overflow:hidden;text-overflow:ellipsis;margin-top:2px';
+    nameTag.textContent=s.name.replace(/(초등학교|중학교|고등학교|유치원)$/,'').trim();
+    wrap.appendChild(nameTag);
     wrap.onclick=function(){
       if(map)map.panTo(new kakao.maps.LatLng(s.lat,s.lng));
       alert(s.name+'\n'+s.addr);
