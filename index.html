@@ -1339,7 +1339,7 @@ async function loadAptData(sigunguName){
       if(!d.lat||!d.lng)return;
       const fullAddr=[d.sido,d.sigungu,d.emd].filter(Boolean).join(' ');
       const unitsCnt=d.units>0?d.units:(d.hhldCnt>0?d.hhldCnt:0);
-      MAP_DATA.push({id:'apt_'+(aptIdCounter++),type:'apt',name:d.name||'',addr:d.addr||fullAddr,built:d.built||'',dongCnt:d.dongCnt||'',heat:d.heat||'',saleType:d.sale||'',topFloor:d.topFloor||'',units:unitsCnt>0?unitsCnt+'세대':'',emd:d.emd||'',code:d.code||'',sale:'',jeonse:'',monthly:'',lat:d.lat,lng:d.lng,sido:d.sido||'',sigungu:d.sigungu||'',jibunAddr:d.jibunAddr||'',builder:d.builder||'',entrance:d.entrance||'',aptType:d.aptType||'',mgrType:d.mgrType||'',totalPark:d.totalPark||0});
+      MAP_DATA.push({id:'apt_'+(aptIdCounter++),type:'apt',name:d.name||'',addr:d.addr||fullAddr,built:d.built||'',dongCnt:d.dongCnt||'',heat:d.heat||'',saleType:d.sale||'',topFloor:d.topFloor||'',units:unitsCnt>0?unitsCnt+'세대':'',emd:d.emd||'',code:d.code||'',sale:'',jeonse:'',monthly:'',lat:d.lat,lng:d.lng,sido:d.sido||'',sigungu:d.sigungu||'',jibunAddr:d.jibunAddr||'',builder:d.builder||'',entrance:d.entrance||'',aptType:d.aptType||'',mgrType:d.mgrType||'',totalPark:d.totalPark||0,areaBreak:d.areaBreak||null,useArea:d.useArea||''});
     });
     renderVisibleMarkers('apt');
   }catch(e){}
@@ -1755,21 +1755,22 @@ function openAptDetail(d){
   function infoRow(l,v){return '<div class="adp-info-item"><div class="adp-info-label">'+l+'</div><div class="adp-info-val">'+(v||'-')+'</div></div>';}
   function fullRow(l,v){return '<div class="adp-info-item" style="grid-column:1/-1"><div class="adp-info-label">'+l+'</div><div class="adp-info-val" style="font-size:12px">'+(v||'-')+'</div></div>';}
 
+  function fmtArea(ab){if(!ab)return '';const L={u60:'60㎡이하',u85:'85㎡이하',u135:'135㎡이하',o135:'135㎡초과'};return Object.entries(ab).filter(([k,v])=>v>0).map(([k,v])=>L[k]+' '+v+'세대').join(' · ')||'';}
   ge('adp-info-grid').innerHTML=
     fullRow('도로명주소',d.addr)+
     fullRow('지번주소',d.jibunAddr)+
     infoRow('세대수',d.units)+
-    infoRow('준공년월',d.built)+
+    '<div class="adp-info-item"><div class="adp-info-label">준공년월</div><div class="adp-info-val" id="adp-built">'+(d.built||'-')+'</div></div>'+
     infoRow('동수',d.dongCnt)+
-    infoRow('난방방식',d.heat)+
+    '<div class="adp-info-item"><div class="adp-info-label">난방방식</div><div class="adp-info-val" id="adp-heat">'+(d.heat||'-')+'</div></div>'+
     infoRow('최고층',d.topFloor?d.topFloor+'층':'')+
     infoRow('현관구조',d.entrance)+
-    infoRow('분양형태',d.saleType)+
+    '<div class="adp-info-item"><div class="adp-info-label">분양형태</div><div class="adp-info-val" id="adp-sale">'+(d.saleType||'-')+'</div></div>'+
     infoRow('시공사',d.builder)+
     infoRow('총 주차대수',d.totalPark?d.totalPark.toLocaleString()+'대':'')+
-    infoRow('면적타입',d.privArea)+
-    infoRow('용적률',d.far?d.far+'%':'')+
-    infoRow('건폐율',d.bcr?d.bcr+'%':'');
+    infoRow('면적타입',fmtArea(d.areaBreak))+
+    '<div class="adp-info-item"><div class="adp-info-label">용적률</div><div class="adp-info-val" id="adp-far">-</div></div>'+
+    '<div class="adp-info-item"><div class="adp-info-label">건폐율</div><div class="adp-info-val" id="adp-bcr">-</div></div>';
 
   // ===== 2. 시세 · 거래 정보 =====
   ge('adp-price-content').innerHTML=
@@ -1792,6 +1793,26 @@ function openAptDetail(d){
   // 매물 가격은 adp-price-content 섹션에서 처리
 
   panel.classList.add('open');
+
+  // 용적률/건폐율/준공/난방 API로 채우기
+  if(d.code){
+    fetch('/api/apt?type=detail&code='+d.code)
+      .then(r=>r.ok?r.json():null)
+      .then(info=>{
+        if(!info)return;
+        if(info.far){const el=document.getElementById('adp-far');if(el)el.textContent=info.far+'%';}
+        if(info.bcr){const el=document.getElementById('adp-bcr');if(el)el.textContent=info.bcr+'%';}
+        if(info.completionYmd&&info.completionYmd.length>=6){
+          const el=document.getElementById('adp-built');
+          if(el&&(el.textContent==='-'||!el.textContent.trim())){
+            const y=info.completionYmd.substring(0,4),m=info.completionYmd.substring(4,6);
+            el.textContent=y+'년 '+parseInt(m)+'월';
+          }
+        }
+        if(info.heatType){const el=document.getElementById('adp-heat');if(el&&el.textContent==='-')el.textContent=info.heatType;}
+        if(info.saleType){const el=document.getElementById('adp-sale');if(el&&el.textContent==='-')el.textContent=info.saleType;}
+      }).catch(()=>{});
+  }
 }
 
 function closeAptDetail(){
@@ -3136,37 +3157,4 @@ function userLogin(){
   const email=gv('u-email'),pw=gv('u-pw');
   const users=JSON.parse(localStorage.getItem('guhaeUsers')||'[]');
   const found=users.find(u=>u.email===email&&u.pw===pw);
-  if(found){currentUser=found;localStorage.setItem('guhaeUser',JSON.stringify(found));closeUserModal();toast(`${found.name}님, 환영해요! 🎉`);}
-  else{const e=ge('u-error');e.style.display='block';e.textContent='이메일 또는 비밀번호가 올바르지 않습니다.';}
-}
-function userSignup(){
-  const name=gv('u-name'),email=gv('u-semail'),pw=gv('u-spw');
-  if(!name||!email||!pw){toast('모두 입력해주세요.');return;}
-  if(pw.length<8){toast('비밀번호는 8자 이상이어야 해요.');return;}
-  const users=JSON.parse(localStorage.getItem('guhaeUsers')||'[]');
-  users.push({name,email,pw,joinDate:new Date().toLocaleDateString('ko-KR')});
-  localStorage.setItem('guhaeUsers',JSON.stringify(users));
-  currentUser={name,email};localStorage.setItem('guhaeUser',JSON.stringify(currentUser));
-  closeUserModal();toast(`${name}님, 가입을 환영해요! 🎉`);
-}
-function countAptClick(){
-  if(currentUser)return;
-  aptClickCount++;
-  if(aptClickCount>=3){aptClickCount=0;setTimeout(()=>openUserModal(),500);}
-}
-
-// ===== 집내놓기 모달 =====
-function openSellModal(){ge('sell-modal').style.display='block';ge('sell-modal-form').style.display='block';ge('sell-modal-confirm').style.display='none';document.body.style.overflow='hidden';}
-function closeSellModal(){ge('sell-modal').style.display='none';document.body.style.overflow='';}
-function submitSellModal(){const name=gv('m-name'),tel=gv('m-tel'),complex=gv('m-complex'),ho=gv('m-ho');if(!name||!tel||!complex||!ho){toast('성함, 연락처, 단지명, 동/호수를 입력해주세요.');return;}ge('sell-modal-form').style.display='none';ge('sell-modal-confirm').style.display='block';}
-
-// ===== 초기화 =====
-window.onload=function(){
-  handleKakaoCallback();
-  ge('calc-fields').innerHTML=calcFields(0);
-  setTimeout(()=>commUpdate(),50);
-  setTimeout(()=>initMap(),500);
-};
-</script>
-</body>
-</html>
+  if(found){currentUser=found;localStorage.setItem('guh

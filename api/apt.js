@@ -118,11 +118,6 @@ export default async function handler(req, res) {
       const jsonData = await response.json();
       return res.status(200).json(jsonData);
 
-    } else {
-      return res.status(400).json({ error: 'type 파라미터가 필요합니다' });
-    }
-
-  } catch (error) {
-    return res.status(500).json({ error: error.message });
-  }
-}
+    } else if (type === 'detail') {
+      // 단지 상세정보 (한국부동산원 API) - 용적률, 건폐율, 준공년월, 난방방식 등
+      if (!code) return res.status(400).json({
