@@ -1796,7 +1796,7 @@ function openAptDetail(d){
 
   // 용적률/건폐율/준공/난방 API로 채우기
   if(d.code){
-    fetch('/api/apt?type=detail&code='+d.code)
+    fetch('/api/apt?type=detail&code='+d.code+'&bjd='+(d.bjdCode||'')+'&jibun='+encodeURIComponent(d.jibunAddr||d.addr||''))
       .then(r=>r.ok?r.json():null)
       .then(info=>{
         if(!info)return;

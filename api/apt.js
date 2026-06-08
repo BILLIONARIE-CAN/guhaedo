@@ -159,7 +159,35 @@ export default async function handler(req, res) {
         saleType: item.codeSaleNm || item.kaptSaleType || null,
       };
 
-      // 3. Supabase에 저장 (비동기, 실패해도 응답은 정상 반환)
+      // 3. 용적률/건폐율 없으면 건축물대장 API 시도
+      const bjd = req.query.bjd || '';
+      const jibun = req.query.jibun || '';
+      if ((!result.far || !result.bcr) && bjd.length >= 10 && jibun) {
+        try {
+          const sigunguCd = bjd.substring(0, 5);
+          const bjdongCd = bjd.substring(5, 10);
+          // jibunAddr에서 번지 파싱: "서울시 종로구 내수동 73- 경희궁..." → bun=73, ji=0
+          const tokens = jibun.split(' ');
+          const bunToken = tokens[3] || tokens[2] || '';
+          const bunMatch = bunToken.match(/^(\d+)-?(\d*)$/);
+          if (bunMatch) {
+            const bun = bunMatch[1].padStart(4, '0');
+            const ji = (bunMatch[2] || '0').padStart(4, '0');
+            const bldUrl = `https://apis.data.go.kr/1613000/BldRgstHubService/getBrRecapTitleInfo?serviceKey=${KEY}&sigunguCd=${sigunguCd}&bjdongCd=${bjdongCd}&bun=${bun}&ji=${ji}&_type=json&numOfRows=1`;
+            const bldRes = await fetch(bldUrl);
+            const bldText = await bldRes.text();
+            const bldData = JSON.parse(bldText);
+            const bldItem = bldData?.response?.body?.items?.item;
+            const bldOne = Array.isArray(bldItem) ? bldItem[0] : bldItem;
+            if (bldOne) {
+              if (!result.far && bldOne.vlRat) result.far = String(bldOne.vlRat);
+              if (!result.bcr && bldOne.bcRat) result.bcr = String(bldOne.bcRat);
+            }
+          }
+        } catch(e) {}
+      }
+
+      // 4. Supabase에 저장 (비동기, 실패해도 응답은 정상 반환)
       fetch(
         `${SUPABASE_URL}/rest/v1/apartments?kapt_code=eq.${code}`,
         {
