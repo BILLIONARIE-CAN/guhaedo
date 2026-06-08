@@ -29,7 +29,10 @@ export default async function handler(req, res) {
         `https://apis.data.go.kr/1613000/AptBasisInfoServiceV4/getAphusBassInfoV4?serviceKey=${KEY}&kaptCode=${kapt_code}&_type=json`,
         { signal: AbortSignal.timeout(7000) }
       );
-      const item = (await v4Res.json())?.response?.body?.item;
+      const v4Json = await v4Res.json();
+      const resultCode = v4Json?.response?.header?.resultCode;
+      if (resultCode && resultCode !== '00') return { far: null, quota_exceeded: true };
+      const item = v4Json?.response?.body?.item;
       if (!item) return { far: null };
 
       let far = null, bcr = null;
@@ -61,8 +64,10 @@ export default async function handler(req, res) {
   }));
 
   const far_count = results.filter(r => r.value?.far).length;
+  const quota_exceeded = results.some(r => r.value?.quota_exceeded);
   return res.status(200).json({
-    done: list.length < BATCH,
+    done: list.length < BATCH || quota_exceeded,
+    quota_exceeded,
     offset,
     next_offset: offset + list.length,
     processed: list.length,
