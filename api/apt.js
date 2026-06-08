@@ -129,10 +129,11 @@ export default async function handler(req, res) {
       );
       const cacheData = await cacheRes.json();
       const cached = Array.isArray(cacheData) && cacheData[0];
-      if (cached && (cached.far || cached.bcr || cached.heat_name || cached.use_date)) {
+      // far/bcr 둘 다 있을 때만 캐시 사용 (null이면 건축물대장 API 재시도)
+      if (cached && cached.far && cached.bcr) {
         return res.status(200).json({
-          far: cached.far || null,
-          bcr: cached.bcr || null,
+          far: cached.far,
+          bcr: cached.bcr,
           heatType: cached.heat_name || null,
           completionYmd: cached.use_date || null,
           saleType: cached.sale_name || null,
@@ -182,6 +183,10 @@ export default async function handler(req, res) {
             if (bldOne) {
               if (!result.far && bldOne.vlRat) result.far = String(bldOne.vlRat);
               if (!result.bcr && bldOne.bcRat) result.bcr = String(bldOne.bcRat);
+              // 디버그: 응답 필드 확인
+              result._bldDebug = Object.keys(bldOne).join(',');
+            } else {
+              result._bldDebug = 'no item: ' + bldText.substring(0, 200);
             }
           }
         } catch(e) {}
