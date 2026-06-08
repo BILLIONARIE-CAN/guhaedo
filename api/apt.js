@@ -150,43 +150,41 @@ export default async function handler(req, res) {
         const detailData = JSON.parse(detailText);
         item = detailData?.response?.body?.item;
       } catch(e) {}
-      if (!item) return res.status(404).json({ error: '데이터 없음' });
+      if (!item) return res.status(404).json({ error: '데이터 없음', raw: detailText.substring(0, 300) });
 
       const result = {
-        far: item.kaptFar || null,
-        bcr: item.kaptBcr || null,
-        heatType: item.codeHeatNm || item.kaptHeatType || null,
-        completionYmd: item.kaptUsedate || item.kaptBcompletionYmd || null,
-        saleType: item.codeSaleNm || item.kaptSaleType || null,
+        far: null,
+        bcr: null,
+        heatType: item.codeHeatNm || null,
+        completionYmd: item.kaptUsedate || null,
+        saleType: item.codeSaleNm || null,
       };
 
-      // 3. 용적률/건폐율 없으면 건축물대장 API 시도
-      const bjd = req.query.bjd || '';
-      const jibun = req.query.jibun || '';
-      if ((!result.far || !result.bcr) && bjd.length >= 10 && jibun) {
+      // 3. 건축물대장 표제부(getBrTitleInfo) API로 용적률/건폐율 조회
+      // V4 API에 kaptFar/kaptBcr 없음 → 건축물대장에서 vlRat/bcRat 사용
+      const bjdCode = item.bjdCode || '';
+      const kaptAddr = item.kaptAddr || '';
+      if (bjdCode.length >= 10 && kaptAddr) {
         try {
-          const sigunguCd = bjd.substring(0, 5);
-          const bjdongCd = bjd.substring(5, 10);
-          // jibunAddr에서 번지 파싱: "서울시 종로구 내수동 73- 경희궁..." → bun=73, ji=0
-          const tokens = jibun.split(' ');
-          const bunToken = tokens[3] || tokens[2] || '';
-          const bunMatch = bunToken.match(/^(\d+)-?(\d*)$/);
-          if (bunMatch) {
-            const bun = bunMatch[1].padStart(4, '0');
-            const ji = (bunMatch[2] || '0').padStart(4, '0');
-            const bldUrl = `https://apis.data.go.kr/1613000/BldRgstHubService/getBrRecapTitleInfo?serviceKey=${KEY}&sigunguCd=${sigunguCd}&bjdongCd=${bjdongCd}&bun=${bun}&ji=${ji}&_type=json&numOfRows=1`;
-            const bldRes = await fetch(bldUrl);
-            const bldText = await bldRes.text();
-            const bldData = JSON.parse(bldText);
+          const sigunguCd = bjdCode.substring(0, 5);
+          const bjdongCd = bjdCode.substring(5, 10);
+          // kaptAddr 예: "서울특별시 강남구 역삼동 707-18 단지명"
+          // 동/읍/면/리/가 다음에 오는 번지 파싱
+          const addrMatch = kaptAddr.match(/[동읍면리가]\s+(\d+)-?(\d*)/);
+          if (addrMatch) {
+            const bun = addrMatch[1].padStart(4, '0');
+            const ji = (addrMatch[2] || '0').padStart(4, '0');
+            const bldUrl = `https://apis.data.go.kr/1613000/BldRgstHubService/getBrTitleInfo?serviceKey=${KEY}&sigunguCd=${sigunguCd}&bjdongCd=${bjdongCd}&bun=${bun}&ji=${ji}&_type=json&numOfRows=1`;
+            const bldCtrl = new AbortController();
+            const bldTimer = setTimeout(() => bldCtrl.abort(), 5000);
+            const bldRes = await fetch(bldUrl, { signal: bldCtrl.signal });
+            clearTimeout(bldTimer);
+            const bldData = JSON.parse(await bldRes.text());
             const bldItem = bldData?.response?.body?.items?.item;
             const bldOne = Array.isArray(bldItem) ? bldItem[0] : bldItem;
             if (bldOne) {
-              if (!result.far && bldOne.vlRat) result.far = String(bldOne.vlRat);
-              if (!result.bcr && bldOne.bcRat) result.bcr = String(bldOne.bcRat);
-              // 디버그: 응답 필드 확인
-              result._bldDebug = Object.keys(bldOne).join(',');
-            } else {
-              result._bldDebug = 'no item: ' + bldText.substring(0, 200);
+              if (bldOne.vlRat) result.far = String(bldOne.vlRat);
+              if (bldOne.bcRat) result.bcr = String(bldOne.bcRat);
             }
           }
         } catch(e) {}
