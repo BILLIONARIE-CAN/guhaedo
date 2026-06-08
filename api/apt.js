@@ -119,22 +119,68 @@ export default async function handler(req, res) {
       return res.status(200).json(jsonData);
 
     } else if (type === 'detail') {
-      // 단지 상세정보 (한국부동산원 API) - 용적률, 건폐율, 준공년월, 난방방식 등
+      // 단지 상세정보 - Supabase 캐시 우선, 없으면 API 호출 후 저장
       if (!code) return res.status(400).json({ error: 'code 필요' });
+
+      // 1. Supabase 캐시 확인
+      const cacheRes = await fetch(
+        `${SUPABASE_URL}/rest/v1/apartments?kapt_code=eq.${code}&select=far,bcr,heat_name,use_date,sale_name&limit=1`,
+        { headers: { apikey: SUPABASE_KEY, Authorization: `Bearer ${SUPABASE_KEY}` } }
+      );
+      const cacheData = await cacheRes.json();
+      const cached = Array.isArray(cacheData) && cacheData[0];
+      if (cached && (cached.far || cached.bcr || cached.heat_name || cached.use_date)) {
+        return res.status(200).json({
+          far: cached.far || null,
+          bcr: cached.bcr || null,
+          heatType: cached.heat_name || null,
+          completionYmd: cached.use_date || null,
+          saleType: cached.sale_name || null,
+        });
+      }
+
+      // 2. V4 API 호출
       const KEY = encodeURIComponent(PUBLIC_API_KEY);
-      const detailUrl = `https://apis.data.go.kr/1613000/AptBasisInfoService1/getAphusBassInfo?serviceKey=${KEY}&kaptCode=${code}&_type=json`;
+      const detailUrl = `https://apis.data.go.kr/1613000/AptBasisInfoServiceV4/getAphusBassInfoV4?serviceKey=${KEY}&kaptCode=${code}&_type=json`;
       const detailRes = await fetch(detailUrl);
-      const detailData = await detailRes.json();
-      const item = detailData?.response?.body?.item;
+      const detailText = await detailRes.text();
+      let item = null;
+      try {
+        const detailData = JSON.parse(detailText);
+        item = detailData?.response?.body?.item;
+      } catch(e) {}
       if (!item) return res.status(404).json({ error: '데이터 없음' });
-      return res.status(200).json({
+
+      const result = {
         far: item.kaptFar || null,
         bcr: item.kaptBcr || null,
-        completionYmd: item.kaptBcompletionYmd || null,
-        heatType: item.kaptHeatType || item.kaptHeatingSystem || null,
-        saleType: item.kaptSaleType || null,
-        mgr: item.kaptMgrType || null,
-      });
+        heatType: item.codeHeatNm || item.kaptHeatType || null,
+        completionYmd: item.kaptUsedate || item.kaptBcompletionYmd || null,
+        saleType: item.codeSaleNm || item.kaptSaleType || null,
+      };
+
+      // 3. Supabase에 저장 (비동기, 실패해도 응답은 정상 반환)
+      fetch(
+        `${SUPABASE_URL}/rest/v1/apartments?kapt_code=eq.${code}`,
+        {
+          method: 'PATCH',
+          headers: {
+            apikey: SUPABASE_KEY,
+            Authorization: `Bearer ${SUPABASE_KEY}`,
+            'Content-Type': 'application/json',
+            Prefer: 'return=minimal',
+          },
+          body: JSON.stringify({
+            far: result.far,
+            bcr: result.bcr,
+            heat_name: result.heatType,
+            use_date: result.completionYmd,
+            sale_name: result.saleType,
+          }),
+        }
+      ).catch(() => {});
+
+      return res.status(200).json(result);
 
     } else {
       return res.status(400).json({ error: 'type 파라미터가 필요합니다' });
