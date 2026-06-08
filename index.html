@@ -1768,6 +1768,7 @@ function openAptDetail(d){
     '<div class="adp-info-item"><div class="adp-info-label">분양형태</div><div class="adp-info-val" id="adp-sale">'+(d.saleType||'-')+'</div></div>'+
     infoRow('시공사',d.builder)+
     infoRow('총 주차대수',d.totalPark?d.totalPark.toLocaleString()+'대':'')+
+    infoRow('세대당 주차',(function(){var u=parseInt(String(d.units).replace(/[^0-9]/g,''))||0;return (d.totalPark&&u)?(d.totalPark/u).toFixed(2)+'대':'';})())+
     infoRow('면적타입',fmtArea(d.areaBreak))+
     '<div class="adp-info-item"><div class="adp-info-label">용적률</div><div class="adp-info-val" id="adp-far">-</div></div>'+
     '<div class="adp-info-item"><div class="adp-info-label">건폐율</div><div class="adp-info-val" id="adp-bcr">-</div></div>';
@@ -3075,7 +3076,8 @@ function pickComplex(code){
      ['분양형태','ci-sale',d.sale||''],
      ['시공사','ci-builder',d.builder||''],
      ['현관구조','ci-entrance',d.entrance||''],
-     ['총주차','ci-park',d.totalPark?d.totalPark+'대':'']
+     ['총주차','ci-park',d.totalPark?d.totalPark+'대':''],
+     ['세대당주차','ci-parkper',(function(){var u=parseInt(String(d.units).replace(/[^0-9]/g,''))||0;return (d.totalPark&&u)?(d.totalPark/u).toFixed(2)+'대':'';})()]
     ].map(function(r){return '<div style="background:var(--bg);border-radius:var(--radius-sm);padding:5px 8px"><div style="font-size:10px;color:var(--text3)">'+r[0]+'</div><input type="text" id="'+r[1]+'" value="'+r[2]+'" style="width:100%;border:none;background:transparent;font-size:13px;font-weight:600;color:var(--text);padding:2px 0;font-family:inherit;outline:none" placeholder="직접 입력"></div>';}).join('')+
     '</div>';
 }
