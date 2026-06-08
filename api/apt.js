@@ -160,24 +160,26 @@ export default async function handler(req, res) {
         saleType: item.codeSaleNm || null,
       };
 
-      // 3. 건축물대장 표제부(getBrTitleInfo) API로 용적률/건폐율 조회
-      // V4 API에 kaptFar/kaptBcr 없음 → 건축물대장에서 vlRat/bcRat 사용
+      // 3. 건축물대장 API로 용적률/건폐율 조회
+      // 우선 표제부(getBrTitleInfo, 동별), 없으면 총괄표제부(getBrRecapTitleInfo, 단지 전체) 순으로 시도
       const bjdCode = item.bjdCode || '';
       const kaptAddr = item.kaptAddr || '';
       if (bjdCode.length >= 10 && kaptAddr) {
         try {
           const sigunguCd = bjdCode.substring(0, 5);
           const bjdongCd = bjdCode.substring(5, 10);
-          // kaptAddr 예: "서울특별시 강남구 역삼동 707-18 단지명"
-          // 동/읍/면/리/가 다음에 오는 번지 파싱
           const addrMatch = kaptAddr.match(/[동읍면리가]\s+(\d+)-?(\d*)/);
           if (addrMatch) {
             const bun = addrMatch[1].padStart(4, '0');
             const ji = (addrMatch[2] || '0').padStart(4, '0');
-            const bldUrl = `https://apis.data.go.kr/1613000/BldRgstHubService/getBrTitleInfo?serviceKey=${KEY}&sigunguCd=${sigunguCd}&bjdongCd=${bjdongCd}&bun=${bun}&ji=${ji}&_type=json&numOfRows=1`;
+
+            // 1차: 표제부 (getBrTitleInfo)
             const bldCtrl = new AbortController();
             const bldTimer = setTimeout(() => bldCtrl.abort(), 5000);
-            const bldRes = await fetch(bldUrl, { signal: bldCtrl.signal });
+            const bldRes = await fetch(
+              `https://apis.data.go.kr/1613000/BldRgstHubService/getBrTitleInfo?serviceKey=${KEY}&sigunguCd=${sigunguCd}&bjdongCd=${bjdongCd}&bun=${bun}&ji=${ji}&_type=json&numOfRows=1`,
+              { signal: bldCtrl.signal }
+            );
             clearTimeout(bldTimer);
             const bldData = JSON.parse(await bldRes.text());
             const bldItem = bldData?.response?.body?.items?.item;
@@ -185,6 +187,25 @@ export default async function handler(req, res) {
             if (bldOne) {
               if (bldOne.vlRat) result.far = String(bldOne.vlRat);
               if (bldOne.bcRat) result.bcr = String(bldOne.bcRat);
+            }
+
+            // 2차: 총괄표제부 (getBrRecapTitleInfo) — 표제부에 값 없을 때 또는 주차 보완용
+            if (!result.far || !result.bcr) {
+              const recapCtrl = new AbortController();
+              const recapTimer = setTimeout(() => recapCtrl.abort(), 5000);
+              const recapRes = await fetch(
+                `https://apis.data.go.kr/1613000/BldRgstHubService/getBrRecapTitleInfo?serviceKey=${KEY}&sigunguCd=${sigunguCd}&bjdongCd=${bjdongCd}&bun=${bun}&ji=${ji}&_type=json&numOfRows=1`,
+                { signal: recapCtrl.signal }
+              );
+              clearTimeout(recapTimer);
+              const recapData = JSON.parse(await recapRes.text());
+              const recapItem = recapData?.response?.body?.items?.item;
+              const recapOne = Array.isArray(recapItem) ? recapItem[0] : recapItem;
+              if (recapOne) {
+                if (!result.far && recapOne.vlRat) result.far = String(recapOne.vlRat);
+                if (!result.bcr && recapOne.bcRat) result.bcr = String(recapOne.bcRat);
+                if (recapOne.totPkngCnt) result.totalPark = recapOne.totPkngCnt;
+              }
             }
           }
         } catch(e) {}
@@ -207,6 +228,7 @@ export default async function handler(req, res) {
             heat_name: result.heatType,
             use_date: result.completionYmd,
             sale_name: result.saleType,
+            ...(result.totalPark != null ? { total_park: result.totalPark } : {}),
           }),
         }
       ).catch(() => {});

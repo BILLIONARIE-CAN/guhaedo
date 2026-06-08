@@ -35,7 +35,7 @@ export default async function handler(req, res) {
       const item = v4Json?.response?.body?.item;
       if (!item) return { far: null };
 
-      let far = null, bcr = null;
+      let far = null, bcr = null, totalPark = null;
       const bjdCode = item.bjdCode || '';
       const kaptAddr = item.kaptAddr || '';
 
@@ -44,20 +44,38 @@ export default async function handler(req, res) {
         if (addrMatch) {
           const bun = addrMatch[1].padStart(4, '0');
           const ji = (addrMatch[2] || '0').padStart(4, '0');
+          const sigunguCd = bjdCode.substring(0, 5);
+          const bjdongCd = bjdCode.substring(5, 10);
+
+          // 1차: 표제부 (getBrTitleInfo, 동별)
           const bldRes = await fetch(
-            `https://apis.data.go.kr/1613000/BldRgstHubService/getBrTitleInfo?serviceKey=${KEY}&sigunguCd=${bjdCode.substring(0,5)}&bjdongCd=${bjdCode.substring(5,10)}&bun=${bun}&ji=${ji}&_type=json&numOfRows=1`,
+            `https://apis.data.go.kr/1613000/BldRgstHubService/getBrTitleInfo?serviceKey=${KEY}&sigunguCd=${sigunguCd}&bjdongCd=${bjdongCd}&bun=${bun}&ji=${ji}&_type=json&numOfRows=1`,
             { signal: AbortSignal.timeout(7000) }
           );
           const bldOne = ((await bldRes.json())?.response?.body?.items?.item || [])[0];
           if (bldOne?.vlRat) far = String(bldOne.vlRat);
           if (bldOne?.bcRat) bcr = String(bldOne.bcRat);
+
+          // 2차: 총괄표제부 (getBrRecapTitleInfo, 단지 전체) — 표제부에 값 없을 때 또는 주차 보완용
+          if (!far || !bcr) {
+            const recapRes = await fetch(
+              `https://apis.data.go.kr/1613000/BldRgstHubService/getBrRecapTitleInfo?serviceKey=${KEY}&sigunguCd=${sigunguCd}&bjdongCd=${bjdongCd}&bun=${bun}&ji=${ji}&_type=json&numOfRows=1`,
+              { signal: AbortSignal.timeout(7000) }
+            );
+            const recapOne = ((await recapRes.json())?.response?.body?.items?.item || [])[0];
+            if (recapOne) {
+              if (!far && recapOne.vlRat) far = String(recapOne.vlRat);
+              if (!bcr && recapOne.bcRat) bcr = String(recapOne.bcRat);
+              if (recapOne.totPkngCnt) totalPark = recapOne.totPkngCnt;
+            }
+          }
         }
       }
 
       await fetch(`${SUPABASE_URL}/rest/v1/apartments?kapt_code=eq.${kapt_code}`, {
         method: 'PATCH',
         headers: { apikey: SUPABASE_KEY, Authorization: `Bearer ${SUPABASE_KEY}`, 'Content-Type': 'application/json', Prefer: 'return=minimal' },
-        body: JSON.stringify({ far, bcr, heat_name: item.codeHeatNm||null, use_date: item.kaptUsedate||null, sale_name: item.codeSaleNm||null }),
+        body: JSON.stringify({ far, bcr, heat_name: item.codeHeatNm||null, use_date: item.kaptUsedate||null, sale_name: item.codeSaleNm||null, ...(totalPark != null ? { total_park: totalPark } : {}) }),
       });
       return { far };
     } catch { return { far: null }; }
