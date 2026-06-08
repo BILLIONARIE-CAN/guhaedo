@@ -120,4 +120,27 @@ export default async function handler(req, res) {
 
     } else if (type === 'detail') {
       // 단지 상세정보 (한국부동산원 API) - 용적률, 건폐율, 준공년월, 난방방식 등
-      if (!code) return res.status(400).json({
+      if (!code) return res.status(400).json({ error: 'code 필요' });
+      const KEY = encodeURIComponent(PUBLIC_API_KEY);
+      const detailUrl = `https://apis.data.go.kr/1613000/AptBasisInfoService1/getAphusBassInfo?serviceKey=${KEY}&kaptCode=${code}&_type=json`;
+      const detailRes = await fetch(detailUrl);
+      const detailData = await detailRes.json();
+      const item = detailData?.response?.body?.item;
+      if (!item) return res.status(404).json({ error: '데이터 없음' });
+      return res.status(200).json({
+        far: item.kaptFar || null,
+        bcr: item.kaptBcr || null,
+        completionYmd: item.kaptBcompletionYmd || null,
+        heatType: item.kaptHeatType || item.kaptHeatingSystem || null,
+        saleType: item.kaptSaleType || null,
+        mgr: item.kaptMgrType || null,
+      });
+
+    } else {
+      return res.status(400).json({ error: 'type 파라미터가 필요합니다' });
+    }
+
+  } catch (error) {
+    return res.status(500).json({ error: error.message });
+  }
+}
