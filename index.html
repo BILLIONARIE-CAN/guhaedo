@@ -93,6 +93,8 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
 .adp-info-item{background:var(--bg);border-radius:var(--radius-sm);padding:10px}
 .adp-info-label{font-size:10px;color:var(--text3);margin-bottom:3px}
 .adp-info-val{font-size:14px;font-weight:700}
+.trade-tab{flex:1;padding:5px 0;font-size:12px;font-weight:600;border:1px solid var(--border);background:var(--white);color:var(--text3);border-radius:4px;cursor:pointer;font-family:inherit;transition:all .15s}
+.trade-tab.active{background:var(--green);color:#fff;border-color:var(--green)}
 .adp-price-row{display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px;margin-bottom:14px}
 .adp-price-item{border:1px solid var(--border);border-radius:var(--radius-sm);padding:10px;text-align:center}
 .adp-price-label{font-size:10px;color:var(--text3);margin-bottom:3px}
@@ -1778,7 +1780,24 @@ function openAptDetail(d){
     infoRow('최근 매매',d.recentSale)+
     infoRow('최근 전세',d.recentJeonse)+
     infoRow('최근 월세',d.recentMonthly)+
-    '<div class="adp-info-item" style="grid-column:1/-1;text-align:center;color:var(--text3);font-size:11px;padding:8px 0">실거래가 그래프 (준비 중)</div>';
+    '<div style="grid-column:1/-1;margin-top:4px">'+
+      '<div style="display:flex;gap:5px;margin-bottom:8px">'+
+        '<button class="trade-tab active" onclick="showTradeTab(\'buy\')" id="tab-buy">매매</button>'+
+        '<button class="trade-tab" onclick="showTradeTab(\'jeonse\')" id="tab-jeonse">전세</button>'+
+        '<button class="trade-tab" onclick="showTradeTab(\'monthly\')" id="tab-monthly">월세</button>'+
+      '</div>'+
+      '<div id="trade-loading" style="text-align:center;padding:24px 0;color:var(--text3);font-size:12px">불러오는 중...</div>'+
+      '<div id="trade-chart-area" style="display:none">'+
+        '<div style="position:relative;height:180px"><canvas id="trade-chart" role="img" aria-label="실거래가 차트"></canvas></div>'+
+        '<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:4px;margin-top:8px">'+
+          '<div class="adp-info-item" style="text-align:center"><div class="adp-info-label">건수</div><div id="stat-cnt" class="adp-info-val" style="font-size:12px">-</div></div>'+
+          '<div class="adp-info-item" style="text-align:center"><div class="adp-info-label">최저</div><div id="stat-min" class="adp-info-val" style="font-size:12px">-</div></div>'+
+          '<div class="adp-info-item" style="text-align:center"><div class="adp-info-label">최고</div><div id="stat-max" class="adp-info-val" style="font-size:12px">-</div></div>'+
+          '<div class="adp-info-item" style="text-align:center"><div class="adp-info-label">평균</div><div id="stat-avg" class="adp-info-val" style="font-size:12px">-</div></div>'+
+        '</div>'+
+      '</div>'+
+      '<div id="trade-empty" style="display:none;text-align:center;padding:24px 0;color:var(--text3);font-size:12px">거래 내역 없음</div>'+
+    '</div>';
 
   // ===== 3. 입지 · 인프라 =====
   ge('adp-infra-grid').innerHTML=
@@ -1813,6 +1832,9 @@ function openAptDetail(d){
         if(info.heatType){const el=document.getElementById('adp-heat');if(el&&el.textContent==='-')el.textContent=info.heatType;}
         if(info.saleType){const el=document.getElementById('adp-sale');if(el&&el.textContent==='-')el.textContent=info.saleType;}
       }).catch(()=>{});
+
+    // 실거래가 차트 로드
+    loadTradeChart(d.code);
   }
 }
 
@@ -3183,6 +3205,121 @@ function openSellModal(){ge('sell-modal').style.display='block';ge('sell-modal-f
 function closeSellModal(){ge('sell-modal').style.display='none';document.body.style.overflow='';}
 function submitSellModal(){const name=gv('m-name'),tel=gv('m-tel'),complex=gv('m-complex'),ho=gv('m-ho');if(!name||!tel||!complex||!ho){toast('성함, 연락처, 단지명, 동/호수를 입력해주세요.');return;}ge('sell-modal-form').style.display='none';ge('sell-modal-confirm').style.display='block';}
 
+// ===== 실거래가 차트 =====
+var tradeChart=null,tradeRawData=null,curTradeTab='buy';
+var TRADE_MONTHS=(function(){
+  var arr=[],now=new Date();
+  for(var i=23;i>=0;i--){var d=new Date(now.getFullYear(),now.getMonth()-i,1);arr.push(d.getFullYear()+'.'+(d.getMonth()+1<10?'0':'')+(d.getMonth()+1));}
+  return arr;
+})();
+
+function fmtP(p){
+  if(p>=10000)return (p/10000).toFixed(1)+'억';
+  if(p>=1000)return (p/1000).toFixed(0)+'천';
+  return p+'만';
+}
+
+function showTradeTab(tab){
+  curTradeTab=tab;
+  ['buy','jeonse','monthly'].forEach(function(t){var el=ge('tab-'+t);if(el)el.classList.toggle('active',t===tab);});
+  if(tradeRawData)renderTradeChart();
+}
+
+function renderTradeChart(){
+  var raw=tradeRawData;
+  if(!raw)return;
+  var items=curTradeTab==='buy'?raw.buy:curTradeTab==='jeonse'?raw.jeonse:raw.monthly;
+  var loading=ge('trade-loading'),area=ge('trade-chart-area'),empty=ge('trade-empty');
+  if(!items||items.length===0){
+    if(loading)loading.style.display='none';
+    if(area)area.style.display='none';
+    if(empty)empty.style.display='block';
+    return;
+  }
+  if(loading)loading.style.display='none';
+  if(empty)empty.style.display='none';
+  if(area)area.style.display='block';
+
+  var scatter=[],monthSums={},monthCnts={},prices=[];
+  items.forEach(function(x){
+    var ym=x.t?x.t.substring(0,7):'';
+    var label=ym.substring(0,4)+'.'+(ym.substring(5));
+    var idx=TRADE_MONTHS.indexOf(label);
+    if(idx<0)return;
+    var p=curTradeTab==='monthly'?x.m:x.p;
+    if(!p)return;
+    scatter.push({x:idx,y:p,a:x.a,f:x.f||'',d:x.d||0});
+    prices.push(p);
+    if(!monthSums[idx]){monthSums[idx]=0;monthCnts[idx]=0;}
+    monthSums[idx]+=p;monthCnts[idx]++;
+  });
+
+  if(!prices.length){
+    if(loading)loading.style.display='none';
+    if(area)area.style.display='none';
+    if(empty){empty.style.display='block';}
+    return;
+  }
+
+  var lineData=Object.keys(monthSums).map(function(i){return {x:parseInt(i),y:Math.round(monthSums[i]/monthCnts[i])};}).sort(function(a,b){return a.x-b.x;});
+  var minP=Math.min.apply(null,prices),maxP=Math.max.apply(null,prices);
+  var avgP=Math.round(prices.reduce(function(a,b){return a+b;},0)/prices.length);
+  ge('stat-cnt').textContent=prices.length+'건';
+  ge('stat-min').textContent=fmtP(minP);
+  ge('stat-max').textContent=fmtP(maxP);
+  ge('stat-avg').textContent=fmtP(avgP);
+
+  var dotC={buy:'rgba(29,158,117,0.45)',jeonse:'rgba(55,138,221,0.45)',monthly:'rgba(226,149,0,0.45)'};
+  var lineC={buy:'#0F6E56',jeonse:'#185FA5',monthly:'#BA7517'};
+  var dc=dotC[curTradeTab],lc=lineC[curTradeTab];
+
+  var ctx=ge('trade-chart');
+  if(tradeChart){tradeChart.destroy();tradeChart=null;}
+  tradeChart=new Chart(ctx,{
+    type:'scatter',
+    data:{datasets:[
+      {label:'거래',data:scatter,backgroundColor:dc,pointRadius:4,pointHoverRadius:6,order:2},
+      {label:'월평균',data:lineData,type:'line',borderColor:lc,backgroundColor:'transparent',borderWidth:2,pointRadius:3,pointBackgroundColor:lc,fill:false,tension:0.3,showLine:true,order:1}
+    ]},
+    options:{
+      responsive:true,maintainAspectRatio:false,
+      plugins:{
+        legend:{display:false},
+        tooltip:{callbacks:{label:function(c){
+          var d=c.raw,p=fmtP(d.y);
+          if(curTradeTab==='monthly')return '월세 '+p+'만'+(d.d?' / 보증금 '+fmtP(d.d):'')+(d.a?' · '+d.a+'㎡':'');
+          return p+(d.a?' · '+d.a+'㎡':'')+(d.f?' · '+d.f+'층':'');
+        }}}
+      },
+      scales:{
+        x:{type:'linear',min:-0.5,max:23.5,
+          ticks:{callback:function(v){var i=Math.round(v);return(i>=0&&i<24&&i%6===0)?TRADE_MONTHS[i]:'';},maxRotation:0,font:{size:10},autoSkip:false},
+          grid:{color:'rgba(0,0,0,0.05)'}},
+        y:{ticks:{callback:function(v){return fmtP(v);},font:{size:10}},grid:{color:'rgba(0,0,0,0.05)'}}
+      }
+    }
+  });
+}
+
+function loadTradeChart(code){
+  if(!code)return;
+  tradeRawData=null;curTradeTab='buy';
+  if(tradeChart){tradeChart.destroy();tradeChart=null;}
+  var loading=ge('trade-loading'),area=ge('trade-chart-area'),empty=ge('trade-empty');
+  if(loading){loading.style.display='block';loading.textContent='불러오는 중...';}
+  if(area)area.style.display='none';
+  if(empty)empty.style.display='none';
+  ['buy','jeonse','monthly'].forEach(function(t){var el=ge('tab-'+t);if(el)el.classList.toggle('active',t==='buy');});
+  fetch('/api/trade?code='+code)
+    .then(function(r){return r.ok?r.json():null;})
+    .then(function(d){
+      if(!d){if(loading)loading.textContent='데이터 없음';return;}
+      tradeRawData=d;
+      renderTradeChart();
+    })
+    .catch(function(){if(loading)loading.textContent='오류 발생';});
+}
+
 // ===== 초기화 =====
 window.onload=function(){
   handleKakaoCallback();
@@ -3191,5 +3328,6 @@ window.onload=function(){
   setTimeout(()=>initMap(),500);
 };
 </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
 </body>
 </html>
