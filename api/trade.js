@@ -69,6 +69,7 @@ export default async function handler(req, res) {
 
   const buy = allBuy.map(x => ({
     t: `${x.dealYear}-${String(x.dealMonth || 1).padStart(2, '0')}`,
+    day: String(x.dealDay || '').trim(),
     p: parsePrice(x.dealAmount),
     a: parseFloat(x.excluUseAr || 0),
     f: String(x.floor || '').trim(),
@@ -78,6 +79,7 @@ export default async function handler(req, res) {
     .filter(x => !parsePrice(x.monthlyRent))
     .map(x => ({
       t: `${x.dealYear}-${String(x.dealMonth || 1).padStart(2, '0')}`,
+      day: String(x.dealDay || '').trim(),
       p: parsePrice(x.deposit),
       a: parseFloat(x.excluUseAr || 0),
     }));
@@ -86,6 +88,7 @@ export default async function handler(req, res) {
     .filter(x => parsePrice(x.monthlyRent) > 0)
     .map(x => ({
       t: `${x.dealYear}-${String(x.dealMonth || 1).padStart(2, '0')}`,
+      day: String(x.dealDay || '').trim(),
       d: parsePrice(x.deposit),
       m: parsePrice(x.monthlyRent),
       a: parseFloat(x.excluUseAr || 0),
