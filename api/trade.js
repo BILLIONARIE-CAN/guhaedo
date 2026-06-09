@@ -10,21 +10,31 @@ export default async function handler(req, res) {
 
   const KEY = encodeURIComponent('8dfbbd6dc2fff98040507b95b9688bc24cbdfb35e253494d734a697d4658f1cf');
 
-  // 1. V4 API로 bjdCode, 단지명 가져오기
-  let item;
-  try {
-    const v4 = await fetch(
-      `https://apis.data.go.kr/1613000/AptBasisInfoServiceV4/getAphusBassInfoV4?serviceKey=${KEY}&kaptCode=${code}&_type=json`,
-      { signal: AbortSignal.timeout(7000) }
-    );
-    item = (await v4.json())?.response?.body?.item;
-  } catch(e) {}
-  if (!item) return res.status(404).json({ error: '단지 정보 없음' });
+  let lawdCd, aptName;
 
-  const bjdCode = item.bjdCode || '';
-  const aptName = (item.kaptName || '').trim();
-  const lawdCd = bjdCode.substring(0, 5);
-  if (lawdCd.length < 5) return res.status(400).json({ error: 'lawd_cd 없음' });
+  if (code.startsWith('DISC_')) {
+    // discover.js로 추가된 미등록 아파트: DISC_{lawd_cd}_{공백제거_이름}
+    const parts = code.split('_');
+    lawdCd = parts[1];
+    aptName = parts.slice(2).join('_');
+    if (!lawdCd || lawdCd.length !== 5) return res.status(400).json({ error: '잘못된 DISC 코드' });
+  } else {
+    // 1. V4 API로 bjdCode, 단지명 가져오기
+    let item;
+    try {
+      const v4 = await fetch(
+        `https://apis.data.go.kr/1613000/AptBasisInfoServiceV4/getAphusBassInfoV4?serviceKey=${KEY}&kaptCode=${code}&_type=json`,
+        { signal: AbortSignal.timeout(7000) }
+      );
+      item = (await v4.json())?.response?.body?.item;
+    } catch(e) {}
+    if (!item) return res.status(404).json({ error: '단지 정보 없음' });
+
+    const bjdCode = item.bjdCode || '';
+    aptName = (item.kaptName || '').trim();
+    lawdCd = bjdCode.substring(0, 5);
+    if (lawdCd.length < 5) return res.status(400).json({ error: 'lawd_cd 없음' });
+  }
 
   // 2. 최근 24개월 목록
   const months = [];
@@ -50,7 +60,7 @@ export default async function handler(req, res) {
   }
 
   // 3. 매매 + 전월세 병렬 조회
-  const buyBase = 'https://apis.data.go.kr/1613000/RTMSDataSvcAptTradeDev/getRTMSDataSvcAptTradeDev';
+  const buyBase = 'https://apis.data.go.kr/1613000/RTMSDataSvcAptTrade/getRTMSDataSvcAptTrade';
   const rentBase = 'https://apis.data.go.kr/1613000/RTMSDataSvcAptRent/getRTMSDataSvcAptRent';
 
   const [buyRaw, rentRaw] = await Promise.all([
