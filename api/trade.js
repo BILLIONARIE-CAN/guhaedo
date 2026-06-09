@@ -36,10 +36,11 @@ export default async function handler(req, res) {
     if (lawdCd.length < 5) return res.status(400).json({ error: 'lawd_cd 없음' });
   }
 
-  // 2. 최근 24개월 목록
+  // 2. 조회 개월 수 (기본 24, 최대 24)
+  const monthCount = Math.min(parseInt(req.query.months) || 24, 24);
   const months = [];
   const now = new Date();
-  for (let i = 0; i < 24; i++) {
+  for (let i = 0; i < monthCount; i++) {
     const d = new Date(now.getFullYear(), now.getMonth() - i, 1);
     months.push(`${d.getFullYear()}${String(d.getMonth() + 1).padStart(2, '0')}`);
   }

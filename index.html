@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>아구구 - 아파트 구할땐 아구구!</title>
+<title>아구구! 에서 구해줘!</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
 @keyframes pinBounce {
@@ -1670,7 +1670,8 @@ function addMarker(d){
   let bc='';
   if(d.type==='apt'||d.type==='bunyang'||d.type==='officetel'||d.type==='villa'){
     const n=d.name.length>9?d.name.substring(0,9)+'..':d.name;
-    const u=d.units?'<br><span style="font-size:10px;font-weight:400;opacity:.85">'+d.units+'</span>':'';
+    const uClr=d.type==='bunyang'?'rgba(0,0,0,0.45)':'rgba(255,255,255,0.6)';
+    const u=d.units?'<br><span style="font-size:10px;font-weight:400;color:'+uClr+'">'+d.units+'</span>':'';
     const clr=TYPE_COLOR[d.type]||'#1a56db';
     const txtClr=d.type==='bunyang'?'#1a1a1a':'#fff';
     const aptDiv=document.createElement('div');
@@ -3398,21 +3399,47 @@ function loadTradeChart(code){
   if(summary)summary.textContent='';
   var sel=ge('trade-area-sel');if(sel)sel.innerHTML='<option value="">전체 면적</option>';
   ['buy','jeonse','monthly'].forEach(function(t){var el=ge('tab-'+t);if(el)el.classList.toggle('active',t==='buy');});
-  fetch('/api/trade?code='+code)
+
+  function applyData(d){
+    if(!d)return;
+    tradeRawData=d;
+    var allAreas={};
+    [d.buy,d.jeonse,d.monthly].forEach(function(arr){(arr||[]).forEach(function(x){if(x.a)allAreas[Math.round(x.a)]=true;});});
+    var sel=ge('trade-area-sel');
+    if(sel){
+      var saved=sel.value;
+      var opts='<option value="">전체 면적</option>';
+      Object.keys(allAreas).sort(function(a,b){return parseInt(a)-parseInt(b);}).forEach(function(a){opts+='<option value="'+a+'">'+a+'㎡</option>';});
+      sel.innerHTML=opts;
+      if(saved)sel.value=saved;
+    }
+    renderTradeChart();
+    renderTradeTable();
+  }
+
+  // 1단계: 최근 3개월 빠르게 먼저 표시
+  fetch('/api/trade?code='+code+'&months=3')
     .then(function(r){return r.ok?r.json():null;})
     .then(function(d){
       if(!d){if(loading)loading.textContent='데이터 없음';return;}
-      tradeRawData=d;
-      var allAreas={};
-      [d.buy,d.jeonse,d.monthly].forEach(function(arr){(arr||[]).forEach(function(x){if(x.a)allAreas[Math.round(x.a)]=true;});});
-      var sel=ge('trade-area-sel');
-      if(sel){
-        var opts='<option value="">전체 면적</option>';
-        Object.keys(allAreas).sort(function(a,b){return parseInt(a)-parseInt(b);}).forEach(function(a){opts+='<option value="'+a+'">'+a+'㎡</option>';});
-        sel.innerHTML=opts;
-      }
-      renderTradeChart();
-      renderTradeTable();
+      if(loading)loading.style.display='none';
+      applyData(d);
+      // 2단계: 나머지 21개월 백그라운드 로딩
+      var lbl=ge('trade-loading');
+      // 작은 텍스트로 로딩 중 표시 (차트 위에 겹치지 않게)
+      if(chartArea)chartArea.style.display='';
+      var bg=document.createElement('div');
+      bg.id='trade-bg-loading';
+      bg.style.cssText='font-size:10px;color:var(--text3);text-align:right;padding:2px 0;';
+      bg.textContent='전체 기간 로딩 중...';
+      var ta=ge('trade-chart-area');if(ta)ta.insertBefore(bg,ta.firstChild);
+      fetch('/api/trade?code='+code)
+        .then(function(r){return r.ok?r.json():null;})
+        .then(function(full){
+          var bgEl=ge('trade-bg-loading');if(bgEl)bgEl.remove();
+          if(full)applyData(full);
+        })
+        .catch(function(){var bgEl=ge('trade-bg-loading');if(bgEl)bgEl.remove();});
     })
     .catch(function(){if(loading)loading.textContent='오류 발생';});
 }
