@@ -1,5 +1,8 @@
 // 실거래가 조회 - /api/trade?code=KAPT_CODE
-// 매매(buy) + 전월세(jeonse/monthly) 최근 24개월 데이터 반환
+// 모드1: ?code=XXX                  - 기본 24개월
+// 모드2: ?code=XXX&months=N         - N개월
+// 모드3: ?code=XXX&ym=YYYYMM        - 단일 월 (스트리밍용)
+//   lawdCd, aptName 파라미터 전달 시 V4 API 스킵 → 빠름
 
 export default async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
@@ -10,39 +13,45 @@ export default async function handler(req, res) {
 
   const KEY = encodeURIComponent('8dfbbd6dc2fff98040507b95b9688bc24cbdfb35e253494d734a697d4658f1cf');
 
-  let lawdCd, aptName;
+  // 클라이언트가 lawdCd/aptName 전달하면 V4 API 스킵 (23개월 요청 최적화)
+  let lawdCd = req.query.lawdCd || '';
+  let aptName = req.query.aptName ? decodeURIComponent(req.query.aptName) : '';
 
-  if (code.startsWith('DISC_')) {
-    // discover.js로 추가된 미등록 아파트: DISC_{lawd_cd}_{공백제거_이름}
-    const parts = code.split('_');
-    lawdCd = parts[1];
-    aptName = parts.slice(2).join('_');
-    if (!lawdCd || lawdCd.length !== 5) return res.status(400).json({ error: '잘못된 DISC 코드' });
-  } else {
-    // 1. V4 API로 bjdCode, 단지명 가져오기
-    let item;
-    try {
-      const v4 = await fetch(
-        `https://apis.data.go.kr/1613000/AptBasisInfoServiceV4/getAphusBassInfoV4?serviceKey=${KEY}&kaptCode=${code}&_type=json`,
-        { signal: AbortSignal.timeout(7000) }
-      );
-      item = (await v4.json())?.response?.body?.item;
-    } catch(e) {}
-    if (!item) return res.status(404).json({ error: '단지 정보 없음' });
+  if (!lawdCd || !aptName) {
+    if (code.startsWith('DISC_')) {
+      const parts = code.split('_');
+      lawdCd = parts[1];
+      aptName = parts.slice(2).join('_');
+      if (!lawdCd || lawdCd.length !== 5) return res.status(400).json({ error: '잘못된 DISC 코드' });
+    } else {
+      let item;
+      try {
+        const v4 = await fetch(
+          `https://apis.data.go.kr/1613000/AptBasisInfoServiceV4/getAphusBassInfoV4?serviceKey=${KEY}&kaptCode=${code}&_type=json`,
+          { signal: AbortSignal.timeout(7000) }
+        );
+        item = (await v4.json())?.response?.body?.item;
+      } catch(e) {}
+      if (!item) return res.status(404).json({ error: '단지 정보 없음' });
 
-    const bjdCode = item.bjdCode || '';
-    aptName = (item.kaptName || '').trim();
-    lawdCd = bjdCode.substring(0, 5);
-    if (lawdCd.length < 5) return res.status(400).json({ error: 'lawd_cd 없음' });
+      const bjdCode = item.bjdCode || '';
+      aptName = (item.kaptName || '').trim();
+      lawdCd = bjdCode.substring(0, 5);
+      if (lawdCd.length < 5) return res.status(400).json({ error: 'lawd_cd 없음' });
+    }
   }
 
-  // 2. 조회 개월 수 (기본 24, 최대 24)
-  const monthCount = Math.min(parseInt(req.query.months) || 24, 24);
-  const months = [];
-  const now = new Date();
-  for (let i = 0; i < monthCount; i++) {
-    const d = new Date(now.getFullYear(), now.getMonth() - i, 1);
-    months.push(`${d.getFullYear()}${String(d.getMonth() + 1).padStart(2, '0')}`);
+  // 조회 월 목록 결정
+  let months = [];
+  if (req.query.ym) {
+    months = [req.query.ym]; // 단일 월 모드
+  } else {
+    const monthCount = Math.min(parseInt(req.query.months) || 24, 24);
+    const now = new Date();
+    for (let i = 0; i < monthCount; i++) {
+      const d = new Date(now.getFullYear(), now.getMonth() - i, 1);
+      months.push(`${d.getFullYear()}${String(d.getMonth() + 1).padStart(2, '0')}`);
+    }
   }
 
   function parseItems(json) {
@@ -107,5 +116,6 @@ export default async function handler(req, res) {
       f: String(x.floor || '').trim(),
     }));
 
-  return res.status(200).json({ aptName, buy, jeonse, monthly });
+  // lawdCd도 반환 → 클라이언트가 다음 요청에 재사용 (V4 스킵)
+  return res.status(200).json({ aptName, lawdCd, buy, jeonse, monthly });
 }
