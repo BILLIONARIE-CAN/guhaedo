@@ -3416,32 +3416,40 @@ function loadTradeChart(code){
     renderTradeChart();
     renderTradeTable();
   }
+  function hasTradeData(d){return d&&((d.buy&&d.buy.length)||(d.jeonse&&d.jeonse.length)||(d.monthly&&d.monthly.length));}
 
-  // 1단계: 최근 3개월 빠르게 먼저 표시
+  var fullLoaded=false;
+
+  // 2단계: 24개월 전체 (항상 실행 — 최종 결과 확정)
+  var fullPromise=fetch('/api/trade?code='+code)
+    .then(function(r){return r.ok?r.json():null;})
+    .catch(function(){return null;});
+
+  // 1단계: 최근 3개월 빠른 미리보기 (데이터 있을 때만 표시)
   fetch('/api/trade?code='+code+'&months=3')
     .then(function(r){return r.ok?r.json():null;})
     .then(function(d){
-      if(!d){if(loading)loading.textContent='데이터 없음';return;}
+      if(fullLoaded)return; // 이미 24개월 먼저 도착한 경우 무시
+      if(!hasTradeData(d))return; // 3개월 내 거래없으면 스피너 유지
       if(loading)loading.style.display='none';
       applyData(d);
-      // 2단계: 나머지 21개월 백그라운드 로딩
-      var lbl=ge('trade-loading');
-      // 작은 텍스트로 로딩 중 표시 (차트 위에 겹치지 않게)
-      if(chartArea)chartArea.style.display='';
+      // 백그라운드 로딩 표시
       var bg=document.createElement('div');
       bg.id='trade-bg-loading';
       bg.style.cssText='font-size:10px;color:var(--text3);text-align:right;padding:2px 0;';
       bg.textContent='전체 기간 로딩 중...';
       var ta=ge('trade-chart-area');if(ta)ta.insertBefore(bg,ta.firstChild);
-      fetch('/api/trade?code='+code)
-        .then(function(r){return r.ok?r.json():null;})
-        .then(function(full){
-          var bgEl=ge('trade-bg-loading');if(bgEl)bgEl.remove();
-          if(full)applyData(full);
-        })
-        .catch(function(){var bgEl=ge('trade-bg-loading');if(bgEl)bgEl.remove();});
     })
-    .catch(function(){if(loading)loading.textContent='오류 발생';});
+    .catch(function(){});
+
+  // 24개월 완료 → 최종 확정
+  fullPromise.then(function(full){
+    fullLoaded=true;
+    var bgEl=ge('trade-bg-loading');if(bgEl)bgEl.remove();
+    if(loading)loading.style.display='none';
+    if(full)applyData(full);
+    else{if(loading){loading.textContent='오류 발생';loading.style.display='block';}}
+  });
 }
 
 // ===== 초기화 =====
