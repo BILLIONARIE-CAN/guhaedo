@@ -66,11 +66,11 @@ export default async function handler(req, res) {
 
   const [buyRaw, rentRaw] = await Promise.all([
     Promise.all(months.map(ym =>
-      fetch(`${buyBase}?serviceKey=${KEY}&LAWD_CD=${lawdCd}&DEAL_YMD=${ym}&numOfRows=1000&_type=json`, { signal: AbortSignal.timeout(8000) })
+      fetch(`${buyBase}?serviceKey=${KEY}&LAWD_CD=${lawdCd}&DEAL_YMD=${ym}&numOfRows=1000&_type=json`, { signal: AbortSignal.timeout(5000) })
         .then(r => r.json()).then(parseItems).catch(() => [])
     )),
     Promise.all(months.map(ym =>
-      fetch(`${rentBase}?serviceKey=${KEY}&LAWD_CD=${lawdCd}&DEAL_YMD=${ym}&numOfRows=1000&_type=json`, { signal: AbortSignal.timeout(8000) })
+      fetch(`${rentBase}?serviceKey=${KEY}&LAWD_CD=${lawdCd}&DEAL_YMD=${ym}&numOfRows=1000&_type=json`, { signal: AbortSignal.timeout(5000) })
         .then(r => r.json()).then(parseItems).catch(() => [])
     ))
   ]);
@@ -93,6 +93,7 @@ export default async function handler(req, res) {
       day: String(x.dealDay || '').trim(),
       p: parsePrice(x.deposit),
       a: parseFloat(x.excluUseAr || 0),
+      f: String(x.floor || '').trim(),
     }));
 
   const monthly = allRent
@@ -103,6 +104,7 @@ export default async function handler(req, res) {
       d: parsePrice(x.deposit),
       m: parsePrice(x.monthlyRent),
       a: parseFloat(x.excluUseAr || 0),
+      f: String(x.floor || '').trim(),
     }));
 
   return res.status(200).json({ aptName, buy, jeonse, monthly });

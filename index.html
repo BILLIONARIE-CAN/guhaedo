@@ -1753,8 +1753,8 @@ function openAptSidebar(d){
     <div class="adp-name">${d.name}</div>
     <div class="adp-addr">${d.addr||''}</div>
     <div class="adp-info-grid">
-      <div class="adp-info-item"><div class="adp-info-label">세대수</div><div class="adp-info-val">${d.units||'-'}</div></div>
-      <div class="adp-info-item"><div class="adp-info-label">준공년도</div><div class="adp-info-val">${d.built||'-'}</div></div>
+      <div class="adp-info-item"><div class="adp-info-label">세대수</div><div class="adp-info-val" style="color:var(--green-dark)">${d.units||'-'}</div></div>
+      <div class="adp-info-item"><div class="adp-info-label">준공년도</div><div class="adp-info-val" style="color:var(--text2)">${d.built||'-'}</div></div>
     </div>
     ${d.sale||d.jeonse||d.monthly?`
     <div class="adp-price-row" style="display:grid">
@@ -3273,7 +3273,7 @@ function renderTradeChart(){
     if(idx<0)return;
     var p=curTradeTab==='monthly'?x.m:x.p;
     if(!p)return;
-    scatter.push({x:idx,y:p,a:x.a||0,f:x.f||'',d:x.d||0,day:x.day||''});
+    scatter.push({x:idx+(Math.random()-0.5)*0.55,y:p,a:x.a||0,f:x.f||'',d:x.d||0,day:x.day||''});
     prices.push(p);
     if(!monthSums[idx]){monthSums[idx]=0;monthCnts[idx]=0;}
     monthSums[idx]+=p;monthCnts[idx]++;
@@ -3306,7 +3306,7 @@ function renderTradeChart(){
       labels:TRADE_MONTHS,
       datasets:[
         {type:'bar',label:'건수',data:countData,backgroundColor:'rgba(200,200,200,0.3)',yAxisID:'yc',order:3},
-        {type:'scatter',label:'개별',data:scatter,backgroundColor:dc,pointRadius:3,pointHoverRadius:5,yAxisID:'y',order:2},
+        {type:'scatter',label:'개별',data:scatter,backgroundColor:dc,pointRadius:scatter.length>100?2:3,pointHoverRadius:5,yAxisID:'y',order:2},
         {type:'line',label:'월평균',data:lineData,borderColor:lc,backgroundColor:'transparent',borderWidth:2,pointRadius:2,pointBackgroundColor:lc,fill:false,tension:0.3,spanGaps:true,yAxisID:'y',order:1}
       ]
     },
@@ -3341,8 +3341,8 @@ function renderTradeTable(){
   // 매매+전세+월세 전체 합산
   var all=[];
   (raw.buy||[]).forEach(function(x){all.push({type:'buy',t:x.t,day:x.day||'',p:x.p,a:x.a,f:x.f||''});});
-  (raw.jeonse||[]).forEach(function(x){all.push({type:'jeonse',t:x.t,day:x.day||'',p:x.p,a:x.a,f:x.f||''});});
-  (raw.monthly||[]).forEach(function(x){all.push({type:'monthly',t:x.t,day:x.day||'',m:x.m,d:x.d||0,a:x.a,f:x.f||''});});
+  (raw.jeonse||[]).forEach(function(x){all.push({type:'jeonse',t:x.t,day:x.day||'',p:x.p,a:x.a,f:x.f||x.floor||''});});
+  (raw.monthly||[]).forEach(function(x){all.push({type:'monthly',t:x.t,day:x.day||'',m:x.m,d:x.d||0,a:x.a,f:x.f||x.floor||''});});
   all.sort(function(a,b){
     var ak=(a.t||'')+(a.day||'0').padStart(2,'0');
     var bk=(b.t||'')+(b.day||'0').padStart(2,'0');
@@ -3403,6 +3403,15 @@ function loadTradeChart(code){
   function applyData(d){
     if(!d)return;
     tradeRawData=d;
+    // 현재 탭에 데이터 없으면 있는 탭으로 자동 전환
+    var cnt={buy:(d.buy||[]).length,jeonse:(d.jeonse||[]).length,monthly:(d.monthly||[]).length};
+    if(!cnt[curTradeTab]){
+      var next=['buy','jeonse','monthly'].find(function(t){return cnt[t]>0;});
+      if(next){
+        curTradeTab=next;
+        ['buy','jeonse','monthly'].forEach(function(t){var el=ge('tab-'+t);if(el)el.classList.toggle('active',t===next);});
+      }
+    }
     var allAreas={};
     [d.buy,d.jeonse,d.monthly].forEach(function(arr){(arr||[]).forEach(function(x){if(x.a)allAreas[Math.round(x.a)]=true;});});
     var sel=ge('trade-area-sel');
