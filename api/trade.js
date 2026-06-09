@@ -60,13 +60,33 @@ export default async function handler(req, res) {
     return Array.isArray(raw) ? raw : [raw];
   }
   function parsePrice(s) { return parseInt(String(s || '0').replace(/[^0-9]/g, '')) || 0; }
+  // 지번 폴백용: 클라이언트가 jibunAddr에서 파싱해서 전달
+  const aptJibun = (req.query.jibun || '').replace(/[^0-9]/g, '');
+
   function nameMatch(nm) {
     if (!nm) return false;
-    const n = nm.trim();
-    if (n === aptName) return true;
-    // 단지명 4글자 이상일 때 포함 여부
-    const short = aptName.replace(/\s/g, '').substring(0, 5);
-    return short.length >= 3 && n.replace(/\s/g, '').includes(short);
+    const n = nm.trim().replace(/\s/g, '');
+    const an = aptName.replace(/\s/g, '');
+    if (n === an) return true;
+    // 완전 포함 여부 (양방향)
+    if (n.includes(an) || an.includes(n)) return true;
+    // 5자 슬라이딩 윈도우: 앞에 지역명이 붙어도 중간 매칭 가능
+    // 예: "탕정삼성트라팰리스" → 윈도우 "삼성트라팰" → "삼성트라팰리스" 매칭
+    const wLen = 5;
+    if (an.length >= wLen) {
+      for (let i = 0; i <= an.length - wLen; i++) {
+        if (n.includes(an.substring(i, i + wLen))) return true;
+      }
+    }
+    return false;
+  }
+
+  // 이름 매칭 실패 시 지번으로 폴백
+  function aptMatch(x) {
+    if (nameMatch(x.aptNm)) return true;
+    if (!aptJibun || !x.jibun) return false;
+    const txJibun = String(x.jibun).trim().split('-')[0].replace(/[^0-9]/g, '');
+    return txJibun.length > 0 && txJibun === aptJibun;
   }
 
   // 3. 매매 + 전월세 병렬 조회
@@ -84,8 +104,8 @@ export default async function handler(req, res) {
     ))
   ]);
 
-  const allBuy  = buyRaw.flat().filter(x => nameMatch(x.aptNm));
-  const allRent = rentRaw.flat().filter(x => nameMatch(x.aptNm));
+  const allBuy  = buyRaw.flat().filter(x => aptMatch(x));
+  const allRent = rentRaw.flat().filter(x => aptMatch(x));
 
   const buy = allBuy.map(x => ({
     t: `${x.dealYear}-${String(x.dealMonth || 1).padStart(2, '0')}`,

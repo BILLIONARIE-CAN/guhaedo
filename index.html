@@ -1855,8 +1855,14 @@ function openAptDetail(d){
         if(info.saleType){const el=document.getElementById('adp-sale');if(el&&el.textContent==='-')el.textContent=info.saleType;}
       }).catch(()=>{});
 
-    // 실거래가 차트 로드
-    loadTradeChart(d.code);
+    // 실거래가 차트 로드 (지번 주소도 전달 → 이름 매칭 실패 시 폴백)
+    var jibunForTrade=(function(){
+      var addr=d.jibunAddr||d.addr||'';
+      var parts=addr.trim().split(/\s+/);
+      var last=parts[parts.length-1]||'';
+      return last.split('-')[0].replace(/[^0-9]/g,''); // 본번만
+    })();
+    loadTradeChart(d.code, jibunForTrade);
   }
 }
 
@@ -3414,7 +3420,7 @@ function tradeTableShowMore(){
   renderTradeTable();
 }
 
-function loadTradeChart(code){
+function loadTradeChart(code, aptJibun){
   if(!code)return;
   tradeRawData=null;curTradeTab='buy';tradeTablePage=1;
   if(tradeChart){tradeChart.destroy();tradeChart=null;}
@@ -3493,14 +3499,16 @@ function loadTradeChart(code){
     }
   }
 
+  var jibunParam=aptJibun?'&jibun='+encodeURIComponent(aptJibun):'';
+
   // 1번째 월 먼저 (V4 API 포함 → lawdCd/aptName 획득)
-  fetch('/api/trade?code='+code+'&ym='+ymList[0])
+  fetch('/api/trade?code='+code+'&ym='+ymList[0]+jibunParam)
     .then(function(r){return r.ok?r.json():null;})
     .then(function(d){
       onBatch(d);
       // 나머지 23개월: lawdCd/aptName 재사용 → V4 스킵
       ymList.slice(1).forEach(function(ym){
-        var params='?code='+code+'&ym='+ym;
+        var params='?code='+code+'&ym='+ym+jibunParam;
         if(resolvedLawdCd)params+='&lawdCd='+resolvedLawdCd;
         if(resolvedAptName)params+='&aptName='+encodeURIComponent(resolvedAptName);
         fetch('/api/trade'+params)
