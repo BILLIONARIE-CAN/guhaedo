@@ -445,9 +445,10 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
             <div id="trade-table-wrap" style="margin-top:10px;max-height:220px;overflow-y:auto;border-top:1px solid var(--border)">
               <table style="width:100%;border-collapse:collapse;font-size:11px">
                 <thead><tr style="background:var(--bg)">
-                  <th style="padding:6px 4px;text-align:left;font-weight:600;color:var(--text3);position:sticky;top:0;background:var(--bg)">계약</th>
-                  <th style="padding:6px 4px;text-align:right;font-weight:600;color:var(--text3);position:sticky;top:0;background:var(--bg)">가격</th>
-                  <th style="padding:6px 4px;text-align:right;font-weight:600;color:var(--text3);position:sticky;top:0;background:var(--bg)">면적</th>
+                  <th style="padding:6px 4px;text-align:left;font-weight:600;color:var(--text3);position:sticky;top:0;background:var(--bg);white-space:nowrap">계약</th>
+                  <th style="padding:6px 4px;text-align:center;font-weight:600;color:var(--text3);position:sticky;top:0;background:var(--bg)">일</th>
+                  <th style="padding:6px 4px;text-align:left;font-weight:600;color:var(--text3);position:sticky;top:0;background:var(--bg)">정보</th>
+                  <th style="padding:6px 4px;text-align:right;font-weight:600;color:var(--text3);position:sticky;top:0;background:var(--bg)">㎡</th>
                   <th style="padding:6px 4px;text-align:right;font-weight:600;color:var(--text3);position:sticky;top:0;background:var(--bg)">층</th>
                 </tr></thead>
                 <tbody id="trade-tbody"></tbody>
@@ -3330,25 +3331,60 @@ function renderTradeChart(){
     }
   });
 
-  var sorted=items.slice().sort(function(a,b){
-    return (b.t+String(b.day||'0').padStart(2,'0')).localeCompare(a.t+String(a.day||'0').padStart(2,'0'));
+  renderTradeTable();
+}
+
+function renderTradeTable(){
+  var raw=tradeRawData;
+  if(!raw)return;
+  // 매매+전세+월세 전체 합산
+  var all=[];
+  (raw.buy||[]).forEach(function(x){all.push({type:'buy',t:x.t,day:x.day||'',p:x.p,a:x.a,f:x.f||''});});
+  (raw.jeonse||[]).forEach(function(x){all.push({type:'jeonse',t:x.t,day:x.day||'',p:x.p,a:x.a,f:x.f||''});});
+  (raw.monthly||[]).forEach(function(x){all.push({type:'monthly',t:x.t,day:x.day||'',m:x.m,d:x.d||0,a:x.a,f:x.f||''});});
+  all.sort(function(a,b){
+    var ak=(a.t||'')+(a.day||'0').padStart(2,'0');
+    var bk=(b.t||'')+(b.day||'0').padStart(2,'0');
+    return bk.localeCompare(ak);
   });
+
+  // 최고가 계산 (타입별)
+  var maxBuy=0,maxJ=0,maxM=0;
+  (raw.buy||[]).forEach(function(x){if(x.p>maxBuy)maxBuy=x.p;});
+  (raw.jeonse||[]).forEach(function(x){if(x.p>maxJ)maxJ=x.p;});
+  (raw.monthly||[]).forEach(function(x){if(x.m>maxM)maxM=x.m;});
+
+  var typeColor={buy:'#e44',jeonse:'#378ADD',monthly:'#E29500'};
+  var typeLabel={buy:'매매',jeonse:'전세',monthly:'월세'};
+
   var tbody=ge('trade-tbody');
-  if(tbody){
-    tbody.innerHTML=sorted.map(function(x){
-      var ym=x.t?x.t.substring(2).replace('-','.'):'';
-      var p=curTradeTab==='monthly'?x.m:x.p;
-      var priceHtml=curTradeTab==='monthly'
-        ?'<span style="color:#BA7517;font-weight:700">'+fmtPTable(p)+'만</span><br><span style="font-size:10px;color:var(--text3)">보증 '+fmtP(x.d||0)+'</span>'
-        :'<span style="font-weight:700">'+fmtPTable(p)+'</span>';
-      return '<tr style="border-bottom:1px solid rgba(0,0,0,0.05)">'+
-        '<td style="padding:5px 4px;color:var(--text2);white-space:nowrap">'+ym+(x.day?'<br><span style="font-size:10px;color:var(--text3)">'+x.day+'일</span>':'')+'</td>'+
-        '<td style="padding:5px 4px;text-align:right">'+priceHtml+'</td>'+
-        '<td style="padding:5px 4px;text-align:right;color:var(--text2)">'+Math.round(x.a||0)+'㎡</td>'+
-        '<td style="padding:5px 4px;text-align:right;color:var(--text2)">'+(x.f||'-')+'층</td>'+
-      '</tr>';
-    }).join('');
-  }
+  if(!tbody)return;
+  var prevYm='';
+  tbody.innerHTML=all.map(function(x){
+    var ym=x.t?x.t.substring(2).replace('-','.'):'';
+    var ymCell=ym!==prevYm?'<td style="padding:6px 4px;color:var(--text2);font-weight:600;white-space:nowrap;vertical-align:top">'+ym+'</td>':'<td></td>';
+    prevYm=ym;
+    var dayCell='<td style="padding:6px 4px;text-align:center;color:var(--text3)">'+x.day+'</td>';
+    var col=typeColor[x.type];
+    var lbl=typeLabel[x.type];
+    var badge='';
+    var infoHtml='';
+    if(x.type==='buy'){
+      if(x.p===maxBuy)badge='<span style="border:1px solid #e44;color:#e44;font-size:9px;padding:1px 3px;border-radius:2px;margin-right:3px">최고가</span>';
+      infoHtml=badge+'<span style="color:'+col+';font-weight:700">'+lbl+' '+fmtPTable(x.p)+'</span>';
+    }else if(x.type==='jeonse'){
+      if(x.p===maxJ)badge='<span style="border:1px solid '+col+';color:'+col+';font-size:9px;padding:1px 3px;border-radius:2px;margin-right:3px">최고가</span>';
+      infoHtml=badge+'<span style="color:'+col+';font-weight:700">'+lbl+' '+fmtPTable(x.p)+'</span>';
+    }else{
+      if(x.m===maxM)badge='<span style="border:1px solid '+col+';color:'+col+';font-size:9px;padding:1px 3px;border-radius:2px;margin-right:3px">최고가</span>';
+      var dp=x.d>=10000?fmtPTable(x.d):(x.d.toLocaleString()+'만');
+      infoHtml=badge+'<span style="color:'+col+';font-weight:700">'+lbl+' '+dp+'/'+x.m+'</span>';
+    }
+    var infoCell='<td style="padding:6px 4px">'+infoHtml+'</td>';
+    var areaCell='<td style="padding:6px 4px;text-align:right;color:var(--text2)">'+Math.round(x.a||0)+'</td>';
+    var floorCell='<td style="padding:6px 4px;text-align:right;color:var(--text2)">'+(x.f||'-')+'층</td>';
+    return '<tr style="border-bottom:1px solid rgba(0,0,0,0.04)">'+ymCell+dayCell+infoCell+areaCell+floorCell+'</tr>';
+  }).join('');
 }
 
 function loadTradeChart(code){
@@ -3376,6 +3412,7 @@ function loadTradeChart(code){
         sel.innerHTML=opts;
       }
       renderTradeChart();
+      renderTradeTable();
     })
     .catch(function(){if(loading)loading.textContent='오류 발생';});
 }
