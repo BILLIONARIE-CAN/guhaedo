@@ -57,6 +57,11 @@ tr:hover td{background:#1a2030}
 .tab:hover:not(.active){background:#2d3748}
 .area-chip{display:inline-flex;align-items:center;gap:4px;background:#2d3748;border:1px solid #4a5568;border-radius:16px;padding:4px 10px;font-size:11px;color:#e2e8f0;margin:3px}
 .area-chip .x{cursor:pointer;color:#fc8181;font-weight:700;margin-left:2px}
+.apt-tag{display:inline-flex;align-items:center;gap:5px;background:#276749;border:1px solid #38a169;border-radius:16px;padding:4px 10px;font-size:11px;color:#9ae6b4;margin:3px}
+.apt-tag .x{cursor:pointer;color:#fc8181;font-weight:700}
+.apt-drop-item{padding:9px 14px;font-size:13px;cursor:pointer;border-bottom:1px solid #3d4a5c;color:#e2e8f0}
+.apt-drop-item:hover{background:#3d4a5c}
+.apt-drop-item small{color:#718096;font-size:11px;margin-left:6px}
 .banner-preview{width:100%;max-height:80px;object-fit:cover;border-radius:6px;border:1px solid #4a5568}
 .section{display:none}
 .section.active{display:block}
@@ -131,6 +136,15 @@ tr:hover td{background:#1a2030}
             <div><div style="font-size:13px;font-weight:600" id="b-photo-name"></div>
             <button class="btn btn-gray btn-sm" style="margin-top:4px" onclick="clearImg('b')">제거</button></div>
           </div>
+        </div>
+        <!-- 담당 단지 -->
+        <div class="field">
+          <label>📌 담당 단지 (전문중개사 표시)</label>
+          <div style="display:flex;gap:8px;position:relative">
+            <input class="input" id="b-apt-search" placeholder="단지명 검색..." oninput="searchSpecialistApt()" autocomplete="off" style="flex:1">
+          </div>
+          <div id="b-apt-dropdown" style="display:none;position:absolute;z-index:999;background:#2d3748;border:1px solid #4a5568;border-radius:6px;max-height:180px;overflow-y:auto;width:320px;box-shadow:0 4px 12px rgba(0,0,0,.4)"></div>
+          <div id="b-apt-tags" style="display:flex;flex-wrap:wrap;gap:6px;margin-top:8px;min-height:28px"></div>
         </div>
         <button class="btn btn-green" id="broker-submit" onclick="brokerSubmit()">✅ 등록하기</button>
       </div>
@@ -268,6 +282,9 @@ let brokerMarker=null,bizMarker=null;
 let brokerLat=null,brokerLng=null,bizLat=null,bizLng=null;
 let brokerPhoto=null,bizPhoto=null,bannerImg=null;
 let brokerEditId=null,bizEditId=null,bannerEditId=null;
+let specialistApts=[]; // [{kapt_code, name, addr}]
+let aptSearchTimer=null;
+let allAptData=null; // coords_all_apt.json 캐시
 let bannerAreas=[];
 let areaData={sidos:[],sigunguMap:{},emdMap:{}};
 
@@ -461,6 +478,7 @@ function brokerCancel(){
   ['b-name','b-phone','b-addr','b-expires','b-memo'].forEach(function(id){ge(id).value='';});
   if(brokerMarker){brokerMarker.setMap(null);brokerMarker=null;}
   brokerLat=null;brokerLng=null;ge('broker-lat').textContent='-';ge('broker-lng').textContent='-';
+  specialistApts=[];renderAptTags();ge('b-apt-search').value='';ge('b-apt-dropdown').style.display='none';
 }
 function brokerEdit(id){
   var d=allBrokers.find(function(b){return b.id===id;});if(!d)return;
@@ -480,11 +498,14 @@ function brokerEdit(id){
     brokerLat=d.lat;brokerLng=d.lng;ge('broker-lat').textContent=d.lat.toFixed(6);ge('broker-lng').textContent=d.lng.toFixed(6);
   }
   if(d.photo){brokerPhoto=d.photo;ge('b-photo-preview').src=d.photo;ge('b-photo-name').textContent='기존 사진';ge('b-photo-text').style.display='none';ge('b-photo-wrap').style.display='flex';}else{clearImg('b');}
+  specialistApts=Array.isArray(d.specialist_apts)?d.specialist_apts.map(function(item){return typeof item==='string'?{kapt_code:item,name:item,addr:''}:item;}) :[];
+  renderAptTags();
 }
 async function brokerSubmit(){
   var name=gv('b-name');if(!name){toast('사무소명을 입력하세요',true);return;}
   if(!brokerLat){toast('지도에서 위치를 선택하세요',true);return;}
-  var body={name:name,phone:gv('b-phone'),addr:gv('b-addr'),lat:brokerLat,lng:brokerLng,photo:brokerPhoto||null,expires_at:gv('b-expires')||null,memo:gv('b-memo'),active:true};
+  var body={name:name,phone:gv('b-phone'),addr:gv('b-addr'),lat:brokerLat,lng:brokerLng,photo:brokerPhoto||null,expires_at:gv('b-expires')||null,memo:gv('b-memo'),active:true,
+    specialist_apts:specialistApts.map(function(a){return {kapt_code:a.kapt_code,name:a.name,addr:a.addr};})};
   if(brokerEditId){
     var r=await fetch(SUPABASE_URL+'/rest/v1/brokers?id=eq.'+brokerEditId,{method:'PATCH',headers:hdrs,body:JSON.stringify(body)});
     if(r.ok){toast('수정 완료!');brokerCancel();loadBrokers();}else toast('실패',true);
@@ -493,6 +514,59 @@ async function brokerSubmit(){
     if(r.ok){toast('등록 완료!');brokerCancel();loadBrokers();}else toast('실패',true);
   }
 }
+
+// ===== 담당 단지 검색 =====
+async function loadAptDataOnce(){
+  if(allAptData)return allAptData;
+  try{var r=await fetch('/split_output/coords_all_apt.json');allAptData=await r.json();}catch(e){allAptData=[];}
+  return allAptData;
+}
+async function searchSpecialistApt(){
+  clearTimeout(aptSearchTimer);
+  var q=ge('b-apt-search').value.trim();
+  var dd=ge('b-apt-dropdown');
+  if(q.length<2){dd.style.display='none';return;}
+  aptSearchTimer=setTimeout(async function(){
+    var data=await loadAptDataOnce();
+    var ql=q.toLowerCase();
+    var results=data.filter(function(a){
+      return (a.name&&a.name.includes(q))||(a.addr&&a.addr.toLowerCase().includes(ql));
+    }).slice(0,8);
+    if(!results.length){dd.style.display='none';return;}
+    dd.innerHTML=results.map(function(a){
+      return '<div class="apt-drop-item" onclick="addSpecialistApt(\''+escQ(a.code)+'\',\''+escQ(a.name)+'\',\''+escQ(a.addr||'')+'\')">'+
+        a.name+'<small>'+(a.addr||'').substring(0,25)+'</small></div>';
+    }).join('');
+    // 드롭다운 위치 조정
+    var inp=ge('b-apt-search');
+    var rect=inp.getBoundingClientRect();
+    dd.style.top=(inp.offsetTop+inp.offsetHeight+2)+'px';
+    dd.style.left=inp.offsetLeft+'px';
+    dd.style.display='block';
+  },250);
+}
+function escQ(s){return (s||'').replace(/'/g,"\\'").replace(/"/g,'&quot;');}
+function addSpecialistApt(code,name,addr){
+  ge('b-apt-dropdown').style.display='none';ge('b-apt-search').value='';
+  if(specialistApts.find(function(a){return a.kapt_code===code;})){toast('이미 추가된 단지입니다',true);return;}
+  specialistApts.push({kapt_code:code,name:name,addr:addr});
+  renderAptTags();
+}
+function removeSpecialistApt(code){
+  specialistApts=specialistApts.filter(function(a){return a.kapt_code!==code;});
+  renderAptTags();
+}
+function renderAptTags(){
+  var el=ge('b-apt-tags');
+  if(!specialistApts.length){el.innerHTML='<span style="font-size:11px;color:#718096">담당 단지를 검색하여 추가하세요</span>';return;}
+  el.innerHTML=specialistApts.map(function(a){
+    return '<span class="apt-tag">'+a.name+' <span class="x" onclick="removeSpecialistApt(\''+escQ(a.kapt_code)+'\')">✕</span></span>';
+  }).join('');
+}
+// 외부 클릭 시 드롭다운 닫기
+document.addEventListener('click',function(e){
+  if(!e.target.closest('#b-apt-search')&&!e.target.closest('#b-apt-dropdown'))ge('b-apt-dropdown').style.display='none';
+});
 async function brokerToggle(id,cur){
   await fetch(SUPABASE_URL+'/rest/v1/brokers?id=eq.'+id,{method:'PATCH',headers:hdrs,body:JSON.stringify({active:!cur})});
   toast(cur?'비활성화':'활성화');loadBrokers();
