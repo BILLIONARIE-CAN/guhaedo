@@ -3423,7 +3423,7 @@ function renderTradeChart(){
   var allItems=curTradeTab==='buy'?raw.buy:curTradeTab==='jeonse'?raw.jeonse:raw.monthly;
   var areaFilter=ge('trade-area-sel')?ge('trade-area-sel').value:'';
   // value는 정수 ㎡ 값 (예: "85")
-  var items=areaFilter?allItems.filter(function(x){return Math.round(x.a||0)===parseInt(areaFilter);}):allItems;
+  var items=areaFilter?allItems.filter(function(x){return Math.floor(x.a||0)===parseInt(areaFilter);}):allItems;
   var loading=ge('trade-loading'),chartArea=ge('trade-chart-area'),empty=ge('trade-empty'),summary=ge('trade-summary');
   if(!items||items.length===0){
     if(loading)loading.style.display='none';
@@ -3581,7 +3581,8 @@ function renderTradeChart(){
              var i=Math.round(v);
              var span=maxIdx-minIdx+1;
              var step=span<=24?3:span<=48?6:span<=96?12:span<=192?24:36;
-             return(i>=0&&i<N&&i>=minIdx&&i<=maxIdx&&(i-minIdx)%step===0)?TRADE_MONTHS[i]:'';
+             var lbl=TRADE_MONTHS[i]||'';
+             return(i>=0&&i<N&&i>=minIdx&&i<=maxIdx&&(i-minIdx)%step===0)?lbl.substring(2):'';
            },maxRotation:0,font:{size:10},autoSkip:false},
            grid:{color:'rgba(0,0,0,0.04)'}
         },
@@ -3746,19 +3747,20 @@ function loadTradeChart(code, aptJibun, builtYear){
       }
     }
     var allAreas={};
-    [d.buy,d.jeonse,d.monthly].forEach(function(arr){(arr||[]).forEach(function(x){if(x.a){var key=Math.round(x.a);if(!allAreas[key])allAreas[key]=Math.round(x.a/3.3058);}});});
+    [d.buy,d.jeonse,d.monthly].forEach(function(arr){(arr||[]).forEach(function(x){if(x.a){var key=Math.floor(x.a);if(!allAreas[key])allAreas[key]={py:Math.floor(x.a/3.3058),sqm:x.a};}});});
     var sel=ge('trade-area-sel');
     if(sel){
       var saved=sel.value;
       // 같은 평수 내 타입 알파벳 부여 (84.99→26평A, 84.97→26평B)
       var sorted=Object.keys(allAreas).map(Number).sort(function(a,b){return a-b;});
-      var pyGroups={};sorted.forEach(function(sqm){var py=allAreas[sqm];if(!pyGroups[py])pyGroups[py]=[];pyGroups[py].push(sqm);});
+      var pyGroups={};sorted.forEach(function(sqm){var py=allAreas[sqm].py;if(!pyGroups[py])pyGroups[py]=[];pyGroups[py].push(sqm);});
       var opts='<option value="">전체 면적</option>';
       sorted.forEach(function(sqm){
-        var py=allAreas[sqm];
+        var info=allAreas[sqm];
+        var py=info.py;
         var types=pyGroups[py];
         var suffix=types.length>1?String.fromCharCode(64+types.indexOf(sqm)+1):'';
-        opts+='<option value="'+sqm+'">'+py+'평'+suffix+' ('+sqm+'㎡)</option>';
+        opts+='<option value="'+sqm+'">'+py+'평'+suffix+' ('+info.sqm+'㎡)</option>';
       });
       sel.innerHTML=opts;
       if(saved)sel.value=saved;
