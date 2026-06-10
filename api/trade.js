@@ -181,6 +181,7 @@ export default async function handler(req, res) {
   }
 
   function aptMatch(x) {
+    if ((x.cdealType || '').trim()) return false; // 계약 해제된 거래 제외
     return nameMatch(x.aptNm) && buildYearMatch(x) && dongMatch(x) && jibunMatch(x);
   }
 
