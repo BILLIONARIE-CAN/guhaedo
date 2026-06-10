@@ -1014,13 +1014,23 @@ const SUPABASE_ANON='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZS
 
 async function loadBrokers(){
   try{
-    const r=await fetch(SUPABASE_URL+'/rest/v1/brokers?select=*&active=eq.true',{
-      headers:{apikey:SUPABASE_ANON,Authorization:'Bearer '+SUPABASE_ANON}
-    });
+    const today=new Date().toISOString().split('T')[0];
+    const r=await fetch(
+      SUPABASE_URL+'/rest/v1/brokers?select=id,name,phone,photo,lat,lng,addr,broker_apts(expires_at,active)&active=eq.true',
+      {headers:{apikey:SUPABASE_ANON,Authorization:'Bearer '+SUPABASE_ANON}}
+    );
     const data=await r.json();
     if(Array.isArray(data)){
       data.forEach(d=>{
-        const item={id:'b_'+d.id,type:'broker',name:d.name,addr:d.addr||'',lat:d.lat,lng:d.lng,photo:d.photo||'',phone:d.phone||''};
+        if(!d.lat||!d.lng) return;
+        // 유효 단지(active, 만료 안됨) 중 가장 늦은 만료일
+        const aptRows=Array.isArray(d.broker_apts)?d.broker_apts:[];
+        const activeApts=aptRows.filter(a=>a.active&&(!a.expires_at||a.expires_at>=today));
+        const maxExpiry=activeApts.length
+          ?activeApts.reduce((mx,a)=>(!a.expires_at||a.expires_at>mx)?a.expires_at||'9999-12-31':mx,'')
+          :null;
+        const item={id:'b_'+d.id,type:'broker',name:d.name,addr:d.addr||'',lat:d.lat,lng:d.lng,
+          photo:d.photo||'',phone:d.phone||'',specialist:activeApts.length>0,specialistExpiry:maxExpiry};
         BROKER_DATA.push(item);
         MAP_DATA.push(item);
       });
@@ -1735,23 +1745,23 @@ function addMarker(d){
     aptDiv.onclick=function(){selectItem(d.id);};
     bc=aptDiv;
   }else if(d.type==='broker'){
-    const bname=d.name.length>8?d.name.substring(0,8)+'..':d.name;
     const lv=map?map.getLevel():5;
-    const sz=lv<=2?48:lv<=4?36:24; // 20% 축소
-    const fs=lv<=2?15:lv<=4?12:10;
     const wrapDiv=document.createElement('div');
     wrapDiv.style.cssText='position:relative;cursor:pointer;z-index:999';
     wrapDiv.title=d.name;
+    wrapDiv.onclick=function(){selectItem(d.id);};
+    const sz=lv<=2?48:lv<=4?36:24;
+    const fs=lv<=2?15:lv<=4?12:10;
+    const bname=d.name.length>8?d.name.substring(0,8)+'..':d.name;
     const circleDiv=document.createElement('div');
     circleDiv.className='broker-glow';
-    circleDiv.style.cssText='width:'+sz+'px;height:'+sz+'px;border-radius:50%;background:#e53e3e;border:2px solid #fff;display:flex;align-items:center;justify-content:center;overflow:hidden;font-size:'+fs+'px';
+    circleDiv.style.cssText='width:'+sz+'px;height:'+sz+'px;border-radius:50%;background:#e53e3e;border:2px solid #fff;display:flex;align-items:center;justify-content:center;overflow:hidden;font-size:'+fs+'px;box-shadow:0 2px 8px rgba(0,0,0,.4)';
     if(d.photo){const img=document.createElement('img');img.src=d.photo;img.style.cssText='width:100%;height:100%;object-fit:cover;border-radius:50%';circleDiv.appendChild(img);}
     else{circleDiv.textContent='🏠';}
     const labelDiv=document.createElement('div');
     labelDiv.style.cssText='position:absolute;bottom:-'+(fs+4)+'px;left:50%;transform:translateX(-50%);background:#e53e3e;color:#fff;font-size:'+(fs-1)+'px;font-weight:700;padding:1px 4px;border-radius:3px;white-space:nowrap;max-width:70px;overflow:hidden;text-overflow:ellipsis';
     labelDiv.textContent=bname;
     wrapDiv.appendChild(circleDiv);wrapDiv.appendChild(labelDiv);
-    wrapDiv.onclick=function(){selectItem(d.id);};
     bc=wrapDiv;
   }
   const zIdx=d.type==='broker'?(map&&map.getLevel()<=4?9999:999):3;

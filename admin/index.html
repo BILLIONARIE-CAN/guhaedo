@@ -675,7 +675,9 @@ async function loadAptDataOnce(){
 function addSpecialistApt(code,name,addr){
   if(specialistApts.find(function(a){return a.kapt_code===code;})){toast('이미 추가된 단지입니다',true);return;}
   var today=new Date().toISOString().split('T')[0];
-  specialistApts.push({kapt_code:code,name:name,addr:addr,start_date:today,expires_at:null,active:true});
+  var exp=new Date();exp.setFullYear(exp.getFullYear()+1);
+  var expiresAt=exp.toISOString().split('T')[0];
+  specialistApts.push({kapt_code:code,name:name,addr:addr,start_date:today,expires_at:expiresAt,active:true});
   renderAptTags();
   // 목록 새로고침 (추가됨 표시)
   var sido=ge('b-sido').value,sg=ge('b-sigungu').value,emd=ge('b-emd').value;
