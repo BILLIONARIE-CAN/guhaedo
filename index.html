@@ -3312,12 +3312,9 @@ function renderTradeChart(){
     return;
   }
 
-  var lineData=new Array(24).fill(null);
   var countData=new Array(24).fill(0);
-  Object.keys(monthSums).forEach(function(i){
-    lineData[parseInt(i)]=Math.round(monthSums[i]/monthCnts[i]);
-    countData[parseInt(i)]=monthCnts[i];
-  });
+  Object.keys(monthCnts).forEach(function(i){ countData[parseInt(i)]=monthCnts[i]; });
+  scatter.sort(function(a,b){return a.x-b.x;});
   var avgP=Math.round(prices.reduce(function(a,b){return a+b;},0)/prices.length);
   var typeLabel={buy:'매매',jeonse:'전세',monthly:'월세'}[curTradeTab];
   if(summary)summary.innerHTML='<span style="color:var(--green-dark);font-weight:700">'+typeLabel+'</span> 평균 <strong>'+fmtPTable(avgP)+'</strong> · <span style="color:var(--text3)">'+prices.length+'건</span>';
@@ -3335,8 +3332,7 @@ function renderTradeChart(){
     data:{
       datasets:[
         {type:'bar',label:'건수',data:countData,backgroundColor:'rgba(200,200,200,0.3)',yAxisID:'yc',order:3},
-        {type:'scatter',label:'개별',data:scatter,backgroundColor:dc,pointRadius:scatter.length>60?2:3,pointHoverRadius:5,xAxisID:'x',yAxisID:'y',order:2},
-        {type:'line',label:'월평균',data:lineData,borderColor:lc,backgroundColor:'transparent',borderWidth:2,pointRadius:2,pointBackgroundColor:lc,fill:false,tension:0.3,spanGaps:true,yAxisID:'y',order:1}
+        {type:'scatter',label:'개별',showLine:true,data:scatter,backgroundColor:dc,borderColor:lc,borderWidth:1,pointRadius:scatter.length>60?2:3,pointHoverRadius:5,tension:0,xAxisID:'x',yAxisID:'y',order:2}
       ]
     },
     options:{
