@@ -3502,7 +3502,7 @@ function loadTradeChart(code, aptJibun){
   function hasData(){return accum.buy.length||accum.jeonse.length||accum.monthly.length;}
 
   function onBatch(batch){
-    if(activeCode!==code)return; // 아파트 변경됨, 무시
+    if(activeCode!==code)return;
     if(batch){
       if(batch.lawdCd)resolvedLawdCd=batch.lawdCd;
       if(batch.aptName)resolvedAptName=batch.aptName;
@@ -3511,19 +3511,18 @@ function loadTradeChart(code, aptJibun){
       (batch.monthly||[]).forEach(function(x){accum.monthly.push(x);});
     }
     completed++;
-    if(hasData()){
-      if(loading)loading.style.display='none';
-      if(completed<TOTAL){
-        if(prog){prog.style.display='block';prog.textContent=completed+'/'+TOTAL+'개월';}
-      }else{
-        if(prog)prog.style.display='none';
-      }
-      applyData(accum);
-    }else if(completed>=TOTAL){
-      if(loading)loading.style.display='none';
-      if(empty)empty.style.display='block';
-    }else{
+    // 진행상황만 표시, 렌더링은 전부 끝난 후 한 번만
+    if(completed<TOTAL){
       if(loading)loading.textContent='불러오는 중... '+completed+'/'+TOTAL;
+      return;
+    }
+    // 전체 완료
+    if(prog)prog.style.display='none';
+    if(loading)loading.style.display='none';
+    if(hasData()){
+      applyData(accum);
+    }else{
+      if(empty)empty.style.display='block';
     }
   }
 
