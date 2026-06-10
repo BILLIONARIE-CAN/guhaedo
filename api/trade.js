@@ -75,6 +75,8 @@ export default async function handler(req, res) {
   // lawdCd / aptName 결정
   let lawdCd = req.query.lawdCd || '';
   let aptName = req.query.aptName ? decodeURIComponent(req.query.aptName) : '';
+  let aptLegalDong = req.query.legalDong ? decodeURIComponent(req.query.legalDong) : '';
+  let aptJibunNum  = parseInt(req.query.jibunNum || '0') || 0;
 
   if (!lawdCd || !aptName) {
     if (code.startsWith('DISC_')) {
@@ -96,6 +98,23 @@ export default async function handler(req, res) {
       aptName = (item.kaptName || '').trim();
       lawdCd = bjdCode.substring(0, 5);
       if (lawdCd.length < 5) return res.status(400).json({ error: 'lawd_cd 없음' });
+
+      // 법정동명 + 지번 본번 추출 (kaptAddr: "충남 아산시 배방읍 용곡리 123-4")
+      const kaptAddr = (item.kaptAddr || '').trim();
+      if (kaptAddr) {
+        const parts = kaptAddr.replace(/\s+/g, ' ').split(' ');
+        // 마지막 토큰: 지번 ("123-4" → 본번 123)
+        const lastPart = parts[parts.length - 1] || '';
+        if (/^\d/.test(lastPart)) {
+          aptJibunNum = parseInt(lastPart.split('-')[0]) || 0;
+        }
+        // 시군구(시/군/구로 끝나는 토큰) 이후 첫 번째 동/읍/면/리 = 법정동명
+        let passedGungu = false;
+        for (const p of parts.slice(0, -1)) {
+          if (!passedGungu) { if (/[시군구]$/.test(p)) passedGungu = true; continue; }
+          if (/[동읍면리]$/.test(p)) { aptLegalDong = p; break; }
+        }
+      }
     }
   }
 
@@ -144,8 +163,25 @@ export default async function handler(req, res) {
     return by >= builtYear - 1 && by <= builtYear + 1;
   }
 
+  // 법정동명 일치 (umdNm 필드: "배방읍", "개포동" 등)
+  function dongMatch(x) {
+    if (!aptLegalDong) return true;
+    const xDong = (x.umdNm || '').trim().replace(/\s/g, '');
+    const myDong = aptLegalDong.replace(/\s/g, '');
+    if (!xDong) return true;
+    return xDong === myDong || xDong.includes(myDong) || myDong.includes(xDong);
+  }
+
+  // 지번 본번 일치 (jibun 필드: "123" or "123-4")
+  function jibunMatch(x) {
+    if (!aptJibunNum) return true;
+    const xJibun = parseInt((x.jibun || '0').split('-')[0]) || 0;
+    if (!xJibun) return true;
+    return xJibun === aptJibunNum;
+  }
+
   function aptMatch(x) {
-    return nameMatch(x.aptNm) && buildYearMatch(x);
+    return nameMatch(x.aptNm) && buildYearMatch(x) && dongMatch(x) && jibunMatch(x);
   }
 
   const buyBase  = 'https://apis.data.go.kr/1613000/RTMSDataSvcAptTrade/getRTMSDataSvcAptTrade';
@@ -185,5 +221,5 @@ export default async function handler(req, res) {
   // 캐시 저장 (응답 블로킹 없음)
   if (ym) setCached(code, ym, { buy, jeonse, monthly, lawdCd, aptName });
 
-  return res.status(200).json({ aptName, lawdCd, buy, jeonse, monthly });
+  return res.status(200).json({ aptName, lawdCd, legalDong: aptLegalDong, jibunNum: aptJibunNum, buy, jeonse, monthly });
 }

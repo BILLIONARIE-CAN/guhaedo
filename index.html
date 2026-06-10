@@ -3732,7 +3732,7 @@ function loadTradeChart(code, aptJibun, builtYear){
   var TOTAL=ymList.length;
   var completed=0;
   var accum={buy:[],jeonse:[],monthly:[]};
-  var resolvedLawdCd='',resolvedAptName='';
+  var resolvedLawdCd='',resolvedAptName='',resolvedLegalDong='',resolvedJibunNum=0;
   var activeCode=code; // 다른 아파트 선택 시 이전 fetch 무시
 
   function applyData(d){
@@ -3776,6 +3776,8 @@ function loadTradeChart(code, aptJibun, builtYear){
     if(batch){
       if(batch.lawdCd)resolvedLawdCd=batch.lawdCd;
       if(batch.aptName)resolvedAptName=batch.aptName;
+      if(batch.legalDong)resolvedLegalDong=batch.legalDong;
+      if(batch.jibunNum)resolvedJibunNum=batch.jibunNum;
       (batch.buy||[]).forEach(function(x){if(!tradeMinYear||parseInt((x.t||'').substring(0,4))>=tradeMinYear)accum.buy.push(x);});
       (batch.jeonse||[]).forEach(function(x){if(!tradeMinYear||parseInt((x.t||'').substring(0,4))>=tradeMinYear)accum.jeonse.push(x);});
       (batch.monthly||[]).forEach(function(x){if(!tradeMinYear||parseInt((x.t||'').substring(0,4))>=tradeMinYear)accum.monthly.push(x);});
@@ -3809,6 +3811,8 @@ function loadTradeChart(code, aptJibun, builtYear){
         var params='?code='+code+'&ym='+ym+jibunParam+builtParam;
         if(resolvedLawdCd)params+='&lawdCd='+resolvedLawdCd;
         if(resolvedAptName)params+='&aptName='+encodeURIComponent(resolvedAptName);
+        if(resolvedLegalDong)params+='&legalDong='+encodeURIComponent(resolvedLegalDong);
+        if(resolvedJibunNum)params+='&jibunNum='+resolvedJibunNum;
         fetch('/api/trade'+params)
           .then(function(r){return r.ok?r.json():null;})
           .then(function(d){onBatch(d);})
