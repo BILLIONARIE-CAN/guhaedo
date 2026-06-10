@@ -3334,7 +3334,7 @@ function renderTradeChart(){
       labels:TRADE_MONTHS,
       datasets:[
         {type:'bar',label:'건수',data:countData,backgroundColor:'rgba(200,200,200,0.3)',yAxisID:'yc',order:3},
-        {type:'scatter',label:'개별',data:scatter,backgroundColor:dc,pointRadius:scatter.length>60?2:3,pointHoverRadius:5,yAxisID:'y',order:2},
+        {type:'scatter',label:'개별',data:scatter,backgroundColor:dc,pointRadius:scatter.length>60?2:3,pointHoverRadius:5,xAxisID:'x',yAxisID:'y',order:2},
         {type:'line',label:'월평균',data:lineData,borderColor:lc,backgroundColor:'transparent',borderWidth:2,pointRadius:2,pointBackgroundColor:lc,fill:false,tension:0.3,spanGaps:true,yAxisID:'y',order:1}
       ]
     },
@@ -3353,7 +3353,7 @@ function renderTradeChart(){
         }}}
       },
       scales:{
-        x:{ticks:{callback:function(v,i){return i%6===0?TRADE_MONTHS[i]:'';},maxRotation:0,font:{size:10},autoSkip:false},grid:{color:'rgba(0,0,0,0.04)'}},
+        x:{type:'category',ticks:{callback:function(v,i){return i%6===0?TRADE_MONTHS[i]:'';},maxRotation:0,font:{size:10},autoSkip:false},grid:{color:'rgba(0,0,0,0.04)'}},
         y:{position:'left',ticks:{callback:function(v){return fmtP(v);},font:{size:10}},grid:{color:'rgba(0,0,0,0.04)'}},
         yc:{position:'right',ticks:{font:{size:9},color:'#bbb',maxTicksLimit:4},grid:{display:false}}
       }
