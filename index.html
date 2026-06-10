@@ -1866,38 +1866,45 @@ async function loadSpecialists(kaptCode, aptName){
 }
 
 function renderSpecialistCards(sec, aptName, brokers){
+  const MAX = 2;
   const safePhone = p => (p||'').replace(/[^0-9\-]/g,'');
-  const cardHTML = brokers.length === 0
-    ? `<div class="spec-empty-card">
-        <div class="spec-empty-icon">🏠</div>
-        <div class="spec-empty-text">준비 중</div>
-        <div class="spec-empty-sub">전문중개사 모집 중입니다</div>
-       </div>`
-    : brokers.map(b=>`
-      <div class="spec-card">
-        <div class="spec-card-left">
-          ${b.photo
-            ? `<img class="spec-avatar" src="${b.photo}" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">`
-            : ''}
-          <div class="spec-avatar-ph" style="${b.photo?'display:none':'display:flex'}">🏠</div>
-        </div>
-        <div class="spec-card-mid">
-          <div class="spec-name">${b.name||''}</div>
-          <div class="spec-phone">${b.phone||''}</div>
-        </div>
-        <div class="spec-card-right">
-          <a href="tel:${safePhone(b.phone)}" class="spec-call-btn" title="전화하기">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 01.01 1.2 2 2 0 012 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14.92z"/></svg>
-          </a>
-        </div>
-      </div>`).join('');
+  const isFull = brokers.length >= MAX;
+  const remaining = Math.max(0, MAX - brokers.length);
+
+  const brokerCards = brokers.map(b=>`
+    <div class="spec-card">
+      <div class="spec-card-left">
+        ${b.photo ? `<img class="spec-avatar" src="${b.photo}" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">` : ''}
+        <div class="spec-avatar-ph" style="${b.photo?'display:none':'display:flex'}">🏠</div>
+      </div>
+      <div class="spec-card-mid">
+        <div class="spec-name">${b.name||''}</div>
+        <div class="spec-phone">${b.phone||''}</div>
+      </div>
+      <div class="spec-card-right">
+        <a href="tel:${safePhone(b.phone)}" class="spec-call-btn" title="전화하기">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 01.01 1.2 2 2 0 012 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14.92z"/></svg>
+        </a>
+      </div>
+    </div>`).join('');
+
+  const emptyCards = Array.from({length: remaining}, () => `
+    <div class="spec-empty-card">
+      <div class="spec-empty-icon">🏠</div>
+      <div class="spec-empty-text">모집 중</div>
+      <div class="spec-empty-sub">전문중개사 자리가 있습니다</div>
+    </div>`).join('');
+
+  const statusBadge = isFull
+    ? `<span style="font-size:11px;font-weight:700;color:#fff;background:#e53e3e;padding:2px 7px;border-radius:3px;margin-left:6px">마감</span>`
+    : `<span style="font-size:11px;font-weight:600;color:#38a169;margin-left:6px">${brokers.length}/${MAX}</span>`;
 
   sec.innerHTML = `
     <div class="spec-header">
-      <span class="spec-title">${aptName} 전문 중개사</span>
-      <span class="spec-sub">지역 전문 중개사에게 매물문의를 해보세요</span>
+      <span class="spec-title">${aptName} 전문 중개사${statusBadge}</span>
+      <span class="spec-sub">${isFull ? '전문중개사 2자리가 모두 찼습니다' : '지역 전문 중개사에게 매물문의를 해보세요'}</span>
     </div>
-    <div class="spec-cards">${cardHTML}</div>
+    <div class="spec-cards">${brokerCards}${emptyCards}</div>
   `;
 }
 
