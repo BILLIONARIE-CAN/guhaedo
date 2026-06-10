@@ -525,21 +525,45 @@ function brokerEdit(id){
     brokerLat=d.lat;brokerLng=d.lng;ge('broker-lat').textContent=d.lat.toFixed(6);ge('broker-lng').textContent=d.lng.toFixed(6);
   }
   if(d.photo){brokerPhoto=d.photo;ge('b-photo-preview').src=d.photo;ge('b-photo-name').textContent='기존 사진';ge('b-photo-text').style.display='none';ge('b-photo-wrap').style.display='flex';}else{clearImg('b');}
-  specialistApts=Array.isArray(d.specialist_apts)?d.specialist_apts.map(function(item){return typeof item==='string'?{kapt_code:item,name:item,addr:''}:item;}) :[];
+  specialistApts=[];
   renderAptTags();
+  // broker_apts 테이블에서 기존 담당 단지 불러오기
+  fetch(SUPABASE_URL+'/rest/v1/broker_apts?broker_id=eq.'+id+'&select=kapt_code,apt_name,start_date,expires_at,active',{headers:hdrs})
+    .then(function(r){return r.json();})
+    .then(function(rows){
+      if(Array.isArray(rows)){
+        specialistApts=rows.map(function(row){return {kapt_code:row.kapt_code,name:row.apt_name||row.kapt_code,addr:'',start_date:row.start_date,expires_at:row.expires_at,active:row.active};});
+        renderAptTags();
+      }
+    });
 }
 async function brokerSubmit(){
   var name=gv('b-name');if(!name){toast('사무소명을 입력하세요',true);return;}
   if(!brokerLat){toast('지도에서 위치를 선택하세요',true);return;}
-  var body={name:name,phone:gv('b-phone'),addr:gv('b-addr'),lat:brokerLat,lng:brokerLng,photo:brokerPhoto||null,expires_at:gv('b-expires')||null,memo:gv('b-memo'),active:true,
-    specialist_apts:specialistApts.map(function(a){return {kapt_code:a.kapt_code,name:a.name,addr:a.addr};})};
+  var body={name:name,phone:gv('b-phone'),addr:gv('b-addr'),lat:brokerLat,lng:brokerLng,photo:brokerPhoto||null,expires_at:gv('b-expires')||null,memo:gv('b-memo'),active:true};
+  var brokerId=brokerEditId;
   if(brokerEditId){
-    var r=await fetch(SUPABASE_URL+'/rest/v1/brokers?id=eq.'+brokerEditId,{method:'PATCH',headers:hdrs,body:JSON.stringify(body)});
-    if(r.ok){toast('수정 완료!');brokerCancel();loadBrokers();}else toast('실패',true);
+    var r=await fetch(SUPABASE_URL+'/rest/v1/brokers?id=eq.'+brokerEditId,{method:'PATCH',headers:Object.assign({},hdrs,{'Prefer':'return=minimal'}),body:JSON.stringify(body)});
+    if(!r.ok){toast('실패',true);return;}
   }else{
-    var r=await fetch(SUPABASE_URL+'/rest/v1/brokers',{method:'POST',headers:hdrs,body:JSON.stringify(body)});
-    if(r.ok){toast('등록 완료!');brokerCancel();loadBrokers();}else toast('실패',true);
+    var rh=Object.assign({},hdrs,{'Prefer':'return=representation'});
+    var r=await fetch(SUPABASE_URL+'/rest/v1/brokers',{method:'POST',headers:rh,body:JSON.stringify(body)});
+    if(!r.ok){toast('실패',true);return;}
+    var created=await r.json();
+    brokerId=Array.isArray(created)?created[0].id:created.id;
   }
+  // broker_apts 동기화: 기존 전체 삭제 후 재삽입
+  if(brokerId){
+    await fetch(SUPABASE_URL+'/rest/v1/broker_apts?broker_id=eq.'+brokerId,{method:'DELETE',headers:hdrs});
+    if(specialistApts.length){
+      var today=new Date().toISOString().split('T')[0];
+      var aptRows=specialistApts.map(function(a){
+        return {broker_id:brokerId,kapt_code:a.kapt_code,apt_name:a.name,start_date:a.start_date||today,expires_at:a.expires_at||null,active:true};
+      });
+      await fetch(SUPABASE_URL+'/rest/v1/broker_apts',{method:'POST',headers:Object.assign({},hdrs,{'Prefer':'return=minimal'}),body:JSON.stringify(aptRows)});
+    }
+  }
+  toast(brokerEditId?'수정 완료!':'등록 완료!');brokerCancel();loadBrokers();
 }
 
 // ===== 담당 단지 검색 =====
@@ -650,7 +674,8 @@ async function loadAptDataOnce(){
 
 function addSpecialistApt(code,name,addr){
   if(specialistApts.find(function(a){return a.kapt_code===code;})){toast('이미 추가된 단지입니다',true);return;}
-  specialistApts.push({kapt_code:code,name:name,addr:addr});
+  var today=new Date().toISOString().split('T')[0];
+  specialistApts.push({kapt_code:code,name:name,addr:addr,start_date:today,expires_at:null,active:true});
   renderAptTags();
   // 목록 새로고침 (추가됨 표시)
   var sido=ge('b-sido').value,sg=ge('b-sigungu').value,emd=ge('b-emd').value;
@@ -663,9 +688,10 @@ function removeSpecialistApt(code){
 }
 function renderAptTags(){
   var el=ge('b-apt-tags');
-  if(!specialistApts.length){el.innerHTML='<span style="font-size:11px;color:#718096">담당 단지를 추가하세요</span>';return;}
+  if(!specialistApts.length){el.innerHTML='<span style="font-size:11px;color:#718096">담당 단지를 추가하세요 (없으면 단지 미지정으로 가입)</span>';return;}
   el.innerHTML=specialistApts.map(function(a){
-    return '<span class="apt-tag">'+a.name+' <span class="x" onclick="removeSpecialistApt(\''+escQ(a.kapt_code)+'\')">✕</span></span>';
+    var dateStr=a.start_date?'<span style="font-size:10px;color:#a0aec0;margin-left:4px">'+a.start_date+'</span>':'';
+    return '<span class="apt-tag">'+a.name+dateStr+' <span class="x" onclick="removeSpecialistApt(\''+escQ(a.kapt_code)+'\')">✕</span></span>';
   }).join('');
 }
 async function brokerToggle(id,cur){

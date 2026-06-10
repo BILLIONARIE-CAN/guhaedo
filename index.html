@@ -1830,21 +1830,15 @@ async function loadSpecialists(kaptCode, aptName){
   try {
     const SUPA_URL = 'https://nqnbbccazjanjhktknyz.supabase.co';
     const SUPA_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5xbmJiY2Nhemlhbmpoa3Rrbnl6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDc5MDk4NzMsImV4cCI6MjA2MzQ4NTg3M30.MU3YL4MNGEryGvKHI1TrNTlFxsv5QDXZ7JOq9_lJlwU';
+    const today = new Date().toISOString().split('T')[0];
+    // broker_apts에서 해당 단지 가입 중개사 조회 (active, 만료 안된 것)
     const r = await fetch(
-      `${SUPA_URL}/rest/v1/brokers?select=id,name,phone,photo,addr,specialist_apts&active=eq.true`,
+      `${SUPA_URL}/rest/v1/broker_apts?select=broker_id,brokers(id,name,phone,photo,addr)&kapt_code=eq.${encodeURIComponent(kaptCode)}&active=eq.true&or=(expires_at.is.null,expires_at.gte.${today})&limit=2`,
       {headers:{'apikey':SUPA_KEY,'Authorization':'Bearer '+SUPA_KEY}}
     );
-    const all = await r.json();
-    // specialist_apts 배열에 이 단지 kapt_code가 있는 것만 필터
-    const matched = all.filter(b=>{
-      const sa = b.specialist_apts;
-      if(!Array.isArray(sa)) return false;
-      return sa.some(item=>{
-        const code = typeof item==='string' ? item : item.kapt_code;
-        return code === kaptCode;
-      });
-    }).slice(0,2);
-    renderSpecialistCards(sec, aptName, matched);
+    const rows = await r.json();
+    const brokers = Array.isArray(rows) ? rows.map(row=>row.brokers).filter(Boolean) : [];
+    renderSpecialistCards(sec, aptName, brokers);
   } catch(e) {
     sec.innerHTML = '';
   }
