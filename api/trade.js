@@ -123,24 +123,16 @@ export default async function handler(req, res) {
 
   function nameMatch(nm) {
     if (!nm) return false;
-    const n = nm.trim().replace(/\s/g, '');
-    const an = aptName.replace(/\s/g, '');
-    if (n === an) return true;
-    if (n.includes(an) || an.includes(n)) return true;
-    const wLen = 5;
-    if (an.length >= wLen) {
-      for (let i = 0; i <= an.length - wLen; i++) {
-        if (n.includes(an.substring(i, i + wLen))) return true;
-      }
-    }
-    return false;
+    // 공백·괄호 제거 후 완전 일치만 허용
+    const normalize = s => s.trim().replace(/[\s()（）·\-]/g, '');
+    const n = normalize(nm);
+    const an = normalize(aptName);
+    return n === an;
   }
 
   function aptMatch(x) {
-    if (nameMatch(x.aptNm)) return true;
-    if (!aptJibun || !x.jibun) return false;
-    const txJibun = String(x.jibun).trim().split('-')[0].replace(/[^0-9]/g, '');
-    return txJibun.length > 0 && txJibun === aptJibun;
+    // 이름 완전 일치만 사용 (jibun 매칭 제거 - 구 단지 오염 방지)
+    return nameMatch(x.aptNm);
   }
 
   const buyBase  = 'https://apis.data.go.kr/1613000/RTMSDataSvcAptTrade/getRTMSDataSvcAptTrade';

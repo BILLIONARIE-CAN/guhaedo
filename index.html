@@ -1995,7 +1995,9 @@ function openAptDetail(d){
       var last=parts[parts.length-1]||'';
       return last.split('-')[0].replace(/[^0-9]/g,''); // 본번만
     })();
-    loadTradeChart(d.code, jibunForTrade);
+    // 준공년도 추출 (예: "2026년 1월", "2026", "202601" 등)
+    var builtYear = parseInt((d.built||'').replace(/[^0-9]/g,'').substring(0,4))||0;
+    loadTradeChart(d.code, jibunForTrade, builtYear);
   }
 }
 
@@ -3407,7 +3409,8 @@ function renderTradeChart(){
   if(!raw)return;
   var allItems=curTradeTab==='buy'?raw.buy:curTradeTab==='jeonse'?raw.jeonse:raw.monthly;
   var areaFilter=ge('trade-area-sel')?ge('trade-area-sel').value:'';
-  var items=areaFilter?allItems.filter(function(x){return String(Math.round(x.a||0))===areaFilter;}):allItems;
+  // value는 소수점 2자리 ㎡ 값 (예: "84.99")
+  var items=areaFilter?allItems.filter(function(x){return Math.round((x.a||0)*100)/100===parseFloat(areaFilter);}):allItems;
   var loading=ge('trade-loading'),chartArea=ge('trade-chart-area'),empty=ge('trade-empty'),summary=ge('trade-summary');
   if(!items||items.length===0){
     if(loading)loading.style.display='none';
@@ -3691,9 +3694,10 @@ function onDualRangeChange(){
   if(tradeCurrentCode)loadTradeChart(tradeCurrentCode,tradeCurrentJibun);
 }
 
-function loadTradeChart(code, aptJibun){
+function loadTradeChart(code, aptJibun, builtYear){
   if(!code)return;
   tradeCurrentCode=code;tradeCurrentJibun=aptJibun||'';
+  var tradeMinYear=builtYear>2000?builtYear-2:0; // 준공 2년 전부터만 허용
   tradeRawData=null;curTradeTab='buy';tradeTablePage=1;curTableTab='all';
   // 테이블 탭 버튼 초기화
   ['all','buy','jeonse','monthly'].forEach(function(t){var el=ge('ttab-'+t);if(!el)return;var act=t==='all';el.style.background=act?'var(--green)':'var(--bg)';el.style.color=act?'#fff':'var(--text2)';el.style.fontWeight=act?'700':'400';el.style.borderColor=act?'var(--green)':'var(--border)';});
@@ -3727,12 +3731,20 @@ function loadTradeChart(code, aptJibun){
       }
     }
     var allAreas={};
-    [d.buy,d.jeonse,d.monthly].forEach(function(arr){(arr||[]).forEach(function(x){if(x.a)allAreas[Math.round(x.a)]=true;});});
+    [d.buy,d.jeonse,d.monthly].forEach(function(arr){(arr||[]).forEach(function(x){if(x.a){var key=Math.round(x.a*100)/100;if(!allAreas[key])allAreas[key]=Math.round(x.a/3.3058);}});});
     var sel=ge('trade-area-sel');
     if(sel){
       var saved=sel.value;
+      // 같은 평수 내 타입 알파벳 부여 (84.99→26평A, 84.97→26평B)
+      var sorted=Object.keys(allAreas).map(Number).sort(function(a,b){return a-b;});
+      var pyGroups={};sorted.forEach(function(sqm){var py=allAreas[sqm];if(!pyGroups[py])pyGroups[py]=[];pyGroups[py].push(sqm);});
       var opts='<option value="">전체 면적</option>';
-      Object.keys(allAreas).sort(function(a,b){return parseInt(a)-parseInt(b);}).forEach(function(a){opts+='<option value="'+a+'">'+a+'㎡</option>';});
+      sorted.forEach(function(sqm){
+        var py=allAreas[sqm];
+        var types=pyGroups[py];
+        var suffix=types.length>1?String.fromCharCode(64+types.indexOf(sqm)+1):'';
+        opts+='<option value="'+sqm+'">전용 '+py+'평'+suffix+'</option>';
+      });
       sel.innerHTML=opts;
       if(saved)sel.value=saved;
     }
@@ -3747,9 +3759,9 @@ function loadTradeChart(code, aptJibun){
     if(batch){
       if(batch.lawdCd)resolvedLawdCd=batch.lawdCd;
       if(batch.aptName)resolvedAptName=batch.aptName;
-      (batch.buy||[]).forEach(function(x){accum.buy.push(x);});
-      (batch.jeonse||[]).forEach(function(x){accum.jeonse.push(x);});
-      (batch.monthly||[]).forEach(function(x){accum.monthly.push(x);});
+      (batch.buy||[]).forEach(function(x){if(!tradeMinYear||parseInt((x.t||'').substring(0,4))>=tradeMinYear)accum.buy.push(x);});
+      (batch.jeonse||[]).forEach(function(x){if(!tradeMinYear||parseInt((x.t||'').substring(0,4))>=tradeMinYear)accum.jeonse.push(x);});
+      (batch.monthly||[]).forEach(function(x){if(!tradeMinYear||parseInt((x.t||'').substring(0,4))>=tradeMinYear)accum.monthly.push(x);});
     }
     completed++;
     // 진행상황만 표시, 렌더링은 전부 끝난 후 한 번만
