@@ -59,9 +59,16 @@ tr:hover td{background:#1a2030}
 .area-chip .x{cursor:pointer;color:#fc8181;font-weight:700;margin-left:2px}
 .apt-tag{display:inline-flex;align-items:center;gap:5px;background:#276749;border:1px solid #38a169;border-radius:16px;padding:4px 10px;font-size:11px;color:#9ae6b4;margin:3px}
 .apt-tag .x{cursor:pointer;color:#fc8181;font-weight:700}
-.apt-drop-item{padding:9px 14px;font-size:13px;cursor:pointer;border-bottom:1px solid #3d4a5c;color:#e2e8f0}
-.apt-drop-item:hover{background:#3d4a5c}
-.apt-drop-item small{color:#718096;font-size:11px;margin-left:6px}
+.apt-tab-wrap{display:flex;border:1px solid #4a5568;border-radius:7px;overflow:hidden;margin-bottom:10px}
+.apt-tab{flex:1;padding:8px;background:#2d3748;color:#a0aec0;border:none;cursor:pointer;font-size:12px;font-weight:600;transition:.15s}
+.apt-tab.active{background:#48bb78;color:#fff}
+.apt-tab:hover:not(.active){background:#3d4a5c}
+.apt-panel{margin-bottom:4px}
+.apt-list-item{display:flex;align-items:center;justify-content:space-between;padding:9px 12px;font-size:13px;border-bottom:1px solid #3d4a5c;color:#e2e8f0}
+.apt-list-item:hover{background:#2d3748}
+.apt-list-item small{color:#718096;font-size:11px;margin-left:6px;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.apt-add-btn{flex-shrink:0;padding:4px 10px;background:#276749;color:#9ae6b4;border:none;border-radius:5px;font-size:11px;font-weight:600;cursor:pointer}
+.apt-add-btn:hover{background:#38a169}
 .banner-preview{width:100%;max-height:80px;object-fit:cover;border-radius:6px;border:1px solid #4a5568}
 .section{display:none}
 .section.active{display:block}
@@ -140,11 +147,30 @@ tr:hover td{background:#1a2030}
         <!-- 담당 단지 -->
         <div class="field">
           <label>📌 담당 단지 (전문중개사 표시)</label>
-          <div style="display:flex;gap:8px;position:relative">
-            <input class="input" id="b-apt-search" placeholder="단지명 검색..." oninput="searchSpecialistApt()" autocomplete="off" style="flex:1">
+          <!-- 탭 -->
+          <div class="apt-tab-wrap">
+            <button class="apt-tab active" id="apt-tab-sido" onclick="switchAptTab('sido')">소재지 선택</button>
+            <button class="apt-tab" id="apt-tab-name" onclick="switchAptTab('name')">단지명 검색</button>
           </div>
-          <div id="b-apt-dropdown" style="display:none;position:absolute;z-index:999;background:#2d3748;border:1px solid #4a5568;border-radius:6px;max-height:180px;overflow-y:auto;width:320px;box-shadow:0 4px 12px rgba(0,0,0,.4)"></div>
-          <div id="b-apt-tags" style="display:flex;flex-wrap:wrap;gap:6px;margin-top:8px;min-height:28px"></div>
+          <!-- 소재지 탭 -->
+          <div id="apt-panel-sido" class="apt-panel">
+            <div class="grid3" style="gap:8px;margin-bottom:8px">
+              <select class="sel" id="b-sido" onchange="aptSidoChange()"><option value="">시도</option></select>
+              <select class="sel" id="b-sigungu" onchange="aptSigunguChange()"><option value="">시군구</option></select>
+              <select class="sel" id="b-emd" onchange="aptEmdChange()"><option value="">읍면동</option></select>
+            </div>
+            <div id="b-apt-sido-list" style="max-height:180px;overflow-y:auto;border:1px solid #4a5568;border-radius:6px;display:none"></div>
+          </div>
+          <!-- 단지명 탭 -->
+          <div id="apt-panel-name" class="apt-panel" style="display:none">
+            <div style="display:flex;gap:8px">
+              <input class="input" id="b-apt-search" placeholder="단지명 입력 후 검색..." autocomplete="off" style="flex:1" onkeydown="if(event.key==='Enter')doAptSearch()">
+              <button class="btn btn-green btn-sm" onclick="doAptSearch()">검색</button>
+            </div>
+            <div id="b-apt-name-list" style="max-height:180px;overflow-y:auto;border:1px solid #4a5568;border-radius:6px;margin-top:8px;display:none"></div>
+          </div>
+          <!-- 추가된 단지 태그 -->
+          <div id="b-apt-tags" style="display:flex;flex-wrap:wrap;gap:6px;margin-top:10px;min-height:24px"></div>
         </div>
         <button class="btn btn-green" id="broker-submit" onclick="brokerSubmit()">✅ 등록하기</button>
       </div>
@@ -407,6 +433,7 @@ async function loadAreaData(){
       areaData.sigunguMap[s.sido].push(s.name);
     });
     areaData.sidos=Object.keys(sidoSet).sort();
+    initAptSidoSelect();
     var r2=await fetch('/split_output/coords_dong.json');
     var dongArr=await r2.json();
     dongArr.forEach(function(d){
@@ -516,41 +543,119 @@ async function brokerSubmit(){
 }
 
 // ===== 담당 단지 검색 =====
+function escQ(s){return (s||'').replace(/\\/g,'\\\\').replace(/'/g,"\\'").replace(/"/g,'&quot;');}
+
+function switchAptTab(tab){
+  ge('apt-tab-sido').classList.toggle('active',tab==='sido');
+  ge('apt-tab-name').classList.toggle('active',tab==='name');
+  ge('apt-panel-sido').style.display=tab==='sido'?'':'none';
+  ge('apt-panel-name').style.display=tab==='name'?'':'none';
+}
+
+// 소재지 탭: 시도 목록 채우기 (loadAreaData에서 areaData 활용)
+function initAptSidoSelect(){
+  var sel=ge('b-sido');
+  if(!areaData.sidos.length)return;
+  sel.innerHTML='<option value="">시도</option>'+areaData.sidos.map(function(s){return '<option>'+s+'</option>';}).join('');
+}
+function aptSidoChange(){
+  var sido=ge('b-sido').value;
+  ge('b-sigungu').innerHTML='<option value="">시군구</option>';
+  ge('b-emd').innerHTML='<option value="">읍면동</option>';
+  ge('b-apt-sido-list').style.display='none';
+  if(!sido)return;
+  var list=(areaData.sigunguMap[sido]||[]).sort();
+  ge('b-sigungu').innerHTML='<option value="">시군구</option>'+list.map(function(s){return '<option>'+s+'</option>';}).join('');
+}
+function aptSigunguChange(){
+  var sido=ge('b-sido').value,sg=ge('b-sigungu').value;
+  ge('b-emd').innerHTML='<option value="">읍면동</option>';
+  ge('b-apt-sido-list').style.display='none';
+  if(!sg)return;
+  var list=(areaData.emdMap[sido+'|'+sg]||[]).sort();
+  ge('b-emd').innerHTML='<option value="">읍면동 (선택 안하면 전체)</option>'+list.map(function(s){return '<option>'+s+'</option>';}).join('');
+  // 시군구 선택 시 바로 단지 목록 로드
+  loadAptsBySigungu(sido, sg, '');
+}
+function aptEmdChange(){
+  var sido=ge('b-sido').value,sg=ge('b-sigungu').value,emd=ge('b-emd').value;
+  loadAptsBySigungu(sido,sg,emd);
+}
+
+let sigunguAptCache={};
+async function loadAptsBySigungu(sido,sg,emd){
+  var el=ge('b-apt-sido-list');
+  el.style.display='block';
+  el.innerHTML='<div style="padding:12px;font-size:12px;color:#718096">불러오는 중...</div>';
+  // coords_sigungu.json에서 코드 찾기
+  var sgCode='';
+  try{
+    var r=await fetch('/split_output/coords_sigungu.json');
+    var sgArr=await r.json();
+    var found=sgArr.find(function(s){return s.sido===sido&&s.name===sg;});
+    if(found)sgCode=found.code;
+  }catch(e){}
+  if(!sgCode){el.innerHTML='<div style="padding:12px;font-size:12px;color:#fc8181">시군구 코드를 찾을 수 없습니다</div>';return;}
+  var apts;
+  if(sigunguAptCache[sgCode]){
+    apts=sigunguAptCache[sgCode];
+  }else{
+    try{
+      var r2=await fetch('/split_output/coords_apt_'+sgCode+'.json');
+      apts=await r2.json();
+      sigunguAptCache[sgCode]=apts;
+    }catch(e){el.innerHTML='<div style="padding:12px;font-size:12px;color:#fc8181">단지 데이터 없음</div>';return;}
+  }
+  var filtered=emd?apts.filter(function(a){return a.emd===emd;}):apts;
+  filtered=filtered.sort(function(a,b){return (a.name||'').localeCompare(b.name||'','ko');});
+  if(!filtered.length){el.innerHTML='<div style="padding:12px;font-size:12px;color:#718096">해당 지역 단지 없음</div>';return;}
+  el.innerHTML=filtered.map(function(a){
+    var already=specialistApts.find(function(x){return x.kapt_code===a.code;});
+    return '<div class="apt-list-item">'+
+      '<span>'+a.name+'<small>'+(a.emd||'')+'</small></span>'+
+      (already
+        ? '<span style="font-size:11px;color:#9ae6b4">✓추가됨</span>'
+        : '<button class="apt-add-btn" onclick="addSpecialistApt(\''+escQ(a.code)+'\',\''+escQ(a.name)+'\',\''+escQ(a.addr||'')+'\')">+ 추가</button>')+
+      '</div>';
+  }).join('');
+}
+
+// 단지명 검색 탭
+async function doAptSearch(){
+  var q=ge('b-apt-search').value.trim();
+  if(q.length<2){toast('두 글자 이상 입력하세요',true);return;}
+  var el=ge('b-apt-name-list');
+  el.style.display='block';
+  el.innerHTML='<div style="padding:12px;font-size:12px;color:#718096">검색 중...</div>';
+  // coords_all_apt.json 사용
+  var data=await loadAptDataOnce();
+  var results=data.filter(function(a){return a.name&&a.name.includes(q);}).slice(0,30);
+  if(!results.length){el.innerHTML='<div style="padding:12px;font-size:12px;color:#718096">검색 결과 없음</div>';return;}
+  el.innerHTML=results.map(function(a){
+    var already=specialistApts.find(function(x){return x.kapt_code===a.code;});
+    return '<div class="apt-list-item">'+
+      '<span>'+a.name+'<small>'+(a.addr||'').substring(0,28)+'</small></span>'+
+      (already
+        ? '<span style="font-size:11px;color:#9ae6b4">✓추가됨</span>'
+        : '<button class="apt-add-btn" onclick="addSpecialistApt(\''+escQ(a.code)+'\',\''+escQ(a.name)+'\',\''+escQ(a.addr||'')+'\')">+ 추가</button>')+
+      '</div>';
+  }).join('');
+}
+
 async function loadAptDataOnce(){
   if(allAptData)return allAptData;
   try{var r=await fetch('/split_output/coords_all_apt.json');allAptData=await r.json();}catch(e){allAptData=[];}
   return allAptData;
 }
-async function searchSpecialistApt(){
-  clearTimeout(aptSearchTimer);
-  var q=ge('b-apt-search').value.trim();
-  var dd=ge('b-apt-dropdown');
-  if(q.length<2){dd.style.display='none';return;}
-  aptSearchTimer=setTimeout(async function(){
-    var data=await loadAptDataOnce();
-    var ql=q.toLowerCase();
-    var results=data.filter(function(a){
-      return (a.name&&a.name.includes(q))||(a.addr&&a.addr.toLowerCase().includes(ql));
-    }).slice(0,8);
-    if(!results.length){dd.style.display='none';return;}
-    dd.innerHTML=results.map(function(a){
-      return '<div class="apt-drop-item" onclick="addSpecialistApt(\''+escQ(a.code)+'\',\''+escQ(a.name)+'\',\''+escQ(a.addr||'')+'\')">'+
-        a.name+'<small>'+(a.addr||'').substring(0,25)+'</small></div>';
-    }).join('');
-    // 드롭다운 위치 조정
-    var inp=ge('b-apt-search');
-    var rect=inp.getBoundingClientRect();
-    dd.style.top=(inp.offsetTop+inp.offsetHeight+2)+'px';
-    dd.style.left=inp.offsetLeft+'px';
-    dd.style.display='block';
-  },250);
-}
-function escQ(s){return (s||'').replace(/'/g,"\\'").replace(/"/g,'&quot;');}
+
 function addSpecialistApt(code,name,addr){
-  ge('b-apt-dropdown').style.display='none';ge('b-apt-search').value='';
   if(specialistApts.find(function(a){return a.kapt_code===code;})){toast('이미 추가된 단지입니다',true);return;}
   specialistApts.push({kapt_code:code,name:name,addr:addr});
   renderAptTags();
+  // 목록 새로고침 (추가됨 표시)
+  var sido=ge('b-sido').value,sg=ge('b-sigungu').value,emd=ge('b-emd').value;
+  if(sido&&sg)loadAptsBySigungu(sido,sg,emd);
+  if(ge('b-apt-name-list').style.display!=='none')doAptSearch();
 }
 function removeSpecialistApt(code){
   specialistApts=specialistApts.filter(function(a){return a.kapt_code!==code;});
@@ -558,15 +663,11 @@ function removeSpecialistApt(code){
 }
 function renderAptTags(){
   var el=ge('b-apt-tags');
-  if(!specialistApts.length){el.innerHTML='<span style="font-size:11px;color:#718096">담당 단지를 검색하여 추가하세요</span>';return;}
+  if(!specialistApts.length){el.innerHTML='<span style="font-size:11px;color:#718096">담당 단지를 추가하세요</span>';return;}
   el.innerHTML=specialistApts.map(function(a){
     return '<span class="apt-tag">'+a.name+' <span class="x" onclick="removeSpecialistApt(\''+escQ(a.kapt_code)+'\')">✕</span></span>';
   }).join('');
 }
-// 외부 클릭 시 드롭다운 닫기
-document.addEventListener('click',function(e){
-  if(!e.target.closest('#b-apt-search')&&!e.target.closest('#b-apt-dropdown'))ge('b-apt-dropdown').style.display='none';
-});
 async function brokerToggle(id,cur){
   await fetch(SUPABASE_URL+'/rest/v1/brokers?id=eq.'+id,{method:'PATCH',headers:hdrs,body:JSON.stringify({active:!cur})});
   toast(cur?'비활성화':'활성화');loadBrokers();
