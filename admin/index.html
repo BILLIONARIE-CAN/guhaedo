@@ -486,37 +486,48 @@ async function bnEmdChange(){
   res.innerHTML='<div style="font-size:12px;color:#718096;padding:8px 0">조회 중...</div>';
   try{
     var today=new Date().toISOString().split('T')[0];
-    var rows=await fetch(SUPABASE_URL+'/rest/v1/banners?select=business_name,expires_at,active&active=eq.true',{headers:hdrs}).then(function(r){return r.json();});
+    var rows=await fetch(SUPABASE_URL+'/rest/v1/banners?select=id,business_name,category,phone,expires_at,active,areas,image&active=eq.true',{headers:hdrs}).then(function(r){return r.json();});
     var matched=rows.filter(function(b){
       if(b.expires_at&&b.expires_at<today)return false;
       return Array.isArray(b.areas)&&b.areas.some(function(a){return a.sido===sido&&a.sigungu===sg&&a.emd===emd;});
     });
     var cnt=matched.length;
     var isFull=cnt>=BANNER_MAX;
-    var slotColor=cnt===0?'#38a169':isFull?'#e53e3e':'#d69e2e';
-    var html='<div style="background:#1a202c;border-radius:10px;padding:14px 16px;border:1px solid #2d3748">'
-      +'<div style="display:flex;justify-content:space-between;align-items:center">'
-        +'<span style="font-size:13px;font-weight:700;color:#e2e8f0">'+sido+' '+sg+' '+emd+'</span>'
-        +(isFull
-          ?'<span style="font-size:12px;font-weight:700;color:#fc8181">마감 ('+cnt+'/'+BANNER_MAX+')</span>'
-          :'<button onclick="openBnModal()" class="btn btn-green btn-sm">+ 가입자 추가</button>')
-      +'</div>';
+    var html='<div style="border-bottom:1px solid #2d3748;padding-bottom:12px;margin-bottom:14px;display:flex;justify-content:space-between;align-items:center">'
+      +'<span style="font-size:13px;font-weight:700;color:#e2e8f0">'+sido+' '+sg+' '+emd
+        +'<span style="font-size:11px;font-weight:400;color:'+(isFull?'#fc8181':'#68d391')+';margin-left:8px">'+(isFull?'마감':'잔여 '+(BANNER_MAX-cnt)+'자리')+' ('+cnt+'/'+BANNER_MAX+')</span>'
+      +'</span>'
+      +(isFull?'':'<button onclick="openBnModal()" class="btn btn-green btn-sm">+ 가입자 추가</button>')
+    +'</div>';
     if(cnt===0){
-      html+='<div style="font-size:12px;color:#718096;margin-top:10px;padding:8px 0;text-align:center">가입자 없음</div>';
+      html+='<div style="font-size:12px;color:#718096;padding:16px 0;text-align:center">이 지역 등록된 배너가 없습니다</div>';
     }else{
-      html+='<div style="margin-top:10px;display:flex;flex-direction:column;gap:6px">'
+      html+='<div style="display:flex;flex-direction:column;gap:14px">'
         +matched.map(function(b){
-          return '<div style="display:flex;justify-content:space-between;align-items:center;background:#2d3748;border-radius:6px;padding:6px 10px">'
-            +'<span style="font-size:12px;color:#e2e8f0;font-weight:600">'+b.business_name+'</span>'
-            +(b.expires_at?'<span style="font-size:11px;color:#718096">~'+b.expires_at+'</span>':'<span style="font-size:11px;color:#48bb78">무제한</span>')
-            +'</div>';
+          var imgHtml=b.image
+            ?'<img src="'+b.image+'" style="width:100%;max-height:90px;object-fit:cover;border-radius:6px;margin-bottom:8px">'
+            :'<div style="width:100%;height:52px;background:#2d3748;border-radius:6px;display:flex;align-items:center;justify-content:center;color:#718096;font-size:11px;margin-bottom:8px">이미지 없음</div>';
+          return '<div style="background:#1a202c;border-radius:8px;padding:12px;border:1px solid #2d3748">'
+            +imgHtml
+            +'<div style="display:flex;justify-content:space-between;align-items:flex-start;gap:8px;margin-bottom:8px">'
+              +'<div>'
+                +'<div style="font-size:13px;font-weight:700;color:#e2e8f0">'+b.business_name+'</div>'
+                +'<div style="font-size:11px;color:#a0aec0;margin-top:2px">'+(b.category||'업종 미입력')+(b.phone?' · '+b.phone:'')+'</div>'
+              +'</div>'
+              +'<div style="text-align:right;flex-shrink:0">'
+                +statusBadge(b)
+                +'<div style="font-size:11px;color:#718096;margin-top:3px">'+(b.expires_at?'~'+b.expires_at:'무제한')+'</div>'
+              +'</div>'
+            +'</div>'
+            +'<div style="display:flex;gap:6px">'
+              +'<button class="btn btn-blue btn-sm" style="flex:1" onclick="bannerEdit(\''+b.id+'\')">수정</button>'
+              +'<button class="btn btn-gray btn-sm" style="flex:1" onclick="bannerToggle(\''+b.id+'\','+b.active+')">'+(b.active?'비활성':'활성')+'</button>'
+              +'<button class="btn btn-red btn-sm" style="flex:1" onclick="bannerDeleteArea(\''+b.id+'\',\''+b.business_name+'\')">삭제</button>'
+            +'</div>'
+          +'</div>';
         }).join('')
       +'</div>';
-      if(!isFull){
-        html+='<button onclick="openBnModal()" class="btn btn-green btn-sm" style="margin-top:10px;width:100%">+ 가입자 추가 ('+cnt+'/'+BANNER_MAX+')</button>';
-      }
     }
-    html+='</div>';
     res.innerHTML=html;
   }catch(e){res.innerHTML='<span style="color:#fc8181;font-size:12px">조회 실패</span>';}
 }
@@ -1003,10 +1014,10 @@ async function bannerSubmit(){
   var body={business_name:name,category:getBnCategory(),phone:gv('bn-phone'),image:bannerImg,areas:areas,expires_at:gv('bn-expires')||null,active:true};
   if(bannerEditId){
     var r=await fetch(SUPABASE_URL+'/rest/v1/banners?id=eq.'+bannerEditId,{method:'PATCH',headers:hdrs,body:JSON.stringify(body)});
-    if(r.ok){toast('수정 완료!');bannerCancel();loadBanners();}else toast('실패',true);
+    if(r.ok){toast('수정 완료!');bannerCancel();loadBanners();bnEmdChange();}else toast('실패',true);
   }else{
     var r=await fetch(SUPABASE_URL+'/rest/v1/banners',{method:'POST',headers:hdrs,body:JSON.stringify(body)});
-    if(r.ok){toast('등록 완료!');bannerCancel();loadBanners();}else toast('실패',true);
+    if(r.ok){toast('등록 완료!');bannerCancel();loadBanners();bnEmdChange();}else toast('실패',true);
   }
 }
 async function bannerToggle(id,cur){
@@ -1017,6 +1028,11 @@ async function bannerDelete(id,name){
   if(!confirm('"'+name+'" 배너 삭제할까요?'))return;
   await fetch(SUPABASE_URL+'/rest/v1/banners?id=eq.'+id,{method:'DELETE',headers:hdrs});
   toast('삭제 완료');loadBanners();
+}
+async function bannerDeleteArea(id,name){
+  if(!confirm('"'+name+'" 배너 삭제할까요?'))return;
+  await fetch(SUPABASE_URL+'/rest/v1/banners?id=eq.'+id,{method:'DELETE',headers:hdrs});
+  toast('삭제 완료');bnEmdChange();
 }
 </script>
 </body>
