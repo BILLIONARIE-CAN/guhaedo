@@ -3346,12 +3346,27 @@ function renderTradeChart(){
     return;
   }
 
+  var N=TRADE_MONTHS.length;
+  // 데이터 있는 월 인덱스 정렬
+  var dataIndices=Object.keys(monthSums).map(Number).sort(function(a,b){return a-b;});
+  // x축 범위: 데이터 있는 구간만 ±1개월 여유
+  var minIdx=Math.max(0,dataIndices[0]-1);
+  var maxIdx=Math.min(N-1,dataIndices[dataIndices.length-1]+1);
+
   var lineData=[];
-  var countData=new Array(24).fill(0);
-  Object.keys(monthSums).forEach(function(i){
-    var idx=parseInt(i);
-    lineData.push({x:idx,y:Math.round(monthSums[idx]/monthCnts[idx])});
+  var countData=new Array(N).fill(0);
+  var barColors=new Array(N).fill('rgba(200,200,200,0.1)');
+  dataIndices.forEach(function(idx,i){
+    var avgCur=monthSums[idx]/monthCnts[idx];
+    lineData.push({x:idx,y:Math.round(avgCur)});
     countData[idx]=monthCnts[idx];
+    // 주식처럼: 전월 대비 상승=빨강, 하락=파랑
+    var up=true;
+    if(i>0){
+      var pi=dataIndices[i-1];
+      up=avgCur>=(monthSums[pi]/monthCnts[pi]);
+    }
+    barColors[idx]=up?'rgba(220,50,50,0.55)':'rgba(55,120,220,0.55)';
   });
   lineData.sort(function(a,b){return a.x-b.x;});
   var avgP=Math.round(prices.reduce(function(a,b){return a+b;},0)/prices.length);
@@ -3364,13 +3379,52 @@ function renderTradeChart(){
 
   var ctx=ge('trade-chart');
   if(tradeChart){tradeChart.destroy();tradeChart=null;}
-  // lineData/countData: 인덱스 기반 배열 → LinearScale에서도 index=x로 동작
-  // scatter: {x:숫자(+jitter), y:가격} → LinearScale에서 정확히 위치 결정
+
+  // 크로스헤어 플러그인: 데이터 있는 월에 스냅, 수직 빨간선
+  var crosshairPlugin={
+    id:'tradeCrosshair',
+    afterEvent:function(chart,args){
+      var e=args.event;
+      if(e.type==='mousemove'){
+        var xAxis=chart.scales.x;
+        if(xAxis&&e.x>=xAxis.left&&e.x<=xAxis.right){
+          var xVal=xAxis.getValueForPixel(e.x);
+          // 데이터 있는 가장 가까운 월로 스냅
+          var nearest=dataIndices.reduce(function(best,idx){
+            return Math.abs(idx-xVal)<Math.abs(best-xVal)?idx:best;
+          },dataIndices[0]);
+          chart._chX=xAxis.getPixelForValue(nearest);
+          chart._chMonth=nearest;
+        } else {
+          chart._chX=null;chart._chMonth=null;
+        }
+        args.changed=true;
+      } else if(e.type==='mouseout'||e.type==='mouseleave'){
+        chart._chX=null;chart._chMonth=null;
+        args.changed=true;
+      }
+    },
+    afterDraw:function(chart){
+      if(!chart._chX)return;
+      var c2=chart.ctx,yAxis=chart.scales.y;
+      c2.save();
+      c2.beginPath();
+      c2.moveTo(chart._chX,yAxis.top);
+      c2.lineTo(chart._chX,yAxis.bottom);
+      c2.lineWidth=1.5;
+      c2.strokeStyle='rgba(220,47,47,0.85)';
+      c2.setLineDash([5,3]);
+      c2.stroke();
+      c2.restore();
+    }
+  };
+
   tradeChart=new Chart(ctx,{
     type:'bar',
+    plugins:[crosshairPlugin],
     data:{
       datasets:[
-        {type:'bar',label:'건수',data:countData,backgroundColor:'rgba(200,200,200,0.3)',yAxisID:'yc',order:3},
+        {type:'bar',label:'건수',data:countData,backgroundColor:barColors,yAxisID:'yc',order:3},
         {type:'scatter',label:'개별',data:scatter,backgroundColor:dc,pointRadius:1.5,pointHoverRadius:4,xAxisID:'x',yAxisID:'y',order:3},
         {type:'line',label:'월평균',data:lineData,borderColor:lc,backgroundColor:'transparent',borderWidth:2,pointRadius:4,pointHoverRadius:6,pointBackgroundColor:lc,fill:false,tension:0.3,xAxisID:'x',yAxisID:'y',order:1}
       ]
@@ -3379,26 +3433,39 @@ function renderTradeChart(){
       responsive:true,maintainAspectRatio:false,
       plugins:{
         legend:{display:false},
-        tooltip:{callbacks:{
-          title:function(items){
-            if(!items.length)return '';
-            var x=items[0].parsed.x;
-            var i=Math.round(x);
-            return(i>=0&&i<24)?TRADE_MONTHS[i]:'';
-          },
-          label:function(c){
-            var d=c.raw;
-            if(typeof d==='object'&&d!==null&&'x'in d){
-              var p=fmtP(d.y);
-              if(curTradeTab==='monthly')return '월세 '+p+'만'+(d.d?' 보증'+fmtP(d.d):'')+(d.a?' '+Math.round(d.a)+'㎡':'');
-              return p+(d.a?' '+Math.round(d.a)+'㎡':'')+(d.f?' '+d.f+'층':'');
+        tooltip:{
+          mode:'nearest',intersect:false,
+          callbacks:{
+            title:function(items){
+              if(!items.length)return '';
+              var x=items[0].parsed.x;
+              var i=Math.round(x);
+              return(i>=0&&i<N)?TRADE_MONTHS[i]:'';
+            },
+            label:function(c){
+              var d=c.raw;
+              if(typeof d==='object'&&d!==null&&'x'in d&&'y'in d){
+                var p=fmtP(d.y);
+                if(c.dataset.label==='월평균')return '평균 '+p;
+                if(curTradeTab==='monthly')return '월세 '+p+'만'+(d.d?' 보증'+fmtP(d.d):'')+(d.a?' '+Math.round(d.a)+'㎡':'');
+                return p+(d.a?' '+Math.round(d.a)+'㎡':'')+(d.f?' '+d.f+'층':'');
+              }
+              if(c.dataset.label==='건수')return '거래 '+c.raw+'건';
+              return '';
             }
-            return c.dataset.label+': '+c.raw;
           }
-        }}
+        }
       },
       scales:{
-        x:{type:'linear',min:-0.5,max:TRADE_MONTHS.length-0.5,ticks:{stepSize:1,callback:function(v){var i=Math.round(v);var n=TRADE_MONTHS.length;var step=n<=36?6:n<=72?12:n<=144?24:36;return(i>=0&&i<n&&i%step===0)?TRADE_MONTHS[i]:'';},maxRotation:0,font:{size:10},autoSkip:false},grid:{color:'rgba(0,0,0,0.04)'}},
+        x:{type:'linear',min:minIdx-0.5,max:maxIdx+0.5,
+           ticks:{stepSize:1,callback:function(v){
+             var i=Math.round(v);
+             var span=maxIdx-minIdx+1;
+             var step=span<=24?3:span<=48?6:span<=96?12:span<=192?24:36;
+             return(i>=0&&i<N&&i>=minIdx&&i<=maxIdx&&(i-minIdx)%step===0)?TRADE_MONTHS[i]:'';
+           },maxRotation:0,font:{size:10},autoSkip:false},
+           grid:{color:'rgba(0,0,0,0.04)'}
+        },
         y:{position:'left',ticks:{callback:function(v){return fmtP(v);},font:{size:10}},grid:{color:'rgba(0,0,0,0.04)'}},
         yc:{position:'right',ticks:{font:{size:9},color:'#bbb',maxTicksLimit:4},grid:{display:false}}
       }
