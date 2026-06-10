@@ -240,53 +240,61 @@ tr:hover td{background:#1a2030}
 
     <!-- ==================== 배너 탭 ==================== -->
     <div class="section" id="sec-banner">
-      <div class="card" id="banner-form-card">
-        <div class="card-title">
-          <span id="banner-form-title">➕ 배너 등록</span>
-          <span id="banner-edit-badge" style="display:none" class="badge badge-on">수정 중</span>
-          <div style="margin-left:auto"><button class="btn btn-gray btn-sm" id="banner-cancel-btn" style="display:none" onclick="bannerCancel()">취소</button></div>
+      <!-- 배너 지역 검색 카드 -->
+      <div class="card">
+        <div class="card-title">📍 배너 등록 지역</div>
+        <div class="grid3" style="margin-bottom:12px">
+          <select class="sel" id="bn-sido" onchange="bnSidoChange()"><option value="">시도</option></select>
+          <select class="sel" id="bn-sigungu" onchange="bnSigunguChange()"><option value="">시군구</option></select>
+          <select class="sel" id="bn-emd" onchange="bnEmdChange()"><option value="">읍면동</option></select>
         </div>
-        <div class="grid2">
-          <div class="field"><label>업체명 *</label><input class="input" id="bn-name" placeholder="광고 업체명"></div>
-          <div class="field"><label>업종</label>
-            <select class="sel" id="bn-category">
-              <option value="">선택</option>
-              <option>법무사</option><option>세무사</option><option>이사업체</option>
-              <option>청소업체</option><option>수리업체</option><option>기타</option>
-            </select>
-          </div>
-        </div>
-        <div class="grid2">
-          <div class="field"><label>연락처</label><input class="input" id="bn-phone" placeholder="010-0000-0000"></div>
-          <div class="field"><label>만료일</label><input class="input" type="date" id="bn-expires"></div>
-        </div>
-        <div class="field">
-          <label>배너 이미지 *</label>
-          <div class="photo-upload" onclick="document.getElementById('bn-img-file').click()">
-            <input type="file" id="bn-img-file" accept="image/*" style="display:none" onchange="previewBanner(this)">
-            <div id="bn-img-text"><div style="font-size:22px">🖼️</div><div style="font-size:13px;color:#a0aec0">클릭해서 배너 이미지 선택</div><div style="font-size:11px;color:#718096">가로형 권장 (예: 300×80)</div></div>
-          </div>
-          <div id="bn-img-wrap" style="display:none;margin-top:10px">
-            <img id="bn-img-preview" class="banner-preview">
-            <button class="btn btn-gray btn-sm" style="margin-top:6px" onclick="clearBannerImg()">제거</button>
-          </div>
-        </div>
-        <div class="field">
-          <label>📍 대상 읍면동 <span style="font-size:11px;color:#718096">(이 지역 아파트 인쇄 시 배너 자동 삽입 · 지역당 최대 6개)</span></label>
-          <div class="grid3" style="margin-bottom:8px">
-            <select class="sel" id="bn-sido" onchange="bnSidoChange()"><option value="">시도</option></select>
-            <select class="sel" id="bn-sigungu" onchange="bnSigunguChange()"><option value="">시군구</option></select>
-            <select class="sel" id="bn-emd"><option value="">읍면동</option></select>
-          </div>
-          <button class="btn btn-gray btn-sm" onclick="bnSearchArea()">🔍 경쟁자 확인</button>
-          <div id="bn-area-result" style="margin-top:8px;display:none;background:#1a202c;border-radius:8px;padding:12px;border:1px solid #2d3748"></div>
-          <div id="bn-areas" style="margin-top:8px;min-height:20px"></div>
-        </div>
-        <button class="btn btn-green" id="banner-submit" onclick="bannerSubmit()">✅ 등록하기</button>
+        <div id="bn-area-result" style="display:none"></div>
       </div>
+      <!-- 배너 목록 카드 -->
       <div class="card">
         <div class="card-title">📢 등록된 배너 <span id="banner-count" style="font-size:13px;color:#718096;font-weight:400"></span></div>
-        <div class="table-wrap" id="banner-list"></div>
+        <div id="banner-list"></div>
+      </div>
+
+      <!-- 배너 등록/수정 모달 -->
+      <div id="bn-modal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:1000;align-items:center;justify-content:center">
+        <div style="background:#1e2533;border-radius:12px;padding:28px;width:min(520px,94vw);max-height:90vh;overflow-y:auto;position:relative">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px">
+            <span id="bn-modal-title" style="font-size:16px;font-weight:700">배너 등록</span>
+            <button onclick="closeBnModal()" style="background:none;border:none;color:#a0aec0;font-size:20px;cursor:pointer">✕</button>
+          </div>
+          <div id="bn-modal-area-badge" style="background:#2d3748;border-radius:6px;padding:6px 12px;font-size:12px;color:#a0aec0;margin-bottom:16px"></div>
+          <div class="field"><label>업체명 *</label><input class="input" id="bn-name" placeholder="업체명 입력"></div>
+          <div class="field"><label>업종</label>
+            <select class="sel" id="bn-category-sel" onchange="bnCatSelChange()">
+              <option value="">선택</option>
+              <option>법무사</option><option>세무사</option><option>이사업체</option>
+              <option>청소업체</option><option>수리업체</option><option>인테리어</option>
+              <option>대출상담</option><option>도배장판</option><option>학원</option>
+              <option value="__direct__">직접 입력</option>
+            </select>
+            <input class="input" id="bn-category-direct" placeholder="업종 직접 입력" style="display:none;margin-top:6px">
+          </div>
+          <div class="grid2">
+            <div class="field"><label>연락처</label><input class="input" id="bn-phone" placeholder="010-0000-0000"></div>
+            <div class="field"><label>만료일</label><input class="input" type="date" id="bn-expires"></div>
+          </div>
+          <div class="field">
+            <label>배너 이미지 *</label>
+            <div class="photo-upload" onclick="document.getElementById('bn-img-file').click()">
+              <input type="file" id="bn-img-file" accept="image/*,image/svg+xml" style="display:none" onchange="previewBanner(this)">
+              <div id="bn-img-text"><div style="font-size:22px">🖼️</div><div style="font-size:13px;color:#a0aec0">클릭해서 배너 이미지 선택</div><div style="font-size:11px;color:#718096">가로형 권장 · PNG/JPG/SVG</div></div>
+            </div>
+            <div id="bn-img-wrap" style="display:none;margin-top:10px">
+              <img id="bn-img-preview" class="banner-preview" style="width:100%;border-radius:6px">
+              <button class="btn btn-gray btn-sm" style="margin-top:6px" onclick="clearBannerImg()">이미지 제거</button>
+            </div>
+          </div>
+          <div style="display:flex;gap:8px;margin-top:8px">
+            <button class="btn btn-gray" style="flex:1" onclick="closeBnModal()">취소</button>
+            <button class="btn btn-green" style="flex:2" id="bn-modal-submit" onclick="bannerSubmit()">✅ 등록하기</button>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -449,10 +457,14 @@ async function loadAreaData(){
 }
 
 // ===== 배너 지역 선택 =====
+const BANNER_MAX = 6;
+let bnCurrentArea = null; // {sido, sigungu, emd}
+
 function bnSidoChange(){
   var v=gv('bn-sido');
   ge('bn-sigungu').innerHTML='<option value="">시군구</option>';
   ge('bn-emd').innerHTML='<option value="">읍면동</option>';
+  ge('bn-area-result').style.display='none';
   if(!v)return;
   var list=(areaData.sigunguMap[v]||[]).sort();
   ge('bn-sigungu').innerHTML='<option value="">시군구</option>'+list.map(function(s){return '<option>'+s+'</option>';}).join('');
@@ -460,21 +472,20 @@ function bnSidoChange(){
 function bnSigunguChange(){
   var sido=gv('bn-sido'),sg=gv('bn-sigungu');
   ge('bn-emd').innerHTML='<option value="">읍면동</option>';
+  ge('bn-area-result').style.display='none';
   if(!sg)return;
   var list=(areaData.emdMap[sido+'|'+sg]||[]).sort();
   ge('bn-emd').innerHTML='<option value="">읍면동</option>'+list.map(function(s){return '<option>'+s+'</option>';}).join('');
 }
-const BANNER_MAX = 6;
-
-async function bnSearchArea(){
+async function bnEmdChange(){
   var sido=gv('bn-sido'),sg=gv('bn-sigungu'),emd=gv('bn-emd');
-  if(!sido||!sg||!emd){toast('시도/시군구/읍면동 모두 선택하세요',true);return;}
   var res=ge('bn-area-result');
+  if(!emd){res.style.display='none';return;}
+  bnCurrentArea={sido:sido,sigungu:sg,emd:emd};
   res.style.display='block';
-  res.innerHTML='<span style="font-size:12px;color:#718096">조회 중...</span>';
+  res.innerHTML='<div style="font-size:12px;color:#718096;padding:8px 0">조회 중...</div>';
   try{
     var today=new Date().toISOString().split('T')[0];
-    // 해당 읍면동을 포함하는 활성 배너 전체 조회
     var rows=await fetch(SUPABASE_URL+'/rest/v1/banners?select=business_name,expires_at,active&active=eq.true',{headers:hdrs}).then(function(r){return r.json();});
     var matched=rows.filter(function(b){
       if(b.expires_at&&b.expires_at<today)return false;
@@ -482,47 +493,64 @@ async function bnSearchArea(){
     });
     var cnt=matched.length;
     var isFull=cnt>=BANNER_MAX;
-    var badgeColor=cnt===0?'#38a169':isFull?'#e53e3e':'#d69e2e';
-    var badgeText=cnt===0?'경쟁자 없음':isFull?'마감 ('+cnt+'/'+BANNER_MAX+')':'경쟁자 '+cnt+'명 ('+cnt+'/'+BANNER_MAX+')';
-    var html='<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">'
-      +'<span style="font-size:12px;font-weight:600;color:#e2e8f0">'+sido+' '+sg+' '+emd+'</span>'
-      +'<span style="font-size:11px;font-weight:700;color:'+badgeColor+'">'+badgeText+'</span>'
+    var slotColor=cnt===0?'#38a169':isFull?'#e53e3e':'#d69e2e';
+    var html='<div style="background:#1a202c;border-radius:10px;padding:14px 16px;border:1px solid #2d3748">'
+      +'<div style="display:flex;justify-content:space-between;align-items:center">'
+        +'<span style="font-size:13px;font-weight:700;color:#e2e8f0">'+sido+' '+sg+' '+emd+'</span>'
+        +(isFull
+          ?'<span style="font-size:12px;font-weight:700;color:#fc8181">마감 ('+cnt+'/'+BANNER_MAX+')</span>'
+          :'<button onclick="openBnModal()" class="btn btn-green btn-sm">+ 가입자 추가</button>')
       +'</div>';
     if(cnt===0){
-      html+='<div style="font-size:12px;color:#718096;padding:6px 0">이 지역에 등록된 배너가 없습니다.</div>';
+      html+='<div style="font-size:12px;color:#718096;margin-top:10px;padding:8px 0;text-align:center">가입자 없음</div>';
     }else{
-      html+='<div style="display:flex;flex-wrap:wrap;gap:6px">'
+      html+='<div style="margin-top:10px;display:flex;flex-direction:column;gap:6px">'
         +matched.map(function(b){
-          return '<span style="background:#2d3748;border-radius:6px;padding:3px 10px;font-size:11px;color:#e2e8f0">'
-            +b.business_name
-            +(b.expires_at?'<span style="color:#718096;margin-left:4px">~'+b.expires_at+'</span>':'')
-            +'</span>';
-        }).join('')+'</div>';
+          return '<div style="display:flex;justify-content:space-between;align-items:center;background:#2d3748;border-radius:6px;padding:6px 10px">'
+            +'<span style="font-size:12px;color:#e2e8f0;font-weight:600">'+b.business_name+'</span>'
+            +(b.expires_at?'<span style="font-size:11px;color:#718096">~'+b.expires_at+'</span>':'<span style="font-size:11px;color:#48bb78">무제한</span>')
+            +'</div>';
+        }).join('')
+      +'</div>';
+      if(!isFull){
+        html+='<button onclick="openBnModal()" class="btn btn-green btn-sm" style="margin-top:10px;width:100%">+ 가입자 추가 ('+cnt+'/'+BANNER_MAX+')</button>';
+      }
     }
-    if(!isFull){
-      html+='<button class="btn btn-green btn-sm" style="margin-top:10px" onclick="addBannerArea()">+ 이 지역 추가</button>';
-    }else{
-      html+='<div style="font-size:11px;color:#fc8181;margin-top:8px">이 지역은 배너가 모두 찼습니다.</div>';
-    }
+    html+='</div>';
     res.innerHTML=html;
   }catch(e){res.innerHTML='<span style="color:#fc8181;font-size:12px">조회 실패</span>';}
 }
 
-function addBannerArea(){
-  var sido=gv('bn-sido'),sg=gv('bn-sigungu'),emd=gv('bn-emd');
-  if(!sido||!sg||!emd){toast('시도/시군구/읍면동 모두 선택하세요',true);return;}
-  var key=sido+' '+sg+' '+emd;
-  if(bannerAreas.find(function(a){return a.key===key;})){toast('이미 추가된 지역입니다',true);return;}
-  bannerAreas.push({sido:sido,sigungu:sg,emd:emd,key:key});
-  renderBannerAreas();
-  ge('bn-area-result').style.display='none';
-  toast('지역 추가됨');
+// ===== 배너 모달 =====
+function openBnModal(editId){
+  bannerEditId=editId||null;
+  ge('bn-modal-title').textContent=editId?'배너 수정':'배너 등록';
+  ge('bn-modal-submit').textContent=editId?'✅ 수정하기':'✅ 등록하기';
+  if(!editId){
+    // 신규: 현재 선택된 지역 표시, 폼 초기화
+    ge('bn-modal-area-badge').textContent=bnCurrentArea?bnCurrentArea.sido+' '+bnCurrentArea.sigungu+' '+bnCurrentArea.emd:'지역 미선택';
+    ['bn-name','bn-phone','bn-expires'].forEach(function(id){ge(id).value='';});
+    ge('bn-category-sel').value='';
+    ge('bn-category-direct').style.display='none';ge('bn-category-direct').value='';
+    bannerImg=null;ge('bn-img-text').style.display='';ge('bn-img-wrap').style.display='none';
+    ge('bn-img-file').value='';
+    bannerAreas=bnCurrentArea?[bnCurrentArea]:[];
+  }
+  ge('bn-modal').style.display='flex';
 }
-function removeBannerArea(i){bannerAreas.splice(i,1);renderBannerAreas();}
-function renderBannerAreas(){
-  ge('bn-areas').innerHTML=bannerAreas.map(function(a,i){
-    return '<span class="area-chip">'+a.key+' <span class="x" onclick="removeBannerArea('+i+')">✕</span></span>';
-  }).join('')||'<span style="font-size:11px;color:#718096">지역을 추가하세요</span>';
+function closeBnModal(){
+  ge('bn-modal').style.display='none';
+  bannerEditId=null;
+}
+function bnCatSelChange(){
+  var v=ge('bn-category-sel').value;
+  ge('bn-category-direct').style.display=v==='__direct__'?'block':'none';
+  if(v!=='__direct__')ge('bn-category-direct').value='';
+}
+function getBnCategory(){
+  var v=ge('bn-category-sel').value;
+  if(v==='__direct__')return ge('bn-category-direct').value.trim();
+  return v;
 }
 
 // ===== 검색 =====
@@ -909,37 +937,49 @@ async function bizDelete(id,name){
 function renderBanners(data){
   var el=ge('banner-list');
   if(!data.length){el.innerHTML='<div style="text-align:center;padding:32px;color:#718096">등록된 배너가 없습니다</div>';return;}
-  el.innerHTML='<table><tr><th>배너</th><th>업체명</th><th>업종</th><th>대상 지역</th><th>만료일</th><th>상태</th><th>관리</th></tr>'+
+  el.innerHTML='<div style="display:flex;flex-direction:column;gap:16px;padding:4px 0">'+
     data.map(function(d){
-      var img=d.image?'<img src="'+d.image+'" style="width:120px;height:40px;object-fit:cover;border-radius:4px;border:1px solid #4a5568">':'<span style="color:#718096">없음</span>';
-      var areas=(d.areas||[]).map(function(a){return '<span class="area-chip" style="margin:1px">'+a.sido+' '+a.sigungu+' '+a.emd+'</span>';}).join('')||'-';
-      return '<tr><td>'+img+'</td><td style="font-weight:600">'+d.business_name+'</td><td>'+(d.category||'-')+'</td><td style="max-width:200px">'+areas+'</td><td>'+expLabel(d)+'</td><td>'+statusBadge(d)+'</td><td><div style="display:flex;gap:5px;flex-wrap:wrap"><button class="btn btn-blue btn-sm" onclick="bannerEdit(\''+d.id+'\')">수정</button><button class="btn btn-gray btn-sm" onclick="bannerToggle(\''+d.id+'\','+d.active+')">'+(d.active?'비활성':'활성')+'</button><button class="btn btn-red btn-sm" onclick="bannerDelete(\''+d.id+'\',\''+d.business_name+'\')">삭제</button></div></td></tr>';
-    }).join('')+'</table>';
+      var areas=(d.areas||[]).map(function(a){return '<span class="area-chip" style="margin:1px">'+a.sido+' '+a.sigungu+' '+a.emd+'</span>';}).join('')||'<span style="color:#718096;font-size:11px">지역 없음</span>';
+      var imgHtml=d.image
+        ?'<img src="'+d.image+'" style="width:100%;max-height:100px;object-fit:cover;border-radius:8px;border:1px solid #2d3748;margin-bottom:10px">'
+        :'<div style="width:100%;height:60px;background:#2d3748;border-radius:8px;display:flex;align-items:center;justify-content:center;color:#718096;font-size:12px;margin-bottom:10px">이미지 없음</div>';
+      return '<div style="background:#1a202c;border-radius:10px;padding:14px 16px;border:1px solid #2d3748">'
+        +imgHtml
+        +'<div style="display:grid;grid-template-columns:1fr 1fr 1fr auto;gap:8px;align-items:center;margin-bottom:8px">'
+          +'<div><div style="font-size:10px;color:#718096;margin-bottom:2px">업체명</div><div style="font-size:13px;font-weight:700;color:#e2e8f0">'+d.business_name+'</div></div>'
+          +'<div><div style="font-size:10px;color:#718096;margin-bottom:2px">업종</div><div style="font-size:12px;color:#a0aec0">'+(d.category||'-')+'</div></div>'
+          +'<div><div style="font-size:10px;color:#718096;margin-bottom:2px">만료일</div><div style="font-size:12px">'+expLabel(d)+'</div></div>'
+          +'<div>'+statusBadge(d)+'</div>'
+        +'</div>'
+        +'<div style="margin-bottom:8px"><div style="font-size:10px;color:#718096;margin-bottom:4px">대상 지역</div>'+areas+'</div>'
+        +'<div style="display:flex;gap:6px">'
+          +'<button class="btn btn-blue btn-sm" onclick="bannerEdit(\''+d.id+'\')">수정</button>'
+          +'<button class="btn btn-gray btn-sm" onclick="bannerToggle(\''+d.id+'\','+d.active+')">'+(d.active?'비활성':'활성')+'</button>'
+          +'<button class="btn btn-red btn-sm" onclick="bannerDelete(\''+d.id+'\',\''+d.business_name+'\')">삭제</button>'
+        +'</div>'
+      +'</div>';
+    }).join('')+'</div>';
 }
 function bannerCancel(){
-  bannerEditId=null;bannerImg=null;bannerAreas=[];clearBannerImg();renderBannerAreas();
-  ge('banner-form-title').textContent='➕ 배너 등록';
-  ge('banner-edit-badge').style.display='none';
-  ge('banner-submit').textContent='✅ 등록하기';ge('banner-submit').className='btn btn-green';
-  ge('banner-cancel-btn').style.display='none';
-  ge('banner-form-card').classList.remove('edit-mode');
-  ['bn-name','bn-phone','bn-expires'].forEach(function(id){ge(id).value='';});
-  ge('bn-category').selectedIndex=0;
+  closeBnModal();
+  bannerEditId=null;bannerImg=null;bannerAreas=[];clearBannerImg();
 }
 function bannerEdit(id){
   var d=allBanners.find(function(b){return b.id===id;});if(!d)return;
   bannerEditId=id;
-  ge('banner-form-card').scrollIntoView({behavior:'smooth'});
-  ge('banner-form-title').textContent='✏️ 배너 수정';
-  ge('banner-edit-badge').style.display='inline-block';
-  ge('banner-submit').textContent='💾 저장하기';ge('banner-submit').className='btn btn-blue';
-  ge('banner-cancel-btn').style.display='inline-block';
-  ge('banner-form-card').classList.add('edit-mode');
   ge('bn-name').value=d.business_name||'';ge('bn-phone').value=d.phone||'';
-  ge('bn-expires').value=d.expires_at||'';ge('bn-category').value=d.category||'';
+  ge('bn-expires').value=d.expires_at||'';
+  // 업종 설정
+  var catOpts=Array.from(ge('bn-category-sel').options).map(function(o){return o.value;});
+  if(catOpts.includes(d.category)){ge('bn-category-sel').value=d.category;ge('bn-category-direct').style.display='none';}
+  else if(d.category){ge('bn-category-sel').value='__direct__';ge('bn-category-direct').style.display='block';ge('bn-category-direct').value=d.category;}
   if(d.image){bannerImg=d.image;ge('bn-img-preview').src=d.image;ge('bn-img-text').style.display='none';ge('bn-img-wrap').style.display='block';}
-  bannerAreas=(d.areas||[]).map(function(a){return {sido:a.sido,sigungu:a.sigungu,emd:a.emd,key:a.sido+' '+a.sigungu+' '+a.emd};});
-  renderBannerAreas();
+  bannerAreas=(d.areas||[]).map(function(a){return {sido:a.sido,sigungu:a.sigungu,emd:a.emd};});
+  var areaLabel=(d.areas&&d.areas.length)?d.areas.map(function(a){return a.sido+' '+a.sigungu+' '+a.emd;}).join(', '):'지역 없음';
+  ge('bn-modal-area-badge').textContent=areaLabel;
+  ge('bn-modal-title').textContent='배너 수정';
+  ge('bn-modal-submit').textContent='💾 저장하기';
+  ge('bn-modal').style.display='flex';
 }
 async function bannerSubmit(){
   var name=gv('bn-name');if(!name){toast('업체명을 입력하세요',true);return;}
@@ -960,7 +1000,7 @@ async function bannerSubmit(){
     }
   }catch(e){}
   var areas=bannerAreas.map(function(a){return {sido:a.sido,sigungu:a.sigungu,emd:a.emd};});
-  var body={business_name:name,category:gv('bn-category'),phone:gv('bn-phone'),image:bannerImg,areas:areas,expires_at:gv('bn-expires')||null,active:true};
+  var body={business_name:name,category:getBnCategory(),phone:gv('bn-phone'),image:bannerImg,areas:areas,expires_at:gv('bn-expires')||null,active:true};
   if(bannerEditId){
     var r=await fetch(SUPABASE_URL+'/rest/v1/banners?id=eq.'+bannerEditId,{method:'PATCH',headers:hdrs,body:JSON.stringify(body)});
     if(r.ok){toast('수정 완료!');bannerCancel();loadBanners();}else toast('실패',true);
