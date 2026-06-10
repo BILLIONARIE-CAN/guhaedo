@@ -313,6 +313,8 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
 /* 토스트 */
 .toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:#1a1a1a;color:#fff;padding:10px 20px;border-radius:20px;font-size:13px;z-index:999;opacity:0;transition:opacity .3s;pointer-events:none}
 .toast.show{opacity:1}
+#trade-year-from::-webkit-slider-thumb,#trade-year-to::-webkit-slider-thumb{-webkit-appearance:none;pointer-events:all;width:16px;height:16px;border-radius:50%;background:var(--green);border:2.5px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,0.25);cursor:pointer}
+#trade-year-from::-moz-range-thumb,#trade-year-to::-moz-range-thumb{pointer-events:all;width:13px;height:13px;border-radius:50%;background:var(--green);border:2.5px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,0.25);cursor:pointer}
 </style>
 <script src="https://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
 </head>
@@ -443,16 +445,26 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
             <div style="position:relative;height:240px">
               <canvas id="trade-chart" role="img" aria-label="실거래가 차트"></canvas>
             </div>
-            <!-- 기간 슬라이더 -->
-            <div style="margin:10px 0 6px;padding:0 2px">
-              <div style="display:flex;align-items:center;gap:8px">
-                <span style="font-size:10px;color:var(--text3);white-space:nowrap">2006</span>
-                <input type="range" id="trade-year-slider" min="2006" max="2024" step="1" value="2024"
-                  style="flex:1;accent-color:var(--green);cursor:pointer;height:4px"
-                  oninput="onTradeYearSliderInput(this.value)"
-                  onchange="onTradeYearSliderChange(this.value)">
-                <span style="font-size:10px;color:var(--text3);white-space:nowrap">현재</span>
-                <span id="trade-range-label" style="font-size:11px;color:var(--green);font-weight:700;white-space:nowrap;min-width:54px;text-align:right">최근 2년</span>
+            <!-- 기간 듀얼 슬라이더 -->
+            <div style="margin:10px 0 4px">
+              <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:5px">
+                <span id="trade-from-label" style="font-size:11px;color:var(--green);font-weight:700">2024년~</span>
+                <span id="trade-period-label" style="font-size:10px;color:var(--text3)">2년</span>
+                <span id="trade-to-label" style="font-size:11px;color:var(--text3)">현재</span>
+              </div>
+              <div style="position:relative;height:20px">
+                <div style="position:absolute;left:0;right:0;top:50%;transform:translateY(-50%);height:4px;background:var(--border);border-radius:2px">
+                  <div id="range-fill" style="position:absolute;height:100%;background:var(--green);border-radius:2px;left:0;width:100%"></div>
+                </div>
+                <input type="range" id="trade-year-from" min="2006" max="2025" step="1" value="2024"
+                  oninput="onDualRangeInput()" onchange="onDualRangeChange()"
+                  style="position:absolute;width:100%;top:50%;transform:translateY(-50%);background:none;outline:none;pointer-events:none;-webkit-appearance:none;appearance:none;height:4px;margin:0;padding:0">
+                <input type="range" id="trade-year-to" min="2006" max="2025" step="1" value="2025"
+                  oninput="onDualRangeInput()" onchange="onDualRangeChange()"
+                  style="position:absolute;width:100%;top:50%;transform:translateY(-50%);background:none;outline:none;pointer-events:none;-webkit-appearance:none;appearance:none;height:4px;margin:0;padding:0">
+              </div>
+              <div style="display:flex;justify-content:space-between;font-size:9px;color:var(--text3);margin-top:3px">
+                <span>2006</span><span>2010</span><span>2015</span><span>2020</span><span>현재</span>
               </div>
             </div>
             <div style="display:flex;gap:4px;margin-top:0px;padding-bottom:6px;border-bottom:1px solid var(--border)">
@@ -3254,16 +3266,20 @@ function submitSellModal(){const name=gv('m-name'),tel=gv('m-tel'),complex=gv('m
 // ===== 실거래가 차트 =====
 var tradeChart=null,tradeRawData=null,curTradeTab='buy',tradeTablePage=1,curTableTab='all';
 var tradeCurrentCode=null,tradeCurrentJibun=null;
-var tradeStartYear=new Date().getFullYear()-2;
-function buildTradeMonths(sy){
-  var arr=[],now=new Date(),d=new Date(sy,0,1);
-  while(d.getFullYear()<now.getFullYear()||(d.getFullYear()===now.getFullYear()&&d.getMonth()<=now.getMonth())){
+var tradeStartYear=new Date().getFullYear()-2,tradeEndYear=new Date().getFullYear();
+function buildTradeMonths(sy,ey){
+  var arr=[],now=new Date();
+  ey=ey===undefined?now.getFullYear():ey;
+  var endY=Math.min(ey,now.getFullYear());
+  var endM=endY<now.getFullYear()?11:now.getMonth();
+  var d=new Date(sy,0,1);
+  while(d.getFullYear()<endY||(d.getFullYear()===endY&&d.getMonth()<=endM)){
     arr.push(d.getFullYear()+'.'+(d.getMonth()+1<10?'0':'')+(d.getMonth()+1));
     d.setMonth(d.getMonth()+1);
   }
   return arr;
 }
-var TRADE_MONTHS=buildTradeMonths(tradeStartYear);
+var TRADE_MONTHS=buildTradeMonths(tradeStartYear,tradeEndYear);
 
 function fmtP(p){
   if(p>=10000)return (p/10000).toFixed(1)+'억';
@@ -3475,19 +3491,32 @@ function showTableTab(tab){
   renderTradeTable();
 }
 
-function onTradeYearSliderInput(val){
-  var yr=parseInt(val);
+function updateDualRangeUI(){
+  var fe=ge('trade-year-from'),te=ge('trade-year-to');
+  if(!fe||!te)return;
+  var from=parseInt(fe.value),to=parseInt(te.value);
+  var min=parseInt(fe.min),max=parseInt(te.max);
+  var fill=ge('range-fill');
+  if(fill){fill.style.left=((from-min)/(max-min)*100)+'%';fill.style.width=((to-from)/(max-min)*100)+'%';}
   var now=new Date();
-  var el=ge('trade-range-label');if(!el)return;
-  var diff=now.getFullYear()-yr;
-  if(diff<=0)el.textContent='최근 1년';
-  else if(diff===1)el.textContent='최근 1년';
-  else if(diff===2)el.textContent='최근 2년';
-  else el.textContent=yr+'년~';
+  var fl=ge('trade-from-label'),tl=ge('trade-to-label'),pl=ge('trade-period-label');
+  if(fl)fl.textContent=from+'년~';
+  if(tl)tl.textContent=to>=now.getFullYear()?'현재':to+'년';
+  if(pl)pl.textContent=(to>=now.getFullYear()?now.getFullYear():to)-from+'년';
 }
-function onTradeYearSliderChange(val){
-  tradeStartYear=parseInt(val);
-  TRADE_MONTHS=buildTradeMonths(tradeStartYear);
+function onDualRangeInput(){
+  var fe=ge('trade-year-from'),te=ge('trade-year-to');
+  if(!fe||!te)return;
+  var from=parseInt(fe.value),to=parseInt(te.value);
+  if(from>=to){fe.value=to-1;}
+  if(to<=from){te.value=from+1;}
+  updateDualRangeUI();
+}
+function onDualRangeChange(){
+  var from=parseInt(ge('trade-year-from').value);
+  var to=parseInt(ge('trade-year-to').value);
+  tradeStartYear=from;tradeEndYear=to;
+  TRADE_MONTHS=buildTradeMonths(from,to);
   tradeTablePage=1;
   if(tradeCurrentCode)loadTradeChart(tradeCurrentCode,tradeCurrentJibun);
 }
@@ -3597,13 +3626,15 @@ window.onload=function(){
   ge('calc-fields').innerHTML=calcFields(0);
   setTimeout(()=>commUpdate(),50);
   setTimeout(()=>initMap(),500);
-  // 슬라이더 max/value 동적 설정
-  var sl=ge('trade-year-slider');
-  if(sl){
-    var now=new Date();
-    sl.max=now.getFullYear()-1;
-    sl.value=now.getFullYear()-2;
-    onTradeYearSliderInput(sl.value);
+  // 듀얼 슬라이더 초기화
+  var now2=new Date();
+  var fe=ge('trade-year-from'),te=ge('trade-year-to');
+  if(fe&&te){
+    fe.min='2006';fe.max=String(now2.getFullYear());
+    te.min='2006';te.max=String(now2.getFullYear());
+    fe.value=String(now2.getFullYear()-2);
+    te.value=String(now2.getFullYear());
+    updateDualRangeUI();
   }
 };
 </script>
