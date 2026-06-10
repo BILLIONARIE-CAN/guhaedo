@@ -119,20 +119,33 @@ export default async function handler(req, res) {
   }
   function parsePrice(s) { return parseInt(String(s || '0').replace(/[^0-9]/g, '')) || 0; }
 
-  const aptJibun = (req.query.jibun || '').replace(/[^0-9]/g, '');
+  // 준공년도 (프론트에서 전달 → 건축년도 크로스체크용)
+  const builtYear = parseInt(req.query.builtYear || '0') || 0;
 
   function nameMatch(nm) {
     if (!nm) return false;
-    // 공백·괄호 제거 후 완전 일치만 허용
-    const normalize = s => s.trim().replace(/[\s()（）·\-]/g, '');
+    // 공백·괄호·특수문자 제거 후 완전 일치
+    const normalize = s => s.trim().replace(/[\s()（）·\-·\/]/g, '').replace(/[A-Za-z]/g, s => s.toUpperCase());
     const n = normalize(nm);
     const an = normalize(aptName);
-    return n === an;
+    if (n === an) return true;
+    // K-apt명 vs 국토부명 차이 허용: 한쪽이 다른쪽의 접두어인 경우 (단지번호 suffix만 다를 때)
+    // 예: "래미안동탄" === "래미안동탄1단지".substring(0, 6) 는 허용 안 함
+    // → 완전 일치만 허용 (위에서 끝)
+    return false;
+  }
+
+  // 건축년도 일치 여부 (builtYear 있을 때만)
+  function buildYearMatch(x) {
+    if (!builtYear) return true;
+    const by = parseInt(x.buildYear || '0');
+    if (!by) return true; // buildYear 필드 없으면 통과
+    // 준공년도 ±1년 범위만 허용 (예: 2026년 준공 → 2025~2027만 허용)
+    return by >= builtYear - 1 && by <= builtYear + 1;
   }
 
   function aptMatch(x) {
-    // 이름 완전 일치만 사용 (jibun 매칭 제거 - 구 단지 오염 방지)
-    return nameMatch(x.aptNm);
+    return nameMatch(x.aptNm) && buildYearMatch(x);
   }
 
   const buyBase  = 'https://apis.data.go.kr/1613000/RTMSDataSvcAptTrade/getRTMSDataSvcAptTrade';

@@ -3377,7 +3377,7 @@ function submitSellModal(){const name=gv('m-name'),tel=gv('m-tel'),complex=gv('m
 
 // ===== 실거래가 차트 =====
 var tradeChart=null,tradeRawData=null,curTradeTab='buy',tradeTablePage=1,curTableTab='all';
-var tradeCurrentCode=null,tradeCurrentJibun=null;
+var tradeCurrentCode=null,tradeCurrentJibun=null,tradeCurrentBuiltYear=0;
 var tradeStartYear=new Date().getFullYear()-2,tradeEndYear=new Date().getFullYear();
 function buildTradeMonths(sy,ey){
   var arr=[],now=new Date();
@@ -3698,12 +3698,14 @@ function onDualRangeChange(){
   tradeStartYear=from;tradeEndYear=to;
   TRADE_MONTHS=buildTradeMonths(from,to);
   tradeTablePage=1;
-  if(tradeCurrentCode)loadTradeChart(tradeCurrentCode,tradeCurrentJibun);
+  if(tradeCurrentCode)loadTradeChart(tradeCurrentCode,tradeCurrentJibun,tradeCurrentBuiltYear);
 }
 
 function loadTradeChart(code, aptJibun, builtYear){
   if(!code)return;
   tradeCurrentCode=code;tradeCurrentJibun=aptJibun||'';
+  if(builtYear)tradeCurrentBuiltYear=builtYear; // 연도 필터 재로드 시 유지
+  builtYear=builtYear||tradeCurrentBuiltYear;
   var tradeMinYear=builtYear>2000?builtYear-2:0; // 준공 2년 전부터만 허용
   tradeRawData=null;curTradeTab='buy';tradeTablePage=1;curTableTab='all';
   // 테이블 탭 버튼 초기화
@@ -3787,15 +3789,16 @@ function loadTradeChart(code, aptJibun, builtYear){
   }
 
   var jibunParam=aptJibun?'&jibun='+encodeURIComponent(aptJibun):'';
+  var builtParam=builtYear?'&builtYear='+builtYear:'';
 
   // 1번째 월 먼저 (V4 API 포함 → lawdCd/aptName 획득)
-  fetch('/api/trade?code='+code+'&ym='+ymList[0]+jibunParam)
+  fetch('/api/trade?code='+code+'&ym='+ymList[0]+jibunParam+builtParam)
     .then(function(r){return r.ok?r.json():null;})
     .then(function(d){
       onBatch(d);
       // 나머지 23개월: lawdCd/aptName 재사용 → V4 스킵
       ymList.slice(1).forEach(function(ym){
-        var params='?code='+code+'&ym='+ym+jibunParam;
+        var params='?code='+code+'&ym='+ym+jibunParam+builtParam;
         if(resolvedLawdCd)params+='&lawdCd='+resolvedLawdCd;
         if(resolvedAptName)params+='&aptName='+encodeURIComponent(resolvedAptName);
         fetch('/api/trade'+params)
