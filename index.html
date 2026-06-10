@@ -1409,7 +1409,7 @@ async function loadAptData(sigunguName){
       if(!d.lat||!d.lng)return;
       const fullAddr=[d.sido,d.sigungu,d.emd].filter(Boolean).join(' ');
       const unitsCnt=d.units>0?d.units:(d.hhldCnt>0?d.hhldCnt:0);
-      MAP_DATA.push({id:'apt_'+(aptIdCounter++),type:'apt',name:d.name||'',addr:d.addr||fullAddr,built:d.built||'',dongCnt:d.dongCnt||'',heat:d.heat||'',saleType:d.sale||'',topFloor:d.topFloor||'',units:unitsCnt>0?unitsCnt+'세대':'',emd:d.emd||'',code:d.code||'',sale:'',jeonse:'',monthly:'',lat:d.lat,lng:d.lng,sido:d.sido||'',sigungu:d.sigungu||'',jibunAddr:d.jibunAddr||'',builder:d.builder||'',entrance:d.entrance||'',aptType:d.aptType||'',mgrType:d.mgrType||'',totalPark:d.totalPark||0,areaBreak:d.areaBreak||null,useArea:d.useArea||''});
+      MAP_DATA.push({id:'apt_'+(aptIdCounter++),type:'apt',name:d.name||'',addr:d.addr||fullAddr,built:d.built||'',dongCnt:d.dongCnt||'',heat:d.heat||'',saleType:d.sale||'',topFloor:d.topFloor||'',units:unitsCnt>0?unitsCnt+'세대':'',emd:d.emd||'',code:d.code||'',sale:'',jeonse:'',monthly:'',lat:d.lat,lng:d.lng,sido:d.sido||'',sigungu:d.sigungu||'',sigunguCode:d.sigunguCode||'',jibunAddr:d.jibunAddr||'',builder:d.builder||'',entrance:d.entrance||'',aptType:d.aptType||'',mgrType:d.mgrType||'',totalPark:d.totalPark||0,areaBreak:d.areaBreak||null,useArea:d.useArea||''});
     });
     renderVisibleMarkers('apt');
   }catch(e){}
