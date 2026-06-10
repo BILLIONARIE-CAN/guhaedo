@@ -443,7 +443,19 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
             <div style="position:relative;height:240px">
               <canvas id="trade-chart" role="img" aria-label="실거래가 차트"></canvas>
             </div>
-            <div style="display:flex;gap:4px;margin-top:10px;padding-bottom:6px;border-bottom:1px solid var(--border)">
+            <!-- 기간 슬라이더 -->
+            <div style="margin:10px 0 6px;padding:0 2px">
+              <div style="display:flex;align-items:center;gap:8px">
+                <span style="font-size:10px;color:var(--text3);white-space:nowrap">2006</span>
+                <input type="range" id="trade-year-slider" min="2006" max="2024" step="1" value="2024"
+                  style="flex:1;accent-color:var(--green);cursor:pointer;height:4px"
+                  oninput="onTradeYearSliderInput(this.value)"
+                  onchange="onTradeYearSliderChange(this.value)">
+                <span style="font-size:10px;color:var(--text3);white-space:nowrap">현재</span>
+                <span id="trade-range-label" style="font-size:11px;color:var(--green);font-weight:700;white-space:nowrap;min-width:54px;text-align:right">최근 2년</span>
+              </div>
+            </div>
+            <div style="display:flex;gap:4px;margin-top:0px;padding-bottom:6px;border-bottom:1px solid var(--border)">
               <button id="ttab-all"   onclick="showTableTab('all')"     style="flex:1;padding:3px 0;font-size:11px;border:1px solid var(--border);border-radius:3px;cursor:pointer;background:var(--green);color:#fff;font-weight:700">전체</button>
               <button id="ttab-buy"   onclick="showTableTab('buy')"     style="flex:1;padding:3px 0;font-size:11px;border:1px solid var(--border);border-radius:3px;cursor:pointer;background:var(--bg);color:var(--text2)">매매</button>
               <button id="ttab-jeonse" onclick="showTableTab('jeonse')" style="flex:1;padding:3px 0;font-size:11px;border:1px solid var(--border);border-radius:3px;cursor:pointer;background:var(--bg);color:var(--text2)">전세</button>
@@ -3241,11 +3253,17 @@ function submitSellModal(){const name=gv('m-name'),tel=gv('m-tel'),complex=gv('m
 
 // ===== 실거래가 차트 =====
 var tradeChart=null,tradeRawData=null,curTradeTab='buy',tradeTablePage=1,curTableTab='all';
-var TRADE_MONTHS=(function(){
-  var arr=[],now=new Date();
-  for(var i=23;i>=0;i--){var d=new Date(now.getFullYear(),now.getMonth()-i,1);arr.push(d.getFullYear()+'.'+(d.getMonth()+1<10?'0':'')+(d.getMonth()+1));}
+var tradeCurrentCode=null,tradeCurrentJibun=null;
+var tradeStartYear=new Date().getFullYear()-2;
+function buildTradeMonths(sy){
+  var arr=[],now=new Date(),d=new Date(sy,0,1);
+  while(d.getFullYear()<now.getFullYear()||(d.getFullYear()===now.getFullYear()&&d.getMonth()<=now.getMonth())){
+    arr.push(d.getFullYear()+'.'+(d.getMonth()+1<10?'0':'')+(d.getMonth()+1));
+    d.setMonth(d.getMonth()+1);
+  }
   return arr;
-})();
+}
+var TRADE_MONTHS=buildTradeMonths(tradeStartYear);
 
 function fmtP(p){
   if(p>=10000)return (p/10000).toFixed(1)+'억';
@@ -3364,7 +3382,7 @@ function renderTradeChart(){
         }}
       },
       scales:{
-        x:{type:'linear',min:-0.5,max:23.5,ticks:{stepSize:1,callback:function(v){var i=Math.round(v);return(i>=0&&i<24&&i%6===0)?TRADE_MONTHS[i]:'';},maxRotation:0,font:{size:10},autoSkip:false},grid:{color:'rgba(0,0,0,0.04)'}},
+        x:{type:'linear',min:-0.5,max:TRADE_MONTHS.length-0.5,ticks:{stepSize:1,callback:function(v){var i=Math.round(v);var n=TRADE_MONTHS.length;var step=n<=36?6:n<=72?12:n<=144?24:36;return(i>=0&&i<n&&i%step===0)?TRADE_MONTHS[i]:'';},maxRotation:0,font:{size:10},autoSkip:false},grid:{color:'rgba(0,0,0,0.04)'}},
         y:{position:'left',ticks:{callback:function(v){return fmtP(v);},font:{size:10}},grid:{color:'rgba(0,0,0,0.04)'}},
         yc:{position:'right',ticks:{font:{size:9},color:'#bbb',maxTicksLimit:4},grid:{display:false}}
       }
@@ -3457,8 +3475,26 @@ function showTableTab(tab){
   renderTradeTable();
 }
 
+function onTradeYearSliderInput(val){
+  var yr=parseInt(val);
+  var now=new Date();
+  var el=ge('trade-range-label');if(!el)return;
+  var diff=now.getFullYear()-yr;
+  if(diff<=0)el.textContent='최근 1년';
+  else if(diff===1)el.textContent='최근 1년';
+  else if(diff===2)el.textContent='최근 2년';
+  else el.textContent=yr+'년~';
+}
+function onTradeYearSliderChange(val){
+  tradeStartYear=parseInt(val);
+  TRADE_MONTHS=buildTradeMonths(tradeStartYear);
+  tradeTablePage=1;
+  if(tradeCurrentCode)loadTradeChart(tradeCurrentCode,tradeCurrentJibun);
+}
+
 function loadTradeChart(code, aptJibun){
   if(!code)return;
+  tradeCurrentCode=code;tradeCurrentJibun=aptJibun||'';
   tradeRawData=null;curTradeTab='buy';tradeTablePage=1;curTableTab='all';
   // 테이블 탭 버튼 초기화
   ['all','buy','jeonse','monthly'].forEach(function(t){var el=ge('ttab-'+t);if(!el)return;var act=t==='all';el.style.background=act?'var(--green)':'var(--bg)';el.style.color=act?'#fff':'var(--text2)';el.style.fontWeight=act?'700':'400';el.style.borderColor=act?'var(--green)':'var(--border)';});
@@ -3472,13 +3508,8 @@ function loadTradeChart(code, aptJibun){
   var sel=ge('trade-area-sel');if(sel)sel.innerHTML='<option value="">전체 면적</option>';
   ['buy','jeonse','monthly'].forEach(function(t){var el=ge('tab-'+t);if(el)el.classList.toggle('active',t==='buy');});
 
-  // 24개월 YM 목록 생성
-  var ymList=[];
-  var now=new Date();
-  for(var i=0;i<24;i++){
-    var dd=new Date(now.getFullYear(),now.getMonth()-i,1);
-    ymList.push(dd.getFullYear()+String(dd.getMonth()+1).padStart(2,'0'));
-  }
+  // TRADE_MONTHS 기반 YM 목록 (최신월 먼저 → V4 lawdCd 먼저 획득)
+  var ymList=TRADE_MONTHS.slice().reverse().map(function(m){return m.replace('.','');});
   var TOTAL=ymList.length;
   var completed=0;
   var accum={buy:[],jeonse:[],monthly:[]};
@@ -3566,6 +3597,14 @@ window.onload=function(){
   ge('calc-fields').innerHTML=calcFields(0);
   setTimeout(()=>commUpdate(),50);
   setTimeout(()=>initMap(),500);
+  // 슬라이더 max/value 동적 설정
+  var sl=ge('trade-year-slider');
+  if(sl){
+    var now=new Date();
+    sl.max=now.getFullYear()-1;
+    sl.value=now.getFullYear()-2;
+    onTradeYearSliderInput(sl.value);
+  }
 };
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
