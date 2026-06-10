@@ -1,4 +1,4 @@
-// 실거래가 조회 - /api/trade?code=KAPT_CODE
+// 실거래가 조회 - /api/trade?code=KAPT_CODE (매칭 v2: 주소 우선)
 // 단일 월 스트리밍: ?code=XXX&ym=YYYYMM
 // Supabase 캐시: 2개월 이상 지난 월은 영구, 최근 2개월은 24h TTL
 
@@ -20,6 +20,13 @@ async function getCached(code, ym) {
     const rows = await r.json();
     if (!Array.isArray(rows) || !rows[0]) return null;
     const row = rows[0];
+    // 필터 로직 v2(주소 우선 매칭) 이전에 저장된 캐시는 전부 무효 (잘못된 0건 박제 방지)
+    if (new Date(row.fetched_at).getTime() < Date.parse('2026-06-10T09:40:00Z')) return null;
+    // apt_name 컬럼에 "단지명|법정동|지번" 패킹돼 있음 (구버전은 단지명만)
+    const packed = String(row.apt_name || '').split('|');
+    row.apt_name_clean = packed[0] || '';
+    row.legal_dong = packed[1] || '';
+    row.jibun_full = packed[2] || '';
     // 2개월 이상 지난 월: 영구 유효
     const ymDate = new Date(parseInt(ym.slice(0,4)), parseInt(ym.slice(4,6))-1, 1);
     const cutoff = new Date(); cutoff.setMonth(cutoff.getMonth()-2);
@@ -60,11 +67,13 @@ export default async function handler(req, res) {
     const cached = await getCached(code, ym);
     if (cached) {
       return res.status(200).json({
-        aptName: cached.apt_name || '',
-        lawdCd:  cached.lawd_cd  || '',
-        buy:     cached.buy      || [],
-        jeonse:  cached.jeonse   || [],
-        monthly: cached.monthly  || [],
+        aptName:   cached.apt_name_clean || '',
+        lawdCd:    cached.lawd_cd  || '',
+        legalDong: cached.legal_dong || '',
+        jibunFull: cached.jibun_full || '',
+        buy:       cached.buy      || [],
+        jeonse:    cached.jeonse   || [],
+        monthly:   cached.monthly  || [],
         fromCache: true
       });
     }
@@ -77,6 +86,7 @@ export default async function handler(req, res) {
   let aptName = req.query.aptName ? decodeURIComponent(req.query.aptName) : '';
   let aptLegalDong = req.query.legalDong ? decodeURIComponent(req.query.legalDong) : '';
   let aptJibunNum  = parseInt(req.query.jibunNum || '0') || 0;
+  let aptJibunFull = req.query.jibunFull ? decodeURIComponent(req.query.jibunFull) : '';
 
   if (!lawdCd || !aptName) {
     if (code.startsWith('DISC_')) {
@@ -99,21 +109,20 @@ export default async function handler(req, res) {
       lawdCd = bjdCode.substring(0, 5);
       if (lawdCd.length < 5) return res.status(400).json({ error: 'lawd_cd 없음' });
 
-      // 법정동명 + 지번 본번 추출 (kaptAddr: "충남 아산시 배방읍 용곡리 123-4")
+      // 법정동명 + 지번 추출 (kaptAddr: "충남 아산시 배방읍 장재리 123-4")
+      // 읍/면 아래 리까지 전부 수집 — 국토부 umdNm이 "배방읍"일 수도 "장재리"일 수도 있음
       const kaptAddr = (item.kaptAddr || '').trim();
       if (kaptAddr) {
         const parts = kaptAddr.replace(/\s+/g, ' ').split(' ');
-        // 마지막 토큰: 지번 ("123-4" → 본번 123)
-        const lastPart = parts[parts.length - 1] || '';
-        if (/^\d/.test(lastPart)) {
-          aptJibunNum = parseInt(lastPart.split('-')[0]) || 0;
-        }
-        // 시군구(시/군/구로 끝나는 토큰) 이후 첫 번째 동/읍/면/리 = 법정동명
         let passedGungu = false;
-        for (const p of parts.slice(0, -1)) {
+        const dongs = [];
+        for (const p of parts) {
+          if (/^산?\d+(-\d+)?(번지)?$/.test(p)) { aptJibunFull = p.replace(/번지$/, ''); break; }
           if (!passedGungu) { if (/[시군구]$/.test(p)) passedGungu = true; continue; }
-          if (/[동읍면리]$/.test(p)) { aptLegalDong = p; break; }
+          if (/[동읍면리가]$/.test(p)) dongs.push(p);
         }
+        if (dongs.length) aptLegalDong = dongs.join(' ');
+        if (aptJibunFull) aptJibunNum = parseInt(aptJibunFull.replace(/^산/, '').split('-')[0]) || 0;
       }
     }
   }
@@ -141,48 +150,63 @@ export default async function handler(req, res) {
   // 준공년도 (프론트에서 전달 → 건축년도 크로스체크용)
   const builtYear = parseInt(req.query.builtYear || '0') || 0;
 
+  // 지번 소스 우선순위: kaptAddr 파싱 > jibunFull 파라미터 > jibunNum 파라미터 > 핀 데이터(jibun)
+  if (!aptJibunFull && aptJibunNum) aptJibunFull = String(aptJibunNum);
+  if (!aptJibunFull && /^\d/.test(String(req.query.jibun || ''))) aptJibunFull = String(req.query.jibun).trim();
+
+  function parseJibun(s) {
+    const m = String(s || '').trim().match(/^산?(\d+)(?:-(\d+))?/);
+    return m ? { bon: parseInt(m[1]), bu: m[2] != null ? parseInt(m[2]) : null } : null;
+  }
+  const myJibun = parseJibun(aptJibunFull);
+  const myDongPart = aptLegalDong.replace(/\s/g, ''); // "배방읍장재리"
+
+  const normalize = s => String(s || '').trim().replace(/[\s()（）·\-\/]/g, '').toUpperCase().replace(/아파트$/, '');
+  const myName = normalize(aptName);
+
   function nameMatch(nm) {
-    if (!nm) return false;
-    // 공백·괄호·특수문자 제거 후 완전 일치
-    const normalize = s => s.trim().replace(/[\s()（）·\-·\/]/g, '').replace(/[A-Za-z]/g, s => s.toUpperCase());
     const n = normalize(nm);
-    const an = normalize(aptName);
-    if (n === an) return true;
-    // K-apt명 vs 국토부명 차이 허용: 한쪽이 다른쪽의 접두어인 경우 (단지번호 suffix만 다를 때)
-    // 예: "래미안동탄" === "래미안동탄1단지".substring(0, 6) 는 허용 안 함
-    // → 완전 일치만 허용 (위에서 끝)
-    return false;
+    return !!n && !!myName && n === myName;
   }
 
-  // 건축년도 일치 여부 (builtYear 있을 때만)
+  // 건축년도 ±1년 (필드 없으면 통과)
   function buildYearMatch(x) {
     if (!builtYear) return true;
     const by = parseInt(x.buildYear || '0');
-    if (!by) return true; // buildYear 필드 없으면 통과
-    // 준공년도 ±1년 범위만 허용 (예: 2026년 준공 → 2025~2027만 허용)
+    if (!by) return true;
     return by >= builtYear - 1 && by <= builtYear + 1;
   }
 
-  // 법정동명 일치 (umdNm 필드: "배방읍", "개포동" 등)
+  // 법정동: umdNm("배방읍"/"장재리"/"배방읍 장재리")이 주소 동·읍·면·리 부분과 겹치면 OK
   function dongMatch(x) {
-    if (!aptLegalDong) return true;
-    const xDong = (x.umdNm || '').trim().replace(/\s/g, '');
-    const myDong = aptLegalDong.replace(/\s/g, '');
-    if (!xDong) return true;
-    return xDong === myDong || xDong.includes(myDong) || myDong.includes(xDong);
+    if (!myDongPart) return true;
+    const xd = (x.umdNm || '').replace(/\s/g, '');
+    if (!xd) return true;
+    return myDongPart.includes(xd) || xd.includes(myDongPart);
   }
 
-  // 지번 본번 일치 (jibun 필드: "123" or "123-4")
-  function jibunMatch(x) {
-    if (!aptJibunNum) return true;
-    const xJibun = parseInt((x.jibun || '0').split('-')[0]) || 0;
-    if (!xJibun) return true;
-    return xJibun === aptJibunNum;
+  // ① 주소 일치 = 법정동 + 지번 본번 (부번은 양쪽 다 있을 때만 비교)
+  //    같은 동, 같은 필지면 같은 단지 → 단지명 표기가 달라도 매칭
+  function addrMatch(x) {
+    if (!myJibun || !myDongPart) return false;
+    const xj = parseJibun(x.jibun);
+    if (!xj || xj.bon !== myJibun.bon) return false;
+    if (myJibun.bu != null && xj.bu != null && xj.bu !== myJibun.bu) return false;
+    return dongMatch(x);
+  }
+
+  // ② 이름 매칭 경로용 지번 soft 체크 (정보 있으면 본번 일치해야)
+  function jibunSoft(x) {
+    if (!myJibun) return true;
+    const xj = parseJibun(x.jibun);
+    return !xj || xj.bon === myJibun.bon;
   }
 
   function aptMatch(x) {
-    if ((x.cdealType || '').trim()) return false; // 계약 해제된 거래 제외
-    return nameMatch(x.aptNm) && buildYearMatch(x) && dongMatch(x) && jibunMatch(x);
+    if ((x.cdealType || '').trim()) return false; // 계약 해제 제외
+    if (!buildYearMatch(x)) return false;
+    if (addrMatch(x)) return true;                // ① 주소 일치 → 단지명 무시
+    return nameMatch(x.aptNm) && dongMatch(x) && jibunSoft(x); // ② 이름 fallback
   }
 
   const buyBase  = 'https://apis.data.go.kr/1613000/RTMSDataSvcAptTrade/getRTMSDataSvcAptTrade';
@@ -219,8 +243,29 @@ export default async function handler(req, res) {
     m: parsePrice(x.monthlyRent), a: parseFloat(x.excluUseAr||0), f: String(x.floor||'').trim()
   }));
 
-  // 캐시 저장 (응답 블로킹 없음)
-  if (ym) setCached(code, ym, { buy, jeonse, monthly, lawdCd, aptName });
+  // 매칭 0건 진단: 같은 법정동에 국토부가 등록해둔 단지명 후보 반환
+  let candidates;
+  if (!buy.length && !jeonse.length && !monthly.length) {
+    const pool = [...buyRaw.flat(), ...rentRaw.flat()];
+    const inDong = pool.filter(x => dongMatch(x) && !(x.cdealType || '').trim());
+    const seen = new Set();
+    candidates = [];
+    for (const x of (inDong.length ? inDong : pool)) {
+      const nm = (x.aptNm || '').trim();
+      if (nm && !seen.has(nm)) {
+        seen.add(nm);
+        candidates.push(nm + (x.jibun ? '(' + String(x.jibun).trim() + ')' : ''));
+      }
+      if (candidates.length >= 8) break;
+    }
+  }
 
-  return res.status(200).json({ aptName, lawdCd, legalDong: aptLegalDong, jibunNum: aptJibunNum, buy, jeonse, monthly });
+  // 캐시 저장 (응답 블로킹 없음) — apt_name 컬럼에 법정동/지번 패킹
+  if (ym) setCached(code, ym, { buy, jeonse, monthly, lawdCd, aptName: [aptName, aptLegalDong, aptJibunFull].join('|') });
+
+  return res.status(200).json({
+    aptName, lawdCd, legalDong: aptLegalDong, jibunNum: aptJibunNum, jibunFull: aptJibunFull,
+    buy, jeonse, monthly,
+    ...(candidates && candidates.length ? { candidates } : {})
+  });
 }

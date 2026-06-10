@@ -458,6 +458,7 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
               <option value="">전체 면적</option>
             </select>
           </div>
+          <div id="trade-debug" style="font-size:10px;color:var(--text3);margin-bottom:4px;min-height:14px;word-break:break-all"></div>
           <div id="trade-summary" style="font-size:12px;color:var(--text2);margin-bottom:6px;min-height:16px"></div>
           <div id="trade-loading" style="text-align:center;padding:28px 0;color:var(--text3);font-size:12px">불러오는 중...</div>
           <div id="trade-progress" style="display:none;text-align:right;font-size:10px;color:var(--text3);padding:0 2px 2px"></div>
@@ -3732,7 +3733,8 @@ function loadTradeChart(code, aptJibun, builtYear){
   var TOTAL=ymList.length;
   var completed=0;
   var accum={buy:[],jeonse:[],monthly:[]};
-  var resolvedLawdCd='',resolvedAptName='',resolvedLegalDong='',resolvedJibunNum=0;
+  var resolvedLawdCd='',resolvedAptName='',resolvedLegalDong='',resolvedJibunNum=0,resolvedJibunFull='';
+  var candidateNames={};
   var activeCode=code; // 다른 아파트 선택 시 이전 fetch 무시
 
   function applyData(d){
@@ -3778,6 +3780,17 @@ function loadTradeChart(code, aptJibun, builtYear){
       if(batch.aptName)resolvedAptName=batch.aptName;
       if(batch.legalDong)resolvedLegalDong=batch.legalDong;
       if(batch.jibunNum)resolvedJibunNum=batch.jibunNum;
+      if(batch.jibunFull)resolvedJibunFull=batch.jibunFull;
+      (batch.candidates||[]).forEach(function(n){candidateNames[n]=1;});
+      if(completed===1){
+        var dbg=ge('trade-debug');
+        if(dbg)dbg.textContent='🔍 조회: '+[
+          resolvedAptName&&('단지명: '+resolvedAptName),
+          resolvedLawdCd&&('지역: '+resolvedLawdCd),
+          resolvedLegalDong&&('법정동: '+resolvedLegalDong),
+          (resolvedJibunFull||resolvedJibunNum)&&('지번: '+(resolvedJibunFull||resolvedJibunNum))
+        ].filter(Boolean).join(' | ');
+      }
       (batch.buy||[]).forEach(function(x){if(!tradeMinYear||parseInt((x.t||'').substring(0,4))>=tradeMinYear)accum.buy.push(x);});
       (batch.jeonse||[]).forEach(function(x){if(!tradeMinYear||parseInt((x.t||'').substring(0,4))>=tradeMinYear)accum.jeonse.push(x);});
       (batch.monthly||[]).forEach(function(x){if(!tradeMinYear||parseInt((x.t||'').substring(0,4))>=tradeMinYear)accum.monthly.push(x);});
@@ -3795,6 +3808,12 @@ function loadTradeChart(code, aptJibun, builtYear){
       applyData(accum);
     }else{
       if(empty)empty.style.display='block';
+      // 매칭 0건 → 국토부에 등록된 같은 동네 단지명 후보를 보여줘서 원인 즉시 확인
+      var cands=Object.keys(candidateNames).slice(0,8);
+      if(cands.length){
+        var dbg2=ge('trade-debug');
+        if(dbg2)dbg2.textContent+=' | ⚠️ 매칭 0건. 국토부 등록 단지명(지번): '+cands.join(', ');
+      }
     }
   }
 
@@ -3813,6 +3832,7 @@ function loadTradeChart(code, aptJibun, builtYear){
         if(resolvedAptName)params+='&aptName='+encodeURIComponent(resolvedAptName);
         if(resolvedLegalDong)params+='&legalDong='+encodeURIComponent(resolvedLegalDong);
         if(resolvedJibunNum)params+='&jibunNum='+resolvedJibunNum;
+        if(resolvedJibunFull)params+='&jibunFull='+encodeURIComponent(resolvedJibunFull);
         fetch('/api/trade'+params)
           .then(function(r){return r.ok?r.json():null;})
           .then(function(d){onBatch(d);})
