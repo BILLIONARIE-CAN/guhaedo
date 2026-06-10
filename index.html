@@ -3758,7 +3758,7 @@ function loadTradeChart(code, aptJibun, builtYear){
         var py=allAreas[sqm];
         var types=pyGroups[py];
         var suffix=types.length>1?String.fromCharCode(64+types.indexOf(sqm)+1):'';
-        opts+='<option value="'+sqm+'">전용 '+py+'평'+suffix+'</option>';
+        opts+='<option value="'+sqm+'">'+py+'평'+suffix+' ('+sqm+'㎡)</option>';
       });
       sel.innerHTML=opts;
       if(saved)sel.value=saved;
