@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="200" viewBox="0 0 900 200">
+  <rect width="900" height="200" fill="#285528"/>
+  <polygon points="720,0 900,0 900,200" fill="#b9ff8c" opacity="0.15"/>
+  <rect x="0" y="0" width="12" height="200" fill="#b9ff8c"/>
+  <rect x="620" y="25" width="3" height="150" fill="#b9ff8c" opacity="0.7"/>
+  <rect x="28" y="18" width="88" height="36" rx="8" fill="#b9ff8c"/>
+  <text x="40" y="42" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="20" font-weight="700" fill="#285528">도배장판</text>
+  <text x="28" y="105" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="46" font-weight="700" fill="white">도배 장판 전문점</text>
+  <text x="30" y="148" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="26" fill="#b9ff8c" opacity="0.9">합리적 가격 · 빠른 시공 · A/S 보장</text>
+  <text x="760" y="108" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="28" fill="white" text-anchor="middle">010-9999-0000</text>
+</svg>

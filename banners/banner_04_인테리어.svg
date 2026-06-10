@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="200" viewBox="0 0 900 200">
+  <rect width="900" height="200" fill="#372373"/>
+  <polygon points="720,0 900,0 900,200" fill="#d2bcff" opacity="0.15"/>
+  <rect x="0" y="0" width="12" height="200" fill="#d2bcff"/>
+  <rect x="620" y="25" width="3" height="150" fill="#d2bcff" opacity="0.7"/>
+  <rect x="28" y="18" width="88" height="36" rx="8" fill="#d2bcff"/>
+  <text x="40" y="42" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="20" font-weight="700" fill="#372373">인테리어</text>
+  <text x="28" y="105" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="46" font-weight="700" fill="white">인테리어 하우스</text>
+  <text x="30" y="148" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="26" fill="#d2bcff" opacity="0.9">리모델링 · 도배 · 장판 · 필름 시공</text>
+  <text x="760" y="108" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="28" fill="white" text-anchor="middle">010-5555-6666</text>
+</svg>

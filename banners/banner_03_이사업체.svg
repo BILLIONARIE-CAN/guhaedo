@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="200" viewBox="0 0 900 200">
+  <rect width="900" height="200" fill="#aa3214"/>
+  <polygon points="720,0 900,0 900,200" fill="#ffdc96" opacity="0.15"/>
+  <rect x="0" y="0" width="12" height="200" fill="#ffdc96"/>
+  <rect x="620" y="25" width="3" height="150" fill="#ffdc96" opacity="0.7"/>
+  <rect x="28" y="18" width="88" height="36" rx="8" fill="#ffdc96"/>
+  <text x="40" y="42" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="20" font-weight="700" fill="#aa3214">이사업체</text>
+  <text x="28" y="105" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="46" font-weight="700" fill="white">아산 으뜸이사</text>
+  <text x="30" y="148" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="26" fill="#ffdc96" opacity="0.9">포장이사 · 가정이사 · 사무실이사</text>
+  <text x="760" y="108" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="28" fill="white" text-anchor="middle">010-3333-4444</text>
+</svg>

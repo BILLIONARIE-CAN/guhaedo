@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="200" viewBox="0 0 900 200">
+  <rect width="900" height="200" fill="#5a0f4b"/>
+  <polygon points="720,0 900,0 900,200" fill="#ffafe1" opacity="0.15"/>
+  <rect x="0" y="0" width="12" height="200" fill="#ffafe1"/>
+  <rect x="620" y="25" width="3" height="150" fill="#ffafe1" opacity="0.7"/>
+  <rect x="28" y="18" width="56" height="36" rx="8" fill="#ffafe1"/>
+  <text x="40" y="42" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="20" font-weight="700" fill="#5a0f4b">학원</text>
+  <text x="28" y="105" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="46" font-weight="700" fill="white">아산 공인중개사학원</text>
+  <text x="30" y="148" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="26" fill="#ffafe1" opacity="0.9">공인중개사 합격 전문 · 무료 상담</text>
+  <text x="760" y="108" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="28" fill="white" text-anchor="middle">041-333-4444</text>
+</svg>

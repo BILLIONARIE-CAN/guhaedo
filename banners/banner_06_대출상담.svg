@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="200" viewBox="0 0 900 200">
+  <rect width="900" height="200" fill="#824b0f"/>
+  <polygon points="720,0 900,0 900,200" fill="#ffe682" opacity="0.15"/>
+  <rect x="0" y="0" width="12" height="200" fill="#ffe682"/>
+  <rect x="620" y="25" width="3" height="150" fill="#ffe682" opacity="0.7"/>
+  <rect x="28" y="18" width="88" height="36" rx="8" fill="#ffe682"/>
+  <text x="40" y="42" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="20" font-weight="700" fill="#824b0f">대출상담</text>
+  <text x="28" y="105" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="46" font-weight="700" fill="white">아산 대출상담소</text>
+  <text x="30" y="148" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="26" fill="#ffe682" opacity="0.9">주택담보 · 전세자금 최저금리 상담</text>
+  <text x="760" y="108" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="28" fill="white" text-anchor="middle">041-222-3333</text>
+</svg>

@@ -272,13 +272,14 @@ tr:hover td{background:#1a2030}
           </div>
         </div>
         <div class="field">
-          <label>📍 대상 읍면동 (이 지역 아파트 인쇄 시 배너 자동 삽입)</label>
+          <label>📍 대상 읍면동 <span style="font-size:11px;color:#718096">(이 지역 아파트 인쇄 시 배너 자동 삽입 · 지역당 최대 6개)</span></label>
           <div class="grid3" style="margin-bottom:8px">
             <select class="sel" id="bn-sido" onchange="bnSidoChange()"><option value="">시도</option></select>
             <select class="sel" id="bn-sigungu" onchange="bnSigunguChange()"><option value="">시군구</option></select>
             <select class="sel" id="bn-emd"><option value="">읍면동</option></select>
           </div>
-          <button class="btn btn-gray btn-sm" onclick="addBannerArea()">+ 지역 추가</button>
+          <button class="btn btn-gray btn-sm" onclick="bnSearchArea()">🔍 경쟁자 확인</button>
+          <div id="bn-area-result" style="margin-top:8px;display:none;background:#1a202c;border-radius:8px;padding:12px;border:1px solid #2d3748"></div>
           <div id="bn-areas" style="margin-top:8px;min-height:20px"></div>
         </div>
         <button class="btn btn-green" id="banner-submit" onclick="bannerSubmit()">✅ 등록하기</button>
@@ -463,13 +464,59 @@ function bnSigunguChange(){
   var list=(areaData.emdMap[sido+'|'+sg]||[]).sort();
   ge('bn-emd').innerHTML='<option value="">읍면동</option>'+list.map(function(s){return '<option>'+s+'</option>';}).join('');
 }
+const BANNER_MAX = 6;
+
+async function bnSearchArea(){
+  var sido=gv('bn-sido'),sg=gv('bn-sigungu'),emd=gv('bn-emd');
+  if(!sido||!sg||!emd){toast('시도/시군구/읍면동 모두 선택하세요',true);return;}
+  var res=ge('bn-area-result');
+  res.style.display='block';
+  res.innerHTML='<span style="font-size:12px;color:#718096">조회 중...</span>';
+  try{
+    var today=new Date().toISOString().split('T')[0];
+    // 해당 읍면동을 포함하는 활성 배너 전체 조회
+    var rows=await fetch(SUPABASE_URL+'/rest/v1/banners?select=business_name,expires_at,active&active=eq.true',{headers:hdrs}).then(function(r){return r.json();});
+    var matched=rows.filter(function(b){
+      if(b.expires_at&&b.expires_at<today)return false;
+      return Array.isArray(b.areas)&&b.areas.some(function(a){return a.sido===sido&&a.sigungu===sg&&a.emd===emd;});
+    });
+    var cnt=matched.length;
+    var isFull=cnt>=BANNER_MAX;
+    var badgeColor=cnt===0?'#38a169':isFull?'#e53e3e':'#d69e2e';
+    var badgeText=cnt===0?'경쟁자 없음':isFull?'마감 ('+cnt+'/'+BANNER_MAX+')':'경쟁자 '+cnt+'명 ('+cnt+'/'+BANNER_MAX+')';
+    var html='<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">'
+      +'<span style="font-size:12px;font-weight:600;color:#e2e8f0">'+sido+' '+sg+' '+emd+'</span>'
+      +'<span style="font-size:11px;font-weight:700;color:'+badgeColor+'">'+badgeText+'</span>'
+      +'</div>';
+    if(cnt===0){
+      html+='<div style="font-size:12px;color:#718096;padding:6px 0">이 지역에 등록된 배너가 없습니다.</div>';
+    }else{
+      html+='<div style="display:flex;flex-wrap:wrap;gap:6px">'
+        +matched.map(function(b){
+          return '<span style="background:#2d3748;border-radius:6px;padding:3px 10px;font-size:11px;color:#e2e8f0">'
+            +b.business_name
+            +(b.expires_at?'<span style="color:#718096;margin-left:4px">~'+b.expires_at+'</span>':'')
+            +'</span>';
+        }).join('')+'</div>';
+    }
+    if(!isFull){
+      html+='<button class="btn btn-green btn-sm" style="margin-top:10px" onclick="addBannerArea()">+ 이 지역 추가</button>';
+    }else{
+      html+='<div style="font-size:11px;color:#fc8181;margin-top:8px">이 지역은 배너가 모두 찼습니다.</div>';
+    }
+    res.innerHTML=html;
+  }catch(e){res.innerHTML='<span style="color:#fc8181;font-size:12px">조회 실패</span>';}
+}
+
 function addBannerArea(){
   var sido=gv('bn-sido'),sg=gv('bn-sigungu'),emd=gv('bn-emd');
   if(!sido||!sg||!emd){toast('시도/시군구/읍면동 모두 선택하세요',true);return;}
   var key=sido+' '+sg+' '+emd;
-  if(bannerAreas.find(function(a){return a.key===key;}))return;
+  if(bannerAreas.find(function(a){return a.key===key;})){toast('이미 추가된 지역입니다',true);return;}
   bannerAreas.push({sido:sido,sigungu:sg,emd:emd,key:key});
   renderBannerAreas();
+  ge('bn-area-result').style.display='none';
+  toast('지역 추가됨');
 }
 function removeBannerArea(i){bannerAreas.splice(i,1);renderBannerAreas();}
 function renderBannerAreas(){
@@ -898,6 +945,20 @@ async function bannerSubmit(){
   var name=gv('bn-name');if(!name){toast('업체명을 입력하세요',true);return;}
   if(!bannerImg){toast('배너 이미지를 선택하세요',true);return;}
   if(!bannerAreas.length){toast('대상 지역을 1개 이상 추가하세요',true);return;}
+  // 각 지역별 6명 제한 체크
+  try{
+    var today=new Date().toISOString().split('T')[0];
+    var allActive=await fetch(SUPABASE_URL+'/rest/v1/banners?select=id,business_name,areas,expires_at,active&active=eq.true',{headers:hdrs}).then(function(r){return r.json();});
+    for(var i=0;i<bannerAreas.length;i++){
+      var a=bannerAreas[i];
+      var matched=allActive.filter(function(b){
+        if(b.expires_at&&b.expires_at<today)return false;
+        if(bannerEditId&&b.id===bannerEditId)return false; // 수정 시 자기 제외
+        return Array.isArray(b.areas)&&b.areas.some(function(x){return x.sido===a.sido&&x.sigungu===a.sigungu&&x.emd===a.emd;});
+      });
+      if(matched.length>=BANNER_MAX){toast(a.emd+' 지역은 배너가 '+BANNER_MAX+'개 꽉 찼습니다',true);return;}
+    }
+  }catch(e){}
   var areas=bannerAreas.map(function(a){return {sido:a.sido,sigungu:a.sigungu,emd:a.emd};});
   var body={business_name:name,category:gv('bn-category'),phone:gv('bn-phone'),image:bannerImg,areas:areas,expires_at:gv('bn-expires')||null,active:true};
   if(bannerEditId){
