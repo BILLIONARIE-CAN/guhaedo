@@ -128,13 +128,14 @@ tr:hover td{background:rgba(255,255,255,.02)}
     <div class="grid2">
       <div class="card">
         <div class="card-title">🔴 실거래 오류 단지
-          <button class="btn btn-orange btn-sm" id="auto-diag-btn" onclick="startAutoDiag()" style="margin-left:auto">자동 진단 실행</button>
+          <button class="btn btn-orange btn-sm" id="auto-diag-btn" onclick="prepDiag('dash')" style="margin-left:auto">시도별 진단</button>
         </div>
+        <div id="diag-sido-btns" style="display:none;flex-wrap:wrap;gap:6px;margin-bottom:12px"></div>
         <div id="diag-progress" style="display:none">
           <div style="font-size:12px;color:#718096" id="diag-prog-txt">진단 중...</div>
           <div class="progress-bar"><div class="progress-fill" id="diag-prog-bar" style="width:0"></div></div>
         </div>
-        <div id="dash-diag-list"><div style="color:#718096;font-size:12px">진단 실행 버튼을 눌러 전체 단지를 자동 점검합니다.</div></div>
+        <div id="dash-diag-list"><div style="color:#718096;font-size:12px">시도별 진단 버튼을 눌러 단지를 점검합니다. 같은 시군구 단지는 API를 공유합니다.</div></div>
       </div>
       <div class="card">
         <div class="card-title">⚠️ 데이터 누락 단지
@@ -209,10 +210,11 @@ tr:hover td{background:rgba(255,255,255,.02)}
     </div>
 
     <div class="card">
-      <div class="card-title">⚡ 자동 일괄 진단
-        <button class="btn btn-orange" id="bulk-diag-btn" onclick="startAutoDiag(true)" style="margin-left:auto">전체 단지 진단</button>
+      <div class="card-title">⚡ 시도별 자동 진단
+        <button class="btn btn-orange" id="bulk-diag-btn" onclick="prepDiag('bulk')" style="margin-left:auto">시도 분류 시작</button>
       </div>
-      <p style="font-size:12px;color:#718096;margin-bottom:14px">계약된 모든 단지를 자동 진단합니다. 결과는 대시보드에도 표시됩니다.</p>
+      <p style="font-size:12px;color:#718096;margin-bottom:10px">같은 시군구 단지는 실거래 API를 공유해서 호출 수를 최소화합니다.</p>
+      <div id="bulk-sido-btns" style="display:none;flex-wrap:wrap;gap:6px;margin-bottom:12px"></div>
       <div id="bulk-diag-progress" style="display:none">
         <div style="font-size:12px;color:#718096" id="bulk-prog-txt"></div>
         <div class="progress-bar"><div class="progress-fill" id="bulk-prog-bar" style="width:0"></div></div>
@@ -397,90 +399,194 @@ async function loadDash(){
   }else{bbl.innerHTML='<div style="color:#68d391;font-size:12px">만료 임박 배너 없음</div>';}
 }
 
-// ===== 자동 진단 =====
-async function startAutoDiag(fromDiagTab){
-  var btn=ge('auto-diag-btn'),bulkBtn=ge('bulk-diag-btn');
-  if(btn)btn.disabled=true;
-  if(bulkBtn)bulkBtn.disabled=true;
+// ===== 시도 코드 =====
+const SIDO_NAME={
+  '11':'서울','26':'부산','27':'대구','28':'인천','29':'광주','30':'대전','31':'울산','36':'세종',
+  '41':'경기','42':'강원','43':'충북','44':'충남','45':'전북','46':'전남','47':'경북','48':'경남','50':'제주'
+};
 
-  var progEl=fromDiagTab?ge('bulk-diag-progress'):ge('diag-progress');
-  var progTxt=fromDiagTab?ge('bulk-prog-txt'):ge('diag-prog-txt');
-  var progBar=fromDiagTab?ge('bulk-prog-bar'):ge('diag-prog-bar');
-  if(progEl)progEl.style.display='block';
+// 전체 단지 K-apt 조회 → 시도별 분류 → 버튼 표시
+var diagAptBySido={};  // { '11': [{code,name,bjdCode,lawdCd,kaptAddr,kaptName},...] }
+
+async function prepDiag(ctx){
+  // ctx: 'dash' or 'bulk'
+  var btn=ctx==='dash'?ge('auto-diag-btn'):ge('bulk-diag-btn');
+  var sidoBtnsEl=ctx==='dash'?ge('diag-sido-btns'):ge('bulk-sido-btns');
+  var progEl=ctx==='dash'?ge('diag-progress'):ge('bulk-diag-progress');
+  var progTxt=ctx==='dash'?ge('diag-prog-txt'):ge('bulk-prog-txt');
+  var progBar=ctx==='dash'?ge('diag-prog-bar'):ge('bulk-prog-bar');
+
+  btn.disabled=true;
+  progEl.style.display='block';
+  sidoBtnsEl.style.display='none';
 
   var bapts=await sb('broker_apts?active=eq.true&select=kapt_code,apt_name');
   if(!Array.isArray(bapts)||!bapts.length){
-    if(progTxt)progTxt.textContent='진단할 단지 없음';
-    if(btn)btn.disabled=false;if(bulkBtn)bulkBtn.disabled=false;
-    return;
+    progTxt.textContent='진단할 단지 없음';btn.disabled=false;return;
   }
   var codes=[...new Map(bapts.map(b=>[b.kapt_code,b.apt_name])).entries()];
-  var total=codes.length,done=0,errors=[],warned=[];
-
-  var now=new Date();
-  var ym=now.getFullYear()+String(now.getMonth()+1).padStart(2,'0');
-  // 전달도 병행 (이번달 거래 없을 수 있으므로)
-  var prev=new Date(now.getFullYear(),now.getMonth()-1,1);
-  var ym2=prev.getFullYear()+String(prev.getMonth()+1).padStart(2,'0');
+  var total=codes.length,done=0;
+  diagAptBySido={};
 
   for(var [code,aptName] of codes){
     done++;
-    if(progTxt)progTxt.textContent='('+done+'/'+total+') '+aptName+' 진단 중...';
-    if(progBar)progBar.style.width=Math.round(done/total*100)+'%';
+    progTxt.textContent='('+done+'/'+total+') K-apt 조회: '+aptName;
+    progBar.style.width=Math.round(done/total*100)+'%';
     try{
       var v4=await fetch('https://apis.data.go.kr/1613000/AptBasisInfoServiceV4/getAphusBassInfoV4?serviceKey='+KAPT_KEY+'&kaptCode='+code+'&_type=json',{signal:AbortSignal.timeout(6000)}).then(r=>r.json());
       var item=v4?.response?.body?.item;
-      if(!item){errors.push({code,name:aptName,reason:'K-apt 정보 없음'});continue;}
-      var lawdCd=(item.bjdCode||'').substring(0,5);
-      if(!lawdCd){errors.push({code,name:aptName,reason:'bjdCode 없음'});continue;}
+      if(!item){
+        var s='00';
+        if(!diagAptBySido[s])diagAptBySido[s]=[];
+        diagAptBySido[s].push({code,name:aptName,bjdCode:'',lawdCd:'',kaptAddr:'',kaptName:aptName,err:'K-apt 없음'});
+        continue;
+      }
+      var bjdCode=item.bjdCode||'';
+      var lawdCd=bjdCode.substring(0,5);
+      var sidoCode=bjdCode.substring(0,2)||'00';
+      if(!diagAptBySido[sidoCode])diagAptBySido[sidoCode]=[];
+      diagAptBySido[sidoCode].push({code,name:aptName,bjdCode,lawdCd,kaptAddr:item.kaptAddr||'',kaptName:item.kaptName||aptName});
+    }catch(e){
+      var s='00';
+      if(!diagAptBySido[s])diagAptBySido[s]=[];
+      diagAptBySido[s].push({code,name:aptName,bjdCode:'',lawdCd:'',kaptAddr:'',kaptName:aptName,err:e.message});
+    }
+    await sleep(250);
+  }
 
-      var ov=await sb('apt_name_map?kapt_code=eq.'+code+'&select=molit_name').catch(()=>[]);
-      var searchName=(Array.isArray(ov)&&ov[0])?ov[0].molit_name:item.kaptName;
-      var norm=s=>String(s||'').trim().replace(/[\s()（）·\-\/]/g,'').toUpperCase().replace(/아파트$/,'');
-      var myNorm=norm(searchName);
+  progTxt.textContent='분류 완료. 진단할 시도를 선택하세요.';
+  progBar.style.width='100%';
 
-      // 이번달 + 전달 시도
-      var matched=0;
-      for(var tryYm of [ym,ym2]){
-        var raw=await fetch('https://apis.data.go.kr/1613000/RTMSDataSvcAptTrade/getRTMSDataSvcAptTrade?serviceKey='+KAPT_KEY+'&LAWD_CD='+lawdCd+'&DEAL_YMD='+tryYm+'&numOfRows=1000&_type=json',{signal:AbortSignal.timeout(8000)}).then(r=>r.json());
+  // 시도 버튼 렌더
+  var btns='';
+  var sidoCodes=Object.keys(diagAptBySido).sort();
+  for(var sc of sidoCodes){
+    var label=SIDO_NAME[sc]||(sc==='00'?'오류/미분류':sc);
+    var cnt=diagAptBySido[sc].length;
+    var color=sc==='00'?'btn-red':'btn-blue';
+    btns+='<button class="btn '+color+' btn-sm" onclick="diagSido(\''+sc+'\',\''+ctx+'\')">'+label+' ('+cnt+')</button>';
+  }
+  // 전체 버튼
+  btns='<button class="btn btn-orange btn-sm" onclick="diagAllSido(\''+ctx+'\')" style="font-weight:800">전체 진단</button> '+btns;
+  sidoBtnsEl.innerHTML=btns;
+  sidoBtnsEl.style.display='flex';
+  btn.disabled=false;
+  toast('분류 완료! 시도를 선택해서 진단하세요.');
+}
+
+async function diagAllSido(ctx){
+  var sidoCodes=Object.keys(diagAptBySido).sort();
+  for(var sc of sidoCodes){
+    await diagSido(sc,ctx);
+  }
+}
+
+async function diagSido(sidoCode,ctx){
+  var apts=diagAptBySido[sidoCode];
+  if(!apts||!apts.length)return;
+
+  var progEl=ctx==='dash'?ge('diag-progress'):ge('bulk-diag-progress');
+  var progTxt=ctx==='dash'?ge('diag-prog-txt'):ge('bulk-prog-txt');
+  var progBar=ctx==='dash'?ge('diag-prog-bar'):ge('bulk-prog-bar');
+  progEl.style.display='block';
+
+  var sidoLabel=SIDO_NAME[sidoCode]||(sidoCode==='00'?'오류':sidoCode);
+  var now=new Date();
+  var ym=now.getFullYear()+String(now.getMonth()+1).padStart(2,'0');
+  var prev=new Date(now.getFullYear(),now.getMonth()-1,1);
+  var ym2=prev.getFullYear()+String(prev.getMonth()+1).padStart(2,'0');
+
+  // ① lawdCd별 그룹화 (실거래 API 공유 핵심)
+  var byLawd={};
+  for(var a of apts){
+    if(a.err||!a.lawdCd){
+      if(!byLawd['__err'])byLawd['__err']=[];
+      byLawd['__err'].push(a);
+      continue;
+    }
+    if(!byLawd[a.lawdCd])byLawd[a.lawdCd]=[];
+    byLawd[a.lawdCd].push(a);
+  }
+
+  var lawdKeys=Object.keys(byLawd).filter(k=>k!=='__err');
+  var totalLawd=lawdKeys.length,doneLawd=0;
+  var errors=[],ok=[];
+
+  // 오버라이드 일괄 로드
+  var codes=apts.map(a=>a.code);
+  var ovRows=await sb('apt_name_map?kapt_code=in.('+codes.join(',')+')'+'&select=kapt_code,molit_name').catch(()=>[]);
+  var ovMap={};
+  (Array.isArray(ovRows)?ovRows:[]).forEach(r=>{ovMap[r.kapt_code]=r.molit_name;});
+
+  var norm=s=>String(s||'').trim().replace(/[\s()（）·\-\/]/g,'').toUpperCase().replace(/아파트$/,'');
+
+  // ② lawdCd별로 API 1번씩만 호출
+  for(var lawd of lawdKeys){
+    doneLawd++;
+    progTxt.textContent=sidoLabel+' ('+doneLawd+'/'+totalLawd+') LAWD_CD: '+lawd+' 진단 중...';
+    progBar.style.width=Math.round(doneLawd/totalLawd*100)+'%';
+
+    var tradeCache={};
+    for(var tryYm of [ym,ym2]){
+      try{
+        var raw=await fetch('https://apis.data.go.kr/1613000/RTMSDataSvcAptTrade/getRTMSDataSvcAptTrade?serviceKey='+KAPT_KEY+'&LAWD_CD='+lawd+'&DEAL_YMD='+tryYm+'&numOfRows=1000&_type=json',{signal:AbortSignal.timeout(8000)}).then(r=>r.json());
         var items=raw?.response?.body?.items?.item;
-        var arr=items?(Array.isArray(items)?items:[items]):[];
-        // 지번 파싱
-        var jibunFull='',myBon=0;
-        var addrParts=(item.kaptAddr||'').replace(/\s+/g,' ').split(' ');
-        var lastP=addrParts[addrParts.length-1]||'';
-        if(/^\d/.test(lastP)){jibunFull=lastP.replace(/번지$/,'');myBon=parseInt(jibunFull.split('-')[0])||0;}
-        // 매칭
+        tradeCache[tryYm]=items?(Array.isArray(items)?items:[items]):[];
+      }catch(e){tradeCache[tryYm]=[];}
+      await sleep(150);
+    }
+
+    // 이 lawdCd의 모든 단지 매칭 (API 재호출 없이)
+    for(var apt of byLawd[lawd]){
+      var searchName=ovMap[apt.code]||apt.kaptName;
+      var myNorm=norm(searchName);
+      var jibunFull='';
+      var addrArr=(apt.kaptAddr||'').replace(/\s+/g,' ').split(' ');
+      var lastP=addrArr[addrArr.length-1]||'';
+      if(/^\d/.test(lastP))jibunFull=lastP.replace(/번지$/,'');
+      var myBon=jibunFull?parseInt(jibunFull.split('-')[0])||0:0;
+
+      var matched=0;
+      for(var tryYm2 of [ym,ym2]){
+        var arr=tradeCache[tryYm2]||[];
         var nameM=arr.filter(x=>norm(x.aptNm)===myNorm&&!(x.cdealType||'').trim());
         var addrM=myBon?arr.filter(x=>{var xb=parseInt((x.jibun||'').split('-')[0]);return xb&&xb===myBon&&!(x.cdealType||'').trim();}):[];
         if(nameM.length||addrM.length){matched=nameM.length||addrM.length;break;}
-        await sleep(200);
       }
-      if(!matched){
-        errors.push({code,name:aptName,reason:'이름/주소 모두 0건 ('+ym+','+ym2+')'});
-      }
-    }catch(e){errors.push({code,name:aptName,reason:'오류: '+e.message});}
-    await sleep(300);
+      if(matched){ok.push(apt);}
+      else{errors.push({...apt,reason:'이름/주소 0건 ('+lawd+')'});}
+    }
+    await sleep(100);
   }
 
-  autoDiagResults=errors;
-  ge('st-diag-err').textContent=errors.length;
-  ge('st-diag-sub').textContent='최근 진단 완료';
-  if(errors.length){ge('st-diag-card').classList.add('stat-err');}
-
-  var html='';
-  if(!errors.length){
-    html='<div style="color:#68d391;font-size:12px">✅ 전체 '+total+'개 단지 이상 없음</div>';
-  }else{
-    html='<div style="color:#fc8181;font-size:12px;margin-bottom:10px">❌ '+errors.length+'개 단지에서 오류 발견</div>'+
-      '<table><tr><th>단지명</th><th>kaptCode</th><th>원인</th><th></th></tr>'+
-      errors.map(e=>'<tr><td style="font-weight:600">'+e.name+'</td><td style="font-size:11px;color:#718096">'+e.code+'</td><td style="color:#fc8181;font-size:11px">'+e.reason+'</td><td><button class="btn btn-blue btn-sm" onclick="fillDiag(\''+e.code+'\')">진단</button> <button class="btn btn-gold btn-sm" onclick="openOvFromCode(\''+e.code+'\',\''+e.name.replace(/'/g,"\\'")+'\')" >오버라이드</button></td></tr>').join('')+'</table>';
+  // K-apt 오류 단지 추가
+  for(var ea of (byLawd['__err']||[])){
+    errors.push({...ea,reason:ea.err||'lawdCd 없음'});
   }
-  ge('dash-diag-list').innerHTML=html;
-  if(fromDiagTab)ge('bulk-diag-result').innerHTML=html;
-  if(progTxt)progTxt.textContent='완료 ('+total+'개 진단)';
-  if(btn)btn.disabled=false;if(bulkBtn)bulkBtn.disabled=false;
-  toast('진단 완료! 오류 '+errors.length+'건');
+
+  // 결과 렌더
+  var resultEl=ctx==='dash'?ge('dash-diag-list'):ge('bulk-diag-result');
+  var existHtml=resultEl.innerHTML.includes('<table')?resultEl.innerHTML:'';
+
+  var newHtml='<div style="margin-bottom:8px"><span style="color:#f6ad55;font-weight:700">▶ '+sidoLabel+'</span> <span style="color:#68d391">✅ '+ok.length+'건</span> / <span style="color:#fc8181">❌ '+errors.length+'건 오류</span> <span style="color:#718096;font-size:11px">(실거래 API '+lawdKeys.length+'회 호출)</span></div>';
+  if(errors.length){
+    newHtml+='<table style="margin-bottom:12px"><tr><th>단지명</th><th>kaptCode</th><th>원인</th><th></th></tr>'+
+      errors.map(e=>'<tr><td style="font-weight:600">'+e.name+'</td><td style="font-size:11px;color:#718096">'+e.code+'</td><td style="color:#fc8181;font-size:11px">'+e.reason+'</td>'
+        +'<td><button class="btn btn-blue btn-sm" onclick="fillDiag(\''+e.code+'\')">진단</button> <button class="btn btn-gold btn-sm" onclick="openOvFromCode(\''+e.code+'\',\''+e.name.replace(/'/g,"\\'")+'\')" >오버라이드</button></td></tr>').join('')+'</table>';
+  }
+
+  if(existHtml&&existHtml.trim()&&!existHtml.includes('시도별 진단')&&!existHtml.includes('시도를 선택')){
+    resultEl.innerHTML=existHtml+newHtml;
+  }else{resultEl.innerHTML=newHtml;}
+
+  // 통계 업데이트
+  autoDiagResults=[...autoDiagResults,...errors];
+  ge('st-diag-err').textContent=autoDiagResults.length;
+  ge('st-diag-sub').textContent=sidoLabel+' 완료';
+  if(autoDiagResults.length)ge('st-diag-card').classList.add('stat-err');
+
+  progTxt.textContent=sidoLabel+' 완료 ✅ (오류 '+errors.length+'건)';
+  toast(sidoLabel+' 진단 완료: 오류 '+errors.length+'건 / 정상 '+ok.length+'건');
 }
 
 // ===== 누락 스캔 =====
