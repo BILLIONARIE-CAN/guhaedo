@@ -370,7 +370,12 @@ function doMstLogin(){
   }else{ge('login-err').textContent='비밀번호가 틀렸습니다';}
 }
 function doLogout(){sessionStorage.removeItem('mst_auth');location.reload();}
-if(sessionStorage.getItem('mst_auth')==='1'){doMstLogin();}
+// 세션 자동 로그인 (비밀번호 체크 없이 바로 진입)
+if(sessionStorage.getItem('mst_auth')==='1'){
+  ge('login-screen').style.display='none';
+  ge('main-screen').style.display='block';
+  loadDash();initDiagYm();loadOvList();loadAcctList();
+}
 
 // ===== 탭 =====
 const TAB_IDS=['dash','apt','diag','mapset','acct'];
@@ -431,10 +436,12 @@ async function prepDiag(ctx){
   progEl.style.display='block';
   sidoBtnsEl.style.display='none';
 
-  var bapts=await sb('broker_apts?active=eq.true&select=kapt_code,apt_name');
+  // active 필터 없이 전체 kapt_code 수집 (만료/비활성 포함)
+  var bapts=await sb('broker_apts?select=kapt_code,apt_name');
   if(!Array.isArray(bapts)||!bapts.length){
-    progTxt.textContent='진단할 단지 없음';btn.disabled=false;return;
+    progTxt.textContent='broker_apts에 단지 없음';btn.disabled=false;return;
   }
+  // 중복 제거 (같은 kapt_code 여러 중개사가 계약 가능)
   var codes=[...new Map(bapts.map(b=>[b.kapt_code,b.apt_name])).entries()];
   var total=codes.length,done=0;
   diagAptBySido={};
