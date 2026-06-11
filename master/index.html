@@ -71,6 +71,17 @@ tr:hover td{background:rgba(255,255,255,.02)}
 .map-ctrl{background:#0f1623;border-bottom:1px solid #1e2d40;padding:12px 20px;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
 .map-legend{display:flex;gap:14px;align-items:center;font-size:12px}
 .leg-dot{width:12px;height:12px;border-radius:50%;display:inline-block;margin-right:4px}
+/* 시도 카드 그리드 */
+.sido-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:10px;margin:12px 0}
+.sido-card{background:#1a2332;border:1px solid #2d3d52;border-radius:10px;padding:14px 12px;cursor:pointer;transition:.15s;text-align:center}
+.sido-card:hover{border-color:#f6ad55;background:#1e2d3e}
+.sido-card.running{border-color:#f6ad55;background:#2d2010;animation:pulse .8s infinite alternate}
+.sido-card.done-ok{border-color:#276749;background:#0d1f17}
+.sido-card.done-err{border-color:#742a2a;background:#1f0d0d}
+.sido-card-name{font-size:14px;font-weight:700;color:#e2e8f0;margin-bottom:4px}
+.sido-card-cnt{font-size:11px;color:#718096}
+.sido-card-status{font-size:11px;margin-top:6px;font-weight:700}
+@keyframes pulse{from{opacity:.7}to{opacity:1}}
 /* 모달 */
 .modal-bg{display:none;position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:1000;overflow-y:auto;padding:40px 20px}
 .modal-bg.open{display:flex;align-items:flex-start;justify-content:center}
@@ -130,7 +141,7 @@ tr:hover td{background:rgba(255,255,255,.02)}
         <div class="card-title">🔴 실거래 오류 단지
           <button class="btn btn-orange btn-sm" id="auto-diag-btn" onclick="prepDiag('dash')" style="margin-left:auto">시도별 진단</button>
         </div>
-        <div id="diag-sido-btns" style="display:none;flex-wrap:wrap;gap:6px;margin-bottom:12px"></div>
+        <div id="diag-sido-btns" style="display:none"></div>
         <div id="diag-progress" style="display:none">
           <div style="font-size:12px;color:#718096" id="diag-prog-txt">진단 중...</div>
           <div class="progress-bar"><div class="progress-fill" id="diag-prog-bar" style="width:0"></div></div>
@@ -213,8 +224,8 @@ tr:hover td{background:rgba(255,255,255,.02)}
       <div class="card-title">⚡ 시도별 자동 진단
         <button class="btn btn-orange" id="bulk-diag-btn" onclick="prepDiag('bulk')" style="margin-left:auto">시도 분류 시작</button>
       </div>
-      <p style="font-size:12px;color:#718096;margin-bottom:10px">같은 시군구 단지는 실거래 API를 공유해서 호출 수를 최소화합니다.</p>
-      <div id="bulk-sido-btns" style="display:none;flex-wrap:wrap;gap:6px;margin-bottom:12px"></div>
+      <p style="font-size:12px;color:#718096;margin-bottom:10px">broker_apts에 계약된 단지 기준 · 같은 시군구는 실거래 API 1회 공유</p>
+      <div id="bulk-sido-btns" style="display:none"></div>
       <div id="bulk-diag-progress" style="display:none">
         <div style="font-size:12px;color:#718096" id="bulk-prog-txt"></div>
         <div class="progress-bar"><div class="progress-fill" id="bulk-prog-bar" style="width:0"></div></div>
@@ -457,19 +468,23 @@ async function prepDiag(ctx){
   progTxt.textContent='분류 완료. 진단할 시도를 선택하세요.';
   progBar.style.width='100%';
 
-  // 시도 버튼 렌더
-  var btns='';
+  // 시도 카드 그리드 렌더
   var sidoCodes=Object.keys(diagAptBySido).sort();
+  var grid='<button class="btn btn-orange" style="width:100%;margin-bottom:10px;font-size:13px" onclick="diagAllSido(\''+ctx+'\')">⚡ 전체 시도 일괄 진단</button>';
+  grid+='<div class="sido-grid">';
   for(var sc of sidoCodes){
     var label=SIDO_NAME[sc]||(sc==='00'?'오류/미분류':sc);
     var cnt=diagAptBySido[sc].length;
-    var color=sc==='00'?'btn-red':'btn-blue';
-    btns+='<button class="btn '+color+' btn-sm" onclick="diagSido(\''+sc+'\',\''+ctx+'\')">'+label+' ('+cnt+')</button>';
+    var borderStyle=sc==='00'?'border-color:#742a2a':'';
+    grid+='<div class="sido-card" id="sido-card-'+ctx+'-'+sc+'" style="'+borderStyle+'" onclick="diagSido(\''+sc+'\',\''+ctx+'\')">'
+      +'<div class="sido-card-name">'+label+'</div>'
+      +'<div class="sido-card-cnt">'+cnt+'개 단지</div>'
+      +'<div class="sido-card-status" id="sido-status-'+ctx+'-'+sc+'" style="color:#4a5568">대기 중</div>'
+      +'</div>';
   }
-  // 전체 버튼
-  btns='<button class="btn btn-orange btn-sm" onclick="diagAllSido(\''+ctx+'\')" style="font-weight:800">전체 진단</button> '+btns;
-  sidoBtnsEl.innerHTML=btns;
-  sidoBtnsEl.style.display='flex';
+  grid+='</div>';
+  sidoBtnsEl.innerHTML=grid;
+  sidoBtnsEl.style.display='block';
   btn.disabled=false;
   toast('분류 완료! 시도를 선택해서 진단하세요.');
 }
@@ -491,6 +506,11 @@ async function diagSido(sidoCode,ctx){
   progEl.style.display='block';
 
   var sidoLabel=SIDO_NAME[sidoCode]||(sidoCode==='00'?'오류':sidoCode);
+  // 카드 상태 → 진행 중
+  var cardEl=ge('sido-card-'+ctx+'-'+sidoCode);
+  var statusEl=ge('sido-status-'+ctx+'-'+sidoCode);
+  if(cardEl)cardEl.classList.add('running');
+  if(statusEl){statusEl.textContent='진단 중...';statusEl.style.color='#f6ad55';}
   var now=new Date();
   var ym=now.getFullYear()+String(now.getMonth()+1).padStart(2,'0');
   var prev=new Date(now.getFullYear(),now.getMonth()-1,1);
@@ -585,6 +605,12 @@ async function diagSido(sidoCode,ctx){
   ge('st-diag-sub').textContent=sidoLabel+' 완료';
   if(autoDiagResults.length)ge('st-diag-card').classList.add('stat-err');
 
+  // 카드 상태 → 완료
+  if(cardEl){cardEl.classList.remove('running');cardEl.classList.add(errors.length?'done-err':'done-ok');}
+  if(statusEl){
+    if(errors.length){statusEl.textContent='❌ 오류 '+errors.length+'건';statusEl.style.color='#fc8181';}
+    else{statusEl.textContent='✅ 정상 '+ok.length+'건';statusEl.style.color='#68d391';}
+  }
   progTxt.textContent=sidoLabel+' 완료 ✅ (오류 '+errors.length+'건)';
   toast(sidoLabel+' 진단 완료: 오류 '+errors.length+'건 / 정상 '+ok.length+'건');
 }
