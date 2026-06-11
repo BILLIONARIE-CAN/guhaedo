@@ -21,7 +21,7 @@ async function getCached(code, ym) {
     if (!Array.isArray(rows) || !rows[0]) return null;
     const row = rows[0];
     // 필터 로직 v2(주소 우선 매칭) 이전에 저장된 캐시는 전부 무효 (잘못된 0건 박제 방지)
-    if (new Date(row.fetched_at).getTime() < Date.parse('2026-06-10T09:40:00Z')) return null;
+    if (new Date(row.fetched_at).getTime() < Date.parse('2026-06-11T07:40:00Z')) return null;
     // apt_name 컬럼에 "단지명|법정동|지번" 패킹돼 있음 (구버전은 단지명만)
     const packed = String(row.apt_name || '').split('|');
     row.apt_name_clean = packed[0] || '';
@@ -50,7 +50,7 @@ async function getCachedBatch(code, months) {
     if (Array.isArray(rows)) {
       const cutoff = new Date(); cutoff.setMonth(cutoff.getMonth() - 2);
       for (const row of rows) {
-        if (new Date(row.fetched_at).getTime() < Date.parse('2026-06-10T09:40:00Z')) continue; // 구버전 무효
+        if (new Date(row.fetched_at).getTime() < Date.parse('2026-06-11T07:40:00Z')) continue; // 구버전 무효
         const ymDate = new Date(parseInt(row.ym.slice(0,4)), parseInt(row.ym.slice(4,6)) - 1, 1);
         if (!(ymDate < cutoff) && Date.now() - new Date(row.fetched_at).getTime() >= 86400000) continue; // 최근월 24h TTL
         out[row.ym] = row;
@@ -226,12 +226,16 @@ export default async function handler(req, res) {
   const myJibun = parseJibun(aptJibunFull);
   const myDongPart = aptLegalDong.replace(/\s/g, ''); // "배방읍장재리"
 
-  const normalize = s => String(s || '').trim().replace(/[\s()（）·\-\/]/g, '').toUpperCase().replace(/아파트$/, '');
+  const normalize = s => String(s || '').trim().replace(/[\s()（）·\-\/]/g, '').toUpperCase().replace(/(아파트|APT)$/, '');
   const myName = normalize(aptName);
 
+  // 'exact' = 완전일치 / 'part' = 한쪽이 다른쪽 포함 (지역명·브랜드 접두/접미 차이, 5자 이상만)
   function nameMatch(nm) {
     const n = normalize(nm);
-    return !!n && !!myName && n === myName;
+    if (!n || !myName) return false;
+    if (n === myName) return 'exact';
+    if (Math.min(n.length, myName.length) >= 5 && (n.includes(myName) || myName.includes(n))) return 'part';
+    return false;
   }
 
   // 건축년도 ±1년 (필드 없으면 통과)
@@ -271,7 +275,13 @@ export default async function handler(req, res) {
     if ((x.cdealType || '').trim()) return false; // 계약 해제 제외
     if (!buildYearMatch(x)) return false;
     if (addrMatch(x)) return true;                // ① 주소 일치 → 단지명 무시
-    return nameMatch(x.aptNm) && dongMatch(x) && jibunSoft(x); // ② 이름 fallback
+    // ② 이름 경로
+    const nm = nameMatch(x.aptNm);
+    if (!nm || !dongMatch(x)) return false;
+    // 완전일치 + 법정동 일치 → 지번 무시 (K-apt 지번과 국토부 지번이 다른 경우 흔함: 모지번/합필)
+    if (nm === 'exact') return myDongPart ? true : jibunSoft(x);
+    // 부분일치(지역명 차이 등) → 지번 양쪽 다 알면 본번 일치 필요 (동명이단지 방지)
+    return jibunSoft(x);
   }
 
   const buyBase  = 'https://apis.data.go.kr/1613000/RTMSDataSvcAptTrade/getRTMSDataSvcAptTrade';

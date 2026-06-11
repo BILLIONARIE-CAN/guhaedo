@@ -217,13 +217,17 @@ async function pmap(arr,fn,limit){
 }
 
 // ───────────────────────── 매칭 로직 (api/trade.js와 동일) ─────────────────────────
-function nrm(s){return String(s||'').trim().replace(/[\s()（）·\-\/]/g,'').toUpperCase().replace(/아파트$/,'');}
+function nrm(s){return String(s||'').trim().replace(/[\s()（）·\-\/]/g,'').toUpperCase().replace(/(아파트|APT)$/,'');}
 function parseJb(s){var m=String(s||'').trim().match(/^산?(\d+)(?:-(\d+))?/);return m?{bon:parseInt(m[1]),bu:m[2]!=null?parseInt(m[2]):null}:null;}
 function parseAddr(addr){
   var parts=String(addr||'').trim().replace(/\s+/g,' ').split(' ');
   var passed=false,dongs=[],jb=null;
   for(var i=0;i<parts.length;i++){var p=parts[i];
-    if(/^산?\d+(-\d+)?(번지)?$/.test(p)){jb=parseJb(p.replace(/번지$/,''));break;}
+    if(/^산?\d+(-\d+)?(번지)?$/.test(p)){
+      // 도로명주소의 건물번호 오인 방지 ("문화로 123"의 123은 지번이 아님)
+      if(i>0&&/[로길]$/.test(parts[i-1]))break;
+      jb=parseJb(p.replace(/번지$/,''));break;
+    }
     if(!passed){if(/[시군구]$/.test(p))passed=true;continue;}
     if(/[동읍면리가]$/.test(p))dongs.push(p);
   }
@@ -231,7 +235,8 @@ function parseAddr(addr){
 }
 function buildCx(a){
   var pa=parseAddr(a.jibunAddr||a.addr||'');
-  return {nm:nrm(a.name),dong:pa.dong,jb:pa.jb,by:parseInt(String(a.built||'').replace(/[^0-9]/g,'').substring(0,4))||0};
+  var dong=pa.dong||String(a.emd||'').replace(/\s/g,''); // 주소 파싱 실패 시 emd 필드 폴백
+  return {nm:nrm(a.name),dong:dong,jb:pa.jb,by:parseInt(String(a.built||'').replace(/[^0-9]/g,'').substring(0,4))||0};
 }
 function dongOk(cx,it){
   if(!cx.dong)return true;
@@ -247,10 +252,19 @@ function matchItem(cx,it){
     if(xj&&xj.bon===cx.jb.bon&&(cx.jb.bu==null||xj.bu==null||xj.bu===cx.jb.bu)&&dongOk(cx,it))return true;
   }
   var n=nrm(it.n);
-  if(!n||n!==cx.nm)return false;
+  if(!n||!cx.nm)return false;
   if(!dongOk(cx,it))return false;
-  if(cx.jb){var x2=parseJb(it.j);if(x2&&x2.bon!==cx.jb.bon)return false;}
-  return true;
+  if(n===cx.nm){
+    // 완전일치 + 법정동 일치 → 지번 무시 (모지번/합필로 지번 다른 경우 흔함)
+    if(cx.dong)return true;
+    var x2=parseJb(it.j);return !x2||!cx.jb||x2.bon===cx.jb.bon;
+  }
+  // 부분일치 (지역명·브랜드 접두/접미 차이): 5자 이상 + 지번 양쪽 다 알면 본번 일치
+  if(Math.min(n.length,cx.nm.length)>=5&&(n.indexOf(cx.nm)>=0||cx.nm.indexOf(n)>=0)){
+    var x3=parseJb(it.j);
+    return !x3||!cx.jb||x3.bon===cx.jb.bon;
+  }
+  return false;
 }
 function nameSim(a,b){
   if(!a||!b)return false;
@@ -331,28 +345,49 @@ async function diagTradeSido(sd){
     ge('tr-prog-txt').textContent=sido.name+' '+(li+1)+'/'+lawds.length+' — '+(apts[0].sigungu||lawd)+' 실거래 '+months.length+'개월 조회...';
     var monthData=await pmap(months,function(m){return getDistrict(lawd,m);},4);
     var pool=[],anyErr=false;
-    monthData.forEach(function(md){
+    monthData.forEach(function(md,mi){
       if(md.apiError)anyErr=true;
-      pool=pool.concat(md.buy||[],md.rent||[],md.pre||[]);
+      ['buy','rent','pre'].forEach(function(k){
+        (md[k]||[]).forEach(function(it){it._y=months[mi];pool.push(it);});
+      });
     });
 
     targets.forEach(function(a){
       var cx=buildCx(a);
-      var matched=0,cands={};
+      var matched=0,cands={},seenYm='';
       for(var i=0;i<pool.length;i++){
         var it=pool[i];
         if(matchItem(cx,it)){matched++;continue;}
-        if(!it.c&&nameSim(nrm(it.n),cx.nm))cands[it.n+(it.j?'('+it.j+')':'')]=1;
+        if(!it.c&&nameSim(nrm(it.n),cx.nm)){cands[it.n+(it.j?'('+it.j+')':'')]=1;if(!seenYm)seenYm=it._y||'';}
       }
       var rec;
       if(matched>0){rec={s:'ok',t:now,c:matched};okCnt++;}
-      else if(Object.keys(cands).length){rec={s:'sus',t:now,cand:Object.keys(cands).slice(0,5)};sus.push({a:a,cand:rec.cand});}
+      else if(Object.keys(cands).length){rec={s:'sus',t:now,cand:Object.keys(cands).slice(0,5)};sus.push({a:a,cand:rec.cand,seenYm:seenYm});}
       else if(anyErr){rec={s:'err',t:now};errs.push(a);}
       else{rec={s:'none',t:now};nones.push(a);}
       store[a.code]=rec;
     });
     saveStore(K_TR,store);
     renderTrResult(sido,sus,errs,nones,okCnt,skipCnt,false);
+  }
+
+  // 2차 검증: 의심 단지를 실서버 매칭(K-apt 주소 기반)으로 재확인 → 가짜 의심 자동 제거
+  if(sus.length&&!trAbort){
+    ge('tr-prog-txt').textContent='의심 '+sus.length+'개 단지 서버 재검증 중...';
+    var still=[];
+    await pmap(sus,async function(x){
+      if(trAbort){still.push(x);return;}
+      try{
+        var by=parseInt(String(x.a.built||'').replace(/[^0-9]/g,'').substring(0,4))||0;
+        var vr=await fetch('/api/trade?code='+encodeURIComponent(x.a.code)+'&ym='+(x.seenYm||months[0])+(by?'&builtYear='+by:''));
+        var vj=await vr.json();
+        var tot=(vj.buy||[]).length+(vj.jeonse||[]).length+(vj.monthly||[]).length;
+        if(tot>0){store[x.a.code]={s:'ok',t:now,c:tot};okCnt++;}
+        else still.push(x);
+      }catch(e){still.push(x);}
+    },3);
+    sus.length=0;still.forEach(function(x){sus.push(x);});
+    saveStore(K_TR,store);
   }
 
   var trs=loadStore(K_TRS);
