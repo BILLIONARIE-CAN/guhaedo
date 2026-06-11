@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>아구구 마스터</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Apple SD Gothic Neo','Malgun Gothic',sans-serif;background:#0a0e17;color:#e2e8f0;min-height:100vh}
+.header{background:#0f1623;border-bottom:1px solid #1e2d40;padding:14px 24px;display:flex;align-items:center;gap:12px;position:sticky;top:0;z-index:100}
+.logo{font-size:18px;font-weight:900;color:#f6ad55}
+.logo span{color:#e2e8f0;font-weight:400;font-size:13px;margin-left:6px}
+.badge-mst{background:#744210;color:#fbd38d;font-size:10px;font-weight:700;padding:2px 7px;border-radius:10px;letter-spacing:.5px}
+
+/* 로그인 */
+.login-wrap{max-width:340px;margin:100px auto;padding:32px;background:#0f1623;border-radius:12px;border:1px solid #1e2d40}
+.login-title{font-size:20px;font-weight:700;margin-bottom:24px;text-align:center;color:#f6ad55}
+
+/* 탭 */
+.tabs{display:flex;gap:0;border-bottom:1px solid #1e2d40;background:#0f1623;padding:0 24px;position:sticky;top:53px;z-index:99}
+.tab{padding:12px 20px;font-size:13px;font-weight:600;cursor:pointer;border-bottom:2px solid transparent;color:#718096;transition:.15s}
+.tab.active{color:#f6ad55;border-bottom-color:#f6ad55}
+.tab:hover:not(.active){color:#e2e8f0}
+.section{display:none;padding:24px;max-width:1200px;margin:0 auto}
+.section.active{display:block}
+
+/* 카드 */
+.card{background:#0f1623;border-radius:12px;border:1px solid #1e2d40;padding:22px;margin-bottom:18px}
+.card-title{font-size:14px;font-weight:700;margin-bottom:16px;color:#fff;display:flex;align-items:center;gap:8px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.grid3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px}
+.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+
+/* 통계 카드 */
+.stat-card{background:#0f1623;border:1px solid #1e2d40;border-radius:10px;padding:20px;text-align:center}
+.stat-num{font-size:32px;font-weight:900;color:#f6ad55}
+.stat-label{font-size:12px;color:#718096;margin-top:4px}
+.stat-sub{font-size:11px;color:#4a5568;margin-top:2px}
+
+/* 폼 */
+.field{margin-bottom:12px}
+.field label{display:block;font-size:11px;color:#a0aec0;font-weight:600;margin-bottom:5px;text-transform:uppercase;letter-spacing:.5px}
+.input,.sel{width:100%;padding:9px 12px;background:#1a2332;border:1px solid #2d3d52;border-radius:7px;color:#fff;font-size:13px;outline:none;transition:border .2s;font-family:inherit}
+.input:focus,.sel:focus{border-color:#f6ad55}
+.sel{cursor:pointer}
+
+/* 버튼 */
+.btn{padding:9px 18px;border:none;border-radius:7px;font-size:13px;font-weight:600;cursor:pointer;transition:.15s;font-family:inherit}
+.btn-gold{background:#b7791f;color:#fefcbf}.btn-gold:hover{background:#975a16}
+.btn-green{background:#276749;color:#c6f6d5}.btn-green:hover{background:#1c4532}
+.btn-blue{background:#2c5282;color:#bee3f8}.btn-blue:hover{background:#1a365d}
+.btn-red{background:#742a2a;color:#fed7d7}.btn-red:hover{background:#63171b}
+.btn-gray{background:#2d3748;color:#a0aec0}.btn-gray:hover{background:#1a202c}
+.btn-sm{padding:5px 12px;font-size:11px}
+.btn:disabled{opacity:.5;cursor:not-allowed}
+
+/* 테이블 */
+table{width:100%;border-collapse:collapse;font-size:12px}
+th{padding:8px 10px;text-align:left;color:#718096;font-weight:600;border-bottom:1px solid #1e2d40;font-size:11px;text-transform:uppercase}
+td{padding:9px 10px;border-bottom:1px solid #1a2332;color:#e2e8f0;vertical-align:middle}
+tr:last-child td{border-bottom:none}
+tr:hover td{background:rgba(255,255,255,.02)}
+
+/* 배지 */
+.badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:10px;font-weight:700}
+.badge-on{background:#1c4532;color:#68d391}
+.badge-off{background:#3d1515;color:#fc8181}
+.badge-warn{background:#5c3a00;color:#fbd38d}
+
+/* 진단 결과 */
+.diag-box{background:#1a2332;border-radius:8px;padding:14px;font-size:12px;font-family:monospace;white-space:pre-wrap;word-break:break-all;max-height:300px;overflow-y:auto;line-height:1.6}
+.diag-ok{color:#68d391}.diag-err{color:#fc8181}.diag-warn{color:#fbd38d}.diag-info{color:#90cdf4}
+
+/* toast */
+#toast{position:fixed;bottom:28px;right:28px;background:#2d3748;color:#fff;padding:10px 18px;border-radius:8px;font-size:13px;display:none;z-index:9999;max-width:320px}
+
+/* 검색바 */
+.search-row{display:flex;gap:8px;margin-bottom:14px}
+.search-row .input{flex:1}
+</style>
+</head>
+<body>
+
+<!-- 로그인 -->
+<div id="login-screen">
+  <div class="header"><span class="logo">아구구 <span>MASTER</span></span><span class="badge-mst">MST</span></div>
+  <div class="login-wrap">
+    <div class="login-title">🔐 마스터 로그인</div>
+    <div class="field"><label>마스터 비밀번호</label>
+      <input class="input" type="password" id="mst-pw" placeholder="비밀번호" onkeydown="if(event.key==='Enter')doMstLogin()">
+    </div>
+    <button class="btn btn-gold" style="width:100%;margin-top:8px" onclick="doMstLogin()">로그인</button>
+    <div id="login-err" style="color:#fc8181;font-size:12px;margin-top:8px;text-align:center"></div>
+  </div>
+</div>
+
+<!-- 메인 -->
+<div id="main-screen" style="display:none">
+  <div class="header">
+    <span class="logo">아구구 <span>MASTER</span></span>
+    <span class="badge-mst">MST</span>
+    <span style="flex:1"></span>
+    <button class="btn btn-gray btn-sm" onclick="location.href='../admin/'">어드민 →</button>
+    <button class="btn btn-gray btn-sm" style="margin-left:6px" onclick="doLogout()">로그아웃</button>
+  </div>
+
+  <div class="tabs">
+    <div class="tab active" onclick="switchTab('dash')">📊 대시보드</div>
+    <div class="tab" onclick="switchTab('apt')">🏢 단지 관리</div>
+    <div class="tab" onclick="switchTab('diag')">🔍 실거래 진단</div>
+    <div class="tab" onclick="switchTab('acct')">👥 계정 관리</div>
+  </div>
+
+  <!-- ===== 대시보드 ===== -->
+  <div class="section active" id="sec-dash">
+    <div class="grid4" style="margin-bottom:18px">
+      <div class="stat-card"><div class="stat-num" id="st-brokers">-</div><div class="stat-label">등록 중개사</div><div class="stat-sub" id="st-brokers-sub"></div></div>
+      <div class="stat-card"><div class="stat-num" id="st-bapts">-</div><div class="stat-label">단지 계약</div><div class="stat-sub" id="st-bapts-sub">활성</div></div>
+      <div class="stat-card"><div class="stat-num" id="st-banners">-</div><div class="stat-label">활성 배너</div><div class="stat-sub" id="st-banners-sub"></div></div>
+      <div class="stat-card"><div class="stat-num" id="st-overrides">-</div><div class="stat-label">단지명 오버라이드</div><div class="stat-sub">실거래 수동 매핑</div></div>
+    </div>
+
+    <div class="grid2">
+      <div class="card">
+        <div class="card-title">📋 최근 가입 중개사</div>
+        <div id="dash-brokers-list"><div style="color:#718096;font-size:12px">불러오는 중...</div></div>
+      </div>
+      <div class="card">
+        <div class="card-title">📢 만료 임박 배너 <span style="font-size:11px;color:#718096;font-weight:400">(30일 이내)</span></div>
+        <div id="dash-banners-list"><div style="color:#718096;font-size:12px">불러오는 중...</div></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">🏢 단지별 계약 현황 <span style="font-size:11px;color:#718096;font-weight:400">(활성 상위 10)</span></div>
+      <div id="dash-apt-list"><div style="color:#718096;font-size:12px">불러오는 중...</div></div>
+    </div>
+  </div>
+
+  <!-- ===== 단지 관리 ===== -->
+  <div class="section" id="sec-apt">
+    <div class="card">
+      <div class="card-title">🔎 단지 검색</div>
+      <div class="search-row">
+        <input class="input" id="apt-search-q" placeholder="단지명 또는 kaptCode 입력" onkeydown="if(event.key==='Enter')searchApt()">
+        <button class="btn btn-gold" onclick="searchApt()">검색</button>
+      </div>
+      <div id="apt-search-result"></div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">⚙️ 단지명 오버라이드 <span style="font-size:11px;color:#718096;font-weight:400">K-apt명 ≠ 국토부명 수동 매핑</span></div>
+      <p style="font-size:12px;color:#718096;margin-bottom:14px">실거래 조회 시 국토부 DB에 등록된 이름이 K-apt와 달라 0건이 뜰 때, 수동으로 국토부 등록명을 지정합니다.</p>
+      <div class="grid2">
+        <div class="field"><label>kaptCode</label><input class="input" id="ov-code" placeholder="예: A12345678"></div>
+        <div class="field"><label>K-apt 단지명 (자동)</label><input class="input" id="ov-kapt-name" placeholder="K-apt 조회 후 자동입력" readonly style="opacity:.6"></div>
+      </div>
+      <div class="grid2">
+        <div class="field"><label>국토부 등록명 (직접입력)</label><input class="input" id="ov-molit-name" placeholder="국토부 aptNm 값 그대로"></div>
+        <div class="field"><label>메모</label><input class="input" id="ov-note" placeholder="예: 구분 이유"></div>
+      </div>
+      <div style="display:flex;gap:8px">
+        <button class="btn btn-blue btn-sm" onclick="ovLookup()">K-apt 조회</button>
+        <button class="btn btn-green" onclick="ovSave()">✅ 저장</button>
+      </div>
+      <div id="ov-msg" style="font-size:12px;margin-top:8px"></div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">📋 저장된 오버라이드 목록</div>
+      <div id="ov-list"><div style="color:#718096;font-size:12px">불러오는 중...</div></div>
+    </div>
+  </div>
+
+  <!-- ===== 실거래 진단 ===== -->
+  <div class="section" id="sec-diag">
+    <div class="card">
+      <div class="card-title">🔍 실거래 매칭 진단</div>
+      <p style="font-size:12px;color:#718096;margin-bottom:14px">kaptCode를 입력하면 K-apt 정보 조회 → 실거래 API 호출 → 매칭 결과를 단계별로 보여줍니다.</p>
+      <div class="search-row">
+        <input class="input" id="diag-code" placeholder="kaptCode 입력 (예: A12345678)">
+        <select class="sel" id="diag-ym" style="width:160px"></select>
+        <button class="btn btn-gold" onclick="runDiag()">진단 실행</button>
+      </div>
+      <div id="diag-result"></div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">📋 진단 이력 <span style="font-size:11px;color:#718096;font-weight:400">(이번 세션)</span></div>
+      <div id="diag-history" style="color:#718096;font-size:12px">진단 실행 후 여기에 기록됩니다.</div>
+    </div>
+  </div>
+
+  <!-- ===== 계정 관리 ===== -->
+  <div class="section" id="sec-acct">
+    <div class="grid2">
+      <div class="card">
+        <div class="card-title">➕ 어드민 계정 추가</div>
+        <div class="field"><label>중개사 이름</label><input class="input" id="acct-name" placeholder="이름"></div>
+        <div class="field"><label>전화번호</label><input class="input" id="acct-phone" placeholder="010-0000-0000"></div>
+        <div class="field"><label>이메일</label><input class="input" id="acct-email" placeholder="email@example.com"></div>
+        <div class="field"><label>비밀번호</label><input class="input" type="password" id="acct-pw" placeholder="초기 비밀번호"></div>
+        <div class="field">
+          <label>역할</label>
+          <select class="sel" id="acct-role">
+            <option value="broker">중개사</option>
+            <option value="specialist">전문중개사</option>
+          </select>
+        </div>
+        <button class="btn btn-green" style="width:100%;margin-top:4px" onclick="acctCreate()">계정 생성</button>
+        <div id="acct-msg" style="font-size:12px;margin-top:8px"></div>
+      </div>
+      <div class="card">
+        <div class="card-title">🔑 마스터 비밀번호 변경</div>
+        <div class="field"><label>현재 비밀번호</label><input class="input" type="password" id="pw-cur" placeholder="현재 비밀번호"></div>
+        <div class="field"><label>새 비밀번호</label><input class="input" type="password" id="pw-new" placeholder="새 비밀번호"></div>
+        <div class="field"><label>새 비밀번호 확인</label><input class="input" type="password" id="pw-new2" placeholder="재입력"></div>
+        <button class="btn btn-gold" style="width:100%;margin-top:4px" onclick="changeMstPw()">변경</button>
+        <div id="pw-msg" style="font-size:12px;margin-top:8px"></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">👥 중개사 계정 목록</div>
+      <div class="search-row">
+        <input class="input" id="acct-search" placeholder="이름/전화번호 검색" oninput="filterAcct(this.value)">
+      </div>
+      <div id="acct-list"><div style="color:#718096;font-size:12px">불러오는 중...</div></div>
+    </div>
+  </div>
+</div>
+
+<div id="toast"></div>
+
+<script>
+const SUPABASE_URL='https://nqnbbccazjanjhktknyz.supabase.co';
+const SUPABASE_ANON='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5xbmJiY2Nhemphbmpoa3Rrbnl6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzk0OTA5NDQsImV4cCI6MjA5NTA2Njk0NH0.rT_hIwTJyBnCDGyudmJYvN44G67WgZ9-bSVCzShiRjI';
+const hdrs={'Content-Type':'application/json',apikey:SUPABASE_ANON,Authorization:'Bearer '+SUPABASE_ANON,Prefer:'return=representation'};
+
+let MST_PW = localStorage.getItem('mst_pw') || '9999';
+let allBrokers = [];
+let diagHistory = [];
+
+function ge(id){return document.getElementById(id);}
+function gv(id){return (ge(id)||{}).value||'';}
+function toast(msg,err){var t=ge('toast');t.textContent=msg;t.style.background=err?'#742a2a':'#276749';t.style.display='block';setTimeout(function(){t.style.display='none';},2800);}
+function sb(path,opts){return fetch(SUPABASE_URL+'/rest/v1/'+path,Object.assign({headers:hdrs},opts||{})).then(function(r){return r.json();});}
+
+// ===== 로그인 =====
+function doMstLogin(){
+  var pw=gv('mst-pw');
+  if(pw===MST_PW){
+    ge('login-screen').style.display='none';
+    ge('main-screen').style.display='block';
+    sessionStorage.setItem('mst_auth','1');
+    loadDash();
+    initDiagYm();
+    loadOvList();
+    loadAcctList();
+  }else{
+    ge('login-err').textContent='비밀번호가 틀렸습니다';
+  }
+}
+function doLogout(){sessionStorage.removeItem('mst_auth');location.reload();}
+if(sessionStorage.getItem('mst_auth')==='1'){doMstLogin();}
+
+// ===== 탭 =====
+function switchTab(id){
+  document.querySelectorAll('.tab').forEach(function(t,i){t.classList.toggle('active',['dash','apt','diag','acct'][i]===id);});
+  document.querySelectorAll('.section').forEach(function(s){s.classList.toggle('active',s.id==='sec-'+id);});
+}
+
+// ===== 대시보드 =====
+async function loadDash(){
+  var today=new Date().toISOString().split('T')[0];
+  // 중개사 수
+  var brokers=await sb('brokers?select=id,name,created_at&order=created_at.desc');
+  ge('st-brokers').textContent=Array.isArray(brokers)?brokers.length:'-';
+  ge('st-brokers-sub').textContent='최근 '+((Array.isArray(brokers)&&brokers[0])?brokers[0].name:'');
+  allBrokers=Array.isArray(brokers)?brokers:[];
+  // 활성 단지계약
+  var bapts=await sb('broker_apts?active=eq.true&expires_at=gte.'+today+'&select=id,kapt_code,apt_name');
+  ge('st-bapts').textContent=Array.isArray(bapts)?bapts.length:'-';
+  // 활성 배너
+  var banners=await sb('banners?active=eq.true&expires_at=gte.'+today+'&select=id,business_name,expires_at');
+  ge('st-banners').textContent=Array.isArray(banners)?banners.length:'-';
+  // 오버라이드 수
+  var ovs=await sb('apt_name_map?select=id').catch(function(){return [];});
+  ge('st-overrides').textContent=Array.isArray(ovs)?ovs.length:'-';
+
+  // 최근 중개사 5명
+  var bl=ge('dash-brokers-list');
+  if(allBrokers.length){
+    bl.innerHTML='<table><tr><th>이름</th><th>가입일</th></tr>'+
+      allBrokers.slice(0,5).map(function(b){
+        return '<tr><td>'+b.name+'</td><td style="color:#718096">'+((b.created_at||'').slice(0,10)||'-')+'</td></tr>';
+      }).join('')+'</table>';
+  }else{bl.innerHTML='<div style="color:#718096;font-size:12px">없음</div>';}
+
+  // 만료 임박 배너
+  var soon=new Date();soon.setDate(soon.getDate()+30);
+  var soonStr=soon.toISOString().split('T')[0];
+  var expBanners=(Array.isArray(banners)?banners:[]).filter(function(b){return b.expires_at&&b.expires_at<=soonStr;});
+  var bbl=ge('dash-banners-list');
+  if(expBanners.length){
+    bbl.innerHTML='<table><tr><th>업체명</th><th>만료일</th></tr>'+
+      expBanners.map(function(b){
+        var daysLeft=Math.ceil((new Date(b.expires_at)-new Date())/86400000);
+        return '<tr><td>'+b.business_name+'</td><td><span class="badge '+(daysLeft<=7?'badge-off':'badge-warn')+'">D-'+daysLeft+'</span></td></tr>';
+      }).join('')+'</table>';
+  }else{bbl.innerHTML='<div style="color:#68d391;font-size:12px">만료 임박 배너 없음</div>';}
+
+  // 단지별 계약 현황
+  var aptMap={};
+  (Array.isArray(bapts)?bapts:[]).forEach(function(a){
+    var key=a.kapt_code+'|'+(a.apt_name||'');
+    if(!aptMap[key])aptMap[key]={code:a.kapt_code,name:a.apt_name,cnt:0};
+    aptMap[key].cnt++;
+  });
+  var aptArr=Object.values(aptMap).sort(function(a,b){return b.cnt-a.cnt;}).slice(0,10);
+  var al=ge('dash-apt-list');
+  if(aptArr.length){
+    al.innerHTML='<table><tr><th>단지명</th><th>kaptCode</th><th>계약 수</th></tr>'+
+      aptArr.map(function(a){
+        return '<tr><td>'+a.name+'</td><td style="color:#718096;font-size:11px">'+a.code+'</td><td><span class="badge badge-on">'+a.cnt+'건</span></td></tr>';
+      }).join('')+'</table>';
+  }else{al.innerHTML='<div style="color:#718096;font-size:12px">없음</div>';}
+}
+
+// ===== 단지 검색 =====
+async function searchApt(){
+  var q=gv('apt-search-q').trim();
+  if(!q)return;
+  var res=ge('apt-search-result');
+  res.innerHTML='<div style="color:#718096;font-size:12px">검색 중...</div>';
+  try{
+    var KEY=encodeURIComponent('8dfbbd6dc2fff98040507b95b9688bc24cbdfb35e253494d734a697d4658f1cf');
+    var isCode=/^[A-Z]\d+$/.test(q)||/^\d{10}$/.test(q);
+    var url=isCode
+      ?'https://apis.data.go.kr/1613000/AptBasisInfoServiceV4/getAphusBassInfoV4?serviceKey='+KEY+'&kaptCode='+q+'&_type=json'
+      :'https://apis.data.go.kr/1613000/AptBasisInfoServiceV4/getAphusBassInfoV4?serviceKey='+KEY+'&kaptName='+encodeURIComponent(q)+'&_type=json&numOfRows=20';
+    var data=await fetch(url,{signal:AbortSignal.timeout(7000)}).then(function(r){return r.json();});
+    var items=data?.response?.body?.items?.item;
+    if(!items){res.innerHTML='<div style="color:#fc8181;font-size:12px">결과 없음</div>';return;}
+    var arr=Array.isArray(items)?items:[items];
+    res.innerHTML='<table><tr><th>단지명</th><th>kaptCode</th><th>법정동코드</th><th>주소</th><th></th></tr>'+
+      arr.map(function(a){
+        return '<tr><td style="font-weight:600">'+a.kaptName+'</td><td style="font-size:11px;color:#718096">'+a.kaptCode+'</td>'
+          +'<td style="font-size:11px;color:#718096">'+a.bjdCode+'</td>'
+          +'<td style="font-size:11px">'+((a.kaptAddr||a.doroJuso)||'-')+'</td>'
+          +'<td><button class="btn btn-blue btn-sm" onclick="fillOverride(\''+a.kaptCode+'\',\''+a.kaptName+'\')">오버라이드</button>'
+          +' <button class="btn btn-gold btn-sm" onclick="fillDiag(\''+a.kaptCode+'\')">진단</button></td></tr>';
+      }).join('')+'</table>';
+  }catch(e){res.innerHTML='<div style="color:#fc8181;font-size:12px">조회 실패: '+e.message+'</div>';}
+}
+
+// ===== 오버라이드 =====
+function fillOverride(code,name){
+  switchTab('apt');
+  ge('ov-code').value=code;
+  ge('ov-kapt-name').value=name;
+  ge('ov-molit-name').focus();
+}
+async function ovLookup(){
+  var code=gv('ov-code').trim();if(!code){toast('kaptCode 입력',true);return;}
+  var msg=ge('ov-msg');msg.textContent='조회 중...';msg.style.color='#718096';
+  try{
+    var KEY=encodeURIComponent('8dfbbd6dc2fff98040507b95b9688bc24cbdfb35e253494d734a697d4658f1cf');
+    var data=await fetch('https://apis.data.go.kr/1613000/AptBasisInfoServiceV4/getAphusBassInfoV4?serviceKey='+KEY+'&kaptCode='+code+'&_type=json',{signal:AbortSignal.timeout(7000)}).then(function(r){return r.json();});
+    var item=data?.response?.body?.item;
+    if(!item){msg.textContent='K-apt에서 단지를 찾을 수 없습니다';msg.style.color='#fc8181';return;}
+    ge('ov-kapt-name').value=item.kaptName||'';
+    msg.textContent='K-apt 조회 완료: '+item.kaptName+' / '+item.bjdCode+' / '+(item.kaptAddr||'주소없음');
+    msg.style.color='#68d391';
+  }catch(e){msg.textContent='오류: '+e.message;msg.style.color='#fc8181';}
+}
+async function ovSave(){
+  var code=gv('ov-code').trim(),kname=gv('ov-kapt-name').trim(),mname=gv('ov-molit-name').trim();
+  if(!code||!mname){toast('kaptCode와 국토부 등록명 필수',true);return;}
+  var body={kapt_code:code,kapt_name:kname,molit_name:mname,note:gv('ov-note').trim()};
+  var r=await fetch(SUPABASE_URL+'/rest/v1/apt_name_map',{method:'POST',headers:{...hdrs,Prefer:'resolution=merge-duplicates'},body:JSON.stringify(body)});
+  if(r.ok){toast('저장 완료!');loadOvList();ge('ov-msg').textContent='';['ov-code','ov-kapt-name','ov-molit-name','ov-note'].forEach(function(id){ge(id).value='';});}
+  else{toast('저장 실패',true);}
+}
+async function ovDelete(code){
+  if(!confirm('"'+code+'" 오버라이드 삭제?'))return;
+  await fetch(SUPABASE_URL+'/rest/v1/apt_name_map?kapt_code=eq.'+code,{method:'DELETE',headers:hdrs});
+  toast('삭제됨');loadOvList();
+}
+async function loadOvList(){
+  var rows=await sb('apt_name_map?select=kapt_code,kapt_name,molit_name,note&order=kapt_code').catch(function(){return [];});
+  var el=ge('ov-list');
+  if(!Array.isArray(rows)||!rows.length){el.innerHTML='<div style="color:#718096;font-size:12px">저장된 오버라이드 없음<br><small style="color:#4a5568">Supabase에 apt_name_map 테이블이 없으면 아래 SQL을 실행하세요.</small><br><code style="font-size:10px;color:#90cdf4">CREATE TABLE apt_name_map (kapt_code text PRIMARY KEY, kapt_name text, molit_name text, note text);</code></div>';return;}
+  el.innerHTML='<table><tr><th>kaptCode</th><th>K-apt명</th><th>국토부 등록명</th><th>메모</th><th></th></tr>'+
+    rows.map(function(r){
+      return '<tr><td style="font-size:11px;color:#718096">'+r.kapt_code+'</td><td>'+r.kapt_name+'</td><td style="color:#68d391;font-weight:600">'+r.molit_name+'</td><td style="color:#718096">'+((r.note)||'')+'</td><td><button class="btn btn-red btn-sm" onclick="ovDelete(\''+r.kapt_code+'\')">삭제</button></td></tr>';
+    }).join('')+'</table>';
+}
+
+// ===== 실거래 진단 =====
+function initDiagYm(){
+  var sel=ge('diag-ym');
+  var now=new Date();
+  var opts='';
+  for(var i=0;i<24;i++){
+    var d=new Date(now.getFullYear(),now.getMonth()-i,1);
+    var ym=d.getFullYear()+String(d.getMonth()+1).padStart(2,'0');
+    var label=d.getFullYear()+'.'+(d.getMonth()+1)+'월';
+    opts+='<option value="'+ym+'">'+label+'</option>';
+  }
+  sel.innerHTML=opts;
+}
+function fillDiag(code){
+  switchTab('diag');
+  ge('diag-code').value=code;
+}
+async function runDiag(){
+  var code=gv('diag-code').trim(),ym=gv('diag-ym');
+  if(!code){toast('kaptCode 입력',true);return;}
+  var resEl=ge('diag-result');
+  resEl.innerHTML='<div class="diag-box diag-info">진단 실행 중...</div>';
+
+  var lines=[];
+  var addLine=function(cls,txt){lines.push('<span class="'+cls+'">'+txt+'</span>');};
+
+  try{
+    // 1. K-apt 조회
+    addLine('diag-info','[1] K-apt API 조회 → kaptCode: '+code);
+    var KEY=encodeURIComponent('8dfbbd6dc2fff98040507b95b9688bc24cbdfb35e253494d734a697d4658f1cf');
+    var v4=await fetch('https://apis.data.go.kr/1613000/AptBasisInfoServiceV4/getAphusBassInfoV4?serviceKey='+KEY+'&kaptCode='+code+'&_type=json',{signal:AbortSignal.timeout(7000)}).then(function(r){return r.json();});
+    var item=v4?.response?.body?.item;
+    if(!item){addLine('diag-err','    ❌ K-apt 단지 없음');resEl.innerHTML='<div class="diag-box">'+lines.join('\n')+'</div>';return;}
+    addLine('diag-ok','    ✅ 단지명(kaptName): '+item.kaptName);
+    addLine('diag-ok','    ✅ 법정동코드(bjdCode): '+item.bjdCode);
+    addLine('diag-ok','    ✅ 주소(kaptAddr): '+(item.kaptAddr||'없음'));
+
+    // 2. 오버라이드 확인
+    var ov=await sb('apt_name_map?kapt_code=eq.'+code+'&select=molit_name').catch(function(){return [];});
+    if(Array.isArray(ov)&&ov[0]){
+      addLine('diag-warn','[2] 오버라이드 적용됨 → 국토부 검색명: '+ov[0].molit_name);
+    }else{
+      addLine('diag-info','[2] 오버라이드 없음 → K-apt명 그대로 사용: '+item.kaptName);
+    }
+
+    // 3. 실거래 API 호출
+    var lawdCd=(item.bjdCode||'').substring(0,5);
+    addLine('diag-info','[3] 국토부 실거래 API → LAWD_CD: '+lawdCd+' / DEAL_YMD: '+ym);
+    var buyUrl='https://apis.data.go.kr/1613000/RTMSDataSvcAptTrade/getRTMSDataSvcAptTrade?serviceKey='+KEY+'&LAWD_CD='+lawdCd+'&DEAL_YMD='+ym+'&numOfRows=1000&_type=json';
+    var raw=await fetch(buyUrl,{signal:AbortSignal.timeout(8000)}).then(function(r){return r.json();});
+    var items=raw?.response?.body?.items?.item;
+    var arr=items?(Array.isArray(items)?items:[items]):[];
+    addLine('diag-info','    전체 거래 수: '+arr.length+'건 ('+ym+' 해당 시군구 전체)');
+
+    // 4. 이름 매칭
+    var searchName=(Array.isArray(ov)&&ov[0])?ov[0].molit_name:item.kaptName;
+    var norm=function(s){return String(s||'').trim().replace(/[\s()（）·\-\/]/g,'').toUpperCase().replace(/아파트$/,'');};
+    var myNorm=norm(searchName);
+    var nameMatched=arr.filter(function(x){return norm(x.aptNm)===myNorm&&!(x.cdealType||'').trim();});
+    if(nameMatched.length){
+      addLine('diag-ok','[4] 단지명 매칭: '+nameMatched.length+'건 ✅ ("'+searchName+'" 기준)');
+    }else{
+      addLine('diag-err','[4] 단지명 매칭: 0건 ❌ ("'+searchName+'" 기준)');
+      // 같은 동 단지명 후보
+      var dongPart='';
+      var addr=(item.kaptAddr||'').replace(/\s+/g,' ').split(' ');
+      var passed=false;
+      for(var pi=0;pi<addr.length;pi++){
+        var p=addr[pi];if(!passed){if(/[시군구]$/.test(p))passed=true;continue;}
+        if(/[동읍면리가]$/.test(p)){dongPart=p;break;}
+      }
+      if(dongPart){
+        var cands=[...new Set(arr.filter(function(x){return (x.umdNm||'').includes(dongPart.substring(0,2))&&!(x.cdealType||'').trim();}).map(function(x){return x.aptNm+'(지번:'+x.jibun+')';}))].slice(0,6);
+        if(cands.length)addLine('diag-warn','    같은 동 후보: '+cands.join(' / '));
+        else addLine('diag-warn','    같은 동 거래 없음 (법정동: '+dongPart+')');
+      }
+    }
+
+    // 5. 주소 매칭 (지번)
+    var jibunFull='';
+    var addrParts=(item.kaptAddr||'').replace(/\s+/g,' ').split(' ');
+    var lastP=addrParts[addrParts.length-1]||'';
+    if(/^\d/.test(lastP))jibunFull=lastP.replace(/번지$/,'');
+    if(jibunFull){
+      var myBon=parseInt(jibunFull.split('-')[0]);
+      var addrMatched=arr.filter(function(x){
+        var xb=parseInt((x.jibun||'').split('-')[0]);
+        return xb&&xb===myBon&&!(x.cdealType||'').trim();
+      });
+      if(addrMatched.length){
+        addLine('diag-ok','[5] 지번 매칭: '+addrMatched.length+'건 ✅ (지번: '+jibunFull+') → 단지명: '+[...new Set(addrMatched.map(function(x){return x.aptNm;}))].join(', '));
+        if(!nameMatched.length)addLine('diag-warn','    → 주소 우선 매칭으로 데이터 표시됨 (단지명 달라도 OK)');
+      }else{
+        addLine('diag-err','[5] 지번 매칭: 0건 ❌ (지번: '+(jibunFull||'정보없음')+')');
+        addLine('diag-warn','    → kaptAddr에 지번이 없거나 국토부 DB와 지번 다름. 오버라이드 필요');
+      }
+    }else{
+      addLine('diag-warn','[5] 지번 정보 없음 (kaptAddr 파싱 실패) → 단지명 매칭에만 의존');
+    }
+
+    // 히스토리 저장
+    diagHistory.unshift({code:code,name:item.kaptName,ym:ym,result:nameMatched.length||addrMatched&&addrMatched.length||0,ok:!!(nameMatched.length||(addrMatched&&addrMatched.length))});
+    renderDiagHistory();
+
+  }catch(e){addLine('diag-err','오류 발생: '+e.message);}
+  resEl.innerHTML='<div class="diag-box">'+lines.join('\n')+'</div>';
+}
+function renderDiagHistory(){
+  var el=ge('diag-history');
+  if(!diagHistory.length){el.innerHTML='<div style="color:#718096;font-size:12px">없음</div>';return;}
+  el.innerHTML='<table><tr><th>kaptCode</th><th>단지명</th><th>조회월</th><th>결과</th></tr>'+
+    diagHistory.slice(0,10).map(function(h){
+      return '<tr><td style="font-size:11px;color:#718096">'+h.code+'</td><td>'+h.name+'</td><td>'+h.ym+'</td><td><span class="badge '+(h.ok?'badge-on':'badge-off')+'">'+(h.ok?'✅ '+h.result+'건':'❌ 0건')+'</span></td></tr>';
+    }).join('')+'</table>';
+}
+
+// ===== 계정 관리 =====
+async function acctCreate(){
+  var name=gv('acct-name').trim(),phone=gv('acct-phone').trim(),email=gv('acct-email').trim(),pw=gv('acct-pw'),role=gv('acct-role');
+  var msg=ge('acct-msg');
+  if(!name||!phone){msg.textContent='이름/전화번호 필수';msg.style.color='#fc8181';return;}
+  var body={name,phone,email:email||null,password:pw||null,type:role,active:true};
+  var r=await fetch(SUPABASE_URL+'/rest/v1/brokers',{method:'POST',headers:hdrs,body:JSON.stringify(body)});
+  if(r.ok){toast('계정 생성!');msg.textContent='생성 완료: '+name;msg.style.color='#68d391';loadAcctList();['acct-name','acct-phone','acct-email','acct-pw'].forEach(function(id){ge(id).value='';});}
+  else{var err=await r.json();msg.textContent='실패: '+(err.message||JSON.stringify(err));msg.style.color='#fc8181';}
+}
+async function acctDelete(id,name){
+  if(!confirm('"'+name+'" 계정 삭제?'))return;
+  await fetch(SUPABASE_URL+'/rest/v1/brokers?id=eq.'+id,{method:'DELETE',headers:hdrs});
+  toast('삭제됨');loadAcctList();
+}
+async function loadAcctList(){
+  var rows=await sb('brokers?select=id,name,phone,email,type,active,created_at&order=created_at.desc').catch(function(){return [];});
+  allBrokers=Array.isArray(rows)?rows:[];
+  renderAcctTable(allBrokers);
+}
+function renderAcctTable(data){
+  var el=ge('acct-list');
+  if(!data.length){el.innerHTML='<div style="color:#718096;font-size:12px">없음</div>';return;}
+  el.innerHTML='<table><tr><th>이름</th><th>전화번호</th><th>이메일</th><th>타입</th><th>상태</th><th>가입일</th><th></th></tr>'+
+    data.map(function(b){
+      return '<tr><td style="font-weight:600">'+b.name+'</td><td>'+((b.phone||'-'))+'</td><td style="font-size:11px;color:#718096">'+((b.email||'-'))+'</td>'
+        +'<td><span class="badge badge-warn">'+(b.type||'-')+'</span></td>'
+        +'<td><span class="badge '+(b.active?'badge-on':'badge-off')+'">'+(b.active?'활성':'비활성')+'</span></td>'
+        +'<td style="color:#718096;font-size:11px">'+((b.created_at||'').slice(0,10)||'-')+'</td>'
+        +'<td><button class="btn btn-red btn-sm" onclick="acctDelete(\''+b.id+'\',\''+b.name+'\')">삭제</button></td></tr>';
+    }).join('')+'</table>';
+}
+function filterAcct(q){
+  var filtered=allBrokers.filter(function(b){return !q||(b.name||'').includes(q)||(b.phone||'').includes(q);});
+  renderAcctTable(filtered);
+}
+
+// ===== 마스터 PW 변경 =====
+function changeMstPw(){
+  var msg=ge('pw-msg');
+  var cur=gv('pw-cur'),nw=gv('pw-new'),nw2=gv('pw-new2');
+  if(cur!==MST_PW){msg.textContent='현재 비밀번호가 틀렸습니다';msg.style.color='#fc8181';return;}
+  if(!nw||nw!==nw2){msg.textContent='새 비밀번호가 일치하지 않습니다';msg.style.color='#fc8181';return;}
+  MST_PW=nw;
+  localStorage.setItem('mst_pw',nw);
+  msg.textContent='변경 완료!';msg.style.color='#68d391';
+  ['pw-cur','pw-new','pw-new2'].forEach(function(id){ge(id).value='';});
+}
+</script>
+</body>
+</html>
