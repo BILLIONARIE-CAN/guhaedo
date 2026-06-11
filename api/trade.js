@@ -211,8 +211,9 @@ export default async function handler(req, res) {
 
   const buyBase  = 'https://apis.data.go.kr/1613000/RTMSDataSvcAptTrade/getRTMSDataSvcAptTrade';
   const rentBase = 'https://apis.data.go.kr/1613000/RTMSDataSvcAptRent/getRTMSDataSvcAptRent';
+  const preBase  = 'https://apis.data.go.kr/1613000/RTMSDataSvcSilvTrade/getRTMSDataSvcSilvTrade'; // 분양권/입주권 전매
 
-  const [buyRaw, rentRaw] = await Promise.all([
+  const [buyRaw, rentRaw, preRaw] = await Promise.all([
     Promise.all(months.map(m =>
       fetch(`${buyBase}?serviceKey=${KEY}&LAWD_CD=${lawdCd}&DEAL_YMD=${m}&numOfRows=1000&_type=json`, { signal: AbortSignal.timeout(5000) })
         .then(r => r.json()).then(parseItems).catch(() => [])
@@ -220,7 +221,13 @@ export default async function handler(req, res) {
     Promise.all(months.map(m =>
       fetch(`${rentBase}?serviceKey=${KEY}&LAWD_CD=${lawdCd}&DEAL_YMD=${m}&numOfRows=1000&_type=json`, { signal: AbortSignal.timeout(5000) })
         .then(r => r.json()).then(parseItems).catch(() => [])
-    ))
+    )),
+    // 분양권은 준공+1년 이후엔 거래 없음 → 해당 월만 호출 (builtYear 모르면 전부 호출)
+    Promise.all(months.map(m => {
+      if (builtYear && parseInt(m.slice(0, 4)) > builtYear + 1) return Promise.resolve([]);
+      return fetch(`${preBase}?serviceKey=${KEY}&LAWD_CD=${lawdCd}&DEAL_YMD=${m}&numOfRows=1000&_type=json`, { signal: AbortSignal.timeout(5000) })
+        .then(r => r.json()).then(parseItems).catch(() => []);
+    }))
   ]);
 
   const buy = buyRaw.flat().filter(x => aptMatch(x)).map(x => ({
@@ -228,6 +235,17 @@ export default async function handler(req, res) {
     day: String(x.dealDay||'').trim(), p: parsePrice(x.dealAmount),
     a: parseFloat(x.excluUseAr||0), f: String(x.floor||'').trim()
   }));
+
+  // 분양권/입주권 전매 → 매매 시리즈에 병합 (pre: '분'|'입' 플래그로 구분)
+  // 분양권 데이터엔 buildYear 없음 → buildYearMatch 자동 통과, 주소 매칭으로 식별
+  preRaw.flat().filter(x => aptMatch(x)).forEach(x => {
+    buy.push({
+      t: `${parseInt(x.dealYear)}-${String(parseInt(x.dealMonth)||1).padStart(2,'0')}`,
+      day: String(x.dealDay||'').trim(), p: parsePrice(x.dealAmount),
+      a: parseFloat(x.excluUseAr||0), f: String(x.floor||'').trim(),
+      pre: String(x.ownershipGbn||'').trim().startsWith('입') ? '입' : '분'
+    });
+  });
 
   const allRent = rentRaw.flat().filter(x => aptMatch(x));
 
@@ -246,7 +264,7 @@ export default async function handler(req, res) {
   // 매칭 0건 진단: 같은 법정동에 국토부가 등록해둔 단지명 후보 반환
   let candidates;
   if (!buy.length && !jeonse.length && !monthly.length) {
-    const pool = [...buyRaw.flat(), ...rentRaw.flat()];
+    const pool = [...buyRaw.flat(), ...rentRaw.flat(), ...preRaw.flat()];
     const inDong = pool.filter(x => dongMatch(x) && !(x.cdealType || '').trim());
     const seen = new Set();
     candidates = [];

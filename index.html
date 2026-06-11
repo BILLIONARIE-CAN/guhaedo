@@ -2005,6 +2005,13 @@ function openAptDetail(d){
     })();
     // 준공년도 추출 (예: "2026년 1월", "2026", "202601" 등)
     var builtYear = parseInt((d.built||'').replace(/[^0-9]/g,'').substring(0,4))||0;
+    // 기본 조회 범위: 분양 시점(준공 3년 전)~현재 → 분양권 거래까지 전체 커버
+    var nowY=new Date().getFullYear();
+    var fromY=builtYear>2000?Math.max(2006,builtYear-3):nowY-5;
+    tradeStartYear=fromY;tradeEndYear=nowY;
+    TRADE_MONTHS=buildTradeMonths(fromY,nowY);
+    var feR=ge('trade-year-from'),teR=ge('trade-year-to');
+    if(feR&&teR){feR.value=String(fromY);teR.value=String(nowY);updateDualRangeUI();}
     loadTradeChart(d.code, jibunForTrade, builtYear);
   }
 }
@@ -3446,7 +3453,7 @@ function renderTradeChart(){
     var p=curTradeTab==='monthly'?x.m:x.p;
     if(!p)return;
     if(!monthBuckets[idx])monthBuckets[idx]=[];
-    monthBuckets[idx].push({p:p,a:x.a||0,f:x.f||'',d:x.d||0,day:x.day||''});
+    monthBuckets[idx].push({p:p,a:x.a||0,f:x.f||'',d:x.d||0,day:x.day||'',pre:x.pre||''});
     prices.push(p);
     if(!monthSums[idx]){monthSums[idx]=0;monthCnts[idx]=0;}
     monthSums[idx]+=p;monthCnts[idx]++;
@@ -3457,7 +3464,7 @@ function renderTradeChart(){
     var base=parseInt(idxStr);
     grp.forEach(function(item,i){
       var jitter=n>1?((i/(n-1))-0.5)*0.82:0;
-      scatter.push({x:base+jitter,y:item.p,a:item.a,f:item.f,d:item.d,day:item.day});
+      scatter.push({x:base+jitter,y:item.p,a:item.a,f:item.f,d:item.d,day:item.day,pre:item.pre||''});
     });
   });
   if(!prices.length){
@@ -3545,7 +3552,7 @@ function renderTradeChart(){
     data:{
       datasets:[
         {type:'bar',label:'건수',data:countData,backgroundColor:barColors,yAxisID:'yc',order:3},
-        {type:'scatter',label:'개별',data:scatter,backgroundColor:dc,pointRadius:1.5,pointHoverRadius:4,xAxisID:'x',yAxisID:'y',order:3},
+        {type:'scatter',label:'개별',data:scatter,backgroundColor:function(c){var r=c.raw;return r&&r.pre?'rgba(142,68,173,0.6)':dc;},pointRadius:1.5,pointHoverRadius:4,xAxisID:'x',yAxisID:'y',order:3},
         {type:'line',label:'월평균',data:lineData,borderColor:lc,backgroundColor:'transparent',borderWidth:2,pointRadius:4,pointHoverRadius:6,pointBackgroundColor:lc,fill:false,tension:0.3,xAxisID:'x',yAxisID:'y',order:1}
       ]
     },
@@ -3568,7 +3575,8 @@ function renderTradeChart(){
                 var p=fmtP(d.y);
                 if(c.dataset.label==='월평균')return '평균 '+p;
                 if(curTradeTab==='monthly')return '월세 '+p+'만'+(d.d?' 보증'+fmtP(d.d):'')+(d.a?' '+Math.round(d.a)+'㎡':'');
-                return p+(d.a?' '+Math.round(d.a)+'㎡':'')+(d.f?' '+d.f+'층':'');
+                var preLbl=d.pre?(d.pre==='입'?'[입주권] ':'[분양권] '):'';
+                return preLbl+p+(d.a?' '+Math.round(d.a)+'㎡':'')+(d.f?' '+d.f+'층':'');
               }
               if(c.dataset.label==='건수')return '거래 '+c.raw+'건';
               return '';
@@ -3602,7 +3610,7 @@ function renderTradeTable(){
   // 매매+전세+월세 전체 합산
   var all=[];
   if(curTableTab==='all'||curTableTab==='buy')
-    (raw.buy||[]).forEach(function(x){all.push({type:'buy',t:x.t,day:x.day||'',p:x.p,a:x.a,f:x.f||''});});
+    (raw.buy||[]).forEach(function(x){all.push({type:'buy',t:x.t,day:x.day||'',p:x.p,a:x.a,f:x.f||'',pre:x.pre||''});});
   if(curTableTab==='all'||curTableTab==='jeonse')
     (raw.jeonse||[]).forEach(function(x){all.push({type:'jeonse',t:x.t,day:x.day||'',p:x.p,a:x.a,f:x.f||x.floor||''});});
   if(curTableTab==='all'||curTableTab==='monthly')
@@ -3640,6 +3648,7 @@ function renderTradeTable(){
     var badge='';
     var infoHtml='';
     if(x.type==='buy'){
+      if(x.pre){col='#8e44ad';lbl=x.pre==='입'?'입주권':'분양권';}
       if(x.p===maxBuy)badge='<span style="border:1px solid #e44;color:#e44;font-size:9px;padding:1px 3px;border-radius:2px;margin-right:3px">최고가</span>';
       infoHtml=badge+'<span style="color:'+col+';font-weight:700">'+lbl+' '+fmtPTable(x.p)+'</span>';
     }else if(x.type==='jeonse'){
@@ -3714,7 +3723,6 @@ function loadTradeChart(code, aptJibun, builtYear){
   tradeCurrentCode=code;tradeCurrentJibun=aptJibun||'';
   if(builtYear)tradeCurrentBuiltYear=builtYear; // 연도 필터 재로드 시 유지
   builtYear=builtYear||tradeCurrentBuiltYear;
-  var tradeMinYear=builtYear>2000?builtYear-2:0; // 준공 2년 전부터만 허용
   tradeRawData=null;curTradeTab='buy';tradeTablePage=1;curTableTab='all';
   // 테이블 탭 버튼 초기화
   ['all','buy','jeonse','monthly'].forEach(function(t){var el=ge('ttab-'+t);if(!el)return;var act=t==='all';el.style.background=act?'var(--green)':'var(--bg)';el.style.color=act?'#fff':'var(--text2)';el.style.fontWeight=act?'700':'400';el.style.borderColor=act?'var(--green)':'var(--border)';});
@@ -3791,9 +3799,9 @@ function loadTradeChart(code, aptJibun, builtYear){
           (resolvedJibunFull||resolvedJibunNum)&&('지번: '+(resolvedJibunFull||resolvedJibunNum))
         ].filter(Boolean).join(' | ');
       }
-      (batch.buy||[]).forEach(function(x){if(!tradeMinYear||parseInt((x.t||'').substring(0,4))>=tradeMinYear)accum.buy.push(x);});
-      (batch.jeonse||[]).forEach(function(x){if(!tradeMinYear||parseInt((x.t||'').substring(0,4))>=tradeMinYear)accum.jeonse.push(x);});
-      (batch.monthly||[]).forEach(function(x){if(!tradeMinYear||parseInt((x.t||'').substring(0,4))>=tradeMinYear)accum.monthly.push(x);});
+      (batch.buy||[]).forEach(function(x){accum.buy.push(x);});
+      (batch.jeonse||[]).forEach(function(x){accum.jeonse.push(x);});
+      (batch.monthly||[]).forEach(function(x){accum.monthly.push(x);});
     }
     completed++;
     // 진행상황만 표시, 렌더링은 전부 끝난 후 한 번만
