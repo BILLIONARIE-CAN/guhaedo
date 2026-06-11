@@ -217,7 +217,8 @@ async function pmap(arr,fn,limit){
 }
 
 // ───────────────────────── 매칭 로직 (api/trade.js와 동일) ─────────────────────────
-function nrm(s){return String(s||'').trim().replace(/[\s()（）·\-\/]/g,'').toUpperCase().replace(/(아파트|APT)$/,'');}
+function nrm(s){var t=String(s||'').trim().replace(/[\s()（）·\-\/]/g,'').toUpperCase();for(var i=0;i<2;i++)t=t.replace(/(아파트|APT|맨션|관리사무소|관리동)$/,'');return t;}
+function jbOk(a,b){return !!(a&&b&&a.bon===b.bon&&(a.bu==null||b.bu==null||a.bu===b.bu));}
 function parseJb(s){var m=String(s||'').trim().match(/^산?(\d+)(?:-(\d+))?/);return m?{bon:parseInt(m[1]),bu:m[2]!=null?parseInt(m[2]):null}:null;}
 function parseAddr(addr){
   var parts=String(addr||'').trim().replace(/\s+/g,' ').split(' ');
@@ -247,24 +248,28 @@ function dongOk(cx,it){
 function matchItem(cx,it){
   if(it.c)return false;
   if(cx.by&&it.by&&(it.by<cx.by-1||it.by>cx.by+1))return false;
-  if(cx.jb&&cx.dong){
-    var xj=parseJb(it.j);
-    if(xj&&xj.bon===cx.jb.bon&&(cx.jb.bu==null||xj.bu==null||xj.bu===cx.jb.bu)&&dongOk(cx,it))return true;
-  }
+  var xj=parseJb(it.j);
+  // ① 주소(법정동+지번) 일치
+  if(cx.jb&&cx.dong&&xj&&xj.bon===cx.jb.bon&&(cx.jb.bu==null||xj.bu==null||xj.bu===cx.jb.bu)&&dongOk(cx,it))return true;
   var n=nrm(it.n);
   if(!n||!cx.nm)return false;
-  if(!dongOk(cx,it))return false;
+  // ② 완전일치
   if(n===cx.nm){
-    // 완전일치 + 법정동 일치 → 지번 무시 (모지번/합필로 지번 다른 경우 흔함)
-    if(cx.dong)return true;
-    var x2=parseJb(it.j);return !x2||!cx.jb||x2.bon===cx.jb.bon;
+    if(dongOk(cx,it)){if(cx.dong)return true;return !xj||!cx.jb||xj.bon===cx.jb.bon;}
+    // 동 불일치 → 본번+부번까지 완전일치일 때만 (법정동 개편 대응, 부번 없으면 충돌 위험이라 제외)
+    return !!(xj&&cx.jb&&xj.bon===cx.jb.bon&&xj.bu!=null&&cx.jb.bu!=null&&xj.bu===cx.jb.bu);
   }
-  // 부분일치 (지역명·브랜드 접두/접미 차이): 5자 이상 + 지번 양쪽 다 알면 본번 일치
-  if(Math.min(n.length,cx.nm.length)>=5&&(n.indexOf(cx.nm)>=0||cx.nm.indexOf(n)>=0)){
-    var x3=parseJb(it.j);
-    return !x3||!cx.jb||x3.bon===cx.jb.bon;
-  }
-  return false;
+  // ③ 부분포함
+  if(!dongOk(cx,it))return false;
+  var L=Math.min(n.length,cx.nm.length);
+  if(L<4)return false;
+  if(n.indexOf(cx.nm)<0&&cx.nm.indexOf(n)<0)return false;
+  var big=n.length>=cx.nm.length?n:cx.nm;
+  var small=big===n?cx.nm:n;
+  var extra=big.replace(small,'');
+  var bonOk=jbOk(xj,cx.jb);
+  if(L>=5)return bonOk||(!/\d/.test(extra)&&extra.length<=4); // 지번 일치 OR 숫자 없는 짧은 지역명 접두/접미
+  return bonOk; // ④ 4자 이름은 지번 완전일치 필수
 }
 function nameSim(a,b){
   if(!a||!b)return false;
@@ -358,7 +363,7 @@ async function diagTradeSido(sd){
       for(var i=0;i<pool.length;i++){
         var it=pool[i];
         if(matchItem(cx,it)){matched++;continue;}
-        if(!it.c&&nameSim(nrm(it.n),cx.nm)){cands[it.n+(it.j?'('+it.j+')':'')]=1;if(!seenYm)seenYm=it._y||'';}
+        if(!it.c&&(!cx.by||!it.by||Math.abs(it.by-cx.by)<=3)&&nameSim(nrm(it.n),cx.nm)){cands[it.n+(it.j?'('+it.j+')':'')]=1;if(!seenYm)seenYm=it._y||'';}
       }
       var rec;
       if(matched>0){rec={s:'ok',t:now,c:matched};okCnt++;}

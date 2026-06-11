@@ -21,7 +21,7 @@ async function getCached(code, ym) {
     if (!Array.isArray(rows) || !rows[0]) return null;
     const row = rows[0];
     // 필터 로직 v2(주소 우선 매칭) 이전에 저장된 캐시는 전부 무효 (잘못된 0건 박제 방지)
-    if (new Date(row.fetched_at).getTime() < Date.parse('2026-06-11T07:40:00Z')) return null;
+    if (new Date(row.fetched_at).getTime() < Date.parse('2026-06-11T08:10:00Z')) return null;
     // apt_name 컬럼에 "단지명|법정동|지번" 패킹돼 있음 (구버전은 단지명만)
     const packed = String(row.apt_name || '').split('|');
     row.apt_name_clean = packed[0] || '';
@@ -50,7 +50,7 @@ async function getCachedBatch(code, months) {
     if (Array.isArray(rows)) {
       const cutoff = new Date(); cutoff.setMonth(cutoff.getMonth() - 2);
       for (const row of rows) {
-        if (new Date(row.fetched_at).getTime() < Date.parse('2026-06-11T07:40:00Z')) continue; // 구버전 무효
+        if (new Date(row.fetched_at).getTime() < Date.parse('2026-06-11T08:10:00Z')) continue; // 구버전 무효
         const ymDate = new Date(parseInt(row.ym.slice(0,4)), parseInt(row.ym.slice(4,6)) - 1, 1);
         if (!(ymDate < cutoff) && Date.now() - new Date(row.fetched_at).getTime() >= 86400000) continue; // 최근월 24h TTL
         out[row.ym] = row;
@@ -226,16 +226,16 @@ export default async function handler(req, res) {
   const myJibun = parseJibun(aptJibunFull);
   const myDongPart = aptLegalDong.replace(/\s/g, ''); // "배방읍장재리"
 
-  const normalize = s => String(s || '').trim().replace(/[\s()（）·\-\/]/g, '').toUpperCase().replace(/(아파트|APT)$/, '');
+  const normalize = s => {
+    let t = String(s || '').trim().replace(/[\s()（）·\-\/]/g, '').toUpperCase();
+    for (let i = 0; i < 2; i++) t = t.replace(/(아파트|APT|맨션|관리사무소|관리동)$/, '');
+    return t;
+  };
   const myName = normalize(aptName);
 
-  // 'exact' = 완전일치 / 'part' = 한쪽이 다른쪽 포함 (지역명·브랜드 접두/접미 차이, 5자 이상만)
-  function nameMatch(nm) {
-    const n = normalize(nm);
-    if (!n || !myName) return false;
-    if (n === myName) return 'exact';
-    if (Math.min(n.length, myName.length) >= 5 && (n.includes(myName) || myName.includes(n))) return 'part';
-    return false;
+  // 지번 완전 호환 (본번 일치 + 부번은 양쪽 다 있을 때만 비교)
+  function jbCompat(a, b) {
+    return !!(a && b && a.bon === b.bon && (a.bu == null || b.bu == null || a.bu === b.bu));
   }
 
   // 건축년도 ±1년 (필드 없으면 통과)
@@ -274,14 +274,31 @@ export default async function handler(req, res) {
   function aptMatch(x) {
     if ((x.cdealType || '').trim()) return false; // 계약 해제 제외
     if (!buildYearMatch(x)) return false;
-    if (addrMatch(x)) return true;                // ① 주소 일치 → 단지명 무시
-    // ② 이름 경로
-    const nm = nameMatch(x.aptNm);
-    if (!nm || !dongMatch(x)) return false;
-    // 완전일치 + 법정동 일치 → 지번 무시 (K-apt 지번과 국토부 지번이 다른 경우 흔함: 모지번/합필)
-    if (nm === 'exact') return myDongPart ? true : jibunSoft(x);
-    // 부분일치(지역명 차이 등) → 지번 양쪽 다 알면 본번 일치 필요 (동명이단지 방지)
-    return jibunSoft(x);
+    if (addrMatch(x)) return true;                // ① 주소(법정동+지번) 일치 → 단지명 무시
+    const n = normalize(x.aptNm);
+    if (!n || !myName) return false;
+    const xj = parseJibun(x.jibun);
+    // ② 단지명 완전일치
+    if (n === myName) {
+      if (dongMatch(x)) return myDongPart ? true : jibunSoft(x); // 동 일치 → 지번 무시 (모지번/합필 대응)
+      // 동 불일치 → 본번+부번까지 완전일치일 때만 인정 (법정동 개편 대응)
+      // 부번 없는 지번은 다른 동의 같은 본번과 충돌 위험이 있어 제외
+      return !!(xj && myJibun && xj.bon === myJibun.bon && xj.bu != null && myJibun.bu != null && xj.bu === myJibun.bu);
+    }
+    // ③ 부분포함 (지역명·브랜드 접두/접미 차이)
+    if (!dongMatch(x)) return false;
+    const L = Math.min(n.length, myName.length);
+    if (L < 4) return false;
+    if (!(n.includes(myName) || myName.includes(n))) return false;
+    const big = n.length >= myName.length ? n : myName;
+    const small = big === n ? myName : n;
+    const extra = big.replace(small, '');
+    const bonOk = jbCompat(xj, myJibun);
+    // 5자 이상: 지번 일치 OR 추가 글자가 숫자 없는 짧은 지역명(≤4자) — "전주"+"태평아이파크" 등
+    //          차수/단지 숫자가 들어가면(2차, 3단지...) 지번 검증 필수 → 동명 1·2차 혼입 방지
+    if (L >= 5) return bonOk || (!/\d/.test(extra) && extra.length <= 4);
+    // ④ 4자 이름(황등오투, 동신진주 등)은 generic 위험 → 지번 완전일치일 때만
+    return bonOk;
   }
 
   const buyBase  = 'https://apis.data.go.kr/1613000/RTMSDataSvcAptTrade/getRTMSDataSvcAptTrade';
