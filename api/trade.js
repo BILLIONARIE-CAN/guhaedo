@@ -37,6 +37,46 @@ async function getCached(code, ym) {
   } catch { return null; }
 }
 
+// 배치 캐시 조회: 여러 월을 Supabase 쿼리 1번으로 (속도 핵심)
+async function getCachedBatch(code, months) {
+  if (!SUPABASE_URL || !SUPABASE_KEY || !months.length) return {};
+  try {
+    const r = await fetch(
+      `${SUPABASE_URL}/rest/v1/apt_transactions?kapt_code=eq.${encodeURIComponent(code)}&ym=in.(${months.join(',')})&select=ym,buy,jeonse,monthly,lawd_cd,apt_name,fetched_at`,
+      { headers: supaHeaders(), signal: AbortSignal.timeout(3500) }
+    );
+    const rows = await r.json();
+    const out = {};
+    if (Array.isArray(rows)) {
+      const cutoff = new Date(); cutoff.setMonth(cutoff.getMonth() - 2);
+      for (const row of rows) {
+        if (new Date(row.fetched_at).getTime() < Date.parse('2026-06-10T09:40:00Z')) continue; // 구버전 무효
+        const ymDate = new Date(parseInt(row.ym.slice(0,4)), parseInt(row.ym.slice(4,6)) - 1, 1);
+        if (!(ymDate < cutoff) && Date.now() - new Date(row.fetched_at).getTime() >= 86400000) continue; // 최근월 24h TTL
+        out[row.ym] = row;
+      }
+    }
+    return out;
+  } catch { return {}; }
+}
+
+// 배치 캐시 저장 (여러 행 한 번에, fire-and-forget)
+function setCachedBatch(rows) {
+  if (!SUPABASE_URL || !SUPABASE_KEY || !rows.length) return;
+  fetch(`${SUPABASE_URL}/rest/v1/apt_transactions`, {
+    method: 'POST',
+    headers: { ...supaHeaders(), 'Prefer': 'resolution=merge-duplicates' },
+    body: JSON.stringify(rows),
+    signal: AbortSignal.timeout(6000)
+  }).catch(() => {});
+}
+
+async function pmapS(arr, fn, limit) {
+  let i = 0; const ws = [];
+  for (let w = 0; w < Math.min(limit, arr.length); w++) ws.push((async () => { while (i < arr.length) { const x = i++; await fn(arr[x]); } })());
+  await Promise.all(ws);
+}
+
 // 캐시 저장 (fire-and-forget)
 function setCached(code, ym, data) {
   if (!SUPABASE_URL || !SUPABASE_KEY) return;
@@ -75,6 +115,31 @@ export default async function handler(req, res) {
         jeonse:    cached.jeonse   || [],
         monthly:   cached.monthly  || [],
         fromCache: true
+      });
+    }
+  }
+
+  // ── 배치 모드 (?yms=202501,202502,...) : Supabase 쿼리 1번으로 캐시 일괄 조회 ──
+  const ymsParam = req.query.yms ? String(req.query.yms).split(',').filter(m => /^\d{6}$/.test(m)).slice(0, 60) : null;
+  let batchCached = null, batchMissing = null;
+  if (ymsParam && ymsParam.length) {
+    batchCached = await getCachedBatch(code, ymsParam);
+    batchMissing = ymsParam.filter(m => !batchCached[m]);
+    // 전부 캐시 → V4/국토부 호출 0회, 즉시 응답 (아실급 속도)
+    if (!batchMissing.length) {
+      const first = batchCached[ymsParam[0]];
+      const packed = String(first.apt_name || '').split('|');
+      const buy = [], jeonse = [], monthly = [];
+      for (const m of ymsParam) {
+        const r2 = batchCached[m];
+        (r2.buy || []).forEach(x => buy.push(x));
+        (r2.jeonse || []).forEach(x => jeonse.push(x));
+        (r2.monthly || []).forEach(x => monthly.push(x));
+      }
+      return res.status(200).json({
+        aptName: packed[0] || '', lawdCd: first.lawd_cd || '',
+        legalDong: packed[1] || '', jibunFull: packed[2] || '',
+        buy, jeonse, monthly, missing: [], fromCache: true
       });
     }
   }
@@ -212,6 +277,88 @@ export default async function handler(req, res) {
   const buyBase  = 'https://apis.data.go.kr/1613000/RTMSDataSvcAptTrade/getRTMSDataSvcAptTrade';
   const rentBase = 'https://apis.data.go.kr/1613000/RTMSDataSvcAptRent/getRTMSDataSvcAptRent';
   const preBase  = 'https://apis.data.go.kr/1613000/RTMSDataSvcSilvTrade/getRTMSDataSvcSilvTrade'; // 분양권/입주권 전매
+
+  // ── 배치 모드: 캐시 미보유 월만 최대 12개 페치, 나머지는 missing으로 반환 (프론트가 이어서 요청) ──
+  if (ymsParam && ymsParam.length) {
+    const toFetch = batchMissing.slice(0, 12);
+    const rest = batchMissing.slice(12);
+    const fetched = {};
+    const candPool = [];
+    const mapT = x => `${parseInt(x.dealYear)}-${String(parseInt(x.dealMonth)||1).padStart(2,'0')}`;
+
+    await pmapS(toFetch, async m => {
+      let err = false;
+      const safeJ = u => fetch(u, { signal: AbortSignal.timeout(6000) })
+        .then(r => r.json())
+        .then(j => { const c = j?.response?.header?.resultCode; if (c && c !== '00' && c !== '000') { err = true; return []; } return parseItems(j); })
+        .catch(() => { err = true; return []; });
+      const wantPre = !builtYear || parseInt(m.slice(0, 4)) <= builtYear + 1;
+      const [bRaw, rRaw, pRaw] = await Promise.all([
+        safeJ(`${buyBase}?serviceKey=${KEY}&LAWD_CD=${lawdCd}&DEAL_YMD=${m}&numOfRows=1000&_type=json`),
+        safeJ(`${rentBase}?serviceKey=${KEY}&LAWD_CD=${lawdCd}&DEAL_YMD=${m}&numOfRows=1000&_type=json`),
+        wantPre ? safeJ(`${preBase}?serviceKey=${KEY}&LAWD_CD=${lawdCd}&DEAL_YMD=${m}&numOfRows=1000&_type=json`) : Promise.resolve([])
+      ]);
+      const mBuy = bRaw.filter(x => aptMatch(x)).map(x => ({
+        t: mapT(x), day: String(x.dealDay||'').trim(), p: parsePrice(x.dealAmount),
+        a: parseFloat(x.excluUseAr||0), f: String(x.floor||'').trim()
+      }));
+      pRaw.filter(x => aptMatch(x)).forEach(x => {
+        mBuy.push({ t: mapT(x), day: String(x.dealDay||'').trim(), p: parsePrice(x.dealAmount),
+          a: parseFloat(x.excluUseAr||0), f: String(x.floor||'').trim(),
+          pre: String(x.ownershipGbn||'').trim().startsWith('입') ? '입' : '분' });
+      });
+      const rents = rRaw.filter(x => aptMatch(x));
+      fetched[m] = {
+        buy: mBuy,
+        jeonse: rents.filter(x => !parsePrice(x.monthlyRent)).map(x => ({
+          t: mapT(x), day: String(x.dealDay||'').trim(), p: parsePrice(x.deposit),
+          a: parseFloat(x.excluUseAr||0), f: String(x.floor||'').trim()
+        })),
+        monthly: rents.filter(x => parsePrice(x.monthlyRent) > 0).map(x => ({
+          t: mapT(x), day: String(x.dealDay||'').trim(), d: parsePrice(x.deposit),
+          m: parsePrice(x.monthlyRent), a: parseFloat(x.excluUseAr||0), f: String(x.floor||'').trim()
+        })),
+        _err: err
+      };
+      if (candPool.length < 3000) candPool.push(...bRaw, ...rRaw, ...pRaw);
+    }, 6);
+
+    // 캐시 업서트 (오류 월 제외 — 빈 데이터 박제 방지)
+    setCachedBatch(toFetch.filter(m => fetched[m] && !fetched[m]._err).map(m => ({
+      kapt_code: code, ym: m,
+      buy: fetched[m].buy, jeonse: fetched[m].jeonse, monthly: fetched[m].monthly,
+      lawd_cd: lawdCd, apt_name: [aptName, aptLegalDong, aptJibunFull].join('|'),
+      fetched_at: new Date().toISOString()
+    })));
+
+    // 캐시분 + 페치분 조립
+    const buy = [], jeonse = [], monthly = [];
+    for (const m of ymsParam) {
+      const src = batchCached[m] || fetched[m];
+      if (!src) continue;
+      (src.buy || []).forEach(x => buy.push(x));
+      (src.jeonse || []).forEach(x => jeonse.push(x));
+      (src.monthly || []).forEach(x => monthly.push(x));
+    }
+
+    // 전부 0건이면 같은 동네 국토부 등록명 후보 (진단용)
+    let candidates;
+    if (!buy.length && !jeonse.length && !monthly.length && candPool.length) {
+      const inDong = candPool.filter(x => dongMatch(x) && !(x.cdealType || '').trim());
+      const seen = new Set(); candidates = [];
+      for (const x of (inDong.length ? inDong : candPool)) {
+        const nm = (x.aptNm || '').trim();
+        if (nm && !seen.has(nm)) { seen.add(nm); candidates.push(nm + (x.jibun ? '(' + String(x.jibun).trim() + ')' : '')); }
+        if (candidates.length >= 8) break;
+      }
+    }
+
+    return res.status(200).json({
+      aptName, lawdCd, legalDong: aptLegalDong, jibunFull: aptJibunFull,
+      buy, jeonse, monthly, missing: rest,
+      ...(candidates && candidates.length ? { candidates } : {})
+    });
+  }
 
   const [buyRaw, rentRaw, preRaw] = await Promise.all([
     Promise.all(months.map(m =>

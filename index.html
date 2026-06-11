@@ -3738,8 +3738,6 @@ function loadTradeChart(code, aptJibun, builtYear){
 
   // TRADE_MONTHS 기반 YM 목록 (최신월 먼저 → V4 lawdCd 먼저 획득)
   var ymList=TRADE_MONTHS.slice().reverse().map(function(m){return m.replace('.','');});
-  var TOTAL=ymList.length;
-  var completed=0;
   var accum={buy:[],jeonse:[],monthly:[]};
   var resolvedLawdCd='',resolvedAptName='',resolvedLegalDong='',resolvedJibunNum=0,resolvedJibunFull='';
   var candidateNames={};
@@ -3781,75 +3779,69 @@ function loadTradeChart(code, aptJibun, builtYear){
 
   function hasData(){return accum.buy.length||accum.jeonse.length||accum.monthly.length;}
 
-  function onBatch(batch){
-    if(activeCode!==code)return;
-    if(batch){
-      if(batch.lawdCd)resolvedLawdCd=batch.lawdCd;
-      if(batch.aptName)resolvedAptName=batch.aptName;
-      if(batch.legalDong)resolvedLegalDong=batch.legalDong;
-      if(batch.jibunNum)resolvedJibunNum=batch.jibunNum;
-      if(batch.jibunFull)resolvedJibunFull=batch.jibunFull;
-      (batch.candidates||[]).forEach(function(n){candidateNames[n]=1;});
-      if(completed===1){
-        var dbg=ge('trade-debug');
-        if(dbg)dbg.textContent='🔍 조회: '+[
-          resolvedAptName&&('단지명: '+resolvedAptName),
-          resolvedLawdCd&&('지역: '+resolvedLawdCd),
-          resolvedLegalDong&&('법정동: '+resolvedLegalDong),
-          (resolvedJibunFull||resolvedJibunNum)&&('지번: '+(resolvedJibunFull||resolvedJibunNum))
-        ].filter(Boolean).join(' | ');
-      }
-      (batch.buy||[]).forEach(function(x){accum.buy.push(x);});
-      (batch.jeonse||[]).forEach(function(x){accum.jeonse.push(x);});
-      (batch.monthly||[]).forEach(function(x){accum.monthly.push(x);});
-    }
-    completed++;
-    // 진행상황만 표시, 렌더링은 전부 끝난 후 한 번만
-    if(completed<TOTAL){
-      if(loading)loading.textContent='불러오는 중... '+completed+'/'+TOTAL;
-      return;
-    }
-    // 전체 완료
-    if(prog)prog.style.display='none';
-    if(loading)loading.style.display='none';
-    if(hasData()){
-      applyData(accum);
-    }else{
-      if(empty)empty.style.display='block';
-      // 매칭 0건 → 국토부에 등록된 같은 동네 단지명 후보를 보여줘서 원인 즉시 확인
-      var cands=Object.keys(candidateNames).slice(0,8);
-      if(cands.length){
-        var dbg2=ge('trade-debug');
-        if(dbg2)dbg2.textContent+=' | ⚠️ 매칭 0건. 국토부 등록 단지명(지번): '+cands.join(', ');
-      }
-    }
-  }
-
   var jibunParam=aptJibun?'&jibun='+encodeURIComponent(aptJibun):'';
   var builtParam=builtYear?'&builtYear='+builtYear:'';
-
-  // 1번째 월 먼저 (V4 API 포함 → lawdCd/aptName 획득)
-  fetch('/api/trade?code='+code+'&ym='+ymList[0]+jibunParam+builtParam)
-    .then(function(r){return r.ok?r.json():null;})
-    .then(function(d){
-      onBatch(d);
-      // 나머지 23개월: lawdCd/aptName 재사용 → V4 스킵
-      ymList.slice(1).forEach(function(ym){
-        var params='?code='+code+'&ym='+ym+jibunParam+builtParam;
-        if(resolvedLawdCd)params+='&lawdCd='+resolvedLawdCd;
-        if(resolvedAptName)params+='&aptName='+encodeURIComponent(resolvedAptName);
-        if(resolvedLegalDong)params+='&legalDong='+encodeURIComponent(resolvedLegalDong);
-        if(resolvedJibunNum)params+='&jibunNum='+resolvedJibunNum;
-        if(resolvedJibunFull)params+='&jibunFull='+encodeURIComponent(resolvedJibunFull);
-        fetch('/api/trade'+params)
-          .then(function(r){return r.ok?r.json():null;})
-          .then(function(d){onBatch(d);})
-          .catch(function(){onBatch(null);});
-      });
-    })
-    .catch(function(){
-      if(loading){loading.textContent='오류 발생';loading.style.display='block';}
-    });
+  // ⚡ 배치 모드 v2: 요청 1번 — 캐시된 월 전체 즉시 + 미보유 월은 서버가 12개씩 채움 (백필)
+  function fetchBatch(yms){
+    var p='?code='+code+'&yms='+yms.join(',')+jibunParam+builtParam;
+    if(resolvedLawdCd)p+='&lawdCd='+resolvedLawdCd;
+    if(resolvedAptName)p+='&aptName='+encodeURIComponent(resolvedAptName);
+    if(resolvedLegalDong)p+='&legalDong='+encodeURIComponent(resolvedLegalDong);
+    if(resolvedJibunFull)p+='&jibunFull='+encodeURIComponent(resolvedJibunFull);
+    return fetch('/api/trade'+p).then(function(r){return r.ok?r.json():null;});
+  }
+  function setDebugLine(){
+    var dbg=ge('trade-debug');
+    if(dbg)dbg.textContent='🔍 조회: '+[
+      resolvedAptName&&('단지명: '+resolvedAptName),
+      resolvedLawdCd&&('지역: '+resolvedLawdCd),
+      resolvedLegalDong&&('법정동: '+resolvedLegalDong),
+      resolvedJibunFull&&('지번: '+resolvedJibunFull)
+    ].filter(Boolean).join(' | ');
+  }
+  (async function(){
+    var remaining=ymList.slice();
+    var guard=0;
+    try{
+      while(remaining.length&&guard++<30){
+        var d=await fetchBatch(remaining);
+        if(activeCode!==code)return;
+        if(!d)break;
+        if(d.lawdCd)resolvedLawdCd=d.lawdCd;
+        if(d.aptName)resolvedAptName=d.aptName;
+        if(d.legalDong)resolvedLegalDong=d.legalDong;
+        if(d.jibunFull)resolvedJibunFull=d.jibunFull;
+        (d.candidates||[]).forEach(function(n){candidateNames[n]=1;});
+        (d.buy||[]).forEach(function(x){accum.buy.push(x);});
+        (d.jeonse||[]).forEach(function(x){accum.jeonse.push(x);});
+        (d.monthly||[]).forEach(function(x){accum.monthly.push(x);});
+        if(guard===1)setDebugLine();
+        remaining=(d.missing||[]).slice();
+        if(hasData()){
+          if(loading)loading.style.display='none';
+          applyData(accum); // 받는 즉시 차트 표시 → 과거 데이터는 뒤이어 백필
+        }else if(remaining.length&&loading){
+          loading.textContent='불러오는 중... 남은 '+remaining.length+'개월';
+        }
+      }
+      if(activeCode!==code)return;
+      if(loading)loading.style.display='none';
+      if(prog)prog.style.display='none';
+      if(hasData()){
+        applyData(accum);
+      }else{
+        if(empty)empty.style.display='block';
+        // 매칭 0건 → 국토부 등록 단지명 후보 표시
+        var cands=Object.keys(candidateNames).slice(0,8);
+        if(cands.length){
+          var dbg2=ge('trade-debug');
+          if(dbg2)dbg2.textContent+=' | ⚠️ 매칭 0건. 국토부 등록 단지명(지번): '+cands.join(', ');
+        }
+      }
+    }catch(e){
+      if(activeCode===code&&loading&&!hasData()){loading.textContent='오류 발생';loading.style.display='block';}
+    }
+  })();
 }
 
 // ===== 초기화 =====
