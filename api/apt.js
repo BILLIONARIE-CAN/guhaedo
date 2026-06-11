@@ -174,19 +174,23 @@ export default async function handler(req, res) {
             const ji = (addrMatch[2] || '0').padStart(4, '0');
 
             // 1차: 표제부 (getBrTitleInfo)
+            // ⚠️ numOfRows=1이면 관리동 같은 부속건물이 첫 행일 때 용적률이 빈 값 →
+            //    100행 받아서 용적률 있는 행 중 연면적 최대(주건축물) 선택
             const bldCtrl = new AbortController();
-            const bldTimer = setTimeout(() => bldCtrl.abort(), 5000);
+            const bldTimer = setTimeout(() => bldCtrl.abort(), 6000);
             const bldRes = await fetch(
-              `https://apis.data.go.kr/1613000/BldRgstHubService/getBrTitleInfo?serviceKey=${KEY}&sigunguCd=${sigunguCd}&bjdongCd=${bjdongCd}&bun=${bun}&ji=${ji}&_type=json&numOfRows=1`,
+              `https://apis.data.go.kr/1613000/BldRgstHubService/getBrTitleInfo?serviceKey=${KEY}&sigunguCd=${sigunguCd}&bjdongCd=${bjdongCd}&bun=${bun}&ji=${ji}&_type=json&numOfRows=100`,
               { signal: bldCtrl.signal }
             );
             clearTimeout(bldTimer);
             const bldData = JSON.parse(await bldRes.text());
             const bldItem = bldData?.response?.body?.items?.item;
-            const bldOne = Array.isArray(bldItem) ? bldItem[0] : bldItem;
+            const bldList = bldItem ? (Array.isArray(bldItem) ? bldItem : [bldItem]) : [];
+            const withRat = bldList.filter(b => parseFloat(b.vlRat) > 0);
+            const bldOne = withRat.sort((a, b) => (parseFloat(b.totArea) || 0) - (parseFloat(a.totArea) || 0))[0] || bldList[0];
             if (bldOne) {
-              if (bldOne.vlRat) result.far = String(bldOne.vlRat);
-              if (bldOne.bcRat) result.bcr = String(bldOne.bcRat);
+              if (parseFloat(bldOne.vlRat) > 0) result.far = String(bldOne.vlRat);
+              if (parseFloat(bldOne.bcRat) > 0) result.bcr = String(bldOne.bcRat);
             }
 
             // 2차: 총괄표제부 (getBrRecapTitleInfo) — 표제부에 값 없을 때 또는 주차 보완용

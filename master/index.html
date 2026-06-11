@@ -1,1024 +1,549 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>아구구 마스터</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>아구구 마스터 v2</title>
 <style>
+:root{--bg:#0f1419;--card:#1a202c;--card2:#212a38;--border:#2d3748;--text:#e2e8f0;--text2:#a0aec0;--text3:#718096;--gold:#f6ad55;--green:#68d391;--red:#fc8181;--blue:#63b3ed;--purple:#b794f4}
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:'Apple SD Gothic Neo','Malgun Gothic',sans-serif;background:#0a0e17;color:#e2e8f0;min-height:100vh}
-.header{background:#0f1623;border-bottom:1px solid #1e2d40;padding:14px 24px;display:flex;align-items:center;gap:12px;position:sticky;top:0;z-index:200}
-.logo{font-size:18px;font-weight:900;color:#f6ad55}
-.logo span{color:#e2e8f0;font-weight:400;font-size:13px;margin-left:6px}
-.badge-mst{background:#744210;color:#fbd38d;font-size:10px;font-weight:700;padding:2px 7px;border-radius:10px;letter-spacing:.5px}
-.login-wrap{max-width:340px;margin:100px auto;padding:32px;background:#0f1623;border-radius:12px;border:1px solid #1e2d40}
-.login-title{font-size:20px;font-weight:700;margin-bottom:24px;text-align:center;color:#f6ad55}
-.tabs{display:flex;gap:0;border-bottom:1px solid #1e2d40;background:#0f1623;padding:0 24px;position:sticky;top:53px;z-index:199;overflow-x:auto}
-.tab{padding:12px 18px;font-size:13px;font-weight:600;cursor:pointer;border-bottom:2px solid transparent;color:#718096;transition:.15s;white-space:nowrap}
-.tab.active{color:#f6ad55;border-bottom-color:#f6ad55}
-.tab:hover:not(.active){color:#e2e8f0}
-.section{display:none;padding:24px;max-width:1200px;margin:0 auto}
-.section.active{display:block}
-.section-map{display:none;padding:0;max-width:none;margin:0;height:calc(100vh - 106px)}
-.section-map.active{display:flex;flex-direction:column}
-.card{background:#0f1623;border-radius:12px;border:1px solid #1e2d40;padding:22px;margin-bottom:18px}
-.card-title{font-size:14px;font-weight:700;margin-bottom:16px;color:#fff;display:flex;align-items:center;gap:8px}
-.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-.grid3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px}
-.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
-.stat-card{background:#0f1623;border:1px solid #1e2d40;border-radius:10px;padding:20px;text-align:center}
-.stat-num{font-size:32px;font-weight:900;color:#f6ad55}
-.stat-label{font-size:12px;color:#718096;margin-top:4px}
-.stat-sub{font-size:11px;color:#4a5568;margin-top:2px}
-.stat-err{border-color:#742a2a!important}.stat-err .stat-num{color:#fc8181}
-.field{margin-bottom:12px}
-.field label{display:block;font-size:11px;color:#a0aec0;font-weight:600;margin-bottom:5px;text-transform:uppercase;letter-spacing:.5px}
-.input,.sel{width:100%;padding:9px 12px;background:#1a2332;border:1px solid #2d3d52;border-radius:7px;color:#fff;font-size:13px;outline:none;transition:border .2s;font-family:inherit}
-.input:focus,.sel:focus{border-color:#f6ad55}
-.sel{cursor:pointer}
-.btn{padding:9px 18px;border:none;border-radius:7px;font-size:13px;font-weight:600;cursor:pointer;transition:.15s;font-family:inherit}
-.btn-gold{background:#b7791f;color:#fefcbf}.btn-gold:hover{background:#975a16}
-.btn-green{background:#276749;color:#c6f6d5}.btn-green:hover{background:#1c4532}
-.btn-blue{background:#2c5282;color:#bee3f8}.btn-blue:hover{background:#1a365d}
-.btn-red{background:#742a2a;color:#fed7d7}.btn-red:hover{background:#63171b}
-.btn-gray{background:#2d3748;color:#a0aec0}.btn-gray:hover{background:#1a202c}
-.btn-orange{background:#7b341e;color:#fbd38d}.btn-orange:hover{background:#652b19}
-.btn-sm{padding:5px 12px;font-size:11px}
-.btn:disabled{opacity:.5;cursor:not-allowed}
-table{width:100%;border-collapse:collapse;font-size:12px}
-th{padding:8px 10px;text-align:left;color:#718096;font-weight:600;border-bottom:1px solid #1e2d40;font-size:11px;text-transform:uppercase}
-td{padding:9px 10px;border-bottom:1px solid #1a2332;color:#e2e8f0;vertical-align:middle}
-tr:last-child td{border-bottom:none}
-tr:hover td{background:rgba(255,255,255,.02)}
-.badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:10px;font-weight:700}
-.badge-on{background:#1c4532;color:#68d391}
-.badge-off{background:#3d1515;color:#fc8181}
-.badge-warn{background:#5c3a00;color:#fbd38d}
-.badge-info{background:#1a365d;color:#90cdf4}
-.diag-box{background:#1a2332;border-radius:8px;padding:14px;font-size:12px;font-family:monospace;white-space:pre-wrap;word-break:break-all;max-height:300px;overflow-y:auto;line-height:1.6}
-.diag-ok{color:#68d391}.diag-err{color:#fc8181}.diag-warn{color:#fbd38d}.diag-info{color:#90cdf4}
-#toast{position:fixed;bottom:28px;right:28px;background:#2d3748;color:#fff;padding:10px 18px;border-radius:8px;font-size:13px;display:none;z-index:9999;max-width:320px}
-.search-row{display:flex;gap:8px;margin-bottom:14px}
-.search-row .input{flex:1}
-.alert-box{background:#3d1515;border:1px solid #742a2a;border-radius:8px;padding:14px;margin-bottom:14px}
-.alert-box.warn{background:#5c3a00;border-color:#b7791f}
-.alert-box .alert-title{font-size:13px;font-weight:700;color:#fc8181;margin-bottom:6px}
-.alert-box.warn .alert-title{color:#fbd38d}
-.progress-bar{background:#1a2332;border-radius:4px;height:8px;overflow:hidden;margin:8px 0}
-.progress-fill{background:#f6ad55;height:100%;border-radius:4px;transition:width .3s}
-/* 지도 */
-#mst-map{width:100%;flex:1}
-.map-ctrl{background:#0f1623;border-bottom:1px solid #1e2d40;padding:12px 20px;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
-.map-legend{display:flex;gap:14px;align-items:center;font-size:12px}
-.leg-dot{width:12px;height:12px;border-radius:50%;display:inline-block;margin-right:4px}
-/* 시도 카드 그리드 */
-.sido-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:10px;margin:12px 0}
-.sido-card{background:#1a2332;border:1px solid #2d3d52;border-radius:10px;padding:14px 12px;cursor:pointer;transition:.15s;text-align:center}
-.sido-card:hover{border-color:#f6ad55;background:#1e2d3e}
-.sido-card.running{border-color:#f6ad55;background:#2d2010;animation:pulse .8s infinite alternate}
-.sido-card.done-ok{border-color:#276749;background:#0d1f17}
-.sido-card.done-err{border-color:#742a2a;background:#1f0d0d}
-.sido-card-name{font-size:14px;font-weight:700;color:#e2e8f0;margin-bottom:4px}
-.sido-card-cnt{font-size:11px;color:#718096}
-.sido-card-status{font-size:11px;margin-top:6px;font-weight:700}
-@keyframes pulse{from{opacity:.7}to{opacity:1}}
-/* 모달 */
-.modal-bg{display:none;position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:1000;overflow-y:auto;padding:40px 20px}
-.modal-bg.open{display:flex;align-items:flex-start;justify-content:center}
-.modal-box{background:#0f1623;border:1px solid #1e2d40;border-radius:14px;padding:28px;width:100%;max-width:520px;position:relative}
-.modal-close{position:absolute;top:16px;right:16px;background:none;border:none;color:#718096;font-size:20px;cursor:pointer}
-.modal-title{font-size:16px;font-weight:700;color:#fff;margin-bottom:20px}
-.coord-display{font-family:monospace;font-size:13px;color:#90cdf4;background:#1a2332;padding:8px 12px;border-radius:6px;margin:8px 0}
+body{font-family:'Malgun Gothic','Apple SD Gothic Neo',sans-serif;background:var(--bg);color:var(--text);font-size:14px}
+.wrap{max-width:1100px;margin:0 auto;padding:16px}
+header{display:flex;align-items:center;gap:14px;padding:14px 0;border-bottom:1px solid var(--border);margin-bottom:14px;flex-wrap:wrap}
+.logo{font-size:18px;font-weight:800;color:var(--gold)}
+.tabs{display:flex;gap:4px;flex-wrap:wrap}
+.tab{padding:7px 14px;border-radius:8px;cursor:pointer;font-size:13px;color:var(--text2);border:1px solid transparent}
+.tab:hover{background:var(--card)}
+.tab.active{background:var(--card2);color:var(--gold);border-color:var(--border);font-weight:700}
+.card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:16px;margin-bottom:14px}
+.card-title{font-size:14px;font-weight:700;margin-bottom:10px;display:flex;align-items:center;gap:8px}
+.btn{padding:7px 14px;border:none;border-radius:8px;cursor:pointer;font-size:13px;font-weight:600}
+.btn-gold{background:var(--gold);color:#1a202c}
+.btn-blue{background:#2b6cb0;color:#fff}
+.btn-red{background:#9b2c2c;color:#fff}
+.btn-dark{background:var(--card2);color:var(--text2);border:1px solid var(--border)}
+.btn-sm{padding:4px 9px;font-size:11px;border-radius:6px}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+.input,select.input{background:var(--card2);border:1px solid var(--border);color:var(--text);border-radius:8px;padding:8px 10px;font-size:13px}
+.sido-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px}
+.sido-card{background:var(--card2);border:1px solid var(--border);border-radius:10px;padding:12px;cursor:pointer;transition:border-color .15s}
+.sido-card:hover{border-color:var(--gold)}
+.sido-card .nm{font-weight:700;font-size:14px}
+.sido-card .ct{font-size:11px;color:var(--text3);margin-top:3px}
+.sido-card .st{font-size:11px;margin-top:6px;min-height:14px}
+table.tbl{width:100%;border-collapse:collapse;font-size:12px}
+.tbl th{text-align:left;color:var(--text3);font-weight:600;padding:6px 8px;border-bottom:1px solid var(--border);white-space:nowrap}
+.tbl td{padding:6px 8px;border-bottom:1px solid #232c3a;vertical-align:middle}
+.badge{display:inline-block;padding:2px 7px;border-radius:10px;font-size:10px;font-weight:700}
+.b-sus{background:#3b1f24;color:var(--red)}
+.b-err{background:#3a2c14;color:var(--gold)}
+.b-none{background:#1f2733;color:var(--text3)}
+.b-ok{background:#1c3326;color:var(--green)}
+.prog-wrap{background:var(--card2);border-radius:8px;height:10px;overflow:hidden;margin:8px 0}
+.prog-bar{height:100%;background:var(--gold);width:0%;transition:width .25s}
+.mono{font-family:Consolas,monospace;font-size:11px;color:var(--text3)}
+#toast{position:fixed;bottom:22px;left:50%;transform:translateX(-50%);padding:10px 22px;border-radius:20px;font-size:13px;display:none;z-index:99;color:#fff;background:#276749}
+.hidden{display:none!important}
+.muted{color:var(--text3);font-size:12px}
+.fix-row td{background:#16202e}
+.fix-row input{width:90px;margin-right:4px}
+@media(max-width:640px){.sido-grid{grid-template-columns:repeat(auto-fill,minmax(110px,1fr))}}
 </style>
 </head>
 <body>
 
 <!-- 로그인 -->
-<div id="login-screen">
-  <div class="header"><span class="logo">아구구 <span>MASTER</span></span><span class="badge-mst">MST</span></div>
-  <div class="login-wrap">
-    <div class="login-title">🔐 마스터 로그인</div>
-    <div class="field"><label>마스터 비밀번호</label>
-      <input class="input" type="password" id="mst-pw" placeholder="비밀번호" onkeydown="if(event.key==='Enter')doMstLogin()">
-    </div>
-    <button class="btn btn-gold" style="width:100%;margin-top:8px" onclick="doMstLogin()">로그인</button>
-    <div id="login-err" style="color:#fc8181;font-size:12px;margin-top:8px;text-align:center"></div>
+<div id="login-ov" style="position:fixed;inset:0;background:var(--bg);z-index:50;display:flex;align-items:center;justify-content:center">
+  <div class="card" style="width:300px">
+    <div class="card-title">🔐 마스터 로그인</div>
+    <input class="input" type="password" id="mst-pw" placeholder="비밀번호" style="width:100%" onkeydown="if(event.key==='Enter')doMstLogin()">
+    <button class="btn btn-gold" style="width:100%;margin-top:10px" onclick="doMstLogin()">로그인</button>
   </div>
 </div>
 
-<!-- 메인 -->
-<div id="main-screen" style="display:none">
-  <div class="header">
-    <span class="logo">아구구 <span>MASTER</span></span>
-    <span class="badge-mst">MST</span>
-    <span style="flex:1"></span>
-    <button class="btn btn-gray btn-sm" onclick="location.href='../admin/'">어드민 →</button>
-    <button class="btn btn-gray btn-sm" style="margin-left:6px" onclick="doLogout()">로그아웃</button>
-  </div>
-
-  <div class="tabs">
-    <div class="tab active" onclick="switchTab('dash')">📊 대시보드</div>
-    <div class="tab" onclick="switchTab('apt')">🏢 단지 관리</div>
-    <div class="tab" onclick="switchTab('diag')">🔍 실거래 진단</div>
-    <div class="tab" onclick="switchTab('mapset')">🗺️ 지도 설정</div>
-    <div class="tab" onclick="switchTab('acct')">👥 계정 관리</div>
-  </div>
-
-  <!-- ===== 대시보드 ===== -->
-  <div class="section active" id="sec-dash">
-    <!-- 알림 영역 -->
-    <div id="dash-alerts"></div>
-
-    <div class="grid4" style="margin-bottom:18px">
-      <div class="stat-card"><div class="stat-num" id="st-brokers">-</div><div class="stat-label">등록 중개사</div><div class="stat-sub" id="st-brokers-sub"></div></div>
-      <div class="stat-card"><div class="stat-num" id="st-bapts">-</div><div class="stat-label">단지 계약</div><div class="stat-sub">활성</div></div>
-      <div class="stat-card" id="st-diag-card"><div class="stat-num" id="st-diag-err">-</div><div class="stat-label">실거래 오류 단지</div><div class="stat-sub" id="st-diag-sub">미진단</div></div>
-      <div class="stat-card" id="st-missing-card"><div class="stat-num" id="st-missing">-</div><div class="stat-label">데이터 누락 단지</div><div class="stat-sub" id="st-missing-sub">미검사</div></div>
+<div class="wrap" id="main" style="display:none">
+  <header>
+    <div class="logo">아구구 MASTER</div>
+    <div class="tabs">
+      <div class="tab active" data-tab="dash" onclick="switchTab('dash')">📊 현황</div>
+      <div class="tab" data-tab="trade" onclick="switchTab('trade')">🔍 실거래 진단</div>
+      <div class="tab" data-tab="bld" onclick="switchTab('bld')">🏢 건축물대장</div>
+      <div class="tab" data-tab="manual" onclick="switchTab('manual')">🔧 수동 진단</div>
+      <div class="tab" data-tab="set" onclick="switchTab('set')">⚙️ 설정</div>
     </div>
+  </header>
 
-    <div class="grid2">
-      <div class="card">
-        <div class="card-title">🔴 실거래 오류 단지
-          <button class="btn btn-orange btn-sm" id="auto-diag-btn" onclick="prepDiag('dash')" style="margin-left:auto">시도별 진단</button>
-        </div>
-        <div id="diag-sido-btns" style="display:none"></div>
-        <div id="diag-progress" style="display:none">
-          <div style="font-size:12px;color:#718096" id="diag-prog-txt">진단 중...</div>
-          <div class="progress-bar"><div class="progress-fill" id="diag-prog-bar" style="width:0"></div></div>
-        </div>
-        <div id="dash-diag-list"><div style="color:#718096;font-size:12px">시도별 진단 버튼을 눌러 단지를 점검합니다. 같은 시군구 단지는 API를 공유합니다.</div></div>
-      </div>
-      <div class="card">
-        <div class="card-title">⚠️ 데이터 누락 단지
-          <button class="btn btn-gold btn-sm" id="scan-missing-btn" onclick="startMissingScan()" style="margin-left:auto">누락 스캔</button>
-        </div>
-        <div id="missing-progress" style="display:none">
-          <div style="font-size:12px;color:#718096" id="missing-prog-txt">스캔 중...</div>
-          <div class="progress-bar"><div class="progress-fill" id="missing-prog-bar" style="width:0"></div></div>
-        </div>
-        <div id="dash-missing-list"><div style="color:#718096;font-size:12px">누락 스캔 버튼을 누르면 준공년도·주차·세대수 없는 단지를 찾습니다.</div></div>
-      </div>
-    </div>
-
-    <div class="grid2">
-      <div class="card">
-        <div class="card-title">📋 최근 가입 중개사</div>
-        <div id="dash-brokers-list"><div style="color:#718096;font-size:12px">불러오는 중...</div></div>
-      </div>
-      <div class="card">
-        <div class="card-title">📢 만료 임박 배너 <span style="font-size:11px;color:#718096;font-weight:400">(30일 이내)</span></div>
-        <div id="dash-banners-list"><div style="color:#718096;font-size:12px">불러오는 중...</div></div>
-      </div>
-    </div>
-  </div>
-
-  <!-- ===== 단지 관리 ===== -->
-  <div class="section" id="sec-apt">
+  <!-- ===== 현황 ===== -->
+  <div id="tab-dash">
     <div class="card">
-      <div class="card-title">🔎 단지 검색</div>
-      <div class="search-row">
-        <input class="input" id="apt-search-q" placeholder="단지명 또는 kaptCode 입력" onkeydown="if(event.key==='Enter')searchApt()">
-        <button class="btn btn-gold" onclick="searchApt()">검색</button>
-      </div>
-      <div id="apt-search-result"></div>
+      <div class="card-title">📊 전국 단지 현황 <span class="muted" id="dash-total"></span></div>
+      <div class="sido-grid" id="dash-grid"></div>
     </div>
-
     <div class="card">
-      <div class="card-title">⚙️ 단지명 오버라이드 <span style="font-size:11px;color:#718096;font-weight:400">K-apt명 ≠ 국토부명 수동 매핑</span></div>
-      <p style="font-size:12px;color:#718096;margin-bottom:14px">실거래 조회 시 0건이 뜰 때 국토부 등록명을 지정합니다.</p>
-      <div class="grid2">
-        <div class="field"><label>kaptCode</label><input class="input" id="ov-code" placeholder="예: A12345678"></div>
-        <div class="field"><label>K-apt 단지명 (자동)</label><input class="input" id="ov-kapt-name" placeholder="K-apt 조회 후 자동입력" readonly style="opacity:.6"></div>
+      <div class="card-title">ℹ️ 사용 방법</div>
+      <div class="muted" style="line-height:1.8">
+        <b style="color:var(--text2)">실거래 진단</b> — 시도 카드를 클릭하면 그 시도의 모든 단지를 점검합니다. 같은 시군구 단지들은 실거래 API를 1회만 호출해 공유하고, 결과는 서버에 캐시되므로 재진단 시 API를 다시 부르지 않습니다. 문제 단지는 ❌로 표시되며 [복사] 버튼으로 내용을 복사해 Claude에게 붙여넣으면 수정받을 수 있습니다.<br>
+        <b style="color:var(--text2)">건축물대장</b> — 시도 클릭 시 용적률·건폐율 등 빠진 단지를 찾아 자동보완(건축물대장 API 재조회)하거나 직접 입력해 저장합니다.
       </div>
-      <div class="grid2">
-        <div class="field"><label>국토부 등록명 (직접입력)</label><input class="input" id="ov-molit-name" placeholder="국토부 aptNm 값 그대로"></div>
-        <div class="field"><label>메모</label><input class="input" id="ov-note" placeholder="예: 구분 이유"></div>
-      </div>
-      <div style="display:flex;gap:8px">
-        <button class="btn btn-blue btn-sm" onclick="ovLookup()">K-apt 조회</button>
-        <button class="btn btn-green" onclick="ovSave()">✅ 저장</button>
-      </div>
-      <div id="ov-msg" style="font-size:12px;margin-top:8px"></div>
-    </div>
-
-    <div class="card">
-      <div class="card-title">📋 저장된 오버라이드 목록</div>
-      <div id="ov-list"><div style="color:#718096;font-size:12px">불러오는 중...</div></div>
     </div>
   </div>
 
   <!-- ===== 실거래 진단 ===== -->
-  <div class="section" id="sec-diag">
+  <div id="tab-trade" class="hidden">
     <div class="card">
-      <div class="card-title">🔍 수동 진단</div>
-      <p style="font-size:12px;color:#718096;margin-bottom:14px">kaptCode 입력 → K-apt → 국토부 API → 매칭 결과 단계별 확인</p>
-      <div class="search-row">
-        <input class="input" id="diag-code" placeholder="kaptCode 입력 (예: A12345678)">
-        <select class="sel" id="diag-ym" style="width:160px"></select>
-        <button class="btn btn-gold" onclick="runDiag()">진단 실행</button>
+      <div class="card-title">🔍 시도별 실거래 진단
+        <span style="margin-left:auto;display:flex;gap:6px;align-items:center">
+          <select class="input" id="tr-months" style="padding:5px 8px">
+            <option value="3">최근 3개월</option>
+            <option value="6" selected>최근 6개월</option>
+            <option value="12">최근 12개월</option>
+          </select>
+          <label class="muted" style="display:flex;align-items:center;gap:4px;cursor:pointer">
+            <input type="checkbox" id="tr-force"> 정상단지도 재진단
+          </label>
+        </span>
       </div>
-      <div id="diag-result"></div>
+      <div class="muted" style="margin-bottom:10px">클릭 한 번 = 해당 시도 전체 점검. ✅정상(거래 매칭됨) ❌매칭의심(이름 비슷한 거래가 있는데 매칭 실패) ⚠️API오류 ➖거래없음(조용한 단지일 수 있음). 정상 판정 단지는 30일간 자동 스킵.</div>
+      <div class="sido-grid" id="tr-grid"></div>
+      <div id="tr-progress" class="hidden" style="margin-top:12px">
+        <div style="display:flex;justify-content:space-between;font-size:12px"><span id="tr-prog-txt" style="color:var(--gold)"></span><button class="btn btn-dark btn-sm" onclick="trAbort=true">중단</button></div>
+        <div class="prog-wrap"><div class="prog-bar" id="tr-prog-bar"></div></div>
+      </div>
     </div>
-
-    <div class="card">
-      <div class="card-title">⚡ 시도별 자동 진단
-        <button class="btn btn-orange" id="bulk-diag-btn" onclick="prepDiag('bulk')" style="margin-left:auto">시도 분류 시작</button>
+    <div class="card hidden" id="tr-result-card">
+      <div class="card-title" id="tr-result-title"></div>
+      <div id="tr-sus-wrap" class="hidden">
+        <div style="font-size:13px;font-weight:700;color:var(--red);margin:6px 0">❌ 매칭 의심 — 복사해서 Claude에게 붙여넣으세요</div>
+        <div style="overflow-x:auto"><table class="tbl"><thead><tr><th>단지</th><th>시군구</th><th>준공</th><th>국토부 등록명 후보</th><th></th></tr></thead><tbody id="tr-sus-body"></tbody></table></div>
       </div>
-      <p style="font-size:12px;color:#718096;margin-bottom:10px">broker_apts에 계약된 단지 기준 · 같은 시군구는 실거래 API 1회 공유</p>
-      <div id="bulk-sido-btns" style="display:none"></div>
-      <div id="bulk-diag-progress" style="display:none">
-        <div style="font-size:12px;color:#718096" id="bulk-prog-txt"></div>
-        <div class="progress-bar"><div class="progress-fill" id="bulk-prog-bar" style="width:0"></div></div>
+      <div id="tr-err-wrap" class="hidden">
+        <div style="font-size:13px;font-weight:700;color:var(--gold);margin:10px 0 6px">⚠️ API 오류 (한도 초과/장애 — 나중에 재시도)</div>
+        <div id="tr-err-list" class="muted"></div>
       </div>
-      <div id="bulk-diag-result"></div>
-    </div>
-
-    <div class="card">
-      <div class="card-title">📋 진단 이력 <span style="font-size:11px;color:#718096;font-weight:400">(이번 세션)</span></div>
-      <div id="diag-history" style="color:#718096;font-size:12px">진단 실행 후 여기에 기록됩니다.</div>
+      <div id="tr-none-wrap" class="hidden" style="margin-top:10px">
+        <div style="font-size:13px;color:var(--text3);cursor:pointer" onclick="ge('tr-none-list').classList.toggle('hidden')">➖ 기간 내 거래 없음 <span id="tr-none-cnt"></span> (펼치기)</div>
+        <div id="tr-none-list" class="muted hidden" style="margin-top:6px;line-height:1.7"></div>
+      </div>
     </div>
   </div>
 
-  <!-- ===== 지도 설정 ===== -->
-  <div class="section-map" id="sec-mapset">
-    <div class="map-ctrl">
-      <div style="font-size:13px;font-weight:700;color:#f6ad55">🗺️ 지도 설정</div>
-      <select class="sel" id="map-mode" style="width:160px" onchange="mapModeChange()">
-        <option value="apt">🏢 아파트 핀</option>
-        <option value="school">🏫 학교 위치</option>
-      </select>
-      <input class="input" id="map-search" style="width:240px" placeholder="단지명 / 학교명 검색" onkeydown="if(event.key==='Enter')mapSearch()">
-      <button class="btn btn-gold btn-sm" onclick="mapSearch()">검색</button>
-      <div class="map-legend">
-        <span><span class="leg-dot" style="background:#f6ad55"></span>아파트</span>
-        <span><span class="leg-dot" style="background:#68d391"></span>초등</span>
-        <span><span class="leg-dot" style="background:#90cdf4"></span>중학</span>
-        <span><span class="leg-dot" style="background:#fc8181"></span>고등</span>
+  <!-- ===== 건축물대장 ===== -->
+  <div id="tab-bld" class="hidden">
+    <div class="card">
+      <div class="card-title">🏢 건축물대장 누락 점검 <span class="muted">용적률 · 건폐율 · 사용승인 · 난방 · 주차</span></div>
+      <div class="muted" style="margin-bottom:10px">시도 클릭 → 사이드바에 빈 값으로 뜨는 단지 목록. [자동보완]은 건축물대장 표제부를 다시 조회해 채우고(이번에 조회 로직도 개선됨), 그래도 안 되면 [수정]으로 직접 입력하세요.</div>
+      <div class="sido-grid" id="bld-grid"></div>
+      <div id="bld-progress" class="hidden" style="margin-top:12px">
+        <div style="display:flex;justify-content:space-between;font-size:12px"><span id="bld-prog-txt" style="color:var(--gold)"></span><button class="btn btn-dark btn-sm" onclick="bldAbort=true">중단</button></div>
+        <div class="prog-wrap"><div class="prog-bar" id="bld-prog-bar"></div></div>
       </div>
-      <span style="font-size:11px;color:#718096;margin-left:auto">마커를 드래그해서 위치 조정 후 저장하세요</span>
     </div>
-    <div id="mst-map"></div>
-    <!-- 검색 결과 패널 -->
-    <div id="map-search-panel" style="position:absolute;top:160px;left:20px;z-index:300;background:#0f1623;border:1px solid #1e2d40;border-radius:10px;padding:12px;max-height:320px;overflow-y:auto;width:300px;display:none;box-shadow:0 4px 20px rgba(0,0,0,.5)">
-      <div id="map-search-results"></div>
+    <div class="card hidden" id="bld-result-card">
+      <div class="card-title" id="bld-result-title"><span></span>
+        <button class="btn btn-gold btn-sm" style="margin-left:auto" id="bld-fixall-btn" onclick="bldFixAll()">⚡ 전체 자동보완</button>
+      </div>
+      <div style="overflow-x:auto"><table class="tbl"><thead><tr><th>단지</th><th>시군구</th><th>누락 항목</th><th>상태</th><th></th></tr></thead><tbody id="bld-body"></tbody></table></div>
     </div>
   </div>
 
-  <!-- ===== 계정 관리 ===== -->
-  <div class="section" id="sec-acct">
-    <div class="grid2">
-      <div class="card">
-        <div class="card-title">➕ 어드민 계정 추가</div>
-        <div class="field"><label>중개사 이름</label><input class="input" id="acct-name" placeholder="이름"></div>
-        <div class="field"><label>전화번호</label><input class="input" id="acct-phone" placeholder="010-0000-0000"></div>
-        <div class="field"><label>이메일</label><input class="input" id="acct-email" placeholder="email@example.com"></div>
-        <div class="field"><label>비밀번호</label><input class="input" type="password" id="acct-pw" placeholder="초기 비밀번호"></div>
-        <div class="field"><label>역할</label>
-          <select class="sel" id="acct-role"><option value="broker">중개사</option><option value="specialist">전문중개사</option></select>
-        </div>
-        <button class="btn btn-green" style="width:100%;margin-top:4px" onclick="acctCreate()">계정 생성</button>
-        <div id="acct-msg" style="font-size:12px;margin-top:8px"></div>
+  <!-- ===== 수동 진단 ===== -->
+  <div id="tab-manual" class="hidden">
+    <div class="card">
+      <div class="card-title">🔧 단지 단건 진단</div>
+      <div style="display:flex;gap:6px;flex-wrap:wrap">
+        <input class="input" id="mn-code" placeholder="단지코드 (예: A10020137)" style="flex:1;min-width:180px" onkeydown="if(event.key==='Enter')runManual()">
+        <select class="input" id="mn-ym"></select>
+        <button class="btn btn-gold" onclick="runManual()">진단</button>
       </div>
-      <div class="card">
-        <div class="card-title">🔑 마스터 비밀번호 변경</div>
-        <div class="field"><label>현재 비밀번호</label><input class="input" type="password" id="pw-cur" placeholder="현재 비밀번호"></div>
-        <div class="field"><label>새 비밀번호</label><input class="input" type="password" id="pw-new" placeholder="새 비밀번호"></div>
-        <div class="field"><label>새 비밀번호 확인</label><input class="input" type="password" id="pw-new2" placeholder="재입력"></div>
-        <button class="btn btn-gold" style="width:100%;margin-top:4px" onclick="changeMstPw()">변경</button>
-        <div id="pw-msg" style="font-size:12px;margin-top:8px"></div>
+      <div id="mn-result" style="margin-top:12px"></div>
+    </div>
+  </div>
+
+  <!-- ===== 설정 ===== -->
+  <div id="tab-set" class="hidden">
+    <div class="card">
+      <div class="card-title">⚙️ 비밀번호 변경</div>
+      <div style="display:flex;gap:6px;flex-wrap:wrap">
+        <input class="input" type="password" id="set-cur" placeholder="현재 비밀번호">
+        <input class="input" type="password" id="set-new" placeholder="새 비밀번호">
+        <button class="btn btn-gold" onclick="changePw()">변경</button>
       </div>
+      <div class="muted" id="set-msg" style="margin-top:8px"></div>
     </div>
     <div class="card">
-      <div class="card-title">👥 중개사 계정 목록</div>
-      <div class="search-row">
-        <input class="input" id="acct-search" placeholder="이름/전화번호 검색" oninput="filterAcct(this.value)">
-      </div>
-      <div id="acct-list"><div style="color:#718096;font-size:12px">불러오는 중...</div></div>
+      <div class="card-title">🗑️ 진단 기록 초기화</div>
+      <div class="muted" style="margin-bottom:8px">저장된 진단 결과(정상단지 스킵 기록)를 지웁니다. 서버 실거래 캐시는 유지됩니다.</div>
+      <button class="btn btn-red" onclick="if(confirm('진단 기록을 초기화할까요?')){localStorage.removeItem(K_TR);localStorage.removeItem(K_TRS);toast('초기화 완료');renderGrids();}">기록 초기화</button>
     </div>
-  </div>
-</div>
-
-<!-- 단지 메타 편집 모달 -->
-<div class="modal-bg" id="meta-modal" onclick="if(event.target===this)closeMetaModal()">
-  <div class="modal-box">
-    <button class="modal-close" onclick="closeMetaModal()">✕</button>
-    <div class="modal-title">🏢 단지 데이터 편집</div>
-    <div id="meta-modal-name" style="font-size:14px;font-weight:700;color:#f6ad55;margin-bottom:16px"></div>
-    <input type="hidden" id="meta-code">
-    <div class="grid2">
-      <div class="field"><label>준공연월 (YYYY.MM)</label><input class="input" id="meta-built" placeholder="예: 2003.05"></div>
-      <div class="field"><label>세대수</label><input class="input" type="number" id="meta-units" placeholder="예: 300"></div>
-    </div>
-    <div class="grid2">
-      <div class="field"><label>동 수</label><input class="input" id="meta-dongcnt" placeholder="예: 5동"></div>
-      <div class="field"><label>총 주차대수</label><input class="input" type="number" id="meta-park" placeholder="예: 450"></div>
-    </div>
-    <div class="grid2">
-      <div class="field"><label>난방방식</label>
-        <select class="sel" id="meta-heat">
-          <option value="">선택</option><option>개별난방</option><option>중앙난방</option><option>지역난방</option>
-        </select>
-      </div>
-      <div class="field"><label>관리방식</label>
-        <select class="sel" id="meta-mgr">
-          <option value="">선택</option><option>위탁관리</option><option>자치관리</option><option>혼합관리</option>
-        </select>
-      </div>
-    </div>
-    <div class="field"><label>메모</label><input class="input" id="meta-note" placeholder="참고 사항"></div>
-    <div style="display:flex;gap:8px;margin-top:8px">
-      <button class="btn btn-green" style="flex:1" onclick="saveMetaOverride()">💾 저장</button>
-      <button class="btn btn-gray" onclick="closeMetaModal()">취소</button>
-    </div>
-    <div id="meta-msg" style="font-size:12px;margin-top:8px"></div>
   </div>
 </div>
 
 <div id="toast"></div>
 
-<script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=a7a67059ffadc0b7c6e4318639cdedeb&libraries=services"></script>
 <script>
-const SUPABASE_URL='https://nqnbbccazjanjhktknyz.supabase.co';
-const SUPABASE_ANON='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5xbmJiY2Nhemphbmpoa3Rrbnl6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzk0OTA5NDQsImV4cCI6MjA5NTA2Njk0NH0.rT_hIwTJyBnCDGyudmJYvN44G67WgZ9-bSVCzShiRjI';
-const hdrs={'Content-Type':'application/json',apikey:SUPABASE_ANON,Authorization:'Bearer '+SUPABASE_ANON,Prefer:'return=representation'};
-const KAPT_KEY=encodeURIComponent('8dfbbd6dc2fff98040507b95b9688bc24cbdfb35e253494d734a697d4658f1cf');
-const KAKAO_KEY='a7a67059ffadc0b7c6e4318639cdedeb';
+// ───────────────────────── 기본 ─────────────────────────
+var SIDO_DATA={"11":{"name":"서울","cnt":3333,"files":{"11110":34,"11140":49,"11170":86,"11200":131,"11215":94,"11230":132,"11260":135,"11290":144,"11305":56,"11320":118,"11350":228,"11380":160,"11410":94,"11440":139,"11470":152,"11500":209,"11530":177,"11545":51,"11560":179,"11590":137,"11620":92,"11650":196,"11680":223,"11710":172,"11740":145}},"26":{"name":"부산","cnt":1449,"files":{"26110":11,"26140":42,"26170":26,"26200":43,"26230":171,"26260":127,"26290":100,"26320":114,"26350":199,"26380":139,"26410":86,"26440":50,"26470":104,"26500":63,"26530":96,"26710":78}},"27":{"name":"대구","cnt":1181,"files":{"27110":61,"27140":174,"27170":36,"27200":50,"27230":210,"27260":269,"27290":244,"27710":136,"27720":1}},"28":{"name":"인천","cnt":1111,"files":{"28110":74,"28140":26,"28177":115,"28185":176,"28200":165,"28237":159,"28245":136,"28260":253,"28710":6,"28720":1}},"29":{"name":"광주","cnt":937,"files":{"29110":60,"29140":181,"29155":170,"29170":271,"29200":255}},"30":{"name":"대전","cnt":600,"files":{"30110":90,"30140":104,"30170":171,"30200":170,"30230":65}},"31":{"name":"울산","cnt":544,"files":{"31110":94,"31140":171,"31170":64,"31200":113,"31710":102}},"36":{"name":"세종","cnt":215,"files":{"36110":215}},"41":{"name":"경기","cnt":5389,"files":{"41111":93,"41113":141,"41115":74,"41117":133,"41131":61,"41133":53,"41135":181,"41150":246,"41171":88,"41173":131,"41192":134,"41194":83,"41196":46,"41210":87,"41220":304,"41250":47,"41271":53,"41273":77,"41281":187,"41285":100,"41287":142,"41310":87,"41360":324,"41370":108,"41390":254,"41410":98,"41430":86,"41450":122,"41461":86,"41463":221,"41465":205,"41480":194,"41500":101,"41550":79,"41551":4,"41570":186,"41571":12,"41591":155,"41592":86,"41593":75,"41594":69,"41610":123,"41630":134,"41631":10,"41650":42,"41670":36,"41830":31}},"43":{"name":"충북","cnt":798,"files":{"43111":95,"43112":94,"43113":153,"43114":91,"43130":103,"43150":72,"43720":7,"43730":19,"43740":12,"43745":23,"43750":53,"43760":7,"43770":60,"43800":9}},"44":{"name":"충남","cnt":1001,"files":{"44131":128,"44133":233,"44150":41,"44180":40,"44200":191,"44210":84,"44230":38,"44250":22,"44270":85,"44710":10,"44760":11,"44770":16,"44790":7,"44800":42,"44810":35,"44825":18}},"46":{"name":"전남","cnt":792,"files":{"46110":151,"46130":126,"46150":147,"46170":46,"46230":101,"46710":8,"46720":2,"46730":5,"46770":10,"46780":8,"46790":29,"46800":9,"46810":8,"46820":16,"46830":25,"46840":51,"46860":6,"46870":22,"46880":14,"46890":7,"46900":1}},"47":{"name":"경북","cnt":1042,"files":{"47111":86,"47113":144,"47130":106,"47150":63,"47170":84,"47190":196,"47210":35,"47230":38,"47250":30,"47280":22,"47290":141,"47730":5,"47750":3,"47760":2,"47770":1,"47820":4,"47830":9,"47840":9,"47850":51,"47920":9,"47940":4}},"48":{"name":"경남","cnt":1452,"files":{"48121":74,"48123":97,"48125":89,"48127":75,"48129":88,"48170":167,"48220":83,"48240":54,"48250":243,"48270":45,"48310":146,"48330":191,"48720":4,"48730":21,"48740":14,"48820":16,"48840":4,"48850":8,"48860":4,"48870":9,"48880":17,"48890":3}},"50":{"name":"제주","cnt":151,"files":{"50110":109,"50130":42}},"51":{"name":"강원","cnt":842,"files":{"51110":142,"51130":231,"51150":125,"51170":58,"51190":34,"51210":68,"51230":32,"51720":20,"51730":18,"51750":16,"51760":19,"51770":19,"51780":15,"51790":5,"51800":6,"51810":5,"51820":12,"51830":17}},"52":{"name":"전북","cnt":890,"files":{"52111":192,"52113":169,"52130":156,"52140":168,"52180":44,"52190":33,"52210":36,"52710":48,"52720":3,"52730":3,"52740":3,"52750":3,"52770":7,"52790":12,"52800":13}}};
 
-let MST_PW=localStorage.getItem('mst_pw')||'9999';
-let allBrokers=[],diagHistory=[],autoDiagResults=[];
-let mstMap=null,mapMarkers={};
-let currentMapMode='apt';
-let schoolAllData=[];
-
+var K_TR='mstTradeDiag_v2', K_TRS='mstTradeSido_v2';
+var MST_PW=localStorage.getItem('mst_pw')||'9999';
 function ge(id){return document.getElementById(id);}
-function gv(id){return (ge(id)||{}).value||'';}
-function toast(msg,err){var t=ge('toast');t.textContent=msg;t.style.background=err?'#742a2a':'#276749';t.style.display='block';setTimeout(()=>t.style.display='none',2800);}
-function sb(path,opts){return fetch(SUPABASE_URL+'/rest/v1/'+path,Object.assign({headers:hdrs},opts||{})).then(r=>r.json());}
-function sleep(ms){return new Promise(r=>setTimeout(r,ms));}
-
-// ===== 로그인 =====
+function toast(msg,err){var t=ge('toast');t.textContent=msg;t.style.background=err?'#742a2a':'#276749';t.style.display='block';setTimeout(function(){t.style.display='none';},2800);}
+function esc(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
 function doMstLogin(){
-  var pw=gv('mst-pw');
-  if(pw===MST_PW){
-    ge('login-screen').style.display='none';
-    ge('main-screen').style.display='block';
-    sessionStorage.setItem('mst_auth','1');
-    loadDash();
-    initDiagYm();
-    loadOvList();
-    loadAcctList();
-  }else{ge('login-err').textContent='비밀번호가 틀렸습니다';}
+  if(ge('mst-pw').value===MST_PW){sessionStorage.setItem('mst_auth','1');ge('login-ov').style.display='none';ge('main').style.display='block';init();}
+  else toast('비밀번호가 틀렸습니다',true);
 }
-function doLogout(){sessionStorage.removeItem('mst_auth');location.reload();}
-// 세션 자동 로그인 (비밀번호 체크 없이 바로 진입)
-if(sessionStorage.getItem('mst_auth')==='1'){
-  ge('login-screen').style.display='none';
-  ge('main-screen').style.display='block';
-  loadDash();initDiagYm();loadOvList();loadAcctList();
+function changePw(){
+  if(ge('set-cur').value!==MST_PW){ge('set-msg').textContent='현재 비밀번호가 틀렸습니다';return;}
+  var nw=ge('set-new').value;if(!nw||nw.length<4){ge('set-msg').textContent='4자 이상 입력하세요';return;}
+  MST_PW=nw;localStorage.setItem('mst_pw',nw);ge('set-msg').textContent='변경 완료';toast('비밀번호 변경됨');
 }
-
-// ===== 탭 =====
-const TAB_IDS=['dash','apt','diag','mapset','acct'];
 function switchTab(id){
-  document.querySelectorAll('.tab').forEach((t,i)=>t.classList.toggle('active',TAB_IDS[i]===id));
-  document.querySelectorAll('.section,.section-map').forEach(s=>s.classList.toggle('active',s.id==='sec-'+id));
-  if(id==='mapset')initMstMap();
+  document.querySelectorAll('.tab').forEach(function(t){t.classList.toggle('active',t.getAttribute('data-tab')===id);});
+  ['dash','trade','bld','manual','set'].forEach(function(t){ge('tab-'+t).classList.toggle('hidden',t!==id);});
+}
+function loadStore(k){try{return JSON.parse(localStorage.getItem(k)||'{}');}catch(e){return {};}}
+function saveStore(k,v){try{localStorage.setItem(k,JSON.stringify(v));}catch(e){}}
+function lastMonths(n){
+  var arr=[],now=new Date();
+  for(var i=0;i<n;i++){var d=new Date(now.getFullYear(),now.getMonth()-i,1);arr.push(''+d.getFullYear()+String(d.getMonth()+1).padStart(2,'0'));}
+  return arr;
+}
+async function pmap(arr,fn,limit){
+  var i=0,out=new Array(arr.length),ws=[];
+  for(var w=0;w<limit;w++)ws.push((async function(){while(i<arr.length){var x=i++;out[x]=await fn(arr[x],x);}})());
+  await Promise.all(ws);return out;
 }
 
-// ===== 대시보드 =====
-async function loadDash(){
-  var today=new Date().toISOString().split('T')[0];
-  var [brokers,bapts,banners,ovs]=await Promise.all([
-    sb('brokers?select=id,name,created_at&order=created_at.desc'),
-    sb('broker_apts?active=eq.true&select=id,kapt_code,apt_name'),
-    sb('banners?active=eq.true&select=id,business_name,expires_at'),
-    sb('apt_name_map?select=id').catch(()=>[])
-  ]);
-  allBrokers=Array.isArray(brokers)?brokers:[];
-  ge('st-brokers').textContent=allBrokers.length;
-  ge('st-brokers-sub').textContent=allBrokers[0]?'최근 '+allBrokers[0].name:'';
-  ge('st-bapts').textContent=Array.isArray(bapts)?bapts.length:'-';
-
-  var bl=ge('dash-brokers-list');
-  if(allBrokers.length){
-    bl.innerHTML='<table><tr><th>이름</th><th>가입일</th></tr>'+
-      allBrokers.slice(0,5).map(b=>'<tr><td>'+b.name+'</td><td style="color:#718096">'+((b.created_at||'').slice(0,10)||'-')+'</td></tr>').join('')+'</table>';
-  }else{bl.innerHTML='<div style="color:#718096;font-size:12px">없음</div>';}
-
-  var soon=new Date();soon.setDate(soon.getDate()+30);
-  var soonStr=soon.toISOString().split('T')[0];
-  var expBanners=(Array.isArray(banners)?banners:[]).filter(b=>b.expires_at&&b.expires_at<=soonStr);
-  var bbl=ge('dash-banners-list');
-  if(expBanners.length){
-    bbl.innerHTML='<table><tr><th>업체명</th><th>만료일</th></tr>'+
-      expBanners.map(b=>{var d=Math.ceil((new Date(b.expires_at)-new Date())/86400000);return '<tr><td>'+b.business_name+'</td><td><span class="badge '+(d<=7?'badge-off':'badge-warn')+'">D-'+d+'</span></td></tr>';}).join('')+'</table>';
-  }else{bbl.innerHTML='<div style="color:#68d391;font-size:12px">만료 임박 배너 없음</div>';}
+// ───────────────────────── 매칭 로직 (api/trade.js와 동일) ─────────────────────────
+function nrm(s){return String(s||'').trim().replace(/[\s()（）·\-\/]/g,'').toUpperCase().replace(/아파트$/,'');}
+function parseJb(s){var m=String(s||'').trim().match(/^산?(\d+)(?:-(\d+))?/);return m?{bon:parseInt(m[1]),bu:m[2]!=null?parseInt(m[2]):null}:null;}
+function parseAddr(addr){
+  var parts=String(addr||'').trim().replace(/\s+/g,' ').split(' ');
+  var passed=false,dongs=[],jb=null;
+  for(var i=0;i<parts.length;i++){var p=parts[i];
+    if(/^산?\d+(-\d+)?(번지)?$/.test(p)){jb=parseJb(p.replace(/번지$/,''));break;}
+    if(!passed){if(/[시군구]$/.test(p))passed=true;continue;}
+    if(/[동읍면리가]$/.test(p))dongs.push(p);
+  }
+  return {dong:dongs.join(''),jb:jb};
+}
+function buildCx(a){
+  var pa=parseAddr(a.jibunAddr||a.addr||'');
+  return {nm:nrm(a.name),dong:pa.dong,jb:pa.jb,by:parseInt(String(a.built||'').replace(/[^0-9]/g,'').substring(0,4))||0};
+}
+function dongOk(cx,it){
+  if(!cx.dong)return true;
+  var xd=String(it.d||'').replace(/\s/g,'');
+  if(!xd)return true;
+  return cx.dong.indexOf(xd)>=0||xd.indexOf(cx.dong)>=0;
+}
+function matchItem(cx,it){
+  if(it.c)return false;
+  if(cx.by&&it.by&&(it.by<cx.by-1||it.by>cx.by+1))return false;
+  if(cx.jb&&cx.dong){
+    var xj=parseJb(it.j);
+    if(xj&&xj.bon===cx.jb.bon&&(cx.jb.bu==null||xj.bu==null||xj.bu===cx.jb.bu)&&dongOk(cx,it))return true;
+  }
+  var n=nrm(it.n);
+  if(!n||n!==cx.nm)return false;
+  if(!dongOk(cx,it))return false;
+  if(cx.jb){var x2=parseJb(it.j);if(x2&&x2.bon!==cx.jb.bon)return false;}
+  return true;
+}
+function nameSim(a,b){
+  if(!a||!b)return false;
+  if(a===b)return true;
+  if(a.length>=4&&b.indexOf(a)>=0)return true;
+  if(b.length>=4&&a.indexOf(b)>=0)return true;
+  return false;
 }
 
-// ===== 시도 코드 =====
-const SIDO_NAME={
-  '11':'서울','26':'부산','27':'대구','28':'인천','29':'광주','30':'대전','31':'울산','36':'세종',
-  '41':'경기','42':'강원','43':'충북','44':'충남','45':'전북','46':'전남','47':'경북','48':'경남','50':'제주'
-};
-
-// 전체 단지 K-apt 조회 → 시도별 분류 → 버튼 표시
-var diagAptBySido={};  // { '11': [{code,name,bjdCode,lawdCd,kaptAddr,kaptName},...] }
-
-async function prepDiag(ctx){
-  // ctx: 'dash' or 'bulk'
-  var btn=ctx==='dash'?ge('auto-diag-btn'):ge('bulk-diag-btn');
-  var sidoBtnsEl=ctx==='dash'?ge('diag-sido-btns'):ge('bulk-sido-btns');
-  var progEl=ctx==='dash'?ge('diag-progress'):ge('bulk-diag-progress');
-  var progTxt=ctx==='dash'?ge('diag-prog-txt'):ge('bulk-prog-txt');
-  var progBar=ctx==='dash'?ge('diag-prog-bar'):ge('bulk-prog-bar');
-
-  btn.disabled=true;
-  progEl.style.display='block';
-  sidoBtnsEl.style.display='none';
-
-  // active 필터 없이 전체 kapt_code 수집 (만료/비활성 포함)
-  var bapts=await sb('broker_apts?select=kapt_code,apt_name');
-  if(!Array.isArray(bapts)||!bapts.length){
-    progTxt.textContent='broker_apts에 단지 없음';btn.disabled=false;return;
-  }
-  // 중복 제거 (같은 kapt_code 여러 중개사가 계약 가능)
-  var codes=[...new Map(bapts.map(b=>[b.kapt_code,b.apt_name])).entries()];
-  var total=codes.length,done=0;
-  diagAptBySido={};
-
-  for(var [code,aptName] of codes){
-    done++;
-    progTxt.textContent='('+done+'/'+total+') K-apt 조회: '+aptName;
-    progBar.style.width=Math.round(done/total*100)+'%';
-    try{
-      var v4=await fetch('https://apis.data.go.kr/1613000/AptBasisInfoServiceV4/getAphusBassInfoV4?serviceKey='+KAPT_KEY+'&kaptCode='+code+'&_type=json',{signal:AbortSignal.timeout(6000)}).then(r=>r.json());
-      var item=v4?.response?.body?.item;
-      if(!item){
-        var s='00';
-        if(!diagAptBySido[s])diagAptBySido[s]=[];
-        diagAptBySido[s].push({code,name:aptName,bjdCode:'',lawdCd:'',kaptAddr:'',kaptName:aptName,err:'K-apt 없음'});
-        continue;
-      }
-      var bjdCode=item.bjdCode||'';
-      var lawdCd=bjdCode.substring(0,5);
-      var sidoCode=bjdCode.substring(0,2)||'00';
-      if(!diagAptBySido[sidoCode])diagAptBySido[sidoCode]=[];
-      diagAptBySido[sidoCode].push({code,name:aptName,bjdCode,lawdCd,kaptAddr:item.kaptAddr||'',kaptName:item.kaptName||aptName});
-    }catch(e){
-      var s='00';
-      if(!diagAptBySido[s])diagAptBySido[s]=[];
-      diagAptBySido[s].push({code,name:aptName,bjdCode:'',lawdCd:'',kaptAddr:'',kaptName:aptName,err:e.message});
-    }
-    await sleep(250);
-  }
-
-  progTxt.textContent='분류 완료. 진단할 시도를 선택하세요.';
-  progBar.style.width='100%';
-
-  // 시도 카드 그리드 렌더
-  var sidoCodes=Object.keys(diagAptBySido).sort();
-  var grid='<button class="btn btn-orange" style="width:100%;margin-bottom:10px;font-size:13px" onclick="diagAllSido(\''+ctx+'\')">⚡ 전체 시도 일괄 진단</button>';
-  grid+='<div class="sido-grid">';
-  for(var sc of sidoCodes){
-    var label=SIDO_NAME[sc]||(sc==='00'?'오류/미분류':sc);
-    var cnt=diagAptBySido[sc].length;
-    var borderStyle=sc==='00'?'border-color:#742a2a':'';
-    grid+='<div class="sido-card" id="sido-card-'+ctx+'-'+sc+'" style="'+borderStyle+'" onclick="diagSido(\''+sc+'\',\''+ctx+'\')">'
-      +'<div class="sido-card-name">'+label+'</div>'
-      +'<div class="sido-card-cnt">'+cnt+'개 단지</div>'
-      +'<div class="sido-card-status" id="sido-status-'+ctx+'-'+sc+'" style="color:#4a5568">대기 중</div>'
-      +'</div>';
-  }
-  grid+='</div>';
-  sidoBtnsEl.innerHTML=grid;
-  sidoBtnsEl.style.display='block';
-  btn.disabled=false;
-  toast('분류 완료! 시도를 선택해서 진단하세요.');
-}
-
-async function diagAllSido(ctx){
-  var sidoCodes=Object.keys(diagAptBySido).sort();
-  for(var sc of sidoCodes){
-    await diagSido(sc,ctx);
-  }
-}
-
-async function diagSido(sidoCode,ctx){
-  var apts=diagAptBySido[sidoCode];
-  if(!apts||!apts.length)return;
-
-  var progEl=ctx==='dash'?ge('diag-progress'):ge('bulk-diag-progress');
-  var progTxt=ctx==='dash'?ge('diag-prog-txt'):ge('bulk-prog-txt');
-  var progBar=ctx==='dash'?ge('diag-prog-bar'):ge('bulk-prog-bar');
-  progEl.style.display='block';
-
-  var sidoLabel=SIDO_NAME[sidoCode]||(sidoCode==='00'?'오류':sidoCode);
-  // 카드 상태 → 진행 중
-  var cardEl=ge('sido-card-'+ctx+'-'+sidoCode);
-  var statusEl=ge('sido-status-'+ctx+'-'+sidoCode);
-  if(cardEl)cardEl.classList.add('running');
-  if(statusEl){statusEl.textContent='진단 중...';statusEl.style.color='#f6ad55';}
-  var now=new Date();
-  var ym=now.getFullYear()+String(now.getMonth()+1).padStart(2,'0');
-  var prev=new Date(now.getFullYear(),now.getMonth()-1,1);
-  var ym2=prev.getFullYear()+String(prev.getMonth()+1).padStart(2,'0');
-
-  // ① lawdCd별 그룹화 (실거래 API 공유 핵심)
-  var byLawd={};
-  for(var a of apts){
-    if(a.err||!a.lawdCd){
-      if(!byLawd['__err'])byLawd['__err']=[];
-      byLawd['__err'].push(a);
-      continue;
-    }
-    if(!byLawd[a.lawdCd])byLawd[a.lawdCd]=[];
-    byLawd[a.lawdCd].push(a);
-  }
-
-  var lawdKeys=Object.keys(byLawd).filter(k=>k!=='__err');
-  var totalLawd=lawdKeys.length,doneLawd=0;
-  var errors=[],ok=[];
-
-  // 오버라이드 일괄 로드
-  var codes=apts.map(a=>a.code);
-  var ovRows=await sb('apt_name_map?kapt_code=in.('+codes.join(',')+')'+'&select=kapt_code,molit_name').catch(()=>[]);
-  var ovMap={};
-  (Array.isArray(ovRows)?ovRows:[]).forEach(r=>{ovMap[r.kapt_code]=r.molit_name;});
-
-  var norm=s=>String(s||'').trim().replace(/[\s()（）·\-\/]/g,'').toUpperCase().replace(/아파트$/,'');
-
-  // ② lawdCd별로 API 1번씩만 호출
-  for(var lawd of lawdKeys){
-    doneLawd++;
-    progTxt.textContent=sidoLabel+' ('+doneLawd+'/'+totalLawd+') LAWD_CD: '+lawd+' 진단 중...';
-    progBar.style.width=Math.round(doneLawd/totalLawd*100)+'%';
-
-    var tradeCache={};
-    for(var tryYm of [ym,ym2]){
-      try{
-        var raw=await fetch('https://apis.data.go.kr/1613000/RTMSDataSvcAptTrade/getRTMSDataSvcAptTrade?serviceKey='+KAPT_KEY+'&LAWD_CD='+lawd+'&DEAL_YMD='+tryYm+'&numOfRows=1000&_type=json',{signal:AbortSignal.timeout(8000)}).then(r=>r.json());
-        var items=raw?.response?.body?.items?.item;
-        tradeCache[tryYm]=items?(Array.isArray(items)?items:[items]):[];
-      }catch(e){tradeCache[tryYm]=[];}
-      await sleep(150);
-    }
-
-    // 이 lawdCd의 모든 단지 매칭 (API 재호출 없이)
-    for(var apt of byLawd[lawd]){
-      var searchName=ovMap[apt.code]||apt.kaptName;
-      var myNorm=norm(searchName);
-      var jibunFull='';
-      var addrArr=(apt.kaptAddr||'').replace(/\s+/g,' ').split(' ');
-      var lastP=addrArr[addrArr.length-1]||'';
-      if(/^\d/.test(lastP))jibunFull=lastP.replace(/번지$/,'');
-      var myBon=jibunFull?parseInt(jibunFull.split('-')[0])||0:0;
-
-      var matched=0;
-      for(var tryYm2 of [ym,ym2]){
-        var arr=tradeCache[tryYm2]||[];
-        var nameM=arr.filter(x=>norm(x.aptNm)===myNorm&&!(x.cdealType||'').trim());
-        var addrM=myBon?arr.filter(x=>{var xb=parseInt((x.jibun||'').split('-')[0]);return xb&&xb===myBon&&!(x.cdealType||'').trim();}):[];
-        if(nameM.length||addrM.length){matched=nameM.length||addrM.length;break;}
-      }
-      if(matched){ok.push(apt);}
-      else{errors.push({...apt,reason:'이름/주소 0건 ('+lawd+')'});}
-    }
-    await sleep(100);
-  }
-
-  // K-apt 오류 단지 추가
-  for(var ea of (byLawd['__err']||[])){
-    errors.push({...ea,reason:ea.err||'lawdCd 없음'});
-  }
-
-  // 결과 렌더
-  var resultEl=ctx==='dash'?ge('dash-diag-list'):ge('bulk-diag-result');
-  var existHtml=resultEl.innerHTML.includes('<table')?resultEl.innerHTML:'';
-
-  var newHtml='<div style="margin-bottom:8px"><span style="color:#f6ad55;font-weight:700">▶ '+sidoLabel+'</span> <span style="color:#68d391">✅ '+ok.length+'건</span> / <span style="color:#fc8181">❌ '+errors.length+'건 오류</span> <span style="color:#718096;font-size:11px">(실거래 API '+lawdKeys.length+'회 호출)</span></div>';
-  if(errors.length){
-    newHtml+='<table style="margin-bottom:12px"><tr><th>단지명</th><th>kaptCode</th><th>원인</th><th></th></tr>'+
-      errors.map(e=>'<tr><td style="font-weight:600">'+e.name+'</td><td style="font-size:11px;color:#718096">'+e.code+'</td><td style="color:#fc8181;font-size:11px">'+e.reason+'</td>'
-        +'<td><button class="btn btn-blue btn-sm" onclick="fillDiag(\''+e.code+'\')">진단</button> <button class="btn btn-gold btn-sm" onclick="openOvFromCode(\''+e.code+'\',\''+e.name.replace(/'/g,"\\'")+'\')" >오버라이드</button></td></tr>').join('')+'</table>';
-  }
-
-  if(existHtml&&existHtml.trim()&&!existHtml.includes('시도별 진단')&&!existHtml.includes('시도를 선택')){
-    resultEl.innerHTML=existHtml+newHtml;
-  }else{resultEl.innerHTML=newHtml;}
-
-  // 통계 업데이트
-  autoDiagResults=[...autoDiagResults,...errors];
-  ge('st-diag-err').textContent=autoDiagResults.length;
-  ge('st-diag-sub').textContent=sidoLabel+' 완료';
-  if(autoDiagResults.length)ge('st-diag-card').classList.add('stat-err');
-
-  // 카드 상태 → 완료
-  if(cardEl){cardEl.classList.remove('running');cardEl.classList.add(errors.length?'done-err':'done-ok');}
-  if(statusEl){
-    if(errors.length){statusEl.textContent='❌ 오류 '+errors.length+'건';statusEl.style.color='#fc8181';}
-    else{statusEl.textContent='✅ 정상 '+ok.length+'건';statusEl.style.color='#68d391';}
-  }
-  progTxt.textContent=sidoLabel+' 완료 ✅ (오류 '+errors.length+'건)';
-  toast(sidoLabel+' 진단 완료: 오류 '+errors.length+'건 / 정상 '+ok.length+'건');
-}
-
-// ===== 누락 스캔 =====
-async function startMissingScan(){
-  var btn=ge('scan-missing-btn');
-  btn.disabled=true;
-  var prog=ge('missing-progress'),txt=ge('missing-prog-txt'),bar=ge('missing-prog-bar');
-  prog.style.display='block';
-
-  var bapts=await sb('broker_apts?active=eq.true&select=kapt_code,apt_name');
-  if(!Array.isArray(bapts)||!bapts.length){txt.textContent='단지 없음';btn.disabled=false;return;}
-  var codes=[...new Map(bapts.map(b=>[b.kapt_code,b.apt_name])).entries()];
-  var total=codes.length,done=0,missing=[];
-
-  for(var [code,aptName] of codes){
-    done++;
-    txt.textContent='('+done+'/'+total+') '+aptName+' 검사 중...';
-    bar.style.width=Math.round(done/total*100)+'%';
-    try{
-      var v4=await fetch('https://apis.data.go.kr/1613000/AptBasisInfoServiceV4/getAphusBassInfoV4?serviceKey='+KAPT_KEY+'&kaptCode='+code+'&_type=json',{signal:AbortSignal.timeout(6000)}).then(r=>r.json());
-      var item=v4?.response?.body?.item;
-      if(!item){missing.push({code,name:aptName,fields:['K-apt 조회실패']});continue;}
-      var fields=[];
-      if(!item.kaptBcompletYm||item.kaptBcompletYm==='0')fields.push('준공연월');
-      if(!item.kaptTotalCnt||item.kaptTotalCnt==='0')fields.push('세대수');
-      if(!item.kaptdaCnt||item.kaptdaCnt==='0'||item.kaptdaCnt==='-')fields.push('주차대수');
-      if(!item.kaptDongCnt||item.kaptDongCnt==='0')fields.push('동수');
-      if(fields.length)missing.push({code,name:aptName,fields,item});
-    }catch(e){missing.push({code,name:aptName,fields:['조회오류']});}
-    await sleep(300);
-  }
-
-  ge('st-missing').textContent=missing.length;
-  ge('st-missing-sub').textContent='최근 스캔 완료';
-  if(missing.length)ge('st-missing-card').classList.add('stat-err');
-
-  var html='';
-  if(!missing.length){
-    html='<div style="color:#68d391;font-size:12px">✅ 전체 '+total+'개 단지 누락 없음</div>';
-  }else{
-    html='<div style="color:#fbd38d;font-size:12px;margin-bottom:10px">⚠️ '+missing.length+'개 단지 데이터 누락</div>'+
-      '<table><tr><th>단지명</th><th>누락 항목</th><th></th></tr>'+
-      missing.map(m=>'<tr><td style="font-weight:600">'+m.name+'</td><td style="color:#fbd38d;font-size:11px">'+m.fields.join(', ')+'</td><td><button class="btn btn-gold btn-sm" onclick="openMetaModal(\''+m.code+'\',\''+m.name.replace(/'/g,'\\\'')+'\')"  >편집</button></td></tr>').join('')+'</table>';
-  }
-  ge('dash-missing-list').innerHTML=html;
-  txt.textContent='완료 ('+total+'개 검사)';
-  btn.disabled=false;
-  toast('스캔 완료! 누락 '+missing.length+'건');
-}
-
-// ===== 단지 메타 편집 모달 =====
-function openMetaModal(code,name){
-  ge('meta-code').value=code;
-  ge('meta-modal-name').textContent=name;
-  // 기존 override 로드
-  sb('apt_coord_override?code=eq.'+code+'&select=*').then(rows=>{
-    var r=Array.isArray(rows)&&rows[0]?rows[0]:{};
-    ge('meta-built').value=r.built||'';
-    ge('meta-units').value=r.units||'';
-    ge('meta-dongcnt').value=r.dongcnt||'';
-    ge('meta-park').value=r.total_park||'';
-    ge('meta-heat').value=r.heat||'';
-    ge('meta-mgr').value=r.mgr_type||'';
-    ge('meta-note').value=r.note||'';
-  }).catch(()=>{});
-  ge('meta-modal').classList.add('open');
-  ge('meta-msg').textContent='';
-}
-function closeMetaModal(){ge('meta-modal').classList.remove('open');}
-async function saveMetaOverride(){
-  var code=gv('meta-code');
-  if(!code)return;
-  var body={
-    code,
-    built:gv('meta-built')||null,
-    units:parseInt(gv('meta-units'))||null,
-    dongcnt:gv('meta-dongcnt')||null,
-    total_park:parseInt(gv('meta-park'))||null,
-    heat:gv('meta-heat')||null,
-    mgr_type:gv('meta-mgr')||null,
-    note:gv('meta-note')||null,
-    updated_at:new Date().toISOString()
-  };
-  var r=await fetch(SUPABASE_URL+'/rest/v1/apt_coord_override',{method:'POST',headers:{...hdrs,Prefer:'resolution=merge-duplicates,return=minimal'},body:JSON.stringify(body)});
-  var msg=ge('meta-msg');
-  if(r.ok){msg.textContent='✅ 저장 완료';msg.style.color='#68d391';toast('저장됨');}
-  else{msg.textContent='저장 실패 (테이블 없으면 아래 SQL 실행)';msg.style.color='#fc8181';}
-}
-
-// ===== 단지 검색 =====
-async function searchApt(){
-  var q=gv('apt-search-q').trim();if(!q)return;
-  var res=ge('apt-search-result');
-  res.innerHTML='<div style="color:#718096;font-size:12px">검색 중...</div>';
+// ───────────────────────── 데이터 로드 ─────────────────────────
+var coordsCache={};
+async function loadCoords(lawd){
+  if(coordsCache[lawd])return coordsCache[lawd];
   try{
-    var isCode=/^[A-Z]\d+$/.test(q);
-    var url=isCode
-      ?'https://apis.data.go.kr/1613000/AptBasisInfoServiceV4/getAphusBassInfoV4?serviceKey='+KAPT_KEY+'&kaptCode='+q+'&_type=json'
-      :'https://apis.data.go.kr/1613000/AptBasisInfoServiceV4/getAphusBassInfoV4?serviceKey='+KAPT_KEY+'&kaptName='+encodeURIComponent(q)+'&_type=json&numOfRows=20';
-    var data=await fetch(url,{signal:AbortSignal.timeout(7000)}).then(r=>r.json());
-    var items=data?.response?.body?.items?.item;
-    if(!items){res.innerHTML='<div style="color:#fc8181;font-size:12px">결과 없음</div>';return;}
-    var arr=Array.isArray(items)?items:[items];
-    res.innerHTML='<table><tr><th>단지명</th><th>kaptCode</th><th>법정동코드</th><th>주소</th><th></th></tr>'+
-      arr.map(a=>'<tr><td style="font-weight:600">'+a.kaptName+'</td><td style="font-size:11px;color:#718096">'+a.kaptCode+'</td>'
-        +'<td style="font-size:11px;color:#718096">'+a.bjdCode+'</td>'
-        +'<td style="font-size:11px">'+((a.kaptAddr||a.doroJuso)||'-')+'</td>'
-        +'<td><button class="btn btn-blue btn-sm" onclick="fillOverride(\''+a.kaptCode+'\',\''+a.kaptName.replace(/'/g,"\\'")+'\')" >오버라이드</button>'
-        +' <button class="btn btn-gold btn-sm" onclick="fillDiag(\''+a.kaptCode+'\')">진단</button>'
-        +' <button class="btn btn-green btn-sm" onclick="openMetaModal(\''+a.kaptCode+'\',\''+a.kaptName.replace(/'/g,"\\'")+'\')" >편집</button></td></tr>').join('')+'</table>';
-  }catch(e){res.innerHTML='<div style="color:#fc8181;font-size:12px">조회 실패: '+e.message+'</div>';}
+    var r=await fetch('/split_output/coords_apt_'+lawd+'.json');
+    var j=await r.json();
+    coordsCache[lawd]=Array.isArray(j)?j:[];
+  }catch(e){coordsCache[lawd]=[];}
+  return coordsCache[lawd];
 }
-
-// ===== 오버라이드 =====
-function fillOverride(code,name){switchTab('apt');ge('ov-code').value=code;ge('ov-kapt-name').value=name;ge('ov-molit-name').focus();}
-function openOvFromCode(code,name){fillOverride(code,name);}
-async function ovLookup(){
-  var code=gv('ov-code').trim();if(!code){toast('kaptCode 입력',true);return;}
-  var msg=ge('ov-msg');msg.textContent='조회 중...';msg.style.color='#718096';
+async function getDistrict(lawd,ym){
   try{
-    var data=await fetch('https://apis.data.go.kr/1613000/AptBasisInfoServiceV4/getAphusBassInfoV4?serviceKey='+KAPT_KEY+'&kaptCode='+code+'&_type=json',{signal:AbortSignal.timeout(7000)}).then(r=>r.json());
-    var item=data?.response?.body?.item;
-    if(!item){msg.textContent='K-apt에서 단지를 찾을 수 없습니다';msg.style.color='#fc8181';return;}
-    ge('ov-kapt-name').value=item.kaptName||'';
-    msg.textContent='✅ '+item.kaptName+' / '+item.bjdCode+' / '+(item.kaptAddr||'주소없음');
-    msg.style.color='#68d391';
-  }catch(e){msg.textContent='오류: '+e.message;msg.style.color='#fc8181';}
-}
-async function ovSave(){
-  var code=gv('ov-code').trim(),kname=gv('ov-kapt-name').trim(),mname=gv('ov-molit-name').trim();
-  if(!code||!mname){toast('kaptCode와 국토부 등록명 필수',true);return;}
-  var r=await fetch(SUPABASE_URL+'/rest/v1/apt_name_map',{method:'POST',headers:{...hdrs,Prefer:'resolution=merge-duplicates'},body:JSON.stringify({kapt_code:code,kapt_name:kname,molit_name:mname,note:gv('ov-note').trim()})});
-  if(r.ok){toast('저장 완료!');loadOvList();ge('ov-msg').textContent='';['ov-code','ov-kapt-name','ov-molit-name','ov-note'].forEach(id=>ge(id).value='');}
-  else{toast('저장 실패',true);}
-}
-async function ovDelete(code){
-  if(!confirm('"'+code+'" 오버라이드 삭제?'))return;
-  await fetch(SUPABASE_URL+'/rest/v1/apt_name_map?kapt_code=eq.'+code,{method:'DELETE',headers:hdrs});
-  toast('삭제됨');loadOvList();
-}
-async function loadOvList(){
-  var rows=await sb('apt_name_map?select=kapt_code,kapt_name,molit_name,note&order=kapt_code').catch(()=>[]);
-  var el=ge('ov-list');
-  if(!Array.isArray(rows)||!rows.length){
-    el.innerHTML='<div style="color:#718096;font-size:12px">없음<br><code style="font-size:10px;color:#90cdf4">CREATE TABLE apt_name_map (kapt_code text PRIMARY KEY, kapt_name text, molit_name text, note text);</code></div>';
-    return;
-  }
-  el.innerHTML='<table><tr><th>kaptCode</th><th>K-apt명</th><th>국토부 등록명</th><th>메모</th><th></th></tr>'+
-    rows.map(r=>'<tr><td style="font-size:11px;color:#718096">'+r.kapt_code+'</td><td>'+r.kapt_name+'</td><td style="color:#68d391;font-weight:600">'+r.molit_name+'</td><td style="color:#718096">'+(r.note||'')+'</td><td><button class="btn btn-red btn-sm" onclick="ovDelete(\''+r.kapt_code+'\')">삭제</button></td></tr>').join('')+'</table>';
+    var r=await fetch('/api/diag?op=district&lawdCd='+lawd+'&ym='+ym);
+    if(!r.ok)return {apiError:true,buy:[],rent:[],pre:[]};
+    return await r.json();
+  }catch(e){return {apiError:true,buy:[],rent:[],pre:[]};}
 }
 
-// ===== 실거래 진단 =====
-function initDiagYm(){
-  var sel=ge('diag-ym'),now=new Date(),opts='';
-  for(var i=0;i<24;i++){
-    var d=new Date(now.getFullYear(),now.getMonth()-i,1);
-    var ym=d.getFullYear()+String(d.getMonth()+1).padStart(2,'0');
-    opts+='<option value="'+ym+'">'+d.getFullYear()+'.'+(d.getMonth()+1)+'월</option>';
-  }
-  sel.innerHTML=opts;
-}
-function fillDiag(code){switchTab('diag');ge('diag-code').value=code;}
-async function runDiag(){
-  var code=gv('diag-code').trim(),ym=gv('diag-ym');
-  if(!code){toast('kaptCode 입력',true);return;}
-  var resEl=ge('diag-result');
-  resEl.innerHTML='<div class="diag-box diag-info">진단 실행 중...</div>';
-  var lines=[],addLine=(cls,txt)=>lines.push('<span class="'+cls+'">'+txt+'</span>');
-  var addrMatched=[];
-  try{
-    addLine('diag-info','[1] K-apt API → kaptCode: '+code);
-    var v4=await fetch('https://apis.data.go.kr/1613000/AptBasisInfoServiceV4/getAphusBassInfoV4?serviceKey='+KAPT_KEY+'&kaptCode='+code+'&_type=json',{signal:AbortSignal.timeout(7000)}).then(r=>r.json());
-    var item=v4?.response?.body?.item;
-    if(!item){addLine('diag-err','    ❌ K-apt 단지 없음');resEl.innerHTML='<div class="diag-box">'+lines.join('\n')+'</div>';return;}
-    addLine('diag-ok','    ✅ 단지명: '+item.kaptName);
-    addLine('diag-ok','    ✅ bjdCode: '+item.bjdCode);
-    addLine('diag-ok','    ✅ 주소: '+(item.kaptAddr||'없음'));
-    addLine('diag-info','    K-apt 준공: '+(item.kaptBcompletYm||'없음')+' / 세대: '+(item.kaptTotalCnt||'없음')+' / 주차: '+(item.kaptdaCnt||'없음'));
-
-    var ov=await sb('apt_name_map?kapt_code=eq.'+code+'&select=molit_name').catch(()=>[]);
-    if(Array.isArray(ov)&&ov[0]){addLine('diag-warn','[2] 오버라이드 → 국토부 검색명: '+ov[0].molit_name);}
-    else{addLine('diag-info','[2] 오버라이드 없음 → K-apt명 그대로: '+item.kaptName);}
-
-    var lawdCd=(item.bjdCode||'').substring(0,5);
-    addLine('diag-info','[3] 실거래 API → LAWD_CD: '+lawdCd+' / DEAL_YMD: '+ym);
-    var raw=await fetch('https://apis.data.go.kr/1613000/RTMSDataSvcAptTrade/getRTMSDataSvcAptTrade?serviceKey='+KAPT_KEY+'&LAWD_CD='+lawdCd+'&DEAL_YMD='+ym+'&numOfRows=1000&_type=json',{signal:AbortSignal.timeout(8000)}).then(r=>r.json());
-    var items=raw?.response?.body?.items?.item;
-    var arr=items?(Array.isArray(items)?items:[items]):[];
-    addLine('diag-info','    전체 거래: '+arr.length+'건');
-
-    var searchName=(Array.isArray(ov)&&ov[0])?ov[0].molit_name:item.kaptName;
-    var norm=s=>String(s||'').trim().replace(/[\s()（）·\-\/]/g,'').toUpperCase().replace(/아파트$/,'');
-    var nameMatched=arr.filter(x=>norm(x.aptNm)===norm(searchName)&&!(x.cdealType||'').trim());
-    if(nameMatched.length){addLine('diag-ok','[4] 단지명 매칭: '+nameMatched.length+'건 ✅');}
-    else{
-      addLine('diag-err','[4] 단지명 매칭: 0건 ❌');
-      var dongPart='',addrPts=(item.kaptAddr||'').replace(/\s+/g,' ').split(' '),passed=false;
-      for(var p of addrPts){if(!passed){if(/[시군구]$/.test(p))passed=true;continue;}if(/[동읍면리가]$/.test(p)){dongPart=p;break;}}
-      if(dongPart){
-        var cands=[...new Set(arr.filter(x=>(x.umdNm||'').includes(dongPart.substring(0,2))&&!(x.cdealType||'').trim()).map(x=>x.aptNm+'(지번:'+x.jibun+')'))].slice(0,6);
-        if(cands.length)addLine('diag-warn','    같은 동 후보: '+cands.join(' / '));
-      }
-    }
-
-    var jibunFull='',addrArr=(item.kaptAddr||'').replace(/\s+/g,' ').split(' '),lastP=addrArr[addrArr.length-1]||'';
-    if(/^\d/.test(lastP))jibunFull=lastP.replace(/번지$/,'');
-    if(jibunFull){
-      var myBon=parseInt(jibunFull.split('-')[0]);
-      addrMatched=arr.filter(x=>{var xb=parseInt((x.jibun||'').split('-')[0]);return xb&&xb===myBon&&!(x.cdealType||'').trim();});
-      if(addrMatched.length){
-        addLine('diag-ok','[5] 지번 매칭: '+addrMatched.length+'건 ✅ ('+jibunFull+') → '+[...new Set(addrMatched.map(x=>x.aptNm))].join(', '));
-        if(!nameMatched.length)addLine('diag-warn','    → 주소 우선 매칭 적용됨');
-      }else{addLine('diag-err','[5] 지번 매칭: 0건 ❌ ('+jibunFull+') → 오버라이드 필요');}
-    }else{addLine('diag-warn','[5] 지번 정보 없음');}
-
-    diagHistory.unshift({code,name:item.kaptName,ym,result:nameMatched.length||(addrMatched?addrMatched.length:0),ok:!!(nameMatched.length||(addrMatched&&addrMatched.length))});
-    renderDiagHistory();
-  }catch(e){addLine('diag-err','오류: '+e.message);}
-  resEl.innerHTML='<div class="diag-box">'+lines.join('\n')+'</div>';
-}
-function renderDiagHistory(){
-  var el=ge('diag-history');
-  if(!diagHistory.length){el.innerHTML='<div style="color:#718096;font-size:12px">없음</div>';return;}
-  el.innerHTML='<table><tr><th>kaptCode</th><th>단지명</th><th>조회월</th><th>결과</th></tr>'+
-    diagHistory.slice(0,10).map(h=>'<tr><td style="font-size:11px;color:#718096">'+h.code+'</td><td>'+h.name+'</td><td>'+h.ym+'</td><td><span class="badge '+(h.ok?'badge-on':'badge-off')+'">'+(h.ok?'✅ '+h.result+'건':'❌ 0건')+'</span></td></tr>').join('')+'</table>';
-}
-
-// ===== 지도 설정 =====
-var mstMapInited=false;
-function initMstMap(){
-  if(mstMapInited)return;
-  if(typeof kakao==='undefined'||!kakao.maps){setTimeout(initMstMap,500);return;}
-  mstMapInited=true;
-  kakao.maps.load(function(){
-    var el=ge('mst-map');
-    mstMap=new kakao.maps.Map(el,{center:new kakao.maps.LatLng(37.5665,126.9780),level:8});
-    // 학교 데이터 미리 로드
-    fetch('/split_output/coords_school.json').then(r=>r.json()).then(d=>{schoolAllData=d;}).catch(()=>{});
+// ───────────────────────── 그리드 렌더 ─────────────────────────
+function renderGrids(){
+  var trs=loadStore(K_TRS);
+  var total=0;
+  var dash='',tr='',bld='';
+  Object.keys(SIDO_DATA).forEach(function(sd){
+    var s=SIDO_DATA[sd];total+=s.cnt;
+    var st=trs[sd];
+    var stHtml=st?('<span class="badge b-ok">✅'+st.ok+'</span> '+(st.sus?'<span class="badge b-sus">❌'+st.sus+'</span> ':'')+(st.err?'<span class="badge b-err">⚠️'+st.err+'</span> ':'')+'<span class="badge b-none">➖'+st.none+'</span>'):'<span class="muted">미진단</span>';
+    dash+='<div class="sido-card" onclick="switchTab(\'trade\')"><div class="nm">'+s.name+'</div><div class="ct">'+s.cnt.toLocaleString()+'단지 · '+Object.keys(s.files).length+'개 시군구</div><div class="st">'+stHtml+'</div></div>';
+    tr+='<div class="sido-card" id="tr-sd-'+sd+'" onclick="diagTradeSido(\''+sd+'\')"><div class="nm">'+s.name+'</div><div class="ct">'+s.cnt.toLocaleString()+'단지</div><div class="st" id="tr-st-'+sd+'">'+stHtml+'</div></div>';
+    bld+='<div class="sido-card" onclick="diagBldSido(\''+sd+'\')"><div class="nm">'+s.name+'</div><div class="ct">'+s.cnt.toLocaleString()+'단지</div><div class="st muted" id="bld-st-'+sd+'"></div></div>';
   });
+  ge('dash-grid').innerHTML=dash;
+  ge('tr-grid').innerHTML=tr;
+  ge('bld-grid').innerHTML=bld;
+  ge('dash-total').textContent='총 '+total.toLocaleString()+'단지';
 }
 
-function mapModeChange(){currentMapMode=gv('map-mode');clearMapMarkers();}
+// ───────────────────────── 실거래 진단 ─────────────────────────
+var trRunning=false,trAbort=false;
+async function diagTradeSido(sd){
+  if(trRunning){toast('이미 진단 중입니다',true);return;}
+  trRunning=true;trAbort=false;
+  var sido=SIDO_DATA[sd];
+  var months=lastMonths(parseInt(ge('tr-months').value)||6);
+  var force=ge('tr-force').checked;
+  var lawds=Object.keys(sido.files);
+  var store=loadStore(K_TR);
+  var now=Date.now(),FRESH=30*86400000;
+  var sus=[],errs=[],nones=[],okCnt=0,skipCnt=0;
+  ge('tr-progress').classList.remove('hidden');
+  ge('tr-result-card').classList.remove('hidden');
+  ge('tr-result-title').textContent='🔍 '+sido.name+' 진단 중...';
+  ge('tr-sus-body').innerHTML='';ge('tr-err-list').innerHTML='';ge('tr-none-list').innerHTML='';
+  ['tr-sus-wrap','tr-err-wrap','tr-none-wrap'].forEach(function(id){ge(id).classList.add('hidden');});
 
-function clearMapMarkers(){Object.values(mapMarkers).forEach(m=>m.setMap&&m.setMap(null));mapMarkers={};}
+  for(var li=0;li<lawds.length;li++){
+    if(trAbort)break;
+    var lawd=lawds[li];
+    ge('tr-prog-txt').textContent=sido.name+' '+(li+1)+'/'+lawds.length+' — '+lawd+' 단지목록 로드...';
+    ge('tr-prog-bar').style.width=Math.round(li/lawds.length*100)+'%';
+    var apts=await loadCoords(lawd);
+    if(!apts.length)continue;
+    var targets=force?apts:apts.filter(function(a){var s=store[a.code];return !(s&&s.s==='ok'&&(now-s.t)<FRESH);});
+    skipCnt+=apts.length-targets.length;
+    okCnt+=apts.length-targets.length;
+    if(!targets.length)continue; // 전부 정상 스킵 → API 호출 자체를 안 함
 
-async function mapSearch(){
-  var q=gv('map-search').trim();if(!q)return;
-  var panel=ge('map-search-panel'),results=ge('map-search-results');
-  panel.style.display='block';
-  results.innerHTML='<div style="color:#718096;font-size:12px">검색 중...</div>';
+    ge('tr-prog-txt').textContent=sido.name+' '+(li+1)+'/'+lawds.length+' — '+(apts[0].sigungu||lawd)+' 실거래 '+months.length+'개월 조회...';
+    var monthData=await pmap(months,function(m){return getDistrict(lawd,m);},4);
+    var pool=[],anyErr=false;
+    monthData.forEach(function(md){
+      if(md.apiError)anyErr=true;
+      pool=pool.concat(md.buy||[],md.rent||[],md.pre||[]);
+    });
 
-  if(currentMapMode==='apt'){
-    try{
-      var isCode=/^[A-Z]\d+$/.test(q);
-      var url=isCode
-        ?'https://apis.data.go.kr/1613000/AptBasisInfoServiceV4/getAphusBassInfoV4?serviceKey='+KAPT_KEY+'&kaptCode='+q+'&_type=json'
-        :'https://apis.data.go.kr/1613000/AptBasisInfoServiceV4/getAphusBassInfoV4?serviceKey='+KAPT_KEY+'&kaptName='+encodeURIComponent(q)+'&_type=json&numOfRows=10';
-      var data=await fetch(url,{signal:AbortSignal.timeout(7000)}).then(r=>r.json());
-      var items=data?.response?.body?.items?.item;
-      if(!items){results.innerHTML='<div style="color:#fc8181;font-size:12px">결과 없음</div>';return;}
-      var arr=Array.isArray(items)?items:[items];
-      results.innerHTML=arr.map(a=>'<div style="padding:8px;border-bottom:1px solid #1e2d40;cursor:pointer;font-size:12px" onclick="placeAptPin(\''+a.kaptCode+'\',\''+a.kaptName.replace(/'/g,"\\'")+'\',\''+a.kaptAddr.replace(/'/g,"\\'")+'\')"><div style="font-weight:700;color:#f6ad55">'+a.kaptName+'</div><div style="color:#718096;font-size:11px">'+a.kaptCode+' | '+(a.kaptAddr||'-')+'</div></div>').join('');
-    }catch(e){results.innerHTML='<div style="color:#fc8181;font-size:12px">오류: '+e.message+'</div>';}
-  }else{
-    var filtered=schoolAllData.filter(s=>s.name.includes(q)).slice(0,15);
-    if(!filtered.length){results.innerHTML='<div style="color:#fc8181;font-size:12px">결과 없음</div>';return;}
-    results.innerHTML=filtered.map(s=>'<div style="padding:8px;border-bottom:1px solid #1e2d40;cursor:pointer;font-size:12px" onclick="placeSchoolPin(\''+s.name.replace(/'/g,"\\'")+'\','+s.lat+','+s.lng+',\''+s.type+'\')"><div style="font-weight:700;color:#90cdf4">'+s.name+'</div><div style="color:#718096;font-size:11px">'+({'elem':'초등','middle':'중학','high':'고등'}[s.type]||s.type)+' | '+(s.addr||'-')+'</div></div>').join('');
+    targets.forEach(function(a){
+      var cx=buildCx(a);
+      var matched=0,cands={};
+      for(var i=0;i<pool.length;i++){
+        var it=pool[i];
+        if(matchItem(cx,it)){matched++;continue;}
+        if(!it.c&&nameSim(nrm(it.n),cx.nm))cands[it.n+(it.j?'('+it.j+')':'')]=1;
+      }
+      var rec;
+      if(matched>0){rec={s:'ok',t:now,c:matched};okCnt++;}
+      else if(Object.keys(cands).length){rec={s:'sus',t:now,cand:Object.keys(cands).slice(0,5)};sus.push({a:a,cand:rec.cand});}
+      else if(anyErr){rec={s:'err',t:now};errs.push(a);}
+      else{rec={s:'none',t:now};nones.push(a);}
+      store[a.code]=rec;
+    });
+    saveStore(K_TR,store);
+    renderTrResult(sido,sus,errs,nones,okCnt,skipCnt,false);
+  }
+
+  var trs=loadStore(K_TRS);
+  trs[sd]={t:now,ok:okCnt,sus:sus.length,err:errs.length,none:nones.length};
+  saveStore(K_TRS,trs);
+  ge('tr-prog-bar').style.width='100%';
+  ge('tr-prog-txt').textContent=trAbort?'중단됨':'완료';
+  setTimeout(function(){ge('tr-progress').classList.add('hidden');},1200);
+  renderTrResult(sido,sus,errs,nones,okCnt,skipCnt,true);
+  renderGrids();
+  trRunning=false;
+  toast(sido.name+' 진단 '+(trAbort?'중단':'완료')+': 의심 '+sus.length+' / 오류 '+errs.length);
+}
+
+function renderTrResult(sido,sus,errs,nones,okCnt,skipCnt,done){
+  ge('tr-result-title').textContent=(done?'✅ ':'🔍 ')+sido.name+' — 정상 '+okCnt+' (스킵 '+skipCnt+') · 의심 '+sus.length+' · 오류 '+errs.length+' · 거래없음 '+nones.length;
+  if(sus.length){
+    ge('tr-sus-wrap').classList.remove('hidden');
+    ge('tr-sus-body').innerHTML=sus.map(function(x,i){
+      return '<tr><td><b>'+esc(x.a.name)+'</b><div class="mono">'+esc(x.a.code)+'</div></td>'+
+        '<td>'+esc(x.a.sigungu||'')+' '+esc(x.a.emd||'')+'</td><td>'+esc(String(x.a.built||'').substring(0,7))+'</td>'+
+        '<td style="color:var(--red);font-size:11px">'+x.cand.map(esc).join('<br>')+'</td>'+
+        '<td><button class="btn btn-blue btn-sm" data-act="copy" data-i="'+i+'">📋 복사</button></td></tr>';
+    }).join('');
+    ge('tr-sus-body').onclick=function(e){
+      var b=e.target.closest('button[data-act=copy]');if(!b)return;
+      var x=sus[parseInt(b.getAttribute('data-i'))];
+      var txt='[실거래 매칭 문제] 단지코드 '+x.a.code+' / K-apt명 '+x.a.name+' / 주소 '+(x.a.jibunAddr||x.a.addr||'')+' / 준공 '+(x.a.built||'?')+' / 국토부 등록명 후보: '+x.cand.join(', ')+' — 매칭이 안 돼서 실거래가 0건으로 나옴. 수정해줘.';
+      navigator.clipboard.writeText(txt).then(function(){toast('복사됨 — Claude에게 붙여넣으세요');});
+    };
+  }
+  if(errs.length){
+    ge('tr-err-wrap').classList.remove('hidden');
+    ge('tr-err-list').textContent=errs.map(function(a){return a.name;}).join(', ');
+  }
+  if(nones.length){
+    ge('tr-none-wrap').classList.remove('hidden');
+    ge('tr-none-cnt').textContent=nones.length+'단지';
+    ge('tr-none-list').textContent=nones.map(function(a){return a.name+'('+(a.sigungu||'')+')';}).join(', ');
   }
 }
 
-async function placeAptPin(code,name,addr){
-  ge('map-search-panel').style.display='none';
-  if(!mstMap)return;
-  // 주소로 좌표 검색
-  var geocoder=new kakao.maps.services.Geocoder();
-  // 기존 저장 좌표 확인
-  var saved=await sb('apt_coord_override?code=eq.'+code+'&select=lat,lng').catch(()=>[]);
-  var useLat=null,useLng=null;
-  if(Array.isArray(saved)&&saved[0]&&saved[0].lat){useLat=saved[0].lat;useLng=saved[0].lng;}
+// ───────────────────────── 건축물대장 진단 ─────────────────────────
+var bldRunning=false,bldAbort=false,bldMissing=[];
+var BLD_FIELDS=[['far','용적률'],['bcr','건폐율'],['use_date','사용승인'],['heat_name','난방'],['total_park','주차']];
+async function diagBldSido(sd){
+  if(bldRunning){toast('이미 점검 중입니다',true);return;}
+  bldRunning=true;bldAbort=false;bldMissing=[];
+  var sido=SIDO_DATA[sd];
+  var lawds=Object.keys(sido.files);
+  ge('bld-progress').classList.remove('hidden');
+  ge('bld-result-card').classList.remove('hidden');
+  ge('bld-result-title').querySelector('span').textContent='🏢 '+sido.name+' 점검 중...';
+  ge('bld-body').innerHTML='';
 
-  var doPlace=function(lat,lng){
-    clearMapMarkers();
-    var pos=new kakao.maps.LatLng(lat,lng);
-    mstMap.setCenter(pos);mstMap.setLevel(4);
-    var marker=new kakao.maps.Marker({position:pos,map:mstMap,draggable:true,title:name});
-    mapMarkers['apt_'+code]=marker;
-    // 오버레이
-    var ov=document.createElement('div');
-    ov.style.cssText='background:#0f1623;border:1.5px solid #f6ad55;border-radius:8px;padding:8px 12px;font-size:12px;color:#fff;white-space:nowrap;margin-bottom:6px';
-    ov.innerHTML='<div style="font-weight:700;color:#f6ad55">🏢 '+name+'</div><div style="color:#718096;font-size:10px" id="coord-disp-'+code+'">'+lat.toFixed(6)+', '+lng.toFixed(6)+'</div><button onclick="saveAptCoord(\''+code+'\',\''+name.replace(/'/g,"\\'")+'\',\''+addr.replace(/'/g,"\\'")+'\')" style="margin-top:6px;width:100%;padding:4px;background:#b7791f;color:#fefcbf;border:none;border-radius:4px;font-size:11px;cursor:pointer;font-weight:700">📍 이 위치로 저장</button>';
-    var overlay=new kakao.maps.CustomOverlay({position:pos,content:ov,yAnchor:1.3,zIndex:10});
-    overlay.setMap(mstMap);
-    mapMarkers['ov_'+code]=overlay;
-    kakao.maps.event.addListener(marker,'dragend',function(){
-      var p=marker.getPosition();
-      var cd=document.getElementById('coord-disp-'+code);
-      if(cd)cd.textContent=p.getLat().toFixed(6)+', '+p.getLng().toFixed(6);
-      overlay.setPosition(p);
-    });
-  };
-
-  if(useLat){doPlace(useLat,useLng);}
-  else if(addr){
-    geocoder.addressSearch(addr,function(result,status){
-      if(status===kakao.maps.services.Status.OK){doPlace(parseFloat(result[0].y),parseFloat(result[0].x));}
-      else{toast('주소 변환 실패, K-apt 기본 좌표 없음',true);}
-    });
-  }else{toast('주소 정보 없음',true);}
-}
-
-async function saveAptCoord(code,name,addr){
-  var marker=mapMarkers['apt_'+code];
-  if(!marker){toast('마커 없음',true);return;}
-  var p=marker.getPosition();
-  var body={code,name,addr,lat:p.getLat(),lng:p.getLng(),updated_at:new Date().toISOString()};
-  var r=await fetch(SUPABASE_URL+'/rest/v1/apt_coord_override',{method:'POST',headers:{...hdrs,Prefer:'resolution=merge-duplicates,return=minimal'},body:JSON.stringify(body)});
-  if(r.ok){toast('📍 좌표 저장! ('+p.getLat().toFixed(5)+', '+p.getLng().toFixed(5)+')');}
-  else{toast('저장 실패',true);}
-}
-
-function placeSchoolPin(name,lat,lng,type){
-  ge('map-search-panel').style.display='none';
-  if(!mstMap)return;
-  clearMapMarkers();
-  var pos=new kakao.maps.LatLng(lat,lng);
-  mstMap.setCenter(pos);mstMap.setLevel(4);
-  var clr={'elem':'#68d391','middle':'#90cdf4','high':'#fc8181'}[type]||'#e2e8f0';
-  var el=document.createElement('div');
-  el.style.cssText='width:22px;height:22px;border-radius:50% 50% 50% 0;background:'+clr+';transform:rotate(-45deg);border:2px solid #fff;box-shadow:0 2px 8px rgba(0,0,0,.4)';
-  var marker=new kakao.maps.CustomOverlay({position:pos,content:el,yAnchor:1,zIndex:5});
-  marker.setMap(mstMap);mapMarkers['school_'+name]=marker;
-  // 드래그용 실제 마커 (invisible anchor)
-  var drag=new kakao.maps.Marker({position:pos,map:mstMap,draggable:true,opacity:0});
-  mapMarkers['drag_school_'+name]=drag;
-  // 편집 패널
-  var ov=document.createElement('div');
-  ov.style.cssText='background:#0f1623;border:1.5px solid #90cdf4;border-radius:8px;padding:8px 12px;font-size:12px;color:#fff;white-space:nowrap;margin-bottom:6px';
-  var typeLabel={'elem':'초등','middle':'중학','high':'고등'}[type]||type;
-  ov.innerHTML='<div style="font-weight:700;color:#90cdf4">🏫 '+name+' ('+typeLabel+')</div><div style="color:#718096;font-size:10px" id="school-coord-'+name.replace(/\s/g,'_')+'">'+lat.toFixed(6)+', '+lng.toFixed(6)+'</div><button onclick="saveSchoolCoord(\''+name.replace(/'/g,"\\'")+'\')" style="margin-top:6px;width:100%;padding:4px;background:#2c5282;color:#bee3f8;border:none;border-radius:4px;font-size:11px;cursor:pointer;font-weight:700">📍 이 위치로 저장</button>';
-  var overlay=new kakao.maps.CustomOverlay({position:pos,content:ov,yAnchor:1.3,zIndex:10});
-  overlay.setMap(mstMap);mapMarkers['ov_school_'+name]=overlay;
-  kakao.maps.event.addListener(drag,'dragend',function(){
-    var p=drag.getPosition();
-    marker.setPosition(p);overlay.setPosition(p);
-    var cd=document.getElementById('school-coord-'+name.replace(/\s/g,'_'));
-    if(cd)cd.textContent=p.getLat().toFixed(6)+', '+p.getLng().toFixed(6);
+  var all=[];
+  for(var i=0;i<lawds.length;i++){
+    if(bldAbort)break;
+    ge('bld-prog-txt').textContent='단지목록 '+(i+1)+'/'+lawds.length;
+    ge('bld-prog-bar').style.width=Math.round(i/lawds.length*40)+'%';
+    all=all.concat(await loadCoords(lawds[i]));
+  }
+  var metaMap={};
+  var chunks=[];for(var c=0;c<all.length;c+=350)chunks.push(all.slice(c,c+350));
+  for(var ci=0;ci<chunks.length;ci++){
+    if(bldAbort)break;
+    ge('bld-prog-txt').textContent='DB 메타 조회 '+(ci+1)+'/'+chunks.length;
+    ge('bld-prog-bar').style.width=40+Math.round(ci/chunks.length*60)+'%';
+    try{
+      var r=await fetch('/api/diag?op=metalist',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({codes:chunks[ci].map(function(a){return a.code;})})});
+      var rows=await r.json();
+      if(Array.isArray(rows))rows.forEach(function(x){metaMap[x.kapt_code]=x;});
+    }catch(e){}
+  }
+  all.forEach(function(a){
+    var m=metaMap[a.code];
+    var miss=[];
+    if(!m){miss=['DB에 없음'];}
+    else BLD_FIELDS.forEach(function(f){if(m[f[0]]==null||m[f[0]]==='')miss.push(f[1]);});
+    if(miss.length)bldMissing.push({a:a,miss:miss,inDb:!!m});
   });
+  ge('bld-prog-bar').style.width='100%';
+  ge('bld-prog-txt').textContent='완료';
+  setTimeout(function(){ge('bld-progress').classList.add('hidden');},1000);
+  ge('bld-result-title').querySelector('span').textContent='🏢 '+sido.name+' — 누락 '+bldMissing.length+' / 전체 '+all.length+'단지';
+  var stEl=ge('bld-st-'+sd);if(stEl)stEl.textContent='누락 '+bldMissing.length;
+  renderBldTable();
+  bldRunning=false;
+}
+function renderBldTable(){
+  var body=ge('bld-body');
+  body.innerHTML=bldMissing.slice(0,500).map(function(x,i){
+    return '<tr id="bld-row-'+i+'"><td><b>'+esc(x.a.name)+'</b><div class="mono">'+esc(x.a.code)+'</div></td>'+
+      '<td>'+esc(x.a.sigungu||'')+'</td><td style="color:var(--gold);font-size:11px">'+x.miss.join(', ')+'</td>'+
+      '<td id="bld-stat-'+i+'" class="muted">-</td>'+
+      '<td style="white-space:nowrap">'+(x.inDb?'<button class="btn btn-blue btn-sm" data-act="auto" data-i="'+i+'">자동보완</button> <button class="btn btn-dark btn-sm" data-act="edit" data-i="'+i+'">수정</button>':'<span class="muted" style="font-size:11px">DB 미등록</span>')+'</td></tr>';
+  }).join('')+(bldMissing.length>500?'<tr><td colspan="5" class="muted">...외 '+(bldMissing.length-500)+'건 (전체 자동보완은 모두에 적용됨)</td></tr>':'');
+  body.onclick=function(e){
+    var b=e.target.closest('button[data-act]');if(!b)return;
+    var i=parseInt(b.getAttribute('data-i'));
+    if(b.getAttribute('data-act')==='auto')bldAutoOne(i);
+    else bldEditOne(i);
+  };
+}
+async function bldAutoOne(i){
+  var x=bldMissing[i],st=ge('bld-stat-'+i);
+  if(st){st.textContent='조회중...';st.style.color='var(--gold)';}
+  try{
+    var r=await fetch('/api/apt?type=detail&code='+x.a.code);
+    var j=await r.json();
+    var got=[];
+    if(j.far)got.push('용적률 '+j.far);
+    if(j.bcr)got.push('건폐율 '+j.bcr);
+    if(j.completionYmd)got.push('승인일');
+    if(st){
+      st.textContent=got.length?'✅ '+got.join(' · '):'❌ 대장에도 없음 → 수정으로 직접 입력';
+      st.style.color=got.length?'var(--green)':'var(--red)';
+    }
+  }catch(e){if(st){st.textContent='오류';st.style.color='var(--red)';}}
+}
+function bldEditOne(i){
+  var x=bldMissing[i];
+  var ex=ge('bld-fix-'+i);
+  if(ex){ex.remove();return;}
+  var row=ge('bld-row-'+i);
+  var tr=document.createElement('tr');tr.id='bld-fix-'+i;tr.className='fix-row';
+  tr.innerHTML='<td colspan="5" style="padding:10px">'+
+    '<input class="input" id="fx-far-'+i+'" placeholder="용적률 %">'+
+    '<input class="input" id="fx-bcr-'+i+'" placeholder="건폐율 %">'+
+    '<input class="input" id="fx-use-'+i+'" placeholder="승인 YYYYMMDD" style="width:130px">'+
+    '<input class="input" id="fx-heat-'+i+'" placeholder="난방" style="width:110px">'+
+    '<input class="input" id="fx-park-'+i+'" placeholder="총주차" style="width:90px">'+
+    ' <button class="btn btn-gold btn-sm" onclick="bldSaveOne('+i+')">저장</button></td>';
+  row.after(tr);
+}
+async function bldSaveOne(i){
+  var x=bldMissing[i];
+  var fields={far:ge('fx-far-'+i).value.trim(),bcr:ge('fx-bcr-'+i).value.trim(),use_date:ge('fx-use-'+i).value.trim(),heat_name:ge('fx-heat-'+i).value.trim(),total_park:ge('fx-park-'+i).value.trim()};
+  Object.keys(fields).forEach(function(k){if(!fields[k])delete fields[k];});
+  if(!Object.keys(fields).length){toast('입력값이 없습니다',true);return;}
+  try{
+    var r=await fetch('/api/diag?op=fixmeta',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({code:x.a.code,fields:fields})});
+    var j=await r.json();
+    if(j.ok){toast('저장됨');ge('bld-stat-'+i).textContent='✅ 수동 저장';ge('bld-stat-'+i).style.color='var(--green)';var fx=ge('bld-fix-'+i);if(fx)fx.remove();}
+    else toast('저장 실패: '+(j.error||''),true);
+  }catch(e){toast('저장 실패',true);}
+}
+async function bldFixAll(){
+  if(!bldMissing.length){toast('누락 단지가 없습니다');return;}
+  var targets=bldMissing.map(function(x,i){return {x:x,i:i};}).filter(function(t){return t.x.inDb;});
+  if(!targets.length){toast('자동보완 가능한 단지가 없습니다',true);return;}
+  if(!confirm(targets.length+'개 단지를 자동보완할까요? (건축물대장 API 약 '+targets.length+'회 호출)'))return;
+  var btn=ge('bld-fixall-btn');btn.disabled=true;bldAbort=false;
+  var done=0;
+  await pmap(targets,async function(t){
+    if(bldAbort)return;
+    await bldAutoOne(t.i);
+    done++;btn.textContent='⚡ '+done+'/'+targets.length;
+  },3);
+  btn.disabled=false;btn.textContent='⚡ 전체 자동보완';
+  toast('자동보완 완료 — ❌ 남은 단지는 수동 입력하세요');
 }
 
-async function saveSchoolCoord(name){
-  var drag=mapMarkers['drag_school_'+name];
-  if(!drag){toast('마커 없음',true);return;}
-  var p=drag.getPosition();
-  var body={name,lat:p.getLat(),lng:p.getLng(),updated_at:new Date().toISOString()};
-  var r=await fetch(SUPABASE_URL+'/rest/v1/school_coord_override',{method:'POST',headers:{...hdrs,Prefer:'resolution=merge-duplicates,return=minimal'},body:JSON.stringify(body)});
-  if(r.ok){toast('🏫 학교 좌표 저장! ('+p.getLat().toFixed(5)+', '+p.getLng().toFixed(5)+')');}
-  else{toast('저장 실패',true);}
+// ───────────────────────── 수동 진단 ─────────────────────────
+function initManual(){
+  var sel=ge('mn-ym'),ms=lastMonths(12);
+  sel.innerHTML=ms.map(function(m){return '<option value="'+m+'">'+m.substring(0,4)+'.'+m.substring(4)+'</option>';}).join('');
+}
+async function runManual(){
+  var code=ge('mn-code').value.trim(),ym=ge('mn-ym').value;
+  if(!code){toast('단지코드를 입력하세요',true);return;}
+  var out=ge('mn-result');
+  out.innerHTML='<div class="muted">조회 중...</div>';
+  try{
+    var r=await fetch('/api/trade?code='+encodeURIComponent(code)+'&ym='+ym);
+    var j=await r.json();
+    if(j.error){out.innerHTML='<div style="color:var(--red)">오류: '+esc(j.error)+'</div>';return;}
+    var total=(j.buy||[]).length+(j.jeonse||[]).length+(j.monthly||[]).length;
+    out.innerHTML='<table class="tbl">'+
+      '<tr><th>국토부 조회 단지명</th><td>'+esc(j.aptName||'-')+'</td></tr>'+
+      '<tr><th>지역/법정동/지번</th><td>'+esc(j.lawdCd||'-')+' / '+esc(j.legalDong||'-')+' / '+esc(j.jibunFull||'-')+'</td></tr>'+
+      '<tr><th>'+ym+' 거래</th><td>매매 '+(j.buy||[]).length+' · 전세 '+(j.jeonse||[]).length+' · 월세 '+(j.monthly||[]).length+(j.fromCache?' <span class="badge b-ok">캐시</span>':'')+'</td></tr>'+
+      (j.candidates?'<tr><th style="color:var(--red)">매칭 0건 — 후보</th><td style="color:var(--red)">'+j.candidates.map(esc).join(', ')+'</td></tr>':'')+
+      '</table>'+
+      (total===0&&!j.candidates?'<div class="muted" style="margin-top:8px">이 달 거래가 없습니다. 다른 달을 선택해보세요.</div>':'');
+  }catch(e){out.innerHTML='<div style="color:var(--red)">요청 실패</div>';}
 }
 
-// ===== 계정 관리 =====
-async function acctCreate(){
-  var name=gv('acct-name').trim(),phone=gv('acct-phone').trim(),email=gv('acct-email').trim(),pw=gv('acct-pw'),role=gv('acct-role');
-  var msg=ge('acct-msg');
-  if(!name||!phone){msg.textContent='이름/전화번호 필수';msg.style.color='#fc8181';return;}
-  var r=await fetch(SUPABASE_URL+'/rest/v1/brokers',{method:'POST',headers:hdrs,body:JSON.stringify({name,phone,email:email||null,password:pw||null,type:role,active:true})});
-  if(r.ok){toast('계정 생성!');msg.textContent='생성 완료: '+name;msg.style.color='#68d391';loadAcctList();['acct-name','acct-phone','acct-email','acct-pw'].forEach(id=>ge(id).value='');}
-  else{var err=await r.json();msg.textContent='실패: '+(err.message||JSON.stringify(err));msg.style.color='#fc8181';}
-}
-async function acctDelete(id,name){
-  if(!confirm('"'+name+'" 계정 삭제?'))return;
-  await fetch(SUPABASE_URL+'/rest/v1/brokers?id=eq.'+id,{method:'DELETE',headers:hdrs});
-  toast('삭제됨');loadAcctList();
-}
-async function loadAcctList(){
-  var rows=await sb('brokers?select=id,name,phone,email,type,active,created_at&order=created_at.desc').catch(()=>[]);
-  allBrokers=Array.isArray(rows)?rows:[];
-  renderAcctTable(allBrokers);
-}
-function renderAcctTable(data){
-  var el=ge('acct-list');
-  if(!data.length){el.innerHTML='<div style="color:#718096;font-size:12px">없음</div>';return;}
-  el.innerHTML='<table><tr><th>이름</th><th>전화번호</th><th>이메일</th><th>타입</th><th>상태</th><th>가입일</th><th></th></tr>'+
-    data.map(b=>'<tr><td style="font-weight:600">'+b.name+'</td><td>'+(b.phone||'-')+'</td><td style="font-size:11px;color:#718096">'+(b.email||'-')+'</td>'
-      +'<td><span class="badge badge-warn">'+(b.type||'-')+'</span></td>'
-      +'<td><span class="badge '+(b.active?'badge-on':'badge-off')+'">'+(b.active?'활성':'비활성')+'</span></td>'
-      +'<td style="color:#718096;font-size:11px">'+((b.created_at||'').slice(0,10)||'-')+'</td>'
-      +'<td><button class="btn btn-red btn-sm" onclick="acctDelete(\''+b.id+'\',\''+b.name.replace(/'/g,"\\'")+'\')">삭제</button></td></tr>').join('')+'</table>';
-}
-function filterAcct(q){renderAcctTable(allBrokers.filter(b=>!q||(b.name||'').includes(q)||(b.phone||'').includes(q)));}
-
-// ===== 마스터 PW 변경 =====
-function changeMstPw(){
-  var msg=ge('pw-msg'),cur=gv('pw-cur'),nw=gv('pw-new'),nw2=gv('pw-new2');
-  if(cur!==MST_PW){msg.textContent='현재 비밀번호가 틀렸습니다';msg.style.color='#fc8181';return;}
-  if(!nw||nw!==nw2){msg.textContent='새 비밀번호가 일치하지 않습니다';msg.style.color='#fc8181';return;}
-  MST_PW=nw;localStorage.setItem('mst_pw',nw);
-  msg.textContent='변경 완료!';msg.style.color='#68d391';
-  ['pw-cur','pw-new','pw-new2'].forEach(id=>ge(id).value='');
-}
+// ───────────────────────── 초기화 ─────────────────────────
+function init(){renderGrids();initManual();}
+if(sessionStorage.getItem('mst_auth')==='1'){ge('login-ov').style.display='none';ge('main').style.display='block';init();}
 </script>
 </body>
 </html>
