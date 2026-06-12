@@ -18,14 +18,19 @@ function parseItems(json) {
   return Array.isArray(raw) ? raw : [raw];
 }
 
-// 거래 1건 → 진단용 압축 (n=단지명, d=법정동, j=지번, by=건축년도, c=해제여부)
+// 거래 1건 → 압축 (매칭용 n/d/j/by/c + 수집기용 거래상세 y/m/dy/p/a/f/dep/rent/own)
+function priceN(s) { return parseInt(String(s || '0').replace(/[^0-9]/g, '')) || 0; }
 function compact(x) {
   return {
     n: String(x.aptNm || '').trim(),
     d: String(x.umdNm || '').trim(),
     j: String(x.jibun || '').trim(),
     by: parseInt(x.buildYear || '0') || 0,
-    c: (String(x.cdealType || '').trim()) ? 1 : 0
+    c: (String(x.cdealType || '').trim()) ? 1 : 0,
+    y: parseInt(x.dealYear) || 0, m: parseInt(x.dealMonth) || 0, dy: parseInt(x.dealDay) || 0,
+    p: priceN(x.dealAmount), a: parseFloat(x.excluUseAr || 0) || 0, f: String(x.floor || '').trim(),
+    dep: priceN(x.deposit), rent: priceN(x.monthlyRent),
+    own: String(x.ownershipGbn || '').trim().startsWith('입') ? 2 : (x.ownershipGbn ? 1 : 0)
   };
 }
 
@@ -54,6 +59,8 @@ export default async function handler(req, res) {
         const rows = await r.json();
         if (Array.isArray(rows) && rows[0]) {
           const row = rows[0];
+          // 거래상세 필드(v2) 이전 캐시 무효 — 수집기가 가격 정보를 못 받는 사고 방지
+          if (new Date(row.fetched_at).getTime() < Date.parse('2026-06-12T10:00:00Z')) throw new Error('stale');
           const ymDate = new Date(parseInt(ym.slice(0, 4)), parseInt(ym.slice(4, 6)) - 1, 1);
           const cutoff = new Date(); cutoff.setMonth(cutoff.getMonth() - 2);
           const fresh = ymDate < cutoff || (Date.now() - new Date(row.fetched_at).getTime() < 86400000);
@@ -91,6 +98,24 @@ export default async function handler(req, res) {
     }
 
     return res.status(200).json({ buy: out.buy, rent: out.rent, pre: out.pre, apiError: anyError || undefined });
+  }
+
+  // ───────────────── 청약홈 프록시 (GitHub Actions 해외IP 차단 우회) ─────────────────
+  if (op === 'applyhome') {
+    const svc = req.query.svc === 'cmpet'
+      ? 'ApplyhomeInfoCmpetRtSvc/v1/getAPTLttotPblancCmpet'
+      : 'ApplyhomeInfoDetailSvc/v1/getAPTLttotPblancDetail';
+    const page = parseInt(req.query.page || '1') || 1;
+    const perPage = Math.min(parseInt(req.query.perPage || '100') || 100, 100);
+    let url = `https://api.odcloud.kr/api/${svc}?page=${page}&perPage=${perPage}&serviceKey=${API_KEY}`;
+    if (req.query.since && /^[\d-]+$/.test(req.query.since)) url += `&${encodeURIComponent('cond[RCRIT_PBLANC_DE::GTE]')}=${req.query.since}`;
+    if (req.query.houseNo && /^[\w]+$/.test(req.query.houseNo)) url += `&${encodeURIComponent('cond[HOUSE_MANAGE_NO::EQ]')}=${req.query.houseNo}`;
+    try {
+      const r = await fetch(url, { signal: AbortSignal.timeout(12000) });
+      return res.status(200).json(await r.json());
+    } catch (e) {
+      return res.status(502).json({ error: e.message });
+    }
   }
 
   // ───────────────── 건축물대장 메타 일괄 조회 ─────────────────
