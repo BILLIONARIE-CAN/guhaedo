@@ -1,0 +1,16 @@
+# 인수인계서 — API 키/비번 포함, 공개 레포 커밋 금지
+아구구_인수인계서.md
+아구구_인수인계서.txt
+
+# 환경변수
+.env
+.env.local
+.env*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 에디터
+.vscode/
+*.swp
