@@ -335,6 +335,15 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
 .toast.show{opacity:1}
 #trade-year-from::-webkit-slider-thumb,#trade-year-to::-webkit-slider-thumb{-webkit-appearance:none;pointer-events:all;width:16px;height:16px;border-radius:50%;background:var(--green);border:2.5px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,0.25);cursor:pointer}
 #trade-year-from::-moz-range-thumb,#trade-year-to::-moz-range-thumb{pointer-events:all;width:13px;height:13px;border-radius:50%;background:var(--green);border:2.5px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,0.25);cursor:pointer}
+/* 분양 핀: 무지개 테두리가 캡슐 둘레를 흐르는 효과 */
+.ps-pin{padding:2px;border-radius:12px;cursor:pointer;
+  background:linear-gradient(90deg,#ff6b6b,#f7b733,#ffe66d,#51e898,#4fc3f7,#b388ff,#ff6b6b);
+  background-size:350% 100%;animation:psFlow 2.6s linear infinite;
+  box-shadow:0 2px 7px rgba(0,0,0,.28)}
+.ps-pin-inner{background:#fff;border-radius:10px;padding:4px 11px 5px;font-size:10px;font-weight:600;color:#333;
+  white-space:nowrap;display:flex;flex-direction:column;align-items:center;gap:1px;line-height:1.35}
+.ps-pin-nm{max-width:130px;overflow:hidden;text-overflow:ellipsis;font-size:11px;color:#222}
+@keyframes psFlow{to{background-position:-350% 0}}
 </style>
 <script src="https://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
 </head>
@@ -1549,6 +1558,7 @@ function updateMarkersForZoom(){
   }
   if(schoolVisible)renderSchoolPins();
   renderBizPins();
+  renderPresalePins();
 }
 
 // 현재 지도 범위의 시군구 단지 파일 로드
@@ -1921,6 +1931,8 @@ function openBrokerSidebar(d){
 
 function openAptDetail(d){
   const panel=ge('apt-detail-panel');
+  // 일반 단지 열 때 분양 정보 박스 제거 (분양 핀에서만 다시 주입됨)
+  var psBox=ge('presale-box');if(psBox)psBox.remove();
   // 유형 뱃지
   const typeNm=d.aptType||TYPE_LABEL[d.type]||'아파트';
   ge('adp-type').textContent=typeNm;
@@ -3715,6 +3727,79 @@ function onDualRangeChange(){
 
 // 사전적재 데이터 CDN (guhaedo-data 레포) — 레포 생성 전이면 404 → 자동으로 API 폴백
 var TRADE_DATA_CDN='https://cdn.jsdelivr.net/gh/BILLIONARIE-CAN/guhaedo-data@main/trades/';
+
+// ===== 분양 단지 핀 (청약홈 데이터, guhaedo-data/presale.json) =====
+var PRESALE_URL='https://cdn.jsdelivr.net/gh/BILLIONARIE-CAN/guhaedo-data@main/presale.json';
+var presaleData=[],presaleVisible=true,presaleOvs=[],presaleBound=false;
+function loadPresaleData(){
+  fetch(PRESALE_URL).then(function(r){return r.ok?r.json():null;}).then(function(j){
+    if(!j||!j.items)return;
+    presaleData=j.items.filter(function(x){return x.lat&&x.lng;});
+    if(map&&!presaleBound){presaleBound=true;kakao.maps.event.addListener(map,'idle',renderPresalePins);}
+    renderPresalePins();
+  }).catch(function(){});
+}
+function presaleStatus(it){
+  var today=new Date().toISOString().slice(0,10);
+  if(it.rcptB&&today<it.rcptB)return {l:'분양예정',c:'#e67e22'};
+  if(it.rcptB&&it.rcptE&&today>=it.rcptB&&today<=it.rcptE)return {l:'분양중',c:'#e74c3c'};
+  if(it.mvn&&/^\d{6}$/.test(it.mvn)){
+    var now=new Date();
+    var months=(parseInt(it.mvn.slice(0,4))-now.getFullYear())*12+(parseInt(it.mvn.slice(4,6))-1-now.getMonth());
+    if(months>0)return {l:'입주 D-'+months+'개월',c:'#8e44ad'};
+    if(months>=-9)return {l:'입주중',c:'#8e44ad'};
+    return null;
+  }
+  return {l:'분양',c:'#e67e22'};
+}
+function renderPresalePins(){
+  presaleOvs.forEach(function(o){o.setMap(null);});presaleOvs=[];
+  if(!map||!presaleVisible||!presaleData.length)return;
+  if(map.getLevel()>8)return; // 시군구 클러스터부터는 숨김
+  var bounds=map.getBounds();
+  presaleData.forEach(function(it,idx){
+    var pos=new kakao.maps.LatLng(it.lat,it.lng);
+    if(!bounds.contain(pos))return;
+    var st=presaleStatus(it);
+    if(!st)return;
+    var nm=String(it.n||'').replace(/[<>]/g,'');
+    var el=document.createElement('div');
+    el.className='ps-pin';
+    el.innerHTML='<div class="ps-pin-inner"><span style="color:'+st.c+';font-weight:800;letter-spacing:.2px">'+st.l+'</span><span class="ps-pin-nm">'+nm+'</span></div>';
+    (function(i){el.onclick=function(){openPresale(i);};})(idx);
+    var ov=new kakao.maps.CustomOverlay({position:pos,content:el,yAnchor:1.1,zIndex:300});
+    ov.setMap(map);
+    presaleOvs.push(ov);
+  });
+}
+function openPresale(idx){
+  var it=presaleData[idx];if(!it)return;
+  var mvnTxt=(it.mvn&&/^\d{6}$/.test(it.mvn))?it.mvn.slice(0,4)+'년 '+parseInt(it.mvn.slice(4,6))+'월 입주예정':'미정';
+  openAptDetail({
+    code:'DISC_'+(it.lawd||'00000')+'_'+it.n,
+    name:it.n, addr:it.addr, jibunAddr:it.addr,
+    units:it.units, built:mvnTxt, builder:it.builder,
+    aptType:'분양단지', saleType:'분양', lat:it.lat, lng:it.lng
+  });
+  setTimeout(function(){injectPresaleInfo(it);},60);
+}
+function injectPresaleInfo(it){
+  var old=ge('presale-box');if(old)old.remove();
+  var grid=ge('adp-info-grid');
+  if(!grid)return;
+  var st=presaleStatus(it)||{l:'분양',c:'#e67e22'};
+  var box=document.createElement('div');box.id='presale-box';
+  box.style.cssText='background:#fff7ed;border:1.5px solid '+st.c+';border-radius:10px;padding:12px 14px;margin-bottom:12px;font-size:12px;line-height:1.9';
+  box.innerHTML='<div style="font-weight:800;color:'+st.c+';font-size:13px;margin-bottom:4px">🏗️ '+st.l+'</div>'
+    +(it.units?'공급세대: <b>'+Number(it.units).toLocaleString()+'세대</b><br>':'')
+    +(it.rcptB?'청약접수: '+it.rcptB+' ~ '+(it.rcptE||'')+'<br>':'')
+    +(it.prz?'당첨자발표: '+it.prz+'<br>':'')
+    +(it.mvn&&/^\d{6}$/.test(it.mvn)?'입주예정: <b>'+it.mvn.slice(0,4)+'.'+it.mvn.slice(4,6)+'</b><br>':'')
+    +(it.cmp?'청약경쟁률: 평균 <b>'+it.cmp.avg+':1</b> · 최고 '+it.cmp.max+':1<br>':'')
+    +(it.tel?'분양문의: <a href="tel:'+it.tel+'" style="color:#2b6cb0;font-weight:700">'+it.tel+'</a> &nbsp;':'')
+    +(it.hmpg?'<a href="'+it.hmpg.replace(/"/g,'')+'" target="_blank" rel="noopener" style="color:#2b6cb0;font-weight:700">분양 홈페이지 ↗</a>':'');
+  grid.parentNode.insertBefore(box,grid);
+}
 function loadTradeChart(code, aptJibun, builtYear){
   if(!code)return;
   tradeCurrentCode=code;tradeCurrentJibun=aptJibun||'';
@@ -3877,6 +3962,7 @@ window.onload=function(){
   ge('calc-fields').innerHTML=calcFields(0);
   setTimeout(()=>commUpdate(),50);
   setTimeout(()=>initMap(),500);
+  setTimeout(loadPresaleData,1800); // 분양 단지 핀 (지도 초기화 후)
   // 듀얼 슬라이더 초기화
   var now2=new Date();
   var fe=ge('trade-year-from'),te=ge('trade-year-to');
