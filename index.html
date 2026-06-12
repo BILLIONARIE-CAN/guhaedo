@@ -3718,6 +3718,8 @@ function onDualRangeChange(){
   if(tradeCurrentCode)loadTradeChart(tradeCurrentCode,tradeCurrentJibun,tradeCurrentBuiltYear);
 }
 
+// 사전적재 데이터 CDN (guhaedo-data 레포) — 레포 생성 전이면 404 → 자동으로 API 폴백
+var TRADE_DATA_CDN='https://cdn.jsdelivr.net/gh/BILLIONARIE-CAN/guhaedo-data@main/trades/';
 function loadTradeChart(code, aptJibun, builtYear){
   if(!code)return;
   tradeCurrentCode=code;tradeCurrentJibun=aptJibun||'';
@@ -3799,6 +3801,40 @@ function loadTradeChart(code, aptJibun, builtYear){
     var remaining=ymList.slice();
     var guard=0;
     try{
+      // ⚡ 0단계: 사전적재 정적 데이터 (CDN, ~0.3초) — 있으면 즉시 렌더 + 최신 2개월만 라이브 보충
+      if(TRADE_DATA_CDN){
+        var sd=null;
+        try{sd=await fetch(TRADE_DATA_CDN+encodeURIComponent(code)+'.json').then(function(r){return r.ok?r.json():null;});}catch(e){sd=null;}
+        if(activeCode!==code)return;
+        if(sd&&((sd.b&&sd.b.length)||(sd.j&&sd.j.length)||(sd.m&&sd.m.length))){
+          var minYm=parseInt(ymList[ymList.length-1]),maxYm=parseInt(ymList[0]);
+          var toT=function(y){y=parseInt(y);return Math.floor(y/100)+'-'+('0'+(y%100)).slice(-2);};
+          (sd.b||[]).forEach(function(r){if(r[0]<minYm||r[0]>maxYm)return;var o={t:toT(r[0]),day:String(r[1]||''),p:r[2]||0,a:r[3]||0,f:String(r[4]||'')};if(r[5])o.pre=r[5]===2?'입':'분';accum.buy.push(o);});
+          (sd.j||[]).forEach(function(r){if(r[0]<minYm||r[0]>maxYm)return;accum.jeonse.push({t:toT(r[0]),day:String(r[1]||''),p:r[2]||0,a:r[3]||0,f:String(r[4]||'')});});
+          (sd.m||[]).forEach(function(r){if(r[0]<minYm||r[0]>maxYm)return;accum.monthly.push({t:toT(r[0]),day:String(r[1]||''),d:r[2]||0,m:r[3]||0,a:r[4]||0,f:String(r[5]||'')});});
+          if(hasData()){if(loading)loading.style.display='none';applyData(accum);} // 즉시 차트
+          var dbgS=ge('trade-debug');
+          if(dbgS)dbgS.textContent='⚡ 사전적재 (갱신 '+(sd.u||'?')+') — 최신 거래 확인 중...';
+          var top=null;
+          try{top=await fetchBatch(ymList.slice(0,2));}catch(e){top=null;}
+          if(activeCode!==code)return;
+          if(top){
+            var repl={};ymList.slice(0,2).forEach(function(m){repl[m.substring(0,4)+'-'+m.substring(4)]=1;});
+            accum.buy=accum.buy.filter(function(x){return !repl[x.t];});
+            accum.jeonse=accum.jeonse.filter(function(x){return !repl[x.t];});
+            accum.monthly=accum.monthly.filter(function(x){return !repl[x.t];});
+            (top.buy||[]).forEach(function(x){accum.buy.push(x);});
+            (top.jeonse||[]).forEach(function(x){accum.jeonse.push(x);});
+            (top.monthly||[]).forEach(function(x){accum.monthly.push(x);});
+          }
+          if(dbgS)dbgS.textContent='⚡ 사전적재 (갱신 '+(sd.u||'?')+') + 최신 2개월 라이브';
+          if(loading)loading.style.display='none';
+          if(prog)prog.style.display='none';
+          if(hasData()){applyData(accum);}
+          else{if(empty)empty.style.display='block';}
+          return; // 정적 경로 완료 → 기존 배치 루프 스킵
+        }
+      }
       while(remaining.length&&guard++<30){
         var d=await fetchBatch(remaining);
         if(activeCode!==code)return;
