@@ -3430,8 +3430,8 @@ function renderTradeChart(){
   if(!raw)return;
   var allItems=curTradeTab==='buy'?raw.buy:curTradeTab==='jeonse'?raw.jeonse:raw.monthly;
   var areaFilter=ge('trade-area-sel')?ge('trade-area-sel').value:'';
-  // value는 정수 ㎡ 값 (예: "85")
-  var items=areaFilter?allItems.filter(function(x){return Math.floor(x.a||0)===parseInt(areaFilter);}):allItems;
+  // value는 실제 소수점 ㎡ 값 (예: "84.5678") — Math.floor 금지, 타입마다 소수점이 달라 그대로 비교
+  var items=areaFilter?allItems.filter(function(x){return Math.abs((x.a||0)-parseFloat(areaFilter))<0.0001;}):allItems;
   var loading=ge('trade-loading'),chartArea=ge('trade-chart-area'),empty=ge('trade-empty'),summary=ge('trade-summary');
   if(!items||items.length===0){
     if(loading)loading.style.display='none';
@@ -3660,7 +3660,7 @@ function renderTradeTable(){
       infoHtml=badge+'<span style="color:'+col+';font-weight:700">'+lbl+' '+dp+'/'+x.m+'</span>';
     }
     var infoCell='<td style="padding:6px 4px">'+infoHtml+'</td>';
-    var areaCell='<td style="padding:6px 4px;text-align:right;color:var(--text2)">'+Math.round(x.a||0)+'</td>';
+    var areaCell='<td style="padding:6px 4px;text-align:right;color:var(--text2)">'+(x.a?parseFloat(x.a).toFixed(2)+'㎡':'-')+'</td>';
     var floorCell='<td style="padding:6px 4px;text-align:right;color:var(--text2)">'+(x.f||'-')+'층</td>';
     return '<tr style="border-bottom:1px solid rgba(0,0,0,0.04)">'+ymCell+dayCell+infoCell+areaCell+floorCell+'</tr>';
   }).join('');
@@ -3755,20 +3755,16 @@ function loadTradeChart(code, aptJibun, builtYear){
       }
     }
     var allAreas={};
-    [d.buy,d.jeonse,d.monthly].forEach(function(arr){(arr||[]).forEach(function(x){if(x.a){var key=Math.floor(x.a);if(!allAreas[key])allAreas[key]={py:Math.floor(x.a/3.3058),sqm:x.a};}});});
+    // key = 소수점 원본값 문자열 — Math.floor 금지 (84.5678≠84.7689는 다른 타입)
+    [d.buy,d.jeonse,d.monthly].forEach(function(arr){(arr||[]).forEach(function(x){if(x.a){var key=String(parseFloat(x.a));if(!allAreas[key])allAreas[key]={py:Math.floor(x.a/3.3058),sqm:parseFloat(x.a)};}});});
     var sel=ge('trade-area-sel');
     if(sel){
       var saved=sel.value;
-      // 같은 평수 내 타입 알파벳 부여 (84.99→26평A, 84.97→26평B)
-      var sorted=Object.keys(allAreas).map(Number).sort(function(a,b){return a-b;});
-      var pyGroups={};sorted.forEach(function(sqm){var py=allAreas[sqm].py;if(!pyGroups[py])pyGroups[py]=[];pyGroups[py].push(sqm);});
+      // 전용면적 기준 오름차순 정렬 — 공급면적(평수) 표기는 단지 면적 데이터 연동 후 추가 예정
+      var sorted=Object.keys(allAreas).map(parseFloat).sort(function(a,b){return a-b;});
       var opts='<option value="">전체 면적</option>';
       sorted.forEach(function(sqm){
-        var info=allAreas[sqm];
-        var py=info.py;
-        var types=pyGroups[py];
-        var suffix=types.length>1?String.fromCharCode(64+types.indexOf(sqm)+1):'';
-        opts+='<option value="'+sqm+'">'+py+'평'+suffix+' ('+info.sqm+'㎡)</option>';
+        opts+='<option value="'+sqm+'">'+sqm+'㎡</option>';
       });
       sel.innerHTML=opts;
       if(saved)sel.value=saved;
