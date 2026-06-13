@@ -335,14 +335,14 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
 .toast.show{opacity:1}
 #trade-year-from::-webkit-slider-thumb,#trade-year-to::-webkit-slider-thumb{-webkit-appearance:none;pointer-events:all;width:16px;height:16px;border-radius:50%;background:var(--green);border:2.5px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,0.25);cursor:pointer}
 #trade-year-from::-moz-range-thumb,#trade-year-to::-moz-range-thumb{pointer-events:all;width:13px;height:13px;border-radius:50%;background:var(--green);border:2.5px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,0.25);cursor:pointer}
-/* 분양 핀: 무지개 테두리가 캡슐 둘레를 흐르는 효과 */
-.ps-pin{padding:2px;border-radius:12px;cursor:pointer;
+/* 분양 핀: 무지개 테두리 — 일반 아파트 핀과 같은 크기 */
+.ps-pin{padding:1.5px;border-radius:5px;cursor:pointer;
   background:linear-gradient(90deg,#ff6b6b,#f7b733,#ffe66d,#51e898,#4fc3f7,#b388ff,#ff6b6b);
   background-size:350% 100%;animation:psFlow 2.6s linear infinite;
-  box-shadow:0 2px 7px rgba(0,0,0,.28)}
-.ps-pin-inner{background:#fff;border-radius:10px;padding:4px 11px 5px;font-size:10px;font-weight:600;color:#333;
-  white-space:nowrap;display:flex;flex-direction:column;align-items:center;gap:1px;line-height:1.35}
-.ps-pin-nm{max-width:130px;overflow:hidden;text-overflow:ellipsis;font-size:11px;color:#222}
+  box-shadow:0 1px 3px rgba(0,0,0,.3)}
+.ps-pin-inner{background:#fff;border-radius:3px;padding:1px 4px;font-size:11px;font-weight:700;color:#333;
+  white-space:nowrap;display:flex;align-items:center;gap:3px;line-height:1.4}
+.ps-pin-nm{max-width:120px;overflow:hidden;text-overflow:ellipsis;font-weight:700;color:#222}
 @keyframes psFlow{to{background-position:-350% 0}}
 </style>
 <script src="https://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
@@ -1485,7 +1485,7 @@ function renderVisibleMarkers(showType='apt'){
 
   const visible=MAP_DATA.filter(d=>{
     if(!d.lat||!d.lng) return false;
-    const propTypes=['apt','bunyang','officetel','villa'];
+    const propTypes=['apt','officetel','villa']; // bunyang은 presaleData 핀으로 별도 관리
     if(showType==='apt' && !propTypes.includes(d.type)) return false;
     if(showType==='all' && curFilter!=='all' && d.type!==curFilter) return false;
     if(d.type==='broker' && level>5) return false;
@@ -1741,7 +1741,8 @@ function addMarker(d){
   if(!d.lat||!d.lng)return;
   const pos=new kakao.maps.LatLng(d.lat,d.lng);
   let bc='';
-  if(d.type==='apt'||d.type==='bunyang'||d.type==='officetel'||d.type==='villa'){
+  if(d.type==='bunyang')return; // presaleData 무지개/일반 핀으로 관리 — 중복 방지
+  if(d.type==='apt'||d.type==='officetel'||d.type==='villa'){
     const n=d.name.length>9?d.name.substring(0,9)+'..':d.name;
     const uClr=d.type==='bunyang'?'rgba(0,0,0,0.5)':'rgba(255,255,255,0.65)';
     const sepClr=d.type==='bunyang'?'rgba(0,0,0,0.18)':'rgba(255,255,255,0.28)';
@@ -3751,21 +3752,26 @@ function loadPresaleData(){
 }
 function presaleStatus(it){
   var today=new Date().toISOString().slice(0,10);
-  if(it.rcptB&&today<it.rcptB)return {l:'분양예정',c:'#e67e22'};
-  if(it.rcptB&&it.rcptE&&today>=it.rcptB&&today<=it.rcptE)return {l:'분양중',c:'#e74c3c'};
+  if(it.rcptB&&today<it.rcptB)return {l:'분양예정',c:'#e67e22',rb:true};
+  if(it.rcptB&&it.rcptE&&today>=it.rcptB&&today<=it.rcptE)return {l:'분양중',c:'#e74c3c',rb:true};
   if(it.mvn&&/^\d{6}$/.test(it.mvn)){
     var now=new Date();
     var months=(parseInt(it.mvn.slice(0,4))-now.getFullYear())*12+(parseInt(it.mvn.slice(4,6))-1-now.getMonth());
-    if(months>0)return {l:'입주 D-'+months+'개월',c:'#8e44ad'};
-    if(months>=-9)return {l:'입주중',c:'#8e44ad'};
-    return null;
+    if(months>0){
+      // 12개월 이상이면 "1년 3개월" 형태
+      var lbl=months>=12?(Math.floor(months/12)+'년'+(months%12?' '+(months%12)+'개월':'')):(months+'개월');
+      return {l:'D-'+lbl,c:'#8e44ad',rb:true};
+    }
+    if(months>=-1)return {l:'입주중',c:'#8e44ad',rb:true}; // 입주달+1달까지 무지개
+    if(months>=-12)return {l:null,c:'#3b82f6',rb:false};  // 이후 1년간 일반 아파트 핀으로
+    return null; // 1년 이후 핀 자동 제거
   }
-  return {l:'분양',c:'#e67e22'};
+  return {l:'분양',c:'#e67e22',rb:true};
 }
 function renderPresalePins(){
   presaleOvs.forEach(function(o){o.setMap(null);});presaleOvs=[];
   if(!map||!presaleVisible||!presaleData.length)return;
-  if(map.getLevel()>8)return; // 시군구 클러스터부터는 숨김
+  if(map.getLevel()>5)return; // 아파트 핀과 동일한 거리(level 5 이하)에서만 표시
   var bounds=map.getBounds();
   presaleData.forEach(function(it,idx){
     var pos=new kakao.maps.LatLng(it.lat,it.lng);
@@ -3774,8 +3780,16 @@ function renderPresalePins(){
     if(!st)return;
     var nm=String(it.n||'').replace(/[<>]/g,'');
     var el=document.createElement('div');
-    el.className='ps-pin';
-    el.innerHTML='<div class="ps-pin-inner"><span style="color:'+st.c+';font-weight:800;letter-spacing:.2px">'+st.l+'</span><span class="ps-pin-nm">'+nm+'</span></div>';
+    if(st.rb){
+      // 무지개 핀 (분양~입주달+1달)
+      el.className='ps-pin';
+      var lbl=st.l?'<span style="font-size:9px;color:'+st.c+';font-weight:800">'+st.l+'</span>':'';
+      el.innerHTML='<div class="ps-pin-inner">'+lbl+(lbl&&nm?'<span style="color:#bbb">·</span>':'')+'<span class="ps-pin-nm">'+nm+'</span></div>';
+    } else {
+      // 입주+1달 이후 — 일반 아파트 핀 스타일 (파란색)
+      el.style.cssText='background:'+st.c+';color:#fff;padding:2px 5px;border-radius:3px;font-size:11px;font-weight:700;cursor:pointer;box-shadow:0 1px 3px rgba(0,0,0,.3);white-space:nowrap;text-align:center;line-height:1.4;border:1.5px solid #fff';
+      el.textContent=nm;
+    }
     (function(i){el.onclick=function(){openPresale(i);};})(idx);
     var ov=new kakao.maps.CustomOverlay({position:pos,content:el,yAnchor:1.1,zIndex:300});
     ov.setMap(map);
