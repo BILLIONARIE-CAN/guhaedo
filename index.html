@@ -335,14 +335,6 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
 .toast.show{opacity:1}
 #trade-year-from::-webkit-slider-thumb,#trade-year-to::-webkit-slider-thumb{-webkit-appearance:none;pointer-events:all;width:16px;height:16px;border-radius:50%;background:var(--green);border:2.5px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,0.25);cursor:pointer}
 #trade-year-from::-moz-range-thumb,#trade-year-to::-moz-range-thumb{pointer-events:all;width:13px;height:13px;border-radius:50%;background:var(--green);border:2.5px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,0.25);cursor:pointer}
-/* 핀 등장 애니메이션 */
-@keyframes pinPop{
-  0%  {transform:scale(0) translateY(-6px);opacity:0}
-  60% {transform:scale(1.18) translateY(2px);opacity:1}
-  80% {transform:scale(0.93) translateY(0)}
-  100%{transform:scale(1) translateY(0);opacity:1}
-}
-.pin-pop{animation:pinPop .32s cubic-bezier(.34,1.56,.64,1) both}
 
 /* 분양 핀: 무지개 테두리 — 일반 핀 폭에 맞춘 2단(상태/이름) 컴팩트 */
 .ps-pin{padding:1.5px;border-radius:6px;cursor:pointer;
@@ -1784,9 +1776,7 @@ function addMarker(d){
     const clr=TYPE_COLOR[d.type]||'#1a56db';
     const txtClr=d.type==='bunyang'?'#1a1a1a':'#fff';
     const aptDiv=document.createElement('div');
-    const _delay=(Math.random()*120).toFixed(0);
-    aptDiv.className='pin-pop';
-    aptDiv.style.cssText='background:'+clr+';color:'+txtClr+';padding:2px 5px;border-radius:3px;font-size:11px;font-weight:700;cursor:pointer;box-shadow:0 1px 3px rgba(0,0,0,.3);white-space:nowrap;text-align:center;line-height:1.4;border:1.5px solid #fff;animation-delay:'+_delay+'ms';
+    aptDiv.style.cssText='background:'+clr+';color:'+txtClr+';padding:2px 5px;border-radius:3px;font-size:11px;font-weight:700;cursor:pointer;box-shadow:0 1px 3px rgba(0,0,0,.3);white-space:nowrap;text-align:center;line-height:1.4;border:1.5px solid #fff';
     aptDiv.innerHTML=n+u;
     aptDiv.onclick=function(){selectItem(d.id);};
     bc=aptDiv;
@@ -3862,8 +3852,7 @@ function renderPresalePins(){
     var nm=String(it.n||'').replace(/[<>]/g,'');
     if(nm.length>9)nm=nm.substring(0,9)+'..'; // 일반 핀과 동일한 이름 길이
     var el=document.createElement('div');
-    el.className='ps-pin pin-pop';
-    el.style.animationDelay=(Math.random()*120).toFixed(0)+'ms';
+    el.className='ps-pin';
     el.innerHTML='<div class="ps-pin-inner"><span class="ps-pin-st" style="color:'+st.c+'">'+st.l+'</span><span class="ps-pin-nm">'+nm+'</span></div>';
     (function(i){el.onclick=function(){openPresale(i);};})(idx);
     var ov=new kakao.maps.CustomOverlay({position:pos,content:el,yAnchor:1.1,zIndex:300});
