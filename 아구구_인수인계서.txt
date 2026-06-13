@@ -1,285 +1,319 @@
-아구구 플랫폼 인수인계서 (LIVING DOC)
+# 🏠 아구구 플랫폼 인수인계서 (LIVING DOC)
 
-최종 갱신: 2026-06-10   갱신 주체: Claude (세션 인수자)   버전: v8
+최종 갱신: 2026-06-13  갱신 주체: Claude (세션 인수자)  버전: v8
 
-================================================================================
-인수자 안내 (READ FIRST)
-================================================================================
+---
 
-이 문서는 세션 간 인수인계용 살아있는 문서입니다.
+## 🔁 인수자 안내 (READ FIRST)
+
+이 문서는 세션 간 인수인계용 살아있는 문서입니다.  
 새 세션 시작 시 이 파일을 붙여넣고 "이어서 작업해줘"라고 하면:
-  1. 전체 읽고 현재 상태 파악
-  2. 요청 작업 수행
-  3. 작업 끝나면 이 문서 갱신 (맨 아래 지시문 참조)
+1. 전체 읽고 현재 상태 파악
+2. 요청 작업 수행
+3. 작업 끝나면 이 문서 갱신 (맨 아래 지시문 참조)
 
-⚠ 비밀키/관리자 비번 포함 — GitHub 공개 레포 커밋 금지
-⚠ git은 CMD에서 안됨 → Git Bash 사용 또는 전체 경로 사용
-⚠ 사용자는 개발자가 아님. 명령어와 파일 위치를 구체적으로 안내할 것
+⚠️ 비밀키/관리자 비번 포함 — GitHub 공개 레포 커밋 금지
 
-================================================================================
-프로젝트 개요
-================================================================================
+---
 
-- 사용자: 충남 아산 공인중개사. 브랜드 아구구
-- 사이트: https://guhaedo.kr
-- GitHub 레포: BILLIONARIE-CAN/guhaedo (Vercel 자동배포 연동)
-- 관리자: https://guhaedo.kr/admin (비번 8888 → 변경 권장)
-- 작업 폴더: C:\Users\essoz\GitHub\guhaedo (Cowork 연결 폴더)
-- 스크립트 실행: cd C:\Users\essoz\GitHub\guhaedo && node 파일명.js
+## 🆕 v8 변경사항 (2026-06-11~13 세션)
 
-================================================================================
-핵심 키 / 접속 정보
-================================================================================
+### 1. 실거래 면적 필터 소수점 정밀 구분
+- 기존 `Math.floor(x.a)` 그룹핑 → 84.5678 ≠ 84.7689가 같은 84로 묶이던 버그 수정
+- 수정: 키를 `String(parseFloat(x.a))`로 저장, 비교 시 `Math.abs(x.a - parseFloat(filter)) < 0.0001`
+- 면적 표기: 공급면적 API 데이터 없음 → 전용㎡만 표시 (전유부분 평수 표기 제거)
+- A/B suffix 자동 부여 로직 제거 (단정짓지 않음)
 
-공공데이터 API KEY  : 8dfbbd6dc2fff98040507b95b9688bc24cbdfb35e253494d734a697d4658f1cf
-카카오 REST KEY     : be82d140cac4386ee76d82cc16c65c3e
-카카오맵 앱키       : a7a67059ffadc0b7c6e4318639cdedeb
-나이스(NEIS) KEY    : 980e346ab8c348ae85f1d484fb3e275c
-Supabase URL        : https://nqnbbccazjanjhktknyz.supabase.co
-Supabase anon key   : (공개키 — 레포 내 보관)
-Supabase service key: Vercel 환경변수 SUPABASE_KEY에 저장됨 (2026-05-23 등록)
-Vercel 팀 슬러그    : billionarie-s-projects
+### 2. .gitignore 생성
+- `아구구_인수인계서.md`, `.env`, `.DS_Store` 등 커밋 제외 설정
 
-================================================================================
-API 엔드포인트
-================================================================================
+### 3. admin/index.html — 중개사 담당단지 기능
+- broker_apts 테이블 신규 (broker_id, apt_code, apt_name)
+- 어드민 중개사 폼: 담당단지 검색+추가 UI
+- index.html 아파트 사이드바: 전문중개사 카드 섹션 표시
 
-K-apt 단지정보 V4
-  https://apis.data.go.kr/1613000/AptBasisInfoServiceV4/getAphusBassInfoV4
-  파라미터: serviceKey, kaptCode, _type=json
-  주요 응답: kaptAddr, doroJuso, kaptBcompany(시공사), codeHallNm(현관구조),
-            kaptdaCnt(세대수), kaptDongCnt(동수), codeHeatNm(난방),
-            codeSaleNm(분양), kaptUsedate(준공), ktownFlrNo(최고층), bjdCode
+### 4. master/index.html 전면 재작성 (5탭)
+- 📊 현황 / 🔍 실거래 진단 / 🏢 건축물대장 / 🔧 수동 진단 / ⚙️ 설정
+- 비번 localStorage `mst_pw` 기본값 **9999** (로그인 `mst_auth`=1 sessionStorage 유지)
+- 시도 카드 → 시군구별 api/diag?op=district 1회 공유 → 의심단지 [복사] 워크플로
+- 건축물대장 누락 진단, op=fixmeta 수동 수정
 
-건축HUB 표제부
-  https://apis.data.go.kr/1613000/BldRgstHubService/getBrTitleInfo
-  파라미터: serviceKey, sigunguCd, bjdongCd, bun, ji, numOfRows=1
-  → 용적률(vlRat), 건폐율(bcRat) 제공
-  ⚠ 총괄표제부(getBrRecapTitleInfo)는 아파트 단지에 totalCount=0 — 사용 불가
+### 5. api/diag.js 신규 생성
+- op=district: 국토부 매매/전월세/분양권 3종 동시 호출 + Supabase `district_cache` 캐싱
+- op=metalist: apartments 테이블 메타 일괄 조회
+- op=fixmeta: apartments 테이블 수동 수정 PATCH
+- ⚠️ **`supabase_district_cache.sql` Supabase에서 실행 필요** (아직 미실행 시)
 
-매매 실거래가
-  https://apis.data.go.kr/1613000/RTMSDataSvcAptTrade/getRTMSDataSvcAptTrade
-  파라미터: serviceKey, LAWD_CD(시군구코드5자리), DEAL_YMD(YYYYMM), numOfRows=1000
+### 6. 분양 핀 설계 (⚠️ 건드리지 말 것)
+핵심: `presaleDup()` + `rebuildPresaleActive()` 시스템 — Opus 설계, 반드시 유지
+- `presaleDup(d)`: 활성 분양 핀과 40m 이내 OR 120m+이름 유사 → 일반 핀 억제
+- `rebuildPresaleActive()`: presaleStatus()가 non-null인 분양 단지 인덱스 빌드
+- `presaleStatus()`: 분양예정/분양중/D-n개월(12개월 이상 "1년 n개월") → `null` 반환 시 분양 핀 제거, coords 일반 핀 자동 표시
+- `renderPresalePins()`: ps-pin 무지개 CSS, level ≤ 5에서만 표시
+- addMarker에서 bunyang 타입은 완전 스킵 (`presaleDup`으로 apt/officetel 선택적 억제)
 
-전월세 실거래가
-  https://apis.data.go.kr/1613000/RTMSDataSvcAptRent/getRTMSDataSvcAptRent
-  파라미터: serviceKey, LAWD_CD, DEAL_YMD, numOfRows=1000
+### 7. git 방식 확인
+- 사용자는 **GitHub Desktop** 사용 (CMD git 아님)
 
-카카오 주소검색
-  https://dapi.kakao.com/v2/local/search/address.json
-  헤더: Authorization: KakaoAK {REST_KEY}
+---
 
-API 일일한도: K-apt 약 1만 건/일 (자정 초기화)
+## 🆕 v7 변경사항 (2026-06-10~11 세션) — 실거래 전면 개편
 
-================================================================================
-Supabase 테이블 현황
-================================================================================
+### 1. 실거래 매칭 로직 v4 ⚠️ 3곳에 동일 로직 존재 — 수정 시 반드시 3곳 동기화
+위치: `api/trade.js`(aptMatch), `master/index.html`(matchItem), **guhaedo-data 레포** `build.mjs`(matchItem)
+- 우선순위: ① 주소일치(법정동+지번본번, 부번은 양쪽 있을 때만) → 단지명 무시
+  ② 이름 완전일치+법정동 일치 → 지번 무시 (K-apt 지번≠국토부 지번 흔함: 모지번/합필)
+     · 동 불일치 시엔 본번+부번 완전일치일 때만 (법정동 개편 대응, 예: 전주 동산동→여의동)
+  ③ 부분포함(정규화 5자+): 추가글자가 숫자없는 ≤4자(지역명/브랜드 접두접미: 전주·군산·한화 등)면 지번 무관 매칭, 숫자 포함(2차·3단지)이면 본번 일치 필수
+  ④ 4자 이름(황등오투·동신진주 등)은 본번 완전일치 필수 (generic 보호: 휴먼시아·해송마을은 의도적으로 안 잡음)
+- 정규화: 공백/괄호/특수문자 제거→대문자→`(아파트|APT|맨션|관리사무소|관리동)$` 제거×2
+- 공통 필터: cdealType(계약해제) 제외, buildYear ±1년
+- 분양권/입주권: RTMSDataSvcSilvTrade API → buy 배열에 병합, `pre:'분'|'입'` 플래그 (차트 보라점, 준공+1년 이후 월은 호출 스킵)
 
-테이블명           용도                              상태
----------------------------------------------------------------------------
-brokers            중개사 (지도 핀)                  사용중
-apartments         단지 상세 캐시 (far/bcr 등)       사용중
-apt_transactions   실거래가 월별 캐시                생성완료 (2026-06-10)
-businesses         업체 (법무사/세무사/이사 등)       생성 필요
-banners            배너 광고 (읍면동 타겟팅)          생성 필요
+### 2. api/trade.js 배치 모드 (속도 개선 1단계)
+- `?yms=202501,202502,...` → Supabase 캐시 일괄조회 → 전부 캐시면 외부 API 0회 즉시응답 (~0.5초)
+- 미보유 월은 12개씩 서버가 페치 후 `missing` 배열 반환 → 프론트가 루프 백필 (최신부터 렌더)
+- ⚠️ **캐시 버전컷 상수** `Date.parse('2026-06-11T08:10:00Z')` (getCached/getCachedBatch 2곳) — **매칭 로직 변경 시 이 시각을 현재 UTC로 갱신**해야 오염 캐시 무효화
+- apt_transactions의 apt_name 컬럼 = `"단지명|법정동|지번"` 패킹 (캐시 히트 시 V4 스킵용)
 
-[apt_transactions 스키마]
-  kapt_code  TEXT NOT NULL
-  ym         TEXT NOT NULL          -- YYYYMM 형식
-  buy        JSONB DEFAULT '[]'     -- 매매 거래 배열
-  jeonse     JSONB DEFAULT '[]'     -- 전세 거래 배열
-  monthly    JSONB DEFAULT '[]'     -- 월세 거래 배열
-  lawd_cd    TEXT
-  apt_name   TEXT
-  fetched_at TIMESTAMPTZ DEFAULT NOW()
-  PRIMARY KEY (kapt_code, ym)
-  INDEX: idx_apt_tx_code ON apt_transactions(kapt_code)
+### 3. 사전적재 시스템 (아실 방식, 속도 최종) — 이번 세션 핵심
+- **레포: github.com/BILLIONARIE-CAN/guhaedo-data** (Public, SERVICE_KEY 시크릿 등록 완료, 2026-06-11 첫 실행 시작)
+- GitHub Actions 매일 03시 KST 자동: 전 시군구 최근 3개월 갱신 + 과거 백필(2006년까지, progress.json의 cursor가 'done'이면 완료)
+- 일 예산 9,000콜 → 전국 백필 2~3주 소요. 레포 Settings→Variables에 `BUDGET` 추가로 가속(운영계정 승인 시)
+- push는 orphan 브랜치 force push = 히스토리 안 쌓임 (용량 = 항상 최신 스냅샷 크기)
+- 프론트(index.html loadTradeChart): `TRADE_DATA_CDN`(jsDelivr) 정적 우선(~0.3초) → 최근 2개월 라이브 교체 → 404 시 배치 모드 폴백
+- jsDelivr 캐시 12시간. 데이터 형식: trades/{단지코드}.json `{n,u,b:[[ym,일,가격만원,전용㎡,층,(1분양/2입주)]],j:[...],m:[[ym,일,보증,월세,㎡,층]]}`
 
-캐시 정책 (api/trade.js):
-  - 2개월 이상 지난 월 → 영구 캐시 (재조회 안 함)
-  - 최근 2개월 → 24시간 TTL
-  - SUPABASE_URL / SUPABASE_KEY 없으면 캐시 비활성 (현재: Vercel에 등록됨)
+### 4. 마스터 페이지 v2 재작성 (guhaedo.kr/master, 비번 localStorage mst_pw 기본 9999)
+- 🔍 실거래 진단: 시도 카드 클릭→시군구별 실거래 API 1회 공유(api/diag.js op=district→Supabase district_cache 캐싱)→클라 매칭→❌의심단지 [복사]버튼→사용자가 Claude에게 붙여넣는 워크플로
+  · 정상단지 30일 스킵(localStorage mstTradeDiag_v2), 의심단지는 /api/trade 단건 호출로 2차 재검증(가짜 의심 자동 제거)
+- 🏢 건축물대장 진단: 누락(용적률/건폐율/승인일/난방/주차) 목록→[자동보완](api/apt detail 재조회)/[수정](op=fixmeta로 apartments PATCH)
+- ⚠️ Supabase `district_cache` 테이블 필요 — 루트의 `supabase_district_cache.sql` 실행 여부 확인할 것
+- 구 마스터의 apt_overrides 오버라이드 탭 삭제 (trade.js가 읽지 않던 死기능)
 
-[businesses 컬럼 (생성 필요)]
-  id uuid auto, name, category, phone, addr,
-  lat float8, lng float8, photo, active bool default true,
-  expires_at date, memo, created_at timestamptz default now()
+### 5. 기타 수정
+- api/apt.js 표제부: numOfRows 1→100, 용적률>0 행 중 연면적 최대(주건축물) 선택 — 관리동이 첫 행이면 용적률 빈 값 나오던 버그 수정
+- 지도: 아파트 핀 레벨5(250m)부터, 레벨6(500m)은 읍면동 클러스터 (마커 수백개 렉 방지)
+- 차트 기본범위: max(2006, 준공-3년)~현재 (분양권 시기 포함). 준공-2년 클라 필터 제거
+- 면적 드롭다운: 정수㎡ 그룹핑 + "29평A (84.97㎡)" 표기. 거래내역 테이블 분양권/입주권 보라 라벨
+- trade-debug 라인: 조회조건 표시, 매칭 0건 시 국토부 등록명 후보 표시
 
-[banners 컬럼 (생성 필요)]
-  id uuid auto, business_name, category, phone, image,
-  areas jsonb, active bool default true,
-  expires_at date, created_at timestamptz default now()
+### 5.5 분양 단지 핀 (청약홈)
+- guhaedo-data 레포 `presale.mjs`: 청약홈 분양정보+경쟁률 API → 카카오 지오코딩(b_code로 lawd 획득) → presale.json. 워크플로에 스텝 포함(매일)
+- ⚠️ **공공데이터포털에서 활용신청 2건 필요**: "한국부동산원_청약홈 분양정보 조회"(15098547), "청약홈 청약접수 경쟁률"(15098905) — 미승인 시 presale 수집만 스킵됨(실거래 수집은 정상)
+- 프론트(index.html): PRESALE_URL CDN 로드 → 주황/빨강/보라 핀(분양예정/분양중/입주D-n, 레벨≤8 표시, 입주+10개월 후 자동 소멸) → 클릭 시 openAptDetail 재활용(code='DISC_'+lawd+'_'+단지명 → 분양권 실거래 차트 자동 연동) + presale-box 정보(공급세대·청약일정·경쟁률·문의처)
+- 지오코딩 실패 단지는 Actions 로그에 "📍 지오코딩 실패"로 출력 — 추후 마스터에서 수동 보정 기능 고려
 
-================================================================================
-완료된 작업
-================================================================================
+### 6. 미해결/다음 작업
+- [ ] 진단 잔여 의심단지(4자 generic·복수 후보: 휴먼시아/해송마을/오투그란데류) 단지별 수동 매칭 지정 기능 — 사용자가 잔여 목록 주면 설계
+- [ ] guhaedo-data 백필 진행 모니터링 (레포 Actions 로그, progress.json)
+- [ ] 마스터 진단을 시도별 1회씩 돌리면 사전적재와 별개로 Supabase 캐시도 예열됨
 
-[아파트 데이터]
-  - 전국 21,825개 단지 (기존 21,308 + 누락 517개 추가)
-  - split_output/ 에 245개 JSON 파일로 분할 저장
-  - 엑셀(20260605_단지_기본정보.xlsx) 데이터 보완: 20,480건
-    (entrance/builder/totalPark/units/dongCnt/topFloor)
-  - K-apt API 추가 수집: jibunAddr/builder/entrance/useArea/bjdCode/aptType/mgrType/areaBreak
-  - 누락 517개 카카오 지오코딩으로 추가. 12개 끝내 실패(카카오 미등록)
+---
 
-[실거래가 차트 (index.html + api/trade.js)]
-  - Chart.js LinearScale x축 (CategoryScale→LinearScale 변경으로 클러스터링 버그 해결)
-  - 산점도(개별거래) + 월평균선 혼합 차트
-  - 듀얼 레인지 슬라이더: 2006~현재 기간 설정 (양방향 핸들)
-  - 빈 공간 제거: 데이터 있는 월 범위로만 x축 표시
-  - 거래량 바 색상: 전월 대비 상승=빨강, 하락=파랑 (주식식)
-  - 크로스헤어: 마우스 호버 시 데이터 월에 스냅, 수직 빨간 점선 표시
-  - Supabase 캐싱: api/trade.js에서 월별 캐시 조회/저장 구현
+## 📌 프로젝트 개요
 
-[사이드바 / 지도]
-  - MAP_DATA에 jibunAddr/builder/entrance/aptType/mgrType/totalPark/sigunguCode 추가
-  - 용적률/건폐율: getBrTitleInfo vlRat/bcRat 연동, Supabase apartments 캐싱
-  - 핀 색상: 아파트=파랑 / 분양=노랑 / 오피스텔=보라 / 연립=청록
-  - 학교 핀, 업체 핀 토글, 거리뷰(도로 클릭 → 로드뷰)
+- 사용자: 충남 아산 공인중개사. 브랜드 **아구구**
+- 사이트: https://guhaedo.kr (GitHub 레포 `guhaedo` + Vercel 자동배포)
+- 관리자: https://guhaedo.kr/admin (비번 **8888** → 변경 권장)
+- 작업 파일: `C:\Users\essoz\GitHub\guhaedo` (Cowork 연결 폴더)
+- 사용자는 개발자가 아님. cmd 명령어, 파일 위치 구체적으로 안내할 것
+- git은 CMD에서 안됨 → **Git Bash** 사용 또는 전체 경로 사용
+- ⚠️ **Claude 샌드박스에서 이 레포에 git 명령(fetch/status 등) 실행 금지** — `.git/index.lock`이 생기고 권한 문제로 못 지워서 사용자 커밋이 막힘 (발생 시 CMD에서 `del /f "C:\Users\essoz\GitHub\guhaedo\.git\index.lock"`). 코드 확인은 grep/Read로만
 
-[PRO 매물안내서]
-  - 단일 컬럼 폼, 방향 8방위, 입주가능일 캘린더
-  - 사진 5장, 직접입력 모드, 즐겨찾기 무료 2/PRO 무제한
-  - 관리자 배너 자동 삽입 (인쇄 보호 포함)
+---
 
-[어드민 (admin/index.html)]
-  - 3탭: 중개사 / 업체 / 배너
+## 🔑 핵심 키/정보
 
-================================================================================
-다음 작업
-================================================================================
+| 항목 | 값 |
+|------|-----|
+| 공공데이터 API KEY | `8dfbbd6dc2fff98040507b95b9688bc24cbdfb35e253494d734a697d4658f1cf` |
+| 카카오 REST KEY | `be82d140cac4386ee76d82cc16c65c3e` |
+| 카카오맵 앱키 | `a7a67059ffadc0b7c6e4318639cdedeb` |
+| 나이스(NEIS) API KEY | `980e346ab8c348ae85f1d484fb3e275c` |
+| Supabase URL | `https://nqnbbccazjanjhktknyz.supabase.co` |
+| Supabase anon key | (공개키 — 레포 내 보관) |
 
-즉시
-  [ ] 과천시 단지 K-apt 크롤링 (LAWD_CD 41290, 현재 데이터 없음)
-  [ ] Supabase에 businesses / banners 테이블 생성
+---
 
-우선순위 높음
-  [ ] PRO 공문서 한번에 뽑기 (스펙 아래 참조)
-  [ ] PRO 중개사 Supabase Auth 실제 연동
-  [ ] coords_all_apt.json 경량화 (build_lite.js → 8~10MB→2MB)
+## 🔧 API 엔드포인트
 
-향후
-  [ ] 주상복합 1,516개 지도 추가
-  [ ] 오피스텔 추가 (국토부 API → 지오코딩)
-  [ ] 온비드 공매 API 연동
-  [ ] 청약홈 분양정보 API 연동
-  [ ] 연립다세대 수집 (generate_villa.js)
-  [ ] PWA 설정
+| 용도 | URL | 주요 파라미터 |
+|------|-----|--------------|
+| K-apt 단지정보 V4 | `https://apis.data.go.kr/1613000/AptBasisInfoServiceV4/getAphusBassInfoV4` | serviceKey, kaptCode, _type=json |
+| 건축HUB 건축물대장 표제부 | `https://apis.data.go.kr/1613000/BldRgstHubService/getBrTitleInfo` | serviceKey, sigunguCd, bjdongCd, bun, ji, numOfRows=1 |
+| 건축HUB 총괄표제부 | `https://apis.data.go.kr/1613000/BldRgstHubService/getBrRecapTitleInfo` | ⚠️ 아파트 단지엔 totalCount=0 — 사용 불가 |
+| 카카오 주소검색 | `https://dapi.kakao.com/v2/local/search/address.json` | query, Authorization: KakaoAK |
+| 카카오 키워드검색 | `https://dapi.kakao.com/v2/local/search/keyword.json` | query, Authorization: KakaoAK |
 
-================================================================================
-PRO 공문서 뽑기 스펙
-================================================================================
+**K-apt 주요 응답 필드:** kaptAddr, doroJuso, kaptBcompany(시공사), codeHallNm(현관구조), kaptdaCnt(세대수), kaptDongCnt(동수), codeHeatNm(난방), codeSaleNm(분양), kaptUsedate(준공), ktownFlrNo(최고층), bjdCode(법정동코드)
 
-주소 입력 → PNU 자동계산 → 6종 버튼 클릭 시 서류 제공
+**API 일일한도:** K-apt 약 1만 건/일 (자정 초기화)
 
-서류별 방법:
-  등기부등본  | 링크 | https://www.iros.go.kr/pos1/jsp/main.jsp (주소 클립보드 복사)
-  건축물대장  | API  | getBrTitleInfo (sigunguCd/bjdongCd/bun/ji)
-  토지대장    | API  | getLandCharacterStiInfo (pnu)
-  토지이용계획| API  | 토지이음 getLandUseInfo or https://www.eum.go.kr
-  지적도      | 링크 | https://map.ngii.go.kr/ms/map/NlipMap.do?beforejump=1
-  임야도      | 링크 | 위와 동일
+---
 
-PNU 코드 = 법정동코드(10자리) + 토지구분(1:토지/2:임야) + 본번(4자리) + 부번(4자리)
-카카오 주소검색 응답: address.b_code(법정동), address.main_address_no(본번), address.sub_address_no(부번)
+## 🗄️ Supabase 테이블
 
-================================================================================
-파일 현황
-================================================================================
+| 테이블 | 용도 | 상태 |
+|--------|------|------|
+| brokers | 중개사 (지도 핀) | ✅ 사용중 |
+| broker_apts | 중개사 담당단지 (broker_id, apt_code, apt_name) | ✅ 생성됨 |
+| businesses | 업체 (법무사/세무사/이사/청소/수리/기타) | ⬜ 생성 필요 |
+| banners | 배너 광고 (읍면동 타겟팅) | ⬜ 생성 필요 |
+| district_cache | 시군구 실거래 월별 캐시 (api/diag 공유) | ⚠️ SQL 실행 필요 (`supabase_district_cache.sql`) |
+| apartments | 단지 메타 (far, bcr, use_date, heat_name, sale_name, total_park) | ✅ 사용중 |
 
-파일/폴더                       상태
----------------------------------------------------------------------------
-index.html                      최신 (실거래가 차트 개선, 모바일 반응형)
-api/trade.js                    최신 (Supabase 캐싱 구현)
-api/apt.js                      최신 (용적률/건폐율 Supabase 캐싱)
-api/discover.js                 최신 (미등록 아파트 발견)
-admin/index.html                최신 (3탭)
-split_output/                   252개 파일, 21,727개 단지 (sigungu 버그 수정 후)
-coords_all_apt.json             21,727개 (8~10MB, 경량화 필요)
-coords_sigungu.json             252개 시군구 (재생성 완료)
-fill_from_excel.js              완료
-add_missing_apts.js             완료 (513개)
-retry_missing_apts.js           완료 (1개 추가)
-fix_manual_apts.js              완료 (3개 추가)
-build_lite.js                   대기 (경량화용)
-깃push.bat                      git add/commit/push 배치파일
-20260605_단지_기본정보.xlsx     C:\Users\essoz\Desktop\files\
+**businesses 컬럼:** id(uuid,auto), name, category, phone, addr, lat(float8), lng(float8), photo, active(bool,true), expires_at(date), memo, created_at(timestamptz,now())
 
-================================================================================
-기술 메모
-================================================================================
+**banners 컬럼:** id(uuid,auto), business_name, category, phone, image, areas(jsonb), active(bool,true), expires_at(date), created_at(timestamptz,now())
 
-- git: CMD에서 안됨 → Git Bash 사용
-  Git Bash 명령: cd /c/Users/essoz/GitHub/guhaedo && git add . && git commit -m "메시지" && git push
+---
 
-- K-apt API: HTTPS 필수, 일일 1만건, 자정 초기화
+## ✅ 완료된 작업
 
-- 카카오 지오코딩 주의:
-  화성만세구/효행구/동탄구 → 카카오 미인식 → 화성시로 변환
-  포항북구/남구 → 포항시 북구/남구로 변환
-  엑셀 주소가 콤마로 여러 개인 경우 첫 번째만 사용
+### 1. 아파트 데이터 (split_output/)
+- 전국 **21,825개** 단지 (기존 21,308 + 누락 517개 추가)
+- 기본: code, name, lat, lng, units, emd, sigunguCode, sido, sigungu, built, dongCnt, heat, sale, topFloor, addr
+- 엑셀(20260605_단지_기본정보.xlsx) 보완 완료:
+  - entrance(현관구조), builder(시공사), totalPark(총주차대수), units(세대수 0→실값), dongCnt, topFloor
+  - 20,480건 갱신
+- K-apt API 추가 수집 완료 (19,999+10,000건):
+  - jibunAddr, builder, entrance, useArea, bjdCode, aptType, mgrType, areaBreak
+- 누락 아파트 517개 카카오 지오코딩으로 추가
+- 12개 끝내 실패 (신축 입주 전 / 너무 오래된 단지 → 카카오 미등록)
 
-- MAP_DATA 필드 추가 시 openAptSidebar / openAptDetail 둘 다 확인
+### 2. 사이드바 단지 상세 (index.html)
+- MAP_DATA에 jibunAddr, builder, entrance, aptType, mgrType, totalPark 추가
+- 세대수: units=0이면 hhldCnt fallback
+- 총 주차대수: `d.totalPark.toLocaleString()+'대'` 표시
+- 사이드바 `d.parking` → `d.totalPark` 수정
 
-- V4 API에 용적률/건폐율 없음 → getBrTitleInfo(표제부) 사용
-  총괄표제부(getBrRecapTitleInfo)는 아파트에 totalCount=0 — 사용 불가
+### 3. 매물안내서 정보카드
+- 총주차(ci-park) 항목 추가
+- 시공사(ci-builder), 현관구조(ci-entrance) 표시
 
-- Supabase apartments 테이블: far/bcr/heat_name/use_date/sale_name 컬럼 있음
-  far+bcr 둘 다 있을 때만 캐시 반환
+### 4. 지도 (index.html)
+- 핀 색상: 아파트=파랑 / 분양=노랑 / 오피스텔=보라 / 연립=청록
+- 학교 핀 🏫, 업체 핀 🏢 (토글)
+- 거리뷰: 세로 버튼 3개, 도로 클릭 → 360° 로드뷰
+- 지도/스카이뷰/거리뷰 + +/- 우하단
+- 모바일 반응형: 하단 탭바, 하단 시트, 햄버거 메뉴
 
-- populate 완료 후 api/populate.js 삭제 + Vercel POPULATE_SECRET 환경변수 삭제
+### 5. PRO 매물안내서
+- 단일 컬럼 폼, 소재지선택/단지명검색 탭
+- 방향 8방위 드롭다운, 입주가능일 캘린더
+- 가격 가로 3열, 기본 미체크
+- 사진 5장, 직접입력 모드
+- 즐겨찾기 무료 2개/PRO 무제한
+- 관리자 배너 자동 삽입 (인쇄 보호 포함)
 
-- parseInt(x.dealYear) / parseInt(x.dealMonth) 필수
-  (공공API가 공백 포함 문자열로 내려올 수 있음)
+### 6. 어드민 (3탭)
+- 🏠 중개사 / 🏢 업체 / 📢 배너
 
-- Chart.js 실거래가 차트:
-  x축 type:'linear' 필수 (category로 하면 scatter 위치 깨짐)
-  scatter data: {x: idx+jitter, y: price}
-  bar/line data: index-based array (index = TRADE_MONTHS 인덱스)
+---
 
-================================================================================
-변경 이력
-================================================================================
+## 🎯 다음 작업
 
-[2026-06-03] (작성: Claude) 인수인계서 LIVING DOC 신규 작성
-[2026-06-04] (작성: Claude) PRO 매물안내서 전면 리뉴얼. 어드민 3탭. fill_extra.js 작성
-[2026-06-05] (작성: Claude) 거리뷰, 업체핀, 모바일 반응형, 추가데이터 완료
-[2026-06-07] (작성: Claude) 엑셀 데이터 보완 20,480건. 누락 아파트 517개 추가.
-             사이드바 totalPark/jibunAddr/builder/entrance 연동. 매물안내서 총주차 추가.
-             학교 핀 개선. PRO 공문서 스펙 정리. api/land.js 생성.
-[2026-06-08] (작성: Claude) 지도 안뜨는 문제 수정 (index.html 파일 잘림).
-             용적률/건폐율: getBrTitleInfo vlRat/bcRat 연동.
-             Supabase apartments 테이블 far/bcr 등 컬럼 추가 및 캐싱.
-             api/populate.js + scripts/populate.js 생성.
-[2026-06-10 v1] (작성: Claude) 실거래가 Supabase 캐싱 구현 (api/trade.js 전면 재작성).
-             Supabase apt_transactions 테이블 생성 (kapt_code+ym PK, buy/jeonse/monthly JSONB).
-             차트 개선: 빈 공간 제거(데이터 범위 기준 x축), 거래량 바 주식식 색상(상승=빨강/하락=파랑),
-             크로스헤어 플러그인(데이터 월 스냅 + 수직 빨간 점선).
-             듀얼 레인지 슬라이더 (양방향 기간 선택).
-             인수인계서 txt 변환.
-[2026-06-10 v2] (작성: Claude) 시군구/읍면동 데이터 버그 전수 수정.
-             ① 구리시 87개 단지: sigunguCode=41310인데 sigungu='과천시'→'구리시' 수정.
-             ② sigunguCode=99999 단지 412개 분리:
-                화성동탄구(155)→41591, 화성만세구(86)→41592,
-                화성병점구(75)→41593, 화성효행구(69)→41594,
-                김포시(12)→41571, 양주시(10)→41631, 안성시(4)→41551
-                코오롱1차(1)→영주시(47210) sido/sigungu 수정.
-             ③ addr/sigungu 불일치 단지 6개 올바른 파일로 이동
-                (하월곡샹그레빌→동대문구, 마장한영스테이→성동구,
-                 마포영화블렌하임→고양시덕양구, 해태보라매타워→관악구,
-                 시티팰리스7차→익산시, 대전도안LH→대전서구).
-             ④ coords_sigungu.json 재생성 (252개 시군구, 올바른 코드 반영).
-             ⑤ index.html MAP_DATA에 sigunguCode 필드 추가
-                (읍면동 목록 표시 버그 수정 — 이전에 항상 빈 목록이었음).
-             ⑥ 진짜 과천시(LAWD_CD 41290): K-apt 데이터 미수집 상태 → 별도 크롤링 필요.
+### 즉시
+- [ ] Supabase에 businesses/banners 테이블 생성
 
-================================================================================
-다음 인수자 지시문 (DO NOT REMOVE)
-================================================================================
+### 우선순위 높음
+- [ ] **PRO 공문서 한번에 뽑기** — 진행중 (아래 현황 참조)
+- [x] 용적률/건폐율 — `getBrTitleInfo` vlRat/bcRat 연동 완료, Supabase 캐싱
+- [ ] PRO 중개사 Supabase Auth 실제 연동
+- [ ] coords_all_apt.json 경량화 (build_lite.js → 8~10MB→2MB)
 
-작업 마칠 때마다:
-  1. 상태 갱신: 완료작업/다음작업/파일현황/기술메모 중 바뀐 부분 수정
-  2. 이력 기록: 변경이력 맨 아래에 [날짜] (작성: Claude) 요약 추가 (기존 삭제 금지)
-  3. 메타 갱신: 최종갱신 날짜 + 버전 +1
-  4. 지시문 유지: 이 블록 삭제 금지
-  5. 갱신 후 사용자에게 변경 요약 보고 + 파일 제시
+### 향후
+- [ ] 주상복합 1,516개 지도 추가 (K-apt 엑셀 단지분류='주상복합')
+- [ ] 오피스텔 추가 — 국토부 실거래가 API에서 건물명+주소 추출 후 지오코딩
+- [ ] 온비드 공매 API 연동
+- [ ] 청약홈 분양정보 API 연동
+- [ ] 연립다세대 수집 (generate_villa.js)
+- [ ] PWA 설정
+- [ ] 실거래가 데이터
+
+---
+
+## 📋 PRO 공문서 한번에 뽑기 — 구현 스펙
+
+### 개요
+PRO 매물안내서 화면에 "공문서 조회" 섹션 추가.
+주소 입력 → 6종 공문서 버튼 → 클릭 시 각 기관 페이지 열거나 API 데이터 표시.
+
+### 서류별 방법
+
+| 서류 | 방법 | API/URL | 필요 파라미터 |
+|------|------|---------|--------------|
+| 등기부등본 | 링크 | `https://www.iros.go.kr/pos1/jsp/main.jsp` | 주소로 검색 (자동완성 불가, 새탭으로 열기) |
+| 건축물대장 | API | 건축HUB `getBrRecapTitleInfo` | sigunguCd, bjdongCd, bun, ji |
+| 토지대장 | API | 공공데이터 `getLandCharacterStiInfo` | pnu (필지고유번호) |
+| 토지이용계획확인서 | API or 링크 | 토지이음 `getLandUseInfo` or `https://www.eum.go.kr` | pnu |
+| 지적도 | 링크 | `https://map.ngii.go.kr/ms/map/NlipMap.do?beforejump=1` | 주소 파라미터 |
+| 임야도 | 링크 | `https://map.ngii.go.kr/ms/map/NlipMap.do?beforejump=1` | 주소 파라미터 |
+
+### PNU 코드 계산법
+PNU = 법정동코드(10자리) + 토지구분(1: 토지, 2: 임야) + 본번(4자리, 앞에0패딩) + 부번(4자리, 앞에0패딩)
+
+카카오 주소검색 API 응답 → `address.b_code` (10자리 법정동코드)
+지번 본번/부번 → `address.main_address_no`, `address.sub_address_no`
+
+```javascript
+// PNU 조합 예시
+function buildPNU(bCode, mainNo, subNo, isForest=false) {
+  const landDiv = isForest ? '2' : '1';
+  const main = String(mainNo||0).padStart(4,'0');
+  const sub  = String(subNo||0).padStart(4,'0');
+  return bCode + landDiv + main + sub; // 19자리
+}
+```
+
+### 건축HUB API 파라미터 추출
+```javascript
+// 법정동코드(10자리) → sigunguCd(5자리) + bjdongCd(5자리)
+const sigunguCd = bCode.slice(0,5);
+const bjdongCd  = bCode.slice(5,10);
+// bun/ji = 본번/부번
+```
+
+### 토지이음 API
+```
+GET https://www.eum.go.kr/web/lu/luLandUseRqst.do
+파라미터: pnu={PNU}, numOfRows=10, pageNo=1
+※ 공공데이터포털 key 필요: getLandUseAttr (서비스키 별도 신청)
+```
+
+### 구현 위치
+`admin/index.html` PRO 탭 또는 매물안내서 페이지 우측 패널
+→ 주소 입력(카카오 주소검색 연동) → PNU 자동 계산 → 버튼 6개
+
+### 등기부등본 링크 방식
+등기부등본은 무료 API 없음. 인터넷등기소 새탭으로 열어주고 주소를 클립보드에 복사해주는 방식 사용:
+```javascript
+navigator.clipboard.writeText(addr);
+window.open('https://www.iros.go.kr/pos1/jsp/main.jsp','_blank');
+toast('주소가 복사되었습니다. 인터넷등기소에서 붙여넣기 하세요.');
+```
+
+---
+
+## 📁 파일 현황
+
+| 파일 | 상태 |
+|------|------|
+| split_output/ | 245개 파일, 21,825개 단지 |
+| coords_all_apt.json | 21,825개 (8~10MB, 경량화 필요) |
+| index.html | 최신 (사이드바 필드 수정, 모바일 반응형) |
+| admin/index.html | 최신 (3탭) |
+| fill_from_excel.js | 완료 |
+| add_missing_apts.js | 완료 (513개) |
+| retry_missing_apts.js | 완료 (1개 추가) |
+| fix_manual_apts.js | 완료 (3개 추가) |
+| fill_extra.js | 완료 |
+| fill_extra_retry.js | 완료 |
+| build_lite.js | 대기 (경량화용) |
+| api/apt.js (detail) | 용적률/건폐율 Supabase 캐싱 + getBrTitleInfo 연동 완료 |
+| api/diag.js | ✅ 신규 (district_cache 캐싱, metalist, fixmeta) |
+| api/populate.js | 일괄 수집용 — 실행 후 삭제 예정 |
+| supabase_district_cache.sql | ✅ 생성됨 — Supabase에서 실행 필요 |
+| supabase_specialist.sql | ✅ 생성됨 — broker_apts 테이블 |
+| master/index.h
