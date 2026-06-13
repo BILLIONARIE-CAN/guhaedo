@@ -408,6 +408,16 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
       <button class="island-btn" id="school-toggle" onclick="toggleSchools()" title="학군" style="margin-top:8px;font-size:11px;font-weight:700">
         🏫
       </button>
+      <button class="island-btn" id="type-toggle" onclick="toggleTypePanel()" title="건물유형" style="margin-top:4px;font-size:11px;font-weight:700">
+        🏠
+      </button>
+      <div id="type-panel" style="display:none;position:absolute;left:48px;top:44px;background:#fff;border-radius:8px;box-shadow:0 2px 12px rgba(0,0,0,.15);padding:10px;z-index:90;min-width:130px">
+        <div style="font-size:11px;font-weight:700;color:#333;margin-bottom:6px">건물유형 표시</div>
+        <label style="display:flex;align-items:center;gap:6px;font-size:12px;color:#333;cursor:pointer;padding:3px 0"><input type="checkbox" id="tf-apt" checked onchange="toggleTypeFilter('apt',this.checked)"> 아파트</label>
+        <label style="display:flex;align-items:center;gap:6px;font-size:12px;color:#333;cursor:pointer;padding:3px 0"><input type="checkbox" id="tf-officetel" checked onchange="toggleTypeFilter('officetel',this.checked)"> 오피스텔</label>
+        <label style="display:flex;align-items:center;gap:6px;font-size:12px;color:#333;cursor:pointer;padding:3px 0"><input type="checkbox" id="tf-villa" checked onchange="toggleTypeFilter('villa',this.checked)"> 빌라/연립</label>
+        <label style="display:flex;align-items:center;gap:6px;font-size:12px;color:#333;cursor:pointer;padding:3px 0"><input type="checkbox" id="tf-presale" checked onchange="toggleTypeFilter('presale',this.checked)"> 분양</label>
+      </div>
       <button class="island-btn" id="biz-toggle" onclick="toggleBizPanel()" title="업체" style="margin-top:4px;font-size:11px;font-weight:700">
         🏢
       </button>
@@ -1501,6 +1511,7 @@ function renderVisibleMarkers(showType='apt'){
     const propTypes=['apt','officetel','villa']; // bunyang은 presaleData 핀으로 별도 관리
     if(showType==='apt' && !propTypes.includes(d.type)) return false;
     if(showType==='all' && curFilter!=='all' && d.type!==curFilter) return false;
+    if(propTypes.includes(d.type) && !typeFilters.has(d.type)) return false;
     if(d.type==='broker' && level>5) return false;
     return d.lat>=sw.getLat()&&d.lat<=ne.getLat()&&
            d.lng>=sw.getLng()&&d.lng<=ne.getLng();
@@ -2245,6 +2256,26 @@ function setFilter(f,el){
   renderList();
 }
 function filterList(q){renderList(q);}
+
+function toggleTypePanel(){
+  var p=ge('type-panel');
+  var bizP=ge('biz-panel');
+  if(bizP)bizP.style.display='none';
+  p.style.display=p.style.display==='none'?'block':'none';
+}
+function toggleTypeFilter(type,checked){
+  if(type==='presale'){
+    presaleVisible=checked;
+    renderPresalePins();
+    return;
+  }
+  if(checked) typeFilters.add(type); else typeFilters.delete(type);
+  if(map&&map.getLevel()<=5) renderVisibleMarkers('all');
+  // type-toggle 버튼 색상: 하나라도 꺼지면 표시
+  var allOn=typeFilters.size===3&&presaleVisible;
+  ge('type-toggle').style.background=allOn?'':'#e8f5e9';
+  ge('type-toggle').style.color=allOn?'':'#1D9E75';
+}
 
 // ===== 계산기 =====
 let curCalc=0;
@@ -3756,6 +3787,7 @@ var TRADE_DATA_CDN='https://cdn.jsdelivr.net/gh/BILLIONARIE-CAN/guhaedo-data@mai
 // ===== 분양 단지 핀 (청약홈 데이터, guhaedo-data/presale.json) =====
 var PRESALE_URL='https://cdn.jsdelivr.net/gh/BILLIONARIE-CAN/guhaedo-data@main/presale.json';
 var presaleData=[],presaleVisible=true,presaleOvs=[],presaleBound=false;
+var typeFilters=new Set(['apt','officetel','villa']);
 function loadPresaleData(){
   fetch(PRESALE_URL).then(function(r){return r.ok?r.json():null;}).then(function(j){
     if(!j||!j.items)return;
