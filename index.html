@@ -397,6 +397,7 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
       <button class="mtb active" id="mt-map" onclick="setMapType('map')">지도</button>
       <button class="mtb" id="mt-sky" onclick="setMapType('sky')">스카이뷰</button>
       <button class="mtb" id="mt-road" onclick="setMapType('road')">거리뷰</button>
+      <button class="mtb" id="mt-dist" onclick="setMapType('dist')">지적편집도</button>
     </div>
     <div id="rv-close-btn" onclick="closeRoadview()" style="display:none;position:absolute;top:10px;right:10px;z-index:91;width:28px;height:28px;border-radius:50%;background:#fff;border:none;font-size:14px;font-weight:700;cursor:pointer;color:#333;line-height:28px;text-align:center">✕</div>
 
@@ -1320,18 +1321,32 @@ function initMap(){
   var rvClient=new kakao.maps.RoadviewClient();
 
   var rvClickHandler=null;
+  var distOn=false;
   window.setMapType=function(type){
     document.querySelectorAll('.mtb').forEach(function(b){b.classList.remove('active');});
     if(type==='map'){
       map.setMapTypeId(kakao.maps.MapTypeId.ROADMAP);
       map.removeOverlayMapTypeId(kakao.maps.MapTypeId.ROADVIEW);
+      if(distOn){map.removeOverlayMapTypeId(kakao.maps.MapTypeId.USE_DISTRICT);distOn=false;}
       rvOverlayOn=false;
       ge('mt-map').classList.add('active');
     }else if(type==='sky'){
       map.setMapTypeId(kakao.maps.MapTypeId.SKYVIEW);
       map.removeOverlayMapTypeId(kakao.maps.MapTypeId.ROADVIEW);
+      if(distOn){map.removeOverlayMapTypeId(kakao.maps.MapTypeId.USE_DISTRICT);distOn=false;}
       rvOverlayOn=false;
       ge('mt-sky').classList.add('active');
+    }else if(type==='dist'){
+      if(distOn){
+        map.removeOverlayMapTypeId(kakao.maps.MapTypeId.USE_DISTRICT);
+        distOn=false;
+        ge('mt-map').classList.add('active');
+      }else{
+        map.addOverlayMapTypeId(kakao.maps.MapTypeId.USE_DISTRICT);
+        distOn=true;
+        ge('mt-dist').classList.add('active');
+      }
+      return;
     }else if(type==='road'){
       if(rvOverlayOn){
         map.removeOverlayMapTypeId(kakao.maps.MapTypeId.ROADVIEW);
