@@ -3766,7 +3766,7 @@ function presaleStatus(it){
       var lbl=months>=12?(Math.floor(months/12)+'년'+(months%12?' '+(months%12)+'개월':'')):(months+'개월');
       return {l:'D-'+lbl,c:'#8e44ad',rb:true};
     }
-    if(months>=-1)return {l:'입주중',c:'#8e44ad',rb:true}; // 입주달+1달까지 무지개
+    if(months>=-2)return {l:'입주예정일도래',c:'#8e44ad',rb:true}; // 입주예정월부터 2달간 무지개 (통상 입주기간)
     return null; // 이후엔 분양 핀 제거 → 일반 아파트 핀(coords)이 대신함
   }
   return {l:'분양',c:'#e67e22',rb:true};
