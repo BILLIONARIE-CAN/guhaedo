@@ -87,11 +87,10 @@ export default async function handler(req, res) {
     const out = { buy: [], rent: [], pre: [] };
     let errBuy = false, errRent = false, errPre = false;
     await Promise.all([
-      callApi(bases.buy, 8000).then(v => { out.buy = v; }).catch(() => { errBuy = true; }),
-      callApi(bases.rent, 8000).then(v => { out.rent = v; }).catch(() => { errRent = true; }),
-      // 분양권: 1차 실패 시 더 긴 타임아웃으로 1회 재시도, 그래도 실패하면 빈 배열로 진행
-      callApi(bases.pre, 8000).then(v => { out.pre = v; })
-        .catch(() => callApi(bases.pre, 15000).then(v => { out.pre = v; }).catch(() => { errPre = true; }))
+      callApi(bases.buy, 7000).then(v => { out.buy = v; }).catch(() => { errBuy = true; }),
+      callApi(bases.rent, 7000).then(v => { out.rent = v; }).catch(() => { errRent = true; }),
+      // 분양권은 자주 지연/무응답 → 4초 fail-fast (Vercel 함수 제한시간 초과 방지). 실패해도 매매/전월세로 진행
+      callApi(bases.pre, 4000).then(v => { out.pre = v; }).catch(() => { errPre = true; })
     ]);
 
     // 매매·전월세가 성공했으면 분양권이 빠져도 "성공"으로 본다 → 수집기가 그 달을 저장한다.
