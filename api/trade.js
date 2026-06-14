@@ -314,16 +314,17 @@ export default async function handler(req, res) {
     const mapT = x => `${parseInt(x.dealYear)}-${String(parseInt(x.dealMonth)||1).padStart(2,'0')}`;
 
     await pmapS(toFetch, async m => {
-      let err = false;
-      const safeJ = u => fetch(u, { signal: AbortSignal.timeout(6000) })
+      // 분양권(pre) 실패는 매매/전월세 캐싱을 막지 않도록 분리 (errCore만 캐시 차단)
+      let errCore = false, errPre = false;
+      const safeJ = (u, isPre) => fetch(u, { signal: AbortSignal.timeout(6000) })
         .then(r => r.json())
-        .then(j => { const c = j?.response?.header?.resultCode; if (c && c !== '00' && c !== '000') { err = true; return []; } return parseItems(j); })
-        .catch(() => { err = true; return []; });
+        .then(j => { const c = j?.response?.header?.resultCode; if (c && c !== '00' && c !== '000') { if (isPre) errPre = true; else errCore = true; return []; } return parseItems(j); })
+        .catch(() => { if (isPre) errPre = true; else errCore = true; return []; });
       const wantPre = !builtYear || parseInt(m.slice(0, 4)) <= builtYear + 1;
       const [bRaw, rRaw, pRaw] = await Promise.all([
-        safeJ(`${buyBase}?serviceKey=${KEY}&LAWD_CD=${lawdCd}&DEAL_YMD=${m}&numOfRows=1000&_type=json`),
-        safeJ(`${rentBase}?serviceKey=${KEY}&LAWD_CD=${lawdCd}&DEAL_YMD=${m}&numOfRows=1000&_type=json`),
-        wantPre ? safeJ(`${preBase}?serviceKey=${KEY}&LAWD_CD=${lawdCd}&DEAL_YMD=${m}&numOfRows=1000&_type=json`) : Promise.resolve([])
+        safeJ(`${buyBase}?serviceKey=${KEY}&LAWD_CD=${lawdCd}&DEAL_YMD=${m}&numOfRows=1000&_type=json`, false),
+        safeJ(`${rentBase}?serviceKey=${KEY}&LAWD_CD=${lawdCd}&DEAL_YMD=${m}&numOfRows=1000&_type=json`, false),
+        wantPre ? safeJ(`${preBase}?serviceKey=${KEY}&LAWD_CD=${lawdCd}&DEAL_YMD=${m}&numOfRows=1000&_type=json`, true) : Promise.resolve([])
       ]);
       const mBuy = bRaw.filter(x => aptMatch(x)).map(x => ({
         t: mapT(x), day: String(x.dealDay||'').trim(), p: parsePrice(x.dealAmount),
@@ -345,7 +346,7 @@ export default async function handler(req, res) {
           t: mapT(x), day: String(x.dealDay||'').trim(), d: parsePrice(x.deposit),
           m: parsePrice(x.monthlyRent), a: parseFloat(x.excluUseAr||0), f: String(x.floor||'').trim()
         })),
-        _err: err
+        _err: errCore
       };
       if (candPool.length < 3000) candPool.push(...bRaw, ...rRaw, ...pRaw);
     }, 6);

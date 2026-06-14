@@ -1,6 +1,6 @@
 # 🏠 아구구 플랫폼 인수인계서 (LIVING DOC)
 
-최종 갱신: 2026-06-13  갱신 주체: Claude (세션 인수자)  버전: v8
+최종 갱신: 2026-06-14  갱신 주체: Claude (세션 인수자)  버전: v9
 
 ---
 
@@ -13,6 +13,30 @@
 3. 작업 끝나면 이 문서 갱신 (맨 아래 지시문 참조)
 
 ⚠️ 비밀키/관리자 비번 포함 — GitHub 공개 레포 커밋 금지
+
+---
+
+## 🆕 v9 변경사항 (2026-06-14 세션) — 사전적재 백필 0% 멈춤 원인 규명·수정
+
+### 1. 🔴 백필 전면 정지 원인: 분양권 API 실패가 그 달 통째 폐기 (수정 완료)
+- **증상**: guhaedo-data `progress.json`의 전국 250개 시군구 커서가 **전부 `202607`** (= 한 발도 못 나감). `trades/*.json` 0개 생성. → 프론트가 항상 라이브 배치 폴백 → 차트가 느리고 월별로 실시간 누적 렌더돼 "움직이는" 현상
+- **원인**: `api/diag.js` op=district가 매매·전월세·분양권 3종을 호출하고 **하나라도 실패하면 `apiError:true`** 반환 → `build.mjs` fetchMonth가 throw → 그 달 폐기(done=0). 백필은 매번 현재월(202606)부터 시작하는데, 분양권(SilvTrade)이 **간헐 타임아웃**으로 그 첫 달을 실패시켜 전 시군구가 출발선에 묶임
+- **확인**: 라이브 종로 202604 → buy/rent 정상 + `"pre":[],"apiError":true`. 영통 202503 → 전부 정상 (분양권 간헐 실패 = 타임아웃성)
+- **수정**:
+  - `api/diag.js`: 분양권을 **선택 데이터로 격리**. 매매·전월세만 성공하면 분양권 실패해도 캐싱+수집 진행. `apiError`는 매매/전월세 실패에만 설정. 분양권 1차 실패 시 15s로 1회 재시도. 응답에 `preError` 플래그 추가
+  - `api/trade.js`(배치): 동일 철학 — 공유 `err`를 `errCore`(매매/전월세)/`errPre`(분양권)로 분리 → 분양권 실패가 월 캐싱을 막지 않음(백필 완료 전 라이브 속도 개선)
+  - ⚠️ build.mjs 수정 불필요 (diag가 더 이상 분양권 단독 실패로 apiError를 안 보내므로 기존 `if(j.apiError) throw`가 올바르게 동작)
+
+### 2. 실거래 2006~현재 전체 표시 — 화면 수정 불필요
+- 프론트는 단지 클릭 시 이미 `max(2006, 준공-3년)~현재`를 기본 범위로 설정(index.html, 약 2044줄). 데이터만 채워지면 자동으로 전 기간 표시
+- `build.mjs` `START_YM=200601`(2006.1 = 실거래 신고 의무화 시점)이 백필 목표. 위 수정으로 정상 진행 예정
+
+### 3. ⚠️ 배포 + 모니터링 (사용자/다음 인수자 할 일)
+- `api/diag.js`, `api/trade.js`를 **GitHub Desktop으로 커밋·푸시**해야 적용(Vercel 자동배포)
+- 배포 후 guhaedo-data 레포 **Actions → update-data → Run workflow**(수동) 또는 다음 새벽 3시 자동 실행
+- 정상 신호: `progress.json` 커서가 `202607`에서 **과거 월로 내려가기 시작**(예: 202512, 202412…). `trades/{단지코드}.json` 파일 생성 확인
+- BUDGET 단위 점검 권장: `update.yml` 기본 `BUDGET=9000`을 build.mjs는 **프록시 콜 수**로 사용(프록시 1콜=국토부 3콜). 의도가 "국토부 9000콜/일"이면 레포 Variables의 BUDGET을 **3000**으로 (현재는 API별 9000콜이라 한도 1만/일 이내일 수 있음 — 백필 1~2주 예상)
+- 분양권 보라점이 계속 비면 data.go.kr "분양권전매 실거래가(RTMSDataSvcSilvTrade)" 한도/활용신청 점검
 
 ---
 
@@ -245,75 +269,4 @@ PRO 매물안내서 화면에 "공문서 조회" 섹션 추가.
 | 서류 | 방법 | API/URL | 필요 파라미터 |
 |------|------|---------|--------------|
 | 등기부등본 | 링크 | `https://www.iros.go.kr/pos1/jsp/main.jsp` | 주소로 검색 (자동완성 불가, 새탭으로 열기) |
-| 건축물대장 | API | 건축HUB `getBrRecapTitleInfo` | sigunguCd, bjdongCd, bun, ji |
-| 토지대장 | API | 공공데이터 `getLandCharacterStiInfo` | pnu (필지고유번호) |
-| 토지이용계획확인서 | API or 링크 | 토지이음 `getLandUseInfo` or `https://www.eum.go.kr` | pnu |
-| 지적도 | 링크 | `https://map.ngii.go.kr/ms/map/NlipMap.do?beforejump=1` | 주소 파라미터 |
-| 임야도 | 링크 | `https://map.ngii.go.kr/ms/map/NlipMap.do?beforejump=1` | 주소 파라미터 |
-
-### PNU 코드 계산법
-PNU = 법정동코드(10자리) + 토지구분(1: 토지, 2: 임야) + 본번(4자리, 앞에0패딩) + 부번(4자리, 앞에0패딩)
-
-카카오 주소검색 API 응답 → `address.b_code` (10자리 법정동코드)
-지번 본번/부번 → `address.main_address_no`, `address.sub_address_no`
-
-```javascript
-// PNU 조합 예시
-function buildPNU(bCode, mainNo, subNo, isForest=false) {
-  const landDiv = isForest ? '2' : '1';
-  const main = String(mainNo||0).padStart(4,'0');
-  const sub  = String(subNo||0).padStart(4,'0');
-  return bCode + landDiv + main + sub; // 19자리
-}
-```
-
-### 건축HUB API 파라미터 추출
-```javascript
-// 법정동코드(10자리) → sigunguCd(5자리) + bjdongCd(5자리)
-const sigunguCd = bCode.slice(0,5);
-const bjdongCd  = bCode.slice(5,10);
-// bun/ji = 본번/부번
-```
-
-### 토지이음 API
-```
-GET https://www.eum.go.kr/web/lu/luLandUseRqst.do
-파라미터: pnu={PNU}, numOfRows=10, pageNo=1
-※ 공공데이터포털 key 필요: getLandUseAttr (서비스키 별도 신청)
-```
-
-### 구현 위치
-`admin/index.html` PRO 탭 또는 매물안내서 페이지 우측 패널
-→ 주소 입력(카카오 주소검색 연동) → PNU 자동 계산 → 버튼 6개
-
-### 등기부등본 링크 방식
-등기부등본은 무료 API 없음. 인터넷등기소 새탭으로 열어주고 주소를 클립보드에 복사해주는 방식 사용:
-```javascript
-navigator.clipboard.writeText(addr);
-window.open('https://www.iros.go.kr/pos1/jsp/main.jsp','_blank');
-toast('주소가 복사되었습니다. 인터넷등기소에서 붙여넣기 하세요.');
-```
-
----
-
-## 📁 파일 현황
-
-| 파일 | 상태 |
-|------|------|
-| split_output/ | 245개 파일, 21,825개 단지 |
-| coords_all_apt.json | 21,825개 (8~10MB, 경량화 필요) |
-| index.html | 최신 (사이드바 필드 수정, 모바일 반응형) |
-| admin/index.html | 최신 (3탭) |
-| fill_from_excel.js | 완료 |
-| add_missing_apts.js | 완료 (513개) |
-| retry_missing_apts.js | 완료 (1개 추가) |
-| fix_manual_apts.js | 완료 (3개 추가) |
-| fill_extra.js | 완료 |
-| fill_extra_retry.js | 완료 |
-| build_lite.js | 대기 (경량화용) |
-| api/apt.js (detail) | 용적률/건폐율 Supabase 캐싱 + getBrTitleInfo 연동 완료 |
-| api/diag.js | ✅ 신규 (district_cache 캐싱, metalist, fixmeta) |
-| api/populate.js | 일괄 수집용 — 실행 후 삭제 예정 |
-| supabase_district_cache.sql | ✅ 생성됨 — Supabase에서 실행 필요 |
-| supabase_specialist.sql | ✅ 생성됨 — broker_apts 테이블 |
-| master/index.h
+| 건축물대장 | API | 건축HUB

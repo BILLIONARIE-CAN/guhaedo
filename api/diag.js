@@ -75,20 +75,30 @@ export default async function handler(req, res) {
       rent: 'https://apis.data.go.kr/1613000/RTMSDataSvcAptRent/getRTMSDataSvcAptRent',
       pre:  'https://apis.data.go.kr/1613000/RTMSDataSvcSilvTrade/getRTMSDataSvcSilvTrade'
     };
-    const out = {};
-    let anyError = false;
-    await Promise.all(Object.keys(bases).map(async k => {
-      try {
-        const r = await fetch(`${bases[k]}?serviceKey=${API_KEY}&LAWD_CD=${lawdCd}&DEAL_YMD=${ym}&numOfRows=2000&_type=json`, { signal: AbortSignal.timeout(8000) });
-        const j = await r.json();
-        const code = j?.response?.header?.resultCode;
-        if (code && code !== '00' && code !== '000') { anyError = true; out[k] = []; return; }
-        out[k] = parseItems(j).map(compact);
-      } catch { anyError = true; out[k] = []; }
-    }));
+    // 분양권(SilvTrade)은 간헐적으로 타임아웃 → 실패해도 매매/전월세 수집을 막지 않도록 격리.
+    // (이 "한 줄 실패 = 그 달 통째 폐기" 구조가 전국 사전적재 백필을 0%로 멈춰 세웠던 원인)
+    async function callApi(base, ms) {
+      const r = await fetch(`${base}?serviceKey=${API_KEY}&LAWD_CD=${lawdCd}&DEAL_YMD=${ym}&numOfRows=2000&_type=json`, { signal: AbortSignal.timeout(ms) });
+      const j = await r.json();
+      const rc = j?.response?.header?.resultCode;
+      if (rc && rc !== '00' && rc !== '000') throw new Error('resultCode ' + rc);
+      return parseItems(j).map(compact);
+    }
+    const out = { buy: [], rent: [], pre: [] };
+    let errBuy = false, errRent = false, errPre = false;
+    await Promise.all([
+      callApi(bases.buy, 8000).then(v => { out.buy = v; }).catch(() => { errBuy = true; }),
+      callApi(bases.rent, 8000).then(v => { out.rent = v; }).catch(() => { errRent = true; }),
+      // 분양권: 1차 실패 시 더 긴 타임아웃으로 1회 재시도, 그래도 실패하면 빈 배열로 진행
+      callApi(bases.pre, 8000).then(v => { out.pre = v; })
+        .catch(() => callApi(bases.pre, 15000).then(v => { out.pre = v; }).catch(() => { errPre = true; }))
+    ]);
 
-    // 3. 캐시 저장 (API 오류 시엔 저장 안 함 — 빈 데이터 박제 방지)
-    if (!anyError && SUPABASE_URL && SUPABASE_KEY) {
+    // 매매·전월세가 성공했으면 분양권이 빠져도 "성공"으로 본다 → 수집기가 그 달을 저장한다.
+    const criticalError = errBuy || errRent;
+
+    // 3. 캐시 저장 (핵심 데이터 정상일 때만 — 빈 데이터 박제 방지. 분양권 누락은 허용)
+    if (!criticalError && SUPABASE_URL && SUPABASE_KEY) {
       fetch(`${SUPABASE_URL}/rest/v1/district_cache`, {
         method: 'POST',
         headers: supaHeaders({ 'Prefer': 'resolution=merge-duplicates' }),
@@ -97,7 +107,7 @@ export default async function handler(req, res) {
       }).catch(() => {});
     }
 
-    return res.status(200).json({ buy: out.buy, rent: out.rent, pre: out.pre, apiError: anyError || undefined });
+    return res.status(200).json({ buy: out.buy, rent: out.rent, pre: out.pre, apiError: criticalError || undefined, preError: errPre || undefined });
   }
 
   // ───────────────── 청약홈 프록시 (GitHub Actions 해외IP 차단 우회) ─────────────────
