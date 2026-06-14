@@ -21,7 +21,7 @@ async function getCached(code, ym) {
     if (!Array.isArray(rows) || !rows[0]) return null;
     const row = rows[0];
     // 필터 로직 v2(주소 우선 매칭) 이전에 저장된 캐시는 전부 무효 (잘못된 0건 박제 방지)
-    if (new Date(row.fetched_at).getTime() < Date.parse('2026-06-11T08:10:00Z')) return null;
+    if (new Date(row.fetched_at).getTime() < Date.parse('2026-06-14T07:00:00Z')) return null;
     // apt_name 컬럼에 "단지명|법정동|지번" 패킹돼 있음 (구버전은 단지명만)
     const packed = String(row.apt_name || '').split('|');
     row.apt_name_clean = packed[0] || '';
@@ -50,7 +50,7 @@ async function getCachedBatch(code, months) {
     if (Array.isArray(rows)) {
       const cutoff = new Date(); cutoff.setMonth(cutoff.getMonth() - 2);
       for (const row of rows) {
-        if (new Date(row.fetched_at).getTime() < Date.parse('2026-06-11T08:10:00Z')) continue; // 구버전 무효
+        if (new Date(row.fetched_at).getTime() < Date.parse('2026-06-14T07:00:00Z')) continue; // 구버전 무효
         const ymDate = new Date(parseInt(row.ym.slice(0,4)), parseInt(row.ym.slice(4,6)) - 1, 1);
         if (!(ymDate < cutoff) && Date.now() - new Date(row.fetched_at).getTime() >= 86400000) continue; // 최근월 24h TTL
         out[row.ym] = row;
