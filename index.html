@@ -2039,9 +2039,9 @@ function openAptDetail(d){
     })();
     // 준공년도 추출 (예: "2026년 1월", "2026", "202601" 등)
     var builtYear = parseInt((d.built||'').replace(/[^0-9]/g,'').substring(0,4))||0;
-    // 기본 조회 범위: 분양 시점(준공 3년 전)~현재 → 분양권 거래까지 전체 커버
+    // 기본 조회 범위: 항상 2006년(실거래 신고 의무화 시점)~현재 = 전체 이력 표시 (정보 정확성 확인용)
     var nowY=new Date().getFullYear();
-    var fromY=builtYear>2000?Math.max(2006,builtYear-3):nowY-5;
+    var fromY=2006;
     tradeStartYear=fromY;tradeEndYear=nowY;
     TRADE_MONTHS=buildTradeMonths(fromY,nowY);
     var feR=ge('trade-year-from'),teR=ge('trade-year-to');
