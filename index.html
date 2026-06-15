@@ -887,6 +887,24 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
   </div>
 </div>
 
+<!-- 단지 제보 버튼 (지도에 없는/잘못된 단지 신고) -->
+<button id="report-fab" onclick="openReportModal('')" style="position:fixed;left:14px;bottom:88px;z-index:300;background:var(--green);color:#fff;border:none;border-radius:22px;padding:10px 15px;font-size:13px;font-weight:700;font-family:inherit;box-shadow:0 2px 10px rgba(0,0,0,.22);cursor:pointer">🚩 단지 제보</button>
+
+<!-- 단지 제보 모달 -->
+<div class="modal-overlay" id="report-modal" onclick="if(event.target===this)closeReportModal()">
+  <div class="modal-box">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+      <div style="font-size:16px;font-weight:700">🚩 단지 제보</div>
+      <button onclick="closeReportModal()" style="background:none;border:none;font-size:20px;cursor:pointer;color:var(--text3)">×</button>
+    </div>
+    <div style="font-size:12.5px;color:var(--text2);margin-bottom:14px;line-height:1.55">지도에 없거나 잘못 표시된 단지를 알려주세요. 확인 후 반영하겠습니다.<br>예) 안 보이는 옛날 아파트 · 오피스텔 · 1·2차가 한 핀으로 나오는 경우</div>
+    <div class="field"><label>단지명 *</label><input type="text" id="report-name" placeholder="예: 행복아파트 2차"></div>
+    <div class="field"><label>위치 (선택)</label><input type="text" id="report-addr" placeholder="예: 아산시 배방읍 (동까지만 적어도 OK)"></div>
+    <div class="field"><label>메모 (선택)</label><input type="text" id="report-memo" placeholder="예: 지도에 없어요 / 1차랑 2차가 한 핀으로 나와요"></div>
+    <button onclick="submitReport()" style="width:100%;margin-top:6px;background:var(--green);color:#fff;border:none;border-radius:8px;padding:12px;font-size:14px;font-weight:700;font-family:inherit;cursor:pointer">제보 보내기</button>
+  </div>
+</div>
+
 <!-- 집내놓기 모달 -->
 <div class="modal-overlay" id="sell-modal" onclick="if(event.target===this)closeSellModal()">
   <div class="modal-box">
@@ -1011,6 +1029,21 @@ function ge(id){return document.getElementById(id);}
 function fmt(n){return Math.round(n).toLocaleString('ko-KR');}
 function fmtF(n,d){return parseFloat(n).toFixed(d);}
 function toast(msg){const t=ge('toast');t.textContent=msg;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),2500);}
+
+// ===== 단지 제보 =====
+var _reportPrefill='';
+function openReportModal(name){var m=ge('report-modal');if(!m)return;ge('report-name').value=name||_reportPrefill||'';ge('report-addr').value='';ge('report-memo').value='';m.style.display='block';ge('report-name').focus();}
+function closeReportModal(){var m=ge('report-modal');if(m)m.style.display='none';}
+async function submitReport(){
+  var name=(ge('report-name').value||'').trim();
+  if(!name){toast('단지명을 입력해주세요');return;}
+  var body={apt_name:name,addr:(ge('report-addr').value||'').trim(),memo:(ge('report-memo').value||'').trim(),status:'new'};
+  try{
+    var r=await fetch(SUPABASE_URL+'/rest/v1/apt_reports',{method:'POST',headers:{apikey:SUPABASE_ANON,Authorization:'Bearer '+SUPABASE_ANON,'Content-Type':'application/json',Prefer:'return=minimal'},body:JSON.stringify(body)});
+    if(!r.ok)throw new Error('HTTP '+r.status);
+    closeReportModal();toast('제보 감사합니다! 확인 후 반영할게요 🙏');
+  }catch(e){toast('전송 실패 — 잠시 후 다시 시도해주세요');}
+}
 
 // ===== 페이지 전환 =====
 function showPage(name){
@@ -1815,6 +1848,7 @@ function renderMarkers(){
 }
 
 function renderList(query=''){
+  _reportPrefill=query||'';  // 검색어를 제보 모달 기본값으로 (못 찾은 단지 바로 제보)
   // 검색어 입력시 지도에서 검색 결과 하이라이트
   if(!query) return;
   const filtered=MAP_DATA.filter(d=>{
