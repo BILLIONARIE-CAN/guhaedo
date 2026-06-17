@@ -1531,7 +1531,7 @@ async function loadOfiData(sigunguName, apts){
       if(!d.lat||!d.lng)return;
       if(aptPts.some(a=>near(d,a)))return; // 아파트 핀과 겹침 → 스킵
       const fullAddr=d.addr||[d.sido,d.sigungu,d.emd].filter(Boolean).join(' ');
-      MAP_DATA.push({id:'ofi_'+(aptIdCounter++),type:'officetel',name:d.name||'',addr:fullAddr,built:d.built||'',units:'',emd:d.emd||'',code:d.code||'',sale:'',jeonse:'',monthly:'',lat:d.lat,lng:d.lng,sido:d.sido||'',sigungu:d.sigungu||'',sigunguCode:d.sigunguCode||'',nameUnknown:!!d.nameUnknown});
+      MAP_DATA.push({id:'ofi_'+(aptIdCounter++),type:'officetel',name:d.name||'',addr:fullAddr,built:d.built||'',units:(d.units>0?d.units+'세대':''),emd:d.emd||'',code:d.code||'',sale:'',jeonse:'',monthly:'',lat:d.lat,lng:d.lng,sido:d.sido||'',sigungu:d.sigungu||'',sigunguCode:d.sigunguCode||'',jibunAddr:d.addr||'',topFloor:d.topFloor||'',far:d.far||'',bcr:d.bcr||'',nameUnknown:!!d.nameUnknown});
     });
   }catch(e){}
 }
