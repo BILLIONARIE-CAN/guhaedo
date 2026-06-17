@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex,nofollow">
+<title>아구구 · 아파트 단지 수정 작업대</title>
+<script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=a7a67059ffadc0b7c6e4318639cdedeb&autoload=false"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,'Malgun Gothic',sans-serif;background:#f1f5f9;color:#0f172a;font-size:14px}
+  #gate{position:fixed;inset:0;background:#0f172a;display:flex;align-items:center;justify-content:center;z-index:9999;flex-direction:column;gap:14px}
+  #gate input{padding:12px 16px;font-size:18px;border-radius:8px;border:none;text-align:center;width:200px}
+  #gate button{padding:11px 28px;font-size:16px;border:none;border-radius:8px;background:#3b82f6;color:#fff;cursor:pointer}
+  #gate .t{color:#fff;font-size:20px;font-weight:700}
+  #app{display:none;height:100vh}
+  .wrap{display:flex;height:100vh}
+  /* 왼쪽 목록 */
+  .side{width:270px;background:#fff;border-right:1px solid #e2e8f0;display:flex;flex-direction:column}
+  .side .top{padding:12px;border-bottom:1px solid #e2e8f0}
+  .side select,.side input{width:100%;padding:8px;border:1px solid #cbd5e1;border-radius:7px;font-size:13px;margin-bottom:8px}
+  .filters{display:flex;gap:4px;flex-wrap:wrap}
+  .filters button{flex:1;padding:6px 4px;font-size:12px;border:1px solid #cbd5e1;background:#fff;border-radius:6px;cursor:pointer;white-space:nowrap}
+  .filters button.on{background:#3b82f6;color:#fff;border-color:#3b82f6}
+  .list{flex:1;overflow-y:auto}
+  .item{padding:9px 12px;border-bottom:1px solid #f1f5f9;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:6px}
+  .item:hover{background:#f8fafc}
+  .item.sel{background:#eff6ff;border-left:3px solid #3b82f6}
+  .item .nm{font-size:13px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .badge{font-size:11px;padding:1px 6px;border-radius:10px;flex-shrink:0}
+  .b-todo{background:#f1f5f9;color:#64748b}
+  .b-done{background:#dcfce7;color:#16a34a}
+  .b-prob{background:#fee2e2;color:#dc2626}
+  /* 가운데 */
+  .center{flex:1;display:flex;flex-direction:column;overflow-y:auto;padding:14px;gap:12px}
+  .hdr{display:flex;justify-content:space-between;align-items:baseline}
+  .hdr .nm{font-size:19px;font-weight:700}
+  .hdr .stat{font-size:13px;color:#64748b}
+  .addr{font-size:13px;color:#475569;margin-top:-6px}
+  #map{width:100%;height:300px;border-radius:10px;border:1px solid #e2e8f0}
+  .maprow{display:flex;justify-content:space-between;align-items:center;font-size:12px;color:#2563eb}
+  .maprow button{font-size:12px;padding:4px 10px;border:1px solid #cbd5e1;background:#fff;border-radius:6px;cursor:pointer;color:#334155}
+  .form{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;background:#fff;padding:14px;border-radius:10px;border:1px solid #e2e8f0}
+  .form label{display:flex;flex-direction:column;font-size:12px;color:#64748b;gap:3px}
+  .form .full{grid-column:1/4}
+  .form input{padding:8px;border:1px solid #cbd5e1;border-radius:7px;font-size:14px;color:#0f172a}
+  /* 안됨 체크 — 크게 */
+  .problem{background:#fff7ed;border:2px solid #fdba74;border-radius:12px;padding:14px}
+  .problem .row{display:flex;align-items:center;gap:10px;cursor:pointer}
+  .problem .chk{width:26px;height:26px;flex-shrink:0;accent-color:#ea580c}
+  .problem .lbl{font-size:16px;font-weight:700;color:#c2410c}
+  .problem textarea{width:100%;margin-top:10px;padding:10px;border:1px solid #fdba74;border-radius:8px;font-size:14px;min-height:54px;resize:vertical;font-family:inherit}
+  .acts{display:flex;gap:10px}
+  .acts button{flex:1;padding:14px;font-size:16px;font-weight:700;border:none;border-radius:10px;cursor:pointer}
+  .skip{background:#e2e8f0;color:#475569}
+  .save{background:#3b82f6;color:#fff}
+  .save:active{background:#2563eb}
+  /* 오른쪽 차트 */
+  .right{width:370px;background:#fff;border-left:1px solid #e2e8f0;padding:14px;display:flex;flex-direction:column;gap:8px}
+  .right h3{font-size:14px}
+  .right .meta{font-size:12px;color:#64748b}
+  #chartWrap{flex:1;position:relative;min-height:280px}
+  .empty{color:#94a3b8;text-align:center;padding-top:60px}
+  .toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:#0f172a;color:#fff;padding:10px 22px;border-radius:20px;font-size:14px;opacity:0;transition:.25s;z-index:999}
+  .toast.show{opacity:1}
+</style>
+</head>
+<body>
+<div id="gate">
+  <div class="t">🔧 아파트 단지 수정 작업대</div>
+  <input id="pw" type="password" placeholder="비밀번호" autofocus>
+  <button onclick="checkPw()">입장</button>
+</div>
+
+<div id="app">
+<div class="wrap">
+  <!-- 왼쪽: 목록 -->
+  <div class="side">
+    <div class="top">
+      <select id="region" onchange="loadRegion(this.value)"></select>
+      <input id="search" placeholder="단지명 검색…" oninput="renderList()">
+      <div class="filters">
+        <button data-f="todo" class="on" onclick="setFilter('todo')">미완료</button>
+        <button data-f="done" onclick="setFilter('done')">완료</button>
+        <button data-f="prob" onclick="setFilter('prob')">❗문제</button>
+        <button data-f="all" onclick="setFilter('all')">전체</button>
+      </div>
+    </div>
+    <div class="list" id="list"></div>
+  </div>
+
+  <!-- 가운데: 지도 + 정보 -->
+  <div class="center" id="center">
+    <div class="hdr">
+      <div class="nm" id="aptName">단지를 선택하세요</div>
+      <div class="stat" id="stat"></div>
+    </div>
+    <div class="addr" id="aptAddr"></div>
+    <div id="map"></div>
+    <div class="maprow">
+      <span id="posHint">📍 핀을 드래그해서 위치를 보정하세요</span>
+      <button onclick="resetPin()">↺ 원래 위치로</button>
+    </div>
+    <div class="form" id="form">
+      <label>세대수<input id="f_units" placeholder="-"></label>
+      <label>준공<input id="f_built" placeholder="-"></label>
+      <label>동수<input id="f_dong_cnt" placeholder="-"></label>
+      <label>최고층<input id="f_top_floor" placeholder="-"></label>
+      <label>난방<input id="f_heat" placeholder="-"></label>
+      <label>시공사<input id="f_builder" placeholder="-"></label>
+      <label>현관구조<input id="f_entrance" placeholder="-"></label>
+      <label>총주차<input id="f_total_park" placeholder="-"></label>
+      <label class="full">주소<input id="f_addr" placeholder="-"></label>
+    </div>
+    <div class="problem">
+      <div class="row" onclick="toggleProblem()">
+        <input type="checkbox" id="f_problem" class="chk" onclick="event.stopPropagation()">
+        <span class="lbl">❗ 이 단지 문제있음 — 나중에 같이 수정</span>
+      </div>
+      <textarea id="f_memo" placeholder="어디가 잘못됐는지 메모 (예: 핀 위치 이상 / 세대수 모름 / 이름 다름 …)"></textarea>
+    </div>
+    <div class="acts">
+      <button class="skip" onclick="skip()">건너뛰기 →</button>
+      <button class="save" onclick="saveNext()">💾 저장 & 다음</button>
+    </div>
+  </div>
+
+  <!-- 오른쪽: 실거래가 -->
+  <div class="right">
+    <h3>📈 실거래가(매매)</h3>
+    <div class="meta" id="chartMeta"></div>
+    <div id="chartWrap"><canvas id="chart"></canvas><div class="empty" id="chartEmpty" style="display:none">단지를 선택하면<br>실거래가가 표시됩니다</div></div>
+  </div>
+</div>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+var SUPA_URL='https://nqnbbccazjanjhktknyz.supabase.co';
+var SUPA_KEY='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5xbmJiY2Nhemphbmpoa3Rrbnl6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzk0OTA5NDQsImV4cCI6MjA5NTA2Njk0NH0.rT_hIwTJyBnCDGyudmJYvN44G67WgZ9-bSVCzShiRjI';
+var TRADE_CDN='https://cdn.jsdelivr.net/gh/BILLIONARIE-CAN/guhaedo-data@main/trades/';
+var FIELDS=['units','built','dong_cnt','top_floor','heat','builder','entrance','total_park','addr'];
+var APT_KEY={units:'units',built:'built',dong_cnt:'dongCnt',top_floor:'topFloor',heat:'heat',builder:'builder',entrance:'entrance',total_park:'totalPark',addr:'addr'};
+
+var apts=[], fixMap={}, idx=-1, filter='todo', map=null, marker=null, curLat=0, curLng=0, chart=null;
+
+function checkPw(){ if(document.getElementById('pw').value==='9999'){ document.getElementById('gate').style.display='none'; document.getElementById('app').style.display='block'; init(); } else { alert('비밀번호가 틀렸습니다'); } }
+document.getElementById('pw').addEventListener('keydown',function(e){ if(e.key==='Enter')checkPw(); });
+
+function toast(m){ var t=document.getElementById('toast'); t.textContent=m; t.classList.add('show'); setTimeout(function(){t.classList.remove('show');},1600); }
+
+function supaHeaders(extra){ var h={apikey:SUPA_KEY,Authorization:'Bearer '+SUPA_KEY,'Content-Type':'application/json'}; if(extra)for(var k in extra)h[k]=extra[k]; return h; }
+
+function init(){
+  fetch('/aptfix_regions.json').then(function(r){return r.json();}).then(function(regs){
+    var sel=document.getElementById('region');
+    sel.innerHTML=regs.map(function(r){return '<option value="'+r.code+'">'+r.name+' ('+r.count+')</option>';}).join('');
+    sel.value='44200'; // 기본: 아산
+    loadRegion('44200');
+  });
+}
+
+function loadRegion(code){
+  apts=[]; idx=-1;
+  document.getElementById('list').innerHTML='<div style="padding:14px;color:#94a3b8">불러오는 중…</div>';
+  Promise.all([
+    fetch('/split_output/coords_apt_'+code+'.json').then(function(r){return r.ok?r.json():[];}),
+    fetch(SUPA_URL+'/rest/v1/apt_fix?select=*',{headers:supaHeaders()}).then(function(r){return r.ok?r.json():[];}).catch(function(){return [];})
+  ]).then(function(res){
+    apts=res[0]||[];
+    fixMap={}; (res[1]||[]).forEach(function(f){ fixMap[f.kapt_code]=f; });
+    renderList();
+  });
+}
+
+function statusOf(a){ var f=fixMap[a.code]; if(!f)return 'todo'; if(f.problem)return 'prob'; return 'done'; }
+function setFilter(f){ filter=f; document.querySelectorAll('.filters button').forEach(function(b){ b.classList.toggle('on', b.dataset.f===f); }); renderList(); }
+
+function renderList(){
+  var q=(document.getElementById('search').value||'').trim();
+  var done=0,prob=0;
+  apts.forEach(function(a){ var s=statusOf(a); if(s==='done')done++; if(s==='prob')prob++; });
+  document.getElementById('stat').textContent='완료 '+done+' · ❗문제 '+prob+' · 총 '+apts.length;
+  var html='';
+  apts.forEach(function(a,i){
+    var s=statusOf(a);
+    if(filter==='todo'&&s!=='todo')return;
+    if(filter==='done'&&s!=='done')return;
+    if(filter==='prob'&&s!=='prob')return;
+    if(q&&a.name.indexOf(q)<0)return;
+    var bd=s==='done'?'<span class="badge b-done">✓완료</span>':s==='prob'?'<span class="badge b-prob">❗문제</span>':'<span class="badge b-todo">미완료</span>';
+    html+='<div class="item'+(i===idx?' sel':'')+'" onclick="selectApt('+i+')"><span class="nm">'+a.name+'</span>'+bd+'</div>';
+  });
+  document.getElementById('list').innerHTML=html||'<div style="padding:14px;color:#94a3b8">해당 항목 없음</div>';
+}
+
+function val(id){ return (document.getElementById(id).value||'').trim(); }
+
+function selectApt(i){
+  idx=i; var a=apts[i]; var f=fixMap[a.code]||{};
+  renderList();
+  document.getElementById('aptName').textContent=a.name;
+  document.getElementById('aptAddr').textContent=(a.jibunAddr||a.addr||'')+'  ·  '+a.code;
+  // 폼 채우기 (보정값 우선, 없으면 원본)
+  FIELDS.forEach(function(k){
+    var el=document.getElementById('f_'+k);
+    var v=(f[k]!==undefined&&f[k]!==null&&f[k]!=='')?f[k]:(a[APT_KEY[k]]!==undefined&&a[APT_KEY[k]]!==null?a[APT_KEY[k]]:'');
+    el.value=(v==='-')?'':v;
+  });
+  document.getElementById('f_problem').checked=!!f.problem;
+  document.getElementById('f_memo').value=f.memo||'';
+  // 지도
+  curLat=(f.lat!=null)?f.lat:a.lat; curLng=(f.lng!=null)?f.lng:a.lng;
+  var pos=new kakao.maps.LatLng(curLat,curLng);
+  if(!map){ map=new kakao.maps.Map(document.getElementById('map'),{center:pos,level:3}); marker=new kakao.maps.Marker({position:pos,draggable:true}); marker.setMap(map); kakao.maps.event.addListener(marker,'dragend',function(){ var p=marker.getPosition(); curLat=p.getLat(); curLng=p.getLng(); document.getElementById('posHint').textContent='📍 위치 보정됨 — 저장하면 반영';}); }
+  else{ map.setCenter(pos); marker.setPosition(pos); }
+  document.getElementById('posHint').textContent=(f.lat!=null)?'📍 (보정된 위치) 드래그로 다시 조정 가능':'📍 핀을 드래그해서 위치를 보정하세요';
+  loadChart(a);
+}
+
+function resetPin(){ if(idx<0)return; var a=apts[idx]; curLat=a.lat; curLng=a.lng; var pos=new kakao.maps.LatLng(curLat,curLng); map.setCenter(pos); marker.setPosition(pos); document.getElementById('posHint').textContent='↺ 원래 위치로 되돌림'; }
+function toggleProblem(){ var c=document.getElementById('f_problem'); c.checked=!c.checked; }
+
+function saveNext(){
+  if(idx<0){ toast('단지를 먼저 선택하세요'); return; }
+  var a=apts[idx];
+  var row={kapt_code:a.code,lat:curLat,lng:curLng,problem:document.getElementById('f_problem').checked,memo:val('f_memo')||null,status:'done',updated_at:new Date().toISOString()};
+  FIELDS.forEach(function(k){ row[k]=val('f_'+k)||'-'; }); // 빈 칸 → '-'
+  fetch(SUPA_URL+'/rest/v1/apt_fix?on_conflict=kapt_code',{method:'POST',headers:supaHeaders({Prefer:'resolution=merge-duplicates,return=minimal'}),body:JSON.stringify([row])})
+    .then(function(r){
+      if(!r.ok){ r.text().then(function(t){toast('저장 실패: '+t.slice(0,60));}); return; }
+      fixMap[a.code]=row; toast('저장됨 ✓'); next();
+    }).catch(function(e){ toast('저장 오류: '+e.message); });
+}
+
+function next(){
+  // 다음 미완료로 이동 (없으면 다음 순번)
+  for(var j=idx+1;j<apts.length;j++){ if(statusOf(apts[j])==='todo'){ selectApt(j); return; } }
+  for(var k=0;k<apts.length;k++){ if(statusOf(apts[k])==='todo'){ selectApt(k); return; } }
+  renderList(); toast('이 지역 미완료가 없습니다 🎉');
+}
+function skip(){ if(idx<0)return; for(var j=idx+1;j<apts.length;j++){ if(statusOf(apts[j])==='todo'){ selectApt(j); return; } } toast('다음 미완료 없음'); }
+
+function loadChart(a){ var code=a.code;
+  var meta=document.getElementById('chartMeta'), emptyEl=document.getElementById('chartEmpty');
+  meta.textContent='불러오는 중…'; emptyEl.style.display='none';
+  fetch(TRADE_CDN+encodeURIComponent(code)+'.json').then(function(r){return r.ok?r.json():null;}).then(function(sd){
+    var b=(sd&&sd.b)||[];
+    if(chart){ chart.destroy(); chart=null; }
+    if(!b.length){ liveChart(a); return; }
+    emptyEl.style.display='none';
+    var pts=b.map(function(r){ var y=Math.floor(r[0]/100), mo=r[0]%100; return {x:y+(mo-1)/12, y:(r[2]||0)/10000}; }).sort(function(p,q){return p.x-q.x;});
+    meta.textContent='거래 '+b.length+'건 · 갱신 '+(sd.u||'?');
+    chart=new Chart(document.getElementById('chart'),{type:'scatter',data:{datasets:[{data:pts,backgroundColor:'#3b82f6',pointRadius:3}]},options:{responsive:true,maintainAspectRatio:false,scales:{x:{ticks:{stepSize:1,callback:function(v){return Math.round(v);}},title:{display:true,text:'연도'}},y:{title:{display:true,text:'억원'}}},plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){return c.parsed.y.toFixed(2)+'억';}}}}}});
+  }).catch(function(){ document.getElementById('chartMeta').textContent='실거래 불러오기 실패'; });
+}
+
+// 사전적재(CDN)가 비면 라이브 /api/trade(최근 24개월)로 보충
+function liveChart(a){
+  var meta=document.getElementById('chartMeta'), emptyEl=document.getElementById('chartEmpty');
+  var lawd=(a.bjdCode||'').slice(0,5);
+  var now=new Date(), yms=[]; for(var i=0;i<24;i++){ var d=new Date(now.getFullYear(),now.getMonth()-i,1); yms.push(''+d.getFullYear()+('0'+(d.getMonth()+1)).slice(-2)); }
+  var p='?code='+encodeURIComponent(a.code)+'&yms='+yms.join(',')+'&lawdCd='+lawd+'&aptName='+encodeURIComponent(a.name);
+  meta.textContent='라이브 조회 중…';
+  fetch('/api/trade'+p).then(function(r){return r.ok?r.json():null;}).then(function(j){
+    var buy=(j&&j.buy)||[];
+    if(chart){ chart.destroy(); chart=null; }
+    if(!buy.length){ meta.textContent='거래 없음'; emptyEl.textContent='매매 실거래 없음'; emptyEl.style.display='block'; return; }
+    emptyEl.style.display='none';
+    var pts=buy.map(function(x){ var ym=parseInt(x.t.replace('-','')), y=Math.floor(ym/100), mo=ym%100; return {x:y+(mo-1)/12, y:(x.p||0)/10000}; }).sort(function(u,v){return u.x-v.x;});
+    meta.textContent='라이브 최근24개월 '+buy.length+'건';
+    chart=new Chart(document.getElementById('chart'),{type:'scatter',data:{datasets:[{data:pts,backgroundColor:'#3b82f6',pointRadius:3}]},options:{responsive:true,maintainAspectRatio:false,scales:{x:{ticks:{stepSize:1,callback:function(v){return Math.round(v);}},title:{display:true,text:'연도'}},y:{title:{display:true,text:'억원'}}},plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){return c.parsed.y.toFixed(2)+'억';}}}}}});
+  }).catch(function(){ document.getElementById('chartMeta').textContent='실거래 불러오기 실패'; });
+}
+
+kakao.maps.load(function(){});
+</script>
+</body>
+</html>
