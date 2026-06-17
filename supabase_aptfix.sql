@@ -14,6 +14,11 @@ create table if not exists apt_fix (
   builder     text,                    -- 시공사
   entrance    text,                    -- 현관구조
   total_park  text,                    -- 총주차
+  addr        text,                    -- 주소
+  name        text,                    -- 단지명 (이름 보정 / 추가단지 이름)
+  is_added    boolean default false,   -- 분리·추가한 단지인가 (원본에 없던 2·3단지)
+  parent_code text,                    -- (추가단지) 원래 합쳐져 있던 단지코드
+  region_code text,                    -- (추가단지) 시군구코드 (목록 표시용)
   problem     boolean default false,   -- ❗안됨(문제) 체크 — 나중에 같이 수정
   memo        text,                    -- 문제 내용/메모
   status      text default 'done',     -- done = 작업완료

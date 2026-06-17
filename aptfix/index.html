@@ -31,29 +31,30 @@
   .b-todo{background:#f1f5f9;color:#64748b}
   .b-done{background:#dcfce7;color:#16a34a}
   .b-prob{background:#fee2e2;color:#dc2626}
-  .center{flex:1;display:flex;flex-direction:column;overflow-y:auto;padding:14px;gap:12px}
-  .hdr{display:flex;justify-content:space-between;align-items:baseline}
+  .center{flex:1;display:flex;flex-direction:column;overflow-y:auto;padding:14px;gap:11px}
+  .hdr{display:flex;justify-content:space-between;align-items:center;gap:10px}
   .hdr .nm{font-size:19px;font-weight:700}
-  .hdr .stat{font-size:13px;color:#64748b}
-  .addr{font-size:13px;color:#475569;margin-top:-6px}
-  #map{width:100%;height:300px;border-radius:10px;border:1px solid #e2e8f0}
+  .hdr .stat{font-size:13px;color:#64748b;white-space:nowrap}
+  .addr{font-size:13px;color:#475569;margin-top:-4px}
+  #map{width:100%;height:290px;border-radius:10px;border:1px solid #e2e8f0}
   .maprow{display:flex;justify-content:space-between;align-items:center;font-size:12px;color:#2563eb}
   .maprow button{font-size:12px;padding:4px 10px;border:1px solid #cbd5e1;background:#fff;border-radius:6px;cursor:pointer;color:#334155}
   .form{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;background:#fff;padding:14px;border-radius:10px;border:1px solid #e2e8f0}
   .form label{display:flex;flex-direction:column;font-size:12px;color:#64748b;gap:3px}
   .form .full{grid-column:1/4}
   .form input{padding:8px;border:1px solid #cbd5e1;border-radius:7px;font-size:14px;color:#0f172a}
+  .form input#f_name{font-weight:700;border-color:#93c5fd}
+  .addbtn{padding:11px;border:1px dashed #3b82f6;background:#eff6ff;color:#2563eb;border-radius:9px;cursor:pointer;font-weight:700;font-size:14px}
   .problem{background:#fff7ed;border:2px solid #fdba74;border-radius:12px;padding:14px}
   .problem .row{display:flex;align-items:center;gap:10px;cursor:pointer}
   .problem .chk{width:26px;height:26px;flex-shrink:0;accent-color:#ea580c}
   .problem .lbl{font-size:16px;font-weight:700;color:#c2410c}
-  .problem textarea{width:100%;margin-top:10px;padding:10px;border:1px solid #fdba74;border-radius:8px;font-size:14px;min-height:54px;resize:vertical;font-family:inherit}
+  .problem textarea{width:100%;margin-top:10px;padding:10px;border:1px solid #fdba74;border-radius:8px;font-size:14px;min-height:50px;resize:vertical;font-family:inherit}
   .acts{display:flex;gap:10px}
   .acts button{flex:1;padding:14px;font-size:16px;font-weight:700;border:none;border-radius:10px;cursor:pointer}
   .skip{background:#e2e8f0;color:#475569}
   .save{background:#3b82f6;color:#fff}
   .save:active{background:#2563eb}
-  /* 오른쪽 차트 (세로 3개) */
   .right{width:380px;background:#fff;border-left:1px solid #e2e8f0;padding:14px;display:flex;flex-direction:column;gap:6px;overflow-y:auto}
   .right h3{font-size:14px}
   .right .meta{font-size:12px;color:#94a3b8;margin-bottom:2px}
@@ -63,7 +64,6 @@
   .cempty{position:absolute;inset:0;display:none;align-items:center;justify-content:center;color:#cbd5e1;font-size:13px}
   .toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:#0f172a;color:#fff;padding:10px 22px;border-radius:20px;font-size:14px;opacity:0;transition:.25s;z-index:999}
   .toast.show{opacity:1}
-  /* 저장 실패 — 중앙 큰 빨강 팝업 */
   .errmodal{position:fixed;inset:0;background:rgba(0,0,0,.5);display:flex;align-items:center;justify-content:center;z-index:10000;cursor:pointer}
   .errbox{background:#dc2626;color:#fff;padding:26px 30px;border-radius:14px;max-width:540px;width:88%;text-align:center;box-shadow:0 14px 50px rgba(0,0,0,.45)}
   .errbox .errt{font-size:26px;font-weight:800;margin-bottom:12px}
@@ -106,6 +106,7 @@
       <button onclick="resetPin()">↺ 원래 위치로</button>
     </div>
     <div class="form" id="form">
+      <label class="full">단지명<input id="f_name" placeholder="단지명"></label>
       <label>세대수<input id="f_units" placeholder="-"></label>
       <label>준공<input id="f_built" placeholder="-"></label>
       <label>동수<input id="f_dong_cnt" placeholder="-"></label>
@@ -116,6 +117,7 @@
       <label>총주차<input id="f_total_park" placeholder="-"></label>
       <label class="full">주소<input id="f_addr" placeholder="-"></label>
     </div>
+    <button class="addbtn" onclick="addNew()">➕ 이 위치 기준으로 단지 분리/추가 (2·3단지)</button>
     <div class="problem">
       <div class="row" onclick="toggleProblem()">
         <input type="checkbox" id="f_problem" class="chk" onclick="event.stopPropagation()">
@@ -151,50 +153,66 @@
 var SUPA_URL='https://nqnbbccazjanjhktknyz.supabase.co';
 var SUPA_KEY='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5xbmJiY2Nhemphbmpoa3Rrbnl6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzk0OTA5NDQsImV4cCI6MjA5NTA2Njk0NH0.rT_hIwTJyBnCDGyudmJYvN44G67WgZ9-bSVCzShiRjI';
 var TRADE_CDN='https://cdn.jsdelivr.net/gh/BILLIONARIE-CAN/guhaedo-data@main/trades/';
+var PRESALE_URL='https://cdn.jsdelivr.net/gh/BILLIONARIE-CAN/guhaedo-data@main/presale.json';
 var FIELDS=['units','built','dong_cnt','top_floor','heat','builder','entrance','total_park','addr'];
 var APT_KEY={units:'units',built:'built',dong_cnt:'dongCnt',top_floor:'topFloor',heat:'heat',builder:'builder',entrance:'entrance',total_park:'totalPark',addr:'addr'};
 var CCFG={buy:{cv:'c_buy',ev:'e_buy',clr:'#3b82f6',isM:false},jeonse:{cv:'c_jeonse',ev:'e_jeonse',clr:'#f59e0b',isM:false},monthly:{cv:'c_monthly',ev:'e_monthly',clr:'#10b981',isM:true}};
 
-var apts=[], fixMap={}, idx=-1, filter='todo', map=null, marker=null, curLat=0, curLng=0;
+var apts=[], fixMap={}, idx=-1, filter='todo', currentRegion='44200', map=null, marker=null, curLat=0, curLng=0;
 var tradeData={buy:[],jeonse:[],monthly:[]}, charts={buy:null,jeonse:null,monthly:null}, tradeSrc='';
 
 function checkPw(){ if(document.getElementById('pw').value==='9999'){ document.getElementById('gate').style.display='none'; document.getElementById('app').style.display='block'; init(); } else { alert('비밀번호가 틀렸습니다'); } }
 document.getElementById('pw').addEventListener('keydown',function(e){ if(e.key==='Enter')checkPw(); });
 
-function toast(m){ var t=document.getElementById('toast'); t.textContent=m; t.classList.add('show'); setTimeout(function(){t.classList.remove('show');},1600); }
+function toast(m){ var t=document.getElementById('toast'); t.textContent=m; t.classList.add('show'); setTimeout(function(){t.classList.remove('show');},1800); }
 function showErr(msg){ document.getElementById('errMsg').textContent=msg; document.getElementById('errModal').style.display='flex'; }
 function supaHeaders(extra){ var h={apikey:SUPA_KEY,Authorization:'Bearer '+SUPA_KEY,'Content-Type':'application/json'}; if(extra)for(var k in extra)h[k]=extra[k]; return h; }
+function pnorm(s){ return String(s||'').replace(/[\s()\-·]/g,'').replace(/아파트$/,'').toUpperCase(); }
+function presaleToApt(it){ return {code:'PS_'+pnorm(it.n), name:it.n||'(이름없음)', lat:it.lat, lng:it.lng, source:'presale', units:'', built:'', dongCnt:'', topFloor:'', heat:'', builder:'', entrance:'', totalPark:'', addr:it.addr||'', bjdCode:''}; }
 
 function init(){
   fetch('/aptfix_regions.json').then(function(r){return r.json();}).then(function(regs){
     var sel=document.getElementById('region');
-    sel.innerHTML=regs.map(function(r){return '<option value="'+r.code+'">'+r.name+' ('+r.count+')</option>';}).join('');
+    sel.innerHTML='<option value="presale">🎈 분양 단지 (전국)</option>'+regs.map(function(r){return '<option value="'+r.code+'">'+r.name+' ('+r.count+')</option>';}).join('');
     sel.value='44200';
     loadRegion('44200');
   });
 }
 
 function loadRegion(code){
-  apts=[]; idx=-1;
+  currentRegion=code; apts=[]; idx=-1;
   document.getElementById('list').innerHTML='<div style="padding:14px;color:#94a3b8">불러오는 중…</div>';
-  Promise.all([
-    fetch('/split_output/coords_apt_'+code+'.json').then(function(r){return r.ok?r.json():[];}),
-    fetch(SUPA_URL+'/rest/v1/apt_fix?select=*',{headers:supaHeaders()}).then(function(r){return r.ok?r.json():[];}).catch(function(){return [];})
-  ]).then(function(res){
-    apts=res[0]||[];
-    fixMap={}; (res[1]||[]).forEach(function(f){ fixMap[f.kapt_code]=f; });
+  var base;
+  if(code==='presale'){
+    base=fetch(PRESALE_URL).then(function(r){return r.ok?r.json():null;}).then(function(j){ return ((j&&j.items)||[]).filter(function(x){return x.lat&&x.lng;}).map(presaleToApt); });
+  } else {
+    base=fetch('/split_output/coords_apt_'+code+'.json').then(function(r){return r.ok?r.json():[];});
+  }
+  base.then(function(arr){
+    apts=arr||[];
+    return fetch(SUPA_URL+'/rest/v1/apt_fix?select=*',{headers:supaHeaders()}).then(function(r){return r.ok?r.json():[];}).catch(function(){return [];});
+  }).then(function(rows){
+    fixMap={};
+    (rows||[]).forEach(function(f){
+      fixMap[f.kapt_code]=f;
+      if(f.is_added && f.region_code===code){
+        apts.push({code:f.kapt_code,name:f.name||'(추가단지)',lat:f.lat,lng:f.lng,source:'add',parent_code:f.parent_code,bjdCode:'',
+          units:f.units,built:f.built,dongCnt:f.dong_cnt,topFloor:f.top_floor,heat:f.heat,builder:f.builder,entrance:f.entrance,totalPark:f.total_park,addr:f.addr});
+      }
+    });
     renderList();
-  });
+  }).catch(function(e){ document.getElementById('list').innerHTML='<div style="padding:14px;color:#dc2626">로드 실패: '+e.message+'</div>'; });
 }
 
 function statusOf(a){ var f=fixMap[a.code]; if(!f)return 'todo'; if(f.problem)return 'prob'; return 'done'; }
 function setFilter(f){ filter=f; document.querySelectorAll('.filters button').forEach(function(b){ b.classList.toggle('on', b.dataset.f===f); }); renderList(); }
+function srcIcon(a){ return a.source==='presale'?'🎈 ':a.source==='add'?'➕ ':''; }
 
 function renderList(){
   var q=(document.getElementById('search').value||'').trim();
   var done=0,prob=0;
   apts.forEach(function(a){ var s=statusOf(a); if(s==='done')done++; if(s==='prob')prob++; });
-  document.getElementById('stat').textContent='완료 '+done+' · ❗문제 '+prob+' · 총 '+apts.length;
+  document.getElementById('stat').textContent='완료 '+done+' · ❗'+prob+' · 총 '+apts.length;
   var html='';
   apts.forEach(function(a,i){
     var s=statusOf(a);
@@ -203,7 +221,7 @@ function renderList(){
     if(filter==='prob'&&s!=='prob')return;
     if(q&&a.name.indexOf(q)<0)return;
     var bd=s==='done'?'<span class="badge b-done">✓완료</span>':s==='prob'?'<span class="badge b-prob">❗문제</span>':'<span class="badge b-todo">미완료</span>';
-    html+='<div class="item'+(i===idx?' sel':'')+'" onclick="selectApt('+i+')"><span class="nm">'+a.name+'</span>'+bd+'</div>';
+    html+='<div class="item'+(i===idx?' sel':'')+'" onclick="selectApt('+i+')"><span class="nm">'+srcIcon(a)+a.name+'</span>'+bd+'</div>';
   });
   document.getElementById('list').innerHTML=html||'<div style="padding:14px;color:#94a3b8">해당 항목 없음</div>';
 }
@@ -213,8 +231,9 @@ function val(id){ return (document.getElementById(id).value||'').trim(); }
 function selectApt(i){
   idx=i; var a=apts[i]; var f=fixMap[a.code]||{};
   renderList();
-  document.getElementById('aptName').textContent=a.name;
-  document.getElementById('aptAddr').textContent=(a.jibunAddr||a.addr||'')+'  ·  '+a.code;
+  document.getElementById('aptName').textContent=srcIcon(a)+(f.name||a.name);
+  document.getElementById('aptAddr').textContent=(f.addr&&f.addr!=='-'?f.addr:(a.jibunAddr||a.addr||''))+'  ·  '+a.code;
+  document.getElementById('f_name').value=(f.name!=null&&f.name!=='')?f.name:(a.name||'');
   FIELDS.forEach(function(k){
     var el=document.getElementById('f_'+k);
     var v=(f[k]!==undefined&&f[k]!==null&&f[k]!=='')?f[k]:(a[APT_KEY[k]]!==undefined&&a[APT_KEY[k]]!==null?a[APT_KEY[k]]:'');
@@ -233,11 +252,25 @@ function selectApt(i){
 function resetPin(){ if(idx<0)return; var a=apts[idx]; curLat=a.lat; curLng=a.lng; var pos=new kakao.maps.LatLng(curLat,curLng); map.setCenter(pos); marker.setPosition(pos); document.getElementById('posHint').textContent='↺ 원래 위치로 되돌림'; }
 function toggleProblem(){ var c=document.getElementById('f_problem'); c.checked=!c.checked; }
 
+// 단지 분리/추가 — 현재 단지 기준으로 새 단지(2·3단지)를 만든다
+function addNew(){
+  if(idx<0){ toast('기준이 될 단지를 먼저 선택하세요'); return; }
+  var pa=apts[idx];
+  var it={code:(pa.parent_code||pa.code)+'-'+Date.now().toString().slice(-5),
+    name:pa.name, lat:curLat, lng:curLng, source:'add', parent_code:(pa.parent_code||pa.code), bjdCode:pa.bjdCode||'',
+    units:'', built:val('f_built'), dongCnt:'', topFloor:val('f_top_floor'), heat:val('f_heat'), builder:val('f_builder'), entrance:val('f_entrance'), totalPark:'', addr:val('f_addr')};
+  apts.push(it);
+  selectApt(apts.length-1);
+  var nm=document.getElementById('f_name'); nm.focus(); nm.select();
+  toast('새 단지 칸 생성 — 이름(예: 2단지)·세대수 채우고 핀 옮긴 뒤 저장');
+}
+
 function saveNext(){
   if(idx<0){ toast('단지를 먼저 선택하세요'); return; }
   var a=apts[idx];
-  var row={kapt_code:a.code,lat:curLat,lng:curLng,problem:document.getElementById('f_problem').checked,memo:val('f_memo')||null,status:'done',updated_at:new Date().toISOString()};
+  var row={kapt_code:a.code,name:val('f_name')||a.name||null,lat:curLat,lng:curLng,problem:document.getElementById('f_problem').checked,memo:val('f_memo')||null,status:'done',updated_at:new Date().toISOString()};
   FIELDS.forEach(function(k){ row[k]=val('f_'+k)||'-'; });
+  if(a.source==='add'){ row.is_added=true; row.parent_code=a.parent_code||null; row.region_code=currentRegion; }
   fetch(SUPA_URL+'/rest/v1/apt_fix?on_conflict=kapt_code',{method:'POST',headers:supaHeaders({Prefer:'resolution=merge-duplicates,return=minimal'}),body:JSON.stringify([row])})
     .then(function(r){
       if(!r.ok){ r.text().then(function(t){ showErr('HTTP '+r.status+'\n\n'+(t||'(빈 응답)')); }); return; }
@@ -254,7 +287,6 @@ function skip(){ if(idx<0)return; for(var j=idx+1;j<apts.length;j++){ if(statusO
 
 /* ===== 실거래 차트 (매매/전세/월세 세로 동시) ===== */
 function ymToX(ym){ var y=Math.floor(ym/100), mo=ym%100; return y+(mo-1)/12; }
-
 function renderOne(mode){
   var cfg=CCFG[mode], rows=tradeData[mode]||[];
   var cv=document.getElementById(cfg.cv), ev=document.getElementById(cfg.ev);
@@ -266,7 +298,6 @@ function renderOne(mode){
 }
 function renderAll(){ document.getElementById('chartMeta').textContent=tradeSrc?('출처: '+tradeSrc):''; renderOne('buy'); renderOne('jeonse'); renderOne('monthly'); }
 
-// 1) 사전적재(CDN) → 비면 2) 라이브 /api/trade(최근 24개월)
 function loadChart(a){
   tradeData={buy:[],jeonse:[],monthly:[]}; tradeSrc='';
   document.getElementById('chartMeta').textContent='불러오는 중…';
@@ -280,7 +311,6 @@ function loadChart(a){
     liveChart(a);
   }).catch(function(){ liveChart(a); });
 }
-
 function liveChart(a){
   var lawd=(a.bjdCode||'').slice(0,5);
   var now=new Date(), yms=[]; for(var i=0;i<24;i++){ var d=new Date(now.getFullYear(),now.getMonth()-i,1); yms.push(''+d.getFullYear()+('0'+(d.getMonth()+1)).slice(-2)); }
