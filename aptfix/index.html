@@ -16,7 +16,6 @@
   #gate .t{color:#fff;font-size:20px;font-weight:700}
   #app{display:none;height:100vh}
   .wrap{display:flex;height:100vh}
-  /* 왼쪽 목록 */
   .side{width:270px;background:#fff;border-right:1px solid #e2e8f0;display:flex;flex-direction:column}
   .side .top{padding:12px;border-bottom:1px solid #e2e8f0}
   .side select,.side input{width:100%;padding:8px;border:1px solid #cbd5e1;border-radius:7px;font-size:13px;margin-bottom:8px}
@@ -32,7 +31,6 @@
   .b-todo{background:#f1f5f9;color:#64748b}
   .b-done{background:#dcfce7;color:#16a34a}
   .b-prob{background:#fee2e2;color:#dc2626}
-  /* 가운데 */
   .center{flex:1;display:flex;flex-direction:column;overflow-y:auto;padding:14px;gap:12px}
   .hdr{display:flex;justify-content:space-between;align-items:baseline}
   .hdr .nm{font-size:19px;font-weight:700}
@@ -45,7 +43,6 @@
   .form label{display:flex;flex-direction:column;font-size:12px;color:#64748b;gap:3px}
   .form .full{grid-column:1/4}
   .form input{padding:8px;border:1px solid #cbd5e1;border-radius:7px;font-size:14px;color:#0f172a}
-  /* 안됨 체크 — 크게 */
   .problem{background:#fff7ed;border:2px solid #fdba74;border-radius:12px;padding:14px}
   .problem .row{display:flex;align-items:center;gap:10px;cursor:pointer}
   .problem .chk{width:26px;height:26px;flex-shrink:0;accent-color:#ea580c}
@@ -56,17 +53,22 @@
   .skip{background:#e2e8f0;color:#475569}
   .save{background:#3b82f6;color:#fff}
   .save:active{background:#2563eb}
-  /* 오른쪽 차트 */
-  .right{width:370px;background:#fff;border-left:1px solid #e2e8f0;padding:14px;display:flex;flex-direction:column;gap:8px}
+  /* 오른쪽 차트 (세로 3개) */
+  .right{width:380px;background:#fff;border-left:1px solid #e2e8f0;padding:14px;display:flex;flex-direction:column;gap:6px;overflow-y:auto}
   .right h3{font-size:14px}
-  .ctabs{display:flex;gap:4px}
-  .ctabs button{flex:1;padding:7px;font-size:13px;font-weight:600;border:1px solid #cbd5e1;background:#fff;border-radius:6px;cursor:pointer;color:#475569}
-  .ctabs button.on{background:#0f172a;color:#fff;border-color:#0f172a}
-  .right .meta{font-size:12px;color:#64748b}
-  #chartWrap{flex:1;position:relative;min-height:280px}
-  .empty{color:#94a3b8;text-align:center;padding-top:60px}
+  .right .meta{font-size:12px;color:#94a3b8;margin-bottom:2px}
+  .cbox{margin-bottom:4px}
+  .clbl{font-size:12px;font-weight:700;color:#475569;margin-bottom:2px}
+  .cwrap{position:relative;height:165px;background:#fafafa;border:1px solid #f1f5f9;border-radius:8px;padding:4px}
+  .cempty{position:absolute;inset:0;display:none;align-items:center;justify-content:center;color:#cbd5e1;font-size:13px}
   .toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:#0f172a;color:#fff;padding:10px 22px;border-radius:20px;font-size:14px;opacity:0;transition:.25s;z-index:999}
   .toast.show{opacity:1}
+  /* 저장 실패 — 중앙 큰 빨강 팝업 */
+  .errmodal{position:fixed;inset:0;background:rgba(0,0,0,.5);display:flex;align-items:center;justify-content:center;z-index:10000;cursor:pointer}
+  .errbox{background:#dc2626;color:#fff;padding:26px 30px;border-radius:14px;max-width:540px;width:88%;text-align:center;box-shadow:0 14px 50px rgba(0,0,0,.45)}
+  .errbox .errt{font-size:26px;font-weight:800;margin-bottom:12px}
+  .errbox .msg{font-size:14px;line-height:1.55;word-break:break-all;background:rgba(0,0,0,.2);padding:13px;border-radius:9px;text-align:left;white-space:pre-wrap}
+  .errbox .errx{margin-top:14px;font-size:13px;opacity:.9}
 </style>
 </head>
 <body>
@@ -78,7 +80,6 @@
 
 <div id="app">
 <div class="wrap">
-  <!-- 왼쪽: 목록 -->
   <div class="side">
     <div class="top">
       <select id="region" onchange="loadRegion(this.value)"></select>
@@ -93,7 +94,6 @@
     <div class="list" id="list"></div>
   </div>
 
-  <!-- 가운데: 지도 + 정보 -->
   <div class="center" id="center">
     <div class="hdr">
       <div class="nm" id="aptName">단지를 선택하세요</div>
@@ -129,20 +129,23 @@
     </div>
   </div>
 
-  <!-- 오른쪽: 실거래가 -->
   <div class="right">
     <h3>📈 실거래가</h3>
-    <div class="ctabs">
-      <button data-m="buy" class="on" onclick="setChartMode('buy')">매매</button>
-      <button data-m="jeonse" onclick="setChartMode('jeonse')">전세</button>
-      <button data-m="monthly" onclick="setChartMode('monthly')">월세</button>
-    </div>
-    <div class="meta" id="chartMeta"></div>
-    <div id="chartWrap"><canvas id="chart"></canvas><div class="empty" id="chartEmpty" style="display:none">단지를 선택하면<br>실거래가가 표시됩니다</div></div>
+    <div class="meta" id="chartMeta">단지를 선택하세요</div>
+    <div class="cbox"><div class="clbl" style="color:#2563eb">💙 매매 (억)</div><div class="cwrap"><canvas id="c_buy"></canvas><div class="cempty" id="e_buy">매매 거래 없음</div></div></div>
+    <div class="cbox"><div class="clbl" style="color:#d97706">🧡 전세 (억)</div><div class="cwrap"><canvas id="c_jeonse"></canvas><div class="cempty" id="e_jeonse">전세 거래 없음</div></div></div>
+    <div class="cbox"><div class="clbl" style="color:#059669">💚 월세 (만원)</div><div class="cwrap"><canvas id="c_monthly"></canvas><div class="cempty" id="e_monthly">월세 거래 없음</div></div></div>
   </div>
 </div>
 </div>
 <div class="toast" id="toast"></div>
+<div class="errmodal" id="errModal" style="display:none" onclick="this.style.display='none'">
+  <div class="errbox">
+    <div class="errt">⛔ 저장 실패</div>
+    <div class="msg" id="errMsg"></div>
+    <div class="errx">화면을 탭하면 닫힙니다</div>
+  </div>
+</div>
 
 <script>
 var SUPA_URL='https://nqnbbccazjanjhktknyz.supabase.co';
@@ -150,21 +153,23 @@ var SUPA_KEY='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZ
 var TRADE_CDN='https://cdn.jsdelivr.net/gh/BILLIONARIE-CAN/guhaedo-data@main/trades/';
 var FIELDS=['units','built','dong_cnt','top_floor','heat','builder','entrance','total_park','addr'];
 var APT_KEY={units:'units',built:'built',dong_cnt:'dongCnt',top_floor:'topFloor',heat:'heat',builder:'builder',entrance:'entrance',total_park:'totalPark',addr:'addr'};
+var CCFG={buy:{cv:'c_buy',ev:'e_buy',clr:'#3b82f6',isM:false},jeonse:{cv:'c_jeonse',ev:'e_jeonse',clr:'#f59e0b',isM:false},monthly:{cv:'c_monthly',ev:'e_monthly',clr:'#10b981',isM:true}};
 
-var apts=[], fixMap={}, idx=-1, filter='todo', map=null, marker=null, curLat=0, curLng=0, chart=null;
-var tradeData={buy:[],jeonse:[],monthly:[]}, chartMode='buy', tradeSrc='';
+var apts=[], fixMap={}, idx=-1, filter='todo', map=null, marker=null, curLat=0, curLng=0;
+var tradeData={buy:[],jeonse:[],monthly:[]}, charts={buy:null,jeonse:null,monthly:null}, tradeSrc='';
 
 function checkPw(){ if(document.getElementById('pw').value==='9999'){ document.getElementById('gate').style.display='none'; document.getElementById('app').style.display='block'; init(); } else { alert('비밀번호가 틀렸습니다'); } }
 document.getElementById('pw').addEventListener('keydown',function(e){ if(e.key==='Enter')checkPw(); });
 
 function toast(m){ var t=document.getElementById('toast'); t.textContent=m; t.classList.add('show'); setTimeout(function(){t.classList.remove('show');},1600); }
+function showErr(msg){ document.getElementById('errMsg').textContent=msg; document.getElementById('errModal').style.display='flex'; }
 function supaHeaders(extra){ var h={apikey:SUPA_KEY,Authorization:'Bearer '+SUPA_KEY,'Content-Type':'application/json'}; if(extra)for(var k in extra)h[k]=extra[k]; return h; }
 
 function init(){
   fetch('/aptfix_regions.json').then(function(r){return r.json();}).then(function(regs){
     var sel=document.getElementById('region');
     sel.innerHTML=regs.map(function(r){return '<option value="'+r.code+'">'+r.name+' ('+r.count+')</option>';}).join('');
-    sel.value='44200'; // 기본: 아산
+    sel.value='44200';
     loadRegion('44200');
   });
 }
@@ -232,12 +237,12 @@ function saveNext(){
   if(idx<0){ toast('단지를 먼저 선택하세요'); return; }
   var a=apts[idx];
   var row={kapt_code:a.code,lat:curLat,lng:curLng,problem:document.getElementById('f_problem').checked,memo:val('f_memo')||null,status:'done',updated_at:new Date().toISOString()};
-  FIELDS.forEach(function(k){ row[k]=val('f_'+k)||'-'; }); // 빈 칸 → '-'
+  FIELDS.forEach(function(k){ row[k]=val('f_'+k)||'-'; });
   fetch(SUPA_URL+'/rest/v1/apt_fix?on_conflict=kapt_code',{method:'POST',headers:supaHeaders({Prefer:'resolution=merge-duplicates,return=minimal'}),body:JSON.stringify([row])})
     .then(function(r){
-      if(!r.ok){ r.text().then(function(t){toast('저장 실패: '+t.slice(0,60));}); return; }
+      if(!r.ok){ r.text().then(function(t){ showErr('HTTP '+r.status+'\n\n'+(t||'(빈 응답)')); }); return; }
       fixMap[a.code]=row; toast('저장됨 ✓'); next();
-    }).catch(function(e){ toast('저장 오류: '+e.message); });
+    }).catch(function(e){ showErr('네트워크 오류\n\n'+e.message); });
 }
 
 function next(){
@@ -247,34 +252,30 @@ function next(){
 }
 function skip(){ if(idx<0)return; for(var j=idx+1;j<apts.length;j++){ if(statusOf(apts[j])==='todo'){ selectApt(j); return; } } toast('다음 미완료 없음'); }
 
-/* ===== 실거래 차트 (매매/전세/월세 토글) ===== */
-function setChartMode(m){ chartMode=m; document.querySelectorAll('.ctabs button').forEach(function(b){ b.classList.toggle('on', b.dataset.m===m); }); renderMode(); }
+/* ===== 실거래 차트 (매매/전세/월세 세로 동시) ===== */
 function ymToX(ym){ var y=Math.floor(ym/100), mo=ym%100; return y+(mo-1)/12; }
 
-function renderMode(){
-  var rows=tradeData[chartMode]||[];
-  var meta=document.getElementById('chartMeta'), emptyEl=document.getElementById('chartEmpty');
-  if(chart){ chart.destroy(); chart=null; }
-  var nm={buy:'매매',jeonse:'전세',monthly:'월세'}[chartMode];
-  if(!rows.length){ emptyEl.textContent=nm+' 거래 없음'; emptyEl.style.display='block'; meta.textContent=nm+' 0건'+(tradeSrc?(' · '+tradeSrc):''); return; }
-  emptyEl.style.display='none';
-  var isM=(chartMode==='monthly');
-  var clr=isM?'#10b981':(chartMode==='jeonse'?'#f59e0b':'#3b82f6');
+function renderOne(mode){
+  var cfg=CCFG[mode], rows=tradeData[mode]||[];
+  var cv=document.getElementById(cfg.cv), ev=document.getElementById(cfg.ev);
+  if(charts[mode]){ charts[mode].destroy(); charts[mode]=null; }
+  if(!rows.length){ ev.style.display='flex'; return; }
+  ev.style.display='none';
   var pts=rows.map(function(r){ return {x:ymToX(r.ym), y:r.y, dep:r.dep}; }).sort(function(p,q){return p.x-q.x;});
-  meta.textContent=nm+' '+rows.length+'건'+(tradeSrc?(' · '+tradeSrc):'');
-  chart=new Chart(document.getElementById('chart'),{type:'scatter',data:{datasets:[{data:pts,backgroundColor:clr,pointRadius:3}]},options:{responsive:true,maintainAspectRatio:false,scales:{x:{ticks:{stepSize:1,callback:function(v){return Math.round(v);}},title:{display:true,text:'연도'}},y:{title:{display:true,text:isM?'월세(만원)':'억원'}}},plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){var d=c.raw; return isM?('월세 '+d.y+'만 / 보증금 '+(d.dep||0)+'만'):(d.y.toFixed(2)+'억');}}}}}});
+  charts[mode]=new Chart(cv,{type:'scatter',data:{datasets:[{data:pts,backgroundColor:cfg.clr,pointRadius:2.5}]},options:{responsive:true,maintainAspectRatio:false,scales:{x:{ticks:{maxTicksLimit:6,callback:function(v){return Math.round(v);}}},y:{title:{display:true,text:cfg.isM?'만원':'억'}}},plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){var d=c.raw; return cfg.isM?('월세 '+d.y+'만/보증 '+(d.dep||0)+'만'):(d.y.toFixed(2)+'억');}}}}}});
 }
+function renderAll(){ document.getElementById('chartMeta').textContent=tradeSrc?('출처: '+tradeSrc):''; renderOne('buy'); renderOne('jeonse'); renderOne('monthly'); }
 
-// 1) 사전적재(CDN, 빠름·전체기간) → 비면 2) 라이브 /api/trade(최근 24개월)
+// 1) 사전적재(CDN) → 비면 2) 라이브 /api/trade(최근 24개월)
 function loadChart(a){
   tradeData={buy:[],jeonse:[],monthly:[]}; tradeSrc='';
-  document.getElementById('chartMeta').textContent='불러오는 중…'; document.getElementById('chartEmpty').style.display='none';
+  document.getElementById('chartMeta').textContent='불러오는 중…';
   fetch(TRADE_CDN+encodeURIComponent(a.code)+'.json').then(function(r){return r.ok?r.json():null;}).then(function(sd){
     if(sd && ((sd.b&&sd.b.length)||(sd.j&&sd.j.length)||(sd.m&&sd.m.length))){
       tradeData.buy=(sd.b||[]).map(function(r){return {ym:r[0],y:(r[2]||0)/10000};});
       tradeData.jeonse=(sd.j||[]).map(function(r){return {ym:r[0],y:(r[2]||0)/10000};});
       tradeData.monthly=(sd.m||[]).map(function(r){return {ym:r[0],y:(r[3]||0),dep:(r[2]||0)};});
-      tradeSrc='사전적재'; renderMode(); return;
+      tradeSrc='사전적재'; renderAll(); return;
     }
     liveChart(a);
   }).catch(function(){ liveChart(a); });
@@ -290,7 +291,7 @@ function liveChart(a){
     tradeData.buy=(j.buy||[]).map(function(x){return {ym:parseInt(x.t.replace('-','')),y:(x.p||0)/10000};});
     tradeData.jeonse=(j.jeonse||[]).map(function(x){return {ym:parseInt(x.t.replace('-','')),y:(x.p||0)/10000};});
     tradeData.monthly=(j.monthly||[]).map(function(x){return {ym:parseInt(x.t.replace('-','')),y:(x.m||0),dep:(x.d||0)};});
-    tradeSrc='라이브24개월'; renderMode();
+    tradeSrc='라이브24개월'; renderAll();
   }).catch(function(){ document.getElementById('chartMeta').textContent='실거래 불러오기 실패'; });
 }
 
