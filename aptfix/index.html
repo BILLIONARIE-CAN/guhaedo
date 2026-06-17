@@ -59,6 +59,9 @@
   /* 오른쪽 차트 */
   .right{width:370px;background:#fff;border-left:1px solid #e2e8f0;padding:14px;display:flex;flex-direction:column;gap:8px}
   .right h3{font-size:14px}
+  .ctabs{display:flex;gap:4px}
+  .ctabs button{flex:1;padding:7px;font-size:13px;font-weight:600;border:1px solid #cbd5e1;background:#fff;border-radius:6px;cursor:pointer;color:#475569}
+  .ctabs button.on{background:#0f172a;color:#fff;border-color:#0f172a}
   .right .meta{font-size:12px;color:#64748b}
   #chartWrap{flex:1;position:relative;min-height:280px}
   .empty{color:#94a3b8;text-align:center;padding-top:60px}
@@ -128,7 +131,12 @@
 
   <!-- 오른쪽: 실거래가 -->
   <div class="right">
-    <h3>📈 실거래가(매매)</h3>
+    <h3>📈 실거래가</h3>
+    <div class="ctabs">
+      <button data-m="buy" class="on" onclick="setChartMode('buy')">매매</button>
+      <button data-m="jeonse" onclick="setChartMode('jeonse')">전세</button>
+      <button data-m="monthly" onclick="setChartMode('monthly')">월세</button>
+    </div>
     <div class="meta" id="chartMeta"></div>
     <div id="chartWrap"><canvas id="chart"></canvas><div class="empty" id="chartEmpty" style="display:none">단지를 선택하면<br>실거래가가 표시됩니다</div></div>
   </div>
@@ -144,12 +152,12 @@ var FIELDS=['units','built','dong_cnt','top_floor','heat','builder','entrance','
 var APT_KEY={units:'units',built:'built',dong_cnt:'dongCnt',top_floor:'topFloor',heat:'heat',builder:'builder',entrance:'entrance',total_park:'totalPark',addr:'addr'};
 
 var apts=[], fixMap={}, idx=-1, filter='todo', map=null, marker=null, curLat=0, curLng=0, chart=null;
+var tradeData={buy:[],jeonse:[],monthly:[]}, chartMode='buy', tradeSrc='';
 
 function checkPw(){ if(document.getElementById('pw').value==='9999'){ document.getElementById('gate').style.display='none'; document.getElementById('app').style.display='block'; init(); } else { alert('비밀번호가 틀렸습니다'); } }
 document.getElementById('pw').addEventListener('keydown',function(e){ if(e.key==='Enter')checkPw(); });
 
 function toast(m){ var t=document.getElementById('toast'); t.textContent=m; t.classList.add('show'); setTimeout(function(){t.classList.remove('show');},1600); }
-
 function supaHeaders(extra){ var h={apikey:SUPA_KEY,Authorization:'Bearer '+SUPA_KEY,'Content-Type':'application/json'}; if(extra)for(var k in extra)h[k]=extra[k]; return h; }
 
 function init(){
@@ -202,7 +210,6 @@ function selectApt(i){
   renderList();
   document.getElementById('aptName').textContent=a.name;
   document.getElementById('aptAddr').textContent=(a.jibunAddr||a.addr||'')+'  ·  '+a.code;
-  // 폼 채우기 (보정값 우선, 없으면 원본)
   FIELDS.forEach(function(k){
     var el=document.getElementById('f_'+k);
     var v=(f[k]!==undefined&&f[k]!==null&&f[k]!=='')?f[k]:(a[APT_KEY[k]]!==undefined&&a[APT_KEY[k]]!==null?a[APT_KEY[k]]:'');
@@ -210,7 +217,6 @@ function selectApt(i){
   });
   document.getElementById('f_problem').checked=!!f.problem;
   document.getElementById('f_memo').value=f.memo||'';
-  // 지도
   curLat=(f.lat!=null)?f.lat:a.lat; curLng=(f.lng!=null)?f.lng:a.lng;
   var pos=new kakao.maps.LatLng(curLat,curLng);
   if(!map){ map=new kakao.maps.Map(document.getElementById('map'),{center:pos,level:3}); marker=new kakao.maps.Marker({position:pos,draggable:true}); marker.setMap(map); kakao.maps.event.addListener(marker,'dragend',function(){ var p=marker.getPosition(); curLat=p.getLat(); curLng=p.getLng(); document.getElementById('posHint').textContent='📍 위치 보정됨 — 저장하면 반영';}); }
@@ -235,42 +241,56 @@ function saveNext(){
 }
 
 function next(){
-  // 다음 미완료로 이동 (없으면 다음 순번)
   for(var j=idx+1;j<apts.length;j++){ if(statusOf(apts[j])==='todo'){ selectApt(j); return; } }
   for(var k=0;k<apts.length;k++){ if(statusOf(apts[k])==='todo'){ selectApt(k); return; } }
   renderList(); toast('이 지역 미완료가 없습니다 🎉');
 }
 function skip(){ if(idx<0)return; for(var j=idx+1;j<apts.length;j++){ if(statusOf(apts[j])==='todo'){ selectApt(j); return; } } toast('다음 미완료 없음'); }
 
-function loadChart(a){ var code=a.code;
+/* ===== 실거래 차트 (매매/전세/월세 토글) ===== */
+function setChartMode(m){ chartMode=m; document.querySelectorAll('.ctabs button').forEach(function(b){ b.classList.toggle('on', b.dataset.m===m); }); renderMode(); }
+function ymToX(ym){ var y=Math.floor(ym/100), mo=ym%100; return y+(mo-1)/12; }
+
+function renderMode(){
+  var rows=tradeData[chartMode]||[];
   var meta=document.getElementById('chartMeta'), emptyEl=document.getElementById('chartEmpty');
-  meta.textContent='불러오는 중…'; emptyEl.style.display='none';
-  fetch(TRADE_CDN+encodeURIComponent(code)+'.json').then(function(r){return r.ok?r.json():null;}).then(function(sd){
-    var b=(sd&&sd.b)||[];
-    if(chart){ chart.destroy(); chart=null; }
-    if(!b.length){ liveChart(a); return; }
-    emptyEl.style.display='none';
-    var pts=b.map(function(r){ var y=Math.floor(r[0]/100), mo=r[0]%100; return {x:y+(mo-1)/12, y:(r[2]||0)/10000}; }).sort(function(p,q){return p.x-q.x;});
-    meta.textContent='거래 '+b.length+'건 · 갱신 '+(sd.u||'?');
-    chart=new Chart(document.getElementById('chart'),{type:'scatter',data:{datasets:[{data:pts,backgroundColor:'#3b82f6',pointRadius:3}]},options:{responsive:true,maintainAspectRatio:false,scales:{x:{ticks:{stepSize:1,callback:function(v){return Math.round(v);}},title:{display:true,text:'연도'}},y:{title:{display:true,text:'억원'}}},plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){return c.parsed.y.toFixed(2)+'억';}}}}}});
-  }).catch(function(){ document.getElementById('chartMeta').textContent='실거래 불러오기 실패'; });
+  if(chart){ chart.destroy(); chart=null; }
+  var nm={buy:'매매',jeonse:'전세',monthly:'월세'}[chartMode];
+  if(!rows.length){ emptyEl.textContent=nm+' 거래 없음'; emptyEl.style.display='block'; meta.textContent=nm+' 0건'+(tradeSrc?(' · '+tradeSrc):''); return; }
+  emptyEl.style.display='none';
+  var isM=(chartMode==='monthly');
+  var clr=isM?'#10b981':(chartMode==='jeonse'?'#f59e0b':'#3b82f6');
+  var pts=rows.map(function(r){ return {x:ymToX(r.ym), y:r.y, dep:r.dep}; }).sort(function(p,q){return p.x-q.x;});
+  meta.textContent=nm+' '+rows.length+'건'+(tradeSrc?(' · '+tradeSrc):'');
+  chart=new Chart(document.getElementById('chart'),{type:'scatter',data:{datasets:[{data:pts,backgroundColor:clr,pointRadius:3}]},options:{responsive:true,maintainAspectRatio:false,scales:{x:{ticks:{stepSize:1,callback:function(v){return Math.round(v);}},title:{display:true,text:'연도'}},y:{title:{display:true,text:isM?'월세(만원)':'억원'}}},plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){var d=c.raw; return isM?('월세 '+d.y+'만 / 보증금 '+(d.dep||0)+'만'):(d.y.toFixed(2)+'억');}}}}}});
 }
 
-// 사전적재(CDN)가 비면 라이브 /api/trade(최근 24개월)로 보충
+// 1) 사전적재(CDN, 빠름·전체기간) → 비면 2) 라이브 /api/trade(최근 24개월)
+function loadChart(a){
+  tradeData={buy:[],jeonse:[],monthly:[]}; tradeSrc='';
+  document.getElementById('chartMeta').textContent='불러오는 중…'; document.getElementById('chartEmpty').style.display='none';
+  fetch(TRADE_CDN+encodeURIComponent(a.code)+'.json').then(function(r){return r.ok?r.json():null;}).then(function(sd){
+    if(sd && ((sd.b&&sd.b.length)||(sd.j&&sd.j.length)||(sd.m&&sd.m.length))){
+      tradeData.buy=(sd.b||[]).map(function(r){return {ym:r[0],y:(r[2]||0)/10000};});
+      tradeData.jeonse=(sd.j||[]).map(function(r){return {ym:r[0],y:(r[2]||0)/10000};});
+      tradeData.monthly=(sd.m||[]).map(function(r){return {ym:r[0],y:(r[3]||0),dep:(r[2]||0)};});
+      tradeSrc='사전적재'; renderMode(); return;
+    }
+    liveChart(a);
+  }).catch(function(){ liveChart(a); });
+}
+
 function liveChart(a){
-  var meta=document.getElementById('chartMeta'), emptyEl=document.getElementById('chartEmpty');
   var lawd=(a.bjdCode||'').slice(0,5);
   var now=new Date(), yms=[]; for(var i=0;i<24;i++){ var d=new Date(now.getFullYear(),now.getMonth()-i,1); yms.push(''+d.getFullYear()+('0'+(d.getMonth()+1)).slice(-2)); }
   var p='?code='+encodeURIComponent(a.code)+'&yms='+yms.join(',')+'&lawdCd='+lawd+'&aptName='+encodeURIComponent(a.name);
-  meta.textContent='라이브 조회 중…';
+  document.getElementById('chartMeta').textContent='라이브 조회 중…';
   fetch('/api/trade'+p).then(function(r){return r.ok?r.json():null;}).then(function(j){
-    var buy=(j&&j.buy)||[];
-    if(chart){ chart.destroy(); chart=null; }
-    if(!buy.length){ meta.textContent='거래 없음'; emptyEl.textContent='매매 실거래 없음'; emptyEl.style.display='block'; return; }
-    emptyEl.style.display='none';
-    var pts=buy.map(function(x){ var ym=parseInt(x.t.replace('-','')), y=Math.floor(ym/100), mo=ym%100; return {x:y+(mo-1)/12, y:(x.p||0)/10000}; }).sort(function(u,v){return u.x-v.x;});
-    meta.textContent='라이브 최근24개월 '+buy.length+'건';
-    chart=new Chart(document.getElementById('chart'),{type:'scatter',data:{datasets:[{data:pts,backgroundColor:'#3b82f6',pointRadius:3}]},options:{responsive:true,maintainAspectRatio:false,scales:{x:{ticks:{stepSize:1,callback:function(v){return Math.round(v);}},title:{display:true,text:'연도'}},y:{title:{display:true,text:'억원'}}},plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){return c.parsed.y.toFixed(2)+'억';}}}}}});
+    j=j||{};
+    tradeData.buy=(j.buy||[]).map(function(x){return {ym:parseInt(x.t.replace('-','')),y:(x.p||0)/10000};});
+    tradeData.jeonse=(j.jeonse||[]).map(function(x){return {ym:parseInt(x.t.replace('-','')),y:(x.p||0)/10000};});
+    tradeData.monthly=(j.monthly||[]).map(function(x){return {ym:parseInt(x.t.replace('-','')),y:(x.m||0),dep:(x.d||0)};});
+    tradeSrc='라이브24개월'; renderMode();
   }).catch(function(){ document.getElementById('chartMeta').textContent='실거래 불러오기 실패'; });
 }
 
