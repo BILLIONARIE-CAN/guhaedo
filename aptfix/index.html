@@ -69,6 +69,33 @@
   .errbox .errt{font-size:26px;font-weight:800;margin-bottom:12px}
   .errbox .msg{font-size:14px;line-height:1.55;word-break:break-all;background:rgba(0,0,0,.2);padding:13px;border-radius:9px;text-align:left;white-space:pre-wrap}
   .errbox .errx{margin-top:14px;font-size:13px;opacity:.9}
+  /* ===== 다크 모드 (눈부심 방지) ===== */
+  body{background:#0b1220;color:#e5e7eb}
+  .side{background:#0f172a;border-right-color:#1e293b}
+  .side .top{border-bottom-color:#1e293b}
+  .side select,.side input,.maprow button,.form input{background:#0f172a;color:#e5e7eb;border-color:#334155}
+  .filters button{background:#0f172a;color:#cbd5e1;border-color:#334155}
+  .filters button.on{background:#3b82f6;color:#fff;border-color:#3b82f6}
+  .list{background:#0f172a}
+  .item{border-bottom-color:#1e293b}
+  .item:hover{background:#172033}
+  .item.sel{background:#1e293b;border-left-color:#3b82f6}
+  .item .nm{color:#e5e7eb}
+  .b-todo{background:#1e293b;color:#94a3b8}
+  .hdr .nm{color:#f8fafc}
+  .hdr .stat,.addr,.right .meta{color:#94a3b8}
+  .form{background:#1e293b;border-color:#334155}
+  .form label{color:#94a3b8}
+  .form input#f_name{border-color:#3b82f6}
+  .addbtn{background:#172033;border-color:#3b82f6;color:#93c5fd}
+  .problem{background:#2a1d10;border-color:#b45309}
+  .problem .lbl{color:#fdba74}
+  .problem textarea{background:#0f172a;color:#e5e7eb;border-color:#b45309}
+  .acts .skip{background:#334155;color:#e5e7eb}
+  .right{background:#0f172a;border-left-color:#1e293b}
+  .cwrap{background:#0b1220;border-color:#1e293b}
+  .cempty{color:#475569}
+  #map{border-color:#1e293b}
 </style>
 </head>
 <body>
@@ -160,6 +187,7 @@ var CCFG={buy:{cv:'c_buy',ev:'e_buy',clr:'#3b82f6',isM:false},jeonse:{cv:'c_jeon
 
 var apts=[], fixMap={}, idx=-1, filter='todo', currentRegion='44200', map=null, marker=null, curLat=0, curLng=0;
 var tradeData={buy:[],jeonse:[],monthly:[]}, charts={buy:null,jeonse:null,monthly:null}, tradeSrc='';
+if(window.Chart){Chart.defaults.color='#94a3b8';Chart.defaults.borderColor='rgba(148,163,184,.15)';}
 
 function checkPw(){ if(document.getElementById('pw').value==='9999'){ document.getElementById('gate').style.display='none'; document.getElementById('app').style.display='block'; init(); } else { alert('비밀번호가 틀렸습니다'); } }
 document.getElementById('pw').addEventListener('keydown',function(e){ if(e.key==='Enter')checkPw(); });
