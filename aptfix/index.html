@@ -264,7 +264,7 @@ function selectApt(i){
   document.getElementById('f_name').value=(f.name!=null&&f.name!=='')?f.name:(a.name||'');
   FIELDS.forEach(function(k){
     var el=document.getElementById('f_'+k);
-    var v=(f[k]!==undefined&&f[k]!==null&&f[k]!=='')?f[k]:(a[APT_KEY[k]]!==undefined&&a[APT_KEY[k]]!==null?a[APT_KEY[k]]:'');
+    var v=(f[k]!==undefined&&f[k]!==null&&f[k]!==''&&f[k]!=='-')?f[k]:(a[APT_KEY[k]]!==undefined&&a[APT_KEY[k]]!==null?a[APT_KEY[k]]:''); // 저장값이 '-'면 원본으로 폴백
     el.value=(v==='-')?'':v;
   });
   document.getElementById('f_problem').checked=!!f.problem;
