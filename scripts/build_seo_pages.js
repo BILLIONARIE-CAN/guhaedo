@@ -54,7 +54,7 @@ function loadApts() {
 
 function page(a) {
   const tel = fmtTel((TEL[a.code] && TEL[a.code].tel) || '');
-  const region = [a.sido, a.sigungu, a.emd].filter(Boolean).join(' &rsaquo; ');
+  const region = [a.sido, a.sigungu, a.emd].filter(Boolean).join(' › ');
   const builtY = a.built ? String(a.built).slice(0, 4) : '';
   const title = a.name + ' 관리사무소 전화번호·실거래가·단지정보 | 아구구';
   const desc = [a.sido, a.sigungu, a.emd, a.name].filter(Boolean).join(' ')
@@ -107,7 +107,7 @@ function page(a) {
 + 'footer{padding:18px 16px 40px;font-size:11px;color:#aaa;text-align:center}'
 + '</style></head><body><div class="wrap">'
 + '<header><div class="logo">a99 <span>아구구</span></div><div style="font-size:13px;color:#16a34a;font-weight:700">🗺️ 지도</div></header>'
-+ '<div class="bc">' + esc(region) + ' &rsaquo; <b style="color:#555">' + esc(a.name) + '</b></div>'
++ '<div class="bc">' + esc(region) + ' › <b style="color:#555">' + esc(a.name) + '</b></div>'
 + '<div class="hero">'
 + '<span class="badge">아파트 단지정보</span>'
 + '<h1>' + esc(a.name) + '</h1>'
