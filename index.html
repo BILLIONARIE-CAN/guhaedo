@@ -4108,6 +4108,35 @@ function loadTradeChart(code, aptJibun, builtYear){
   })();
 }
 
+// ===== SEO 단지페이지 → 지도 딥링크 (?apt=코드) =====
+// a99.co.kr/?apt=A10021295 로 진입하면 해당 단지로 이동 + 상세창 자동 오픈
+async function handleAptDeeplink(){
+  var code=new URLSearchParams(location.search).get('apt');
+  if(!code) return;
+  var wait=function(ms){return new Promise(function(r){setTimeout(r,ms);});};
+  // 전국 단지데이터(allAptData) 로드 대기 (최대 8초)
+  for(var i=0;i<80&&(!allAptData||!allAptData.length);i++){ await wait(100); }
+  var a=(allAptData||[]).find(function(x){return x.code===code;});
+  if(!a||!a.lat||!a.lng) return;
+  // 지도 준비 대기 (최대 8초)
+  for(var j=0;j<80&&!map;j++){ await wait(100); }
+  if(!map) return;
+  // 해당 단지로 지도 이동
+  try{ map.setLevel(4); map.setCenter(new kakao.maps.LatLng(a.lat,a.lng)); }catch(e){}
+  // 해당 시군구 단지 마커 로드
+  if(a.sigunguCode){ try{ await loadAptData(a.sigunguCode); }catch(e){} }
+  // 상세창 열기 — MAP_DATA에 있으면 그 객체(정확한 형식), 없으면 전국데이터로 구성
+  var d=MAP_DATA.find(function(x){return x.code===code&&(x.type==='apt'||x.type==='officetel');});
+  if(!d){
+    d={id:'dl_'+code,type:'apt',name:a.name,code:a.code,addr:a.addr||'',jibunAddr:a.jibunAddr||'',
+       lat:a.lat,lng:a.lng,sido:a.sido||'',sigungu:a.sigungu||'',emd:a.emd||'',
+       units:(a.units?a.units+'세대':''),built:a.built||'',dongCnt:a.dongCnt||'',heat:a.heat||'',
+       topFloor:a.topFloor||'',entrance:a.entrance||'',saleType:a.sale||'',builder:a.builder||'',
+       totalPark:a.totalPark||0,areaBreak:a.areaBreak||null,aptType:a.aptType||'',bjdCode:a.bjdCode||''};
+  }
+  try{ openAptDetail(d); }catch(e){}
+}
+
 // ===== 초기화 =====
 window.onload=function(){
   handleKakaoCallback();
@@ -4115,6 +4144,7 @@ window.onload=function(){
   setTimeout(()=>commUpdate(),50);
   setTimeout(()=>initMap(),500);
   setTimeout(loadPresaleData,1800); // 분양 단지 핀 (지도 초기화 후)
+  handleAptDeeplink(); // SEO 단지페이지에서 ?apt=코드로 진입 시 해당 단지 자동 오픈
   // 듀얼 슬라이더 초기화
   var now2=new Date();
   var fe=ge('trade-year-from'),te=ge('trade-year-to');

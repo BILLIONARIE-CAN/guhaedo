@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>아구구 통합 관리자</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:-apple-system,'Malgun Gothic',sans-serif;background:#f4f6f9;color:#1a1a1a}
+  /* 로그인 */
+  #login{position:fixed;inset:0;background:#0f172a;display:flex;align-items:center;justify-content:center;z-index:100}
+  .lbox{background:#fff;padding:32px;border-radius:16px;width:320px;text-align:center;box-shadow:0 10px 40px rgba(0,0,0,.3)}
+  .lbox h1{font-size:20px;color:#16a34a;margin-bottom:4px}.lbox p{font-size:12px;color:#888;margin-bottom:18px}
+  .lbox input{width:100%;padding:12px;border:1px solid #ddd;border-radius:8px;font-size:15px;margin-bottom:10px}
+  .lbox button{width:100%;padding:12px;background:#16a34a;color:#fff;border:none;border-radius:8px;font-weight:700;font-size:15px;cursor:pointer}
+  .lerr{color:#dc2626;font-size:12px;margin-top:8px;display:none}
+  /* 앱 */
+  #app{display:none}
+  header{background:#0f172a;color:#fff;padding:14px 20px;display:flex;align-items:center;justify-content:space-between}
+  header .logo{font-weight:800;font-size:18px}header .logo b{color:#4ade80}
+  header .out{font-size:12px;color:#cbd5e1;cursor:pointer;background:none;border:1px solid #334155;padding:6px 12px;border-radius:6px}
+  nav{background:#fff;border-bottom:1px solid #e5e7eb;display:flex;gap:2px;padding:0 12px;overflow-x:auto}
+  nav button{background:none;border:none;padding:14px 16px;font-size:14px;font-weight:600;color:#64748b;cursor:pointer;border-bottom:3px solid transparent;white-space:nowrap}
+  nav button.on{color:#16a34a;border-bottom-color:#16a34a}
+  main{max-width:900px;margin:0 auto;padding:24px 20px}
+  .tab{display:none}.tab.on{display:block}
+  .card{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:20px;margin-bottom:16px}
+  .card h2{font-size:16px;margin-bottom:12px}
+  .todo{background:#fffbeb;border:1px dashed #fbbf24;color:#92400e;border-radius:10px;padding:14px;font-size:13px;line-height:1.6}
+  .todo a{color:#16a34a;font-weight:700}
+  label{display:block;font-size:13px;font-weight:600;margin:12px 0 4px}
+  input[type=text],input[type=tel],input[type=email],select{width:100%;padding:10px;border:1px solid #ddd;border-radius:8px;font-size:14px}
+  .agree{border:1px solid #e5e7eb;border-radius:10px;padding:14px;margin-top:14px;background:#fafafa}
+  .agree .row{display:flex;align-items:flex-start;gap:8px;padding:8px 0;font-size:13px}
+  .agree .row input{margin-top:2px}
+  .agree .req{color:#dc2626;font-weight:700}.agree .opt{color:#888}
+  .agree .doc{font-size:11px;color:#888;background:#fff;border:1px solid #eee;border-radius:6px;padding:8px;max-height:70px;overflow:auto;margin-top:4px}
+  .btn{margin-top:16px;width:100%;padding:13px;background:#16a34a;color:#fff;border:none;border-radius:8px;font-weight:700;font-size:15px;cursor:pointer}
+</style>
+</head>
+<body>
+
+<!-- 로그인 -->
+<div id="login">
+  <div class="lbox">
+    <h1>아구구 통합 관리자</h1>
+    <p>관리자 전용입니다</p>
+    <input type="password" id="pw" placeholder="비밀번호" onkeydown="if(event.key==='Enter')doLogin()">
+    <button onclick="doLogin()">로그인</button>
+    <div class="lerr" id="lerr">비밀번호가 올바르지 않습니다.</div>
+  </div>
+</div>
+
+<!-- 앱 -->
+<div id="app">
+  <header>
+    <div class="logo">a99 <b>아구구</b> 관리자</div>
+    <button class="out" onclick="logout()">로그아웃</button>
+  </header>
+  <nav>
+    <button class="on" onclick="showTab(0,this)">중개사·업체·배너</button>
+    <button onclick="showTab(1,this)">실거래·건축물 진단</button>
+    <button onclick="showTab(2,this)">핀 위치 수정</button>
+    <button onclick="showTab(3,this)">회원·중개사 관리</button>
+    <button onclick="showTab(4,this)">설정</button>
+  </nav>
+  <main>
+    <!-- 0: 중개사/업체/배너 -->
+    <div class="tab on">
+      <div class="card"><h2>중개사·업체·지역배너 관리</h2>
+        <div class="todo">기존 <b>어드민</b> 기능(중개사·업체·배너 등록)을 이 탭으로 이관 예정입니다.<br>지금은 기존 페이지에서 관리: <a href="/admin-vkz">기존 어드민 열기 </a></div>
+      </div>
+    </div>
+    <!-- 1: 진단 -->
+    <div class="tab">
+      <div class="card"><h2>실거래·건축물대장 진단</h2>
+        <div class="todo">기존 <b>마스터</b> 기능(실거래 진단·건축물대장·수동진단)을 이관 예정입니다.<br>지금은: <a href="/master-vkz">기존 마스터 열기 </a></div>
+      </div>
+    </div>
+    <!-- 2: 핀수정 -->
+    <div class="tab">
+      <div class="card"><h2>단지 핀 위치 수정</h2>
+        <div class="todo">기존 <b>핀 수정 도구</b>를 이관 예정입니다.<br>지금은: <a href="/aptfix-vkz">기존 핀수정 열기 </a></div>
+      </div>
+    </div>
+    <!-- 3: 회원·중개사 관리 (개인정보 동의 포함) -->
+    <div class="tab">
+      <div class="card">
+        <h2>중개사 가입 (개인정보 동의 포함)</h2>
+        <p style="font-size:13px;color:#666;margin-bottom:8px">중개사·회원 정보를 받을 땐 아래처럼 <b>개인정보 수집·이용 동의</b>를 반드시 받아야 합니다(법적 필수).</p>
+        <label>성함 *</label><input type="text" id="s-name" placeholder="홍길동">
+        <label>연락처 *</label><input type="tel" id="s-phone" placeholder="010-0000-0000">
+        <label>이메일 *</label><input type="email" id="s-email" placeholder="name@example.com">
+        <label>사무소명</label><input type="text" id="s-office" placeholder="○○공인중개사사무소">
+
+        <div class="agree">
+          <div class="row">
+            <input type="checkbox" id="ag-all" onclick="toggleAll(this)">
+            <label for="ag-all" style="margin:0;font-weight:700">전체 동의</label>
+          </div>
+          <hr style="border:none;border-top:1px solid #eee;margin:6px 0">
+          <div class="row">
+            <input type="checkbox" class="ag" id="ag1">
+            <div><label for="ag1" style="margin:0"><span class="req">[필수]</span> 개인정보 수집·이용 동의</label>
+              <div class="doc">수집 항목: 성함, 연락처, 이메일, 사무소명 · 수집 목적: 중개사 회원 관리 및 서비스 제공 · 보유 기간: 회원 탈퇴 시까지. 동의를 거부할 수 있으나, 거부 시 가입이 제한됩니다.</div></div>
+          </div>
+          <div class="row">
+            <input type="checkbox" class="ag" id="ag2">
+            <div><label for="ag2" style="margin:0"><span class="opt">[선택]</span> 마케팅 정보 수신 동의</label>
+              <div class="doc">서비스 소식·혜택 안내를 문자·이메일로 받습니다. 미동의해도 가입에 문제없습니다.</div></div>
+          </div>
+        </div>
+        <button class="btn" onclick="submitSignup()">중개사 등록</button>
+      </div>
+    </div>
+    <!-- 4: 설정 -->
+    <div class="tab">
+      <div class="card"><h2>설정</h2>
+        <div class="todo">비밀번호 변경, 관리자 계정 등 설정을 여기 모을 예정입니다.</div>
+      </div>
+    </div>
+  </main>
+</div>
+
+<script>
+const ADMIN_PW = 'agugu9427';
+function doLogin(){
+  if(document.getElementById('pw').value === ADMIN_PW){
+    sessionStorage.setItem('hub_auth','1');
+    document.getElementById('login').style.display='none';
+    document.getElementById('app').style.display='block';
+  } else { document.getElementById('lerr').style.display='block'; }
+}
+function logout(){ sessionStorage.removeItem('hub_auth'); location.reload(); }
+if(sessionStorage.getItem('hub_auth')==='1'){ document.getElementById('login').style.display='none'; document.getElementById('app').style.display='block'; }
+function showTab(i,btn){
+  document.querySelectorAll('nav button').forEach(b=>b.classList.remove('on'));
+  document.querySelectorAll('.tab').forEach(t=>t.classList.remove('on'));
+  btn.classList.add('on');
+  document.querySelectorAll('.tab')[i].classList.add('on');
+}
+function toggleAll(el){ document.querySelectorAll('.ag').forEach(c=>c.checked=el.checked); }
+function submitSignup(){
+  const name=document.getElementById('s-name').value.trim();
+  const phone=document.getElementById('s-phone').value.trim();
+  const email=document.getElementById('s-email').value.trim();
+  if(!name||!phone||!email){ alert('성함·연락처·이메일은 필수입니다.'); return; }
+  if(!document.getElementById('ag1').checked){ alert('[필수] 개인정보 수집·이용 동의가 필요합니다.'); return; }
+  // TODO: Supabase brokers 테이블에 저장 연결
+  alert('등록 폼 동작 확인 완료.\n(다음 단계에서 Supabase 저장 연결 예정)');
+}
+</script>
+</body>
+</html>
