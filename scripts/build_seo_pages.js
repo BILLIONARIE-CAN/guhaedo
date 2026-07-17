@@ -122,7 +122,7 @@ function page(a) {
 + '<div class="info-row"><span class="k">단지분류</span><span class="v">' + esc(a.aptType || '아파트') + '</span></div>'
 + '<div class="info-row"><span class="k">현관구조</span><span class="v">' + esc(a.entrance || '-') + '</span></div>'
 + '</section>'
-+ '<div class="ad adB">자동광고 자리 (애드핏 / 애드센스)</div>'
++ '<div style="text-align:center;padding:14px 16px 4px"><ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-VVNFKrpvthFpw6PS" data-ad-width="300" data-ad-height="250"></ins></div><script type="text/javascript" src="//t1.kakaocdn.net/kas/static/ba.min.js" async></script>'
 + '<div class="hero"><a class="cta" href="' + MAP + '/?apt=' + a.code + '">🗺️ 지도에서 자세히 보기<small>실거래가 · 주변 단지 비교 · 협력 중개사에게 집내놓기</small></a></div>'
 + '<footer>공공데이터 기반 참고용 정보이며 실제와 차이가 있을 수 있습니다.<br>아구구 a99 © 2026</footer>'
 + '</div></body></html>';
