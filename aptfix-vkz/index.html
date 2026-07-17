@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
+<head><meta name="robots" content="noindex">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="noindex,nofollow">
@@ -190,7 +190,7 @@ var apts=[], fixMap={}, idx=-1, filter='todo', currentRegion='44200', map=null, 
 var tradeData={buy:[],jeonse:[],monthly:[]}, charts={buy:null,jeonse:null,monthly:null}, tradeSrc='';
 if(window.Chart){Chart.defaults.color='#94a3b8';Chart.defaults.borderColor='rgba(148,163,184,.15)';}
 
-function checkPw(){ if(document.getElementById('pw').value==='9999'){ document.getElementById('gate').style.display='none'; document.getElementById('app').style.display='block'; init(); } else { alert('비밀번호가 틀렸습니다'); } }
+function checkPw(){ if(document.getElementById('pw').value==='agugu9427'){ document.getElementById('gate').style.display='none'; document.getElementById('app').style.display='block'; init(); } else { alert('비밀번호가 틀렸습니다'); } }
 document.getElementById('pw').addEventListener('keydown',function(e){ if(e.key==='Enter')checkPw(); });
 document.getElementById('form').addEventListener('input',function(e){ if(e.target&&e.target.id&&e.target.id.indexOf('f_')===0) e.target.classList.toggle('empty', !e.target.value.trim()); });
 
