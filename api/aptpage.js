@@ -105,7 +105,7 @@ function page(a) {
 + '.sug.on{display:block}.sug-item{padding:11px 14px;border-bottom:1px solid #f3f4f6;cursor:pointer}.sug-item:hover{background:#f0fdf4}'
 + '.sug-item b{font-size:14px;font-weight:700}.sug-item span{display:block;font-size:11px;color:#999;margin-top:2px}.sug-none{padding:12px 14px;color:#999;font-size:13px}'
 + '</style></head><body><div class="wrap">'
-+ '<header><div class="logo">a99 <span>아구구</span></div><div style="font-size:13px;color:#16a34a;font-weight:700">🗺️ 지도</div></header>'
++ '<header><div class="logo">a99 <span>아구구</span></div></header>'
 + '<div class="sbar"><div class="srow"><select id="sido-sel">' + sidoOpts + '</select><select id="sgg-sel">' + sggOpts + '</select></div><div class="srow"><input id="apt-q" type="text" placeholder="아파트 이름·초성 검색" autocomplete="off"><button id="apt-go" type="button">검색</button></div><div id="sug" class="sug"></div></div>'
 + '<div class="bc">' + esc(region) + ' › <b style="color:#555">' + esc(a.name) + '</b></div>'
 + '<div class="hero">'
