@@ -40,10 +40,13 @@ module.exports = (req, res) => {
   res.setHeader('Cache-Control', 'public, max-age=300, s-maxage=3600');
 
   const sido = ((req.query && req.query.sido) || '').trim();
+  const sgg = ((req.query && req.query.sgg) || '').trim();
   const q = ((req.query && req.query.q) || '').trim();
   if (!q) { res.end('[]'); return; }
 
-  const pool = sido ? IDX.filter(a => a.sido === sido) : IDX;
+  let pool = IDX;
+  if (sido) pool = pool.filter(a => a.sido === sido);
+  if (sgg) pool = pool.filter(a => a.sigungu === sgg);
   const nq = q.replace(/\s/g, '');
   const choMode = isChosungQuery(nq);
 
@@ -66,7 +69,7 @@ module.exports = (req, res) => {
   }
   scored.sort((x, y) => (x.score - y.score) || (x.a.name.length - y.a.name.length));
 
-  res.end(JSON.stringify(scored.slice(0, 15).map(s => ({
+  res.end(JSON.stringify(scored.slice(0, 25).map(s => ({
     code: s.a.code, name: s.a.name, sido: s.a.sido, sigungu: s.a.sigungu, emd: s.a.emd
   }))));
 };
