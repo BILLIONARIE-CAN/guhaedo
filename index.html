@@ -1911,15 +1911,11 @@ function selectItem(id){
     const mk=markers.find(x=>x.id===id);
     if(mk){try{const el=mk.marker.getContent();if(el&&el.classList)el.classList.add('pin-bounce');}catch(e){}}
   },350);
-  // URL 업데이트 (새로고침해도 해당 단지 유지)
-  if(d.type!=='broker') history.pushState({apt:id},'','?apt='+id);
+  // URL 교체 (히스토리 스택 안 쌓음 → 뒤로가기로 다른 페이지 이탈 방지)
+  if(d.type!=='broker') history.replaceState({apt:id},'','?apt='+id);
   if(d.type==='broker') openBrokerSidebar(d);
   else openAptDetail(d);
 }
-// 브라우저 뒤로가기 처리
-window.addEventListener('popstate',function(e){
-  if(e.state&&e.state.apt) selectItem(e.state.apt);
-});
 
 function openAptSidebar(d){
   const all=['apt-sidebar','broker-sidebar','sale-sidebar','apt-detail-panel'];
