@@ -2081,6 +2081,9 @@ function openAptDetail(d){
 
   panel.classList.add('open');
 
+  // F5 새로고침 시 현재 단지 유지: URL만 교체(히스토리 안 쌓음 → 뒤로가기 정상)
+  if(d&&d.code){try{history.replaceState(null,'','/?apt='+d.code);}catch(e){}}
+
   // 용적률/건폐율/준공/난방 API로 채우기
   if(d.code){
     fetch('/api/apt?type=detail&code='+d.code+'&bjd='+(d.bjdCode||'')+'&jibun='+encodeURIComponent(d.jibunAddr||d.addr||''))
@@ -2125,6 +2128,8 @@ function openAptDetail(d){
 
 function closeAptDetail(){
   ge('apt-detail-panel').classList.remove('open');
+  // 상세창 닫으면 URL 비움 → 닫은 상태로 F5하면 깨끗한 지도
+  try{history.replaceState(null,'','/');}catch(e){}
 }
 
 // ===== 지역 탐색 사이드바 =====
