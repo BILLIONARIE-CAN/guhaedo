@@ -92,7 +92,7 @@
         <label>성함 *</label><input type="text" id="s-name" placeholder="홍길동">
         <label>연락처 *</label><input type="tel" id="s-phone" placeholder="010-0000-0000">
         <label>이메일 *</label><input type="email" id="s-email" placeholder="name@example.com">
-        <label>사무소명</label><input type="text" id="s-office" placeholder="○○공인중개사사무소">
+        <label>사무소명 *</label><input type="text" id="s-office" placeholder="○○공인중개사사무소">
 
         <div class="agree">
           <div class="row">
@@ -102,7 +102,7 @@
           <hr style="border:none;border-top:1px solid #eee;margin:6px 0">
           <div class="row">
             <input type="checkbox" class="ag" id="ag1">
-            <div><label for="ag1" style="margin:0"><span class="req">[필수]</span> 개인정보 수집·이용 동의</label>
+            <div><label for="ag1" style="margin:0"><span class="req">[필수]</span> 개인정보 수집·이용 동의</label> <a href="/privacy" target="_blank" style="font-size:11px;color:#16a34a">전문 보기</a>
               <div class="doc">수집 항목: 성함, 연락처, 이메일, 사무소명 · 수집 목적: 중개사 회원 관리 및 서비스 제공 · 보유 기간: 회원 탈퇴 시까지. 동의를 거부할 수 있으나, 거부 시 가입이 제한됩니다.</div></div>
           </div>
           <div class="row">
@@ -145,7 +145,8 @@ function submitSignup(){
   const name=document.getElementById('s-name').value.trim();
   const phone=document.getElementById('s-phone').value.trim();
   const email=document.getElementById('s-email').value.trim();
-  if(!name||!phone||!email){ alert('성함·연락처·이메일은 필수입니다.'); return; }
+  const office=document.getElementById('s-office').value.trim();
+  if(!name||!phone||!email||!office){ alert('성함·연락처·이메일·사무소명은 필수입니다.'); return; }
   if(!document.getElementById('ag1').checked){ alert('[필수] 개인정보 수집·이용 동의가 필요합니다.'); return; }
   // TODO: Supabase brokers 테이블에 저장 연결
   alert('등록 폼 동작 확인 완료.\n(다음 단계에서 Supabase 저장 연결 예정)');

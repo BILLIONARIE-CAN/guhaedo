@@ -14,7 +14,8 @@ for (const a of APTS) if (a && a.code) BY_CODE.set(a.code, a);
 
 const BASE = 'https://a99.co.kr';
 const MAP = 'https://a99.co.kr';
-const AD_UNIT = 'DAN-VVNFKrpvthFpw6PS'; // 애드핏 광고단위(300x250)
+const AD_UNIT = 'DAN-VVNFKrpvthFpw6PS'; // 애드핏 광고단위(300x250, 하단)
+const AD_UNIT_SIDE = 'DAN-6hzBUhx1qcJKOIsS'; // 애드핏 광고단위(160x600, PC 우측 사이드)
 
 const esc = s => String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
@@ -81,6 +82,7 @@ function page(a) {
 + '.ad{margin:0 16px 14px;border-radius:12px;padding:12px;text-align:center;font-size:11px}'
 + '.adA{background:linear-gradient(90deg,#fff7ed,#ffedd5);border:1.5px dashed #fdba74;color:#c2410c}'
 + 'footer{padding:18px 16px 40px;font-size:11px;color:#aaa;text-align:center}'
++ '.side-ad{display:none}@media(min-width:1000px){.side-ad{display:block;position:fixed;top:50%;right:16px;transform:translateY(-50%);z-index:50}}'
 + '</style></head><body><div class="wrap">'
 + '<header><div class="logo">a99 <span>아구구</span></div><div style="font-size:13px;color:#16a34a;font-weight:700">🗺️ 지도</div></header>'
 + '<div class="bc">' + esc(region) + ' › <b style="color:#555">' + esc(a.name) + '</b></div>'
@@ -98,9 +100,10 @@ function page(a) {
 + '<div class="info-row"><span class="k">단지분류</span><span class="v">' + esc(a.aptType || '아파트') + '</span></div>'
 + '<div class="info-row"><span class="k">현관구조</span><span class="v">' + esc(a.entrance || '-') + '</span></div>'
 + '</section>'
++ '<div class="side-ad"><ins class="kakao_ad_area" style="display:none;" data-ad-unit="' + AD_UNIT_SIDE + '" data-ad-width="160" data-ad-height="600"></ins></div>'
 + '<div style="text-align:center;padding:14px 16px 4px"><ins class="kakao_ad_area" style="display:none;" data-ad-unit="' + AD_UNIT + '" data-ad-width="300" data-ad-height="250"></ins></div><script type="text/javascript" src="//t1.kakaocdn.net/kas/static/ba.min.js" async></script>'
 + '<div class="hero"><a class="cta" href="' + MAP + '/?apt=' + a.code + '">🗺️ 지도에서 자세히 보기<small>실거래가 · 주변 단지 비교 · 협력 중개사에게 집내놓기</small></a></div>'
-+ '<footer>공공데이터 기반 참고용 정보이며 실제와 차이가 있을 수 있습니다.<br>아구구 a99 © 2026</footer>'
++ '<footer>공공데이터 기반 참고용 정보이며 실제와 차이가 있을 수 있습니다.<br><a href="/privacy" style="color:#16a34a;text-decoration:none">개인정보처리방침</a> · <a href="/terms" style="color:#16a34a;text-decoration:none">이용약관</a><br>아구구 a99 © 2026</footer>'
 + '</div></body></html>';
 }
 
