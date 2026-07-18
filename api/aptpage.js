@@ -16,6 +16,7 @@ const BASE = 'https://a99.co.kr';
 const MAP = 'https://a99.co.kr';
 const AD_UNIT = 'DAN-VVNFKrpvthFpw6PS'; // 애드핏 광고단위(300x250, 하단)
 const AD_UNIT_SIDE = 'DAN-6hzBUhx1qcJKOIsS'; // 애드핏 광고단위(160x600, PC 우측 사이드)
+const SIDO_LIST = ['서울특별시','부산광역시','대구광역시','인천광역시','광주광역시','대전광역시','울산광역시','세종특별자치시','경기도','강원특별자치도','충청북도','충청남도','전북특별자치도','전라남도','경상북도','경상남도','제주특별자치도'];
 
 const esc = s => String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
@@ -56,6 +57,8 @@ function page(a) {
     ['관리방식', a.mgrType || '-'],
   ].map(x => '<div class="cell"><div class="k">' + esc(x[0]) + '</div><div class="v">' + esc(x[1]) + '</div></div>').join('');
 
+  const sidoOpts = '<option value="">전국</option>' + SIDO_LIST.map(s => '<option' + (s === a.sido ? ' selected' : '') + '>' + s + '</option>').join('');
+
   return '<!DOCTYPE html><html lang="ko"><head>'
 + '<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">'
 + '<title>' + esc(title) + '</title>'
@@ -84,8 +87,16 @@ function page(a) {
 + '.adA{background:linear-gradient(90deg,#fff7ed,#ffedd5);border:1.5px dashed #fdba74;color:#c2410c}'
 + 'footer{padding:18px 16px 40px;font-size:11px;color:#aaa;text-align:center}'
 + '.side-ad{display:none}@media(min-width:1040px){.side-ad{display:block;position:fixed;top:50%;left:calc(50% + 340px);transform:translateY(-50%);z-index:50}}'
++ '.sbar{position:relative;display:flex;gap:6px;padding:12px 16px;background:#fff;border-bottom:1px solid #eee}'
++ '.sbar select{flex:0 0 82px;padding:10px 4px;border:1px solid #ddd;border-radius:8px;font-size:13px;background:#fff}'
++ '.sbar input{flex:1;min-width:0;padding:10px 12px;border:1px solid #ddd;border-radius:8px;font-size:14px}'
++ '.sbar button{flex:0 0 auto;padding:10px 15px;background:#16a34a;color:#fff;border:none;border-radius:8px;font-weight:700;font-size:14px;cursor:pointer}'
++ '.sug{position:absolute;top:100%;left:16px;right:16px;background:#fff;border:1px solid #e5e7eb;border-top:none;border-radius:0 0 10px 10px;box-shadow:0 8px 24px rgba(0,0,0,.12);z-index:60;max-height:320px;overflow:auto;display:none}'
++ '.sug.on{display:block}.sug-item{padding:11px 14px;border-bottom:1px solid #f3f4f6;cursor:pointer}.sug-item:hover{background:#f0fdf4}'
++ '.sug-item b{font-size:14px;font-weight:700}.sug-item span{display:block;font-size:11px;color:#999;margin-top:2px}.sug-none{padding:12px 14px;color:#999;font-size:13px}'
 + '</style></head><body><div class="wrap">'
 + '<header><div class="logo">a99 <span>아구구</span></div><div style="font-size:13px;color:#16a34a;font-weight:700">🗺️ 지도</div></header>'
++ '<div class="sbar"><select id="sido-sel">' + sidoOpts + '</select><input id="apt-q" type="text" placeholder="아파트 이름으로 검색" autocomplete="off"><button id="apt-go" type="button">검색</button><div id="sug" class="sug"></div></div>'
 + '<div class="bc">' + esc(region) + ' › <b style="color:#555">' + esc(a.name) + '</b></div>'
 + '<div class="hero">'
 + '<span class="badge">아파트 단지정보</span>'
@@ -105,7 +116,18 @@ function page(a) {
 + '<div style="text-align:center;padding:14px 16px 4px"><ins class="kakao_ad_area" style="display:none;" data-ad-unit="' + AD_UNIT + '" data-ad-width="300" data-ad-height="250"></ins></div><script type="text/javascript" src="//t1.kakaocdn.net/kas/static/ba.min.js" async></script>'
 + '<div class="hero"><a class="cta" href="' + MAP + '/?apt=' + a.code + '">🗺️ 지도에서 자세히 보기<small>실거래가 · 주변 단지 비교 · 협력 중개사에게 집내놓기</small></a></div>'
 + '<footer>공공데이터 기반 참고용 정보이며 실제와 차이가 있을 수 있습니다.<br><a href="/privacy" style="color:#16a34a;text-decoration:none">개인정보처리방침</a> · <a href="/terms" style="color:#16a34a;text-decoration:none">이용약관</a><br>아구구 a99 © 2026</footer>'
-+ '</div></body></html>';
++ '</div>'
++ '<script>(function(){var sel=document.getElementById("sido-sel"),q=document.getElementById("apt-q"),go=document.getElementById("apt-go"),sug=document.getElementById("sug"),selCode="",t;'
++ 'function render(list){sug.innerHTML="";if(!list.length){var n=document.createElement("div");n.className="sug-none";n.textContent="검색 결과가 없어요";sug.appendChild(n);sug.className="sug on";return;}'
++ 'list.forEach(function(a){var it=document.createElement("div");it.className="sug-item";var b=document.createElement("b");b.textContent=a.name;it.appendChild(b);var s=document.createElement("span");s.textContent=a.sido+" "+a.sigungu+(a.emd?" "+a.emd:"");it.appendChild(s);it.onclick=function(){q.value=a.name;selCode=a.code;sug.className="sug";};sug.appendChild(it);});sug.className="sug on";}'
++ 'function doSearch(){var v=q.value.trim();if(!v){sug.className="sug";sug.innerHTML="";return;}fetch("/api/search?sido="+encodeURIComponent(sel.value)+"&q="+encodeURIComponent(v)).then(function(r){return r.json();}).then(render).catch(function(){});}'
++ 'function goInfo(){if(selCode){location.href="/apt/"+selCode;}else{doSearch();}}'
++ 'q.addEventListener("input",function(){selCode="";clearTimeout(t);t=setTimeout(doSearch,180);});'
++ 'go.addEventListener("click",goInfo);'
++ 'q.addEventListener("keydown",function(e){if(e.key==="Enter"){e.preventDefault();goInfo();}});'
++ 'document.addEventListener("click",function(e){if(!e.target.closest(".sbar")){sug.className="sug";}});'
++ '})();</script>'
++ '</body></html>';
 }
 
 module.exports = (req, res) => {
