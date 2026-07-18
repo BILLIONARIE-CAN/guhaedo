@@ -51,6 +51,7 @@ function page(a) {
     ['동수', a.dongCnt || '-'],
     ['난방', a.heat || '-'],
     ['총주차', a.totalPark ? Number(a.totalPark).toLocaleString() + '대' : '-'],
+    ['세대당 주차', (a.totalPark && a.units) ? (Number(a.totalPark) / Number(a.units)).toFixed(2) + '대' : '-'],
     ['시공사', a.builder || '-'],
     ['관리방식', a.mgrType || '-'],
   ].map(x => '<div class="cell"><div class="k">' + esc(x[0]) + '</div><div class="v">' + esc(x[1]) + '</div></div>').join('');
@@ -75,7 +76,7 @@ function page(a) {
 + '.tel-sub{font-size:12px;color:#16a34a;margin-top:2px}.tel-none{color:#999;font-size:14px}'
 + '.cta{display:block;width:100%;background:#16a34a;color:#fff;text-align:center;font-weight:700;font-size:16px;padding:15px;border-radius:12px;text-decoration:none;box-shadow:0 4px 12px rgba(22,163,74,.3)}'
 + '.cta small{display:block;font-weight:400;font-size:12px;opacity:.9;margin-top:2px}'
-+ '.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:#eee;border-top:1px solid #eee;border-bottom:1px solid #eee}'
++ '.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:#eee;border-top:1px solid #eee;border-bottom:1px solid #eee}'
 + '.cell{background:#fff;padding:12px 6px;text-align:center}.cell .k{font-size:11px;color:#999}.cell .v{font-size:13px;font-weight:700;margin-top:3px}'
 + 'section{padding:18px 16px;border-bottom:8px solid #f5f7fa}h2{font-size:15px;font-weight:800;margin-bottom:10px}'
 + '.info-row{display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px solid #f5f5f5;font-size:14px}.info-row .k{color:#888}.info-row .v{font-weight:600;text-align:right}'
