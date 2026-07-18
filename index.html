@@ -8,7 +8,20 @@
 <meta name="naver-site-verification" content="ecdb387aadc8222dc0b2abdb18745e7f499223ab" />
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
-.pin-bounce{outline:2.5px solid #FACC15;outline-offset:2px;border-radius:5px;transform:scale(1.18);transform-origin:bottom center;z-index:9999!important}
+@keyframes pinBounce {
+  0%,100%{transform:translateY(0)}
+  20%{transform:translateY(-10px)}
+  40%{transform:translateY(0)}
+  60%{transform:translateY(-5px)}
+  80%{transform:translateY(0)}
+}
+@keyframes pulseRing{
+  0%{transform:translate(-50%,-50%) scale(0.8);opacity:0.55}
+  70%{transform:translate(-50%,-50%) scale(2.0);opacity:0}
+  100%{transform:translate(-50%,-50%) scale(2.0);opacity:0}
+}
+.pin-bounce{animation:pinBounce .5s ease;position:relative!important;overflow:visible!important}
+.pin-bounce::before{content:'';position:absolute;left:50%;top:50%;width:100%;height:100%;background:rgba(59,130,246,0.4);border-radius:50%;transform:translate(-50%,-50%) scale(0.8);animation:pulseRing 1.4s ease-out infinite;pointer-events:none;z-index:-1}
 @keyframes brokerGlow {
   0%,100% { box-shadow: 0 1px 4px rgba(0,0,0,.4), 0 0 0 0 rgba(49,130,206,0); }
   50% { box-shadow: 0 1px 4px rgba(0,0,0,.4), 0 0 0 5px rgba(49,130,206,.55); }
