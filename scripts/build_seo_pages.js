@@ -105,7 +105,7 @@ function page(a) {
 + '.adA{background:linear-gradient(90deg,#fff7ed,#ffedd5);border:1.5px dashed #fdba74;color:#c2410c}'
 + '.adB{background:#fafbfc;border:1.5px dashed #cbd5e1;color:#94a3b8}'
 + 'footer{padding:18px 16px 40px;font-size:11px;color:#aaa;text-align:center}'
-+ '.side-ad{display:none}@media(min-width:1000px){.side-ad{display:block;position:fixed;top:50%;right:16px;transform:translateY(-50%);z-index:50}}'
++ '.side-ad{display:none}@media(min-width:1040px){.side-ad{display:block;position:fixed;top:50%;left:calc(50% + 340px);transform:translateY(-50%);z-index:50}}'
 + '</style></head><body><div class="wrap">'
 + '<header><div class="logo">a99 <span>아구구</span></div><div style="font-size:13px;color:#16a34a;font-weight:700">🗺️ 지도</div></header>'
 + '<div class="bc">' + esc(region) + ' › <b style="color:#555">' + esc(a.name) + '</b></div>'
