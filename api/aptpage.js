@@ -104,7 +104,7 @@ function page(a) {
 + '.sug{position:absolute;top:100%;left:16px;right:16px;background:#fff;border:1px solid #e5e7eb;border-top:none;border-radius:0 0 10px 10px;box-shadow:0 8px 24px rgba(0,0,0,.12);z-index:60;max-height:320px;overflow:auto;display:none}'
 + '.sug.on{display:block}.sug-item{padding:11px 14px;border-bottom:1px solid #f3f4f6;cursor:pointer}.sug-item:hover{background:#f0fdf4}'
 + '.sug-item b{font-size:14px;font-weight:700}.sug-item span{display:block;font-size:11px;color:#999;margin-top:2px}.sug-none{padding:12px 14px;color:#999;font-size:13px}'
-+ '.share-btn{background:#16a34a;color:#fff;border:none;border-radius:8px;padding:7px 16px;font-size:14px;font-weight:700;cursor:pointer;font-family:inherit}'
++ '.share-btn{background:#f0fdf4;color:#166534;border:1px solid #bbf7d0;border-radius:8px;padding:6px 14px;font-size:14px;font-weight:700;cursor:pointer;font-family:inherit}'
 + '.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%) translateY(20px);background:#1a1a1a;color:#fff;padding:10px 18px;border-radius:20px;font-size:13px;opacity:0;transition:.25s;pointer-events:none;z-index:100}.toast.on{opacity:1;transform:translateX(-50%) translateY(0)}'
 + '</style></head><body><div class="wrap">'
 + '<header><div class="logo">a99 <span>아구구</span></div><button class="share-btn" onclick="shareApt()">공유</button></header>'
