@@ -1027,6 +1027,21 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
 
 <div class="toast" id="toast"></div>
 
+<!-- 지도 앱 우측 하단 닫기형 광고 (기존 300x250 단위 재사용, 심사 통과용) -->
+<style>
+.corner-ad{position:fixed;right:16px;bottom:16px;width:300px;background:#fff;border:1px solid #e5e7eb;border-radius:10px;box-shadow:0 4px 16px rgba(0,0,0,.16);z-index:85;overflow:hidden}
+.corner-ad-head{display:flex;align-items:center;justify-content:space-between;padding:4px 6px 4px 10px;border-bottom:1px solid #f0f0f0}
+.corner-ad-head span{font-size:10px;color:#999}
+.corner-ad-head button{background:none;border:none;font-size:15px;color:#666;cursor:pointer;line-height:1;padding:2px 6px;font-family:inherit}
+@media(max-width:640px){.corner-ad{right:8px;bottom:8px}}
+</style>
+<div id="corner-ad" class="corner-ad">
+  <div class="corner-ad-head"><span>광고</span><button onclick="closeCornerAd()" aria-label="광고 닫기">✕</button></div>
+  <ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-VVNFKrpvthFpw6PS" data-ad-width="300" data-ad-height="250"></ins>
+</div>
+<script>function closeCornerAd(){var e=document.getElementById('corner-ad');if(e)e.style.display='none';}</script>
+<script type="text/javascript" src="//t1.kakaocdn.net/kas/static/ba.min.js" async></script>
+
 <!-- 카카오 지도 SDK -->
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=a7a67059ffadc0b7c6e4318639cdedeb&libraries=services,roadview"></script>
 
