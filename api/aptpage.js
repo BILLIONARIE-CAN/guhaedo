@@ -107,7 +107,7 @@ function page(a) {
 + '.share-btn{background:#f0fdf4;color:#166534;border:1px solid #bbf7d0;border-radius:8px;padding:6px 14px;font-size:14px;font-weight:700;cursor:pointer;font-family:inherit}'
 + '.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%) translateY(20px);background:#1a1a1a;color:#fff;padding:10px 18px;border-radius:20px;font-size:13px;opacity:0;transition:.25s;pointer-events:none;z-index:100}.toast.on{opacity:1;transform:translateX(-50%) translateY(0)}'
 + '</style></head><body><div class="wrap">'
-+ '<header><div class="logo">a99 <span>아구구</span></div><button class="share-btn" onclick="shareApt()">공유</button></header>'
++ '<header><a href="/" class="logo" style="text-decoration:none;cursor:pointer">a99 <span>아구구</span></a><button class="share-btn" onclick="shareApt()">공유</button></header>'
 + '<div class="sbar"><div class="srow"><select id="sido-sel">' + sidoOpts + '</select><select id="sgg-sel">' + sggOpts + '</select></div><div class="srow"><input id="apt-q" type="text" placeholder="아파트 이름·초성 검색" autocomplete="off"><button id="apt-go" type="button">검색</button></div><div id="sug" class="sug"></div></div>'
 + '<div class="bc">' + esc(region) + ' › <b style="color:#555">' + esc(a.name) + '</b></div>'
 + '<div class="hero">'
