@@ -471,9 +471,9 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
         <button class="adp-close" onclick="closeAptDetail()">✕</button>
       </div>
       <div class="adp-body">
-        <div class="adp-name" id="adp-name"></div>
+        <div style="text-align:center;margin:0 0 8px"><div id="adp-ad-top"></div></div>
 
-        <div style="text-align:center;margin:8px 0"><div id="adp-ad-top"></div></div>
+        <div class="adp-name" id="adp-name"></div>
 
         <!-- 0. 실거래가 차트 -->
         <div id="trade-section" style="padding-bottom:14px;border-bottom:1px solid var(--border);margin-bottom:4px">
@@ -1036,14 +1036,14 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
 .corner-ad-head{display:flex;align-items:center;justify-content:space-between;padding:4px 6px 4px 10px;border-bottom:1px solid #f0f0f0}
 .corner-ad-head span{font-size:10px;color:#999}
 .corner-ad-head button{background:none;border:none;font-size:15px;color:#666;cursor:pointer;line-height:1;padding:2px 6px;font-family:inherit}
-@media(max-width:640px){.corner-ad{right:8px;bottom:8px}}
+@media(max-width:768px){.corner-ad{display:none!important}}
 </style>
 <div id="corner-ad" class="corner-ad">
   <div class="corner-ad-head"><span>광고</span><button onclick="closeCornerAd()" aria-label="광고 닫기">✕</button></div>
   <ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-VVNFKrpvthFpw6PS" data-ad-width="300" data-ad-height="250"></ins>
 </div>
 <script>function closeCornerAd(){var e=document.getElementById('corner-ad');if(e)e.style.display='none';}
-function loadSidebarAd(){var b=document.getElementById('adp-ad-box');if(!b||b.getAttribute('data-loaded'))return;b.setAttribute('data-loaded','1');var t=document.getElementById('adp-ad-top');if(t)t.innerHTML='<ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-MS50ssMpQLYwDL5r" data-ad-width="320" data-ad-height="100"></ins>';b.innerHTML='<ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-KpmCmBSL2hBTN2xb" data-ad-width="300" data-ad-height="250"></ins>';var s=document.createElement('script');s.src='//t1.kakaocdn.net/kas/static/ba.min.js';s.async=true;b.appendChild(s);}</script>
+function loadSidebarAd(){var b=document.getElementById('adp-ad-box');if(!b||b.getAttribute('data-loaded'))return;b.setAttribute('data-loaded','1');var t=document.getElementById('adp-ad-top');if(t){var mob=window.matchMedia('(max-width:768px)').matches;t.innerHTML=mob?'<ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-MS50ssMpQLYwDL5r" data-ad-width="320" data-ad-height="100"></ins>':'<ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-2U9jwSfPfCYLIyyE" data-ad-width="250" data-ad-height="250"></ins>';}b.innerHTML='<ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-KpmCmBSL2hBTN2xb" data-ad-width="300" data-ad-height="250"></ins>';var s=document.createElement('script');s.src='//t1.kakaocdn.net/kas/static/ba.min.js';s.async=true;b.appendChild(s);}</script>
 <script type="text/javascript" src="//t1.kakaocdn.net/kas/static/ba.min.js" async></script>
 
 <!-- 카카오 지도 SDK -->
