@@ -566,9 +566,7 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
           <div class="adp-section-title">평형 · 평면도</div>
           <div id="adp-area-content"></div>
         </div>
-        <div class="adp-section" style="text-align:center">
-          <ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-KpmCmBSL2hBTN2xb" data-ad-width="300" data-ad-height="250"></ins>
-        </div>
+        <div class="adp-section" style="text-align:center"><div id="adp-ad-box"></div></div>
       </div>
     </div>
   </div>
@@ -1042,7 +1040,8 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
   <div class="corner-ad-head"><span>광고</span><button onclick="closeCornerAd()" aria-label="광고 닫기">✕</button></div>
   <ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-VVNFKrpvthFpw6PS" data-ad-width="300" data-ad-height="250"></ins>
 </div>
-<script>function closeCornerAd(){var e=document.getElementById('corner-ad');if(e)e.style.display='none';}</script>
+<script>function closeCornerAd(){var e=document.getElementById('corner-ad');if(e)e.style.display='none';}
+function loadSidebarAd(){var b=document.getElementById('adp-ad-box');if(!b||b.getAttribute('data-loaded'))return;b.setAttribute('data-loaded','1');b.innerHTML='<ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-KpmCmBSL2hBTN2xb" data-ad-width="300" data-ad-height="250"></ins>';var s=document.createElement('script');s.src='//t1.kakaocdn.net/kas/static/ba.min.js';s.async=true;b.appendChild(s);}</script>
 <script type="text/javascript" src="//t1.kakaocdn.net/kas/static/ba.min.js" async></script>
 
 <!-- 카카오 지도 SDK -->
@@ -2101,6 +2100,8 @@ function openAptDetail(d){
 
   // F5 새로고침 시 현재 단지 유지: URL만 교체(히스토리 안 쌓음 → 뒤로가기 정상)
   if(d&&d.code){try{history.replaceState(null,'','/?apt='+d.code);}catch(e){}}
+  // 사이드바 광고: 패널이 열려 보일 때 로드(숨겨진 상태로 로드하면 애드핏이 안 채움)
+  try{loadSidebarAd();}catch(e){}
 
   // 용적률/건폐율/준공/난방 API로 채우기
   if(d.code){
