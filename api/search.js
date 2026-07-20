@@ -69,7 +69,15 @@ module.exports = (req, res) => {
   }
   scored.sort((x, y) => (x.score - y.score) || (x.a.name.length - y.a.name.length));
 
-  res.end(JSON.stringify(scored.slice(0, 25).map(s => ({
-    code: s.a.code, name: s.a.name, sido: s.a.sido, sigungu: s.a.sigungu, emd: s.a.emd
-  }))));
+  const map = s => ({ code: s.a.code, name: s.a.name, sido: s.a.sido, sigungu: s.a.sigungu, emd: s.a.emd });
+  const page = parseInt(req.query.page) || 0;
+  if (page > 0) {
+    // 페이지네이션 모드: {total, page, size, items}
+    const size = Math.min(Math.max(parseInt(req.query.size) || 20, 1), 50);
+    const start = (page - 1) * size;
+    res.end(JSON.stringify({ total: scored.length, page: page, size: size, items: scored.slice(start, start + size).map(map) }));
+  } else {
+    // 자동완성 모드(SEO 페이지): 상위 25개 배열
+    res.end(JSON.stringify(scored.slice(0, 25).map(map)));
+  }
 };
