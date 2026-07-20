@@ -40,6 +40,7 @@ body{font-family:'Noto Sans KR',sans-serif;background:var(--bg);color:var(--text
 
 /* ===== 헤더 ===== */
 header{background:var(--white);border-bottom:1px solid var(--border);position:relative;z-index:200;flex-shrink:0}
+.top-ad-bar{flex-shrink:0;display:flex;align-items:center;justify-content:center;background:var(--white);border-bottom:1px solid var(--border)}
 .header-inner{max-width:none;padding:0 20px;height:var(--header-h);display:flex;align-items:center;gap:0}
 .logo{display:flex;align-items:center;gap:8px;cursor:pointer;text-decoration:none;margin-right:20px;flex-shrink:0}
 .logo-icon{width:30px;height:30px;background:var(--green);border-radius:7px;display:flex;align-items:center;justify-content:center}
@@ -384,6 +385,9 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
     </div>
   </div>
 </header>
+
+<!-- 최상단 광고 (320x100) — 헤더 아래, 지도 위 -->
+<div class="top-ad-bar"><ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-MS50ssMpQLYwDL5r" data-ad-width="320" data-ad-height="100"></ins></div>
 
 <!-- ===== 지도 페이지 ===== -->
 <div class="page active" id="page-map">
