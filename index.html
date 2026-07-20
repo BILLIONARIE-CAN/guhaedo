@@ -40,7 +40,6 @@ body{font-family:'Noto Sans KR',sans-serif;background:var(--bg);color:var(--text
 
 /* ===== 헤더 ===== */
 header{background:var(--white);border-bottom:1px solid var(--border);position:relative;z-index:200;flex-shrink:0}
-.top-ad-bar{flex-shrink:0;display:flex;align-items:center;justify-content:center;background:var(--white);border-bottom:1px solid var(--border)}
 .header-inner{max-width:none;padding:0 20px;height:var(--header-h);display:flex;align-items:center;gap:0}
 .logo{display:flex;align-items:center;gap:8px;cursor:pointer;text-decoration:none;margin-right:20px;flex-shrink:0}
 .logo-icon{width:30px;height:30px;background:var(--green);border-radius:7px;display:flex;align-items:center;justify-content:center}
@@ -386,9 +385,6 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
   </div>
 </header>
 
-<!-- 최상단 광고 (320x100) — 헤더 아래, 지도 위 -->
-<div class="top-ad-bar"><ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-MS50ssMpQLYwDL5r" data-ad-width="320" data-ad-height="100"></ins></div>
-
 <!-- ===== 지도 페이지 ===== -->
 <div class="page active" id="page-map">
   <div class="map-right">
@@ -476,6 +472,8 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
       </div>
       <div class="adp-body">
         <div class="adp-name" id="adp-name"></div>
+
+        <div style="text-align:center;margin:8px 0"><div id="adp-ad-top"></div></div>
 
         <!-- 0. 실거래가 차트 -->
         <div id="trade-section" style="padding-bottom:14px;border-bottom:1px solid var(--border);margin-bottom:4px">
@@ -1045,7 +1043,7 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
   <ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-VVNFKrpvthFpw6PS" data-ad-width="300" data-ad-height="250"></ins>
 </div>
 <script>function closeCornerAd(){var e=document.getElementById('corner-ad');if(e)e.style.display='none';}
-function loadSidebarAd(){var b=document.getElementById('adp-ad-box');if(!b||b.getAttribute('data-loaded'))return;b.setAttribute('data-loaded','1');b.innerHTML='<ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-KpmCmBSL2hBTN2xb" data-ad-width="300" data-ad-height="250"></ins>';var s=document.createElement('script');s.src='//t1.kakaocdn.net/kas/static/ba.min.js';s.async=true;b.appendChild(s);}</script>
+function loadSidebarAd(){var b=document.getElementById('adp-ad-box');if(!b||b.getAttribute('data-loaded'))return;b.setAttribute('data-loaded','1');var t=document.getElementById('adp-ad-top');if(t)t.innerHTML='<ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-MS50ssMpQLYwDL5r" data-ad-width="320" data-ad-height="100"></ins>';b.innerHTML='<ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-KpmCmBSL2hBTN2xb" data-ad-width="300" data-ad-height="250"></ins>';var s=document.createElement('script');s.src='//t1.kakaocdn.net/kas/static/ba.min.js';s.async=true;b.appendChild(s);}</script>
 <script type="text/javascript" src="//t1.kakaocdn.net/kas/static/ba.min.js" async></script>
 
 <!-- 카카오 지도 SDK -->
