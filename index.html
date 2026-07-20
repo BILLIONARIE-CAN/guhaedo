@@ -2099,6 +2099,7 @@ function openAptDetail(d){
   // 매물 가격은 adp-price-content 섹션에서 처리
 
   panel.classList.add('open');
+  var _ab=panel.querySelector('.adp-body');if(_ab)_ab.scrollTop=0; // 다른 단지 클릭 시 사이드바 맨 위로
 
   // F5 새로고침 시 현재 단지 유지: URL만 교체(히스토리 안 쌓음 → 뒤로가기 정상)
   if(d&&d.code){try{history.replaceState(null,'','/?apt='+d.code);}catch(e){}}
