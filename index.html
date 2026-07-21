@@ -9,6 +9,17 @@
 <title>아구구 - 아파트 구할땐 구해줘!</title>
 <meta name="google-site-verification" content="0xEaauIIfWYnFWNJMw1kxSaJ4Btt0MQHTz3TrFF1f-k" />
 <meta name="naver-site-verification" content="ecdb387aadc8222dc0b2abdb18745e7f499223ab" />
+<meta name="description" content="전국 아파트 관리사무소 전화번호·실거래가·단지정보를 지도에서 한눈에. 아파트 이름만 검색하면 관리사무소 연락처와 단지 정보를 바로 확인하세요. 부동산 계산기도 무료 제공.">
+<link rel="canonical" href="https://a99.co.kr/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="아구구 - 아파트 구할땐 구해줘!">
+<meta property="og:description" content="전국 아파트 관리사무소 전화번호·실거래가·단지정보를 지도에서 한눈에 찾는 서비스. 아파트 이름만 검색하면 바로 확인하세요.">
+<meta property="og:url" content="https://a99.co.kr/">
+<meta property="og:site_name" content="아구구 a99">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="아구구 - 아파트 구할땐 구해줘!">
+<meta name="twitter:description" content="전국 아파트 관리사무소 전화번호·실거래가·단지정보를 지도에서 한눈에.">
+
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
 @keyframes pinBounce {
@@ -1082,6 +1093,7 @@ function doAptSearch(page){page=page||1;var q=document.getElementById('srch-q').
 
 <!-- 카카오 지도 SDK -->
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=a7a67059ffadc0b7c6e4318639cdedeb&libraries=services,roadview"></script>
+<script>document.addEventListener('DOMContentLoaded',function(){try{if(typeof initMap==='function')initMap();}catch(e){}});</script>
 
 <script>
 // ===== 유틸 =====
@@ -4214,7 +4226,7 @@ window.onload=function(){
   handleKakaoCallback();
   ge('calc-fields').innerHTML=calcFields(0);
   setTimeout(()=>commUpdate(),50);
-  setTimeout(()=>initMap(),500);
+  initMap();
   setTimeout(loadPresaleData,1800); // 분양 단지 핀 (지도 초기화 후)
   handleAptDeeplink(); // SEO 단지페이지에서 ?apt=코드로 진입 시 해당 단지 자동 오픈
   try{var _h=(location.hash||'').replace(/^#/,'');if(['search','calc','pro'].indexOf(_h)>=0&&document.getElementById('page-'+_h))showPage(_h);}catch(e){} // 새로고침 시 현재 탭 유지
