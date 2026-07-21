@@ -16,6 +16,7 @@ const BASE = 'https://a99.co.kr';
 const MAP = 'https://a99.co.kr';
 const AD_UNIT = 'DAN-VVNFKrpvthFpw6PS'; // 애드핏 광고단위(300x250, 하단)
 const AD_UNIT_SIDE = 'DAN-6hzBUhx1qcJKOIsS'; // 애드핏 광고단위(160x600, PC 우측 사이드)
+const AD_UNIT_SIDE_L = 'DAN-A9WnwICFDEl16jU1'; // 애드핏 광고단위(160x600, PC 좌측 사이드)
 const SIDO_LIST = ['서울특별시','부산광역시','대구광역시','인천광역시','광주광역시','대전광역시','울산광역시','세종특별자치시','경기도','강원특별자치도','충청북도','충청남도','전북특별자치도','전라남도','경상북도','경상남도','제주특별자치도'];
 // 도 → 시군구 목록 (콜드스타트 1회 계산, 페이지 스크립트에 주입 → 도 선택 시 시군구 자동 채움)
 const SGG_BY_SIDO = (function () {
@@ -98,6 +99,7 @@ function page(a) {
 + '.adA{background:linear-gradient(90deg,#fff7ed,#ffedd5);border:1.5px dashed #fdba74;color:#c2410c}'
 + 'footer{padding:18px 16px 40px;font-size:11px;color:#aaa;text-align:center}'
 + '.side-ad{display:none}@media(min-width:1040px){.side-ad{display:block;position:fixed;top:50%;left:calc(50% + 340px);transform:translateY(-50%);z-index:50}}'
++ '.side-ad-l{display:none}@media(min-width:1040px){.side-ad-l{display:block;position:fixed;top:50%;left:calc(50% - 500px);transform:translateY(-50%);z-index:50}}'
 + '.sbar{position:relative;padding:12px 16px;background:#fff;border-bottom:1px solid #eee}'
 + '.srow{display:flex;gap:6px}.srow:first-child{margin-bottom:6px}'
 + '.sbar select{flex:1;min-width:0;padding:10px 6px;border:1px solid #ddd;border-radius:8px;font-size:13px;background:#fff}'
@@ -127,6 +129,7 @@ function page(a) {
 + '<div class="info-row"><span class="k">현관구조</span><span class="v">' + esc(a.entrance || '-') + '</span></div>'
 + '</section>'
 + '<div class="side-ad"><ins class="kakao_ad_area" style="display:none;" data-ad-unit="' + AD_UNIT_SIDE + '" data-ad-width="160" data-ad-height="600"></ins></div>'
++ '<div class="side-ad-l"><ins class="kakao_ad_area" style="display:none;" data-ad-unit="' + AD_UNIT_SIDE_L + '" data-ad-width="160" data-ad-height="600"></ins></div>'
 + '<div style="text-align:center;padding:14px 16px 4px"><ins class="kakao_ad_area" style="display:none;" data-ad-unit="' + AD_UNIT + '" data-ad-width="300" data-ad-height="250"></ins></div><script type="text/javascript" src="//t1.kakaocdn.net/kas/static/ba.min.js" async></script>'
 + '<div class="hero"><a class="cta" href="' + MAP + '/?apt=' + a.code + '">🗺️ 지도에서 자세히 보기<small>실거래가 · 주변 단지 비교 · 협력 중개사에게 집내놓기</small></a></div>'
 + '<footer>공공데이터 기반 참고용 정보이며 실제와 차이가 있을 수 있습니다.<br><a href="/privacy" style="color:#16a34a;text-decoration:none">개인정보처리방침</a> · <a href="/terms" style="color:#16a34a;text-decoration:none">이용약관</a><br>아구구 a99 © 2026</footer>'
