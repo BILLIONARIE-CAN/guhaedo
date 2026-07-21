@@ -2476,6 +2476,7 @@ function showPage(name){
   if(name==='pro') initProPage();
   if(name==='print') initPrintPage();
   if(name==='search'){initSearchPage();try{loadSearchAds();}catch(e){}}
+  try{if(['search','calc','pro'].indexOf(name)>=0){history.replaceState(null,'','#'+name);}else if(location.hash){history.replaceState(null,'',location.pathname+location.search);}}catch(e){}
 }
 
 function initPrintPage(){
@@ -4215,6 +4216,7 @@ window.onload=function(){
   setTimeout(()=>initMap(),500);
   setTimeout(loadPresaleData,1800); // 분양 단지 핀 (지도 초기화 후)
   handleAptDeeplink(); // SEO 단지페이지에서 ?apt=코드로 진입 시 해당 단지 자동 오픈
+  try{var _h=(location.hash||'').replace(/^#/,'');if(['search','calc','pro'].indexOf(_h)>=0&&document.getElementById('page-'+_h))showPage(_h);}catch(e){} // 새로고침 시 현재 탭 유지
   // 듀얼 슬라이더 초기화
   var now2=new Date();
   var fe=ge('trade-year-from'),te=ge('trade-year-to');
