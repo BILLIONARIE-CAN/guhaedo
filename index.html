@@ -584,7 +584,18 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
 
 <!-- ===== 계산기 페이지 ===== -->
 <!-- ===== 아파트검색 페이지 ===== -->
+<style>
+.srch-side{display:none}
+@media(min-width:1040px){
+.srch-side{display:block;position:fixed;top:50%;transform:translateY(-50%);z-index:40}
+.srch-side-l{left:calc(50% - 490px)}
+.srch-side-r{left:calc(50% + 330px)}
+}
+.srch-side .ad-lab{font-size:10px;color:#bbb;text-align:center;margin-bottom:4px}
+</style>
 <div class="page" id="page-search" style="flex-direction:column;overflow-y:auto">
+  <div class="srch-side srch-side-l"><div class="ad-lab">광고</div><div id="srch-ad-l"></div></div>
+  <div class="srch-side srch-side-r"><div class="ad-lab">광고</div><div id="srch-ad-r"></div></div>
   <div style="max-width:640px;margin:0 auto;width:100%;padding:24px 16px">
     <h1 style="font-size:22px;font-weight:800;margin-bottom:4px">아파트 검색</h1>
     <p style="font-size:13px;color:var(--text2);margin-bottom:16px">단지를 검색해 관리사무소 전화번호·단지정보를 확인하세요.</p>
@@ -601,7 +612,8 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
       <select id="srch-perpage" style="padding:6px 8px;border:1px solid var(--border);border-radius:6px;font-size:12px;font-family:inherit;background:#fff"><option value="10">10개씩</option><option value="20" selected>20개씩</option><option value="30">30개씩</option></select>
     </div>
     <div id="srch-results"></div>
-    <div id="srch-pager" style="display:flex;justify-content:center;gap:4px;flex-wrap:wrap;margin-top:14px"></div>
+    <div id="srch-ad-bottom" style="display:flex;justify-content:center;margin:28px 0"></div>
+    <div id="srch-pager" style="display:flex;justify-content:center;gap:4px;flex-wrap:wrap;margin-top:14px;margin-bottom:24px"></div>
   </div>
 </div>
 
@@ -1062,6 +1074,7 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
 <div class="toast" id="toast"></div>
 
 <script>function loadSidebarAd(){var b=document.getElementById('adp-ad-box');if(!b||b.getAttribute('data-loaded'))return;b.setAttribute('data-loaded','1');function inj(box,u,w,h){box.innerHTML='<ins class="kakao_ad_area" style="display:none;" data-ad-unit="'+u+'" data-ad-width="'+w+'" data-ad-height="'+h+'"></ins>';var s=document.createElement('script');s.src='//t1.kakaocdn.net/kas/static/ba.min.js';s.async=true;box.appendChild(s);}var t=document.getElementById('adp-ad-top');if(t){if(window.matchMedia('(max-width:768px)').matches)inj(t,'DAN-MS50ssMpQLYwDL5r',320,100);else inj(t,'DAN-2U9jwSfPfCYLIyyE',250,250);}inj(b,'DAN-KpmCmBSL2hBTN2xb',300,250);}
+function loadSearchAds(){function inj(id,u,w,h){var box=document.getElementById(id);if(!box||box.getAttribute('data-loaded'))return;box.setAttribute('data-loaded','1');box.innerHTML='<ins class="kakao_ad_area" style="display:none;" data-ad-unit="'+u+'" data-ad-width="'+w+'" data-ad-height="'+h+'"></ins>';var s=document.createElement('script');s.src='//t1.kakaocdn.net/kas/static/ba.min.js';s.async=true;box.appendChild(s);}inj('srch-ad-bottom','DAN-VVNFKrpvthFpw6PS',300,250);if(window.matchMedia('(min-width:1040px)').matches){inj('srch-ad-l','DAN-A9WnwICFDEl16jU1',160,600);inj('srch-ad-r','DAN-6hzBUhx1qcJKOIsS',160,600);}}
 function initSearchPage(){var sido=document.getElementById('srch-sido');if(!sido||sido.getAttribute('data-init'))return;sido.setAttribute('data-init','1');var S=['서울특별시','부산광역시','대구광역시','인천광역시','광주광역시','대전광역시','울산광역시','세종특별자치시','경기도','강원특별자치도','충청북도','충청남도','전북특별자치도','전라남도','경상북도','경상남도','제주특별자치도'];sido.innerHTML='<option value="">전국</option>'+S.map(function(s){return '<option>'+s+'</option>';}).join('');var sgg=document.getElementById('srch-sgg');sido.onchange=function(){var d=(typeof allAptData!=='undefined'?allAptData:[]),m={};for(var i=0;i<d.length;i++){if(d[i].sido===sido.value&&d[i].sigungu)m[d[i].sigungu]=1;}var l=Object.keys(m).sort();sgg.innerHTML='<option value="">전체 시군구</option>'+l.map(function(s){return '<option>'+s+'</option>';}).join('');doAptSearch(1);};sgg.onchange=function(){doAptSearch(1);};var pp=document.getElementById('srch-perpage');if(pp)pp.onchange=function(){doAptSearch(1);};var q=document.getElementById('srch-q'),tm;q.addEventListener('input',function(){clearTimeout(tm);tm=setTimeout(function(){doAptSearch(1);},200);});q.addEventListener('keydown',function(e){if(e.key==='Enter')doAptSearch(1);});}
 function doAptSearch(page){page=page||1;var q=document.getElementById('srch-q').value.trim();var box=document.getElementById('srch-results'),pager=document.getElementById('srch-pager'),top=document.getElementById('srch-topbar');if(!q){box.innerHTML='';pager.innerHTML='';top.style.display='none';return;}var sido=document.getElementById('srch-sido').value,sgg=document.getElementById('srch-sgg').value,size=parseInt(document.getElementById('srch-perpage').value)||20;fetch('/api/search?sido='+encodeURIComponent(sido)+'&sgg='+encodeURIComponent(sgg)+'&q='+encodeURIComponent(q)+'&page='+page+'&size='+size).then(function(r){return r.json();}).then(function(res){var items=res.items||[],total=res.total||0,cur=res.page||page;box.innerHTML='';top.style.display='flex';document.getElementById('srch-count').textContent='총 '+total+'개';if(!items.length){box.innerHTML='<div style="padding:16px;color:#999;font-size:13px">검색 결과가 없어요</div>';pager.innerHTML='';return;}items.forEach(function(a){var link=document.createElement('a');link.href='/apt/'+a.code;link.style.cssText='display:block;padding:12px 14px;border:1px solid #e5e7eb;border-radius:8px;margin-bottom:6px;text-decoration:none;color:#1a1a1a';var nm=document.createElement('div');nm.style.cssText='font-weight:700;font-size:15px';nm.textContent=a.name;link.appendChild(nm);var loc=document.createElement('div');loc.style.cssText='font-size:12px;color:#999;margin-top:2px';loc.textContent=a.sido+' '+a.sigungu+(a.emd?' '+a.emd:'');link.appendChild(loc);box.appendChild(link);});var pages=Math.ceil(total/size);pager.innerHTML='';if(pages>1){function pb(n,lab,dis,act){var b=document.createElement('button');b.textContent=lab;b.style.cssText='min-width:32px;padding:6px 9px;border:1px solid '+(act?'#16a34a':'#e5e7eb')+';background:'+(act?'#16a34a':'#fff')+';color:'+(act?'#fff':'#333')+';border-radius:6px;font-size:13px;cursor:pointer;font-family:inherit';if(dis){b.disabled=true;b.style.opacity='.35';b.style.cursor='default';}else{b.onclick=function(){doAptSearch(n);var pg=document.getElementById('page-search');if(pg)pg.scrollTop=0;};}return b;}function el(){var e=document.createElement('span');e.textContent='…';e.style.cssText='padding:6px 4px;color:#999';return e;}pager.appendChild(pb(cur-1,'‹',cur<=1,false));var from=Math.max(1,cur-2),to=Math.min(pages,cur+2);if(from>1){pager.appendChild(pb(1,'1',false,false));if(from>2)pager.appendChild(el());}for(var p=from;p<=to;p++)pager.appendChild(pb(p,String(p),false,p===cur));if(to<pages){if(to<pages-1)pager.appendChild(el());pager.appendChild(pb(pages,String(pages),false,false));}pager.appendChild(pb(cur+1,'›',cur>=pages,false));}}).catch(function(){box.innerHTML='<div style="padding:16px;color:#999;font-size:13px">검색 오류</div>';});}</script>
 <script type="text/javascript" src="//t1.kakaocdn.net/kas/static/ba.min.js" async></script>
@@ -2462,7 +2475,7 @@ function showPage(name){
   if(name==='map') initMap();
   if(name==='pro') initProPage();
   if(name==='print') initPrintPage();
-  if(name==='search') initSearchPage();
+  if(name==='search'){initSearchPage();try{loadSearchAds();}catch(e){}}
 }
 
 function initPrintPage(){
