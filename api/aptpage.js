@@ -69,6 +69,8 @@ function page(a) {
   const sggOpts = '<option value="">전체 시군구</option>';
 
   return '<!DOCTYPE html><html lang="ko"><head>'
++ '<script async src="https://www.googletagmanager.com/gtag/js?id=G-B2NJPFNP69"></script>'
++ '<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag(\'js\',new Date());gtag(\'config\',\'G-B2NJPFNP69\');</script>'
 + '<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">'
 + '<title>' + esc(title) + '</title>'
 + '<meta name="description" content="' + esc(desc) + '">'
