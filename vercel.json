@@ -2,5 +2,8 @@
   "cleanUrls": true,
   "rewrites": [
     { "source": "/apt/:code", "destination": "/api/aptpage?code=:code" }
+  ],
+  "headers": [
+    { "source": "/split_output/(.*)", "headers": [ { "key": "Cache-Control", "value": "public, max-age=86400, stale-while-revalidate=604800" } ] }
   ]
 }
