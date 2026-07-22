@@ -12,6 +12,15 @@ try { TEL = require('../split_output/kapt_tel.json'); } catch (e) {}
 const BY_CODE = new Map();
 for (const a of APTS) if (a && a.code) BY_CODE.set(a.code, a);
 
+// 시군구별 그룹 (주변 단지 내부링크용) — 콜드스타트 1회
+const BY_SGG = new Map();
+for (const a of APTS) {
+  if (!a || !a.code) continue;
+  const k = a.sigunguCode || (a.sido + '|' + a.sigungu);
+  if (!BY_SGG.has(k)) BY_SGG.set(k, []);
+  BY_SGG.get(k).push(a);
+}
+
 const BASE = 'https://a99.co.kr';
 const MAP = 'https://a99.co.kr';
 const AD_UNIT = 'DAN-VVNFKrpvthFpw6PS'; // 애드핏 광고단위(300x250, 하단)
@@ -40,6 +49,23 @@ function fmtTel(raw) {
   if (rest.length > 4) return a + '-' + rest.slice(0, rest.length - 4) + '-' + rest.slice(-4);
   if (rest.length === 4) return a + '-' + rest;
   return d;
+}
+
+// 주변 단지 내부링크 (같은 동 우선 → 같은 시군구) — 크롤러 순회·색인 가속 + 키워드 앵커
+function nearbyLinks(a) {
+  const k = a.sigunguCode || (a.sido + '|' + a.sigungu);
+  const pool = BY_SGG.get(k) || [];
+  const sameEmd = [], sameSgg = [];
+  for (const b of pool) {
+    if (!b || !b.code || b.code === a.code) continue;
+    if (a.emd && b.emd === a.emd) sameEmd.push(b); else sameSgg.push(b);
+  }
+  const list = sameEmd.concat(sameSgg).slice(0, 12);
+  if (!list.length) return '';
+  const items = list.map(b =>
+    '<li><a href="/apt/' + b.code + '">' + esc(b.name) + ' 관리사무소 전화번호</a></li>').join('');
+  const label = esc(a.emd || a.sigungu || '') + ' 주변 아파트 단지';
+  return '<section class="nearby"><h2>🏢 ' + label + '</h2><ul class="nearby-list">' + items + '</ul></section>';
 }
 
 function page(a) {
@@ -99,6 +125,7 @@ function page(a) {
 + '.ad{margin:0 16px 14px;border-radius:12px;padding:12px;text-align:center;font-size:11px}'
 + '.adA{background:linear-gradient(90deg,#fff7ed,#ffedd5);border:1.5px dashed #fdba74;color:#c2410c}'
 + 'footer{padding:18px 16px 40px;font-size:11px;color:#aaa;text-align:center}'
++ '.nearby ul{list-style:none;margin:0;padding:0}.nearby li{border-bottom:1px solid #f5f5f5}.nearby a{display:block;padding:11px 2px;font-size:14px;color:#1a1a1a;text-decoration:none}.nearby a:hover{color:#16a34a}'
 + '.side-ad{display:none}@media(min-width:1040px){.side-ad{display:block;position:fixed;top:50%;left:calc(50% + 340px);transform:translateY(-50%);z-index:50}}'
 + '.side-ad-l{display:none}@media(min-width:1040px){.side-ad-l{display:block;position:fixed;top:50%;left:calc(50% - 500px);transform:translateY(-50%);z-index:50}}'
 + '.sbar{position:relative;padding:12px 16px;background:#fff;border-bottom:1px solid #eee}'
@@ -129,6 +156,7 @@ function page(a) {
 + '<div class="info-row"><span class="k">단지분류</span><span class="v">' + esc(a.aptType || '아파트') + '</span></div>'
 + '<div class="info-row"><span class="k">현관구조</span><span class="v">' + esc(a.entrance || '-') + '</span></div>'
 + '</section>'
++ nearbyLinks(a)
 + '<div class="side-ad"><ins class="kakao_ad_area" style="display:none;" data-ad-unit="' + AD_UNIT_SIDE + '" data-ad-width="160" data-ad-height="600"></ins></div>'
 + '<div class="side-ad-l"><ins class="kakao_ad_area" style="display:none;" data-ad-unit="' + AD_UNIT_SIDE_L + '" data-ad-width="160" data-ad-height="600"></ins></div>'
 + '<div style="text-align:center;padding:14px 16px 4px"><ins class="kakao_ad_area" style="display:none;" data-ad-unit="' + AD_UNIT + '" data-ad-width="300" data-ad-height="250"></ins></div><script type="text/javascript" src="//t1.kakaocdn.net/kas/static/ba.min.js" async></script>'

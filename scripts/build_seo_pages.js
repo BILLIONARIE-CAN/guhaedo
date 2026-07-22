@@ -140,7 +140,8 @@ fs.mkdirSync(OUT, { recursive: true });
 let n = 0;
 for (const a of apts) { fs.writeFileSync(path.join(OUT, a.code + '.html'), page(a)); n++; }
 
-const urls = apts.map(a => '  <url><loc>' + BASE + '/apt/' + a.code + '</loc><changefreq>weekly</changefreq></url>').join('\n');
+const _today = new Date().toISOString().slice(0, 10);
+const urls = apts.map(a => '  <url><loc>' + BASE + '/apt/' + a.code + '</loc><lastmod>' + _today + '</lastmod><changefreq>weekly</changefreq></url>').join('\n');
 fs.writeFileSync(path.join(OUT, 'sitemap.xml'),
   '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + urls + '\n</urlset>\n');
 
