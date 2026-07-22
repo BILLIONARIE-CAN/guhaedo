@@ -76,6 +76,7 @@ function page(a) {
 + '<title>' + esc(title) + '</title>'
 + '<meta name="description" content="' + esc(desc) + '">'
 + '<link rel="canonical" href="' + url + '">'
++ '<link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="apple-touch-icon" href="/favicon-180.png">'
 + '<meta property="og:type" content="website"><meta property="og:title" content="' + esc(a.name) + ' 관리사무소 전화번호·실거래가 | 아구구">'
 + '<meta property="og:description" content="' + esc(desc) + '"><meta property="og:url" content="' + url + '"><meta property="og:site_name" content="아구구 a99">'
 + '<style>'
