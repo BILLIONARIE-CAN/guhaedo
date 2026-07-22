@@ -87,18 +87,25 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
 .map-right{flex:1;position:relative;width:100%;height:100%;overflow:hidden}
 
 /* 지도 상단 검색 오버레이 */
-.map-top-bar{position:absolute;top:12px;left:calc(50% + 26px);transform:translateX(-50%);z-index:100;display:flex;flex-direction:column;align-items:center;gap:8px;width:min(920px,calc(96vw - 52px))}
-.mfbar{background:#fff;border-radius:14px;box-shadow:0 2px 12px rgba(0,0,0,.15);padding:7px 10px;width:100%;overflow-x:auto}
-.mf-row{display:flex;align-items:center;gap:6px;white-space:nowrap;width:max-content}
-.mfc{border:1px solid #e2e8f0;background:#fff;border-radius:16px;padding:5px 11px;font-size:12px;font-family:inherit;color:#555;cursor:pointer}
-.mfc.on{background:#E1F5EE;border-color:#1D9E75;color:#0F6E56;font-weight:700}
-.mfc.soon,.mfd.soon{color:#a3a099;background:#f4f2ec;border-color:#e7e4dc}
-.mfd{border:1px solid #e2e8f0;background:#fff;border-radius:8px;padding:5px 8px;font-size:12px;font-family:inherit;color:#555;cursor:pointer;outline:none}
-.mfd.rst{font-size:14px;padding:5px 9px}
-.mf-sep{width:1px;height:18px;background:#e2e8f0;margin:0 2px;flex-shrink:0}
-.mflbl{display:inline-flex;border:1px solid #1D9E75;border-radius:8px;overflow:hidden}
-.mflbl button{border:none;background:#E1F5EE;color:#0F6E56;font-size:12px;font-family:inherit;padding:5px 10px;cursor:pointer}
-.mflbl button.on{background:#1D9E75;color:#fff;font-weight:700}
+.map-top-bar{position:absolute;top:12px;left:calc(50% + 26px);transform:translateX(-50%);z-index:100;display:flex;flex-direction:column;align-items:center;gap:8px;width:auto;max-width:min(960px,calc(96vw - 52px))}
+.mfbar{background:#fff;border-radius:12px;box-shadow:0 3px 14px rgba(0,0,0,.13);padding:8px 12px;max-width:100%;overflow-x:auto;scrollbar-width:none}
+.mfbar::-webkit-scrollbar{display:none}
+.mf-row{display:flex;align-items:center;gap:8px;white-space:nowrap;width:max-content}
+.mfc{display:inline-flex;align-items:center;gap:4px;border:1px solid #e5e7eb;background:#fff;border-radius:18px;padding:6px 13px;font-size:12.5px;font-family:inherit;color:#6b7280;cursor:pointer;transition:border-color .12s,background .12s}
+.mfc:hover{border-color:#cbd5e1}
+.mfc.on{background:#ecfdf5;border-color:#1D9E75;color:#0F6E56;font-weight:700}
+.mfc.on::before{content:'✓';font-size:11px;font-weight:700}
+.mfc.soon{color:#b6b3ab;border-style:dashed}
+.mfd{appearance:none;-webkit-appearance:none;border:1px solid #e5e7eb;background:#fff url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%239ca3af' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'><path d='M6 9l6 6 6-6'/></svg>") no-repeat right 9px center;border-radius:9px;padding:6px 28px 6px 13px;font-size:12.5px;font-family:inherit;color:#374151;cursor:pointer;outline:none}
+.mfd:hover{border-color:#cbd5e1}
+.mfd.act{border-color:#1D9E75;color:#0F6E56;background-color:#ecfdf5;font-weight:600}
+.mfd.soon{color:#b6b3ab;border-style:dashed;background-image:none;padding:6px 13px}
+.mf-sep{width:1px;height:16px;background:#e5e7eb;margin:0 3px;flex-shrink:0}
+.mf-rst{border:none;background:none;color:#9ca3af;font-size:15px;cursor:pointer;padding:4px 7px;border-radius:7px}
+.mf-rst:hover{color:#1D9E75;background:#f3f4f6}
+.mflbl{display:inline-flex;background:#f3f4f6;border-radius:9px;padding:2px}
+.mflbl button{border:none;background:none;color:#6b7280;font-size:12px;font-family:inherit;padding:5px 12px;border-radius:7px;cursor:pointer;font-weight:600}
+.mflbl button.on{background:#1D9E75;color:#fff}
 .map-search-box{background:var(--white);border-radius:24px;box-shadow:0 2px 12px rgba(0,0,0,.15);display:flex;align-items:center;width:100%;height:44px;padding:0 16px;gap:8px}
 .map-search-box svg{flex-shrink:0;opacity:.45}
 .map-search-input{border:none;outline:none;font-size:14px;font-family:inherit;flex:1;background:transparent}
@@ -432,7 +439,7 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
         <select class="mfd" id="mf-built" onchange="applyMapFilters()"><option value="">준공</option><option value="min:2016">최근 10년</option><option value="min:2006">최근 20년</option><option value="max:2005">20년 이상</option></select>
         <button class="mfd soon" onclick="mfSoon()">가격대 ▾</button>
         <button class="mfd soon" onclick="mfSoon()">거래방식 ▾</button>
-        <button class="mfd rst" onclick="resetMapFilters()" title="필터 초기화">↺</button>
+        <button class="mf-rst" onclick="resetMapFilters()" title="필터 초기화">↺</button>
         <span class="mf-sep"></span>
         <span class="mflbl"><button id="mfl-name" class="on" onclick="setPinLabel('name')">명칭</button><button id="mfl-units" onclick="setPinLabel('units')">세대수</button></span>
       </div></div>
@@ -2436,8 +2443,8 @@ function filterList(q){renderList(q);}
 var mfUnits=0, mfArea='', mfBuilt='', pinLabelMode='name';
 function mfSoon(){ if(typeof toast==='function') toast('준비중이에요 🙏'); }
 function mfType(t,btn){ if(typeFilters.has(t)){typeFilters.delete(t);if(btn)btn.classList.remove('on');} else {typeFilters.add(t);if(btn)btn.classList.add('on');} if(map) updateMarkersForZoom(); }
-function applyMapFilters(){ mfUnits=parseInt(ge('mf-units').value)||0; mfArea=ge('mf-area').value||''; mfBuilt=ge('mf-built').value||''; if(map) updateMarkersForZoom(); }
-function resetMapFilters(){ ['mf-units','mf-area','mf-built'].forEach(function(id){var e=ge(id);if(e)e.value='';}); mfUnits=0;mfArea='';mfBuilt=''; ['apt','officetel'].forEach(function(t){typeFilters.add(t);var b=ge('mfc-'+t);if(b)b.classList.add('on');}); if(map) updateMarkersForZoom(); }
+function applyMapFilters(){ mfUnits=parseInt(ge('mf-units').value)||0; mfArea=ge('mf-area').value||''; mfBuilt=ge('mf-built').value||''; ['mf-units','mf-area','mf-built'].forEach(function(id){var e=ge(id);if(e)e.classList.toggle('act',!!e.value);}); if(map) updateMarkersForZoom(); }
+function resetMapFilters(){ ['mf-units','mf-area','mf-built'].forEach(function(id){var e=ge(id);if(e){e.value='';e.classList.remove('act');}}); mfUnits=0;mfArea='';mfBuilt=''; ['apt','officetel'].forEach(function(t){typeFilters.add(t);var b=ge('mfc-'+t);if(b)b.classList.add('on');}); if(map) updateMarkersForZoom(); }
 function setPinLabel(m){ pinLabelMode=m; var n=ge('mfl-name'),u=ge('mfl-units'); if(n)n.classList.toggle('on',m==='name'); if(u)u.classList.toggle('on',m==='units'); if(map) updateMarkersForZoom(); }
 function passMapFilter(d){
   if(d.type!=='apt'&&d.type!=='officetel'&&d.type!=='villa') return true;
