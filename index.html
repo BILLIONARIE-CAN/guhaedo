@@ -87,7 +87,18 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
 .map-right{flex:1;position:relative;width:100%;height:100%;overflow:hidden}
 
 /* 지도 상단 검색 오버레이 */
-.map-top-bar{position:absolute;top:12px;left:calc(50% + 26px);transform:translateX(-50%);z-index:100;display:flex;flex-direction:column;align-items:center;gap:8px;width:min(600px,calc(90vw - 52px))}
+.map-top-bar{position:absolute;top:12px;left:calc(50% + 26px);transform:translateX(-50%);z-index:100;display:flex;flex-direction:column;align-items:center;gap:8px;width:min(920px,calc(96vw - 52px))}
+.mfbar{background:#fff;border-radius:14px;box-shadow:0 2px 12px rgba(0,0,0,.15);padding:7px 10px;width:100%;overflow-x:auto}
+.mf-row{display:flex;align-items:center;gap:6px;white-space:nowrap;width:max-content}
+.mfc{border:1px solid #e2e8f0;background:#fff;border-radius:16px;padding:5px 11px;font-size:12px;font-family:inherit;color:#555;cursor:pointer}
+.mfc.on{background:#E1F5EE;border-color:#1D9E75;color:#0F6E56;font-weight:700}
+.mfc.soon,.mfd.soon{color:#a3a099;background:#f4f2ec;border-color:#e7e4dc}
+.mfd{border:1px solid #e2e8f0;background:#fff;border-radius:8px;padding:5px 8px;font-size:12px;font-family:inherit;color:#555;cursor:pointer;outline:none}
+.mfd.rst{font-size:14px;padding:5px 9px}
+.mf-sep{width:1px;height:18px;background:#e2e8f0;margin:0 2px;flex-shrink:0}
+.mflbl{display:inline-flex;border:1px solid #1D9E75;border-radius:8px;overflow:hidden}
+.mflbl button{border:none;background:#E1F5EE;color:#0F6E56;font-size:12px;font-family:inherit;padding:5px 10px;cursor:pointer}
+.mflbl button.on{background:#1D9E75;color:#fff;font-weight:700}
 .map-search-box{background:var(--white);border-radius:24px;box-shadow:0 2px 12px rgba(0,0,0,.15);display:flex;align-items:center;width:100%;height:44px;padding:0 16px;gap:8px}
 .map-search-box svg{flex-shrink:0;opacity:.45}
 .map-search-input{border:none;outline:none;font-size:14px;font-family:inherit;flex:1;background:transparent}
@@ -407,8 +418,24 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
   <div class="map-right">
     <div id="kakao-map"></div>
 
-    <!-- 상단 검색바 -->
+    <!-- 상단 필터바 -->
     <div class="map-top-bar">
+      <div class="mfbar"><div class="mf-row">
+        <button class="mfc on" id="mfc-apt" onclick="mfType('apt',this)">아파트</button>
+        <button class="mfc on" id="mfc-officetel" onclick="mfType('officetel',this)">오피스텔</button>
+        <button class="mfc soon" onclick="mfSoon()">분양권</button>
+        <button class="mfc soon" onclick="mfSoon()">재건축</button>
+        <button class="mfc soon" onclick="mfSoon()">재개발</button>
+        <span class="mf-sep"></span>
+        <select class="mfd" id="mf-units" onchange="applyMapFilters()"><option value="">세대수</option><option value="100">100세대+</option><option value="300">300세대+</option><option value="500">500세대+</option><option value="1000">1000세대+</option></select>
+        <select class="mfd" id="mf-area" onchange="applyMapFilters()"><option value="">면적</option><option value="u60">~20평대</option><option value="u85">20~30평</option><option value="u135">30~40평</option><option value="o135">40평 이상</option></select>
+        <select class="mfd" id="mf-built" onchange="applyMapFilters()"><option value="">준공</option><option value="min:2016">최근 10년</option><option value="min:2006">최근 20년</option><option value="max:2005">20년 이상</option></select>
+        <button class="mfd soon" onclick="mfSoon()">가격대 ▾</button>
+        <button class="mfd soon" onclick="mfSoon()">거래방식 ▾</button>
+        <button class="mfd rst" onclick="resetMapFilters()" title="필터 초기화">↺</button>
+        <span class="mf-sep"></span>
+        <span class="mflbl"><button id="mfl-name" class="on" onclick="setPinLabel('name')">명칭</button><button id="mfl-units" onclick="setPinLabel('units')">세대수</button></span>
+      </div></div>
       <div class="map-breadcrumb" id="map-breadcrumb" style="display:none">
         <span class="bc-item" onclick="bcClick(0)">전국</span>
       </div>
@@ -1634,6 +1661,7 @@ function renderVisibleMarkers(showType='apt'){
     if(showType==='apt' && !propTypes.includes(d.type)) return false;
     if(showType==='all' && curFilter!=='all' && d.type!==curFilter) return false;
     if(propTypes.includes(d.type) && !typeFilters.has(d.type)) return false;
+    if(!passMapFilter(d)) return false;
     if(d.type==='broker' && level>5) return false;
     return d.lat>=sw.getLat()&&d.lat<=ne.getLat()&&
            d.lng>=sw.getLng()&&d.lng<=ne.getLng();
@@ -1902,9 +1930,15 @@ function addMarker(d){
     box.style.cssText='border-radius:5px;overflow:hidden;border:'+brd;
     const nameCell='<div style="background:'+clr+';color:#fff;padding:3px 9px;font-size:11.5px;font-weight:700;text-align:center;line-height:1.3;white-space:nowrap">'+n+'</div>';
     const uCell=hasU?'<div style="background:#fff;color:#1a1a1a;padding:2px 9px 3px;font-size:11px;font-weight:600;text-align:center;line-height:1.35;white-space:nowrap">'+d.units+'</div>':'';
-    box.innerHTML=nameCell+uCell;
+    var tipClr2=tipClr;
+    if(pinLabelMode==='units'){
+      box.innerHTML='<div style="background:'+clr+';color:#fff;padding:3px 10px;font-size:11.5px;font-weight:700;text-align:center;line-height:1.3;white-space:nowrap">'+(hasU?d.units:n)+'</div>';
+      tipClr2=clr;
+    } else {
+      box.innerHTML=nameCell+uCell;
+    }
     const tip=document.createElement('div');
-    tip.style.cssText='width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;border-top:6px solid '+tipClr+';margin-top:-1px';
+    tip.style.cssText='width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;border-top:6px solid '+tipClr2+';margin-top:-1px';
     wrap.appendChild(box);wrap.appendChild(tip);
     wrap.onclick=function(){selectItem(d.id);};
     bc=wrap;
@@ -1939,7 +1973,7 @@ function renderMarkers(){
   markers=[];
   infoWindows.forEach(w=>w.setMap(null));
   infoWindows=[];
-  MAP_DATA.filter(d=>curFilter==='all'||d.type===curFilter).forEach(d=>{if(d.lat&&d.lng)addMarker(d);});
+  MAP_DATA.filter(d=>(curFilter==='all'||d.type===curFilter)&&passMapFilter(d)).forEach(d=>{if(d.lat&&d.lng)addMarker(d);});
 }
 
 function renderList(query=''){
@@ -2397,6 +2431,23 @@ function setFilter(f,el){
   renderList();
 }
 function filterList(q){renderList(q);}
+
+// ===== 지도 상단 필터바 (1단계: 유형·세대수·면적·준공 + 핀 라벨 토글) =====
+var mfUnits=0, mfArea='', mfBuilt='', pinLabelMode='name';
+function mfSoon(){ if(typeof toast==='function') toast('준비중이에요 🙏'); }
+function mfType(t,btn){ if(typeFilters.has(t)){typeFilters.delete(t);if(btn)btn.classList.remove('on');} else {typeFilters.add(t);if(btn)btn.classList.add('on');} if(map) updateMarkersForZoom(); }
+function applyMapFilters(){ mfUnits=parseInt(ge('mf-units').value)||0; mfArea=ge('mf-area').value||''; mfBuilt=ge('mf-built').value||''; if(map) updateMarkersForZoom(); }
+function resetMapFilters(){ ['mf-units','mf-area','mf-built'].forEach(function(id){var e=ge(id);if(e)e.value='';}); mfUnits=0;mfArea='';mfBuilt=''; ['apt','officetel'].forEach(function(t){typeFilters.add(t);var b=ge('mfc-'+t);if(b)b.classList.add('on');}); if(map) updateMarkersForZoom(); }
+function setPinLabel(m){ pinLabelMode=m; var n=ge('mfl-name'),u=ge('mfl-units'); if(n)n.classList.toggle('on',m==='name'); if(u)u.classList.toggle('on',m==='units'); if(map) updateMarkersForZoom(); }
+function passMapFilter(d){
+  if(d.type!=='apt'&&d.type!=='officetel'&&d.type!=='villa') return true;
+  if(mfUnits){ var u=parseInt(String(d.units).replace(/[^0-9]/g,''))||0; if(u<mfUnits) return false; }
+  if(mfBuilt){ var y=parseInt(String(d.built||'').slice(0,4))||0;
+    if(mfBuilt.slice(0,4)==='min:'){ if(!y||y<parseInt(mfBuilt.slice(4))) return false; }
+    else if(mfBuilt.slice(0,4)==='max:'){ if(!y||y>parseInt(mfBuilt.slice(4))) return false; } }
+  if(mfArea){ var ab=d.areaBreak; if(!ab||!(ab[mfArea]>0)) return false; }
+  return true;
+}
 
 function toggleTypePanel(){
   var p=ge('type-panel');
