@@ -26,6 +26,7 @@ const MAP = 'https://a99.co.kr';
 const AD_UNIT = 'DAN-VVNFKrpvthFpw6PS'; // 애드핏 광고단위(300x250, 하단)
 const AD_UNIT_SIDE = 'DAN-6hzBUhx1qcJKOIsS'; // 애드핏 광고단위(160x600, PC 우측 사이드)
 const AD_UNIT_SIDE_L = 'DAN-A9WnwICFDEl16jU1'; // 애드핏 광고단위(160x600, PC 좌측 사이드)
+const AD_UNIT_TOP = 'DAN-MS50ssMpQLYwDL5r'; // 애드핏 광고단위(320x100, 최상단 얇은 배너 — 320x100 재사용, 나중에 PC 728x90 분기 가능)
 const SIDO_LIST = ['서울특별시','부산광역시','대구광역시','인천광역시','광주광역시','대전광역시','울산광역시','세종특별자치시','경기도','강원특별자치도','충청북도','충청남도','전북특별자치도','전라남도','경상북도','경상남도','제주특별자치도'];
 // 도 → 시군구 목록 (콜드스타트 1회 계산, 페이지 스크립트에 주입 → 도 선택 시 시군구 자동 채움)
 const SGG_BY_SIDO = (function () {
@@ -128,6 +129,7 @@ function page(a) {
 + '.adA{background:linear-gradient(90deg,#fff7ed,#ffedd5);border:1.5px dashed #fdba74;color:#c2410c}'
 + 'footer{padding:18px 16px 40px;font-size:11px;color:#aaa;text-align:center}'
 + '.nearby ul{list-style:none;margin:0;padding:0}.nearby li{border-bottom:1px solid #f5f5f5}.nearby a{display:block;padding:11px 2px;font-size:14px;color:#1a1a1a;text-decoration:none}.nearby a:hover{color:#16a34a}'
++ '.top-ad-bar{width:100%;background:#fff;border-bottom:1px solid #eee;text-align:center;padding:5px 0;line-height:0}.top-ad-bar ins{line-height:normal}'
 + '.side-ad{display:none}@media(min-width:1040px){.side-ad{display:block;position:fixed;top:50%;left:calc(50% + 340px);transform:translateY(-50%);z-index:50}}'
 + '.side-ad-l{display:none}@media(min-width:1040px){.side-ad-l{display:block;position:fixed;top:50%;left:calc(50% - 500px);transform:translateY(-50%);z-index:50}}'
 + '.sbar{position:relative;padding:12px 16px;background:#fff;border-bottom:1px solid #eee}'
@@ -140,7 +142,9 @@ function page(a) {
 + '.sug-item b{font-size:14px;font-weight:700}.sug-item span{display:block;font-size:11px;color:#999;margin-top:2px}.sug-none{padding:12px 14px;color:#999;font-size:13px}'
 + '.share-btn{background:#f0fdf4;color:#166534;border:1px solid #bbf7d0;border-radius:8px;padding:6px 14px;font-size:14px;font-weight:700;cursor:pointer;font-family:inherit}'
 + '.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%) translateY(20px);background:#1a1a1a;color:#fff;padding:10px 18px;border-radius:20px;font-size:13px;opacity:0;transition:.25s;pointer-events:none;z-index:100}.toast.on{opacity:1;transform:translateX(-50%) translateY(0)}'
-+ '</style></head><body><div class="wrap">'
++ '</style></head><body>'
++ '<div class="top-ad-bar"><ins class="kakao_ad_area" style="display:none;" data-ad-unit="' + AD_UNIT_TOP + '" data-ad-width="320" data-ad-height="100"></ins></div>'
++ '<div class="wrap">'
 + '<header><a href="/" class="logo" style="text-decoration:none;cursor:pointer">아구<span>구</span></a><button class="share-btn" onclick="shareApt()">공유</button></header>'
 + '<div class="sbar"><div class="srow"><select id="sido-sel">' + sidoOpts + '</select><select id="sgg-sel">' + sggOpts + '</select></div><div class="srow"><input id="apt-q" type="text" placeholder="아파트 이름·초성 검색" autocomplete="off"><button id="apt-go" type="button">검색</button></div><div id="sug" class="sug"></div></div>'
 + '<div class="bc">' + esc(region) + ' › <b style="color:#555">' + esc(a.name) + '</b></div>'
