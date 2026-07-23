@@ -3715,6 +3715,14 @@ function fmtPTable(p){
   return p.toLocaleString()+'만';
 }
 
+// 툴팁용 전체 금액 (예: 4억 8,350만원 / 8,350만원 / 4억원)
+function fmtPFull(p){
+  p=Math.round(p);
+  var uk=Math.floor(p/10000), man=p%10000;
+  if(uk>0) return uk+'억'+(man>0?' '+man.toLocaleString()+'만원':'원');
+  return man.toLocaleString()+'만원';
+}
+
 function renderTradeChart(){
   var raw=tradeRawData;
   if(!raw)return;
@@ -3872,10 +3880,9 @@ function renderTradeChart(){
             label:function(c){
               var d=c.raw;
               if(typeof d==='object'&&d!==null&&'x'in d&&'y'in d){
-                var p=fmtP(d.y);
-                if(curTradeTab==='monthly')return '월세 '+p+'만'+(d.d?' 보증'+fmtP(d.d):'')+(d.a?' '+Math.round(d.a)+'㎡':'');
+                if(curTradeTab==='monthly')return '월세 '+Math.round(d.y).toLocaleString()+'만원'+(d.d?' / 보증금 '+fmtPFull(d.d):'')+(d.a?' · '+Math.round(d.a)+'㎡':'');
                 var preLbl=d.pre?(d.pre==='입'?'[입주권] ':'[분양권] '):'';
-                return preLbl+p+(d.a?' '+Math.round(d.a)+'㎡':'')+(d.f?' '+d.f+'층':'');
+                return preLbl+fmtPFull(d.y)+(d.a?' · '+Math.round(d.a)+'㎡':'')+(d.f?' · '+d.f+'층':'');
               }
               if(c.dataset.label==='건수')return '거래 '+c.raw+'건';
               return '';
