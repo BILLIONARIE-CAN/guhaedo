@@ -1,5 +1,13 @@
 {
   "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "^(?!a99\\.co\\.kr$).+$" }],
+      "destination": "https://a99.co.kr/:path*",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     { "source": "/apt/:code", "destination": "/api/aptpage?code=:code" }
   ],
