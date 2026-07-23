@@ -15,7 +15,7 @@
 <meta property="og:title" content="아구구 - 아파트 구할땐 구해줘!">
 <meta property="og:description" content="전국 아파트 관리사무소 전화번호·실거래가·단지정보를 지도에서 한눈에 찾는 서비스. 아파트 이름만 검색하면 바로 확인하세요.">
 <meta property="og:url" content="https://a99.co.kr/">
-<meta property="og:site_name" content="아구구 a99">
+<meta property="og:site_name" content="아구구">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="아구구 - 아파트 구할땐 구해줘!">
 <meta name="twitter:description" content="전국 아파트 관리사무소 전화번호·실거래가·단지정보를 지도에서 한눈에.">
@@ -72,6 +72,13 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
 .header-right{margin-left:auto;display:flex;align-items:center;gap:8px;flex-shrink:0}
 .pro-btn{background:var(--green);color:#fff;border:none;border-radius:var(--radius-sm);padding:7px 15px;font-size:13px;font-weight:700;cursor:pointer;font-family:inherit}
 .pro-btn:hover{background:var(--green-dark)}
+.header-icons{display:flex;align-items:center;gap:2px}
+.header-icons .hi{display:flex;flex-direction:column;align-items:center;gap:2px;padding:4px 10px;cursor:pointer;border-radius:9px;color:#4b5563;background:none;border:none;font-family:inherit}
+.header-icons .hi:hover{background:#f3f7f5;color:var(--green-dark)}
+.header-icons .hi svg{width:19px;height:19px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.header-icons .hi span{font-size:10.5px;font-weight:600;white-space:nowrap}
+.header-icons .hi.pri{color:var(--green-dark)}
+.header-icons .h-div{width:1px;height:24px;background:#eee;margin:0 3px}
 
 /* ===== 페이지 ===== */
 .page{display:none;flex:1;overflow:hidden;width:100%}
@@ -220,6 +227,7 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
   /* 헤더 탭 → 햄버거 메뉴로 숨김 */
   .header-inner .nav-tab{display:none}
   .header-inner .pro-btn{display:none}
+  .header-inner .header-icons{display:none}
   .mobile-menu-btn{display:flex!important}
 
   /* 지도 위 검색바 숨김 */
@@ -406,7 +414,13 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
       <div class="nav-tab" id="nav-calc" onclick="showPage('calc')">🧮 계산기</div>
     </div>
     <div class="header-right">
-      <button class="pro-btn" onclick="showPage('pro')">PRO 중개사</button>
+      <div class="header-icons">
+        <button class="hi pri" onclick="openSellModal()"><svg viewBox="0 0 24 24"><path d="M12 3l2.5 5 5.5.8-4 3.9.9 5.5L12 15.5 7.1 18.2l.9-5.5-4-3.9 5.5-.8z"/></svg><span>집내놓기</span></button>
+        <button class="hi" onclick="showPage('pro')"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.2"/><path d="M5.5 20a6.5 6.5 0 0 1 13 0"/></svg><span>중개사</span></button>
+        <button class="hi" onclick="openReportModal('')"><svg viewBox="0 0 24 24"><path d="M4 4v16"/><path d="M4 5h11l-1.5 3L15 11H4"/></svg><span>단지제보</span></button>
+        <span class="h-div"></span>
+        <button class="hi" onclick="openGuideModal()"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg><span>이용안내</span></button>
+      </div>
       <button class="mobile-menu-btn" onclick="toggleMobileMenu()" style="background:none;border:none;font-size:22px;cursor:pointer;padding:4px 8px">☰</button>
     </div>
     <div id="mobile-menu" style="display:none;position:absolute;top:100%;right:10px;background:#fff;border-radius:8px;box-shadow:0 4px 16px rgba(0,0,0,.15);z-index:200;overflow:hidden;min-width:140px">
@@ -983,6 +997,25 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
 <!-- 단지 제보 버튼 (지도에 없는/잘못된 단지 신고) -->
 <button id="report-fab" onclick="openReportModal('')" style="position:fixed;left:14px;bottom:88px;z-index:300;background:var(--green);color:#fff;border:none;border-radius:22px;padding:10px 15px;font-size:13px;font-weight:700;font-family:inherit;box-shadow:0 2px 10px rgba(0,0,0,.22);cursor:pointer">🚩 단지 제보</button>
 
+<!-- 이용안내 모달 -->
+<div class="modal-overlay" id="guide-modal" onclick="if(event.target===this)closeGuideModal()">
+  <div class="modal-box">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px">
+      <div style="font-size:16px;font-weight:700">🏠 아구구 이용안내</div>
+      <button onclick="closeGuideModal()" style="background:none;border:none;font-size:20px;cursor:pointer;color:var(--text3)">×</button>
+    </div>
+    <div style="font-size:13px;color:var(--text2);line-height:1.7">
+      <p style="margin-bottom:10px"><b style="color:var(--green-dark)">아구구</b>는 전국 아파트의 <b>관리사무소 전화번호·실거래가·단지정보</b>를 지도에서 한눈에 찾는 서비스예요.</p>
+      <p style="margin-bottom:6px;font-weight:700;color:#111">이렇게 쓰세요</p>
+      <p style="margin-bottom:4px">· 지도에서 단지 핀을 누르면 관리사무소 번호·실거래가·기본정보가 나와요.</p>
+      <p style="margin-bottom:4px">· 상단 <b>아파트검색</b> 탭에서 단지명으로 바로 찾을 수 있어요.</p>
+      <p style="margin-bottom:4px">· <b>계산기</b>에서 중개보수·취득세 등을 계산할 수 있어요.</p>
+      <p style="margin-bottom:10px">· 지도에 없는 단지는 <b>단지제보</b>로 알려주시면 반영해요.</p>
+      <p style="font-size:12px;color:var(--text3)">공공데이터 기반 참고용 정보이며 실제와 차이가 있을 수 있어요.</p>
+    </div>
+  </div>
+</div>
+
 <!-- 단지 제보 모달 -->
 <div class="modal-overlay" id="report-modal" onclick="if(event.target===this)closeReportModal()">
   <div class="modal-box">
@@ -1135,6 +1168,8 @@ function toast(msg){const t=ge('toast');t.textContent=msg;t.classList.add('show'
 var _reportPrefill='';
 function openReportModal(name){var m=ge('report-modal');if(!m)return;ge('report-name').value=name||_reportPrefill||'';ge('report-addr').value='';ge('report-memo').value='';m.style.display='block';ge('report-name').focus();}
 function closeReportModal(){var m=ge('report-modal');if(m)m.style.display='none';}
+function openGuideModal(){var m=ge('guide-modal');if(m)m.style.display='block';}
+function closeGuideModal(){var m=ge('guide-modal');if(m)m.style.display='none';}
 async function submitReport(){
   var name=(ge('report-name').value||'').trim();
   if(!name){toast('단지명을 입력해주세요');return;}
