@@ -114,6 +114,27 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
 .mflbl{display:inline-flex;background:#f3f4f6;border-radius:9px;padding:2px}
 .mflbl button{border:none;background:none;color:#6b7280;font-size:12px;font-family:inherit;padding:5px 12px;border-radius:7px;cursor:pointer;font-weight:600}
 .mflbl button.on{background:#1D9E75;color:#fff}
+/* 필터 드롭다운 패널 (레퍼런스형) */
+.mfc.open{background:#ecfdf5;border-color:#1D9E75;color:#0F6E56;font-weight:700}
+.mfc .mfc-cv{margin-left:2px;font-size:10px}
+.mfpanel{position:absolute;top:100%;left:50%;transform:translateX(-50%);margin-top:8px;background:#fff;border-radius:14px;box-shadow:0 8px 28px rgba(0,0,0,.18);padding:16px 16px 14px;width:320px;max-width:calc(100vw - 24px);z-index:130}
+.mfp-title{font-size:13px;font-weight:800;color:#111827;margin-bottom:14px}
+.mfp-slider{position:relative;height:22px;margin:0 4px 6px}
+.mfp-slider .mfp-base{position:absolute;left:0;right:0;top:50%;transform:translateY(-50%);height:4px;background:#e5e7eb;border-radius:2px}
+.mfp-slider .mfp-fill{position:absolute;height:100%;background:#1D9E75;border-radius:2px}
+.mfp-slider input[type=range]{position:absolute;width:100%;top:50%;transform:translateY(-50%);background:none;outline:none;pointer-events:none;-webkit-appearance:none;appearance:none;height:4px;margin:0;padding:0}
+.mfp-slider input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;pointer-events:auto;width:18px;height:18px;border-radius:50%;background:#fff;border:2px solid #1D9E75;box-shadow:0 1px 4px rgba(0,0,0,.25);cursor:pointer}
+.mfp-slider input[type=range]::-moz-range-thumb{pointer-events:auto;width:18px;height:18px;border-radius:50%;background:#fff;border:2px solid #1D9E75;box-shadow:0 1px 4px rgba(0,0,0,.25);cursor:pointer}
+.mfp-axis{display:flex;justify-content:space-between;font-size:10px;color:#9ca3af;margin:0 2px 12px}
+.mfp-val{text-align:center;font-size:12px;color:#0F6E56;font-weight:700;margin-bottom:10px;min-height:15px}
+.mfp-presets{display:flex;flex-wrap:wrap;gap:6px}
+.mfp-pre{border:1px solid #e5e7eb;background:#fff;color:#374151;border-radius:8px;padding:7px 0;font-size:12px;font-family:inherit;cursor:pointer;flex:1 0 calc(25% - 6px);text-align:center;transition:all .12s}
+.mfp-pre:hover{border-color:#1D9E75}
+.mfp-pre.on{background:#1D9E75;border-color:#1D9E75;color:#fff;font-weight:700}
+.mfp-foot{display:flex;justify-content:space-between;align-items:center;margin-top:12px;padding-top:10px;border-top:1px solid #f0f0f0}
+.mfp-reset{border:none;background:none;color:#6b7280;font-size:12px;font-family:inherit;cursor:pointer;display:inline-flex;align-items:center;gap:4px}
+.mfp-reset:hover{color:#1D9E75}
+.mfp-done{border:none;background:#1D9E75;color:#fff;border-radius:8px;padding:7px 18px;font-size:12px;font-weight:700;font-family:inherit;cursor:pointer}
 .map-search-box{background:var(--white);border-radius:24px;box-shadow:0 2px 12px rgba(0,0,0,.15);display:flex;align-items:center;width:100%;height:44px;padding:0 16px;gap:8px}
 .map-search-box svg{flex-shrink:0;opacity:.45}
 .map-search-input{border:none;outline:none;font-size:14px;font-family:inherit;flex:1;background:transparent}
@@ -465,15 +486,24 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
         <button class="mfc soon" onclick="mfSoon()">재건축</button>
         <button class="mfc soon" onclick="mfSoon()">재개발</button>
         <span class="mf-sep"></span>
-        <select class="mfd" id="mf-units" onchange="applyMapFilters()"><option value="">세대수</option><option value="100">100세대+</option><option value="300">300세대+</option><option value="500">500세대+</option><option value="1000">1000세대+</option></select>
-        <select class="mfd" id="mf-area" onchange="applyMapFilters()"><option value="">면적</option><option value="u60">~20평대</option><option value="u85">20~30평</option><option value="u135">30~40평</option><option value="o135">40평 이상</option></select>
-        <select class="mfd" id="mf-built" onchange="applyMapFilters()"><option value="">준공</option><option value="min:2016">최근 10년</option><option value="min:2006">최근 20년</option><option value="max:2005">20년 이상</option></select>
-        <button class="mfd soon" onclick="mfSoon()">가격대 ▾</button>
-        <button class="mfd soon" onclick="mfSoon()">거래방식 ▾</button>
-        <button class="mf-rst" onclick="resetMapFilters()" title="필터 초기화">↺</button>
+        <button class="mfc" id="mfc-area" onclick="mfPanel('area',this)">평형</button>
+        <button class="mfc" id="mfc-units" onclick="mfPanel('units',this)">세대수</button>
+        <button class="mfc" id="mfc-age" onclick="mfPanel('age',this)">입주년차</button>
+        <button class="mfc soon" onclick="mfSoon()">매매실거래가</button>
+        <button class="mfc soon" onclick="mfSoon()">평당가격</button>
+        <button class="mfc soon" onclick="mfSoon()">매매가(매물)</button>
+        <button class="mfc soon" onclick="mfSoon()">전세가(매물)</button>
+        <button class="mfc soon" onclick="mfSoon()">매매전세갭</button>
+        <button class="mfc soon" onclick="mfSoon()">전세가율</button>
+        <button class="mfc soon" onclick="mfSoon()">거래회전율</button>
+        <button class="mfc soon" onclick="mfSoon()">대지지분</button>
+        <button class="mfc soon" onclick="mfSoon()">용적률</button>
+        <button class="mfc soon" onclick="mfSoon()">건폐율</button>
+        <button class="mf-rst" onclick="resetMapFilters()" title="필터 초기화">↺ 초기화</button>
         <span class="mf-sep"></span>
         <span class="mflbl"><button id="mfl-name" class="on" onclick="setPinLabel('name')">명칭</button><button id="mfl-units" onclick="setPinLabel('units')">세대수</button></span>
       </div></div>
+      <div id="mf-panel" class="mfpanel" style="display:none"></div>
       <div class="map-breadcrumb" id="map-breadcrumb" style="display:none">
         <span class="bc-item" onclick="bcClick(0)">전국</span>
       </div>
@@ -2531,19 +2561,127 @@ function setFilter(f,el){
 function filterList(q){renderList(q);}
 
 // ===== 지도 상단 필터바 (1단계: 유형·세대수·면적·준공 + 핀 라벨 토글) =====
-var mfUnits=0, mfArea='', mfBuilt='', pinLabelMode='name';
+var pinLabelMode='name';
+var MF_CUR_YEAR=new Date().getFullYear();
+// 필터 상태: area=버킷키('' 전체), units/age=[lo,hi] 또는 null(전체)
+var MF_STATE={area:'',units:null,age:null};
+var MF_CFG={
+  area:{label:'평형', bucket:true,
+    presets:[['','전체'],['u60','~20평대'],['u85','20~30평'],['u135','30~40평'],['o135','40평대~']]},
+  units:{label:'세대수', min:0,max:1000,step:10, suffix:'세대', axis:['0','','500','','1000세대'],
+    presets:[[null,'전체'],[[50,1000],'50세대~'],[[100,1000],'100~'],[[200,1000],'200~'],[[300,1000],'300~'],[[500,1000],'500~'],[[1000,1000],'1000~']]},
+  age:{label:'입주년차', min:0,max:40,step:1, suffix:'년', axis:['0','10','20','30','40년'],
+    presets:[[null,'전체'],[[0,2],'~2년'],[[0,3],'~3년'],[[0,5],'~5년'],[[0,10],'~10년'],[[0,20],'~20년'],[[5,40],'5년~'],[[10,40],'10년~'],[[20,40],'20년~'],[[30,40],'30년~'],[[40,40],'40년~']]}
+};
 function mfSoon(){ if(typeof toast==='function') toast('준비중이에요 🙏'); }
 function mfType(t,btn){ if(typeFilters.has(t)){typeFilters.delete(t);if(btn)btn.classList.remove('on');} else {typeFilters.add(t);if(btn)btn.classList.add('on');} if(map) updateMarkersForZoom(); }
-function applyMapFilters(){ mfUnits=parseInt(ge('mf-units').value)||0; mfArea=ge('mf-area').value||''; mfBuilt=ge('mf-built').value||''; ['mf-units','mf-area','mf-built'].forEach(function(id){var e=ge(id);if(e)e.classList.toggle('act',!!e.value);}); if(map) updateMarkersForZoom(); }
-function resetMapFilters(){ ['mf-units','mf-area','mf-built'].forEach(function(id){var e=ge(id);if(e){e.value='';e.classList.remove('act');}}); mfUnits=0;mfArea='';mfBuilt=''; ['apt','officetel'].forEach(function(t){typeFilters.add(t);var b=ge('mfc-'+t);if(b)b.classList.add('on');}); if(map) updateMarkersForZoom(); }
 function setPinLabel(m){ pinLabelMode=m; var n=ge('mfl-name'),u=ge('mfl-units'); if(n)n.classList.toggle('on',m==='name'); if(u)u.classList.toggle('on',m==='units'); if(map) updateMarkersForZoom(); }
+
+var mfOpenKey=null;
+function mfPanel(key,btn){
+  var p=ge('mf-panel');
+  if(mfOpenKey===key){ mfClosePanel(); return; }
+  mfOpenKey=key;
+  document.querySelectorAll('.mfc').forEach(function(c){c.classList.remove('open');});
+  if(btn) btn.classList.add('open');
+  p.innerHTML=mfPanelHTML(key);
+  p.style.display='block';
+  if(!MF_CFG[key].bucket) mfInitSlider(key);
+}
+function mfClosePanel(){ mfOpenKey=null; var p=ge('mf-panel'); if(p)p.style.display='none'; document.querySelectorAll('.mfc').forEach(function(c){c.classList.remove('open');}); }
+function mfPanelHTML(key){
+  var cfg=MF_CFG[key];
+  var html='<div class="mfp-title">'+cfg.label+'</div>';
+  if(cfg.bucket){
+    var cur=MF_STATE.area;
+    html+='<div class="mfp-presets">'+cfg.presets.map(function(p){
+      return '<button class="mfp-pre'+(p[0]===cur?' on':'')+'" onclick="mfSetBucket(\''+p[0]+'\')">'+p[1]+'</button>';
+    }).join('')+'</div>';
+  } else {
+    var st=MF_STATE[key]; var lo=st?st[0]:cfg.min, hi=st?st[1]:cfg.max;
+    html+='<div class="mfp-val" id="mfp-val"></div>'+
+      '<div class="mfp-slider"><div class="mfp-base"><div class="mfp-fill" id="mfp-fill"></div></div>'+
+      '<input type="range" id="mfp-lo" min="'+cfg.min+'" max="'+cfg.max+'" step="'+cfg.step+'" value="'+lo+'">'+
+      '<input type="range" id="mfp-hi" min="'+cfg.min+'" max="'+cfg.max+'" step="'+cfg.step+'" value="'+hi+'"></div>'+
+      '<div class="mfp-axis">'+cfg.axis.map(function(a){return '<span>'+a+'</span>';}).join('')+'</div>'+
+      '<div class="mfp-presets">'+cfg.presets.map(function(p,i){
+        var on=mfPresetActive(key,p[0]); return '<button class="mfp-pre'+(on?' on':'')+'" onclick="mfSetPreset(\''+key+'\','+i+')">'+p[1]+'</button>';
+      }).join('')+'</div>';
+  }
+  html+='<div class="mfp-foot"><button class="mfp-reset" onclick="mfClearOne(\''+key+'\')">↺ 초기화</button><button class="mfp-done" onclick="mfClosePanel()">적용</button></div>';
+  return html;
+}
+function mfPresetActive(key,val){
+  var st=MF_STATE[key];
+  if(val===null) return !st;
+  if(!st) return false;
+  return st[0]===val[0]&&st[1]===val[1];
+}
+function mfInitSlider(key){
+  var cfg=MF_CFG[key], lo=ge('mfp-lo'), hi=ge('mfp-hi');
+  function upd(){
+    var a=+lo.value,b=+hi.value; if(a>b){ var t=a;a=b;b=t; }
+    var fill=ge('mfp-fill'); var span=cfg.max-cfg.min;
+    fill.style.left=((a-cfg.min)/span*100)+'%';
+    fill.style.width=((b-a)/span*100)+'%';
+    var loT=a+cfg.suffix, hiT=(b>=cfg.max?cfg.max+cfg.suffix+'+':b+cfg.suffix);
+    ge('mfp-val').textContent=(a<=cfg.min&&b>=cfg.max)?'전체':(loT+' ~ '+hiT);
+  }
+  function commit(){
+    var a=Math.min(+lo.value,+hi.value), b=Math.max(+lo.value,+hi.value);
+    MF_STATE[key]=(a<=cfg.min&&b>=cfg.max)?null:[a,b];
+    document.querySelectorAll('#mf-panel .mfp-pre').forEach(function(btn,i){ btn.classList.toggle('on',mfPresetActive(key,cfg.presets[i][0])); });
+    mfSyncChip(key); if(map) updateMarkersForZoom();
+  }
+  lo.oninput=upd; hi.oninput=upd; lo.onchange=commit; hi.onchange=commit;
+  upd();
+}
+function mfSetPreset(key,i){
+  var cfg=MF_CFG[key], val=cfg.presets[i][0];
+  MF_STATE[key]=val?[val[0],val[1]]:null;
+  var lo=ge('mfp-lo'), hi=ge('mfp-hi');
+  if(lo&&hi){ lo.value=val?val[0]:cfg.min; hi.value=val?val[1]:cfg.max; lo.oninput(); }
+  document.querySelectorAll('#mf-panel .mfp-pre').forEach(function(btn,j){ btn.classList.toggle('on',j===i); });
+  mfSyncChip(key); if(map) updateMarkersForZoom();
+}
+function mfSetBucket(v){
+  MF_STATE.area=v;
+  document.querySelectorAll('#mf-panel .mfp-pre').forEach(function(btn){ btn.classList.toggle('on', btn.getAttribute('onclick').indexOf("'"+v+"'")>-1); });
+  mfSyncChip('area'); if(map) updateMarkersForZoom();
+}
+function mfClearOne(key){
+  MF_STATE[key]=key==='area'?'':null;
+  if(mfOpenKey===key){ var p=ge('mf-panel'); p.innerHTML=mfPanelHTML(key); if(!MF_CFG[key].bucket) mfInitSlider(key); }
+  mfSyncChip(key); if(map) updateMarkersForZoom();
+}
+function mfSyncChip(key){
+  var chip=ge('mfc-'+key); if(!chip) return;
+  var active = key==='area' ? !!MF_STATE.area : !!MF_STATE[key];
+  chip.classList.toggle('on',active);
+}
+function resetMapFilters(){
+  MF_STATE={area:'',units:null,age:null};
+  ['area','units','age'].forEach(mfSyncChip);
+  ['apt','officetel'].forEach(function(t){typeFilters.add(t);var b=ge('mfc-'+t);if(b)b.classList.add('on');});
+  mfClosePanel();
+  if(map) updateMarkersForZoom();
+}
+// 패널 밖 클릭 시 닫기
+document.addEventListener('click',function(e){
+  if(!mfOpenKey) return;
+  if(e.target.closest('#mf-panel')||e.target.closest('.mfc')) return;
+  mfClosePanel();
+});
 function passMapFilter(d){
   if(d.type!=='apt'&&d.type!=='officetel'&&d.type!=='villa') return true;
-  if(mfUnits){ var u=parseInt(String(d.units).replace(/[^0-9]/g,''))||0; if(u<mfUnits) return false; }
-  if(mfBuilt){ var y=parseInt(String(d.built||'').slice(0,4))||0;
-    if(mfBuilt.slice(0,4)==='min:'){ if(!y||y<parseInt(mfBuilt.slice(4))) return false; }
-    else if(mfBuilt.slice(0,4)==='max:'){ if(!y||y>parseInt(mfBuilt.slice(4))) return false; } }
-  if(mfArea){ var ab=d.areaBreak; if(!ab||!(ab[mfArea]>0)) return false; }
+  if(MF_STATE.units){ var u=parseInt(String(d.units).replace(/[^0-9]/g,''))||0;
+    if(u<MF_STATE.units[0]) return false;
+    if(MF_STATE.units[1]<1000 && u>MF_STATE.units[1]) return false; }
+  if(MF_STATE.age){ var y=parseInt(String(d.built||'').slice(0,4))||0; if(!y) return false;
+    var age=MF_CUR_YEAR-y; if(age<0) age=0;
+    if(age<MF_STATE.age[0]) return false;
+    if(MF_STATE.age[1]<40 && age>MF_STATE.age[1]) return false; }
+  if(MF_STATE.area){ var ab=d.areaBreak; if(!ab||!(ab[MF_STATE.area]>0)) return false; }
   return true;
 }
 
