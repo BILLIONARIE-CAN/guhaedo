@@ -1,0 +1,30 @@
+name: 실거래가 캐시 워밍
+
+# GitHub Actions가 자동으로 워밍 엔드포인트를 반복 호출 → 캐시 채움.
+# - 20분마다 자동 실행 (GitHub 사정상 지연될 수 있음)
+# - 수동 실행(Run workflow) 버튼도 있음
+# - 하루 한도 도달('paused')하거나 완료('done')하면 그 회차는 즉시 종료
+# 워밍 전부 끝나면 이 파일 삭제하면 됨.
+
+on:
+  schedule:
+    - cron: '*/20 * * * *'
+  workflow_dispatch:
+
+jobs:
+  warm:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 워밍 반복 호출
+        run: |
+          URL="https://a99.co.kr/api/warm?secret=3c4fc034da972bac20f024ef003bf1ec"
+          for i in $(seq 1 40); do
+            RES=$(curl -s --max-time 30 "$URL")
+            echo "[$i] $RES"
+            case "$RES" in
+              *'"done":true'*)   echo "✅ 전체 워밍 완료"; exit 0 ;;
+              *'"paused"'*)      echo "⏸ 오늘 한도 도달 — 내일 이어서"; exit 0 ;;
+              *'"stopped"'*)     echo "⚠️ 국토부 API 오류/한도 — 중단"; exit 0 ;;
+            esac
+            sleep 5
+          done

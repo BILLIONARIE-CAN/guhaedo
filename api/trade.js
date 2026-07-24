@@ -27,13 +27,15 @@ async function getCached(code, ym) {
     row.apt_name_clean = packed[0] || '';
     row.legal_dong = packed[1] || '';
     row.jibun_full = packed[2] || '';
-    // 2개월 이상 지난 월: 영구 유효
+    // 거래취소(계약해제)가 뒤늦게 반영될 수 있어 3단계 TTL:
+    //  최근 2개월=24h, 2~7개월=7일(취소 반영), 7개월+=영구
     const ymDate = new Date(parseInt(ym.slice(0,4)), parseInt(ym.slice(4,6))-1, 1);
-    const cutoff = new Date(); cutoff.setMonth(cutoff.getMonth()-2);
-    if (ymDate < cutoff) return row;
-    // 최근 2개월: 24시간 TTL
-    if (Date.now() - new Date(row.fetched_at).getTime() < 86400000) return row;
-    return null;
+    const cutPerm = new Date(); cutPerm.setMonth(cutPerm.getMonth()-7);
+    const cutRecent = new Date(); cutRecent.setMonth(cutRecent.getMonth()-2);
+    const age = Date.now() - new Date(row.fetched_at).getTime();
+    if (ymDate < cutPerm) return row;                               // 7개월+ : 영구
+    if (ymDate < cutRecent) return age < 7*86400000 ? row : null;    // 2~7개월 : 7일 TTL
+    return age < 86400000 ? row : null;                             // 최근 2개월 : 24시간 TTL
   } catch { return null; }
 }
 
@@ -48,12 +50,17 @@ async function getCachedBatch(code, months) {
     const rows = await r.json();
     const out = {};
     if (Array.isArray(rows)) {
-      const cutoff = new Date(); cutoff.setMonth(cutoff.getMonth() - 2);
+      const cutPerm = new Date(); cutPerm.setMonth(cutPerm.getMonth() - 7);
+      const cutRecent = new Date(); cutRecent.setMonth(cutRecent.getMonth() - 2);
       for (const row of rows) {
         if (new Date(row.fetched_at).getTime() < Date.parse('2026-06-14T07:00:00Z')) continue; // 구버전 무효
         const ymDate = new Date(parseInt(row.ym.slice(0,4)), parseInt(row.ym.slice(4,6)) - 1, 1);
-        if (!(ymDate < cutoff) && Date.now() - new Date(row.fetched_at).getTime() >= 86400000) continue; // 최근월 24h TTL
-        out[row.ym] = row;
+        const age = Date.now() - new Date(row.fetched_at).getTime();
+        let ok;
+        if (ymDate < cutPerm) ok = true;                  // 7개월+ : 영구
+        else if (ymDate < cutRecent) ok = age < 7*86400000; // 2~7개월 : 7일 TTL(취소 반영)
+        else ok = age < 86400000;                         // 최근 2개월 : 24시간 TTL
+        if (ok) out[row.ym] = row;
       }
     }
     return out;
