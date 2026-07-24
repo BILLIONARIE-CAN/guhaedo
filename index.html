@@ -95,7 +95,8 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
 .map-right{flex:1;position:relative;width:100%;height:100%;overflow:hidden}
 
 /* 지도 상단 검색 오버레이 */
-.map-top-bar{position:absolute;top:12px;left:calc(50% + 26px);transform:translateX(-50%);z-index:100;display:flex;flex-direction:column;align-items:center;gap:8px;width:auto;max-width:calc(100vw - 70px)}
+.map-top-bar{position:absolute;top:12px;left:68px;right:12px;z-index:100;display:flex;flex-direction:column;align-items:flex-start;gap:8px;transition:left .3s ease}
+body:has(#region-sidebar.open) .map-top-bar{left:468px}
 .mfbar{background:#fff;border-radius:12px;box-shadow:0 3px 14px rgba(0,0,0,.13);padding:8px 11px;max-width:100%;overflow-x:auto;scrollbar-width:none}
 .mfbar::-webkit-scrollbar{display:none}
 .mf-row{display:flex;align-items:center;gap:6px;white-space:nowrap;width:max-content}
@@ -117,7 +118,7 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
 /* 필터 드롭다운 패널 (레퍼런스형) */
 .mfc.open{background:#ecfdf5;border-color:#1D9E75;color:#0F6E56;font-weight:700}
 .mfc .mfc-cv{margin-left:2px;font-size:10px}
-.mfpanel{position:absolute;top:100%;left:50%;transform:translateX(-50%);margin-top:8px;background:#fff;border-radius:14px;box-shadow:0 8px 28px rgba(0,0,0,.18);padding:16px 16px 14px;width:320px;max-width:calc(100vw - 24px);z-index:130}
+.mfpanel{position:absolute;top:100%;left:0;margin-top:8px;background:#fff;border-radius:14px;box-shadow:0 8px 28px rgba(0,0,0,.18);padding:16px 16px 14px;width:320px;max-width:calc(100vw - 24px);z-index:130}
 .mfp-title{font-size:13px;font-weight:800;color:#111827;margin-bottom:14px}
 .mfp-slider{position:relative;height:22px;margin:0 4px 6px}
 .mfp-slider .mfp-base{position:absolute;left:0;right:0;top:50%;transform:translateY(-50%);height:4px;background:#e5e7eb;border-radius:2px}
