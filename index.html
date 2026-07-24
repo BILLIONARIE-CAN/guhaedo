@@ -137,6 +137,15 @@ header{background:var(--white);border-bottom:1px solid var(--border);position:re
 .adp-body{flex:1;overflow-y:auto;padding:16px}
 .adp-type{font-size:11px;color:var(--green-dark);font-weight:700;background:var(--green-bg);padding:2px 8px;border-radius:4px;display:inline-block;margin-bottom:8px}
 .adp-name{font-size:18px;font-weight:700;margin-bottom:4px}
+/* 릴스 캐러셀 */
+.reel-track{display:flex;gap:8px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+.reel-track::-webkit-scrollbar{display:none}
+.reel-slide{flex:0 0 100%;scroll-snap-align:center;display:flex;justify-content:center}
+.reel-crop{position:relative;width:100%;max-width:300px;height:400px;overflow:hidden;border-radius:12px;background:#000}
+.reel-crop iframe{position:absolute;top:-52px;left:50%;transform:translateX(-50%);width:326px;height:600px;border:0}
+.reel-dots{display:flex;justify-content:center;gap:6px;margin-top:8px}
+.reel-dot{width:6px;height:6px;border-radius:50%;background:var(--border);transition:background .2s,transform .2s}
+.reel-dot.active{background:var(--green);transform:scale(1.3)}
 .adp-addr{font-size:12px;color:var(--text3);margin-bottom:14px}
 .adp-info-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
 .adp-section{margin-top:16px;padding-top:12px;border-top:1px solid rgba(0,0,0,.08)}
@@ -2169,6 +2178,32 @@ function openBrokerSidebar(d){
   ge('broker-sidebar').classList.add('open');
 }
 
+// 단지코드별 릴스 목록 (중개사 릴스). 추후 단지마다 배열에 코드 추가.
+const REELS={
+  'A10020284':['DbHk-AgSA-k','DZxEXCfBaHb','DbDZaEJyvF0']
+};
+function renderReels(d){
+  var rw=ge('adp-reel');if(!rw)return;
+  var list=(d&&REELS[d.code])||[];
+  if(!list.length){rw.innerHTML='';rw.style.display='none';return;}
+  var slides=list.map(function(c){
+    return '<div class="reel-slide"><div class="reel-crop">'+
+      '<iframe src="https://www.instagram.com/reel/'+c+'/embed/" scrolling="no" allowtransparency="true" loading="lazy"></iframe>'+
+    '</div></div>';
+  }).join('');
+  var dots=list.length>1?'<div class="reel-dots">'+list.map(function(_,i){return '<div class="reel-dot'+(i===0?' active':'')+'"></div>';}).join('')+'</div>':'';
+  rw.innerHTML='<div class="reel-track" id="reel-track">'+slides+'</div>'+dots;
+  rw.style.display='block';
+  // 스와이프 시 도트 갱신
+  if(list.length>1){
+    var tr=ge('reel-track');
+    var dotEls=rw.querySelectorAll('.reel-dot');
+    tr.addEventListener('scroll',function(){
+      var i=Math.round(tr.scrollLeft/tr.clientWidth);
+      dotEls.forEach(function(el,idx){el.classList.toggle('active',idx===i);});
+    },{passive:true});
+  }
+}
 function openAptDetail(d){
   const panel=ge('apt-detail-panel');
   // 일반 단지 열 때 분양 정보 박스 제거 (분양 핀에서만 다시 주입됨)
@@ -2178,8 +2213,8 @@ function openAptDetail(d){
   ge('adp-type').textContent=typeNm;
   ge('adp-name').textContent=d.name;
 
-  // 릴스 (특정 단지에서만)
-  (function(){var rw=ge('adp-reel');if(!rw)return;if(d.code==='A10020284'){rw.innerHTML='<iframe src="https://www.instagram.com/reel/DbHk-AgSA-k/embed/" width="100%" height="500" frameborder="0" scrolling="no" allowtransparency="true" style="border:none;overflow:hidden;border-radius:8px;background:#fff"></iframe>';rw.style.display='block';}else{rw.innerHTML='';rw.style.display='none';}})();
+  // 릴스 (단지별, 스와이프 캐러셀)
+  renderReels(d);
 
   // ===== 1. 단지 기본 정보 =====
   function infoRow(l,v){return '<div class="adp-info-item"><div class="adp-info-label">'+l+'</div><div class="adp-info-val">'+(v||'-')+'</div></div>';}
