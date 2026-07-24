@@ -2179,7 +2179,7 @@ function openAptDetail(d){
   ge('adp-name').textContent=d.name;
 
   // 릴스 (특정 단지에서만)
-  (function(){var rw=ge('adp-reel');if(!rw)return;if(d.id==='A10020284'){rw.innerHTML='<iframe src="https://www.instagram.com/reel/DbHk-AgSA-k/embed/" width="100%" height="500" frameborder="0" scrolling="no" allowtransparency="true" style="border:none;overflow:hidden;border-radius:8px;background:#fff"></iframe>';rw.style.display='block';}else{rw.innerHTML='';rw.style.display='none';}})();
+  (function(){var rw=ge('adp-reel');if(!rw)return;if(d.code==='A10020284'){rw.innerHTML='<iframe src="https://www.instagram.com/reel/DbHk-AgSA-k/embed/" width="100%" height="500" frameborder="0" scrolling="no" allowtransparency="true" style="border:none;overflow:hidden;border-radius:8px;background:#fff"></iframe>';rw.style.display='block';}else{rw.innerHTML='';rw.style.display='none';}})();
 
   // ===== 1. 단지 기본 정보 =====
   function infoRow(l,v){return '<div class="adp-info-item"><div class="adp-info-label">'+l+'</div><div class="adp-info-val">'+(v||'-')+'</div></div>';}
