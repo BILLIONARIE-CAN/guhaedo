@@ -110,6 +110,22 @@ module.exports = async (req, res) => {
   if ((req.query.secret || '') !== WARM_SECRET) { res.status(403).json({ error: 'forbidden' }); return; }
   if (!SUPABASE_URL || !SUPABASE_KEY) { res.status(200).json({ ok: false, reason: 'no env' }); return; }
 
+  // 상태 확인 전용(HTML, 워밍 안 함) — 알림/모니터링용
+  if (req.query.status === '1') {
+    const st = await getState();
+    const cursor = st ? (st.cursor || 0) : 0;
+    const pct = ((cursor / TOTAL_TASKS) * 100).toFixed(1);
+    const done = cursor >= TOTAL_TASKS;
+    res.setHeader('Content-Type', 'text/html; charset=utf-8');
+    res.end(`<!doctype html><meta charset="utf-8"><body style="font-family:sans-serif;padding:20px;line-height:1.7">`
+      + `<h2>실거래가 워밍 상태</h2>`
+      + `<p>진행률: <b>${pct}%</b> (${cursor} / ${TOTAL_TASKS} 태스크)</p>`
+      + `<p>오늘 국토부 호출: ${st ? (st.calls_today || 0) : 0} · 마지막 실행일: ${st ? (st.day || '-') : '-'}</p>`
+      + `<p><b>${done ? '✅ 전국 워밍 완료' : '⏳ 진행 중'}</b></p>`
+      + `</body>`);
+    return;
+  }
+
   const t0 = Date.now();
   const today = new Date().toISOString().slice(0, 10);
   const st = await getState();
