@@ -2159,10 +2159,10 @@ async function loadSpecialists(kaptCode, aptName){
 function renderSpecialistCards(sec, aptName, brokers){
   const MAX = 2;
   const safePhone = p => (p||'').replace(/[^0-9\-]/g,'');
-  const isFull = brokers.length >= MAX;
-  const remaining = Math.max(0, MAX - brokers.length);
+  // 등록된 전문중개사가 없으면 섹션 통째로 숨김 (빈 '모집 중' 자리·카운트 노출 안 함)
+  if(!Array.isArray(brokers) || brokers.length===0){ sec.innerHTML=''; return; }
 
-  const brokerCards = brokers.map(b=>`
+  const brokerCards = brokers.slice(0,MAX).map(b=>`
     <div class="spec-card">
       <div class="spec-card-left">
         ${b.photo ? `<img class="spec-avatar" src="${b.photo}" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">` : ''}
@@ -2179,23 +2179,12 @@ function renderSpecialistCards(sec, aptName, brokers){
       </div>
     </div>`).join('');
 
-  const emptyCards = Array.from({length: remaining}, () => `
-    <div class="spec-empty-card">
-      <div class="spec-empty-icon">🏠</div>
-      <div class="spec-empty-text">모집 중</div>
-      <div class="spec-empty-sub">전문중개사 자리가 있습니다</div>
-    </div>`).join('');
-
-  const statusBadge = isFull
-    ? `<span style="font-size:11px;font-weight:700;color:#fff;background:#e53e3e;padding:2px 7px;border-radius:3px;margin-left:6px">마감</span>`
-    : `<span style="font-size:11px;font-weight:600;color:#38a169;margin-left:6px">${brokers.length}/${MAX}</span>`;
-
   sec.innerHTML = `
     <div class="spec-header">
-      <span class="spec-title">${aptName} 전문 중개사${statusBadge}</span>
-      <span class="spec-sub">${isFull ? '전문중개사 2자리가 모두 찼습니다' : '지역 전문 중개사에게 매물문의를 해보세요'}</span>
+      <span class="spec-title">${aptName} 전문 중개사</span>
+      <span class="spec-sub">지역 전문 중개사에게 매물문의를 해보세요</span>
     </div>
-    <div class="spec-cards">${brokerCards}${emptyCards}</div>
+    <div class="spec-cards">${brokerCards}</div>
   `;
 }
 
