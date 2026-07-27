@@ -2218,8 +2218,11 @@ function openBrokerSidebar(d){
 const REELS={
   'A10020284':['DbHk-AgSA-k','DZxEXCfBaHb','DbDZaEJyvF0']
 };
+// 릴스 기능 스위치: 나중에 다시 쓰려면 true 로만 바꾸면 부활 (REELS 목록·코드는 그대로 보존)
+var REELS_ENABLED=false;
 function renderReels(d){
   var rw=ge('adp-reel');if(!rw)return;
+  if(!REELS_ENABLED){ rw.innerHTML=''; rw.style.display='none'; return; }
   var list=(d&&REELS[d.code])||[];
   if(!list.length){rw.innerHTML='';rw.style.display='none';return;}
   var slides=list.map(function(c){
