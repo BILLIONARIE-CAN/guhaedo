@@ -71,6 +71,7 @@ function nearbyLinks(a) {
 
 function page(a) {
   const tel = fmtTel((TEL[a.code] && TEL[a.code].tel) || '');
+  const fax = fmtTel((TEL[a.code] && TEL[a.code].fax) || '');
   const region = [a.sido, a.sigungu, a.emd].filter(Boolean).join(' › ');
   const builtY = a.built ? String(a.built).slice(0, 4) : '';
   const title = a.name + ' 관리사무소 전화번호·실거래가·단지정보 | 아구구';
@@ -80,7 +81,8 @@ function page(a) {
   const url = BASE + '/apt/' + a.code;
   const telBlock = tel
     ? '<a class="tel" href="tel:' + tel.replace(/-/g, '') + '">📞 ' + tel + '</a><div class="tel-sub">관리사무소</div>'
-    : '<div class="tel-none">관리사무소 전화번호 준비 중</div>';
+      + (fax ? '<div class="fax">📠 ' + fax + '<span class="fax-lab"> 팩스</span></div>' : '')
+    : '';
   const facts = [
     ['세대수', a.units ? a.units + '세대' : '-'],
     ['준공', builtY ? builtY + '년' : '-'],
@@ -119,6 +121,7 @@ function page(a) {
 + '.telbox{margin:14px 0;padding:16px;background:#f0fdf4;border:1px solid #bbf7d0;border-radius:12px;text-align:center}'
 + '.tel{display:inline-block;font-size:24px;font-weight:800;color:#15803d;text-decoration:none}'
 + '.tel-sub{font-size:12px;color:#16a34a;margin-top:2px}.tel-none{color:#999;font-size:14px}'
++ '.fax{margin-top:8px;padding-top:8px;border-top:1px dashed #bbf7d0;font-size:15px;font-weight:700;color:#15803d}.fax-lab{font-size:11px;font-weight:600;color:#16a34a}'
 + '.cta{display:block;width:100%;background:#16a34a;color:#fff;text-align:center;font-weight:700;font-size:16px;padding:15px;border-radius:12px;text-decoration:none;box-shadow:0 4px 12px rgba(22,163,74,.3)}'
 + '.cta small{display:block;font-weight:400;font-size:12px;opacity:.9;margin-top:2px}'
 + '.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:#eee;border-top:1px solid #eee;border-bottom:1px solid #eee}'
@@ -152,7 +155,7 @@ function page(a) {
 + '<span class="badge">아파트 단지정보</span>'
 + '<h1>' + esc(a.name) + '</h1>'
 + '<div class="addr">' + esc(a.addr || a.jibunAddr || '') + '</div>'
-+ '<div class="telbox">' + telBlock + '</div>'
++ (tel ? '<div class="telbox">' + telBlock + '</div>' : '')
 + '<a class="cta" href="' + MAP + '/?apt=' + a.code + '">🗺️ 아구구 지도에서 실거래가·시세 보기<small>매매·전세 실거래 추이 · 주변 학교·매물 문의</small></a>'
 + '</div>'
 + '<div class="grid">' + facts + '</div>'
