@@ -5,8 +5,11 @@
 //  → 파일 2만개 안 만들고 페이지 2만개를 서버가 그때그때 렌더링
 // =============================================================
 const APTS = require('../split_output/coords_all_apt.json');
-let TEL = {};
-try { TEL = require('../split_output/kapt_tel.json'); } catch (e) {}
+let INFO = {};
+try { INFO = require('../split_output/kapt_info.json'); } catch (e) {
+  // 구버전 폴백: kapt_tel.json
+  try { INFO = require('../split_output/kapt_tel.json'); } catch (e2) {}
+}
 
 // code → 단지 조회용 Map (콜드스타트 1회, 이후 warm 캐시)
 const BY_CODE = new Map();
@@ -69,9 +72,45 @@ function nearbyLinks(a) {
   return '<section class="nearby"><h2>🏢 ' + label + '</h2><ul class="nearby-list">' + items + '</ul></section>';
 }
 
+// 평형대별 관리비 추정 섹션
+// avgFee: 세대당 월 평균 관리비(원), useArea: 총 전용면적(㎡), units: 세대수
+// areaBreak: { u60, u85, u135, o135 } — 각 구간 세대 수
+function feeSection(avgFee, useArea, units, areaBreak) {
+  if (!avgFee || !useArea || !units) return '';
+  const sqmPrice = avgFee * Number(units) / Number(useArea); // 원/㎡
+  if (!sqmPrice || sqmPrice < 100 || sqmPrice > 20000) return ''; // 비정상 데이터 제외
+
+  // 평형대 대표 면적 (구간별 중앙값 기준)
+  const bands = [
+    { key: 'u60',  label: '20평 이하', rep: 49  },
+    { key: 'u85',  label: '25평형대',  rep: 84  },
+    { key: 'u135', label: '33평형대',  rep: 110 },
+    { key: 'o135', label: '40평형 이상', rep: 150 },
+  ];
+  const ab = areaBreak || {};
+  const rows = bands
+    .filter(b => ab[b.key] > 0)
+    .map(b => {
+      const est = Math.round(sqmPrice * b.rep / 10000); // 만원 단위 반올림
+      return '<div class="fee-row">'
+        + '<span class="fee-py">' + b.label + '<small> (' + b.rep + '㎡)</small></span>'
+        + '<span class="fee-amt">약 ' + est + '만원</span>'
+        + '</div>';
+    }).join('');
+
+  if (!rows) return '';
+  const sqmStr = Math.round(sqmPrice).toLocaleString();
+  return '<section>'
+    + '<h2>💰 관리비 추정 <small style="font-size:11px;font-weight:400;color:#999">(K-apt 기준, ㎡당 ' + sqmStr + '원)</small></h2>'
+    + '<div class="fee-box">' + rows + '</div>'
+    + '<p style="font-size:11px;color:#aaa;margin-top:6px">* 단지 평균 기준 추정치. 사용량·타입에 따라 실제와 다를 수 있어요.</p>'
+    + '</section>';
+}
+
 function page(a) {
-  const tel = fmtTel((TEL[a.code] && TEL[a.code].tel) || '');
-  const fax = fmtTel((TEL[a.code] && TEL[a.code].fax) || '');
+  const inf = INFO[a.code] || {};
+  const tel = fmtTel(inf.tel || '');
+  const fax = fmtTel(inf.fax || '');
   const region = [a.sido, a.sigungu, a.emd].filter(Boolean).join(' › ');
   const builtY = a.built ? String(a.built).slice(0, 4) : '';
   const title = a.name + ' 관리사무소 전화번호·실거래가·단지정보 | 아구구';
@@ -122,12 +161,21 @@ function page(a) {
 + '.tel{display:inline-block;font-size:24px;font-weight:800;color:#15803d;text-decoration:none}'
 + '.tel-sub{font-size:14px;font-weight:700;color:#16a34a;margin-top:2px}.tel-none{color:#999;font-size:14px}'
 + '.fax{margin-top:8px;padding-top:8px;border-top:1px dashed #bbf7d0;font-size:15px;font-weight:700;color:#15803d}.fax-lab{font-size:13px;font-weight:700;color:#16a34a}'
++ '.mgmt-box{margin:14px 0}.mgmt-load{padding:14px;color:#999;font-size:13px;text-align:center;background:#fafafa;border-radius:12px}'
++ '.mgmt{background:#f0fdf4;border:1px solid #bbf7d0;border-radius:12px;padding:16px}.mgmt h2{font-size:16px;margin:0 0 10px}.mgmt h2 small{font-size:11px;font-weight:400;color:#16a34a;margin-left:4px}'
++ '.mgmt-avg{display:flex;justify-content:space-between;align-items:baseline;padding:10px 12px;background:#fff;border-radius:10px}.mgmt-avg span{font-size:13px;color:#444}.mgmt-avg b{font-size:22px;font-weight:800;color:#15803d}'
++ '.mgmt-det{margin-top:8px}.mgmt-det summary{cursor:pointer;font-size:13px;color:#15803d;font-weight:600;padding:6px 2px;list-style:revert}.mgmt-list{margin-top:4px;background:#fff;border-radius:10px;overflow:hidden}'
++ '.mgmt-row{display:flex;justify-content:space-between;padding:9px 12px;font-size:13px;border-bottom:1px solid #f0fdf4}.mgmt-row:last-child{border-bottom:none}.mgmt-row span:first-child{color:#555}.mgmt-row span:last-child{font-weight:600;color:#333}'
++ '.mgmt-note{margin-top:8px;font-size:11px;color:#9ca3af;line-height:1.5}'
 + '.cta{display:block;width:100%;background:#16a34a;color:#fff;text-align:center;font-weight:700;font-size:16px;padding:15px;border-radius:12px;text-decoration:none;box-shadow:0 4px 12px rgba(22,163,74,.3)}'
 + '.cta small{display:block;font-weight:400;font-size:12px;opacity:.9;margin-top:2px}'
 + '.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:#eee;border-top:1px solid #eee;border-bottom:1px solid #eee}'
 + '.cell{background:#fff;padding:12px 6px;text-align:center}.cell .k{font-size:11px;color:#999}.cell .v{font-size:13px;font-weight:700;margin-top:3px}'
 + 'section{padding:18px 16px;border-bottom:8px solid #f5f7fa}h2{font-size:15px;font-weight:800;margin-bottom:10px}'
 + '.info-row{display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px solid #f5f5f5;font-size:14px}.info-row .k{color:#888}.info-row .v{font-weight:600;text-align:right}'
++ '.fee-box{border:1px solid #e8f5e9;border-radius:10px;overflow:hidden;margin-bottom:6px}'
++ '.fee-row{display:flex;justify-content:space-between;align-items:center;padding:10px 14px;border-bottom:1px solid #f0fdf4;font-size:14px}.fee-row:last-child{border-bottom:none}'
++ '.fee-py{color:#444}.fee-py small{color:#aaa;font-size:11px}.fee-amt{font-weight:600;color:#15803d}'
 + '.ad{margin:0 16px 14px;border-radius:12px;padding:12px;text-align:center;font-size:11px}'
 + '.adA{background:linear-gradient(90deg,#fff7ed,#ffedd5);border:1.5px dashed #fdba74;color:#c2410c}'
 + 'footer{padding:18px 16px 40px;font-size:11px;color:#aaa;text-align:center}'
@@ -159,6 +207,7 @@ function page(a) {
 + '<a class="cta" href="' + MAP + '/?apt=' + a.code + '">🗺️ 아구구 지도에서 실거래가·시세 보기<small>매매·전세 실거래 추이 · 주변 학교·매물 문의</small></a>'
 + '</div>'
 + '<div class="grid">' + facts + '</div>'
++ '<div id="mgmt-box" class="mgmt-box" data-code="' + a.code + '" data-units="' + (a.units || 0) + '"></div>'
 + '<div class="ad adA">' + esc(a.emd || a.sigungu || '') + ' 지역 광고 자리 (이사·청소·인테리어)</div>'
 + '<section><h2>📍 주소 · 기본정보</h2>'
 + '<div class="info-row"><span class="k">도로명주소</span><span class="v">' + esc(a.addr || '-') + '</span></div>'
@@ -186,6 +235,7 @@ function page(a) {
 + 'q.addEventListener("keydown",function(e){if(e.key==="Enter"){e.preventDefault();goInfo();}});'
 + 'document.addEventListener("click",function(e){if(!e.target.closest(".sbar")){sug.className="sug";}});'
 + '})();</script>'
++ '<script>(function(){var box=document.getElementById("mgmt-box");if(!box)return;var code=box.getAttribute("data-code"),units=box.getAttribute("data-units")||0;box.innerHTML=`<div class="mgmt-load">관리비 불러오는 중…</div>`;fetch("/api/mgmtcost?code="+encodeURIComponent(code)+"&units="+units).then(function(r){return r.json();}).then(function(d){if(!d||d.empty||!d.perHousehold){box.innerHTML="";return;}var won=function(n){return (n||0).toLocaleString("ko-KR");};var ymTxt=d.ym?(d.ym.slice(0,4)+"."+d.ym.slice(4,6)):"";var rows=(d.detail||[]).map(function(x){return `<div class="mgmt-row"><span>${x.label}</span><span>${won(x.amount)}원</span></div>`;}).join("");box.innerHTML=`<section class="mgmt"><h2>💰 관리비 <small>공용관리비 · ${ymTxt} 기준</small></h2><div class="mgmt-avg"><span>세대당 월 공용관리비 (평균)</span><b>${won(d.perHousehold)}원</b></div>`+(rows?`<details class="mgmt-det"><summary>자세히 보기 · 단지 전체 월 ${won(d.total)}원</summary><div class="mgmt-list">${rows}</div></details>`:``)+`<div class="mgmt-note">※ 개별사용료(전기·수도·난방 등)·장기수선충당금은 제외한 공용관리비예요. K-apt 공개자료 기준.</div></section>`;}).catch(function(){box.innerHTML="";});})();</script>'
 + '</body></html>';
 }
 
