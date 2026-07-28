@@ -1,3 +1,99 @@
+// ===== 공용관리비 온디맨드 (원래 api/mgmtcost.js — Hobby 12함수 한도 때문에 apt.js에 통합) =====
+//   /api/apt?type=mgmtcost&code=KAPT_CODE&units=세대수
+const MGMT_KEY  = '8dfbbd6dc2fff98040507b95b9688bc24cbdfb35e253494d734a697d4658f1cf';
+const MGMT_BASE = 'https://apis.data.go.kr/1613000/AptCmnuseManageCostServiceV2';
+const MGMT_OPS = [
+  ['getHsmpLaborCostInfoV2',              '인건비'],
+  ['getHsmpOfcrkCostInfoV2',              '제사무비'],
+  ['getHsmpTaxdueInfoV2',                 '제세공과금'],
+  ['getHsmpClothingCostInfoV2',           '피복비'],
+  ['getHsmpEduTraingCostInfoV2',          '교육훈련비'],
+  ['getHsmpVhcleMntncCostInfoV2',         '차량유지비'],
+  ['getHsmpEtcCostInfoV2',                '그밖의 부대비용'],
+  ['getHsmpCleaningCostInfoV2',           '청소비'],
+  ['getHsmpGuardCostInfoV2',              '경비비'],
+  ['getHsmpDisinfectionCostInfoV2',       '소독비'],
+  ['getHsmpElevatorMntncCostInfoV2',      '승강기 유지비'],
+  ['getHsmpHomeNetworkMntncCostInfoV2',   '홈네트워크 유지비'],
+  ['getHsmpRepairsCostInfoV2',            '수선비'],
+  ['getHsmpFacilityMntncCostInfoV2',      '시설유지비'],
+  ['getHsmpSafetyCheckUpCostInfoV2',      '안전점검비'],
+  ['getHsmpDisasterPreventionCostInfoV2', '재해예방비'],
+  ['getHsmpConsignManageFeeInfoV2',       '위탁관리 수수료'],
+];
+function mgmtHeaders() {
+  const k = process.env.SUPABASE_KEY;
+  return { 'apikey': k, 'Authorization': `Bearer ${k}`, 'Content-Type': 'application/json' };
+}
+async function mgmtReadCache(code) {
+  const U = process.env.SUPABASE_URL, K = process.env.SUPABASE_KEY;
+  if (!U || !K) return null;
+  try {
+    const r = await fetch(`${U}/rest/v1/apt_mgmtcost?kapt_code=eq.${encodeURIComponent(code)}&select=ym,total,per_hshld,detail,fetched_at`, { headers: mgmtHeaders() });
+    if (!r.ok) return null;
+    const rows = await r.json();
+    if (!Array.isArray(rows) || !rows.length) return null;
+    const row = rows[0];
+    if (Date.now() - new Date(row.fetched_at).getTime() > 30 * 86400000) return null;
+    return row;
+  } catch (e) { return null; }
+}
+function mgmtWriteCache(code, ym, total, per, detail) {
+  const U = process.env.SUPABASE_URL, K = process.env.SUPABASE_KEY;
+  if (!U || !K) return;
+  fetch(`${U}/rest/v1/apt_mgmtcost`, {
+    method: 'POST',
+    headers: { ...mgmtHeaders(), 'Prefer': 'resolution=merge-duplicates' },
+    body: JSON.stringify([{ kapt_code: code, ym, total, per_hshld: per, detail, fetched_at: new Date().toISOString() }]),
+  }).catch(() => {});
+}
+function mgmtSumItem(item) {
+  if (!item) return 0;
+  const arr = Array.isArray(item) ? item : [item];
+  let s = 0;
+  for (const it of arr) {
+    if (!it || typeof it !== 'object') continue;
+    for (const k in it) {
+      if (k === 'kaptCode' || k === 'kaptName') continue;
+      const v = Number(it[k]);
+      if (!isNaN(v)) s += v;
+    }
+  }
+  return s;
+}
+async function mgmtFetchOp(op, code, ym) {
+  try {
+    const r = await fetch(`${MGMT_BASE}/${op}?serviceKey=${encodeURIComponent(MGMT_KEY)}&kaptCode=${code}&searchDate=${ym}&_type=json`, { signal: AbortSignal.timeout(6000) });
+    const j = JSON.parse(await r.text());
+    return mgmtSumItem(j && j.response && j.response.body && j.response.body.item);
+  } catch (e) { return 0; }
+}
+async function mgmtFindYm(code) {
+  const now = new Date();
+  for (let back = 2; back <= 13; back++) {
+    const d = new Date(now.getFullYear(), now.getMonth() - back, 1);
+    const ym = `${d.getFullYear()}${String(d.getMonth() + 1).padStart(2, '0')}`;
+    if (await mgmtFetchOp('getHsmpCleaningCostInfoV2', code, ym) > 0) return ym;
+  }
+  return null;
+}
+async function handleMgmtCost(req, res) {
+  res.setHeader('Cache-Control', 'no-store');
+  const code = req.query.code;
+  const units = parseInt(req.query.units) || 0;
+  if (!code) return res.status(400).json({ error: 'code 필요' });
+  const cached = await mgmtReadCache(code);
+  if (cached) return res.status(200).json({ cached: true, ym: cached.ym, total: cached.total, perHousehold: cached.per_hshld, detail: cached.detail || [], units, empty: !cached.total });
+  const ym = await mgmtFindYm(code);
+  if (!ym) { mgmtWriteCache(code, '', 0, 0, []); return res.status(200).json({ ym: null, total: 0, perHousehold: 0, detail: [], units, empty: true }); }
+  const results = await Promise.all(MGMT_OPS.map(async ([op, label]) => ({ label, amount: await mgmtFetchOp(op, code, ym) })));
+  const total = results.reduce((s, x) => s + x.amount, 0);
+  const detail = results.filter(x => x.amount > 0).sort((a, b) => b.amount - a.amount);
+  const per = units > 0 ? Math.round(total / units) : 0;
+  mgmtWriteCache(code, ym, total, per, detail);
+  return res.status(200).json({ cached: false, ym, total, perHousehold: per, detail, units, empty: total === 0 });
+}
+
 export default async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET');
@@ -8,6 +104,8 @@ export default async function handler(req, res) {
   const PUBLIC_API_KEY = '8dfbbd6dc2fff98040507b95b9688bc24cbdfb35e253494d734a697d4658f1cf';
 
   const { type, code } = req.query;
+
+  if (type === 'mgmtcost') return handleMgmtCost(req, res);
 
   try {
     // Supabase DB에서 데이터 조회
