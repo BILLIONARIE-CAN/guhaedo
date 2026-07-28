@@ -9,7 +9,9 @@
     }
   ],
   "rewrites": [
-    { "source": "/apt/:code", "destination": "/api/aptpage?code=:code" }
+    { "source": "/apt/:code", "destination": "/api/aptpage?code=:code" },
+    { "source": "/region", "destination": "/api/aptpage?region=all" },
+    { "source": "/region/:sg", "destination": "/api/aptpage?region=:sg" }
   ],
   "headers": [
     { "source": "/split_output/(.*)", "headers": [ { "key": "Cache-Control", "value": "public, max-age=86400, stale-while-revalidate=604800" } ] }

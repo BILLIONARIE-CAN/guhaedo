@@ -69,7 +69,8 @@ function nearbyLinks(a) {
   const items = list.map(b =>
     '<li><a href="/apt/' + b.code + '">' + esc(b.name) + ' 관리사무소 전화번호</a></li>').join('');
   const label = esc(a.emd || a.sigungu || '') + ' 주변 아파트 단지';
-  return '<section class="nearby"><h2>🏢 ' + label + '</h2><ul class="nearby-list">' + items + '</ul></section>';
+  const hubLink = '<div style="margin-top:10px"><a href="/region/' + encodeURIComponent(k) + '" style="font-size:13px;color:#15803d;font-weight:600">→ ' + esc(a.sigungu || a.sido || '') + ' 아파트 단지 전체 보기</a></div>';
+  return '<section class="nearby"><h2>🏢 ' + label + '</h2><ul class="nearby-list">' + items + '</ul>' + hubLink + '</section>';
 }
 
 // 평형대별 관리비 추정 섹션
@@ -239,10 +240,76 @@ function page(a) {
 + '</body></html>';
 }
 
+// ===== 지역 허브 페이지 (SEO 내부링크: /region, /region/{시군구코드}) =====
+const SIDO_MAP = new Map(); // sido -> Map(sgCode -> {sigungu, count})
+const SGG_INFO = new Map(); // sgCode -> {sido, sigungu}
+for (const a of APTS) {
+  if (!a || !a.sido || !a.sigungu) continue;
+  const sg = a.sigunguCode || (a.sido + '|' + a.sigungu);
+  if (!SIDO_MAP.has(a.sido)) SIDO_MAP.set(a.sido, new Map());
+  const m = SIDO_MAP.get(a.sido);
+  if (!m.has(sg)) m.set(sg, { sigungu: a.sigungu, count: 0 });
+  m.get(sg).count++;
+  if (!SGG_INFO.has(sg)) SGG_INFO.set(sg, { sido: a.sido, sigungu: a.sigungu });
+}
+function hubHtml(title, desc, canonical, body) {
+  return '<!DOCTYPE html><html lang="ko"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
+    + '<title>' + esc(title) + '</title><meta name="description" content="' + esc(desc) + '">'
+    + '<meta property="og:title" content="' + esc(title) + '"><meta property="og:site_name" content="아구구"><meta property="og:type" content="website">'
+    + '<link rel="canonical" href="' + canonical + '"><link rel="icon" href="/favicon.ico" sizes="any">'
+    + '<style>body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Malgun Gothic",sans-serif;margin:0;background:#f7f8fa;color:#1a1a1a}'
+    + '.wrap{max-width:760px;margin:0 auto;padding:18px 16px 60px}a{color:#15803d;text-decoration:none}a:hover{text-decoration:underline}'
+    + '.bc{font-size:13px;color:#888;margin-bottom:10px}h1{font-size:21px;margin:6px 0 4px;line-height:1.35}.sub{color:#666;font-size:13px;margin-bottom:16px}'
+    + 'h2{font-size:15px;margin:22px 0 8px;padding-bottom:6px;border-bottom:1px solid #e5e7eb}'
+    + '.chips{display:flex;flex-wrap:wrap;gap:8px}.chip{background:#fff;border:1px solid #e5e7eb;border-radius:20px;padding:7px 13px;font-size:13px}.chip small{color:#aaa;font-size:11px}'
+    + '.list{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:1fr 1fr;gap:1px;background:#eee;border:1px solid #eee;border-radius:10px;overflow:hidden}'
+    + '.list li{background:#fff;padding:11px 13px;font-size:14px}.list li small{color:#999;font-size:11px;display:block;margin-top:1px}'
+    + '@media(max-width:560px){.list{grid-template-columns:1fr}}footer{margin-top:30px;font-size:12px;color:#999;text-align:center}</style></head><body><div class="wrap">' + body
+    + '<footer><a href="/region">전국 지역별 아파트</a> · <a href="' + BASE + '/">아구구 홈</a> · © 2026 아구구</footer></div></body></html>';
+}
+function regionTopPage() {
+  let body = '<div class="bc"><a href="' + BASE + '/">아구구</a> › 지역별 아파트</div>'
+    + '<h1>전국 지역별 아파트 관리사무소 전화번호·관리비</h1>'
+    + '<div class="sub">시·도와 시·군·구를 선택해 아파트 단지 정보를 확인하세요.</div>';
+  for (const sido of SIDO_MAP.keys()) {
+    const chips = [...SIDO_MAP.get(sido).entries()].map(([sg, info]) =>
+      '<a class="chip" href="/region/' + encodeURIComponent(sg) + '">' + esc(info.sigungu) + ' <small>' + info.count + '</small></a>').join('');
+    body += '<h2>' + esc(sido) + '</h2><div class="chips">' + chips + '</div>';
+  }
+  return hubHtml('전국 지역별 아파트 관리사무소 전화번호·관리비 | 아구구',
+    '전국 시도·시군구별 아파트 단지 관리사무소 전화번호·관리비·실거래가를 아구구에서 확인하세요.', BASE + '/region', body);
+}
+function regionSggPage(sgCode) {
+  const info = SGG_INFO.get(sgCode);
+  const pool = BY_SGG.get(sgCode) || [];
+  if (!info || !pool.length) return null;
+  const apts = pool.slice().sort((x, y) => (x.name || '').localeCompare(y.name || '', 'ko'));
+  const items = apts.map(b =>
+    '<li><a href="/apt/' + b.code + '">' + esc(b.name) + '</a><small>' + esc(b.emd || '') + (b.units ? ' · ' + b.units + '세대' : '') + '</small></li>').join('');
+  const title = info.sido + ' ' + info.sigungu + ' 아파트 관리사무소 전화번호·관리비 (' + apts.length + '개 단지) | 아구구';
+  const body = '<div class="bc"><a href="' + BASE + '/">아구구</a> › <a href="/region">지역</a> › ' + esc(info.sido) + '</div>'
+    + '<h1>' + esc(info.sido) + ' ' + esc(info.sigungu) + ' 아파트 관리사무소 전화번호·관리비</h1>'
+    + '<div class="sub">' + esc(info.sigungu) + ' 아파트 단지 ' + apts.length + '개. 단지를 눌러 관리사무소 전화번호·관리비·실거래가를 확인하세요.</div>'
+    + '<ul class="list">' + items + '</ul>';
+  return hubHtml(title, esc(info.sido) + ' ' + esc(info.sigungu) + ' 아파트 단지 ' + apts.length + '개의 관리사무소 전화번호·관리비·실거래가 정보. 아구구.',
+    BASE + '/region/' + encodeURIComponent(sgCode), body);
+}
+
 module.exports = (req, res) => {
+  res.setHeader('Content-Type', 'text/html; charset=utf-8');
+  const region = (req.query && req.query.region) || '';
+  if (region) {
+    const html = (region === 'all' || region === 'index') ? regionTopPage() : regionSggPage(region);
+    if (html) {
+      res.setHeader('Cache-Control', 'public, max-age=3600, s-maxage=86400, stale-while-revalidate=604800');
+      res.statusCode = 200; res.end(html); return;
+    }
+    res.statusCode = 404;
+    res.end('<!DOCTYPE html><html lang="ko"><head><meta charset="UTF-8"><title>지역을 찾을 수 없습니다 | 아구구</title></head><body style="font-family:sans-serif;text-align:center;padding:60px"><h1>지역을 찾을 수 없습니다</h1><p><a href="/region">지역별 아파트</a> · <a href="https://a99.co.kr">아구구 홈</a></p></body></html>');
+    return;
+  }
   const code = (req.query && req.query.code) || '';
   const a = BY_CODE.get(code);
-  res.setHeader('Content-Type', 'text/html; charset=utf-8');
   if (!a) {
     res.statusCode = 404;
     res.end('<!DOCTYPE html><html lang="ko"><head><meta charset="UTF-8"><title>단지를 찾을 수 없습니다 | 아구구</title></head><body style="font-family:sans-serif;text-align:center;padding:60px"><h1>단지를 찾을 수 없습니다</h1><p><a href="https://a99.co.kr">아구구 홈으로</a></p></body></html>');
