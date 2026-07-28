@@ -115,6 +115,10 @@ body:has(#region-sidebar.open) .map-top-bar{left:468px}
 .mflbl{display:inline-flex;background:#f3f4f6;border-radius:9px;padding:2px}
 .mflbl button{border:none;background:none;color:#6b7280;font-size:12px;font-family:inherit;padding:5px 12px;border-radius:7px;cursor:pointer;font-weight:600}
 .mflbl button.on{background:#1D9E75;color:#fff}
+/* 명칭/세대수 플로팅 박스 (아실 스타일 — 지도 왼쪽 세로) */
+.pin-label-box{position:absolute;top:52px;left:0;z-index:95;display:inline-flex;flex-direction:column;background:#fff;border-radius:9px;box-shadow:0 2px 10px rgba(0,0,0,.15);overflow:hidden;border:1px solid #e5e7eb}
+.pin-label-box button{border:none;background:#fff;color:#6b7280;font-family:inherit;font-size:12px;font-weight:700;padding:8px 14px;cursor:pointer;transition:background .12s;text-align:center}
+.pin-label-box button.on{background:#1D9E75;color:#fff}
 /* 필터 드롭다운 패널 (레퍼런스형) */
 .mfc.open{background:#ecfdf5;border-color:#1D9E75;color:#0F6E56;font-weight:700}
 .mfc .mfc-cv{margin-left:2px;font-size:10px}
@@ -481,12 +485,6 @@ body:has(#region-sidebar.open) .map-top-bar{left:468px}
     <!-- 상단 필터바 -->
     <div class="map-top-bar">
       <div class="mfbar"><div class="mf-row">
-        <button class="mfc on" id="mfc-apt" onclick="mfType('apt',this)">아파트</button>
-        <button class="mfc on" id="mfc-officetel" onclick="mfType('officetel',this)">오피스텔</button>
-        <button class="mfc soon" onclick="mfSoon()">분양권</button>
-        <button class="mfc soon" onclick="mfSoon()">재건축</button>
-        <button class="mfc soon" onclick="mfSoon()">재개발</button>
-        <span class="mf-sep"></span>
         <button class="mfc" id="mfc-area" onclick="mfPanel('area',this)">평형</button>
         <button class="mfc" id="mfc-units" onclick="mfPanel('units',this)">세대수</button>
         <button class="mfc" id="mfc-age" onclick="mfPanel('age',this)">입주년차</button>
@@ -501,9 +499,8 @@ body:has(#region-sidebar.open) .map-top-bar{left:468px}
         <button class="mfc soon" onclick="mfSoon()">용적률</button>
         <button class="mfc soon" onclick="mfSoon()">건폐율</button>
         <button class="mf-rst" onclick="resetMapFilters()" title="필터 초기화">↺ 초기화</button>
-        <span class="mf-sep"></span>
-        <span class="mflbl"><button id="mfl-name" class="on" onclick="setPinLabel('name')">명칭</button><button id="mfl-units" onclick="setPinLabel('units')">세대수</button></span>
       </div></div>
+      <div class="pin-label-box"><button id="mfl-name" class="on" onclick="setPinLabel('name')">명칭</button><button id="mfl-units" onclick="setPinLabel('units')">세대수</button></div>
       <div id="mf-panel" class="mfpanel" style="display:none"></div><!-- filterbar v2 + reels : redeploy 2026-07-24 -->
       <div class="map-breadcrumb" id="map-breadcrumb" style="display:none">
         <span class="bc-item" onclick="bcClick(0)">전국</span>
