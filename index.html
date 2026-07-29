@@ -2464,14 +2464,13 @@ function selectSido(code, name, lat, lng){
   const bc = ge('rs-breadcrumb');
   bc.innerHTML = `<span class="rs-bc-item" onclick="backToSido()">${name}</span><span class="rs-bc-sep">›</span><span class="rs-bc-cur">시군구 선택</span><span class="rs-bc-sep">›</span><span style="color:var(--text3)">읍면동 선택</span>`;
 
-  // 해당 시도 시군구 목록 뽑기
+  // 해당 시도 시군구 목록 뽑기 — 전국 데이터(allAptData) 기준. MAP_DATA는 로드된 마커만이라 전국 화면에선 비어있어 목록이 안 뜨던 버그.
+  const rsSrc = (typeof allAptData!=='undefined' && allAptData.length) ? allAptData : MAP_DATA;
   const sigunguMap = {};
-  MAP_DATA.filter(d=>d.sido&&d.sido.includes(name.replace('시','').replace('도',''))||
-    (d.sigunguCode&&d.sigunguCode.startsWith(code))
-  ).forEach(d=>{
+  rsSrc.filter(d=>d.sigunguCode&&String(d.sigunguCode).startsWith(code)).forEach(d=>{
     if(d.sigungu&&!sigunguMap[d.sigungu]) sigunguMap[d.sigungu]={name:d.sigungu, code:d.sigunguCode, lat:d.lat, lng:d.lng};
   });
-  const list = Object.values(sigunguMap);
+  const list = Object.values(sigunguMap).sort((a,b)=>a.name.localeCompare(b.name,'ko'));
   const grid = ge('rs-grid');
   if(list.length===0){
     grid.innerHTML='<div style="grid-column:1/-1;padding:30px;text-align:center;color:var(--text3);font-size:13px">데이터가 없습니다</div>';
@@ -2493,12 +2492,13 @@ function selectSigungu(code, name, lat, lng){
   const bc = ge('rs-breadcrumb');
   bc.innerHTML = `<span class="rs-bc-item" onclick="backToSido()">${rsSelected.sido.name}</span><span class="rs-bc-sep">›</span><span class="rs-bc-item" onclick="backToSigungu()">${name}</span><span class="rs-bc-sep">›</span><span class="rs-bc-cur">읍면동 선택</span>`;
 
-  // 읍면동 목록
+  // 읍면동 목록 — 전국 데이터(allAptData) 기준
+  const rsSrc2 = (typeof allAptData!=='undefined' && allAptData.length) ? allAptData : MAP_DATA;
   const emdMap = {};
-  MAP_DATA.filter(d=>d.sigunguCode===code).forEach(d=>{
+  rsSrc2.filter(d=>String(d.sigunguCode)===String(code)).forEach(d=>{
     if(d.emd&&!emdMap[d.emd]) emdMap[d.emd]={name:d.emd, lat:d.lat, lng:d.lng};
   });
-  const list = Object.values(emdMap);
+  const list = Object.values(emdMap).sort((a,b)=>a.name.localeCompare(b.name,'ko'));
   const grid = ge('rs-grid');
   if(list.length===0){
     grid.innerHTML='<div style="grid-column:1/-1;padding:30px;text-align:center;color:var(--text3);font-size:13px">데이터가 없습니다</div>';
