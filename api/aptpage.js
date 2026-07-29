@@ -108,6 +108,37 @@ function feeSection(avgFee, useArea, units, areaBreak) {
     + '</section>';
 }
 
+// 단지 소개 문단(단지마다 고유 본문 → 얇은 페이지 보강)
+function introText(a, tel) {
+  const region = [a.sido, a.sigungu, a.emd].filter(Boolean).join(' ');
+  const y = a.built ? String(a.built).slice(0, 4) : '';
+  const p = [];
+  p.push('<b>' + esc(a.name) + '</b>은(는) ' + esc(region) + '에 위치한'
+    + (a.units ? ' ' + esc(String(a.units)) + '세대' : '') + ' 규모의 ' + esc(a.aptType || '아파트') + ' 단지입니다.');
+  if (y) p.push(esc(y) + '년에 준공되었으며' + (a.builder ? ', 시공사는 ' + esc(a.builder) + '입니다.' : '.'));
+  const scale = [a.dongCnt ? esc(a.dongCnt) : '', a.topFloor ? '최고 ' + esc(String(a.topFloor)) + '층' : ''].filter(Boolean).join(', ');
+  if (scale) p.push('단지 규모는 ' + scale + '이며' + (a.heat ? ' 난방방식은 ' + esc(a.heat) + '입니다.' : '입니다.'));
+  p.push(tel ? ('관리사무소 전화번호는 ' + esc(tel) + '이며, 아래에서 실거래가·관리비·단지정보를 확인할 수 있습니다.')
+             : '아래에서 관리사무소 전화번호·실거래가·관리비·단지정보를 확인할 수 있습니다.');
+  return '<p class="intro">' + p.join(' ') + '</p>';
+}
+// FAQ 섹션 + FAQPage 구조화데이터(리치 결과 노출 유도)
+function faqSection(a, tel, fax) {
+  const nm = esc(a.name), y = a.built ? String(a.built).slice(0, 4) : '';
+  const qa = [];
+  if (tel) qa.push([nm + ' 관리사무소 전화번호는 몇 번인가요?', nm + ' 관리사무소 전화번호는 ' + esc(tel) + '입니다.' + (fax ? ' 팩스번호는 ' + esc(fax) + '입니다.' : '')]);
+  if (a.units) qa.push([nm + '은(는) 몇 세대인가요?', nm + '은(는) 총 ' + esc(String(a.units)) + '세대입니다.']);
+  if (y) qa.push([nm + '의 준공 연도는 언제인가요?', nm + '은(는) ' + esc(y) + '년에 준공되었습니다.']);
+  if (a.builder) qa.push([nm + '의 시공사는 어디인가요?', nm + '의 시공사는 ' + esc(a.builder) + '입니다.']);
+  qa.push([nm + ' 관리비는 얼마인가요?', nm + '의 세대당 월 공용관리비는 이 페이지의 관리비 항목에서 확인할 수 있습니다. (K-apt 공개자료 기준)']);
+  if (a.addr) qa.push([nm + '의 주소는 어디인가요?', nm + '의 도로명주소는 ' + esc(a.addr) + '입니다.']);
+  const strip = s => s.replace(/<[^>]+>/g, '');
+  const html = '<section class="faq"><h2>❓ ' + nm + ' 자주 묻는 질문</h2>'
+    + qa.map(x => '<details class="faq-item"><summary>' + x[0] + '</summary><div class="faq-a">' + x[1] + '</div></details>').join('')
+    + '</section>';
+  const ld = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: qa.map(x => ({ '@type': 'Question', name: strip(x[0]), acceptedAnswer: { '@type': 'Answer', text: strip(x[1]) } })) };
+  return html + '<script type="application/ld+json">' + JSON.stringify(ld).replace(/</g, '\\u003c') + '</script>';
+}
 function page(a) {
   const inf = INFO[a.code] || {};
   const tel = fmtTel(inf.tel || '');
@@ -168,6 +199,9 @@ function page(a) {
 + '.mgmt-det{margin-top:8px}.mgmt-det summary{cursor:pointer;font-size:13px;color:#15803d;font-weight:600;padding:6px 2px;list-style:revert}.mgmt-list{margin-top:4px;background:#fff;border-radius:10px;overflow:hidden}'
 + '.mgmt-row{display:flex;justify-content:space-between;padding:9px 12px;font-size:13px;border-bottom:1px solid #f0fdf4}.mgmt-row:last-child{border-bottom:none}.mgmt-row span:first-child{color:#555}.mgmt-row span:last-child{font-weight:600;color:#333}'
 + '.mgmt-note{margin-top:8px;font-size:11px;color:#9ca3af;line-height:1.5}'
++ '.intro{font-size:14px;line-height:1.75;color:#374151;margin:14px 0;padding:14px 16px;background:#fff;border:1px solid #eee;border-radius:12px}'
++ '.faq{margin:16px 0}.faq h2{font-size:16px;margin:0 0 8px}.faq-item{background:#fff;border:1px solid #eee;border-radius:10px;margin-bottom:8px;overflow:hidden}'
++ '.faq-item summary{cursor:pointer;padding:13px 15px;font-size:14px;font-weight:600;color:#1a1a1a;list-style:revert}.faq-a{padding:0 15px 14px;font-size:13px;line-height:1.7;color:#555}'
 + '.cta{display:block;width:100%;background:#16a34a;color:#fff;text-align:center;font-weight:700;font-size:16px;padding:15px;border-radius:12px;text-decoration:none;box-shadow:0 4px 12px rgba(22,163,74,.3)}'
 + '.cta small{display:block;font-weight:400;font-size:12px;opacity:.9;margin-top:2px}'
 + '.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:#eee;border-top:1px solid #eee;border-bottom:1px solid #eee}'
@@ -207,6 +241,7 @@ function page(a) {
 + (tel ? '<div class="telbox">' + telBlock + '</div>' : '')
 + '<a class="cta" href="' + MAP + '/?apt=' + a.code + '">🗺️ 아구구 지도에서 실거래가·시세 보기<small>매매·전세 실거래 추이 · 주변 학교·매물 문의</small></a>'
 + '</div>'
++ introText(a, tel)
 + '<div class="grid">' + facts + '</div>'
 + '<div id="mgmt-box" class="mgmt-box" data-code="' + a.code + '" data-units="' + (a.units || 0) + '"></div>'
 + '<div class="ad adA">' + esc(a.emd || a.sigungu || '') + ' 지역 광고 자리 (이사·청소·인테리어)</div>'
@@ -215,6 +250,7 @@ function page(a) {
 + '<div class="info-row"><span class="k">단지분류</span><span class="v">' + esc(a.aptType || '아파트') + '</span></div>'
 + '<div class="info-row"><span class="k">현관구조</span><span class="v">' + esc(a.entrance || '-') + '</span></div>'
 + '</section>'
++ faqSection(a, tel, fax)
 + nearbyLinks(a)
 + '<div class="side-ad"><ins class="kakao_ad_area" style="display:none;" data-ad-unit="' + AD_UNIT_SIDE + '" data-ad-width="160" data-ad-height="600"></ins></div>'
 + '<div class="side-ad-l"><ins class="kakao_ad_area" style="display:none;" data-ad-unit="' + AD_UNIT_SIDE_L + '" data-ad-width="160" data-ad-height="600"></ins></div>'
