@@ -4512,6 +4512,18 @@ async function handleAptDeeplink(){
   try{ openAptDetail(d); }catch(e){}
 }
 
+// PC 진입 시 시군구(지역) 사이드박스 기본 오픈. ?apt(단지페이지에서 진입)면 그 위에 아파트 상세박스가 얹혀 드릴다운 스택이 됨('← 목록'으로 복귀).
+function openRegionSidebarDefault(){
+  if(window.matchMedia('(max-width:768px)').matches) return; // PC 전용 (모바일은 하단시트라 제외)
+  var sb=ge('region-sidebar');
+  if(sb && !sb.classList.contains('open')){
+    sb.classList.add('open');
+    var btn=ge('menu-btn'); if(btn) btn.classList.add('active');
+    rsLevel='sido';
+    try{ renderRsGrid(); }catch(e){}
+  }
+}
+
 // ===== 초기화 =====
 window.onload=function(){
   handleKakaoCallback();
@@ -4519,6 +4531,7 @@ window.onload=function(){
   setTimeout(()=>commUpdate(),50);
   initMap();
   setTimeout(loadPresaleData,1800); // 분양 단지 핀 (지도 초기화 후)
+  openRegionSidebarDefault(); // PC: 지역(시군구) 사이드박스 기본 오픈 (?apt면 그 위에 상세가 얹힘)
   handleAptDeeplink(); // SEO 단지페이지에서 ?apt=코드로 진입 시 해당 단지 자동 오픈
   try{var _h=(location.hash||'').replace(/^#/,'');if(['search','calc','pro'].indexOf(_h)>=0&&document.getElementById('page-'+_h))showPage(_h);}catch(e){} // 새로고침 시 현재 탭 유지
   // 듀얼 슬라이더 초기화
