@@ -77,21 +77,35 @@ async function mgmtFindYm(code) {
   }
   return null;
 }
+// 응답: 기본 JSON. ?format=html 이면 헬스체크(web_fetch)가 읽을 수 있게 간단 HTML로.
+function mgmtRespond(req, res, obj) {
+  if (req.query && req.query.format === 'html') {
+    res.setHeader('Content-Type', 'text/html; charset=utf-8');
+    const ok = !obj.empty && obj.perHousehold > 0;
+    return res.status(200).end('<!doctype html><meta charset="utf-8"><body>'
+      + 'MGMTCOST_STATUS=' + (ok ? 'OK' : 'EMPTY')
+      + ' perHousehold=' + (obj.perHousehold || 0)
+      + ' ym=' + (obj.ym || '')
+      + ' items=' + ((obj.detail || []).length)
+      + ' cached=' + (!!obj.cached) + '</body>');
+  }
+  return res.status(200).json(obj);
+}
 async function handleMgmtCost(req, res) {
   res.setHeader('Cache-Control', 'no-store');
   const code = req.query.code;
   const units = parseInt(req.query.units) || 0;
   if (!code) return res.status(400).json({ error: 'code 필요' });
   const cached = await mgmtReadCache(code);
-  if (cached) return res.status(200).json({ cached: true, ym: cached.ym, total: cached.total, perHousehold: cached.per_hshld, detail: cached.detail || [], units, empty: !cached.total });
+  if (cached) return mgmtRespond(req, res, { cached: true, ym: cached.ym, total: cached.total, perHousehold: cached.per_hshld, detail: cached.detail || [], units, empty: !cached.total });
   const ym = await mgmtFindYm(code);
-  if (!ym) { mgmtWriteCache(code, '', 0, 0, []); return res.status(200).json({ ym: null, total: 0, perHousehold: 0, detail: [], units, empty: true }); }
+  if (!ym) { mgmtWriteCache(code, '', 0, 0, []); return mgmtRespond(req, res, { ym: null, total: 0, perHousehold: 0, detail: [], units, empty: true }); }
   const results = await Promise.all(MGMT_OPS.map(async ([op, label]) => ({ label, amount: await mgmtFetchOp(op, code, ym) })));
   const total = results.reduce((s, x) => s + x.amount, 0);
   const detail = results.filter(x => x.amount > 0).sort((a, b) => b.amount - a.amount);
   const per = units > 0 ? Math.round(total / units) : 0;
   mgmtWriteCache(code, ym, total, per, detail);
-  return res.status(200).json({ cached: false, ym, total, perHousehold: per, detail, units, empty: total === 0 });
+  return mgmtRespond(req, res, { cached: false, ym, total, perHousehold: per, detail, units, empty: total === 0 });
 }
 
 export default async function handler(req, res) {

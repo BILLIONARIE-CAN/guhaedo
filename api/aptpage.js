@@ -264,7 +264,11 @@ function hubHtml(title, desc, canonical, body) {
     + '.chips{display:flex;flex-wrap:wrap;gap:8px}.chip{background:#fff;border:1px solid #e5e7eb;border-radius:20px;padding:7px 13px;font-size:13px}.chip small{color:#aaa;font-size:11px}'
     + '.list{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:1fr 1fr;gap:1px;background:#eee;border:1px solid #eee;border-radius:10px;overflow:hidden}'
     + '.list li{background:#fff;padding:11px 13px;font-size:14px}.list li small{color:#999;font-size:11px;display:block;margin-top:1px}'
-    + '@media(max-width:560px){.list{grid-template-columns:1fr}}footer{margin-top:30px;font-size:12px;color:#999;text-align:center}</style></head><body><div class="wrap">' + body
+    + '@media(max-width:560px){.list{grid-template-columns:1fr}}footer{margin-top:30px;font-size:12px;color:#999;text-align:center}.rg-ad{text-align:center;margin:12px 0}</style></head><body><div class="wrap">'
+    + '<div class="rg-ad"><ins class="kakao_ad_area" style="display:none;" data-ad-unit="' + AD_UNIT_TOP + '" data-ad-width="320" data-ad-height="100"></ins></div>'
+    + body
+    + '<div class="rg-ad"><ins class="kakao_ad_area" style="display:none;" data-ad-unit="' + AD_UNIT + '" data-ad-width="300" data-ad-height="250"></ins></div>'
+    + '<script type="text/javascript" src="//t1.kakaocdn.net/kas/static/ba.min.js" async></script>'
     + '<footer><a href="/region">전국 지역별 아파트</a> · <a href="' + BASE + '/">아구구 홈</a> · © 2026 아구구</footer></div></body></html>';
 }
 function regionTopPage() {
