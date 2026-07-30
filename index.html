@@ -2004,6 +2004,15 @@ function renderCluster(type){
     zoomOverlays.push(o);
   });
 }
+// 겹친 핀 클릭 시 앞으로 (일반 핀 z=3, 브로커 999보다 아래인 500으로 올림. 이전 앞핀은 3으로 원복)
+var frontMarker=null;
+function bringMarkerToFront(id){
+  var m=markers.find(function(x){return x.id===id;});
+  if(!m||!m.marker||!m.marker.setZIndex) return;
+  if(frontMarker&&frontMarker!==m.marker&&frontMarker.setZIndex){ try{frontMarker.setZIndex(3);}catch(e){} }
+  try{ m.marker.setZIndex(500); }catch(e){}
+  frontMarker=m.marker;
+}
 function addMarker(d){
   if(!d.lat||!d.lng)return;
   const pos=new kakao.maps.LatLng(d.lat,d.lng);
@@ -2033,7 +2042,7 @@ function addMarker(d){
     const tip=document.createElement('div');
     tip.style.cssText='width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;border-top:6px solid '+tipClr2+';margin-top:-1px';
     wrap.appendChild(box);wrap.appendChild(tip);
-    wrap.onclick=function(){selectItem(d.id);};
+    wrap.onclick=function(){bringMarkerToFront(d.id);selectItem(d.id);};
     bc=wrap;
   }else if(d.type==='broker'){
     const lv=map?map.getLevel():5;
