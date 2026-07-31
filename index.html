@@ -235,9 +235,10 @@ body:has(#apt-detail-panel.open) .map-top-bar{left:468px}
 .rs-bc-item:hover{text-decoration:underline}
 .rs-bc-sep{color:var(--text3)}
 .rs-bc-cur{color:var(--text);font-weight:700}
-.rs-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:1px;background:var(--border);flex:1;overflow-y:auto}
-.rs-grid-item{background:var(--white);padding:14px 6px;text-align:center;font-size:13px;cursor:pointer;transition:background .12s;font-weight:500}
+.rs-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:1px;background:#eef0f2;flex:1;overflow-y:auto;align-content:start}
+.rs-grid-item{background:var(--white);padding:15px 8px;min-height:54px;display:flex;align-items:center;justify-content:center;text-align:center;font-size:13px;line-height:1.35;word-break:keep-all;color:#333;cursor:pointer;transition:background .12s,color .12s;font-weight:500}
 .rs-grid-item:hover{background:var(--green-bg);color:var(--green-dark)}
+.rs-grid-item .cnt{font-size:10px;color:var(--text3);margin-top:2px}
 .rs-grid-item .cnt{font-size:10px;color:var(--text3);margin-top:2px}
 
 /* 말풍선 인포윈도우 */
@@ -554,8 +555,8 @@ body:has(#apt-detail-panel.open) .map-top-bar{left:468px}
     <div class="region-sidebar" id="region-sidebar">
       <div class="mobile-handle" onclick="toggleRegionSidebar()"><div class="handle-bar"></div></div>
       <div class="rs-tabs">
-        <button class="rs-tab" onclick="setRsTab('sale')" id="rs-tab-sale">분양</button>
         <button class="rs-tab active" onclick="setRsTab('apt')" id="rs-tab-apt">아파트/오피스텔</button>
+        <button class="rs-tab" onclick="setRsTab('sale')" id="rs-tab-sale">분양</button>
       </div>
       <div class="rs-search">
         <input class="rs-search-input" type="text" placeholder="아파트명을 검색해보세요." oninput="rsSearch(this.value)">
@@ -2013,14 +2014,16 @@ function renderCluster(type){
     zoomOverlays.push(o);
   });
 }
-// 겹친 핀 클릭 시 앞으로 (일반 핀 z=3, 브로커 999보다 아래인 500으로 올림. 이전 앞핀은 3으로 원복)
-var frontMarker=null;
+// 겹친 핀 클릭 시 앞으로. id로 기억 → 상세창 열며 지도 이동으로 재렌더돼도 앞 상태 유지(addMarker에서 반영).
+var frontMarkerId=null;
 function bringMarkerToFront(id){
+  if(frontMarkerId&&frontMarkerId!==id){
+    var prev=markers.find(function(x){return x.id===frontMarkerId;});
+    if(prev&&prev.marker&&prev.marker.setZIndex){ try{prev.marker.setZIndex(3);}catch(e){} }
+  }
+  frontMarkerId=id;
   var m=markers.find(function(x){return x.id===id;});
-  if(!m||!m.marker||!m.marker.setZIndex) return;
-  if(frontMarker&&frontMarker!==m.marker&&frontMarker.setZIndex){ try{frontMarker.setZIndex(3);}catch(e){} }
-  try{ m.marker.setZIndex(500); }catch(e){}
-  frontMarker=m.marker;
+  if(m&&m.marker&&m.marker.setZIndex){ try{m.marker.setZIndex(500);}catch(e){} }
 }
 function addMarker(d){
   if(!d.lat||!d.lng)return;
@@ -2073,7 +2076,7 @@ function addMarker(d){
     wrapDiv.appendChild(circleDiv);wrapDiv.appendChild(labelDiv);
     bc=wrapDiv;
   }
-  const zIdx=d.type==='broker'?(map&&map.getLevel()<=4?9999:999):3;
+  const zIdx=d.type==='broker'?(map&&map.getLevel()<=4?9999:999):(d.id===frontMarkerId?500:3);
   const overlay=new kakao.maps.CustomOverlay({position:pos,content:bc,yAnchor:d.type==='broker'?1.3:1.0,zIndex:zIdx});
   overlay.setMap(map?map:null);
   markers.push({id:d.id,marker:overlay});
