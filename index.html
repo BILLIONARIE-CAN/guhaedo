@@ -1569,13 +1569,13 @@ function initMap(){
       map.setMapTypeId(kakao.maps.MapTypeId.ROADMAP);
       map.removeOverlayMapTypeId(kakao.maps.MapTypeId.ROADVIEW);
       if(distOn){map.removeOverlayMapTypeId(kakao.maps.MapTypeId.USE_DISTRICT);distOn=false;}
-      rvOverlayOn=false;
+      rvOverlayOn=false;rvWrap.style.display='none';ge('rv-close-btn').style.display='none';if(rvClickHandler){kakao.maps.event.removeListener(map,'click',rvClickHandler);rvClickHandler=null;}
       ge('mt-map').classList.add('active');
     }else if(type==='sky'){
       map.setMapTypeId(kakao.maps.MapTypeId.SKYVIEW);
       map.removeOverlayMapTypeId(kakao.maps.MapTypeId.ROADVIEW);
       if(distOn){map.removeOverlayMapTypeId(kakao.maps.MapTypeId.USE_DISTRICT);distOn=false;}
-      rvOverlayOn=false;
+      rvOverlayOn=false;rvWrap.style.display='none';ge('rv-close-btn').style.display='none';if(rvClickHandler){kakao.maps.event.removeListener(map,'click',rvClickHandler);rvClickHandler=null;}
       ge('mt-sky').classList.add('active');
     }else if(type==='dist'){
       if(distOn){
