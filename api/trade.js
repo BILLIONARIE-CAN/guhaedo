@@ -132,6 +132,17 @@ export default async function handler(req, res) {
   if (ymsParam && ymsParam.length) {
     batchCached = await getCachedBatch(code, ymsParam);
     batchMissing = ymsParam.filter(m => !batchCached[m]);
+    // 🔧 자가치유: 매칭 개선 이전에 '0건'으로 박제된 단지는 딱 한 번 재조회해서 채움.
+    //    (재조회하면 fetched_at 갱신 → 다음부턴 재반복 안 함. 진짜 거래 없는 단지도 1회만 확인 후 통과.)
+    if (!batchMissing.length) {
+      let tot = 0, oldest = Infinity;
+      for (const m of ymsParam) {
+        const r2 = batchCached[m];
+        tot += (r2.buy ? r2.buy.length : 0) + (r2.jeonse ? r2.jeonse.length : 0) + (r2.monthly ? r2.monthly.length : 0);
+        const ft = Date.parse(r2.fetched_at || 0); if (ft < oldest) oldest = ft;
+      }
+      if (tot === 0 && oldest < Date.parse('2026-08-04T12:00:00Z')) batchMissing = ymsParam.slice();
+    }
     // 전부 캐시 → V4/국토부 호출 0회, 즉시 응답 (아실급 속도)
     if (!batchMissing.length) {
       const first = batchCached[ymsParam[0]];
@@ -292,6 +303,10 @@ export default async function handler(req, res) {
       // 부번 없는 지번은 다른 동의 같은 본번과 충돌 위험이 있어 제외
       return !!(xj && myJibun && xj.bon === myJibun.bon && xj.bu != null && myJibun.bu != null && xj.bu === myJibun.bu);
     }
+    // ②-b 국토부명이 "기본명(브랜드/별칭)" 형태 → 괄호 떼면 우리 이름과 정확일치 + 같은 법정동이면 동일단지.
+    //     (K-apt 대표지번 vs 국토부 실거래 지번이 달라도 인정 — 신도시 다필지 단지 대응. 예: 새샘마을3단지(모아미래도리버시티))
+    const nBase = normalize(String(x.aptNm || '').replace(/\([^)]*\)/g, ''));
+    if (nBase && nBase === myName && dongMatch(x)) return true;
     // ③ 부분포함 (지역명·브랜드 접두/접미 차이)
     if (!dongMatch(x)) return false;
     const L = Math.min(n.length, myName.length);

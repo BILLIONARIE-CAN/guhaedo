@@ -71,6 +71,9 @@ function makeMatcher(rec) {
     const n = normalize(x.aptNm); if (!n || !myName) return false;
     const xj = parseJibun(x.jibun);
     if (n === myName) { if (dongMatch(x)) return myDongPart ? true : jibunSoft(x); return !!(xj && myJibun && xj.bon === myJibun.bon && xj.bu != null && myJibun.bu != null && xj.bu === myJibun.bu); }
+    // 국토부명이 "기본명(브랜드)" 형태 → 괄호 떼면 우리 이름과 정확일치 + 같은 법정동이면 동일단지 (지번 상이 대응)
+    var nBase = normalize(String(x.aptNm || '').replace(/\([^)]*\)/g, ''));
+    if (nBase && nBase === myName && dongMatch(x)) return true;
     if (!dongMatch(x)) return false;
     const L = Math.min(n.length, myName.length); if (L < 4) return false;
     if (!(n.includes(myName) || myName.includes(n))) return false;
