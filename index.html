@@ -1786,6 +1786,8 @@ function renderVisibleMarkers(showType='apt'){
            d.lng>=sw.getLng()&&d.lng<=ne.getLng();
   });
   visible.forEach(d=>addMarker(d));
+  // 핀을 다 그린 뒤 → 보이는 아파트/오피스텔 실거래 파일 백그라운드 프리페치(클릭 시 즉시 로딩)
+  try{ prefetchTradeFiles(visible.filter(function(d){return d.type==='apt'||d.type==='officetel';}).map(function(d){return d.code;})); }catch(e){}
 }
 
 function sleep(ms){return new Promise(r=>setTimeout(r,ms));}
@@ -4323,6 +4325,29 @@ function onDualRangeChange(){
 
 // 사전적재 데이터 CDN (guhaedo-data 레포) — 레포 생성 전이면 404 → 자동으로 API 폴백
 var TRADE_DATA_CDN='https://cdn.jsdelivr.net/gh/BILLIONARIE-CAN/guhaedo-data@main/trades/';
+
+// ⚡ 실거래 CDN 백그라운드 프리페치 — 핀 렌더 이후 지도가 멈춰 있고 브라우저가 한가할 때만,
+//    화면에 보이는 단지 파일을 저우선(priority:low)으로 미리 브라우저 캐시에 채워둠 → 클릭 시 즉시.
+//    핀 렌더와 별개 흐름(idle) + 동시 4개 제한이라 핀 표시 속도엔 영향 없음.
+var _tpDone=new Set(), _tpQ=[], _tpActive=0, _tpGen=0;
+function prefetchTradeFiles(codes){
+  if(!TRADE_DATA_CDN||!codes||!codes.length) return;
+  var gen=++_tpGen;                                   // 지도가 다시 움직이면 이전 예약 무효화
+  _tpQ=codes.filter(function(c){return c&&!_tpDone.has(c);}).slice(0,80);
+  function runNext(){
+    if(gen!==_tpGen) return;                           // 새 프리페치가 시작됨 → 중단
+    while(_tpActive<4 && _tpQ.length){
+      var c=_tpQ.shift(); if(_tpDone.has(c)) continue;
+      _tpDone.add(c); _tpActive++;
+      fetch(TRADE_DATA_CDN+encodeURIComponent(c)+'.json',{priority:'low'})
+        .then(function(r){return r&&r.ok?r.text():null;})   // 응답은 브라우저 HTTP 캐시에 적재
+        .catch(function(){})
+        .finally(function(){ _tpActive--; if(gen===_tpGen) runNext(); });
+    }
+  }
+  if(window.requestIdleCallback) requestIdleCallback(function(){runNext();},{timeout:1500});
+  else setTimeout(runNext,300);
+}
 
 // ===== 분양 단지 핀 (청약홈 데이터, guhaedo-data/presale.json) =====
 var PRESALE_URL='https://cdn.jsdelivr.net/gh/BILLIONARIE-CAN/guhaedo-data@main/presale.json';
