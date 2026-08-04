@@ -45,7 +45,19 @@ for (const a of APTS) {
   if (!APT_BY_LAWD.has(lawd)) APT_BY_LAWD.set(lawd, []);
   APT_BY_LAWD.get(lawd).push(rec);
 }
-const LAWDS = [...APT_BY_LAWD.keys()].sort();
+// 시(4자리) 단위 그룹 — 행정구역 개편으로 구코드가 갈라진 시 대응(예: 화성 41591/2/3 ↔ 국토부 41597)
+const APT_BY_PREFIX = new Map();
+for (const [lawd, arr] of APT_BY_LAWD) {
+  const p4 = lawd.slice(0, 4);
+  if (!APT_BY_PREFIX.has(p4)) APT_BY_PREFIX.set(p4, []);
+  for (const r of arr) APT_BY_PREFIX.get(p4).push(r);
+}
+// 한 시(4자리)에 구코드가 2개 이상이면(=개편된 시) 형제코드 0~9 전부 조회대상에 포함 → 국토부 신규코드도 훑음
+const lawdSet = new Set(APT_BY_LAWD.keys());
+const p4count = new Map();
+for (const lawd of APT_BY_LAWD.keys()) { const p = lawd.slice(0, 4); p4count.set(p, (p4count.get(p) || 0) + 1); }
+for (const [p, cnt] of p4count) { if (cnt >= 2) { for (let d = 0; d <= 9; d++) lawdSet.add(p + d); } }
+const LAWDS = [...lawdSet].sort();
 const MONTHS = (function () { const out = []; const now = new Date(); for (let i = 0; i < 24; i++) { const d = new Date(now.getFullYear(), now.getMonth() - i, 1); out.push(`${d.getFullYear()}${String(d.getMonth() + 1).padStart(2, '0')}`); } return out; })();
 const TOTAL_TASKS = LAWDS.length * MONTHS.length;
 
@@ -142,7 +154,7 @@ module.exports = async (req, res) => {
   while (processed < RUN_TASK_CAP && cursor < TOTAL_TASKS && calls_today < DAILY_CALL_CAP && (Date.now() - t0) < TIME_BUDGET_MS) {
     const lawd = LAWDS[Math.floor(cursor / MONTHS.length)];
     const ym = MONTHS[cursor % MONTHS.length];
-    const complexes = APT_BY_LAWD.get(lawd) || [];
+    const complexes = APT_BY_PREFIX.get(lawd.slice(0, 4)) || [];
 
     const [bR, rR, pR] = await Promise.all([
       safeJ(`${buyBase}?serviceKey=${GKEY}&LAWD_CD=${lawd}&DEAL_YMD=${ym}&numOfRows=1000&_type=json`, 4500),
@@ -167,7 +179,10 @@ module.exports = async (req, res) => {
       const rents = rRaw.filter(match);
       const jeonse = rents.filter(x => !parsePrice(x.monthlyRent)).map(x => ({ t: mapT(x), day: String(x.dealDay || '').trim(), p: parsePrice(x.deposit), a: parseFloat(x.excluUseAr || 0), f: String(x.floor || '').trim() }));
       const monthly = rents.filter(x => parsePrice(x.monthlyRent) > 0).map(x => ({ t: mapT(x), day: String(x.dealDay || '').trim(), d: parsePrice(x.deposit), m: parsePrice(x.monthlyRent), a: parseFloat(x.excluUseAr || 0), f: String(x.floor || '').trim() }));
-      rows.push({ kapt_code: rec.code, ym, buy, jeonse, monthly, lawd_cd: lawd, apt_name: [rec.name, rec.dong, rec.jibun].join('|'), fetched_at: new Date().toISOString() });
+      // 데이터 있는 단지만 저장 — 시(4자리) 형제코드 조회로 같은 단지가 여러 코드 태스크에 걸리므로, 빈 결과가 데이터를 덮어쓰지 않게 함
+      if (buy.length || jeonse.length || monthly.length) {
+        rows.push({ kapt_code: rec.code, ym, buy, jeonse, monthly, lawd_cd: lawd, apt_name: [rec.name, rec.dong, rec.jibun].join('|'), fetched_at: new Date().toISOString() });
+      }
     }
     if (rows.length) {
       await fetch(`${SUPABASE_URL}/rest/v1/apt_transactions`, { method: 'POST', headers: { ...supaHeaders(), Prefer: 'resolution=merge-duplicates' }, body: JSON.stringify(rows), signal: AbortSignal.timeout(8000) }).catch(() => {});
