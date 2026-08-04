@@ -331,12 +331,12 @@ export default async function handler(req, res) {
   if (ymsParam && ymsParam.length) {
     const toFetch = batchMissing.slice(0, 12);
     const rest = batchMissing.slice(12);
-    const fetched = {};
+    let fetched = {};
     const candPool = [];
     const mapT = x => `${parseInt(x.dealYear)}-${String(parseInt(x.dealMonth)||1).padStart(2,'0')}`;
 
-    await pmapS(toFetch, async m => {
-      // 분양권(pre) 실패는 매매/전월세 캐싱을 막지 않도록 분리 (errCore만 캐시 차단)
+    // 한 달치 국토부 조회+매칭 (현재 lawdCd 사용 — 형제코드 정정 시 재호출)
+    async function grabMonth(m) {
       let errCore = false, errPre = false;
       const safeJ = (u, isPre) => fetch(u, { signal: AbortSignal.timeout(isPre ? 3000 : 5000) })
         .then(r => r.json())
@@ -358,7 +358,8 @@ export default async function handler(req, res) {
           pre: String(x.ownershipGbn||'').trim().startsWith('입') ? '입' : '분' });
       });
       const rents = rRaw.filter(x => aptMatch(x));
-      fetched[m] = {
+      if (candPool.length < 3000) candPool.push(...bRaw, ...rRaw, ...pRaw);
+      return {
         buy: mBuy,
         jeonse: rents.filter(x => !parsePrice(x.monthlyRent)).map(x => ({
           t: mapT(x), day: String(x.dealDay||'').trim(), p: parsePrice(x.deposit),
@@ -370,8 +371,32 @@ export default async function handler(req, res) {
         })),
         _err: errCore
       };
-      if (candPool.length < 3000) candPool.push(...bRaw, ...rRaw, ...pRaw);
-    }, 12);  // 동시처리 12 = 미보유 월 1웨이브에 처리 (분양권 지연 누적으로 인한 함수 시간초과 방지)
+    }
+
+    await pmapS(toFetch, async m => { fetched[m] = await grabMonth(m); }, 12);
+
+    // 🔧 형제 시군구코드 재시도: 1차 매칭 0건이지만 국토부에 데이터는 있었다면(=유효코드지만 우리 단지 없음),
+    //    같은 시(앞4자리)의 다른 구코드로 프로브 → 매칭되면 그 코드로 전월 재조회.
+    //    (K-apt 개편前 코드 vs 국토부 개편後 코드 불일치 대응. 예: 화성 41591→41597. 여전히 이름·주소 매칭 요구 → 오매칭 없음)
+    let matchTot = 0;
+    for (const m of toFetch) { const f = fetched[m]; if (f) matchTot += f.buy.length + f.jeonse.length + f.monthly.length; }
+    if (matchTot === 0 && lawdCd && lawdCd.length === 5 && candPool.length) {
+      const prefix = lawdCd.slice(0, 4), probeM = toFetch[0];
+      let goodLawd = '';
+      for (let d = 0; d <= 9; d++) {
+        const sib = prefix + d;
+        if (sib === lawdCd) continue;
+        try {
+          const items = parseItems(await fetch(`${buyBase}?serviceKey=${KEY}&LAWD_CD=${sib}&DEAL_YMD=${probeM}&numOfRows=1000&_type=json`, { signal: AbortSignal.timeout(4000) }).then(r => r.json()));
+          if (items.some(x => aptMatch(x))) { goodLawd = sib; break; }
+        } catch (e) {}
+      }
+      if (goodLawd) {
+        lawdCd = goodLawd;
+        fetched = {};
+        await pmapS(toFetch, async m => { fetched[m] = await grabMonth(m); }, 12);
+      }
+    }
 
     // 캐시 업서트 (오류 월 제외 — 빈 데이터 박제 방지)
     setCachedBatch(toFetch.filter(m => fetched[m] && !fetched[m]._err).map(m => ({
