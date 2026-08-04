@@ -38,14 +38,17 @@ async function mgmtReadCache(code) {
     return row;
   } catch (e) { return null; }
 }
-function mgmtWriteCache(code, ym, total, per, detail) {
+async function mgmtWriteCache(code, ym, total, per, detail) {
   const U = process.env.SUPABASE_URL, K = process.env.SUPABASE_KEY;
   if (!U || !K) return;
-  fetch(`${U}/rest/v1/apt_mgmtcost`, {
-    method: 'POST',
-    headers: { ...mgmtHeaders(), 'Prefer': 'resolution=merge-duplicates' },
-    body: JSON.stringify([{ kapt_code: code, ym, total, per_hshld: per, detail, fetched_at: new Date().toISOString() }]),
-  }).catch(() => {});
+  // ★ await 필수: 서버리스는 응답 후 즉시 종료돼 fire-and-forget 쓰기가 잘림 → 캐시 저장 안 됨
+  try {
+    await fetch(`${U}/rest/v1/apt_mgmtcost`, {
+      method: 'POST',
+      headers: { ...mgmtHeaders(), 'Prefer': 'resolution=merge-duplicates' },
+      body: JSON.stringify([{ kapt_code: code, ym, total, per_hshld: per, detail, fetched_at: new Date().toISOString() }]),
+    });
+  } catch (e) {}
 }
 function mgmtSumItem(item) {
   if (!item) return 0;
@@ -63,26 +66,28 @@ function mgmtSumItem(item) {
 }
 // 항목 1개 조회. 타임아웃/오류 시 최대 2회 재시도 → 일부만 성공해 합계가 낮게 나오는 문제 방지.
 // resultCode가 정상('00')일 때만 값 인정. 실패가 있었으면 ok=false로 알려 캐시에 부분값 저장을 막음.
-async function mgmtFetchOp(op, code, ym) {
+async function mgmtFetchOp(op, code, ym, probe) {
   const url = `${MGMT_BASE}/${op}?serviceKey=${encodeURIComponent(MGMT_KEY)}&kaptCode=${code}&searchDate=${ym}&_type=json`;
-  for (let attempt = 0; attempt < 3; attempt++) {
+  const tries = probe ? 1 : 2;          // 프로브(findYm)는 1회, 본 수집은 2회
+  const to    = probe ? 4000 : 6000;    // 타임아웃 완화(과도한 지연 방지)
+  for (let attempt = 0; attempt < tries; attempt++) {
     try {
-      const r = await fetch(url, { signal: AbortSignal.timeout(9000) });
+      const r = await fetch(url, { signal: AbortSignal.timeout(to) });
       const j = JSON.parse(await r.text());
       const rc = j && j.response && j.response.header && j.response.header.resultCode;
       if (rc === '00') return { amount: mgmtSumItem(j.response.body && j.response.body.item), ok: true };
       if (rc === '03') return { amount: 0, ok: true }; // NODATA = 정상(해당 항목 없음)
     } catch (e) { /* 재시도 */ }
-    await new Promise(r => setTimeout(r, 400));
+    if (attempt < tries - 1) await new Promise(r => setTimeout(r, 300));
   }
-  return { amount: 0, ok: false }; // 3회 다 실패 → 부분값
+  return { amount: 0, ok: false }; // 실패 → 부분값(캐시엔 안 굳힘)
 }
 async function mgmtFindYm(code) {
   const now = new Date();
-  for (let back = 2; back <= 13; back++) {
+  for (let back = 2; back <= 8; back++) {
     const d = new Date(now.getFullYear(), now.getMonth() - back, 1);
     const ym = `${d.getFullYear()}${String(d.getMonth() + 1).padStart(2, '0')}`;
-    if ((await mgmtFetchOp('getHsmpCleaningCostInfoV2', code, ym)).amount > 0) return ym;
+    if ((await mgmtFetchOp('getHsmpCleaningCostInfoV2', code, ym, true)).amount > 0) return ym;
   }
   return null;
 }
@@ -108,7 +113,7 @@ async function handleMgmtCost(req, res) {
   const cached = await mgmtReadCache(code);
   if (cached) return mgmtRespond(req, res, { cached: true, ym: cached.ym, total: cached.total, perHousehold: cached.per_hshld, detail: cached.detail || [], units, empty: !cached.total });
   const ym = await mgmtFindYm(code);
-  if (!ym) { mgmtWriteCache(code, '', 0, 0, []); return mgmtRespond(req, res, { ym: null, total: 0, perHousehold: 0, detail: [], units, empty: true }); }
+  if (!ym) { await mgmtWriteCache(code, '', 0, 0, []); return mgmtRespond(req, res, { ym: null, total: 0, perHousehold: 0, detail: [], units, empty: true }); }
   const results = await Promise.all(MGMT_OPS.map(async ([op, label]) => {
     const r = await mgmtFetchOp(op, code, ym);
     return { label, amount: r.amount, ok: r.ok };
@@ -117,7 +122,7 @@ async function handleMgmtCost(req, res) {
   const total = results.reduce((s, x) => s + x.amount, 0);
   const detail = results.filter(x => x.amount > 0).sort((a, b) => b.amount - a.amount);
   const per = units > 0 ? Math.round(total / units) : 0;
-  if (allOk) mgmtWriteCache(code, ym, total, per, detail); // 부분값(일부 항목 실패)은 캐시에 굳히지 않음 → 다음 조회 때 재시도
+  if (allOk) await mgmtWriteCache(code, ym, total, per, detail); // 부분값(일부 항목 실패)은 캐시에 굳히지 않음 → 다음 조회 때 재시도
   return mgmtRespond(req, res, { cached: false, ym, total, perHousehold: per, detail, units, empty: total === 0, partial: !allOk });
 }
 
