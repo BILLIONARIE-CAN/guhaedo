@@ -1267,6 +1267,14 @@ let map=null, markers=[], infoWindows=[], curFilter='all';
 const BROKER_DATA=[];
 const SUPABASE_URL='https://nqnbbccazjanjhktknyz.supabase.co';
 const SUPABASE_ANON='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5xbmJiY2Nhemphbmpoa3Rrbnl6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzk0OTA5NDQsImV4cCI6MjA5NTA2Njk0NH0.rT_hIwTJyBnCDGyudmJYvN44G67WgZ9-bSVCzShiRjI';
+// 단지별 평형대(공급면적 9구간) — apt_pyeong_blob 1회 로드. { kapt_code: [버킷...] } (0=10평미만 … 8=80평대~)
+var PYEONG_MAP={}, PYEONG_READY=false;
+(async function loadPyeong(){
+  try{
+    var r=await fetch(SUPABASE_URL+'/rest/v1/apt_pyeong_blob?id=eq.1&select=data',{headers:{apikey:SUPABASE_ANON,Authorization:'Bearer '+SUPABASE_ANON}});
+    if(r.ok){ var j=await r.json(); if(j&&j[0]&&j[0].data){ PYEONG_MAP=j[0].data; PYEONG_READY=true; if(typeof updateMarkersForZoom==='function'&&window.map) updateMarkersForZoom(); } }
+  }catch(e){}
+})();
 
 async function loadBrokers(){
   try{
@@ -2596,10 +2604,10 @@ function filterList(q){renderList(q);}
 var pinLabelMode='name';
 var MF_CUR_YEAR=new Date().getFullYear();
 // 필터 상태: area=버킷키('' 전체), units/age=[lo,hi] 또는 null(전체)
-var MF_STATE={area:'',units:null,age:null};
+var MF_STATE={area:[],units:null,age:null};
 var MF_CFG={
-  area:{label:'평형', bucket:true,
-    presets:[['','전체'],['u60','~20평대'],['u85','20~30평'],['u135','30~40평'],['o135','40평대~']]},
+  area:{label:'평형(공급면적)', bucket:true, multi:true,
+    presets:[['','전체'],['0','10평미만'],['1','10평대'],['2','20평대'],['3','30평대'],['4','40평대'],['5','50평대'],['6','60평대'],['7','70평대'],['8','80평대~']]},
   units:{label:'세대수', min:0,max:1000,step:10, suffix:'세대', axis:['0','','500','','1000세대'],
     presets:[[null,'전체'],[[50,1000],'50세대~'],[[100,1000],'100~'],[[200,1000],'200~'],[[300,1000],'300~'],[[500,1000],'500~'],[[1000,1000],'1000~']]},
   age:{label:'입주년차', min:0,max:40,step:1, suffix:'년', axis:['0','10','20','30','40년'],
@@ -2625,9 +2633,8 @@ function mfPanelHTML(key){
   var cfg=MF_CFG[key];
   var html='<div class="mfp-title">'+cfg.label+'</div>';
   if(cfg.bucket){
-    var cur=MF_STATE.area;
     html+='<div class="mfp-presets">'+cfg.presets.map(function(p){
-      return '<button class="mfp-pre'+(p[0]===cur?' on':'')+'" onclick="mfSetBucket(\''+p[0]+'\')">'+p[1]+'</button>';
+      return '<button class="mfp-pre'+(mfBucketOn(p[0])?' on':'')+'" onclick="mfSetBucket(\''+p[0]+'\')">'+p[1]+'</button>';
     }).join('')+'</div>';
   } else {
     var st=MF_STATE[key]; var lo=st?st[0]:cfg.min, hi=st?st[1]:cfg.max;
@@ -2676,23 +2683,28 @@ function mfSetPreset(key,i){
   document.querySelectorAll('#mf-panel .mfp-pre').forEach(function(btn,j){ btn.classList.toggle('on',j===i); });
   mfSyncChip(key); if(map) updateMarkersForZoom();
 }
+function mfBucketOn(v){
+  if(v===''||v===null) return !(MF_STATE.area&&MF_STATE.area.length);
+  return !!(MF_STATE.area&&MF_STATE.area.indexOf(+v)>-1);
+}
 function mfSetBucket(v){
-  MF_STATE.area=v;
-  document.querySelectorAll('#mf-panel .mfp-pre').forEach(function(btn){ btn.classList.toggle('on', btn.getAttribute('onclick').indexOf("'"+v+"'")>-1); });
+  if(v===''){ MF_STATE.area=[]; }
+  else { var n=+v, arr=MF_STATE.area||[]; var i=arr.indexOf(n); if(i>-1) arr.splice(i,1); else arr.push(n); MF_STATE.area=arr; }
+  if(mfOpenKey==='area'){ var p=ge('mf-panel'); if(p) p.innerHTML=mfPanelHTML('area'); }
   mfSyncChip('area'); if(map) updateMarkersForZoom();
 }
 function mfClearOne(key){
-  MF_STATE[key]=key==='area'?'':null;
+  MF_STATE[key]=key==='area'?[]:null;
   if(mfOpenKey===key){ var p=ge('mf-panel'); p.innerHTML=mfPanelHTML(key); if(!MF_CFG[key].bucket) mfInitSlider(key); }
   mfSyncChip(key); if(map) updateMarkersForZoom();
 }
 function mfSyncChip(key){
   var chip=ge('mfc-'+key); if(!chip) return;
-  var active = key==='area' ? !!MF_STATE.area : !!MF_STATE[key];
+  var active = key==='area' ? !!(MF_STATE.area&&MF_STATE.area.length) : !!MF_STATE[key];
   chip.classList.toggle('on',active);
 }
 function resetMapFilters(){
-  MF_STATE={area:'',units:null,age:null};
+  MF_STATE={area:[],units:null,age:null};
   ['area','units','age'].forEach(mfSyncChip);
   ['apt','officetel'].forEach(function(t){typeFilters.add(t);var b=ge('mfc-'+t);if(b)b.classList.add('on');});
   mfClosePanel();
@@ -2713,7 +2725,12 @@ function passMapFilter(d){
     var age=MF_CUR_YEAR-y; if(age<0) age=0;
     if(age<MF_STATE.age[0]) return false;
     if(MF_STATE.age[1]<40 && age>MF_STATE.age[1]) return false; }
-  if(MF_STATE.area){ var ab=d.areaBreak; if(!ab||!(ab[MF_STATE.area]>0)) return false; }
+  if(MF_STATE.area&&MF_STATE.area.length&&PYEONG_READY){
+    var pb=PYEONG_MAP[d.code];
+    if(!pb||!pb.length) return false;            // 실거래 없어 평형 정보 없는 단지 → 필터 적용 시 제외
+    var hit=false; for(var qi=0;qi<MF_STATE.area.length;qi++){ if(pb.indexOf(MF_STATE.area[qi])>-1){ hit=true; break; } }
+    if(!hit) return false;
+  }
   return true;
 }
 
