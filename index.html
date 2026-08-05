@@ -1643,7 +1643,7 @@ function initMap(){
     if(lat!==c.getLat()||lng!==c.getLng()) map.setCenter(new kakao.maps.LatLng(lat,lng));
   });
   // 지도 이동 시에도 업데이트
-  kakao.maps.event.addListener(map,'idle',()=>{ updateMarkersForZoom(); if(typeof metricActive==='function'&&metricActive()) refreshMetricFilter(); });
+  kakao.maps.event.addListener(map,'idle',()=>{ if(typeof metricActive==='function'&&metricActive()) refreshMetricFilter(); else updateMarkersForZoom(); });
 
   // 협력중개사 마커 먼저
   BROKER_DATA.forEach(d=>addMarker(d));
@@ -2630,7 +2630,7 @@ var MSET=null, MSET_SEQ=0;   // 매칭 kapt_code Set(활성 시), null=지표필
 function metricActive(){ return METRIC_KEYS.some(function(k){return !!MF_STATE[k];}); }
 async function refreshMetricFilter(){
   if(!map) return;
-  if(!metricActive()){ MSET=null; renderVisibleMarkers('all'); return; }
+  if(!metricActive()){ MSET=null; updateMarkersForZoom(); return; }
   var seq=++MSET_SEQ, b=map.getBounds(), sw=b.getSouthWest(), ne=b.getNorthEast();
   var q=['select=kapt_code','limit=2000',
     'lat=gte.'+sw.getLat(),'lat=lte.'+ne.getLat(),'lng=gte.'+sw.getLng(),'lng=lte.'+ne.getLng()];
@@ -2645,7 +2645,7 @@ async function refreshMetricFilter(){
     var rows=await r.json();
     MSET=new Set((rows||[]).map(function(x){return x.kapt_code;}));
   }catch(e){ if(seq!==MSET_SEQ) return; MSET=new Set(); }
-  if(seq===MSET_SEQ) renderVisibleMarkers('all');
+  if(seq===MSET_SEQ) updateMarkersForZoom();
 }
 function mfSoon(){ if(typeof toast==='function') toast('준비중이에요 🙏'); }
 function mfType(t,btn){ if(typeFilters.has(t)){typeFilters.delete(t);if(btn)btn.classList.remove('on');} else {typeFilters.add(t);if(btn)btn.classList.add('on');} if(map) updateMarkersForZoom(); }
