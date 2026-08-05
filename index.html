@@ -2692,7 +2692,11 @@ function mfBucketOn(v){
 function mfSetBucket(v){
   if(v===''){ MF_STATE.area=[]; }
   else { var n=+v, arr=MF_STATE.area||[]; var i=arr.indexOf(n); if(i>-1) arr.splice(i,1); else arr.push(n); MF_STATE.area=arr; }
-  if(mfOpenKey==='area'){ var p=ge('mf-panel'); if(p) p.innerHTML=mfPanelHTML('area'); }
+  // 패널 재렌더 대신 버튼 on 상태만 갱신 → 클릭요소가 DOM에서 안 떨어져 다중선택 중 패널이 안 닫힘
+  document.querySelectorAll('#mf-panel .mfp-pre').forEach(function(btn){
+    var oc=btn.getAttribute('onclick')||'', mm=oc.match(/mfSetBucket\('([^']*)'\)/);
+    if(mm) btn.classList.toggle('on', mfBucketOn(mm[1]));
+  });
   mfSyncChip('area'); if(map) updateMarkersForZoom();
 }
 function mfClearOne(key){
