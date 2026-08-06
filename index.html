@@ -2659,8 +2659,8 @@ function mfPanelHTML(key){
   var cfg=MF_CFG[key];
   var html='<div class="mfp-title">'+cfg.label+'</div>';
   if(cfg.checks){
-    html+='<div class="mfp-presets" style="flex-direction:column;align-items:stretch">'+cfg.checks.map(function(c){
-      return '<label style="display:flex;align-items:center;gap:8px;padding:6px 4px;font-size:13px;color:#333;cursor:pointer"><input type="checkbox" '+(mfTypeOn(c[0])?'checked':'')+' onclick="mfToggleType(\''+c[0]+'\',this.checked)"> '+c[1]+'</label>';
+    html+='<div class="mfp-presets">'+cfg.checks.map(function(c){
+      return '<button class="mfp-pre'+(mfTypeOn(c[0])?' on':'')+'" onclick="mfToggleTypeBtn(\''+c[0]+'\')">'+c[1]+'</button>';
     }).join('')+'</div>';
   } else if(cfg.bucket){
     html+='<div class="mfp-presets">'+cfg.presets.map(function(p){
@@ -2715,7 +2715,15 @@ function mfSetPreset(key,i){
 }
 function mfApply(key){ if(MF_CFG[key]&&MF_CFG[key].metric) refreshMetricFilter(); else if(map) updateMarkersForZoom(); }
 function mfTypeOn(t){ return t==='presale' ? (typeof presaleVisible!=='undefined'&&presaleVisible) : typeFilters.has(t); }
-function mfToggleType(t,checked){ toggleTypeFilter(t,checked); var old=ge('tf-'+t); if(old)old.checked=checked; mfSyncChip('type'); }
+function mfToggleTypeBtn(t){
+  toggleTypeFilter(t, !mfTypeOn(t));   // 현재 상태 반전
+  // 버튼 on 상태만 갱신(재렌더 X) → 다중선택 중 패널 유지
+  document.querySelectorAll('#mf-panel .mfp-pre').forEach(function(btn){
+    var oc=btn.getAttribute('onclick')||'', mm=oc.match(/mfToggleTypeBtn\('([^']*)'\)/);
+    if(mm) btn.classList.toggle('on', mfTypeOn(mm[1]));
+  });
+  mfSyncChip('type');
+}
 function mfBucketOn(v){
   if(v===''||v===null) return !(MF_STATE.area&&MF_STATE.area.length);
   return !!(MF_STATE.area&&MF_STATE.area.indexOf(+v)>-1);
@@ -2731,7 +2739,7 @@ function mfSetBucket(v){
   mfSyncChip('area'); if(map) updateMarkersForZoom();
 }
 function mfClearOne(key){
-  if(key==='type'){ ['apt','officetel','villa','presale'].forEach(function(t){ mfToggleType(t,true); }); }
+  if(key==='type'){ ['apt','officetel','villa','presale'].forEach(function(t){ toggleTypeFilter(t,true); }); }
   else MF_STATE[key]=key==='area'?[]:null;
   if(mfOpenKey===key){ var p=ge('mf-panel'); p.innerHTML=mfPanelHTML(key); if(!MF_CFG[key].bucket && !MF_CFG[key].checks) mfInitSlider(key); }
   mfSyncChip(key); mfApply(key);
