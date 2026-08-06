@@ -492,6 +492,7 @@ body:has(#apt-detail-panel.open) .map-top-bar{left:468px}
     <!-- 상단 필터바 -->
     <div class="map-top-bar">
       <div class="mfbar"><div class="mf-row">
+        <button class="mfc" id="mfc-type" onclick="mfPanel('type',this)">건물유형</button>
         <button class="mfc" id="mfc-area" onclick="mfPanel('area',this)">평형</button>
         <button class="mfc" id="mfc-units" onclick="mfPanel('units',this)">세대수</button>
         <button class="mfc" id="mfc-age" onclick="mfPanel('age',this)">입주년차</button>
@@ -2608,6 +2609,7 @@ var MF_CUR_YEAR=new Date().getFullYear();
 // 필터 상태: area=버킷키('' 전체), units/age=[lo,hi] 또는 null(전체)
 var MF_STATE={area:[],units:null,age:null,price:null,py:null,jrate:null,gap:null};
 var MF_CFG={
+  type:{label:'건물유형', checks:[['apt','아파트'],['officetel','오피스텔'],['villa','빌라/연립'],['presale','분양']]},
   area:{label:'평형(공급면적)', bucket:true, multi:true,
     presets:[['','전체'],['0','10평미만'],['1','10평대'],['2','20평대'],['3','30평대'],['4','40평대'],['5','50평대'],['6','60평대'],['7','70평대'],['8','80평대~']]},
   units:{label:'세대수', min:0,max:1000,step:10, suffix:'세대', axis:['0','','500','','1000세대'],
@@ -2660,13 +2662,17 @@ function mfPanel(key,btn){
   if(btn) btn.classList.add('open');
   p.innerHTML=mfPanelHTML(key);
   p.style.display='block';
-  if(!MF_CFG[key].bucket) mfInitSlider(key);
+  if(!MF_CFG[key].bucket && !MF_CFG[key].checks) mfInitSlider(key);
 }
 function mfClosePanel(){ mfOpenKey=null; var p=ge('mf-panel'); if(p)p.style.display='none'; document.querySelectorAll('.mfc').forEach(function(c){c.classList.remove('open');}); }
 function mfPanelHTML(key){
   var cfg=MF_CFG[key];
   var html='<div class="mfp-title">'+cfg.label+'</div>';
-  if(cfg.bucket){
+  if(cfg.checks){
+    html+='<div class="mfp-presets" style="flex-direction:column;align-items:stretch">'+cfg.checks.map(function(c){
+      return '<label style="display:flex;align-items:center;gap:8px;padding:6px 4px;font-size:13px;color:#333;cursor:pointer"><input type="checkbox" '+(mfTypeOn(c[0])?'checked':'')+' onclick="mfToggleType(\''+c[0]+'\',this.checked)"> '+c[1]+'</label>';
+    }).join('')+'</div>';
+  } else if(cfg.bucket){
     html+='<div class="mfp-presets">'+cfg.presets.map(function(p){
       return '<button class="mfp-pre'+(mfBucketOn(p[0])?' on':'')+'" onclick="mfSetBucket(\''+p[0]+'\')">'+p[1]+'</button>';
     }).join('')+'</div>';
@@ -2718,6 +2724,8 @@ function mfSetPreset(key,i){
   mfSyncChip(key); mfApply(key);
 }
 function mfApply(key){ if(MF_CFG[key]&&MF_CFG[key].metric) refreshMetricFilter(); else if(map) updateMarkersForZoom(); }
+function mfTypeOn(t){ return t==='presale' ? (typeof presaleVisible!=='undefined'&&presaleVisible) : typeFilters.has(t); }
+function mfToggleType(t,checked){ toggleTypeFilter(t,checked); var old=ge('tf-'+t); if(old)old.checked=checked; mfSyncChip('type'); }
 function mfBucketOn(v){
   if(v===''||v===null) return !(MF_STATE.area&&MF_STATE.area.length);
   return !!(MF_STATE.area&&MF_STATE.area.indexOf(+v)>-1);
@@ -2733,13 +2741,17 @@ function mfSetBucket(v){
   mfSyncChip('area'); if(map) updateMarkersForZoom();
 }
 function mfClearOne(key){
-  MF_STATE[key]=key==='area'?[]:null;
-  if(mfOpenKey===key){ var p=ge('mf-panel'); p.innerHTML=mfPanelHTML(key); if(!MF_CFG[key].bucket) mfInitSlider(key); }
+  if(key==='type'){ ['apt','officetel','villa','presale'].forEach(function(t){ mfToggleType(t,true); }); }
+  else MF_STATE[key]=key==='area'?[]:null;
+  if(mfOpenKey===key){ var p=ge('mf-panel'); p.innerHTML=mfPanelHTML(key); if(!MF_CFG[key].bucket && !MF_CFG[key].checks) mfInitSlider(key); }
   mfSyncChip(key); mfApply(key);
 }
 function mfSyncChip(key){
   var chip=ge('mfc-'+key); if(!chip) return;
-  var active = key==='area' ? !!(MF_STATE.area&&MF_STATE.area.length) : !!MF_STATE[key];
+  var active;
+  if(key==='type') active = !(typeFilters.has('apt')&&typeFilters.has('officetel')&&typeFilters.has('villa')&&(typeof presaleVisible==='undefined'||presaleVisible));
+  else if(key==='area') active = !!(MF_STATE.area&&MF_STATE.area.length);
+  else active = !!MF_STATE[key];
   chip.classList.toggle('on',active);
 }
 function resetMapFilters(){
@@ -2786,6 +2798,7 @@ function toggleTypeFilter(type,checked){
   if(type==='presale'){
     presaleVisible=checked;
     renderPresalePins();
+    if(typeof mfSyncChip==='function') mfSyncChip('type');
     return;
   }
   if(checked) typeFilters.add(type); else typeFilters.delete(type);
@@ -2794,6 +2807,7 @@ function toggleTypeFilter(type,checked){
   var allOn=typeFilters.size===3&&presaleVisible;
   ge('type-toggle').style.background=allOn?'':'#e8f5e9';
   ge('type-toggle').style.color=allOn?'':'#1D9E75';
+  if(typeof mfSyncChip==='function') mfSyncChip('type');
 }
 
 // ===== 계산기 =====
