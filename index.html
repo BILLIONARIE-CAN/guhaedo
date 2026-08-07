@@ -1716,7 +1716,7 @@ async function loadAptData(sigunguName){
       MAP_DATA.push({id:'apt_'+(aptIdCounter++),type:'apt',name:d.name||'',addr:d.addr||fullAddr,built:d.built||'',dongCnt:d.dongCnt||'',heat:d.heat||'',saleType:d.sale||'',topFloor:d.topFloor||'',units:unitsCnt>0?unitsCnt+'세대':'',emd:d.emd||'',code:d.code||'',sale:'',jeonse:'',monthly:'',lat:d.lat,lng:d.lng,sido:d.sido||'',sigungu:d.sigungu||'',sigunguCode:d.sigunguCode||'',jibunAddr:d.jibunAddr||'',builder:d.builder||'',entrance:d.entrance||'',aptType:d.aptType||'',mgrType:d.mgrType||'',totalPark:d.totalPark||0,areaBreak:d.areaBreak||null,useArea:d.useArea||''});
     });
     await loadOfiData(sigunguName, apts);
-    renderVisibleMarkers('apt');
+    if(map&&map.getLevel()<=5) renderVisibleMarkers('apt');  // 핀 레벨에서만 렌더(동 레벨 프리로드 시 겹침 방지)
   }catch(e){}
 }
 
@@ -1835,6 +1835,8 @@ function updateMarkersForZoom(){
         if(map&&map.getLevel()>=6&&map.getLevel()<9) renderDongInView();
       });
     }
+    // ⚡ 핀 레벨(250m) 대비 아파트 데이터 미리 로드(백그라운드) → 확대 시 즉시 표시(콜드 323ms→캐시 4ms)
+    if(level<=7){ var _pf=function(){ if(map&&map.getLevel()>=6&&map.getLevel()<=7) loadAptForCurrentView(); }; if(window.requestIdleCallback) requestIdleCallback(_pf,{timeout:1200}); else setTimeout(_pf,300); }
   } else {
     // 250m 이하(level<=5): 아파트+중개사
     renderVisibleMarkers('all');
