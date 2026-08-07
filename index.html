@@ -2483,7 +2483,7 @@ function rsSearch(q){
 }
 
 function renderRsGrid(){
-  const grid = ge('rs-grid');
+  const grid = ge('rs-grid'); grid.style.gridTemplateColumns='';
   const bc = ge('rs-breadcrumb');
 
   if(rsLevel === 'sido'){
@@ -2512,7 +2512,7 @@ function selectSido(code, name, lat, lng){
     if(d.sigungu&&!sigunguMap[d.sigungu]) sigunguMap[d.sigungu]={name:d.sigungu, code:d.sigunguCode, lat:d.lat, lng:d.lng};
   });
   const list = Object.values(sigunguMap).sort((a,b)=>a.name.localeCompare(b.name,'ko'));
-  const grid = ge('rs-grid');
+  const grid = ge('rs-grid'); grid.style.gridTemplateColumns='';
   if(list.length===0){
     grid.innerHTML='<div style="grid-column:1/-1;padding:30px;text-align:center;color:var(--text3);font-size:13px">데이터가 없습니다</div>';
     return;
@@ -2524,7 +2524,7 @@ function selectSido(code, name, lat, lng){
 }
 
 function selectSigungu(code, name, lat, lng){
-  rsSelected.sigungu = {code, name};
+  rsSelected.sigungu = {code, name, lat, lng};
   rsLevel = 'emd';
   if(map){
     map.panTo(new kakao.maps.LatLng(lat, lng));
@@ -2540,7 +2540,7 @@ function selectSigungu(code, name, lat, lng){
     if(d.emd&&!emdMap[d.emd]) emdMap[d.emd]={name:d.emd, lat:d.lat, lng:d.lng};
   });
   const list = Object.values(emdMap).sort((a,b)=>a.name.localeCompare(b.name,'ko'));
-  const grid = ge('rs-grid');
+  const grid = ge('rs-grid'); grid.style.gridTemplateColumns='';
   if(list.length===0){
     grid.innerHTML='<div style="grid-column:1/-1;padding:30px;text-align:center;color:var(--text3);font-size:13px">데이터가 없습니다</div>';
     return;
@@ -2552,13 +2552,28 @@ function selectSigungu(code, name, lat, lng){
 }
 
 function selectEmd(name, lat, lng){
-  if(map){
-    map.panTo(new kakao.maps.LatLng(lat, lng));
-    map.setLevel(5);
+  rsSelected.emd = {name:name, lat:lat, lng:lng};
+  rsLevel = 'apt';
+  if(map){ map.panTo(new kakao.maps.LatLng(lat, lng)); map.setLevel(5); }
+  // 사이드박스 유지 — 그 동의 아파트 목록을 보여줌
+  var bc = ge('rs-breadcrumb');
+  bc.innerHTML = '<span class="rs-bc-item" onclick="backToSido()">'+rsSelected.sido.name+'</span><span class="rs-bc-sep">›</span><span class="rs-bc-item" onclick="backToEmd()">'+rsSelected.sigungu.name+'</span><span class="rs-bc-sep">›</span><span class="rs-bc-cur">'+name+'</span>';
+  var src = (typeof allAptData!=='undefined'&&allAptData.length)?allAptData:MAP_DATA;
+  var list = src.filter(function(d){ return d && String(d.sigunguCode)===String(rsSelected.sigungu.code) && d.emd===name && d.code; });
+  list.sort(function(a,b){ return String(a.name||'').localeCompare(String(b.name||''),'ko'); });
+  var grid = ge('rs-grid'); grid.style.gridTemplateColumns='1fr';
+  if(!list.length){ grid.innerHTML='<div style="grid-column:1/-1;padding:30px;text-align:center;color:var(--text3);font-size:13px">이 동에 등록된 단지가 없습니다</div>'; return; }
+  grid.innerHTML = list.map(function(a){ var u=parseInt(String(a.units).replace(/[^0-9]/g,''))||0; return '<div class="rs-grid-item" onclick="openComplexByCode(\''+a.code+'\')"><div>'+String(a.name||'').replace(/[<>]/g,'')+'</div>'+(u?'<div class="cnt">'+u+'세대</div>':'')+'</div>'; }).join('');
+}
+function backToEmd(){ if(rsSelected.sigungu) selectSigungu(rsSelected.sigungu.code, rsSelected.sigungu.name, rsSelected.sigungu.lat||0, rsSelected.sigungu.lng||0); }
+async function openComplexByCode(code){
+  var d = MAP_DATA.find(function(x){return x.code===code&&(x.type==='apt'||x.type==='officetel');});
+  if(!d){
+    var a=(allAptData||[]).find(function(x){return x.code===code;});
+    if(a&&a.sigunguCode){ try{ await loadAptData(String(a.sigunguCode).slice(0,5)); }catch(e){} d=MAP_DATA.find(function(x){return x.code===code&&(x.type==='apt'||x.type==='officetel');}); }
+    if(!d&&a){ d={id:'rs_'+code,type:'apt',name:a.name,code:a.code,addr:a.addr||'',jibunAddr:a.jibunAddr||'',lat:a.lat,lng:a.lng,sido:a.sido||'',sigungu:a.sigungu||'',emd:a.emd||'',units:(a.units?a.units+'세대':''),built:a.built||'',sigunguCode:a.sigunguCode||'',areaBreak:a.areaBreak||null,aptType:a.aptType||'',bjdCode:a.bjdCode||''}; }
   }
-  // 사이드바 닫고 지도 이동
-  ge('region-sidebar').classList.remove('open');
-  ge('menu-btn').classList.remove('active');
+  if(d){ if(map&&d.lat){ map.panTo(new kakao.maps.LatLng(d.lat,d.lng)); map.setLevel(3); } if(typeof openAptDetail==='function') openAptDetail(d); }
 }
 
 function backToSido(){
