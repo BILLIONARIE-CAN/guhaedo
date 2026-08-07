@@ -1896,14 +1896,23 @@ async function loadAptForCurrentView(){
   const swLng=sw.getLng()-lngRange*0.5;
   const neLng=ne.getLng()+lngRange*0.5;
 
-  const promises=[];
-  sigunguData.forEach(sg=>{
-    if(!sg.lat||!sg.lng)return;
-    if(sg.lat>=swLat&&sg.lat<=neLat&&sg.lng>=swLng&&sg.lng<=neLng){
-      promises.push(loadAptData(sg.code||sg.name.replace(/\s/g,'')));
+  const codes=new Set();
+  // 화면 안 실제 단지들의 시군구코드로 로드 — 시군구 중심점이 화면 밖(변두리)이어도 정확히 잡힘
+  if(typeof allAptData!=='undefined'&&allAptData&&allAptData.length){
+    for(var i=0;i<allAptData.length;i++){ var a=allAptData[i];
+      if(a&&a.lat>=swLat&&a.lat<=neLat&&a.lng>=swLng&&a.lng<=neLng){ var c=String(a.sigunguCode||'').slice(0,5); if(c.length===5) codes.add(c); }
     }
-  });
-  await Promise.all(promises);
+  }
+  // 폴백(allAptData 미로드 등): 시군구 중심점 화면내 + 화면중심 최근접 시군구
+  if(!codes.size){
+    var cen=map.getCenter(), cLat=cen.getLat(), cLng=cen.getLng(), nearest=null, nd=Infinity;
+    sigunguData.forEach(function(sg){ if(!sg.lat||!sg.lng)return;
+      if(sg.lat>=swLat&&sg.lat<=neLat&&sg.lng>=swLng&&sg.lng<=neLng) codes.add(sg.code||sg.name.replace(/\s/g,''));
+      var d=(sg.lat-cLat)*(sg.lat-cLat)+(sg.lng-cLng)*(sg.lng-cLng); if(d<nd){nd=d;nearest=sg;}
+    });
+    if(nearest) codes.add(nearest.code||nearest.name.replace(/\s/g,''));
+  }
+  await Promise.all([...codes].map(function(c){return loadAptData(c);}));
 }
 
 // 분리된 데이터로 클러스터 렌더링 (세대수 표시)
