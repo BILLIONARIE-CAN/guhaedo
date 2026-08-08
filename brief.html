@@ -54,7 +54,7 @@ const $=s=>document.querySelector(s), app=document.getElementById('app');
 const won=v=>{v=parseInt(v)||0;if(v>=10000){var e=Math.floor(v/10000),m=v%10000;return e+'억'+(m?' '+m.toLocaleString():'');}return v.toLocaleString()+'만';};
 const esc=s=>String(s||'').replace(/[<>]/g,'');
 function enc(o){return btoa(unescape(encodeURIComponent(JSON.stringify(o))));}
-function dec(s){try{return JSON.parse(decodeURIComponent(escape(atob(s))));}catch(e){return null;}}
+function dec(s){try{s=String(s).replace(/ /g,'+').replace(/-/g,'+').replace(/_/g,'/');while(s.length%4)s+='=';return JSON.parse(decodeURIComponent(escape(atob(s))));}catch(e){return null;}}
 
 // ---------- 라우팅 ----------
 const params=new URLSearchParams(location.search);

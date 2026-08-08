@@ -3418,7 +3418,7 @@ function doShareLink(){
   const fH=d.ho?(/호\s*$/.test(d.ho)?d.ho.trim():d.ho.trim()+'호'):'';
   const item={c:code,nm:d.complex,dh:[fD,fH].filter(Boolean).join(' '),fl:d.floor,ty:d.type,dl:dl,p:p,p2:p2,mm:[d.special,d.desc].filter(Boolean).join('\n')};
   const br={o:(proUser&&proUser.office)||'',n:(proUser&&proUser.name)||'',t:(proUser&&proUser.tel)||''};
-  const url=location.origin+'/brief.html?d='+btoa(unescape(encodeURIComponent(JSON.stringify({b:br,title:'',i:[item]}))));
+  const url=location.origin+'/brief.html?d='+btoa(unescape(encodeURIComponent(JSON.stringify({b:br,title:'',i:[item]})))).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,'');
   if(navigator.share){ navigator.share({title:'매물 안내서 — '+d.complex,text:'추천 매물 보내드려요',url:url}).catch(function(){}); }
   else { try{navigator.clipboard.writeText(url);}catch(e){} prompt('아래 링크를 복사해 카톡/문자로 보내세요:',url); }
 }
