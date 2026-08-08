@@ -3250,6 +3250,7 @@ function listingHTML(){
       <button onclick="doSave()" style="flex:1;height:44px;background:var(--green-bg);color:var(--green-deeper);border:1.5px solid var(--green-mid);border-radius:var(--radius-sm);font-size:14px;font-weight:700;cursor:pointer;font-family:inherit">💾 저장</button>
       <button class="btn-print" onclick="doPrintSafe(this)" style="flex:1;height:44px;font-size:14px">🖨 인쇄</button>
     </div>
+    <button onclick="doShareLink()" style="width:100%;height:44px;margin-bottom:8px;background:#FEE500;color:#191600;border:0;border-radius:var(--radius-sm);font-size:14px;font-weight:700;cursor:pointer;font-family:inherit">📤 카톡·문자로 링크 보내기</button>
     <button onclick="openHistModal()" style="width:100%;height:38px;margin-bottom:20px;background:var(--bg);border:1px solid var(--border);border-radius:var(--radius-sm);font-size:13px;color:var(--text2);cursor:pointer;font-family:inherit">📂 인쇄 기록 불러오기</button>
   </div>`;
 }
@@ -3402,6 +3403,22 @@ function doSave(){
   if(!data.complex){toast('단지명을 입력해주세요.');return;}
   savePrintHistory(data);
   toast('💾 저장됐어요! 인쇄 기록 탭에서 확인하세요.');
+}
+// 손님에게 카톡/문자로 보낼 링크 생성 (매물정보를 링크에 담아 brief.html 뷰가 우리 데이터로 조립)
+function doShareLink(){
+  const d=_collectListingData();
+  if(!d.complex){toast('단지를 선택하세요.');return;}
+  const num=s=>parseInt(String(s||'').replace(/[^0-9]/g,''))||0;
+  const code=(typeof selectedApt!=='undefined'&&selectedApt&&selectedApt.code)||'';
+  let dl='',p=0,p2='';
+  if(d.chkSale&&d.sale){dl='s';p=num(d.sale);}
+  else if(d.chkJeonse&&d.jeonse){dl='j';p=num(d.jeonse);}
+  else if(d.chkMonthly&&(d.deposit||d.monthly)){dl='m';p=num(d.deposit);p2=String(num(d.monthly)||'');}
+  const item={c:code,nm:d.complex,dh:[d.dong,d.ho].filter(Boolean).join(' '),fl:d.floor,ty:d.type,dl:dl,p:p,p2:p2,mm:d.special||d.desc};
+  const br={o:(proUser&&proUser.office)||'',n:(proUser&&proUser.name)||'',t:(proUser&&proUser.tel)||''};
+  const url=location.origin+'/brief.html?d='+btoa(unescape(encodeURIComponent(JSON.stringify({b:br,title:'',i:[item]}))));
+  if(navigator.share){ navigator.share({title:'매물 안내서 — '+d.complex,text:'추천 매물 보내드려요',url:url}).catch(function(){}); }
+  else { try{navigator.clipboard.writeText(url);}catch(e){} prompt('아래 링크를 복사해 카톡/문자로 보내세요:',url); }
 }
 // doPrint() is defined below (line ~3128) — do not duplicate here
 
