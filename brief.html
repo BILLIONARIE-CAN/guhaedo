@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>아구구 매물 브리핑</title>
+<style>
+  :root{--g:#1D9E75;--gd:#157a5a;--gb:#eef7f2;--bg:#f4f6f8;--ln:#e6e9ec;--t1:#1a1a1a;--t2:#555;--t3:#8a9199}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:'Malgun Gothic','맑은 고딕',-apple-system,sans-serif;background:var(--bg);color:var(--t1);line-height:1.5;font-size:14px}
+  .wrap{max-width:640px;margin:0 auto;padding:14px}
+  .card{background:#fff;border:1px solid var(--ln);border-radius:12px;padding:16px;margin-bottom:12px}
+  h2{font-size:16px;margin:0 0 10px}
+  h1{font-size:20px;margin:0}
+  label{display:block;font-size:12px;color:var(--t2);margin:8px 0 3px;font-weight:600}
+  input,select,textarea{width:100%;padding:9px 11px;border:1px solid var(--ln);border-radius:8px;font-size:14px;font-family:inherit}
+  .row{display:flex;gap:8px}.row>*{flex:1}
+  button{border:0;border-radius:8px;font-weight:700;cursor:pointer;font-size:14px}
+  .btn{background:var(--g);color:#fff;padding:11px 16px;width:100%}
+  .btn.sec{background:var(--gb);color:var(--gd)}
+  .btn.sm{width:auto;padding:8px 12px;font-size:13px}
+  .btn.gray{background:#eef0f2;color:#555}
+  #results{border:1px solid var(--ln);border-radius:8px;margin-top:4px;max-height:230px;overflow:auto;display:none}
+  #results div{padding:9px 12px;border-bottom:1px solid var(--ln);cursor:pointer}
+  #results div:hover{background:var(--gb)}#results small{color:var(--t3)}
+  .item{border:1px solid var(--ln);border-radius:10px;padding:11px 13px;margin-bottom:8px;position:relative}
+  .item .x{position:absolute;top:8px;right:10px;color:#c33;cursor:pointer;font-weight:700}
+  .item .nm{font-weight:700}.item .sub{font-size:12.5px;color:var(--t2);margin-top:2px}
+  .item .pr{color:var(--gd);font-weight:800;margin-top:4px}
+  .sum{display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:6px;margin-top:8px}
+  .sum .c{background:var(--bg);border-radius:7px;padding:8px 4px;text-align:center}
+  .sum .l{font-size:10px;color:var(--t3)}.sum .v{font-size:14px;font-weight:800;color:var(--gd);margin-top:2px}
+  .deals{width:100%;border-collapse:collapse;font-size:12px;margin-top:6px}
+  .deals th,.deals td{padding:4px 6px;border-bottom:1px solid var(--ln);text-align:center}.deals th{color:var(--t2);background:#fafbfc}
+  .brokerbar{background:var(--gd);color:#fff;border-radius:12px;padding:14px 16px;margin-bottom:12px}
+  .brokerbar .o{font-size:17px;font-weight:800}.brokerbar .c{font-size:13px;opacity:.95;margin-top:3px}
+  .tag{display:inline-block;background:var(--gb);color:var(--gd);border-radius:5px;padding:1px 7px;font-size:11px;font-weight:700;margin-right:4px}
+  .linkbox{background:#f0f7f3;border:1px dashed var(--g);border-radius:8px;padding:10px;word-break:break-all;font-size:12px;color:var(--gd);margin:8px 0}
+  .muted{color:var(--t3);font-size:12px}
+  details{margin-top:6px}summary{cursor:pointer;color:var(--g);font-size:13px;font-weight:600;list-style:none}
+  summary::-webkit-details-marker{display:none}
+  .foot{text-align:center;color:var(--t3);font-size:11px;margin:16px 0}
+</style>
+</head>
+<body>
+<div class="wrap" id="app"></div>
+
+<script>
+const SUPABASE_URL='https://nqnbbccazjanjhktknyz.supabase.co';
+const SUPABASE_ANON='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5xbmJiY2Nhemphbmpoa3Rrbnl6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzk0OTA5NDQsImV4cCI6MjA5NTA2Njk0NH0.rT_hIwTJyBnCDGyudmJYvN44G67WgZ9-bSVCzShiRjI';
+const H={apikey:SUPABASE_ANON,Authorization:'Bearer '+SUPABASE_ANON};
+const $=s=>document.querySelector(s), app=document.getElementById('app');
+const won=v=>{v=parseInt(v)||0;if(v>=10000){var e=Math.floor(v/10000),m=v%10000;return e+'억'+(m?' '+m.toLocaleString():'');}return v.toLocaleString()+'만';};
+const esc=s=>String(s||'').replace(/[<>]/g,'');
+function enc(o){return btoa(unescape(encodeURIComponent(JSON.stringify(o))));}
+function dec(s){try{return JSON.parse(decodeURIComponent(escape(atob(s))));}catch(e){return null;}}
+
+// ---------- 라우팅 ----------
+const params=new URLSearchParams(location.search);
+if(params.get('d')){ viewMode(dec(params.get('d'))); } else { makeMode(); }
+
+// ================= 보기 모드 =================
+async function viewMode(b){
+  if(!b){ app.innerHTML='<div class="card">잘못된 링크예요.</div>'; return; }
+  const br=b.b||{};
+  let html='<div class="brokerbar"><div class="o">'+esc(br.o||'공인중개사')+'</div><div class="c">'+esc(br.n||'')+(br.t?' · ☎ '+esc(br.t):'')+'</div></div>';
+  html+='<div class="card"><h1>추천 매물 '+(b.i||[]).length+'건</h1><div class="muted" style="margin-top:4px">'+esc(b.title||'')+'</div></div>';
+  html+='<div id="items"></div>';
+  html+='<div class="card"><button class="btn sec" onclick="shareThis()">📤 이 브리핑 공유하기</button></div>';
+  html+='<div class="foot">데이터: 국토교통부·공동주택관리정보시스템 공개자료 기반 · 아구구</div>';
+  app.innerHTML=html;
+  const box=document.getElementById('items');
+  for(const it of (b.i||[])){ const el=document.createElement('div'); el.className='card'; el.innerHTML=itemHeader(it)+'<div class="muted">불러오는 중…</div>'; box.appendChild(el); renderItem(el,it); }
+}
+function itemHeader(it){
+  const deal=({s:'매매',j:'전세',m:'월세'})[it.dl]||'';
+  const price=it.dl==='m'?(won(it.p)+' / '+esc(it.p2||'')+'만'):won(it.p);
+  return '<div class="nm" style="font-size:16px">'+esc(it.nm)+'</div>'+
+    '<div class="sub">'+[it.dh,it.fl?it.fl+'층':'',it.ty].filter(Boolean).map(esc).join(' · ')+'</div>'+
+    '<div class="pr" style="font-size:18px">'+(deal?'<span class="tag">'+deal+'</span>':'')+price+'</div>'+
+    (it.mm?'<div class="sub" style="margin-top:5px">💬 '+esc(it.mm)+'</div>':'');
+}
+async function renderItem(el,it){
+  const m=(await (await fetch(SUPABASE_URL+'/rest/v1/apt_metrics?kapt_code=eq.'+it.c+'&select=*',{headers:H})).json())[0]||{};
+  const yms=[];const now=new Date();for(let i=0;i<24;i++){const d=new Date(now.getFullYear(),now.getMonth()-i,1);yms.push(''+d.getFullYear()+String(d.getMonth()+1).padStart(2,'0'));}
+  let t={buy:[]};try{t=await (await fetch('/api/trade?code='+it.c+'&yms='+yms.join(','))).json()||t;}catch(e){}
+  let mg=null;try{mg=await (await fetch('/api/apt?type=mgmtcost&code='+it.c+'&units='+(parseInt(m.units)||0))).json();}catch(e){}
+  const recent=(t.buy||[]).slice().sort((a,b)=>(b.t+String(b.day).padStart(2,'0')).localeCompare(a.t+String(a.day).padStart(2,'0'))).slice(0,4);
+  el.innerHTML=itemHeader(it)+
+    '<div class="sum">'+
+      '<div class="c"><div class="l">단지시세(매매)</div><div class="v">'+(m.price_m?won(m.price_m):'-')+'</div></div>'+
+      '<div class="c"><div class="l">평당가</div><div class="v">'+(m.py_m?m.py_m.toLocaleString():'-')+'</div></div>'+
+      '<div class="c"><div class="l">전세가</div><div class="v">'+(m.jeonse_m?won(m.jeonse_m):'-')+'</div></div>'+
+      '<div class="c"><div class="l">세대·입주</div><div class="v" style="font-size:12px">'+(m.units||'-')+'세대<br>'+(m.movein||'-')+'년</div></div>'+
+    '</div>'+
+    (mg&&mg.perHousehold?'<div class="muted" style="margin-top:8px">월 관리비 약 '+mg.perHousehold.toLocaleString()+'원/세대(공용)</div>':'')+
+    (recent.length?'<details><summary>최근 실거래 보기</summary><table class="deals"><tr><th>월</th><th>전용</th><th>층</th><th>거래가</th></tr>'+recent.map(x=>'<tr><td>'+x.t+'</td><td>'+(x.a||'-')+'㎡</td><td>'+(x.f||'-')+'</td><td>'+won(x.p)+'</td></tr>').join('')+'</table></details>':'');
+}
+function shareThis(){ const u=location.href; if(navigator.share){navigator.share({title:'추천 매물 브리핑',url:u});}else{navigator.clipboard.writeText(u);alert('링크 복사됨');} }
+
+// ================= 만들기 모드 =================
+let picked=[]; let bInfo=JSON.parse(localStorage.getItem('brf_broker')||'{}');
+function makeMode(){
+  app.innerHTML=
+   '<div class="card"><h2>📋 매물 브리핑 만들기</h2><div class="muted">매물을 여러 개 담아 링크 하나로 손님에게 보내세요. (로그인·저장 불필요 — 링크에 담김)</div></div>'+
+   '<div class="card"><h2>내 정보</h2>'+
+     '<div class="row"><div><label>사무소명</label><input id="b_o" value="'+esc(bInfo.o||'')+'"></div><div><label>담당자</label><input id="b_n" value="'+esc(bInfo.n||'')+'"></div></div>'+
+     '<label>연락처</label><input id="b_t" value="'+esc(bInfo.t||'')+'" placeholder="010-0000-0000"></div>'+
+   '<div class="card"><h2>매물 추가</h2>'+
+     '<label>단지 검색</label><input id="q" placeholder="단지명 입력 (예: 래미안)" autocomplete="off"><div id="results"></div>'+
+     '<div id="pform" style="display:none;margin-top:8px">'+
+       '<div class="muted" id="pickedNm" style="font-weight:700;color:var(--gd)"></div>'+
+       '<div class="row"><div><label>동/호</label><input id="f_dh" placeholder="101동 1201호"></div><div><label>층</label><input id="f_fl" placeholder="12"></div></div>'+
+       '<div class="row"><div><label>타입</label><input id="f_ty" placeholder="84A"></div><div><label>거래유형</label><select id="f_dl"><option value="s">매매</option><option value="j">전세</option><option value="m">월세</option></select></div></div>'+
+       '<div class="row"><div><label>가격(만원)</label><input id="f_p" placeholder="35000"></div><div id="f_p2wrap" style="display:none"><label>월세(만원)</label><input id="f_p2" placeholder="70"></div></div>'+
+       '<label>특이사항(선택)</label><textarea id="f_mm" rows="2" placeholder="즉시입주, 로열층, 올수리 등"></textarea>'+
+       '<button class="btn sm" style="margin-top:8px" onclick="addItem()">+ 매물 담기</button>'+
+     '</div></div>'+
+   '<div class="card"><h2>담은 매물 (<span id="cnt">0</span>)</h2><div id="list"><div class="muted">아직 없어요.</div></div></div>'+
+   '<div class="card"><label>브리핑 제목(선택)</label><input id="title" placeholder="예: 김고객님 추천 매물">'+
+     '<button class="btn" style="margin-top:10px" onclick="genLink()">🔗 브리핑 링크 만들기</button><div id="out"></div></div>';
+  $('#q').addEventListener('input',debounce(search,300));
+  $('#f_dl').addEventListener('change',e=>{$('#f_p2wrap').style.display=e.target.value==='m'?'block':'none';});
+}
+let selCode=null;
+function debounce(f,ms){let t;return function(){clearTimeout(t);t=setTimeout(()=>f.apply(this,arguments),ms);};}
+async function search(){
+  const q=$('#q').value.trim(); const box=$('#results');
+  if(q.length<2){box.style.display='none';return;}
+  const rows=await (await fetch(SUPABASE_URL+'/rest/v1/apt_metrics?select=kapt_code,name,units,price_m&name=ilike.*'+encodeURIComponent(q)+'*&order=units.desc.nullslast&limit=20',{headers:H})).json();
+  if(!rows.length){box.style.display='none';return;}
+  box.innerHTML=rows.map(x=>'<div onclick="pickC(\''+x.kapt_code+'\',\''+esc(x.name).replace(/\x27/g,'')+'\')">'+esc(x.name)+'<small> '+(x.units||'')+'세대'+(x.price_m?' · '+won(x.price_m):'')+'</small></div>').join('');
+  box.style.display='block';
+}
+function pickC(code,name){ selCode=code; $('#pickedNm').textContent='✔ '+name; $('#pickedNm').dataset.nm=name; $('#results').style.display='none'; $('#q').value=name; $('#pform').style.display='block'; }
+function addItem(){
+  if(!selCode){alert('단지를 먼저 검색해 선택하세요');return;}
+  const p=$('#f_p').value.replace(/[^0-9]/g,'');
+  if(!p){alert('가격을 입력하세요');return;}
+  picked.push({c:selCode,nm:$('#pickedNm').dataset.nm,dh:$('#f_dh').value,fl:$('#f_fl').value,ty:$('#f_ty').value,dl:$('#f_dl').value,p:parseInt(p),p2:$('#f_p2').value.replace(/[^0-9]/g,''),mm:$('#f_mm').value});
+  ['f_dh','f_fl','f_ty','f_p','f_p2','f_mm'].forEach(id=>$('#'+id).value=''); $('#q').value=''; $('#pform').style.display='none'; selCode=null;
+  renderList();
+}
+function rmItem(i){picked.splice(i,1);renderList();}
+function renderList(){
+  $('#cnt').textContent=picked.length;
+  $('#list').innerHTML=picked.length?picked.map((it,i)=>{const deal=({s:'매매',j:'전세',m:'월세'})[it.dl]||'';return '<div class="item"><span class="x" onclick="rmItem('+i+')">✕</span><div class="nm">'+esc(it.nm)+'</div><div class="sub">'+[it.dh,it.fl?it.fl+'층':'',it.ty].filter(Boolean).map(esc).join(' · ')+'</div><div class="pr"><span class="tag">'+deal+'</span>'+won(it.p)+(it.dl==='m'&&it.p2?' / '+it.p2+'만':'')+'</div></div>';}).join(''):'<div class="muted">아직 없어요.</div>';
+}
+function genLink(){
+  if(!picked.length){alert('매물을 하나 이상 담으세요');return;}
+  bInfo={o:$('#b_o').value,n:$('#b_n').value,t:$('#b_t').value}; localStorage.setItem('brf_broker',JSON.stringify(bInfo));
+  const obj={b:bInfo,title:$('#title').value,i:picked};
+  const url=location.origin+location.pathname+'?d='+enc(obj);
+  $('#out').innerHTML='<div class="linkbox">'+url+'</div>'+
+    '<div class="row"><button class="btn sm" onclick="doShare(\''+url.replace(/\x27/g,'')+'\')">📤 카톡·문자로 보내기</button>'+
+    '<button class="btn sm gray" onclick="navigator.clipboard.writeText(\''+url.replace(/\x27/g,'')+'\');alert(\'복사됨\')">링크 복사</button>'+
+    '<button class="btn sm sec" onclick="window.open(\''+url.replace(/\x27/g,'')+'\')">미리보기</button></div>';
+}
+function doShare(u){ if(navigator.share){navigator.share({title:'추천 매물 브리핑',text:'추천 매물 보내드려요',url:u});}else{navigator.clipboard.writeText(u);alert('링크 복사됨 — 카톡/문자에 붙여넣기 하세요');} }
+</script>
+</body>
+</html>
