@@ -3244,6 +3244,12 @@ function listingHTML(){
       <div class="photo-preview" id="photo-preview"></div>
     </div>
 
+    <!-- 브리핑 바구니 (여러 매물 함께 보내기) -->
+    <div class="lsec" id="brief-basket-sec" style="display:none">
+      <div class="lsec-title">📋 브리핑에 담은 매물 (<span id="brief-cnt">0</span>건)</div>
+      <div id="brief-basket"></div>
+    </div>
+    <button onclick="addToBrief()" style="width:100%;height:42px;margin-bottom:8px;background:var(--green-bg);color:var(--green-deeper);border:1.5px dashed var(--green-mid);border-radius:var(--radius-sm);font-size:14px;font-weight:700;cursor:pointer;font-family:inherit">➕ 이 매물 브리핑에 담기 <span style="font-size:11px;font-weight:500">(여러 개 함께 보낼 때)</span></button>
     <!-- 버튼 -->
     <div style="display:flex;gap:8px;margin-top:4px;margin-bottom:8px">
       <button class="btn-clear" onclick="clearListing()" style="flex:1;height:44px">초기화</button>
@@ -3405,9 +3411,10 @@ function doSave(){
   toast('💾 저장됐어요! 인쇄 기록 탭에서 확인하세요.');
 }
 // 손님에게 카톡/문자로 보낼 링크 생성 (매물정보를 링크에 담아 brief.html 뷰가 우리 데이터로 조립)
-function doShareLink(){
+var briefItems=[];
+function _buildBriefItem(){
   const d=_collectListingData();
-  if(!d.complex){toast('단지를 선택하세요.');return;}
+  if(!d.complex) return null;
   const num=s=>parseInt(String(s||'').replace(/[^0-9]/g,''))||0;
   const code=(typeof selectedApt!=='undefined'&&selectedApt&&selectedApt.code)||'';
   let dl='',p=0,p2='';
@@ -3416,11 +3423,34 @@ function doShareLink(){
   else if(d.chkMonthly&&(d.deposit||d.monthly)){dl='m';p=num(d.deposit);p2=String(num(d.monthly)||'');}
   const fD=d.dong?(/동\s*$/.test(d.dong)?d.dong.trim():d.dong.trim()+'동'):'';
   const fH=d.ho?(/호\s*$/.test(d.ho)?d.ho.trim():d.ho.trim()+'호'):'';
-  const item={c:code,nm:d.complex,dh:[fD,fH].filter(Boolean).join(' '),fl:d.floor,ty:d.type,dl:dl,p:p,p2:p2,mm:[d.special,d.desc].filter(Boolean).join('\n')};
+  return {c:code,nm:d.complex,dh:[fD,fH].filter(Boolean).join(' '),fl:d.floor,ty:d.type,dl:dl,p:p,p2:p2,mm:[d.special,d.desc].filter(Boolean).join('\n')};
+}
+function addToBrief(){
+  const it=_buildBriefItem();
+  if(!it){toast('단지를 선택하고 정보를 입력하세요.');return;}
+  briefItems.push(it); renderBriefItems();
+  ['input-dong','input-ho','input-type','input-floor','input-movein','p-sale','p-jeonse','p-deposit','p-monthly','f-special','f-desc'].forEach(id=>{const e=ge(id);if(e)e.value='';});
+  try{const c=ge('chk-sale'),j=ge('chk-jeonse'),m=ge('chk-monthly');if(c)c.checked=false;if(j)j.checked=false;if(m)m.checked=false;}catch(e){}
+  toast('📋 담았어요! 총 '+briefItems.length+'건 — 다음 매물을 담거나 링크를 보내세요.');
+}
+function rmBriefItem(i){briefItems.splice(i,1);renderBriefItems();}
+function renderBriefItems(){
+  const sec=ge('brief-basket-sec'),box=ge('brief-basket'),cnt=ge('brief-cnt');
+  if(!box)return;
+  if(cnt)cnt.textContent=briefItems.length;
+  if(sec)sec.style.display=briefItems.length?'block':'none';
+  const eok=v=>v>=10000?(Math.floor(v/10000)+'억'+(v%10000?' '+(v%10000):'')):v+'만';
+  box.innerHTML=briefItems.map(function(it,i){const deal=({s:'매매',j:'전세',m:'월세'})[it.dl]||'';return '<div style="display:flex;justify-content:space-between;align-items:center;padding:8px 10px;border:1px solid var(--border);border-radius:8px;margin-bottom:6px"><div style="font-size:13px"><b>'+(it.nm||'')+'</b> <span style="color:var(--text3)">'+[it.dh,it.ty].filter(Boolean).join(' ')+'</span> <span style="color:var(--green-deeper);font-weight:700">'+deal+' '+eok(it.p)+'</span></div><span onclick="rmBriefItem('+i+')" style="color:#c33;cursor:pointer;font-weight:700;padding:0 6px">✕</span></div>';}).join('');
+}
+function doShareLink(){
+  let items=briefItems.slice();
+  const cur=_buildBriefItem();
+  if(cur && !items.some(x=>x.c===cur.c&&x.dh===cur.dh&&x.p===cur.p)) items.push(cur);
+  if(!items.length){toast('매물을 입력하거나 담아주세요.');return;}
   const br={o:(proUser&&proUser.office)||'',n:(proUser&&proUser.name)||'',t:(proUser&&proUser.tel)||''};
-  const url=location.origin+'/brief.html?d='+btoa(unescape(encodeURIComponent(JSON.stringify({b:br,title:'',i:[item]})))).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,'');
-  if(navigator.share){ navigator.share({title:'매물 안내서 — '+d.complex,text:'추천 매물 보내드려요',url:url}).catch(function(){}); }
-  else { try{navigator.clipboard.writeText(url);}catch(e){} prompt('아래 링크를 복사해 카톡/문자로 보내세요:',url); }
+  const url=location.origin+'/brief.html?d='+btoa(unescape(encodeURIComponent(JSON.stringify({b:br,title:'',i:items})))).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,'');
+  if(navigator.share){ navigator.share({title:'매물 안내서 '+items.length+'건',text:'추천 매물 보내드려요',url:url}).catch(function(){}); }
+  else { try{navigator.clipboard.writeText(url);}catch(e){} prompt('아래 링크를 복사해 카톡/문자로 보내세요 ('+items.length+'건):',url); }
 }
 // doPrint() is defined below (line ~3128) — do not duplicate here
 
