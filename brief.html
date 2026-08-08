@@ -68,9 +68,11 @@ async function viewMode(b){
   let html='<div class="brokerbar"><div class="o">'+esc(br.o||'공인중개사')+'</div><div class="c">'+esc(br.n||'')+(br.t?' · ☎ '+esc(br.t):'')+'</div></div>';
   html+='<div class="card"><h1>추천 매물 '+(b.i||[]).length+'건</h1><div class="muted" style="margin-top:4px">'+esc(b.title||'')+'</div></div>';
   html+='<div id="items"></div>';
+  html+='<div class="card" style="text-align:center;min-height:262px;display:flex;align-items:center;justify-content:center;overflow:hidden"><ins class="kakao_ad_area" style="display:none" data-ad-unit="DAN-KpmCmBSL2hBTN2xb" data-ad-width="300" data-ad-height="250"></ins></div>';
   html+='<div class="card"><button class="btn sec" onclick="shareThis()">📤 이 브리핑 공유하기</button></div>';
   html+='<div class="foot">데이터: 국토교통부·공동주택관리정보시스템 공개자료 기반 · 아구구</div>';
   app.innerHTML=html;
+  try{var _ad=document.createElement('script');_ad.src='//t1.kakaocdn.net/kas/static/ba.min.js';_ad.async=true;document.body.appendChild(_ad);}catch(e){}
   const box=document.getElementById('items');
   for(const it of (b.i||[])){ const el=document.createElement('div'); el.className='card'; el.innerHTML=itemHeader(it)+'<div class="muted">불러오는 중…</div>'; box.appendChild(el); renderItem(el,it); }
 }
@@ -80,7 +82,7 @@ function itemHeader(it){
   return '<div class="nm" style="font-size:16px">'+esc(it.nm)+'</div>'+
     '<div class="sub">'+[it.dh,it.fl?it.fl+'층':'',it.ty].filter(Boolean).map(esc).join(' · ')+'</div>'+
     '<div class="pr" style="font-size:18px">'+(deal?'<span class="tag">'+deal+'</span>':'')+price+'</div>'+
-    (it.mm?'<div class="sub" style="margin-top:5px">💬 '+esc(it.mm)+'</div>':'');
+    (it.mm?'<div class="sub" style="margin-top:8px;white-space:pre-wrap;line-height:1.65">'+esc(it.mm)+'</div>':'');
 }
 async function renderItem(el,it){
   const m=(await (await fetch(SUPABASE_URL+'/rest/v1/apt_metrics?kapt_code=eq.'+it.c+'&select=*',{headers:H})).json())[0]||{};
@@ -89,14 +91,8 @@ async function renderItem(el,it){
   let mg=null;try{mg=await (await fetch('/api/apt?type=mgmtcost&code='+it.c+'&units='+(parseInt(m.units)||0))).json();}catch(e){}
   const recent=(t.buy||[]).slice().sort((a,b)=>(b.t+String(b.day).padStart(2,'0')).localeCompare(a.t+String(a.day).padStart(2,'0'))).slice(0,4);
   el.innerHTML=itemHeader(it)+
-    '<div class="sum">'+
-      '<div class="c"><div class="l">단지시세(매매)</div><div class="v">'+(m.price_m?won(m.price_m):'-')+'</div></div>'+
-      '<div class="c"><div class="l">평당가</div><div class="v">'+(m.py_m?m.py_m.toLocaleString():'-')+'</div></div>'+
-      '<div class="c"><div class="l">전세가</div><div class="v">'+(m.jeonse_m?won(m.jeonse_m):'-')+'</div></div>'+
-      '<div class="c"><div class="l">세대·입주</div><div class="v" style="font-size:12px">'+(m.units||'-')+'세대<br>'+(m.movein||'-')+'년</div></div>'+
-    '</div>'+
-    (mg&&mg.perHousehold?'<div class="muted" style="margin-top:8px">월 관리비 약 '+mg.perHousehold.toLocaleString()+'원/세대(공용)</div>':'')+
-    (recent.length?'<details><summary>최근 실거래 보기</summary><table class="deals"><tr><th>월</th><th>전용</th><th>층</th><th>거래가</th></tr>'+recent.map(x=>'<tr><td>'+x.t+'</td><td>'+(x.a||'-')+'㎡</td><td>'+(x.f||'-')+'</td><td>'+won(x.p)+'</td></tr>').join('')+'</table></details>':'');
+    (mg&&mg.perHousehold?'<div class="muted" style="margin-top:10px">월 관리비 약 '+mg.perHousehold.toLocaleString()+'원/세대(공용)</div>':'')+
+    (recent.length?'<details><summary>이 단지 최근 실거래 보기</summary><table class="deals"><tr><th>월</th><th>전용</th><th>층</th><th>거래가</th></tr>'+recent.map(x=>'<tr><td>'+x.t+'</td><td>'+(x.a||'-')+'㎡</td><td>'+(x.f||'-')+'</td><td>'+won(x.p)+'</td></tr>').join('')+'</table></details>':'');
 }
 function shareThis(){ const u=location.href; if(navigator.share){navigator.share({title:'추천 매물 브리핑',url:u});}else{navigator.clipboard.writeText(u);alert('링크 복사됨');} }
 

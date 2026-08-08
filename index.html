@@ -3233,7 +3233,7 @@ function listingHTML(){
     <div class="lsec">
       <div class="lsec-title">특이사항 매물설명</div>
       <div class="field"><label>특이사항</label><input type="text" id="f-special" placeholder="올수리 완료, 즉시입주 가능"></div>
-      <div class="field"><label>매물 설명</label><textarea id="f-desc" style="width:100%;height:76px;border:1px solid var(--border);border-radius:var(--radius-sm);padding:8px 10px;font-size:13px;font-family:inherit;resize:none;line-height:1.7" placeholder="예) 남향 판상형, 채광 우수, 즉시 입주 가능"></textarea></div>
+      <div class="field"><label>매물 설명 <span style="font-size:11px;color:var(--text3)">(엔터로 줄바꿈 · 오른쪽 아래 모서리 끌어서 크기조절)</span></label><textarea id="f-desc" style="width:100%;height:160px;min-height:90px;border:1px solid var(--border);border-radius:var(--radius-sm);padding:10px 12px;font-size:14px;font-family:inherit;resize:both;line-height:1.7" placeholder="예)&#10;남향 판상형, 채광 우수&#10;즉시 입주 가능&#10;올수리 완료"></textarea></div>
     </div>
 
     <!-- 6. 사진 -->
@@ -3414,7 +3414,9 @@ function doShareLink(){
   if(d.chkSale&&d.sale){dl='s';p=num(d.sale);}
   else if(d.chkJeonse&&d.jeonse){dl='j';p=num(d.jeonse);}
   else if(d.chkMonthly&&(d.deposit||d.monthly)){dl='m';p=num(d.deposit);p2=String(num(d.monthly)||'');}
-  const item={c:code,nm:d.complex,dh:[d.dong,d.ho].filter(Boolean).join(' '),fl:d.floor,ty:d.type,dl:dl,p:p,p2:p2,mm:d.special||d.desc};
+  const fD=d.dong?(/동\s*$/.test(d.dong)?d.dong.trim():d.dong.trim()+'동'):'';
+  const fH=d.ho?(/호\s*$/.test(d.ho)?d.ho.trim():d.ho.trim()+'호'):'';
+  const item={c:code,nm:d.complex,dh:[fD,fH].filter(Boolean).join(' '),fl:d.floor,ty:d.type,dl:dl,p:p,p2:p2,mm:[d.special,d.desc].filter(Boolean).join('\n')};
   const br={o:(proUser&&proUser.office)||'',n:(proUser&&proUser.name)||'',t:(proUser&&proUser.tel)||''};
   const url=location.origin+'/brief.html?d='+btoa(unescape(encodeURIComponent(JSON.stringify({b:br,title:'',i:[item]}))));
   if(navigator.share){ navigator.share({title:'매물 안내서 — '+d.complex,text:'추천 매물 보내드려요',url:url}).catch(function(){}); }
