@@ -3014,7 +3014,7 @@ function doLogin(){
   if(!email||!pw){errEl.style.display='block';errEl.textContent='이메일과 비밀번호를 입력해주세요.';return;}
   // admin 계정
   if(email==='admin'&&pw==='admin'){
-    proUser={name:'관리자',office:'아구구',tel:'',email:'admin',plan:'plus',joinDate:new Date().toLocaleDateString('ko-KR')};
+    proUser={name:'구해줘부동산중개',office:'(힐스자이단지내)구해줘부동산중개',tel:'010-5141-6119',email:'admin',plan:'plus',joinDate:new Date().toLocaleDateString('ko-KR')};
     localStorage.setItem('proUser',JSON.stringify(proUser));
     showProScreen('mypage');loadMypage();loadListingTab();
     // 체크박스 이벤트 연결
