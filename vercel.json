@@ -9,6 +9,7 @@
     }
   ],
   "rewrites": [
+    { "source": "/b/:id", "destination": "/api/apt?type=brief&id=:id" },
     { "source": "/apt/:code", "destination": "/api/aptpage?code=:code" },
     { "source": "/region", "destination": "/api/aptpage?region=all" },
     { "source": "/region/:sg", "destination": "/api/aptpage?region=:sg" }

@@ -3442,12 +3442,20 @@ function renderBriefItems(){
   const eok=v=>v>=10000?(Math.floor(v/10000)+'억'+(v%10000?' '+(v%10000):'')):v+'만';
   box.innerHTML=briefItems.map(function(it,i){const deal=({s:'매매',j:'전세',m:'월세'})[it.dl]||'';return '<div style="display:flex;justify-content:space-between;align-items:center;padding:8px 10px;border:1px solid var(--border);border-radius:8px;margin-bottom:6px"><div style="font-size:13px"><b>'+(it.nm||'')+'</b> <span style="color:var(--text3)">'+[it.dh,it.ty].filter(Boolean).join(' ')+'</span> <span style="color:var(--green-deeper);font-weight:700">'+deal+' '+eok(it.p)+'</span></div><span onclick="rmBriefItem('+i+')" style="color:#c33;cursor:pointer;font-weight:700;padding:0 6px">✕</span></div>';}).join('');
 }
-function doShareLink(){
+async function doShareLink(){
   let items=briefItems.slice();
   if(!items.length){ const cur=_buildBriefItem(); if(cur) items=[cur]; }  // 바구니 비었을 때만 현재 폼 1건
   if(!items.length){toast('매물을 입력하거나 담아주세요.');return;}
   const br={o:(proUser&&proUser.office)||'',n:(proUser&&proUser.name)||'',t:(proUser&&proUser.tel)||''};
-  const url=location.origin+'/brief.html?d='+btoa(unescape(encodeURIComponent(JSON.stringify({b:br,title:'',i:items})))).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,'');
+  const obj={b:br,title:'',i:items};
+  // DB 저장 → 짧은 링크(a99.co.kr/b/id). 실패 시 긴 링크 폴백.
+  const longUrl=location.origin+'/brief.html?d='+btoa(unescape(encodeURIComponent(JSON.stringify(obj)))).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,'');
+  let url=longUrl;
+  const id=Math.random().toString(36).slice(2,9);
+  try{
+    const r=await fetch(SUPABASE_URL+'/rest/v1/briefs',{method:'POST',headers:{apikey:SUPABASE_ANON,Authorization:'Bearer '+SUPABASE_ANON,'Content-Type':'application/json',Prefer:'return=minimal'},body:JSON.stringify({id:id,data:obj})});
+    if(r.ok) url=location.origin+'/b/'+id;
+  }catch(e){}
   if(navigator.share){ navigator.share({title:'매물 안내서 '+items.length+'건',text:'추천 매물 보내드려요',url:url}).catch(function(){}); }
   else { try{navigator.clipboard.writeText(url);}catch(e){} prompt('아래 링크를 복사해 카톡/문자로 보내세요 ('+items.length+'건):',url); }
 }

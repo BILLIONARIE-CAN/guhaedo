@@ -59,7 +59,17 @@ function dec(s){try{s=String(s).replace(/ /g,'+').replace(/-/g,'+').replace(/_/g
 // ---------- 라우팅 ----------
 const params=new URLSearchParams(location.search);
 if(params.get('d')){ viewMode(dec(params.get('d'))); }
+else if(params.get('id')){ loadById(params.get('id')); }
 else { app.innerHTML='<div class="card" style="text-align:center;color:var(--t3);margin-top:40px">이 페이지는 중개사가 보낸 <b>매물 안내서 링크</b>를 여는 곳이에요.<br><br>매물 안내서는 아구구 <b>PRO 중개사 &gt; 매물 안내서</b>에서 만들어 카톡·문자로 보낼 수 있어요.</div>'; }
+async function loadById(id){
+  app.innerHTML='<div class="card" style="text-align:center;color:var(--t3);margin-top:40px">불러오는 중…</div>';
+  try{
+    const r=await fetch(SUPABASE_URL+'/rest/v1/briefs?id=eq.'+encodeURIComponent(id)+'&select=data',{headers:H});
+    const rows=await r.json();
+    if(rows&&rows[0]&&rows[0].data) viewMode(rows[0].data);
+    else app.innerHTML='<div class="card" style="text-align:center;color:var(--t3);margin-top:40px">만료되었거나 없는 링크예요.</div>';
+  }catch(e){ app.innerHTML='<div class="card" style="text-align:center;color:var(--t3);margin-top:40px">불러오기 실패 — 잠시 후 다시 시도해주세요.</div>'; }
+}
 
 // ================= 보기 모드 =================
 async function viewMode(b){

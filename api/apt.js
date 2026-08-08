@@ -126,6 +126,32 @@ async function handleMgmtCost(req, res) {
   return mgmtRespond(req, res, { cached: false, ym, total, perHousehold: per, detail, units, empty: total === 0, partial: !allOk });
 }
 
+// 매물 브리핑 짧은링크 뷰 — DB에서 데이터 읽어 OG(카톡 미리보기) 카드 생성 후 렌더로 리다이렉트
+async function handleBrief(req, res) {
+  const SUPABASE_URL = process.env.SUPABASE_URL, SUPABASE_KEY = process.env.SUPABASE_KEY;
+  const id = String(req.query.id || '').replace(/[^a-zA-Z0-9_-]/g, '').slice(0, 40);
+  res.setHeader('Content-Type', 'text/html; charset=utf-8');
+  res.setHeader('Cache-Control', 's-maxage=300, stale-while-revalidate=3600');
+  let data = null;
+  try {
+    const r = await fetch(`${SUPABASE_URL}/rest/v1/briefs?id=eq.${encodeURIComponent(id)}&select=data`, { headers: { apikey: SUPABASE_KEY, Authorization: `Bearer ${SUPABASE_KEY}` }, signal: AbortSignal.timeout(4000) });
+    const rows = await r.json();
+    if (Array.isArray(rows) && rows[0]) data = rows[0].data;
+  } catch (e) {}
+  const esc = s => String(s == null ? '' : s).replace(/[<>"&]/g, c => ({ '<': '&lt;', '>': '&gt;', '"': '&quot;', '&': '&amp;' }[c]));
+  const eok = v => { v = parseInt(v) || 0; return v >= 10000 ? Math.floor(v / 10000) + '억' : v + '만'; };
+  const office = esc((data && data.b && data.b.o) || '구해줘부동산중개');
+  const cnt = (data && data.i && data.i.length) || 0;
+  const desc = data ? esc((data.i || []).slice(0, 3).map(x => x.nm + ' ' + eok(x.p)).join(' / ') || '추천 매물 안내') : '매물 안내서';
+  const title = office + ' · 추천매물 ' + cnt + '건';
+  const idj = encodeURIComponent(id);
+  res.status(200).end('<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>' + title + '</title>'
+    + '<meta property="og:type" content="website"><meta property="og:title" content="' + title + '"><meta property="og:description" content="' + desc + '"><meta property="og:image" content="https://a99.co.kr/og-brief.png"><meta property="og:url" content="https://a99.co.kr/b/' + idj + '">'
+    + '<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="' + title + '"><meta name="twitter:description" content="' + desc + '">'
+    + '<script>location.replace("/brief.html?id=' + idj + '");</script>'
+    + '</head><body style="font-family:sans-serif;text-align:center;padding:50px;color:#888">매물 안내서를 여는 중… <a href="/brief.html?id=' + idj + '">열기</a></body></html>');
+}
+
 export default async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET');
@@ -138,6 +164,7 @@ export default async function handler(req, res) {
   const { type, code } = req.query;
 
   if (type === 'mgmtcost') return handleMgmtCost(req, res);
+  if (type === 'brief') return handleBrief(req, res);
 
   try {
     // Supabase DB에서 데이터 조회
