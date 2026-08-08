@@ -3444,8 +3444,7 @@ function renderBriefItems(){
 }
 function doShareLink(){
   let items=briefItems.slice();
-  const cur=_buildBriefItem();
-  if(cur && !items.some(x=>x.c===cur.c&&x.dh===cur.dh&&x.p===cur.p)) items.push(cur);
+  if(!items.length){ const cur=_buildBriefItem(); if(cur) items=[cur]; }  // 바구니 비었을 때만 현재 폼 1건
   if(!items.length){toast('매물을 입력하거나 담아주세요.');return;}
   const br={o:(proUser&&proUser.office)||'',n:(proUser&&proUser.name)||'',t:(proUser&&proUser.tel)||''};
   const url=location.origin+'/brief.html?d='+btoa(unescape(encodeURIComponent(JSON.stringify({b:br,title:'',i:items})))).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,'');

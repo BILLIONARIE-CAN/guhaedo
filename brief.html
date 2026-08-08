@@ -10,7 +10,7 @@
   *{box-sizing:border-box}
   body{margin:0;font-family:'Malgun Gothic','맑은 고딕',-apple-system,sans-serif;background:var(--bg);color:var(--t1);line-height:1.5;font-size:14px}
   .wrap{max-width:640px;margin:0 auto;padding:14px}
-  .card{background:#fff;border:1px solid var(--ln);border-radius:12px;padding:16px;margin-bottom:12px}
+  .card{background:#fff;border:1px solid var(--ln);border-radius:12px;padding:16px;margin-bottom:12px;word-break:break-word;overflow-wrap:anywhere}
   h2{font-size:16px;margin:0 0 10px}
   h1{font-size:20px;margin:0}
   label{display:block;font-size:12px;color:var(--t2);margin:8px 0 3px;font-weight:600}
@@ -78,21 +78,23 @@ async function viewMode(b){
 }
 function itemHeader(it){
   const deal=({s:'매매',j:'전세',m:'월세'})[it.dl]||'';
-  const price=it.dl==='m'?(won(it.p)+' / '+esc(it.p2||'')+'만'):won(it.p);
-  return '<div class="nm" style="font-size:16px">'+esc(it.nm)+'</div>'+
-    '<div class="sub">'+[it.dh,it.fl?it.fl+'층':'',it.ty].filter(Boolean).map(esc).join(' · ')+'</div>'+
-    '<div class="pr" style="font-size:18px">'+(deal?'<span class="tag">'+deal+'</span>':'')+price+'</div>'+
-    (it.mm?'<div class="sub" style="margin-top:8px;white-space:pre-wrap;line-height:1.65">'+esc(it.mm)+'</div>':'');
+  const price=it.dl==='m'?(won(it.p)+' / 월 '+esc(it.p2||'')+'만'):won(it.p);
+  const info=[it.dh,it.fl?it.fl+'층':'',it.ty?'타입 '+it.ty:''].filter(Boolean).map(esc).join('&nbsp;&nbsp;·&nbsp;&nbsp;');
+  return '<div style="font-size:20px;font-weight:800;line-height:1.3;word-break:keep-all">'+esc(it.nm)+'</div>'+
+    (info?'<div style="font-size:14px;color:var(--t2);margin-top:6px">'+info+'</div>':'')+
+    '<div style="margin-top:9px">'+(deal?'<span class="tag" style="font-size:12px;padding:3px 10px;vertical-align:middle">'+deal+'</span> ':'')+'<b style="font-size:23px;color:var(--gd);vertical-align:middle">'+price+'</b></div>'+
+    (it.mm?'<div style="margin-top:12px;background:var(--bg);border-radius:9px;padding:12px 14px;font-size:14.5px;line-height:1.75;white-space:pre-wrap;word-break:break-all;overflow-wrap:anywhere">'+esc(it.mm)+'</div>':'');
 }
 async function renderItem(el,it){
-  const m=(await (await fetch(SUPABASE_URL+'/rest/v1/apt_metrics?kapt_code=eq.'+it.c+'&select=*',{headers:H})).json())[0]||{};
-  const yms=[];const now=new Date();for(let i=0;i<24;i++){const d=new Date(now.getFullYear(),now.getMonth()-i,1);yms.push(''+d.getFullYear()+String(d.getMonth()+1).padStart(2,'0'));}
-  let t={buy:[]};try{t=await (await fetch('/api/trade?code='+it.c+'&yms='+yms.join(','))).json()||t;}catch(e){}
-  let mg=null;try{mg=await (await fetch('/api/apt?type=mgmtcost&code='+it.c+'&units='+(parseInt(m.units)||0))).json();}catch(e){}
-  const recent=(t.buy||[]).slice().sort((a,b)=>(b.t+String(b.day).padStart(2,'0')).localeCompare(a.t+String(a.day).padStart(2,'0'))).slice(0,4);
+  let mg=null,units=0;
+  if(it.c){
+    try{const m=(await (await fetch(SUPABASE_URL+'/rest/v1/apt_metrics?kapt_code=eq.'+it.c+'&select=units',{headers:H})).json())[0];units=(m&&m.units)||0;}catch(e){}
+    try{mg=await (await fetch('/api/apt?type=mgmtcost&code='+it.c+'&units='+units)).json();}catch(e){}
+  }
+  const link=it.c?'<a href="https://a99.co.kr/apt/'+encodeURIComponent(it.c)+'" target="_blank" rel="noopener" style="display:inline-block;margin-top:12px;color:var(--gd);font-weight:700;font-size:14px;text-decoration:none;border:1.5px solid var(--g);border-radius:9px;padding:10px 15px">🔍 아구구에서 실거래·시세·학군 자세히 보기 →</a>':'';
   el.innerHTML=itemHeader(it)+
-    (mg&&mg.perHousehold?'<div class="muted" style="margin-top:10px">월 관리비 약 '+mg.perHousehold.toLocaleString()+'원/세대(공용)</div>':'')+
-    (recent.length?'<details><summary>이 단지 최근 실거래 보기</summary><table class="deals"><tr><th>월</th><th>전용</th><th>층</th><th>거래가</th></tr>'+recent.map(x=>'<tr><td>'+x.t+'</td><td>'+(x.a||'-')+'㎡</td><td>'+(x.f||'-')+'</td><td>'+won(x.p)+'</td></tr>').join('')+'</table></details>':'');
+    (mg&&mg.perHousehold?'<div style="margin-top:10px;color:var(--t3);font-size:13px">월 관리비 약 '+mg.perHousehold.toLocaleString()+'원/세대(공용)</div>':'')+
+    link;
 }
 function shareThis(){ const u=location.href; if(navigator.share){navigator.share({title:'추천 매물 브리핑',url:u});}else{navigator.clipboard.writeText(u);alert('링크 복사됨');} }
 
