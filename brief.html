@@ -66,7 +66,7 @@ async function viewMode(b){
   if(!b){ app.innerHTML='<div class="card">잘못된 링크예요.</div>'; return; }
   const br=b.b||{};
   let html='<div class="card" style="text-align:center;min-height:262px;display:flex;align-items:center;justify-content:center;overflow:hidden;margin-top:0"><ins class="kakao_ad_area" style="display:none" data-ad-unit="DAN-KpmCmBSL2hBTN2xb" data-ad-width="300" data-ad-height="250"></ins></div>';
-  html+='<div class="brokerbar"><div class="o">'+esc(br.o||br.n||'공인중개사')+'</div>'+(br.t?'<div class="c">☎ '+esc(br.t)+'</div>':'')+'</div>';
+  html+='<div class="brokerbar"><div class="o">'+esc(br.o||br.n||'공인중개사')+'</div>'+(br.t?'<a href="tel:'+esc(br.t).replace(/[^0-9]/g,'')+'" style="display:inline-block;margin-top:9px;background:#fff;color:var(--gd);padding:9px 18px;border-radius:22px;font-weight:800;text-decoration:none;font-size:15px">📞 '+esc(br.t)+'</a>':'')+'</div>';
   html+='<div class="card"><h1>추천 매물 '+(b.i||[]).length+'건</h1><div class="muted" style="margin-top:4px">'+esc(b.title||'')+'</div></div>';
   html+='<div id="items"></div>';
   html+='<div class="card"><button class="btn sec" onclick="shareThis()">📤 이 브리핑 공유하기</button></div>';
