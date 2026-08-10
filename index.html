@@ -3176,7 +3176,7 @@ function listingHTML(){
           </div>
         </div>
       </div>
-      <div style="text-align:center;margin-top:6px"><span onclick="toggleManualInput()" style="font-size:11px;color:var(--green);cursor:pointer;font-weight:500" id="manual-toggle">검색에 없나요? 직접입력 →</span></div>
+      <div style="text-align:center;margin-top:8px"><span onclick="toggleManualInput()" style="display:inline-block;font-size:13px;color:var(--green-deeper);cursor:pointer;font-weight:700;background:var(--green-bg);border:1.5px dashed var(--green-mid);border-radius:var(--radius-sm);padding:8px 14px" id="manual-toggle">🏗 분양·미입주·신축 단지 직접입력 →</span></div>
       <div id="manual-input-area" style="display:none;margin-top:8px;background:var(--bg);border-radius:var(--radius-sm);padding:12px">
         <div class="field"><label>단지명 *</label><input type="text" id="manual-complex" placeholder="래미안위브"></div>
         <div class="field"><label>주소</label><input type="text" id="manual-addr" placeholder="서울시 강남구 역삼동 123-4"></div>
@@ -3388,13 +3388,16 @@ function onFavEmdChange(){
 }
 
 function _collectListingData(){
-  const complex=(selectedApt&&selectedApt.name)||gv('manual-complex')||gv('sel-complex')||'';
+  const _ma=ge('manual-input-area');
+  const _useManual=_ma&&_ma.style.display!=='none'&&gv('manual-complex');  // 직접입력(분양/미입주) 우선 — 이전 선택 단지 무시
+  const apt=_useManual?null:selectedApt;
+  const complex=_useManual?gv('manual-complex'):((apt&&apt.name)||gv('manual-complex')||gv('sel-complex')||'');
   return {
-    complex,
-    addr:(selectedApt&&(selectedApt.addr||selectedApt.sigungu))||gv('manual-addr')||'',
-    units:gv('ci-units')||gv('manual-units')||(selectedApt&&selectedApt.units?selectedApt.units+'세대':'')||'',
-    built:gv('ci-built')||gv('manual-built')||(selectedApt&&selectedApt.built)||'',
-    park:gv('ci-park')||gv('manual-park')||(selectedApt&&selectedApt.totalPark?selectedApt.totalPark+'대':'')||'',
+    complex, _code:(apt&&apt.code)||'',
+    addr:(apt&&(apt.addr||apt.sigungu))||gv('manual-addr')||'',
+    units:gv('ci-units')||gv('manual-units')||(apt&&apt.units?apt.units+'세대':'')||'',
+    built:gv('ci-built')||gv('manual-built')||(apt&&apt.built)||'',
+    park:gv('ci-park')||gv('manual-park')||(apt&&apt.totalPark?apt.totalPark+'대':'')||'',
     dong:gv('input-dong')||'', ho:gv('input-ho')||'',
     type:gv('input-type')||'', floor:gv('input-floor')||'',
     dir:gv('input-dir')||'', movein:gv('input-movein')||'',
@@ -3416,7 +3419,7 @@ function _buildBriefItem(){
   const d=_collectListingData();
   if(!d.complex) return null;
   const num=s=>parseInt(String(s||'').replace(/[^0-9]/g,''))||0;
-  const code=(typeof selectedApt!=='undefined'&&selectedApt&&selectedApt.code)||'';
+  const code=d._code||'';
   let dl='',p=0,p2='';
   if(d.chkSale&&d.sale){dl='s';p=num(d.sale);}
   else if(d.chkJeonse&&d.jeonse){dl='j';p=num(d.jeonse);}
@@ -3906,7 +3909,7 @@ function searchComplex(q){
   const box=ge('complex-results');
   if(!q||q.length<2){box.style.display='none';return;}
   const results=allAptData.filter(d=>d.name.includes(q)||d.addr.includes(q)||(d.sigungu&&d.sigungu.includes(q))||(d.emd&&d.emd.includes(q))||(d.sido&&d.sido.includes(q))).slice(0,20);
-  if(results.length===0){box.innerHTML='<div style="padding:10px;color:var(--text3);font-size:12px">검색 결과 없음</div>';box.style.display='block';return;}
+  if(results.length===0){var _q=q.replace(/['"\\]/g,'');box.innerHTML='<div style="padding:12px;font-size:12px;color:var(--text3)">검색 결과 없음<div style="color:var(--text2);margin-top:3px">분양·미입주 단지는 아직 등록 전일 수 있어요.</div><button onclick="openManualWith(\''+_q+'\')" style="margin-top:8px;width:100%;background:var(--green-bg);color:var(--green-deeper);border:1.5px dashed var(--green-mid);border-radius:6px;padding:9px;font-size:13px;font-weight:700;cursor:pointer;font-family:inherit">🏗 \''+_q+'\' 직접입력으로 담기 →</button></div>';box.style.display='block';return;}
   box.innerHTML=results.map(d=>'<div onclick="pickComplex(\''+d.code+'\')" style="padding:8px 12px;cursor:pointer;border-bottom:1px solid var(--bg);font-size:13px" onmouseover="this.style.background=\'var(--bg)\'" onmouseout="this.style.background=\'\'"><strong>'+d.name+'</strong> <span style="color:var(--text3);font-size:11px">'+d.units+'세대 · '+(d.sigungu||'')+'</span><br><span style="font-size:11px;color:var(--text3)">'+(d.addr||d.sido+' '+d.sigungu+' '+d.emd)+'</span></div>').join('');
   box.style.display='block';
 }
@@ -3967,7 +3970,8 @@ function setStep(){}
 function handlePhotos(e){const files=[...e.target.files].slice(0,5-photos.length);files.forEach(f=>{const r=new FileReader();r.onload=ev=>{photos.push(ev.target.result);renderPhotos();};r.readAsDataURL(f);});}
 function renderPhotos(){ge('photo-preview').innerHTML=photos.map((s,i)=>`<div style="position:relative;display:inline-block"><img src="${s}" class="photo-thumb"><span onclick="photos.splice(${i},1);renderPhotos()" style="position:absolute;top:-4px;right:-4px;background:#E24B4A;color:#fff;border-radius:50%;width:15px;height:15px;font-size:10px;cursor:pointer;display:flex;align-items:center;justify-content:center">×</span></div>`).join('');}
 function clearListing(){ge('sel-complex').value='';selectedApt=null;ge('complex-info').style.display='none';['input-dong','input-ho','input-type','input-movein','p-sale','p-jeonse','p-deposit','p-monthly','f-special','f-desc','manual-complex','manual-addr','manual-units','manual-built','manual-park'].forEach(id=>{const el=ge(id);if(el)el.value='';});const dirEl=ge('input-dir');if(dirEl)dirEl.selectedIndex=0;['chk-sale','chk-jeonse','chk-monthly'].forEach(id=>{const el=ge(id);if(el)el.checked=false;});['box-sale','box-jeonse','box-monthly'].forEach(id=>{const el=ge(id);if(el)el.style.display='none';});photos=[];renderPhotos();}
-function toggleManualInput(){const area=ge('manual-input-area');const on=area.style.display==='none';area.style.display=on?'block':'none';ge('manual-toggle').textContent=on?'← 검색으로 돌아가기':'검색에 없나요? 직접입력 →';if(on){selectedApt=null;ge('sel-complex').value='';ge('complex-info').style.display='none';}}
+function toggleManualInput(){const area=ge('manual-input-area');const on=area.style.display==='none';area.style.display=on?'block':'none';ge('manual-toggle').textContent=on?'← 검색으로 돌아가기':'🏗 분양·미입주·신축 단지 직접입력 →';if(on){selectedApt=null;ge('sel-complex').value='';ge('complex-info').style.display='none';var _mc=ge('manual-complex');if(_mc)setTimeout(function(){_mc.focus();},50);}}
+function openManualWith(name){var area=ge('manual-input-area');if(area&&area.style.display==='none')toggleManualInput();var mc=ge('manual-complex');if(mc)mc.value=name||'';var box=ge('complex-results');if(box)box.style.display='none';var sc=ge('sel-complex');if(sc)sc.value='';if(mc)setTimeout(function(){mc.focus();},60);}
 function switchSearchMode(mode){ge('search-loc').style.display=mode==='loc'?'block':'none';ge('search-name').style.display=mode==='name'?'block':'none';ge('smt-loc').className='search-mode-tab'+(mode==='loc'?' active':'');ge('smt-name').className='search-mode-tab'+(mode==='name'?' active':'');}
 function initLocSelects(){if(!allAptData.length)return;var sidos=[...new Set(allAptData.map(function(d){return d.sido;}))].sort();var sel=ge('loc-sido');if(!sel)return;sel.innerHTML='<option value="">시도 선택</option>'+sidos.map(function(s){return '<option value="'+s+'">'+s+'</option>';}).join('');}
 function onSidoChange(){var v=ge('loc-sido').value;ge('loc-sigungu').innerHTML='<option value="">시군구 선택</option>';ge('loc-emd').innerHTML='<option value="">읍면동 선택</option>';ge('loc-apt-list').style.display='none';if(!v)return;var list=[...new Set(allAptData.filter(function(d){return d.sido===v;}).map(function(d){return d.sigungu;}))].sort();ge('loc-sigungu').innerHTML='<option value="">시군구 선택</option>'+list.map(function(s){return '<option value="'+s+'">'+s+'</option>';}).join('');}
