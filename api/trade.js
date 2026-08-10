@@ -252,6 +252,9 @@ export default async function handler(req, res) {
   // 시행사/시공사/관리사 접두 제거 후 매칭 (예: "(주)일택 호려울마을10단지" → "호려울마을10단지")
   const stripDev = s => String(s || '').replace(/^\s*(?:\(주\)|\(유\)|\(재\)|㈜|주식회사)\s*[^\s]*\s+/, '');
   const myName = normalize(stripDev(aptName));
+  // 신도시 정준 식별자 "○○마을N단지" (브랜드 위치가 우리쪽 접두 / 국토부쪽 괄호로 달라도 매칭)
+  const maulRe = /(?:^|\s)([가-힣]{2,5}마을)\s*(\d+)\s*단지/;
+  const myMaul = String(aptName).match(maulRe);
 
   // 지번 완전 호환 (본번 일치 + 부번은 양쪽 다 있을 때만 비교)
   function jbCompat(a, b) {
@@ -309,6 +312,8 @@ export default async function handler(req, res) {
     //     (K-apt 대표지번 vs 국토부 실거래 지번이 달라도 인정 — 신도시 다필지 단지 대응. 예: 새샘마을3단지(모아미래도리버시티))
     const nBase = normalize(String(x.aptNm || '').replace(/\([^)]*\)/g, ''));
     if (nBase && nBase === myName && dongMatch(x)) return true;
+    // ②-c 신도시 마을단지: "○○마을N단지" 정준 식별자 일치 + 같은 법정동
+    if (myMaul) { const xm = String(x.aptNm || '').match(maulRe); if (xm && xm[1] === myMaul[1] && xm[2] === myMaul[2] && dongMatch(x)) return true; }
     // ③ 부분포함 (지역명·브랜드 접두/접미 차이)
     if (!dongMatch(x)) return false;
     const L = Math.min(n.length, myName.length);
