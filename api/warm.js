@@ -70,7 +70,8 @@ const normalize = s => { let t = String(s || '').trim().replace(/[\s()（）·\-
 function makeMatcher(rec) {
   const myJibun = parseJibun(rec.jibun);
   const myDongPart = (rec.dong || '').replace(/\s/g, '');
-  const myName = normalize(rec.name);
+  const stripDev = s => String(s || '').replace(/^\s*(?:\(주\)|\(유\)|\(재\)|㈜|주식회사)\s*[^\s]*\s+/, '');
+  const myName = normalize(stripDev(rec.name));
   const builtYear = rec.built;
   const buildYearMatch = x => { if (!builtYear) return true; const by = parseInt(x.buildYear || '0'); if (!by) return true; return by >= builtYear - 1 && by <= builtYear + 1; };
   const dongMatch = x => { if (!myDongPart) return true; const xd = (x.umdNm || '').replace(/\s/g, ''); if (!xd) return true; return myDongPart.includes(xd) || xd.includes(myDongPart); };

@@ -249,7 +249,9 @@ export default async function handler(req, res) {
     for (let i = 0; i < 2; i++) t = t.replace(/(아파트|APT|맨션|관리사무소|관리동)$/, '');
     return t;
   };
-  const myName = normalize(aptName);
+  // 시행사/시공사/관리사 접두 제거 후 매칭 (예: "(주)일택 호려울마을10단지" → "호려울마을10단지")
+  const stripDev = s => String(s || '').replace(/^\s*(?:\(주\)|\(유\)|\(재\)|㈜|주식회사)\s*[^\s]*\s+/, '');
+  const myName = normalize(stripDev(aptName));
 
   // 지번 완전 호환 (본번 일치 + 부번은 양쪽 다 있을 때만 비교)
   function jbCompat(a, b) {
