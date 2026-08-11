@@ -477,7 +477,8 @@ body:has(#apt-detail-panel.open) .map-top-bar{left:468px}
       <div onclick="showPage('pro');closeMobileMenu()" style="padding:12px 16px;font-size:14px;cursor:pointer;border-bottom:1px solid #f0f0f0">👔 PRO 중개사</div>
       <div onclick="setMapType('map');closeMobileMenu()" style="padding:12px 16px;font-size:14px;cursor:pointer;border-bottom:1px solid #f0f0f0">🗺️ 지도</div>
       <div onclick="setMapType('sky');closeMobileMenu()" style="padding:12px 16px;font-size:14px;cursor:pointer;border-bottom:1px solid #f0f0f0">🛰️ 스카이뷰</div>
-      <div onclick="setMapType('road');closeMobileMenu()" style="padding:12px 16px;font-size:14px;cursor:pointer">🚗 거리뷰</div>
+      <div onclick="setMapType('road');closeMobileMenu()" style="padding:12px 16px;font-size:14px;cursor:pointer;border-bottom:1px solid #f0f0f0">🚗 거리뷰</div>
+      <div onclick="openReportModal('');closeMobileMenu()" style="padding:12px 16px;font-size:14px;cursor:pointer">🚩 단지제보</div>
     </div>
   </div>
 </header>
@@ -1040,8 +1041,8 @@ body:has(#apt-detail-panel.open) .map-top-bar{left:468px}
   </div>
 </div>
 
-<!-- 단지 제보 버튼 (지도에 없는/잘못된 단지 신고) -->
-<button id="report-fab" onclick="openReportModal('')" style="position:fixed;left:14px;bottom:88px;z-index:300;background:var(--green);color:#fff;border:none;border-radius:22px;padding:10px 15px;font-size:13px;font-weight:700;font-family:inherit;box-shadow:0 2px 10px rgba(0,0,0,.22);cursor:pointer">🚩 단지 제보</button>
+<!-- 단지 제보: 헤더(데스크톱)·☰메뉴(모바일)에서 접근 -->
+
 
 <!-- 이용안내 모달 -->
 <div class="modal-overlay" id="guide-modal" onclick="if(event.target===this)closeGuideModal()">
