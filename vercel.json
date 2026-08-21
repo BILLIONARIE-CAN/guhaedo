@@ -18,6 +18,7 @@
     { "source": "/split_output/(.*)", "headers": [ { "key": "Cache-Control", "value": "public, max-age=86400, stale-while-revalidate=604800" } ] }
   ],
   "crons": [
-    { "path": "/api/keepalive", "schedule": "0 3 * * *" }
+    { "path": "/api/keepalive", "schedule": "0 3 * * *" },
+    { "path": "/api/indexnow?secret=3c4fc034da972bac20f024ef003bf1ec", "schedule": "0 4 * * 1" }
   ]
 }
