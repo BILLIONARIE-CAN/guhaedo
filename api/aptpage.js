@@ -26,6 +26,8 @@ for (const a of APTS) {
 
 const BASE = 'https://a99.co.kr';
 const MAP = 'https://a99.co.kr';
+const SUPABASE_URL = 'https://nqnbbccazjanjhktknyz.supabase.co';
+const SUPABASE_ANON = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5xbmJiY2Nhemphbmpoa3Rrbnl6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzk0OTA5NDQsImV4cCI6MjA5NTA2Njk0NH0.rT_hIwTJyBnCDGyudmJYvN44G67WgZ9-bSVCzShiRjI';
 const AD_UNIT = 'DAN-VVNFKrpvthFpw6PS'; // 애드핏 광고단위(300x250, 하단)
 const AD_UNIT_SIDE = 'DAN-6hzBUhx1qcJKOIsS'; // 애드핏 광고단위(160x600, PC 우측 사이드)
 const AD_UNIT_SIDE_L = 'DAN-A9WnwICFDEl16jU1'; // 애드핏 광고단위(160x600, PC 좌측 사이드)
@@ -123,9 +125,10 @@ function introText(a, tel) {
   return '<p class="intro">' + p.join(' ') + '</p>';
 }
 // FAQ 섹션 + FAQPage 구조화데이터(리치 결과 노출 유도)
-function faqSection(a, tel, fax) {
+function faqSection(a, tel, fax, m) {
   const nm = esc(a.name), y = a.built ? String(a.built).slice(0, 4) : '';
   const qa = [];
+  if (m && m.price_m) qa.push([nm + ' 실거래가는 얼마인가요?', nm + (m.rep_area_m2 ? ' 대표 ' + Math.round(m.rep_area_m2) + '㎡' : '') + ' 최근 실거래가는 약 ' + wonMan(m.price_m) + '입니다.' + (m.py_m ? ' 평당 약 ' + Number(m.py_m).toLocaleString() + '만원' : '') + (m.jeonse_m ? ', 전세 약 ' + wonMan(m.jeonse_m) : '') + '. (국토부 공개 실거래가 기준)']);
   if (tel) qa.push([nm + ' 관리사무소 전화번호는 몇 번인가요?', nm + ' 관리사무소 전화번호는 ' + esc(tel) + '입니다.' + (fax ? ' 팩스번호는 ' + esc(fax) + '입니다.' : '')]);
   if (a.units) qa.push([nm + '은(는) 몇 세대인가요?', nm + '은(는) 총 ' + esc(String(a.units)) + '세대입니다.']);
   if (y) qa.push([nm + '의 준공 연도는 언제인가요?', nm + '은(는) ' + esc(y) + '년에 준공되었습니다.']);
@@ -139,7 +142,33 @@ function faqSection(a, tel, fax) {
   const ld = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: qa.map(x => ({ '@type': 'Question', name: strip(x[0]), acceptedAnswer: { '@type': 'Answer', text: strip(x[1]) } })) };
   return html + '<script type="application/ld+json">' + JSON.stringify(ld).replace(/</g, '\\u003c') + '</script>';
 }
-function page(a) {
+// 만원 → "3억 5,000만원"
+function wonMan(man){man=Math.round(Number(man)||0);if(man<=0)return '-';var e=Math.floor(man/10000),r=man%10000;var s=e?e+'억':'';if(r)s+=(e?' ':'')+r.toLocaleString()+'만';return s+'원';}
+// apt_metrics 단건 조회 (렌더당 1회 — 페이지 CDN 1일 캐시라 부담 없음)
+async function fetchMetrics(code){
+  try{
+    const r=await fetch(SUPABASE_URL+'/rest/v1/apt_metrics?kapt_code=eq.'+encodeURIComponent(code)+'&select=rep_area_m2,price_m,py_m,jeonse_m,j_rate,gap_m,deal_cnt',{headers:{apikey:SUPABASE_ANON,Authorization:'Bearer '+SUPABASE_ANON},signal:AbortSignal.timeout(2500)});
+    const rows=await r.json();
+    return Array.isArray(rows)&&rows[0]&&rows[0].price_m?rows[0]:null;
+  }catch(e){return null;}
+}
+// 실거래·시세 섹션 — 실제 숫자를 서버 HTML에 박아 색인·검색노출 강화
+function saleSection(m){
+  if(!m||!m.price_m) return '';
+  const py=m.rep_area_m2?Math.round(m.rep_area_m2/0.75/3.3058*10)/10:0;
+  const repArea=m.rep_area_m2?(Math.round(m.rep_area_m2)+'㎡'+(py?' ('+py+'평형)':'')):'';
+  const rows=[['대표 매매가', wonMan(m.price_m)]];
+  if(m.py_m) rows.push(['평당가', Number(m.py_m).toLocaleString()+'만원']);
+  if(m.jeonse_m) rows.push(['대표 전세가', wonMan(m.jeonse_m)]);
+  if(m.j_rate) rows.push(['전세가율', m.j_rate+'%']);
+  if(m.gap_m) rows.push(['매매·전세 갭', wonMan(m.gap_m)]);
+  if(m.deal_cnt) rows.push(['최근 18개월 매매', m.deal_cnt+'건']);
+  return '<section><h2>💹 실거래가·시세'+(repArea?' <small style="font-size:11px;font-weight:400;color:#16a34a">대표 '+repArea+' · 최근 18개월</small>':'')+'</h2>'
+    + rows.map(r=>'<div class="info-row"><span class="k">'+esc(r[0])+'</span><span class="v">'+esc(r[1])+'</span></div>').join('')
+    + '<div class="mgmt-note" style="margin-top:8px">※ 대표평형 최근 실거래 기준. 국토교통부 공개 실거래가 자료 기반이며 실제와 차이가 있을 수 있습니다.</div>'
+    + '</section>';
+}
+function page(a, m) {
   const inf = INFO[a.code] || {};
   const tel = fmtTel(inf.tel || '');
   const fax = fmtTel(inf.fax || '');
@@ -148,7 +177,9 @@ function page(a) {
   const title = a.name + ' 관리사무소 전화번호·실거래가·단지정보 | 아구구';
   const desc = [a.sido, a.sigungu, a.emd, a.name].filter(Boolean).join(' ')
     + ' 관리사무소 전화번호' + (tel ? '(' + tel + ')' : '') + ', 실거래가, 세대수 ' + (a.units || '-') + '세대, '
-    + (builtY ? builtY + '년 준공, ' : '') + '주소 등 단지 정보를 아구구에서 확인하세요.';
+    + (builtY ? builtY + '년 준공, ' : '') + '주소 등 단지 정보'
+    + (m && m.price_m ? '. 최근 실거래가 약 ' + wonMan(m.price_m) + (m.py_m ? '(평당 ' + Number(m.py_m).toLocaleString() + '만원)' : '') : '')
+    + '를 아구구에서 확인하세요.';
   const url = BASE + '/apt/' + a.code;
   const telBlock = tel
     ? '<a class="tel" href="tel:' + tel.replace(/-/g, '') + '">📞 ' + tel + '</a><div class="tel-sub">관리사무소</div>'
@@ -243,6 +274,7 @@ function page(a) {
 + '</div>'
 + introText(a, tel)
 + '<div class="grid">' + facts + '</div>'
++ saleSection(m)
 + '<div id="mgmt-box" class="mgmt-box" data-code="' + a.code + '" data-units="' + (a.units || 0) + '"></div>'
 + '<div class="ad adA">' + esc(a.emd || a.sigungu || '') + ' 지역 광고 자리 (이사·청소·인테리어)</div>'
 + '<section><h2>📍 주소 · 기본정보</h2>'
@@ -250,7 +282,7 @@ function page(a) {
 + '<div class="info-row"><span class="k">단지분류</span><span class="v">' + esc(a.aptType || '아파트') + '</span></div>'
 + '<div class="info-row"><span class="k">현관구조</span><span class="v">' + esc(a.entrance || '-') + '</span></div>'
 + '</section>'
-+ faqSection(a, tel, fax)
++ faqSection(a, tel, fax, m)
 + nearbyLinks(a)
 + '<div class="side-ad"><ins class="kakao_ad_area" style="display:none;" data-ad-unit="' + AD_UNIT_SIDE + '" data-ad-width="160" data-ad-height="600"></ins></div>'
 + '<div class="side-ad-l"><ins class="kakao_ad_area" style="display:none;" data-ad-unit="' + AD_UNIT_SIDE_L + '" data-ad-width="160" data-ad-height="600"></ins></div>'
@@ -335,7 +367,7 @@ function regionSggPage(sgCode) {
     BASE + '/region/' + encodeURIComponent(sgCode), body);
 }
 
-module.exports = (req, res) => {
+module.exports = async (req, res) => {
   res.setHeader('Content-Type', 'text/html; charset=utf-8');
   const region = (req.query && req.query.region) || '';
   if (region) {
@@ -355,7 +387,8 @@ module.exports = (req, res) => {
     res.end('<!DOCTYPE html><html lang="ko"><head><meta charset="UTF-8"><title>단지를 찾을 수 없습니다 | 아구구</title></head><body style="font-family:sans-serif;text-align:center;padding:60px"><h1>단지를 찾을 수 없습니다</h1><p><a href="https://a99.co.kr">아구구 홈으로</a></p></body></html>');
     return;
   }
+  const metrics = await fetchMetrics(code);
   res.setHeader('Cache-Control', 'public, max-age=3600, s-maxage=86400, stale-while-revalidate=604800');
   res.statusCode = 200;
-  res.end(page(a));
+  res.end(page(a, metrics));
 };
