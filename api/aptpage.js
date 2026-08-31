@@ -203,6 +203,8 @@ function page(a, m) {
   return '<!DOCTYPE html><html lang="ko"><head>'
 + '<script async src="https://www.googletagmanager.com/gtag/js?id=G-B2NJPFNP69"></script>'
 + '<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag(\'js\',new Date());gtag(\'config\',\'G-B2NJPFNP69\');</script>'
++ '<meta name="google-adsense-account" content="ca-pub-3915435017395988">'
++ '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3915435017395988" crossorigin="anonymous"></script>'
 + '<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">'
 + '<title>' + esc(title) + '</title>'
 + '<meta name="description" content="' + esc(desc) + '">'
@@ -322,6 +324,8 @@ for (const a of APTS) {
 }
 function hubHtml(title, desc, canonical, body) {
   return '<!DOCTYPE html><html lang="ko"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
+    + '<meta name="google-adsense-account" content="ca-pub-3915435017395988">'
+    + '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3915435017395988" crossorigin="anonymous"></script>'
     + '<title>' + esc(title) + '</title><meta name="description" content="' + esc(desc) + '">'
     + '<meta property="og:title" content="' + esc(title) + '"><meta property="og:site_name" content="아구구"><meta property="og:type" content="website">'
     + '<link rel="canonical" href="' + canonical + '"><link rel="icon" href="/favicon.ico" sizes="any">'
