@@ -559,25 +559,58 @@ async function rankPage(kind, scope) {
     BASE + '/rank/' + kind + (scope ? '/' + scope : ''), body);
 }
 
-function rankIndexPage() {
-  const kinds = [
-    ['py', '평당가 순위', '평당 가격이 높은 단지'],
-    ['gap', '갭 작은 단지', '가격대별 · 전세가율 85% 이하'],
-    ['jrate', '전세가율 높은 아파트', '전세 계약 전 확인'],
-    ['up', '실거래가 상승', '직전 1년 대비'],
-    ['down', '실거래가 하락', '직전 1년 대비']
+const RANK_ICONS = {
+  py   :'<path d="M3 20h18"/><path d="M6 20V9"/><path d="M12 20V4"/><path d="M18 20v-7"/>',
+  gap  :'<path d="M7 4v16"/><path d="M17 4v16"/><path d="M10 12h4"/><path d="M10 12l1.6-1.6"/><path d="M14 12l-1.6 1.6"/>',
+  jrate:'<path d="M12 3l7 3v5c0 4.4-2.9 8.3-7 10-4.1-1.7-7-5.6-7-10V6z"/><path d="M9.5 14.5l5-5"/><circle cx="9.8" cy="9.8" r="1"/><circle cx="14.2" cy="14.2" r="1"/>',
+  up   :'<path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/>',
+  down :'<path d="M3 7l6 6 4-4 8 8"/><path d="M15 17h6v-6"/>',
+  region:'<path d="M12 21s-7-5.7-7-11a7 7 0 1 1 14 0c0 5.3-7 11-7 11z"/><circle cx="12" cy="10" r="2.4"/>'
+};
+const RANK_HUB_CSS = '<style>'
+  // 아실 '부동산 스터디'식 — 작은 아이콘을 한 줄에 촘촘히
+  + '.hub{display:grid;grid-template-columns:repeat(6,1fr);gap:2px;margin:2px 0 10px}'
+  + '@media(max-width:560px){.hub{grid-template-columns:repeat(4,1fr)}}'
+  + '@media(max-width:360px){.hub{grid-template-columns:repeat(3,1fr)}}'
+  + '.hub a{display:flex;flex-direction:column;align-items:center;gap:5px;padding:9px 2px;'
+  + 'border-radius:9px;text-decoration:none!important;transition:background .12s}'
+  + '.hub a:hover{background:#eef4f1}'
+  + '.hub-ic{width:36px;height:36px;border-radius:50%;background:#f2f5f4;display:flex;align-items:center;justify-content:center;transition:background .12s}'
+  + '.hub a:hover .hub-ic{background:#1D9E75}'
+  + '.hub-ic svg{width:17px;height:17px;stroke:#1D9E75;fill:none;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round;transition:stroke .12s}'
+  + '.hub a:hover .hub-ic svg{stroke:#fff}'
+  + '.hub-t{font-size:11px;font-weight:600;color:#555;text-align:center;line-height:1.25;word-break:keep-all}'
+  + '.chip.on{background:#15803d;color:#fff;border-color:#15803d}'
+  + '</style>';
+
+function rankIndexPage(scope) {
+  const code = (scope && SIDO2[scope]) ? scope : '';
+  const sName = code ? SIDO2[code] : '전국';
+  const suf = code ? '/' + code : '';
+  const items = [
+    ['py', '평당가'], ['gap', '갭투자'], ['jrate', '전세가율'],
+    ['up', '최고상승'], ['down', '최근하락']
   ];
-  const body = '<div class="bc"><a href="' + BASE + '/">아구구</a> › 아파트 랭킹</div>'
-    + '<h1>아파트 랭킹</h1>'
-    + '<div class="sub">국토교통부 공개 실거래가를 단지별로 집계해 순위로 정리했습니다.</div>'
-    + '<ul class="list">' + kinds.map(([k, n, d]) =>
-      '<li><a href="/rank/' + k + '">' + n + '</a><small>' + d + '</small></li>').join('') + '</ul>'
-    + '<h2>지역별로 보기</h2><div class="chips">'
-    + Object.keys(SIDO2).map(c => '<a class="chip" href="/rank/py/' + c + '">' + SIDO2[c] + '</a>').join('')
-    + '</div>' + RANK_CSS;
-  return hubHtml('아파트 랭킹 — 평당가·갭·전세가율·상승률 | 아구구',
-    '전국 아파트를 평당가·매매전세갭·전세가율·실거래가 변동률로 정리한 순위. 국토교통부 실거래가 기준.',
-    BASE + '/rank', body);
+  let body = '<div class="bc"><a href="' + BASE + '/">아구구</a> › 아파트 랭킹'
+    + (code ? ' › ' + esc(sName) : '') + '</div>'
+    + '<h1>' + esc(sName) + ' 아파트 랭킹</h1>'
+    + '<div class="sub">국토교통부 공개 실거래가를 단지별로 집계해 순위로 정리했습니다. 보고 싶은 순위를 눌러보세요.</div>'
+    + '<div class="hub">'
+    + items.map(([k, t]) =>
+        '<a href="/rank/' + k + suf + '"><span class="hub-ic"><svg viewBox="0 0 24 24">' + RANK_ICONS[k] + '</svg></span>'
+        + '<span class="hub-t">' + t + '</span></a>').join('')
+    + '<a href="/region"><span class="hub-ic"><svg viewBox="0 0 24 24">' + RANK_ICONS.region + '</svg></span>'
+    + '<span class="hub-t">지역별</span></a>'
+    + '</div>'
+    + '<h2>지역 바꾸기</h2><div class="chips">'
+    + '<a class="chip' + (code ? '' : ' on') + '" href="/rank">전국</a>'
+    + Object.keys(SIDO2).map(c =>
+        '<a class="chip' + (c === code ? ' on' : '') + '" href="/rank/all/' + c + '">' + SIDO2[c] + '</a>').join('')
+    + '</div>' + RANK_HUB_CSS;
+  return hubHtml(
+    sName + ' 아파트 랭킹 — 평당가·갭·전세가율·상승률 | 아구구',
+    sName + ' 아파트를 평당가·매매전세갭·전세가율·실거래가 변동률로 정리한 순위. 국토교통부 실거래가 기준.',
+    BASE + '/rank', body);   // canonical은 항상 /rank — 지역별 허브는 중복 색인 방지
 }
 
 module.exports = async (req, res) => {
@@ -585,9 +618,10 @@ module.exports = async (req, res) => {
   // ===== 랭킹 라우팅 (/rank, /rank/{kind}, /rank/{kind}/{시도2자리}) =====
   const rank = (req.query && req.query.rank) || '';
   if (rank) {
+    const scope = (req.query && req.query.scope) || '';
     const html = (rank === 'index' || rank === 'all')
-      ? rankIndexPage()
-      : await rankPage(rank, (req.query && req.query.scope) || '');
+      ? rankIndexPage(scope)
+      : await rankPage(rank, scope);
     if (html) {
       res.setHeader('Cache-Control', 'public, max-age=1800, s-maxage=43200, stale-while-revalidate=604800');
       res.statusCode = 200; res.end(html); return;
