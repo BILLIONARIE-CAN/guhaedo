@@ -143,7 +143,7 @@ function faqSection(a, tel, fax, m) {
   return html + '<script type="application/ld+json">' + JSON.stringify(ld).replace(/</g, '\\u003c') + '</script>';
 }
 // 만원 → "3억 5,000만원"
-function wonMan(man){man=Math.round(Number(man)||0);if(man<=0)return '-';var e=Math.floor(man/10000),r=man%10000;var s=e?e+'억':'';if(r)s+=(e?' ':'')+r.toLocaleString()+'만';return s+'원';}
+function wonMan(man){man=Math.round(Number(man)||0);if(man===0)return '-';var neg=man<0;man=Math.abs(man);var e=Math.floor(man/10000),r=man%10000;var s=e?e+'억':'';if(r)s+=(e?' ':'')+r.toLocaleString()+'만';return (neg?'-':'')+s+'원';}  // 음수=역전세(전세>매매). 예전엔 <=0을 '-'로 지워서 역전세가 안 보였음
 // apt_metrics 단건 조회 (렌더당 1회 — 페이지 CDN 1일 캐시라 부담 없음)
 async function fetchMetrics(code){
   try{
@@ -161,7 +161,7 @@ function saleSection(m){
   if(m.py_m) rows.push(['평당가', Number(m.py_m).toLocaleString()+'만원']);
   if(m.jeonse_m) rows.push(['대표 전세가', wonMan(m.jeonse_m)]);
   if(m.j_rate) rows.push(['전세가율', m.j_rate+'%']);
-  if(m.gap_m) rows.push(['매매·전세 갭', wonMan(m.gap_m)]);
+  if(m.gap_m!=null&&Number(m.gap_m)!==0) rows.push([Number(m.gap_m)<0?'매매·전세 갭 (역전세)':'매매·전세 갭', wonMan(m.gap_m)]);
   if(m.deal_cnt) rows.push(['최근 18개월 매매', m.deal_cnt+'건']);
   return '<section><h2>💹 실거래가·시세'+(repArea?' <small style="font-size:11px;font-weight:400;color:#16a34a">대표 '+repArea+' · 최근 18개월</small>':'')+'</h2>'
     + rows.map(r=>'<div class="info-row"><span class="k">'+esc(r[0])+'</span><span class="v">'+esc(r[1])+'</span></div>').join('')

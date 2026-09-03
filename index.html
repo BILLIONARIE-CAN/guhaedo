@@ -122,7 +122,18 @@ body:has(#apt-detail-panel.open) .map-top-bar{left:468px}
 .mflbl button{border:none;background:none;color:#6b7280;font-size:12px;font-family:inherit;padding:5px 12px;border-radius:7px;cursor:pointer;font-weight:600}
 .mflbl button.on{background:#1D9E75;color:#fff}
 /* 명칭/세대수 플로팅 박스 (아실 스타일 — 지도 왼쪽 세로) */
-.pin-label-box{position:absolute;top:52px;left:0;z-index:95;display:inline-flex;flex-direction:column;background:#fff;border-radius:9px;box-shadow:0 2px 10px rgba(0,0,0,.15);overflow:hidden;border:1px solid #e5e7eb}
+.pin-label-box{position:absolute;top:52px;left:0;z-index:95;display:inline-flex;flex-direction:column;background:#fff;border-radius:9px;box-shadow:0 2px 10px rgba(0,0,0,.15);overflow:visible;border:1px solid #e5e7eb}
+.pin-mode-menu{position:absolute;top:100%;left:0;margin-top:6px;background:#fff;border:1px solid #e5e7eb;border-radius:10px;box-shadow:0 4px 18px rgba(0,0,0,.18);padding:6px;display:grid;grid-template-columns:repeat(3,minmax(74px,1fr));gap:4px;z-index:96}
+.pin-mode-menu button{border:none;background:#f5f7f9;color:#374151;font-family:inherit;font-size:11.5px;font-weight:700;padding:8px 6px;border-radius:6px;cursor:pointer;white-space:nowrap}
+.pin-mode-menu button:hover{background:#e6f4ef;color:#1D9E75}
+.pin-mode-menu button.on{background:#1D9E75;color:#fff}
+.pin-mode-menu button.soon{opacity:.42;cursor:not-allowed}
+.mt-seg{display:flex;border-bottom:1px solid #e2e8f0}
+.mt-seg .mtb{flex:1;border-bottom:none;border-right:1px solid #e2e8f0}
+.mt-seg .mtb:last-child{border-right:none}
+.mtb.tgl::before{content:'○';font-size:9px;margin-right:4px;opacity:.5}
+.mtb.tgl.on{background:#1D9E75;color:#fff}
+.mtb.tgl.on::before{content:'●';opacity:1}
 .pin-label-box button{border:none;background:#fff;color:#6b7280;font-family:inherit;font-size:12px;font-weight:700;padding:8px 14px;cursor:pointer;transition:background .12s;text-align:center}
 .pin-label-box button.on{background:#1D9E75;color:#fff}
 /* 필터 드롭다운 패널 (레퍼런스형) */
@@ -477,9 +488,10 @@ body:has(#apt-detail-panel.open) .map-top-bar{left:468px}
       <div onclick="showPage('search');closeMobileMenu()" style="padding:12px 16px;font-size:14px;cursor:pointer;border-bottom:1px solid #f0f0f0">🔍 아파트검색</div>
       <div onclick="showPage('calc');closeMobileMenu()" style="padding:12px 16px;font-size:14px;cursor:pointer;border-bottom:1px solid #f0f0f0">🧮 계산기</div>
       <div onclick="showPage('pro');closeMobileMenu()" style="padding:12px 16px;font-size:14px;cursor:pointer;border-bottom:1px solid #f0f0f0">👔 PRO 중개사</div>
-      <div onclick="setMapType('map');closeMobileMenu()" style="padding:12px 16px;font-size:14px;cursor:pointer;border-bottom:1px solid #f0f0f0">🗺️ 지도</div>
-      <div onclick="setMapType('sky');closeMobileMenu()" style="padding:12px 16px;font-size:14px;cursor:pointer;border-bottom:1px solid #f0f0f0">🛰️ 스카이뷰</div>
-      <div onclick="setMapType('road');closeMobileMenu()" style="padding:12px 16px;font-size:14px;cursor:pointer;border-bottom:1px solid #f0f0f0">🚗 거리뷰</div>
+      <div onclick="setMapBase('map');closeMobileMenu()" style="padding:12px 16px;font-size:14px;cursor:pointer;border-bottom:1px solid #f0f0f0">🗺️ 지도</div>
+      <div onclick="setMapBase('sky');closeMobileMenu()" style="padding:12px 16px;font-size:14px;cursor:pointer;border-bottom:1px solid #f0f0f0">🛰️ 스카이뷰</div>
+      <div onclick="toggleRoadview();closeMobileMenu()" style="padding:12px 16px;font-size:14px;cursor:pointer;border-bottom:1px solid #f0f0f0">🚗 거리뷰 켜기/끄기</div>
+      <div onclick="toggleDistrict();closeMobileMenu()" style="padding:12px 16px;font-size:14px;cursor:pointer;border-bottom:1px solid #f0f0f0">🧭 지적편집도 켜기/끄기</div>
       <div onclick="openReportModal('');closeMobileMenu()" style="padding:12px 16px;font-size:14px;cursor:pointer">🚩 단지제보</div>
     </div>
   </div>
@@ -511,7 +523,7 @@ body:has(#apt-detail-panel.open) .map-top-bar{left:468px}
         <button class="mfc soon" onclick="mfSoon()">건폐율</button>
         <button class="mf-rst" onclick="resetMapFilters()" title="필터 초기화">↺ 초기화</button>
       </div></div>
-      <div class="pin-label-box"><button id="mfl-name" class="on" onclick="setPinLabel('name')">명칭</button><button id="mfl-units" onclick="setPinLabel('units')">세대수</button></div>
+      <div class="pin-label-box"><button id="pin-mode-btn" onclick="togglePinModeMenu(event)">명칭 ▾</button><div id="pin-mode-menu" class="pin-mode-menu" style="display:none"></div></div>
       <div id="mf-panel" class="mfpanel" style="display:none"></div><!-- filterbar v2 + reels : redeploy 2026-07-24 -->
       <div class="map-breadcrumb" id="map-breadcrumb" style="display:none">
         <span class="bc-item" onclick="bcClick(0)">전국</span>
@@ -520,10 +532,12 @@ body:has(#apt-detail-panel.open) .map-top-bar{left:468px}
 
     <!-- 왼쪽 탭바 -->
     <div class="map-type-btns">
-      <button class="mtb active" id="mt-map" onclick="setMapType('map')">지도</button>
-      <button class="mtb" id="mt-sky" onclick="setMapType('sky')">스카이뷰</button>
-      <button class="mtb" id="mt-road" onclick="setMapType('road')">거리뷰</button>
-      <button class="mtb" id="mt-dist" onclick="setMapType('dist')">지적편집도</button>
+      <div class="mt-seg">
+        <button class="mtb active" id="mt-map" onclick="setMapBase('map')">지도</button>
+        <button class="mtb" id="mt-sky" onclick="setMapBase('sky')">스카이뷰</button>
+      </div>
+      <button class="mtb tgl" id="mt-road" onclick="toggleRoadview()">거리뷰</button>
+      <button class="mtb tgl" id="mt-dist" onclick="toggleDistrict()">지적편집도</button>
     </div>
     <div id="rv-close-btn" onclick="closeRoadview()" style="display:none;position:absolute;top:10px;right:10px;z-index:1000;width:28px;height:28px;border-radius:50%;background:#fff;border:none;font-size:14px;font-weight:700;cursor:pointer;color:#333;line-height:28px;text-align:center">✕</div>
 
@@ -1565,65 +1579,62 @@ function initMap(){
   rvContainer.style.cssText='width:100%;height:100%';
   rvWrap.appendChild(rvContainer);
   ge('kakao-map').parentNode.appendChild(rvWrap);
-  window.closeRoadview=function(){rvWrap.style.display='none';ge('rv-close-btn').style.display='none';try{map.removeOverlayMapTypeId(kakao.maps.MapTypeId.ROADVIEW);}catch(e){}if(rvClickHandler){try{kakao.maps.event.removeListener(map,'click',rvClickHandler);}catch(e){}rvClickHandler=null;}rvOverlayOn=false;document.querySelectorAll('.mtb').forEach(function(b){b.classList.remove('active');});ge('mt-map').classList.add('active');rvRestoreSidebars();};
+  window.closeRoadview=function(){rvWrap.style.display='none';ge('rv-close-btn').style.display='none';try{map.removeOverlayMapTypeId(kakao.maps.MapTypeId.ROADVIEW);}catch(e){}if(rvClickHandler){try{kakao.maps.event.removeListener(map,'click',rvClickHandler);}catch(e){}rvClickHandler=null;}rvOverlayOn=false;if(typeof mtSync==='function')mtSync();rvRestoreSidebars();};
   var rvView=null;
   var rvClient=new kakao.maps.RoadviewClient();
 
   var rvClickHandler=null;
-  var distOn=false;
-  window.setMapType=function(type){
-    document.querySelectorAll('.mtb').forEach(function(b){b.classList.remove('active');});
-    if(type==='map'){
-      map.setMapTypeId(kakao.maps.MapTypeId.ROADMAP);
-      map.removeOverlayMapTypeId(kakao.maps.MapTypeId.ROADVIEW);
-      if(distOn){map.removeOverlayMapTypeId(kakao.maps.MapTypeId.USE_DISTRICT);distOn=false;}
-      rvOverlayOn=false;rvWrap.style.display='none';ge('rv-close-btn').style.display='none';if(rvClickHandler){kakao.maps.event.removeListener(map,'click',rvClickHandler);rvClickHandler=null;}rvRestoreSidebars();
-      ge('mt-map').classList.add('active');
-    }else if(type==='sky'){
-      map.setMapTypeId(kakao.maps.MapTypeId.SKYVIEW);
-      map.removeOverlayMapTypeId(kakao.maps.MapTypeId.ROADVIEW);
-      if(distOn){map.removeOverlayMapTypeId(kakao.maps.MapTypeId.USE_DISTRICT);distOn=false;}
-      rvOverlayOn=false;rvWrap.style.display='none';ge('rv-close-btn').style.display='none';if(rvClickHandler){kakao.maps.event.removeListener(map,'click',rvClickHandler);rvClickHandler=null;}rvRestoreSidebars();
-      ge('mt-sky').classList.add('active');
-    }else if(type==='dist'){
-      if(distOn){
-        map.removeOverlayMapTypeId(kakao.maps.MapTypeId.USE_DISTRICT);
-        distOn=false;
-        ge('mt-map').classList.add('active');
-      }else{
-        map.addOverlayMapTypeId(kakao.maps.MapTypeId.USE_DISTRICT);
-        distOn=true;
-        ge('mt-dist').classList.add('active');
-      }
-      return;
-    }else if(type==='road'){
-      if(rvOverlayOn){
-        map.removeOverlayMapTypeId(kakao.maps.MapTypeId.ROADVIEW);
-        if(rvClickHandler){kakao.maps.event.removeListener(map,'click',rvClickHandler);rvClickHandler=null;}
-        rvOverlayOn=false;
-        rvWrap.style.display='none';
-        ge('rv-close-btn').style.display='none';
-        rvRestoreSidebars();
-        ge('mt-map').classList.add('active');
-      }else{
-        rvHideSidebars();
-        map.addOverlayMapTypeId(kakao.maps.MapTypeId.ROADVIEW);
-        rvOverlayOn=true;
-        ge('mt-road').classList.add('active');
+  var distOn=false, mapBase='map';
+  // [2026-09-02] 지도컨트롤 개편: 지도/스카이뷰는 택1(베이스), 거리뷰·지적편집도는 각각 on/off 토글.
+  //   예전엔 4개가 한 묶음이라 지도/스카이뷰를 누르면 오버레이가 강제로 꺼졌음.
+  window.mtSync=function(){
+    var mm=ge('mt-map'),ms=ge('mt-sky'),mr=ge('mt-road'),md=ge('mt-dist');
+    if(mm)mm.classList.toggle('active',mapBase==='map');
+    if(ms)ms.classList.toggle('active',mapBase==='sky');
+    if(mr)mr.classList.toggle('on',!!rvOverlayOn);
+    if(md)md.classList.toggle('on',!!distOn);
+  };
+  // 베이스 지도 택1 — 오버레이는 유지
+  window.setMapBase=function(type){
+    mapBase=(type==='sky')?'sky':'map';
+    map.setMapTypeId(mapBase==='sky'?kakao.maps.MapTypeId.SKYVIEW:kakao.maps.MapTypeId.ROADMAP);
+    try{ if(distOn) map.addOverlayMapTypeId(kakao.maps.MapTypeId.USE_DISTRICT); }catch(e){}
+    try{ if(rvOverlayOn) map.addOverlayMapTypeId(kakao.maps.MapTypeId.ROADVIEW); }catch(e){}
+    mtSync();
+  };
+  // 지적편집도 on/off
+  window.toggleDistrict=function(){
+    try{
+      if(distOn){ map.removeOverlayMapTypeId(kakao.maps.MapTypeId.USE_DISTRICT); distOn=false; }
+      else      { map.addOverlayMapTypeId(kakao.maps.MapTypeId.USE_DISTRICT);    distOn=true;  }
+    }catch(e){}
+    mtSync();
+  };
+  // 거리뷰 on/off
+  window.toggleRoadview=function(){
+    if(rvOverlayOn){ closeRoadview(); return; }
+    rvHideSidebars();
+    try{ map.addOverlayMapTypeId(kakao.maps.MapTypeId.ROADVIEW); }catch(e){}
+    rvOverlayOn=true;
+    ge('rv-close-btn').style.display='block';
+    rvClickHandler=function(e){
+      var pos=e.latLng;
+      rvClient.getNearestPanoId(pos,50,function(panoid){
+        if(panoid===null)return;
+        rvWrap.style.display='block';
         ge('rv-close-btn').style.display='block';
-        rvClickHandler=function(e){
-          var pos=e.latLng;
-          rvClient.getNearestPanoId(pos,50,function(panoid){
-            if(panoid===null)return;
-            rvWrap.style.display='block';
-            ge('rv-close-btn').style.display='block';
-            if(!rvView){rvView=new kakao.maps.Roadview(document.getElementById('rv-container'));}
-            rvView.setPanoId(panoid,pos);
-          });
-        };
-        kakao.maps.event.addListener(map,'click',rvClickHandler);
-      }
-    }
+        if(!rvView){rvView=new kakao.maps.Roadview(document.getElementById('rv-container'));}
+        rvView.setPanoId(panoid,pos);
+      });
+    };
+    kakao.maps.event.addListener(map,'click',rvClickHandler);
+    mtSync();
+  };
+  // 구버전 호출 호환(다른 곳에서 setMapType을 부를 수 있어 남겨둠)
+  window.setMapType=function(type){
+    if(type==='sky'||type==='map') return setMapBase(type);
+    if(type==='dist') return toggleDistrict();
+    if(type==='road') return toggleRoadview();
   };
   // 줌 변경 시 마커 업데이트
   kakao.maps.event.addListener(map,'zoom_changed',()=>{
@@ -1637,7 +1648,7 @@ function initMap(){
     if(lat!==c.getLat()||lng!==c.getLng()) map.setCenter(new kakao.maps.LatLng(lat,lng));
   });
   // 지도 이동 시에도 업데이트
-  kakao.maps.event.addListener(map,'idle',()=>{ if(typeof metricActive==='function'&&metricActive()) refreshMetricFilter(); else updateMarkersForZoom(); });
+  kakao.maps.event.addListener(map,'idle',()=>{ if(typeof refreshPinMetrics==='function') refreshPinMetrics(); if(typeof metricActive==='function'&&metricActive()) refreshMetricFilter(); else updateMarkersForZoom(); });
 
   // 협력중개사 마커 먼저
   BROKER_DATA.forEach(d=>addMarker(d));
@@ -2055,7 +2066,7 @@ function addMarker(d){
   if(d.type==='bunyang')return; // presaleData 무지개 핀으로 관리 — 중복 방지
   if((d.type==='apt'||d.type==='officetel')&&presaleDup(d))return; // 활성 분양 핀과 같은 단지 → 무지개 핀 하나만
   if(d.type==='apt'||d.type==='officetel'||d.type==='villa'){
-    const n=d.name.length>9?d.name.substring(0,9)+'..':d.name;
+    const n=shortName(d.name,d.sigungu,d.emd);   // 시군구·읍면동 접두 + '아파트' 접미 제거 후 8자
     const clr=TYPE_COLOR[d.type]||'#1a56db';
     const hasU=!!d.units;
     const dash=(d.type==='officetel'&&d.nameUnknown); // 이름 미확인 오피스텔 = 점선 테두리
@@ -2067,10 +2078,17 @@ function addMarker(d){
     box.style.cssText='border-radius:5px;overflow:hidden;border:'+brd;
     const nameCell='<div style="background:'+clr+';color:#fff;padding:3px 9px;font-size:11.5px;font-weight:700;text-align:center;line-height:1.3;white-space:nowrap">'+n+'</div>';
     const uCell=hasU?'<div style="background:#fff;color:#1a1a1a;padding:2px 9px 3px;font-size:11px;font-weight:600;text-align:center;line-height:1.35;white-space:nowrap">'+d.units+'</div>':'';
+    // [2026-09-02] 세로 2단 유지(파랑 이름칸 위 / 흰색 값칸 아래). 아랫칸만 모드별로 교체.
     var tipClr2=tipClr;
-    if(pinLabelMode==='units'){
-      box.innerHTML='<div style="background:'+clr+';color:#fff;padding:3px 10px;font-size:11.5px;font-weight:700;text-align:center;line-height:1.3;white-space:nowrap">'+(hasU?d.units:n)+'</div>';
-      tipClr2=clr;
+    var parts=pinLabelParts(d);
+    if(parts&&parts.value){
+      var chipHtml=parts.chip?'<span style="background:#eceff4;color:#5b6473;font-size:9.5px;font-weight:700;padding:1px 4px;border-radius:3px;margin-right:4px">'+parts.chip+'</span>':'';
+      box.innerHTML=nameCell+'<div style="background:#fff;color:#1a1a1a;padding:2px 9px 3px;font-size:11px;font-weight:700;text-align:center;line-height:1.35;white-space:nowrap">'+chipHtml+parts.value+'</div>';
+      tipClr2='#fff';
+    } else if(parts){
+      // 선택한 모드에 값이 없는 단지 → 회색 '-' 칸(핀 폭이 들쭉날쭉해지지 않게)
+      box.innerHTML=nameCell+'<div style="background:#e2e6ec;color:#8a93a1;padding:2px 9px 3px;font-size:11px;font-weight:700;text-align:center;line-height:1.35;white-space:nowrap">-</div>';
+      tipClr2='#e2e6ec';
     } else {
       box.innerHTML=nameCell+uCell;
     }
@@ -2670,7 +2688,114 @@ async function refreshMetricFilter(){
 }
 function mfSoon(){ if(typeof toast==='function') toast('준비중이에요 🙏'); }
 function mfType(t,btn){ if(typeFilters.has(t)){typeFilters.delete(t);if(btn)btn.classList.remove('on');} else {typeFilters.add(t);if(btn)btn.classList.add('on');} if(map) updateMarkersForZoom(); }
-function setPinLabel(m){ pinLabelMode=m; var n=ge('mfl-name'),u=ge('mfl-units'); if(n)n.classList.toggle('on',m==='name'); if(u)u.classList.toggle('on',m==='units'); if(map) updateMarkersForZoom(); }
+// ===== 핀 표시 모드 (아실식 12종) — 값은 apt_metrics 뷰포트 캐시에서 =====
+var PIN_MODES={
+  name  :{label:'명칭'},
+  price :{label:'실거래가',   col:'price_m',  fmt:'won', chip:true},
+  py    :{label:'평당가격',   col:'py_m',     fmt:'man', chip:true},
+  jeonse:{label:'전세가',     col:'jeonse_m', fmt:'won', chip:true},
+  jrate :{label:'전세가율',   col:'j_rate',   fmt:'pct'},
+  gap   :{label:'매매전세갭', col:'gap_m',    fmt:'won', chip:true},
+  turn  :{label:'거래회전율', col:'turn_rate',fmt:'pct'},
+  units :{label:'세대수'},
+  built :{label:'입주시기'},
+  far   :{label:'용적률',     col:'far',      fmt:'pct'},
+  bcr   :{label:'건폐율',     col:'bcr',      fmt:'pct'},
+  offer :{label:'매물가격',   soon:true},
+  land  :{label:'대지지분',   soon:true}
+};
+var PIN_MODE_ORDER=['name','price','py','jeonse','jrate','gap','turn','units','built','far','bcr','offer','land'];
+var MPIN=null, MPIN_SEQ=0;   // Map<kapt_code, apt_metrics row>
+var PIN_SEL_FULL='kapt_code,rep_area_m2,price_m,py_m,jeonse_m,j_rate,gap_m,turn_rate,far,bcr';
+var PIN_SEL_BASE='kapt_code,rep_area_m2,price_m,py_m,jeonse_m,j_rate,gap_m';
+var PIN_SEL=PIN_SEL_FULL;
+function pinModeNeedsMetric(m){ var c=PIN_MODES[m]; return !!(c&&c.col); }
+async function refreshPinMetrics(){
+  if(!map||!pinModeNeedsMetric(pinLabelMode)) return;
+  if(map.getLevel()>5) return;                       // 단지 핀이 안 보이는 줌은 스킵
+  var seq=++MPIN_SEQ, b=map.getBounds(), sw=b.getSouthWest(), ne=b.getNorthEast();
+  var box=['limit=2000','lat=gte.'+sw.getLat(),'lat=lte.'+ne.getLat(),'lng=gte.'+sw.getLng(),'lng=lte.'+ne.getLng()];
+  var url=function(sel){ return SUPABASE_URL+'/rest/v1/apt_metrics?select='+sel+'&'+box.join('&'); };
+  var hdr={headers:{apikey:SUPABASE_ANON,Authorization:'Bearer '+SUPABASE_ANON}};
+  try{
+    var r=await fetch(url(PIN_SEL),hdr);
+    // build_metrics.sql 재실행 전이면 turn_rate/far/bcr 컬럼이 없어 400 → 기본 컬럼으로 1회 폴백
+    if(!r.ok&&PIN_SEL===PIN_SEL_FULL){ PIN_SEL=PIN_SEL_BASE; r=await fetch(url(PIN_SEL),hdr); }
+    if(seq!==MPIN_SEQ) return;
+    var rows=await r.json();
+    var mp=new Map(); (rows||[]).forEach(function(x){ mp.set(x.kapt_code,x); });
+    MPIN=mp;
+  }catch(e){ if(seq!==MPIN_SEQ) return; MPIN=new Map(); }
+  if(seq===MPIN_SEQ&&map) updateMarkersForZoom();
+}
+function pmWon(man){
+  man=Math.round(Number(man)||0); if(!man) return null;
+  var neg=man<0; man=Math.abs(man);
+  if(man<10000) return (neg?'-':'')+man.toLocaleString()+'만';
+  var e=Math.floor(man/10000), r=Math.round((man%10000)/1000);
+  if(r>=10){e++;r=0;}
+  return (neg?'-':'')+e+(r?'.'+r:'')+'억';
+}
+function pmPy(m2){ if(!m2) return ''; return Math.round(Number(m2)/0.75/3.3058)+'평'; }
+// 핀 아랫칸 {chip,value}. null 반환 = 기존(세대수) 표시 유지(명칭 모드)
+function pinLabelParts(d){
+  var mode=pinLabelMode, cfg=PIN_MODES[mode];
+  if(!cfg||mode==='name') return null;
+  if(mode==='units') return {chip:'', value:d.units||null};
+  if(mode==='built'){
+    var y=parseInt(String(d.built||'').slice(0,4),10);
+    if(!y) return {chip:'', value:null};
+    return {chip:'', value:(y>MF_CUR_YEAR? y+'년 예정' : (MF_CUR_YEAR-y)+'년차')};
+  }
+  if(!cfg.col) return {chip:'', value:null};
+  if(!MPIN) return null;                      // 아직 로딩 전 → 기존 세대수 표시 유지
+  var row=MPIN.get(d.code);
+  if(!row) return {chip:'', value:null};
+  var v=row[cfg.col];
+  if(v===null||v===undefined||v==='') return {chip:'', value:null};
+  var out=null;
+  if(cfg.fmt==='won') out=pmWon(v);
+  else if(cfg.fmt==='man'){ out=Number(v)?Number(v).toLocaleString()+'만':null; }
+  else if(cfg.fmt==='pct'){ out=Number(v)?Number(v)+'%':null; }
+  else out=String(v);
+  return {chip:(cfg.chip?pmPy(row.rep_area_m2):''), value:out};
+}
+// 단지명 축약 — 시군구·읍면동 접두 + '아파트' 접미 제거 후 8자
+function shortName(name,sigungu,emd){
+  var s=String(name||'').trim();
+  [sigungu,emd].forEach(function(w){
+    var base=String(w||'').replace(/(특별자치시|특별자치도|광역시|특별시|시|군|구|읍|면|동)$/,'');
+    if(base&&base.length>=2&&s.indexOf(base)===0) s=s.slice(base.length);
+  });
+  s=s.replace(/\s*(아파트단지|아파트|APT|apt|맨션)$/,'').trim();
+  if(!s) s=String(name||'').trim();
+  return s.length>8?s.slice(0,8)+'…':s;
+}
+function pinModeMenuHtml(){
+  return PIN_MODE_ORDER.map(function(k){
+    var c=PIN_MODES[k], cls=(c.soon?'soon':'')+(k===pinLabelMode?' on':'');
+    var act=c.soon?'mfSoon()':("setPinLabel('"+k+"')");
+    return '<button class="'+cls.trim()+'" onclick="'+act+'">'+c.label+'</button>';
+  }).join('');
+}
+function togglePinModeMenu(ev){
+  if(ev&&ev.stopPropagation) ev.stopPropagation();
+  var m=ge('pin-mode-menu'); if(!m) return;
+  if(m.style.display==='none'||!m.style.display){ m.innerHTML=pinModeMenuHtml(); m.style.display='grid'; }
+  else m.style.display='none';
+}
+function setPinLabel(m){
+  if(PIN_MODES[m]&&PIN_MODES[m].soon){ if(typeof mfSoon==='function') mfSoon(); return; }
+  pinLabelMode=m;
+  var b=ge('pin-mode-btn'); if(b) b.textContent=((PIN_MODES[m]&&PIN_MODES[m].label)||'명칭')+' ▾';
+  var mn=ge('pin-mode-menu'); if(mn) mn.style.display='none';
+  if(map) updateMarkersForZoom();
+  if(pinModeNeedsMetric(m)) refreshPinMetrics();
+}
+document.addEventListener('click',function(e){
+  var mn=ge('pin-mode-menu');
+  if(mn&&mn.style.display!=='none'&&!e.target.closest('.pin-label-box')) mn.style.display='none';
+});
 
 var mfOpenKey=null;
 function mfPanel(key,btn){
