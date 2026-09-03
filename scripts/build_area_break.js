@@ -63,8 +63,8 @@ for (let i = 0; i < rows.length; i += CHUNK) {
 }
 
 const tail = `
--- ⚠️ 아래 한 줄은 반드시 '단독 실행' (멀티스테이트먼트 안에서는 안 먹힐 때가 있음)
--- alter table apt_area_break disable row level security;
+-- ⚠️ 잠금 해제(RLS)는 scripts/build_area_break_rls.sql 로 분리했습니다.
+--    이 파일을 Run 한 다음, 그 파일을 따로 Run 하세요.
 
 -- 확인
 select count(*) as 단지수,

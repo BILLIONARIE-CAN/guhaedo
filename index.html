@@ -252,6 +252,12 @@ body:has(#apt-detail-panel.open) .map-top-bar{left:468px}
 .rs-bc-sep{color:var(--text3)}
 .rs-bc-cur{color:var(--text);font-weight:700}
 .rs-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:1px;background:#eef0f2;flex:1;overflow-y:auto;align-content:start}
+.rs-rank{flex-shrink:0;border-top:1px solid var(--border);background:var(--white);padding:10px 12px 12px}
+.rs-rank-hd{font-size:12px;font-weight:700;color:var(--text);margin-bottom:8px;display:flex;align-items:center;gap:5px}
+.rs-rank-hd em{font-style:normal;font-size:10.5px;font-weight:500;color:var(--text3);margin-left:auto}
+.rs-rank-chips{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
+.rs-rank-chips a{display:flex;align-items:center;justify-content:center;background:#f5f7f8;border:1px solid var(--border);border-radius:7px;padding:8px 4px;font-size:12px;font-weight:600;color:#444;text-decoration:none;transition:background .12s,border-color .12s,color .12s}
+.rs-rank-chips a:hover{background:#1D9E75;border-color:#1D9E75;color:#fff}
 .rs-grid-item{background:var(--white);padding:15px 8px;min-height:54px;display:flex;align-items:center;justify-content:center;text-align:center;font-size:13px;line-height:1.35;word-break:keep-all;color:#333;cursor:pointer;transition:background .12s,color .12s;font-weight:500}
 .rs-grid-item:hover{background:var(--green-bg);color:var(--green-dark)}
 .rs-grid-item .cnt{font-size:10px;color:var(--text3);margin-top:2px}
@@ -581,6 +587,10 @@ body:has(#apt-detail-panel.open) .map-top-bar{left:468px}
         <span style="color:var(--text3)">읍면동 선택</span>
       </div>
       <div class="rs-grid" id="rs-grid"></div>
+      <div class="rs-rank" id="rs-rank">
+        <div class="rs-rank-hd">📊 <b id="rs-rank-area">전국</b> 아파트 랭킹<em>실거래가 기준</em></div>
+        <div class="rs-rank-chips" id="rs-rank-chips"></div>
+      </div>
     </div>
 
     <!-- 단지 상세 패널 -->
@@ -2437,16 +2447,27 @@ const SIDO_LIST = [
   {name:'대전시', code:'30', lat:36.3504, lng:127.3845},
   {name:'울산시', code:'31', lat:35.5384, lng:129.3114},
   {name:'세종시', code:'36', lat:36.4800, lng:127.2890},
-  {name:'강원도', code:'42', lat:37.8228, lng:128.1555},
+  {name:'강원도', code:'51', lat:37.8228, lng:128.1555},   // 강원특별자치도 개편으로 42→51
   {name:'충청북도', code:'43', lat:36.6357, lng:127.4912},
   {name:'충청남도', code:'44', lat:36.5184, lng:126.8000},
-  {name:'전라북도', code:'45', lat:35.7175, lng:127.1530},
+  {name:'전라북도', code:'52', lat:35.7175, lng:127.1530},  // 전북특별자치도 개편으로 45→52
   {name:'전라남도', code:'46', lat:34.8679, lng:126.9910},
   {name:'경상북도', code:'47', lat:36.4919, lng:128.8889},
   {name:'경상남도', code:'48', lat:35.4606, lng:128.2132},
   {name:'제주도', code:'50', lat:33.4996, lng:126.5312},
 ];
 
+// 랭킹 페이지가 있는 시도(= apt_metrics.dong 앞 2자리). 없는 코드면 전국 링크로 폴백.
+var RANK_SIDO={'11':1,'26':1,'27':1,'28':1,'29':1,'30':1,'31':1,'36':1,'41':1,'43':1,'44':1,'46':1,'47':1,'48':1,'50':1,'51':1,'52':1};
+function syncRsRank(){
+  var box=ge('rs-rank-chips'), lab=ge('rs-rank-area'); if(!box) return;
+  var sd=(typeof rsSelected!=='undefined'&&rsSelected&&rsSelected.sido)?rsSelected.sido:null;
+  var code=(sd&&RANK_SIDO[sd.code])?sd.code:'';
+  if(lab) lab.textContent = code ? sd.name : '전국';
+  box.innerHTML=[['py','평당가'],['gap','갭 작은'],['jrate','전세가율'],['up','상승'],['down','하락'],['','전체']]
+    .map(function(k){ var href=k[0]?('/rank/'+k[0]+(code?'/'+code:'')):'/rank';
+      return '<a href="'+href+'" target="_blank" rel="noopener">'+k[1]+'</a>'; }).join('');
+}
 let rsLevel = 'sido'; // sido | sigungu | emd
 let rsSelected = {sido: null, sigungu: null};
 let rsCurTab = 'apt';
@@ -2512,6 +2533,7 @@ function renderRsGrid(){
   const grid = ge('rs-grid'); grid.style.gridTemplateColumns='';
   const bc = ge('rs-breadcrumb');
 
+  syncRsRank();
   if(rsLevel === 'sido'){
     bc.innerHTML = `<span class="rs-bc-cur">시도 선택</span><span class="rs-bc-sep">›</span><span style="color:var(--text3)">시군구 선택</span><span class="rs-bc-sep">›</span><span style="color:var(--text3)">읍면동 선택</span>`;
     grid.innerHTML = SIDO_LIST.map(s=>`
@@ -2524,6 +2546,7 @@ function renderRsGrid(){
 function selectSido(code, name, lat, lng){
   rsSelected.sido = {code, name};
   rsLevel = 'sigungu';
+  syncRsRank();
   if(map){
     map.panTo(new kakao.maps.LatLng(lat, lng));
     map.setLevel(9);
