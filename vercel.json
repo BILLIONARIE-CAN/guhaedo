@@ -3,22 +3,65 @@
   "redirects": [
     {
       "source": "/:path*",
-      "has": [{ "type": "host", "value": "^(?!a99\\.co\\.kr$).+$" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "^(?!a99\\.co\\.kr$).+$"
+        }
+      ],
       "destination": "https://a99.co.kr/:path*",
       "permanent": true
     }
   ],
   "rewrites": [
-    { "source": "/b/:id", "destination": "/api/apt?type=brief&id=:id" },
-    { "source": "/apt/:code", "destination": "/api/aptpage?code=:code" },
-    { "source": "/region", "destination": "/api/aptpage?region=all" },
-    { "source": "/region/:sg", "destination": "/api/aptpage?region=:sg" }
+    {
+      "source": "/b/:id",
+      "destination": "/api/apt?type=brief&id=:id"
+    },
+    {
+      "source": "/apt/:code",
+      "destination": "/api/aptpage?code=:code"
+    },
+    {
+      "source": "/region",
+      "destination": "/api/aptpage?region=all"
+    },
+    {
+      "source": "/region/:sg",
+      "destination": "/api/aptpage?region=:sg"
+    },
+    {
+      "source": "/rank",
+      "destination": "/api/aptpage?rank=index"
+    },
+    {
+      "source": "/rank/:kind",
+      "destination": "/api/aptpage?rank=:kind"
+    },
+    {
+      "source": "/rank/:kind/:scope",
+      "destination": "/api/aptpage?rank=:kind&scope=:scope"
+    }
   ],
   "headers": [
-    { "source": "/split_output/(.*)", "headers": [ { "key": "Cache-Control", "value": "public, max-age=86400, stale-while-revalidate=604800" } ] }
+    {
+      "source": "/split_output/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400, stale-while-revalidate=604800"
+        }
+      ]
+    }
   ],
   "crons": [
-    { "path": "/api/keepalive", "schedule": "0 3 * * *" },
-    { "path": "/api/indexnow?secret=3c4fc034da972bac20f024ef003bf1ec", "schedule": "0 4 * * 1" }
+    {
+      "path": "/api/keepalive",
+      "schedule": "0 3 * * *"
+    },
+    {
+      "path": "/api/indexnow?secret=3c4fc034da972bac20f024ef003bf1ec",
+      "schedule": "0 4 * * 1"
+    }
   ]
 }

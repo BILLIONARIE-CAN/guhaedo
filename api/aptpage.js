@@ -71,7 +71,13 @@ function nearbyLinks(a) {
   const items = list.map(b =>
     '<li><a href="/apt/' + b.code + '">' + esc(b.name) + ' 관리사무소 전화번호</a></li>').join('');
   const label = esc(a.emd || a.sigungu || '') + ' 주변 아파트 단지';
-  const hubLink = '<div style="margin-top:10px"><a href="/region/' + encodeURIComponent(k) + '" style="font-size:13px;color:#15803d;font-weight:600">→ ' + esc(a.sigungu || a.sido || '') + ' 아파트 단지 전체 보기</a></div>';
+  // 지역 허브 + 랭킹으로 가는 내부링크. 단지페이지 2만여 개가 랭킹을 가리켜 색인을 끌어올림.
+  const sido2 = String(a.sigunguCode || '').slice(0, 2);
+  const sidoNm = (typeof SIDO2 !== 'undefined' && SIDO2[sido2]) ? SIDO2[sido2] : '';
+  const rankLink = sidoNm
+    ? ' · <a href="/rank/py/' + sido2 + '" style="font-size:13px;color:#15803d;font-weight:600">' + esc(sidoNm) + ' 평당가 순위</a>'
+    : ' · <a href="/rank" style="font-size:13px;color:#15803d;font-weight:600">아파트 랭킹</a>';
+  const hubLink = '<div style="margin-top:10px"><a href="/region/' + encodeURIComponent(k) + '" style="font-size:13px;color:#15803d;font-weight:600">→ ' + esc(a.sigungu || a.sido || '') + ' 아파트 단지 전체 보기</a>' + rankLink + '</div>';
   return '<section class="nearby"><h2>🏢 ' + label + '</h2><ul class="nearby-list">' + items + '</ul>' + hubLink + '</section>';
 }
 
@@ -341,7 +347,7 @@ function hubHtml(title, desc, canonical, body) {
     + body
     + '<div class="rg-ad"><ins class="kakao_ad_area" style="display:none;" data-ad-unit="' + AD_UNIT + '" data-ad-width="300" data-ad-height="250"></ins></div>'
     + '<script type="text/javascript" src="//t1.kakaocdn.net/kas/static/ba.min.js" async></script>'
-    + '<footer><a href="/region">전국 지역별 아파트</a> · <a href="' + BASE + '/">아구구 홈</a> · © 2026 아구구</footer></div></body></html>';
+    + '<footer><a href="/rank">아파트 랭킹</a> · <a href="/region">전국 지역별 아파트</a> · <a href="' + BASE + '/">아구구 홈</a> · © 2026 아구구</footer></div></body></html>';
 }
 function regionTopPage() {
   let body = '<div class="bc"><a href="' + BASE + '/">아구구</a> › 지역별 아파트</div>'
@@ -371,8 +377,208 @@ function regionSggPage(sgCode) {
     BASE + '/region/' + encodeURIComponent(sgCode), body);
 }
 
+// ===== 랭킹 페이지 (/rank, /rank/{kind}, /rank/{kind}/{sido2}) — 2026-09-03 =====
+// api/rank.js 를 따로 못 만드는 이유: Vercel 서버리스 함수 12개 한도가 이미 꽉 참.
+// 그래서 aptpage.js 에 병합(관리비를 apt.js 에 합친 것과 같은 이유).
+const SIDO2 = { '11':'서울','26':'부산','27':'대구','28':'인천','29':'광주','30':'대전','31':'울산',
+  '36':'세종','41':'경기','43':'충북','44':'충남','46':'전남','47':'경북','48':'경남','50':'제주',
+  '51':'강원','52':'전북' };
+
+// ⚠️ chg_pct 등은 build_metrics.sql 재실행 전엔 없는 컬럼 → 400. 1회 폴백 후 기본 컬럼만 사용.
+const RANK_SEL_FULL = 'kapt_code,name,dong,units,movein,rep_area_m2,price_m,py_m,jeonse_m,j_rate,gap_m,deal_cnt,chg_pct,deal_cnt_prev,price_prev_m,chg_base_ym';
+const RANK_SEL_BASE = 'kapt_code,name,dong,units,movein,rep_area_m2,price_m,py_m,jeonse_m,j_rate,gap_m,deal_cnt';
+let RANK_SEL = RANK_SEL_FULL;
+
+async function rankQuery(filters, order, limit) {
+  const run = async (sel) => {
+    const q = ['select=' + sel, 'order=' + order, 'limit=' + limit].concat(filters).join('&');
+    const r = await fetch(SUPABASE_URL + '/rest/v1/apt_metrics?' + q, {
+      headers: { apikey: SUPABASE_ANON, Authorization: 'Bearer ' + SUPABASE_ANON },
+      signal: AbortSignal.timeout(4000)
+    });
+    return r;
+  };
+  try {
+    let r = await run(RANK_SEL);
+    if (!r.ok && RANK_SEL === RANK_SEL_FULL) { RANK_SEL = RANK_SEL_BASE; r = await run(RANK_SEL); }
+    if (!r.ok) return [];
+    const rows = await r.json();
+    return Array.isArray(rows) ? rows : [];
+  } catch (e) { return []; }
+}
+const hasChg = () => RANK_SEL === RANK_SEL_FULL;
+
+// 랭킹 정의. scope = 시도 2자리(''이면 전국)
+const RANKS = {
+  py: {
+    name: '평당가', h1: s => s + ' 아파트 평당가 순위',
+    lead: '최근 18개월 실거래 기준 평당가가 높은 단지입니다.',
+    base: ['units=gte.300', 'deal_cnt=gte.3', 'py_m=not.is.null'],
+    order: 'py_m.desc',
+    val: r => wonMan(r.py_m) + ' / 평',
+    sub: r => '매매 ' + wonMan(r.price_m) + ' · ' + Math.round(r.rep_area_m2) + '㎡'
+  },
+  jrate: {
+    name: '전세가율', h1: s => s + ' 전세가율 높은 아파트',
+    lead: '매매가 대비 전세가 비율이 높은 단지입니다. 전세 계약 전 보증금 회수 위험을 함께 살펴보세요.',
+    base: ['units=gte.300', 'deal_cnt=gte.3', 'j_rate=not.is.null', 'j_rate=gte.80'],
+    order: 'j_rate.desc',
+    val: r => r.j_rate + '%',
+    sub: r => '매매 ' + wonMan(r.price_m) + ' · 전세 ' + wonMan(r.jeonse_m),
+    warn: true
+  },
+  up: {
+    name: '상승', h1: s => s + ' 아파트 실거래가 상승 순위',
+    lead: '직전 1년 구간 평균과 비교해 대표평형 실거래가가 많이 오른 단지입니다.',
+    base: ['units=gte.300', 'deal_cnt=gte.3', 'deal_cnt_prev=gte.3', 'chg_pct=not.is.null'],
+    order: 'chg_pct.desc', needChg: true,
+    val: r => '+' + r.chg_pct + '%',
+    sub: r => wonMan(r.price_prev_m) + ' → ' + wonMan(r.price_m)
+  },
+  down: {
+    name: '하락', h1: s => s + ' 아파트 실거래가 하락 순위',
+    lead: '직전 1년 구간 평균과 비교해 대표평형 실거래가가 많이 내린 단지입니다.',
+    base: ['units=gte.300', 'deal_cnt=gte.3', 'deal_cnt_prev=gte.3', 'chg_pct=not.is.null'],
+    order: 'chg_pct.asc', needChg: true,
+    val: r => r.chg_pct + '%',
+    sub: r => wonMan(r.price_prev_m) + ' → ' + wonMan(r.price_m)
+  }
+};
+// 갭은 가격대별 3구간이라 별도 취급
+const GAP_BANDS = [
+  { key: 'a', label: '매매 3억 이하', f: ['price_m=lt.30000'] },
+  { key: 'b', label: '매매 3~6억',   f: ['price_m=gte.30000', 'price_m=lt.60000'] },
+  { key: 'c', label: '매매 6억 이상', f: ['price_m=gte.60000'] }
+];
+
+function rankRows(rows, cfg) {
+  if (!rows.length) return '<div class="rk-empty">조건에 맞는 단지가 아직 없습니다.</div>';
+  return '<ol class="rk">' + rows.map(r => {
+    const sgg = SGG_INFO.get(String(r.dong || '').slice(0, 5));
+    const loc = sgg ? (sgg.sido.slice(0, 2) + ' ' + sgg.sigungu) : '';
+    const py = r.rep_area_m2 ? Math.round(r.rep_area_m2 / 0.75 / 3.3058 * 10) / 10 + '평형' : '';
+    const risk = (cfg.warn && r.j_rate >= 95) ? '<span class="rk-risk">보증금 주의</span>' : '';
+    return '<li><a href="/apt/' + r.kapt_code + '"><span class="rk-nm">' + esc(r.name || '') + risk + '</span>'
+      + '<span class="rk-loc">' + esc(loc) + (r.units ? ' · ' + Number(r.units).toLocaleString() + '세대' : '')
+      + (r.movein ? ' · ' + r.movein + '년' : '') + (py ? ' · ' + py : '') + '</span></a>'
+      + '<span class="rk-v"><b>' + cfg.val(r) + '</b><small>' + cfg.sub(r) + '</small></span></li>';
+  }).join('') + '</ol>';
+}
+
+function rankNav(kind, scope) {
+  const kinds = [['py', '평당가'], ['gap', '갭 작은 단지'], ['jrate', '전세가율'], ['up', '상승'], ['down', '하락']];
+  const tabs = kinds.map(([k, n]) =>
+    '<a class="chip' + (k === kind ? ' on' : '') + '" href="/rank/' + k + (scope ? '/' + scope : '') + '">' + n + '</a>').join('');
+  const areas = ['<a class="chip' + (!scope ? ' on' : '') + '" href="/rank/' + kind + '">전국</a>']
+    .concat(Object.keys(SIDO2).map(c =>
+      '<a class="chip' + (c === scope ? ' on' : '') + '" href="/rank/' + kind + '/' + c + '">' + SIDO2[c] + '</a>')).join('');
+  return '<h2>다른 순위</h2><div class="chips">' + tabs + '</div>'
+    + '<h2>지역별</h2><div class="chips">' + areas + '</div>';
+}
+
+const RANK_CSS = '<style>'
+  + '.rk{list-style:none;padding:0;margin:0 0 6px;counter-reset:rk}'
+  + '.rk li{counter-increment:rk;display:flex;align-items:center;gap:10px;background:#fff;border:1px solid #eee;border-top:none;padding:11px 13px}'
+  + '.rk li:first-child{border-top:1px solid #eee;border-radius:10px 10px 0 0}.rk li:last-child{border-radius:0 0 10px 10px}'
+  + '.rk li::before{content:counter(rk);flex:none;width:24px;height:24px;border-radius:6px;background:#f1f3f5;color:#888;'
+  + 'font-size:12px;font-weight:700;display:flex;align-items:center;justify-content:center}'
+  + '.rk li:nth-child(-n+3)::before{background:#15803d;color:#fff}'
+  + '.rk li a{flex:1;min-width:0;display:block}.rk-nm{display:block;font-size:14px;font-weight:600;color:#1a1a1a;line-height:1.35}'
+  + '.rk-loc{display:block;font-size:11.5px;color:#999;margin-top:1px}'
+  + '.rk-v{flex:none;text-align:right}.rk-v b{display:block;font-size:14.5px;font-weight:700}'
+  + '.rk-v small{display:block;font-size:11px;color:#999;margin-top:1px}'
+  + '.rk-risk{display:inline-block;background:#fdecea;color:#c0392f;font-size:10.5px;font-weight:700;padding:1px 6px;border-radius:20px;margin-left:5px}'
+  + '.rk-empty{background:#fff;border:1px solid #eee;border-radius:10px;padding:22px;text-align:center;color:#999;font-size:13px}'
+  + '.chip.on{background:#15803d;color:#fff;border-color:#15803d}'
+  + '.rk-note{font-size:12px;color:#999;margin:10px 0 0;line-height:1.6}'
+  + '</style>';
+
+async function rankPage(kind, scope) {
+  const sName = scope ? (SIDO2[scope] || '') : '전국';
+  if (scope && !SIDO2[scope]) return null;
+  const areaF = scope ? ['dong=like.' + scope + '*'] : [];
+  const ym = new Date(); const stamp = ym.getFullYear() + '년 ' + (ym.getMonth() + 1) + '월';
+
+  let body = '<div class="bc"><a href="' + BASE + '/">아구구</a> › <a href="/rank">아파트 랭킹</a>'
+    + (scope ? ' › ' + esc(sName) : '') + '</div>';
+
+  if (kind === 'gap') {
+    body += '<h1>' + esc(sName) + ' 매매·전세 갭 작은 아파트</h1>'
+      + '<div class="sub">전세가율 85% 이하인 단지만 담았습니다. 가격대별로 나눠 보세요. · ' + stamp + ' 기준</div>';
+    for (const b of GAP_BANDS) {
+      const rows = await rankQuery(
+        ['units=gte.300', 'deal_cnt=gte.5', 'gap_m=gt.0', 'j_rate=lte.85', 'j_rate=gte.40'].concat(b.f, areaF),
+        'gap_m.asc', 20);
+      body += '<h2>' + b.label + '</h2>' + rankRows(rows, {
+        val: r => '갭 ' + wonMan(r.gap_m),
+        sub: r => '매매 ' + wonMan(r.price_m) + ' · 전세가율 ' + r.j_rate + '%'
+      });
+    }
+    body += '<p class="rk-note">※ 갭이 지나치게 작은 단지는 전세가가 매매가에 근접했다는 뜻이기도 합니다. '
+      + '전세가율 85%를 넘는 단지는 이 목록에서 제외했고, <a href="/rank/jrate' + (scope ? '/' + scope : '') + '">전세가율 높은 아파트</a>에서 따로 확인하실 수 있습니다. '
+      + '실제 계약 전에는 등기부·보증보험 가입 가능 여부를 반드시 확인하세요.</p>';
+  } else {
+    const cfg = RANKS[kind];
+    if (!cfg) return null;
+    if (cfg.needChg && !hasChg()) {
+      body += '<h1>' + esc(cfg.h1(sName)) + '</h1><div class="sub">' + stamp + ' 기준</div>'
+        + '<div class="rk-empty">변동률 데이터를 준비 중입니다.<br>잠시 후 다시 확인해 주세요.</div>';
+    } else {
+      const rows = await rankQuery(cfg.base.concat(areaF), cfg.order, 30);
+      body += '<h1>' + esc(cfg.h1(sName)) + '</h1>'
+        + '<div class="sub">' + esc(cfg.lead) + ' · ' + stamp + ' 기준</div>'
+        + rankRows(rows, cfg)
+        + '<p class="rk-note">※ 300세대 이상 · 최근 18개월 실거래 3건 이상 단지만 집계했습니다. '
+        + (cfg.needChg ? '직전 구간에도 3건 이상 거래가 있는 단지만 포함해, 거래 1~2건으로 변동률이 튀는 경우를 걸렀습니다. ' : '')
+        + '국토교통부 공개 실거래가 기준이며 실제와 차이가 있을 수 있습니다.</p>';
+    }
+  }
+
+  body += rankNav(kind, scope) + RANK_CSS;
+  const kindName = kind === 'gap' ? '갭 작은' : RANKS[kind].name;
+  const title = sName + ' 아파트 ' + kindName + ' 순위 | 아구구';
+  return hubHtml(title,
+    sName + ' 아파트 ' + kindName + ' 순위를 국토교통부 실거래가 기준으로 정리했습니다. ' + stamp + ' 기준.',
+    BASE + '/rank/' + kind + (scope ? '/' + scope : ''), body);
+}
+
+function rankIndexPage() {
+  const kinds = [
+    ['py', '평당가 순위', '평당 가격이 높은 단지'],
+    ['gap', '갭 작은 단지', '가격대별 · 전세가율 85% 이하'],
+    ['jrate', '전세가율 높은 아파트', '전세 계약 전 확인'],
+    ['up', '실거래가 상승', '직전 1년 대비'],
+    ['down', '실거래가 하락', '직전 1년 대비']
+  ];
+  const body = '<div class="bc"><a href="' + BASE + '/">아구구</a> › 아파트 랭킹</div>'
+    + '<h1>아파트 랭킹</h1>'
+    + '<div class="sub">국토교통부 공개 실거래가를 단지별로 집계해 순위로 정리했습니다.</div>'
+    + '<ul class="list">' + kinds.map(([k, n, d]) =>
+      '<li><a href="/rank/' + k + '">' + n + '</a><small>' + d + '</small></li>').join('') + '</ul>'
+    + '<h2>지역별로 보기</h2><div class="chips">'
+    + Object.keys(SIDO2).map(c => '<a class="chip" href="/rank/py/' + c + '">' + SIDO2[c] + '</a>').join('')
+    + '</div>' + RANK_CSS;
+  return hubHtml('아파트 랭킹 — 평당가·갭·전세가율·상승률 | 아구구',
+    '전국 아파트를 평당가·매매전세갭·전세가율·실거래가 변동률로 정리한 순위. 국토교통부 실거래가 기준.',
+    BASE + '/rank', body);
+}
+
 module.exports = async (req, res) => {
   res.setHeader('Content-Type', 'text/html; charset=utf-8');
+  // ===== 랭킹 라우팅 (/rank, /rank/{kind}, /rank/{kind}/{시도2자리}) =====
+  const rank = (req.query && req.query.rank) || '';
+  if (rank) {
+    const html = (rank === 'index' || rank === 'all')
+      ? rankIndexPage()
+      : await rankPage(rank, (req.query && req.query.scope) || '');
+    if (html) {
+      res.setHeader('Cache-Control', 'public, max-age=1800, s-maxage=43200, stale-while-revalidate=604800');
+      res.statusCode = 200; res.end(html); return;
+    }
+    res.statusCode = 404;
+    res.end('<!DOCTYPE html><html lang="ko"><head><meta charset="UTF-8"><title>순위를 찾을 수 없습니다 | 아구구</title></head><body style="font-family:sans-serif;text-align:center;padding:60px"><h1>순위를 찾을 수 없습니다</h1><p><a href="/rank">아파트 랭킹</a> · <a href="https://a99.co.kr">아구구 홈</a></p></body></html>');
+    return;
+  }
   const region = (req.query && req.query.region) || '';
   if (region) {
     const html = (region === 'all' || region === 'index') ? regionTopPage() : regionSggPage(region);

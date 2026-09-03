@@ -18,3 +18,5 @@ Thumbs.db
 # 1회용 패치 스크립트 / 자동 백업 (2026-09-02)
 _patch_index.py
 index.html.bak-*
+_rank_block.js
+api/aptpage.js.bak-*
