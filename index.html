@@ -253,16 +253,14 @@ body:has(#apt-detail-panel.open) .map-top-bar{left:468px}
 .rs-bc-cur{color:var(--text);font-weight:700}
 .rs-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:1px;background:#eef0f2;flex:1;overflow-y:auto;align-content:start}
 .rs-rank{flex-shrink:0;border-top:1px solid var(--border);background:var(--white);padding:10px 12px 12px}
-.rs-rank-hd{font-size:12px;font-weight:700;color:var(--text);margin-bottom:8px;display:flex;align-items:center;gap:5px}
-.rs-rank-hd em{font-style:normal;font-size:10.5px;font-weight:500;color:var(--text3);margin-left:auto}
-.rs-rank-chips{display:grid;grid-template-columns:repeat(3,1fr);gap:4px}
-.rs-rank-chips a{display:flex;flex-direction:column;align-items:center;gap:5px;padding:9px 2px;border-radius:9px;text-decoration:none;transition:background .12s}
-.rs-rank-chips a:hover{background:#f1f5f3}
-.rs-rank-ic{width:38px;height:38px;border-radius:12px;background:#eef4f1;display:flex;align-items:center;justify-content:center;transition:background .12s}
-.rs-rank-chips a:hover .rs-rank-ic{background:#1D9E75}
-.rs-rank-ic svg{width:19px;height:19px;stroke:#1D9E75;fill:none;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round;transition:stroke .12s}
-.rs-rank-chips a:hover .rs-rank-ic svg{stroke:#fff}
-.rs-rank-tx{font-size:11px;font-weight:600;color:#555;text-align:center;line-height:1.25;word-break:keep-all}
+.rs-rank-btn{display:flex;align-items:center;gap:11px;width:100%;padding:11px 13px;border-radius:11px;background:linear-gradient(135deg,#1D9E75,#178663);text-decoration:none;box-shadow:0 2px 8px rgba(29,158,117,.28);transition:transform .12s,box-shadow .12s}
+.rs-rank-btn:hover{transform:translateY(-1px);box-shadow:0 4px 14px rgba(29,158,117,.38)}
+.rs-rank-ic{width:34px;height:34px;border-radius:10px;background:rgba(255,255,255,.22);display:flex;align-items:center;justify-content:center;flex:none}
+.rs-rank-ic svg{width:18px;height:18px;stroke:#fff;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.rs-rank-tt{flex:1;min-width:0}
+.rs-rank-tt b{display:block;font-size:13.5px;font-weight:700;color:#fff;line-height:1.3}
+.rs-rank-tt small{display:block;font-size:11px;color:rgba(255,255,255,.82);margin-top:1px}
+.rs-rank-ar{color:rgba(255,255,255,.9);font-size:16px;flex:none;font-weight:700}
 .rs-grid-item{background:var(--white);padding:15px 8px;min-height:54px;display:flex;align-items:center;justify-content:center;text-align:center;font-size:13px;line-height:1.35;word-break:keep-all;color:#333;cursor:pointer;transition:background .12s,color .12s;font-weight:500}
 .rs-grid-item:hover{background:var(--green-bg);color:var(--green-dark)}
 .rs-grid-item .cnt{font-size:10px;color:var(--text3);margin-top:2px}
@@ -593,7 +591,6 @@ body:has(#apt-detail-panel.open) .map-top-bar{left:468px}
       </div>
       <div class="rs-grid" id="rs-grid"></div>
       <div class="rs-rank" id="rs-rank">
-        <div class="rs-rank-hd">📊 <b id="rs-rank-area">전국</b> 아파트 랭킹<em>실거래가 기준</em></div>
         <div class="rs-rank-chips" id="rs-rank-chips"></div>
       </div>
     </div>
@@ -2465,25 +2462,18 @@ const SIDO_LIST = [
 // 랭킹 페이지가 있는 시도(= apt_metrics.dong 앞 2자리). 없는 코드면 전국 링크로 폴백.
 var RANK_SIDO={'11':1,'26':1,'27':1,'28':1,'29':1,'30':1,'31':1,'36':1,'41':1,'43':1,'44':1,'46':1,'47':1,'48':1,'50':1,'51':1,'52':1};
 function syncRsRank(){
-  var box=ge('rs-rank-chips'), lab=ge('rs-rank-area'); if(!box) return;
+  var box=ge('rs-rank-chips'); if(!box) return;
   var sd=(typeof rsSelected!=='undefined'&&rsSelected&&rsSelected.sido)?rsSelected.sido:null;
   var code=(sd&&RANK_SIDO[sd.code])?sd.code:'';
-  if(lab) lab.textContent = code ? sd.name : '전국';
-  var IC={
-    py   :'<path d="M3 20h18"/><path d="M6 20V9"/><path d="M12 20V4"/><path d="M18 20v-7"/>',
-    gap  :'<path d="M7 4v16"/><path d="M17 4v16"/><path d="M10 12h4"/><path d="M10 12l1.6-1.6"/><path d="M14 12l-1.6 1.6"/>',
-    jrate:'<path d="M12 3l7 3v5c0 4.4-2.9 8.3-7 10-4.1-1.7-7-5.6-7-10V6z"/><path d="M9.5 14.5l5-5"/><circle cx="9.8" cy="9.8" r="1"/><circle cx="14.2" cy="14.2" r="1"/>',
-    up   :'<path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/>',
-    down :'<path d="M3 7l6 6 4-4 8 8"/><path d="M15 17h6v-6"/>',
-    all  :'<rect x="3" y="3" width="7" height="7" rx="1.6"/><rect x="14" y="3" width="7" height="7" rx="1.6"/><rect x="3" y="14" width="7" height="7" rx="1.6"/><rect x="14" y="14" width="7" height="7" rx="1.6"/>'
-  };
-  box.innerHTML=[['py','평당가'],['gap','갭 작은단지'],['jrate','전세가율'],['up','최고상승'],['down','최근하락'],['','전체보기']]
-    .map(function(k){
-      var href = k[0] ? ('/rank/'+k[0]+(code?'/'+code:'')) : '/rank';
-      var ico  = IC[k[0]||'all'];
-      return '<a href="'+href+'"><span class="rs-rank-ic"><svg viewBox="0 0 24 24">'+ico+'</svg></span>'
-           + '<span class="rs-rank-tx">'+k[1]+'</span></a>';
-    }).join('');
+  // 사이드바는 버튼 하나만. 6종 아이콘은 넘어간 /rank 페이지에 있음.
+  var href = code ? ('/rank/all/'+code) : '/rank';
+  box.innerHTML =
+    '<a class="rs-rank-btn" href="'+href+'">'
+    + '<span class="rs-rank-ic"><svg viewBox="0 0 24 24">'
+    + '<path d="M3 20h18"/><path d="M6 20V9"/><path d="M12 20V4"/><path d="M18 20v-7"/></svg></span>'
+    + '<span class="rs-rank-tt"><b>'+(code?sd.name:'전국')+' 아파트 랭킹</b>'
+    + '<small>평당가 · 갭 · 전세가율 · 상승 · 하락</small></span>'
+    + '<span class="rs-rank-ar">\u203A</span></a>';
 }
 let rsLevel = 'sido'; // sido | sigungu | emd
 let rsSelected = {sido: null, sigungu: null};
