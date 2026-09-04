@@ -1450,7 +1450,8 @@ function renderSchoolPins(){
     wrap.appendChild(nameTag);
     wrap.onclick=function(ev){
       if(ev&&ev.stopPropagation)ev.stopPropagation();
-      if(map)map.panTo(new kakao.maps.LatLng(s.lat,s.lng));
+      // panTo 금지: 지도가 움직이면 idle → renderSchoolPins → 카드가 바로 닫혀버림.
+      // 이미 보이는 핀을 누른 것이므로 굳이 이동시킬 필요도 없음.
       showSchoolCard(s);
     };
     const o=new kakao.maps.CustomOverlay({position:new kakao.maps.LatLng(s.lat,s.lng),content:wrap,yAnchor:1,zIndex:1});

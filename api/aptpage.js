@@ -591,7 +591,7 @@ const RANK_CSS = '<style>'
   + '.hub a.on .hub-ic svg{stroke:#fff}'
   + '.hub a.on .hub-t{color:#15803d;font-weight:800}'
   + '.agebar{display:flex;align-items:center;flex-wrap:wrap;gap:5px;margin:0 0 12px}'
-  + '.agebar-l{font-size:12px;color:#888;margin-right:3px;font-weight:600}'
+  + '.agebar-l{font-size:12px;color:#888;margin-right:3px;font-weight:600;white-space:nowrap;flex:none}'
   + '.chip.sm{padding:5px 11px;font-size:12px}'
   + '</style>';
 
