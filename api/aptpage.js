@@ -404,8 +404,6 @@ const SIDO2 = { '11':'서울','26':'부산','27':'대구','28':'인천','29':'�
 // ⚠️ chg_pct 등은 build_metrics.sql 재실행 전엔 없는 컬럼 → 400. 1회 폴백 후 기본 컬럼만 사용.
 const RANK_SEL_FULL = 'kapt_code,name,dong,units,movein,rep_area_m2,price_m,py_m,jeonse_m,j_rate,gap_m,deal_cnt,chg_pct,deal_cnt_prev,price_prev_m,chg_base_ym';
 const RANK_SEL_BASE = 'kapt_code,name,dong,units,movein,rep_area_m2,price_m,py_m,jeonse_m,j_rate,gap_m,deal_cnt';
-let RANK_SEL = RANK_SEL_FULL;
-
 async function rankQuery(filters, order, limit) {
   const run = async (sel) => {
     const q = ['select=' + sel, 'order=' + order, 'limit=' + limit].concat(filters).join('&');
@@ -416,14 +414,16 @@ async function rankQuery(filters, order, limit) {
     return r;
   };
   try {
-    let r = await run(RANK_SEL);
-    if (!r.ok && RANK_SEL === RANK_SEL_FULL) { RANK_SEL = RANK_SEL_BASE; r = await run(RANK_SEL); }
-    if (!r.ok) return [];
+    let full = true;
+    let r = await run(RANK_SEL_FULL);
+    // 신규 컬럼(chg_pct 등)이 아직 없으면 이번 요청만 기본 컬럼으로. 상태를 남기지 않아야
+    // SQL 실행 후 곧바로 정상 동작함(예전엔 전역에 남아 계속 '준비 중'이었음).
+    if (!r.ok) { full = false; r = await run(RANK_SEL_BASE); }
+    if (!r.ok) return { rows: [], full: false };
     const rows = await r.json();
-    return Array.isArray(rows) ? rows : [];
-  } catch (e) { return []; }
+    return { rows: Array.isArray(rows) ? rows : [], full };
+  } catch (e) { return { rows: [], full: false }; }
 }
-const hasChg = () => RANK_SEL === RANK_SEL_FULL;
 
 // 랭킹 정의. scope = 시도 2자리(''이면 전국)
 const RANKS = {
@@ -523,7 +523,7 @@ async function rankPage(kind, scope) {
     body += '<h1>' + esc(sName) + ' 매매·전세 갭 작은 아파트</h1>'
       + '<div class="sub">전세가율 85% 이하인 단지만 담았습니다. 가격대별로 나눠 보세요. · ' + stamp + ' 기준</div>';
     for (const b of GAP_BANDS) {
-      const rows = await rankQuery(
+      const { rows } = await rankQuery(
         ['units=gte.300', 'deal_cnt=gte.5', 'gap_m=gt.0', 'j_rate=lte.85', 'j_rate=gte.40'].concat(b.f, areaF),
         'gap_m.asc', 20);
       body += '<h2>' + b.label + '</h2>' + rankRows(rows, {
@@ -537,11 +537,11 @@ async function rankPage(kind, scope) {
   } else {
     const cfg = RANKS[kind];
     if (!cfg) return null;
-    if (cfg.needChg && !hasChg()) {
+    const { rows, full } = await rankQuery(cfg.base.concat(areaF), cfg.order, 30);
+    if (cfg.needChg && !full) {
       body += '<h1>' + esc(cfg.h1(sName)) + '</h1><div class="sub">' + stamp + ' 기준</div>'
         + '<div class="rk-empty">변동률 데이터를 준비 중입니다.<br>잠시 후 다시 확인해 주세요.</div>';
     } else {
-      const rows = await rankQuery(cfg.base.concat(areaF), cfg.order, 30);
       body += '<h1>' + esc(cfg.h1(sName)) + '</h1>'
         + '<div class="sub">' + esc(cfg.lead) + ' · ' + stamp + ' 기준</div>'
         + rankRows(rows, cfg)
