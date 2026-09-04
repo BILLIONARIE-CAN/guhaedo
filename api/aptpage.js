@@ -468,14 +468,30 @@ const GAP_BANDS = [
   { key: 'c', label: '매매 6억 이상', f: ['price_m=gte.60000'] }
 ];
 
+// 순위 배지 — 1~3위 금·은·동, 4~5위 초록, 6~10위 연한 왕관, 11위부터 숫자만
+// 집계 기준일 — 언제 기준인지 한눈에
+function asOf(withPrev) {
+  const d = new Date();
+  const ds = d.getFullYear() + '년 ' + (d.getMonth() + 1) + '월 ' + d.getDate() + '일';
+  return '<div class="asof">📅 ' + ds + ' 집계 · 최근 18개월 실거래 기준'
+    + (withPrev ? ' · 직전 1년 구간과 비교' : '') + '</div>';
+}
+const CROWN = '<svg viewBox="0 0 24 24"><path d="M3 8.5l4.2 3.1L12 4.6l4.8 7 4.2-3.1-1.7 9.9H4.7z"/></svg>';
+function rankBadge(i) {
+  const n = i + 1;
+  const cls = n === 1 ? 'rk-b1' : n === 2 ? 'rk-b2' : n === 3 ? 'rk-b3'
+            : n <= 5 ? 'rk-b45' : n <= 10 ? 'rk-b10' : 'rk-bn';
+  return '<span class="rk-b ' + cls + '">' + (n <= 10 ? CROWN : '') + '<b>' + n + '</b></span>';
+}
 function rankRows(rows, cfg) {
   if (!rows.length) return '<div class="rk-empty">조건에 맞는 단지가 아직 없습니다.</div>';
-  return '<ol class="rk">' + rows.map(r => {
+  return '<ol class="rk">' + rows.map((r, i) => {
     const sgg = SGG_INFO.get(String(r.dong || '').slice(0, 5));
     const loc = sgg ? (sgg.sido.slice(0, 2) + ' ' + sgg.sigungu) : '';
     const py = r.rep_area_m2 ? Math.round(r.rep_area_m2 / 0.75 / 3.3058 * 10) / 10 + '평형' : '';
     const risk = (cfg.warn && r.j_rate >= 95) ? '<span class="rk-risk">보증금 주의</span>' : '';
-    return '<li><a href="/apt/' + r.kapt_code + '"><span class="rk-nm">' + esc(r.name || '') + risk + '</span>'
+    return '<li class="' + (i < 3 ? 'top3' : '') + '">' + rankBadge(i)
+      + '<a href="/apt/' + r.kapt_code + '"><span class="rk-nm">' + esc(r.name || '') + risk + '</span>'
       + '<span class="rk-loc">' + esc(loc) + (r.units ? ' · ' + Number(r.units).toLocaleString() + '세대' : '')
       + (r.movein ? ' · ' + r.movein + '년' : '') + (py ? ' · ' + py : '') + '</span></a>'
       + '<span class="rk-v"><b>' + cfg.val(r) + '</b><small>' + cfg.sub(r) + '</small></span></li>';
@@ -493,6 +509,32 @@ function ageNav(kind, scope, age) {
         + '?age=' + v + '">' + n + '</a>').join('')
     + '</div>';
 }
+// 준공년차 버튼 — 페이지를 새로 넘어가지 않고 목록만 갈아끼움.
+// 서버가 만든 HTML을 그대로 받아 바꿔 넣으므로 렌더 로직 중복이 없고,
+// 자바스크립트가 꺼져 있어도 링크로 동작함(검색엔진도 그대로 읽음).
+const RANK_JS = '<script>(function(){'
+  + 'document.addEventListener("click", function(e){'
+  + '  var a = e.target && e.target.closest ? e.target.closest(".agebar a") : null;'
+  + '  if(!a || a.classList.contains("on")) return;'
+  + '  e.preventDefault();'
+  + '  var box = document.querySelector(".rk, .rk-empty");'
+  + '  if(box) box.classList.add("rk-load");'
+  + '  var chips = document.querySelectorAll(".agebar a");'
+  + '  for(var i=0;i<chips.length;i++) chips[i].classList.remove("on");'
+  + '  a.classList.add("on");'
+  + '  fetch(a.href).then(function(r){ return r.text(); }).then(function(t){'
+  + '    var d = new DOMParser().parseFromString(t, "text/html");'
+  + '    var nl = d.querySelector(".rk, .rk-empty");'
+  + '    var cur = document.querySelector(".rk, .rk-empty");'
+  + '    if(nl && cur) cur.replaceWith(nl);'
+  + '    var nn = d.querySelector(".rk-note"), on = document.querySelector(".rk-note");'
+  + '    if(nn && on) on.replaceWith(nn);'
+  + '    var na = d.querySelector(".asof"), oa = document.querySelector(".asof");'
+  + '    if(na && oa) oa.replaceWith(na);'
+  + '    history.replaceState({}, "", a.href);'
+  + '  }).catch(function(){ location.href = a.href; });'
+  + '});'
+  + '})();<\/script>';
 function rankNav(kind, scope) {
   const kinds = [['py', '평당가'], ['gap', '갭 작은 단지'], ['jrate', '전세가율'], ['up', '상승'], ['down', '하락']];
   const tabs = kinds.map(([k, n]) =>
@@ -508,9 +550,20 @@ const RANK_CSS = '<style>'
   + '.rk{list-style:none;padding:0;margin:0 0 6px;counter-reset:rk}'
   + '.rk li{counter-increment:rk;display:flex;align-items:center;gap:10px;background:#fff;border:1px solid #eee;border-top:none;padding:11px 13px}'
   + '.rk li:first-child{border-top:1px solid #eee;border-radius:10px 10px 0 0}.rk li:last-child{border-radius:0 0 10px 10px}'
-  + '.rk li::before{content:counter(rk);flex:none;width:24px;height:24px;border-radius:6px;background:#f1f3f5;color:#888;'
-  + 'font-size:12px;font-weight:700;display:flex;align-items:center;justify-content:center}'
-  + '.rk li:nth-child(-n+3)::before{background:#15803d;color:#fff}'
+  + '.rk li.top3{background:linear-gradient(90deg,#fbfdfc,#fff)}'
+  + '.rk-b{flex:none;width:30px;height:34px;border-radius:9px;display:flex;flex-direction:column;'
+  + 'align-items:center;justify-content:center;background:#f1f3f5;color:#8a929c;font-size:12.5px;font-weight:800}'
+  + '.rk-b svg{width:12px;height:12px;margin-bottom:-1px;fill:currentColor}'
+  + '.rk-b b{font-weight:800;line-height:1}'
+  + '.rk-b1{background:linear-gradient(150deg,#f7cd55,#dd9812);color:#fff;box-shadow:0 2px 7px rgba(221,152,18,.38)}'
+  + '.rk-b2{background:linear-gradient(150deg,#d3dae1,#a3aeb9);color:#fff;box-shadow:0 2px 6px rgba(163,174,185,.34)}'
+  + '.rk-b3{background:linear-gradient(150deg,#e0aa80,#b87f4f);color:#fff;box-shadow:0 2px 6px rgba(184,127,79,.32)}'
+  + '.rk-b45{background:#15803d;color:#fff}'
+  + '.rk-b10{background:#eef4f1;color:#15803d;border:1px solid #d3e5db}'
+  + '.rk-bn{font-size:12px}'
+  + '.asof{display:inline-flex;align-items:center;gap:6px;background:#f1f5f3;border:1px solid #e2eae6;'
+  + 'border-radius:20px;padding:5px 12px;font-size:12px;color:#4b6357;font-weight:600;margin:0 0 13px}'
+  + '.rk-load{opacity:.45;transition:opacity .15s}'
   + '.rk li a{flex:1;min-width:0;display:block}.rk-nm{display:block;font-size:14px;font-weight:600;color:#1a1a1a;line-height:1.35}'
   + '.rk-loc{display:block;font-size:11.5px;color:#999;margin-top:1px}'
   + '.rk-v{flex:none;text-align:right}.rk-v b{display:block;font-size:14.5px;font-weight:700}'
@@ -535,7 +588,8 @@ async function rankPage(kind, scope, age) {
 
   if (kind === 'gap') {
     body += '<h1>' + esc(sName) + ' 매매·전세 갭 작은 아파트</h1>'
-      + '<div class="sub">전세가율 85% 이하인 단지만 담았습니다. 가격대별로 나눠 보세요. · ' + stamp + ' 기준</div>';
+      + '<div class="sub">전세가율 85% 이하인 단지만 담았습니다. 가격대별로 나눠 보세요.</div>'
+      + asOf(false);
     for (const b of GAP_BANDS) {
       const { rows } = await rankQuery(
         ['units=gte.300', 'deal_cnt=gte.5', 'gap_m=gt.0', 'j_rate=lte.85', 'j_rate=gte.40'].concat(b.f, areaF),
@@ -563,7 +617,8 @@ async function rankPage(kind, scope, age) {
         + '<div class="rk-empty">변동률 데이터를 준비 중입니다.<br>잠시 후 다시 확인해 주세요.</div>';
     } else {
       body += '<h1>' + esc(cfg.h1(sName)) + '</h1>'
-        + '<div class="sub">' + esc(cfg.lead) + ' · ' + stamp + ' 기준</div>'
+        + '<div class="sub">' + esc(cfg.lead) + '</div>'
+        + asOf(cfg.needChg)
         + (useAge ? ageNav(kind, scope, ageSel) : '')
         + rankRows(rows, cfg)
         + '<p class="rk-note">※ 300세대 이상 · 최근 18개월 실거래 3건 이상 단지만 집계했습니다. '
@@ -575,7 +630,7 @@ async function rankPage(kind, scope, age) {
     }
   }
 
-  body += rankNav(kind, scope) + RANK_CSS;
+  body += rankNav(kind, scope) + RANK_CSS + RANK_JS;
   const kindName = kind === 'gap' ? '갭 작은' : RANKS[kind].name;
   const title = sName + ' 아파트 ' + kindName + ' 순위 | 아구구';
   return hubHtml(title,
