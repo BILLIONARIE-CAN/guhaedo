@@ -122,7 +122,23 @@ body:has(#apt-detail-panel.open) .map-top-bar{left:468px}
 .mflbl button{border:none;background:none;color:#6b7280;font-size:12px;font-family:inherit;padding:5px 12px;border-radius:7px;cursor:pointer;font-weight:600}
 .mflbl button.on{background:#1D9E75;color:#fff}
 /* 명칭/세대수 플로팅 박스 (아실 스타일 — 지도 왼쪽 세로) */
-.pin-label-box{position:absolute;top:52px;left:0;z-index:95;display:inline-flex;flex-direction:column;background:#fff;border-radius:9px;box-shadow:0 2px 10px rgba(0,0,0,.15);overflow:visible;border:1px solid #e5e7eb}
+.map-left-tools{position:absolute;top:52px;left:0;z-index:95;display:flex;flex-direction:column;align-items:flex-start;gap:8px}
+.pin-label-box{position:relative;display:inline-flex;flex-direction:column;background:#fff;border-radius:9px;box-shadow:0 2px 10px rgba(0,0,0,.15);overflow:visible;border:1px solid #e5e7eb}
+.school-box{position:relative;display:inline-flex;flex-direction:column;background:#fff;border-radius:9px;box-shadow:0 2px 10px rgba(0,0,0,.15);border:1px solid #e5e7eb}
+.school-btn{border:none;background:#fff;color:#6b7280;font-family:inherit;font-size:12px;font-weight:700;padding:8px 14px;cursor:pointer;white-space:nowrap;border-radius:8px;transition:background .12s}
+.school-btn.on{background:#1D9E75;color:#fff}
+.school-menu{position:absolute;top:100%;left:0;margin-top:6px;background:#fff;border:1px solid #e5e7eb;border-radius:9px;box-shadow:0 4px 16px rgba(0,0,0,.18);padding:7px 10px 8px;z-index:96;min-width:120px}
+.school-menu label{display:flex;align-items:center;gap:7px;font-size:12px;color:#333;cursor:pointer;padding:4px 0;white-space:nowrap}
+.school-menu .sdot{width:9px;height:9px;border-radius:50%;flex:none}
+.school-card{width:236px;background:#fff;border-radius:11px;box-shadow:0 6px 24px rgba(0,0,0,.28);overflow:hidden;cursor:default;text-align:left}
+.sc-top{position:relative;padding:11px 34px 11px 13px;color:#fff}
+.sc-k{font-size:10.5px;font-weight:700;opacity:.92}
+.sc-n{font-size:14.5px;font-weight:800;margin-top:1px;line-height:1.3;word-break:keep-all}
+.sc-x{position:absolute;top:8px;right:8px;width:20px;height:20px;border:none;border-radius:50%;background:rgba(255,255,255,.25);color:#fff;font-size:11px;cursor:pointer;line-height:1;padding:0}
+.sc-b{padding:10px 13px;font-size:12px;color:#555;line-height:1.5;word-break:keep-all}
+.sc-f{display:flex;border-top:1px solid #eee}
+.sc-f a{flex:1;text-align:center;padding:9px;font-size:12px;font-weight:700;color:#15803d;text-decoration:none;cursor:pointer}
+.sc-f a+a{border-left:1px solid #eee;color:#888}
 .pin-mode-menu{position:absolute;top:100%;left:0;margin-top:6px;background:#fff;border:1px solid #e5e7eb;border-radius:10px;box-shadow:0 4px 18px rgba(0,0,0,.18);padding:6px;display:grid;grid-template-columns:repeat(3,minmax(74px,1fr));gap:4px;z-index:96}
 .pin-mode-menu button{border:none;background:#f5f7f9;color:#374151;font-family:inherit;font-size:11.5px;font-weight:700;padding:8px 6px;border-radius:6px;cursor:pointer;white-space:nowrap}
 .pin-mode-menu button:hover{background:#e6f4ef;color:#1D9E75}
@@ -533,7 +549,17 @@ body:has(#apt-detail-panel.open) .map-top-bar{left:468px}
         <button class="mfc soon" onclick="mfSoon()">건폐율</button>
         <button class="mf-rst" onclick="resetMapFilters()" title="필터 초기화">↺ 초기화</button>
       </div></div>
-      <div class="pin-label-box"><button id="pin-mode-btn" onclick="togglePinModeMenu(event)">명칭 ▾</button><div id="pin-mode-menu" class="pin-mode-menu" style="display:none"></div></div>
+      <div class="map-left-tools">
+        <div class="pin-label-box"><button id="pin-mode-btn" onclick="togglePinModeMenu(event)">명칭 ▾</button><div id="pin-mode-menu" class="pin-mode-menu" style="display:none"></div></div>
+        <div class="school-box">
+          <button class="school-btn" id="school-btn" onclick="toggleSchools(event)">학교</button>
+          <div class="school-menu" id="school-menu" style="display:none">
+            <label><input type="checkbox" id="sch-el" checked onchange="setSchoolType('elementary',this.checked)"><span class="sdot" style="background:#16a34a"></span>초등학교</label>
+            <label><input type="checkbox" id="sch-mi" checked onchange="setSchoolType('middle',this.checked)"><span class="sdot" style="background:#ea580c"></span>중학교</label>
+            <label><input type="checkbox" id="sch-hi" checked onchange="setSchoolType('high',this.checked)"><span class="sdot" style="background:#dc2626"></span>고등학교</label>
+          </div>
+        </div>
+      </div>
       <div id="mf-panel" class="mfpanel" style="display:none"></div><!-- filterbar v2 + reels : redeploy 2026-07-24 -->
       <div class="map-breadcrumb" id="map-breadcrumb" style="display:none">
         <span class="bc-item" onclick="bcClick(0)">전국</span>
@@ -554,9 +580,6 @@ body:has(#apt-detail-panel.open) .map-top-bar{left:468px}
     <div class="map-tabbar">
       <button class="island-btn" id="menu-btn" onclick="toggleRegionSidebar()" title="메뉴">
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
-      </button>
-      <button class="island-btn" id="school-toggle" onclick="toggleSchools()" title="학군" style="margin-top:8px;font-size:11px;font-weight:700">
-        🏫
       </button>
       <button class="island-btn" id="biz-toggle" onclick="toggleBizPanel()" title="업체" style="margin-top:4px;font-size:11px;font-weight:700">
         🏢
@@ -1330,6 +1353,8 @@ const SCHOOL_LABEL={elementary:'초',middle:'중',high:'고'};
 let schoolData=[];
 let schoolMarkers=[];
 let schoolVisible=false;
+// 학교 종류별 표시 — '학교' 버튼을 누르면 아래 체크박스가 열림
+let schoolTypes={elementary:true,middle:true,high:true};
 
 async function loadSchools(){
   try{
@@ -1339,19 +1364,57 @@ async function loadSchools(){
   }catch(e){console.log('학교 로드 실패:',e);}
 }
 
-function toggleSchools(){
+window.toggleSchools=function(ev){
+  if(ev&&ev.stopPropagation)ev.stopPropagation();
   schoolVisible=!schoolVisible;
-  const btn=document.getElementById('school-toggle');
-  if(btn)btn.classList.toggle('active',schoolVisible);
+  const btn=ge('school-btn'), menu=ge('school-menu');
+  if(btn)btn.classList.toggle('on',schoolVisible);
+  if(menu)menu.style.display=schoolVisible?'block':'none';   // 켜면 초·중·고 설정이 같이 열림
   if(schoolVisible){
     renderSchoolPins();
   }else{
     schoolMarkers.forEach(m=>m.setMap(null));
     schoolMarkers=[];
   }
+};
+window.setSchoolType=function(t,on){
+  schoolTypes[t]=!!on;
+  if(schoolVisible) renderSchoolPins();
+};
+// 바깥을 누르면 설정만 닫음(핀은 유지)
+document.addEventListener('click',function(e){
+  var m=ge('school-menu');
+  if(m&&m.style.display==='block'&&!e.target.closest('.school-box')) m.style.display='none';
+});
+
+// 학교 정보 카드 — 예전엔 alert()이라 확인을 누를 때까지 지도가 멈췄음
+let schoolCard=null;
+const SCHOOL_TYPE_NM={elementary:'초등학교',middle:'중학교',high:'고등학교'};
+window.closeSchoolCard=function(){ if(schoolCard){ schoolCard.setMap(null); schoolCard=null; } };
+function showSchoolCard(s){
+  closeSchoolCard();
+  const clr=SCHOOL_COLOR[s.type]||'#666';
+  const el=document.createElement('div');
+  el.className='school-card';
+  el.onclick=function(e){ e.stopPropagation(); };
+  el.innerHTML='<div class="sc-top" style="background:'+clr+'">'
+    +'<button class="sc-x" type="button">&#10005;</button>'
+    +'<div class="sc-k"></div><div class="sc-n"></div></div>'
+    +'<div class="sc-b"></div>'
+    +'<div class="sc-f"><a class="sc-go" target="_blank" rel="noopener">길찾기</a>'
+    +'<a class="sc-cl">닫기</a></div>';
+  el.querySelector('.sc-k').textContent=SCHOOL_TYPE_NM[s.type]||'학교';
+  el.querySelector('.sc-n').textContent=s.name||'';
+  el.querySelector('.sc-b').textContent=s.addr||'';
+  el.querySelector('.sc-go').href='https://map.kakao.com/link/to/'+encodeURIComponent(s.name||'학교')+','+s.lat+','+s.lng;
+  el.querySelector('.sc-x').onclick=closeSchoolCard;
+  el.querySelector('.sc-cl').onclick=closeSchoolCard;
+  schoolCard=new kakao.maps.CustomOverlay({position:new kakao.maps.LatLng(s.lat,s.lng),content:el,yAnchor:1.28,zIndex:2000});
+  schoolCard.setMap(map);
 }
 
 function renderSchoolPins(){
+  closeSchoolCard();
   schoolMarkers.forEach(m=>m.setMap(null));
   schoolMarkers=[];
   if(!map||!schoolVisible)return;
@@ -1360,6 +1423,7 @@ function renderSchoolPins(){
   const bounds=map.getBounds();
   const sw=bounds.getSouthWest(),ne=bounds.getNorthEast();
   const visible=schoolData.filter(s=>
+    schoolTypes[s.type]!==false&&
     s.lat>=sw.getLat()&&s.lat<=ne.getLat()&&
     s.lng>=sw.getLng()&&s.lng<=ne.getLng()
   );
@@ -1384,9 +1448,10 @@ function renderSchoolPins(){
     nameTag.style.cssText='background:'+clr+';color:#fff;font-size:11px;font-weight:700;padding:2px 6px;border-radius:4px;white-space:nowrap;box-shadow:0 1px 4px rgba(0,0,0,.3);max-width:110px;overflow:hidden;text-overflow:ellipsis;margin-top:2px';
     nameTag.textContent=s.name.replace(/(초등학교|중학교|고등학교|유치원)$/,'').trim();
     wrap.appendChild(nameTag);
-    wrap.onclick=function(){
+    wrap.onclick=function(ev){
+      if(ev&&ev.stopPropagation)ev.stopPropagation();
       if(map)map.panTo(new kakao.maps.LatLng(s.lat,s.lng));
-      alert(s.name+'\n'+s.addr);
+      showSchoolCard(s);
     };
     const o=new kakao.maps.CustomOverlay({position:new kakao.maps.LatLng(s.lat,s.lng),content:wrap,yAnchor:1,zIndex:1});
     o.setMap(map);
@@ -1653,6 +1718,9 @@ function initMap(){
     if(type==='dist') return toggleDistrict();
     if(type==='road') return toggleRoadview();
   };
+  // 지도 빈 곳 클릭 시 학교 카드 닫기
+  kakao.maps.event.addListener(map,'click',function(){ if(typeof closeSchoolCard==='function') closeSchoolCard(); });
+
   // 줌 변경 시 마커 업데이트
   kakao.maps.event.addListener(map,'zoom_changed',()=>{
     updateMarkersForZoom();
