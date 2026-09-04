@@ -482,6 +482,17 @@ function rankRows(rows, cfg) {
   }).join('') + '</ol>';
 }
 
+// 준공 몇 년 지난 단지만 볼지 — 방문자가 직접 고름.
+// 신축은 입주 직후 급매가 기준가가 되어 변동률이 부풀려지므로 기본값 3년.
+const AGE_OPTS = [['all', '전체'], ['2', '2년 이상'], ['3', '3년 이상'], ['5', '5년 이상'], ['10', '10년 이상']];
+function ageNav(kind, scope, age) {
+  const suf = scope ? '/' + scope : '';
+  return '<div class="agebar"><span class="agebar-l">준공</span>'
+    + AGE_OPTS.map(([v, n]) =>
+        '<a class="chip sm' + (v === age ? ' on' : '') + '" href="/rank/' + kind + suf
+        + '?age=' + v + '">' + n + '</a>').join('')
+    + '</div>';
+}
 function rankNav(kind, scope) {
   const kinds = [['py', '평당가'], ['gap', '갭 작은 단지'], ['jrate', '전세가율'], ['up', '상승'], ['down', '하락']];
   const tabs = kinds.map(([k, n]) =>
@@ -508,9 +519,12 @@ const RANK_CSS = '<style>'
   + '.rk-empty{background:#fff;border:1px solid #eee;border-radius:10px;padding:22px;text-align:center;color:#999;font-size:13px}'
   + '.chip.on{background:#15803d;color:#fff;border-color:#15803d}'
   + '.rk-note{font-size:12px;color:#999;margin:10px 0 0;line-height:1.6}'
+  + '.agebar{display:flex;align-items:center;flex-wrap:wrap;gap:5px;margin:0 0 12px}'
+  + '.agebar-l{font-size:12px;color:#888;margin-right:3px;font-weight:600}'
+  + '.chip.sm{padding:5px 11px;font-size:12px}'
   + '</style>';
 
-async function rankPage(kind, scope) {
+async function rankPage(kind, scope, age) {
   const sName = scope ? (SIDO2[scope] || '') : '전국';
   if (scope && !SIDO2[scope]) return null;
   const areaF = scope ? ['dong=like.' + scope + '*'] : [];
@@ -537,16 +551,26 @@ async function rankPage(kind, scope) {
   } else {
     const cfg = RANKS[kind];
     if (!cfg) return null;
-    const { rows, full } = await rankQuery(cfg.base.concat(areaF), cfg.order, 30);
+    // 변동률(상승·하락)만 준공년차 필터 적용. 평당가·전세가율엔 불필요.
+    const useAge = !!cfg.needChg;
+    // 주소에 age가 없으면 기본 3년. 'all'을 골라야 제한 없음.
+    const ageSel = useAge ? (AGE_OPTS.some(o => o[0] === age) ? age : '3') : '';
+    const ageF = (ageSel && ageSel !== 'all')
+      ? ['movein=lte.' + (new Date().getFullYear() - parseInt(ageSel, 10)), 'movein=not.is.null'] : [];
+    const { rows, full } = await rankQuery(cfg.base.concat(areaF, ageF), cfg.order, 30);
     if (cfg.needChg && !full) {
       body += '<h1>' + esc(cfg.h1(sName)) + '</h1><div class="sub">' + stamp + ' 기준</div>'
         + '<div class="rk-empty">변동률 데이터를 준비 중입니다.<br>잠시 후 다시 확인해 주세요.</div>';
     } else {
       body += '<h1>' + esc(cfg.h1(sName)) + '</h1>'
         + '<div class="sub">' + esc(cfg.lead) + ' · ' + stamp + ' 기준</div>'
+        + (useAge ? ageNav(kind, scope, ageSel) : '')
         + rankRows(rows, cfg)
         + '<p class="rk-note">※ 300세대 이상 · 최근 18개월 실거래 3건 이상 단지만 집계했습니다. '
-        + (cfg.needChg ? '직전 구간에도 3건 이상 거래가 있는 단지만 포함해, 거래 1~2건으로 변동률이 튀는 경우를 걸렀습니다. ' : '')
+        + (cfg.needChg ? '직전 구간에도 3건 이상 거래가 있는 단지만 포함해, 거래 1~2건으로 변동률이 튀는 경우를 걸렀습니다. '
+            + (ageSel && ageSel !== 'all'
+                ? '준공 ' + ageSel + '년이 지난 단지만 보고 있습니다 — 신축은 입주 직후 급매가 기준가가 되어 상승률이 부풀려지기 쉽습니다. 위에서 범위를 바꿀 수 있습니다. '
+                : '준공 연차 제한 없이 전체를 보고 있어, 신축의 상승률이 과장돼 보일 수 있습니다. ') : '')
         + '국토교통부 공개 실거래가 기준이며 실제와 차이가 있을 수 있습니다.</p>';
     }
   }
@@ -621,7 +645,7 @@ module.exports = async (req, res) => {
     const scope = (req.query && req.query.scope) || '';
     const html = (rank === 'index' || rank === 'all')
       ? rankIndexPage(scope)
-      : await rankPage(rank, scope);
+      : await rankPage(rank, scope, (req.query && req.query.age) || '');
     if (html) {
       res.setHeader('Cache-Control', 'public, max-age=1800, s-maxage=43200, stale-while-revalidate=604800');
       res.statusCode = 200; res.end(html); return;
