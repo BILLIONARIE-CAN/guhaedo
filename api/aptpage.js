@@ -514,36 +514,46 @@ function ageNav(kind, scope, age) {
 // 자바스크립트가 꺼져 있어도 링크로 동작함(검색엔진도 그대로 읽음).
 const RANK_JS = '<script>(function(){'
   + 'document.addEventListener("click", function(e){'
-  + '  var a = e.target && e.target.closest ? e.target.closest(".agebar a") : null;'
-  + '  if(!a || a.classList.contains("on")) return;'
+  + '  var a = e.target && e.target.closest ? e.target.closest("#rkall a") : null;'
+  + '  if(!a) return;'
+  + '  var h = a.getAttribute("href") || "";'
+  + '  if(h.indexOf("/rank") !== 0) return;'          // 단지·지역별 링크는 그대로 이동
+  + '  if(a.classList.contains("on")) { e.preventDefault(); return; }'
   + '  e.preventDefault();'
-  + '  var box = document.querySelector(".rk, .rk-empty");'
-  + '  if(box) box.classList.add("rk-load");'
-  + '  var chips = document.querySelectorAll(".agebar a");'
-  + '  for(var i=0;i<chips.length;i++) chips[i].classList.remove("on");'
-  + '  a.classList.add("on");'
+  + '  var all = document.getElementById("rkall");'
+  + '  if(all) all.classList.add("rk-load");'
   + '  fetch(a.href).then(function(r){ return r.text(); }).then(function(t){'
   + '    var d = new DOMParser().parseFromString(t, "text/html");'
-  + '    var nl = d.querySelector(".rk, .rk-empty");'
-  + '    var cur = document.querySelector(".rk, .rk-empty");'
-  + '    if(nl && cur) cur.replaceWith(nl);'
-  + '    var nn = d.querySelector(".rk-note"), on = document.querySelector(".rk-note");'
-  + '    if(nn && on) on.replaceWith(nn);'
-  + '    var na = d.querySelector(".asof"), oa = document.querySelector(".asof");'
-  + '    if(na && oa) oa.replaceWith(na);'
-  + '    history.replaceState({}, "", a.href);'
+  + '    var nn = d.getElementById("rkall");'
+  + '    if(nn && all){ all.innerHTML = nn.innerHTML; all.classList.remove("rk-load"); }'
+  + '    var nb = d.querySelector(".bc"), ob = document.querySelector(".bc");'
+  + '    if(nb && ob) ob.replaceWith(nb);'
+  + '    if(d.title) document.title = d.title;'
+  + '    history.pushState({}, "", a.href);'
+  + '    window.scrollTo({ top: 0, behavior: "smooth" });'
   + '  }).catch(function(){ location.href = a.href; });'
   + '});'
+  + 'window.addEventListener("popstate", function(){ location.reload(); });'
   + '})();<\/script>';
-function rankNav(kind, scope) {
-  const kinds = [['py', '평당가'], ['gap', '갭 작은 단지'], ['jrate', '전세가율'], ['up', '상승'], ['down', '하락']];
-  const tabs = kinds.map(([k, n]) =>
-    '<a class="chip' + (k === kind ? ' on' : '') + '" href="/rank/' + k + (scope ? '/' + scope : '') + '">' + n + '</a>').join('');
-  const areas = ['<a class="chip' + (!scope ? ' on' : '') + '" href="/rank/' + kind + '">전국</a>']
-    .concat(Object.keys(SIDO2).map(c =>
-      '<a class="chip' + (c === scope ? ' on' : '') + '" href="/rank/' + kind + '/' + c + '">' + SIDO2[c] + '</a>')).join('');
-  return '<h2>다른 순위</h2><div class="chips">' + tabs + '</div>'
-    + '<h2>지역별</h2><div class="chips">' + areas + '</div>';
+
+function hubNav(kind, scope) {
+  const items = [
+    ['py', '평당가'], ['gap', '갭투자'], ['jrate', '전세가율'],
+    ['up', '최고상승'], ['down', '최근하락']
+  ];
+  const suf = scope ? '/' + scope : '';
+  const icons = items.map(([k, t]) =>
+      '<a class="' + (k === kind ? 'on' : '') + '" href="/rank/' + k + suf + '">'
+      + '<span class="hub-ic"><svg viewBox="0 0 24 24">' + RANK_ICONS[k] + '</svg></span>'
+      + '<span class="hub-t">' + t + '</span></a>').join('')
+    + '<a href="/region"><span class="hub-ic"><svg viewBox="0 0 24 24">' + RANK_ICONS.region + '</svg></span>'
+    + '<span class="hub-t">지역별</span></a>';
+  const areas = '<a class="chip' + (!scope ? ' on' : '') + '" href="/rank/' + kind + '">전국</a>'
+    + Object.keys(SIDO2).map(c =>
+        '<a class="chip' + (c === scope ? ' on' : '') + '" href="/rank/' + kind + '/' + c + '">'
+        + SIDO2[c] + '</a>').join('');
+  return '<div class="hub">' + icons + '</div>'
+    + '<div class="areabar"><span class="agebar-l">지역</span><div class="chips">' + areas + '</div></div>';
 }
 
 const RANK_CSS = '<style>'
@@ -564,6 +574,7 @@ const RANK_CSS = '<style>'
   + '.asof{display:inline-flex;align-items:center;gap:6px;background:#f1f5f3;border:1px solid #e2eae6;'
   + 'border-radius:20px;padding:5px 12px;font-size:12px;color:#4b6357;font-weight:600;margin:0 0 13px}'
   + '.rk-load{opacity:.45;transition:opacity .15s}'
+  + '#rkall{transition:opacity .15s}'
   + '.rk li a{flex:1;min-width:0;display:block}.rk-nm{display:block;font-size:14px;font-weight:600;color:#1a1a1a;line-height:1.35}'
   + '.rk-loc{display:block;font-size:11.5px;color:#999;margin-top:1px}'
   + '.rk-v{flex:none;text-align:right}.rk-v b{display:block;font-size:14.5px;font-weight:700}'
@@ -572,6 +583,13 @@ const RANK_CSS = '<style>'
   + '.rk-empty{background:#fff;border:1px solid #eee;border-radius:10px;padding:22px;text-align:center;color:#999;font-size:13px}'
   + '.chip.on{background:#15803d;color:#fff;border-color:#15803d}'
   + '.rk-note{font-size:12px;color:#999;margin:10px 0 0;line-height:1.6}'
+  + '.rksep{height:1px;background:#e9ecef;margin:14px 0 15px}'
+  + '.areabar{display:flex;align-items:flex-start;gap:6px;margin-top:12px}'
+  + '.areabar .chips{gap:5px}'
+  + '.areabar .agebar-l{margin-top:6px}'
+  + '.hub a.on .hub-ic{background:#15803d}'
+  + '.hub a.on .hub-ic svg{stroke:#fff}'
+  + '.hub a.on .hub-t{color:#15803d;font-weight:800}'
   + '.agebar{display:flex;align-items:center;flex-wrap:wrap;gap:5px;margin:0 0 12px}'
   + '.agebar-l{font-size:12px;color:#888;margin-right:3px;font-weight:600}'
   + '.chip.sm{padding:5px 11px;font-size:12px}'
@@ -584,7 +602,8 @@ async function rankPage(kind, scope, age) {
   const ym = new Date(); const stamp = ym.getFullYear() + '년 ' + (ym.getMonth() + 1) + '월';
 
   let body = '<div class="bc"><a href="' + BASE + '/">아구구</a> › <a href="/rank">아파트 랭킹</a>'
-    + (scope ? ' › ' + esc(sName) : '') + '</div>';
+    + (scope ? ' › ' + esc(sName) : '') + '</div>'
+    + '<div id="rkall">' + hubNav(kind, scope) + '<div class="rksep"></div>';
 
   if (kind === 'gap') {
     body += '<h1>' + esc(sName) + ' 매매·전세 갭 작은 아파트</h1>'
@@ -630,7 +649,7 @@ async function rankPage(kind, scope, age) {
     }
   }
 
-  body += rankNav(kind, scope) + RANK_CSS + RANK_JS;
+  body += '</div>' + RANK_CSS + RANK_HUB_CSS + RANK_JS;
   const kindName = kind === 'gap' ? '갭 작은' : RANKS[kind].name;
   const title = sName + ' 아파트 ' + kindName + ' 순위 | 아구구';
   return hubHtml(title,
@@ -698,9 +717,9 @@ module.exports = async (req, res) => {
   const rank = (req.query && req.query.rank) || '';
   if (rank) {
     const scope = (req.query && req.query.scope) || '';
-    const html = (rank === 'index' || rank === 'all')
-      ? rankIndexPage(scope)
-      : await rankPage(rank, scope, (req.query && req.query.age) || '');
+    // /rank, /rank/all/{시도} 도 메뉴만 있는 화면이 아니라 바로 평당가 순위를 보여준다.
+    const kind = (rank === 'index' || rank === 'all') ? 'py' : rank;
+    const html = await rankPage(kind, scope, (req.query && req.query.age) || '');
     if (html) {
       res.setHeader('Cache-Control', 'public, max-age=1800, s-maxage=43200, stale-while-revalidate=604800');
       res.statusCode = 200; res.end(html); return;
