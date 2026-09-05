@@ -2599,10 +2599,20 @@ function setRsTab(tab){
 function rsSearch(q){
   if(!q) { renderRsGrid(); return; }
   const results = MAP_DATA.filter(d=>d.name.includes(q)||(d.addr&&d.addr.includes(q)));
-  if(results.length>0&&map){
-    map.panTo(new kakao.maps.LatLng(results[0].lat, results[0].lng));
-    map.setLevel(5);
+  if(results.length>0){
+    moveMapTo(results[0].lat, results[0].lng, 5);
   }
+}
+
+// ★ 카카오맵 버그 회피: map.panTo() 는 애니메이션이라, 바로 뒤에 map.setLevel() 을
+//   호출하면 이동이 취소되고 지도가 '이전 위치'에 그대로 남는다.
+//   (서울 강남구 → 인천 연수구를 눌러도 강남에 머무르던 원인)
+//   그래서 지역 이동은 항상 setLevel 먼저 → setCenter(즉시 이동) 순서로 한다.
+function moveMapTo(lat, lng, level){
+  if(!map || !lat || !lng) return;
+  var ll = new kakao.maps.LatLng(lat, lng);
+  if(level) map.setLevel(level);
+  map.setCenter(ll);
 }
 
 function renderRsGrid(){
@@ -2619,22 +2629,37 @@ function renderRsGrid(){
   }
 }
 
+// 전국 단지 파일(12.3MB)이 아직 안 왔을 때 MAP_DATA로 폴백하면
+// '직전에 보던 시군구' 목록이 그대로 나오는 버그가 있었음 → 폴백 대신 로딩 안내.
+function rsDataReady(){ return typeof allAptData!=='undefined' && allAptData && allAptData.length>0; }
+function rsLoadingHtml(){
+  return '<div style="grid-column:1/-1;padding:34px 16px;text-align:center;color:var(--text3);font-size:13px;line-height:1.6">'
+       + '전국 단지 정보를 불러오는 중입니다…<br><span style="font-size:11.5px;color:#aaa">다 받으면 자동으로 표시됩니다</span></div>';
+}
+// 로드가 끝나면 열려 있던 단계를 다시 그림
+window.rsRefreshAfterLoad=function(){
+  if(typeof rsLevel==='undefined') return;
+  if(rsLevel==='sigungu' && rsSelected.sido) selectSido(rsSelected.sido.code, rsSelected.sido.name, 0, 0);
+  else if(rsLevel==='emd' && rsSelected.sigungu){
+    var g=rsSelected.sigungu; selectSigungu(g.code, g.name, 0, 0);
+  }
+};
+
 function selectSido(code, name, lat, lng){
   rsSelected.sido = {code, name};
   rsLevel = 'sigungu';
   syncRsRank();
-  if(map){
-    map.panTo(new kakao.maps.LatLng(lat, lng));
-    map.setLevel(9);
-  }
+  moveMapTo(lat, lng, 9);   // 0,0(재렌더)이면 헬퍼가 알아서 무시
   const bc = ge('rs-breadcrumb');
   bc.innerHTML = `<span class="rs-bc-item" onclick="backToSido()">${name}</span><span class="rs-bc-sep">›</span><span class="rs-bc-cur">시군구 선택</span><span class="rs-bc-sep">›</span><span style="color:var(--text3)">읍면동 선택</span>`;
 
-  // 해당 시도 시군구 목록 뽑기 — 전국 데이터(allAptData) 기준. MAP_DATA는 로드된 마커만이라 전국 화면에선 비어있어 목록이 안 뜨던 버그.
-  const rsSrc = (typeof allAptData!=='undefined' && allAptData.length) ? allAptData : MAP_DATA;
+  // 반드시 전국 데이터(allAptData)로만 만든다. 아직이면 로딩 안내 후 종료.
+  const grid0 = ge('rs-grid');
+  if(!rsDataReady()){ grid0.style.gridTemplateColumns=''; grid0.innerHTML = rsLoadingHtml(); return; }
   const sigunguMap = {};
-  rsSrc.filter(d=>d.sigunguCode&&String(d.sigunguCode).startsWith(code)).forEach(d=>{
-    if(d.sigungu&&!sigunguMap[d.sigungu]) sigunguMap[d.sigungu]={name:d.sigungu, code:d.sigunguCode, lat:d.lat, lng:d.lng};
+  allAptData.filter(d=>d.sigunguCode&&String(d.sigunguCode).startsWith(code)).forEach(d=>{
+    const k = String(d.sigunguCode);            // 이름이 아니라 코드로 묶음(동명 시군구 방지)
+    if(d.sigungu&&!sigunguMap[k]) sigunguMap[k]={name:d.sigungu, code:d.sigunguCode, lat:d.lat, lng:d.lng};
   });
   const list = Object.values(sigunguMap).sort((a,b)=>a.name.localeCompare(b.name,'ko'));
   const grid = ge('rs-grid'); grid.style.gridTemplateColumns='';
@@ -2651,17 +2676,15 @@ function selectSido(code, name, lat, lng){
 function selectSigungu(code, name, lat, lng){
   rsSelected.sigungu = {code, name, lat, lng};
   rsLevel = 'emd';
-  if(map){
-    map.panTo(new kakao.maps.LatLng(lat, lng));
-    map.setLevel(7);
-  }
+  moveMapTo(lat, lng, 7);
   const bc = ge('rs-breadcrumb');
   bc.innerHTML = `<span class="rs-bc-item" onclick="backToSido()">${rsSelected.sido.name}</span><span class="rs-bc-sep">›</span><span class="rs-bc-item" onclick="backToSigungu()">${name}</span><span class="rs-bc-sep">›</span><span class="rs-bc-cur">읍면동 선택</span>`;
 
-  // 읍면동 목록 — 전국 데이터(allAptData) 기준
-  const rsSrc2 = (typeof allAptData!=='undefined' && allAptData.length) ? allAptData : MAP_DATA;
+  // 읍면동 목록 — 전국 데이터(allAptData)로만
+  const grid1 = ge('rs-grid');
+  if(!rsDataReady()){ grid1.style.gridTemplateColumns=''; grid1.innerHTML = rsLoadingHtml(); return; }
   const emdMap = {};
-  rsSrc2.filter(d=>String(d.sigunguCode)===String(code)).forEach(d=>{
+  allAptData.filter(d=>String(d.sigunguCode)===String(code)).forEach(d=>{
     if(d.emd&&!emdMap[d.emd]) emdMap[d.emd]={name:d.emd, lat:d.lat, lng:d.lng};
   });
   const list = Object.values(emdMap).sort((a,b)=>a.name.localeCompare(b.name,'ko'));
@@ -2679,7 +2702,7 @@ function selectSigungu(code, name, lat, lng){
 function selectEmd(name, lat, lng){
   rsSelected.emd = {name:name, lat:lat, lng:lng};
   rsLevel = 'apt';
-  if(map){ map.panTo(new kakao.maps.LatLng(lat, lng)); map.setLevel(5); }
+  moveMapTo(lat, lng, 5);
   // 사이드박스 유지 — 그 동의 아파트 목록을 보여줌
   var bc = ge('rs-breadcrumb');
   bc.innerHTML = '<span class="rs-bc-item" onclick="backToSido()">'+rsSelected.sido.name+'</span><span class="rs-bc-sep">›</span><span class="rs-bc-item" onclick="backToEmd()">'+rsSelected.sigungu.name+'</span><span class="rs-bc-sep">›</span><span class="rs-bc-cur">'+name+'</span>';
@@ -2698,7 +2721,7 @@ async function openComplexByCode(code){
     if(a&&a.sigunguCode){ try{ await loadAptData(String(a.sigunguCode).slice(0,5)); }catch(e){} d=MAP_DATA.find(function(x){return x.code===code&&(x.type==='apt'||x.type==='officetel');}); }
     if(!d&&a){ d={id:'rs_'+code,type:'apt',name:a.name,code:a.code,addr:a.addr||'',jibunAddr:a.jibunAddr||'',lat:a.lat,lng:a.lng,sido:a.sido||'',sigungu:a.sigungu||'',emd:a.emd||'',units:(a.units?a.units+'세대':''),built:a.built||'',sigunguCode:a.sigunguCode||'',areaBreak:a.areaBreak||null,aptType:a.aptType||'',bjdCode:a.bjdCode||''}; }
   }
-  if(d){ if(map&&d.lat){ map.panTo(new kakao.maps.LatLng(d.lat,d.lng)); map.setLevel(3); } if(typeof openAptDetail==='function') openAptDetail(d); }
+  if(d){ moveMapTo(d.lat, d.lng, 3); if(typeof openAptDetail==='function') openAptDetail(d); }
 }
 
 function backToSido(){
@@ -4131,6 +4154,7 @@ async function loadAllAptData(){
     console.log('매물안내서 단지 로드:',allAptData.length+'개');
     initLocSelects();
     initFavLocSelects();
+    if(typeof rsRefreshAfterLoad==='function') rsRefreshAfterLoad();   // 로딩 중 열어둔 목록 자동 갱신
   }catch(e){console.log('단지 로드 실패:',e);}
 }
 loadAllAptData();

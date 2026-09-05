@@ -20,3 +20,6 @@ _patch_index.py
 index.html.bak-*
 _rank_block.js
 api/aptpage.js.bak-*
+
+# Claude가 지우지 못한 잔여물 (수동 삭제용)
+_to_delete/
