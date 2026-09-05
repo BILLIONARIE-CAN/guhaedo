@@ -157,6 +157,7 @@ body:has(#apt-detail-panel.open) .map-top-bar{left:468px}
 .mfc .mfc-cv{margin-left:2px;font-size:10px}
 .mfpanel{position:absolute;top:100%;left:0;margin-top:8px;background:#fff;border-radius:14px;box-shadow:0 8px 28px rgba(0,0,0,.18);padding:16px 16px 14px;width:320px;max-width:calc(100vw - 24px);z-index:130}
 .mfp-title{font-size:13px;font-weight:800;color:#111827;margin-bottom:14px}
+.mfp-note{font-size:11.5px;line-height:1.6;color:#6b7280;background:#f7f8fa;border:1px solid #eceff2;border-radius:8px;padding:8px 10px;margin:-8px 0 12px}
 .mfp-slider{position:relative;height:22px;margin:0 4px 6px}
 .mfp-slider .mfp-base{position:absolute;left:0;right:0;top:50%;transform:translateY(-50%);height:4px;background:#e5e7eb;border-radius:2px}
 .mfp-slider .mfp-fill{position:absolute;height:100%;background:#1D9E75;border-radius:2px}
@@ -543,10 +544,10 @@ body:has(#apt-detail-panel.open) .map-top-bar{left:468px}
         <button class="mfc soon" onclick="mfSoon()">전세가(매물)</button>
         <button class="mfc" id="mfc-gap" onclick="mfPanel('gap',this)">매매전세갭</button>
         <button class="mfc" id="mfc-jrate" onclick="mfPanel('jrate',this)">전세가율</button>
-        <button class="mfc soon" onclick="mfSoon()">거래회전율</button>
+        <button class="mfc" id="mfc-turn" onclick="mfPanel('turn',this)">거래회전율</button>
         <button class="mfc soon" onclick="mfSoon()">대지지분</button>
-        <button class="mfc soon" onclick="mfSoon()">용적률</button>
-        <button class="mfc soon" onclick="mfSoon()">건폐율</button>
+        <button class="mfc" id="mfc-far" onclick="mfPanel('far',this)">용적률</button>
+        <button class="mfc" id="mfc-bcr" onclick="mfPanel('bcr',this)">건폐율</button>
         <button class="mf-rst" onclick="resetMapFilters()" title="필터 초기화">↺ 초기화</button>
       </div></div>
       <div class="map-left-tools">
@@ -2771,7 +2772,7 @@ function filterList(q){renderList(q);}
 var pinLabelMode='name';
 var MF_CUR_YEAR=new Date().getFullYear();
 // 필터 상태: area=버킷키('' 전체), units/age=[lo,hi] 또는 null(전체)
-var MF_STATE={area:[],units:null,age:null,price:null,py:null,jrate:null,gap:null};
+var MF_STATE={area:[],units:null,age:null,price:null,py:null,jrate:null,gap:null,turn:null,far:null,bcr:null};
 var MF_CFG={
   type:{label:'건물유형', checks:[['apt','아파트'],['officetel','오피스텔'],['villa','빌라/연립'],['presale','분양']]},
   area:{label:'평형(공급면적)', bucket:true, multi:true,
@@ -2788,10 +2789,21 @@ var MF_CFG={
   jrate:{label:'전세가율', metric:true, col:'j_rate', mul:1, min:0,max:100,step:5, suffix:'%', axis:['0','','50','','100%'],
     presets:[[null,'전체'],[[70,100],'70%~'],[[80,100],'80%~'],[[90,100],'90%~'],[[0,50],'~50%'],[[50,70],'50~70%'],[[60,80],'60~80%']]},
   gap:{label:'매매전세갭', metric:true, col:'gap_m', mul:10000, min:0,max:30,step:1, suffix:'억', axis:['0','','15','','30억'],
-    presets:[[null,'전체'],[[0,1],'~1억'],[[0,2],'~2억'],[[0,3],'~3억'],[[0,5],'~5억'],[[3,30],'3억~'],[[5,30],'5억~'],[[10,30],'10억~']]}
+    presets:[[null,'전체'],[[0,1],'~1억'],[[0,2],'~2억'],[[0,3],'~3억'],[[0,5],'~5억'],[[3,30],'3억~'],[[5,30],'5억~'],[[10,30],'10억~']]},
+  // 거래회전율 = 최근 18개월 거래건수 ÷ 세대수 × 100. 높을수록 손바뀜이 잦은 단지.
+  turn:{label:'거래회전율', metric:true, col:'turn_rate', mul:1, min:0,max:30,step:1, suffix:'%', axis:['0','','15','','30%'],
+    note:'최근 18개월 거래건수 ÷ 세대수. 높을수록 거래가 활발한 단지입니다.',
+    presets:[[null,'전체'],[[3,30],'3%~'],[[5,30],'5%~'],[[8,30],'8%~'],[[10,30],'10%~'],[[0,2],'~2% (거래 한산)'],[[2,5],'2~5%'],[[5,10],'5~10%']]},
+  // 용적률/건폐율은 건축물대장 기반이라 수록 단지가 적음 → 패널에 안내 문구 표시
+  far:{label:'용적률', metric:true, col:'far', mul:1, min:0,max:500,step:10, suffix:'%', axis:['0','','250','','500%'],
+    note:'⚠️ 자료가 있는 단지가 아직 적습니다. 켜면 표시되는 단지가 크게 줄어듭니다.',
+    presets:[[null,'전체'],[[0,150],'~150% (저층)'],[[150,200],'150~200%'],[[200,250],'200~250%'],[[250,300],'250~300%'],[[300,500],'300%~'],[[0,200],'~200% (재건축 유리)']]},
+  bcr:{label:'건폐율', metric:true, col:'bcr', mul:1, min:0,max:60,step:5, suffix:'%', axis:['0','','30','','60%'],
+    note:'⚠️ 자료가 있는 단지가 아직 적습니다. 켜면 표시되는 단지가 크게 줄어듭니다.',
+    presets:[[null,'전체'],[[0,15],'~15% (쾌적)'],[[15,20],'15~20%'],[[20,25],'20~25%'],[[25,60],'25%~']]}
 };
 // ===== 서버측 지표 필터 (apt_metrics 뷰포트 쿼리, 아실 방식) =====
-var METRIC_KEYS=['price','py','jrate','gap'];
+var METRIC_KEYS=['price','py','jrate','gap','turn','far','bcr'];
 var MSET=null, MSET_SEQ=0;   // 매칭 kapt_code Set(활성 시), null=지표필터 없음
 function metricActive(){ return METRIC_KEYS.some(function(k){return !!MF_STATE[k];}); }
 async function refreshMetricFilter(){
@@ -2939,6 +2951,7 @@ function mfClosePanel(){ mfOpenKey=null; var p=ge('mf-panel'); if(p)p.style.disp
 function mfPanelHTML(key){
   var cfg=MF_CFG[key];
   var html='<div class="mfp-title">'+cfg.label+'</div>';
+  if(cfg.note) html+='<div class="mfp-note">'+cfg.note+'</div>';
   if(cfg.checks){
     html+='<div class="mfp-presets">'+cfg.checks.map(function(c){
       return '<button class="mfp-pre'+(mfTypeOn(c[0])?' on':'')+'" onclick="mfToggleTypeBtn(\''+c[0]+'\')">'+c[1]+'</button>';
@@ -3034,7 +3047,7 @@ function mfSyncChip(key){
   chip.classList.toggle('on',active);
 }
 function resetMapFilters(){
-  MF_STATE={area:[],units:null,age:null,price:null,py:null,jrate:null,gap:null};
+  MF_STATE={area:[],units:null,age:null,price:null,py:null,jrate:null,gap:null,turn:null,far:null,bcr:null};
   ['area','units','age','price','py','jrate','gap'].forEach(mfSyncChip);
   ['apt','officetel'].forEach(function(t){typeFilters.add(t);var b=ge('mfc-'+t);if(b)b.classList.add('on');});
   MSET=null;

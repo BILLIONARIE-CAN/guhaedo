@@ -35,9 +35,25 @@ create table if not exists public.admin_secret (
   constraint admin_secret_one_row check (id = 1)
 );
 
+-- 2.5) 활동 로그 (누가 언제 무엇을 바꿨나) -------------------------
+--  ⚠️ 지금은 계정이 없으므로 actor 는 '관리자' 로만 기록된다.
+--     계정 시스템(아이디+비번)이 붙으면 actor 에 사용자 아이디를 넣으면 된다.
+create table if not exists public.audit_log (
+  id         bigserial primary key,
+  at         timestamptz default now(),
+  actor      text,
+  action     text,
+  target     text,
+  target_id  text,
+  detail     jsonb
+);
+create index if not exists audit_log_at_idx on public.audit_log (at desc);
+
 -- 3) 권한: 공개 읽기만 허용, 쓰기는 아래 함수로만 -------------------
 alter table public.offices      enable row level security;
 alter table public.admin_secret enable row level security;
+alter table public.audit_log    enable row level security;
+-- audit_log 정책 없음 = 브라우저에서 직접 못 읽음. 조회는 read_audit_log(pw) 로만.
 
 drop policy if exists offices_public_read on public.offices;
 create policy offices_public_read on public.offices
@@ -62,6 +78,7 @@ begin
     return '실패: 기존 비밀번호가 맞지 않습니다.';
   end if;
   update admin_secret set pw_hash = crypt(p_new, gen_salt('bf')) where id = 1;
+  insert into audit_log(actor, action, target) values ('관리자', 'admin.pw', '비밀번호 변경');
   return '완료: 비밀번호가 변경되었습니다.';
 end $$;
 
@@ -97,6 +114,8 @@ begin
             p_data->>'intro', p_data->>'kakao_url',
             coalesce((p_data->>'is_primary')::boolean, false))
     returning id into newid;
+    insert into audit_log(actor, action, target, target_id, detail)
+      values ('관리자', 'office.create', p_data->>'name', newid::text, p_data);
   else
     update offices set
       name = p_data->>'name', ceo = p_data->>'ceo', biz_no = p_data->>'biz_no',
@@ -110,6 +129,8 @@ begin
     if newid is null then
       return jsonb_build_object('ok', false, 'msg', '해당 사무소를 찾을 수 없습니다.');
     end if;
+    insert into audit_log(actor, action, target, target_id, detail)
+      values ('관리자', 'office.update', p_data->>'name', newid::text, p_data);
   end if;
 
   return jsonb_build_object('ok', true, 'id', newid, 'msg', '저장되었습니다.');
@@ -117,15 +138,27 @@ end $$;
 
 create or replace function public.delete_office(p_pw text, p_id bigint)
 returns jsonb language plpgsql security definer set search_path = public as $$
+declare gone text;
 begin
   if not check_admin_pw(p_pw) then
     return jsonb_build_object('ok', false, 'msg', '비밀번호가 올바르지 않습니다.');
   end if;
+  select name into gone from offices where id = p_id;
   delete from offices where id = p_id;
   if not found then
     return jsonb_build_object('ok', false, 'msg', '해당 사무소를 찾을 수 없습니다.');
   end if;
+  insert into audit_log(actor, action, target, target_id)
+    values ('관리자', 'office.delete', gone, p_id::text);
   return jsonb_build_object('ok', true, 'msg', '삭제되었습니다.');
+end $$;
+
+-- 5.5) 로그 조회 (비밀번호 검증 후에만) -------------------------------
+create or replace function public.read_audit_log(p_pw text, p_limit int default 50)
+returns setof public.audit_log language plpgsql security definer set search_path = public as $$
+begin
+  if not check_admin_pw(p_pw) then return; end if;
+  return query select * from audit_log order by at desc limit least(coalesce(p_limit,50), 300);
 end $$;
 
 -- 6) 호출 권한 ------------------------------------------------------
@@ -137,5 +170,7 @@ grant execute on function public.set_admin_pw(text,text)    to anon, authenticat
 grant execute on function public.check_admin_pw(text)       to anon, authenticated;
 grant execute on function public.save_office(text,jsonb)    to anon, authenticated;
 grant execute on function public.delete_office(text,bigint) to anon, authenticated;
+revoke all on function public.read_audit_log(text,int) from public;
+grant execute on function public.read_audit_log(text,int) to anon, authenticated;
 
 select '완료 — 이제 /admin-vkz/hub 의 [사무소 관리] 탭에서 비밀번호를 먼저 설정하세요.' as 결과;
