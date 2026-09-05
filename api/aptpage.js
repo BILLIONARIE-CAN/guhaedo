@@ -550,6 +550,29 @@ const RANKS = {
     order: 'chg_pct.asc', needChg: true,
     val: r => r.chg_pct + '%',
     sub: r => wonMan(r.price_prev_m) + ' → ' + wonMan(r.price_m)
+  },
+  // ↓ 아래 둘은 세대수·입주년도(공동주택 기본정보) 기반이라 실거래 매칭 품질과 무관하다.
+  //   실거래 건수를 쓰는 랭킹(거래량·거래회전율)은 형제단지 교차매칭 이슈가 정리된 뒤에 추가할 것.
+  big: {
+    name: '대단지', h1: s => s + ' 세대수 많은 아파트 순위',
+    lead: '세대수가 많은 대단지입니다. 단지가 크면 거래가 잦고 시세가 잘 형성되는 편입니다.',
+    base: ['units=not.is.null', 'units=gte.500'],
+    order: 'units.desc.nullslast', noAge: true,
+    basis: '공동주택 기본정보(세대수) 기준',
+    note: '500세대 이상 단지를 세대수 순으로 정리했습니다. 세대수는 공동주택관리정보시스템(K-apt) 공개 자료 기준입니다. 옆에 붙은 매매가는 최근 18개월 실거래가 있는 경우에만 표시됩니다.',
+    val: r => Number(r.units).toLocaleString('ko-KR') + '세대',
+    sub: r => (r.movein ? r.movein + '년 입주' : '') + (r.price_m ? ' · 매매 ' + wonMan(r.price_m) : '')
+  },
+  newest: {
+    name: '신축', h1: s => s + ' 최근 입주 아파트',
+    lead: '입주가 가장 최근인 단지입니다. 신축은 거래 표본이 적어 시세가 아직 덜 다져졌을 수 있습니다.',
+    base: ['movein=not.is.null', 'movein=gte.2015', 'movein=lte.' + (new Date().getFullYear() + 1), 'units=gte.300'],
+    order: 'movein.desc.nullslast', noAge: true,
+    basis: '입주(준공) 연도 기준',
+    note: '300세대 이상 · 2015년 이후 입주 단지를 입주가 최근인 순으로 정리했습니다. 신축은 실거래 표본이 적어 시세가 아직 덜 다져졌을 수 있으니, 몇 건이 거래됐는지 함께 보세요.',
+    val: r => r.movein + '년',
+    sub: r => Number(r.units || 0).toLocaleString('ko-KR') + '세대'
+        + (r.price_m ? ' · 매매 ' + wonMan(r.price_m) : ' · 실거래 준비중')
   }
 };
 // 갭은 가격대별 3구간이라 별도 취급
@@ -561,10 +584,10 @@ const GAP_BANDS = [
 
 // 순위 배지 — 1~3위 금·은·동, 4~5위 초록, 6~10위 연한 왕관, 11위부터 숫자만
 // 집계 기준일 — 언제 기준인지 한눈에
-function asOf(withPrev) {
+function asOf(withPrev, basis) {
   const d = new Date();
   const ds = d.getFullYear() + '년 ' + (d.getMonth() + 1) + '월 ' + d.getDate() + '일';
-  return '<div class="asof">📅 ' + ds + ' 집계 · 최근 18개월 실거래 기준'
+  return '<div class="asof">📅 ' + ds + ' 집계 · ' + (basis || '최근 18개월 실거래 기준')
     + (withPrev ? ' · 직전 1년 구간과 비교' : '') + '</div>';
 }
 const CROWN = '<svg viewBox="0 0 24 24"><path d="M3 8.5l4.2 3.1L12 4.6l4.8 7 4.2-3.1-1.7 9.9H4.7z"/></svg>';
@@ -630,7 +653,8 @@ const RANK_JS = '<script>(function(){'
 function hubNav(kind, scope) {
   const items = [
     ['py', '평당가'], ['gap', '갭투자'], ['jrate', '전세가율'],
-    ['up', '최고상승'], ['down', '최근하락']
+    ['up', '최고상승'], ['down', '최근하락'],
+    ['big', '대단지'], ['newest', '신축']
   ];
   const suf = scope ? '/' + scope : '';
   const icons = items.map(([k, t]) =>
@@ -728,15 +752,17 @@ async function rankPage(kind, scope, age) {
     } else {
       body += '<h1>' + esc(cfg.h1(sName)) + '</h1>'
         + '<div class="sub">' + esc(cfg.lead) + '</div>'
-        + asOf(cfg.needChg)
+        + asOf(cfg.needChg, cfg.basis)
         + (useAge ? ageNav(kind, scope, ageSel) : '')
         + rankRows(rows, cfg)
-        + '<p class="rk-note">※ 300세대 이상 · 최근 18개월 실거래 3건 이상 단지만 집계했습니다. '
+        + (cfg.note
+          ? '<p class="rk-note">※ ' + cfg.note + '</p>'
+          : '<p class="rk-note">※ 300세대 이상 · 최근 18개월 실거래 3건 이상 단지만 집계했습니다. '
         + (cfg.needChg ? '직전 구간에도 3건 이상 거래가 있는 단지만 포함해, 거래 1~2건으로 변동률이 튀는 경우를 걸렀습니다. '
             + (ageSel && ageSel !== 'all'
                 ? '준공 ' + ageSel + '년이 지난 단지만 보고 있습니다 — 신축은 입주 직후 급매가 기준가가 되어 상승률이 부풀려지기 쉽습니다. 위에서 범위를 바꿀 수 있습니다. '
                 : '준공 연차 제한 없이 전체를 보고 있어, 신축의 상승률이 과장돼 보일 수 있습니다. ') : '')
-        + '국토교통부 공개 실거래가 기준이며 실제와 차이가 있을 수 있습니다.</p>';
+        + '국토교통부 공개 실거래가 기준이며 실제와 차이가 있을 수 있습니다.</p>');
     }
   }
 
@@ -754,11 +780,13 @@ const RANK_ICONS = {
   jrate:'<path d="M12 3l7 3v5c0 4.4-2.9 8.3-7 10-4.1-1.7-7-5.6-7-10V6z"/><path d="M9.5 14.5l5-5"/><circle cx="9.8" cy="9.8" r="1"/><circle cx="14.2" cy="14.2" r="1"/>',
   up   :'<path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/>',
   down :'<path d="M3 7l6 6 4-4 8 8"/><path d="M15 17h6v-6"/>',
-  region:'<path d="M12 21s-7-5.7-7-11a7 7 0 1 1 14 0c0 5.3-7 11-7 11z"/><circle cx="12" cy="10" r="2.4"/>'
+  region:'<path d="M12 21s-7-5.7-7-11a7 7 0 1 1 14 0c0 5.3-7 11-7 11z"/><circle cx="12" cy="10" r="2.4"/>',
+  big  :'<path d="M4 21V8l5-3v16"/><path d="M9 21V5l6-2v18"/><path d="M15 21V7l5 2v12"/><path d="M2 21h20"/>',
+  newest:'<path d="M12 3l2.2 4.6 5 .7-3.6 3.5.9 5-4.5-2.4L7.5 16.8l.9-5L4.8 8.3l5-.7z"/>'
 };
 const RANK_HUB_CSS = '<style>'
   // 아실 '부동산 스터디'식 — 작은 아이콘을 한 줄에 촘촘히
-  + '.hub{display:grid;grid-template-columns:repeat(6,1fr);gap:2px;margin:2px 0 10px}'
+  + '.hub{display:grid;grid-template-columns:repeat(4,1fr);gap:2px;margin:2px 0 10px}'
   + '@media(max-width:560px){.hub{grid-template-columns:repeat(4,1fr)}}'
   + '@media(max-width:360px){.hub{grid-template-columns:repeat(3,1fr)}}'
   + '.hub a{display:flex;flex-direction:column;align-items:center;gap:7px;padding:11px 3px;'
@@ -778,7 +806,8 @@ function rankIndexPage(scope) {
   const suf = code ? '/' + code : '';
   const items = [
     ['py', '평당가'], ['gap', '갭투자'], ['jrate', '전세가율'],
-    ['up', '최고상승'], ['down', '최근하락']
+    ['up', '최고상승'], ['down', '최근하락'],
+    ['big', '대단지'], ['newest', '신축']
   ];
   let body = '<div class="bc"><a href="' + BASE + '/">아구구</a> › 아파트 랭킹'
     + (code ? ' › ' + esc(sName) : '') + '</div>'
