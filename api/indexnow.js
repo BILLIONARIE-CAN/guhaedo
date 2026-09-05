@@ -23,7 +23,7 @@ module.exports = async (req, res) => {
 
   // 제출 URL 목록 구성 (홈/약관 + 전 단지)
   const seen = new Set();
-  const urls = [BASE + '/', BASE + '/privacy', BASE + '/terms'];
+  const urls = [BASE + '/', BASE + '/about', BASE + '/contact', BASE + '/privacy', BASE + '/terms', BASE + '/rank', BASE + '/region'];
   for (const a of APTS) {
     if (a && a.code && !seen.has(a.code)) { seen.add(a.code); urls.push(BASE + '/apt/' + a.code); }
   }

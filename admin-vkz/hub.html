@@ -49,6 +49,16 @@
     <input type="password" id="pw" placeholder="비밀번호" onkeydown="if(event.key==='Enter')doLogin()">
     <button onclick="doLogin()">로그인</button>
     <div class="lerr" id="lerr">비밀번호가 올바르지 않습니다.</div>
+    <div style="font-size:12px;color:#888;margin-top:14px">
+      <a href="javascript:toggleFirst()" style="color:#16a34a;font-weight:700">비밀번호 처음 설정하기 / 변경</a>
+    </div>
+    <div id="firstbox" style="display:none;text-align:left;margin-top:14px;padding-top:14px;border-top:1px solid #eee">
+      <div style="font-size:12px;color:#666;margin-bottom:8px;line-height:1.6">비밀번호는 <b>서버에 암호화되어</b> 저장됩니다. 홈페이지 코드에는 남지 않습니다.</div>
+      <input type="password" id="np" placeholder="새 비밀번호 (8자 이상)">
+      <input type="password" id="op" placeholder="기존 비밀번호 (처음이면 비워두세요)">
+      <button onclick="doSetPw()">설정</button>
+      <div id="nperr" style="font-size:12px;margin-top:8px"></div>
+    </div>
   </div>
 </div>
 
@@ -63,7 +73,8 @@
     <button onclick="showTab(1,this)">실거래·건축물 진단</button>
     <button onclick="showTab(2,this)">핀 위치 수정</button>
     <button onclick="showTab(3,this)">회원·중개사 관리</button>
-    <button onclick="showTab(4,this)">설정</button>
+    <button onclick="showTab(4,this)">사무소 관리</button>
+    <button onclick="showTab(5,this)">설정</button>
   </nav>
   <main>
     <!-- 0: 중개사/업체/배너 -->
@@ -114,26 +125,76 @@
         <button class="btn" onclick="submitSignup()">중개사 등록</button>
       </div>
     </div>
-    <!-- 4: 설정 -->
+    <!-- 4: 사무소 관리 -->
+    <div class="tab">
+      <div class="card" style="background:#f0fdf4;border-color:#bbf7d0">
+        <div style="font-size:13px;color:#166534;line-height:1.7">여기서 등록한 사무소는 <b>소개 페이지(<a href="/about" target="_blank" style="color:#15803d">/about</a>)</b>와 <b>문의 페이지(<a href="/contact" target="_blank" style="color:#15803d">/contact</a>)</b>에 자동으로 반영됩니다. 여러 개 등록하고 그중 하나를 <b>대표</b>로 지정하면 그 사무소가 노출됩니다.</div>
+      </div>
+
+      <div id="of-app">
+        <div class="card">
+          <h2 id="of-form-title">사무소 추가</h2>
+          <input type="hidden" id="of-id">
+          <label>상호 (사무소명) *</label><input type="text" id="of-name" placeholder="(힐스자이단지내)구해줘부동산중개">
+          <label>대표자 성명</label><input type="text" id="of-ceo" placeholder="홍길동">
+          <label>사업자등록번호</label><input type="text" id="of-biz" placeholder="000-00-00000">
+          <label>중개사무소 등록번호</label><input type="text" id="of-reg" placeholder="제 00000-0000-00000 호">
+          <label>사무소 주소</label><input type="text" id="of-addr" placeholder="충남 아산시 ...">
+          <label>대표 전화</label><input type="text" id="of-tel" placeholder="041-000-0000">
+          <label>이메일</label><input type="text" id="of-email" placeholder="name@example.com">
+          <label>영업시간</label><input type="text" id="of-hours" placeholder="평일 09:00~18:00 / 토 09:00~15:00 (일·공휴일 휴무)">
+          <label>소개글 <span style="font-weight:400;color:#888">(줄바꿈 가능)</span></label>
+          <textarea id="of-intro" rows="5" style="width:100%;padding:10px;border:1px solid #ddd;border-radius:8px;font-size:14px;font-family:inherit" placeholder="어떤 사무소인지, 어떤 지역을 주로 다루는지 적어주세요."></textarea>
+          <label>카카오톡 채널 주소 <span style="font-weight:400;color:#888">(선택)</span></label><input type="text" id="of-kakao" placeholder="https://pf.kakao.com/...">
+          <label style="display:flex;align-items:center;gap:8px;margin-top:14px">
+            <input type="checkbox" id="of-primary" style="width:auto"> 대표 사무소로 지정 (소개·문의 페이지에 노출)
+          </label>
+          <button class="btn" onclick="ofSave()">저장</button>
+          <button class="btn" style="background:#e5e7eb;color:#374151;margin-top:8px" onclick="ofClear()">새로 입력 (폼 비우기)</button>
+          <div id="of-msg" style="font-size:13px;margin-top:10px"></div>
+        </div>
+        <div class="card">
+          <h2>등록된 사무소</h2>
+          <div id="of-list" style="font-size:13px;color:#888">불러오는 중…</div>
+        </div>
+      </div>
+    </div>
+    <!-- 5: 설정 -->
     <div class="tab">
       <div class="card"><h2>설정</h2>
-        <div class="todo">비밀번호 변경, 관리자 계정 등 설정을 여기 모을 예정입니다.</div>
+        <div class="todo">관리자 계정 등 설정을 여기 모을 예정입니다.<br>사무소 정보는 <b>사무소 관리</b> 탭에서 바꾸세요.</div>
       </div>
     </div>
   </main>
 </div>
 
 <script>
-const ADMIN_PW = 'agugu9427';
-function doLogin(){
-  if(document.getElementById('pw').value === ADMIN_PW){
-    sessionStorage.setItem('hub_auth','1');
-    document.getElementById('login').style.display='none';
-    document.getElementById('app').style.display='block';
-  } else { document.getElementById('lerr').style.display='block'; }
+// 비밀번호는 코드에 두지 않는다. Supabase 함수(check_admin_pw)가 서버에서 검증한다.
+function toggleFirst(){ const b=document.getElementById('firstbox'); b.style.display = b.style.display==='none' ? 'block' : 'none'; }
+function enterApp(){ document.getElementById('login').style.display='none'; document.getElementById('app').style.display='block'; }
+async function doLogin(){
+  const pw=document.getElementById('pw').value, err=document.getElementById('lerr');
+  err.style.display='block'; err.style.color='#888'; err.textContent='확인 중…';
+  try{
+    const ok=await rpc('check_admin_pw',{p_pw:pw});
+    if(ok===true){ ofPw=pw; sessionStorage.setItem('hub_pw',pw); err.style.display='none'; enterApp(); ofLoad(); }
+    else { err.style.color='#dc2626'; err.textContent='비밀번호가 올바르지 않습니다.'; }
+  }catch(e){ err.style.color='#dc2626'; err.textContent=e.message; }
 }
-function logout(){ sessionStorage.removeItem('hub_auth'); location.reload(); }
-if(sessionStorage.getItem('hub_auth')==='1'){ document.getElementById('login').style.display='none'; document.getElementById('app').style.display='block'; }
+async function doSetPw(){
+  const np=document.getElementById('np').value, op=document.getElementById('op').value, m=document.getElementById('nperr');
+  m.style.color='#666'; m.textContent='처리 중…';
+  try{ const res=await rpc('set_admin_pw',{p_old:op,p_new:np});
+    const ok=String(res).indexOf('완료')===0;
+    m.style.color=ok?'#16a34a':'#dc2626'; m.textContent=res;
+    if(ok){ document.getElementById('np').value=''; document.getElementById('op').value=''; }
+  }catch(e){ m.style.color='#dc2626'; m.textContent=e.message; }
+}
+function logout(){ sessionStorage.removeItem('hub_pw'); location.reload(); }
+window.addEventListener('DOMContentLoaded',function(){
+  const saved=sessionStorage.getItem('hub_pw');
+  if(saved){ ofPw=saved; enterApp(); ofLoad(); }
+});
 function showTab(i,btn){
   document.querySelectorAll('nav button').forEach(b=>b.classList.remove('on'));
   document.querySelectorAll('.tab').forEach(t=>t.classList.remove('on'));
@@ -141,6 +202,67 @@ function showTab(i,btn){
   document.querySelectorAll('.tab')[i].classList.add('on');
 }
 function toggleAll(el){ document.querySelectorAll('.ag').forEach(c=>c.checked=el.checked); }
+// ===== 사무소 관리 =====
+const SB_URL='https://nqnbbccazjanjhktknyz.supabase.co';
+const SB_ANON='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5xbmJiY2Nhemphbmpoa3Rrbnl6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzk0OTA5NDQsImV4cCI6MjA5NTA2Njk0NH0.rT_hIwTJyBnCDGyudmJYvN44G67WgZ9-bSVCzShiRjI';
+const SBH={'apikey':SB_ANON,'Authorization':'Bearer '+SB_ANON,'Content-Type':'application/json'};
+let ofPw='';
+function ge2(i){return document.getElementById(i);}
+async function rpc(fn,body){
+  const r=await fetch(SB_URL+'/rest/v1/rpc/'+fn,{method:'POST',headers:SBH,body:JSON.stringify(body)});
+  if(!r.ok) throw new Error('서버 오류('+r.status+') — build_offices.sql 을 아직 실행하지 않았을 수 있습니다.');
+  return r.json();
+}
+function ofClear(){
+  ['of-id','of-name','of-ceo','of-biz','of-reg','of-addr','of-tel','of-email','of-hours','of-intro','of-kakao'].forEach(i=>ge2(i).value='');
+  ge2('of-primary').checked=false; ge2('of-form-title').textContent='사무소 추가'; ge2('of-msg').textContent='';
+}
+function esc(v){ return String(v==null?'':v).replace(/[<>&"]/g,c=>({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;'}[c])); }
+async function ofLoad(){
+  const el=ge2('of-list'); el.textContent='불러오는 중…';
+  try{
+    const r=await fetch(SB_URL+'/rest/v1/offices?select=*&order=is_primary.desc,id.asc',{headers:SBH});
+    const rows=await r.json();
+    if(!Array.isArray(rows)||!rows.length){ el.innerHTML='<div style="color:#888">아직 등록된 사무소가 없습니다. 위에서 추가해주세요.</div>'; return; }
+    window.__offices=rows;
+    el.innerHTML=rows.map(o=>'<div style="border:1px solid #e5e7eb;border-radius:10px;padding:12px;margin-bottom:8px">'
+      +'<div style="font-weight:700;font-size:14px;color:#1a1a1a">'+esc(o.name)
+      +(o.is_primary?' <span style="background:#16a34a;color:#fff;font-size:11px;padding:2px 7px;border-radius:20px;margin-left:6px">대표</span>':'')+'</div>'
+      +'<div style="color:#666;margin-top:4px;line-height:1.6">'+[o.ceo,o.tel,o.addr].filter(Boolean).map(esc).join(' · ')+'</div>'
+      +'<div style="margin-top:8px;display:flex;gap:6px">'
+      +'<button onclick="ofEdit('+o.id+')" style="padding:6px 12px;border:1px solid #16a34a;background:#fff;color:#16a34a;border-radius:6px;font-size:12px;font-weight:700;cursor:pointer">수정</button>'
+      +'<button onclick="ofDel('+o.id+')" style="padding:6px 12px;border:1px solid #fca5a5;background:#fff;color:#dc2626;border-radius:6px;font-size:12px;cursor:pointer">삭제</button>'
+      +'</div></div>').join('');
+  }catch(e){ el.style.color='#dc2626'; el.textContent=e.message; }
+}
+function ofEdit(id){
+  const o=(window.__offices||[]).find(x=>x.id===id); if(!o) return;
+  ge2('of-id').value=o.id; ge2('of-name').value=o.name||''; ge2('of-ceo').value=o.ceo||'';
+  ge2('of-biz').value=o.biz_no||''; ge2('of-reg').value=o.reg_no||''; ge2('of-addr').value=o.addr||'';
+  ge2('of-tel').value=o.tel||''; ge2('of-email').value=o.email||''; ge2('of-hours').value=o.hours||'';
+  ge2('of-intro').value=o.intro||''; ge2('of-kakao').value=o.kakao_url||''; ge2('of-primary').checked=!!o.is_primary;
+  ge2('of-form-title').textContent='사무소 수정 — '+(o.name||'');
+  ge2('of-form-title').scrollIntoView({behavior:'smooth'});
+}
+async function ofDel(id){
+  if(!confirm('이 사무소를 삭제할까요? 되돌릴 수 없습니다.')) return;
+  try{ const res=await rpc('delete_office',{p_pw:ofPw,p_id:id});
+    alert(res.msg||'처리되었습니다.'); if(res.ok){ ofClear(); ofLoad(); }
+  }catch(e){ alert(e.message); }
+}
+async function ofSave(){
+  const m=ge2('of-msg'); m.style.color='#666'; m.textContent='저장 중…';
+  const data={ id:ge2('of-id').value||null, name:ge2('of-name').value.trim(), ceo:ge2('of-ceo').value.trim(),
+    biz_no:ge2('of-biz').value.trim(), reg_no:ge2('of-reg').value.trim(), addr:ge2('of-addr').value.trim(),
+    tel:ge2('of-tel').value.trim(), email:ge2('of-email').value.trim(), hours:ge2('of-hours').value.trim(),
+    intro:ge2('of-intro').value, kakao_url:ge2('of-kakao').value.trim(), is_primary:ge2('of-primary').checked };
+  if(!data.name){ m.style.color='#dc2626'; m.textContent='상호(사무소명)는 필수입니다.'; return; }
+  try{ const res=await rpc('save_office',{p_pw:ofPw,p_data:data});
+    m.style.color=res.ok?'#16a34a':'#dc2626'; m.textContent=res.msg||'';
+    if(res.ok){ ge2('of-id').value=res.id; ge2('of-form-title').textContent='사무소 수정'; ofLoad(); }
+  }catch(e){ m.style.color='#dc2626'; m.textContent=e.message; }
+}
+
 function submitSignup(){
   const name=document.getElementById('s-name').value.trim();
   const phone=document.getElementById('s-phone').value.trim();

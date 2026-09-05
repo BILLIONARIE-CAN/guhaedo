@@ -15,6 +15,14 @@
   ],
   "rewrites": [
     {
+      "source": "/contact",
+      "destination": "/api/aptpage?info=contact"
+    },
+    {
+      "source": "/about",
+      "destination": "/api/aptpage?info=about"
+    },
+    {
       "source": "/b/:id",
       "destination": "/api/apt?type=brief&id=:id"
     },

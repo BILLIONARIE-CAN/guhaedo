@@ -364,8 +364,99 @@ function hubHtml(title, desc, canonical, body) {
     + body
     + '<div class="rg-ad"><ins class="kakao_ad_area" style="display:none;" data-ad-unit="' + AD_UNIT + '" data-ad-width="300" data-ad-height="250"></ins></div>'
     + '<script type="text/javascript" src="//t1.kakaocdn.net/kas/static/ba.min.js" async></script>'
-    + '<footer><a href="/rank">아파트 랭킹</a> · <a href="/region">전국 지역별 아파트</a> · <a href="' + BASE + '/">아구구 홈</a> · © 2026 아구구</footer></div></body></html>';
+    + '<footer><a href="/rank">아파트 랭킹</a> · <a href="/region">전국 지역별 아파트</a> · <a href="/about">소개</a> · <a href="/contact">문의</a> · <a href="/privacy">개인정보처리방침</a> · <a href="' + BASE + '/">아구구 홈</a> · © 2026 아구구</footer></div></body></html>';
 }
+// ===== 사무소 정보 (offices 테이블, 대표 사무소 1건) =====
+//  관리자 → /admin-vkz/hub → [사무소 관리] 탭에서 입력한 값이 그대로 반영된다.
+//  코드에 상호·연락처를 박지 않기 위한 구조. 값이 없으면 안내문만 보여준다.
+async function fetchOffice() {
+  try {
+    const r = await fetch(SUPABASE_URL + '/rest/v1/offices?select=*&is_primary=is.true&limit=1',
+      { headers: { apikey: SUPABASE_ANON, Authorization: 'Bearer ' + SUPABASE_ANON }, signal: AbortSignal.timeout(3000) });
+    if (!r.ok) return null;
+    const rows = await r.json();
+    if (Array.isArray(rows) && rows.length) return rows[0];
+    // 대표 지정이 없으면 가장 먼저 등록된 사무소를 쓴다
+    const r2 = await fetch(SUPABASE_URL + '/rest/v1/offices?select=*&order=id.asc&limit=1',
+      { headers: { apikey: SUPABASE_ANON, Authorization: 'Bearer ' + SUPABASE_ANON }, signal: AbortSignal.timeout(3000) });
+    if (!r2.ok) return null;
+    const rows2 = await r2.json();
+    return (Array.isArray(rows2) && rows2.length) ? rows2[0] : null;
+  } catch (e) { return null; }
+}
+const OF_CSS = '<style>'
+  + '.of-tb{width:100%;border-collapse:collapse;background:#fff;border:1px solid #e5e7eb;border-radius:10px;overflow:hidden;font-size:14px}'
+  + '.of-tb th{text-align:left;width:150px;background:#fafbfc;color:#555;font-weight:600;padding:11px 13px;border-bottom:1px solid #eef0f2;white-space:nowrap}'
+  + '.of-tb td{padding:11px 13px;border-bottom:1px solid #eef0f2;color:#1a1a1a}'
+  + '.of-tb tr:last-child th,.of-tb tr:last-child td{border-bottom:none}'
+  + '.of-intro{background:#fff;border:1px solid #e5e7eb;border-radius:10px;padding:16px;font-size:14.5px;line-height:1.8;white-space:pre-wrap}'
+  + '.of-cta{display:inline-block;background:#1D9E75;color:#fff!important;padding:12px 20px;border-radius:10px;font-weight:700;font-size:15px;margin:4px 8px 4px 0}'
+  + '.of-cta.sub{background:#fff;color:#15803d!important;border:1px solid #b8e0cf}'
+  + '.of-cta:hover{text-decoration:none;opacity:.92}'
+  + '.of-empty{background:#fffbeb;border:1px dashed #fbbf24;color:#92400e;border-radius:10px;padding:16px;font-size:14px;line-height:1.7}'
+  + '@media(max-width:560px){.of-tb th{width:104px;font-size:13px}.of-tb td{font-size:13px}}'
+  + '</style>';
+function ofRow(label, val) { return val ? '<tr><th>' + label + '</th><td>' + esc(val) + '</td></tr>' : ''; }
+function ofRowRaw(label, html) { return html ? '<tr><th>' + label + '</th><td>' + html + '</td></tr>' : ''; }
+function ofTable(o) {
+  return '<table class="of-tb">'
+    + ofRow('상호', o.name) + ofRow('대표자', o.ceo)
+    + ofRow('중개사무소 등록번호', o.reg_no) + ofRow('사업자등록번호', o.biz_no)
+    + ofRow('주소', o.addr)
+    + ofRowRaw('전화', o.tel ? '<a href="tel:' + esc(String(o.tel).replace(/[^0-9+]/g, '')) + '">' + esc(o.tel) + '</a>' : '')
+    + ofRowRaw('이메일', o.email ? '<a href="mailto:' + esc(o.email) + '">' + esc(o.email) + '</a>' : '')
+    + ofRow('영업시간', o.hours)
+    + '</table>';
+}
+function ofEmpty(what) {
+  return '<div class="of-empty"><b>아직 사무소 정보가 등록되지 않았습니다.</b><br>'
+    + '관리자 페이지의 <b>사무소 관리</b> 탭에서 사무소를 등록하면 이 ' + what + ' 내용이 자동으로 채워집니다.</div>';
+}
+async function aboutPage() {
+  const o = await fetchOffice();
+  let body = '<div class="bc"><a href="' + BASE + '/">아구구</a> › 소개</div><h1>아구구 소개</h1>'
+    + '<div class="sub">아파트 실거래가·관리비·관리사무소 연락처를 지도 한 장에서 확인하는 서비스입니다.</div>'
+    + '<div class="of-intro">아구구(a99.co.kr)는 전국 아파트 단지 정보를 지도 위에서 한눈에 보여주는 서비스입니다.\n\n'
+    + '· 국토교통부 실거래가를 단지·평형별로 정리해 보여줍니다.\n'
+    + '· 다른 곳에서 찾기 어려운 <b>관리사무소 전화번호</b>와 <b>월별 관리비</b>를 전국 단지 기준으로 제공합니다.\n'
+    + '· 평당가·전세가율·매매전세갭 등으로 지역별 <a href="/rank">아파트 순위</a>를 볼 수 있습니다.\n'
+    + '· 단지별 상세 페이지와 <a href="/region">지역별 목록</a>을 제공합니다.\n\n'
+    + '모든 시세·실거래 정보는 공공데이터(국토교통부 실거래가, K-apt 공동주택관리정보시스템)를 기반으로 하며, '
+    + '참고용입니다. 실제 거래 전에는 반드시 현장 확인과 전문가 상담을 거치시기 바랍니다.</div>'
+    + '<h2>운영 사무소</h2>'
+    + (o ? ofTable(o) + (o.intro ? '<h2>사무소 소개</h2><div class="of-intro">' + esc(o.intro) + '</div>' : '')
+        : ofEmpty('소개'))
+    + '<h2>문의</h2><div class="of-intro">서비스 이용 중 궁금한 점이나 정보 정정 요청은 <a href="/contact">문의 페이지</a>를 이용해 주세요.</div>'
+    + '<p style="margin-top:22px"><a class="of-cta" href="/contact">문의하기</a>'
+    + '<a class="of-cta sub" href="' + BASE + '/">지도 보러가기</a></p>';
+  return hubHtml('아구구 소개 — 아파트 실거래가·관리비·관리사무소 정보',
+    '아구구(a99.co.kr) 서비스 소개와 운영 사무소 정보입니다. 국토교통부 실거래가와 K-apt 관리비 데이터를 지도에서 제공합니다.',
+    BASE + '/about', OF_CSS + body);
+}
+async function contactPage() {
+  const o = await fetchOffice();
+  let cta = '';
+  if (o) {
+    if (o.tel) cta += '<a class="of-cta" href="tel:' + esc(String(o.tel).replace(/[^0-9+]/g, '')) + '">📞 ' + esc(o.tel) + '</a>';
+    if (o.email) cta += '<a class="of-cta sub" href="mailto:' + esc(o.email) + '">✉️ 이메일 보내기</a>';
+    if (o.kakao_url) cta += '<a class="of-cta sub" href="' + esc(o.kakao_url) + '" rel="nofollow noopener" target="_blank">💬 카카오톡 문의</a>';
+  }
+  const body = '<div class="bc"><a href="' + BASE + '/">아구구</a> › 문의</div><h1>문의하기</h1>'
+    + '<div class="sub">서비스 문의, 정보 정정 요청, 제휴 문의를 받습니다.</div>'
+    + (o ? (cta ? '<p style="margin:0 0 18px">' + cta + '</p>' : '') + ofTable(o) : ofEmpty('문의'))
+    + '<h2>이런 문의를 받습니다</h2>'
+    + '<div class="of-intro">· <b>정보 정정 요청</b> — 단지명, 세대수, 관리사무소 전화번호 등이 실제와 다를 때 알려주시면 확인 후 수정합니다.\n'
+    + '· <b>실거래가 문의</b> — 특정 단지의 거래 내역이 보이지 않거나 이상할 때.\n'
+    + '· <b>제휴·광고 문의</b>\n'
+    + '· <b>개인정보 관련 문의</b> — 처리방침은 <a href="/privacy">개인정보처리방침</a>을 참고해 주세요.\n\n'
+    + '문의 주신 내용은 영업일 기준 1~2일 안에 회신드립니다.</div>'
+    + '<p style="margin-top:22px"><a class="of-cta sub" href="/about">아구구 소개</a>'
+    + '<a class="of-cta sub" href="' + BASE + '/">지도 보러가기</a></p>';
+  return hubHtml('문의하기 — 아구구',
+    '아구구 서비스 문의·정보 정정 요청·제휴 문의 연락처입니다.',
+    BASE + '/contact', OF_CSS + body);
+}
+
 function regionTopPage() {
   let body = '<div class="bc"><a href="' + BASE + '/">아구구</a> › 지역별 아파트</div>'
     + '<h1>전국 지역별 아파트 관리사무소 전화번호·관리비</h1>'
@@ -727,6 +818,14 @@ module.exports = async (req, res) => {
     res.statusCode = 404;
     res.end('<!DOCTYPE html><html lang="ko"><head><meta charset="UTF-8"><title>순위를 찾을 수 없습니다 | 아구구</title></head><body style="font-family:sans-serif;text-align:center;padding:60px"><h1>순위를 찾을 수 없습니다</h1><p><a href="/rank">아파트 랭킹</a> · <a href="https://a99.co.kr">아구구 홈</a></p></body></html>');
     return;
+  }
+  // ===== 소개 / 문의 (관리자가 등록한 사무소 정보를 서버렌더) =====
+  const info = (req.query && req.query.info) || '';
+  if (info === 'about' || info === 'contact') {
+    const html = info === 'about' ? await aboutPage() : await contactPage();
+    // 사무소 정보를 바꾸면 바로 반영되도록 캐시를 짧게 잡는다
+    res.setHeader('Cache-Control', 'public, max-age=60, s-maxage=300, stale-while-revalidate=3600');
+    res.statusCode = 200; res.end(html); return;
   }
   const region = (req.query && req.query.region) || '';
   if (region) {
