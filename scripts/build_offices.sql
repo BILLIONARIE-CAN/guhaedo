@@ -27,7 +27,10 @@ create unique index if not exists offices_primary_uniq
   on public.offices ((is_primary)) where is_primary;
 
 -- 2) 관리자 비밀번호 보관 (앱 코드에 비번을 박지 않기 위함) --------
-create extension if not exists pgcrypto;
+--  ⚠️ Supabase는 확장(pgcrypto)을 public이 아니라 extensions 스키마에 설치한다.
+--     그래서 아래 함수들은 search_path에 반드시 extensions 를 포함해야
+--     crypt()/gen_salt() 를 찾는다. (안 하면 42883 function crypt does not exist)
+create extension if not exists pgcrypto with schema extensions;
 
 create table if not exists public.admin_secret (
   id      int primary key default 1,
@@ -63,7 +66,7 @@ create policy offices_public_read on public.offices
 
 -- 4) 비밀번호 설정 함수 (최초 1회 + 변경할 때) ----------------------
 create or replace function public.set_admin_pw(p_old text, p_new text)
-returns text language plpgsql security definer set search_path = public as $$
+returns text language plpgsql security definer set search_path = public, extensions as $$
 declare cur text;
 begin
   if length(coalesce(p_new,'')) < 8 then
@@ -83,13 +86,13 @@ begin
 end $$;
 
 create or replace function public.check_admin_pw(p_pw text)
-returns boolean language sql security definer set search_path = public as $$
+returns boolean language sql security definer set search_path = public, extensions as $$
   select exists (select 1 from admin_secret where id = 1 and pw_hash = crypt(coalesce(p_pw,''), pw_hash));
 $$;
 
 -- 5) 사무소 저장/삭제 함수 (비밀번호 검증 후에만 동작) ---------------
 create or replace function public.save_office(p_pw text, p_data jsonb)
-returns jsonb language plpgsql security definer set search_path = public as $$
+returns jsonb language plpgsql security definer set search_path = public, extensions as $$
 declare newid bigint; oid bigint;
 begin
   if not check_admin_pw(p_pw) then
@@ -137,7 +140,7 @@ begin
 end $$;
 
 create or replace function public.delete_office(p_pw text, p_id bigint)
-returns jsonb language plpgsql security definer set search_path = public as $$
+returns jsonb language plpgsql security definer set search_path = public, extensions as $$
 declare gone text;
 begin
   if not check_admin_pw(p_pw) then
@@ -155,7 +158,7 @@ end $$;
 
 -- 5.5) 로그 조회 (비밀번호 검증 후에만) -------------------------------
 create or replace function public.read_audit_log(p_pw text, p_limit int default 50)
-returns setof public.audit_log language plpgsql security definer set search_path = public as $$
+returns setof public.audit_log language plpgsql security definer set search_path = public, extensions as $$
 begin
   if not check_admin_pw(p_pw) then return; end if;
   return query select * from audit_log order by at desc limit least(coalesce(p_limit,50), 300);
