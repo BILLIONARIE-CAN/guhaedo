@@ -5,6 +5,65 @@
 const SUPABASE_URL = process.env.SUPABASE_URL;
 const SUPABASE_KEY = process.env.SUPABASE_KEY;
 
+// 지번을 2개 이상 단지가 공유하는 목록 (scripts/build_shared_jibun.js 생성)
+let SHARED_JIBUN = {};
+try { SHARED_JIBUN = require('../split_output/shared_jibun.json'); } catch (e) { SHARED_JIBUN = {}; }
+// 이 단지에 존재하지 않는 평형의 거래는 이 단지 것이 아니다.
+//  같은 지번의 형제 단지끼리 거래를 가를 때 쓴다 (국토부는 전용면적을 정확히 준다).
+//  u60: 60㎡ 미만 / u85: 60~85 / u135: 85~135 / o135: 135 이상
+function bandOf(area) {
+  const a = parseFloat(area) || 0;
+  if (!a) return null;
+  if (a < 60) return 'u60';
+  if (a < 85) return 'u85';
+  if (a < 135) return 'u135';
+  return 'o135';
+}
+function areaFitsComplex(ab, area) {
+  if (!ab) return true;                                  // 평형 구성 모르면 통과
+  const total = (ab.u60 | 0) + (ab.u85 | 0) + (ab.u135 | 0) + (ab.o135 | 0);
+  if (!total) return true;
+  const b = bandOf(area);
+  if (!b) return true;                                   // 면적 없으면 통과
+  return (ab[b] | 0) > 0;
+}
+
+// ── 지번 공유 단지 판정 (형제단지 교차매칭 방지) ────────────────────────
+//  같은 필지에 여러 단지가 있는 경우(창원 성원1~5단지, 사당동 105 등)
+//  "지번이 같으면 단지명 무시"가 서로의 거래를 통째로 섞어버렸다.
+//  → 형제가 있으면 단지명으로 누구 것인지 가려낸다.
+//    · 국토부가 단지를 구분해 주면(사당우성2/극동105/신동아4) 정확히 배분
+//    · 국토부가 한 이름으로만 주면(창원 "성원") 아무도 못 이기므로 전원 인정 = 합산
+function claimNum(s) { const m = String(s).match(/(\d+)\s*(?:단지|차)/); return m ? m[1] : null; }
+function claimTailNum(s) { const m = String(s).match(/(\d+)$/); return m ? m[1] : null; }
+function lcsLen(a, b) {           // 최장 공통 부분문자열 길이
+  if (!a || !b) return 0;
+  let best = 0; const prev = new Array(b.length + 1).fill(0);
+  for (let i = 1; i <= a.length; i++) {
+    let diag = 0;
+    for (let j = 1; j <= b.length; j++) {
+      const tmp = prev[j];
+      prev[j] = (a[i - 1] === b[j - 1]) ? diag + 1 : 0;
+      if (prev[j] > best) best = prev[j];
+      diag = tmp;
+    }
+  }
+  return best;
+}
+function claimScore(cand, mine) {
+  if (!cand || !mine) return 0;
+  if (cand === mine) return 1000;
+  // 단지번호가 양쪽 다 있고 다르면 다른 단지
+  const cn = claimNum(cand), mn = claimNum(mine);
+  if (cn && mn && cn !== mn) return 0;
+  // 국토부명이 숫자로 끝나면(예: "사당우성3") 내 단지번호와 달라선 안 된다
+  const ct = claimTailNum(cand);
+  if (ct && mn && ct !== mn) return 0;
+  if (cand.includes(mine) || mine.includes(cand)) return Math.min(cand.length, mine.length) * 10;
+  const l = lcsLen(cand, mine);
+  return l >= 2 ? l : 0;
+}
+
 function supaHeaders() {
   return { 'apikey': SUPABASE_KEY, 'Authorization': `Bearer ${SUPABASE_KEY}`, 'Content-Type': 'application/json' };
 }
@@ -245,7 +304,7 @@ export default async function handler(req, res) {
   const myDongPart = aptLegalDong.replace(/\s/g, ''); // "배방읍장재리"
 
   const normalize = s => {
-    let t = String(s || '').trim().replace(/[\s()（）·\-\/]/g, '').toUpperCase();
+    let t = String(s || '').trim().replace(/[\s()（）·\-\/,，]/g, '').toUpperCase();
     for (let i = 0; i < 2; i++) t = t.replace(/(아파트|APT|맨션|관리사무소|관리동)$/, '');
     return t;
   };
@@ -294,10 +353,30 @@ export default async function handler(req, res) {
     return !xj || xj.bon === myJibun.bon;
   }
 
+  // 나와 지번을 공유하는 형제 단지 이름들 (없으면 빈 배열)
+  const SH_ME = SHARED_JIBUN[String(req.query.code || '')] || null;
+  const siblingNames = ((SH_ME && SH_ME.sibs) || []).map(nm => normalize(stripDev(nm)));
+  const myAreaBreak = SH_ME && SH_ME.ab;
+  function claimedByMe(x) {
+    if (!siblingNames.length) return true;        // 지번을 혼자 쓰는 단지 → 종전대로
+    // ① 평형 구성에 없는 면적이면 내 단지 거래가 아니다 (가장 확실한 근거)
+    if (!areaFitsComplex(myAreaBreak, x.excluUseAr)) return false;
+    // ② 단지명으로 주인을 가린다
+    const n = normalize(String(x.aptNm || ''));
+    const mine = claimScore(n, myName);
+    let best = mine;
+    for (const sib of siblingNames) { const sc = claimScore(n, sib); if (sc > best) best = sc; }
+    if (best === 0) return false;                 // 아무 단지 이름과도 안 맞음 → 이 지번 단지가 아님
+    if (best > mine) return false;                // 형제가 더 잘 맞음 → 내 거래 아님
+    return true;
+  }
+
   function aptMatch(x) {
     if ((x.cdealType || '').trim()) return false; // 계약 해제 제외
     if (!buildYearMatch(x)) return false;
-    if (addrMatch(x)) return true;                // ① 주소(법정동+지번) 일치 → 단지명 무시
+    // ① 주소(법정동+지번) 일치 — 단, 같은 지번을 쓰는 형제 단지가 있으면 단지명으로 가려낸다.
+    //    여기서 걸러져도 아래 이름 매칭(②③)으로 한 번 더 기회를 준다.
+    if (addrMatch(x) && claimedByMe(x)) return true;
     const n = normalize(x.aptNm);
     if (!n || !myName) return false;
     const xj = parseJibun(x.jibun);

@@ -601,7 +601,9 @@ function rankRows(rows, cfg) {
   if (!rows.length) return '<div class="rk-empty">조건에 맞는 단지가 아직 없습니다.</div>';
   return '<ol class="rk">' + rows.map((r, i) => {
     const sgg = SGG_INFO.get(String(r.dong || '').slice(0, 5));
-    const loc = sgg ? (sgg.sido.slice(0, 2) + ' ' + sgg.sigungu) : '';
+    // ⚠️ '충청남도'.slice(0,2) = '충청' → 충남/충북, 전남/전북, 경남/경북이 구분이 안 된다.
+    //    시도 2자리 코드(SIDO2)로 줄임말을 얻어야 정확하다.
+    const loc = sgg ? ((SIDO2[String(r.dong || '').slice(0, 2)] || sgg.sido.slice(0, 2)) + ' ' + sgg.sigungu) : '';
     const py = r.rep_area_m2 ? Math.round(r.rep_area_m2 / 0.75 / 3.3058 * 10) / 10 + '평형' : '';
     const risk = (cfg.warn && r.j_rate >= 95) ? '<span class="rk-risk">보증금 주의</span>' : '';
     return '<li class="' + (i < 3 ? 'top3' : '') + '">' + rankBadge(i)

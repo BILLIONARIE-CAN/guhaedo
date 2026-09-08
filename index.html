@@ -4906,6 +4906,7 @@ function loadTradeChart(code, aptJibun, builtYear){
 
   function hasData(){return accum.buy.length||accum.jeonse.length||accum.monthly.length;}
 
+
   var jibunParam=aptJibun?'&jibun='+encodeURIComponent(aptJibun):'';
   var builtParam=builtYear?'&builtYear='+builtYear:'';
   // ⚡ 배치 모드 v2: 요청 1번 — 캐시된 월 전체 즉시 + 미보유 월은 서버가 12개씩 채움 (백필)
