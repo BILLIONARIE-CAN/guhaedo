@@ -43,6 +43,35 @@ export default async function handler(req, res) {
 
   const op = req.query.op || 'district';
 
+  // ───────────────── 주민등록 인구·세대현황 (행안부) ─────────────────
+  //  지도 지역 마커에 '세대수' 대신 '인구수'를 보여주기 위한 원본 조회.
+  //  브라우저에서 apis.data.go.kr 을 직접 못 부르므로 여기서 대신 호출한다.
+  //  ?op=pop&srchFrYm=202608&srchToYm=202608&page=1&perPage=100[&raw=1]
+  if (op === 'pop') {
+    const fr = String(req.query.srchFrYm || '').replace(/[^0-9]/g, '');
+    const to = String(req.query.srchToYm || fr).replace(/[^0-9]/g, '');
+    if (!/^\d{6}$/.test(fr)) return res.status(400).json({ error: 'srchFrYm(YYYYMM) 필요' });
+    const page = parseInt(req.query.page || '1') || 1;
+    const perPage = Math.min(parseInt(req.query.perPage || '100') || 100, 1000);
+    const url = 'https://apis.data.go.kr/1741000/rnPpltnHhStus/getRnPpltnHhStus'
+      + `?serviceKey=${API_KEY}&srchFrYm=${fr}&srchToYm=${to}`
+      + `&numOfRows=${perPage}&pageNo=${page}&type=json`;
+    try {
+      const r = await fetch(url, { signal: AbortSignal.timeout(9000) });
+      const text = await r.text();
+      if (req.query.raw === '1') {
+        res.setHeader('Content-Type', 'text/plain; charset=utf-8');
+        return res.status(200).end(text.slice(0, 4000));   // 응답 모양 확인용
+      }
+      let j; try { j = JSON.parse(text); } catch (e) {
+        return res.status(200).json({ error: 'JSON 아님(XML 응답 가능)', head: text.slice(0, 600) });
+      }
+      return res.status(200).json(j);
+    } catch (e) {
+      return res.status(200).json({ error: String(e).slice(0, 200) });
+    }
+  }
+
   // ───────────────── 시군구 한 달 거래 (캐시 공유) ─────────────────
   if (op === 'district') {
     const lawdCd = String(req.query.lawdCd || '');

@@ -2642,6 +2642,7 @@ function moveMapTo(lat, lng, level){
 }
 
 function renderRsGrid(){
+  ensureAllApt();
   const grid = ge('rs-grid'); grid.style.gridTemplateColumns='';
   const bc = ge('rs-breadcrumb');
 
@@ -2681,7 +2682,7 @@ function selectSido(code, name, lat, lng){
 
   // 반드시 전국 데이터(allAptData)로만 만든다. 아직이면 로딩 안내 후 종료.
   const grid0 = ge('rs-grid');
-  if(!rsDataReady()){ grid0.style.gridTemplateColumns=''; grid0.innerHTML = rsLoadingHtml(); return; }
+  if(!rsDataReady()){ grid0.style.gridTemplateColumns=''; grid0.innerHTML = rsLoadingHtml(); ensureAllApt(); return; }
   const sigunguMap = {};
   allAptData.filter(d=>d.sigunguCode&&String(d.sigunguCode).startsWith(code)).forEach(d=>{
     const k = String(d.sigunguCode);            // 이름이 아니라 코드로 묶음(동명 시군구 방지)
@@ -2708,7 +2709,7 @@ function selectSigungu(code, name, lat, lng){
 
   // 읍면동 목록 — 전국 데이터(allAptData)로만
   const grid1 = ge('rs-grid');
-  if(!rsDataReady()){ grid1.style.gridTemplateColumns=''; grid1.innerHTML = rsLoadingHtml(); return; }
+  if(!rsDataReady()){ grid1.style.gridTemplateColumns=''; grid1.innerHTML = rsLoadingHtml(); ensureAllApt(); return; }
   const emdMap = {};
   allAptData.filter(d=>String(d.sigunguCode)===String(code)).forEach(d=>{
     if(d.emd&&!emdMap[d.emd]) emdMap[d.emd]={name:d.emd, lat:d.lat, lng:d.lng};
@@ -4184,18 +4185,56 @@ function delFavApt(i){myApts.splice(i,1);saveMyApts();renderFavApts();}
 function quickFavSelect(code){pickComplex(code);toast(allAptData.find(x=>x.code===code)?.name+' 선택됨');}
 
 // ===== 매물 안내서 =====
+//  ⚠️ 예전엔 첫 화면에서 split_output/coords_all_apt.json (9.5MB) 를 통째로 받았다.
+//     지도는 이 데이터가 필요 없고(시군구 단위 MAP_DATA 사용), 사이드박스·검색·매물안내서 같은
+//     기능에서만 쓴다. → 첫 화면에서 받지 않고 '처음 필요해질 때' 서버(apt_map)에서 받는다.
+//     서버가 안 되면 기존 파일로 폴백하므로 동작은 종전과 같다.
 let allAptData=[];
+let _allAptPromise=null;
+
+async function _fetchAllAptFromServer(){
+  const sel='code,name,sido,sigungu,emd,sigungu_code,units,lat,lng,addr,jibun_addr,built,apt_type,area_break';
+  const out=[];
+  for(let off=0; off<40000; off+=1000){
+    const r=await fetch(SUPABASE_URL+'/rest/v1/apt_map?select='+sel+'&order=code.asc&limit=1000&offset='+off,
+      {headers:{apikey:SUPABASE_ANON,Authorization:'Bearer '+SUPABASE_ANON}});
+    if(!r.ok) throw new Error('HTTP '+r.status);
+    const d=await r.json();
+    for(const x of d) out.push({code:x.code,name:x.name,sido:x.sido,sigungu:x.sigungu,emd:x.emd,
+      sigunguCode:x.sigungu_code,units:x.units,lat:x.lat,lng:x.lng,addr:x.addr||'',
+      jibunAddr:x.jibun_addr||'',built:x.built||'',aptType:x.apt_type||'',areaBreak:x.area_break||null});
+    if(d.length<1000) break;
+  }
+  return out;
+}
+
 async function loadAllAptData(){
   try{
-    const r=await fetch('/split_output/coords_all_apt.json');
-    allAptData=await r.json();
-    console.log('매물안내서 단지 로드:',allAptData.length+'개');
+    let data=null;
+    try{ data=await _fetchAllAptFromServer(); }catch(e){ data=null; }
+    if(!data||!data.length){                      // 서버 실패 → 기존 정적파일
+      const r=await fetch('/split_output/coords_all_apt.json');
+      data=await r.json();
+    }
+    allAptData=data;
+    console.log('단지 목록 로드:',allAptData.length+'개');
     initLocSelects();
     initFavLocSelects();
     if(typeof rsRefreshAfterLoad==='function') rsRefreshAfterLoad();   // 로딩 중 열어둔 목록 자동 갱신
   }catch(e){console.log('단지 로드 실패:',e);}
 }
-loadAllAptData();
+
+// 필요해질 때 한 번만 받는다. 이미 받았으면 즉시 끝남.
+function ensureAllApt(){
+  if(allAptData.length) return Promise.resolve();
+  if(!_allAptPromise) _allAptPromise=loadAllAptData();
+  return _allAptPromise;
+}
+window.ensureAllApt=ensureAllApt;
+
+// 첫 화면을 막지 않도록, 지도가 뜬 뒤 여유 있을 때 미리 받아둔다.
+if('requestIdleCallback' in window) requestIdleCallback(()=>ensureAllApt(),{timeout:6000});
+else setTimeout(()=>ensureAllApt(),4000);
 
 let selectedApt=null;
 
@@ -4267,13 +4306,13 @@ function clearListing(){ge('sel-complex').value='';selectedApt=null;ge('complex-
 function toggleManualInput(){const area=ge('manual-input-area');const on=area.style.display==='none';area.style.display=on?'block':'none';ge('manual-toggle').textContent=on?'← 검색으로 돌아가기':'🏗 분양·미입주·신축 단지 직접입력 →';if(on){selectedApt=null;ge('sel-complex').value='';ge('complex-info').style.display='none';var _mc=ge('manual-complex');if(_mc)setTimeout(function(){_mc.focus();},50);}}
 function openManualWith(name){var area=ge('manual-input-area');if(area&&area.style.display==='none')toggleManualInput();var mc=ge('manual-complex');if(mc)mc.value=name||'';var box=ge('complex-results');if(box)box.style.display='none';var sc=ge('sel-complex');if(sc)sc.value='';if(mc)setTimeout(function(){mc.focus();},60);}
 function switchSearchMode(mode){ge('search-loc').style.display=mode==='loc'?'block':'none';ge('search-name').style.display=mode==='name'?'block':'none';ge('smt-loc').className='search-mode-tab'+(mode==='loc'?' active':'');ge('smt-name').className='search-mode-tab'+(mode==='name'?' active':'');}
-function initLocSelects(){if(!allAptData.length)return;var sidos=[...new Set(allAptData.map(function(d){return d.sido;}))].sort();var sel=ge('loc-sido');if(!sel)return;sel.innerHTML='<option value="">시도 선택</option>'+sidos.map(function(s){return '<option value="'+s+'">'+s+'</option>';}).join('');}
+function initLocSelects(){if(!allAptData.length){ensureAllApt();return;}var sidos=[...new Set(allAptData.map(function(d){return d.sido;}))].sort();var sel=ge('loc-sido');if(!sel)return;sel.innerHTML='<option value="">시도 선택</option>'+sidos.map(function(s){return '<option value="'+s+'">'+s+'</option>';}).join('');}
 function onSidoChange(){var v=ge('loc-sido').value;ge('loc-sigungu').innerHTML='<option value="">시군구 선택</option>';ge('loc-emd').innerHTML='<option value="">읍면동 선택</option>';ge('loc-apt-list').style.display='none';if(!v)return;var list=[...new Set(allAptData.filter(function(d){return d.sido===v;}).map(function(d){return d.sigungu;}))].sort();ge('loc-sigungu').innerHTML='<option value="">시군구 선택</option>'+list.map(function(s){return '<option value="'+s+'">'+s+'</option>';}).join('');}
 function onSigunguChange(){var sido=ge('loc-sido').value,sigungu=ge('loc-sigungu').value;ge('loc-emd').innerHTML='<option value="">읍면동 선택</option>';ge('loc-apt-list').style.display='none';if(!sigungu)return;var list=[...new Set(allAptData.filter(function(d){return d.sido===sido&&d.sigungu===sigungu;}).map(function(d){return d.emd;}))].filter(Boolean).sort();ge('loc-emd').innerHTML='<option value="">읍면동 선택</option>'+list.map(function(s){return '<option value="'+s+'">'+s+'</option>';}).join('');}
 function onEmdChange(){var sido=ge('loc-sido').value,sigungu=ge('loc-sigungu').value,emd=ge('loc-emd').value;var box=ge('loc-apt-list');if(!emd){box.style.display='none';return;}var apts=allAptData.filter(function(d){return d.sido===sido&&d.sigungu===sigungu&&d.emd===emd;}).sort(function(a,b){return a.name.localeCompare(b.name);});box.style.display='block';box.innerHTML=apts.map(function(d){return '<div onclick="pickComplex(\''+d.code+'\')" style="padding:8px 12px;cursor:pointer;border-bottom:1px solid var(--bg);font-size:13px" onmouseover="this.style.background=\'var(--bg)\'" onmouseout="this.style.background=\'\'"><strong>'+d.name+'</strong> <span style="color:var(--text3);font-size:11px">'+(d.units||'-')+'세대</span></div>';}).join('')||'<div style="padding:10px;color:var(--text3);font-size:12px">해당 지역에 단지가 없습니다</div>';}
 document.addEventListener('click',function(e){var r=ge('complex-results');if(r&&r.style.display!=='none'){var inp=ge('sel-complex');if(inp&&!inp.contains(e.target)&&!r.contains(e.target))r.style.display='none';}var fr=ge('fav-results');if(fr&&fr.style.display!=='none'){var fi=ge('fav-select');if(fi&&!fi.contains(e.target)&&!fr.contains(e.target))fr.style.display='none';}var bp=ge('biz-panel');if(bp&&bp.style.display!=='none'){var bt=ge('biz-toggle');if(!bp.contains(e.target)&&(!bt||!bt.contains(e.target))){bp.style.display='none';bizPanelOpen=false;if(bt)bt.classList.remove('active');}}var mm=ge('mobile-menu');if(mm&&mm.style.display!=='none'){var mb=document.querySelector('.mobile-menu-btn');if(!mm.contains(e.target)&&(!mb||!mb.contains(e.target)))mm.style.display='none';}var ms=ge('mobile-search');if(ms&&ms.style.display!=='none'){var msb=document.querySelectorAll('.mobile-menu-btn')[0];if(!ms.contains(e.target)&&(!msb||!msb.contains(e.target)))ms.style.display='none';}});
 function switchFavMode(m){ge('fav-search-loc').style.display=m==='loc'?'block':'none';ge('fav-search-name').style.display=m==='name'?'block':'none';ge('fsmt-loc').className='search-mode-tab'+(m==='loc'?' active':'');ge('fsmt-name').className='search-mode-tab'+(m==='name'?' active':'');}
-function initFavLocSelects(){if(!allAptData.length)return;var sidos=[...new Set(allAptData.map(function(d){return d.sido;}))].sort();var sel=ge('fav-sido');if(!sel)return;sel.innerHTML='<option value="">시도</option>'+sidos.map(function(s){return '<option value="'+s+'">'+s+'</option>';}).join('');}
+function initFavLocSelects(){if(!allAptData.length){ensureAllApt();return;}var sidos=[...new Set(allAptData.map(function(d){return d.sido;}))].sort();var sel=ge('fav-sido');if(!sel)return;sel.innerHTML='<option value="">시도</option>'+sidos.map(function(s){return '<option value="'+s+'">'+s+'</option>';}).join('');}
 function onFavSidoChange(){var v=ge('fav-sido').value;ge('fav-sigungu').innerHTML='<option value="">시군구</option>';ge('fav-emd').innerHTML='<option value="">읍면동</option>';ge('fav-loc-list').style.display='none';if(!v)return;var list=[...new Set(allAptData.filter(function(d){return d.sido===v;}).map(function(d){return d.sigungu;}))].sort();ge('fav-sigungu').innerHTML='<option value="">시군구</option>'+list.map(function(s){return '<option value="'+s+'">'+s+'</option>';}).join('');}
 function onFavSigunguChange(){var sido=ge('fav-sido').value,sg=ge('fav-sigungu').value;ge('fav-emd').innerHTML='<option value="">읍면동</option>';ge('fav-loc-list').style.display='none';if(!sg)return;var list=[...new Set(allAptData.filter(function(d){return d.sido===sido&&d.sigungu===sg;}).map(function(d){return d.emd;}))].filter(Boolean).sort();ge('fav-emd').innerHTML='<option value="">읍면동</option>'+list.map(function(s){return '<option value="'+s+'">'+s+'</option>';}).join('');}
 function onFavEmdChange(){var sido=ge('fav-sido').value,sg=ge('fav-sigungu').value,emd=ge('fav-emd').value;var box=ge('fav-loc-list');if(!emd){box.style.display='none';return;}var apts=allAptData.filter(function(d){return d.sido===sido&&d.sigungu===sg&&d.emd===emd;}).sort(function(a,b){return a.name.localeCompare(b.name);});box.style.display='block';box.innerHTML=apts.map(function(d){return '<div onclick="pickFavFromLoc(\''+d.code+'\',\''+d.name.replace(/'/g,'')+'\')" style="padding:6px 10px;cursor:pointer;font-size:12px;border-bottom:1px solid var(--bg)" onmouseover="this.style.background=\'var(--white)\'" onmouseout="this.style.background=\'\'">'+d.name+' <span style="color:var(--text3)">'+(d.units||'')+'세대</span></div>';}).join('');}
@@ -4344,7 +4383,8 @@ function countAptClick(){
 function openSellModal(){ge('sell-modal').style.display='block';ge('sell-modal-form').style.display='block';ge('sell-modal-confirm').style.display='none';document.body.style.overflow='hidden';sellInitLoc();}
 function closeSellModal(){ge('sell-modal').style.display='none';document.body.style.overflow='';}
 // 집내놓기 위치 드릴다운 (시도→시군구→읍면동→단지, allAptData 전국데이터)
-function sellSrc(){return (typeof allAptData!=='undefined'&&allAptData.length)?allAptData:[];}
+function sellSrc(){ if(typeof ensureAllApt==='function'&&(!allAptData||!allAptData.length)) ensureAllApt();
+  return (typeof allAptData!=='undefined'&&allAptData.length)?allAptData:[]; }
 function sellInitLoc(){
   var sido=ge('m-sido'); if(!sido) return;
   var src=sellSrc();
