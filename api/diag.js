@@ -6,6 +6,7 @@
 
 const SUPABASE_URL = process.env.SUPABASE_URL;
 const SUPABASE_KEY = process.env.SUPABASE_KEY;
+const POP_SECRET = '3c4fc034da972bac20f024ef003bf1ec';
 const API_KEY = encodeURIComponent('8dfbbd6dc2fff98040507b95b9688bc24cbdfb35e253494d734a697d4658f1cf');
 
 function supaHeaders(extra) {
@@ -43,19 +44,19 @@ export default async function handler(req, res) {
 
   const op = req.query.op || 'district';
 
-  // ───────────────── 주민등록 인구·세대현황 (행안부) ─────────────────
-  //  지도 지역 마커에 '세대수' 대신 '인구수'를 보여주기 위한 원본 조회.
-  //  브라우저에서 apis.data.go.kr 을 직접 못 부르므로 여기서 대신 호출한다.
-  //  ?op=pop&srchFrYm=202608&srchToYm=202608&page=1&perPage=100[&raw=1]
+  // ───────────────── 공공데이터 원본 조회 (관리자 전용) ─────────────────
+  //  브라우저에서 apis.data.go.kr 을 직접 못 부르므로(CORS) 여기서 대신 호출한다.
+  //  ?op=pop&secret=...&ep=<서비스경로>&<그 서비스 파라미터들>[&raw=1]
+  //  ep 를 바꾸면 어떤 공공데이터 서비스든 그대로 확인 가능. 나머지 쿼리는 그대로 전달된다.
+  //  예) ?op=pop&secret=...&ep=1741000/stdgPpltnHhStus/getStdgPpltnHhStus&srchFrYm=202608&numOfRows=3&type=json&raw=1
   if (op === 'pop') {
-    const fr = String(req.query.srchFrYm || '').replace(/[^0-9]/g, '');
-    const to = String(req.query.srchToYm || fr).replace(/[^0-9]/g, '');
-    if (!/^\d{6}$/.test(fr)) return res.status(400).json({ error: 'srchFrYm(YYYYMM) 필요' });
-    const page = parseInt(req.query.page || '1') || 1;
-    const perPage = Math.min(parseInt(req.query.perPage || '100') || 100, 1000);
-    const url = 'https://apis.data.go.kr/1741000/rnPpltnHhStus/getRnPpltnHhStus'
-      + `?serviceKey=${API_KEY}&srchFrYm=${fr}&srchToYm=${to}`
-      + `&numOfRows=${perPage}&pageNo=${page}&type=json`;
+    if ((req.query.secret || '') !== POP_SECRET) return res.status(403).json({ error: 'forbidden' });
+    const ep = String(req.query.ep || '1741000/rnPpltnHhStus/getRnPpltnHhStus');
+    if (!/^[A-Za-z0-9_\-\/]+$/.test(ep)) return res.status(400).json({ error: 'ep 형식 오류' });
+    const skip = new Set(['op', 'secret', 'ep', 'raw']);
+    const qs = Object.keys(req.query).filter(k => !skip.has(k))
+      .map(k => encodeURIComponent(k) + '=' + encodeURIComponent(String(req.query[k])));
+    const url = `https://apis.data.go.kr/${ep}?serviceKey=${API_KEY}` + (qs.length ? '&' + qs.join('&') : '');
     try {
       const r = await fetch(url, { signal: AbortSignal.timeout(9000) });
       const text = await r.text();
@@ -64,7 +65,7 @@ export default async function handler(req, res) {
         return res.status(200).end(text.slice(0, 4000));   // 응답 모양 확인용
       }
       let j; try { j = JSON.parse(text); } catch (e) {
-        return res.status(200).json({ error: 'JSON 아님(XML 응답 가능)', head: text.slice(0, 600) });
+        return res.status(200).json({ error: 'JSON 아님(XML 응답 가능)', head: text.slice(0, 800) });
       }
       return res.status(200).json(j);
     } catch (e) {
