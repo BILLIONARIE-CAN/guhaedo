@@ -1803,12 +1803,37 @@ async function loadDongData(){
   }catch(e){}
 }
 
+// 서버(apt_map)에서 시군구 단지 조회. 실패하면 null → 기존 정적파일로 폴백.
+//  ⚠️ 정적 파일(split_output/coords_apt_*.json)은 2026-07-23 이후 갱신이 끊겨 신축이 안 뜬다.
+//     apt_map 은 Supabase 테이블이라 단지를 넣는 즉시 지도에 반영된다.
+async function fetchAptFromServer(sigunguCode){
+  try{
+    const sel='code,name,lat,lng,units,sido,sigungu,emd,sigungu_code,addr,jibun_addr,built,'
+      +'top_floor,dong_cnt,total_park,heat,builder,entrance,apt_type,mgr_type,sale,use_area,area_break';
+    const r=await fetch(SUPABASE_URL+'/rest/v1/apt_map?select='+sel
+      +'&sigungu_code=eq.'+encodeURIComponent(sigunguCode)+'&limit=5000',
+      {headers:{apikey:SUPABASE_ANON,Authorization:'Bearer '+SUPABASE_ANON}});
+    if(!r.ok) return null;
+    const rows=await r.json();
+    if(!Array.isArray(rows)||!rows.length) return null;
+    // 정적파일과 같은 모양으로 맞춰서 아래 로직을 그대로 쓴다
+    return rows.map(d=>({code:d.code,name:d.name,lat:d.lat,lng:d.lng,units:d.units,
+      sido:d.sido,sigungu:d.sigungu,emd:d.emd,sigunguCode:d.sigungu_code,addr:d.addr,
+      jibunAddr:d.jibun_addr,built:d.built,topFloor:d.top_floor,dongCnt:d.dong_cnt,
+      totalPark:d.total_park,heat:d.heat,builder:d.builder,entrance:d.entrance,
+      aptType:d.apt_type,mgrType:d.mgr_type,sale:d.sale,useArea:d.use_area,areaBreak:d.area_break}));
+  }catch(e){ return null; }
+}
+
 async function loadAptData(sigunguName){
   const key='apt_'+sigunguName;
   if(loadedFiles.has(key))return;
   try{
-    const r=await fetch(`/split_output/coords_apt_${sigunguName}.json`);
-    const apts=await r.json();
+    let apts=await fetchAptFromServer(sigunguName);
+    if(!apts){                                    // 서버 실패 → 기존 정적파일
+      const r=await fetch(`/split_output/coords_apt_${sigunguName}.json`);
+      apts=await r.json();
+    }
     loadedFiles.add(key);
     apts.forEach(d=>{
       if(!d.lat||!d.lng)return;
