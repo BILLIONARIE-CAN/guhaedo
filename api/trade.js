@@ -68,6 +68,17 @@ function supaHeaders() {
   return { 'apikey': SUPABASE_KEY, 'Authorization': `Bearer ${SUPABASE_KEY}`, 'Content-Type': 'application/json' };
 }
 
+// 거래가 하나도 없는 캐시 행인지.
+//  ⚠️ '0건'을 영구 캐시로 두면 신축 단지가 통째로 빈 화면이 된다.
+//     (예: 이문아이파크자이 4,169세대 — 수집 당시엔 입주 전이라 0건,
+//      이후 국토부에 122건이 쌓였는데도 영구 캐시라 다시 안 봄)
+//     → 0건 행은 영구로 두지 않고 ZERO_TTL 마다 한 번씩 다시 확인한다.
+const ZERO_TTL = 30 * 86400000;   // 30일
+function rowEmpty(row) {
+  const n = a => (Array.isArray(a) ? a.length : 0);
+  return (n(row.buy) + n(row.jeonse) + n(row.monthly)) === 0;
+}
+
 // 캐시 조회
 async function getCached(code, ym) {
   if (!SUPABASE_URL || !SUPABASE_KEY) return null;
@@ -92,9 +103,10 @@ async function getCached(code, ym) {
     const cutPerm = new Date(); cutPerm.setMonth(cutPerm.getMonth()-7);
     const cutRecent = new Date(); cutRecent.setMonth(cutRecent.getMonth()-2);
     const age = Date.now() - new Date(row.fetched_at).getTime();
-    if (ymDate < cutPerm) return row;                               // 7개월+ : 영구
-    if (ymDate < cutRecent) return age < 7*86400000 ? row : null;    // 2~7개월 : 7일 TTL
-    return age < 86400000 ? row : null;                             // 최근 2개월 : 24시간 TTL
+    const empty = rowEmpty(row);
+    if (ymDate < cutPerm) return (!empty || age < ZERO_TTL) ? row : null;  // 7개월+ : 거래 있으면 영구, 0건이면 30일
+    if (ymDate < cutRecent) return age < 7*86400000 ? row : null;          // 2~7개월 : 7일 TTL
+    return age < 86400000 ? row : null;                                   // 최근 2개월 : 24시간 TTL
   } catch { return null; }
 }
 
@@ -116,9 +128,10 @@ async function getCachedBatch(code, months) {
         const ymDate = new Date(parseInt(row.ym.slice(0,4)), parseInt(row.ym.slice(4,6)) - 1, 1);
         const age = Date.now() - new Date(row.fetched_at).getTime();
         let ok;
-        if (ymDate < cutPerm) ok = true;                  // 7개월+ : 영구
-        else if (ymDate < cutRecent) ok = age < 7*86400000; // 2~7개월 : 7일 TTL(취소 반영)
-        else ok = age < 86400000;                         // 최근 2개월 : 24시간 TTL
+        const empty = rowEmpty(row);
+        if (ymDate < cutPerm) ok = !empty || age < ZERO_TTL;  // 7개월+ : 거래 있으면 영구, 0건이면 30일
+        else if (ymDate < cutRecent) ok = age < 7*86400000;   // 2~7개월 : 7일 TTL(취소 반영)
+        else ok = age < 86400000;                             // 최근 2개월 : 24시간 TTL
         if (ok) out[row.ym] = row;
       }
     }
@@ -371,6 +384,18 @@ export default async function handler(req, res) {
     return true;
   }
 
+  // K-apt는 한 단지로 등록했는데 국토부는 'N단지'로 쪼개 주는 경우
+  //  예) 우리 '마포래미안푸르지오'(3,885세대) ↔ 국토부 '…1단지/2단지/4단지'
+  //      우리 'DMC파크뷰자이'(4,300세대)      ↔ 국토부 '…1단지/2단지/3단지'
+  //  ⚠️ 이때 대표지번도 다르다(우리 아현동 767 / 국토부 777) → 지번으로 검증할 수 없고
+  //     법정동 + 건축년도(위에서 이미 검사)로만 판정한다.
+  //  안전장치: 내 이름에 숫자가 전혀 없고 6자 이상일 때만. (짧거나 번호가 든 이름은 오매칭 위험)
+  const splitBase = (!/\d/.test(myName) && myName.length >= 6) ? myName : null;
+  const isSplitOf = n => {
+    if (!splitBase || !n.startsWith(splitBase) || n === splitBase) return false;
+    return /^\d{1,2}\s*(단지|차|블록|BL)$/.test(n.slice(splitBase.length));
+  };
+
   function aptMatch(x) {
     if ((x.cdealType || '').trim()) return false; // 계약 해제 제외
     if (!buildYearMatch(x)) return false;
@@ -383,10 +408,14 @@ export default async function handler(req, res) {
     // ② 단지명 완전일치
     if (n === myName) {
       if (dongMatch(x)) return myDongPart ? true : jibunSoft(x); // 동 일치 → 지번 무시 (모지번/합필 대응)
-      // 동 불일치 → 본번+부번까지 완전일치일 때만 인정 (법정동 개편 대응)
-      // 부번 없는 지번은 다른 동의 같은 본번과 충돌 위험이 있어 제외
-      return !!(xj && myJibun && xj.bon === myJibun.bon && xj.bu != null && myJibun.bu != null && xj.bu === myJibun.bu);
+      // 동 불일치 → 본번이 같으면 인정. K-apt와 국토부가 같은 단지를 다른 법정동으로 적는 경우가 있다.
+      //  예) 아산삼부르네상스더힐: 우리 '신창면 가내리 852' / 국토부 '신창면 남성리 852' (준공 2024 동일)
+      //  이름 완전일치 + 본번 일치 + 건축년도 일치(위에서 검사)면 같은 단지로 본다.
+      return !!(xj && myJibun && xj.bon === myJibun.bon
+                && (xj.bu == null || myJibun.bu == null || xj.bu === myJibun.bu));
     }
+    // ②-d K-apt 한 단지 ↔ 국토부 N단지 쪼개기 (지번이 달라도 법정동+건축년도로 인정)
+    if (isSplitOf(n) && dongMatch(x)) return true;
     // ②-b 국토부명이 "기본명(브랜드/별칭)" 형태 → 괄호 떼면 우리 이름과 정확일치 + 같은 법정동이면 동일단지.
     //     (K-apt 대표지번 vs 국토부 실거래 지번이 달라도 인정 — 신도시 다필지 단지 대응. 예: 새샘마을3단지(모아미래도리버시티))
     const nBase = normalize(String(x.aptNm || '').replace(/\([^)]*\)/g, ''));

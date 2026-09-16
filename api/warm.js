@@ -143,6 +143,18 @@ function makeMatcher(rec) {
   const SH_ME = SHARED_JIBUN[String(rec.code || '')] || null;
   const siblingNames = ((SH_ME && SH_ME.sibs) || []).map(nm => normalize(stripDev(nm)));
   const myAreaBreak = SH_ME && SH_ME.ab;
+  // K-apt는 한 단지로 등록했는데 국토부는 'N단지'로 쪼개 주는 경우
+  //  예) 우리 '마포래미안푸르지오'(3,885세대) ↔ 국토부 '…1단지/2단지/4단지'
+  //      우리 'DMC파크뷰자이'(4,300세대)      ↔ 국토부 '…1단지/2단지/3단지'
+  //  ⚠️ 이때 대표지번도 다르다(우리 아현동 767 / 국토부 777) → 지번으로 검증할 수 없고
+  //     법정동 + 건축년도(위에서 이미 검사)로만 판정한다.
+  //  안전장치: 내 이름에 숫자가 전혀 없고 6자 이상일 때만. (짧거나 번호가 든 이름은 오매칭 위험)
+  const splitBase = (!/\d/.test(myName) && myName.length >= 6) ? myName : null;
+  const isSplitOf = n => {
+    if (!splitBase || !n.startsWith(splitBase) || n === splitBase) return false;
+    return /^\d{1,2}\s*(단지|차|블록|BL)$/.test(n.slice(splitBase.length));
+  };
+
   const claimedByMe = x => {
     if (!siblingNames.length) return true;
     if (!areaFitsComplex(myAreaBreak, x.excluUseAr)) return false;  // 없는 평형 → 내 거래 아님
@@ -159,7 +171,14 @@ function makeMatcher(rec) {
     if (addrMatch(x) && claimedByMe(x)) return true;
     const n = normalize(x.aptNm); if (!n || !myName) return false;
     const xj = parseJibun(x.jibun);
-    if (n === myName) { if (dongMatch(x)) return myDongPart ? true : jibunSoft(x); return !!(xj && myJibun && xj.bon === myJibun.bon && xj.bu != null && myJibun.bu != null && xj.bu === myJibun.bu); }
+    if (n === myName) {
+      if (dongMatch(x)) return myDongPart ? true : jibunSoft(x);
+      // 법정동 표기 상이(가내리 vs 남성리) 대응 — 이름 완전일치 + 본번 일치면 인정
+      return !!(xj && myJibun && xj.bon === myJibun.bon
+                && (xj.bu == null || myJibun.bu == null || xj.bu === myJibun.bu));
+    }
+    // K-apt 한 단지 ↔ 국토부 N단지 쪼개기
+    if (isSplitOf(n) && dongMatch(x)) return true;
     // 국토부명이 "기본명(브랜드)" 형태 → 괄호 떼면 우리 이름과 정확일치 + 같은 법정동이면 동일단지 (지번 상이 대응)
     var nBase = normalize(String(x.aptNm || '').replace(/\([^)]*\)/g, ''));
     if (nBase && nBase === myName && dongMatch(x)) return true;
