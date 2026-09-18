@@ -130,6 +130,12 @@ body:has(#apt-detail-panel.open) .map-top-bar{left:468px}
 .school-menu{position:absolute;top:100%;left:0;margin-top:6px;background:#fff;border:1px solid #e5e7eb;border-radius:9px;box-shadow:0 4px 16px rgba(0,0,0,.18);padding:7px 10px 8px;z-index:96;min-width:120px}
 .school-menu label{display:flex;align-items:center;gap:7px;font-size:12px;color:#333;cursor:pointer;padding:4px 0;white-space:nowrap}
 .school-menu .sdot{width:9px;height:9px;border-radius:50%;flex:none}
+/* 지역 마커 표시값 전환 (인구수/세대수/아파트) */
+.rm-box{display:none;background:#fff;border-radius:9px;box-shadow:0 2px 10px rgba(0,0,0,.15);border:1px solid #e5e7eb;overflow:hidden}
+.rm-box.show{display:inline-flex}
+.rm-box button{border:none;background:#fff;color:#6b7280;font-family:inherit;font-size:12px;font-weight:700;padding:8px 11px;cursor:pointer;white-space:nowrap;transition:background .12s}
+.rm-box button+button{border-left:1px solid #eef0f2}
+.rm-box button.on{background:#1D9E75;color:#fff}
 .school-card{width:236px;background:#fff;border-radius:11px;box-shadow:0 6px 24px rgba(0,0,0,.28);overflow:hidden;cursor:default;text-align:left}
 .sc-top{position:relative;padding:11px 34px 11px 13px;color:#fff}
 .sc-k{font-size:10.5px;font-weight:700;opacity:.92}
@@ -551,6 +557,7 @@ body:has(#apt-detail-panel.open) .map-top-bar{left:468px}
         <button class="mf-rst" onclick="resetMapFilters()" title="필터 초기화">↺ 초기화</button>
       </div></div>
       <div class="map-left-tools">
+        <div class="rm-box" id="rm-box"><button id="rm-pop" onclick="setRegionMetric('pop')">인구</button><button id="rm-hh" onclick="setRegionMetric('hh')">세대</button><button id="rm-apt" onclick="setRegionMetric('apt')">아파트</button></div>
         <div class="pin-label-box"><button id="pin-mode-btn" onclick="togglePinModeMenu(event)">명칭 ▾</button><div id="pin-mode-menu" class="pin-mode-menu" style="display:none"></div></div>
         <div class="school-box">
           <button class="school-btn" id="school-btn" onclick="toggleSchools(event)">학교</button>
@@ -1924,11 +1931,67 @@ function geocodeAndRender(){
   });
 }
 
+// ── 지역 마커에 표시할 값: 인구수 / 세대수(주민등록) / 아파트 ──────────
+//   인구·세대 출처: 행정안전부 주민등록 인구 및 세대현황(법정동 기준)
+//   region_pop.json 이 없거나 해당 지역이 없으면 자동으로 '아파트'로 표시된다.
+var REGION_METRIC='apt';
+try{ REGION_METRIC=localStorage.getItem('regionMetric')||'pop'; }catch(e){ REGION_METRIC='pop'; }
+var REGION_POP=null, _rpPromise=null;
+function loadRegionPop(){
+  if(REGION_POP) return Promise.resolve(REGION_POP);
+  if(!_rpPromise) _rpPromise=fetch(SUPABASE_URL+'/rest/v1/briefs?id=eq.region_pop&select=data',
+      {headers:{apikey:SUPABASE_ANON, Authorization:'Bearer '+SUPABASE_ANON}})
+    .then(function(r){ return r.json(); })
+    .then(function(a){ REGION_POP=(a&&a[0]&&a[0].data)||{ym:'',sido:{},sigungu:{},dong:{}}; return REGION_POP; })
+    .catch(function(){ REGION_POP={ym:'',sido:{},sigungu:{},dong:{}}; return REGION_POP; });
+  return _rpPromise;
+}
+function rpGet(type,sido,sigungu,name,code){
+  if(!REGION_POP) return null;
+  var t=REGION_POP[type]; if(!t) return null;
+  if(type==='sido')    return t[name]||null;
+  if(type==='sigungu') return (code&&t[code]) || t[(sido||'')+'|'+name] || null;
+  return t[(sido||'')+'|'+(sigungu||'')+'|'+name] || null;
+}
+// units/count 는 아파트 기준(단지 세대수 합계 / 단지 수) — 예전과 동일한 폴백
+function regionLabel(type,d,name){
+  name = name || d.name;
+  if(REGION_METRIC!=='apt'){
+    var v=rpGet(type,d.sido,d.sigungu,name,d.code);
+    if(v){
+      if(REGION_METRIC==='pop') return (v[0]||0).toLocaleString()+'명';
+      return (v[1]||0).toLocaleString()+'세대';
+    }
+  }
+  var un=parseInt(d.units)||0, ct=parseInt(d.count)||0;
+  return un>0 ? un.toLocaleString()+'세대' : ct.toLocaleString()+'단지';
+}
+function setRegionMetric(m){
+  REGION_METRIC=m;
+  try{ localStorage.setItem('regionMetric',m); }catch(e){}
+  ['pop','hh','apt'].forEach(function(k){
+    var b=document.getElementById('rm-'+k); if(b) b.classList.toggle('on',k===m);
+  });
+  if(m==='apt') { if(typeof updateMarkersForZoom==='function') updateMarkersForZoom(); return; }
+  loadRegionPop().then(function(){ if(typeof updateMarkersForZoom==='function') updateMarkersForZoom(); });
+}
+function syncRegionMetricUI(){
+  var box=document.getElementById('rm-box');
+  if(box) box.classList.toggle('show', !!(map && map.getLevel()>=6));
+  ['pop','hh','apt'].forEach(function(k){
+    var b=document.getElementById('rm-'+k); if(b) b.classList.toggle('on',k===REGION_METRIC);
+  });
+}
+
 // 줌 레벨별 클러스터
 let zoomOverlays=[];
 function updateMarkersForZoom(){
   if(!map)return;
   const level=map.getLevel();
+  syncRegionMetricUI();
+  if(level>=6 && REGION_METRIC!=='apt' && !REGION_POP){
+    loadRegionPop().then(function(){ if(map&&map.getLevel()>=6) updateMarkersForZoom(); });
+  }
   zoomOverlays.forEach(o=>o.setMap(null));zoomOverlays=[];
   markers.forEach(m=>{m.marker.setMap(null);if(m.overlay)m.overlay.setMap(null);});
   markers=[];
@@ -1990,7 +2053,7 @@ function renderDongInView(){
   // 최대 80개 제한
   visible.slice(0,80).forEach(d=>{
     const pos=new kakao.maps.LatLng(d.lat,d.lng);
-    const u=d.units>0?d.units.toLocaleString()+'세대':d.count+'단지';
+    const u=regionLabel('dong',d);
     const div=document.createElement('div');
     div.style.cssText='background:#1a56db;color:#fff;padding:4px 8px;border-radius:4px;font-size:11px;font-weight:700;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.3);white-space:nowrap;text-align:center;line-height:1.6';
     div.innerHTML=d.name+'<br><span style="font-size:10px;font-weight:400;opacity:.9">'+u+'</span>';
@@ -2073,7 +2136,7 @@ function renderSplitCluster(data, type){
     }
     if(!lat||!lng)return;
     const pos=new kakao.maps.LatLng(lat,lng);
-    const u=d.units>0?d.units.toLocaleString()+'세대':d.count.toLocaleString()+'단지';
+    const u=regionLabel(type,d);
     const div=document.createElement('div');
     div.style.cssText='background:#1a56db;color:#fff;padding:4px 8px;border-radius:4px;font-size:11px;font-weight:700;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.3);white-space:nowrap;text-align:center;line-height:1.6';
     div.innerHTML=displayName+'<br><span style="font-size:10px;font-weight:400;opacity:.9">'+u+'</span>';
@@ -2154,7 +2217,7 @@ function renderCluster(type){
       lng=g.lngs.reduce((a,b)=>a+b,0)/g.lngs.length;
     }
     const pos=new kakao.maps.LatLng(lat,lng);
-    const u=g.units>0?g.units.toLocaleString()+'세대':g.count+'단지';
+    const u=regionLabel(type,g,g.label);
     const o=new kakao.maps.CustomOverlay({position:pos,content,yAnchor:1.1,zIndex:3});
     o.setMap(map);
     zoomOverlays.push(o);
