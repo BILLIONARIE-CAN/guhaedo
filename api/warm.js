@@ -201,14 +201,21 @@ const preBase = 'https://apis.data.go.kr/1613000/RTMSDataSvcSilvTrade/getRTMSDat
 
 const supaHeaders = () => ({ apikey: SUPABASE_KEY, Authorization: `Bearer ${SUPABASE_KEY}`, 'Content-Type': 'application/json' });
 
+// ⚠️ 조회 실패와 '행이 아직 없음'을 반드시 구분해야 한다.
+//    예전엔 둘 다 null 을 돌려줘서, 슈파베이스가 한 번만 느려도 cursor 가 0 으로 리셋되고
+//    그 0 이 그대로 저장되면서 전국 워밍 진행률이 통째로 날아갔다. (51.9% → 14.3%)
 async function getState() {
   try {
-    const r = await fetch(`${SUPABASE_URL}/rest/v1/warm_state?id=eq.1&select=*`, { headers: supaHeaders(), signal: AbortSignal.timeout(4000) });
+    const r = await fetch(`${SUPABASE_URL}/rest/v1/warm_state?id=eq.1&select=*`, { headers: supaHeaders(), signal: AbortSignal.timeout(8000) });
+    if (!r.ok) return { error: true };
     const rows = await r.json();
-    return Array.isArray(rows) && rows[0] ? rows[0] : null;
-  } catch { return null; }
+    if (!Array.isArray(rows)) return { error: true };
+    return rows[0] ? rows[0] : { empty: true };
+  } catch { return { error: true }; }
 }
-async function saveState(cursor, calls_today, day) {
+// cursor 는 절대 뒤로 가지 않는다 (동시 실행이 겹쳐도 진행률이 깎이지 않게)
+async function saveState(cursor, calls_today, day, floor) {
+  if (typeof floor === 'number' && cursor < floor) cursor = floor;
   await fetch(`${SUPABASE_URL}/rest/v1/warm_state`, { method: 'POST', headers: { ...supaHeaders(), Prefer: 'resolution=merge-duplicates' }, body: JSON.stringify({ id: 1, cursor, calls_today, day }), signal: AbortSignal.timeout(4000) }).catch(() => {});
 }
 
@@ -224,7 +231,8 @@ module.exports = async (req, res) => {
   // 상태 확인 전용(HTML, 워밍 안 함) — 알림/모니터링용
   if (req.query.status === '1') {
     const st = await getState();
-    const cursor = st ? (st.cursor || 0) : 0;
+    if (st && st.error) { res.setHeader('Content-Type','text/html; charset=utf-8'); res.end('<!doctype html><meta charset="utf-8"><body style="font-family:sans-serif;padding:20px">상태 조회 실패 — 잠시 후 다시 확인하세요.</body>'); return; }
+    const cursor = (st && !st.empty) ? (st.cursor || 0) : 0;
     const pct = ((cursor / TOTAL_TASKS) * 100).toFixed(1);
     const done = cursor >= TOTAL_TASKS;
     res.setHeader('Content-Type', 'text/html; charset=utf-8');
@@ -240,8 +248,10 @@ module.exports = async (req, res) => {
   const t0 = Date.now();
   const today = new Date().toISOString().slice(0, 10);
   const st = await getState();
-  let cursor = st ? (st.cursor || 0) : 0;
-  let calls_today = st ? (st.day === today ? (st.calls_today || 0) : 0) : 0;
+  if (st && st.error) { res.status(200).json({ ok: false, reason: '상태 조회 실패 — 이번 실행 건너뜀(진행률 보호)' }); return; }
+  const startCursor = (st && !st.empty) ? (st.cursor || 0) : 0;
+  let cursor = startCursor;
+  let calls_today = (st && !st.empty && st.day === today) ? (st.calls_today || 0) : 0;
 
   if (cursor >= TOTAL_TASKS) { res.status(200).json({ done: true, msg: '전체 워밍 완료', totalTasks: TOTAL_TASKS }); return; }
   if (calls_today >= DAILY_CALL_CAP) { res.status(200).json({ ok: true, paused: 'daily cap 도달', cursor, percent: ((cursor / TOTAL_TASKS) * 100).toFixed(1) + '%', calls_today }); return; }
@@ -261,7 +271,7 @@ module.exports = async (req, res) => {
 
     // 코어(매매·전월세) 에러 = 한도초과/장애 가능성 → 빈데이터 박제 방지 위해 캐싱 스킵 + 정지
     if (bR.err || rR.err) {
-      await saveState(cursor, calls_today, today);
+      await saveState(cursor, calls_today, today, startCursor);
       res.status(200).json({ ok: true, stopped: 'API 오류(한도초과 가능) — 다음 실행에서 재개', cursor, percent: ((cursor / TOTAL_TASKS) * 100).toFixed(1) + '%', calls_today });
       return;
     }
@@ -286,6 +296,6 @@ module.exports = async (req, res) => {
     cursor++; processed++;
   }
 
-  await saveState(cursor, calls_today, today);
+  await saveState(cursor, calls_today, today, startCursor);
   res.status(200).json({ ok: true, processed, cursor, totalTasks: TOTAL_TASKS, percent: ((cursor / TOTAL_TASKS) * 100).toFixed(1) + '%', calls_today, day: today });
 };
