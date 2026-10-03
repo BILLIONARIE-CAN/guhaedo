@@ -65,7 +65,7 @@ console.log(`관리비 기존 데이터: ${Object.keys(info).length}개`);
 
 // 4) 관리비 API 호출 (단지 하나)
 async function fetchFee(code) {
-  const url = `https://apis.data.go.kr/1613000/AptBasisInfoServiceV4/getAptMgrcostInfoV4`
+  const url = `https://apis.data.go.kr/1613000/AptBasisInfoServiceV5/getAptMgrcostInfoV5`
             + `?serviceKey=${encodeURIComponent(KEY)}&kaptCode=${code}&_type=json&numOfRows=100`;
   const ctrl  = new AbortController();
   const timer = setTimeout(() => ctrl.abort(), 10000);

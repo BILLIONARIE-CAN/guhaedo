@@ -5,7 +5,7 @@
 //  실행:  cd C:\Users\essoz\GitHub\guhaedo
 //         node scripts/collect_kapt_tel.js
 //
-//  · K-apt 기본정보 API(getAphusBassInfoV4)에서 전화번호를 가져옵니다.
+//  · K-apt 기본정보 API(getAphusBassInfoV5)에서 전화번호를 가져옵니다.
 //    (api/apt.js가 이미 쓰는 그 API. 별도 신청/키 불필요)
 //  · 하루 한도(약 1만콜)라 이번 실행은 BUDGET(기본 9000)개까지만 조회하고 멈춤.
 //    다음 날 같은 명령을 다시 실행하면 "이어서" 합니다 (전국 ~3일).
@@ -67,7 +67,7 @@ function fmtTel(raw) {
 
 // 3) 단지 하나의 전화번호 조회
 async function fetchTel(code) {
-  const url = `https://apis.data.go.kr/1613000/AptBasisInfoServiceV4/getAphusBassInfoV4`
+  const url = `https://apis.data.go.kr/1613000/AptBasisInfoServiceV5/getAphusBassInfoV5`
             + `?serviceKey=${encodeURIComponent(KEY)}&kaptCode=${code}&_type=json`;
   const ctrl = new AbortController();
   const timer = setTimeout(() => ctrl.abort(), 8000);

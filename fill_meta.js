@@ -51,7 +51,7 @@ async function getMissingList() {
 
 // K-apt V4 API로 bjdCode, kaptAddr 가져오기
 async function getV4Info(kaptCode) {
-  const url = `https://apis.data.go.kr/1613000/AptBasisInfoServiceV4/getAphusBassInfoV4?serviceKey=${API_KEY}&kaptCode=${kaptCode}&_type=json`;
+  const url = `https://apis.data.go.kr/1613000/AptBasisInfoServiceV5/getAphusBassInfoV5?serviceKey=${API_KEY}&kaptCode=${kaptCode}&_type=json`;
   const r = await fetch(url, { signal: AbortSignal.timeout(8000) });
   const j = await r.json();
   const item = j?.response?.body?.item;

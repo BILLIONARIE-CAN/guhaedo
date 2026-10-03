@@ -253,7 +253,7 @@ export default async function handler(req, res) {
       let item;
       try {
         const v4 = await fetch(
-          `https://apis.data.go.kr/1613000/AptBasisInfoServiceV4/getAphusBassInfoV4?serviceKey=${KEY}&kaptCode=${code}&_type=json`,
+          `https://apis.data.go.kr/1613000/AptBasisInfoServiceV5/getAphusBassInfoV5?serviceKey=${KEY}&kaptCode=${code}&_type=json`,
           { signal: AbortSignal.timeout(7000) }
         );
         item = (await v4.json())?.response?.body?.item;

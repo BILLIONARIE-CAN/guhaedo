@@ -270,7 +270,7 @@ export default async function handler(req, res) {
     } else if (type === 'list') {
       // 기존 호환성 유지 - 공공데이터 API
       const sidoCode = code.substring(0, 2) + '00';
-      const url = `https://apis.data.go.kr/1613000/AptListService3/getSigunguAptList3?serviceKey=${PUBLIC_API_KEY}&sidoCode=${sidoCode}&sigunguCode=${code}&numOfRows=1000&pageNo=1&_type=json`;
+      const url = `https://apis.data.go.kr/1613000/AptListService4/getSigunguAptList4?serviceKey=${PUBLIC_API_KEY}&sidoCode=${sidoCode}&sigunguCode=${code}&numOfRows=1000&pageNo=1&_type=json`;
       const response = await fetch(url);
       const jsonData = await response.json();
       return res.status(200).json(jsonData);
@@ -299,7 +299,7 @@ export default async function handler(req, res) {
 
       // 2. V4 API 호출
       const KEY = encodeURIComponent(PUBLIC_API_KEY);
-      const detailUrl = `https://apis.data.go.kr/1613000/AptBasisInfoServiceV4/getAphusBassInfoV4?serviceKey=${KEY}&kaptCode=${code}&_type=json`;
+      const detailUrl = `https://apis.data.go.kr/1613000/AptBasisInfoServiceV5/getAphusBassInfoV5?serviceKey=${KEY}&kaptCode=${code}&_type=json`;
       const detailRes = await fetch(detailUrl);
       const detailText = await detailRes.text();
       let item = null;

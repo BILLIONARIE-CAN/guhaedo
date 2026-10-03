@@ -164,6 +164,7 @@ body:has(#apt-detail-panel.open) .map-top-bar{left:468px}
 .mfpanel{position:absolute;top:100%;left:0;margin-top:8px;background:#fff;border-radius:14px;box-shadow:0 8px 28px rgba(0,0,0,.18);padding:16px 16px 14px;width:320px;max-width:calc(100vw - 24px);z-index:130}
 .mfp-title{font-size:13px;font-weight:800;color:#111827;margin-bottom:14px}
 .mfp-note{font-size:11.5px;line-height:1.6;color:#6b7280;background:#f7f8fa;border:1px solid #eceff2;border-radius:8px;padding:8px 10px;margin:-8px 0 12px}
+.mfp-sale{padding-bottom:2px;border-bottom:1px solid #eef0f2;margin-bottom:8px}
 .mfp-slider{position:relative;height:22px;margin:0 4px 6px}
 .mfp-slider .mfp-base{position:absolute;left:0;right:0;top:50%;transform:translateY(-50%);height:4px;background:#e5e7eb;border-radius:2px}
 .mfp-slider .mfp-fill{position:absolute;height:100%;background:#1D9E75;border-radius:2px}
@@ -1931,6 +1932,49 @@ function geocodeAndRender(){
   });
 }
 
+// ── 분양형태 필터 (건물유형 패널 첫 줄) ────────────────────────────
+//   K-apt 분양형태(sale): 분양 / 혼합(=분양+임대) / 임대 / 사택 및 관사 등 / 미상
+//   ⚠️ '임대'는 단독으로만 쓴다. 분양과 같이 켜면 핀이 너무 많아 지도가 무거워진다.
+//   값이 비어 있는 단지(실거래로 발견한 소규모 단지 등)는 '분양'으로 취급한다.
+var SALE_KEYS=[['분양','분양'],['혼합','분양+임대'],['임대','임대']];
+var SALE_FILTER=new Set(['분양','혼합']);
+try{ var _sv=localStorage.getItem('saleFilter');
+  if(_sv){ var _a=JSON.parse(_sv); if(Array.isArray(_a)&&_a.length) SALE_FILTER=new Set(_a); } }catch(e){}
+function saleOf(d){
+  var v=String(d&&d.sale||'').trim();
+  if(v==='임대') return '임대';
+  if(v==='혼합') return '혼합';
+  return '분양';                       // 분양 · 사택 · 미상 · 빈칸 전부 분양 쪽
+}
+function saleOn(v){ return SALE_FILTER.has(v); }
+function mfSaveSale(){ try{ localStorage.setItem('saleFilter', JSON.stringify([...SALE_FILTER])); }catch(e){} }
+function mfSyncSaleBtns(){
+  document.querySelectorAll('#mf-panel .mfp-pre').forEach(function(btn){
+    var oc=btn.getAttribute('onclick')||'', mm=oc.match(/mfToggleSale\('([^']*)'\)/);
+    if(mm) btn.classList.toggle('on', saleOn(mm[1]));
+  });
+}
+function mfToggleSale(v){
+  var isRent = (v==='임대');
+  var rentOn = SALE_FILTER.has('임대');
+  var saleOnAny = SALE_FILTER.has('분양')||SALE_FILTER.has('혼합');
+
+  if(SALE_FILTER.has(v)){                               // 끄기는 항상 허용
+    SALE_FILTER.delete(v);
+    if(!SALE_FILTER.size) SALE_FILTER.add(isRent?'분양':v);   // 최소 하나는 켜둔다
+  } else if(isRent && saleOnAny){
+    toast('임대는 따로 봐야 합니다 — 분양 선택을 먼저 꺼주세요');
+    mfSyncSaleBtns(); return;                           // 임대는 안 켜진다
+  } else if(!isRent && rentOn){
+    toast('임대와 같이 볼 수 없습니다 — 임대를 먼저 꺼주세요');
+    mfSyncSaleBtns(); return;                           // 분양/분양+임대가 안 켜진다
+  } else {
+    SALE_FILTER.add(v);
+  }
+  mfSaveSale(); mfSyncSaleBtns(); mfSyncChip('type');
+  if(map) updateMarkersForZoom();
+}
+
 // ── 지역 마커에 표시할 값: 인구수 / 세대수(주민등록) / 아파트 ──────────
 //   인구·세대 출처: 행정안전부 주민등록 인구 및 세대현황(법정동 기준)
 //   region_pop.json 이 없거나 해당 지역이 없으면 자동으로 '아파트'로 표시된다.
@@ -2863,7 +2907,7 @@ var MF_CUR_YEAR=new Date().getFullYear();
 // 필터 상태: area=버킷키('' 전체), units/age=[lo,hi] 또는 null(전체)
 var MF_STATE={area:[],units:null,age:null,price:null,py:null,jrate:null,gap:null,turn:null,far:null,bcr:null};
 var MF_CFG={
-  type:{label:'건물유형', checks:[['apt','아파트'],['officetel','오피스텔'],['villa','빌라/연립'],['presale','분양']]},
+  type:{label:'건물유형', sales:true, checks:[['apt','아파트'],['officetel','오피스텔'],['villa','빌라/연립'],['presale','분양권']]},
   area:{label:'평형(공급면적)', bucket:true, multi:true,
     presets:[['','전체'],['0','10평미만'],['1','10평대'],['2','20평대'],['3','30평대'],['4','40평대'],['5','50평대'],['6','60평대'],['7','70평대'],['8','80평대~']]},
   units:{label:'세대수', min:0,max:1000,step:10, suffix:'세대', axis:['0','','500','','1000세대'],
@@ -3041,6 +3085,11 @@ function mfPanelHTML(key){
   var cfg=MF_CFG[key];
   var html='<div class="mfp-title">'+cfg.label+'</div>';
   if(cfg.note) html+='<div class="mfp-note">'+cfg.note+'</div>';
+  if(cfg.sales){
+    html+='<div class="mfp-presets mfp-sale">'+SALE_KEYS.map(function(c){
+      return '<button class="mfp-pre'+(saleOn(c[0])?' on':'')+'" onclick="mfToggleSale(\''+c[0]+'\')">'+c[1]+'</button>';
+    }).join('')+'</div><div class="mfp-note">임대는 단독으로만 볼 수 있습니다</div>';
+  }
   if(cfg.checks){
     html+='<div class="mfp-presets">'+cfg.checks.map(function(c){
       return '<button class="mfp-pre'+(mfTypeOn(c[0])?' on':'')+'" onclick="mfToggleTypeBtn(\''+c[0]+'\')">'+c[1]+'</button>';
@@ -3122,7 +3171,8 @@ function mfSetBucket(v){
   mfSyncChip('area'); if(map) updateMarkersForZoom();
 }
 function mfClearOne(key){
-  if(key==='type'){ ['apt','officetel','villa','presale'].forEach(function(t){ toggleTypeFilter(t,true); }); }
+  if(key==='type'){ ['apt','officetel','villa','presale'].forEach(function(t){ toggleTypeFilter(t,true); });
+    SALE_FILTER=new Set(['분양','혼합']); mfSaveSale(); }
   else MF_STATE[key]=key==='area'?[]:null;
   if(mfOpenKey===key){ var p=ge('mf-panel'); p.innerHTML=mfPanelHTML(key); if(!MF_CFG[key].bucket && !MF_CFG[key].checks) mfInitSlider(key); }
   mfSyncChip(key); mfApply(key);
@@ -3130,7 +3180,8 @@ function mfClearOne(key){
 function mfSyncChip(key){
   var chip=ge('mfc-'+key); if(!chip) return;
   var active;
-  if(key==='type') active = !(typeFilters.has('apt')&&typeFilters.has('officetel')&&typeFilters.has('villa')&&(typeof presaleVisible==='undefined'||presaleVisible));
+  if(key==='type') active = !(typeFilters.has('apt')&&typeFilters.has('officetel')&&typeFilters.has('villa')&&(typeof presaleVisible==='undefined'||presaleVisible))
+                          || SALE_FILTER.has('임대') || !(SALE_FILTER.has('분양')&&SALE_FILTER.has('혼합'));
   else if(key==='area') active = !!(MF_STATE.area&&MF_STATE.area.length);
   else active = !!MF_STATE[key];
   chip.classList.toggle('on',active);
@@ -3139,6 +3190,7 @@ function resetMapFilters(){
   MF_STATE={area:[],units:null,age:null,price:null,py:null,jrate:null,gap:null,turn:null,far:null,bcr:null};
   ['area','units','age','price','py','jrate','gap'].forEach(mfSyncChip);
   ['apt','officetel'].forEach(function(t){typeFilters.add(t);var b=ge('mfc-'+t);if(b)b.classList.add('on');});
+  SALE_FILTER=new Set(['분양','혼합']); mfSaveSale(); mfSyncChip('type');
   MSET=null;
   mfClosePanel();
   if(map) updateMarkersForZoom();
@@ -3151,6 +3203,7 @@ document.addEventListener('click',function(e){
 });
 function passMapFilter(d){
   if(d.type!=='apt'&&d.type!=='officetel'&&d.type!=='villa') return true;
+  if(!saleOn(saleOf(d))) return false;                 // 분양형태 필터(분양 / 분양+임대 / 임대)
   if(MF_STATE.units){ var u=parseInt(String(d.units).replace(/[^0-9]/g,''))||0;
     if(u<MF_STATE.units[0]) return false;
     if(MF_STATE.units[1]<1000 && u>MF_STATE.units[1]) return false; }
@@ -4256,7 +4309,7 @@ let allAptData=[];
 let _allAptPromise=null;
 
 async function _fetchAllAptFromServer(){
-  const sel='code,name,sido,sigungu,emd,sigungu_code,units,lat,lng,addr,jibun_addr,built,apt_type,area_break';
+  const sel='code,name,sido,sigungu,emd,sigungu_code,units,lat,lng,addr,jibun_addr,built,apt_type,area_break,sale';
   const out=[];
   for(let off=0; off<40000; off+=1000){
     const r=await fetch(SUPABASE_URL+'/rest/v1/apt_map?select='+sel+'&order=code.asc&limit=1000&offset='+off,
@@ -4265,7 +4318,7 @@ async function _fetchAllAptFromServer(){
     const d=await r.json();
     for(const x of d) out.push({code:x.code,name:x.name,sido:x.sido,sigungu:x.sigungu,emd:x.emd,
       sigunguCode:x.sigungu_code,units:x.units,lat:x.lat,lng:x.lng,addr:x.addr||'',
-      jibunAddr:x.jibun_addr||'',built:x.built||'',aptType:x.apt_type||'',areaBreak:x.area_break||null});
+      jibunAddr:x.jibun_addr||'',built:x.built||'',aptType:x.apt_type||'',areaBreak:x.area_break||null,sale:x.sale||''});
     if(d.length<1000) break;
   }
   return out;
