@@ -162,7 +162,11 @@ body:has(#apt-detail-panel.open) .map-top-bar{left:468px}
 .mfc.open{background:#ecfdf5;border-color:#1D9E75;color:#0F6E56;font-weight:700}
 .mfc .mfc-cv{margin-left:2px;font-size:10px}
 .mfpanel{position:absolute;top:100%;left:0;margin-top:8px;background:#fff;border-radius:14px;box-shadow:0 8px 28px rgba(0,0,0,.18);padding:16px 16px 14px;width:320px;max-width:calc(100vw - 24px);z-index:130}
-.mfp-title{font-size:13px;font-weight:800;color:#111827;margin-bottom:14px}
+.mfp-title{font-size:13px;font-weight:800;color:#111827;margin-bottom:14px;display:flex;align-items:center;gap:6px}
+.mfp-help{width:16px;height:16px;flex:none;border:none;padding:0;border-radius:50%;background:#e5e7eb;color:#6b7280;font-size:11px;font-weight:800;line-height:16px;text-align:center;cursor:pointer;font-family:inherit}
+.mfp-help:hover,.mfp-help.on{background:#1D9E75;color:#fff}
+.mfp-helpbox{display:none;font-size:11.5px;line-height:1.65;color:#4b5563;background:#f7f8fa;border:1px solid #eceff2;border-radius:8px;padding:9px 11px;margin:-8px 0 12px}
+.mfp-helpbox.show{display:block}
 .mfp-note{font-size:11.5px;line-height:1.6;color:#6b7280;background:#f7f8fa;border:1px solid #eceff2;border-radius:8px;padding:8px 10px;margin:-8px 0 12px}
 .mfp-sale{padding-bottom:2px;border-bottom:1px solid #eef0f2;margin-bottom:8px}
 .mfp-slider{position:relative;height:22px;margin:0 4px 6px}
@@ -1941,7 +1945,8 @@ var SALE_FILTER=new Set(['분양','혼합']);
 try{ var _sv=localStorage.getItem('saleFilter');
   if(_sv){ var _a=JSON.parse(_sv); if(Array.isArray(_a)&&_a.length) SALE_FILTER=new Set(_a); } }catch(e){}
 function saleOf(d){
-  var v=String(d&&d.sale||'').trim();
+  // ⚠️ 지도 객체(MAP_DATA)에서 d.sale 은 '매매가'다. 분양형태는 d.saleType 에 들어있다.
+  var v=String(d&&(d.saleType!==undefined?d.saleType:d.sale)||'').trim();
   if(v==='임대') return '임대';
   if(v==='혼합') return '혼합';
   return '분양';                       // 분양 · 사택 · 미상 · 빈칸 전부 분양 쪽
@@ -2906,7 +2911,7 @@ var MF_CUR_YEAR=new Date().getFullYear();
 // 필터 상태: area=버킷키('' 전체), units/age=[lo,hi] 또는 null(전체)
 var MF_STATE={area:[],units:null,age:null,price:null,py:null,jrate:null,gap:null,turn:null,far:null,bcr:null};
 var MF_CFG={
-  type:{label:'건물유형', sales:true, checks:[['apt','아파트'],['officetel','오피스텔'],['villa','빌라/연립'],['presale','분양권']]},
+  type:{label:'건물유형', sales:true, help:'<b>분양</b>·<b>분양+임대</b>는 같이 볼 수 있습니다.<br><b>임대</b>는 단독으로만 볼 수 있습니다 — 전부 같이 켜면 핀이 너무 많아 지도가 느려집니다.<br>분양형태는 K-apt 공동주택 정보 기준이며, 정보가 없는 단지는 분양으로 봅니다.', checks:[['apt','아파트'],['officetel','오피스텔'],['villa','빌라/연립'],['presale','분양권']]},
   area:{label:'평형(공급면적)', bucket:true, multi:true,
     presets:[['','전체'],['0','10평미만'],['1','10평대'],['2','20평대'],['3','30평대'],['4','40평대'],['5','50평대'],['6','60평대'],['7','70평대'],['8','80평대~']]},
   units:{label:'세대수', min:0,max:1000,step:10, suffix:'세대', axis:['0','','500','','1000세대'],
@@ -3082,12 +3087,15 @@ function mfPanel(key,btn){
 function mfClosePanel(){ mfOpenKey=null; var p=ge('mf-panel'); if(p)p.style.display='none'; document.querySelectorAll('.mfc').forEach(function(c){c.classList.remove('open');}); }
 function mfPanelHTML(key){
   var cfg=MF_CFG[key];
-  var html='<div class="mfp-title">'+cfg.label+'</div>';
+  var html='<div class="mfp-title">'+cfg.label
+    + (cfg.help ? '<button class="mfp-help" onclick="mfToggleHelp(this)" title="설명 보기">!</button>' : '')
+    + '</div>';
+  if(cfg.help) html+='<div class="mfp-helpbox" id="mfp-helpbox">'+cfg.help+'</div>';
   if(cfg.note) html+='<div class="mfp-note">'+cfg.note+'</div>';
   if(cfg.sales){
     html+='<div class="mfp-presets mfp-sale">'+SALE_KEYS.map(function(c){
       return '<button class="mfp-pre'+(saleOn(c[0])?' on':'')+'" onclick="mfToggleSale(\''+c[0]+'\')">'+c[1]+'</button>';
-    }).join('')+'</div><div class="mfp-note">임대는 단독으로만 볼 수 있습니다</div>';
+    }).join('')+'</div>';
   }
   if(cfg.checks){
     html+='<div class="mfp-presets">'+cfg.checks.map(function(c){
@@ -3110,6 +3118,11 @@ function mfPanelHTML(key){
   }
   html+='<div class="mfp-foot"><button class="mfp-reset" onclick="mfClearOne(\''+key+'\')">↺ 초기화</button><button class="mfp-done" onclick="mfClosePanel()">적용</button></div>';
   return html;
+}
+function mfToggleHelp(btn){
+  var box=document.getElementById('mfp-helpbox'); if(!box) return;
+  var on=box.classList.toggle('show');
+  btn.classList.toggle('on', on);
 }
 function mfPresetActive(key,val){
   var st=MF_STATE[key];
@@ -4317,7 +4330,7 @@ async function _fetchAllAptFromServer(){
     const d=await r.json();
     for(const x of d) out.push({code:x.code,name:x.name,sido:x.sido,sigungu:x.sigungu,emd:x.emd,
       sigunguCode:x.sigungu_code,units:x.units,lat:x.lat,lng:x.lng,addr:x.addr||'',
-      jibunAddr:x.jibun_addr||'',built:x.built||'',aptType:x.apt_type||'',areaBreak:x.area_break||null,sale:x.sale||''});
+      jibunAddr:x.jibun_addr||'',built:x.built||'',aptType:x.apt_type||'',areaBreak:x.area_break||null,saleType:x.sale||''});
     if(d.length<1000) break;
   }
   return out;
