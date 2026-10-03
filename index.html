@@ -167,6 +167,7 @@ body:has(#apt-detail-panel.open) .map-top-bar{left:468px}
 .mfp-help:hover,.mfp-help.on{background:#1D9E75;color:#fff}
 .mfp-helpbox{display:none;font-size:11.5px;line-height:1.65;color:#4b5563;background:#f7f8fa;border:1px solid #eceff2;border-radius:8px;padding:9px 11px;margin:-8px 0 12px}
 .mfp-helpbox.show{display:block}
+.mfp-pre.dim{background:#f3f4f6!important;color:#b6bcc4!important;border-color:#e9ecef!important;cursor:not-allowed}
 .mfp-note{font-size:11.5px;line-height:1.6;color:#6b7280;background:#f7f8fa;border:1px solid #eceff2;border-radius:8px;padding:8px 10px;margin:-8px 0 12px}
 .mfp-sale{padding-bottom:2px;border-bottom:1px solid #eef0f2;margin-bottom:8px}
 .mfp-slider{position:relative;height:22px;margin:0 4px 6px}
@@ -1953,6 +1954,16 @@ function saleOf(d){
 }
 function saleOn(v){ return SALE_FILTER.has(v); }
 function mfSaveSale(){ try{ localStorage.setItem('saleFilter', JSON.stringify([...SALE_FILTER])); }catch(e){} }
+function mfRentMode(){ return SALE_FILTER.has('임대'); }   // 임대는 아파트만 있으므로 건물유형 선택 불필요
+function mfSyncTypeBtns(){
+  var dim=mfRentMode();
+  document.querySelectorAll('#mf-panel .mfp-pre').forEach(function(btn){
+    var oc=btn.getAttribute('onclick')||'';
+    if(oc.indexOf('mfToggleTypeBtn')<0) return;
+    btn.classList.toggle('dim', dim);
+    btn.disabled = dim;
+  });
+}
 function mfSyncSaleBtns(){
   document.querySelectorAll('#mf-panel .mfp-pre').forEach(function(btn){
     var oc=btn.getAttribute('onclick')||'', mm=oc.match(/mfToggleSale\('([^']*)'\)/);
@@ -1974,8 +1985,9 @@ function mfToggleSale(v){
     mfSyncSaleBtns(); return;                           // 분양/분양+임대가 안 켜진다
   } else {
     SALE_FILTER.add(v);
+    if(isRent) typeFilters.add('apt');     // 임대로 전환 시 아파트는 켜둔다(아무것도 안 보이는 상황 방지)
   }
-  mfSaveSale(); mfSyncSaleBtns(); mfSyncChip('type');
+  mfSaveSale(); mfSyncSaleBtns(); mfSyncTypeBtns(); mfSyncChip('type');
   if(map) updateMarkersForZoom();
 }
 
@@ -2911,7 +2923,7 @@ var MF_CUR_YEAR=new Date().getFullYear();
 // 필터 상태: area=버킷키('' 전체), units/age=[lo,hi] 또는 null(전체)
 var MF_STATE={area:[],units:null,age:null,price:null,py:null,jrate:null,gap:null,turn:null,far:null,bcr:null};
 var MF_CFG={
-  type:{label:'건물유형', sales:true, help:'<b>분양</b>·<b>분양+임대</b>는 같이 볼 수 있습니다.<br><b>임대</b>는 단독으로만 볼 수 있습니다 — 전부 같이 켜면 핀이 너무 많아 지도가 느려집니다.<br>분양형태는 K-apt 공동주택 정보 기준이며, 정보가 없는 단지는 분양으로 봅니다.', checks:[['apt','아파트'],['officetel','오피스텔'],['villa','빌라/연립'],['presale','분양권']]},
+  type:{label:'건물유형', sales:true, help:'<b>분양</b>·<b>분양+임대</b>는 같이 볼 수 있습니다.<br><b>임대</b>는 단독으로만 볼 수 있습니다.<br>분양형태는 K-apt 공동주택 정보 기준이며, 정보가 없는 단지는 분양으로 봅니다.', checks:[['apt','아파트'],['officetel','오피스텔'],['villa','빌라/연립'],['presale','분양권']]},
   area:{label:'평형(공급면적)', bucket:true, multi:true,
     presets:[['','전체'],['0','10평미만'],['1','10평대'],['2','20평대'],['3','30평대'],['4','40평대'],['5','50평대'],['6','60평대'],['7','70평대'],['8','80평대~']]},
   units:{label:'세대수', min:0,max:1000,step:10, suffix:'세대', axis:['0','','500','','1000세대'],
@@ -3099,7 +3111,9 @@ function mfPanelHTML(key){
   }
   if(cfg.checks){
     html+='<div class="mfp-presets">'+cfg.checks.map(function(c){
-      return '<button class="mfp-pre'+(mfTypeOn(c[0])?' on':'')+'" onclick="mfToggleTypeBtn(\''+c[0]+'\')">'+c[1]+'</button>';
+      var dim=mfRentMode();
+      return '<button class="mfp-pre'+(mfTypeOn(c[0])?' on':'')+(dim?' dim':'')+'"'+(dim?' disabled':'')
+        +' onclick="mfToggleTypeBtn(\''+c[0]+'\')">'+c[1]+'</button>';
     }).join('')+'</div>';
   } else if(cfg.bucket){
     html+='<div class="mfp-presets">'+cfg.presets.map(function(p){
@@ -3160,6 +3174,7 @@ function mfSetPreset(key,i){
 function mfApply(key){ if(MF_CFG[key]&&MF_CFG[key].metric) refreshMetricFilter(); else if(map) updateMarkersForZoom(); }
 function mfTypeOn(t){ return t==='presale' ? (typeof presaleVisible!=='undefined'&&presaleVisible) : typeFilters.has(t); }
 function mfToggleTypeBtn(t){
+  if(mfRentMode()) return;             // 임대 모드에서는 건물유형 고정
   toggleTypeFilter(t, !mfTypeOn(t));   // 현재 상태 반전
   // 버튼 on 상태만 갱신(재렌더 X) → 다중선택 중 패널 유지
   document.querySelectorAll('#mf-panel .mfp-pre').forEach(function(btn){
