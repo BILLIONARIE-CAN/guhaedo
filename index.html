@@ -1959,9 +1959,8 @@ function mfToggleSale(v){
   var rentOn = SALE_FILTER.has('임대');
   var saleOnAny = SALE_FILTER.has('분양')||SALE_FILTER.has('혼합');
 
-  if(SALE_FILTER.has(v)){                               // 끄기는 항상 허용
+  if(SALE_FILTER.has(v)){                               // 끄기는 항상 허용 (셋 다 꺼도 됨)
     SALE_FILTER.delete(v);
-    if(!SALE_FILTER.size) SALE_FILTER.add(isRent?'분양':v);   // 최소 하나는 켜둔다
   } else if(isRent && saleOnAny){
     toast('임대는 따로 봐야 합니다 — 분양 선택을 먼저 꺼주세요');
     mfSyncSaleBtns(); return;                           // 임대는 안 켜진다
