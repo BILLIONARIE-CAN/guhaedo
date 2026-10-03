@@ -224,26 +224,55 @@ const safeJ = (u, ms) => fetch(u, { signal: AbortSignal.timeout(ms) })
   .then(j => { const c = j?.response?.header?.resultCode; if (c && c !== '00' && c !== '000') return { items: [], err: true }; return { items: parseItems(j), err: false }; })
   .catch(() => ({ items: [], err: true }));
 
-module.exports = async (req, res) => {
-  if ((req.query.secret || '') !== WARM_SECRET) { res.status(403).json({ error: 'forbidden' }); return; }
-  if (!SUPABASE_URL || !SUPABASE_KEY) { res.status(200).json({ ok: false, reason: 'no env' }); return; }
+// 카운트 한 건 (PostgREST count=exact)
+async function countOf(path) {
+  try {
+    const r = await fetch(`${SUPABASE_URL}/rest/v1/${path}`, {
+      headers: { ...supaHeaders(), Prefer: 'count=exact', Range: '0-0' }, signal: AbortSignal.timeout(6000) });
+    const cr = r.headers.get('content-range') || '';
+    const n = parseInt((cr.split('/')[1] || '').trim());
+    return isNaN(n) ? null : n;
+  } catch { return null; }
+}
 
-  // 상태 확인 전용(HTML, 워밍 안 함) — 알림/모니터링용
+module.exports = async (req, res) => {
+  // ── 상태 확인은 비밀키 없이 (URL 에 키가 들어가면 자동화 도구가 차단한다) ──
+  //    읽기 전용이고 진행률만 보여주므로 공개해도 문제 없음. 워밍 실행은 아래에서 키 검사.
   if (req.query.status === '1') {
+    if (!SUPABASE_URL || !SUPABASE_KEY) { res.status(200).send('환경변수 없음'); return; }
     const st = await getState();
-    if (st && st.error) { res.setHeader('Content-Type','text/html; charset=utf-8'); res.end('<!doctype html><meta charset="utf-8"><body style="font-family:sans-serif;padding:20px">상태 조회 실패 — 잠시 후 다시 확인하세요.</body>'); return; }
+    res.setHeader('Content-Type', 'text/html; charset=utf-8');
+    res.setHeader('Cache-Control', 'no-store');
+    if (st && st.error) { res.end('<!doctype html><meta charset="utf-8"><body style="font-family:sans-serif;padding:20px">상태 조회 실패 — 잠시 후 다시 확인하세요.</body>'); return; }
     const cursor = (st && !st.empty) ? (st.cursor || 0) : 0;
     const pct = ((cursor / TOTAL_TASKS) * 100).toFixed(1);
     const done = cursor >= TOTAL_TASKS;
-    res.setHeader('Content-Type', 'text/html; charset=utf-8');
-    res.end(`<!doctype html><meta charset="utf-8"><body style="font-family:sans-serif;padding:20px;line-height:1.7">`
-      + `<h2>실거래가 워밍 상태</h2>`
-      + `<p>진행률: <b>${pct}%</b> (${cursor} / ${TOTAL_TASKS} 태스크)</p>`
-      + `<p>오늘 국토부 호출: ${st ? (st.calls_today || 0) : 0} · 마지막 실행일: ${st ? (st.day || '-') : '-'}</p>`
-      + `<p><b>${done ? '✅ 전국 워밍 완료' : '⏳ 진행 중'}</b></p>`
+
+    const [aptTotal, blank, discRow] = await Promise.all([
+      countOf('apt_map?select=code'),
+      countOf('apt_metrics?select=kapt_code&price_m=is.null'),
+      fetch(`${SUPABASE_URL}/rest/v1/briefs?id=eq.disc_state&select=data`, { headers: supaHeaders(), signal: AbortSignal.timeout(6000) })
+        .then(r => r.json()).then(a => (a && a[0] && a[0].data) || null).catch(() => null),
+    ]);
+    const d = discRow || {};
+    const discLine = discRow
+      ? `${d.i || 0} / ${d.total || 252} 시군구 · 누적 저장 ${d.saved || 0}개 · 갱신 ${d.at || '-'}`
+      : '기록 없음 (브라우저 탐색 루프 미실행)';
+
+    res.end(`<!doctype html><meta charset="utf-8"><title>아구구 작업 상태</title>`
+      + `<body style="font-family:sans-serif;padding:20px;line-height:1.8">`
+      + `<h2>아구구 백그라운드 작업 상태</h2>`
+      + `<p>실거래가 워밍: <b>${pct}%</b> (${cursor} / ${TOTAL_TASKS} 태스크) — ${done ? '✅ 완료' : '⏳ 진행 중'}</p>`
+      + `<p>오늘 국토부 호출: ${(st && st.calls_today) || 0} · 마지막 실행일: ${(st && st.day) || '-'}</p>`
+      + `<p>누락단지 탐색: ${discLine}</p>`
+      + `<p>지도 단지 수(apt_map): ${aptTotal === null ? '조회실패' : aptTotal}</p>`
+      + `<p>시세 없는 단지: ${blank === null ? '조회실패' : blank}</p>`
       + `</body>`);
     return;
   }
+
+  if ((req.query.secret || '') !== WARM_SECRET) { res.status(403).json({ error: 'forbidden' }); return; }
+  if (!SUPABASE_URL || !SUPABASE_KEY) { res.status(200).json({ ok: false, reason: 'no env' }); return; }
 
   const t0 = Date.now();
   const today = new Date().toISOString().slice(0, 10);
