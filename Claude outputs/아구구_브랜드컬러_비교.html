@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>아구구 브랜드 컬러 비교</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif;
+  background:#eef0f3;color:#1a1a1a;font-size:14px;line-height:1.6;padding:24px 16px 60px}
+.wrap{max-width:1100px;margin:0 auto}
+h1{font-size:20px;font-weight:800;margin-bottom:6px}
+.sub{color:#6b7280;font-size:13px;margin-bottom:24px}
+
+.card{background:#fff;border-radius:14px;box-shadow:0 2px 14px rgba(0,0,0,.07);overflow:hidden;margin-bottom:28px}
+.cap{display:flex;align-items:center;gap:10px;padding:14px 18px;border-bottom:1px solid #eef0f2;flex-wrap:wrap}
+.cap h2{font-size:15px;font-weight:800}
+.chips{display:flex;gap:5px;margin-left:auto;flex-wrap:wrap}
+.hex{font-size:11px;font-family:ui-monospace,Menlo,monospace;color:#6b7280;background:#f4f5f7;
+  border:1px solid #e8eaed;border-radius:5px;padding:2px 6px}
+.tag{font-size:11px;font-weight:700;border-radius:999px;padding:2px 9px}
+.tag.ok{background:#E6F6EF;color:#0F6E56}
+.tag.warn{background:#FDF0E3;color:#B45309}
+
+/* ── 가짜 아구구 화면 ── */
+.app{--c:#1D9E75;--cd:#0F6E56;--cbg:#E1F5EE;--on:#fff}
+.hdr{height:46px;background:#fff;border-bottom:1px solid #e3e5e8;display:flex;align-items:center;
+  padding:0 14px;gap:10px}
+.logo{display:flex;align-items:center;gap:7px;font-weight:800;font-size:15px}
+.logo i{width:24px;height:24px;border-radius:6px;background:var(--c);display:inline-flex;
+  align-items:center;justify-content:center;color:var(--on);font-size:13px;font-style:normal;font-weight:800}
+.hdr .sch{flex:1;max-width:260px;height:28px;border:1px solid #e3e5e8;border-radius:7px;
+  background:#fafbfc;display:flex;align-items:center;padding:0 10px;color:#9aa0a6;font-size:12px}
+.hdr .pro{margin-left:auto;background:var(--c);color:var(--on);font-size:11.5px;font-weight:700;
+  border-radius:6px;padding:5px 11px}
+
+.body{display:flex;height:290px}
+.side{width:188px;border-right:1px solid #e3e5e8;background:#fff;padding:10px;flex:none}
+.tabs{display:flex;gap:4px;margin-bottom:9px}
+.tabs b{flex:1;text-align:center;font-size:11.5px;font-weight:700;padding:6px 0;border-radius:6px;
+  background:#f3f4f6;color:#8b9096}
+.tabs b.on{background:var(--cbg);color:var(--cd)}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:5px}
+.grid span{font-size:11.5px;text-align:center;padding:7px 0;border:1px solid #eceef0;border-radius:6px;color:#4b5563}
+.grid span.on{background:var(--c);color:var(--on);border-color:var(--c);font-weight:700}
+.cta{margin-top:10px;background:var(--cd);color:#fff;border-radius:8px;padding:9px 10px;
+  font-size:11.5px;font-weight:700;text-align:center}
+
+.map{flex:1;position:relative;background:
+  repeating-linear-gradient(0deg,#e9eef2 0 1px,transparent 1px 34px),
+  repeating-linear-gradient(90deg,#e9eef2 0 1px,transparent 1px 34px),#f2f6f8;overflow:hidden}
+.bar{position:absolute;top:9px;left:9px;right:9px;display:flex;gap:5px;flex-wrap:wrap;z-index:3}
+.bar b{background:#fff;border:1px solid #e3e5e8;border-radius:999px;font-size:11px;font-weight:700;
+  padding:5px 10px;color:#5f6368;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+.bar b.on{background:var(--c);color:var(--on);border-color:var(--c)}
+.pin{position:absolute;transform:translate(-50%,-100%);background:var(--c);color:var(--on);
+  border-radius:5px;font-size:10.5px;font-weight:700;padding:4px 7px;white-space:nowrap;
+  box-shadow:0 2px 6px rgba(0,0,0,.28);text-align:center;line-height:1.45}
+.pin small{display:block;font-size:9px;font-weight:400;opacity:.9}
+.pin::after{content:'';position:absolute;left:50%;bottom:-4px;transform:translateX(-50%);
+  border:4px solid transparent;border-top-color:var(--c)}
+.up{position:absolute;transform:translate(-50%,-100%);background:#fff;border:1.5px solid #E53935;
+  color:#E53935;border-radius:5px;font-size:10px;font-weight:800;padding:3px 7px;white-space:nowrap;
+  box-shadow:0 2px 6px rgba(0,0,0,.16)}
+.dn{position:absolute;transform:translate(-50%,-100%);background:#fff;border:1.5px solid #1A56DB;
+  color:#1A56DB;border-radius:5px;font-size:10px;font-weight:800;padding:3px 7px;white-space:nowrap;
+  box-shadow:0 2px 6px rgba(0,0,0,.16)}
+.note{padding:12px 18px;border-top:1px solid #eef0f2;font-size:12.5px;color:#4b5563;background:#fcfcfd}
+.note b{color:#111827}
+
+/* ── 네 가지 안 ── */
+.green{--c:#1D9E75;--cd:#0F6E56;--cbg:#E1F5EE;--on:#fff}
+.red  {--c:#C62828;--cd:#8E1F1F;--cbg:#FBEAEA;--on:#fff}
+.yellow{--c:#FFB800;--cd:#3F4756;--cbg:#FFF4D6;--on:#2B2B2B}
+.blue {--c:#1A56DB;--cd:#123C9B;--cbg:#E7EDFB;--on:#fff}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>아구구 브랜드 컬러 — 같은 화면, 색만 바꿔서</h1>
+  <p class="sub">헤더 · 사이드바 · 필터칩 · 지도 마커에 같은 색을 적용했습니다.
+    지도 안의 <b style="color:#E53935">빨간 테두리</b>는 상승, <b style="color:#1A56DB">파란 테두리</b>는 하락 표시입니다 — 브랜드 색과 부딪히는지 보세요.</p>
+
+  <!-- 1. 현재 초록 -->
+  <div class="card">
+    <div class="cap"><h2>지금 — 초록</h2>
+      <span class="tag ok">상승·하락 표시와 안 겹침</span>
+      <div class="chips"><span class="hex">#1D9E75</span><span class="hex">#0F6E56</span></div>
+    </div>
+    <div class="app green">
+      <div class="hdr"><div class="logo"><i>아</i>아구구</div>
+        <div class="sch">아파트명 · 지역 검색</div><div class="pro">프로중개사</div></div>
+      <div class="body">
+        <div class="side">
+          <div class="tabs"><b class="on">아파트/오피스텔</b><b>분양</b></div>
+          <div class="grid"><span class="on">서울시</span><span>경기도</span><span>부산시</span><span>대구시</span><span>인천시</span><span>광주시</span></div>
+          <div class="cta">전국 아파트 랭킹 ›</div>
+        </div>
+        <div class="map">
+          <div class="bar"><b class="on">건물유형</b><b>평형</b><b>세대수</b><b>입주년차</b><b>매매가</b></div>
+          <div class="pin" style="left:26%;top:48%">래미안<small>1,243세대</small></div>
+          <div class="pin" style="left:57%;top:62%">자이<small>890세대</small></div>
+          <div class="pin" style="left:78%;top:42%">푸르지오<small>612세대</small></div>
+          <div class="up" style="left:41%;top:79%">▲ 2.4%</div>
+          <div class="dn" style="left:68%;top:86%">▼ 1.1%</div>
+        </div>
+      </div>
+    </div>
+    <div class="note">지금 쓰는 색입니다. 상승 빨강·하락 파랑과 <b>색이 안 겹쳐서</b> 지도에서 정보가 또렷합니다. 다만 네이버부동산이 초록이라 차별화는 약합니다.</div>
+  </div>
+
+  <!-- 2. 빨강 -->
+  <div class="card">
+    <div class="cap"><h2>빨강</h2>
+      <span class="tag warn">상승 표시와 같은 계열</span>
+      <div class="chips"><span class="hex">#C62828</span><span class="hex">#8E1F1F</span></div>
+    </div>
+    <div class="app red">
+      <div class="hdr"><div class="logo"><i>아</i>아구구</div>
+        <div class="sch">아파트명 · 지역 검색</div><div class="pro">프로중개사</div></div>
+      <div class="body">
+        <div class="side">
+          <div class="tabs"><b class="on">아파트/오피스텔</b><b>분양</b></div>
+          <div class="grid"><span class="on">서울시</span><span>경기도</span><span>부산시</span><span>대구시</span><span>인천시</span><span>광주시</span></div>
+          <div class="cta">전국 아파트 랭킹 ›</div>
+        </div>
+        <div class="map">
+          <div class="bar"><b class="on">건물유형</b><b>평형</b><b>세대수</b><b>입주년차</b><b>매매가</b></div>
+          <div class="pin" style="left:26%;top:48%">래미안<small>1,243세대</small></div>
+          <div class="pin" style="left:57%;top:62%">자이<small>890세대</small></div>
+          <div class="pin" style="left:78%;top:42%">푸르지오<small>612세대</small></div>
+          <div class="up" style="left:41%;top:79%">▲ 2.4%</div>
+          <div class="dn" style="left:68%;top:86%">▼ 1.1%</div>
+        </div>
+      </div>
+    </div>
+    <div class="note">눈에 제일 강하게 박힙니다. 한국에서 빨강은 <b>상승</b>이라 부동산과 궁합도 나쁘지 않습니다. 문제는 지도 — 핀과 상승 표시가 <b>같은 빨강 계열</b>이라 "오른 단지"인지 "그냥 핀"인지 구분이 흐려집니다. 로고·헤더만 빨강으로 두고 핀은 다른 색으로 빼는 게 안전합니다.</div>
+  </div>
+
+  <!-- 3. 노랑 -->
+  <div class="card">
+    <div class="cap"><h2>노랑</h2>
+      <span class="tag warn">흰 글자가 안 보임 → 검정 글자 필요</span>
+      <div class="chips"><span class="hex">#FFB800</span><span class="hex">#3F4756</span></div>
+    </div>
+    <div class="app yellow">
+      <div class="hdr"><div class="logo"><i>아</i>아구구</div>
+        <div class="sch">아파트명 · 지역 검색</div><div class="pro">프로중개사</div></div>
+      <div class="body">
+        <div class="side">
+          <div class="tabs"><b class="on">아파트/오피스텔</b><b>분양</b></div>
+          <div class="grid"><span class="on">서울시</span><span>경기도</span><span>부산시</span><span>대구시</span><span>인천시</span><span>광주시</span></div>
+          <div class="cta">전국 아파트 랭킹 ›</div>
+        </div>
+        <div class="map">
+          <div class="bar"><b class="on">건물유형</b><b>평형</b><b>세대수</b><b>입주년차</b><b>매매가</b></div>
+          <div class="pin" style="left:26%;top:48%">래미안<small>1,243세대</small></div>
+          <div class="pin" style="left:57%;top:62%">자이<small>890세대</small></div>
+          <div class="pin" style="left:78%;top:42%">푸르지오<small>612세대</small></div>
+          <div class="up" style="left:41%;top:79%">▲ 2.4%</div>
+          <div class="dn" style="left:68%;top:86%">▼ 1.1%</div>
+        </div>
+      </div>
+    </div>
+    <div class="note">밝고 친근합니다. KB국민은행·카카오가 쓰는 쪽입니다. 대신 <b>노랑 위에 흰 글자는 안 읽혀서</b> 글자를 전부 검정으로 바꿔야 하고, 지도의 연한 바탕과 섞여 핀이 덜 또렷합니다. 쓰려면 짙은 남색을 짝으로 붙여야 모양이 잡힙니다.</div>
+  </div>
+
+  <!-- 4. 파랑 -->
+  <div class="card">
+    <div class="cap"><h2>파랑</h2>
+      <span class="tag warn">하락 표시와 같은 계열</span>
+      <div class="chips"><span class="hex">#1A56DB</span><span class="hex">#123C9B</span></div>
+    </div>
+    <div class="app blue">
+      <div class="hdr"><div class="logo"><i>아</i>아구구</div>
+        <div class="sch">아파트명 · 지역 검색</div><div class="pro">프로중개사</div></div>
+      <div class="body">
+        <div class="side">
+          <div class="tabs"><b class="on">아파트/오피스텔</b><b>분양</b></div>
+          <div class="grid"><span class="on">서울시</span><span>경기도</span><span>부산시</span><span>대구시</span><span>인천시</span><span>광주시</span></div>
+          <div class="cta">전국 아파트 랭킹 ›</div>
+        </div>
+        <div class="map">
+          <div class="bar"><b class="on">건물유형</b><b>평형</b><b>세대수</b><b>입주년차</b><b>매매가</b></div>
+          <div class="pin" style="left:26%;top:48%">래미안<small>1,243세대</small></div>
+          <div class="pin" style="left:57%;top:62%">자이<small>890세대</small></div>
+          <div class="pin" style="left:78%;top:42%">푸르지오<small>612세대</small></div>
+          <div class="up" style="left:41%;top:79%">▲ 2.4%</div>
+          <div class="dn" style="left:68%;top:86%">▼ 1.1%</div>
+        </div>
+      </div>
+    </div>
+    <div class="note">가장 무난하고 신뢰감이 있습니다. 지금 지도 핀이 이미 이 색입니다. 다만 <b>하락이 파랑</b>이라 빨강과 똑같은 문제가 생기고, 다방·직방·아실이 전부 파랑이라 <b>남들과 제일 비슷해 보입니다.</b></div>
+  </div>
+
+  <div class="card">
+    <div class="cap"><h2>정리</h2></div>
+    <div class="note" style="border-top:none">
+      <p>지도 위에서 <b>빨강은 상승, 파랑은 하락</b>으로 이미 쓰고 있습니다. 브랜드 색을 그 둘 중 하나로 고르면 지도에서 뜻이 겹칩니다.</p>
+      <p style="margin-top:8px">그래서 선택은 둘 중 하나입니다.</p>
+      <p style="margin-top:6px">① <b>지도 밖에서만 쓰기</b> — 로고·헤더·버튼만 그 색, 지도 핀은 중립색(회색·남색). 부동산114·쿠팡이 쓰는 방식입니다. 어떤 색을 골라도 안전합니다.</p>
+      <p style="margin-top:6px">② <b>겹치지 않는 색 쓰기</b> — 초록을 유지하거나, 호갱노노처럼 보라로 가는 것. 지도에서 색이 곧 정보로 작동합니다.</p>
+      <p style="margin-top:10px;color:#6b7280;font-size:12px">※ 실제 화면이 아니라 색만 보기 위한 시안입니다.</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
