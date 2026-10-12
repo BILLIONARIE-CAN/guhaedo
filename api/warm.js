@@ -57,6 +57,31 @@ const lawdSet = new Set(APT_BY_LAWD.keys());
 const p4count = new Map();
 for (const lawd of APT_BY_LAWD.keys()) { const p = lawd.slice(0, 4); p4count.set(p, (p4count.get(p) || 0) + 1); }
 for (const [p, cnt] of p4count) { if (cnt >= 2) { for (let d = 0; d <= 9; d++) lawdSet.add(p + d); } }
+// ── 행정구역 개편 대응: 우리 코드 → 국토부에 실제로 물어야 할 코드 ──────────
+//  ⚠️ 왜 필요한가: 국토부는 폐지된 시군구코드에 '에러'가 아니라 '0건'을 돌려준다.
+//     그래서 워밍이 멀쩡히 "100% 완료"로 끝나는데 데이터는 통째로 비어 있었다.
+//     (2026-10 발견 — 광주·전남 26곳, 인천 4곳, 경기 3곳이 한 달 넘게 빈 채로 방치)
+//  · 전남광주통합특별시 출범: 광주 29xxx · 전남 46xxx → 12xxx (번호도 새로 매김)
+//  · 인천 중구+동구 → 제물포구·영종구 / 서구 → 서구·검단구 (1:N 분할이라 둘 다 조회)
+//  · 경기 3곳은 우리 coords 파일의 코드가 애초에 한 자리 틀렸던 것
+const LAWD_ALIAS = {
+  // 광주 (29) → 12
+  '29110': ['12210'], '29140': ['12240'], '29155': ['12270'], '29170': ['12300'], '29200': ['12330'],
+  // 전남 (46) → 12
+  '46110': ['12110'], '46130': ['12130'], '46150': ['12150'], '46170': ['12170'], '46230': ['12190'],
+  '46710': ['12710'], '46720': ['12720'], '46730': ['12730'], '46770': ['12740'], '46780': ['12750'],
+  '46790': ['12760'], '46800': ['12770'], '46810': ['12780'], '46820': ['12790'], '46830': ['12800'],
+  '46840': ['12810'], '46860': ['12820'], '46870': ['12830'], '46880': ['12840'], '46890': ['12850'],
+  '46900': ['12860'],
+  // 인천 — 분할/통합이라 1:N
+  '28110': ['28125', '28155'],   // 중구 → 제물포구 + 영종구
+  '28140': ['28125'],            // 동구 → 제물포구
+  '28260': ['28275', '28290'],   // 서구 → 서구 + 검단구
+  // 경기 — 우리 쪽 코드 오타
+  '41551': ['41550'], '41571': ['41570'], '41631': ['41630'],
+};
+function lawdTargets(code) { return LAWD_ALIAS[code] || [code]; }
+
 const LAWDS = [...lawdSet].sort();
 const MONTHS = (function () { const out = []; const now = new Date(); for (let i = 0; i < 24; i++) { const d = new Date(now.getFullYear(), now.getMonth() - i, 1); out.push(`${d.getFullYear()}${String(d.getMonth() + 1).padStart(2, '0')}`); } return out; })();
 const TOTAL_TASKS = LAWDS.length * MONTHS.length;
@@ -274,6 +299,60 @@ module.exports = async (req, res) => {
   if ((req.query.secret || '') !== WARM_SECRET) { res.status(403).json({ error: 'forbidden' }); return; }
   if (!SUPABASE_URL || !SUPABASE_KEY) { res.status(200).json({ ok: false, reason: 'no env' }); return; }
 
+  // ── 특정 시군구만 다시 워밍 ────────────────────────────────────────
+  //  행정구역 개편으로 빈 채 박제된 지역을 전체 재워밍 없이 복구할 때 쓴다.
+  //    /api/warm?secret=...&lawd=29170[&from=0]
+  //  응답의 next 를 다음 호출의 from 으로 넘기면 이어서 진행된다. done:true 면 끝.
+  if (req.query.lawd) {
+    const lawd = String(req.query.lawd).replace(/[^0-9]/g, '');
+    if (lawd.length !== 5) { res.status(400).json({ error: 'lawd 5자리 필요' }); return; }
+    const t1 = Date.now();
+    const complexes = APT_BY_PREFIX.get(lawd.slice(0, 4)) || [];
+    const targets = lawdTargets(lawd);
+    let i = parseInt(req.query.from || '0') || 0, saved = 0, calls = 0, empty = 0;
+    while (i < MONTHS.length && (Date.now() - t1) < TIME_BUDGET_MS) {
+      const ym = MONTHS[i];
+      const packs = [];
+      for (const tg of targets) {
+        packs.push(await Promise.all([
+          safeJ(`${buyBase}?serviceKey=${GKEY}&LAWD_CD=${tg}&DEAL_YMD=${ym}&numOfRows=1000&_type=json`, 4500),
+          safeJ(`${rentBase}?serviceKey=${GKEY}&LAWD_CD=${tg}&DEAL_YMD=${ym}&numOfRows=1000&_type=json`, 4500),
+          safeJ(`${preBase}?serviceKey=${GKEY}&LAWD_CD=${tg}&DEAL_YMD=${ym}&numOfRows=1000&_type=json`, 4000),
+        ]));
+        calls += 3;
+      }
+      const bRaw = [].concat(...packs.map(p => p[0].items));
+      const rRaw = [].concat(...packs.map(p => p[1].items));
+      const pRaw = [].concat(...packs.map(p => p[2].items));
+      if (packs.some(p => p[0].err || p[1].err)) {
+        res.status(200).json({ ok: true, stopped: 'API 오류 — 다음 호출에서 재개', lawd, next: i, saved, calls });
+        return;
+      }
+      if (!bRaw.length && !rRaw.length && !pRaw.length) empty++;
+      const rows = [];
+      for (const rec of complexes) {
+        const match = makeMatcher(rec);
+        const buy = bRaw.filter(match).map(x => ({ t: mapT(x), day: String(x.dealDay || '').trim(), p: parsePrice(x.dealAmount), a: parseFloat(x.excluUseAr || 0), f: String(x.floor || '').trim() }));
+        pRaw.filter(match).forEach(x => buy.push({ t: mapT(x), day: String(x.dealDay || '').trim(), p: parsePrice(x.dealAmount), a: parseFloat(x.excluUseAr || 0), f: String(x.floor || '').trim(), pre: String(x.ownershipGbn || '').trim().startsWith('입') ? '입' : '분' }));
+        const rents = rRaw.filter(match);
+        const jeonse = rents.filter(x => !parsePrice(x.monthlyRent)).map(x => ({ t: mapT(x), day: String(x.dealDay || '').trim(), p: parsePrice(x.deposit), a: parseFloat(x.excluUseAr || 0), f: String(x.floor || '').trim() }));
+        const monthly = rents.filter(x => parsePrice(x.monthlyRent) > 0).map(x => ({ t: mapT(x), day: String(x.dealDay || '').trim(), d: parsePrice(x.deposit), m: parsePrice(x.monthlyRent), a: parseFloat(x.excluUseAr || 0), f: String(x.floor || '').trim() }));
+        if (buy.length || jeonse.length || monthly.length) {
+          rows.push({ kapt_code: rec.code, ym, buy, jeonse, monthly, lawd_cd: lawd, apt_name: [rec.name, rec.dong, rec.jibun].join('|'), fetched_at: new Date().toISOString() });
+        }
+      }
+      if (rows.length) {
+        await fetch(`${SUPABASE_URL}/rest/v1/apt_transactions`, { method: 'POST', headers: { ...supaHeaders(), Prefer: 'resolution=merge-duplicates' }, body: JSON.stringify(rows), signal: AbortSignal.timeout(8000) }).catch(() => {});
+        saved += rows.length;
+      }
+      i++;
+    }
+    res.status(200).json({ ok: true, lawd, targets, 단지수: complexes.length, next: i,
+      done: i >= MONTHS.length, months: MONTHS.length, saved, calls, 빈달: empty,
+      경고: (i >= MONTHS.length && empty === MONTHS.length) ? '전 기간 0건 — 코드가 아직 틀렸을 수 있음' : undefined });
+    return;
+  }
+
   const t0 = Date.now();
   const today = new Date().toISOString().slice(0, 10);
   const st = await getState();
@@ -291,12 +370,20 @@ module.exports = async (req, res) => {
     const ym = MONTHS[cursor % MONTHS.length];
     const complexes = APT_BY_PREFIX.get(lawd.slice(0, 4)) || [];
 
-    const [bR, rR, pR] = await Promise.all([
-      safeJ(`${buyBase}?serviceKey=${GKEY}&LAWD_CD=${lawd}&DEAL_YMD=${ym}&numOfRows=1000&_type=json`, 4500),
-      safeJ(`${rentBase}?serviceKey=${GKEY}&LAWD_CD=${lawd}&DEAL_YMD=${ym}&numOfRows=1000&_type=json`, 4500),
-      safeJ(`${preBase}?serviceKey=${GKEY}&LAWD_CD=${lawd}&DEAL_YMD=${ym}&numOfRows=1000&_type=json`, 4000),
-    ]);
-    calls_today += 3;
+    // 개편된 지역은 새 코드(여럿일 수 있음)로 물어서 합친다
+    const targets = lawdTargets(lawd);
+    const packs = [];
+    for (const tg of targets) {
+      packs.push(await Promise.all([
+        safeJ(`${buyBase}?serviceKey=${GKEY}&LAWD_CD=${tg}&DEAL_YMD=${ym}&numOfRows=1000&_type=json`, 4500),
+        safeJ(`${rentBase}?serviceKey=${GKEY}&LAWD_CD=${tg}&DEAL_YMD=${ym}&numOfRows=1000&_type=json`, 4500),
+        safeJ(`${preBase}?serviceKey=${GKEY}&LAWD_CD=${tg}&DEAL_YMD=${ym}&numOfRows=1000&_type=json`, 4000),
+      ]));
+      calls_today += 3;
+    }
+    const bR = { items: [].concat(...packs.map(p => p[0].items)), err: packs.some(p => p[0].err) };
+    const rR = { items: [].concat(...packs.map(p => p[1].items)), err: packs.some(p => p[1].err) };
+    const pR = { items: [].concat(...packs.map(p => p[2].items)), err: packs.some(p => p[2].err) };
 
     // 코어(매매·전월세) 에러 = 한도초과/장애 가능성 → 빈데이터 박제 방지 위해 캐싱 스킵 + 정지
     if (bR.err || rR.err) {
