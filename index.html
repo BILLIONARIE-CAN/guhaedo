@@ -2559,7 +2559,7 @@ function openAptDetail(d){
     fullRow('도로명주소',d.addr)+
     fullRow('지번주소',d.jibunAddr)+
     infoRow('세대수',d.units)+
-    '<div class="adp-info-item"><div class="adp-info-label">준공년월</div><div class="adp-info-val" id="adp-built">'+(d.built||'-')+'</div></div>'+
+    '<div class="adp-info-item"><div class="adp-info-label" id="adp-built-lb">준공년월</div><div class="adp-info-val" id="adp-built">'+(d.built||'-')+'</div></div>'+
     infoRow('동수',d.dongCnt)+
     '<div class="adp-info-item"><div class="adp-info-label">난방방식</div><div class="adp-info-val" id="adp-heat">'+(d.heat||'-')+'</div></div>'+
     infoRow('최고층',d.topFloor?d.topFloor+'층':'')+
@@ -2610,11 +2610,23 @@ function openAptDetail(d){
         if(!info)return;
         if(info.far){const el=document.getElementById('adp-far');if(el)el.textContent=info.far+'%';}
         if(info.bcr){const el=document.getElementById('adp-bcr');if(el)el.textContent=info.bcr+'%';}
-        if(info.completionYmd&&info.completionYmd.length>=6){
+        // 준공(사용승인)일 — 8자리면 일(日)까지 보여준다.
+        // ⚠️ 예전엔 '-' 일 때만 채우고 년·월만 찍어서, built('2004.05')가 이미 있으면
+        //    정확한 날짜가 있어도 영영 안 보였다. 이제 정밀한 값이 오면 덮어쓴다.
+        if(info.completionYmd){
+          const ymd=String(info.completionYmd).replace(/[^0-9]/g,'');
           const el=document.getElementById('adp-built');
-          if(el&&(el.textContent==='-'||!el.textContent.trim())){
-            const y=info.completionYmd.substring(0,4),m=info.completionYmd.substring(4,6);
-            el.textContent=y+'년 '+parseInt(m)+'월';
+          const lb=document.getElementById('adp-built-lb');
+          if(el&&ymd.length>=6){
+            const y=ymd.substring(0,4), m=parseInt(ymd.substring(4,6));
+            if(ymd.length>=8){
+              const dd=parseInt(ymd.substring(6,8));
+              if(dd>=1&&dd<=31){ el.textContent=y+'년 '+m+'월 '+dd+'일';
+                if(lb) lb.textContent='준공일(사용승인)'; }
+              else el.textContent=y+'년 '+m+'월';
+            } else if(el.textContent==='-'||!el.textContent.trim()){
+              el.textContent=y+'년 '+m+'월';
+            }
           }
         }
         if(info.heatType){const el=document.getElementById('adp-heat');if(el&&el.textContent==='-')el.textContent=info.heatType;}
