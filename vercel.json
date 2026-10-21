@@ -15,6 +15,10 @@
   ],
   "rewrites": [
     {
+      "source": "/apt-sitemap.xml",
+      "destination": "/api/aptpage?sitemap=apt"
+    },
+    {
       "source": "/contact",
       "destination": "/api/aptpage?info=contact"
     },

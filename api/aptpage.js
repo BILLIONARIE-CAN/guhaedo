@@ -154,9 +154,13 @@ function wonMan(man){man=Math.round(Number(man)||0);if(man===0)return '-';var ne
 async function fetchMetrics(code){
   try{
     const r=await fetch(SUPABASE_URL+'/rest/v1/apt_metrics?kapt_code=eq.'+encodeURIComponent(code)+'&select=rep_area_m2,price_m,py_m,jeonse_m,j_rate,gap_m,deal_cnt',{headers:{apikey:SUPABASE_ANON,Authorization:'Bearer '+SUPABASE_ANON},signal:AbortSignal.timeout(2500)});
+    if(!r.ok) return false;
     const rows=await r.json();
-    return Array.isArray(rows)&&rows[0]&&rows[0].price_m?rows[0]:null;
-  }catch(e){return null;}
+    if(!Array.isArray(rows)) return false;
+    return (rows[0]&&rows[0].price_m)?rows[0]:null;
+  }catch(e){return false;}   // ⚠️ 조회 실패(false) 와 '정말 시세가 없음'(null) 을 반드시 구분한다.
+  //    둘 다 null 로 돌려버리면 슈파베이스가 한 번 느려질 때마다
+  //    멀쩡한 페이지에 noindex 가 박혀 색인에서 빠진다.
 }
 // 실거래·시세 섹션 — 실제 숫자를 서버 HTML에 박아 색인·검색노출 강화
 function saleSection(m){
@@ -214,6 +218,10 @@ function page(a, m) {
 + '<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">'
 + '<title>' + esc(title) + '</title>'
 + '<meta name="description" content="' + esc(desc) + '">'
+// ⚠️ 시세(실거래) 가 없는 단지는 색인에서 제외한다.
+//    2026-10 진단: 구글은 알맹이 없는 페이지가 많으면 사이트 전체 평가를 깎고 크롤링을 끊는다.
+//    follow 는 남겨서 주변 단지 링크는 계속 타고 가게 한다.
++ (m === null ? '<meta name="robots" content="noindex,follow">' : '')
 + '<link rel="canonical" href="' + url + '">'
 + '<link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="apple-touch-icon" href="/favicon-180.png">'
 + '<meta property="og:type" content="website"><meta property="og:title" content="' + esc(a.name) + ' 관리사무소 전화번호·실거래가 | 아구구">'
@@ -833,8 +841,60 @@ function rankIndexPage(scope) {
     BASE + '/rank', body);   // canonical은 항상 /rank — 지역별 허브는 중복 색인 방지
 }
 
+// =============================================================
+//  동적 단지 사이트맵  (/apt-sitemap.xml)
+//  ⚠️ 왜 정적 파일에서 바꿨나 — 2026-10 구글 색인 진단 결과
+//     1) 옛 apt/sitemap.xml 은 21,718개를 lastmod 2026-07-23 으로 못박아 둔 채
+//        3개월간 한 번도 안 바뀌었다. 구글은 "변한 게 없다"고 보고 재크롤링을 끊었다.
+//        (크롤링 요청 하루 1,150회 → 8/3 이후 20~50회)
+//     2) 시세(실거래) 없는 2,780개까지 들이밀어 사이트 전체 평가를 깎고 있었다.
+//     이제 시세 있는 단지만, 오늘 날짜 lastmod 로 매일 새로 내보낸다.
+// =============================================================
+async function aptSitemapXml() {
+  const today = new Date().toISOString().slice(0, 10);
+  let codes = null;
+  try {
+    const PAGE = 1000, WAVE = 5, MAXPAGE = 30;
+    const got = [];
+    let done = false;
+    for (let w = 0; w < MAXPAGE / WAVE && !done; w++) {
+      const reqs = [];
+      for (let i = 0; i < WAVE; i++) {
+        const off = (w * WAVE + i) * PAGE;
+        reqs.push(fetch(SUPABASE_URL + '/rest/v1/apt_metrics?select=kapt_code&price_m=not.is.null&order=kapt_code&limit=' + PAGE + '&offset=' + off,
+          { headers: { apikey: SUPABASE_ANON, Authorization: 'Bearer ' + SUPABASE_ANON }, signal: AbortSignal.timeout(6000) })
+          .then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }));
+      }
+      const pages = await Promise.all(reqs);
+      for (const pg of pages) {
+        if (!Array.isArray(pg)) { done = true; continue; }     // 실패한 페이지가 있으면 더 돌지 않는다
+        for (const row of pg) if (row && row.kapt_code) got.push(row.kapt_code);
+        if (pg.length < PAGE) done = true;                      // 마지막 페이지
+      }
+    }
+    // ⚠️ 한 건도 못 받아왔을 때 '빈 사이트맵'을 내보내면 구글이 전 페이지를 내려버린다.
+    //    충분히 받아온 경우에만 필터링된 목록을 쓴다.
+    if (got.length > 5000) codes = got;
+  } catch (e) { codes = null; }
+  if (!codes) codes = Array.from(BY_CODE.keys());               // 폴백: 예전처럼 전부 내보낸다
+  const seen = new Set(); const urls = [];
+  for (const c of codes) {
+    if (!BY_CODE.has(c) || seen.has(c)) continue;               // 실제 존재하는 단지만 (404 방지)
+    seen.add(c);
+    urls.push('  <url><loc>' + BASE + '/apt/' + c + '</loc><lastmod>' + today + '</lastmod><changefreq>weekly</changefreq></url>');
+  }
+  return '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + urls.join('\n') + '\n</urlset>\n';
+}
+
 module.exports = async (req, res) => {
   res.setHeader('Content-Type', 'text/html; charset=utf-8');
+  // ===== 동적 단지 사이트맵 =====
+  if (req.query && req.query.sitemap === 'apt') {
+    const xml = await aptSitemapXml();
+    res.setHeader('Content-Type', 'application/xml; charset=utf-8');
+    res.setHeader('Cache-Control', 'public, max-age=3600, s-maxage=86400, stale-while-revalidate=604800');
+    res.statusCode = 200; res.end(xml); return;
+  }
   // ===== 랭킹 라우팅 (/rank, /rank/{kind}, /rank/{kind}/{시도2자리}) =====
   const rank = (req.query && req.query.rank) || '';
   if (rank) {

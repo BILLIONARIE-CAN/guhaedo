@@ -1,52 +1,24 @@
 // =============================================================
-//  사이트맵 생성기 (검색 색인용)
-//  - apt/sitemap.xml       : 단지 상세 2만여 개 + lastmod
-//  - sitemap-main.xml      : 홈/개인정보/약관 + lastmod
-//  - sitemap.xml (root)    : 위 둘을 묶는 사이트맵 인덱스
-//  실행: node scripts/build_sitemap.js
-//  robots.txt 는 root sitemap.xml 을 가리켜야 함.
+//  ⚠️ 이 스크립트는 더 이상 쓰지 않습니다 (2026-10-21)
+//
+//  [왜 멈췄나]
+//  1) 단지 사이트맵은 이제 '동적'입니다.
+//     /apt-sitemap.xml  →  api/aptpage.js 의 aptSitemapXml()
+//     시세(실거래) 있는 단지만, 오늘 날짜 lastmod 로 매일 새로 만들어집니다.
+//     옛 apt/sitemap.xml(정적 파일)은 더 이상 사이트맵 인덱스에 들어있지 않습니다.
+//
+//  2) 이 스크립트에는 지뢰가 있었습니다.
+//     - sitemap-main.xml 을 홈/개인정보/약관 3개로 덮어썼습니다.
+//       (실제 운영본은 랭킹 페이지까지 132개입니다 → 실행하면 129개가 날아감)
+//     - sitemap.xml 인덱스에서 region-sitemap.xml(253개)을 빼버렸습니다.
+//     그래서 '그냥 두면 사고나는 파일'이라 실행을 막아뒀습니다.
+//
+//  [지금 사이트맵 구조]
+//    sitemap.xml (인덱스)
+//      ├─ sitemap-main.xml    : 홈·소개·문의·랭킹 등 132개   (손으로 관리)
+//      ├─ apt-sitemap.xml     : 단지 — 동적 생성 (api/aptpage.js)
+//      └─ region-sitemap.xml  : 지역 253개                   (손으로 관리)
 // =============================================================
-const fs = require('fs');
-const path = require('path');
-
-const BASE = 'https://a99.co.kr';
-const ROOT = path.join(__dirname, '..');
-const APTS = require(path.join(ROOT, 'split_output', 'coords_all_apt.json'));
-const today = new Date().toISOString().slice(0, 10);
-
-// 1) 단지 사이트맵 (lastmod 포함)
-const seen = new Set();
-const aptUrls = [];
-for (const a of APTS) {
-  if (a && a.code && !seen.has(a.code)) {
-    seen.add(a.code);
-    aptUrls.push('  <url><loc>' + BASE + '/apt/' + a.code + '</loc><lastmod>' + today + '</lastmod><changefreq>weekly</changefreq></url>');
-  }
-}
-fs.writeFileSync(path.join(ROOT, 'apt', 'sitemap.xml'),
-  '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + aptUrls.join('\n') + '\n</urlset>\n');
-
-// 2) 메인 페이지 사이트맵
-const mainPages = [
-  ['/', '1.0', 'daily'],
-  ['/privacy', '0.3', 'yearly'],
-  ['/terms', '0.3', 'yearly'],
-];
-const mainUrls = mainPages.map(function (p) {
-  return '  <url><loc>' + BASE + p[0] + '</loc><lastmod>' + today + '</lastmod><changefreq>' + p[2] + '</changefreq><priority>' + p[1] + '</priority></url>';
-});
-fs.writeFileSync(path.join(ROOT, 'sitemap-main.xml'),
-  '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + mainUrls.join('\n') + '\n</urlset>\n');
-
-// 3) 사이트맵 인덱스 (root) — 하위 사이트맵을 묶음(스코프 제한 해제)
-const index = '<?xml version="1.0" encoding="UTF-8"?>\n'
-  + '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-  + '  <sitemap><loc>' + BASE + '/sitemap-main.xml</loc><lastmod>' + today + '</lastmod></sitemap>\n'
-  + '  <sitemap><loc>' + BASE + '/apt/sitemap.xml</loc><lastmod>' + today + '</lastmod></sitemap>\n'
-  + '</sitemapindex>\n';
-fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), index);
-
-console.log('생성 완료:');
-console.log('  apt/sitemap.xml     : ' + aptUrls.length + '개 (lastmod ' + today + ')');
-console.log('  sitemap-main.xml    : ' + mainUrls.length + '개');
-console.log('  sitemap.xml (index) : 2개 하위 사이트맵');
+console.log('이 스크립트는 사용하지 않습니다. 단지 사이트맵은 /apt-sitemap.xml 에서 자동 생성됩니다.');
+console.log('자세한 이유는 이 파일 맨 위 주석을 보세요.');
+process.exit(0);

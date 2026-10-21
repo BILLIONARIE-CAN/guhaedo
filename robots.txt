@@ -1,4 +1,11 @@
 User-agent: *
 Allow: /
 
+# ⚠️ /api/ 차단 이유 (2026-10 진단)
+#    구글 크롤링 통계상 크롤링 요청의 37%가 JSON(= /api/ 응답)이었다.
+#    구글봇은 하루 20~50회밖에 안 긁는데 그 3분의 1을 API 응답이 먹고 있었다.
+#    단지 페이지 본문은 서버에서 이미 HTML로 다 박아 보내므로
+#    /api/ 를 막아도 색인되는 내용에는 손실이 없다.
+Disallow: /api/
+
 Sitemap: https://a99.co.kr/sitemap.xml
