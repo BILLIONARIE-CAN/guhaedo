@@ -163,8 +163,21 @@ async function fetchMetrics(code){
   //    멀쩡한 페이지에 noindex 가 박혀 색인에서 빠진다.
 }
 // 실거래·시세 섹션 — 실제 숫자를 서버 HTML에 박아 색인·검색노출 강화
-function saleSection(m){
-  if(!m||!m.price_m) return '';
+// ⚠️ 시세가 없을 때 그냥 빈칸으로 두면 "데이터가 빠졌나" 로 보인다.
+//    임대단지는 분양 세대가 없어서 원래 매매 실거래가 안 잡히는 것이니
+//    "거래가 없다" 가 아니라 "임대단지라 매매가 없다" 라고 이유를 써준다.
+function saleSection(m, a){
+  if(!m||!m.price_m){
+    const st = String((a && a.sale) || '').trim();
+    if(st === '임대')
+      return '<section class="nodeal"><h2>💹 실거래가·시세</h2>'
+        + '<p>임대단지입니다. 분양 세대가 없어 매매 실거래가가 집계되지 않습니다.</p></section>';
+    if(st === '혼합')
+      return '<section class="nodeal"><h2>💹 실거래가·시세</h2>'
+        + '<p>분양·임대가 섞인 단지입니다. 최근 18개월 매매 실거래가 없어 시세를 표시하지 않습니다.</p></section>';
+    return '<section class="nodeal"><h2>💹 실거래가·시세</h2>'
+      + '<p>최근 18개월 국토교통부 공개 실거래가 없습니다.</p></section>';
+  }
   const py=m.rep_area_m2?Math.round(m.rep_area_m2/0.75/3.3058*10)/10:0;
   const repArea=m.rep_area_m2?(Math.round(m.rep_area_m2)+'㎡'+(py?' ('+py+'평형)':'')):'';
   const rows=[['대표 매매가', wonMan(m.price_m)]];
@@ -247,6 +260,7 @@ function page(a, m) {
 + '.mgmt-row{display:flex;justify-content:space-between;padding:9px 12px;font-size:13px;border-bottom:1px solid #f0fdf4}.mgmt-row:last-child{border-bottom:none}.mgmt-row span:first-child{color:#555}.mgmt-row span:last-child{font-weight:600;color:#333}'
 + '.mgmt-note{margin-top:8px;font-size:11px;color:#9ca3af;line-height:1.5}'
 + '.intro{font-size:14px;line-height:1.75;color:#374151;margin:14px 0;padding:14px 16px;background:#fff;border:1px solid #eee;border-radius:12px}'
++ '.nodeal{margin:16px 0;background:#f8f9fa;border:1px solid #eee;border-radius:10px;padding:13px 15px}.nodeal h2{font-size:15px;margin:0 0 6px}.nodeal p{font-size:13px;color:#666;line-height:1.7}'
 + '.faq{margin:16px 0}.faq h2{font-size:16px;margin:0 0 8px}.faq-item{background:#fff;border:1px solid #eee;border-radius:10px;margin-bottom:8px;overflow:hidden}'
 + '.faq-item summary{cursor:pointer;padding:13px 15px;font-size:14px;font-weight:600;color:#1a1a1a;list-style:revert}.faq-a{padding:0 15px 14px;font-size:13px;line-height:1.7;color:#555}'
 + '.cta{display:block;width:100%;background:#16a34a;color:#fff;text-align:center;font-weight:700;font-size:16px;padding:15px;border-radius:12px;text-decoration:none;box-shadow:0 4px 12px rgba(22,163,74,.3)}'
@@ -290,7 +304,7 @@ function page(a, m) {
 + '</div>'
 + introText(a, tel)
 + '<div class="grid">' + facts + '</div>'
-+ saleSection(m)
++ saleSection(m, a)
 + '<div id="mgmt-box" class="mgmt-box" data-code="' + a.code + '" data-units="' + (a.units || 0) + '"></div>'
 + '<div class="ad adA">' + esc(a.emd || a.sigungu || '') + ' 지역 광고 자리 (이사·청소·인테리어)</div>'
 + '<section><h2>📍 주소 · 기본정보</h2>'

@@ -2573,8 +2573,15 @@ function openAptDetail(d){
     '<div class="adp-info-item"><div class="adp-info-label">건폐율</div><div class="adp-info-val" id="adp-bcr">-</div></div>';
 
   // ===== 2. 시세 · 거래 정보 =====
-  ge('adp-price-content').innerHTML=
-    infoRow('최근 매매',d.recentSale)+
+  // ⚠️ 임대단지는 분양 세대가 없어 애초에 매매 실거래가 안 잡힌다.
+  //    예전엔 '최근 매매 -' 만 떠서 "데이터가 빠졌나?" 로 보였다. 이유를 적어준다.
+  var _saleTy=String(d.saleType||'').trim();
+  var _rentNote=(_saleTy==='임대')
+    ? '<div class="adp-info-item" style="grid-column:1/-1;background:#f8f9fa;border-radius:8px;padding:9px 11px;margin-bottom:6px">'
+      + '<div style="font-size:12px;color:var(--text2);line-height:1.6"><b>임대단지</b> — 분양 세대가 없어 매매 실거래가가 잡히지 않습니다.</div></div>'
+    : '';
+  ge('adp-price-content').innerHTML= _rentNote +
+    (_saleTy==='임대' ? '' : infoRow('최근 매매',d.recentSale))+
     infoRow('최근 전세',d.recentJeonse)+
     infoRow('최근 월세',d.recentMonthly);
 
