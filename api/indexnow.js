@@ -21,11 +21,32 @@ module.exports = async (req, res) => {
   }
   const limit = parseInt(q.limit, 10) || 0;
 
-  // 제출 URL 목록 구성 (홈/약관 + 전 단지)
+  // 제출 URL 목록 구성 (홈/약관 + 단지)
+  // ⚠️ 단지 목록은 coords 파일이 아니라 **우리 사이트맵을 읽어서** 만든다.
+  //    2026-10 시세 없는 2,780개에 noindex 를 걸었는데, 여기서 coords 를
+  //    그대로 쓰면 매주 네이버·빙에 "가져가라" 해놓고 가보면 "색인하지 마라" 가
+  //    붙어있는 꼴이 된다. 색인시킬 목록은 사이트맵 하나로 통일한다.
   const seen = new Set();
   const urls = [BASE + '/', BASE + '/about', BASE + '/contact', BASE + '/privacy', BASE + '/terms', BASE + '/rank', BASE + '/region'];
-  for (const a of APTS) {
-    if (a && a.code && !seen.has(a.code)) { seen.add(a.code); urls.push(BASE + '/apt/' + a.code); }
+  let fromSitemap = 0;
+  try {
+    const sm = await fetch(BASE + '/apt-sitemap.xml', { signal: AbortSignal.timeout(15000) });
+    if (sm.ok) {
+      const xml = await sm.text();
+      const re = /<loc>([^<]+)<\/loc>/g;
+      let mm;
+      while ((mm = re.exec(xml))) {
+        const u = mm[1];
+        if (!seen.has(u)) { seen.add(u); urls.push(u); fromSitemap++; }
+      }
+    }
+  } catch (e) { /* 아래 폴백 */ }
+  // 폴백: 사이트맵을 못 읽었거나 너무 적게 받았으면 예전처럼 coords 전체를 쓴다.
+  if (fromSitemap < 5000) {
+    for (const a of APTS) {
+      const u = BASE + '/apt/' + (a && a.code);
+      if (a && a.code && !seen.has(u)) { seen.add(u); urls.push(u); }
+    }
   }
   const list = limit > 0 ? urls.slice(0, limit) : urls;
 
