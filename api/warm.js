@@ -299,9 +299,12 @@ module.exports = async (req, res) => {
     const lap = done ? Math.floor((cursor - TOTAL_TASKS) / REFRESH_TASKS) + 1 : 0;
     const lapPct = done ? ((((cursor - TOTAL_TASKS) % REFRESH_TASKS) / REFRESH_TASKS) * 100).toFixed(1) : '0';
 
-    const [aptTotal, blank, discRow] = await Promise.all([
+    const [aptTotal, blank, newReports, discRow] = await Promise.all([
       countOf('apt_map?select=code'),
       countOf('apt_metrics?select=kapt_code&price_m=is.null'),
+      // ⚠️ 내용은 안 보여준다 — 이 페이지는 비밀키 없이 열리는 공개 페이지다.
+      //    손님이 적은 글이 그대로 노출되면 안 된다. 건수만.
+      countOf('apt_reports?select=id&status=eq.new'),
       fetch(`${SUPABASE_URL}/rest/v1/briefs?id=eq.disc_state&select=data`, { headers: supaHeaders(), signal: AbortSignal.timeout(6000) })
         .then(r => r.json()).then(a => (a && a[0] && a[0].data) || null).catch(() => null),
     ]);
@@ -319,6 +322,7 @@ module.exports = async (req, res) => {
       + `<p>누락단지 탐색: ${discLine}</p>`
       + `<p>지도 단지 수(apt_map): ${aptTotal === null ? '조회실패' : aptTotal}</p>`
       + `<p>시세 없는 단지: ${blank === null ? '조회실패' : blank}</p>`
+      + `<p>새 단지제보: ${newReports === null ? '조회실패' : newReports + '건'}${newReports > 0 ? ' ← 확인 필요' : ''}</p>`
       + `</body>`);
     return;
   }
