@@ -1,30 +1,70 @@
 name: 실거래가 캐시 워밍
 
-# GitHub Actions가 자동으로 워밍 엔드포인트를 반복 호출 → 캐시 채움.
-# - 20분마다 자동 실행 (GitHub 사정상 지연될 수 있음)
-# - 수동 실행(Run workflow) 버튼도 있음
-# - 하루 한도 도달('paused')하거나 완료('done')하면 그 회차는 즉시 종료
-# 워밍 전부 끝나면 이 파일 삭제하면 됨.
+# ─────────────────────────────────────────────────────────────
+#  api/warm.js 를 반복 호출해서 국토부 실거래를 슈파베이스에 채운다.
+#  (전국 24개월 백필이 끝난 뒤에는 '최근 3개월 상시 갱신' 모드로 계속 돈다)
+#
+#  ⚠️ 2026-10-26 사고 기록 — 한 달간 조용히 멈춰 있었다. 원인이 세 겹이었다.
+#   ① api/warm.js 가 100%(9000/9000) 를 찍으면 '전체 워밍 완료'로 즉시 return.
+#      그런데 수집 대상 달은 "오늘부터 지난 24개월"이라 달이 바뀌면 밀린다
+#      → 10월이 새로 들어왔는데 커서는 9000에 멈춰 아무도 안 채움.
+#   ② 이 워크플로가 그 응답의 '"done":true' 를 보고 첫 호출에서 exit 0.
+#      그래서 1,136회 실행이 전부 '성공'인데 하나같이 7~8초였다.
+#      ⚠️ 초록불이라고 일하고 있는 게 아니다. **실행 시간**을 같이 봐야 한다.
+#   ③ GitHub 스케줄러가 '*/20' 을 안 지킨다. 실제론 4시간에 한 번꼴로 돌았다.
+#      (공개 레포에서 흔하다. 주기를 못 믿으므로 **한 번 돌 때 많이** 해야 한다)
+#
+#  그래서 회당 호출을 40 → 150 으로, 간격을 5초 → 3초로 올렸다.
+#  한도(DAILY_CALL_CAP)에 닿으면 warm.js 가 'paused' 를 돌려주고 여기서 끊는다.
+#  → 하루에 더 돌려봤자 한도가 알아서 막으므로 과하게 긁을 걱정은 없다.
+# ─────────────────────────────────────────────────────────────
 
 on:
   schedule:
     - cron: '*/20 * * * *'
   workflow_dispatch:
 
+concurrency:
+  group: warm
+  cancel-in-progress: false
+
 jobs:
   warm:
     runs-on: ubuntu-latest
+    timeout-minutes: 25
     steps:
       - name: 워밍 반복 호출
         run: |
-          URL="https://a99.co.kr/api/warm?secret=3c4fc034da972bac20f024ef003bf1ec"
-          for i in $(seq 1 40); do
+          # ⚠️ 이 키는 api/warm.js·vercel.json 에도 그대로 박혀 있고 레포가 공개라
+          #    이미 노출된 상태다. 나중에 반드시 교체할 것(인수인계서 참고).
+          #    저장소 시크릿 WARM_SECRET 을 넣어두면 그쪽이 우선 적용된다.
+          SECRET="${{ secrets.WARM_SECRET || '3c4fc034da972bac20f024ef003bf1ec' }}"
+          URL="https://a99.co.kr/api/warm?secret=$SECRET"
+          OK=0
+          for i in $(seq 1 150); do
             RES=$(curl -s --max-time 30 "$URL")
             echo "[$i] $RES"
+            if [ -z "$RES" ]; then
+              echo "⚠️ 빈 응답 — 잠시 후 재시도"
+              sleep 10
+              continue
+            fi
             case "$RES" in
-              *'"done":true'*)   echo "✅ 전체 워밍 완료"; exit 0 ;;
-              *'"paused"'*)      echo "⏸ 오늘 한도 도달 — 내일 이어서"; exit 0 ;;
-              *'"stopped"'*)     echo "⚠️ 국토부 API 오류/한도 — 중단"; exit 0 ;;
+              *'"paused"'*)  echo "⏸ 오늘 국토부 호출 한도 도달 — 내일 이어서"; break ;;
+              *'"stopped"'*) echo "⚠️ 국토부 API 오류/한도 — 중단"; break ;;
+              *'"ok":true'*) OK=$((OK+1)) ;;
+              *'"error"'*)   echo "❌ 엔드포인트 오류 — 중단"; exit 1 ;;
             esac
-            sleep 5
+            sleep 3
           done
+          echo "─────────────────────────────"
+          echo "정상 처리 호출: $OK 회"
+          # 한 번도 일을 못 했으면 초록불로 넘기지 않는다 (또 조용히 죽지 않도록)
+          if [ "$OK" -eq 0 ]; then
+            echo "❌ 이번 회차에 한 건도 처리하지 못했습니다."
+            exit 1
+          fi
+
+      - name: 진행 상황 요약
+        if: always()
+        run: curl -s --max-time 30 "https://a99.co.kr/api/warm?status=1" | sed -e 's/<[^>]*>/ /g' -e 's/  */ /g'
