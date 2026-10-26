@@ -86,6 +86,29 @@ const LAWDS = [...lawdSet].sort();
 const MONTHS = (function () { const out = []; const now = new Date(); for (let i = 0; i < 24; i++) { const d = new Date(now.getFullYear(), now.getMonth() - i, 1); out.push(`${d.getFullYear()}${String(d.getMonth() + 1).padStart(2, '0')}`); } return out; })();
 const TOTAL_TASKS = LAWDS.length * MONTHS.length;
 
+// ─────────────────────────────────────────────────────────────
+//  ⚠️ 백필이 끝나도 멈추면 안 된다 (2026-10-26 수정)
+//  예전엔 cursor >= TOTAL_TASKS 가 되면 '전체 워밍 완료' 로 바로 끝내버렸다.
+//  그런데 MONTHS 는 '오늘부터 지난 24개월' 이라 달이 바뀔 때마다 한 칸씩 밀린다.
+//  2026-09-23 에 9000/9000 을 찍고 끝난 뒤, 10월이 새로 들어왔는데
+//  커서는 9000 에 멈춰 있어서 아무도 10월치를 안 채웠다.
+//  (사이트에 뜨는 시세가 9월에 얼어붙었던 이유)
+//  → 백필이 끝나면 **최근 3개월만 계속 돌면서 갱신**한다.
+//    최근월은 신고가 늦게 들어오기 때문에 한 번 긁어서 끝낼 수 없다.
+//    DB 스키마는 그대로 두고, cursor 를 TOTAL_TASKS 너머로 계속 올리면서
+//    (cursor - TOTAL_TASKS) 를 갱신 순회 인덱스로 쓴다.
+// ─────────────────────────────────────────────────────────────
+const REFRESH_MONTHS = MONTHS.slice(0, 3);                      // 최근 3개월
+const REFRESH_TASKS = LAWDS.length * REFRESH_MONTHS.length;
+
+function taskAt(c) {
+  if (c < TOTAL_TASKS) {
+    return { lawd: LAWDS[Math.floor(c / MONTHS.length)], ym: MONTHS[c % MONTHS.length], refresh: false };
+  }
+  const ri = (c - TOTAL_TASKS) % REFRESH_TASKS;
+  return { lawd: LAWDS[Math.floor(ri / REFRESH_MONTHS.length)], ym: REFRESH_MONTHS[ri % REFRESH_MONTHS.length], refresh: true };
+}
+
 // 지번을 2개 이상 단지가 공유하는 목록 (scripts/build_shared_jibun.js 생성)
 let SHARED_JIBUN = {};
 try { SHARED_JIBUN = require('../split_output/shared_jibun.json'); } catch (e) { SHARED_JIBUN = {}; }
@@ -270,8 +293,11 @@ module.exports = async (req, res) => {
     res.setHeader('Cache-Control', 'no-store');
     if (st && st.error) { res.end('<!doctype html><meta charset="utf-8"><body style="font-family:sans-serif;padding:20px">상태 조회 실패 — 잠시 후 다시 확인하세요.</body>'); return; }
     const cursor = (st && !st.empty) ? (st.cursor || 0) : 0;
-    const pct = ((cursor / TOTAL_TASKS) * 100).toFixed(1);
     const done = cursor >= TOTAL_TASKS;
+    const pct = ((Math.min(cursor, TOTAL_TASKS) / TOTAL_TASKS) * 100).toFixed(1);
+    // 백필이 끝난 뒤엔 '최근 3개월 상시 갱신'을 몇 바퀴째 돌고 있는지 보여준다
+    const lap = done ? Math.floor((cursor - TOTAL_TASKS) / REFRESH_TASKS) + 1 : 0;
+    const lapPct = done ? ((((cursor - TOTAL_TASKS) % REFRESH_TASKS) / REFRESH_TASKS) * 100).toFixed(1) : '0';
 
     const [aptTotal, blank, discRow] = await Promise.all([
       countOf('apt_map?select=code'),
@@ -287,7 +313,8 @@ module.exports = async (req, res) => {
     res.end(`<!doctype html><meta charset="utf-8"><title>아구구 작업 상태</title>`
       + `<body style="font-family:sans-serif;padding:20px;line-height:1.8">`
       + `<h2>아구구 백그라운드 작업 상태</h2>`
-      + `<p>실거래가 워밍: <b>${pct}%</b> (${cursor} / ${TOTAL_TASKS} 태스크) — ${done ? '✅ 완료' : '⏳ 진행 중'}</p>`
+      + `<p>실거래가 워밍(전국 24개월 백필): <b>${pct}%</b> (${Math.min(cursor, TOTAL_TASKS)} / ${TOTAL_TASKS} 태스크) — ${done ? '✅ 완료' : '⏳ 진행 중'}</p>`
+      + (done ? `<p>최근 3개월 상시 갱신: <b>${lap}바퀴째</b> · 이번 바퀴 ${lapPct}% (${REFRESH_MONTHS.join(', ')})</p>` : '')
       + `<p>오늘 국토부 호출: ${(st && st.calls_today) || 0} · 마지막 실행일: ${(st && st.day) || '-'}</p>`
       + `<p>누락단지 탐색: ${discLine}</p>`
       + `<p>지도 단지 수(apt_map): ${aptTotal === null ? '조회실패' : aptTotal}</p>`
@@ -361,13 +388,13 @@ module.exports = async (req, res) => {
   let cursor = startCursor;
   let calls_today = (st && !st.empty && st.day === today) ? (st.calls_today || 0) : 0;
 
-  if (cursor >= TOTAL_TASKS) { res.status(200).json({ done: true, msg: '전체 워밍 완료', totalTasks: TOTAL_TASKS }); return; }
   if (calls_today >= DAILY_CALL_CAP) { res.status(200).json({ ok: true, paused: 'daily cap 도달', cursor, percent: ((cursor / TOTAL_TASKS) * 100).toFixed(1) + '%', calls_today }); return; }
 
   let processed = 0;
-  while (processed < RUN_TASK_CAP && cursor < TOTAL_TASKS && calls_today < DAILY_CALL_CAP && (Date.now() - t0) < TIME_BUDGET_MS) {
-    const lawd = LAWDS[Math.floor(cursor / MONTHS.length)];
-    const ym = MONTHS[cursor % MONTHS.length];
+  while (processed < RUN_TASK_CAP && calls_today < DAILY_CALL_CAP && (Date.now() - t0) < TIME_BUDGET_MS) {
+    const task = taskAt(cursor);
+    const lawd = task.lawd;
+    const ym = task.ym;
     const complexes = APT_BY_PREFIX.get(lawd.slice(0, 4)) || [];
 
     // 개편된 지역은 새 코드(여럿일 수 있음)로 물어서 합친다
@@ -413,5 +440,5 @@ module.exports = async (req, res) => {
   }
 
   await saveState(cursor, calls_today, today, startCursor);
-  res.status(200).json({ ok: true, processed, cursor, totalTasks: TOTAL_TASKS, percent: ((cursor / TOTAL_TASKS) * 100).toFixed(1) + '%', calls_today, day: today });
+  res.status(200).json({ ok: true, mode: cursor >= TOTAL_TASKS ? '최근3개월 갱신' : '백필', processed, cursor, totalTasks: TOTAL_TASKS, percent: ((Math.min(cursor, TOTAL_TASKS) / TOTAL_TASKS) * 100).toFixed(1) + '%', calls_today, day: today });
 };
