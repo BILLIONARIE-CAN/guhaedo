@@ -31,37 +31,44 @@ concurrency:
 jobs:
   warm:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 40   # 정상 회차가 22~23분이라 25분은 너무 빠등했다(닿으면 가짜 빨간불)
     steps:
       - name: 워밍 반복 호출
         run: |
-          # ⚠️ 이 키는 api/warm.js·vercel.json 에도 그대로 박혀 있고 레포가 공개라
-          #    이미 노출된 상태다. 나중에 반드시 교체할 것(인수인계서 참고).
-          #    저장소 시크릿 WARM_SECRET 을 넣어두면 그쪽이 우선 적용된다.
+          # ⚠️ 2026-10-27 수정 — exit code 28 (curl 타임아웃) 으로 빨간불이 떴다.
+          #    GitHub Actions 의 기본 셸은 `bash -e` 라, curl 이 타임아웃나면
+          #    그 자리에서 스텝이 통째로 죽는다. 아래 '빈 응답 처리'는 실행조차 안 됐다.
+          #    → `|| RES=""` 로 실패를 삼키고, 연속 실패 5번일 때만 포기한다.
+          #    타임아웃도 30초는 짧았다(Vercel 콜드스타트 + 국토부 지연) → 60초.
           SECRET="${{ secrets.WARM_SECRET || '3c4fc034da972bac20f024ef003bf1ec' }}"
           URL="https://a99.co.kr/api/warm?secret=$SECRET"
-          OK=0
+          OK=0; FAIL=0; STOP=""
           for i in $(seq 1 150); do
-            RES=$(curl -s --max-time 30 "$URL")
-            echo "[$i] $RES"
+            RES=$(curl -s --max-time 60 "$URL") || RES=""
             if [ -z "$RES" ]; then
-              echo "⚠️ 빈 응답 — 잠시 후 재시도"
-              sleep 10
+              FAIL=$((FAIL+1))
+              echo "[$i] 응답 없음 (연속 $FAIL 회)"
+              if [ "$FAIL" -ge 5 ]; then STOP="연속실패"; break; fi
+              sleep 15
               continue
             fi
+            FAIL=0
+            echo "[$i] $RES"
             case "$RES" in
-              *'"paused"'*)  echo "⏸ 오늘 국토부 호출 한도 도달 — 내일 이어서"; break ;;
-              *'"stopped"'*) echo "⚠️ 국토부 API 오류/한도 — 중단"; break ;;
+              *'"paused"'*)  echo "⏸ 오늘 국토부 호출 한도 도달 — 내일 이어서"; STOP="한도도달"; break ;;
+              *'"stopped"'*) echo "⚠️ 국토부 API 오류/한도 — 중단";              STOP="API오류";  break ;;
               *'"ok":true'*) OK=$((OK+1)) ;;
-              *'"error"'*)   echo "❌ 엔드포인트 오류 — 중단"; exit 1 ;;
+              *'"error"'*)   echo "❌ 엔드포인트 오류";                          STOP="엔드포인트오류"; break ;;
             esac
             sleep 3
           done
           echo "─────────────────────────────"
-          echo "정상 처리 호출: $OK 회"
-          # 한 번도 일을 못 했으면 초록불로 넘기지 않는다 (또 조용히 죽지 않도록)
-          if [ "$OK" -eq 0 ]; then
-            echo "❌ 이번 회차에 한 건도 처리하지 못했습니다."
+          echo "정상 처리 호출: $OK 회 / 종료사유: ${STOP:-정상완주}"
+          # ⚠️ 빨간불은 '진짜 문제'일 때만 띄운다.
+          #    한도 도달은 정상이다(첫 호출부터 한도면 OK=0 이어도 문제가 아니다).
+          #    그 외에 한 건도 처리 못 했으면 = 조용히 죽은 것 → 빨간불.
+          if [ "$OK" -eq 0 ] && [ "$STOP" != "한도도달" ]; then
+            echo "❌ 이번 회차에 한 건도 처리하지 못했습니다. (사유: ${STOP:-불명})"
             exit 1
           fi
 
