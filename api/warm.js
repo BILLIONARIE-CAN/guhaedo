@@ -171,6 +171,15 @@ function claimScore(cand, mine) {
 
 // ── 매칭 (trade.js 이식) ──
 function parsePrice(s) { return parseInt(String(s || '0').replace(/[^0-9]/g, '')) || 0; }
+// ── 해제(취소) · 재계약(갱신) 표식 ───────────────────────────────
+// ⚠️ 예전엔 해제된 거래를 매칭에서 통째로 버렸다(217행). 그래서 화면에 안 보였다.
+//    이제는 들고 와서 `x`(해제일) 플래그만 붙인다. 🔴 시세 계산에선 반드시 제외할 것.
+//    ⚠️ trade.js 에 같은 함수가 있다 — 고칠 때 반드시 동기화.
+function cxOf(x) {
+  if (!String(x.cdealType || '').trim()) return '';
+  return String(x.cdealDay || '').trim() || '1';
+}
+function rnOf(x) { return String(x.contractType || '').trim() === '갱신' ? 1 : 0; }
 function parseJibun(s) { const m = String(s || '').trim().match(/^산?(\d+)(?:-(\d+))?/); return m ? { bon: parseInt(m[1]), bu: m[2] != null ? parseInt(m[2]) : null } : null; }
 function jbCompat(a, b) { return !!(a && b && a.bon === b.bon && (a.bu == null || b.bu == null || a.bu === b.bu)); }
 const normalize = s => { let t = String(s || '').trim().replace(/[\s()（）·\-\/,，]/g, '').toUpperCase(); for (let i = 0; i < 2; i++) t = t.replace(/(아파트|APT|맨션|관리사무소|관리동)$/, ''); return t; };
@@ -214,7 +223,7 @@ function makeMatcher(rec) {
     return best <= mine;
   };
   return function (x) {
-    if ((x.cdealType || '').trim()) return false;
+    // 예전엔 여기서 해제 거래를 버렸다. 이제는 cxOf() 로 표식만 붙인다.
     if (!buildYearMatch(x)) return false;
     if (addrMatch(x) && claimedByMe(x)) return true;
     const n = normalize(x.aptNm); if (!n || !myName) return false;
@@ -363,11 +372,11 @@ module.exports = async (req, res) => {
       const rows = [];
       for (const rec of complexes) {
         const match = makeMatcher(rec);
-        const buy = bRaw.filter(match).map(x => ({ t: mapT(x), day: String(x.dealDay || '').trim(), p: parsePrice(x.dealAmount), a: parseFloat(x.excluUseAr || 0), f: String(x.floor || '').trim() }));
-        pRaw.filter(match).forEach(x => buy.push({ t: mapT(x), day: String(x.dealDay || '').trim(), p: parsePrice(x.dealAmount), a: parseFloat(x.excluUseAr || 0), f: String(x.floor || '').trim(), pre: String(x.ownershipGbn || '').trim().startsWith('입') ? '입' : '분' }));
+        const buy = bRaw.filter(match).map(x => ({ t: mapT(x), day: String(x.dealDay || '').trim(), p: parsePrice(x.dealAmount), a: parseFloat(x.excluUseAr || 0), f: String(x.floor || '').trim(), x: cxOf(x) }));
+        pRaw.filter(match).forEach(x => buy.push({ t: mapT(x), day: String(x.dealDay || '').trim(), p: parsePrice(x.dealAmount), a: parseFloat(x.excluUseAr || 0), f: String(x.floor || '').trim(), x: cxOf(x), pre: String(x.ownershipGbn || '').trim().startsWith('입') ? '입' : '분' }));
         const rents = rRaw.filter(match);
-        const jeonse = rents.filter(x => !parsePrice(x.monthlyRent)).map(x => ({ t: mapT(x), day: String(x.dealDay || '').trim(), p: parsePrice(x.deposit), a: parseFloat(x.excluUseAr || 0), f: String(x.floor || '').trim() }));
-        const monthly = rents.filter(x => parsePrice(x.monthlyRent) > 0).map(x => ({ t: mapT(x), day: String(x.dealDay || '').trim(), d: parsePrice(x.deposit), m: parsePrice(x.monthlyRent), a: parseFloat(x.excluUseAr || 0), f: String(x.floor || '').trim() }));
+        const jeonse = rents.filter(x => !parsePrice(x.monthlyRent)).map(x => ({ t: mapT(x), day: String(x.dealDay || '').trim(), p: parsePrice(x.deposit), a: parseFloat(x.excluUseAr || 0), f: String(x.floor || '').trim(), x: cxOf(x), r: rnOf(x) }));
+        const monthly = rents.filter(x => parsePrice(x.monthlyRent) > 0).map(x => ({ t: mapT(x), day: String(x.dealDay || '').trim(), d: parsePrice(x.deposit), m: parsePrice(x.monthlyRent), a: parseFloat(x.excluUseAr || 0), f: String(x.floor || '').trim(), x: cxOf(x), r: rnOf(x) }));
         if (buy.length || jeonse.length || monthly.length) {
           rows.push({ kapt_code: rec.code, ym, buy, jeonse, monthly, lawd_cd: lawd, apt_name: [rec.name, rec.dong, rec.jibun].join('|'), fetched_at: new Date().toISOString() });
         }
@@ -427,11 +436,11 @@ module.exports = async (req, res) => {
     const rows = [];
     for (const rec of complexes) {
       const match = makeMatcher(rec);
-      const buy = bRaw.filter(match).map(x => ({ t: mapT(x), day: String(x.dealDay || '').trim(), p: parsePrice(x.dealAmount), a: parseFloat(x.excluUseAr || 0), f: String(x.floor || '').trim() }));
-      pRaw.filter(match).forEach(x => buy.push({ t: mapT(x), day: String(x.dealDay || '').trim(), p: parsePrice(x.dealAmount), a: parseFloat(x.excluUseAr || 0), f: String(x.floor || '').trim(), pre: String(x.ownershipGbn || '').trim().startsWith('입') ? '입' : '분' }));
+      const buy = bRaw.filter(match).map(x => ({ t: mapT(x), day: String(x.dealDay || '').trim(), p: parsePrice(x.dealAmount), a: parseFloat(x.excluUseAr || 0), f: String(x.floor || '').trim(), x: cxOf(x) }));
+      pRaw.filter(match).forEach(x => buy.push({ t: mapT(x), day: String(x.dealDay || '').trim(), p: parsePrice(x.dealAmount), a: parseFloat(x.excluUseAr || 0), f: String(x.floor || '').trim(), x: cxOf(x), pre: String(x.ownershipGbn || '').trim().startsWith('입') ? '입' : '분' }));
       const rents = rRaw.filter(match);
-      const jeonse = rents.filter(x => !parsePrice(x.monthlyRent)).map(x => ({ t: mapT(x), day: String(x.dealDay || '').trim(), p: parsePrice(x.deposit), a: parseFloat(x.excluUseAr || 0), f: String(x.floor || '').trim() }));
-      const monthly = rents.filter(x => parsePrice(x.monthlyRent) > 0).map(x => ({ t: mapT(x), day: String(x.dealDay || '').trim(), d: parsePrice(x.deposit), m: parsePrice(x.monthlyRent), a: parseFloat(x.excluUseAr || 0), f: String(x.floor || '').trim() }));
+      const jeonse = rents.filter(x => !parsePrice(x.monthlyRent)).map(x => ({ t: mapT(x), day: String(x.dealDay || '').trim(), p: parsePrice(x.deposit), a: parseFloat(x.excluUseAr || 0), f: String(x.floor || '').trim(), x: cxOf(x), r: rnOf(x) }));
+      const monthly = rents.filter(x => parsePrice(x.monthlyRent) > 0).map(x => ({ t: mapT(x), day: String(x.dealDay || '').trim(), d: parsePrice(x.deposit), m: parsePrice(x.monthlyRent), a: parseFloat(x.excluUseAr || 0), f: String(x.floor || '').trim(), x: cxOf(x), r: rnOf(x) }));
       // 데이터 있는 단지만 저장 — 시(4자리) 형제코드 조회로 같은 단지가 여러 코드 태스크에 걸리므로, 빈 결과가 데이터를 덮어쓰지 않게 함
       if (buy.length || jeonse.length || monthly.length) {
         rows.push({ kapt_code: rec.code, ym, buy, jeonse, monthly, lawd_cd: lawd, apt_name: [rec.name, rec.dong, rec.jibun].join('|'), fetched_at: new Date().toISOString() });

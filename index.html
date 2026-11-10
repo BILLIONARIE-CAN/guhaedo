@@ -4667,6 +4667,7 @@ function renderTradeChart(){
 
   var scatter=[],monthSums={},monthCnts={},prices=[],monthBuckets={};
   items.forEach(function(x){
+    if(x.x)return;   // 🔴 취소(해제)된 거래는 차트·평균·시세 계산에서 제외
     var ym=x.t?x.t.substring(0,7):'';
     var label=ym.substring(0,4)+'.'+(ym.substring(5));
     var idx=TRADE_MONTHS.indexOf(label);
@@ -4838,12 +4839,13 @@ function renderTradeTable(){
   if(!raw)return;
   // 매매+전세+월세 전체 합산
   var all=[];
+  // x = 해제(취소)된 거래 — 값은 해제일. r = 재계약(갱신) 건.
   if(curTableTab==='all'||curTableTab==='buy')
-    (raw.buy||[]).forEach(function(x){all.push({type:'buy',t:x.t,day:x.day||'',p:x.p,a:x.a,f:x.f||'',pre:x.pre||''});});
+    (raw.buy||[]).forEach(function(x){all.push({type:'buy',t:x.t,day:x.day||'',p:x.p,a:x.a,f:x.f||'',pre:x.pre||'',x:x.x||'',r:0});});
   if(curTableTab==='all'||curTableTab==='jeonse')
-    (raw.jeonse||[]).forEach(function(x){all.push({type:'jeonse',t:x.t,day:x.day||'',p:x.p,a:x.a,f:x.f||x.floor||''});});
+    (raw.jeonse||[]).forEach(function(x){all.push({type:'jeonse',t:x.t,day:x.day||'',p:x.p,a:x.a,f:x.f||x.floor||'',x:x.x||'',r:x.r||0});});
   if(curTableTab==='all'||curTableTab==='monthly')
-    (raw.monthly||[]).forEach(function(x){all.push({type:'monthly',t:x.t,day:x.day||'',m:x.m,d:x.d||0,a:x.a,f:x.f||x.floor||''});});
+    (raw.monthly||[]).forEach(function(x){all.push({type:'monthly',t:x.t,day:x.day||'',m:x.m,d:x.d||0,a:x.a,f:x.f||x.floor||'',x:x.x||'',r:x.r||0});});
   all.sort(function(a,b){
     var ak=(a.t||'')+(a.day||'0').padStart(2,'0');
     var bk=(b.t||'')+(b.day||'0').padStart(2,'0');
@@ -4851,10 +4853,12 @@ function renderTradeTable(){
   });
 
   // 최고가 계산 (타입별)
+  // 🔴 취소된 거래는 최고가에서 반드시 뺀다.
+  //    높은 값에 신고했다 취소하는 식으로 호가를 올리는 경우가 있다.
   var maxBuy=0,maxJ=0,maxM=0;
-  (raw.buy||[]).forEach(function(x){if(x.p>maxBuy)maxBuy=x.p;});
-  (raw.jeonse||[]).forEach(function(x){if(x.p>maxJ)maxJ=x.p;});
-  (raw.monthly||[]).forEach(function(x){if(x.m>maxM)maxM=x.m;});
+  (raw.buy||[]).forEach(function(x){if(!x.x&&x.p>maxBuy)maxBuy=x.p;});
+  (raw.jeonse||[]).forEach(function(x){if(!x.x&&x.p>maxJ)maxJ=x.p;});
+  (raw.monthly||[]).forEach(function(x){if(!x.x&&x.m>maxM)maxM=x.m;});
 
   var typeColor={buy:'#e44',jeonse:'#378ADD',monthly:'#E29500'};
   var typeLabel={buy:'매매',jeonse:'전세',monthly:'월세'};
@@ -4888,10 +4892,20 @@ function renderTradeTable(){
       var dp=x.d>=10000?fmtPTable(x.d):(x.d.toLocaleString()+'만');
       infoHtml=badge+'<span style="color:'+col+';font-weight:700">'+lbl+' '+dp+'/'+x.m+'</span>';
     }
+    // 재계약(갱신) — 살던 세입자가 갱신한 건. 새로 구한 시세가 아니다.
+    if(x.r) infoHtml='<span style="border:1px solid #1D9E75;color:#1D9E75;font-size:9px;padding:1px 3px;border-radius:2px;margin-right:3px">재계약</span>'+infoHtml;
+    // 취소(해제) — 가운데 줄 + 회색 + 해제일. 예전엔 아예 안 보였다.
+    var rowStyle='border-bottom:1px solid rgba(0,0,0,0.04)';
+    if(x.x){
+      infoHtml='<span style="border:1px solid #9aa3ad;color:#9aa3ad;font-size:9px;padding:1px 3px;border-radius:2px;margin-right:3px">취소</span>'
+        +'<span style="color:#9aa3ad;font-weight:700;text-decoration:line-through;text-decoration-thickness:1.5px">'+lbl+' '+(x.type==='monthly'?((x.d>=10000?fmtPTable(x.d):(x.d.toLocaleString()+'만'))+'/'+x.m):fmtPTable(x.p))+'</span>'
+        +(x.x&&x.x!=='1'?'<span style="font-size:10px;color:#9aa3ad;margin-left:4px;white-space:nowrap">'+String(x.x).replace(/[^0-9.]/g,'')+' 해제</span>':'');
+      rowStyle+=';opacity:.78';
+    }
     var infoCell='<td style="padding:6px 4px">'+infoHtml+'</td>';
-    var areaCell='<td style="padding:6px 4px;text-align:right;color:var(--text2)">'+(x.a?parseFloat(x.a).toFixed(2)+'㎡':'-')+'</td>';
-    var floorCell='<td style="padding:6px 4px;text-align:right;color:var(--text2)">'+(x.f||'-')+'층</td>';
-    return '<tr style="border-bottom:1px solid rgba(0,0,0,0.04)">'+ymCell+dayCell+infoCell+areaCell+floorCell+'</tr>';
+    var areaCell='<td style="padding:6px 4px;text-align:right;color:'+(x.x?'#9aa3ad':'var(--text2)')+'">'+(x.a?parseFloat(x.a).toFixed(2)+'㎡':'-')+'</td>';
+    var floorCell='<td style="padding:6px 4px;text-align:right;color:'+(x.x?'#9aa3ad':'var(--text2)')+'">'+(x.f||'-')+'층</td>';
+    return '<tr style="'+rowStyle+'">'+ymCell+dayCell+infoCell+areaCell+floorCell+'</tr>';
   }).join('');
 }
 

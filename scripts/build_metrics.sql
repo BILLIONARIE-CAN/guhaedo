@@ -67,6 +67,7 @@ buys as (
   from apt_transactions t
   cross join lateral jsonb_array_elements(coalesce(t.buy,'[]'::jsonb)) as e
   where (e->>'pre') is null                       -- 일반매매만(분양권/입주권 제외)
+    and coalesce(e->>'x','') = ''                 -- 🔴 취소(해제)된 거래 제외 — 허위 신고가가 시세를 부풀린다
     and (e->>'a') is not null and (e->>'a')::numeric > 0
     and replace((e->>'t'),'-','')::int >= (select ym from cut)
 ),
@@ -116,7 +117,8 @@ jeon as (
          nullif(regexp_replace((e->>'day'),'[^0-9]','','g'),'')::int as d
   from apt_transactions t
   cross join lateral jsonb_array_elements(coalesce(t.jeonse,'[]'::jsonb)) as e
-  where (e->>'a') is not null and (e->>'a')::numeric > 0
+  where coalesce(e->>'x','') = ''                 -- 🔴 취소(해제)된 거래 제외
+    and (e->>'a') is not null and (e->>'a')::numeric > 0
     and replace((e->>'t'),'-','')::int >= (select ym from cut)
 ),
 repjeon as (
@@ -176,6 +178,7 @@ prev as (
   from apt_transactions t
   cross join lateral jsonb_array_elements(coalesce(t.buy,'[]'::jsonb)) as e
   where (e->>'pre') is null
+    and coalesce(e->>'x','') = ''                 -- 🔴 취소(해제)된 거래 제외 — 허위 신고가가 시세를 부풀린다
     and (e->>'a') is not null and (e->>'a')::numeric > 0
     and replace((e->>'t'),'-','')::int >= (select ym_from from win)
     and replace((e->>'t'),'-','')::int <  (select ym_to   from win)

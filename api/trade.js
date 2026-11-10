@@ -301,6 +301,18 @@ export default async function handler(req, res) {
     return Array.isArray(raw) ? raw : [raw];
   }
   function parsePrice(s) { return parseInt(String(s || '0').replace(/[^0-9]/g, '')) || 0; }
+  // ── 해제(취소) · 재계약(갱신) 표식 ───────────────────────────────
+  // ⚠️ 예전엔 해제된 거래를 aptMatch 에서 통째로 버렸다. 그래서 화면에 안 보였다.
+  //    이제는 들고 와서 `x`(해제일) 플래그만 붙인다 — 화면에서 줄 긋고 회색으로 보여주기 위함.
+  //    🔴 단, 평균가·최고가·시세 계산에선 반드시 제외할 것.
+  //       높은 값에 신고했다 취소하는 식으로 호가를 올리는 경우가 있다.
+  //    `x` 가 있으면 취소된 거래다. 값은 해제일(없으면 '1').
+  function cxOf(x) {
+    if (!String(x.cdealType || '').trim()) return '';
+    return String(x.cdealDay || '').trim() || '1';
+  }
+  // 전월세 계약구분: '갱신' = 살던 세입자가 재계약한 건(새로 구한 시세가 아님)
+  function rnOf(x) { return String(x.contractType || '').trim() === '갱신' ? 1 : 0; }
 
   // 준공년도 (프론트에서 전달 → 건축년도 크로스체크용)
   const builtYear = parseInt(req.query.builtYear || '0') || 0;
@@ -397,7 +409,7 @@ export default async function handler(req, res) {
   };
 
   function aptMatch(x) {
-    if ((x.cdealType || '').trim()) return false; // 계약 해제 제외
+    // 예전엔 여기서 해제 거래를 버렸다. 이제는 cxOf() 로 표식만 붙여 화면까지 보낸다.
     if (!buildYearMatch(x)) return false;
     // ① 주소(법정동+지번) 일치 — 단, 같은 지번을 쓰는 형제 단지가 있으면 단지명으로 가려낸다.
     //    여기서 걸러져도 아래 이름 매칭(②③)으로 한 번 더 기회를 준다.
@@ -465,11 +477,11 @@ export default async function handler(req, res) {
       ]);
       const mBuy = bRaw.filter(x => aptMatch(x)).map(x => ({
         t: mapT(x), day: String(x.dealDay||'').trim(), p: parsePrice(x.dealAmount),
-        a: parseFloat(x.excluUseAr||0), f: String(x.floor||'').trim()
+        a: parseFloat(x.excluUseAr||0), f: String(x.floor||'').trim(), x: cxOf(x)
       }));
       pRaw.filter(x => aptMatch(x)).forEach(x => {
         mBuy.push({ t: mapT(x), day: String(x.dealDay||'').trim(), p: parsePrice(x.dealAmount),
-          a: parseFloat(x.excluUseAr||0), f: String(x.floor||'').trim(),
+          a: parseFloat(x.excluUseAr||0), f: String(x.floor||'').trim(), x: cxOf(x),
           pre: String(x.ownershipGbn||'').trim().startsWith('입') ? '입' : '분' });
       });
       const rents = rRaw.filter(x => aptMatch(x));
@@ -478,11 +490,11 @@ export default async function handler(req, res) {
         buy: mBuy,
         jeonse: rents.filter(x => !parsePrice(x.monthlyRent)).map(x => ({
           t: mapT(x), day: String(x.dealDay||'').trim(), p: parsePrice(x.deposit),
-          a: parseFloat(x.excluUseAr||0), f: String(x.floor||'').trim()
+          a: parseFloat(x.excluUseAr||0), f: String(x.floor||'').trim(), x: cxOf(x), r: rnOf(x)
         })),
         monthly: rents.filter(x => parsePrice(x.monthlyRent) > 0).map(x => ({
           t: mapT(x), day: String(x.dealDay||'').trim(), d: parsePrice(x.deposit),
-          m: parsePrice(x.monthlyRent), a: parseFloat(x.excluUseAr||0), f: String(x.floor||'').trim()
+          m: parsePrice(x.monthlyRent), a: parseFloat(x.excluUseAr||0), f: String(x.floor||'').trim(), x: cxOf(x), r: rnOf(x)
         })),
         _err: errCore
       };
@@ -570,7 +582,7 @@ export default async function handler(req, res) {
   const buy = buyRaw.flat().filter(x => aptMatch(x)).map(x => ({
     t: `${parseInt(x.dealYear)}-${String(parseInt(x.dealMonth)||1).padStart(2,'0')}`,
     day: String(x.dealDay||'').trim(), p: parsePrice(x.dealAmount),
-    a: parseFloat(x.excluUseAr||0), f: String(x.floor||'').trim()
+    a: parseFloat(x.excluUseAr||0), f: String(x.floor||'').trim(), x: cxOf(x)
   }));
 
   // 분양권/입주권 전매 → 매매 시리즈에 병합 (pre: '분'|'입' 플래그로 구분)
@@ -579,7 +591,7 @@ export default async function handler(req, res) {
     buy.push({
       t: `${parseInt(x.dealYear)}-${String(parseInt(x.dealMonth)||1).padStart(2,'0')}`,
       day: String(x.dealDay||'').trim(), p: parsePrice(x.dealAmount),
-      a: parseFloat(x.excluUseAr||0), f: String(x.floor||'').trim(),
+      a: parseFloat(x.excluUseAr||0), f: String(x.floor||'').trim(), x: cxOf(x),
       pre: String(x.ownershipGbn||'').trim().startsWith('입') ? '입' : '분'
     });
   });
@@ -589,13 +601,13 @@ export default async function handler(req, res) {
   const jeonse = allRent.filter(x => !parsePrice(x.monthlyRent)).map(x => ({
     t: `${parseInt(x.dealYear)}-${String(parseInt(x.dealMonth)||1).padStart(2,'0')}`,
     day: String(x.dealDay||'').trim(), p: parsePrice(x.deposit),
-    a: parseFloat(x.excluUseAr||0), f: String(x.floor||'').trim()
+    a: parseFloat(x.excluUseAr||0), f: String(x.floor||'').trim(), x: cxOf(x), r: rnOf(x)
   }));
 
   const monthly = allRent.filter(x => parsePrice(x.monthlyRent) > 0).map(x => ({
     t: `${parseInt(x.dealYear)}-${String(parseInt(x.dealMonth)||1).padStart(2,'0')}`,
     day: String(x.dealDay||'').trim(), d: parsePrice(x.deposit),
-    m: parsePrice(x.monthlyRent), a: parseFloat(x.excluUseAr||0), f: String(x.floor||'').trim()
+    m: parsePrice(x.monthlyRent), a: parseFloat(x.excluUseAr||0), f: String(x.floor||'').trim(), x: cxOf(x), r: rnOf(x)
   }));
 
   // 매칭 0건 진단: 같은 법정동에 국토부가 등록해둔 단지명 후보 반환

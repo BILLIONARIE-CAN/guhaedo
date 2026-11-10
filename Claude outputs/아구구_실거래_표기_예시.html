@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>실거래 표기 예시</title>
+<style>
+  :root{
+    --bg:#f5f7fa; --card:#fff; --text1:#1a1a1a; --text2:#555; --text3:#999;
+    --border:#e5e7eb; --buy:#e44; --jeonse:#378ADD; --monthly:#E29500;
+    --cancel:#9aa3ad; --renew:#1D9E75;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#14171a; --card:#1e2227; --text1:#e8eaed; --text2:#b0b6bd; --text3:#7d848c;
+      --border:#2e343b; --cancel:#767d85;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#14171a; --card:#1e2227; --text1:#e8eaed; --text2:#b0b6bd; --text3:#7d848c;
+    --border:#2e343b; --cancel:#767d85;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:-apple-system,'Malgun Gothic','Apple SD Gothic Neo',sans-serif;
+       background:var(--bg);color:var(--text1);line-height:1.5;padding:16px}
+  .wrap{max-width:620px;margin:0 auto}
+  h1{font-size:19px;font-weight:800;margin-bottom:4px}
+  .sub{font-size:13px;color:var(--text2);margin-bottom:20px}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:12px;
+        padding:14px 14px 10px;margin-bottom:16px}
+  .card h2{font-size:14px;font-weight:800;margin-bottom:2px}
+  .card .note{font-size:12px;color:var(--text2);margin-bottom:10px}
+  table{width:100%;border-collapse:collapse;font-size:12px}
+  th{font-size:11px;color:var(--text3);font-weight:700;text-align:left;
+     padding:5px 4px;border-bottom:1px solid var(--border);white-space:nowrap}
+  td{padding:6px 4px;border-bottom:1px solid var(--border);vertical-align:top}
+  .ym{color:var(--text2);font-weight:600;white-space:nowrap}
+  .day{text-align:center;color:var(--text3)}
+  .amt{font-weight:700;white-space:nowrap}
+  .buy{color:var(--buy)} .jeonse{color:var(--jeonse)} .monthly{color:var(--monthly)}
+  .meta{text-align:right;color:var(--text2);white-space:nowrap}
+  .badge{font-size:9px;padding:1px 3px;border-radius:2px;margin-right:3px;
+         border:1px solid currentColor;white-space:nowrap}
+  .b-high{color:var(--buy)}
+  .b-renew{color:var(--renew)}
+  .b-cancel{color:var(--cancel)}
+  /* 취소된 거래 */
+  tr.cancelled td{color:var(--cancel)}
+  tr.cancelled .amt{color:var(--cancel);text-decoration:line-through;
+                    text-decoration-thickness:1.5px}
+  tr.cancelled .ym,tr.cancelled .day,tr.cancelled .meta{opacity:.75}
+  .cx{font-size:10px;color:var(--cancel);margin-left:4px;white-space:nowrap}
+  .legend{font-size:11.5px;color:var(--text2);margin-top:8px;line-height:1.9}
+  .legend b{color:var(--text1)}
+  .warn{background:#fff7ed;border:1.5px solid #e67e22;border-radius:10px;
+        padding:11px 13px;font-size:12.5px;line-height:1.8;color:#7a4a12}
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]) .warn{background:#2a1f12;color:#f0c38a;border-color:#a9661f}
+  }
+  .old{opacity:.55}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>실거래 표기 — 재계약 · 취소</h1>
+  <p class="sub">단지 상세 → 거래 내역 표에 어떻게 보일지 예시입니다. 숫자는 예시용입니다.</p>
+
+  <div class="card">
+    <h2>지금</h2>
+    <p class="note">취소된 거래는 아예 버려서 안 보이고, 재계약인지도 알 수 없습니다.</p>
+    <table class="old">
+      <tr><th>년월</th><th>일</th><th>거래</th><th class="meta">면적 · 층</th></tr>
+      <tr><td class="ym">26.10</td><td class="day">14</td>
+          <td><span class="amt buy">매매 8억 2,000만원</span></td>
+          <td class="meta">84㎡ · 12층</td></tr>
+      <tr><td></td><td class="day">7</td>
+          <td><span class="amt jeonse">전세 4억 5,000만원</span></td>
+          <td class="meta">84㎡ · 3층</td></tr>
+      <tr><td class="ym">26.09</td><td class="day">28</td>
+          <td><span class="amt jeonse">전세 4억 2,000만원</span></td>
+          <td class="meta">59㎡ · 9층</td></tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>바꾸면</h2>
+    <p class="note">취소는 가운데 줄 + 회색, 재계약은 초록 배지.</p>
+    <table>
+      <tr><th>년월</th><th>일</th><th>거래</th><th class="meta">면적 · 층</th></tr>
+
+      <tr><td class="ym">26.10</td><td class="day">14</td>
+          <td><span class="badge b-high">최고가</span><span class="amt buy">매매 8억 2,000만원</span></td>
+          <td class="meta">84㎡ · 12층</td></tr>
+
+      <tr class="cancelled"><td></td><td class="day">11</td>
+          <td><span class="badge b-cancel">취소</span><span class="amt">매매 9억 1,000만원</span><span class="cx">10.29 해제</span></td>
+          <td class="meta">84㎡ · 15층</td></tr>
+
+      <tr><td></td><td class="day">7</td>
+          <td><span class="badge b-renew">재계약</span><span class="amt jeonse">전세 4억 5,000만원</span></td>
+          <td class="meta">84㎡ · 3층</td></tr>
+
+      <tr><td class="ym">26.09</td><td class="day">28</td>
+          <td><span class="amt jeonse">전세 4억 2,000만원</span></td>
+          <td class="meta">59㎡ · 9층</td></tr>
+
+      <tr class="cancelled"><td></td><td class="day">19</td>
+          <td><span class="badge b-cancel">취소</span><span class="amt monthly">월세 1,000만/65</span><span class="cx">10.02 해제</span></td>
+          <td class="meta">59㎡ · 7층</td></tr>
+    </table>
+    <div class="legend">
+      <b>취소</b> — 신고 후 계약이 해제된 거래. 가운데 줄을 긋고 회색으로, 옆에 해제일.<br>
+      <b>재계약</b> — 살던 세입자가 계약을 갱신한 건. 새로 구한 집값이 아닙니다.
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>취소 표시 — 다른 안</h2>
+    <p class="note">회색이 약해 보이시면 빨간 쪽으로 갈 수 있습니다.</p>
+    <table>
+      <tr class="cancelled"><td class="ym">26.10</td><td class="day">11</td>
+          <td><span class="badge" style="color:#e44;border-color:#e44">취소</span><span class="amt" style="color:#c44;text-decoration:line-through;text-decoration-color:#e44">매매 9억 1,000만원</span><span class="cx" style="color:#c88">10.29 해제</span></td>
+          <td class="meta">84㎡ · 15층</td></tr>
+    </table>
+  </div>
+
+  <div class="warn">
+    <b>꼭 같이 해야 하는 것</b><br>
+    취소된 거래는 <b>보여주기만</b> 하고 평균가·최고가·시세 계산에선 빼야 합니다.
+    안 그러면 위 예시의 9억 1,000만원이 최고가로 잡혀 시세가 부풀려집니다.
+    (취소 신고가 이런 식으로 쓰이기도 합니다)
+  </div>
+
+</div>
+</body>
+</html>
